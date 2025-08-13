@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Feasibility of an Image-Based Mobile Health Protocol for Postoperative Wound Monitoring</title>
+				<funder ref="#_Aa9GBwb">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_9HFW8Tx">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-12-18">2019 December 18.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>MD, MS, Wisconsin</roleName><forename type="first">Rebecca</forename><forename type="middle">L</forename><surname>Gunter</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Sara</forename><surname>Fernandes-Taylor</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>BS</roleName><forename type="first">Shahrose</forename><surname>Rahman</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MPH</roleName><forename type="first">Lola</forename><surname>Awoyinka</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Kyla</forename><forename type="middle">M</forename><surname>Bennett</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD, FACS</roleName><forename type="first">Sharon</forename><forename type="middle">M</forename><surname>Weber</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD, MPH, FACS</roleName><forename type="first">Caprice</forename><forename type="middle">C</forename><surname>Greenberg</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD, FACS</roleName><forename type="first">Craig</forename><surname>Kent</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Awoyinka</roleName><forename type="first">Fernandes-Taylor</forename><surname>Gunter</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Bennett</forename><surname>Rahman</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Awoyinka</roleName><surname>Rahman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Weber</forename><surname>Bennett</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kent</forename><surname>Greenberg</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution" key="instit1">Wisconsin Institute of Surgical Outcomes Research</orgName>
+								<orgName type="institution" key="instit2">University of Wisconsin</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Institute of Surgical Outcomes Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Clinical Science Center</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<addrLine>K6/117F, 600 Highland Ave</addrLine>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Feasibility of an Image-Based Mobile Health Protocol for Postoperative Wound Monitoring</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-12-18">2019 December 18.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F63F7FEE7FEB9C0F8D50B90F061D908D</idno>
+					<idno type="DOI">10.1016/j.jamcollsurg.2017.12.013</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>BACKGROUND: Surgical site infection (SSI) is the most common nosocomial infection and the leading cause of readmission among surgical patients. Many SSIs develop in the postdischarge period and are inadequately recognized by patients. To address this, we developed a mobile health protocol of remote wound monitoring using smartphone technology. The current study aims to establish its feasibility among patients and providers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STUDY DESIGN:</head><p>We enrolled vascular surgery patients during their inpatient stay. They were trained to use our mobile health application, which allowed them to transmit digital images of their surgical wound and answer a survey about their recovery. After hospital discharge, participants completed the application daily for 2 weeks. Providers on the inpatient team reviewed submissions daily and contacted patients for concerning findings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS:</head><p>Forty participants were enrolled. Forty-five percent of participants submitted data every day for 2 weeks, with an overall submission rate of 90.2%. Submissions were reviewed within an average of 9.7 hours of submission, with 91.9% of submissions reviewed within 24 hours. We detected 7 wound complications with 1 false negative. Participant and provider satisfaction was universally high.</p><p>CONCLUSIONS: Patients and their caregivers are willing to participate in a mobile health program aimed at remote monitoring of postoperative recovery, and they are able to complete it with a high level of fidelity and satisfaction. Preliminary results indicate the ability to detect and intervene on wound complications.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Surgical site infections (SSI) are the most common hospital-acquired infections among surgical patients and the leading cause of hospital readmission after surgery. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> They are also the costliest hospital-acquired infection, with estimates ranging from $3 billion to $10 billion annually. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> As postoperative lengths of stay decrease, these infections increasingly develop between hospital discharge and routinely scheduled clinic follow-up visits. <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> However, patients cannot identify these complications and frequently ignore or fail to recognize the early signs of cellulitis or other wound complications. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> This leads to the common and frustrating scenario in which patients present to a routine, scheduled clinic appointment with an advanced wound complication that requires readmission with or without reoperation, but that might have been amenable to outpatient management if detected earlier.</p><p>To address this gap, particularly in light of recent hospital readmission reduction policy mandates, <ref type="bibr" target="#b10">11</ref> initial efforts have explored the use of technology (ie telemedicine) as an adjunct in the postdischarge period for continued postoperative care. <ref type="bibr" target="#b11">12</ref> These efforts are reinforced by a parallel increase in patients' smartphone ownership and experience, which allows communication with providers from anywhere via secure connections. In addition, smartphones permit easy generation and sharing of images, which can allow surgical care providers to visually inspect wounds from a distance.</p><p>However, existing research on telemedicine protocols is limited in several ways. Many studies include only patient populations with a low baseline rate of complications and are underpowered to demonstrate telemedicine effectiveness. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> Also, novice users and patients who do not have the necessary technology (eg Internet, computer, smartphone) are often excluded, creating disparities in access and a biased evidence base. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> Finally, studies rarely include image-based evaluation and are not typically rigorously user-tested before deployment.</p><p>To address this gap, we developed, pilot tested, and preliminarily evaluated a postoperative wound monitoring protocol using smartphone images in vascular surgery patients at a tertiary care academic facility. Vascular surgery patients have a uniquely high SSI risk, given their compromised tissue perfusion and common comorbidities that inhibit wound healing, such as smoking, obesity, and diabetes, <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b16">17</ref> making them a high-value target for telemedicine that involves wound monitoring. Earlier work from our group and others has established patient enthusiasm for the protocol and widespread willingness to participate. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> We have established that smartphone digital images can be used to make diagnostic and therapeutic decisions comparable with those made via in-person evaluation. <ref type="bibr" target="#b19">20</ref> We then rigorously usertested our application (app) to optimize its accessibility with our largely novice target patient population. <ref type="bibr" target="#b20">21</ref> The aim of the current study was to demonstrate the feasibility of the protocol for patients, their caregivers, and inpatient clinical staff.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study sample</head><p>We recruited English-speaking inpatients 18 years of age or older on the vascular surgery service at a large, academic tertiary care hospital between June 8, 2016 and November 15, 2016. Eligible patients had a surgical incision longer than 3 cm and no identifying marks (eg tattoos) in the area of the incision. Patients with major cognitive or neurologic deficits that prohibited their independent participation were eligible if they had a caregiver to serve as their proxy. To complete enrollment and protocol training, patients needed to be in the hospital for at least 2 days after giving consent. This excluded most patients who underwent carotid operations, as these patients typically leave the day after operation at our institution. Subjects who met inclusion criteria were consecutively approached to participate. We recorded stated reasons for declining participation.</p><p>Patients who consented to participate provided information about their earlier smartphone familiarity, including whether they owned a smartphone and whether they had ever used a smartphone to take a picture.</p><p>The University of Wisconsin Health Sciences IRB approved the study protocol. The full protocol has been published previously. <ref type="bibr" target="#b21">22</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intervention</head><p>WoundCheck is a Health Insurance Portability and Accountability Act of 1996-compliant, internally developed, and user-tested iOS app that enables patients to transmit daily surgical wound images and symptom information from their home or post-acute care facility to a clinician involved with the inpatient vascular surgery service, either a nurse practitioner or a physician member of the research team (Fig. <ref type="figure" target="#fig_0">1</ref>). <ref type="bibr" target="#b20">21</ref> There are 2 phases of the app: an imagetaking phase in which participants take up to 4 digital images of their surgical wound, and a brief survey of yes or no questions about recovery, with particular attention paid to the surgical wound. Survey questions were developed based on earlier work from our group validating smartphone digital images for postoperative wound monitoring and were designed to capture information not as easily appreciated from images, such as drainage and odor. <ref type="bibr" target="#b19">20</ref> Submission of data happens automatically on app completion.</p><p>During the postoperative inpatient stay, participants underwent tailored training to learn to use the Wound-Check app. Novice smartphone users received additional dedicated training to become comfortable navigating the iPhone. We measured in minutes the amount of time required to complete training. After training, participants or their caregiver completed the System Usability Scale, a validated scale to measure the ease of use for technology platforms, to evaluate their comfort with the app. At the completion of training, participants received an iPhone 5S, as well as an accompanying visual reference guide for participants who needed additional reminders about how to use the phone and app. This device was theirs to keep at the conclusion of the study. Each device cost $0.99 with an associated data plan of $41.56/month. Reference guides cost $9 per participant, bringing the total material cost per participant to $51.55.</p><p>On the day of discharge, participants underwent a reminder training session, during which they completed the app to provide baseline information. After discharge, they were asked to complete the app and transmit data daily for 14 days. They were encouraged to choose a well-lit place in their home and to use the app in that location each day at roughly the same time of day, to provide consistent light for ease of comparison. Research personnel called participants at the following time points: if they missed a day of submission; if their images were insufficient for review; at 6 days after discharge to provide technical support, answer any questions, and ensure continued consent; and at the completion of the protocol to obtain final feedback and complete an exit survey.</p><p>Each afternoon, a clinician on the inpatient vascular surgery service (a nurse practitioner or a physician member of the research team) reviewed submitted images and survey responses and filled out a validated checklist documenting the appearance of the surgical wound, using an internally developed review interface. <ref type="bibr" target="#b19">20</ref> Nurse practitioners were chosen for this role because they were familiar with participants during their inpatient stay before discharge and were determined to be best able to provide continuity of care. If the nurse practitioner detected concerning findings on image review or in survey responses, they called the participant to obtain additional information and make recommendations for additional care as indicated, which could include returning to the clinic or hospital. If nurse practitioners were unable to review submissions due to time constraints, a physician member of the research team reviewed submissions the following morning. At the time of this study, there was no inpatient nurse practitioner coverage on the weekend; this same physician member of the research team completed submission reviews during the weekend.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measures</head><p>The primary end points of this pilot trial were participant adherence to and satisfaction with the protocol and the burden of the protocol on clinician workflow. Measures of participant adherence included the percent of participants who submitted data daily without requiring a reminder phone call, and the number of days missed among participants who missed at least 1 day of submission. Participant satisfaction was measured via semi-structured interviews at study completion with all participants. The burden to clinician workflow was measured by the amount of time required to review images. Additionally, semi-structured interviews with each nurse practitioner evaluated provider buy-in and satisfaction.</p><p>Secondary outcomes included surgical site infection (SSI) detection and hospital readmission. Surgical site infections detected by the protocol, the postdischarge day of detection, and the clinical response were recorded. Surgical site infections not detected by the protocol were also tracked. Patient self-report during the exit survey, as well as chart review from our institution, provided information about hospital readmission. A surgeon member of the research team performed manual abstraction of data from the medical record to collect wound complications and hospital readmissions. Participants were followed for the 30 days after hospital discharge from their index admission.</p><p>The study was registered at Clinicaltrials.gov on April 1, 2016 ().</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient characteristics</head><p>Between June 6 and November 15, 2016, one hundred and forty-one patients were screened, 69 of which were approached for participation. Nine of these were unable to complete the protocol independently and had no caregiver to assist. Of 60 eligible patients, 47 patients (78%) were enrolled (Fig. <ref type="figure" target="#fig_1">2</ref>). Stated reasons for declining to participate included being overwhelmed with postoperative care, being uninterested in learning new technology, and hesitation about participating in research. Five participants withdrew consent, in each instance due to the patient or their caregiver being overwhelmed with the other aspects of their recovery and not wanting to perform another task. Two protocol violations occurred: 1 related to incorrect training by a research personnel and 1 due to an irreparable device failure.</p><p>Of the 40 participants who were fully enrolled and completed the 14-day protocol, the majority were male and white (Table <ref type="table" target="#tab_0">1</ref>), which is consistent with the vascular surgery patient population at our institution. Twenty-two (55%) participants traveled more than 50 miles to receive care at our institution, and participants were not scheduled for routine follow-up until an average of 2 weeks after hospital discharge. The majority of participants had a caregiver to assist them (Table <ref type="table" target="#tab_0">1</ref>). In 32.5% of cases, neither the patient nor their caregiver, if they had one, had experience with smartphone technology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Training and protocol completion</head><p>Training participants to use the device and complete the WoundCheck app required an average of 16.9 minutes (Table <ref type="table">2</ref>). Participants found the app very user-friendly, with an average System Usability Scale score of 87.2 (scored out of 100; scores higher than 68 are considered above average by industry standards).</p><p>Forty-five percent of participants (18 of 40) submitted data every day for the full 2 weeks (Table <ref type="table">2</ref>). Those that did not missed an average of 1.4 days, giving an overall daily submission rate of 90.2% (505 of 560 days, given 40 participants submitting data for 14 days). Of the 55 missed days, 6 (10.9%) were on the first day, 9 (16.4%) were on the last day, and 17 (30.9%) were during a weekend.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical service line integration</head><p>On average, nurse practitioners reviewed submitted data 580.5 minutes (mean 9.7 hours, median 7.1 hours) after submission (Table <ref type="table">2</ref>). Of the 160 days that participants submitted data, 139 (86.9%) were reviewed per protocol by a nurse practitioner; a physician member of the research team reviewed submissions on the remaining days; 91.9% of submissions (464 of 505) were reviewed within 24 hours.</p><p>When interviewed, the nurse practitioners were positive about the protocol, saying that "the patients who participated…seemed enthusiastic about it," "the pictures were helpful," and "I really think there's a lot of merit to these pictures." However, they struggled to find time in their day that was required to do submission review, in addition to the clinical work they were already doing for the inpatient service.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participant satisfaction</head><p>Participants were universally positive in their exit interviews. Common themes from the exit interviews included feeling more secure knowing that a provider was monitoring their wound, avoiding unnecessary travel to be evaluated, and finding the app easy to use. Six participants wished there had been a free text or comment section to add more detail to their survey responses beyond yes or no, or to ask a question about the appearance of the wound. Four participants had difficulty submitting data due to poor cell service. One participant suggested adding a mechanism to notify patients that their submissions had been reviewed by a provider, and a record of past submissions so they could be sure their data had been transmitted successfully.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical outcomes</head><p>There were a total of 8 SSIs in the patient cohort, 7 of which were detected using images and survey responses from our app (Table <ref type="table">3</ref>). There were no false positives. There was one false negative in a patient whose infection was detected at an early follow-up visit on postdischarge day 5; the corresponding image from that day did not demonstrate an obvious infection. Of the 7 patients diagnosed by our protocol, 6 had their infections successfully managed as outpatients. In 4 cases, patients were brought back to clinic and were successfully treated far in advance of their regularly scheduled follow-up. Two of the 6 were readmitted, but for reasons unrelated to their SSI. One patient fell on his amputation stump several days after we detected and treated his SSI, and he returned to the operating room for a traumatic wound dehiscence, not for his SSI. Another patient had been readmitted on postdischarge day 2 to an outside facility due to respiratory failure, and he and his caregiver continued to submit images. He developed peri-incisional erythema around his groin incision on postdischarge day 15, and our vascular surgeons spoke with the inpatient team at the other facility to coordinate appropriate wound care and an antibiotic regimen. The final patient had early detection of their SSI, but their case is perhaps an illustration that not all readmissions for SSI are preventable. This patient's SSI was detected by the protocol, and he was sent to the emergency department where he received appropriate antibiotic therapy. However, the SSI did not completely resolve with this regimen, and he required operative management and IV antibiotics in an inpatient setting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Traditional care of surgical patients in the postdischarge period involves little contact between patients and providers in the period between hospital discharge and routine clinic follow-up. This period is one during which patients are at significant risk of complications developing, SSI chief among them, that increase their likelihood of hospital readmission. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b22">23</ref> Importantly, among vascular surgery patients, SSIs are up to 5 times more likely to occur after discharge than before discharge, making patients particularly vulnerable post discharge. <ref type="bibr" target="#b23">24</ref> However, patients often cannot recognize the onset of these complications early enough to facilitate outpatient management, given their lack of clinical experience and their reported feeling of being overwhelmed in assuming self-care after discharge. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b17">18</ref> As complex surgical care is increasingly regionalized, patients often must travel great distance to see their operating surgeon when they are already ill-equipped to self-diagnose postoperative complications, creating the potential for additional delays in care. <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> More than half of participants in our study traveled more than 50 miles to receive care at our institution, a significant barrier to seeking care outside of scheduled visits. Indeed, participants frequently asked whether they could wait for their scheduled clinic visits when we called them about concerning findings detected by our protocol. Many expressed in their exit interview that a benefit of participation was reducing unnecessary clinic visits. Their responses generally indicated a reluctance to travel unless absolutely necessary.</p><p>Due to the vulnerability of the postdischarge period, the distance patients must travel for care, and hospital readmission reduction mandates, several telemedicine protocols have been developed to improve the care of patients in the outpatient setting after hospital discharge. These protocols harness the recent explosion in personal technology that allows for delivery of care remotely, which was not possible only a few years ago. However, many of them set out to replace in-person follow-up, which alleviates the burden associated with traveling long distances, but does not substantively increase the likelihood of detecting or intervening on complications at an earlier date. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> We developed WoundCheck, through collaboration with our community partners, and rigorously user-tested it, to address this gap in existing mobile health platforms. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b20">21</ref> In this study, we demonstrated the feasibility of this protocol of continual monitoring of postoperative recovery in the postdischarge period among vascular surgery patients using smartphones. We have demonstrated that a population of complex and high-risk patients, many of whom are older adults and novice smartphone users, can complete this protocol with high fidelity and satisfaction.</p><p>Our protocol and those like it allow patients to be in better communication with their provider, which patients have consistently identified as a priority. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> On completion of the protocol, participant satisfaction was near universal. They repeatedly stated feelings of reassurance that we were monitoring their recovery and that they were not solely responsible for detecting a problem and alerting the care team. They also reiterated how simple it was to complete the app, which was further evidenced in their high scores on the System Usability Scale at the time of training. Other studies of mobile health protocols in the postdischarge period have demonstrated widespread enthusiasm and satisfaction from participants, reinforcing their appeal to a majority of surgical patients. <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32</ref> Our provider team was also enthusiastic about the protocol, although they found it placed an additional strain on their already full clinical responsibilities. The concerns about program sustainability raised by the nurse practitioners echo findings from similar work done examining implementation of readmission reduction programs. Many of the programs proven effective have involved dedicated transition coordinators in the pre-and postdischarge periods. <ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref> These programs highlight the significant additional work required to optimize transitions of care. To be successful, one cannot simply add this work to already burdened staff. However, none of these protocols has leveraged smartphone technology to transmit visual information, which is of vital importance for preventing readmissions among surgical patients, given the high frequency of readmissions attributed to wound complications. <ref type="bibr" target="#b0">1</ref> Our protocol of postdischarge wound monitoring provides valuable information not otherwise available to providers, but we readily recognize that its success and sustainability depend on integration into dedicated transitional care programs.</p><p>Although this study was not designed to evaluate efficacy, our findings about clinical outcomes related to this protocol were quite encouraging. The protocol appeared to be effective in the early detection of wound complications, allowing earlier treatment and potentially preventing hospital readmission and reoperation. These results might represent a marked improvement over current standard of care. At a per-user cost of $51.55, this protocol could yield significant cost savings, if successful at reducing hospital readmissions and other resource-intensive therapies for SSI, given an average wound-related readmission cost of nearly $30,000. <ref type="bibr" target="#b36">37</ref> Larger, randomized studies with a control group are necessary to perform robust cost-effectiveness analyses to support these hypotheses, although similar results from other research groups are encouraging about the use and effectiveness of mobile health protocols in the postdischarge care of surgical patients. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b31">32</ref> An important component of our protocol was the provision of smartphones to all participants. In line with the NIH American College of Surgeons summit on surgical disparities research, one of our priorities was to not create disparities of access based on smartphone ownership. <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39</ref> This sets our program apart, as many existing mobile health protocols rely on participants' ownership of and familiarity with the technology involved. <ref type="bibr" target="#b11">12</ref> Had we adopted this strategy, 32.5% of our participants would have been excluded. Future mobile health protocols should consider the availability of the required technology among their patient population and make every effort to ensure that this does not exclude the very patients who stand to benefit the most. Importantly, novice users learned to use the device and the app with little difficulty and completed the protocol as effectively as those participants who had experience with smartphone technology. This indicates that novice users are capable of participating in mobile health protocols with relatively little investment.</p><p>The app used in the protocol, WoundCheck, is iOS-compatible, but not Android-compatible. We did this because iOS apps are usually backwards compatible with older models of iPhone (which have the added advantage of a relatively consistent shape and layout), but this is less consistently true with Android apps. <ref type="bibr" target="#b39">40</ref> For the purposes of the current study, we provided iPhones for participants to use, but future iterations of the protocol would ideally use participants' devices, if they have them, and, as such, should be compatible across operating systems. Not only would this preclude participants who have Android devices from needing to learn another platform, it would improve accessibility of the protocol to Android device owners. This is crucial for wide accessibility, particularly because individuals with lower income and lower educational attainment are more likely to own an Android device. <ref type="bibr" target="#b40">41</ref> This study has several limitations. We performed this study on a small sample of a relatively homogeneous patient population, which potentially limits its generalizability. Of particular note is the fact that nearly all participants were white, and there are few data on its effectiveness in patients of darker skin tones. However, although many existing mobile health protocols for post-discharge care have confirmed their feasibility in low-risk populations, most of whom have experience with the technology involved, we have demonstrated that a population of high-risk patients, many of whom are novice users, are also capable of participating in a mobile health protocol with high fidelity. This is an important addition to the growing body of literature about mobile health technology for postdischarge care of surgical patients. In future studies, we plan to include a diverse patient population in terms of baseline postoperative complication risk, sociodemographics, and familiarity with the necessary technology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>In this study, we have demonstrated that patients and providers can complete an image-based smartphone protocol for continued postdischarge monitoring of postoperative recovery with a high level of fidelity and satisfaction. Additionally, we have provided compelling evidence of this protocol's potential clinical effectiveness in diagnosing and treating wound complications earlier than the current standard of care, which involves little patient contact between hospital discharge and clinic follow-up.   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. WoundCheck application screenshots. (A, B, C) The first step is the image-taking portion of the app, with the ability to review captured images and add images as necessary. (D) The image-taking portion is followed by a series of yes or no questions about recovery, with particular focus on the wound. (E) Participants can review and change their responses before submitting their data. (F) They receive a confirmation of submission and are given the number to the clinic if they have concerns. Wound image from Shutterstock.</figDesc><graphic coords="12,150.00,62.00,372.00,468.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Enrollment diagram.</figDesc><graphic coords="13,120.15,62.00,431.70,342.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Demographic Characteristics of Study Participants, Their Method of Participation, and Their Previous Experience with Smartphones</figDesc><table><row><cell>Characteristic</cell><cell>Data</cell></row><row><cell>Male, n (%)</cell><cell>30 (75.0)</cell></row><row><cell>Age, y, median (range)</cell><cell>63 (35-89)</cell></row><row><cell>White, n (%)</cell><cell>39 (97.5)</cell></row><row><cell>No. of incisions, median (range)</cell><cell>1 (1-7)</cell></row><row><cell>Incision site, n (%)</cell><cell></cell></row><row><cell>Groin</cell><cell>19 (47.5)</cell></row><row><cell>Abdomen</cell><cell>16 (40.0)</cell></row><row><cell>Lower extremity</cell><cell>10 (25.0)</cell></row><row><cell>Amputation stump</cell><cell>6 (15.0)</cell></row><row><cell>No. of days until scheduled follow-up,</cell><cell></cell></row><row><cell>median (range)</cell><cell>14 (5-52)</cell></row><row><cell>Distance from home to hospital, mi,</cell><cell></cell></row><row><cell>median (range)</cell><cell>61.4 (7.2-1,661)</cell></row><row><cell>Method of participation, n (%)</cell><cell></cell></row><row><cell>Caregiver</cell><cell>30 (75)</cell></row><row><cell>Independent</cell><cell>10 (25)</cell></row><row><cell>Smartphone familiarity, n (%)</cell><cell></cell></row><row><cell>Participant/caregiver pair</cell><cell></cell></row><row><cell>Neither has experience</cell><cell>11 (37)</cell></row><row><cell>Only caregiver has experience</cell><cell>4 (13)</cell></row><row><cell>Both have experience</cell><cell>14 (47)</cell></row><row><cell>Only patient has experience</cell><cell>1 (3)</cell></row><row><cell>Independent participant</cell><cell></cell></row><row><cell>Experience</cell><cell>8 (80)</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>J Am Coll Surg. Author manuscript; available in PMC 2019 December 18.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p><ref type="bibr" target="#b19">(20)</ref> J Am Coll Surg. Author manuscript; available in PMC 2019 December 18.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgment:</head><p>The authors thank the nurse practitioners on the <rs type="institution">University of Wisconsin</rs> inpatient vascular surgery service, <rs type="person">Lauren Dallman</rs>, <rs type="person">Mary Randel</rs>, and <rs type="person">Molly Szotkowski</rs>. The authors also thank <rs type="person">Chad Schroeder</rs>, <rs type="person">Don McDermott</rs>, <rs type="person">Richard Nelson</rs>, and the <rs type="institution">Department of Surgery IT Division</rs> for their assistance in developing <rs type="person">Wound-Check</rs> and providing technical support during this trial. Support: <rs type="person">Dr Gunter</rs> is supported by <rs type="funder">NIH</rs> <rs type="grantNumber">T32 HL110853</rs>.</p><p>Support for this study: <rs type="grantNumber">AHRQ R21 HS023395</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_9HFW8Tx">
+					<idno type="grant-number">T32 HL110853</idno>
+				</org>
+				<org type="funding" xml:id="_Aa9GBwb">
+					<idno type="grant-number">AHRQ R21 HS023395</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Manuscript</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,153.38,375.76,363.66,8.10;9,160.00,386.76,287.05,8.10" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">General and vascular surgery readmissions: a systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Wiseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Guzman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fernandes-Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Surg</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="page" from="552" to="569" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 25067801</note>
+</biblStruct>
+
+<biblStruct coords="9,153.38,399.76,360.32,8.10;9,160.00,410.76,360.56,8.10;9,160.00,421.76,351.23,8.10" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Completeness of surveillance data reported by the National Healthcare Safety Network: an analysis of healthcare-associated infections ascertained in a tertiary care hospital</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Sickbert-Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Control Hosp Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="94" to="96" />
+			<date type="published" when="2010">2010. 2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22173531</note>
+</biblStruct>
+
+<biblStruct coords="9,153.38,434.76,334.53,8.10;9,160.00,445.76,345.15,8.10;9,160.00,456.76,99.75,8.10" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Assessing the relative burden of hospital-acquired infections in a network of community hospitals</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Moehring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Control Hosp Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1229" to="1230" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24113613</note>
+</biblStruct>
+
+<biblStruct coords="9,153.38,469.76,356.83,8.10;9,160.00,480.76,352.99,8.10;9,160.00,491.76,77.25,8.10" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Health care associated infections: a meta-analysis of costs and financial impact on the US health care system</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zimlichman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tamir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="2039" to="2046" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23999949</note>
+</biblStruct>
+
+<biblStruct coords="9,153.38,504.76,351.82,8.10;9,160.00,515.76,357.81,8.10;9,160.00,526.76,347.37,8.10;9,160.00,537.76,115.97,8.10" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The direct medical costs of healthcare-associated infections in US hospitals and the benefits of prevention</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ii</surname></persName>
+		</author>
+		<ptr target="https://www.cdc.gov/hai/pdfs/hai/scott_costpaper.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Centers for Disease Control and Prevention</title>
+		<imprint>
+			<date type="published" when="2009-03">March 2009 Accessed January 4, 2017</date>
+		</imprint>
+	</monogr>
+	<note>Division of Health-care Quality Promotion</note>
+</biblStruct>
+
+<biblStruct coords="9,153.38,550.76,322.19,8.10;9,160.00,561.76,341.79,8.10" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The relationship between timing of surgical complications and hospital readmission</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deierhoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Richman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Surg</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="348" to="354" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24522747</note>
+</biblStruct>
+
+<biblStruct coords="9,153.38,574.76,338.90,8.10;9,160.00,585.76,354.75,8.10;9,160.00,596.76,77.25,8.10" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Predictors of surgical site infection after hospital discharge in patients undergoing major vascular surgery</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Wiseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fernandes-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Barnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1023" to="1031" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 26143662</note>
+</biblStruct>
+
+<biblStruct coords="9,153.38,609.76,353.45,8.10;9,160.00,620.76,298.40,8.10" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Discharge after discharge: predicting surgical site infections after patients leave hospital</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Daneman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Redelmeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hosp Infect</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="188" to="194" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20435375</note>
+</biblStruct>
+
+<biblStruct coords="9,153.38,633.76,351.74,8.10;9,160.00,644.76,351.95,8.10" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Post-discharge surgical site surveillance: does patient education improve reliability of diagnosis?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Whitby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-L</forename><surname>Mclaws</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Doidge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hosp Infect</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page">17582652</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,157.50,657.76,339.44,8.10;9,165.00,668.76,328.72,8.10" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Post-discharge surveillance: can patients reliably diagnose surgical wound infections?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Whitby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-L</forename><surname>Mclaws</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Collopy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hosp Infect</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="155" to="160" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 12419265</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,62.75,360.26,8.10;10,165.00,73.75,342.69,8.10;10,165.00,84.75,178.44,8.10" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Medicare Hospital Readmissions Reduction Program</title>
+		<author>
+			<persName><forename type="first">James J Health Policy</forename><surname>Brief</surname></persName>
+		</author>
+		<ptr target="http://www.healthaffairs.org/healthpolicybriefs/brief.php?brief_id=102" />
+	</analytic>
+	<monogr>
+		<title level="j">Published November</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2013-02-15">2013 Accessed February 15, 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,157.50,97.75,360.81,8.10;10,165.00,108.75,332.87,8.10" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Current use of telemedicine for post-discharge surgical care: a systematic review</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Gunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chouinard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fernandes-Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Surg</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<biblScope unit="page" from="915" to="927" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 27016900</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,121.75,363.30,8.10;10,165.00,132.75,290.54,8.10" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Telehealth follow-up in lieu of postoperative clinic visit for ambulatory surgery: results of a pilot program</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Wren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Surg</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page" from="823" to="827" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23842982</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,145.75,349.82,8.10;10,165.00,156.75,304.52,8.10" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Telephone follow-up by a midlevel provider after laparoscopic inguinal hernia repair instead of face-to-face clinic visit</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Eisenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Wren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JSLS</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<date type="published" when="2015">2015. 201400205</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,157.50,169.75,358.09,8.10;10,165.00,180.75,327.99,8.10;10,165.00,191.75,77.25,8.10" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Efficiency, satisfaction, and costs for remote video visits following radical prostatectomy: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Viers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lightner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Rivera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Urol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="729" to="735" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 25900782</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,204.75,355.08,8.10;10,165.00,215.75,312.15,8.10" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effectiveness of telemedical applications in postoperative follow-up after total joint arthroplasty</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sharareh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schwarzkopf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="918" to="922" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24342278</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,228.75,353.97,8.10;10,165.00,239.75,149.75,8.10" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Surgical wound infections after peripheral vascular surgery</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Turtiainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hakala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Surg</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="226" to="231" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24737857</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,252.75,328.38,8.10;10,165.00,263.75,322.41,8.10;10,165.00,274.75,77.25,8.10" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Patient perspectives on post-discharge surgical site infections: towards a patient-centered mobile health solution</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Sanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hartzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2014">2014. 114016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 25436912</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,287.75,359.71,8.10;10,165.00,298.75,310.64,8.10;10,165.00,309.75,149.75,8.10" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Conceptualizing smartphone use in outpatient wound assessment: patients&apos; and caregivers&apos; willingness to use technology</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Wiseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fernandes-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Barnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Surg Res</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page" from="245" to="251" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 26025626</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,322.75,363.52,8.10;10,165.00,333.75,355.62,8.10;10,165.00,344.75,212.50,8.10" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Inter-rater agreement and checklist validation for postoperative wound assessment using smartphone images in vascular surgery</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Wiseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fernandes-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg Venous Lymphat Disord</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="320" to="328" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 27318052</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,357.75,348.16,8.10;10,165.00,368.75,350.26,8.10;10,165.00,379.75,47.25,8.10" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Evaluating patient usability of an image-based mobile health platform for postoperative wound monitoring</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fernandes-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahnke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Internet Res Mhealth Uhealth</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">113</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,157.50,392.75,359.74,8.10;10,165.00,403.75,344.03,8.10;10,165.00,414.75,148.00,8.10" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Feasibility of implementing a patient-centered postoperative wound monitoring program using smartphone images: a pilot protocol</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fernandes-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Gunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Bennett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Res Protoc</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">e26</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 28228369</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,427.75,330.91,8.10;10,165.00,438.75,336.71,8.10" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Postdischarge complications are an important predictor of postoperative readmissions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Tevis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Kohlnhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Weber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Surg</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page" from="505" to="510" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 25150195</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,451.75,363.08,8.10;10,165.00,462.75,356.56,8.10;10,165.00,473.75,154.25,8.10" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Risk factors for readmission after lower extremity bypass in the American College of Surgeons National Surgery Quality Improvement Program</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Curran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Mccallum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1331" to="1339" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24491239</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,486.75,354.55,8.10;10,165.00,497.75,285.32,8.10" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Does travel distance influence length of stay in elective colorectal surgery?</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Glasgow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Hill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dis Colon Rectum</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="367" to="373" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23392153</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,510.75,357.86,8.10;10,165.00,521.75,217.59,8.10" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Travel patterns of cancer surgery patients in a regionalized system</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Shara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zeymo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Surg Res</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="97" to="105" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 26076685</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,534.75,360.10,8.10;10,165.00,545.75,264.32,8.10" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Reduced access to care resulting from Centers of Excellence Initiatives in Bariatric Surgery</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Livingston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Burchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Surg</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="993" to="997" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20956769</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,558.75,350.23,8.10;10,165.00,569.75,349.70,8.10;10,165.00,580.75,77.25,8.10" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Postoperative care using a secure online patient portal: changing the (inter)face of general surgery</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kummerow Broman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">O</forename><surname>Oyefule</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Surg</title>
+		<imprint>
+			<biblScope unit="volume">221</biblScope>
+			<biblScope unit="page" from="1057" to="1066" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 26453260</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,593.75,357.32,8.10;10,165.00,604.75,342.08,8.10;10,165.00,615.75,39.00,8.10" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Telemedicine in cleft care: reliability and predictability in regional and international practice settings</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Gillenwater</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Craniofac Surg</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1116" to="1120" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 26010103</note>
+</biblStruct>
+
+<biblStruct coords="10,157.50,628.75,362.20,8.10;10,165.00,639.75,174.20,8.10" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A pilot study of telemedicine for post-operative urological care in children</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Canon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shera</forename><forename type="middle">A</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Telemed Tele-care</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="427" to="430" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,157.50,652.75,358.70,8.10;10,165.00,663.75,344.11,8.10;10,165.00,674.75,39.00,8.10" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Telemedicine with mobile devices and augmented reality for early postoperative care</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Ponce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Brabston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conf Proc IEEE Eng Med Biol Soc</title>
+		<imprint>
+			<biblScope unit="volume">2016</biblScope>
+			<biblScope unit="page" from="4411" to="4414" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 28269256</note>
+</biblStruct>
+
+<biblStruct coords="11,157.50,62.75,358.03,8.10;11,165.00,73.75,259.14,8.10" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Electronic wound monitoring after ambulatory breast cancer surgery: improving patient care and satisfaction using a smart phone app</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hwang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BCMJ</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="448" to="453" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,157.50,86.75,350.60,8.10;11,165.00,97.75,353.20,8.10;11,165.00,108.75,145.25,8.10" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A patient navigator intervention to reduce hospital readmissions among high-risk safety-net patients: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Balaban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Galbraith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Burns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="907" to="915" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 25617166</note>
+</biblStruct>
+
+<biblStruct coords="11,157.50,121.75,338.22,8.10;11,165.00,132.75,303.78,8.10;11,165.00,143.75,74.75,8.10" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Low-cost transitional care with nurse managers making mostly phone contact with patients cut rehospitalization at a VA hospital</title>
+		<author>
+			<persName><forename type="first">Ajh</forename><surname>Kind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barczi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Aff</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2659" to="2668" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,157.50,156.75,348.30,8.10;11,165.00,167.75,344.72,8.10" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">A reengineered hospital discharge program to decrease rehospitalization: a randomized trial</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Jack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Chetty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Anthony</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="178" to="187" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19189907</note>
+</biblStruct>
+
+<biblStruct coords="11,157.50,180.75,349.61,8.10;11,165.00,191.75,335.18,8.10" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Patient-centered community health worker intervention to improve posthospital outcomes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kangovi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grande</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="535" to="543" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24515422</note>
+</biblStruct>
+
+<biblStruct coords="11,157.50,204.75,348.84,8.10;11,165.00,215.75,212.58,8.10" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The readmission event after vascular surgery: causes and costs</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Duwayri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Knechtle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="7" to="12" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 27321981</note>
+</biblStruct>
+
+<biblStruct coords="11,157.50,228.75,363.29,8.10;11,165.00,239.75,325.27,8.10" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Surgical disparities: a comprehensive review and new conceptual framework</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Torain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Maragh-Bass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dankwa-Mullen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Surg</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page" from="408" to="418" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 27296524</note>
+</biblStruct>
+
+<biblStruct coords="11,157.50,252.75,339.57,8.10;11,165.00,263.75,328.44,8.10;11,165.00,274.75,305.76,8.10" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Setting a national agenda for surgical disparities research: recommendations from the National Institutes of Health and American College of Surgeons Summit</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Haider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dankwa-Mullan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maragh-</forename><surname>Bass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Surg</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="554" to="563" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 26982380</note>
+</biblStruct>
+
+<biblStruct coords="11,157.50,287.75,355.68,8.10;11,165.00,298.75,218.22,8.10" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Fragmentation problem in Android</title>
+		<author>
+			<persName><forename type="first">J-H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">B</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Ham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Information Science and Applications (ICISA)</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="page" from="1" to="2" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,157.50,311.75,324.13,8.10;11,165.00,322.75,326.09,8.10;11,165.00,333.75,87.24,8.10" xml:id="b40">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Smith A Smartphone Ownershipe</surname></persName>
+		</author>
+		<ptr target="http://pewinternet.org/Reports/2013/Smartphone-Ownership-2013.aspx" />
+		<imprint>
+			<date type="published" when="2013-04-01">2013. April 1, 2015 Accessed July 18, 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Digital imaging versus conventional contact tracing for the objective measurement of venous leg ulcers</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Vascular Surgery</orgName>
+								<orgName type="institution">Good Hope Hospital NHS Trust</orgName>
+								<address>
+									<addrLine>Sutton Coldfield</addrLine>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Digital imaging versus conventional contact tracing for the objective measurement of venous leg ulcers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9A8A6A7123CCDD9108EA37C2E1A1A328</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>MRCS, Surgical Research Fellow</term>
+					<term>S. Hayes, RN,Vascular Research Nurse</term>
+					<term>L. French, RN, BSc, Vascular Clinical Nurse Specialist</term>
+					<term>S. Dodds, MA, MS, FRCS, Consultant Surgeon</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study aimed to compare the accuracy and inter-observer reproducibility of leg ulcer measurements made using digital images and conventional contact tracing.</p><p>• Method: The accuracy of measurements made with these two methods by four observers of 11 shapes with a known area was assessed.The time taken to do this was also measured. Following this, the accuracy and inter-observer reproducibility of the two methods was measured for patients with leg ulcers presenting to the vascular clinic, with contact tracing as the reference.</p><p>• Results: For the reference shapes, both methods had a mean error of less than 5%. Contact tracing significantly underestimated the area by 3.9% (p&lt;0.05), while digital tracing showed no significant error. Digital tracing was quicker than contact tracing, especially for larger shapes (p&lt;0.05). For leg ulcers, there was no significant difference between area measurements made by the two methods. Inter-observer variation of digital tracing was greater for the ulcers than the reference shapes.This was due to differences in subjective interpretation and technical problems in recording some images.</p><p>• Conclusion: Measurement of leg ulcer area using computer-aided tracing of digital camera images is more accurate and quicker than contact tracing provided that appropriate care is taken when taking the pictures. Digital images offer considerable advantages in the shared hospital-community care of patients with leg ulcers.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F</head><p>oot and leg ulcers are common and disabling, and often take a long time to heal. <ref type="bibr" target="#b0">1</ref> They also present a large workload for vascular, dermatology and community nurse clinics. Optimal management requires a multidisciplinary approach by community and hospital specialists to identify, investigate and treat the underlying cause, to provide patient education, to apply regular dressings, to assess healing and to monitor and prevent recurrence.</p><p>A decrease in ulcer surface area is an objective measure of healing. <ref type="bibr" target="#b1">2</ref> Measurements are usually achieved by contact tracing the surface of the ulcer and then using a square grid to calculate the area. Contact tracing is suitable for routine clinical practice as it is simple to do and requires basic equipment, which is generally available in a specialist leg ulcer clinic. However, it is also timeconsuming and does not provide information about the site and appearance of the ulcer, while traces are inconvenient to store.</p><p>Instant photographs of ulcers have a number of advantages over contact tracing in that the site and nature of the ulcer is apparent. However, in order to measure the ulcer area, the image must be calibrated and specialist image tracing equipment is needed. Conventional photographs and contact tracing are therefore complementary methods.</p><p>The wide availability of digital cameras allows high-quality colour images of leg ulcers to be captured, transferred to a computer, analysed, stored, printed and communicated with ease. Their use has a number of potential advantages including objective measurement of ulcer healing and subjective assessment of ulcer morphology from a single image. Digital images can be stored as part of an electronic patient record and used in a telemedicine system for shared patient management by community and hospital specialists. Specialist software is required to measure the ulcer area from digital images.</p><p>There is little published comparative data on the accuracy of digital image analysis and contact tracing. This study therefore compared the accuracy of computer-assisted ulcer measurements derived from images produced by commercially available digital cameras with measurements made using conventional contact tracing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>The study was conducted in two phases. In the first phase the accuracy of digital image tracing and contact tracing were measured using a set of 11 pre-printed elliptical shapes. The shapes ranged in area from 3.5 to 17.0 cm 2 and in circumference from 6.8 to 14.6cm. The exact width and height of urnal of Wound Care. Downloaded from magonlinelibrary.com by 130.194.020.173 on November 26, 2015. For personal use only. No other uses without permission. . All rights reserved the ellipses were measured and the area and circumference calculated using standard formulae.</p><p>Contact tracing was performed by tracing the reference shapes onto a semi-opaque contact sheet printed with a grid of squares (16 squares per cm 2 ) using a high-quality, fibre-tipped pen that produces a line less than 1mm wide. The area was then calculated by counting the number of complete squares within the traced boundary and estimating the number of partially included squares. The time taken to trace the reference shape and count the squares was also recorded.</p><p>Digital image tracing was performed by recording digital images of the reference shapes using one of two 24-bit colour digital cameras (Kodak DC 3400, resolution 896 x 592 pixels; Ricoh RDC-6000, resolution of 1600 x 1200 pixels). A 6cm self-adhesive calibration scale was placed close to the edge of the shape and the digital images were taken so that the shape occupied more than 50% of the image.</p><p>The images were automatically converted into JPEG format by the camera, transferred to a PCcompatible computer and analysed using a specially written software package (copies of this are available from S. Dodds). The software allowed the images to be viewed on the computer screen, a calibration measurement to be made from the scale and the edge of the image to be traced manually. The software then calculated the area and circumference of the traced boundary.</p><p>The time taken to perform the calibration and tracing was recorded. Four observers carried out contact tracing and digital image measurements independently, and the percentage error between the actual and measured areas was calculated for each of the 88 measurements. These data were used to compare the two techniques and to test the accuracy and inter-observer reproducibility of each method independently. The null hypothesis was that there was no difference between the actual and measured areas. The threshold for statistical significance was taken as 5%.</p><p>The second phase of the study involved 25 patients, with 25 venous leg ulcers, attending the vascular surgery clinic. The vascular research nurse (SH) measured each ulcer using standard contact tracing and the Ricoh RDC-6000 digital camera. The digital images were measured independently by the same four observers using the above software.</p><p>In this part of the study the contact tracing measurements were considered the reference against which data obtained from digital tracing were compared. The absolute difference in ulcer area was calculated and these data were used to test the hypothesis that there was no difference between the two methods. The reproducibility of digital ulcer measurements between observers was expressed as a coefficient of variation.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1. Comparison of contact tracing and digital image tracing of reference elliptical shapes</head><note type="other">Observer</note><formula xml:id="formula_0">250 ---- --------------------------------------------------------------- 200 ---- --------------------------------------------------------------- 150 ---- --------------------------------------------------------------- 100 ---- --------------------------------------------------------------- 50 ---- --------------------------------------------------------------- 0 ---- -------------------------------------------------------------</formula><formula xml:id="formula_1">• SH ■ SD ▲ AS ◆ LF • • • • •• • • • • • ■ ■■ ■ ■ ■ ■ ■ ■ ■ ■ ◆ ◆ ◆ ◆◆ ◆ ◆ ◆ ◆ ◆ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ Fig 1.</formula><p>Scattergram of measurement errors (% area difference) for contact tracing and digital image tracing using reference elliptical shapes of known area The results for each observer are summarised in Table <ref type="table">1</ref>. The accuracy of both methods was good, with a mean error of less than 5%.</p><formula xml:id="formula_2">15 -------------------------------------------- 10 -------------------------------------------- 5 -------------------------------------------- 0 -------------------------------------------- -5 -------------------------------------------- -10 -------------------------------------------- -15 -------------------------------------------- Error (%) ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • ◆ Contact •</formula><p>For the reference shapes, there was a significant difference between the two measurement methods (t=-6.9, unequal variance, paired t-test, p&lt;0.001). Contact tracing significantly underestimated the actual area by 3.9% (95% confidence interval: -5.1% to -2.8%). Digital tracing slightly overestimated it by 0.8%, although this was not statistically significant (95% CI: -0.2% to 1.9%).</p><p>Reproducibility between observers was good for all the reference shapes and for both measurement methods (coefficient of variation range: 1.0-5.4%).</p><p>Fig <ref type="figure" target="#fig_0">2</ref> shows that the time taken to perform the contact tracing increased linearly with the size of the object (range: 25-200 seconds, correlation 0.89). However, the time taken to perform the digital image tracing (Fig <ref type="figure" target="#fig_4">3</ref>) was less dependent on object size (range: 40-80 seconds, correlation 0.49).</p><p>Fig <ref type="figure">4</ref> shows the correlation between the digital measurement of the leg ulcers and the contact tracing for each observer. The results are summarised in Table <ref type="table">2</ref>. There was no significant difference between area measurements using the two methods and the correlation coefficients were greater than 0.8 for all observers.</p><p>The coefficient of variation between observers for the digital measurement of ulcer area was greater than for the reference shapes (mean: 9.1%, range: 0.8-74.3%). Fig <ref type="figure">4</ref> shows a couple of obvious outliers where the difference between the two methods was greater than the variation between observers for the digital tracing. This implies there was a systematic rather than a random cause for this. In one case all of the observers interpreted the position of the edge of the ulcer differently on the digital image compared with that outlined on the contact tracing. In the other case, the digital image was taken from an unfavourable angle, causing the appearance of the leg ulcer to be foreshortened and an apparent reduction in area.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Leg ulcers are common, with an estimated prevalence of 1-1.3% 3 that increases with age. In the UK most are managed by district and community nurses. <ref type="bibr" target="#b3">4</ref> For ulcers that are vascular in origin, assessment and treatment of the underlying vascular disease can improve the healing rate and reduce the risk of recurrence. Response to treatment can be measured by plotting the rate of ulcer area reduction using contact tracing.</p><p>Use of photographs for wound assessment has shown good inter-and intra-observer reliability and   <ref type="figure" target="#fig_2">--------------------------------------------------------------------------------------------------------------------------------10 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------5 ---------------------------------------------------------------------------------------</ref> research concurrent validity compared with bedside assessment. <ref type="bibr" target="#b4">5</ref> Rajhandari et al. <ref type="bibr" target="#b5">6</ref> compared digital imaging with contact tracing as methods of measuring diabetic foot ulcers and found that digital images caused significantly less inter-observer variation. However, they did not measure which method was more accurate. Another study showed that both methods had similar levels of accuracy in measuring wound surface area. <ref type="bibr" target="#b6">7</ref> In our study the use of reference shapes allowed the accuracy of both methods to be measured independently. Both were found to have acceptable accuracy for clinical applications (less than 5% mean error). Our findings of good inter-observer reproducibility for digital images support those of Rajhandari et al. In addition, the digital method was less time-consuming, despite requiring a calibration step. Another benefit is their ability to assess the ulcer appearance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 2. Difference between digital image tracing of leg ulcers, using contact tracing as the reference</head><formula xml:id="formula_3">---- ----------------------------------------- 200 ---- ----------------------------------------- 150 ---- ----------------------------------------- 100 ---- ----------------------------------------- 50 ---- ----------------------------------------- 0 ---- ----------------------------------------- Time (seconds) Area (cm 2 ) 1 0 1 5 1 10 1 15 1 20 • SH ■ SD ▲ AS ◆ LF • • • • • • • • ■ ■ ■■ ■ ■ ■ • • ■ ■ ■ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ▲ ▲ ▲ ◆ ▲ ▲ ▲ ▲</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fig 4. Correlation between digital image and contact tracing measurements of leg ulcers for each observer</head><formula xml:id="formula_4">15 ---- ---------------------------------------- ---- ---------------------------------------- ----</formula><formula xml:id="formula_5">- ---- ---------------------------------------- ---- ---------------------------------------- ---- ---------------------------------------- 0 ---- ---------------------------------------- Digital area (cm 2 ) Contact area (cm 2 ) 1 0 1 5 1 10 1 15 • • • • • • • • • • • • • • • • • • • • • ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ • ▲ • ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ • SH ■ SD ▲ AS ◆ LF urnal of</formula><p>Our results, however, show that digital images need to be of good quality for accurate area measurements to be made. The epithelial edges of the ulcer are not clearly defined in poor-quality pictures, which can mislead even an experienced observer and result in significant error. The quality of the pictures depends on the resolution of the camera, the degree of image compression and the technique used when recording the image. The image quality of both cameras used here was excellent. Any problems were due to poor technique, in particular the lighting, focus and camera angle. These problems can be easily avoided with a few minutes of operator training.</p><p>There was no study objective to compare subjective appearance of ulcers between observers.</p><p>The largest ulcer in this study was 12cm <ref type="bibr" target="#b1">2</ref> and experience shows that leg ulcers can be much larger than this. Ulcers with a large circumference pose a problem for digital image measurement as the whole ulcer may not be visible on one image and the curvature of the leg will distort the view of the ulcer. There are two solutions:</p><p>• A number of separate images can be recorded and the total ulcer area measured from a composite 'panoramic' image created by the ulcer measurement software • An initial contact trace is made and the area is measured from an image of the tracing. Another image is then used to record just the ulcer appearance. This technique combines the best features of both methods.</p><p>The majority of patients with leg ulcers are elderly and have poor mobility and associated significant co-morbid conditions. <ref type="bibr" target="#b7">8</ref> Most need to be reviewed regularly in order to monitor the effectiveness of the treatment, particularly compression bandaging. Many studies have shown that appropriately trained community nurses can do this.</p><p>The effectiveness of treatment can only be reliably assessed if objective measurements of ulcer area are made and plotted over time. Traditionally, such measurements were only performed in specialist leg ulcer clinics. However, most patients require assistance and transportation to attend these clinics, increasing the management cost. Ideally, community nurses should be able to perform these measurements. Our findings suggest that digital images could provide a convenient way of doing this. Digital images can then be transmitted to a remote site for evaluation by a specialist -this technique is called telemedicine.</p><p>Vesmarovich et al. <ref type="bibr" target="#b8">9</ref> have shown that telemedicine can be used successfully in the management of pressure ulcers in patients with spinal injury. Its use in the shared management of leg ulcers has not been described. The disadvantage of digital image tracing is that it requires a digital camera and computer. However, virtually all community health centres now have computers, and a wide range of goodquality, low-cost digital cameras are available.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Measurement of leg ulcer area using digital camera images is quicker and more accurate than contact tracing. The advantages of digital images are numerous and outweigh the few disadvantages. ■</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Box 1. Summary of the main findings</head><p>A decrease in ulcer surface area is an objective measure of healing.The surface area may be measured by either contact tracing or using a digital camera.This study compared the accuracy of the two methods</p><p>The accuracy and inter-observer reproducibility of the two techniques were investigated first on 11 preprinted reference shapes and then on 25 patients with venous leg ulcers.Time taken to perform the measurements was also calculated Accuracy and inter-observer reproducibility was good for both methods for all reference shapes.</p><p>There was no significant difference in accuracy between the two methods for venous ulcer measurement.There was greater inter-observer variation for the digital tracings of the leg ulcers compared with the reference shapes but this was due to errors in camera technique. Digital tracing was quicker than contact tracing, especially for larger shapes (p&lt;0.05) An advantage of digital images is that they allow the user to assess the ulcer appearance, although this does depend on the image quality. Digital images can be taken in the patient's home or in a community clinic and transmitted to a remote site for evaluation, reducing the number of patient journeys</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 2 .</head><label>2</label><figDesc>Fig 2.Time taken to measure area of reference objects using contact tracing for each observer</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>ResultsFig 1</head><label>1</label><figDesc>Fig 1 shows the percentage error for contact tracing and digital image tracing using the reference shape.The results for each observer are summarised in Table1. The accuracy of both methods was good, with a mean error of less than 5%.For the reference shapes, there was a significant difference between the two measurement methods (t=-6.9, unequal variance, paired t-test, p&lt;0.001). Contact tracing significantly underestimated the actual area by 3.9% (95% confidence interval: -5.1% to -2.8%). Digital tracing slightly overestimated it by 0.8%, although this was not statistically significant (95% CI: -0.2% to 1.9%).Reproducibility between observers was good for all the reference shapes and for both measurement methods (coefficient of variation range: 1.0-5.4%).Fig2shows that the time taken to perform the contact tracing increased linearly with the size of the object (range: 25-200 seconds, correlation 0.89). However, the time taken to perform the digital image tracing (Fig3) was less dependent on object size (range: 40-80 seconds, correlation 0.49).Fig4shows the correlation between the digital measurement of the leg ulcers and the contact tracing for each observer. The results are summarised in Table2. There was no significant difference between area measurements using the two methods and the correlation coefficients were greater than 0.8 for all observers.The coefficient of variation between observers for the digital measurement of ulcer area was greater than for the reference shapes (mean: 9.1%, range: 0.8-74.3%). Fig4shows a couple of obvious outliers where the difference between the two methods was greater than the variation between observers for the digital tracing. This implies there was a systematic rather than a random cause for this. In one case all of the observers interpreted the position of the edge of the ulcer differently on the digital image compared with that outlined on the contact tracing. In the other case, the digital image was taken from an unfavourable angle, causing the appearance of the leg ulcer to be foreshortened and an apparent reduction in area.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>2 (-0.6 to 0.3) 0.93 SD -0.4 (-0.9 to 0.0) 0.92 AS -0.1 (-0.7 to 0.4) 0.89 LF 0.0 (-0.5 to 0.5) 0.91</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig 3 .</head><label>3</label><figDesc>Fig 3.Time taken to measure area of reference objects using digital image tracing for each observer 250 ---------------------------------------------</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>Wound Care. Downloaded from magonlinelibrary.com by 130.194.020.173 on November 26, 2015. For personal use only. No other uses without permission. . All rights reserved</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>4 0 J O U R N A L O F WO U N D C A R E VO L 1 1 , N O 4 , A P R I L</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p>0 0 2</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="4,48.60,325.16,69.78,6.38;4,42.52,333.16,42.85,6.38;4,42.52,341.16,73.20,6.38;4,42.52,349.17,58.91,6.38;4,42.52,357.17,75.39,6.38;4,42.52,365.17,54.85,6.38" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Surgical wound consultation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Koeveker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coerper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Langenbecks Archiv fur Chirurgie, Supplement, Kongressband</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="542" to="544" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,48.33,374.58,52.68,6.38;4,42.52,382.58,74.32,6.38;4,42.52,390.58,62.92,6.38;4,42.52,398.58,72.24,6.38" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Wound assessment: measuring the area of a leg ulcer</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Charles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Nursing</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="765" to="768" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,47.63,408.00,57.62,6.38;4,42.52,416.00,74.20,6.38;4,42.52,424.00,45.59,6.38" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chronic venous ulcer</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Angle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Bergan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page">1019</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,47.45,433.42,71.87,6.38;4,42.52,441.42,75.43,6.38;4,42.52,449.42,71.87,6.38;4,42.52,457.42,54.85,6.38" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A new standard for the nursing assessment of leg ulcers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Nursing</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1272" to="1274" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,48.33,466.84,65.60,6.38;4,42.52,474.84,70.53,6.38;4,42.52,482.84,71.04,6.38;4,42.52,490.84,58.18,6.38;4,42.52,498.84,69.25,6.38;4,42.52,506.84,64.72,6.38;4,42.52,514.84,58.24,6.38" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Photographic assessment of the appearance of chronic pressure and leg ulcers</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Houghton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Kincaid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Man</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="20" to="30" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,48.33,524.26,66.22,6.38;4,42.52,532.26,59.46,6.38;4,42.52,540.26,76.30,6.38;4,42.52,548.26,55.61,6.38;4,42.52,556.26,62.80,6.38;4,42.52,564.26,64.04,6.38;4,42.52,572.26,24.79,6.38" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Digital imaging: an accurate and easy method of measuring foot ulcers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Rajhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sutton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet Med</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="339" to="342" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,48.33,581.67,58.35,6.38;4,42.52,589.67,73.56,6.38;4,42.52,597.67,72.79,6.38;4,42.52,605.68,74.25,6.38;4,42.52,613.68,71.38,6.38;4,42.52,621.68,62.25,6.38;4,42.52,629.68,17.79,6.38" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Evaluation of two wound measurement methods in a multi-center, controlled study</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Etris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pribble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Labrecque</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Man</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="44" to="48" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,47.45,639.09,42.28,6.38;4,42.52,647.09,67.58,6.38;4,42.52,655.09,71.14,6.38;4,42.52,663.09,72.75,6.38;4,42.52,671.09,57.76,6.38;4,42.52,679.09,24.79,6.38" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Management of patients with venous ulcers in the community setting</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Thomason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Home Care Provid</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="162" to="163" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,47.28,688.51,73.22,6.38;4,42.52,696.51,63.78,6.38;4,42.52,704.51,55.82,6.38;4,42.52,712.51,73.35,6.38;4,42.52,720.51,69.52,6.38;4,42.52,728.51,77.60,6.38;4,42.52,736.51,51.35,6.38" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Use of telerehabilitation to manage pressure ulcers in persons with spinal cord injuries</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vesmarovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hauber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advcs Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="264" to="269" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Prospects for the application of home care in chronic wound management</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yue</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Orthopedics</orgName>
+								<orgName type="institution">Taizhou Hospital of Zhejiang Province Affiliated to Wenzhou Medical University</orgName>
+								<address>
+									<settlement>Taizhou</settlement>
+									<region>Zhejiang</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yanan</forename><surname>Ge</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Ultrasound</orgName>
+								<orgName type="institution">Taizhou Second People&apos;s Hospital</orgName>
+								<address>
+									<settlement>Taizhou</settlement>
+									<region>Zhejiang</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shengyu</forename><surname>Ruan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Orthopedics</orgName>
+								<orgName type="institution">Taizhou Hospital of Zhejiang Province Affiliated to Wenzhou Medical University</orgName>
+								<address>
+									<settlement>Taizhou</settlement>
+									<region>Zhejiang</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Hua</forename><surname>Luo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Orthopedics</orgName>
+								<orgName type="institution">Taizhou Hospital of Zhejiang Province Affiliated to Wenzhou Medical University</orgName>
+								<address>
+									<settlement>Taizhou</settlement>
+									<region>Zhejiang</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Orthopedics</orgName>
+								<orgName type="department" key="dep2">Taizhou Hospital of Zhejiang Province</orgName>
+								<orgName type="institution">Wenzhou Medical University</orgName>
+								<address>
+									<addrLine>Ximen Road 150</addrLine>
+									<postCode>317000</postCode>
+									<settlement>Linhai</settlement>
+									<region>Zhejiang</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Prospects for the application of home care in chronic wound management</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BB698EAAB472CB1335F1F4F6902ED9CE</idno>
+					<idno type="DOI">10.4103/jfmpc.jfmpc_1896_22</idno>
+					<note type="submission">Received: 23-09-2022 Revised: 04-11-2022 Accepted: 29-11-2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Chronic wound</term>
+					<term>home care</term>
+					<term>prospect</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>With the aggravation of population aging, the number of patients with chronic diseases increases and public medical resources are increasingly strained. Home care allows patients to receive professional nursing services at home while achieving disease prevention, health promotion, and ease of public healthcare resources. Nowadays, home care services have been gradually applied and promoted in patients with chronic wounds. This article reviews the application effect of current home care services in the daily management of chronic wound patients and puts forward relevant suggestions.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In recent years, with socioeconomic development and accelerated aging of the population, the growing medical management needs of patients do not match the scarce medical resources. <ref type="bibr" target="#b0">[1]</ref> The high prevalence of chronic diseases and unimproved out-of-hospital health needs among the elderly have led to an increasing demand for home care services. Home care refers to cases and their families who require follow-up care to receive regular professional healthcare services in their own home environment for the purpose of promoting health, maintaining health, and preventing disease to meet the needs of patients, especially active disabilities, the treatment needs of comatose patients and the elderly.</p><p>In out-of-hospital follow-up care, nursing workers go to the patient's home to provide professional nursing services, prevent diseases, and promote health, <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref> which providing convenience and time saving for patients. <ref type="bibr" target="#b3">[4]</ref> At present, home care has covered basic care, wound care, ostomy care, and rehabilitation care, which not only effectively solves the nursing problems of patients but also reduces the pressure on hospitals, the burden on patients, and improves patient satisfaction. <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref> Chronic wounds refer to wounds caused by various causes for more than 6 weeks, including arterial/venous ulcers, diabetic ulcers, traumatic ulcers, and pressure ulcers. <ref type="bibr" target="#b6">[7]</ref> Due to the slow course of chronic wounds and the protracted healing, patients often bear heavy psychological pressure and economic burden. Nursing workers provide door-to-door services. On one hand, patients can accept dressing changes and treatment with ease. It can also reduce the cost of hospitalization for patients, allowing patients to live in a familiar environment and enjoy the same treatment as in a hospital. Finally, improve patient satisfaction and wellbeing and speed up the length of hospital stay. Besides, circulation of beds to maximize the use of medical resources. This article summarizes the current domestic and international home care service models, evaluates the application effect of home care in the daily management of chronic wound patients, and provides theoretical reference for managers to formulate relevant policies to ensure the safety and order of home wound care.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overview of Home Wound Care</head><p>In the 1990s, developed countries such as Europe and the United States attached great importance to home service and implemented it as a pioneer. The service covers a variety of nursing items, such as pressure ulcer care, rehabilitation guidance, medication monitoring, and other nursing guidance and assistance necessary for patients' daily life after discharge. In addition, the hospital set up the Organizational Vitality Nurse (TVN) position, formulated the chronic wound patient care plan and the work specifications of the hospital wound-related medical staff, trained the medical staff in wound care operations, and provided community nurse assistance. <ref type="bibr" target="#b7">[8]</ref> After the patient is discharged from the hospital, professionals in medical institutions or community nurses will continue to provide patients with wound care services in the form of community care. <ref type="bibr" target="#b8">[9]</ref> Up to one-third of people with chronic lower extremity ulcers in the United Kingdom are willing to be visited by a community nurse for home wound care services. <ref type="bibr" target="#b9">[10]</ref> The study found that patients who received home care services had significantly better pain and stress perception, which may be due to community nurses paying more attention to pain assessment when handling wounds for patients. <ref type="bibr" target="#b10">[11]</ref> This helps to promote the wound healing of patients and improve the quality of life of patients. The Norwegian Chronic Wound Support Network, in conjunction with wound care specialist nurses and home care workers, provides 12 weeks of observation for discharged patients, with all chronic wound patients being followed up every 4 weeks. <ref type="bibr" target="#b12">[12]</ref> In addition, they work with hospital dermatology nurses to train local home care workers for chronic wound patients to improve their wound care skills. Even when encountering more difficult wounds, home caregivers can contact the hospital's dermatology nurses online through mobile phones and e-mails to guide the management of the wound remotely. The results of the study showed that patients under this care model had lower wound size, complication rates, number of dressing changes, and medical costs than patients who were managed only by home care providers.</p><p>By 2025, more than 20% of Europeans are expected to be aged more than 65 years and the number of people aged more than 80 years will also increase. <ref type="bibr">[13]</ref> EU countries have undertaken various reforms to mobilize resources by integrating public, private, and market resources to achieve more cost-effective outcomes. These new care portfolio designs rely more on home care and a greater role for family and relatives.</p><p>Studies in the United Kingdom, Canada, and the United States have shown that 25%-35% of wound patients in the community are treated in their own homes. <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref> The study pointed out that the home wound care service has a significant positive impact on improving the self-efficacy, scientific disease management awareness, and quality of life of chronic wound patients. This special service concept and execution mode make chronic wound patients feel more secure and less psychologically stressed when receiving nursing operations in a familiar environment. Relieving patients financially and psychologically can help promote wound healing and overall recovery. <ref type="bibr" target="#b15">[16]</ref> Figure <ref type="figure">1</ref> shows the development of home care.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluation of the effect of home care</head><p>Chronic wounds heal slowly and there is no treatment other than dressing changes during hospitalization. After home care, the saved hospital resources can be reserved for more patients in need, greatly speeding up the turnover of hospital beds and maximizing the use of medical resources. At the same time, home care can reduce the time, effort, and expense of patients going to the hospital <ref type="bibr" target="#b16">[17]</ref> and provide convenience for patients. Nursing staff can improve the health literacy level of patients and their families through online push and popularize knowledge about wound care and health education. On the other hand, it can also enhance patients' trust and satisfaction with medical staff. Currently, home wound care advocates a multidisciplinary approach, including surgeons, clinical nursing experts, rehabilitation therapists, etc., to form a collaborative team to comprehensively evaluate and summarize a more comprehensive treatment and nursing plan. Rehabilitation therapists, pharmacists, clinicians, and nursing staff need to work together in wound management, medication use, and rehabilitation training to help patients with wound healing and early rehabilitation interventions. The multidisciplinary cooperation model integrating medical treatment, nursing, and rehabilitation under the home care model is helpful for the establishment of the treatment management system for chronic wound patients and the implementation of the emergency wound treatment process.</p><p>In the process of multidisciplinary cooperation and discussion, home care staff can fully grasp the needs of patients in disease diagnosis and treatment, rehabilitation training, psychological intervention, health education, and other aspects. It is conducive to the implementation of personalized high-quality nursing services and the improvement of service levels and to help patients recover. Home care is a nursing service model extended on the basis of existing medical clinical care and home services. As a new model of high-quality nursing promotion services, home-based elderly care has greatly alleviated the imbalance between the growing demand for medical care and the shortage of health resources and has broad development prospects and huge social and economic benefits. Relevant departments need to guide the establishment of an efficient and standardized industrialization operation mechanism. Clarify the job responsibilities of nursing staff at all levels, standardize the access system, strengthen performance appraisal, improve work efficiency and service quality, and promote the industrialization of nursing. Rapidly growing demand for nursing services under the trend of an aging population. The current demographic structure shows a trend toward an aging population and an increase in the prevalence of chronic diseases and chronic wounds. At the same time, reliance on medical care has increased, hospital beds have been reduced, and healthcare costs have increased. Home care is a more cost-effective model of organizing healthcare to address the above problems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The current practice and operational results of existing home wound care services have fully proved that the development of the home care model is expected to solve the common problems of chronic wound patients and meet the needs of patients for continuous wound care services. It has broad development prospects and huge social economic benefits. However, there are also potential problems and risks in the implementation of home wound care. It is still necessary for relevant departments to formulate and improve corresponding rules and regulations and codes of conduct to clarify the content and form of home wound care services, the rights and obligations of both nurses and patients, and the charging standards to ensure the orderly development of home care. Promote the development and continuation of the home wound care model to help the recovery of chronic wound patients.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,55.08,61.23,501.84,190.32" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Journal of Family Medicine and Primary Care</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Volume 12 : Issue 3 : March 2023</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethical approval</head><p>This article does not contain any studies with human participants performed by any of the authors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>H.L. conceived and designed the project. Y.S. and Y.G. drafted the article; S.R. performed the literature retrieval.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Financial support and sponsorship</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nil.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of interest</head><p>There are no conflicts of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="3,318.49,302.74,239.62,7.47;3,333.45,312.84,224.71,7.47;3,333.45,322.94,224.64,7.47;3,333.45,333.04,62.46,7.47" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Mathematical model and exact algorithm for the home care worker scheduling and routing problem with lunch break requirements</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Prod Res</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="558" to="575" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,318.49,345.98,239.63,7.47;3,333.45,356.08,224.67,7.47;3,333.45,366.18,224.66,7.47;3,333.45,376.28,106.61,7.47" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Health-related quality of life in home care recipients after a falls prevention intervention: A 6-month follow-up</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bjerk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brovold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Skelton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bergland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Public Health</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="64" to="69" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,318.49,389.21,239.65,7.47;3,333.45,399.31,224.64,7.47;3,333.45,409.41,224.64,7.47;3,333.45,419.51,55.00,7.47" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Development of a remote health monitoring system to prevent frailty in elderly home-care patients with COPD</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ohashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akiguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ohira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">2670</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,318.49,432.45,239.61,7.47;3,333.45,442.55,224.67,7.47;3,333.45,452.65,97.93,7.47" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Hospital at Home program: No place like home</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lippert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Semmens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tacey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Defoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bucsis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Oncol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="23" to="27" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,318.49,465.58,239.60,7.47;3,333.45,475.68,224.65,7.47;3,333.45,485.78,224.70,7.47;3,333.45,495.88,224.71,7.47;3,333.45,505.98,67.33,7.47" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Home care patients&apos; experiences with home care nurses&apos; support in medication adherence</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Dijkstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vervloet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cgm</forename><surname>Sino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Heerdink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nelissen-Vrancken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bleijenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Patient Prefer Adherence</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1929" to="1940" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,318.49,518.91,239.68,7.47;3,333.45,529.01,224.66,7.47;3,333.45,539.11,224.64,7.47;3,333.45,549.21,62.46,7.47" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Heart failure training and job satisfaction: A survey of home care workers caring for adults with heart failure in New York City</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Sterling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Ringel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Avgar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ethn Dis</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="575" to="582" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,318.49,562.15,239.62,7.47;3,333.45,572.25,224.67,7.47;3,333.45,582.35,111.40,7.47" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Wounds in chronic leg oedema</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Burian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Karlsmark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nørregaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kirketerp-Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kirsner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="411" to="425" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,318.49,595.28,239.63,7.47;3,333.45,605.38,95.94,7.47" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Case studies 1-3: Leg ulcers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tickle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">Suppl 8a</biblScope>
+			<biblScope unit="page" from="12" to="17" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,318.49,618.32,239.63,7.47;3,333.45,628.42,224.70,7.47;3,333.45,638.52,91.59,7.47" xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lumbers</surname></persName>
+		</author>
+		<title level="m">Challenges in wound care for community n u r s e s : A c a s e r e v i e w . B r J C o m m u n i t y N u r s</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="25" to="27" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,322.90,651.45,235.19,7.47;3,333.45,661.55,224.66,7.47;3,333.45,671.65,224.01,7.47" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">More wounds, less time to treat them: 1717 nurses discuss the challenges in wound care in a series of study days</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mahoney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Community Nurs</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">Suppl 6</biblScope>
+			<biblScope unit="page" from="33" to="38" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,323.17,684.59,234.88,7.47;3,333.45,694.69,224.71,7.47;3,333.45,704.79,224.71,7.47;3,333.45,714.89,224.64,7.47;3,333.45,724.99,65.26,7.47" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A randomised controlled trial of a community nursing intervention: Improved quality of life and healing for clients with chronic leg ulcers</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Courtney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Finlayson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shuter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lindsay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Nurs</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1541" to="1549" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,53.89,257.63,209.72,8.60" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Figure 1: The development and achievement of home care</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,61.79,61.61,235.23,7.47;4,72.34,71.61,224.66,7.47;4,72.34,81.61,224.66,7.47;4,72.34,91.61,176.03,7.47" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Improved clinical efficacy with wound support network between hospital and home care service</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Bergersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Storheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gundersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kleven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sandvik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="511" to="517" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,61.79,127.28,235.21,7.47;4,72.34,137.28,224.66,7.47;4,72.34,147.28,129.64,7.47" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Current home care expenditures for persons with leg ulcers</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Friedberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Graham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Ostomy Continence Nurs</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="186" to="192" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,322.90,61.61,235.20,7.47;4,333.45,71.61,224.66,7.47;4,333.45,81.61,210.26,7.47" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The resource costs of wound care in Bradford and Airedale primary care trust in the UK</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Posnett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">100</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,322.90,94.45,235.22,7.47;4,333.45,104.45,224.66,7.47;4,333.45,114.45,151.36,7.47" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A systematic review of community Leg Clubs for patients with chronic leg ulcers</title>
+		<author>
+			<persName><forename type="first">Abu</forename><surname>Ghazaleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Artom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sturt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prim Health Care Res Dev</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">65</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,322.90,127.28,235.25,7.47;4,333.45,137.28,224.66,7.47;4,333.45,147.28,116.12,7.47" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Does formal home care reduce inpatient length of stay?</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lyons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Wren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eighan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Morgenroth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Econ</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1620" to="1636" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

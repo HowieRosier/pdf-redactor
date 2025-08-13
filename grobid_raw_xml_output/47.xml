@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Tissue Classification and Segmentation of Pressure Injuries Using Convolutional Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sofia</forename><surname>Zahia</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Computer Engineering and Computer Science</orgName>
+								<orgName type="department" key="dep2">Duthie Center for Engineering</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<postCode>40292</postCode>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="laboratory">eVida research laboratory</orgName>
+								<orgName type="institution">University of Deusto</orgName>
+								<address>
+									<postCode>48007</postCode>
+									<settlement>Bilbao</settlement>
+									<country key="ES">SPAIN</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Begonya</roleName><forename type="first">Daniel</forename><surname>Sierra-Sosa</surname></persName>
+							<email>d.sierrasosa@louisville.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Computer Engineering and Computer Science</orgName>
+								<orgName type="department" key="dep2">Duthie Center for Engineering</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<postCode>40292</postCode>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adel</forename><surname>Elmaghraby</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Computer Engineering and Computer Science</orgName>
+								<orgName type="department" key="dep2">Duthie Center for Engineering</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<postCode>40292</postCode>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="laboratory">eVida research laboratory</orgName>
+								<orgName type="institution">University of Deusto</orgName>
+								<address>
+									<postCode>48007</postCode>
+									<settlement>Bilbao</settlement>
+									<country key="ES">SPAIN</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Comm</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Begonya</forename><surname>Garcia-Zapirain</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Methods and Programs in Biomedicine</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Tissue Classification and Segmentation of Pressure Injuries Using Con-volutional Neural Networks</orgName>
+								<orgName type="institution">Adel Elmaghraby</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Tissue Classification and Segmentation of Pressure Injuries Using Convolutional Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0CC0CE842E0BBD24B05B45E885310ABB</idno>
+					<idno type="DOI">10.1016/j.cmpb.2018.02.018</idno>
+					<note type="submission">Received date: 5 December 2017 Revised date: 30 January 2018 Accepted date: 22 February 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Deep learning</term>
+					<term>Pressure injuries</term>
+					<term>Tissue type classification</term>
+					<term>Image Segmentation</term>
+					<term>Convolutional Neural Networks</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background and Objectives: This paper presents a new approach for automatic tissue classification in pressure injuries. These wounds are localized skin damages which need frequent diagnosis and treatment. Therefore, a reliable and accurate systems for segmentation and tissue type identification are needed in order to achieve better treatment results. Methods: Our proposed system is based on a Convolutional Neural Network (CNN) devoted to performing optimized segmentation of the different tissue types present in pressure injuries (granulation, slough, and necrotic tissues). A preprocessing step removes the flash light and creates a set of 5x5 sub-images which are used as input for the CNN network. The network output will classify every sub-image of the validation set into one of the three classes studied.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>The metrics used to evaluate our approach show an overall average classification accuracy of 92.01%, an average total weighted Dice Similarity Coefficient of 91.38%, and an average precision per class of 97.31% for granulation tissue, 96.59% for necrotic tissue, and 77.90% for slough tissue. Conclusions: Our system has been proven to make recognition of complicated structures in biomedical images feasible.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A C C E P T E D M A N U S C R I P T HIGHLIGHTS</head><p>• In this paper we presented an approach for automatic tissue segmentation using a Convolutional Neural Network. The methodology is based on the classification of different tissue types: Necrotic, granulation and slough.</p><p>• We present different metrics to evaluate our approach, obtaining an overall average classification accuracy of 92.01%, an average total weighted Dice Similarity Coefficient of 91.38%, and an average precision per class of 97.31% for granulation tissue, 96.59% for necrotic tissue, and 77.90% for slough tissue.</p><p>• By using this methodology, we were able segment complicated structures within the image to be recognized, providing a robust method for Pressure Injuries assess.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>Pressure injuries are a major concern in a number of countries, the main reasons being the high incidence among elderly and disable patients and the significant expenses for the health care systems. They take the form of localized skin damage which needs frequent diagnosis and treatment (Fig. <ref type="figure">1</ref>). Some researchers attribute these injuries to the quality of acute nursing care resulting in impairment in the patient's quality of life <ref type="bibr" target="#b0">[1]</ref>. Pressure injury is assessed and evaluated using manual methods, while parameters such as the area, major and minor diagonal and volume are estimated directly over the wounds <ref type="bibr" target="#b1">[2]</ref>. To overcome this difficulty several authors have employed different image processing techniques <ref type="bibr" target="#b2">[3]</ref>, <ref type="bibr" target="#b3">[4]</ref>, <ref type="bibr" target="#b4">[5]</ref>, <ref type="bibr" target="#b5">[6]</ref>. These techniques are devoted to evaluating the stage and evolution of the pressure injuries, given morphological features and tissue classification.</p><p>Image analysis, segmentation and classification problems can be solved using features based on expert knowledge such as Scale-Invariant Feature Transform (SIFT), Speeded Up Robust Features (SURF) and Histogram of Oriented Gradients (HOG) based on a bag of features representation and followed by learning methods such as support Vector machines and Nearest Neighbors, among others <ref type="bibr" target="#b6">[7]</ref>, <ref type="bibr" target="#b7">[8]</ref>, <ref type="bibr" target="#b8">[9]</ref>, <ref type="bibr" target="#b9">[10]</ref>. Nonetheless, these techniques are prone to failure when processing complicated structures such as those present in pressure injuries with different tissue types. Therefore, Fig. <ref type="figure">1</ref>: Different body parts affected by pressure injuries the need for more accurate techniques leads to a new set of learning models based on multiple layers of nonlinear processor units, known as deep learning. In the last few years, deep learning has caught the attention of many researchers when simple methods became insufficient. It has become a fast-growing technique especially in medical image analysis <ref type="bibr" target="#b10">[11]</ref>.</p><p>Deep learning models are widely used for medical image processing. Among these techniques, Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) are the most common, and several types of architecture have been proposed <ref type="bibr" target="#b12">[13]</ref>, <ref type="bibr" target="#b13">[14]</ref>, <ref type="bibr" target="#b14">[15]</ref>, with AlexNet being the most well-known architecture for classification purposes <ref type="bibr" target="#b11">[12]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A C C E P T E D M A N U S C R I P T</head><p>Several research works have used deep learning for image classification, object detection, segmentation and classification on different types of images <ref type="bibr" target="#b10">[11]</ref> such as: brain, retinal, chest x-ray, chest CT, breast, cardiac, abdominal and musculoskeletal images. Conversely, little research has tended to deal with skin lesion images. In <ref type="bibr" target="#b15">[16]</ref> authors propose a wound segmentation technique based on a CNN model whose features are then used in infection detection via SVM classifiers and in the healing prediction process via Gaussian Process (GP) Regression. The results show that for wound segmentation, CNN achieved better accuracy compared to the SVM classifier (95% as opposed to 77.6%), whereas for wound infection detection, the SVM classifier trained with CNN features achieved a total accuracy of 84.7%. As for healing prediction, the GP regression model can make long-term future predictions, while <ref type="bibr" target="#b16">[17]</ref> also presents a skin lesion segmentation using multi-tract CNN which extends pertained CNNs for multi-resolution skin lesion classification. The results show greater classification accuracy compared to multi-scale approaches. As for <ref type="bibr" target="#b17">[18]</ref>, the algorithm for skin cancer classification is based on Google s Inception v3 CNN architecture pre-trained on the 1000 object classes (1.28 million images) of 2014 ImageNet Challenge, in which the final classification layer is retrained with their dataset. The results were also accurate for classification purposes with a level of competence comparable to dermatologists. Moreover, deep learning models when applied on the other body part images (brain, chest, etc ...) reveal high performance for segmentation and classification. In brain image analysis, the CNN model was used for lesion segmentation <ref type="bibr" target="#b24">[25]</ref>, <ref type="bibr" target="#b25">[26]</ref>, <ref type="bibr" target="#b26">[27]</ref>, <ref type="bibr" target="#b27">[28]</ref>, tumor segmentation <ref type="bibr" target="#b28">[29]</ref>, <ref type="bibr" target="#b29">[30]</ref>, <ref type="bibr" target="#b30">[31]</ref> and tissue segmentation <ref type="bibr" target="#b31">[32]</ref>, <ref type="bibr" target="#b32">[33]</ref>, <ref type="bibr" target="#b33">[34]</ref>. As for RNN, it was used mainly for tissue segmentation <ref type="bibr" target="#b34">[35]</ref>, <ref type="bibr" target="#b35">[36]</ref>, while in the case of retinal image analysis, all the results were obtained using CNN and evidenced a high degree of accuracy <ref type="bibr" target="#b18">[19]</ref>, <ref type="bibr" target="#b19">[20]</ref>, <ref type="bibr" target="#b20">[21]</ref>, <ref type="bibr" target="#b21">[22]</ref>, <ref type="bibr" target="#b22">[23]</ref>, <ref type="bibr" target="#b23">[24]</ref>.</p><p>In order to achieve accurate tissue segmentation in pressure injuries (stage III and IV), our approach involves using CNN as a deep learning classification technique on a large number of small dataset images. This process is relevant because knowing the tissue type enables the healing process to be assessed and provides medical personnel with a tool for monitoring wound evolution. In section II we describe the Dataset and the proposed architecture, while section III contains results and their discussion which allows us to validate the proposed approach. Lastly section IV summarizes the main works and future perspectives.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Dataset</head><p>The dataset is made up of 22 images of stage III and IV pressure injuries for training and testing, acquired from the Igurko Hospital, Bilbao-Spain, with 4 being purchased from The National Pressure Ulcer Advisory Panel (NPUAP) online store for validation purposes <ref type="bibr">[38]</ref>. The training and test images have a resolution of 1,020x1,020 and were taken using flash due to poor illumination in the nursing facility. The wounds in this dataset are infected, contain necrotic tissue, or are in a healing state evidencing granulation tissue, and all the combinations from tissue types are present in the dataset. These images were automatically cropped in 270,762 RGB matrixes of 5x5x3 in size for granulation tissue, 37,146 for necrotic tissue, and 80,636 for slough. Further details of this process will follow in section II-B.1.</p><p>The images were manually segmented using expert knowledge from medical personnel in order to obtain the ground-truth labeling for tissue classification. A control group comprising two physicians was told to independently examine the ground-truth images and document their professional criteria regarding our manual segmentation. The final segmentation was then obtained by merging both the concept from the control group and the originally proposed marked segments.</p><p>The four segments selected were labeled as follows:</p><p>The external skin is represented by a black background (graylevel 0), necrosis by dark gray (graylevel 89), the granulation by light gray (graylevel 170) and slough by white (graylevel 255). The Fig. <ref type="figure" target="#fig_0">2</ref> shows a set of eight original images (1st and 3rd row) and their corresponding ground-truth (2nd and 4th row).</p><p>Once the dataset was created, it was divided into 2 parts: training set and testing set. The partition percentage would be around 75% for the training set, and 25% for the testing set as shown in the following  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Proposed Framework</head><p>Unlike the state of the art methods that tend to use a large number of images to train the network to obtain a good segmentation results, our approach involves using a limited number of high resolution images and extracting a larger dataset of small images in order to achieve comparable segmentation of the pressure injury. Our architecture for image segmentation is comprises a preprocessing step which from a 1,020x1,020 original pressure injury image crops 5x5 images of the different tissue types as output images with their corresponding labels. The choice of small patch size was based on the size limit in which we do not lose the textures belonging to each class, and the average Once the Convolutional Neural Network is trained, the segmentation of the validation image is then carried out by partitioning the image into 5x5 blocks and classifying each one of them according to the class predicted, from which we construct the segmented image. Fig. <ref type="figure">3</ref> sketches our processing workflow for image segmentation.</p><formula xml:id="formula_0">A C C E P T E D M A N U S C R I P T</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1) Preprocessing:</head><p>The first block in the training step for our system aims at creating the dataset which will be given as input images and their labels to the CNN architecture.</p><p>Since our focus is on tissue classification within the wound area we do not address automatic image masking as presented in <ref type="bibr" target="#b1">[2]</ref>, <ref type="bibr" target="#b40">[43]</ref>, and a black mask was applied on original pressure injury images in order to retain only the wound area. From the extracted region of interest we then need to remove flash light reflection. To achieve this, we convert the images into grayscale in accordance with the radiometric equation <ref type="bibr" target="#b37">[40]</ref>:</p><formula xml:id="formula_1">Y = 0.2126.R + 0.7152.G + 0.0722.B<label>(1)</label></formula><p>These images are then turned into binary images using Otsu's Method described in <ref type="bibr" target="#b38">[41]</ref> where in order to define the white areas.</p><formula xml:id="formula_2">µ 0 = t-1 i=0 ip i ω 0 (t)<label>(2)</label></formula><formula xml:id="formula_3">µ 1 = L-1 i=t ip i ω 1 (t)<label>(3)</label></formula><p>where µ 0 (t) = t-1 i=0 ip i and pi is the probability for the gray scale level i. The mean intensity µ T is represented as µ T = ω 0 µ 0 + ω 1 µ 1 , ω 0 + µ 1 = 1. The objective is to find t that maximizes</p><formula xml:id="formula_4">J(t) = σ 0 + σ 1<label>(4)</label></formula><p>where σ 0 = ω 0 (µ 0µ T ) 2 and σ 1 = ω 1 (µ 1µ T ) 2 . By using the threshold t = 0.95, each pixel is separated into two classes depending on the amplitude in gray scale values.</p><p>Once the binary image has been obtained and flash light zones detected, we then dilate the binary images in order to enlarge these zones. The corresponding zones in the original images are then filled with the value of their boundary pixels in order to retrieve the color of the tissue hidden under the flash light.</p><p>Once the flash light artifacts had been removed, the ground-truth was cut into 5x5 images in order to have a larger amount of sub-images, which each one containing only one class. Our database contains 22 of 1020x1020 images and by applying this technique, we ended up with more than 380,000 small images each one containing a part of one of the studied tissue types. This technique represents the proposed solution to enlarge the database. As mentioned previously, the choice of patch size was made for 2 reasons: a smaller size (1x1 for example) would not preserve the textures and would lead to a confusion between the classes subject to study. In addition, the average number of pixels defining a boundary between two classes in the studied images was measured manually and resulted in 5.48 pixels, hence the size 5x5 chosen. Once we know the label for each one of the patches extracted, we then select the corresponding sub-images in the original images and save them in separate files for the different classes we have at our disposal. The figure below (Fig. <ref type="figure">4</ref>) represents the preprocessing step in our system.</p><p>An example from the 5x5 matrices with tissue information is shown in Fig. <ref type="figure">5</ref>. Note that the matrices labeled as granulation tissue are similar to each other, although the necrotic and slough tissue sub-sets are different. This is due to the fact that necrotic tissue also includes shadows present in the pressure injuries and the slough tissue images have different colors and features because, depending on the bacteria producing the infection, the suppuration color changes. recognition, among others and can recognize patterns with extreme variability for robustness in terms of distortions and geometric transformations. they generally consist of alternating convolution and non-linear layers, followed by fully connected layers leading into a softmax classifier <ref type="bibr" target="#b39">[42]</ref>. These layers are defined as:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2) Convolutional Neural</head><p>• Convolution layer: This is the core building block of a CNN that does most of the computational heavy lifting. It learns the feature localized by the subregions of the input images or the outputs of the previous layer before it. The convolution layer has different features:</p><p>-The filter size indicates the size of the subregions being computed with the filter. -The stride is the step size with which the filter moves all over the image. In some types of architecture, when the stride is higher than 1, it replaces the max-pooling layer that reduces the output size. -The number of filters determines the number of channels in the convolution layer output. -Zero-padding is an action that involves adding borders vertically and horizontally to the input image, and this is generally done to preserve the spatial size of the input so that input and output width and height are the same.</p><p>Usage of all these features is depicted in Fig. <ref type="figure" target="#fig_2">6</ref>, where we illustrate the process in order to obtain an output image by using the convolution filter on a zero-padded input image to preserve its dimensions [39].</p><p>• Pooling layer: this operates independently on every slice of the input and resizes it spatially, using the MAX operation. Pooling layers aim at decreasing the number of parameters needed to characterize layers deeper in the network and at reducing the number of computations needed for training the network.</p><p>• Fully connected layer: this layer gathers all the neurons together. Hence, it combines all the features previously learned to classify the images. The output size of this layer is then equal to the number of classes being studied.</p><p>• Softmax layer: known as normalized exponential, this is an activation function which follows the fully connected layer for multi-class classification purposes.</p><p>• Classification layer: this assigns the output result of the Softmax layer to one of the studied classes by using the cross entropy function. Our system is made up of of 9 layers: 3 convolution layers where the first two are with zero-padding (2x2 and 1x1), and each one is followed by a Rectified Lineal Unit (ReLU1, ReLU2 and ReLU3). The number of feature maps and weights in each convolution layer is 10,20,30 and 760,560,840 respectively. Each feature map detects one kind of features across the image. The choice of filter size was made so as to preserve the textures that belong to each different tissue type in the pressure injury. The fully connected layer is then followed by a Softmax Layer, ending with a classification layer which gives rise to the probability of patch belonging to one of the 3 predicted classes, as shown in Fig. <ref type="figure">7</ref>. The algorithm was coded on Matlab 2017a using Neural Network Toolbox.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A C C E P T E D M A N U S C R I P T</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Validation metrics</head><p>The segmentation method was evaluated using five performance measures: accuracy, Dice Similarity Coefficient (DSC), sensitivity, specificity and precision <ref type="bibr" target="#b41">[44]</ref> . To explain these metrics, the different regions that are generated when comparing the ground truth with the segmented results obtained are shown in Fig. <ref type="figure">8</ref>. The True Positive (TP) region refers to those pixels that were correctly classified in a targeted class, the False Positive (FP) region refers to those pixels mistakenly classified as belonging to the targeted class and the False Negative (FN) region refers to those pixels belonging to the targeted class that were not classified in that class, while the True Negative (TN) region refers to those pixels that do not belong to the target class and are excluded.</p><p>• Accuracy: the segmentation accuracy is the ratio of the number of pixels accurately clustered by the algorithm out of the total number of pixels segmented.</p><p>• Dice Similarity Coefficient (DSC): this is measured for each class segmentation considered apart, and also for the whole segmentation, by calculating the sum of weighted dice similarity coefficients of each class as follows:</p><formula xml:id="formula_5">DSC = 2|Ground truth ∩ Detection| |Ground truth| + |Detection| (5)</formula><p>The weighted DSC for the whole segmentation is as follows:</p><formula xml:id="formula_6">DSC w = n i=1 DSC i × w i (6)</formula><p>where DSC i is the DSC corresponding to each class when measured alone, and w i is a ratio of the number of pixels in the class i out of the sum of pixels of all the classes.</p><p>• Sensitivity: also named "recall", this represents the ratio of class pixels accurately segmented out of the union of ground-truth same class pixels.</p><formula xml:id="formula_7">Sensitivity = TP TP + FN<label>(7)</label></formula><p>• Specificity: this represents the ratio of negatives that are correctly identified.</p><formula xml:id="formula_8">Specificity = TN TN + FP<label>(8)</label></formula><p>For exact segmentation sensitivity, specificity and total DSC should be equal to one.</p><p>• Precision: this represents the ratio of a class pixels accurately clustered out of the union of segmented same-class pixels.</p><formula xml:id="formula_9">Precision = TP TP + FP<label>(9)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Results</head><p>The significant advantage of our proposed approach lies in its capability to accurately segment the wound's different tissue types. We measure the performance of our proposal for both the classification and the segmentation tasks, and the accuracy of the classification of the different 3 types of tissue was 92.01% . Classification from these masks allows us to perform image segmentation in spite of the adverse registry conditions such as diverse illumination conditions and image distortion, among others.</p><p>The results for the segmentation task are presented for the pressure injuries depicted in Fig. <ref type="figure">9</ref> are shown in Tables I through V. Each of these tables corresponds to columns (a) to (d) of Fig. <ref type="figure">9</ref> respectively. We obtained the validation metrics shown in section III for the tissue classes. Note that in Fig. <ref type="figure">9</ref>  Note that, slough tissue was partly misclassified because there are different textures related to it. Depending on the different types of bacteria, the infection generated by slough tissue has different colors such as off-white, green, light yellow and dark yellow, which can confuse the system. In the TABLE III we show the results when only granulation tissue is contained in the wound, and in this case we achieve a DSC of 98.35% for this kind of tissue. The results obtained when two classes of tissue are contained in the wound are shown in TABLE V, and in this case the injury contains granulation and slough, each of them classified by the system with DSCs of 96.73% and 81.19% respectively.</p><p>With this system we obtained an average DSC w of 91.38%, and an average precision per class of 97.31% for granulation tissue, 96.59% for necrotic tissue, and 77.90% for slough tissue. The sensitivity and specificity for all examples were also computed for each tissue type in each case, and the tissue segmentation processing times were also evaluated, with these times ranging from 46 to 83 seconds on an Intel R Core TM i7-5500 CPU at 2.40 GHz an NVIDIA R GeForce R GTX 780 graphics card.     Despite the fact that our method for pressure injury tissue classification was used on a different database from the ones used in the state of the art techniques, our results provided compelling evidence that the strategy proposed is more reliable when compared to other research reported, with regard to their image segmentation approaches. Skin wound segmentation research was previously carried out using machine learning and other methods and revealed good results. R. Mukherjee et al. proposes segmentation performed by converting the RGB images to HSI, then using Fuzzy Divergence Based Thresholding and mathematical morphology operations combined <ref type="bibr" target="#b6">[7]</ref>. As for classification, they use color and textural features exacted from fifteen color spaces, and the color-based features were namely: mean, standard deviation, skewness, kurtosis and variance. Conversely, ten textural features were extracted: Shannons entropy, three local contrast features and six local binary pattern features. Regarding the classification algorithms, they used Bayesian and Support Vector Machine algorithms to classify the three major part of the wound: granulation, slough and necrosis. The results showed an overall accuracy of 87.61%. F. J. Veredas et al. chose to combine the mean-shift smoothing procedure and the region-growing algorithm for the segmentation and carried out tissue-type classification using three different machine learning methods namely: Neural Networks, Support Vector Machine and Random-Forest decision trees <ref type="bibr" target="#b8">[9]</ref>. The evaluation metrics showed an overall accuracy of 88.08% using SVM classification method with their database,as compared to 92.01% using our approach and database. Thus, Our proposed system will enable physicians and medical staff to assess pressure injuries efficiently by providing them with accurate measurements of</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A C C E P T E D M A N U S C R I P T</head><p>the different tissue types present in the wounds, and consequently predicting their healing progress and examine the effectiveness of the applied treatment.</p><p>However, the model has some limitations. Due to depth in some pressure injuries, there are some parts that appear dark in the images. Our system then confuses them with necrotic tissue, which is generally very dark in color. Several classes of infections also exist that are produced by different bacteria, and the slough tissue color changes depending on the kind of the bacteria. These changes affect the classification and should be split depending on the bacteria producing the infection in question.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. CONCLUSION</head><p>We have presented an approach for automatic tissue segmentation using a Convolutional Neural Network. As the proposed methodology is based on the classification of different tissue types (necrotic, granulation and slough), it enables complicated structures within the image to be recognized. By using this methodology we were able to obtain very good results and demonstrate that the proposed method is robust in terms of the various aspects that the same tissue type may have, with minimum preprocessing and no post-processing. Thanks to the promising results obtained, we are sure that our system will enable clinicians to assess a wound's healing using the accurate tissue measurements provided, and to differentiate from among the wound's composition, which is an essential step in pressure injury diagnosis. We are currently working on expanding our dataset in order to be able to include new different classes for classification purposes, such as depths and shadows in the wound, healing skin on the injury boundary and color addressing of infection, among others. Adding more pressure injury images from all body parts (sacral, ischium, gluteus, hips, and heels of all bed-bound patients and also diabetic foot) and with different tissue types will increase the efficiency of the classification. By having more images of the studied classes, the system will be able to better recognize the textures of the tissue types, especially slough which has many textures depending on the bacteria causing the infection. We are currently working on increasing our database by capturing new high quality images of pressure injuries from cooperative hospitals. The proposed methodology is useful not only for the assessment of pressure injuries but also other skin conditions and for the segmentation and classification of images based on class texture.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. ACKNOWLEDGMENT</head><p>This project has been funded by the University of Louisville Computer Engineering and Computer Science Department. The authors would like to thank the Igurko Hospital in Bilbao, Spain, for the images provided in order to carry out this work. Acknowledgment to Basque country government that partially funded this project with IT905-16 grant.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 :</head><label>2</label><figDesc>Fig. 2: A set of pressure injury images and their corresponding ground-truth segmentation used to create the dataset and labels</figDesc><graphic coords="5,49.18,82.36,220.60,208.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 :Fig. 4 :Fig. 5 :</head><label>345</label><figDesc>Fig. 3: Proposed architecture for image segmentation using deep learning technique</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 6 :</head><label>6</label><figDesc>Fig. 6: Illustration of the convolution layer with a filter size 3x3 and a zero-padding 1x1 [39]</figDesc><graphic coords="7,61.44,109.34,196.09,116.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 7 :Fig. 8 :</head><label>78</label><figDesc>Fig. 7: Proposed Convolutional Neural Network architecture for image segmentation</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="6,40.43,82.36,490.22,157.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,69.84,82.36,431.42,237.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="9,64.94,82.36,441.21,277.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>table :</head><label>:</label><figDesc></figDesc><table><row><cell></cell><cell cols="2">Training Testing</cell></row><row><cell>Granulation</cell><cell>203,072</cell><cell>67,690</cell></row><row><cell>Necrosis</cell><cell>27,860</cell><cell>9,286</cell></row><row><cell>Slough</cell><cell>60,477</cell><cell>20,159</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE I :</head><label>I</label><figDesc>Number of images for training and testing of CNN architecture</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE II :</head><label>II</label><figDesc>Results of the segmentation of image Fig 9 (a) containing granulation, slough and necrosis</figDesc><table><row><cell></cell><cell cols="2">Predicted tissue types</cell><cell></cell></row><row><cell cols="4">Evaluation metrics Granulation Necrosis Slough</cell></row><row><cell>DSC</cell><cell>98.35</cell><cell>N/A</cell><cell>N/A</cell></row><row><cell>Sensitivity</cell><cell>98.29</cell><cell>N/A</cell><cell>N/A</cell></row><row><cell>Specificity</cell><cell>N/A</cell><cell>99.99</cell><cell>99.74</cell></row><row><cell>Precision</cell><cell>100</cell><cell>N/A</cell><cell>N/A</cell></row><row><cell>DSCw</cell><cell></cell><cell>98.35</cell><cell></cell></row><row><cell>Processing time</cell><cell></cell><cell>56s</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>TABLE III</head><label>III</label><figDesc>Fig. 9: Examples of original images and their corresponding ground-truth and output segmentation using deep learning</figDesc><table><row><cell>Predicted tissue types Evaluation metrics Granulation Necrosis Slough DSC 96.91 86.15 61.67 Sensitivity 98.11 94.57 58.12 Specificity 70.99 99.48 98.05 Precision 92.65 99.11 80.01 M A N U S C R I P T DSCw 87.74</cell></row><row><cell>A C C E P T E D Processing time 46s</cell></row><row><cell>: Results of the segmentation of image Fig 9 (b)</cell></row><row><cell>containing only granulation</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>TABLE IV</head><label>IV</label><figDesc></figDesc><table><row><cell cols="4">: Results of the segmentation of image Fig 9 (c)</cell></row><row><cell cols="3">containing granulation, slough and necrosis</cell><cell></cell></row><row><cell></cell><cell cols="2">Predicted tissue types</cell><cell></cell></row><row><cell cols="4">Evaluation metrics Granulation Necrosis Slough</cell></row><row><cell>DSC</cell><cell>96.73</cell><cell>N/A</cell><cell>81.19</cell></row><row><cell>Sensitivity</cell><cell>81.66</cell><cell>N/A</cell><cell>95.49</cell></row><row><cell>Specificity</cell><cell></cell><cell>99.93</cell><cell>82.87</cell></row><row><cell>Precision</cell><cell>98.87</cell><cell>N/A</cell><cell>81.09</cell></row><row><cell>DSCw</cell><cell></cell><cell>83.94</cell><cell></cell></row><row><cell>Processing time</cell><cell></cell><cell>83s</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>TABLE V</head><label>V</label><figDesc></figDesc><table><row><cell>: Results of the segmentation of image Fig 9 (d)</cell></row><row><cell>containing only granulation and slough</cell></row><row><cell>IV. DISCUSSION</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,310.31,139.48,220.35,8.65;10,310.31,148.20,220.36,8.65;10,310.31,156.92,220.36,8.65;10,310.31,165.64,63.96,8.65" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Pressure Ulcers Prevalence in the Acute Care Setting: A Systematic Review, 2000-2015</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tubaishat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Papanikolaou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Anthony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Habiballah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Nursing Research</title>
+		<imprint>
+			<biblScope unit="page">1054773817705541</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,174.68,220.36,8.65;10,310.31,183.40,220.36,8.65;10,310.31,192.12,220.36,8.65;10,310.31,200.84,90.60,8.65" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Pressure ulcer image segmentation technique through synthetic frequencies generation and contrast variation using toroidal geometry</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Ortiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sierra-Sosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Zapirain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomedical engineering online</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">4</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,209.88,220.36,8.65;10,310.31,218.60,220.36,8.65;10,310.31,227.32,220.36,8.65;10,310.31,236.04,220.36,8.65;10,310.31,244.77,94.04,8.65" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A non-contact imaging-based approach to detecting stage I pressure ulcers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Leachtenauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Newcomer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alwan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">EMBS&apos;06. 28th Annual International Conference of the IEEE</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2006-08">2006. August. 2006</date>
+			<biblScope unit="page" from="6380" to="6383" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,253.80,220.36,8.65;10,310.31,262.53,220.36,8.65;10,310.31,271.25,152.44,8.65" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">An image mining based approach to detect pressure ulcer stage</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guadagnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D S</forename><surname>Neves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Santana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Guilhem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern recognition and image analysis</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="292" to="296" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,280.28,220.36,8.65;10,310.31,289.01,220.36,8.65;10,310.31,297.73,172.10,8.65" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Wound status evaluation using color image processing</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Sparrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Kokate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Leland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Iaizzo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Medical Imaging</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="78" to="86" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,306.77,220.36,8.65;10,310.31,315.49,181.11,8.65" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Comparison of different imaging techniques used for chronic wounds</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Mankar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Nagdeve</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IJRET</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="68" to="70" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,324.52,220.36,8.65;10,310.31,333.25,220.36,8.65;10,310.31,341.97,220.36,8.65;10,310.31,350.69,61.28,8.65" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Automated tissue classification framework for reproducible chronic wound assessment</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Manohar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Achar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note>BioMed research international</note>
+</biblStruct>
+
+<biblStruct coords="10,310.31,359.73,220.35,8.65;10,310.31,368.45,220.36,8.65;10,310.31,377.17,220.36,8.65;10,310.31,385.89,220.36,8.65;10,310.31,394.61,159.34,8.65" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Color and texture influence on computer-aided diagnosis of dermatological ulcers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V N</forename><surname>Bedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F D</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J M</forename><surname>Traina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Frade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Junior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computer-Based Medical Systems (CBMS), 2015 IEEE 28th International Symposium on</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2015-06">2015. June</date>
+			<biblScope unit="page" from="109" to="114" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,403.65,220.35,8.65;10,310.31,412.37,220.36,8.65;10,310.31,421.09,160.28,8.65" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Wound image evaluation with machine learning</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Veredas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Luque-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Martín-Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Morilla-Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="112" to="122" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,430.13,220.36,8.65;10,310.31,438.85,220.36,8.65;10,310.31,447.57,220.36,8.65;10,310.31,456.30,220.36,8.65;10,310.31,465.02,180.14,8.65" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Blue-white veil and dark-red patch of pigment pattern recognition in dermoscopic images using machine-learning techniques</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L G</forename><surname>Arroyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Zapirain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Zorrilla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Signal Processing and Information Technology (ISSPIT), 2011 IEEE International Symposium on</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2011-12">2011, December</date>
+			<biblScope unit="page" from="196" to="201" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,474.06,220.36,8.65;10,310.31,482.78,220.35,8.65;10,310.31,491.50,220.36,8.65" xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Litjens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kooi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Bejnordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A A</forename><surname>Setio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ciompi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghafoorian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename></persName>
+		</author>
+		<idno type="arXiv">arXiv:1702.05747</idno>
+		<title level="m">A survey on deep learning in medical image analysis</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct coords="10,310.31,500.54,220.36,8.65;10,310.31,509.26,220.36,8.65;10,310.31,517.98,155.78,8.65" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Imagenet classification with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krizhevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="1097" to="1105" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,527.02,220.35,8.65;10,310.31,535.74,164.03,8.65" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Very deep convolutional networks for large-scale image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simonyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1409.1556</idno>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,544.78,220.36,8.65;10,310.31,553.50,220.36,8.65;10,310.31,562.22,98.74,8.65" xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sermanet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Anguelov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Erhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vanhoucke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rabinovich</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1409.4842</idno>
+		<title level="m">Going deeper with convolutions</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,571.26,220.36,8.65;10,310.31,579.98,120.00,8.65" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Deep residual learning for image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1512.03385</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,589.02,220.36,8.65;10,310.31,597.74,220.36,8.65;10,310.31,606.46,220.36,8.65;10,310.31,615.18,220.36,8.65;10,310.31,623.90,220.36,8.65;10,310.31,632.63,41.47,8.65" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A unified framework for automatic wound segmentation and analysis with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kochhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">th Annual International Conference of the IEEE</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2015-08">2015. August. 2015</date>
+			<biblScope unit="page" from="2415" to="2418" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,641.66,220.36,8.65;10,310.31,650.38,220.36,8.65;10,310.31,659.11,220.36,8.65;10,310.31,667.83,154.91,8.65" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Multi-resolution-Tract CNN with Hybrid Pretrained and Skin-Lesion Trained Layers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kawahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hamarneh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Workshop on Machine Learning in Medical Imaging</title>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016-10">2016, October</date>
+			<biblScope unit="page" from="164" to="171" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,676.87,220.36,8.65;10,310.31,685.59,220.36,8.65;10,310.31,694.31,208.80,8.65" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Dermatologist-level classification of skin cancer with deep neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Esteva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kuprel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Novoa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Swetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Blau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thrun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">542</biblScope>
+			<biblScope unit="issue">7639</biblScope>
+			<biblScope unit="page" from="115" to="118" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.31,703.35,220.36,8.65;10,310.31,712.07,220.36,8.65;10,310.31,720.79,220.36,8.65;10,310.31,729.51,220.36,8.65;10,310.31,738.23,106.85,8.65" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Deepvessel: Retinal vessel segmentation via deep learning and conditional random field</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W K</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Medical Image Computing and Computer-Assisted Intervention</title>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016-10">2016, October</date>
+			<biblScope unit="page" from="132" to="139" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,87.03,220.35,8.65;11,58.19,95.75,220.35,8.65;11,58.19,104.47,220.36,8.65;11,58.19,113.19,177.14,8.65" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Retinal vessel segmentation via deep learning network and fully-connected conditional random fields</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W K</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biomedical Imaging (ISBI), 2016 IEEE 13th International Symposium on</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016-04">2016, April</date>
+			<biblScope unit="page" from="698" to="701" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,122.72,220.35,8.65;11,58.19,131.44,220.35,8.65;11,58.19,140.16,220.35,8.65;11,58.19,148.88,196.69,8.65" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Deep retinal image understanding</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Maninis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pont-Tuset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Arbeláez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Gool</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Medical Image Computing and Computer-Assisted Intervention</title>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016-10">2016, October</date>
+			<biblScope unit="page" from="140" to="148" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,158.41,220.35,8.65;11,58.19,167.14,220.35,8.65;11,58.19,175.86,220.35,8.65;11,58.19,184.58,126.06,8.65" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Deep vessel tracking: A generalized probabilistic approach via deep learning</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Buty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mollura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biomedical Imaging (ISBI), 2016 IEEE 13th International Symposium on</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016-04">2016, April</date>
+			<biblScope unit="page" from="1363" to="1367" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,194.11,220.35,8.65;11,58.19,202.83,220.35,8.65;11,58.19,211.55,220.35,8.65;11,58.19,220.27,66.36,8.65" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Glaucoma detection using entropy sampling and ensemble learning for automatic optic cup and disc segmentation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Buhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mahapatra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computerized Medical Imaging and Graphics</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="28" to="41" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,229.80,220.35,8.65;11,58.19,238.52,220.35,8.65;11,58.19,247.24,153.61,8.65" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Automatic feature learning to grade nuclear cataracts based on deep learning</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Biomedical Engineering</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2693" to="2701" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,256.77,220.35,8.65;11,58.19,265.49,220.35,8.65;11,58.19,274.22,220.35,8.65;11,58.19,282.94,220.35,8.65;11,58.19,291.66,77.44,8.65" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Longitudinal multiple sclerosis lesion segmentation using multi-view convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Birenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Greenspan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Workshop on Large-Scale Annotation of Biomedical Data and Expert Label Synthesis</title>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016-10">2016, October</date>
+			<biblScope unit="page" from="58" to="67" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,301.19,220.36,8.65;11,58.19,309.91,220.35,8.65;11,58.19,318.63,220.36,8.65;11,58.19,327.35,220.35,8.65;11,58.19,336.07,17.44,8.65" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Deep 3D convolutional encoder networks with shortcuts for multiscale feature integration applied to multiple sclerosis lesion segmentation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Traboulsee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE transactions on medical imaging</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1229" to="1239" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,345.60,220.36,8.65;11,58.19,354.32,220.35,8.65;11,58.19,363.05,220.36,8.65;11,58.19,371.77,219.41,8.65" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Platel, B., 2016a. Location sensitive deep convolutional neural networks for segmentation of white matter hyperintensities</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghafoorian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Karssemeijer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Heskes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Van Uden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Litjens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-E</forename><surname>De Leeuw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Ginneken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marchiori</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1610.04834</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,381.30,220.36,8.65;11,58.19,390.02,220.35,8.65;11,58.19,398.74,220.36,8.65;11,58.19,407.46,220.36,8.65;11,58.19,416.18,220.36,8.65;11,58.19,424.90,18.73,8.65" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Non-uniform patch sampling with deep convolutional neural networks for white matter hyperintensity segmentation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghafoorian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Karssemeijer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Heskes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W M</forename><surname>Van Uder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>De Leeuw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marchiori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Platel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE 13th International Symposium on</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016-04">2016, April. 2016</date>
+			<biblScope unit="page" from="1414" to="1417" />
+		</imprint>
+	</monogr>
+	<note>Biomedical Imaging (ISBI)</note>
+</biblStruct>
+
+<biblStruct coords="11,58.19,434.43,220.35,8.65;11,58.19,443.15,220.35,8.65;11,58.19,451.88,202.06,8.65" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Brain tumor segmentation with deep neural networks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Havaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Davy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Warde-Farley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Biard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Courville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Larochelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical image analysis</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="18" to="31" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,461.41,220.35,8.65;11,58.19,470.13,220.35,8.65;11,58.19,478.85,220.35,8.65;11,58.19,487.57,196.69,8.65" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">HeMIS: Hetero-modal image segmentation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Havaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Guizard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chapados</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Medical Image Computing and Computer-Assisted Intervention</title>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="469" to="477" />
+		</imprint>
+	</monogr>
+	<note>October)</note>
+</biblStruct>
+
+<biblStruct coords="11,58.19,497.10,220.36,8.65;11,58.19,505.82,220.35,8.65;11,58.19,514.54,220.35,8.65;11,58.19,523.26,113.13,8.65" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kamnitsas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ledig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">F</forename><surname>Newcombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Kane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Menon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Glocker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical image analysis</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="61" to="78" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,532.79,220.35,8.65;11,58.19,541.51,220.35,8.65;11,58.19,550.24,220.36,8.65;11,58.19,558.96,13.57,8.65" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Deep convolutional neural networks for multi-modality isointense infant brain image segmentation</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="214" to="224" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,568.49,220.35,8.65;11,58.19,577.21,220.35,8.65;11,58.19,585.93,58.38,8.65" xml:id="b32">
+	<monogr>
+		<title level="m" type="main">VoxResNet: Deep voxelwise residual networks for volumetric brain segmentation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P.-A</forename><surname>Heng</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1608.05895</idno>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,595.46,220.35,8.65;11,58.19,604.18,220.35,8.65;11,58.19,612.90,220.35,8.65;11,58.19,621.62,126.05,8.65" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Automatic segmentation of MR brain images with a convolutional neural network</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Moeskops</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Viergever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mendrik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>De Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Benders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Išgum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE transactions on medical imaging</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1252" to="1261" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,631.15,220.36,8.65;11,58.19,639.87,220.36,8.65;11,58.19,648.59,220.35,8.65;11,58.19,657.32,119.26,8.65" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Parallel multi-dimensional lstm, with application to fast biomedical volumetric image segmentation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Stollenga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Byeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liwicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schmidhuber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="2998" to="3006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,666.85,220.36,8.65;11,58.19,675.57,220.36,8.65;11,58.19,684.29,220.36,8.65;11,58.19,693.01,220.35,8.65;11,58.19,701.73,77.44,8.65" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Multidimensional gated recurrent units for the segmentation of biomedical 3D-data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andermatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pezold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cattin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Workshop on Large-Scale Annotation of Biomedical Data and Expert Label Synthesis</title>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016-10">2016, October</date>
+			<biblScope unit="page" from="142" to="151" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,58.19,711.26,220.36,8.65;11,58.19,719.98,220.35,8.65;11,58.19,728.70,198.88,8.65" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">An image mining based approach to detect pressure ulcer stage</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guadagnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D S</forename><surname>Neves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Santana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Guilhem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern recognition and image analysis</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="292" to="296" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.31,113.19,220.36,8.65;11,310.31,121.91,52.01,8.65" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Handbook of image and video processing</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Bovik</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Academic press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.31,130.63,220.36,8.65;11,310.31,139.36,220.36,8.65;11,310.31,148.08,117.88,8.65" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Otsu based optimal multilevel image thresholding using firefly algorithm</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Raja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Rajinikanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Latha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Modelling and Simulation in Engineering</title>
+		<imprint>
+			<biblScope unit="page">37</biblScope>
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.31,156.80,220.36,8.65;11,310.31,165.52,105.22,8.65" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">An Overview of Convolutional Neural Network Architectures for Deep Learning</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Murphy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.31,174.24,220.36,8.65;11,310.31,182.96,220.36,8.65;11,310.31,191.68,220.36,8.65;11,310.31,200.41,206.04,8.65" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Self-organizing maps for masking mammography images</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Rickard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Tourassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Elmaghraby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Information Technology Applications in Biomedicine, 2003. 4th International IEEE EMBS Special Topic Conference on</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2003-04">2003, April</date>
+			<biblScope unit="page" from="302" to="305" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.31,209.13,220.36,8.65;11,310.31,217.85,220.35,8.65;11,310.31,226.57,220.36,8.65" xml:id="b41">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Litjens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kooi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Bejnordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A A</forename><surname>Setio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ciompi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghafoorian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename></persName>
+		</author>
+		<idno type="arXiv">arXiv:1702.05747</idno>
+		<title level="m">A survey on deep learning in medical image analysis</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Prevalence and incidence of chronic wounds and related complications: a protocol for a systematic review</title>
+				<funder>
+					<orgName type="full">Lee Kong Chian School of Medicine, Nanyang Technological University</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">A*STAR</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NTU or A*STAR. Lee Kong Chian School of Medicine, NTU</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">A*STAR BMRC Strategic Positioning Fund</orgName>
+					<orgName type="abbreviated">SPF</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Krister</forename><surname>Järbrink</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="department" key="dep2">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="department" key="dep3">Experimental Medicine Building</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<addrLine>59 Nanyang Drive</addrLine>
+									<postCode>636921</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="department" key="dep2">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="department" key="dep3">Experimental Medicine Building</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<addrLine>59 Nanyang Drive</addrLine>
+									<postCode>636921</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gao</forename><surname>Ni</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="department" key="dep2">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="department" key="dep3">Experimental Medicine Building</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<addrLine>59 Nanyang Drive</addrLine>
+									<postCode>636921</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="department" key="dep2">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="department" key="dep3">Experimental Medicine Building</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<addrLine>59 Nanyang Drive</addrLine>
+									<postCode>636921</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Henrik</forename><surname>Sönnergren</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Dermatology</orgName>
+								<orgName type="institution">Skåne University Hospital</orgName>
+								<address>
+									<addrLine>Lasarettsgatan 15</addrLine>
+									<postCode>221 85</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Artur</forename><surname>Schmidtchen</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Dermatology and Innate Immunity Laboratory</orgName>
+								<orgName type="department" key="dep2">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<addrLine>59 Nanyang Drive</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Experimental Medicine Building</orgName>
+								<address>
+									<postCode>636921</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Caroline</forename><surname>Pang</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Medical Library</orgName>
+								<orgName type="institution">Lee Kong Chian School of Medicine</orgName>
+								<address>
+									<addrLine>11 Mandalay Road</addrLine>
+									<postCode>636921</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ram</forename><surname>Bajpai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="department" key="dep2">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="department" key="dep3">Experimental Medicine Building</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<addrLine>59 Nanyang Drive</addrLine>
+									<postCode>636921</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="department" key="dep2">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="department" key="dep3">Experimental Medicine Building</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<addrLine>59 Nanyang Drive</addrLine>
+									<postCode>636921</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Josip</forename><surname>Car</surname></persName>
+							<email>josip.car@imperial.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="department" key="dep2">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="department" key="dep3">Experimental Medicine Building</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<addrLine>59 Nanyang Drive</addrLine>
+									<postCode>636921</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Primary Care and Public Health</orgName>
+								<orgName type="department" key="dep2">School of Public Health</orgName>
+								<orgName type="laboratory">Global eHealth Unit</orgName>
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<addrLine>3rd Floor Reynolds Building, St Dunstan&apos;s Road</addrLine>
+									<postCode>W6 8RP</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="department" key="dep2">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="department" key="dep3">Experimental Medicine Building</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<addrLine>59 Nanyang Drive</addrLine>
+									<postCode>636921</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Department of Primary Care and Public Health</orgName>
+								<orgName type="department" key="dep2">School of Public Health</orgName>
+								<orgName type="laboratory">Global eHealth Unit</orgName>
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<addrLine>3rd Floor Reynolds Building, St Dunstan&apos;s Road</addrLine>
+									<postCode>W6 8RP</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Prevalence and incidence of chronic wounds and related complications: a protocol for a systematic review</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">789F683826D8AE8657C38FD5429BB121</idno>
+					<idno type="DOI">10.1186/s13643-016-0329-y</idno>
+					<note type="submission">Received: 29 April 2016 Accepted: 31 August 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Chronic wounds, Hard-to-heal ulcers, Wound infection, Ulcer, Wound healing, Diabetic foot, Amputation, Epidemiology, Prevalence, Incidence Abbreviations: CINAHL, Cumulative Index to Nursing and allied Health Literature</term>
+					<term>GRADE, Grading of Recommendations Assessment, Development and Evaluation</term>
+					<term>PRISMA-P, Preferred Reporting Items for Systematic Reviews and Meta-Analyses Protocols</term>
+					<term>PROSPERO, International Prospective Register of Systematic Reviews</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Chronic wounds impose a significant and often underappreciated burden to the individual, the healthcare system and the society as a whole. Preliminary literature search suggests that there are at present no reliable estimates on the total prevalence of chronic wounds for different settings and categories of chronic wounds. Such information is essential for policy and planning purposes as the increasing number of elderly and the prevalence of lifestyle diseases point in the direction of an increased burden. Knowledge about the prevalence and incidence of chronic wounds in relation to population characteristics is important for informing healthcare planning and resource allocation. The objective is to present a transparent process for how to review the existing literature on the prevalence and incidence rates of chronic wounds and resulting implications. Methods/design: We will search electronic bibliographic databases (MEDLINE, EMBASE, the EBM Reviews and Cochrane, Cumulative Index to Nursing and allied Health Literature (CINAHL), PsycINFO, Global Health) and reference lists of included articles. Two investigators will independently screen titles and abstracts and select studies involving adults with chronic wounds. These investigators will also independently extract data using a pre-designed data extraction form that will cover information on demographics, diagnostics including disease prevalence, medical history, hospital and community-based management and outcomes. Subgroup analysis and sensitivity analysis will be performed to address the heterogeneity across studies. Meta-analysis will also be performed if homogeneous group of studies will be found. The collective evidence will be further stratified according to the important background variables if allowed. Discussion: This study will describe the available epidemiological evidence and summarise prevalence and incidence rates of chronic wounds and related complications. A better understanding of the relationship between population profile and the prevalence of chronic wounds and related complications will be helpful in the development of guidelines for patient management.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>A chronic wound can be defined as one that has failed to proceed through an orderly and timely reparative process to produce anatomic and functional integrity within a period of 3 months or that has proceeded through the repair process without establishing a sustained, anatomic and functional result <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. The nomenclature is far from agreed upon, and these wounds are sometimes referred to as hard-to-heal or difficult-to-heal wounds/ulcers, and the time span required for chronicity has been defined in the range 4 weeks up to more than 3 months <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. Based on the causative aetiologies, the Wound Healing Society classifies chronic wounds into four categories: pressure ulcers, diabetic ulcers, venous ulcers and arterial insufficiency ulcers <ref type="bibr" target="#b4">[5]</ref>. Chronic wounds are often termed ulcers and can be defined as wounds with a full thickness in depth and a slow healing tendency. Often disguised as a comorbid condition, chronic wounds represent a silent epidemic that affects a large fraction of the world population <ref type="bibr" target="#b5">[6]</ref>. It is estimated that 1 to 2 % of the population will experience a chronic wound during their lifetime in developed countries <ref type="bibr" target="#b6">[7]</ref>. The dramatic increase in the ageing population will increase these numbers as wound closure is negatively associated with age <ref type="bibr" target="#b7">[8]</ref>. Complications of chronic wounds include infection such as cellulitis and infective venous eczema, gangrene, haemorrhage and lower-extremity amputations. Chronic wounds lead to disability and disability worsens wound outcomes resulting in a vicious cycle <ref type="bibr" target="#b8">[9]</ref>.</p><p>Due to the low base rate of complete healing in the natural history <ref type="bibr" target="#b9">[10]</ref>, chronic wounds have a significant impact on the health and quality of life of patients and their families, causing pain, loss of function and mobility, depression, distress and anxiety, embarrassment and social isolation, financial burden, prolonged hospital stays and chronic morbidity or even death <ref type="bibr" target="#b10">[11]</ref>. Evidence suggests that chronic wounds impose significant and often underappreciated burden to the individual, the healthcare system and the society as a whole <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>. In the USA, for example, chronic wounds are reported to affect 6.5 million patients with more than US$25 billion each year spent by the healthcare system on treating wound-related complications <ref type="bibr" target="#b5">[6]</ref>. The costly nature of chronic wound management is further confirmed with estimates from the UK, where the cost to the National Health Service of caring for patients with chronic wounds were conservatively estimated at US$3.4-4.6 billion per year (in 2005) representing around 3 % of the total estimated out-turn expenditure on health for the same period <ref type="bibr" target="#b13">[14]</ref>.</p><p>Preliminary literature search suggests that there are at present no reliable estimates on the total prevalence and incidence of chronic wounds for different settings and categories of chronic wounds <ref type="bibr" target="#b14">[15]</ref>. The wide disparity of the epidemiological estimates arises mainly from significant heterogeneity in terms of study design and data collection method <ref type="bibr" target="#b14">[15]</ref>. The varieties also come from the way of reporting prevalence: some report point prevalence while others report period prevalence <ref type="bibr" target="#b14">[15]</ref>. The same disparity is also found in incidence reports. We aim to embrace a larger number of databases and a considerable broader search strategy compared to a previous review <ref type="bibr" target="#b14">[15]</ref>. We also intend to thoroughly assess and consider the quality of included studies and carefully pay regard to the applied definitions of chronic wounds. These approaches are believed to provide more reliable estimates on the prevalence for different settings and categories of chronic wounds than previously presented. Such information is essential for policy and planning purposes particularly as the increasing number of elderly and the increase in the prevalence of lifestyle diseases further raise the risk for chronic wounds. The literature review is intended to gather the existing knowledge and identify factors of importance to the prevalence of chronic wounds and to the incidence of complications. The focus is on chronic wounds in the categories of pressure ulcers, diabetic ulcers, venous ulcers and arterial insufficiency ulcers.</p><p>Specific review questions are:</p><p>What is the prevalence and incidence of chronic wounds in the categories of pressure ulcers, diabetic ulcers, venous ulcers and arterial insufficiency ulcers, for different settings and subgroups according to internationally published studies? What is the prevalence and incidence of infections, gangrene, haemorrhage and limb amputation among patients with chronic wounds in the categories of pressure ulcers, diabetic ulcers, venous ulcers and arterial insufficiency ulcers, for different settings and subgroups according to internationally published studies?</p><p>Further knowledge about the distribution of chronic wounds and related complications in different settings and among subgroups is essential for informing healthcare planning and resource allocation. Pooling of such data is also necessary to monitor trends in disease burden and to contribute to the design of further etiological studies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objectives</head><p>The overall aim of this systematic review protocol is to present a transparent process for how the information will be collected on the prevalence and incidence of chronic wounds and related complications. This will include the key research questions that this systematic review will address, a description of systematic literature search strategies, criteria for inclusion or exclusion of studies, a description of coding procedures, study quality measures and statistical procedures for the quantitative analysis of data from eligible studies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protocol</head><p>The methods for this systematic review have been developed according to the recommendations from the Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols (PRISMA-P) 2015 statement <ref type="bibr" target="#b15">[16]</ref>. This systematic review protocol has been registered in the International Prospective Register of Systematic reviews (PROSPERO): CRD42016037355). A PRISMA-P file is attached (see Additional file 1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Eligibility criteria Population</head><p>The population of interest will include adult patients 18 years of age and older with pressure ulcers, diabetic ulcers, venous ulcers and arterial ulcers. Patients with chronic wounds resulting from surgical wounds and skin tumours will be excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome</head><p>The primary outcome will be the point prevalence, period prevalence, cumulative incidence and incidence rate of chronic wounds in the categories of pressure ulcers, diabetic ulcers, venous ulcers and arterial ulcers, and complications thereof in four categories (infections, gangrene, haemorrhage and limb amputation). Secondary outcomes will be dropping out, the reasons for that, and the number of deaths by cause.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>Studies will be restricted by design and observational studies, cross-sectional studies, cohort studies, casecontrol studies, single arm studies and systemic review/ meta-analyses will be included. Non-research letters and editorials, seminar reviews, case studies, case series and animal studies will be excluded. Randomised controlled trials will be excluded based on methodological inappropriateness of research design for the type of questions to be answered.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report characteristics</head><p>Searches will be limited to peer-reviewed full text articles in English language, and letters, abstracts and editorials are to be excluded. There will be no geographical limitation on the included studies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Information sources</head><p>A systematic search of MEDLINE (Ovid), EMBASE (Ovid), EBM Reviews and Cochrane (Ovid), Cumulative Index to Nursing and Allied Health Literature (CINAHL) (EBSCO), PsycINFO (EBSCO) and Global Health (EBSCO) will be undertaken. As we are primarily interested in the contemporary literature on this topic, we will examine publications from January 2000 through December 2015. Contact with authors for further information will be made when necessary. Detailed inclusion and exclusion criteria are presented in Table <ref type="table">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Search strategy</head><p>We will develop a comprehensive database containing all published studies addressing the prevalence and incidence of chronic wounds (including hard-to-heal wound/ulcers) and complications thereof in general populations. To construct a comprehensive set of possible search terms, we list indexing terms (for example, subject headings and subheadings, publication types) and text words used to describe concept clusters (single words or phrases that may appear in titles or abstracts, both in full and in various truncations). For instance, we search pressure ulcer with its keyword "pressure ulcer" with all heading and subheadings, and then we search alternative keywords "pressure sore" or "bed ulcer" or "bed sore" appearing in the title or abstract in the form of full or truncations. We sought further terms from clinicians and librarians, and from published strategies from other groups. The search strategy was developed by the research team in collaboration with an experienced medical research librarian at the Lee Kong Chian School of Medicine. Additional comments and suggestions were also received from an experienced librarian at the Karolinska Institutet and incorporated. The search was revised, as necessary, and the final MEDLINE search is presented in Additional file 2. After MEDLINE strategy is finalised, it will be adapted to the syntax and subject headings of other databases.</p><p>The reference lists of all included articles published from January 2000 and beyond will also be searched for any additional sources of information. An additional search will be made using the newly introduced term "pressure injury" <ref type="bibr" target="#b16">[17]</ref> and relevant articles added.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study records Data management</head><p>We will implement the search strategies and import all references identified to EndNote. The search results from the different electronic databases will be combined in a single EndNote library and we will remove duplicate records of the same reports.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Selection process</head><p>Two reviewers will independently screen titles and abstracts against eligibility criteria to identify potentially included studies. Specifically, titles and abstracts are included if they indicate that it was a population-based or institutional-based study reporting any relevant information on prevalence or incidence of chronic wounds and/or complications thereof. In the next phase, we will retrieve full-text copies of those articles deemed potentially relevant. Two reviewers will independently assess the full text of the retrieved articles for compliance with our eligibility criteria.</p><p>Discrepancies between the two reviewers' judgement will be resolved by discussion or by the involvement of a third reviewer. Studies, which appeared to be relevant, but excluded at this stage will be listed in the table "Characteristics of excluded studies", where a reason for exclusion will be noted. Two reviewers will verify the final list of included studies. A PRISMA diagram of the study selection procedure will be prepared to provide an overview of the decisions that are made in the data collection process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data collection process</head><p>Two reviewers will independently extract and manage the data for each of the included studies using an electronic data extraction form. We will pilot the data extraction form and amend it according to feedback received from a panel of experienced colleagues. We plan to contact study authors in case of any unclear or missing information. Disagreements between review authors will be resolved by discussion. A third review author will act as an arbiter in case disagreements cannot be resolved. Variations that may depend on agedistribution, the categorisation of ulcer, study design etc. will be described clearly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data items</head><p>Data will be extracted on the following. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Risk of bias in individual studies</head><p>The risk of bias in included studies will be assessed using a tool developed specifically for conducting quality appraisal of studies in systematic reviews of prevalence data <ref type="bibr" target="#b17">[18]</ref>. The instrument addresses critical issues of internal and external validity that must be considered when assessing validity of prevalence data and can be used across different study designs. The instrumental framework evaluates representativeness, recruitment, sample size, reporting, data coverage, condition reliability, statistical analysis and confounding factors using a simple "yes", "no", "unclear" or "not/applicable". The outcome of the assessment will be presented in a table. Publication bias and selective reporting will be dealt with by critically assessing study findings, plots will be made of outcome variables against sample size <ref type="bibr" target="#b18">[19]</ref> and advice will be taken from GRADE guidelines No 5 <ref type="bibr" target="#b19">[20]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1 Inclusion and exclusion criteria Inclusion criteria Exclusion criteria</head><p>Population Adult patients (≥18 years of age) with chronic wounds in the categories of pressure ulcers, diabetic ulcers, venous ulcers and arterial insufficiency ulcers and/or complications thereof in terms of infections, gangrene, haemorrhage and limb amputation.</p><p>Patients with chronic wounds as a result of surgical wounds and skin tumour.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>Observational studies, cross-sectional studies, cohort studies, case-control studies, single arm studies, systematic review/meta-analyses.</p><p>Randomised controlled trials, case studies, case series.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome</head><p>Point prevalence, period prevalence, cumulative incidence and incidence rate of chronic wounds in the four categories, and complications thereof.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Type of publication</head><p>Articles with available full text in English language. Abstract, non-research letters and editorials, seminar reviews.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data synthesis</head><p>Relevant data extracted from eligible studies will be presented in evidence tables. Meta-analysis of outcome variables will be conducted if studies are adequately meeting the inclusion criterion and uniform (or clarity) in reporting the outcome estimates. A narrative synthesis will provide summary of the prevalence of chronic wounds and complications thereof according to age, setting and category of wound. These grouping variables will also be used to identify similar patient populations so that quantitative meta-analyses could be made for studies with similar design. The extracted incidence and prevalence figures will be presented with corresponding standard error and 95 % confidence intervals using the exact binomial method as described by <ref type="bibr">Clopper and Pearson [21]</ref>. This method produces an exact confidence interval that is directly based on the binomial distribution rather than any approximation to the binomial distribution. Further, the individual prevalence and incidence rate estimates from observational studies will be pooled using the fixed effect and random effect models <ref type="bibr" target="#b21">[22]</ref>. The choice of random-effects model will be based on clinical and methodological diversity across the included studies. We will also perform cumulative meta-analysis, in which estimates for each year will be determined in order to calculate the impact of each added study on the pooled estimates over time. For country-specific pooling of incidence/prevalence data, the Poisson regression technique will be used to adjust the covariates <ref type="bibr" target="#b22">[23]</ref>. Where available, the prevalence-adjusted or incidence-adjusted odds ratios relating to the stratification of risk of chronic wound among the patients as discussed in the respective observational studies will also be pooled using random effect models. We will investigate the potential source of heterogeneity related to both methodological and clinical characteristics of the studies which will be assessed by the Cochran's Q test (P value &lt;0.05 considered significant) and I 2 (&gt;50 % representing moderate heterogeneity) statistics <ref type="bibr" target="#b23">[24]</ref>. In the presence of heterogeneity (I 2 &gt; 25 %) <ref type="bibr" target="#b24">[25]</ref>, subgroup (e.g. age, sex, setting and clinical categories of chronic wounds) analyses and univariate meta-regression (P value &lt;0.10 considered significant given the low power of these tests) will be carried out in order to estimate the effect of study-level covariates on the estimates of incidence and prevalence <ref type="bibr" target="#b25">[26]</ref>. Sensitivity analyses will be conducted to identify the study-level factors that best describe the occurrence of chronic wounds. We will also perform influence and outlier analyses to determine the effects of certain studies on the pooled estimates of chronic wound occurrence <ref type="bibr" target="#b26">[27]</ref>. These analyses will measure how the estimated parameter of a pooledanalysis would change if noisy studies are eliminated.</p><p>The effect of these identified outlier studies will be neutralised by excluding them from the random effect model. The publication bias due to study size will also be addressed and adjusted by inverse-variance weighting techniques to provide valid information on the study estimates <ref type="bibr" target="#b25">[26]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary</head><p>This systematic review and eventually meta-analysis will be performed to critically examine the world's relevant literature on the epidemiology of chronic wounds. Specifically, we aim to identify and report the estimated prevalence and incidence of chronic wounds in the categories of pressure ulcers, diabetic ulcers, venous ulcers and arterial insufficiency ulcers and related complications for different settings and subgroups. We will also identify population characteristics associated with chronic wounds in the four categories and with the following complications: infections, gangrene, haemorrhage and limb amputation. Understanding the rates of different categories of complications among patients with chronic wounds could help target patient subgroups that may benefit from early screening, prevention, and treatment efforts. In addition, quantifying the magnitude of chronic wounds will help guide decision-making for the allocation of scarce healthcare resources and funding. A further finding of this systematic review will be the result of the methodological assessment of the published literature. The findings of this review will also be compared with other similar published reviews. Finally, conclusions will be drawn from this systematic review highlighting the prevalence and incidence of chronic wounds, methods of estimation and settings and their correlates. Limitations of the studies will be discussed in detail. Implications of the review as well as suggestions for future research will also be provided. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional files</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Additional file 1 :</head><label>1</label><figDesc>PRISMA-P checklist. (DOC 84 kb) Additional file 2: MEDLINE (Ovid) search strategy. (DOCX 32 kb)</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We are grateful to <rs type="person">Carl Gornitzki</rs> at the university library at the <rs type="affiliation">Karolinska Institutet, Sweden</rs>, for invaluable support in the refinement of the search strategies.</p></div>
+<div><head>Funding</head><p>This research is supported by the <rs type="funder">A*STAR BMRC Strategic Positioning Fund (SPF) for Skin Biology</rs> awarded to the <rs type="institution">Institute of Medical Biology</rs>, and through internal grant funding from the <rs type="funder">Lee Kong Chian School of Medicine, Nanyang Technological University</rs>. The views expressed are those of the authors and not necessarily those of the <rs type="funder">NTU or A*STAR. Lee Kong Chian School of Medicine, NTU</rs> and <rs type="funder">A*STAR</rs> have no role as organisations in the planning, conduct or dissemination of the systematic review.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Authors' contributions KJ and GN initiated the protocol, conceptualised the research plan for the proposed systematic review, wrote the manuscript and reviewed it for important intellectual content. HS, AS, CP, RB and JC critically reviewed the methodology, wrote the manuscript and reviewed it for important intellectual content. All authors read and approved the final manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interest</head><p>The authors declare that they have no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Not applicable.</head><p>Ethics approval and consent to participate Not applicable.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,58.99,402.28,227.01,6.62;6,71.72,411.30,216.53,6.62;6,71.72,420.25,129.67,6.62" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Definitions and guidelines for assessment of wounds and evaluation of healing</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Lazarus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Knighton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Percoraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rodeheaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Robson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="165" to="170" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,58.99,429.27,217.99,6.62;6,71.72,438.28,198.61,6.62;6,71.72,447.30,60.82,6.62" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Evidencebased management strategies for treatment of chronic wounds</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Werdin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tennenhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Schaller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rennekampff</forename><surname>Ho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eplasty</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,58.99,456.25,224.69,6.62;6,71.72,465.27,207.20,6.62;6,71.72,474.28,33.08,6.62" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Van Der Wal AC, Bos JD. Causes, investigation and treatment of leg ulceration</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Mekkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mam</forename><surname>Loots</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-2133.2003.05222</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Dermatol</title>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,58.99,483.30,225.74,6.62;6,71.72,492.25,205.59,6.62;6,71.72,501.27,60.52,6.62" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Multiple actions of Lucilia sericata larvae in hard-to-heal wounds</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cazander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Pritchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nigam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Nibbering</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bies.201300071</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioessays</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,58.99,510.28,214.04,6.62;6,71.72,519.30,205.13,6.62;6,71.72,528.25,69.52,6.62" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Chronic wound care guidelines</title>
+		<ptr target="http://woundheal.org/documents/final_pocket_guide_treatment.aspx" />
+		<imprint>
+			<date type="published" when="2006-11-20">2006. 20 Nov 2015</date>
+			<publisher>The Wound Healing Society</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,58.99,537.27,229.11,6.62;6,71.72,546.28,218.44,6.62;6,71.72,555.30,186.45,6.62" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Human skin wounds: a major and snowballing threat to public health and the economy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kirsner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Hunt</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2009.00543.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,58.99,564.25,220.51,6.62;6,71.72,573.27,207.77,6.62;6,71.72,582.28,186.87,6.62" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A specialized wound-healing center concept: importance of a multidisciplinary department structure and surgical treatment facilities in the treatment of chronic wounds</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gottrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Surg</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="38" to="43" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,58.99,591.30,228.84,6.62;6,71.72,600.25,216.04,6.62;6,71.72,609.27,206.96,6.62;6,71.72,618.28,105.33,6.62" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Aging influences wound healing in patients with chronic lower extremity wounds treated in a specialized Wound Care Center</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bachinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coerper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Beckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Witte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Königsrainer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2008.00438.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,58.99,627.30,215.12,6.62;6,71.72,636.25,210.72,6.62;6,71.72,645.27,113.24,6.62" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The roles of physical therapists in wound management, part II: patient and wound evaluation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kloth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jcws.2009.03.003.eCollection2009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Col Certif Wound Spec</title>
+		<imprint>
+			<date type="published" when="2009">2009. 2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,62.03,654.28,208.03,6.62;6,71.72,663.30,211.67,6.62;6,71.72,672.25,49.83,6.62" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Epidemiology of wounds</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Margolis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Measurements in Wound Healing</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Romanelli</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">V</forename><surname>Shukla</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Mani</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="145" to="153" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,62.03,681.27,222.81,6.62;6,71.72,690.28,118.43,6.62" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Global initiative for wound and lymphoedema care (GIWLC)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Macdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Lymphoedema</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="92" to="95" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,62.03,699.30,197.98,6.62;6,71.72,708.25,216.06,6.62;6,71.72,717.27,202.53,6.62;6,71.72,726.28,140.00,6.62" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effectiveness of advanced versus conventional wound dressings on healing of chronic wounds: systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Heyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Augustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Protz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Spehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rustenbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000348331</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatology</title>
+		<imprint>
+			<date type="published" when="2013-05-22">2013. 2013 May 22</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,90.30,221.80,6.62;6,319.75,99.26,116.69,6.62" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Compromised wounds in Canada</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Denny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lawand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Perry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Healthcare Quarterly (Toronto, Ont)</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="7" to="10" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,108.27,222.77,6.62;6,319.75,117.29,48.36,6.62" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The burden of chronic wounds in the UK</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Posnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nurs Times</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="44" to="45" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,126.30,215.66,6.62;6,319.75,135.26,182.96,6.62" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The prevalence and incidence of chronic wounds: a literature review</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Graves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Practice and Research</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="19" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,144.27,228.33,6.62;6,319.75,153.29,198.07,6.62;6,319.75,162.30,208.12,6.62;6,319.75,171.26,92.91,6.62" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement. Syst Rev</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shamseer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ghersi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liberati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petticrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shekelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prisma-P</forename><surname>Group</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/2046-4053-4-1</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,179.70,212.66,7.50;6,319.75,189.29,206.36,6.62;6,319.75,198.30,213.32,6.62;6,319.75,207.26,205.17,6.62;6,319.75,216.27,162.40,6.62" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">The National Pressure Ulcer Advisory Panel -NPUAP. National Pressure Ulcer Advisory Panel (NPUAP) announces a change in terminology from pressure ulcer to pressure injury and updates the stages of pressure injury</title>
+		<ptr target="http://www.npuap.org/national-pressure-ulcer-advisory-panel-npuap-anno" />
+		<imprint>
+			<date type="published" when="2016-04-13">April 13 2016. 15 Aug 2016</date>
+			<pubPlace>Washington DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,225.29,222.06,6.62;6,319.75,234.30,209.41,6.62;6,319.75,243.26,111.63,6.62" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The development of a critical appraisal tool for use in systematic reviews addressing questions of prevalence</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Munn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Riitano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lisy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Health Policy Manag</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="123" to="128" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,252.27,222.64,6.62;6,319.75,261.29,141.07,6.62" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Bias in meta-analysis detected by a simple, graphical test</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Egger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Minder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">315</biblScope>
+			<biblScope unit="page" from="629" to="634" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,270.30,224.47,6.62;6,319.75,279.26,213.82,6.62;6,319.75,288.27,191.07,6.62;6,319.75,297.29,178.54,6.62" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 5. Rating the quality of evidence-publication bias</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Montori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brozek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alonso-Coello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Djulbegovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Atkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Falck-Ytter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Williams</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Meerpohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Akl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Schunemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="1277" to="1282" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,306.30,226.86,6.62;6,319.75,315.26,151.22,6.62" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The use of confidence or fiducial limits illustrated in the case of the binomial</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Clopper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Pearson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="404" to="413" />
+			<date type="published" when="1934">1934</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,324.27,215.37,6.62;6,319.75,333.29,48.32,6.62" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Meta-analysis in clinical trials</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dersimonian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Laird</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Control Clin Trials</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="177" to="188" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,342.30,225.40,6.62;6,319.75,351.26,204.71,6.62;6,319.75,360.27,202.44,6.62;6,319.75,369.28,165.20,6.62" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Epidemiology of Alzheimer&apos;s disease and other forms of dementia in China, 1990-2010: a systematic review and analysis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Theodoratou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Car</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Middleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Russ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Deary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rudan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0140-6736(13)60221-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,378.30,224.93,6.62;6,319.75,387.26,205.09,6.62;6,319.75,396.27,207.55,6.62;6,319.75,405.29,185.23,6.62" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Incidence, prevalence, and occurrence rate of infection among adults hospitalized after traumatic brain injury: study protocol for a systematic review and meta-analysis. Syst Rev</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Kramer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Laupland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Ousman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kubes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Zygun</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/2046-4053-2-68</idno>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,414.30,221.92,6.62;6,319.75,423.26,113.57,6.62" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Measuring inconsistency in meta-analyses</title>
+		<author>
+			<persName><forename type="first">Jpt</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Deeks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Altman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">327</biblScope>
+			<biblScope unit="page" from="557" to="560" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,432.27,205.43,6.62;6,319.75,441.29,213.48,6.62;6,319.75,450.30,79.91,6.62" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Front matter, in introduction to meta-analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Borenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Hedges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jpt</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rothstein</forename><surname>Hr</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9780470743386</idno>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>John Wiley &amp; Sons Ltd</publisher>
+			<pubPlace>Chichester, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.06,459.26,210.81,6.62;6,319.75,468.27,209.39,6.62;6,319.75,477.29,143.59,6.62" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Cochrane handbook for systematic reviews of interventions version 5.1. 0. The Cochrane Collaboration</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Green</surname></persName>
+		</author>
+		<ptr target="http://handbook.cochrane.org/" />
+		<imprint>
+			<date type="published" when="2011-03-28">2011. 28 Mar 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

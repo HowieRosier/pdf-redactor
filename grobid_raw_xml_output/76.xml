@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Pressure ulcer multidisciplinary teams via telemedicine: a pragmatic cluster randomized stepped wedge trial in long term care</title>
+				<funder>
+					<orgName type="full">Central Community Care Access Center</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Canadian Patient Safety Institute</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministry of Health and Long Term Care</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2014-02-24">24 February 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Anita</forename><surname>Stern</surname></persName>
+							<email>anita.stern@rmp.uhn.ca</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">ELLICSR</orgName>
+								<orgName type="institution" key="instit2">University Health Network</orgName>
+								<address>
+									<addrLine>200 Elizabeth Street, Munk Building</addrLine>
+									<postCode>BCS021, M5G 2C4</postCode>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">ELLICSR</orgName>
+								<orgName type="institution" key="instit2">University Health Network</orgName>
+								<address>
+									<addrLine>200 Elizabeth Street, Munk Building</addrLine>
+									<postCode>BCS021, M5G 2C4</postCode>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicholas</forename><surname>Mitsakakis</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Leslie Dan Faculty of Pharmacy</orgName>
+								<orgName type="institution" key="instit1">THETA</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<address>
+									<addrLine>144 College StreetToronto</addrLine>
+									<postCode>M5S 3 M2</postCode>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mike</forename><surname>Paulden</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Faculty of Medicine &amp; Dentistry</orgName>
+								<orgName type="institution">University of Alberta</orgName>
+								<address>
+									<addrLine>736 University Terrace</addrLine>
+									<postCode>8303 112, T6G</postCode>
+									<settlement>St, Edmonton</settlement>
+									<region>AB</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shabbir</forename><surname>Alibhai</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">Toronto General Hospital</orgName>
+								<address>
+									<addrLine>Eaton 14th Floor Rm 14EN214, 200 Elizabeth St</addrLine>
+									<postCode>M5G 2C4</postCode>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Josephine</forename><surname>Wong</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Leslie Dan Faculty of Pharmacy</orgName>
+								<orgName type="institution" key="instit1">THETA</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<address>
+									<addrLine>144 College StreetToronto</addrLine>
+									<postCode>M5S 3 M2</postCode>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">George</forename><surname>Tomlinson</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution">Toronto General Hospital</orgName>
+								<address>
+									<addrLine>Eaton North Wing, 13th Floor Rm 13EN238, 200 Elizabeth St</addrLine>
+									<postCode>M5G 2C4</postCode>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ann-Sylvia</forename><surname>Brooker</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Leslie Dan Faculty of Pharmacy</orgName>
+								<orgName type="institution" key="instit1">THETA</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<address>
+									<addrLine>144 College StreetToronto</addrLine>
+									<postCode>M5S 3 M2</postCode>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Murray</forename><surname>Krahn</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Leslie Dan Faculty of Pharmacy</orgName>
+								<orgName type="institution" key="instit1">THETA</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<address>
+									<addrLine>144 College StreetToronto</addrLine>
+									<postCode>M5S 3 M2</postCode>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Merrick</forename><surname>Zwarenstein</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Centre for Studies in Family Medicine</orgName>
+								<orgName type="department" key="dep2">Department of Family Medicine</orgName>
+								<orgName type="department" key="dep3">Schulich School of Medicine &amp; Dentistry</orgName>
+								<orgName type="institution">Western University</orgName>
+								<address>
+									<addrLine>245-100 Collip Circle, Research Park</addrLine>
+									<postCode>N6G 4X8</postCode>
+									<settlement>London</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Pressure ulcer multidisciplinary teams via telemedicine: a pragmatic cluster randomized stepped wedge trial in long term care</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-02-24">24 February 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8D0644348BE46DF8A7B743CD8233D61E</idno>
+					<note type="submission">Received: 24 July 2013 Accepted: 12 February 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Trial registration: ClinicalTrials.gov identifier NCT01232764 Pressure ulcer</term>
+					<term>Long term care</term>
+					<term>Nursing home</term>
+					<term>Multi-disciplinary team</term>
+					<term>Chronic wound</term>
+					<term>Treatment</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background:</head><p>The study was conducted to determine the clinical and cost effectiveness of enhanced multidisciplinary teams (EMDTs) vs. 'usual care' for the treatment of pressure ulcers in long term care (LTC) facilities in Ontario, Canada Methods: We conducted a multi-method study: a pragmatic cluster randomized stepped-wedge trial, ethnographic observation and in-depth interviews, and an economic evaluation. Long term care facilities (clusters) were randomly allocated to start dates of the intervention. An advance practice nurse (APN) with expertise in skin and wound care visited intervention facilities to educate staff on pressure ulcer prevention and treatment, supported by an off-site hospital based expert multi-disciplinary wound care team via email, telephone, or video link as needed. The primary outcome was rate of reduction in pressure ulcer surface area (cm 2 /day) measured on before and after standard photographs by an assessor blinded to facility allocation. Secondary outcomes were time to healing, probability of healing, pressure ulcer incidence, pressure ulcer prevalence, wound pain, hospitalization, emergency department visits, utility, and cost.</p><p>Results: 12 of 15 eligible LTC facilities were randomly selected to participate and randomized to start date of the intervention following the stepped wedge design. 137 residents with a total of 259 pressure ulcers (stage 2 or greater) were recruited over the 17 month study period. No statistically significant differences were found between control and intervention periods on any of the primary or secondary outcomes. The economic evaluation demonstrated a mean reduction in direct care costs of $650 per resident compared to 'usual care'. The qualitative study suggested that onsite support by APN wound specialists was welcomed, and is responsible for reduced costs through discontinuation of expensive non evidence based treatments. Insufficient allocation of nursing home staff time to wound care may explain the lack of impact on healing. Conclusion: Enhanced multi-disciplinary wound care teams were cost effective, with most benefit through cost reduction initiated by APNs, but did not improve the treatment of pressure ulcers in nursing homes. Policy makers should consider the potential yield of strengthening evidence based primary care within LTC facilities, through outreach by APNs.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>A pressure ulcer (PU), also known as a pressure sore, decubitus ulcer, or bedsore, is a localized injury to the skin and/or underlying tissue caused by pressure and/or shear <ref type="bibr" target="#b0">[1]</ref>. Those at greatest risk for developing PUs are the elderly, the critically ill, the neurologically impaired, and those who suffer from conditions associated with immobility <ref type="bibr" target="#b1">[2]</ref>. PUs are staged with a 4 point classification system denoting severity, ranging from stage I (intact skin, non-blanchable erythema), to stage IV (full thickness tissue loss exposing bone, tendon, or muscle) <ref type="bibr" target="#b0">[1]</ref>. In 2007 the National Pressure Ulcer Advisory Panel added 2 categories of PUs: Deep Tissue Injury (DTI) (intact discolored skin due to damage to underlying soft tissue), and Unstageable (full-thickness tissue loss, depth unknown due to slough or eschar on the wound's surface) <ref type="bibr" target="#b0">[1]</ref>.</p><p>Pressure ulcers (PUs) are problematic across healthcare settings throughout the world <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. Financial costs associated with PUs are high <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. Pain <ref type="bibr" target="#b6">[7]</ref>, depression <ref type="bibr" target="#b7">[8]</ref>, altered self-image <ref type="bibr" target="#b7">[8]</ref>, and increased morbidity and disability <ref type="bibr" target="#b8">[9]</ref> are consequences of this largely preventable condition.</p><p>The Medical Advisory Secretariat (MAS) [10], a unit that prepares evidence-based analyses to support policy relevant decision-making by the Ontario Ministry of Health and Long-Term Care (MOHLTC), conducted a review of the literature leading them to suggest that an enhanced multi-disciplinary team (EMDT) to assess wound variables and determine optimal treatment would be effective for the treatment of PUs, but the composition of these teams, specific roles and responsibilities of members, and intensity of involvement were far less certain <ref type="bibr" target="#b9">[11]</ref>. Service delivery by expert teams traditionally necessitates physical transport of patients to these teams, or vice versa. Telemedicine offers a means to deliver chronic wound care services remotely <ref type="bibr" target="#b10">[12,</ref><ref type="bibr" target="#b11">13]</ref>.</p><p>Due to the complexity of PUs, recommendations made by the MAS expert panel, high PU prevalence rates in Long Term Care (LTC) facilities in Canada <ref type="bibr" target="#b2">[3]</ref>, the paucity of high quality evidence related to pressure ulcer treatment <ref type="bibr" target="#b12">[14]</ref>, and the potential to enhance care delivery using telemedicine we conducted the following study to evaluate the clinical and cost effectiveness of an EMDT supported by telemedicine vs. 'usual' care (UC) for the treatment of PUs in LTC.</p><p>The study was funded by the MOHLTC, the Canadian Patient Safety Institute, and the Central Community Care Access Centre. ClinicalTrials.gov identifier: NCT01232764.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantitative Design</head><p>We conducted a multi-method study: a pragmatic steppedwedge cluster-randomized trial, ethnographic observation and in-depth interviews, and an economic evaluation. A stepped wedge design <ref type="bibr" target="#b13">[15]</ref> was selected for the trial in order to retain the power of randomization while offering all facilities enrolled in the trial exposure to what was believed to be a desirable intervention and to enable delivery of the intervention to these facilities by a small study team.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population</head><p>The study population was residents with Stage II or greater PUs residing in eligible LTC facilities situated within 2 geographic regions (Local Health Integration Networks-LHINs) in southern Ontario, Canada.</p><p>Eligibility was assessed at 3 levels: LTC facility, resident, and wound Facilities were eligible and approached for the study by the principal investigator if they had a minimum of 100 beds, were within 100 kilometers from the hospital housing the expert wound team, had a PU prevalence greater than the provincial average (5.5%, based on data collected from LTC facilities in Ontario by the Canadian Institute of Health Research in 2009), and the facility administrator provided consent. The criteria of a minimum of 100 beds was applied in order to maximize the reach of the study staff, while ensuring that average sized facilities in Ontario (170 beds) were represented in the study. The criteria of facilities being within 100 km of the hospital housing the wound care team was applied to allow for the physical transport of residents to the wound care team if deemed necessary as determined by the study referral rubric. The criteria of greater than provincial average PU prevalence rates was applied since these are the facilities within which the intervention would be situated if the intervention was found to be effective.Residents in consenting LTC facilities were eligible if they had a reported PU (stage II or greater), and provided informed consent. Their legal representative was approached for consent if the resident was deemed incapable by the most responsible clinician. Facility staff obtained verbal consent to release names of eligible residents to the research assistants. Research assistants were responsible for participant recruitment. Individuals were approached to participate after facilities had been randomised.</p><p>If a patient had more than one wound, all were included. Stage I and Deep Tissue Injury PUs were excluded as skin typically remains intact, and are therefore not amenable to accurate measurement of wound surface area.</p><p>Facility enrollment in the 17-month study occurred in October 2010. Residents were recruited from participating facilities from October 2010-February 2012, with data collection closing in March 2012.</p><p>The study was approved by the research ethics boards of the University of Toronto and the hospital housing the acute care wound team.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Randomisation</head><p>Randomisation was at the level of the facility (cluster) due to the educational component of the intervention being delivered at the facility level. LTC facilities were randomised to start date of the intervention by a researcher external to the study team using a computergenerated random number sequence, giving each LTC facility different lengths of control and intervention periods (Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intervention: Enhanced Multi-Disciplinary Team (EMDT)</head><p>Every LTC facility in both groups appointed a wound care lead (RN or RPN) at study start to serve as the primary contact for the study team. The control period ranged from 3-12 months per facility as determined by randomisation order (Table <ref type="table" target="#tab_0">1</ref>). Blinding of facility staff or residents was not possible due to the nature of the intervention.</p><p>The Enhanced Multi-Disciplinary Team (EMDT) consisted of advanced practice nurses (APNs) who provided outreach to LTC facilities, and were linked to a hospital based expert wound care team. The APNs, funded by the study budget, had expertise in skin and wound care (two were certified enterostomal therapists with over 5 years of experience, one was a masters prepared nurse with over 10 years of experience in wound care). They visited LTC facilities to educate staff on the prevention and treatment of pressure ulcers, consulting with a hospital based expert wound care team via email, telephone, or video link following a referral rubric (Figure <ref type="figure" target="#fig_0">1</ref>). The expert wound team was situated in a large teaching hospital. It was led by a nurse practitioner and included a chiropodist, an occupational therapist, and a plastic surgeon that had ready access to a wide variety of additional hospital based specialists if consultations were deemed necessary.</p><p>The intervention was implemented in 2 phases at each LTC facility. Phase 1 was 3 months in length at each facility and focused on training of LTC staff. APNs spent one day per week at each facility to establish multidisciplinary wound care teams within facilities, and to educate direct care staff (personal support workers, nursing assistants, registered nurses) about PU prevention and treatment (case based teaching at the bedside, and structured group sessions customized to meet facility's needs). All recommendations were based on the Registered Nurses' Association of Ontario (RNAO) evidence based guidelines (updated in 2007) <ref type="bibr" target="#b14">[16]</ref> contextualized to the LTC setting. In addition APNs worked directly with a facility wound care lead, mentoring them in the assessment of wounds enrolled in the study, digital wound photography, and completion of standardized assessment and treatment forms, liaising with the expert team following a referral rubric developed for the study to reflect real world practice (Figure <ref type="figure" target="#fig_0">1</ref>).</p><p>Phase 2 (1-11 months in length) involved primarily remote support of the facility wound care lead by the APNs via email and telephone. The wound care lead was to assess PUs, complete assessment and treatment forms, take digital photos, and transmit de-identified data via email to the APNs every 2 weeks. APNs reviewed cases with the wound care lead via telephone and email, reviewing referral criteria with them, and consulting with the expert team accordingly. APNs would visit the facility when necessary or if requested to do so by the facility wound care lead. This process was repeated every 2 weeks for all PUs until healed, or until the end of the study period, whichever came first. Face to face (or video-link) visits with the expert team  occurred after review of individual cases as indicated by the referral rubric.</p><formula xml:id="formula_0">- - - - - - - c c c c c c P1 P1 P1 P2 11 - - - - - - c c c c c P1 P1 P1 P2 P2 P2 10 c c c c c c c c c c c c P1 P1 P1 P2 P2 9 c c c c c c c c c c c P1 P1 P1 P2 P2 P2 8 c c c c c c c c c c P1 P1 P1 P2 P2 P2 P2 7 c c c c c c c c c P1 P1 P1 P2 P2 P2 P2 P2 6 c c c c c c c c P1 P1 P1 P2 P2 P2 P2 P2 P2 5 c c c c c c c P1 P1 P1 P2 P2 P2 P2 P2 P2 P2 4 c c c c c c P1 P1 P1 P2 P2 P2 P2 P2 P2 P2 P2 3 c c c c c P1 P1 P1 P2 P2 P2 P2 P2 P2 P2 P2 P2 2 c c c c P1 P1 P1 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 1 c c c P1 P1 P1 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 c = Control; P1 = Intervention-</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Control: "Usual" care</head><p>Wound care within LTC facilities was typically provided by registered nurses (RNs), registered practical nurses (RPNs), personal support workers (PSWs), and nutritionists, who may or may not have had expertise in wound care. Although facilities were to have wound care teams in place within the facility as mandated by the MOHLTC in 2010, only 3 of the 12 facilities had wound care teams, with the composition and function of these 'teams' being highly variable. Access to other disciplines (e.g. Enterostomal Therapists, Physiotherapists, Occupational Therapists) was available, typically on a reactive basis. Wound care specialists who were requested by facilities to assess and treat advanced wounds, costs that were covered by the MOHLTC upon facility application for reimbursement, were typically employed by wound product companies, or were in private practice and reimbursed on a fee-for-service basis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome measures</head><p>The primary outcome was rate of reduction in PU surface area (cm 2 /day), judged by an external study staff member blinded to facility allocation who was trained in wound surface area measurement captured by digital photography. Research assistants visited each facility every two weeks to obtain digital photos of PUs. Measurement of all photos was delayed until 2 months prior to study completion to decrease risk of un-blinding the assessor to facility allocation as the stepped wedge design enabled identification of random allocation at the beginning and end of the study period. Wounds were measured from digital photos using Adobe Photoshop CS5 <ref type="bibr" target="#b15">[17]</ref>. The Quick Selection Tool and Histogram were used to estimate the size of each wound in pixels. The length (in pixels) of the paper ruler visible in each photo was then measured, allowing each estimated wound size to be converted to cm 2 . Secondary outcomes were: time to complete healing (days), percentage of wounds healed, PU incidence, PU prevalence, wound pain (Visual Analogue Scale-Pain), hospitalization, emergency department visits, utility (EQ5D), and cost effectiveness. Research assistants administered surveys every 2 weeks throughout the study period (EQ5D, VAS-Pain). The EQ5D and VAS-Pain were administered to mentally competent residents. The EQ5D was also measured by proxy (the clinician most familiar with each enrolled resident). PUs were followed until healed, or until the end of the study period, whichever came first. A research assistant, trained in chart abstraction, abstracted data from resident's facility charts at the end of the study period to capture hospital admissions, emergency department visits, and cost.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample size estimation</head><p>We simulated data under a stepped wedge design over a 17-month study duration using normalized wound sizes in a hierarchical linear model with between-ulcer variation in healing rates (a mean of -0.0865 (per week) and a standard deviation of 0.038). The mean was chosen to reflect the 12-week mean healing time of Stage II pressure ulcers <ref type="bibr" target="#b16">[18]</ref>, while the standard deviation reflects a wide range of ulcer healing trajectories that included the possibility of observing ulcers that are increasing in size up to a maximum of 200% over the study duration. We used a between-facility standard deviation of 0.02 <ref type="bibr" target="#b17">[19]</ref> in the distribution of the treatment effects, in a stepped wedge design with between five and 10 facilities, 170 patients per facility, and a 20% drop-out rate applied at baseline, as well as measurement error of normalized wound surface areas (0.1 standard deviation units). The percentage of ulcers that were estimated to not respond to the intervention was 20%, the prevalence of Stage II-IV ulcers was 4%, and the annual incidence of Stage II-IV pressure ulcers was 2.5% <ref type="bibr" target="#b18">[20]</ref>. After discussion with wound care clinical experts that included a plastic surgeon, a nurse practitioner, enterostomal therapists, a chiropodist, and advance practice nurses, we estimated the minimal clinically important difference to be a 40% improvement in the normal rate of healing (8.65% per week), which corresponded to an absolute healing rate of 12.11% per week. Using the R statistical software (version 2.9.1), we simulated 1000 datasets under the stepped wedge design for each combination of the number of facilities and the treatment effect. The power was estimated as the proportion of significant treatment effects, across the 1000 simulated datasets. 80% power was considered adequate. Because the effect of the treatment is estimated by comparing the pre and post-intervention healing rates within each facility, one issue important to the design of standard cluster randomized trials does not apply here: the relative sizes of the between-facility and within-facility variation in healing rates (i.e., the ICC) were unimportant. The between-facility variation in healing rates is captured by the facility-specific random effect for rate and only the absolute size of the within-facility variance is important. Sets of simulations with different values for the between-facility variance all gave essentially the same simulated power. Based on the above assumptions a study with 10 facilities had 80% power to detect a 40% increase in the healing rate, under a 5% significance level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical methods</head><p>Demographic and clinical characteristics of residents participating in the study, as well as the characteristics of the PUs observed during the study, were described with means and standard deviations for continuous variables and frequencies and percentages for categorical variables.</p><p>Healing rate was analyzed with the use of linear mixed effects models <ref type="bibr" target="#b19">[21]</ref>, using log-transformed PU area as outcome and intervention, time and their interaction, along with a number of covariates (wound stage, Charlson Comorbidity Index, PU recurrence, bed bound, and urinary or fecal incontinence) as predictors. The covariates were selected based on previous evidence of effect on PU healing <ref type="bibr" target="#b16">[18]</ref>. Mixed effects models were used to account for the hierarchical clustering structure of the data (multiple measurements per PU, PUs per patient, patients per facility). PU stage specific subgroup analyses were also performed. After testing for the proportional hazard assumption, time to healing was analyzed with Cox Proportional Hazard frailty models <ref type="bibr" target="#b20">[22]</ref>, using the same covariates as those for the analysis of the primary outcome. Six months probability of healing was estimated using Kaplan-Meier unadjusted method <ref type="bibr" target="#b21">[23]</ref>.</p><p>Incidence rates were estimated and compared between control and intervention periods using a random effects model accounting for the heterogeneity between facilities <ref type="bibr" target="#b22">[24]</ref>. Prevalence was estimated and compared between the two periods with the use of logistic mixed effects models.</p><p>Rates of hospitalization and emergency department visits were analyzed with the use of negative binomial regression models. Linear mixed effects models were also used for the analysis of wound related pain and EQ5D utilities (measuring quality of life) outcomes, after adjusting for age and other confounders (sex, diabetes, BMI). All analyses were performed using the R statistical software (version 2.14.0).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Qualitative evaluation</head><p>Purposive sampling (maximum variation) was employed to select facilities in which to conduct ethnographic observation and in-depth interviews, with variation in the following characteristics that may influence PU healing rates: facility ownership (i.e. for profit vs. non-profit), staff turnover, PU prevalence rates, and length of exposure to the intervention. Facilities were also selected to ensure variation in facility size and location (i.e. LHIN).</p><p>Interviews were audiotaped and transcribed verbatim by a professional transcriptionist. APNs kept field notes related to staff perceptions of, and experiences with the intervention throughout the intervention period at every facility (n = 12). Qualitative data were not collected during the control period to minimize the presence of study personnel, and minimize the potential for a Hawthorne effect. Data collection and analysis followed an iterative process. A coding scheme was developed and subsequently revised in order to account for new themes and concepts that arose from the re-reading of the transcripts. Key concepts and an analytic framework were developed that interpreted and accounted for the empirical data. Data were obtained from multiple sources to ensure rigour and data quality: researcher observation, in-depth and informal interviews, APN observations, and bedside audit data. Ethnographic observation was conducted on multiple floors in facilities and at various times throughout the day and evening to increase understanding of organizational context. The iterative collection and analysis of data ensured that we could test hypotheses, or explore unexpected findings as they emerged in the analysis. In addition, the report was sent to the APNs for feedback and their comments incorporated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Economic evaluation</head><p>A comprehensive paper describing the methods used for the economic evaluation can be found elsewhere <ref type="bibr" target="#b23">[25]</ref>. The primary analysis estimated the change in direct care costs associated with introducing 'enhanced' multidisciplinary wound care teams (EMDTs) compared to 'usual' care (UC) for the treatment of pressure ulcers in LTC facilities in Ontario. The perspective of each analysis was that of the Ontario Ministry of Health and Long-Term Care (MOHLTC). The time horizon was the time until residents were first in a wound-free state or were censored. Costs were reported in 2012 Canadian dollars.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantitative</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Facility and resident recruitment</head><p>Ten facilities were randomly selected to participate in the study from among 15 consenting eligible facilities. Prevalence rates were lower than anticipated (Table <ref type="table" target="#tab_1">2</ref>), and so 2 additional eligible facilities were randomly selected from the eligible sites and randomized to start date of the intervention in consultation with a statistician to ensure integrity of the study design. Therefore 12 eligible facilities in total, each with an average of 166 beds (SD = 37.1), were randomized (Figure <ref type="figure" target="#fig_2">2</ref>). 137 residents with a total of 259 PUs were recruited from these 12 facilities during the 17-month study period (Figure <ref type="figure" target="#fig_3">3</ref>) (Table <ref type="table" target="#tab_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcomes</head><p>Primary outcome Fifty-six of the 259 PUs were excluded from analysis due to having only one measurement. Wounds in two additional photos were deemed 'unmeasurable'. Therefore, measurements of 201 PUs from 119 residents were used in the analyses of the primary outcome. There was no difference in the rate of healing with and without the intervention, with the average rate of healing being 1.0058 times slower in the intervention period (95% CI = 0.985-1.027,p = 0.60) (Table <ref type="table" target="#tab_3">4</ref>).</p><p>When analyzed by stage, a similar pattern was found, with the exception of stage IV PUs where there was a clinically unimportant, but statistically significant decrease in healing rates (rate of healing was 1.05 times slower post-intervention, 95% CI = 1.014-1.088, p = 0.0063).</p><p>An analysis that compared ulcers treated entirely before the intervention, with those treated entirely after the intervention, and with those ulcers that were identified before the intervention but which were also treated in the intervention period showed no differences in outcome (Table <ref type="table" target="#tab_4">5</ref>).</p><p>Secondary outcomes All secondary outcomes showed a similar pattern, with no benefit and wide confidence intervals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Time to healing</head><p>From the 91 PUs identified during the control period, 28 (30.8%) healed in the control period, and 3 (3.32%) were censored at the end of the control period. There were 49 (53.86%) wounds whose care continued to the intervention period of which 24 healed (49.0%) while 25 were censored (51.0%) at the end of the study. From the 110 PUs newly enrolled during the intervention period 42 (43%) healed during the intervention period while 81 (57%) did not heal and were censored. Table <ref type="table" target="#tab_5">6</ref> reports the results of a proportional hazards model of wound healing, using pre-specified covariates as described in the Statistical Methods section. Our survival model shows the same result as the primary analysis, as does our pre-planned subgroup analyses by wound stage (Table <ref type="table" target="#tab_6">7</ref>): there is no statistically significant benefit associated with the intervention. Facility-level effects were also explored and differences between facilities were found (Table <ref type="table" target="#tab_7">8</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Percentage of Wounds Healed</head><p>The percentage of wounds healed was evaluated as the probability of healing at 6 months (n = 201) using non parametric Kaplan-Meier estimators <ref type="bibr" target="#b20">[22]</ref>, allocating healing events (numerator) and exposure time (denominator) to the appropriate study period. The estimation was done separately for the control and intervention periods, without adjustment for PU stage. The probability of healing for the control period was estimated to be 35.0% <ref type="bibr">(22.4, 45.6)</ref>, and for the intervention period to be 53.4% (41.4, 62.9). This difference is not statistically significant as the two confidence intervals overlap.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Incidence rate</head><p>The model estimated the incidence rate of the intervention to be 1.12 (0.74, 1.68) times larger than the incident rate of the control (p = 0.59). Therefore, the model did not provide evidence of a significant difference of the incidence rate between the control and the intervention periods. Additionally, the model did not identify a significant heterogeneity among the facilities, I-sq = 10%, p = 0.38.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound pain</head><p>Mean VAS wound-specific pain scores were estimated to be 0.39 units higher during the intervention period, but the difference was not significant (p = 0.42, 95% CI = -055, 1.34).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PU prevalence</head><p>The logistic mixed effects model estimated the mean prevalence of residents with PUs to be equal to 2.22% (1.79%, 2.76%) in the control period vs. 2.40% (1.81%, <ref type="bibr">3.19)</ref> in the intervention period. The difference is not statistically significant (p = 0.6).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hospitalizations</head><p>The mean hospitalization rate was estimated to be 1.2 (0.62, 2.36) times larger during the intervention period than during the control period. The difference was not statistically significant (p = 0.59).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Emergency department (ED) visits</head><p>The mean ED visit rate was estimated to be 1.3 (0.58, 2.90) times larger during the intervention period than during the control period. The difference was not statistically significant (p = 0.52).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Utility</head><p>Mean utilities were estimated to be 0.03 (-0.029, 0.088) units lower during the intervention period than during the control period. The difference was not statistically significant (p = 0.32). </p><p>*42 participants crossed study phases, extending from control to intervention i.e. double counted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Process measure: expert wound team referrals</head><p>Thirty seven of the 137 residents (27%) met criteria for referral to the expert team. Twenty five of the 37 residents (68%) were actually referred to the team, with a total of 28 consults. Twelve of the 37 residents (32%) were not referred to the EMDT despite meeting referral criteria; two of the 12 not referred to the EMDT were seen by specialists situated in hospitals adjacent to the LTC facilities, one APN felt facility lack of adherence to treatment recommendations made referrals for 4 residents futile, while no reason was cited for non-referral of 6 residents.The Nurse Practitioner attended all consultations, the chiropodist attended 16 (57%), the OT attended 13 (46%), the plastic surgeon attended 3 (11%), and an orthopedic surgeon attended 1. A recommendation for change in treatment resulted from 7 of the 28 consults (25%). Most consults occurred by email followed by a telephone call (n = 25, 89%). 2 consults were face to face at the hospital based wound clinic, and 1 consult occurred remotely via video-link. Data abstracted from resident's charts revealed one case of referral to a hospital based plastic surgeon and chiropodist during the control period. This LTC facility was located directly beside a large teaching hospital.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Qualitative</head><p>The qualitative study results are presented in full elsewhere <ref type="bibr" target="#b23">[25]</ref>. In summary, data collection and analyses from in-depth interviews and observation conducted in 5 of the 12 facilities, in addition to interviews conducted with members of the expert wound team in the hospital,  and with the study APNs, revealed the critical role facility leadership played in ensuring implementation of the intervention. Although the intervention was well received in most facilities, inadequate allocation of staff time to its implementation, and unavailability of the required wound care supplies, prohibited effective uptake of the intervention across most facilities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Economic</head><p>The economic study results are presented in full elsewhere <ref type="bibr" target="#b23">[25]</ref>. In summary, EMDTs were estimated to reduce direct care costs by $649 per resident, (Table <ref type="table" target="#tab_8">9</ref>) although this estimate was subject to substantial uncertainty. This was driven by cancellations of prescribed Negative Pressure Wound Therapy (NPWT) by the outreach APNs, and thus reduced costs, offset by an increase in costs related to increased hospital admissions in the intervention period.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The study was powered to detect a 40% difference in the primary outcome, rate of healing. Our findings show no significant improvement in rate of healing, with a narrow confidence interval. None of the secondary outcomes showed significant benefit. In spite of its clinical equivalence, the economic evaluation provided some evidence of a cost reduction. This was largely attributed to the discontinuation of NPWT on all residents in the intervention period. This decision by outreach APNs was appropriate as there is no evidence of effectiveness of this therapy for the treatment of pressure ulcers <ref type="bibr" target="#b24">[26]</ref>. This resulted in a net savings of $649/resident. Thus although not superior in clinical outcomes, EMDTs may nonetheless be cost effective. Arguably, though, there    would be much simpler ways to discourage use of this single, extremely expensive and unproven treatment.</p><p>Although the hospital based expert wound team played an important role for a small number of participants, and virtual communication between facilities, APNs, and the expert wound team was feasible, this study illustrates the relatively minor role played by this team for the treatment of PUs for residents in this study.</p><p>Our qualitative work suggests that, even in these potentially atypical consenting facilities, the intervention was not well embedded due to frequent staff turnover and insufficient managerial attention, suggesting that widespread implementation of this intervention under present conditions of LTC management would be challenging. Given these difficulties, and the high levels of satisfaction and engagement by LTC staff with the outreach APN when present in the LTC facility, we suggest that the intervention be more likely to succeed given a longer period of implementation, and that the whole of this be conducted using face to face APN support, rather than remote, approaches. This would of course, substantially raise the cost, perhaps eliminating the current benefit.</p><p>Although we adjusted for known predictors of wound healing, and there is no evidence explicitly linking advanced age and poor health status to wound healing, residual differences in these factors may have impaired wound healing in the intervention period, so our estimates of effectiveness may be somewhat pessimistic.</p><p>This study was limited to one particular expert wound care team located within a large teaching hospital and may not be representative of all expert multidisciplinary wound care teams. 21 of 63 (33.3%) facility administrators agreed to participate. Therefore the facilities that participated in this study may not be a representative sample, but both of these potential biases would be expected to increase the effectiveness of the intervention.</p><p>We observed a large proportion of censored observations (n = 107, 53.2%), which reduces the effective sample size of the analysis, potentially introducing bias for the estimate of the time to healing, resulting in potentially inaccurate approximations of the variances used in the analysis. Additionally, any occurrence of uneven censoring due to uneven lengths of observation time between the two periods may potentially introduce bias in the estimation of the difference of the healing time between the two periods. However, the narrow confidence interval around clinically insignificant results suggests that this issue may not be important.</p><p>We adhered to the recently published methodological recommendations for comparative effectiveness research on chronic wounds <ref type="bibr" target="#b25">[27]</ref>, including the conduct of an economic evaluation to inform health care policy decision making. Studies of various wound treatments and products abound, typically sponsored by product companies, however studies addressing health service delivery models for wound care are limited.</p><p>Our study results are aligned with other studies that show no impact of specialist teams-in this case pharmacist/wound care nurse-on healing PUs on residents in LTC <ref type="bibr" target="#b26">[28]</ref>, and others that highlight the importance of effective leadership in LTC <ref type="bibr" target="#b27">[29,</ref><ref type="bibr" target="#b28">30]</ref>, consequences of high rates of staff turnover in these settings <ref type="bibr" target="#b29">[31]</ref><ref type="bibr" target="#b30">[32]</ref><ref type="bibr" target="#b31">[33]</ref>, and challenges in meeting residents' needs within the current resource constraints. The feasibility of conducting wound consults remotely is also supported by the literature <ref type="bibr" target="#b32">[34,</ref><ref type="bibr" target="#b33">35]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>PUs tend to be largely overlooked as LTC facility staff are busy reacting to more pressing issues (eg. disruptive behaviors, falls), and due to incentives in the reimbursement policies in place at the time this study was conducted, facilities could get extra costs related to wound care covered by the MOHLTC (e.g. costs for NPWT) once residents had advanced PU's, reducing the incentive to address wounds proactively.</p><p>Incentives to prevent wounds across health care sectors might be needed as a precursor to interventions such as EMDTs. Our study findings suggest that policy makers should shift their focus away from specialty multi-disciplinary wound care teams external to facilities and direct their attention towards strengthening evidence based primary care within LTC. Use of outreach APNs to increase the capacity of existing staff in LTC to prevent wounds may be a more sustainable and effective model, providing effective management teams are in place and APNs are readily available to facilities for an extended period of time.</p><p>Future research is needed to increase our understanding of multi-disciplinary team functioning in LTC especially in relation to improved in-house capacity to prevent wounds. Based on this new knowledge, interventions could then be developed and evaluated to improve the organization and delivery of primary care in these settings which would in turn support appropriate and timely referral to external specialty wound care teams.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Phase 1 (</head><label>1</label><figDesc>onsite one day/week); P2 = Intervention Phase 2 (primarily remote bi-weekly).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Referral rubric.</figDesc><graphic coords="4,127.28,96.27,340.76,227.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Facility recruitment.</figDesc><graphic coords="6,314.02,319.58,215.21,394.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3</head><label>3</label><figDesc>Figure 3 Resident (wound) recruitment.</figDesc><graphic coords="7,155.68,368.22,283.87,346.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Study design</figDesc><table><row><cell>Time (Months)</cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell><cell>6</cell><cell>7</cell><cell>8</cell><cell>9</cell><cell>10</cell><cell>11</cell><cell>12</cell><cell>13</cell><cell>14</cell><cell>15</cell><cell>16</cell><cell>17</cell></row><row><cell>Facility number</cell><cell>12</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 PU prevalence</head><label>2</label><figDesc></figDesc><table><row><cell cols="2">LTC facility PU prevalence</cell><cell>PU prevalence (%) based on PUs</cell><cell>PU prevalence (%)</cell><cell>PU prevalence (%) based</cell><cell>PU prevalence (%)</cell></row><row><cell></cell><cell>(%) based on</cell><cell>reported to study staff at study start</cell><cell>based on PUs reported</cell><cell>on PU identification by</cell><cell>based on PUs</cell></row><row><cell></cell><cell>Q42009 MDS</cell><cell>(i.e. Oct 2010 for facilities 1-10; April</cell><cell>to study staff 2 wks.</cell><cell>APNs at Intervention start</cell><cell>reported to study</cell></row><row><cell></cell><cell>from CIHI</cell><cell>2011 for facility 11; May 2012 for</cell><cell>prior to Intervention</cell><cell>(i.e. bedside audit)</cell><cell>staff at study end</cell></row><row><cell></cell><cell></cell><cell>facility 12)</cell><cell>start</cell><cell></cell><cell></cell></row><row><cell>1</cell><cell>9.9</cell><cell>4.4</cell><cell>6.2</cell><cell>6.8</cell><cell>4.4</cell></row><row><cell>2</cell><cell>10.2</cell><cell>5.9</cell><cell>2.5</cell><cell>3.5</cell><cell>2.0</cell></row><row><cell>3</cell><cell>5.9</cell><cell>3.3</cell><cell>9.2</cell><cell>9.2</cell><cell>8.3</cell></row><row><cell>4</cell><cell>7.0</cell><cell>4.4</cell><cell>1.0</cell><cell>3.9</cell><cell>0**</cell></row><row><cell>5</cell><cell>8.4</cell><cell>5.6</cell><cell>2.5</cell><cell>2.5</cell><cell>0</cell></row><row><cell>6</cell><cell>6.3</cell><cell>3.8</cell><cell>2.9</cell><cell>3.8</cell><cell>0.8</cell></row><row><cell>7</cell><cell>7.9</cell><cell>2.4</cell><cell>2.4</cell><cell>5.7</cell><cell>3.3</cell></row><row><cell>8</cell><cell>6.8</cell><cell>0.6</cell><cell>0.6</cell><cell>5.7</cell><cell>4.4</cell></row><row><cell>9</cell><cell>12.3</cell><cell>2.5</cell><cell>6.0</cell><cell>6.0</cell><cell>4.3</cell></row><row><cell>10</cell><cell>6.7</cell><cell>1.9</cell><cell>3.8</cell><cell>3.8</cell><cell>4.4</cell></row><row><cell>11</cell><cell>9.5</cell><cell>6.3</cell><cell>3.1</cell><cell>4.4</cell><cell>3.1</cell></row><row><cell>12</cell><cell>6.8</cell><cell>3.7</cell><cell>2.1</cell><cell>2.1*</cell><cell>1.6</cell></row><row><cell>Mean(SD)</cell><cell>8.1 (1.9)</cell><cell>3.7 (1.7)</cell><cell>3.5 (2.5)</cell><cell>4.7 (2.0)</cell><cell>3.0 (2.4)</cell></row></table><note><p>*7residents excluded from bedside audit as requested by Director of Care. **Director of Care stopped referring residents with PUs to the study APN during phase 2 of the Intervention.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Participant characteristics</figDesc><table><row><cell>Variable</cell><cell>Control</cell><cell>Intervention</cell></row><row><cell></cell><cell>(N = 67*)</cell><cell>(N = 94*)</cell></row><row><cell>Age</cell><cell>81 (12)</cell><cell>83 (12)</cell></row><row><cell>Sex (Female)</cell><cell>43 (64.2%)</cell><cell>65 (69.1%)</cell></row><row><cell>Charlson co-morbidities</cell><cell></cell><cell></cell></row><row><cell>Alzheimer's/Dementia</cell><cell>38 (56.7%)</cell><cell>62 (66.0%)</cell></row><row><cell>Diabetes</cell><cell>22 (32.8%)</cell><cell>36 (38.3%)</cell></row><row><cell>Stroke/TIA</cell><cell>20 (29.9%)</cell><cell>29 (30.9%)</cell></row><row><cell>Diabetes with end organ damage</cell><cell>10 (14.9%)</cell><cell>22 (23.4%)</cell></row><row><cell>Paraplegia/Hemiplegia</cell><cell>11 (16.4%)</cell><cell>15 (16.0%)</cell></row><row><cell>Any solid tumour</cell><cell>6 (9.0%)</cell><cell>16 (17.0%)</cell></row><row><cell>COPD</cell><cell>10 (14.9%)</cell><cell>7 (7.4%)</cell></row><row><cell>Congestive Heart Failure</cell><cell>4 (6.0%)</cell><cell>11 (11.7%)</cell></row><row><cell>Peripheral Vascular Disease</cell><cell>5 (7.5%)</cell><cell>6 (6.4%)</cell></row><row><cell>Myocardial Infarction</cell><cell>3 (4.5%)</cell><cell>6 (6.4%)</cell></row><row><cell>Moderate or severe renal disease</cell><cell>1 (1.5%)</cell><cell>4 (4.3%)</cell></row><row><cell>Charlson Co-morbidity Index</cell><cell>3 (2)</cell><cell>3 (2)</cell></row><row><cell>Other co-morbidities</cell><cell></cell><cell></cell></row><row><cell>Hypertension</cell><cell>37 (55.2%)</cell><cell>55 (58.5%)</cell></row><row><cell>Osteoarthritis</cell><cell>36 (53.7%)</cell><cell>42 (44.7%)</cell></row><row><cell>Osteoporosis</cell><cell>23 (34.3%)</cell><cell>33 (35.1%%)</cell></row><row><cell>Coronary Artery Disease</cell><cell>15 (22.4%)</cell><cell>18 (19.1%)</cell></row><row><cell>Parkinson's disease</cell><cell>7 (10.4%%)</cell><cell>9 (9.6%)</cell></row><row><cell>Contractures</cell><cell>5 (7.5%)</cell><cell>6 (6.4%%)</cell></row><row><cell>Spasticity</cell><cell>4 (6.0%)</cell><cell>5 (5.3%)</cell></row><row><cell>PU Risk factors</cell><cell></cell><cell></cell></row><row><cell>Incontinence (urine)</cell><cell>66 (98.5%)</cell><cell>91 (96.8%)</cell></row><row><cell>Incontinence (stool)</cell><cell>58 (86.6%)</cell><cell>79 (84.0%)</cell></row><row><cell>Bedbound</cell><cell>49 (81.7%%)</cell><cell>71 (87.7%)</cell></row><row><cell>Mental Status (Not alert/not oriented)</cell><cell>52 (77.6%)</cell><cell>78 (83.0%)</cell></row><row><cell>Nutritional supplement</cell><cell>55 (82.1%)</cell><cell>80 (85.1%)</cell></row><row><cell>Tube Feed</cell><cell>5 (7.5%)</cell><cell>7 (7.4%)</cell></row><row><cell>Body Mass Index</cell><cell>25 (8)</cell><cell>24</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Primary analysishealing rate</figDesc><table><row><cell>Description of model</cell><cell>Pre-intervention slope</cell><cell cols="2">Effect of intervention</cell><cell></cell><cell></cell></row><row><cell></cell><cell>(β) NB: negative values indicate healing</cell><cell>NB: values &lt; 0 indicate benefit Change in slope (Δ 0 )</cell><cell cols="2">NB: values &lt; 1 indicate benefit Relative effect on healing</cell><cell>p-value</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Estimate</cell><cell>95% CI</cell><cell></cell></row><row><cell>Random effect for intercept and slope,</cell><cell>-0.116</cell><cell>0.0055</cell><cell>1.006</cell><cell>0.985-1.027</cell><cell>0.605</cell></row><row><cell>common treatment effect,wound stage, CCI,</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>recurrence, bedbound, any incontinence</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Random effect for intercept and slope,</cell><cell>-0.114</cell><cell>0.0062</cell><cell>1.006</cell><cell>0.985-1.027</cell><cell>0.539</cell></row><row><cell>common treatment effect*</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Random effect for intercept slope, and</cell><cell>-0.122</cell><cell>0.0171</cell><cell>1.020</cell><cell>0.993-1.042</cell><cell>0.161</cell></row><row><cell>treatment effect*</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Random effect for intercept and slope,</cell><cell>-0.115</cell><cell>0.0053</cell><cell>1.006</cell><cell>0.985-1.026</cell><cell>0.615</cell></row><row><cell>common treatment effect, control for stage</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>at diagnosis</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Models run by stage*</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Stage II: Random effect</cell><cell>-0.116</cell><cell>-0.040</cell><cell>0.968</cell><cell>0.882-1.062</cell><cell>0.079</cell></row><row><cell>for intercept and slope,</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>common treatment</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>effect</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Stage III: Random effect</cell><cell>-0.126</cell><cell>0.005</cell><cell>1.005</cell><cell>0.958-1.055</cell><cell>0.828</cell></row><row><cell>for intercept and slope,</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>common treatment effect</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Stage IV: Random effect</cell><cell>-0.125</cell><cell>0.050</cell><cell>1.050</cell><cell>1.014-1.088</cell><cell>0.006</cell></row><row><cell>for intercept and slope,</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>common treatment effect</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Unstageable: Random</cell><cell>-0.158</cell><cell>0.013</cell><cell>1.013</cell><cell>0.972-1.056</cell><cell>0.534</cell></row><row><cell>effect for intercept and</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>slope, common treatment</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>effect</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>*indicates unadjusted analysis.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>Sensitivity analysis of healing rates</figDesc><table><row><cell>Group</cell><cell>Healing rate</cell><cell>Difference in healing rates (Standard error)</cell><cell cols="2">Relative effect on healing (95% CI) p-value</cell></row><row><cell></cell><cell>(Standard error)</cell><cell>NB: negative values indicate benefit</cell><cell></cell><cell></cell></row><row><cell>(a) Pre-intervention</cell><cell>-0.156 (0.087)</cell><cell>0.050 (0.094)</cell><cell>1.051 (0.874-1.263)</cell><cell>0.5916</cell></row><row><cell>(b) Post-intervention</cell><cell>-0.106 (0.030)</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">(c) Pre-and post-intervention N/A</cell><cell>-0.070 (0.047)</cell><cell>0.932 (0.850-1.022)</cell><cell>0.1363</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 6</head><label>6</label><figDesc>Hazard ratios, time to healing</figDesc><table><row><cell>Variable</cell><cell>Hazard ratio (95% CI)</cell><cell>p-value</cell></row><row><cell>Intervention</cell><cell>1.48 (0.79,2.78)</cell><cell>0.22</cell></row><row><cell>Log(initial PU area)</cell><cell>0.65 (0.51,0.83)</cell><cell>0.00045</cell></row><row><cell>Para/hemiplegia or CVA</cell><cell>0.76 (0.43,1.36)</cell><cell>0.36</cell></row><row><cell>CCI = 3-5 vs. CCI = 0-2</cell><cell>1.54 (0.90,2.64)</cell><cell>0.12</cell></row><row><cell>CCI ≥ 6 vs. CCI = 0-2</cell><cell>0.68 (0.31,1.49)</cell><cell>0.34</cell></row><row><cell>Recurrent PU</cell><cell>1.55 (0.41,5.85)</cell><cell>0.52</cell></row><row><cell>CCI = Charlson Co-morbidity Index.</cell><cell></cell><cell></cell></row><row><cell>CVA = Cerebrovascular accident.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 7</head><label>7</label><figDesc>Time to healing by wound stage</figDesc><table><row><cell>Wound stage</cell><cell>Hazard ratio (95% CI)</cell><cell>p-value</cell></row><row><cell>II</cell><cell>1.02 (0.40,2.63)</cell><cell>0.96</cell></row><row><cell>III</cell><cell>2.16 (0.87,5.34)</cell><cell>0.096</cell></row><row><cell>IV</cell><cell>1.58 (0.20,12.67)</cell><cell>0.66</cell></row><row><cell>Unstageable</cell><cell>1.00 (0.24,4.17)</cell><cell>1.0</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 8</head><label>8</label><figDesc>Exponentiated random effects for the intervention covariate</figDesc><table><row><cell>Facility</cell><cell>Intervention</cell></row><row><cell>1</cell><cell>0.94</cell></row><row><cell>2</cell><cell>0.48</cell></row><row><cell>3</cell><cell>1.62</cell></row><row><cell>4</cell><cell>1.94</cell></row><row><cell>5</cell><cell>0.93</cell></row><row><cell>6</cell><cell>2.20</cell></row><row><cell>7</cell><cell>2.29</cell></row><row><cell>8</cell><cell>0.49</cell></row><row><cell>9</cell><cell>0.64</cell></row><row><cell>10</cell><cell>0.92</cell></row><row><cell>11</cell><cell>0.68</cell></row><row><cell>12</cell><cell>0.76</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 9</head><label>9</label><figDesc>Comparison of direct care costs incurred until healing</figDesc><table><row><cell>Cost category</cell><cell>UC</cell><cell cols="2">EMDTs Difference</cell></row><row><cell>Personnel costs</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Study nurse</cell><cell>N/A</cell><cell>$101</cell><cell>$101</cell></row><row><cell>MDT</cell><cell>N/A</cell><cell>$20</cell><cell>$20</cell></row><row><cell>ET</cell><cell>$357</cell><cell>$18</cell><cell>-$340</cell></row><row><cell>Facility nurse</cell><cell>$1,094</cell><cell>$1,486</cell><cell>$392</cell></row><row><cell>Total personnel costs</cell><cell>$1,451</cell><cell>$1,624</cell><cell>$173</cell></row><row><cell>Treatments and supplies costs</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Antibiotics</cell><cell>$84</cell><cell>$38</cell><cell>-$46</cell></row><row><cell>Dressings</cell><cell>$1,623</cell><cell>$2,284</cell><cell>$661</cell></row><row><cell>NPWT</cell><cell>$3,142</cell><cell>$0</cell><cell>-$3,142</cell></row><row><cell>Total treatments and supplies costs</cell><cell>$4,849</cell><cell>$2,322</cell><cell>-$2,527</cell></row><row><cell>Hospital costs</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Inpatient</cell><cell>$4,147</cell><cell>$5,792</cell><cell>$1,645</cell></row><row><cell>Ambulatory (ER)</cell><cell>$250</cell><cell>$310</cell><cell>$60</cell></row><row><cell>Total hospital costs</cell><cell>$4,397</cell><cell>$6,102</cell><cell>$1,705</cell></row><row><cell>Grand Total</cell><cell cols="3">$10,697 $10,048 -$649</cell></row><row><cell>Grand total (w/o Dressings costs)</cell><cell>$9,074</cell><cell>$7,764</cell><cell>-$1,310</cell></row><row><cell>Grand total (w/o NPWT costs)</cell><cell>$7,555</cell><cell cols="2">$10,048 $2,493</cell></row><row><cell>Grand total (w/o Hospital costs)</cell><cell>$6,300</cell><cell>$3,946</cell><cell>-$2,354</cell></row><row><cell cols="2">Grand total (w/o Dressings, NPWT costs) $5,932</cell><cell>$7,764</cell><cell>$1,832</cell></row><row><cell>Grand total (w/o Dressings, Hospital</cell><cell>$4,677</cell><cell>$1,662</cell><cell>-$3,015</cell></row><row><cell>costs)</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Grand total (w/o NPWT, Hospital costs) $3,158</cell><cell>$3,946</cell><cell>$788</cell></row><row><cell>Grand total (w/o Dressings, NPWT,</cell><cell>$1,535</cell><cell>$1,662</cell><cell>$127</cell></row><row><cell>Hospital costs)</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The study was funded by the <rs type="funder">Canadian Patient Safety Institute</rs>, the <rs type="funder">Central Community Care Access Center</rs>, and the <rs type="funder">Ministry of Health and Long Term Care</rs>. The funding bodies had no role in the design, collection, analysis and interpretation of data, or writing of the manuscript. We acknowledge <rs type="person">Ba Pham</rs> and <rs type="person">Matt Kowiger</rs>'s assistance with writing the protocol, and <rs type="person">Casey Juanxi Li</rs>'s assistance with the economic analysis.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors declare that they have no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors contributions</head><p>AS, MZ, SA, MK, and NM contributed to study conception and design. JW and ASB contributed to data collection. GT and NM conducted all statistical analyses. All authors contributed to data analysis and interpretation of data. All authors reviewed and approved the manuscript.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,58.99,421.67,221.55,6.62;12,71.72,430.69,200.68,6.62;12,71.72,439.70,201.20,6.62;12,71.72,448.72,149.75,6.62" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">European Pressure Ulcer Advisory Panel: Pressure ulcer treatment recommendations. In Prevention and treatment of pressure ulcers: clinical practice guideline</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>National Pressure Ulcer Advisory Panel</publisher>
+			<biblScope unit="page" from="51" to="120" />
+			<pubPlace>Washington (DC</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Pressure Ulcer Advisory Panel</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.99,457.67,220.98,6.62;12,71.72,466.69,212.97,6.62;12,71.72,475.70,204.22,6.62;12,71.72,484.71,82.85,6.62" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Coble Voss A: The national pressure ulcer long-term care study: pressure ulcer development in long-term care residents</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Smout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bergstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Taler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sharkey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Geriatr Soc</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="359" to="367" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.99,493.67,225.02,6.62;12,71.72,502.69,203.37,6.62" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Prevalence of Pressure Ulcers in Canadian Health Care Settings</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Woodbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Houghton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Management</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="22" to="38" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.99,511.70,198.27,6.62;12,71.72,520.71,217.67,6.62;12,71.72,529.67,199.77,6.62;12,71.72,538.69,87.45,6.62" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Pressure ulcers in America: Prevalence, incidence and implications for future: an executive summary of the National Pressure Ulcer Advisory Panel Monograph</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cuddigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Berlowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ayello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="208" to="215" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.99,547.70,214.65,6.62;12,71.72,556.71,91.24,6.62" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The cost of pressure ulcers in the UK</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dealey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Posnett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Age Ageing</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="230" to="235" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.99,565.67,230.42,6.62;12,71.72,574.69,203.07,6.62;12,71.72,583.70,207.29,6.62;12,71.72,592.71,103.74,6.62" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Preventing pressure ulcers in Long-Term Care: A Cost-Effectiveness Analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chen</forename><forename type="middle">W</forename><surname>Sander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>John-Baptiste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Gomes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wodchis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bayoumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1001/archinternmed.2011.473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Archives of Internal Medicine</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.99,601.67,209.43,6.62;12,71.72,610.68,217.55,6.62;12,71.72,619.70,135.40,6.62" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Pressure ulcer pain: a systematic literature review and national pressure ulcer advisory panel white paper</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pieper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cuddigan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Management</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="16" to="31" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.99,628.71,224.98,6.62;12,71.72,637.67,216.12,6.62;12,71.72,646.68,129.92,6.62" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Impact of pressure ulcers on quality of life in older patients: a systematic review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gorecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Briggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schoonhoven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dealey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Defloor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAGS</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1175" to="1183" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.99,655.70,220.67,6.62;12,71.71,664.71,218.85,6.62;12,71.71,673.67,216.90,6.62;12,71.71,682.68,205.50,6.62;12,71.71,691.70,204.82,6.62;12,71.72,700.71,129.27,6.62" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">THETA) collaborative: Cost Effectiveness of Prevention Strategies for Pressure Ulcers in Long-Term Care: Projection from the Ontario Pressure Ulcer Model: THETA Ontario Pressure Ulcer Team and the Medical Advisory Secretariat, Ontario Ministry of Health and Long-Term Care THETA</title>
+		<ptr target="http://www.theta.utoronto.ca/papers/THETA_PU_Prevention_LTC_Final_Report.pdf" />
+		<imprint>
+			<publisher>Toronto Health Economic Technology Assessment</publisher>
+			<biblScope unit="volume">2008</biblScope>
+			<biblScope unit="page" from="1" to="86" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,91.72,220.05,6.62;12,319.75,100.68,202.18,6.62;12,319.75,109.69,82.35,6.62" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Medical Advisory Secretariat: Community-based care for chronic wound management: an evidence-based analysis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ontario Health Technology Assessment Series</title>
+		<imprint>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,118.99,214.69,6.62;12,319.75,128.00,212.91,6.62;12,319.75,136.96,201.39,6.62;12,319.75,145.98,135.92,6.62" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Telemedicine for problematic wound management: enhancing communication between long-term care, skilled nursing, and home caregivers and a surgical wound specialist</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dobke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Renkielska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>De Neve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bhavsar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="256" to="261" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,155.27,207.99,6.62;12,319.75,164.29,206.03,6.62;12,319.75,173.24,216.19,6.62;12,319.75,182.26,128.44,6.62" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Teledermatologic consultation and reduction in referrals to dermatologists: a cluster randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Eminovic´n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Keizer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ter</forename><surname>Riet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Peek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Van Weert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Bruijnzeel-Koomen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Bindels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pje</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Dermatology</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="558" to="564" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,191.56,221.41,6.62;12,319.75,200.57,189.22,6.62" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Treatment of pressure ulcers: a systematic review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Kalkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Rochon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="2647" to="2662" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,209.81,215.73,6.62;12,319.75,218.82,169.03,6.62" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Design and analysis of stepped wedge cluster randomized trials</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hussey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Hughes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contemp Clin Trials</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="182" to="191" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,228.12,228.04,6.62;12,319.75,237.14,199.39,6.62;12,319.75,246.09,218.12,6.62;12,319.75,255.11,45.66,6.62" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Assessment &amp; Management of Stage I to IV Pressure Ulcers -Revised</title>
+		<ptr target="http://rnao.ca/bpg/guidelines/assessment-and-management-stage-i-iv-pressure-ulcers" />
+		<imprint>
+			<date type="published" when="2007-07-13">2007. 2007. July 13th, 2013</date>
+			<publisher>Registered Nurses Association of Ontario</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,264.41,210.46,6.62;12,319.75,271.76,193.62,8.28" xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Adobe</forename><surname>Photoshop</surname></persName>
+		</author>
+		<ptr target="http://downloads.phpnuke.org/en/c113045/adobe-photoshop-cs5-free-download-full-review/" />
+		<imprint>
+			<date type="published" when="2013-07-13">July 13 th , 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,282.72,219.51,6.62;12,319.75,291.68,199.94,6.62" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Stage 2 Pressure Ulcer Healing in Nursing Homes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bergstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Spector</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Limcangco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAGS</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="1252" to="1258" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,300.97,226.80,6.62;12,319.75,309.99,88.65,6.62" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Design and analysis of cluster randomization trials in health research</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Donner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Klar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Arnold</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,319.29,219.04,6.62;12,319.75,328.24,218.79,6.62;12,319.75,337.26,212.03,6.62;12,319.75,346.27,131.23,6.62" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The national pressure ulcer long-term care study: outcomes of pressure ulcer treatments in long-term care</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bergstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Smout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Taler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Sauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sharkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Voss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Geriatric Society</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1721" to="1729" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,355.57,203.41,6.62;12,319.75,364.53,80.81,6.62" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Random-Effects Models for Longitudinal Data</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Laird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Ware</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="963" to="974" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,373.82,211.52,6.62;12,319.75,382.84,93.07,6.62" xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Therneau</surname></persName>
+		</author>
+		<title level="m">Grambsch PM: Modeling Survival Data: Extending the Cox Model</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,392.13,195.55,6.62;12,319.75,401.09,147.99,6.62" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Nonparametric estimation from incomplete observations</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Meier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Amer Statist Assn</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="457" to="481" />
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,410.39,223.52,6.62;12,319.75,419.40,124.36,6.62" xml:id="b22">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mcculloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shayle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Searle</surname></persName>
+		</author>
+		<title level="m">Neuhaus M: Generalized, Linear, and Mixed Models</title>
+		<imprint>
+			<publisher>Chicester/GB: Wiley and Sons</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,428.70,201.21,6.62;12,319.75,437.72,196.16,6.62;12,319.75,446.67,216.87,6.62;12,319.75,455.69,192.37,6.62;12,319.75,464.70,211.57,6.62;12,319.75,473.71,216.78,6.62;12,319.75,482.67,187.69,6.62;12,319.75,491.69,141.76,6.62" xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Krahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Smh</forename><surname>Alibhai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Brooker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chadwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fierheller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juanxi</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jeffs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Kowgier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mclaren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mitsakakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Norton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Parslow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Paulden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teague</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tomlinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vidmar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Witteman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Woodbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zwarenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename></persName>
+		</author>
+		<ptr target="http://www.patientsafetyinstitute.ca/English/research/cpsiResearchCompetitions/2009/Pages/Stern.aspx" />
+		<title level="m">To be published on the CPSI website post journal publication</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Canadian Patient Safety Institute (CPSI) Final Report</note>
+</biblStruct>
+
+<biblStruct coords="12,310.06,500.98,219.59,6.62;12,319.75,510.00,205.14,6.62;12,319.75,518.96,214.03,6.62;12,319.75,527.97,217.56,6.62;12,319.75,536.98,208.13,6.62;12,319.75,546.00,194.37,6.62;12,319.75,553.36,205.42,8.23" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Pressure Ulcer Treatment Strategies: Comparative Effectiveness Review No. 90. (Prepared by the Oregon Evidence-based Practice Center under Contract No. 290-2007-10057-I.) AHRQ Publication No. 13-EHC003-EF</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meb</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Totten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wasson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Motu'apuaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Hickam</surname></persName>
+		</author>
+		<ptr target="http://www.effectivehealthcare.ahrq.gov/search-for-guides-reviews-and-reports/?pageaction=displayproduct&amp;productid=1492" />
+		<imprint>
+			<date type="published" when="2013-05">May 2013. 2013</date>
+			<publisher>Agency for Healthcare Research and Quality</publisher>
+			<pubPlace>Rockville, MD</pubPlace>
+		</imprint>
+	</monogr>
+	<note>accessed Nov. 11 th</note>
+</biblStruct>
+
+<biblStruct coords="12,310.06,564.26,184.73,6.62;12,319.75,573.27,216.86,6.62;12,319.75,582.28,186.74,6.62;12,319.75,589.64,203.35,8.23;12,319.75,600.26,16.69,6.62" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Methodological Recommendations for Comparative Effectiveness Research on the Treatment of Chronic Wounds</title>
+		<ptr target="www.cmtpnet.org/effectiveness-guidance-documents/negative-pressure-wound-therapy-egd/" />
+		<imprint>
+			<date type="published" when="2013-07-13">2013. July 13 th , 2013</date>
+		</imprint>
+		<respStmt>
+			<orgName>Center for Medical Technology Policy (CMTP)</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,609.55,179.74,6.62;12,319.75,618.57,209.93,6.62;12,319.75,627.52,169.88,6.62" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Cost-effectiveness of multidisciplinary wound care in nursing homes: a pseudo-randomized pragmatic cluster trial. Family Practice</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sussman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="372" to="379" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,636.82,213.92,6.62;12,319.75,645.84,180.99,6.62" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Top Management Leadership Style and Quality of Care in Nursing Homes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Castle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Decker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Gerontologist</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="630" to="642" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,655.13,218.38,6.62;12,319.75,664.09,199.43,6.62;12,319.75,673.11,20.10,6.62" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Leadership, staffing and quality of care in nursing homes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Havig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Skogstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Kjekshus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Romøren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Services Research</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">327</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,682.40,220.67,6.62;12,319.75,691.42,205.61,6.62;12,319.75,700.43,106.10,6.62" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Systematic review of studies of staffing and quality in nursing homes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Bostick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flesner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Riggs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Medical Directors Association</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="366" to="376" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,310.06,709.67,222.35,6.62;12,319.75,718.69,183.75,6.62;12,319.75,727.70,126.79,6.62" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Relationship of Nursing Home Staffing to Quality of Care</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Schnelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Simmons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Harrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cadogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Bates-Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Services Research</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="225" to="250" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.03,91.72,223.88,6.62;13,71.72,100.68,95.38,6.62" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Staff turnover and quality of care in nursing homes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Castle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Engberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical Care</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="616" to="626" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.03,109.69,224.41,6.62;13,71.72,118.71,188.96,6.62;13,71.72,127.72,215.81,6.62;13,71.72,136.68,209.81,6.62;13,71.72,145.69,16.69,6.62" xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Streamlining the management of patients with problematic wounds: must a multidisciplinary team formulate all patient management? Wounds</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dobke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bhavsar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gosman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Md</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Neve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+		<ptr target="http://www.woundsresearch.com/article/8086" />
+		<imprint>
+			<date type="published" when="2007-07-13">2007. July 13th, 2013</date>
+			<biblScope unit="volume">19</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.03,154.71,225.03,6.62;13,71.72,163.72,202.74,6.62;13,71.72,172.68,215.36,6.62;13,71.72,181.69,50.88,6.62;13,62.19,201.10,88.93,6.45" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Use of digital images in the assessment and treatment of pressure ulcers in patients with spinal injuries in community settings</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sarhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Weatherburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thiyagarajan</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1472-6963-14-83</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Telemedicine and Telecare</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="207" to="210" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.19,209.61,221.66,6.45;13,62.19,218.11,212.80,6.45;13,62.19,226.61,168.04,6.45" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Pressure ulcer multidisciplinary teams via telemedicine: a pragmatic cluster randomized stepped wedge trial in long term care</title>
+		<author>
+			<persName><surname>Stern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Services Research</title>
+		<imprint>
+			<biblScope unit="page">83</biblScope>
+			<date>2014 14</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

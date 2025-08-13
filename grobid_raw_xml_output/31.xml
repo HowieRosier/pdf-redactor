@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2D/3D Wound Segmentation and Measurement Based on a Robot-Driven Reconstruction System</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2023-03-21">21 March 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Luca</forename><forename type="middle">Di</forename><surname>Angelo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek</orgName>
+								<orgName type="institution">Josip Juraj Strossmayer University of Osijek</orgName>
+								<address>
+									<postCode>HR-31000</postCode>
+									<settlement>Osijek</settlement>
+									<country key="HR">Croatia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anna</forename><forename type="middle">Eva</forename><surname>Morabito</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek</orgName>
+								<orgName type="institution">Josip Juraj Strossmayer University of Osijek</orgName>
+								<address>
+									<postCode>HR-31000</postCode>
+									<settlement>Osijek</settlement>
+									<country key="HR">Croatia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emanuele</forename><surname>Guardiani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek</orgName>
+								<orgName type="institution">Josip Juraj Strossmayer University of Osijek</orgName>
+								<address>
+									<postCode>HR-31000</postCode>
+									<settlement>Osijek</settlement>
+									<country key="HR">Croatia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Damir</forename><surname>Filko</surname></persName>
+							<email>damir.filko@ferit.hr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek</orgName>
+								<orgName type="institution">Josip Juraj Strossmayer University of Osijek</orgName>
+								<address>
+									<postCode>HR-31000</postCode>
+									<settlement>Osijek</settlement>
+									<country key="HR">Croatia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emmanuel</forename><surname>Karlo Nyarko</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek</orgName>
+								<orgName type="institution">Josip Juraj Strossmayer University of Osijek</orgName>
+								<address>
+									<postCode>HR-31000</postCode>
+									<settlement>Osijek</settlement>
+									<country key="HR">Croatia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">2D/3D Wound Segmentation and Measurement Based on a Robot-Driven Reconstruction System</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-03-21">21 March 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C03254BEC9CC0309A862FFF6974D419D</idno>
+					<idno type="DOI">10.3390/s23063298</idno>
+					<note type="submission">Received: 13 February 2023 Revised: 14 March 2023 Accepted: 19 March 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Filko, D.</term>
+					<term>Nyarko, E.K. 2D/3D Wound Segmentation and Measurement Based on a Robot-Driven Reconstruction System chronic wound</term>
+					<term>segmentation</term>
+					<term>measurement</term>
+					<term>2D</term>
+					<term>3D</term>
+					<term>active contour model</term>
+					<term>convolutional neural network</term>
+					<term>robot</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Chronic wounds, are a worldwide health problem affecting populations and economies as a whole. With the increase in age-related diseases, obesity, and diabetes, the costs of chronic wound healing will further increase. Wound assessment should be fast and accurate in order to reduce possible complications and thus shorten the wound healing process. This paper describes an automatic wound segmentation based on a wound recording system built upon a 7-DoF robot arm with an attached RGB-D camera and high-precision 3D scanner. The developed system represents a novel combination of 2D and 3D segmentation, where the 2D segmentation is based on the MobileNetV2 classifier and the 3D component is based on the active contour model, which works on the 3D mesh to further refine the wound contour. The end output is the 3D model of only the wound surface without the surrounding healthy skin and geometric parameters in the form of perimeter, area, and volume.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Chronic wounds are slow to heal, and if ineffective treatment is used, the healing process may be further delayed. Clinicians need an objective method of wound assessment to determine whether current treatment is appropriate or needs to be adjusted. Measuring wounds accurately is an important task in the management of chronic wounds since changes in the physical parameters of the wound are signs of healing progress.</p><p>The analysis of chronic wounds mainly involves contact and non-contact methods. Contact methods, including alginate molds, transparency tracing, manual planimetry with rulers and injection of color dyes, are considered traditional and were the most commonly used in the past <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. These methods are usually impractical for medical personnel and very painful for patients. Since wounds can be of any shape, these methods are also often inaccurate and imprecise. Increasing computational capabilities of modern hardware has boosted the application of non-contact wound analysis. Additionally, progress in data analysis has led to the accelerated increase in the application of digital imaging in wound assessment. Marijanovic et al. <ref type="bibr" target="#b2">[3]</ref> provide a recent overview of chronic wound analysis using non-contact methods.</p><p>Since the wound might theoretically be located on any part of the body and could be of any size or shape, the wound recording process is frequently challenging. The majority of chronic wounds that are discussed in this paper are typically seen on the back or on the legs. Back wounds, e.g., pressure ulcers, typically occur on flatter surfaces, but are often much greater in size than leg wounds (Figure <ref type="figure" target="#fig_9">1a</ref>). On the other hand, leg wounds, such as venous and diabetic ulcers, are typically shallow and located on areas of the body that are highly curved (Figure <ref type="figure" target="#fig_9">1b</ref>). Chronic wounds can have a dynamic surface geometry because they experience pansion and reduction phases during the course of treatment. As a result, some area the wound may occlude other areas when viewed from specific angles. The recor technique can be rather challenging when reconstructing 3D models of such wounds volving numerous phases and recording poses. This can be quite tiring if done manu with a hand-held 3D camera or sensor, and since human operators lack precision, reconstructed 3D models may, at best, miss some details or, at worst, have anomalies</p><p>Recently, an automated system has been developed that has a much higher preci than human operators and is able to record wounds from different viewpoints. It tr the state of the recording process and enforces a specified density of surface sample all parts of the recorded wound surface <ref type="bibr" target="#b4">[5]</ref>. The research presented in this paper is b on this developed system and extends the idea of a full automated system that out precise geometric measurements of wounds. Physicians can monitor patients' prog and promptly administer the right therapy with the help of such measurements and tracking of their development over time.</p><p>The research presented in this paper is comparable to that in <ref type="bibr" target="#b3">[4]</ref>, which also foc on the 3D reconstruction, segmentation, and measurement of chronic wounds, but very different technologies. The authors in <ref type="bibr" target="#b3">[4]</ref> used handheld RGB-D cameras, which significantly cheaper, but have significant drawbacks in terms of depth accuracy and influence of surface features and lighting conditions. Because they were handheld c eras, the accuracy of the reconstruction was also affected by the experience of the oper In the current research, a sophisticated 7-DoF robotic arm is used with an industrial h precision 3D scanner attached to the end effector to enable a fully automated and accu 3D reconstruction process.</p><p>In order to facilitate the measurement of physical parameters, a precise segmenta of the wound surface from the reconstructed 3D model needs to be performed, whi the main topic of this paper. A segmented wound would enable the measurement o perimeter of its border, and in the case of surface wounds, its area. For wounds greater depth, a virtual skin top must be generated, which then enables the calculatio the area of the virtual skin surface and its enclosed volume.</p><p>The main scientific contribution of this paper is a novel segmentation algorithm u a combination of 2D and 3D procedures to correctly segment a 3D wound model. segmentation of multiple 2D photographs per wound is driven by a deep neural netw in the form of the MobileNetV2 classifier, which is then optimally combined with a si 3D model and initialization of the initial wound contour. This initial wound contour reconstructed 3D model is then optimized and adjusted by an active contour model, w then tightly envelops the actual wound surface using surface curvature to achieve its jective. Chronic wounds can have a dynamic surface geometry because they experience expansion and reduction phases during the course of treatment. As a result, some areas of the wound may occlude other areas when viewed from specific angles. The recording technique can be rather challenging when reconstructing 3D models of such wounds, involving numerous phases and recording poses. This can be quite tiring if done manually with a hand-held 3D camera or sensor, and since human operators lack precision, such reconstructed 3D models may, at best, miss some details or, at worst, have anomalies <ref type="bibr" target="#b3">[4]</ref>.</p><p>Recently, an automated system has been developed that has a much higher precision than human operators and is able to record wounds from different viewpoints. It tracks the state of the recording process and enforces a specified density of surface samples on all parts of the recorded wound surface <ref type="bibr" target="#b4">[5]</ref>. The research presented in this paper is based on this developed system and extends the idea of a full automated system that outputs precise geometric measurements of wounds. Physicians can monitor patients' progress and promptly administer the right therapy with the help of such measurements and the tracking of their development over time.</p><p>The research presented in this paper is comparable to that in <ref type="bibr" target="#b3">[4]</ref>, which also focuses on the 3D reconstruction, segmentation, and measurement of chronic wounds, but uses very different technologies. The authors in <ref type="bibr" target="#b3">[4]</ref> used handheld RGB-D cameras, which are significantly cheaper, but have significant drawbacks in terms of depth accuracy and the influence of surface features and lighting conditions. Because they were handheld cameras, the accuracy of the reconstruction was also affected by the experience of the operator. In the current research, a sophisticated 7-DoF robotic arm is used with an industrial highprecision 3D scanner attached to the end effector to enable a fully automated and accurate 3D reconstruction process.</p><p>In order to facilitate the measurement of physical parameters, a precise segmentation of the wound surface from the reconstructed 3D model needs to be performed, which is the main topic of this paper. A segmented wound would enable the measurement of the perimeter of its border, and in the case of surface wounds, its area. For wounds with greater depth, a virtual skin top must be generated, which then enables the calculation of the area of the virtual skin surface and its enclosed volume.</p><p>The main scientific contribution of this paper is a novel segmentation algorithm using a combination of 2D and 3D procedures to correctly segment a 3D wound model. The segmentation of multiple 2D photographs per wound is driven by a deep neural network in the form of the MobileNetV2 classifier, which is then optimally combined with a single 3D model and initialization of the initial wound contour. This initial wound contour on a reconstructed 3D model is then optimized and adjusted by an active contour model, which then tightly envelops the actual wound surface using surface curvature to achieve its objective.</p><p>The remainder of the paper is organized as follows. A brief overview of relevant research is provided in Section 2. A hardware and software setup of the created system is described in Section 3. Section 4 describes the implementation of individual components of the segmentation algorithm. Section 5 discusses the performance of the developed algorithm, while Section 6 concludes the paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Related Research</head><p>The technique of assigning each pixel of an image into one of two categories, wound and non-wound, or separating the wound area from the rest of the image (surrounding healthy tissue or image background), is known as wound segmentation. The accuracy of segmentation is essential for various wound analysis activities such as tissue categorization, 3D reconstruction, wound measuring, and wound healing evaluation. Extracting the visual features of each location is essential for identifying the wound because the wound area typically has different visual features than the healthy skin.</p><p>Researchers have employed a variety of approaches to perform 2D wound segmentation, including using K-means clustering <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>, deep neural networks <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>, support vector machines <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>, k-nearest neighbors <ref type="bibr" target="#b3">[4]</ref>, and simple feedforward networks <ref type="bibr" target="#b17">[18]</ref>. Other approaches include using superpixel region-growing algorithms, color histograms, or combined geometric and visual information of the wound surface to segment wounds.</p><p>A systematic review of 115 papers dealing with image-based AI in wound assessment was performed by Anisuzzaman et al. <ref type="bibr" target="#b11">[12]</ref>. Their final conclusion was that each of the mentioned approaches had some limitations and, hence, no method could be said to be preferable to the others. The most popular methods by far implement deep neural networks.</p><p>A deep convolutional neural network architecture called MobileNetV2 was proposed by Wang et al. <ref type="bibr" target="#b10">[11]</ref> for wound segmentation. The network was pre-trained using the Pascal VOC dataset prior to training. The output of the trained neural network model was a segmented grayscale image of the wound, with each pixel indicating the probability of representing a wound pixel. This image then underwent several post-processed steps: thresholding to initial create a binary image, hole filling, and the removal of small regions, thereby resulting in a final binary image or segmentation mask. In the same paper, the authors proved the superiority of their model by comparing with four other deep neural network models (VGG16, SegNet, U-Net, and Mask-RCNN) using the Medetec dataset <ref type="bibr" target="#b18">[19]</ref>.</p><p>A segmentation technique made up of the U-Net and LinkNet deep neural networks was proposed by Mahbod et al. in <ref type="bibr" target="#b12">[13]</ref>. These deep neural networks are basically encoderdecoder convolutional networks. These networks were pre-trained using images from the Medetec database <ref type="bibr" target="#b18">[19]</ref>, and then trained on the MICCAI 2021 Foot Ulcer Segmentation (FUSeg) Challenge dataset <ref type="bibr" target="#b19">[20]</ref>, thereby resulting in two separate models. Both models evaluate the test image, and the combined output of their evaluations yields the final result.</p><p>Scebba et al. <ref type="bibr" target="#b13">[14]</ref> implemented an automated approach to wound detection and segmentation using specialized deep neural networks consisting of three steps: a wound detection neural network that detects the wound(s) on the raw wound image; a processing module that performs cropping, zero padding and image resizing to exclude uninformative background pixels; and the final segmentation model that also includes a deep neural network model. The results showed that the fusion of automatic wound detection and segmentation improved segmentation performance and enabled the segmentation model to generalize well to images of wounds that are not in the distribution.</p><p>Marijanović et al. <ref type="bibr" target="#b17">[18]</ref> proposed a method for wound detection with pixel-level instance segmentation, which consists of an ensemble of three simple feedforward networks, each comprising only five fully connected layers. For each of the feedforward neural network classifiers, input data were created using a conventional fixed-size overlapping sliding window method, with the sliding window sizes varying for each classifier. Postprocessing involving thresholding, morphological closure, and morphological opening was performed on each of the predicted outcomes or probability maps of the respective neural network classifiers. The logical operation AND was then used to merge these binary post-processed images obtained as the output predictions of the three neural networks. The ensemble classifier suggested by the authors outperformed Wang et al.'s technique <ref type="bibr" target="#b10">[11]</ref> in terms of detection and processing time and proved to be relatively robust to image rotations. Training and testing were conducted using data from the MICCAI 2021 FUSeg Challenge <ref type="bibr" target="#b19">[20]</ref>.</p><p>The segmentation of wounds from 3D surfaces such as meshes is far less popular in the literature since it often requires specialized hardware for acquisition. However, even when regular cameras are used, extension into the third dimension is often cumbersome and requires specific knowledge to analyze and use such data.</p><p>In medical and other research, lasers are frequently employed for 3D reconstruction, where a laser line projection sensor calibrated with an RGB camera can produce precise and colored 3D reconstructions. One of the earliest studies to implement such a method was Derma <ref type="bibr" target="#b20">[21]</ref>, where the Minolta VI910 scanner was employed by the authors. Laser and RGB camera technology was also utilized in related studies <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref>. These systems have been shown to be extremely accurate, but they are also difficult to operate. Furthermore, these investigations had the limitation that the full wound must be seen in one frame.</p><p>In order to improve image-based techniques and provide more accurate measurement, some wound assessment systems use 3D reconstruction. As a result, multiple view geometry algorithms using conventional cameras are frequently employed. In <ref type="bibr" target="#b23">[24]</ref>, the authors create a 3D mesh model using two wound images collected at various angles. The final 3D mesh has a low resolution as a result of the technology and techniques used.</p><p>Some research tries to combine 2D and 3D information to enhance the operation and increase the measurement precision.</p><p>To find the center of the wound, Filko et al. <ref type="bibr" target="#b3">[4]</ref> include a 2D detection phase in the 3D reconstruction procedure inspired by Kinectfusion. The kNN method and color histograms are used to implement this. Additionally, they segment the wound from the reconstructed 3D model by first dividing the reconstructed 3D surface into surfels. Then, utilizing geometry and color information to create relationships between neighboring surfels, a region-growing process groups these surfels into larger smooth surfaces. Finally, using spline interpolation, the wound boundary is determined and the wound is then isolated as a distinct 3D model and its perimeter, area, and volume are calculated.</p><p>Niri et al. <ref type="bibr" target="#b24">[25]</ref> employed U-Net to roughly segment the wound on 2D images and used structure from motion algorithm to reconstruct the 3D wound surface from a sequence of images. They then used reprojections of the 3D model to enhance the wound segmentation on the 2D input images as well as the 3D model. They managed to measure the wound area, but since the ground truth employed is based on the models acquired by the same technique, the accuracy of the actual area measurements is not fully validated.</p><p>In a later study, Filko et al. <ref type="bibr" target="#b4">[5]</ref> developed a robot-driven system for the acquisition and 3D reconstruction of chronic wounds, which also utilized 2D segmentation based on neural networks as its wound detection subsystem. The research presented in this paper is the continuation of that research.</p><p>The majority of research is focused on segmentation on 2D images, especially employing deep learning that has excellent properties proven over the myriad other applications. In this research, deep learning is also employed in order to generate an initial, rough wound segmentation, which, because of the errors in camera calibration and imprecision of the 2D segmentation, requires further adjustment when projected onto the 3D model. The 3D side of the segmentation is based on the application of a 3D active contour model that further refines the original contour by utilizing surface curvature to find more optimal wound borders on the 3D mesh model of the wound and its local surroundings. This novel combination of deep learning 2D segmentation and 3D refinement using an active contour model is the main contribution of this paper. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hardware and Software Configuration</head><p>The hardware configuration (Figure <ref type="figure" target="#fig_3">2</ref>) of the acquisition system consists mainly of a Kinova Gen3 7-DoF robot arm and a Photoneo PhoXi M 3D scanner. The Kinova Gen3 robot arm has an RGB-D camera based on Intel RealSense technology embedded in its tool link in the form of the Kinova vision module. The Photoneo PhoXi 3D scanner is connected to the Kinova Gen3 tool link via a custom 3D printed frame. The Kinova RGB camera was manually calibrated to the PhoXi 3D scanner, while the PhoXi 3D scanner was also manually calibrated to the Kinova Gen3 tool link, which enabled transformations between PhoXi and robot base reference frames.</p><p>Sensors 2023, 23, x FOR PEER REVIEW 5 of 25 combination of deep learning 2D segmentation and 3D refinement using an active contour model is the main contribution of this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hardware and Software Configuration</head><p>The hardware configuration (Figure <ref type="figure" target="#fig_3">2</ref>) of the acquisition system consists mainly of a Kinova Gen3 7-DoF robot arm and a Photoneo PhoXi M 3D scanner. The Kinova Gen3 robot arm has an RGB-D camera based on Intel RealSense technology embedded in its tool link in the form of the Kinova vision module. The Photoneo PhoXi 3D scanner is connected to the Kinova Gen3 tool link via a custom 3D printed frame. The Kinova RGB camera was manually calibrated to the PhoXi 3D scanner, while the PhoXi 3D scanner was also manually calibrated to the Kinova Gen3 tool link, which enabled transformations between PhoXi and robot base reference frames. All experiments in this paper were performed on two Vata Inc. medical models (Figure <ref type="figure" target="#fig_7">3</ref>):</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>Seymour II wound care model, which includes stage 1, stage 2, stage 3, and deep stage 4 pressure injuries, as well as a dehisced wound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>Vinnie venous insufficiency leg model, which includes various injuries as well as venous ulcers and foot ulcers.</p><p>(a) (b) All experiments in this paper were performed on two Vata Inc. medical models (Figure <ref type="figure" target="#fig_7">3</ref>):</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>Seymour II wound care model, which includes stage 1, stage 2, stage 3, and deep stage 4 pressure injuries, as well as a dehisced wound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>Vinnie venous insufficiency leg model, which includes various injuries as well as venous ulcers and foot ulcers.</p><p>Sensors 2023, 23, x FOR PEER REVIEW 5 of 25 combination of deep learning 2D segmentation and 3D refinement using an active contour model is the main contribution of this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hardware and Software Configuration</head><p>The hardware configuration (Figure <ref type="figure" target="#fig_3">2</ref>) of the acquisition system consists mainly of a Kinova Gen3 7-DoF robot arm and a Photoneo PhoXi M 3D scanner. The Kinova Gen3 robot arm has an RGB-D camera based on Intel RealSense technology embedded in its tool link in the form of the Kinova vision module. The Photoneo PhoXi 3D scanner is connected to the Kinova Gen3 tool link via a custom 3D printed frame. The Kinova RGB camera was manually calibrated to the PhoXi 3D scanner, while the PhoXi 3D scanner was also manually calibrated to the Kinova Gen3 tool link, which enabled transformations between PhoXi and robot base reference frames.  All experiments in this paper were performed on two Vata Inc. medical models (Figure <ref type="figure" target="#fig_7">3</ref>):</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>Seymour II wound care model, which includes stage 1, stage 2, stage 3, and deep stage 4 pressure injuries, as well as a dehisced wound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>Vinnie venous insufficiency leg model, which includes various injuries as well as venous ulcers and foot ulcers.</p><p>(a) (b) </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Wound Segmentation</head><p>Wound segmentation is an important step in obtaining physical measurements of the wound such as area, perimeter, and volume. The estimation of these parameters requires the reconstruction of a 3D model of the actual wound. As mentioned earlier, the segmentation algorithm is built upon a robot-driven wound detection and 3D reconstruction system <ref type="bibr" target="#b4">[5]</ref>. Therefore, for the sake of completeness, the description of those prior phases will be included in the next subsection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Wound Detection and 3D Reconstruction</head><p>The wound 3D reconstruction system is divided into six main stages (Figure <ref type="figure" target="#fig_10">4</ref>):</p><formula xml:id="formula_0">1.</formula><p>Wound detection; 2.</p><p>Moving the robot to chosen pose and recording; 3.</p><p>Point cloud alignment; 4.</p><p>Point cloud analysis; 5.</p><p>Hypothesis creation and evaluation; 6.</p><p>Recording pose estimation.</p><p>Sensors 2023, 23, x FOR PEER REVIEW 6 of 25 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Wound Segmentation</head><p>Wound segmentation is an important step in obtaining physical measurements of the wound such as area, perimeter, and volume. The estimation of these parameters requires the reconstruction of a 3D model of the actual wound. As mentioned earlier, the segmentation algorithm is built upon a robot-driven wound detection and 3D reconstruction system <ref type="bibr" target="#b4">[5]</ref>. Therefore, for the sake of completeness, the description of those prior phases will be included in the next subsection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Wound Detection and 3D Reconstruction</head><p>The wound 3D reconstruction system is divided into six main stages (Figure <ref type="figure" target="#fig_10">4</ref>):  The first step in the system operation is to detect the wound, which must be located in front of the robot. The purpose of detection is to focus the reconstruction process to a relatively small volume instead of reconstructing the entire scene in front of the robot. During the wound detection process, the system acquires an RGB-D pair of images using the Kinova vision module. The RGB image is used for 2D wound detection by a neural network classifier, while the depth image is used for establishing the position of the wound in 3D space.</p><p>The second stage is to control the robot to the desired recording pose. During this stage, the PhoXi scanner acquires depth images and point clouds, while the RGB image acquired by the Kinova vision module is registered to the PhoXi depth image. In the case that the considered point cloud is the first in a series for the wound reconstruction process, an additional wound detection is executed in order to create a volume-of-interest bounding box, which is then used as the region to concentrate the efforts of the reconstruction process and the segmentation process in the later stages.</p><p>The alignment of the acquired point clouds with the ones from previous recording cycles is the objective of the third stage. In the case of the initial recording, the alignment is skipped; if it is the second recording, a pairwise alignment between the previous and current point cloud is performed. In the case of the third and every subsequent recording, a full pose graph optimization is performed using all recorded point clouds up until that point in time.</p><p>The fourth stage focuses on analyzing the reconstructed surface by determining the surface deficiencies such as surface density and surface discontinuities by the classification of points included in the volume-of-interest bounding box in four classes: core, outlier, frontier, and edge.</p><p>In the fifth stage, a list of hypotheses is generated that are used as the next best view for the surface reconstruction process. A hypothesis list is, in part, populated by The first step in the system operation is to detect the wound, which must be located in front of the robot. The purpose of detection is to focus the reconstruction process to a relatively small volume instead of reconstructing the entire scene in front of the robot. During the wound detection process, the system acquires an RGB-D pair of images using the Kinova vision module. The RGB image is used for 2D wound detection by a neural network classifier, while the depth image is used for establishing the position of the wound in 3D space.</p><p>The second stage is to control the robot to the desired recording pose. During this stage, the PhoXi scanner acquires depth images and point clouds, while the RGB image acquired by the Kinova vision module is registered to the PhoXi depth image. In the case that the considered point cloud is the first in a series for the wound reconstruction process, an additional wound detection is executed in order to create a volume-of-interest bounding box, which is then used as the region to concentrate the efforts of the reconstruction process and the segmentation process in the later stages.</p><p>The alignment of the acquired point clouds with the ones from previous recording cycles is the objective of the third stage. In the case of the initial recording, the alignment is skipped; if it is the second recording, a pairwise alignment between the previous and current point cloud is performed. In the case of the third and every subsequent recording, a full pose graph optimization is performed using all recorded point clouds up until that point in time.</p><p>The fourth stage focuses on analyzing the reconstructed surface by determining the surface deficiencies such as surface density and surface discontinuities by the classification of points included in the volume-of-interest bounding box in four classes: core, outlier, frontier, and edge.</p><p>In the fifth stage, a list of hypotheses is generated that are used as the next best view for the surface reconstruction process. A hypothesis list is, in part, populated by hypotheses generated using the surface point density data consisting of clustered poses generated from each frontier point. The other part of the hypothesis list is generated using discontinuity data consisting of structures called DPlanes, which are created by clustered edge points.</p><p>The sixth and final stage checks whether the evaluated hypotheses in the list are accessible by the robot. If a hypothesis is accessible, it is then chosen as the next best view for acquisition. If it is not accessible, the system tries a number of adjusted views in the vicinity of the considered hypothesis and tests whether they are accessible instead.</p><p>The wound reconstruction stops if no further hypothesis is created or if none of the hypotheses or their adjacent views are accessible. The final reconstructed point cloud is created by voxel filtering of the complete point cloud created by the alignment of the acquired point clouds. From this final point cloud, the points enveloped by the bounding box volume-of-interest are cropped and sent to the next stage of the wound analysis process, which is the segmentation stage. A complete description of the wound reconstruction system can be found in <ref type="bibr" target="#b4">[5]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Wound Segmentation Algorithm</head><p>The input for the wound segmentation algorithm consists of a final 3D reconstructed wound model in the form of a 3D point cloud, RGB-D pairs of images, and final (optimized) poses of the recordings used to create the 3D model.</p><p>The wound segmentation algorithm includes five stages:</p><p>1. Two-dimensional per-pixel wound segmentation of RGB images made by Kinova robot vision system using MobileNetV2 classifier.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>Registering binary masks created by the previous stage to the depth image created by PhoXi 3D scanner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.</head><p>Optimized labeling of wound 3D model points using registered binary masks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.</head><p>Mesh subdivision to improve mesh density.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.</head><p>Active contour model to refine wound segmentation on a 3D model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1.">Per-Pixel 2D Wound Segmentation</head><p>The 2D wound segmentation procedure used in this paper is based almost entirely on the method proposed by Wang et al. <ref type="bibr" target="#b10">[11]</ref>, with two exceptions. First, our own database of images was used in model training and, secondly, an additional postprocessing procedure, utilizing GrabCut image segmentation <ref type="bibr" target="#b25">[26]</ref>, was included in the final stages in order to improve the obtained results. The output of the classifier is a binary mask marking the wound area(s).</p><p>For the purposes of our research, a database of 145 images of two wound models (the Seymour II Wound Care Model and the Vinnie Venous Insufficiency Leg Model by VATA Inc.) was created. Thus, the classifier model obtained in this work is only suitable for images of synthetic wounds. The original images, of dimension 1280 × 780, were taken under uncontrolled illumination conditions, with various backgrounds. Sample images of the dataset are shown in Figure <ref type="figure" target="#fig_7">3</ref>. The images were manually annotated per pixel into wound and non-wound. This dataset was further augmented (image flipping and rotation by 180 • ) and then divided into a training set with 504 images and a test set with 76 images.</p><p>In order to implement the method proposed by Wang et al. <ref type="bibr" target="#b10">[11]</ref>, the images were resized, i.e., downscaled to the dimensions of 244 × 244. After segmenting using the MobileNetV2 classifier, the segmented image was resized to its original size (upscaled). Since the MobileNetV2 classifier is a per-pixel classifier, the wound segment on the resized or upscaled segmented image is blocky. In order to refine the results, the GrabCut image segmentation method <ref type="bibr" target="#b25">[26]</ref> was used to further improve the segmented image whereby the ROIs obtained as outputs of the MobileNetV2 classifier serve as the initial input to the GrabCut segmentation procedure. This is shown with the aid of the images shown in Figures <ref type="figure" target="#fig_13">5</ref> and<ref type="figure" target="#fig_15">6</ref>. Figure <ref type="figure" target="#fig_13">5</ref> displays one of the test images (Figure <ref type="figure" target="#fig_13">5a</ref>) with a section enlarged (Figure <ref type="figure" target="#fig_13">5b</ref>). This enlarged section is further displayed in Figure <ref type="figure" target="#fig_15">6</ref> for different stages of the segmentation procedure. This is shown with the aid of the images shown in Figures <ref type="figure" target="#fig_13">5</ref> and<ref type="figure" target="#fig_15">6</ref>. Figure <ref type="figure" target="#fig_13">5</ref> displays one of the test images (Figure <ref type="figure" target="#fig_13">5a</ref>) with a section enlarged (Figure <ref type="figure" target="#fig_13">5b</ref>). This enlarged section is further displayed in Figure <ref type="figure" target="#fig_15">6</ref> for different stages of the segmentation procedure. Figure <ref type="figure" target="#fig_15">6a</ref> shows the binary image obtained as the output of the trained MobileNetV2 classifier after resizing from the dimension 244 × 244 to the original image dimension (1280 × 780). By superimposing these pixels onto the original image, the wound pixels on the original image are marked (Figure <ref type="figure" target="#fig_15">6b</ref>). It can be noticed that the edges of the wound area are blocky or pixelated. By using the original image as well as the corresponding ROIs marked with bounding boxes in Figure <ref type="figure" target="#fig_15">6c</ref> as inputs to the GrabCut image segmentation procedure, the obtained wound areas marked in Figure <ref type="figure" target="#fig_8">3d</ref> are visibly improved compared to Figure <ref type="figure" target="#fig_15">6b</ref>. Comparing the wound areas in Figure <ref type="figure" target="#fig_15">6b,</ref><ref type="figure">d</ref>, it can be noticed that after the additional postprocessing stage, i.e., GrabCut segmentation, the wound areas and the boundaries of the wounds are better defined. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2.">Registering Binary Masks</head><p>Binary images or masks created in the previous stage of 2D segmentation need to be registered with the PhoXi depth images in order to be able to apply them to the reconstructed 3D wound model. Prior to registering the masks, they are first dilated by a 30- Figure <ref type="figure" target="#fig_15">6a</ref> shows the binary image obtained as the output of the trained MobileNetV2 classifier after resizing from the dimension 244 × 244 to the original image dimension (1280 × 780). By superimposing these pixels onto the original image, the wound pixels on the original image are marked (Figure <ref type="figure" target="#fig_15">6b</ref>). It can be noticed that the edges of the wound area are blocky or pixelated. By using the original image as well as the corresponding ROIs marked with bounding boxes in Figure <ref type="figure" target="#fig_15">6c</ref> as inputs to the GrabCut image segmentation procedure, the obtained wound areas marked in Figure <ref type="figure" target="#fig_8">3d</ref> are visibly improved compared to Figure <ref type="figure" target="#fig_15">6b</ref>. Comparing the wound areas in Figure <ref type="figure" target="#fig_15">6b,</ref><ref type="figure">d</ref>, it can be noticed that after the additional postprocessing stage, i.e., GrabCut segmentation, the wound areas and the boundaries of the wounds are better defined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2.">Registering Binary Masks</head><p>Binary images or masks created in the previous stage of 2D segmentation need to be registered with the PhoXi depth images in order to be able to apply them to the reconstructed 3D wound model. Prior to registering the masks, they are first dilated by a 30-pixel dilation filter in order to ensure that the mask covers the whole wound in each of the recordings used. This is carried out due to the imperfect camera calibration procedure which has sub-pixel to sometimes even pixel reprojection error at certain distances, as well as the imperfect segmentation procedure in the 2D segmentation stage. This over-segmentation is optimized by the active contour model in the later stage in order to ensure a tighter fit of the detected wound edge on the actual 3D wound model.</p><p>In Figure <ref type="figure" target="#fig_16">7</ref>, an example of the registration process can be seen, where Figure <ref type="figure" target="#fig_17">7a</ref> shows the input RGB image made by the Kinova vision module. Figure <ref type="figure" target="#fig_17">7b</ref> shows the output binary mask, while Figure <ref type="figure" target="#fig_17">7c</ref> shows the dilated mask. The registered RGB and mask images are showed in Figure <ref type="figure" target="#fig_17">7d</ref> and 7e, respectively. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3.">Optimized Labeling of 3D Points</head><p>The final wound point cloud output by the acquisition system <ref type="bibr" target="#b4">[5]</ref> is processed by voxel filtering, which averages the point positions, colors, and normals for points contained in a given voxel. The resulting point position on the 3D model is not directly referenced in any of the input point cloud recordings, so each point in the point cloud used as input to the segmentation procedure must be reprojected onto each of the input registered binary masks, and then the reprojection that is best suited for the individual point is selected. Furthermore, the optimized labeling and later stages of the segmentation algorithm are performed only on the local wound area point cloud designated by the bound- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3.">Optimized Labeling of 3D Points</head><p>The final wound point cloud output by the acquisition system <ref type="bibr" target="#b4">[5]</ref> is processed by voxel filtering, which averages the point positions, colors, and normals for points contained in a given voxel. The resulting point position on the 3D model is not directly referenced in any of the input point cloud recordings, so each point in the point cloud used as input to the segmentation procedure must be reprojected onto each of the input registered binary masks, and then the reprojection that is best suited for the individual point is selected. Furthermore, the optimized labeling and later stages of the segmentation algorithm are performed only on the local wound area point cloud designated by the bounding box volume-of-interest generated during the detection phase of the reconstruction process <ref type="bibr" target="#b4">[5]</ref>, thereby removing the remainder of the reconstructed scene that is not needed for the analysis of a particular wound.</p><p>The algorithm for optimized labeling includes the following steps:</p><p>1.</p><p>Un-project each point in the point cloud on each of the input registered masks, retrieve its mask value and the measured depth value (d m ) from the associated depth image. Also keep the observed depth value the reprojected point would have on the input registered mask (d o ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>Calculate the score for each combination of 3D points and input registered masks in the following way:</p><formula xml:id="formula_1">score = 1 ||P -C p || • 1 deg(acos(-N•C RZ T )) (<label>1</label></formula><formula xml:id="formula_2">)</formula><p>where P is the point coordinates, N is the normal vector at point P, C p is the camera position where the image was taken, and C RZ is the Z column of the camera pose rotational matrix.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.</head><p>Choose the optimal source of the binary mask label that has the highest score and minimal difference between the measured depth values (d m ) of the original recorded depth image and the calculated, observed depth (d o ) value for each of the point cloud's points.</p><p>The difference in the depth values (d diff ), as seen in Figure <ref type="figure" target="#fig_19">8</ref>, is used to detect occlusion when a 3D point would choose a particular registered mask due to a better conditioned relation between the surface normal and camera recording orientation; however, the measured depth (d m ) at that reprojected pixel shows a different point closer to the camera than the observed depth (d o ), which is calculated by the reprojection of the 3D point. Figure <ref type="figure" target="#fig_19">8</ref> distinguishes two camera positions designated as 1 and 2, where position 1 has a better conditioned angle between the recording orientation and surface normal, but has a disadvantaged difference between the observable and measured depth. Position 2 is the opposite of position 1 regarding favorability, but since it does not have penalties regarding depth difference, it will be chosen as the optimal position even though its recording is not in a very good position to record that particular point on the surface. The difference in the depth values (ddiff), as seen in Figure <ref type="figure" target="#fig_19">8</ref>, is used to detect occlusion when a 3D point would choose a particular registered mask due to a better conditioned relation between the surface normal and camera recording orientation; however, the measured depth (dm) at that reprojected pixel shows a different point closer to the camera than the observed depth (do), which is calculated by the reprojection of the 3D point. Figure <ref type="figure" target="#fig_19">8</ref> distinguishes two camera positions designated as 1 and 2, where position 1 has a better conditioned angle between the recording orientation and surface normal, but has a disadvantaged difference between the observable and measured depth. Position 2 is the opposite of position 1 regarding favorability, but since it does not have penalties regarding depth difference, it will be chosen as the optimal position even though its recording is not in a very good position to record that particular point on the surface.    After the point cloud has been labeled by optimal reprojection, an initial mesh is created using the greedy point triangulation algorithm (GPT) <ref type="bibr" target="#b26">[27]</ref> and the initial wound contour is designated by finding mesh vertices that have at least one neighbor labeled as nonwound. That contour is further subsampled by using only half of the points to create an initial contour for the active contour model used in the next phase. Figure <ref type="figure" target="#fig_23">10</ref> shows an example of the initial wound contour on a meshed local wound area. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.4.">Mesh Subdivision</head><p>Mesh subdivision, in general, is an algorithm that takes a course mesh as input and produces a more dense mesh by subdividing mesh cells into additional cells. This subdivision typically produces an approximated version of the original surface geometry. There After the point cloud has been labeled by optimal reprojection, an initial mesh is created using the greedy point triangulation algorithm (GPT) <ref type="bibr" target="#b26">[27]</ref> and the initial wound contour is designated by finding mesh vertices that have at least one neighbor labeled as non-wound. That contour is further subsampled by using only half of the points to create an initial contour for the active contour model used in the next phase. Figure <ref type="figure" target="#fig_23">10</ref> shows an example of the initial wound contour on a meshed local wound area. After the point cloud has been labeled by optimal reprojection, an initial mesh is created using the greedy point triangulation algorithm (GPT) <ref type="bibr" target="#b26">[27]</ref> and the initial wound contour is designated by finding mesh vertices that have at least one neighbor labeled as nonwound. That contour is further subsampled by using only half of the points to create an initial contour for the active contour model used in the next phase. Figure <ref type="figure" target="#fig_23">10</ref> shows an example of the initial wound contour on a meshed local wound area. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.4.">Mesh Subdivision</head><p>Mesh subdivision, in general, is an algorithm that takes a course mesh as input and produces a more dense mesh by subdividing mesh cells into additional cells. This subdivision typically produces an approximated version of the original surface geometry. There </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.4.">Mesh Subdivision</head><p>Mesh subdivision, in general, is an algorithm that takes a course mesh as input and produces a more dense mesh by subdividing mesh cells into additional cells. This subdivision typically produces an approximated version of the original surface geometry. There are several popular algorithms such as Loop <ref type="bibr" target="#b27">[28]</ref>, Butterfly <ref type="bibr" target="#b28">[29]</ref>, or Midpoint <ref type="bibr" target="#b29">[30]</ref> for subdividing triangle meshes. Loop and Butterfly both produce approximate surfaces by interpolating curves, while Midpoint preserves the original mesh geometry. To avoid having to make additional assumptions about the scanned wound surface, the Midpoint algorithm is used in this research. The Midpoint algorithm, in each iteration, basically cuts every mesh edge in half and generates four new triangles out of each original triangle. Figure <ref type="figure" target="#fig_28">11</ref> shows an original mesh and the mesh subdivided by the Midpoint algorithm.</p><p>Sensors 2023, 23, x FOR PEER REVIEW 13 of 25 are several popular algorithms such as Loop <ref type="bibr" target="#b27">[28]</ref>, Butterfly <ref type="bibr" target="#b28">[29]</ref>, or Midpoint <ref type="bibr" target="#b29">[30]</ref> for subdividing triangle meshes. Loop and Butterfly both produce approximate surfaces by interpolating curves, while Midpoint preserves the original mesh geometry. To avoid having to make additional assumptions about the scanned wound surface, the Midpoint algorithm is used in this research. The Midpoint algorithm, in each iteration, basically cuts every mesh edge in half and generates four new triangles out of each original triangle.</p><p>Figure <ref type="figure" target="#fig_28">11</ref> shows an original mesh and the mesh subdivided by the Midpoint algorithm. Refining the reconstructed wound mesh by increasing the density of triangles and vertices greatly improves the performance of the active contour model (ACM) algorithm, explained in the next subsection, by giving each contour node more freedom to choose a more suitable point that minimizes the energy term (2). The original wound mesh made by the GPT algorithm can be too restrictive for the ACM algorithm even though the original surface is sampled at the millimeter scale, especially in the case of wounds of small size. Figure <ref type="figure" target="#fig_29">12</ref> shows the change in ACM performance with the same configuration when using original wound mesh or subdivided mesh. In this research, two iterations of the Midpoint algorithm were applied for the input wound meshes.  Refining the reconstructed wound mesh by increasing the density of triangles and vertices greatly improves the performance of the active contour model (ACM) algorithm, explained in the next subsection, by giving each contour node more freedom to choose a more suitable point that minimizes the energy term (2). The original wound mesh made by the GPT algorithm can be too restrictive for the ACM algorithm even though the original surface is sampled at the millimeter scale, especially in the case of wounds of small size. Figure <ref type="figure" target="#fig_29">12</ref> shows the change in ACM performance with the same configuration when using original wound mesh or subdivided mesh. In this research, two iterations of the Midpoint algorithm were applied for the input wound meshes.</p><p>Sensors 2023, 23, x FOR PEER REVIEW 13 of 25 are several popular algorithms such as Loop <ref type="bibr" target="#b27">[28]</ref>, Butterfly <ref type="bibr" target="#b28">[29]</ref>, or Midpoint <ref type="bibr" target="#b29">[30]</ref> for subdividing triangle meshes. Loop and Butterfly both produce approximate surfaces by interpolating curves, while Midpoint preserves the original mesh geometry. To avoid having to make additional assumptions about the scanned wound surface, the Midpoint algorithm is used in this research. The Midpoint algorithm, in each iteration, basically cuts every mesh edge in half and generates four new triangles out of each original triangle.</p><p>Figure <ref type="figure" target="#fig_28">11</ref> shows an original mesh and the mesh subdivided by the Midpoint algorithm. Refining the reconstructed wound mesh by increasing the density of triangles and vertices greatly improves the performance of the active contour model (ACM) algorithm, explained in the next subsection, by giving each contour node more freedom to choose a more suitable point that minimizes the energy term <ref type="bibr" target="#b1">(2)</ref>. The original wound mesh made by the GPT algorithm can be too restrictive for the ACM algorithm even though the original surface is sampled at the millimeter scale, especially in the case of wounds of small size. Figure <ref type="figure" target="#fig_29">12</ref> shows the change in ACM performance with the same configuration when using original wound mesh or subdivided mesh. In this research, two iterations of the Midpoint algorithm were applied for the input wound meshes.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.5.">3D Active Contour Model</head><p>The active contour model (ACM) <ref type="bibr" target="#b30">[31]</ref> is an algorithm that enables users to find the contours of arbitrary objects in primarily 2D images. ACM is basically a deformable spline influenced by some predefined forces. These forces typically include the attraction force between the nodes of the contour, which causes the contour to contract (or repulse in the case of an expanding contour), and a smoothing force, which counteracts the deformation of the contour. Besides these forces, in order for the ACM to work, the nodes of the contour must be attracted toward a boundary that the user is trying to find-in 2D images, this is typically some kind of gradient, for example, finding the edges in an image with the Sobel filter and then blurring it with the Gaussian filter to have a wider attraction range.</p><p>The basic energy functions for the 3D adaptation of the ACM are similar to the generally known 2D case <ref type="bibr" target="#b30">[31]</ref>: <ref type="formula">5</ref>) <ref type="formula">6</ref>) where E total is the cumulative contour energy calculated over all contour nodes that needs to be minimized. It comprises mesh energy E mesh and contour energy E contour . Mesh energy, in this case, is the curvature calculated using principle component analysis (PCA) over a list of normals for points in the vicinity of a particular mesh vertex. Basically, it is the largest eigenvalue of the covariance matrix C p calculated for the list of normals for a particular point p. Choosing the correct neighborhood size radius for calculating the PCA is crucial for the attraction force and reach of the ACM, as can be seen in Figure <ref type="figure" target="#fig_35">13b,</ref><ref type="figure">c</ref>, where two different neighborhood radii were used for the calculation. In this research, a neighborhood radius of 5 mm was used for calculating the PCA. The contour energy is further composed of the elastic energy E elastic , which regulates contraction (or expansion), and smoothing energy E smooth that regulates the deformability of the contour. The symbols α and β control the influence of elastic and smoothing energies in the overall energy term. In this research, α and β were used with the value of 1. The elastic energy is determined by calculating the Euclidean distance between the neighboring nodes of the contour. Since we have a mesh in the 3D case, the distance is composed of the Euclidean distances of all neighboring vertices along the shortest path between contour nodes. Therefore, the elastic energy is basically the geodesic distance along the surface of the triangle mesh between two nodes of the contour. The smoothing energy is calculated as the 3D gradient between the nodes of the contour.</p><formula xml:id="formula_3">E total = E mesh + E contour<label>(2)</label></formula><formula xml:id="formula_4">E mesh = -∑ n-i i=0 M(i), M(p) = max eig C p<label>(3)</label></formula><formula xml:id="formula_5">E contour = αE elastic + βE smooth<label>(4)</label></formula><formula xml:id="formula_6">E elastic = ∑ n-i i=0 ∑ k-1 j=0 (x ki+1 -x k ) 2 + (y ki+1 -y k ) 2 + (z ki+1 -z k ) 2 (</formula><formula xml:id="formula_7">E smooth = ∑ n-1 i=0 (x i+1 -2x i + x i-1 ) 2 + (y i+1 -2y i + y i-1 ) 2 + (z i+1 -2z i + z i-1 ) 2 (</formula><p>As established earlier, the 3D data of the local wound region that enters this stage of the algorithm is a 3D mesh. In order to better adapt the ACM model to the 3D data, the mesh is used to create a weighted graph. The graph comprises nodes as mesh vertices, the graph edges are triangle edges, and the weights are Euclidean distances between vertices. The 3D ACM algorithm works iteratively in five steps:</p><p>1.</p><p>Determine the current neighborhood for each contour node on the graph.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>Calculate the new position for each node in a greedy manner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.</head><p>Estimate a spline based on the new node positions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.</head><p>Uniformly sample the spline with the same number of nodes as the initial contour.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.</head><p>For each spline sample, find the nearest node on the graph (mesh).</p><p>After the initial contour generation in the previous stage of the segmentation algorithm, each list of contour nodes contains the same number of nodes in the following iterations. At the start of each iteration, each contour node generates a list of neighbors that are located a maximum number of graph nodes from the contour node being considered. For this research a two-node neighborhood was found to be the optimal solution. Figure <ref type="figure" target="#fig_35">13d</ref> shows a contour, nodes, and neighbors for each of the displayed contour nodes in a two-node-wide range.  The new position for each node in each iteration is considered in a greedy manner, i.e., independently of the new positions for neighboring contour nodes. The new position for each node is selected from a list of neighbors that minimizes the energy term <ref type="bibr" target="#b1">(2)</ref>.</p><p>Following the designation of the new graph for every node, a spline is estimated through these positions, which is then sampled in the same number of points as the original list of contour nodes. Since these samples may or may not be located on the wound mesh, a nearest mesh vertex is located by using kd-tree. Figure <ref type="figure" target="#fig_35">13e</ref> shows the initial contour as well as a 10-iteration ACM optimized one for the synthetic example of the hole (Figure <ref type="figure" target="#fig_35">13a</ref>), where the ACM successfully found the requested hole boundary. In this research, 10 iterations of the ACM were utilized to optimize the initial contour in each of the experimental wounds.</p><p>A more realistic example of the ACM application can be seen in Figure <ref type="figure" target="#fig_36">14</ref>. Figure <ref type="figure" target="#fig_38">14a-c</ref> shows a very successful application of the ACM where the first image shows the masked mesh and initial contour and the second and third images show the initial and final contour with a curvature texture and RGB texture, respectively. A successful run with some inconsistencies can be seen in Figure <ref type="figure" target="#fig_38">14d-f</ref>, where the ACM managed, for the most part, to find the wound border with some small areas in the left and top still being over-segmented. The reason for the error on top of the wound was actually the close proximity of the second wound, not object of this analysis, on the same medical model that has more pronounced edges which then "stole" the contour from the observed wound. An unsuccessful run is shown in Figure <ref type="figure" target="#fig_38">14g-i</ref>, where it can be seen that the ACM undersegmented the wound, with the final contour slipping to the bottom border of the wound surface instead of remaining on the top border. The error was caused by a relatively shallow wound with strong top and bottom borders. The ACM could not numerically distinguish between the top and bottom border since the bottom was very close due to the shallowness; it therefore "slipped" to the bottom, causing the wound to be under-segmented.</p><p>Sensors 2023, 23, x FOR PEER REVIEW 17 of 25</p><p>A more realistic example of the ACM application can be seen in Figure <ref type="figure" target="#fig_36">14</ref>. Figure <ref type="figure" target="#fig_38">14a-c</ref> shows a very successful application of the ACM where the first image shows the masked mesh and initial contour and the second and third images show the initial and final contour with a curvature texture and RGB texture, respectively. A successful run with some inconsistencies can be seen in Figure <ref type="figure" target="#fig_38">14d-f</ref>, where the ACM managed, for the most part, to find the wound border with some small areas in the left and top still being over-segmented. The reason for the error on top of the wound was actually the close proximity of the second wound, not object of this analysis, on the same medical model that has more pronounced edges which then "stole" the contour from the observed wound. An unsuccessful run is shown in Figure <ref type="figure" target="#fig_38">14g-i</ref>, where it can be seen that the ACM under-segmented the wound, with the final contour slipping to the bottom border of the wound surface instead of remaining on the top border. The error was caused by a relatively shallow wound with strong top and bottom borders. The ACM could not numerically distinguish between the top and bottom border since the bottom was very close due to the shallowness; it therefore "slipped" to the bottom, causing the wound to be under-segmented. (g) (h) (i) </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Results</head><p>Generating the final wound boundary using the ACM algorithm is the starting point of calculating the physical properties of the wound, as the boundary directly enables the calculation of the wound perimeter and the area in the case of a shallow wound. For deep wounds, the area is considered to be the skin missing on the top of the wound, therefore a virtual skin top needs to be generated. Similar to our previous research <ref type="bibr" target="#b3">[4]</ref>, the top of the wound, as well as other holes in the 3D model, are closed using constrained 2D Delaunay triangulation implemented in the VTK library <ref type="bibr" target="#b31">[32]</ref>. Even though this Delaunay implementation is for 2D point sets, 3D data can be used by projecting all of the points on a plane chosen as a most likelihood plane by calculating the PCA and choosing the eigenvector corresponding to the largest eigenvalue. Creating a virtual skin top facilitates wound area measurement while creating covers for all holes; it enables the creation of the watertight 3D model and calculating the volume. Figure <ref type="figure" target="#fig_39">15</ref> shows an example of the final wound surface cut from the input mesh by the contour generated from the ACM, along with the generated surfaces used for hole filling. (c) mesh with RGB texture and both initial contour and final contour on the successful run; (d) masked mesh and initial contour on the semi-successful run; (e) mesh with curvature texture and both initial contour and final contour on the semi-successful run; (f) mesh with RGB texture and both initial contour and final contour on the semi-successful run; (g) masked mesh and initial contour on the unsuccessful run; (h) mesh with curvature texture and both initial contour and final contour on the unsuccessful run; (i) mesh with RGB texture and both initial contour and final contour on the unsuccessful run.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Results</head><p>Generating the final wound boundary using the ACM algorithm is the starting point of calculating the physical properties of the wound, as the boundary directly enables the calculation of the wound perimeter and the area in the case of a shallow wound. For deep wounds, the area is considered to be the skin missing on the top of the wound, therefore a virtual skin top needs to be generated. Similar to our previous research <ref type="bibr" target="#b3">[4]</ref>, the top of the wound, as well as other holes in the 3D model, are closed using constrained 2D Delaunay triangulation implemented in the VTK library <ref type="bibr" target="#b31">[32]</ref>. Even though this Delaunay implementation is for 2D point sets, 3D data can be used by projecting all of the points on a plane chosen as a most likelihood plane by calculating the PCA and choosing the eigenvector corresponding to the largest eigenvalue. Creating a virtual skin top facilitates wound area measurement while creating covers for all holes; it enables the creation of the watertight 3D model and calculating the volume. Figure <ref type="figure" target="#fig_39">15</ref> shows an example of the final wound surface cut from the input mesh by the contour generated from the ACM, along with the generated surfaces used for hole filling.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Case Study</head><p>The case studies considered here are wounds from two realistic and lifelike medical models by Vata Inc. as described in Section 3. The Seymour II wound care model also has ground truth (GT) measurements available as mentioned in <ref type="bibr" target="#b3">[4]</ref>, and the GT measurements can be seen in Table <ref type="table" target="#tab_0">1</ref>. implementation is for 2D point sets, 3D data can be used by projecting all of the points on a plane chosen as a most likelihood plane by calculating the PCA and choosing the eigenvector corresponding to the largest eigenvalue. Creating a virtual skin top facilitates wound area measurement while creating covers for all holes; it enables the creation of the watertight 3D model and calculating the volume. Figure <ref type="figure" target="#fig_39">15</ref> shows an example of the final wound surface cut from the input mesh by the contour generated from the ACM, along with the generated surfaces used for hole filling. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Case Study</head><p>The case studies considered here are wounds from two realistic and lifelike medical models by Vata Inc. as described in Section 3. The Seymour II wound care model also has ground truth (GT) measurements available as mentioned in <ref type="bibr" target="#b3">[4]</ref>, and the GT measurements can be seen in Table <ref type="table" target="#tab_0">1</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound Type</head><p>Perimeter (mm) Area (mm 2 ) Volume (mm 3 ) In this section, we will consider various wound geometries, namely, Stage 3 and 4 pressure ulcers as well as dehisced surgical wound from the Seymour II wound care model. From the Vinnie venous insufficiency leg model, we will consider two venous ulcers as well as a neuropathic ulcer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.1.">Stage 3 Pressure Ulcer</head><p>This is a stage 3 pressure ulcer with moderate depth and tunneling on two separate sides. While the used robot-driven 3D wound reconstruction system <ref type="bibr" target="#b4">[5]</ref> could be very precise, it was struggling to find a reachable pose to scan the tunneling parts of the wound, therefore those parts of the wound remained largely unscanned in both pressure ulcers considered here. The wound reconstruction can be seen in Figure <ref type="figure" target="#fig_42">16a</ref> along with the segmentation performance of Figure <ref type="figure" target="#fig_42">16b-d</ref>. The wound was reconstructed from four recordings made from separated viewpoints. As can be seen in Figure <ref type="figure" target="#fig_42">16b</ref>, the optimized labeling of the reconstructed mesh was quite successful, with very little unwanted labeling in the surrounding mesh around the wound, which resulted in a tight initial contour prior to ACM. The ACM further optimized the contour, as can be seen from Figure <ref type="figure" target="#fig_42">16c</ref> as a green contour. This figure also shows the curvature intensities on the surface of the model. The segmented and cut wound mesh can be seen in Figure <ref type="figure" target="#fig_42">16d</ref>. All of the covers for this particular wound can be seen in Figure <ref type="figure" target="#fig_39">15</ref>, while the covers for other wounds that have them are not shown because they are quite similar. In this section, we will consider various wound geometries, namely, Stage 3 and 4 pressure ulcers as well as dehisced surgical wound from the Seymour II wound care model. From the Vinnie venous insufficiency leg model, we will consider two venous ulcers as well as a neuropathic ulcer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.1.">Stage 3 Pressure Ulcer</head><p>This is a stage 3 pressure ulcer with moderate depth and tunneling on two separate sides. While the used robot-driven 3D wound reconstruction system <ref type="bibr" target="#b4">[5]</ref> could be very precise, it was struggling to find a reachable pose to scan the tunneling parts of the wound, therefore those parts of the wound remained largely unscanned in both pressure ulcers considered here. The wound reconstruction can be seen in Figure <ref type="figure" target="#fig_42">16a</ref> along with the segmentation performance of Figure <ref type="figure" target="#fig_42">16b-d</ref>. The wound was reconstructed from four recordings made from separated viewpoints. As can be seen in Figure <ref type="figure" target="#fig_42">16b</ref>, the optimized labeling of the reconstructed mesh was quite successful, with very little unwanted labeling in the surrounding mesh around the wound, which resulted in a tight initial contour prior to ACM. The ACM further optimized the contour, as can be seen from Figure <ref type="figure" target="#fig_42">16c</ref> as a green contour. This figure also shows the curvature intensities on the surface of the model. The segmented and cut wound mesh can be seen in Figure <ref type="figure" target="#fig_42">16d</ref>. All of the covers for this particular wound can be seen in Figure <ref type="figure" target="#fig_39">15</ref>, while the covers for other wounds that have them are not shown because they are quite similar. The wound perimeter was measured to be 171.09 mm, the area was 2302.0 mm 2 , and the volume was 22,532.09 mm 3 . When comparing the results to GT, they produce a percentage error of 2.62% for perimeter, 2.86% for area, and 4.59% for volume. The wound perimeter was measured to be 171.09 mm, the area was 2302.0 mm 2 , and the volume was 22,532.09 mm 3 . When comparing the results to GT, they produce a percentage error of 2.62% for perimeter, 2.86% for area, and 4.59% for volume. 5.1.2. 5 1 /2 Inch Long Dehisced Surgical Wound This wound is a 5 1 /2 inch long dehisced surgical wound with considerable depth and high-angled sides. Due to its high-angled sides (compared to the camera projection plane), it makes reconstruction of this wound a challenge since the projected laser pattern by the 3D scanner does not reflect enough toward the scanner in order to be visible from many view angles reachable by the robot recording system. Therefore, even though the wound is rather simple and could be reconstructed if placed in an unrealistic position for the patient, since it simulates a patient wound on a model of a part of the human body, it could only be partially reconstructed with one side fully scanned, taking into consideration all of the imposed limitations. The reconstructed 3D model can be seen in Figure <ref type="figure" target="#fig_45">17a</ref>: the reconstruction was made from four recordings. Figure <ref type="figure" target="#fig_45">17b</ref> shows the optimized mask of the detected wound and initial contour, while Figure <ref type="figure" target="#fig_45">17c</ref> shows the initial and ACM contour on the surface textured with curvature. Figure <ref type="figure" target="#fig_45">17d</ref> shows the segmented and cut wound. of the imposed limitations. The reconstructed 3D model can be seen in Figure <ref type="figure" target="#fig_45">17a</ref>: the reconstruction was made from four recordings. Figure <ref type="figure" target="#fig_45">17b</ref> shows the optimized mask of the detected wound and initial contour, while Figure <ref type="figure" target="#fig_45">17c</ref> shows the initial and ACM contour on the surface textured with curvature. Figure <ref type="figure" target="#fig_45">17d</ref> shows the segmented and cut wound. The wound perimeter was measured to be 275.22 mm, the area 2549.63 mm 2 , and the volume 29,764.54 mm 3 . The results, when compared to GT, give a percentage error of 0.89% for the perimeter, 6.23% for the area, and 5.95% for the volume.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.3.">Stage 4 Pressure Ulcer</head><p>This wound is the second pressure ulcer and the largest and most complex wound on the Seymour II wound care model since it has a very large area, great depth, and tunneling in two different directions. Similarly, as in the previously described pressure ulcer, the tunneling parts of this wound were not able to be reconstructed. Figure <ref type="figure" target="#fig_47">18a</ref> shows the reconstructed surface, while Figure <ref type="figure" target="#fig_47">18b</ref> shows the optimized mask labeling made from seven recordings from which the wound was originally reconstructed. Figure <ref type="figure" target="#fig_47">18c</ref> shows the initial and ACM contour on a model textured with curvature values, while Figure <ref type="figure" target="#fig_47">18d</ref> shows the segmented and cut wound. As can be seen in the figures, the ACM failed in 10 iterations to tightly envelop the wound from the bottom and left parts, resulting in a higher area error percentage. Increasing the number of iterations to more than 10 might The wound perimeter was measured to be 275.22 mm, the area 2549.63 mm 2 , and the volume 29,764.54 mm 3 . The results, when compared to GT, give a percentage error of 0.89% for the perimeter, 6.23% for the area, and 5.95% for the volume.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.3.">Stage 4 Pressure Ulcer</head><p>This wound is the second pressure ulcer and the largest and most complex wound on the Seymour II wound care model since it has a very large area, great depth, and tunneling in two different directions. Similarly, as in the previously described pressure ulcer, the tunneling parts of this wound were not able to be reconstructed. Figure <ref type="figure" target="#fig_47">18a</ref> shows the reconstructed surface, while Figure <ref type="figure" target="#fig_47">18b</ref> shows the optimized mask labeling made from seven recordings from which the wound was originally reconstructed. Figure <ref type="figure" target="#fig_47">18c</ref> shows the initial and ACM contour on a model textured with curvature values, while Figure <ref type="figure" target="#fig_47">18d</ref> shows the segmented and cut wound. As can be seen in the figures, the ACM failed in 10 iterations to tightly envelop the wound from the bottom and left parts, resulting in a higher area error percentage. Increasing the number of iterations to more than 10 might have helped a little, but reducing the value of β would probably have helped more as it would have made the contour more deformable. The wound perimeter was measured to be 351.53 mm, the area 7689.11 mm 2 , and the volume 109,839.24 mm 3 . The results, when compared to GT, give a percentage error of 4.96% for the perimeter, 8.02% for the area, and 8.94% for the volume.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.4.">Neuropathic Ulcer</head><p>This wound is a neuropathic ulcer of comparatively smaller size compared with the previously considered wounds, but because of its depth, four recordings were needed to reconstruct it properly. Figure <ref type="figure" target="#fig_50">19a</ref> shows the 3D reconstruction model of the local wound, while Figure <ref type="figure" target="#fig_50">19b</ref> shows the optimized mask projection. It can be seen that the mask encompasses a large area around the actual wound. Figure <ref type="figure" target="#fig_50">19c</ref> shows that despite this larger masked area, the ACM manages to precisely envelop the actual wound. The final segmented and cut wound is shown in Figure <ref type="figure" target="#fig_50">19d</ref>. The wound perimeter was measured to be 351.53 mm, the area 7689.11 mm 2 , and the volume 109,839.24 mm 3 . The results, when compared to GT, give a percentage error of 4.96% for the perimeter, 8.02% for the area, and 8.94% for the volume.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.4.">Neuropathic Ulcer</head><p>This wound is a neuropathic ulcer of comparatively smaller size compared with the previously considered wounds, but because of its depth, four recordings were needed to reconstruct it properly. Figure <ref type="figure" target="#fig_50">19a</ref> shows the 3D reconstruction model of the local wound, while Figure <ref type="figure" target="#fig_50">19b</ref> shows the optimized mask projection. It can be seen that the mask encompasses a large area around the actual wound. Figure <ref type="figure" target="#fig_50">19c</ref> shows that despite this larger masked area, the ACM manages to precisely envelop the actual wound. The final segmented and cut wound is shown in Figure <ref type="figure" target="#fig_50">19d</ref>.</p><p>The wound perimeter was measured as 44.07 mm, the area as 150.97 mm 2 , and the volume as 414.08 mm 3 .</p><p>This wound is a neuropathic ulcer of comparatively smaller size compared with the previously considered wounds, but because of its depth, four recordings were needed to reconstruct it properly. Figure <ref type="figure" target="#fig_50">19a</ref> shows the 3D reconstruction model of the local wound, while Figure <ref type="figure" target="#fig_50">19b</ref> shows the optimized mask projection. It can be seen that the mask encompasses a large area around the actual wound. Figure <ref type="figure" target="#fig_50">19c</ref> shows that despite this larger masked area, the ACM manages to precisely envelop the actual wound. The final segmented and cut wound is shown in Figure <ref type="figure" target="#fig_50">19d</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.5.">Larger Venous Ulcer</head><p>This wound is a venous ulcer of substantial size. The wound is rather flat, therefore no volume is measured. Due to some protrusions on the surface, two recordings were needed to reconstruct the surface shown on Figure <ref type="figure" target="#fig_52">20a</ref>. Figure <ref type="figure" target="#fig_52">20b</ref> shows the optimized mask projection that envelops a much larger area than the actual wound, but the ACM manages to converge on the actual wound outline despite the dynamic nature of that part of the surface, as can be seen in Figure <ref type="figure" target="#fig_52">20c</ref>. Figure <ref type="figure" target="#fig_52">20d</ref> shows the segmented and cut wound.  The wound perimeter was measured as 44.07 mm, the area as 150.97 mm 2 , and the volume as 414.08 mm 3 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.5.">Larger Venous Ulcer</head><p>This wound is a venous ulcer of substantial size. The wound is rather flat, therefore no volume is measured. Due to some protrusions on the surface, two recordings were needed to reconstruct the surface shown on Figure <ref type="figure" target="#fig_52">20a</ref>. Figure <ref type="figure" target="#fig_52">20b</ref> shows the optimized mask projection that envelops a much larger area than the actual wound, but the ACM manages to converge on the actual wound outline despite the dynamic nature of that part of the surface, as can be seen in Figure <ref type="figure" target="#fig_52">20c</ref>. Figure <ref type="figure" target="#fig_52">20d</ref> shows the segmented and cut wound. The wound perimeter was measured as 130.18 mm, while the area was 1324.47 mm 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.6.">Smaller Venous Ulcer</head><p>This is also a venous ulcer of relatively small proportions and, similar to the previously discussed venous ulcer, this one is also very flat and therefore no volume is measured. Only one recording was needed to generate the reconstruction shown in Figure <ref type="figure" target="#fig_53">21a</ref>. The initial contouring made by the mask projection is shown in Figure <ref type="figure" target="#fig_53">21b</ref>, and as can be seen, the masked area does not correctly overlap the wound area due to inaccuracy in the 2D wound segmentation and errors in camera calibration. Figure <ref type="figure" target="#fig_53">21c</ref> shows that the ACM has somewhat correctly contoured the wound, with the only big error being that the top of the contour converged on another wound (a lipodermatosclerosis wound) that is in close proximity to this venous ulcer model. The other wound has a much bigger ridge, which results in a much larger curvature that is therefore "stealing" the contour. If this wound was not located that closely, the ACM would converge on the wound under consideration. The problem might also be fixed by using a larger α value of the ACM energy term, but in this research, we the used same configuration for all experiments. The final segmented and cut wound is shown in Figure <ref type="figure" target="#fig_53">21d</ref>. The wound perimeter was measured as 130.18 mm, while the area was 1324.47 mm 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.6.">Smaller Venous Ulcer</head><p>This is also a venous ulcer of relatively small proportions and, similar to the previously discussed venous ulcer, this one is also very flat and therefore no volume is measured. Only one recording was needed to generate the reconstruction shown in Figure <ref type="figure" target="#fig_53">21a</ref>. The initial contouring made by the mask projection is shown in Figure <ref type="figure" target="#fig_53">21b</ref>, and as can be seen, the masked area does not correctly overlap the wound area due to inaccuracy in the 2D wound segmentation and errors in camera calibration. Figure <ref type="figure" target="#fig_53">21c</ref> shows that the ACM has somewhat correctly contoured the wound, with the only big error being that the top of the contour converged on another wound (a lipodermatosclerosis wound) that is in close proximity to this venous ulcer model. The other wound has a much bigger ridge, which results in a much larger curvature that is therefore "stealing" the contour. If this wound was not located that closely, the ACM would converge on the wound under consideration. The problem might also be fixed by using a larger α value of the ACM energy term, but in this research, we the used same configuration for all experiments. The final segmented and cut wound is shown in Figure <ref type="figure" target="#fig_53">21d</ref>. The wound perimeter was measured as 102.44 mm, while the area was 698.56 mm 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p>Automated and precise wound measurements will improve the quality of the tools available to physicians to track the healing of individual patients and wounds. This would also facilitate better suited prescription and application of therapies, which would increase the living standards of patients as well as increase the healing rate of wounds, resulting in a reduction of costs in the medical system.</p><p>The segmentation system presented in this research is built upon on an automated, robot-driven acquisition system that outputs precise 3D reconstructions of chronic wounds. The acquisition system is fully automated and does not require any user input other than turning the robot in the general direction of the patient. The research presented here continues this philosophy of automation such that it does not require any user input in order for it to output accurate wound segmentation and geometric measurements. The data requested by the segmentation algorithm is the reconstructed 3D point cloud model of the wound as well as recordings and camera poses used to create the reconstruction. The recordings are used to create binary masks using the MobileNetV2 classifier and GrabCut, which label a general area of the wound on 2D images. These binary masks are then projected onto the 3D point cloud wound model, and then each point in the point cloud selects which projection to use based on the computed score, as well as the occlusion detection. Such a masked point cloud is used to generate an initial contour of the wound, which is then further refined by ACM on the meshed 3D surface of the reconstructed wound. The wound is then segmented, cut out, and the geometric measures of perimeter, area, and volume are calculated.</p><p>Comparing the obtained measurement results with the authors' previous work in <ref type="bibr" target="#b3">[4]</ref>, the average error rate was 2.82% for circumference, 5.72% for area, and 6.49% for volume measurement, compared to 4.39% for circumference, 6.86% for area, and 23.82% for volume.</p><p>The results presented clearly show that the segmentation and measurements are accurate, but further improvements must be made, especially regarding the reduction of errors caused by the calibration of cameras as well as 2D segmentation. Moreover, 3D ACM implementation could also be further improved by increasing the robustness to curvature noise as well as increased flexibility to better outline the arbitrary shapes that wounds can have.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Sensors 2023, 23 ,Figure 1 .</head><label>231</label><figDesc>Figure 1. Wound located on: (a) lower back region; (b) leg region.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Wound located on: (a) lower back region; (b) leg region.</figDesc><graphic coords="2,360.36,97.35,191.04,147.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Configuration of the acquisition system: (a) robotic recording system in a hospital setting; (b) cameras used in the recording system.</figDesc><graphic coords="5,82.54,221.25,137.97,205.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Configuration of the acquisition system: (a) robotic recording system in a hospital setting; (b) cameras used in the recording system.</figDesc><graphic coords="5,236.68,221.12,275.03,205.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Configuration of the acquisition system: (a) robotic recording system in a hospital setting; (b) cameras used in the recording system.</figDesc><graphic coords="5,240.61,210.71,267.32,199.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Medical models used in this research: (a) Seymour II wound care model; (b) Vinnie venous insufficiency leg model.</figDesc><graphic coords="5,301.65,596.05,242.42,133.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Medical models used in this research: (a) Seymour II wound care model; (b) Vinnie venous insufficiency leg model.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>1 .</head><label>1</label><figDesc>Wound detection; 2. Moving the robot to chosen pose and recording; 3. Point cloud alignment; 4. Point cloud analysis; 5. Hypothesis creation and evaluation; 6. Recording pose estimation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. High-level overview of the wound detection and 3D reconstruction system.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. High-level overview of the wound detection and 3D reconstruction system.</figDesc><graphic coords="6,55.75,311.86,484.80,68.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head></head><label></label><figDesc>Sensors 2023, 23, 3298 8 of 23 Sensors 2023, 23, x FOR PEER REVIEW 8 of 25</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Sample image: (a) whole image; (b) enlarged section of the original image.</figDesc><graphic coords="8,94.33,264.78,179.94,134.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 5 .Figure 6 .</head><label>56</label><figDesc>Figure 5. Sample image: (a) whole image; (b) enlarged section of the original image. Sensors 2023, 23, x FOR PEER REVIEW 9 of 25</figDesc><graphic coords="8,96.76,97.72,202.02,113.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Enlarged section of the original test image under consideration: (a) output binary image obtained as a result of the method proposed by Wang et al. [10]; (b) wound pixels marked on the original image; (c) corresponding region of interests (ROIs) of image (b) where blue and red denotes different wounds; (d) wound pixels marked on the original image after additional post-processing using GrabCut; (e) corresponding ROIs of image (d) where blue and red denotes different wounds.</figDesc><graphic coords="8,207.01,561.72,180.00,134.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Example of registering binary masks to PhoXi depth images: (a) input RGB image made by Kinova vision module; (b) binary mask made during the 2D segmentation stage; (c) dilated binary mask; (d) registered RGB image-green color denotes pixels with no RGB value; (e) registered binary mask.</figDesc><graphic coords="9,95.65,518.01,175.46,131.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Example of registering binary masks to PhoXi depth images: (a) input RGB image made by Kinova vision module; (b) binary mask made during the 2D segmentation stage; (c) dilated binary mask; (d) registered RGB image-green color denotes pixels with no RGB value; (e) registered binary mask.</figDesc><graphic coords="9,324.74,518.01,175.46,131.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>25 3.</head><label>25</label><figDesc>Sensors 2023,23,  x FOR PEER REVIEW 11 of Choose the optimal source of the binary mask label that has the highest score and minimal difference between the measured depth values (dm) of the original recorded depth image and the calculated, observed depth (do) value for each of the point cloud's points.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Occlusion detection when reprojecting surface 3D points for two positions (1., 2.), arrows represent surface normals while color bars represents locations for measured depth (green) and observed depth (red).</figDesc><graphic coords="10,167.82,559.99,175.16,181.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 9</head><label>9</label><figDesc>Figure 9 shows an example of optimized labeling where four recordings were used to reconstruct a wound. The figure shows a reconstructed 3D model, registered RGB, and mask images, as well as local point cloud wound area textured with color and an optimized mask projection.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Occlusion detection when reprojecting surface 3D points for two positions (1., 2.), arrows represent surface normals while color bars represents locations for measured depth (green) and observed depth (red).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Figure 9 25 Figure 9 .</head><label>9259</label><figDesc>Figure 9 shows an example of optimized labeling where four recordings were used to reconstruct a wound. The figure shows a reconstructed 3D model, registered RGB, and mask images, as well as local point cloud wound area textured with color and an optimized mask projection. Sensors 2023, 23, x FOR PEER REVIEW 12 of 25</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. Initial wound contour shown in blue color on the meshed wound surface with binary mask texture.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Example of optimized 3D point cloud mask labeling, where arrows point to the corresponding locations of the recordings on the left side of the figure.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>Sensors 2023 , 25 Figure 9 .</head><label>2023259</label><figDesc>Figure 9. Example of optimized 3D point cloud mask labeling, where arrows point to the corresponding locations of the recordings on the left side of the figure</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_26"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. Initial wound contour shown in blue color on the meshed wound surface with binary mask texture.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_27"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. Initial wound contour shown in blue color on the meshed wound surface with binary mask texture.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_28"><head>Figure 11 .</head><label>11</label><figDesc>Figure 11. Example of using Midpoint algorithm for mesh subdivision: (a) original mesh; (b) subdivided mesh.</figDesc><graphic coords="12,355.44,258.62,212.41,125.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_29"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. Example of improvement of ACM performance using mesh subdivision where blue represents initial contour while green is the final contour: (a) no subdivision used; (b) Midpoint subdivision used.</figDesc><graphic coords="12,109.74,566.62,153.67,153.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_30"><head>Figure 11 .</head><label>11</label><figDesc>Figure 11. Example of using Midpoint algorithm for mesh subdivision: (a) original mesh; (b) subdivided mesh.</figDesc><graphic coords="12,73.03,246.96,219.34,129.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_31"><head>Figure 11 .</head><label>11</label><figDesc>Figure 11. Example of using Midpoint algorithm for mesh subdivision: (a) original mesh; (b) subdivided mesh.</figDesc><graphic coords="12,132.87,258.62,212.41,125.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_32"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. Example of improvement of ACM performance using mesh subdivision where blue represents initial contour while green is the final contour: (a) no subdivision used; (b) Midpoint subdivision used.</figDesc><graphic coords="12,331.81,566.62,153.67,153.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_33"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. Example of improvement of ACM performance using mesh subdivision where blue represents initial contour while green is the final contour: (a) no subdivision used; (b) Midpoint subdivision used.</figDesc><graphic coords="12,168.42,568.18,148.82,148.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_34"><head>Figure 13 .</head><label>13</label><figDesc>Figure 13. Synthetic example of ACM application: (a) input mesh of a hole created in a program; (b) curvature texture when using smaller neighborhood radius for calculating PCA; (c) curvature texture when using larger neighborhood radius for calculating PCA; (d) initial contour with nodes and their two-node neighborhoods; (e) initial and final contour (after ACM) with nodes colored in blue and green, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_35"><head>Figure 13 .</head><label>13</label><figDesc>Figure 13. Synthetic example of ACM application: (a) input mesh of a hole created in a program; (b) curvature texture when using smaller neighborhood radius for calculating PCA; (c) curvature texture when using larger neighborhood radius for calculating PCA; (d) initial contour with nodes and their two-node neighborhoods; (e) initial and final contour (after ACM) with nodes colored in blue and green, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_36"><head>Figure 14 .</head><label>14</label><figDesc>Figure 14. Cont.</figDesc><graphic coords="15,66.52,596.36,150.48,150.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_37"><head>Figure 14 .</head><label>14</label><figDesc>Figure 14. Real example of the ACM application where blue color represent initial contours while green color represent final contours: (a) masked mesh and initial contour on the successful run; (b) mesh with curvature texture and both initial contour and final contour on the successful run; (c) mesh with RGB texture and both initial contour and final contour on the successful run; (d) masked mesh and initial contour on the semi-successful run; (e) mesh with curvature texture and both initial contour and final contour on the semi-successful run; (f) mesh with RGB texture and both initial contour and final contour on the semi-successful run; (g) masked mesh and initial contour on the unsuccessful run; (h) mesh with curvature texture and both initial contour and final contour on the unsuccessful run; (i) mesh with RGB texture and both initial contour and final contour on the unsuccessful run.</figDesc><graphic coords="16,66.31,97.47,150.48,150.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_38"><head>Figure 14 .</head><label>14</label><figDesc>Figure 14. Real example of the ACM application where blue color represent initial contours while green color represent final contours: (a) masked mesh and initial contour on the successful run; (b) mesh with curvature texture and both initial contour and final contour on the successful run;(c) mesh with RGB texture and both initial contour and final contour on the successful run; (d) masked mesh and initial contour on the semi-successful run; (e) mesh with curvature texture and both initial contour and final contour on the semi-successful run; (f) mesh with RGB texture and both initial contour and final contour on the semi-successful run; (g) masked mesh and initial contour on the unsuccessful run; (h) mesh with curvature texture and both initial contour and final contour on the unsuccessful run; (i) mesh with RGB texture and both initial contour and final contour on the unsuccessful run.</figDesc><graphic coords="16,222.31,97.47,150.24,150.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_39"><head>Figure 15 .</head><label>15</label><figDesc>Figure 15. Final wound surface and created surfaces used for hole filling where arrows point to the actual location of the created surfaces.</figDesc><graphic coords="17,169.71,99.18,324.24,206.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_40"><head>Figure 15 .</head><label>15</label><figDesc>Figure 15. Final wound surface and created surfaces used for hole filling where arrows point to the actual location of the created surfaces.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_41"><head>Figure 16 .</head><label>16</label><figDesc>Figure 16. Case study for stage 3 pressure ulcer: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="17,71.91,612.50,110.81,110.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_42"><head>Figure 16 .</head><label>16</label><figDesc>Figure 16. Case study for stage 3 pressure ulcer: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="17,185.29,612.50,110.81,110.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_43"><head>Sensors 2023 ,</head><label>2023</label><figDesc>23, x FOR PEER REVIEW 20 of 25</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_44"><head>Figure 17 .</head><label>17</label><figDesc>Figure 17. Case study for 5 ½ inch long dehisced surgical wound: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="18,312.10,448.92,226.55,102.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_45"><head>Figure 17 .</head><label>17</label><figDesc>Figure 17. Case study for 5 1 /2 inch long dehisced surgical wound: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="18,57.56,448.92,226.02,102.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_46"><head>Figure 18 .</head><label>18</label><figDesc>Figure 18. Case study for stage 4 pressure ulcer: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="19,301.06,341.42,240.92,170.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_47"><head>Figure 18 .</head><label>18</label><figDesc>Figure 18. Case study for stage 4 pressure ulcer: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="19,53.27,341.42,240.92,170.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_48"><head>Figure 19 .</head><label>19</label><figDesc>Figure 19. Case study for a neuropathic ulcer: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="20,65.65,96.92,112.56,112.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_49"><head>Sensors 2023 ,</head><label>2023</label><figDesc>23, x FOR PEER REVIEW 22 of 25</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_50"><head>Figure 19 .</head><label>19</label><figDesc>Figure 19. Case study for a neuropathic ulcer: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="20,182.53,96.92,112.56,112.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_51"><head>Figure 20 .</head><label>20</label><figDesc>Figure 20. Case study for a larger venous ulcer: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="20,64.92,381.69,114.96,114.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_52"><head>Figure 20 .</head><label>20</label><figDesc>Figure 20. Case study for a larger venous ulcer: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="20,181.80,381.69,114.96,114.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_53"><head>Figure 21 .</head><label>21</label><figDesc>Figure 21. Case study for a smaller venous ulcer: (a) input wound mesh; (b) masked wound mesh with initial contour; (c) wound mesh with curvature texture and initial and final contours shown in blue and green colors, respectively; (d) final cut wound mesh model.</figDesc><graphic coords="21,64.48,98.00,114.96,114.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Ground truth for the measurements of Seymour II wound care model.</figDesc><table><row><cell>Wound Type</cell><cell>Perimeter (mm)</cell><cell>Area (mm 2 )</cell><cell>Volume (mm 3 )</cell></row><row><cell>Stage 4 pressure ulcer</cell><cell>334.9</cell><cell>7117.6</cell><cell>100,821.2</cell></row><row><cell>Stage 3 pressure ulcer</cell><cell>175.7</cell><cell>2369.8</cell><cell>21,542.8</cell></row><row><cell>5 1 /2 inch long dehisced surgical wound</cell><cell>277.7</cell><cell>2400.0</cell><cell>28,090.9</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Ground truth for the measurements of Seymour II wound care model.</figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement:</head><p>The data presented in this study are available on request from the corresponding author.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The wound perimeter was measured as 102.44 mm, while the area was 698.56 mm 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p>Automated and precise wound measurements will improve the quality of the tools available to physicians to track the healing of individual patients and wounds. This would also facilitate better suited prescription and application of therapies, which would increase the living standards of patients as well as increase the healing rate of wounds, resulting in a reduction of costs in the medical system.</p><p>The segmentation system presented in this research is built upon on an automated, robot-driven acquisition system that outputs precise 3D reconstructions of chronic wounds. The acquisition system is fully automated and does not require any user input other than turning the robot in the general direction of the patient. The research presented here continues this philosophy of automation such that it does not require any user input in order for it to output accurate wound segmentation and geometric measurements. The data requested by the segmentation algorithm is the reconstructed 3D point cloud model of the wound as well as recordings and camera poses used to create the reconstruction. The recordings are used to create binary masks using the MobileNetV2 classifier and GrabCut, which label a general area of the wound on 2D images. These binary masks are then projected onto the 3D point cloud wound model, and then each point in the point cloud selects which projection to use based on the computed score, as well as the occlusion detection. Such a masked point cloud is used to generate an initial contour of the wound, which is then further refined by ACM on the meshed 3D surface of the reconstructed wound. The wound is then segmented, cut out, and the geometric measures of perimeter, area, and volume are calculated.</p><p>Comparing the obtained measurement results with the authors' previous work in <ref type="bibr" target="#b3">[4]</ref>, the average error rate was 2.82% for circumference, 5.72% for area, and 6.49% for volume measurement, compared to 4.39% for circumference, 6.86% for area, and 23.82% for volume.</p><p>The results presented clearly show that the segmentation and measurements are accurate, but further improvements must be made, especially regarding the reduction of errors caused by the calibration of cameras as well as 2D segmentation. Moreover, 3D ACM implementation could also be further improved by increasing the robustness to curvature noise as well as increased flexibility to better outline the arbitrary shapes that wounds can have. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding:</head><p>The paper was developed under the project "Methods for 3D reconstruction and analysis of chronic wounds" and was funded by the Croatian Science Foundation under number UIP-2019-04-4889.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Institutional Review Board Statement:</head><p>The study was conducted according to the guidelines of the Declaration of Helsinki, and approved by Ethics Committee of Clinical Medical Center Osijek, Croatia no. R2-4787/2019 on 16.04.2019.</p><p>Informed Consent Statement: Informed consent was obtained in written form from all patients involved in the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="22,39.08,264.88,521.32,8.74;22,57.23,276.38,179.96,8.74" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Wound measurement comparing the use of acetate tracings and VisitrakTM digital planimetry</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gethin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cowman</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2702.2006.01364.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Nurs</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="422" to="427" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,39.08,287.89,520.20,8.74" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Wound outcomes: The utility of surface measures</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gilman</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1534734604264419</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Low. Extrem. Wounds</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="125" to="132" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,39.08,299.40,521.32,8.74;22,56.78,310.90,77.88,8.74" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A Systematic Overview of Recent Methods for Non-Contact Chronic Wound</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marijanović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/app10217613</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Analysis. Appl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">7613</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,39.08,322.41,495.60,8.74" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Wound measurement by RGB-D camera</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cupec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Nyarko</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00138-018-0920-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. Vis. Appl</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="633" to="654" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,39.08,333.92,521.32,8.74;22,57.01,345.42,77.88,8.74" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Automatic Robot-Driven 3D Reconstruction System for Chronic Wounds</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marijanović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Nyarko</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s21248308</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,39.08,357.05,520.19,8.63;22,57.23,368.44,358.33,8.74" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Spectral Clustering for Unsupervised Segmentation of Lower Extremity Wound Beds Using Optical Images</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dhane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Krishna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Achar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sanyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10916-016-0554-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Syst</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">207</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,39.08,380.06,520.20,8.63;22,57.23,391.45,421.26,8.74" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Fuzzy spectral clustering for automated delineation of chronic wound region using digital images</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dhane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maity</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mungle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Achar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compbiomed.2017.04.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="551" to="560" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,39.08,403.07,521.77,8.63;22,57.23,414.58,503.16,8.63;22,57.23,426.09,231.66,8.63" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A framework of wound segmentation based on deep convolutional networks</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2017 10th International Congress on Image and Signal Processing</title>
+		<meeting>the 2017 10th International Congress on Image and Signal Processing<address><addrLine>Shanghai, China</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017-10">October 2017</date>
+			<biblScope unit="page" from="1" to="7" />
+		</imprint>
+	</monogr>
+	<note>CISP-BMEI</note>
+</biblStruct>
+
+<biblStruct coords="22,39.08,437.59,520.47,8.63;22,57.23,448.99,293.40,8.74" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A Composite Model of Wound Segmentation Based on Traditional Methods and Deep Neural Networks</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jin</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2018/4149103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Intell. Neurosci</title>
+		<imprint>
+			<biblScope unit="page">4149103</biblScope>
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,460.49,516.09,8.74;22,56.91,472.00,153.67,8.74" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Wound Segmentation Network Based on Location Information Enhancement</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jin</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ACCESS.2019.2925689</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="87223" to="87232" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,483.62,516.09,8.63;22,56.86,495.01,395.60,8.74" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Fully automatic wound segmentation with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Dhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rostami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niezgoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gopalakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-020-78799-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2020">2020. 21897</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,506.64,516.09,8.63;22,57.23,518.03,334.70,8.74" xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rostami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gopalakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niezgoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2021.0091</idno>
+		<idno type="arXiv">arXiv:2009.07141</idno>
+		<title level="m">Image-based artificial intelligence in wound assessment: A systematic review</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,529.65,517.66,8.63;22,57.23,541.04,114.33,8.74" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Automatic Foot Ulcer segmentation Using an Ensemble of Convolutional Neural Networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahbod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ellinger</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2109.01408</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,552.66,516.09,8.63;22,57.23,564.05,352.33,8.74" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Detect-and-segment: A deep learning approach to automate wound image segmentation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scebba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Catanzaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mihai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Distler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Karlen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.imu.2022.100884</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inform. Med. Unlocked</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<date type="published" when="2022">2022. 100884</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,575.56,517.21,8.74;22,57.01,587.07,82.37,8.74" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Diabetic foot ulcer detection using deep learning approaches</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Thotad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Bharamagoudar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Anami</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sintl.2022.100210</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sens. Int</title>
+		<imprint>
+			<date type="published" when="2022">2022, 4, 100210</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,598.69,516.08,8.63;22,56.88,610.20,503.52,8.63;22,57.23,621.70,123.23,8.63" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Superpixel Classification with Color and Texture Features for Automated Wound Area Segmentation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F A</forename><surname>Fauzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Abas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Nair</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 IEEE 16th Student Conference on Research and Development</title>
+		<meeting>the 2018 IEEE 16th Student Conference on Research and Development<address><addrLine>Bangi, Malaysia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-11">November 2018</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,633.21,516.35,8.63;22,57.23,644.72,502.04,8.63;22,56.88,656.23,290.57,8.63" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Wound Area Segmentation Using 4-D Probability Map and Superpixel Region Growing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F A</forename><surname>Fauzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Abas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Logeswaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Nair</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2019 IEEE International Conference on Signal and Image Processing Applications</title>
+		<meeting>the 2019 IEEE International Conference on Signal and Image Processing Applications<address><addrLine>Kuala Lumpur, Malaysia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-09-19">17-19 September 2019</date>
+			<biblScope unit="page" from="29" to="34" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,667.62,517.66,8.74;22,57.23,679.24,41.48,8.63" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Wound Detection by Simple Feedforward Neural Network</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marijanović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Nyarko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/electronics11030329</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electronics</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page">329</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,690.75,517.20,8.63;22,56.15,702.25,354.68,8.63" xml:id="b18">
+	<analytic>
+		<ptr target="http://www.medetec.co.uk/files/medetec-image-databases.html/" />
+	</analytic>
+	<monogr>
+		<title level="m">Pictures of Wounds and Surgical Wound Dressings</title>
+		<imprint>
+			<date type="published" when="2020-07-14">14 July 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,713.76,516.09,8.63;22,56.78,725.27,78.93,8.63" xml:id="b19">
+	<analytic>
+		<title/>
+		<ptr target="https://fusc.grand-challenge.org/FUSeg-2021/" />
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ulcer Segmentation (FUSeg) Challenge</title>
+		<imprint>
+			<date type="published" when="2021-09-10">2021. 10 September 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,736.77,516.08,8.63;22,57.23,748.28,503.16,8.63;22,57.23,759.79,217.33,8.63" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Monitoring the evolution of skin lesions with a 3D system</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Callieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cignoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pingi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Scopigno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coluccia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gaggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Romanelli</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Derma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 8th International Fall Workshop on Vision, Modeling, and Visualization</title>
+		<meeting>the 8th International Fall Workshop on Vision, Modeling, and Visualization<address><addrLine>Munich, Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003-11">2003. 19-21 November 2003</date>
+			<biblScope unit="page" from="167" to="174" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,43.19,98.72,516.26,8.63;23,57.23,110.23,502.05,8.63;23,57.23,121.74,503.16,8.63;23,57.23,133.25,103.95,8.63" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A 3D assessment tool for accurate volume measurement for monitoring the evolution of cutaneous leishmaniasis wounds</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zvietcovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Castaeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Valencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Llanos-Cuentas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Annual International Conference on Engineering in Medicine and Biology Society (EMBC)</title>
+		<meeting>the Annual International Conference on Engineering in Medicine and Biology Society (EMBC)<address><addrLine>San Diego, CA, USA; Piscataway, NJ, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012-09-01">28 August-1 September 2012. 2012</date>
+			<biblScope unit="volume">IEEE</biblScope>
+			<biblScope unit="page" from="2025" to="2028" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,43.19,144.75,516.27,8.63;23,57.23,156.14,219.46,8.74" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Wound perimeter, area, and volume measurement based on laser 3D and color acquisition</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Pavlovcic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Diaci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mozina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jezersek</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12938-015-0031-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Eng. Online</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,43.19,167.65,517.21,8.74;23,57.23,179.16,210.08,8.74" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Three-dimensional assessment of skin wounds using a standard digital camera</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Albouy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TMI.2008.2012025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imaging</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="752" to="762" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,43.19,190.78,516.09,8.63;23,56.78,202.17,434.26,8.74" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Multi-View Data Augmentation to Improve Wound Segmentation on 3D Surface Model by Deep Learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Niri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Douzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Castaneda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ACCESS.2021.3130784</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page" from="157628" to="157638" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,43.19,213.68,517.21,8.74;23,57.23,225.18,113.75,8.74" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">GrabCut: Interactive foreground extraction using iterated graph cuts</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rother</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kolmogorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blake</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1015706.1015720</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans. Graph</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="309" to="314" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,43.19,236.81,516.08,8.63;23,57.23,248.31,503.17,8.63;23,57.23,259.82,80.81,8.63" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">On Fast Surface Reconstruction Methods for Large and Noisy Point Clouds</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Marton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Rusu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2009 IEEE International Conference on Robotics and Automation</title>
+		<meeting>the 2009 IEEE International Conference on Robotics and Automation<address><addrLine>Kobe, Japan; Piscataway, NJ, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2009-05">May 2009. 2009</date>
+			<biblScope unit="page" from="3218" to="3223" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,43.19,271.33,510.58,8.63" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Smooth Subdivision Surfaces Based on Triangles</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Loop</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+			<pubPlace>Salt Lake City, UT, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Utah</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Master&apos;s Thesis</note>
+</biblStruct>
+
+<biblStruct coords="23,43.19,282.72,517.21,8.74;23,56.91,294.23,137.19,8.74" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A butterfly subdivision scheme for surface interpolation with tension control</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gregory</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/78956.78958</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans. Graph</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="160" to="169" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,43.19,305.73,514.79,8.74" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The simplest subdivision scheme for smoothing polyhedral</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Reif</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/263834.263851</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans. Graph</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="420" to="431" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,43.19,317.24,473.78,8.74" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Snakes: Active contour models</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Witkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Terzopoulos</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00133570</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Comput. Vis</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="321" to="331" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,43.19,328.86,386.00,8.63" xml:id="b31">
+	<monogr>
+		<ptr target="https://vtk.org/" />
+		<title level="m">Visualization Toolkit (VTK). Available online</title>
+		<imprint>
+			<date type="published" when="2022-10-17">17 October 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,35.72,354.91,523.56,8.63;23,35.72,366.42,523.56,8.63;23,35.45,377.93,414.48,8.63" xml:id="b32">
+	<monogr>
+		<title level="m" type="main">The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods</title>
+		<imprint>
+			<publisher>Disclaimer/Publisher&apos;s Note</publisher>
+		</imprint>
+	</monogr>
+	<note>instructions or products referred to in the content</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

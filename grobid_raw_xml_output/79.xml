@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Wound assessment, imaging and monitoring systems in diabetic foot ulcers: A systematic review</title>
+				<funder ref="#_AyXJeRM">
+					<orgName type="full">Agency for Science, Technology and Research (A*STAR)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kai</forename><forename type="middle">Siang</forename><surname>Chan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">MOH Holdings</orgName>
+								<address>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of General Surgery</orgName>
+								<orgName type="institution">Tan Tock Seng Hospital</orgName>
+								<address>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">|</forename><surname>Zhiwen</surname></persName>
+							<email>zhiwen@gmail.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><surname>Lo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of General Surgery</orgName>
+								<orgName type="institution">Tan Tock Seng Hospital</orgName>
+								<address>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Centre for Population Health Sciences</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhiwen</forename><forename type="middle">Joseph</forename><surname>Lo</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Tan Tock Seng Hospital</orgName>
+								<orgName type="department" key="dep2">Department of General Surgery</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Vascular Surgery Service</orgName>
+								<address>
+									<addrLine>11 Jalan Tan Tock Seng</addrLine>
+									<postCode>308433</postCode>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Wound assessment, imaging and monitoring systems in diabetic foot ulcers: A systematic review</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">00C5192EC578884E0E8FBB3293D4549B</idno>
+					<idno type="DOI">10.1111/iwj.13481</idno>
+					<note type="submission">Received: 18 June 2020 Revised: 24 July 2020 Accepted: 28 July 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Patients with diabetes mellitus have a lifetime risk of 15% to 25% of developing diabetic foot ulcers (DFUs). DFU is associated with significant morbidity and mortality. Wound imaging systems are useful adjuncts in monitoring of wound progress. Our study aims to review existing literature on the available wound assessment and monitoring systems for DFU. This is a systematic review of articles from PubMed and Embase (1974 -March 2020). All studies related to wound assessment or monitoring systems in DFUs were included. Articles on other types of wounds, review articles, and non-English texts were excluded.</p><p>Outcomes include clinical use, wound measurement statistics, hospital system integration, and other advantages and challenges. The search identified 531 articles. Seventeen full-text studies were eligible for the final analysis. Five modalities were identified: (a) computer applications or hand-held devices (n = 5), (b) mobile applications (n = 2), (c) optical imaging (n = 2), (d) spectroscopy or hyperspectral imaging (n = 4), and (e) artificial intelligence (n = 4). Most studies (n = 16) reported on wound assessment or monitoring.</p><p>Only one study reported on data capturing. Two studies on the use of computer applications reported low inter-observer variability in wound measurement (inter-rater reliability &gt;0.99, and inter-observer variability 15.9% respectively). Hand-held commercial devices demonstrated high accuracy (relative error of 2.1%-6.8%). Use of spectroscopy or hyperspectral imaging in prediction of wound healing has a sensitivity and specificity of 80% to 90% and 74%to 86%, respectively. Majority of the commercially available wound assessment systems have not been reviewed in the literature on measurement accuracy. In conclusion, most imaging systems are superior to traditional wound assessment. Wound imaging systems should be used as adjuncts in DFU monitoring.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>K E Y W O R D S</head><p>artificial intelligence, diabetic foot, mobile applications, wound healing, wounds and injuries</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Diabetes mellitus (DM) has plagued approximately 425 million people worldwide, with an annual incidence of 6.7 to 7 per 1000 per year in developed countries. <ref type="bibr" target="#b0">1</ref> Patients with DM are at risk of developing foot ulceration with a lifetime risk of 15% to 25%. <ref type="bibr" target="#b1">2</ref> Several risk factors have been identified for the development of diabetic foot ulcers (DFUs): vascular disease, neuropathy, and foot deformity; all of which, are long-term sequelae of poorly controlled DM. <ref type="bibr" target="#b2">3</ref> DFU is associated with significant morbidity and mortality, with a 2.5 times higher risk of 5-year mortality as compared to diabetic patients without DFU. <ref type="bibr" target="#b3">4</ref> Patients with DFU also have to bear the high socioeconomic burden associated with the complications and management of DFUs. <ref type="bibr" target="#b4">5</ref> Due to the high prevalence and associated morbidity and mortality, it is prudent to ensure proper management of DFUs. Wound care is an important aspect of DFU management. It is a complex process involving a multidisciplinary team of doctors, nurses, and allied health professionals, and is a spectrum ranging from <ref type="bibr" target="#b0">1</ref> wound assessment <ref type="bibr" target="#b1">2</ref> documentation and monitoring, and <ref type="bibr" target="#b2">3</ref> intercommunication different various healthcare professionals. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> This unmet need for proper wound care gave rise to the innovation of comprehensive wound assessment or monitoring systems.</p><p>To date, there are several commercially available wound assessment or monitoring systems available for monitoring of chronic wounds. <ref type="bibr" target="#b7">8</ref> Wound assessments or monitoring systems range from the use of traditional computer applications and imaging devices to the use of mobile applications for remote assessment; all of which with potential for integration with artificial intelligence to improve measurement outcomes. Features of an ideal imaging system would include high accuracy, portability, convenience, accessibility (integration into existing hospital records and ability for remote assessment) data security, and low costs. However, to our knowledge, only a small proportion of those products are assessed in existing literature. With advancement in technology and rise in commercially available product, a systematic review is ideal to summarise existing evidence on various wound imaging systems available for use in DFU. Our study aims to fill in the gap and summarise various types of wound assessment and monitoring systems in DFUs in existing literature. Our secondary aim is to identify the list of commercially available systems used in DFU monitoring and examine available evidence on their use.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Data sources and searches</head><p>This is a systematic review on use of wound assessment, imaging, and monitoring systems in DFU. A systematic search of published articles in peer-reviewed journals was performed on PubMed and Embase (1974-March 2020). The last search was performed on March 30, 2020. A combination of subject headings and text words on (a) diabetic foot ulcer and (b) multimodal imaging, optical imaging, spectral imaging, computer-assisted interpretation, artificial intelligence, or mobile applications were used in the search. The complete search strategy is appended in the Appendices (Supplementary Tables <ref type="table">S1,</ref><ref type="table">S2</ref>). Studies selected for the systematic review are in accordance to the quality and standards set by the Preferred Reporting Items for Systematic Reviews and Meta-analyses (PRISMA). <ref type="bibr" target="#b8">9</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Study selection</head><p>Inclusion criteria were: (a) description, (b) measurement accuracy, or (c) clinical use or challenges of imaging systems, technology, applications, or software in wound assessment of diabetic foot ulcers. Exclusion criteria were: (a) other types of wound such as pressure ulcers, (b) conventional radiological imaging such as plain radiograph, ultrasound, computed tomography or magnetic resonance imaging, (c) review articles, letter to editors or editorials, (d) non-English articles or (e) articles without full texts.</p><p>Two authors (KSC, ZJL) independently screened the studies by title and abstract for potential inclusion in the Key Messages</p><p>• wound imaging systems are useful adjuncts in monitoring of diabetes foot ulcers (DFUs) • majority of hand-held applications, computer applications, spectroscopy, and artificial intelligence report high accuracy in wound measurement. however, majority of the commercially available wound assessment systems have not been reviewed in the literature on measurement accuracy study. Full-texts of all eligible articles were subsequently reviewed and assessed for eligibility in the study. Disagreement or conflicts between reviewers were resolved by consensus. The entire study selection process is reflected in the PRISMA flow diagram (Figure <ref type="figure">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Data extraction and quality assessment</head><p>Two independent authors (KSC, ZJL) extracted the following information from each study separately: Author, F I G U R E 1 Preferred reporting items for systematic reviews and meta-analyses (PRISMA) figure showing the study selection process year of study, type of wound assessed, name of system, clinical use, parameters of wound assessed, measurement statistics, ability to integrate into Electronic Health Records (EHRs) or Electronic Medical Records (EMRs) other advantages and challenges. Quality of the included studies were assessed with the revised Methodological Index for Non-Randomised Studies (MINORS) criteria <ref type="bibr" target="#b9">10</ref> (Supplementary Table <ref type="table">S3</ref>). Descriptive studies and technical reports on the use of artificial intelligence were not included in the quality assessment as the use of MINORS criteria is not validated for these types of studies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Secondary literature search</head><p>A secondary literature search was performed on WoundSource, 8 a reference guide on wound care products, for a list of commercially available wound assessment and monitoring tools available for DFU. The following information was extracted: description, platform, method of measurement, type of measurement, ability for EHR or EMR integration, remote assessment, and other features. The products were subsequently searched on PubMed for available literature on the respective products.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head><p>Our systematic search yielded 531 articles. Titles and abstracts were screened through 464 articles after removal of duplicates (n = 67). Thirty-five full text articles were assessed for eligibility for the study and 17 articles were included in the final analysis. <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> The entire process of systematic review is reported in accordance to the PRISMA guidelines and flowchart (Figure <ref type="figure">1</ref>).</p><p>There are five main categories of wound assessment or monitoring techniques or methods: (a) computer applications or hand-held devices (n = 5), <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> (b) mobile applications (n = 2), <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b16">17</ref> (c) optical imaging (n = 2), <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b20">21</ref> (d) spectroscopy or hyperspectral imaging (n = 4), <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> and (e) artificial intelligence (n = 4). <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b15">16</ref> Uses of wound assessment or monitoring methods were classified into: (a) wound assessment or monitoring and (b) data capturing and storage of information. Sixteen studies reported on wound assessment or monitoring <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b26">27</ref> ; one study reported on data capturing and storage of information. <ref type="bibr" target="#b25">26</ref> Of the 16 studies (94.1%) which reported on wound assessment or monitoring, four assessed likelihood of wound healing using spectroscopy or hyperspectral imaging. Table <ref type="table">1</ref> summarises the use of computer applications, hand-held devices, mobile applications, optical imaging, spectroscopy, or hyperspectral imaging in DFU.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Computer applications</head><p>Three studies reported on the use of computer applications on wound assessment or monitoring: Jeffcoate et al and Rajbhandari et al reported low inter-observer variability in the use of computer applications in digital measurements of wound area (inter-rater reliability &gt;0.99, and interobserver variability 15.9%, respectively). <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b26">27</ref> Laji et al reported the use of an application for digital archiving of wound images to track wound progression. <ref type="bibr" target="#b25">26</ref> Two studies compared the use of hand-held commercial devices with traditional method of wound measurement: Foltynski et al reported high accuracy of TelaDiaFoS system (Nalecz Institute of Biocybernetics and Biomedical Engineering, Warsaw, Poland), and SilhouetteMobile device (ARANZ Medical Ltd., Christchurch, New Zealand): relative error 2.1% and 2.3%, respectively, compared to standard method, with relative error of 13.3%. <ref type="bibr" target="#b18">19</ref> Similarly, Rojers et al reported standard wound measurement resulted in overestimation of wound area by 41%. <ref type="bibr" target="#b21">22</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Mobile interface</head><p>Yap et al described the use of an application (FootSnap) in the standardisation of plantar foot images for easy monitoring of wound, with high intra-operator reliability (Jaccard similarity index [JSI] 0.89-0.91) and high interoperator reliability (JSI 0.89). <ref type="bibr" target="#b14">15</ref> Van Netten et al demonstrated poor diagnostic accuracy of remote assessment of DFUs using mobile phone images, with highly variable sensitivity (32%-97%) and specificity (20%-87%), and inter-observer reliability (0.09-0.71). <ref type="bibr" target="#b16">17</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| Optical imaging</head><p>Raizman et al described high accuracy of ≥95.75% and ≥94.62% in the determination of wound length and width, and wound area, respectively, using fluorescence imaging. <ref type="bibr" target="#b12">13</ref> Bowling et al described the use of optical imaging markers with low intra-operator variability of 3.3%, <ref type="bibr" target="#b20">21</ref> but with only &gt;50% concordance across all questions on the standardised wound assessment form on all questions. Table <ref type="table">1</ref> summarises the use of various forms of optical imaging used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">| Spectroscopy or hyperspectral imaging</head><p>Three studies reported the use of near-infrared spectroscopy, <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> and one study reported the use of hyperspectral imaging. <ref type="bibr" target="#b24">25</ref> All of the studies used oxyhaemoglobin and deoxyhaemoglobin concentrations to assess wound healing and progression. The details are summarised in Table <ref type="table">1</ref>.</p><formula xml:id="formula_0">T A B L E 1</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">| Artificial intelligence</head><p>Table <ref type="table">2</ref> summarises the various forms of artificial intelligence used in wound assessment or monitoring in DFU. Four studies reported the use of artificial intelligence in wound assessment. <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b15">16</ref> All of the studies were technical reports on the construction of machine learning methods to assess various aspects of wounds: (a) automated or accurate wound area detection (n = 2), <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b15">16</ref> (b) wound segmentation (n = 1), <ref type="bibr" target="#b13">14</ref> and (c) recognition of ischemia or infection in wounds (n = 1). <ref type="bibr" target="#b10">11</ref> Three of the studies reported the need for a large database of wound images to increase the accuracy of the machine learning model (Table <ref type="table">2</ref>). <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b15">16</ref> Ohura et al described limited applicability to other populations due to a limited database of wound images from the Japanese population only. <ref type="bibr" target="#b13">14</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">| Wound assessment and monitoring systems available commercially</head><p>A total of 18 commercially available wound assessment and monitoring systems were listed on WoundSource. <ref type="bibr" target="#b7">8</ref> Table <ref type="table">3</ref> summarises the characteristics of these products. Of these 18 products, only 6 of the products were described on their efficacy or accuracy in wound measurements in PubMed indexed peer-reviewed articles. Sil-houetteMobile was the only product which was described in our systematic review, including articles by Foltynski et al and Rogers et al. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b21">22</ref> The use of the remaining five products described in peer-reviewed literature was on general wound measurement without the inclusion of diabetic foot ulcers and were hence excluded from this systematic review. The relevant articles on measurement accuracy of the products, are however, referenced and listed in Table <ref type="table">3</ref>. <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7">| Quality of included studies</head><p>The quality of included studies was analysed using the MINORS criteria (Supplementary Table <ref type="table">S3</ref>). Of the six studies which were non-comparative, five obtained a score of 12 or less, which reflects high risk of bias. Of the six studies which were comparative, four studies obtained a score of 20 or less, which also reflects a high risk of bias. Diabetic foot ulcer is an important complication of diabetes and warrants close monitoring for prevention, promoting wound healing, and preventing recurrence. <ref type="bibr" target="#b34">35</ref> Several classification systems have been developed to risk stratify and predict the prognosis of DFUs, and its subsequent management. <ref type="bibr" target="#b35">36</ref> However, it is prudent to perform proper wound care on all patients with DFUs regardless of its severity. Our study analysed the various modalities of wound assessment to aid clinicians and allied health professionals in the management of DFUs. Wound care begins with wound assessment, which involves the accurate measurement of parameters such as wound area, depth, volume, stage, signs of infection, and healing potential. <ref type="bibr" target="#b36">37</ref> Majority (94.1%) of the included studies centred around wound assessment and documented the efficacy of various systems in the accuracy and precision of measurements in DFUs. The use of computer software and hand-held devices has seen optimistic results. Jeffcoate et al and Rajbhandari et al reported low interobserver variability in the use of computer applications in digital measurements of wound area (inter-rater reliability &gt;0.99, and inter-observer variability 15.9%, respectively). <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b26">27</ref> This is of special significance in the monitoring of DFUs as the management of DFU involves a multidisciplinary team. It is paramount for low inter-observer variability for precise documentation to track the wound progression or healing and institute proper management.</p><p>Spectroscopy or hyperspectral imaging are alternative methods of non-invasive monitoring which assess the oxyhaemoglobin and deoxyhaemoglobin concentration in the wound bed through the use of diffuse photon wave density (650-850 nm) to differentiate healing wounds from non-healing wounds. <ref type="bibr" target="#b37">38</ref> Of the four studies included in this analysis, Weingarten et al and Nouvong et al demonstrated a sensitivity and specificity of 80% to 90% and 74% to 86%, respectively. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b24">25</ref> Prediction of wound healing is an important aspect of DFU assessment: Sheehan et al demonstrated that in patients with DFUs who did not achieve a 50% reduction in wound area by 4 weeks were unlikely to heal. <ref type="bibr" target="#b38">39</ref> Further treatment in this subgroup of patients may be ineffective and may be discontinued. Weingarten et al demonstrated an average cost saving of about $12 600 per patient if ineffective treatment was discontinued for ulcers with low likelihood of healing. <ref type="bibr" target="#b19">20</ref> In the era of digitalisation, there is a transition from traditional documentation on paper to digital documentation to improve patient care. Digital photographs of DFUs are uploaded to hospital EHRs or EMRs for (a) wound monitoring (b) comanagement in a multidisciplinary team. Laji et al first described the use of a relatively inexpensive and easy to use software for the creation of a digital imaging archive system to track wound progression, with possible integration into EHRs or EMRs (Table <ref type="table">1</ref>). <ref type="bibr" target="#b25">26</ref> To date, there are several commercially available systems have an integrated system of wound assessment, monitoring, and documentation for easy use (Table <ref type="table">3</ref>). However, majority of those systems (n = 12/18, 66.7%) have not been reviewed in the literature on its accuracy in wound measurement. It is prudent for future studies to review these systems in terms of (a) measurement accuracy (b) ease of use (c) data integration capabilities (d) remote assessment capabilities (e) costs and (f) other challenges to guide clinicians and allied health professionals on the choice of the better "all-in-one" integrated system for wound care in DFU.</p><p>The role of artificial intelligence (AI) in medicine is a rapidly growing field, especially in radiology and oncology. <ref type="bibr" target="#b39">40</ref> However, there are an increasing number of studies on the use of AI in other areas of medicine, such as vascular medicine or surgery. Four articles included in our study examined the use of various AI systems in wound assessment, all of which, were dated less than 5 years ago. <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b15">16</ref> Wang et al and Ohura et al demonstrated high specificity and sensitivity in wound recognition and assessment. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b13">14</ref> Goyal et al further demonstrated the use of AI to recognise ischemia and infection in DFU monitoring, <ref type="bibr" target="#b10">11</ref> a challenge which has been described in the remote assessment of DFUs. Van Netten et al studied the reliability of remote assessment of DFUs using mobile phone images which failed to demonstrate strong validity or adequate reliability in assessing ischemia and infection in DFUs. <ref type="bibr" target="#b16">17</ref> AI may be used to increase the reliability of remote assessment of DFU images and will serve as a useful adjunct in comanagement of DFUs.</p><p>Last, our study reflects the difficulty in conducting studies to evaluate wound assessments and monitoring systems. Majority of the studies analysed using the MINORS criteria had high risk of bias, where studies did not have a blind or double-blind evaluation of objective or subjective endpoints, respectively. Sample size calculation was also not performed for majority of the studies, contributing to bias. This observation may be explained by the paucity of existing studies evaluating the efficacy of wound assessment and imaging systems and its emerging role as clinical adjuncts. However, this review provides an extensive overview of the available evidence on the various wound assessment and imaging systems to guide future studies and their methodologies in the evaluation of new commercially available systems. Nevertheless, it is also prudent to note that the use of MINORS criteria has its limitations 10 ; the criteria was originally developed to assess the risk of bias in observational surgical studies and its validation in other types of studies is limited.</p><p>Our study has some limitations. Our search was limited to diabetic foot ulcers. We did not expand our search to include other types of wounds such as pressure ulcers, venous ulcers, or burns as the search would be too extensive and would not be the aim of this study. Characteristics of DFUs differ from other types of chronic wounds. Nevertheless, we agree that the type of wound is unlikely to affect the measurement accuracy of wound parameters. Another limitation of this study is the restriction of our literature search to two databases due to limited subscription to research databases. Our literature search on the types of commercially available wound care products is also limited to WoundSource; however, WoundSource has an extensive repository of wound care products reviewed by an editorial board and hence, provides a good overview on the list of commercially available products in wound assessment and monitoring. Our results included a mixture of studies examining on DFUs specifically and chronic wounds in general. Majority of the included articles were also centred around wound assessment and accuracy, with only one article on data capturing and information storage. In addition, we were only able to provide a descriptive analysis of the studies as the studies varied in intervention and outcome measures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| CONCLUSION</head><p>This review identified the various modalities of wound assessment and monitoring in diabetic foot ulcers including computer software, hand-held and mobile devices, optical imaging, spectroscopy, and artificial intelligence. Rapid advancement in technology has resulted in the development of various types of wound assessment and monitoring systems which serve as useful adjuncts in improving clinical care, with various products documenting superior accuracy over traditional methods of wound assessments. In line with this, it is prudent to have ongoing studies to evaluate the evidence and outcomes of the extensive list of commercially available wound assessment and monitoring systems.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Summary of use of various modalities in diabetic foot ulcer (DFU) Summary of the use of artificial intelligence for wound assessment or monitoring in diabetic foot ulcer (DFU)</figDesc><table><row><cell>T A B L E 1 (Continued) T A B L E 1 (Continued)</cell><cell>Modality Author (year) Name of System n Wound Type Comparator Objective Parameters Assessed Measurement Statistics Integration Advantages Challenges Modality Author (year) Name of System n Wound Type Comparator Objective Parameters Assessed Measurement Statistics Integration Advantages Challenges Modality Author (year) Name of System n Wound Type Comparator Objective Parameters Assessed Measurement Statistics Integration Advantages Challenges Author (year) -Computer Jeffcoate ImageJ (National 31 Chronic ulcers No control Measurement of cross-2D: cross-sectional area Inter-rater reliability: -Easy training and Unable to measure 3D Normal foot: foot compared to alterations in Neidrauer et al (2010) 23 software or et al (2017) 18 Institutes of Health) sectional area of Correlation between observers relatively inexpensive images Intra-operator reliability high: normal foot, ensuring software Near-infrared spectroscopy 16 DFU NA Efficacy of using diffuse near infrared Oxyhaemoglobin and deoxyhaemoglobin At 10 weeks: 3 μm/week threshold, 5/6 Allows trending of results by graph plotting -Type of AI n Wound Type Clinical Use Measurement Clinical Use/Study EHR or EMR Clinical Use/Study EHR or EMR Clinical Use/Study EHR or EMR Accuracy Goyal et al (2020) 11 Faster R-CNN with 1459 DFU Recognition of Average accuracy of all Remote Assessment Capabilities Eventually transit into Challenges Substantial datasets</cell><cell>hand-held digital images &gt;0.99 (P = 0.000). JSI 0.94 and 0.93 for each suitability for use in spectroscopy (NIRS) concentration (83%) healing wounds InceptionResNet V2 in predicting wound devices No significant overall operator diabetic feet classified correctly, 5/8 BayesNet differenceANOVA F1.358, Inter-operator reliability high: healing in diabetic (63%) nonhealing wounds ischemia and infection in models: Ischemia: 83.3% a remote DFU diagnosis system, but required for good accuracy</cell><cell>(P = 0.165) JSI 0.93 foot ulcers classified correctly μm/week threshold: Intra-rater reliability: van Netten -50 DFU No control with Diagnostic accuracy of 2D: length, width, area Inter-observer reliability: 0.09 --Poor diagnostic 6 4/6 (67%) healing wounds Correlation between first and et al (2017) 17 traditional use of mobile phone to 0.71 (only decision for accuracy for DFU classified correctly, 8/8 second occasion high: 0.997 methods images to assess DFU peri-wound debridement and require (100%) nonhealing wounds [P &lt; 0.001] and 0.999 reached adequate additional classified correctly (P &lt; 0.001 respectively) agreement) information on Random forest InceptionV3 ResNet monitoring of DFU Infection: 65.8% be resolved challenges need to Images provided for assessment are non-standardised (type of camera models, devices,</cell><cell>Foltynski Vistrak device (Smith &amp; 16 DFU Visitrak vs Accuracy and precision 2D: length, width, area Relative error (accuracy): -High accuracy of -Positive likelihood ratio: 1.3 to wound Papazoglou Near-infrared 12 DFU and NA Monitoring of chronic Oxyhaemoglobin (HbO2) Change in (HbO2) -threshold -Allows trending of results -poses and</cell><cell>et al (2013) 19 Nephew, London, TelaDiaFoS vs of various wound Elliptical method: 13.3% SilhouetteMobile 4.2 (no strong or characteristic on et al (2009) 24 spectroscopy chronic wounds using near-and ~3 mM/week: 4/4 (100%) by graph plotting illumination) UK) SilhouetteMobile vs measurement devices Visitrak: 6.8% device and convincing evidence) top of the mobile wounds infrared spectroscopy deoxyhaemoglobin healing wounds correct</cell><cell>SilhouetteMobile device Linear TelaDiaFoS: 2.1% TelaDiaFoSsystem Negative likelihood ratio: 0.13 phone images concentration classified, 4/7 (57%) non Wang et al (2019) 12 to 0.88 (only one item has (ARANZ Medical Ltd., measurement SilhouetteMobile: 2.3% permits use in clinical healing wounds correctly Associative hierarchal random field Christchurch, New with elliptical CV (coefficient of variation) practice strong diagnostic evidence classified 100 Any foot ulcer Accurately determining Wound recognition specificity: -95.5% Zealand) method (precision): for negative likelihood Change in (HbO2) threshold (AHRF) model boundaries of ulcer AHRF model -Need to expand diversity of database of real</cell><cell>TelaDiaFoS system Elliptical: 6.0% ratio) ~6 mM/week; Conditional random (Nalecz Institute of Visitrak: 6.3% Sensitivity 32% to 97% (4 items 3/4 (75%) healing wounds field (CRF) model Biocybernetics and TelaDiaFoS: 1.6% with high sensitivity) correct classified, 7/7 (100% images acquired under various image to 99.2% CRF model 1 wound images, with possibility of</cell><cell>Biomedical SilhouetteMobile: 3.1% Specificity 20% to 87% (1 item non healing wounds acquisition (conditional random expanding into</cell><cell>Engineering, Warsaw, with high specificity) correctly classified conditions Poland) Optical imaging Raizman MolecuLight i:X Wound 50 DFU, venous No control with Use of handheld 2D: length, width, area Accuracy: Possible integration Potential cost savings as Fluorescence must be Nouvong Linear measurement et al (2019) 13 Imaging device and arterial traditional fluorescence imaging Extent of fluorescence Length and width ≥ 95.75% fluorescence guidance performed under et al (2009) 25 with elliptical method (MolecuLight, Inc., ulcer methods device for wound bacteria detection Area ≥ 94.62% allows targeted dark conditions Hyperspectral imaging 73 DFU NA The use of hyperspectral imaging to quantify cutaneous tissue Healing index -derived using oxyhemoglobin concentration [HbO2] Sensitivity 80% (n = 43/54) Specificity 74% (n = 14/19) Positive predictive value 90% --field) -89.8% to 92.7% CRF model 2 -91.1% to -deep learning in the future</cell><cell>Rogers et al SilhouetteMobile 10 Chronic ulcers Standard method Comparative study of 3D modelling in Standard manual -Allows tracking of wound Standard Toronto, Ontario, measurement and Entire wound fluorescence: treatment and visualisation of haemoglobin and deoxyhemo-(n = 43/48) 98.4%</cell><cell>(2010) 22 (length accuracy between SilhouetteMobile measurement progression with measurement: Canada) detection of bacteria Over-estimation of bacterial (debridement) bacteria in wound oxygenation to assess globin concentration When removing three-false Wound recognition multiplied by digital imaging and Wound area overestimated wound area precise measurements limited by load; only 20% of wounds does not indicate the healing potential [Hhb) positive osteomyelitis cases sensitivity width) standard by 41% subjective had moderate-to-heavy infection of DFUs and 4 false negative cases</cell><cell>measurements interpretation and bacterial growth due to measuring of callus: AHRF -76.9% to 84.4%</cell><cell>interobserver Wound bed fluorescence only: Sensitivity 86% CRF model 1 variability Close relation between extent Specificity 88% -61.8% to 67.4% Laji et al (2001) 26 FilmMaker Pro (Claris NA DFU NA Creation of digital NA NA Possible integration Relatively inexpensive -of fluorescence and bacterial load International Inc., imaging archive into hospital software and Positive predictive value 96% CRF model 2 -70.3%</cell><cell>Santa Clara, system to track wound server with equipment Bowling et al NA 20 DFU No control with Reliability and accuracy 3D: Length, area, surface Intra-operator variability: 3.3% Allows for easy Good quality of presented Poor accuracy in to 76.7% (2011) 21 California) progression security features traditional of remote assessment curvature, depth, Inter-operator variability: storage and wound images with determining need Ohura et al (2019) 14 Rajbhandari DesignCAD (ViaGraAEx 30 Any ulcer Traditional Validity of digital 2D: area Inter-observer variability: -Easier to use than Underestimation of methods of 3D images of DFU volume 11.9% Accuracy: concordance with et al, 1999 27 Corporation, Pryor, calculation with measurement in Digital imaging mean traditional method ulcer area on criterion standard of &gt;50% Oklahoma) graph paper comparison to coefficient of variation Reproducibility curved surfaces across all questions on traditional method 15.9%; traditional tracing which will require standardised wound method 26.7% (P = 0.05) 3D imaging assessment form No significant differences in transmission of images remotely interactive ability (such as panning and tilting of image) for wound debridement due to technical limitations Convolutional Neural Networks (CNNs): SegNet LinkNet U-Net 440 Chronic wounds Construct a good wound segmentation model using CNN SegNet: AUC 0.994, sensitivity 0.909, Specificity 0.982, accuracy 0.976 LinkNet: Abbreviations: 2D, 2-dimensional; 3D, 3-dimensional; EHR, electronic health records; EMR, electronic medical records; NA, not applicable; SD, standard deviation. -May not be applicable to wound assessment and segmentation of other races</cell><cell>areas of standard circles Spectroscopy or Weingarten Near-infrared 24 DFU NA Use of near-infrared 2D: wound size At 4 weeks: -Cost savings of $12 600 -U-Net_VGG16 et al (2012) 20 measured between hyperspectral spectroscopy spectroscopy to Oxyhaemoglobin and Sensitivity 0.9 per patient if AUC 0.987, sensitivity 0.989, specificity methods (P = 0.57) imaging determine wound deoxyhaemoglobin Specificity 0.86 ineffective treatment (study was conducted in a</cell><cell>Mobile Yap et al (2018) 15 FootSnap 60 DFU Non diabetic ulcers Software for 2D: perimeter, surface Diabetic foot: -Allows easy monitoring Training is required healing progression concentration Average slope for healing patients applications (control group) standardisation of Intra-operator reliability high: and trending of and reliability may -11.5 (SD 11.8), non-healing patients +5.6 plantar foot images in JSI 0.89 and 0.91 for each wounds due to be lower in new (SD 12.2), P relation to distance operator standardisation operators &lt; 0.002 discontinued after 4 weeks Allows trending of results by graph plotting 0.989, accuracy 0.972 U-Net: AUC 0.997, sensitivity 0.993, specificity from foot and Inter-operator reliability high: Only marginally lower Modifications in Japanese population)</cell><cell>orientation of camera JSI 0.89 reliability in diabetic hardware require 0.993, accuracy 0.988</cell><cell>(Continues)</cell></row></table><note><p>T A B L E 2</p></note></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p><rs type="funder">Agency for Science, Technology and Research (A*STAR)</rs> under its <rs type="programName">Industry Alignment Fund -Pre-Positioning Programme (IAF-PP) as part of Wound Care Innovation for the Tropics (WCIT) Programme</rs>, Grant/Award Number: <rs type="grantNumber">H18/01/a0/ZZ9</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_AyXJeRM">
+					<idno type="grant-number">H18/01/a0/ZZ9</idno>
+					<orgName type="program" subtype="full">Industry Alignment Fund -Pre-Positioning Programme (IAF-PP) as part of Wound Care Innovation for the Tropics (WCIT) Programme</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that supports the findings of this study are available in the supplementary material of this article.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST</head><p>The authors declare no conflicts of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information may be found online in the Supporting Information section at the end of this article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="14,315.02,67.32,235.47,7.58;14,323.66,78.83,117.01,7.58" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Epidemiology of diabetes</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Forouhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Wareham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine (Abingdon)</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="698" to="702" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,315.02,90.34,235.46,7.58;14,323.66,101.06,226.79,8.50;14,323.66,113.36,144.30,7.58" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Diabetic foot disease: from the evaluation of the &quot;foot at risk&quot; to the novel diabetic ulcer treatment modalities</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Doupis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World J Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="153" to="164" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,315.02,124.81,235.44,7.58;14,323.66,136.32,226.82,7.58;14,323.66,147.83,226.79,7.58;14,323.66,159.34,226.80,7.58;14,323.66,170.85,203.99,7.58" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A systematic review and individual patient data meta-analysis of prognostic factors for foot ulceration in people with diabetes: the international research collaboration for the prediction of diabetic foot ulcerations [PODUS]</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Crawford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cezard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Chappell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Technol Assess</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">57</biblScope>
+			<biblScope unit="page" from="1" to="210" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,315.02,182.36,235.45,7.58;14,323.66,193.86,226.79,7.58;14,323.66,205.32,190.29,7.58" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Association of diabetic foot ulcer and death in a population-based cohort from the United Kingdom</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hoffstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sullivan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet Med</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1493" to="1498" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,315.02,216.83,235.46,7.58;14,323.66,228.33,226.78,7.58;14,323.66,239.84,159.78,7.58" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Clinical and economic burden of wound care in the tropics: a 5-year institutional population health review</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Eng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="790" to="803" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,315.02,251.35,235.43,7.58;14,323.66,262.86,208.15,7.58" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Wound measurement: can it help us to monitor progression to healing?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flanagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="189" to="194" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,315.02,274.31,235.45,7.58;14,323.66,285.82,226.81,7.58;14,323.66,297.33,222.87,7.58" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The effects of ulcer size and site, patient&apos;s age, sex and type and duration of diabetes on the outcome of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Oyibo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tarawneh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet Med</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="133" to="138" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,315.02,308.84,235.48,7.58;14,323.66,320.35,226.79,7.58;14,323.66,331.86,226.72,7.58;14,323.66,343.37,218.23,7.58;14,323.66,354.82,114.81,7.58" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Wound Assessment &amp; Monitoring Systems WoundSource: Kestrel Health Information</title>
+		<author>
+			<persName><surname>Woundsource</surname></persName>
+		</author>
+		<ptr target="https://www.woundsource.com/product-category/wound-assessment-documentation/wound-assessment-monitoring-systems" />
+		<imprint>
+			<date>2020 07 Apr</date>
+			<biblScope unit="volume">2020</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,315.02,366.33,235.46,7.58;14,323.66,377.84,226.87,7.58;14,323.66,389.35,212.01,7.58" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liberati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tetzlaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Group</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="264" to="269" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,314.62,400.86,235.88,7.58;14,323.55,412.36,226.94,7.58;14,323.55,423.82,226.91,7.58;14,323.55,435.33,113.93,7.58" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Methodological index for non-randomized studies [MINORS]: development and validation of a new instrument</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Slim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Forestier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kwiatkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Panis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chipponi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ANZ J Surg</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="712" to="716" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,314.62,446.83,235.83,7.58;14,323.55,458.34,226.92,7.58;14,323.55,469.85,226.90,7.58;14,323.55,481.36,99.20,7.58" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Recognition of ischaemia and infection in diabetic foot ulcers: dataset and techniques</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">103616</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>no pagination</note>
+</biblStruct>
+
+<biblStruct coords="14,314.62,492.81,235.81,7.58;14,323.55,504.32,226.92,7.58;14,323.55,515.83,226.92,7.58;14,323.55,527.34,39.00,7.58" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Boundary determination of foot ulcer images by applying the associative hierarchical random field framework</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Strong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tulu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Imaging</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">24002</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,314.62,538.85,235.82,7.58;14,323.55,550.36,226.92,7.58;14,323.55,561.87,226.90,7.58;14,323.54,573.32,54.12,7.58" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Use of a bacterial fluorescence imaging device: wound measurement, bacterial detection and targeted debridement</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Raizman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dunham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lindvere-Teene</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="824" to="834" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,314.62,584.83,235.86,7.58;14,323.54,596.34,226.90,7.58;14,323.54,607.85,226.09,7.58" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Convolutional neural networks for wound detection: the role of artificial intelligence in wound care</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ohura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mitsuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sakisaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">Supplement10</biblScope>
+			<biblScope unit="page" from="13" to="S24" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,314.62,619.36,235.86,7.58;14,323.55,630.86,226.93,7.58;14,323.55,642.32,68.80,7.58" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A new Mobile application for standardizing diabetic foot images</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Chatwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Ng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="169" to="173" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,314.62,653.83,235.85,7.58;14,323.55,665.33,226.94,7.58;14,323.55,676.84,226.90,7.58;14,323.55,688.35,58.28,7.58" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Area determination of diabetic foot ulcer images using a cascaded twostage SVM-based classification</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Strong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tulu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2098" to="2109" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,314.62,699.86,235.83,7.58;14,323.55,711.37,226.89,7.58;14,323.55,722.82,185.72,7.58" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The validity and reliability of remote diabetic foot ulcer assessment using mobile phone images</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Van Netten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Lazzarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Janda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Reed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">9480</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.68,52.24,235.90,7.58;15,60.66,63.75,226.88,7.58;15,60.66,75.26,77.11,7.58" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Using image J to document healing in ulcers of the foot in diabetes</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Jeffcoate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Musgrove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Lincoln</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1137" to="1139" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.68,86.77,235.88,7.58;15,60.66,98.28,226.85,7.58;15,60.66,109.79,226.88,7.58;15,60.66,121.24,68.80,7.58" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Accuracy and precision of selected wound area measurement methods in diabetic foot ulceration</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ladyzynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sabalinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wojcicki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Technol Ther</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="712" to="721" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.68,132.75,235.88,7.58;15,60.66,144.26,226.89,7.58;15,60.66,155.77,226.88,7.58;15,60.66,167.28,68.80,7.58" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Diffuse nearinfrared spectroscopy prediction of healing in diabetic foot ulcers: a human study and cost analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Weingarten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Samuels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neidrauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="911" to="917" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.69,178.78,235.85,7.58;15,60.66,190.24,226.88,7.58;15,60.66,201.75,138.72,7.58" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Remote assessment of diabetic foot ulcers using a novel wound imaging system</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Paterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="30" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.69,213.25,235.87,7.58;15,60.66,224.76,226.93,7.58;15,60.66,236.27,226.88,7.58;15,60.66,247.78,96.67,7.58" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Digital planimetry results in more accurate wound measurements: a comparison to standard ruler measurements</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bevilacqua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="799" to="802" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.69,259.29,235.87,7.58;15,60.66,270.74,226.90,7.58;15,60.66,282.25,226.90,7.58;15,60.66,293.76,45.81,7.58" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Near infrared wound monitor helps clinical assessment of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neidrauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zubkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Weingarten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pourrezaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Papazoglou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="792" to="798" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.69,305.27,235.88,7.58;15,60.66,316.78,226.92,7.58;15,60.66,328.29,226.89,7.58;15,60.66,339.74,140.81,7.58" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Noninvasive assessment of diabetic foot ulcers with diffuse photon density wave methodology: pilot human study</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Papazoglou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neidrauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zubkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Weingarten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pourrezaei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">64032</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.69,351.25,235.90,7.58;15,60.66,362.76,226.92,7.58;15,60.66,374.27,48.22,7.58;15,127.45,374.27,29.02,7.58;15,175.01,374.27,6.90,7.58;15,200.41,374.27,55.11,7.58;15,274.12,374.27,13.45,7.58;15,60.66,385.78,201.51,7.58" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Evaluation of diabetic foot ulcer healing with hyperspectral imaging of oxyhemoglobin and deoxyhemoglobin</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nouvong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hoogwerf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mohler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tajaddini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Medenilla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2056" to="2061" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.69,397.28,235.89,7.58;15,60.66,408.79,226.92,7.58;15,60.66,420.25,114.72,7.58" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Locally developed digital image archive for diabetic foot clinic: a DGH experience</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Laji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Page</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pract Diabetes Int</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="231" to="234" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.69,431.75,235.86,7.58;15,60.66,443.26,226.91,7.58;15,60.66,454.77,88.36,7.58" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Digital imaging: an accurate and easy method of measuring foot ulcers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sutton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet Med</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="339" to="342" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.68,466.28,235.86,7.58;15,60.66,477.79,226.90,7.58;15,60.66,489.24,226.91,7.58;15,60.66,500.75,103.10,7.58" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Principles of high-frequency ultrasonography for investigation of skin pathology</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jasaitiene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Valiukeviciene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Linkeviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Raisutis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jasiuniene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kazys</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Eur Acad Dermatol Venereol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="375" to="382" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.68,512.26,235.87,7.58;15,60.66,523.77,226.90,7.58;15,60.66,535.28,226.89,7.58;15,60.66,546.79,135.58,7.58" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A reliability study using a long-wave infrared thermography device to identify relative tissue temperature variations of the body surface and underlying tissue</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Spahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="109" to="119" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,51.68,558.24,235.89,7.58;15,60.66,569.75,226.92,7.58;15,321.85,52.25,226.93,7.58;15,321.85,63.76,210.48,7.58" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Comparison of standardized clinical evaluation of wounds using ruler length by width and scout length by width measure and scout perimeter trace</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Spahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Pinnamaneni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="116" to="121" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,312.93,75.27,235.85,7.58;15,321.85,86.78,226.93,7.58;15,321.85,98.29,209.79,7.58" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Time-saving comparison of wound measurement between the ruler method and the swift skin and wound app</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Au</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cutan Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="226" to="228" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,312.93,109.80,235.86,7.58;15,321.85,121.25,226.94,7.58;15,321.85,132.76,143.42,7.58" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Skin and wound map from 23,453 nursing home resident records: relative prevalence study</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Au</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laforet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Talbot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">11875</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,312.93,144.27,235.85,7.58;15,321.85,155.78,226.93,7.58;15,321.85,167.29,147.47,7.58" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Digital imaging of wounds: are measurements reproducible among observers?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Quan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Lazarus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Kohli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="245" to="248" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,312.93,178.80,235.86,7.58;15,321.85,190.25,226.91,7.58;15,321.85,201.76,29.62,7.58" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Evaluating an iPad app in measuring wound dimension: a pilot study</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Khong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Goh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="752" to="760" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,312.93,213.27,235.88,7.58;15,321.85,224.78,226.90,7.58;15,321.85,236.28,159.35,7.58" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Diabetic foot complications and their risk factors from a large retrospective cohort study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Al-Rubeaan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Al</forename><surname>Derwish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ouizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">124446</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,312.93,247.79,235.87,7.58;15,321.85,259.30,226.93,7.58;15,321.85,270.75,51.91,7.58" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Diabetic foot ulcer classifications: a critical review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Monteiro-Soares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Boyko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jeffcoate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Metab Res Rev</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">3272</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,312.93,282.26,235.86,7.58;15,321.85,293.77,226.90,7.58;15,321.85,305.28,181.78,7.58" xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Wound and Pressure Ulcer Management. Johns Hopkins Medicine</title>
+		<ptr target="https://www.hopkinsmedicine.org/gec/series/wound_care.html" />
+		<imprint>
+			<date type="published" when="2020">2020. 2020 07 Apr</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,312.93,316.79,235.80,7.58;15,321.85,328.28,147.01,7.58" xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mobley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vo-Dinh</surname></persName>
+		</author>
+		<title level="m">Biomedical Photonics Handbook</title>
+		<editor>
+			<persName><forename type="first">T</forename><surname>Vo-Dinh</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Boca Raton</addrLine></address></meeting>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,312.92,339.73,235.86,7.58;15,321.85,351.24,226.91,7.58;15,321.85,362.75,226.93,7.58;15,321.85,374.26,191.18,7.58" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Percent change in wound area of diabetic foot ulcers over a 4-week period is a robust predictor of complete healing in a 12-week prospective trial</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sheehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caselli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Giurini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Veves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1879" to="1882" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,312.92,385.77,235.82,7.58;15,321.85,397.28,226.96,7.58;15,321.85,408.79,122.27,7.58" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Applications and challenges of implementing artificial intelligence in medical education: integrative review</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zary</forename><forename type="middle">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Med Educ</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">13930</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

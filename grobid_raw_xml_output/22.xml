@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Monitoring wound progression to healing in diabetic foot ulcers using three-dimensional wound imaging</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-10-08">8 October 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Matthew</forename><surname>Malone</surname></persName>
+							<email>matthew.malone@westernsydney.edu.au</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">High Risk Foot Service</orgName>
+								<orgName type="institution" key="instit2">Liverpool Hospital</orgName>
+								<address>
+									<addrLine>Locked Bag 7103</addrLine>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Ingham Institute of Applied Medical Research</orgName>
+								<address>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Saskia</forename><surname>Schwarzer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">High Risk Foot Service</orgName>
+								<orgName type="institution" key="instit2">Liverpool Hospital</orgName>
+								<address>
+									<addrLine>Locked Bag 7103</addrLine>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">South West Sydney Limb Preservation and Wound Research</orgName>
+								<orgName type="institution" key="instit2">South Western Sydney Local Health District</orgName>
+								<orgName type="institution" key="instit3">Ingham Institute of Applied Medical Research</orgName>
+								<address>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Ingham Institute of Applied Medical Research</orgName>
+								<address>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Annie</forename><surname>Walsh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">High Risk Foot Service</orgName>
+								<orgName type="institution" key="instit2">Liverpool Hospital</orgName>
+								<address>
+									<addrLine>Locked Bag 7103</addrLine>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">South West Sydney Limb Preservation and Wound Research</orgName>
+								<orgName type="institution" key="instit2">South Western Sydney Local Health District</orgName>
+								<orgName type="institution" key="instit3">Ingham Institute of Applied Medical Research</orgName>
+								<address>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wei</forename><surname>Xuan</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Ingham Institute of Applied Medical Research</orgName>
+								<address>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Abdulaziz</forename><surname>Al Gannass</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution" key="instit1">National Guard Health Affairs</orgName>
+								<orgName type="institution" key="instit2">King Abdulaziz Medical City</orgName>
+								<address>
+									<settlement>Riyadh</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hugh</forename><forename type="middle">G</forename><surname>Dickson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">High Risk Foot Service</orgName>
+								<orgName type="institution" key="instit2">Liverpool Hospital</orgName>
+								<address>
+									<addrLine>Locked Bag 7103</addrLine>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">South West Sydney Limb Preservation and Wound Research</orgName>
+								<orgName type="institution" key="instit2">South Western Sydney Local Health District</orgName>
+								<orgName type="institution" key="instit3">Ingham Institute of Applied Medical Research</orgName>
+								<address>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Frank</forename><forename type="middle">L</forename><surname>Bowling</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Central Manchester Foundation Trust</orgName>
+								<orgName type="institution">University of Manchester</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">School of Medicine, Infectious Diseases and Microbiology</orgName>
+								<orgName type="institution">Western Sydney University</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Ingham Institute of Applied Medical Research</orgName>
+								<address>
+									<addrLine>1 Campbell Street</addrLine>
+									<postCode>2170</postCode>
+									<settlement>Liverpool</settlement>
+									<region>NSW</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Monitoring wound progression to healing in diabetic foot ulcers using three-dimensional wound imaging</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-10-08">8 October 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">159FD7D3557B36AAD821AEDC763FB24A</idno>
+					<idno type="DOI">10.1016/j.jdiacomp.2019.107471</idno>
+					<note type="submission">Received date: 5 September 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>3D Imaging</term>
+					<term>Wound Healing</term>
+					<term>Diabetic Foot Ulcer</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This is a PDF file of an article that has undergone enhancements after acceptance, such as the addition of a cover page and metadata, and formatting for readability, but it is not yet the definitive version of record. This version will undergo additional copyediting, typesetting and review before it is published in its final form, but we are providing this version to give early visibility of the article. Please note that, during the production process, errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="219.92" lry="337.12"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="256.64" lry="266.56"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="489.2" lry="304.48"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Diabetic foot disease is a growing global concern, with wound management costs estimated to reach up to £5.1 billion in the United Kingdom <ref type="bibr" target="#b0">1</ref> and between $9-13 billion in the United States. <ref type="bibr" target="#b1">2</ref> Patients with diabetic foot ulcers (DFUs) are ideally managed by a multidisciplinary team, often seen by many different clinicians through their management journey. <ref type="bibr" target="#b2">3</ref> The measurement of wounds is therefore integral component in the assessment and management of patients. This is particularly of note in persons with DFUs (in addition to other wound aetiologies) where lower extremity wounds often transition to become chronic <ref type="bibr" target="#b3">4</ref> . Thus, there is a need to objectively and quantitatively determine the trajectory or progression of an ulcer via its dimensions. This may aid clinicians in ensuring that the most appropriate and cost-effective therapy is used at all times, and to further assist with patient compliance. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> Traditional approach's for measuring wounds includes simple ruler measurements, probing for depth, and tracing wound borders. These methods are highly subjective with great variability between clinicians. <ref type="bibr" target="#b6">7</ref> In order for wound measurements to be useful for clinicians, any measurement needs to be accurate and reliable.</p><p>With advancements in technology, the use of three-dimensional (3D) imagery and its propriety software has increasingly infiltrated the woundcare arena. Whilst the capability of 3D imaging has been around for much longer, its use in woundcare has been limited by the time-consuming nature and unfriendly user interfaces of available systems. Recently, reports of new 3D wound imaging systems have been reported in the literature as being accurate, valid and reliable compared to standard methods of wound measurement. <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> Importantly, these systems have adapted to become portable units with user-friendly software easily used in a clinical setting, whilst taking additional advantages of interacting with new age electronic medical records systems for improved patient care. With the introduction of 3D wound imaging systems increasing numbers of measurements are now available to clinicians, however there are gaps with little to no evidence pertaining to which measurements used by 3D systems may provide the most useful prognostic markers of wound progression and healing.</p><p>Journal Pre-proof J o u r n a l P r e -p r o o f</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods and Materials</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Study design</head><p>A prospective pilot study was conducted at an acute tertiary referral hospital High Risk Foot Service (HRFS) in Sydney, Australia over a twelve-month recruitment period. Due to the insufficient data available on 3D wound imaging, a feasibility study design was considered necessary to consider an adequately powered prospective trial, and a recruitment target of over twenty participants was deemed adequate for analysis. Patients aged over 18 years with a full thickness wound below the ankle and an ABPI &gt;0.5 were eligible for recruitment. <ref type="bibr" target="#b10">11</ref> Patients were excluded from the study if they suffered an adverse event such as wound infection leading to deterioration, or the requirement for surgical intervention arose. Clinical metadata including wound assessment and classification were obtained at each visit, as well as broad demographic information. Ulcers were classified using the University of Texas (UT) classification system at patient recruitment (baseline), and reassessed at each subsequent visit. <ref type="bibr" target="#b11">12</ref> Wound healing was defined as 100% reepithelialisation of the wound surface, without exudate, drainage or dressing. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> All patients received standard of care for the duration of the study including; sharp conservative debridement, foot ulcer offloading, wound bed preparation and appropriate wound dressings based on the clinical requirements of the ulceration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Human Research Ethics</head><p>Ethics for the study was obtained from the South Western Sydney Local Health District Research and Ethics Committee (HREC/12/LPOOL/215). The clinical trial registration was approved from the Australian Therapeutic Goods Administration (TGA) (CTN Number 265/2012). Informed written consent was obtained prior to enrolment in keeping with ethics compliance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Wound Imaging</head><p>Two clinicians with over a decade of experience managing DFUs obtained and analysed all images.</p><p>Both clinicians obtained an image every week for the duration of the study, for every participant at separate times during the study visit, and thus were blinded from one another. Training on the use of the 3D camera occurred prior to study commencement, as well as establishment of the length and Journal Pre-proof J o u r n a l P r e -p r o o f width measurements (length was defined as the vertical plane between the two longest points, and width was the horizontal plane between the two widest points, as shown in Figure <ref type="figure" target="#fig_0">1</ref>). The protocol for capturing a 3D image has been described previously. <ref type="bibr" target="#b6">7</ref> Briefly, an adhesive optical target is used to aid calibration of the camera, and is placed adjacent to the ulceration, after wound debridement. The image is immediately uploaded and transferred to a computer with reporting software for the 3D image to be resolved for analysis. The measurements are recorded by each observer using the computer mouse to plot the reference points around the circumference of the wound along its borders, based on the clinician's observations of the wound border designation. An example can be seen in Figure <ref type="figure" target="#fig_1">2</ref>, which shows a lateral view of a foot ulcer with the circumferential reference points plotted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">Measurements of Interest</head><p>The 3D image device has a range of digital measurements available to the user, but for the purpose of this study, the measurements commonly used in woundcare by clinicians were collected and examined. The measurements obtained included; 1) approximate area (length x width) which measures the straight-line distance between two points on the surface of a 3D Image. The length and width are multiplied to calculate the approximate area of the ulceration, the same as standard rulerbased measurements. 2) Planimetry area which measures the area defined by projecting a closed set of points on the surface of the image into the flat plane of the optical target. 3) Surface area as measured by the area defined by the set of points on the surface of the image. 4) Planar volume as measured by the concave 3D volume enclosed by a flat plane fitted to the set of points on the surface of the image. And 5) Curved volume through approximation of the 'missing surface' over the hole by sampling the surrounding 3D surface and measuring the concave 3D volume between the predicted surface and the true surface of the image within the set of points. The 3D image measurements that vary between measurements may be related to limitations of the 3D system, or due to the users. To measure this variable, the data from the two users was combined to obtain a mean result which was tracked against a time plot. The traditional measurements collected were length and width measured with a ruler, with the measurements taken as per the protocol described above.</p><p>Journal Pre-proof J o u r n a l P r e -p r o o f</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">Prognostic indicator of wound healing</head><p>To determine which wound measurement best represented a prognostic indicator of wound healing, the assumption was made that wounds receiving standard of care and experience no complications generally heal in roughly a linear fashion. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> Based on this hypothesis, if each subsequent measurement shows a linear trend with limited variations, it should reflect a clinical picture of progression through a normal wound healing cycle. The baseline wound measurement (mm 2 or mm <ref type="bibr" target="#b2">3</ref> ) was scored at 100%, with subsequent weekly measurements allocated a percentage reduction compared to the initial value (100% at baseline measurement, to 0% once healed).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">Statistics</head><p>Statistical analysis was undertaken using IBM Statistical Packages for the Social Sciences (SPSS) Version 24.0 for Windows (SPSS Inc, Chicago, IL, USA). Unpaired t-tests were employed in testing differences between demographics. Linear regression and Pearson correlation coefficient were undertaken for each measurement value. Intra-class correlation coefficients were used to determine variations in measurements between users. For all comparisons and modelling, the level of significance was set at p &lt;0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>A total of twenty-eight patients with DFUs distal to the malleoli were enrolled. Seven patients were subsequently excluded due to the development of an infection that either required admission to hospital for intravenous antimicrobial therapy, or surgical debridement. A total of twenty-one participants completed the study. The average duration of wound healing was nine weeks (±4 weeks).</p><p>All but one participant had type 2 Diabetes (95%), with an average duration of diabetes of 15.6 years (±8.6), and an average HbA1c of 7.8%. A higher number of male participants were recruited (14, 67% versus 7 females; 23%), and male participants were on average six years younger than females (62 ±14.3, versus females; 68±11). The most common DFU aetiology was neuroischemic ulcerations (15 of 21, 71%), followed by neuropathic ulcerations (6 of 21, 29%). The baseline UT Wound Classification scores identified twelve (12 of 21, 57%) participants having a superficial ulceration Journal Pre-proof J o u r n a l P r e -p r o o f with ischemia (ABPI &gt;0.5) (UT-1C), followed by seven participants (7 of 21, 33%) having a superficial ulceration with no ischemia (UT-1A). The final two participants (2 of 21, 10%) were classified as a wound penetrating to tendon or capsule with ischemia (ABPI &gt;0.5) (UT-2C).</p><p>The primary study endpoint to determine which measurements were the most useful as a prognostic indicator of wound progression and healing are shown in Figure <ref type="figure" target="#fig_2">3</ref>. Pearson correlation coefficients and regression analysis of all measurements showed a linear healing slope for each wound measurement as having a value greater than 0.70 and a statistical significance of p = 0.0001. The wound measurement with the most linear model fit was surface area (R2 = .88, p = 0.0001) followed by approximate area (length x width) (R2 = .86), planimetry area (R2 = .85), planar volume (R2 = .83), with curved volume having the least linear pattern (R2 = .79). In a similar fashion, low variability of measurements between users also indicated good inter-observer reliability; approximate area ICC; 0.97, planimetry area ICC; 0.97, surface area ICC; 0.98, planar surface volume ICC; 0.89, curved volume ICC; 0.63.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The rapid progression of technology, from simple photographs and tracings, to the development and progression of 3D wound imaging technology has provided clinicians with an increasing range of options for measuring and tracking wounds. There is lack of available data to guide clinicians on the measurements most reflective of wound progression or a healing trajectory, nor have prior 3D imaging studies reported longitudinal wound measurements. In this study, we prospectively followed DFUs to measure healing longitudinally through the collection of measurements comparing 3D imaging to traditional measurement techniques. This relied on the assumption that wounds that are on a healing trajectory do not experience a "yoyo" effect to their dimensions. That is, wounds which are healing do not get bigger and then smaller and then bigger, and suddenly heal. Wounds without complications which are progressing through the coordinated phases of normal wound healing, do so in a trajectory that is generally linear in motion <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> . Therefore, 3D image measurements that vary Journal Pre-proof J o u r n a l P r e -p r o o f between weekly timepoints in wounds which are healing, may be related to limitations of the 3D system, or due to user variations.</p><p>The results of this study demonstrate that all five wound measurements had a statistically significant linear correlation between the measurement and time to healing from initial recruitment. This can be extrapolated to suggest that all of the measurements examined can be effective prognostic markers of a wounds progression to healing and closure. The most useful measurement was surface area, which also had the lowest variability between observers. This data contributes to the evidence available that 3D imaging is a valid method of measuring wounds. The 3D imaging system used in this study has been previously validated against traditional handmeasured estimates <ref type="bibr" target="#b7">8</ref> . Two prior studies have examined the efficacy of 3D imaging devices on synthetic wound models in comparison to expert opinion, as well as other measures such as water displacement. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> Farrar and colleagues <ref type="bibr" target="#b16">17</ref> found excellent agreement, while William and colleagues <ref type="bibr" target="#b18">19</ref> found the 3D camera slightly underestimated wound size. Jorgensen and colleagues <ref type="bibr" target="#b17">18</ref> reviewed a newly developed 3D camera, with two raters taking a 3D image, and comparing it against standard measurement as well as injection of gel into the cavity. This study found high agreement between the camera and the traditional methods, as well as good intra and inter-rater reliability. One study identified performed more than one measurement, which was undertaken in a cohort of venous leg ulcer patients. <ref type="bibr" target="#b19">20</ref> An initial 3D photo was taken by two raters along with a tracing, and then repeated after four weeks. This study demonstrated good correlation between the image and the tracing and concluded that both methods were equivalent at detecting healing rate over time, based on the two measurement time points.</p><p>Cardinal et al. 2010 <ref type="bibr" target="#b21">22</ref> undertook a retrospective analysis of over 500 wounds to determine if early markers of wound healing could be correlated with total wound closure. They found the predictors of wound healing (p &lt;0.001) at 12 weeks were wound margin advance, initial healing rate, percentage wound surface area reduction and wound healing trajectory. The use of 3D images allows clinicians to Journal Pre-proof J o u r n a l P r e -p r o o f track and analyse measurements of wounds within their service and may allow allocation of extra resources to wounds which are failing to respond or may trigger an investigation to examine underlying intrinsic or external factors that may be affecting the wound healing.</p><p>This study used two podiatrists from the same HRFS who had experience in wound management, and similar levels of experience. This may account for the ability to correctly define the wound margins during the measuring process which subsequently resulted in low variability between measurements. This finding is in contract to a prior study by Bowling and colleagues <ref type="bibr" target="#b8">9</ref> who had a higher number of observers and found that the variability increased between observers when wound boundary demarcation was mapped. It would be of interest to measure variability with a larger range of users, particularly from different services and ranges of clinical experience.</p><p>As a whole, the low variability between the observers wound measurements suggests that analysing images on a computer screen can produce accurate and repeatable wound measurements for DFUs. This may be due to the enhanced functionality of the system, or due to the fact that clinicians can use the computer to visualise the wound, and then rotate, zoom and freeze the image for precise measurements. This stands in contrast to a busy clinical environment where traditional measurements may be rushed due to time constraints or recorded inaccurately. It should also be considered that 3D images which are taken, and then measured and recorded at a later time point may potentially be more time intensive. A 3D device which is able to take an image, and report measurements in at a one-off time point would be more useful and time efficient.</p><p>The measurement with the greatest variability was curved volume. This 3D measurement approximates a missing surface over the ulcer by sampling from points around the peri-wound. It then measures the concave 3D volume within this predicted area. An explanation of why this measurement recorded the greatest variability may be due to the shape of the ulcers recruited. Given that the curved volume measurement is best suited for those wounds which are convex in nature, a bias for enrolling wounds which were concave may account for this. Another factor that may influence wound volume Journal Pre-proof J o u r n a l P r e -p r o o f is wound bed preparation, which includes debridement, which may artificially increase or decrease the volume through removal of wound bed tissue. This can be circumvented through ensuring that clinicians have a service protocol about when measurements are taken.</p><p>The use of technology within the woundcare arena is rapidly expanding, with technology improving and prices reducing. There have been subsequent advances in the 3D technology, including the development of devices that measure the wound on the screen it is taken on, instead of relying on transferring to a computer monitor. These advancements can benefit clinician and patients, through enhanced monitoring capabilities, and an increase in clinical information. It is still important for clinicians to ensure they are appreciating the clinical relevance of the information, and that it is acted on accordingly. The utilisation of a technology that calculates and tracks measurements also ensures that any errors that may arise through manual calculations of measures such as surface area (through percentage reduction) is removed. It also frees clinicians from having to remember measurements to record once patient notes and records are completed.   Journal Pre-proof J o u r n a l P r e -p r o o f Highlights  Five measurements were identified that may be useful prognostic marker for tracking wound  The most clinically useful and reliable measure is wound surface area.  3D imaging demonstrates good inter-observer reliability  The use of 3D images may lead to early identification of non-healing wounds, which enables further investigation and alterations to management.</p><note type="other">Figure Legend</note><p> Remote evaluation and assessment of a wound via a telemedicine approach offers an innovative practice to circumventing areas with geographical challenges.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal Pre-proof</head><note type="other">Figure 1</note></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1.A standard photograph on the most accurate method of recording length and width of an ulcer. The length measurement should represent a vertical plane between the two longest points, whilst width measurement should represent a horizontal plane between the two widest points.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. A lateral view of a diabetic foot ulcer with the circumferential reference points plotted.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. A) Mean versus time for approximate area (length by width), B) Mean versus time for planimtery area, C) Mean versus time for surface area, D) Mean versus time for planar volume, E) Mean versus time for curved volume.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2</head><label>2</label><figDesc>Figure 2</figDesc><graphic coords="18,10.00,10.00,236.64,226.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3</head><label>3</label><figDesc>Figure 3</figDesc><graphic coords="19,10.00,10.00,469.20,264.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="17,10.00,10.00,199.92,297.12" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Journal Pre-proof</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments and Funding Sources</head><p>This research did not receive any specific grant from funding agencies in the public, commercial or not-for-profit sectors.</p><p>Journal Pre-proof J o u r n a l P r e -p r o o f</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,94.16,99.76,425.85,9.94;12,108.02,125.08,361.52,9.94;12,108.02,150.28,298.49,9.94" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Health economic burden that wounds impose on the National Health Service in the UK</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Guest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ayoub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mcilwraith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Uchegbu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gerrish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weidlich</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjopen-2015-009283</idno>
+		<ptr target="http://doi.org/10.1136/bmjopen-2015-009283" />
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">9283</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,94.16,175.60,398.71,9.94;12,108.02,200.92,387.68,9.94;12,108.02,226.24,149.31,9.94" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Burden of diabetic foot ulcers for medicare and private insurers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Desai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Birnbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Skornicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Parsons</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/dc13-2176</idno>
+		<ptr target="http://doi.org/10.2337/dc13-2176" />
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="651" to="658" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,94.16,251.56,428.66,9.94;12,108.02,276.91,398.88,9.94;12,108.02,302.11,377.20,9.94;12,108.02,327.43,198.12,9.94" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">IWGDF Practical guidelines on the prevention and management of diabetic foot disease. IWGDF Guidelines</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Schaper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Van Netten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Apelqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hinchliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Lipsky</surname></persName>
+		</author>
+		<ptr target="https://iwgdfguidelines.org/wp-content/uploads/2019/05/01-IWGDF-practical-guidelines-2019.pdf" />
+		<imprint>
+			<date type="published" when="2019-07-10">2019. 10 July 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,94.16,352.75,414.71,9.94;12,108.02,378.07,282.53,9.94;12,108.02,403.39,181.90,9.94" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Publicly Reported Wound Healing Rates: The Fantasy and the Reality</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Fife</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Eckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Carter</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2017.0743</idno>
+		<ptr target="http://doi.org/10.1089/wound.2017.0743" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care (New Rochelle)</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="77" to="94" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,94.16,428.59,426.02,9.94;12,108.02,453.93,317.33,9.94" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Wound measurement: can it help us to monitor progression to healing?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flanagan</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2003.12.5.26493</idno>
+		<ptr target="http://doi.org/10.12968/jowc.2003.12.5.26493" />
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="189" to="194" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,94.16,479.25,427.15,9.94;12,108.02,504.46,403.45,10.05;12,108.02,529.89,350.92,9.94;12,108.02,555.09,88.11,9.94" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The effects of ulcer size and site, patient&apos;s age, sex and type and duration of diabetes on the outcome of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Oyibo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Jude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tarawneh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Harkless</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1464-5491.2001.00422.x</idno>
+		<ptr target="http://doi.org/10.1046/j.1464-5491.2001.00422.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Diabet Med</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="133" to="138" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,94.16,580.41,422.18,9.94;12,108.02,605.76,155.67,9.94" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Reliability of wound surface area measurements</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Majeske</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ptj/72.2.138</idno>
+		<ptr target="http://doi.org/10.1093/ptj/72.2.138" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="138" to="141" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,94.16,631.08,419.93,9.94;12,108.02,656.40,389.96,9.94;12,108.02,681.72,291.29,9.94" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">An assessment of the accuracy and usability of a novel optical wound measurement system</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fadavit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Paterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Preece</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Daniel</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1464-5491.2008.02611.x</idno>
+		<ptr target="http://doi.org/10.1111/j.1464-5491.2008.02611.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Diabetic Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="93" to="96" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,94.16,706.92,425.81,9.94;12,108.02,732.24,364.76,9.94;12,108.02,757.56,293.81,9.94;12,240.43,35.24,114.10,12.58;13,156.03,552.84,44.40,19.60;13,169.88,531.04,44.40,21.80;13,185.28,509.25,44.40,21.80;13,200.68,496.19,44.40,13.05;13,209.90,474.40,44.40,21.80;13,225.30,452.60,44.40,21.80;13,240.70,443.90,44.40,8.70;13,254.55,406.85,44.40,26.15;13,273.03,393.80,44.40,13.05;13,282.25,372.00,44.40,21.80;13,297.65,358.95,44.40,13.05;13,306.87,337.15,44.40,21.80;13,322.27,324.10,44.40,13.05;13,331.50,302.30,44.40,21.80;13,346.90,280.51,44.40,21.80;13,362.30,269.61,44.40,10.90" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Remote assessment of diabetic foot ulcers using a novel wound imaging system</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Paterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Lipsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2010.00645.x</idno>
+		<ptr target="http://doi.org/10.1111/j.1524-475X.2010.00645.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="25" to="30" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Journal Pre</note>
+</biblStruct>
+
+<biblStruct coords="13,99.22,74.42,412.53,9.94;13,108.02,99.76,396.13,9.94;13,108.02,125.08,333.28,9.94;13,108.02,150.28,90.63,9.94" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Wounds measured from digital photographs using photodigital planimetry software: validation and rater reliability</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Wendelken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lichtenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Markowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Comfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Alvarez</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2010.00645.x</idno>
+		<ptr target="http://doi.org/10.1111/j.1524-475X.2010.00645.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="267" to="275" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,99.22,175.60,420.71,9.94;13,108.02,200.92,407.65,9.94;13,108.02,226.24,195.15,9.94" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Diabetic foot ulcer classification system for research purposes: a progress report on criteria for including patients in research studies</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Schaper</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/dmrr.464</idno>
+		<ptr target="http://doi.org/10.1002/dmrr.464" />
+	</analytic>
+	<monogr>
+		<title level="m">suppl 1:S90-S95</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,99.22,251.56,392.36,9.94;13,108.02,276.91,396.14,9.94;13,108.02,302.11,281.93,9.94" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Validation of a diabetic wound classification system. The contribution of depth, infection, and ischemia to risk of amputation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Harkless</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/diacare.21.5.855</idno>
+		<ptr target="http://doi.org/10.2337/diacare.21.5.855" />
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="855" to="859" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,99.22,327.43,419.95,9.94;13,108.02,352.75,387.00,9.94;13,108.02,377.96,302.33,10.05;13,108.02,403.39,306.48,9.94" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Food and Drug Administration Wound Healing Clinical Focus Group. Guidance for industry: chronic cutaneous ulcer clinical trial of D-ADM demonstrated superior healing rates for chronic and burn woundsdeveloping products for treatment</title>
+		<ptr target="https://www.fda.gov/media/71278/download" />
+		<imprint>
+			<date type="published" when="2006-04-03">2006. 3 April 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,99.22,428.59,404.04,9.94;13,108.02,453.93,369.20,9.94" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Defining complete wound closure: Closing the gap in clinical trials and practice</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gould</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/wrr.12707</idno>
+		<ptr target="http://doi.org/10.1111/wrr.12707" />
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="201" to="224" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,99.22,479.25,423.03,9.94;13,108.02,504.57,286.25,9.94;13,108.02,529.89,221.65,9.94" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Wound shape geometry measurements correlate to eventual wound healing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cardinal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Eisenbud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2009.00464.x</idno>
+		<ptr target="http://doi.org/10.1111/j.1524-475X.2009.00464.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="173" to="178" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,99.22,555.09,420.82,9.94;13,108.02,580.41,364.28,9.94;13,108.02,605.76,209.33,9.94" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The influence of wound geometry on the measurement of wound healing rates in clinical trials</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Gorin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Cordts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Lamorte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Menzoian</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0741-5214(96)80021-8</idno>
+		<ptr target="http://doi.org/10.1016/s0741-5214(96)80021-8" />
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="524" to="528" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,99.22,631.08,412.37,9.94;13,108.02,656.40,289.97,9.94;13,108.02,681.72,190.59,9.94" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Three-dimensional wound mapping software compare to expert opinion in determining wound area</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Farrar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Pujji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jeffery</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.burns.2017.05.015</idno>
+		<ptr target="http://doi.org/10.1016/j.burns.2017.05.015" />
+	</analytic>
+	<monogr>
+		<title level="j">Burns</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1736" to="1741" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,99.22,706.92,416.57,9.94;13,108.02,732.24,399.66,9.94;13,108.02,757.56,337.52,9.94;13,240.43,35.24,114.10,12.58;14,156.03,552.84,44.40,19.60;14,169.88,531.04,44.40,21.80;14,185.28,509.25,44.40,21.80;14,200.68,496.19,44.40,13.05;14,209.90,474.40,44.40,21.80;14,225.30,452.60,44.40,21.80;14,240.70,443.90,44.40,8.70;14,254.55,406.85,44.40,26.15;14,273.03,393.80,44.40,13.05;14,282.25,372.00,44.40,21.80;14,297.65,358.95,44.40,13.05;14,306.87,337.15,44.40,21.80;14,322.27,324.10,44.40,13.05;14,331.50,302.30,44.40,21.80;14,346.90,280.51,44.40,21.80;14,362.30,269.61,44.40,10.90" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Validation of three-dimensional wound measurements using a novel 3D-WAM camera</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Jorgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Skov-Jeppesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Halekoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sorensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gbe</forename><surname>Jemec</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/wrr.12664</idno>
+		<ptr target="http://doi.org/10.1111/wrr.12664" />
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="456" to="462" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>Journal Pre</note>
+</biblStruct>
+
+<biblStruct coords="14,99.22,74.42,395.52,9.94;14,108.02,99.76,406.45,9.94;14,108.02,125.08,395.96,9.94" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Simulated Wound Assessment Using Planimetry versus Three-Dimensional Cameras: Implications for Clinical Assessment</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sounderajah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dharmarajah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thapar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Davies</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.avsg.2016.10.029</idno>
+		<ptr target="http://doi.org/10.1016/j.avsg.2016.10.029" />
+	</analytic>
+	<monogr>
+		<title level="j">Ann Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="235" to="240" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,99.22,150.28,398.84,9.94;14,108.02,175.60,414.42,9.94;14,108.02,200.92,241.73,9.94;14,108.02,226.24,184.47,9.94" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Three-dimensional digital imaging is as accurate and reliable to measure leg ulcer area as transparent tracing with digital planimetry</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chaby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Thirion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lucien</forename><forename type="middle">A</forename><surname>Senet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jvsv.2017.05.019</idno>
+		<ptr target="http://doi.org/10.1016/j.jvsv.2017.05.019" />
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg Venous Lymphat Disord</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="837" to="843" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,99.22,251.56,336.60,9.94;14,108.02,276.91,323.00,9.94" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Wound healing and its impairment in the diabetic foot</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Falanga</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0140-6736(05)67700-8</idno>
+		<ptr target="http://doi.org/10.1016/S0140-6736(05)67700-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="1736" to="1743" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,99.22,302.11,381.15,9.94;14,108.02,327.43,408.68,9.94;14,108.02,352.75,297.53,9.94" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Early healing rates and wound area measurements are reliable predictors of later complete wound closure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cardinal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Eisenbud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Philips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2007.00328.x</idno>
+		<ptr target="http://doi.org/10.1111/j.1524-475X.2007.00328.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="19" to="22" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

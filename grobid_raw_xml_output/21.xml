@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Clinical validation of a smartphone application for automated wound measurement in patients with venous leg ulcers</title>
+				<funder ref="#_yqnYjyg #_3jJJVFg">
+					<orgName type="full">Agency for Science, Technology and Research (A*STAR)</orgName>
+				</funder>
+				<funder ref="#_dvQXAyP">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_4Pc8V2F">
+					<orgName type="full">Tan Tock Seng Hospital FY2020 Pitch-for-Fund Program Grant</orgName>
+				</funder>
+				<funder ref="#_qxhPPqJ #_WczrybH">
+					<orgName type="full">National Research Medical Council (NMRC)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yung</forename><surname>Khi</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Fong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Yong Loo Lin School of Medicine</orgName>
+								<orgName type="institution">National University of Singapore</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tina</forename><forename type="middle">Peiting</forename><surname>Lai</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Wound and Stoma Care</orgName>
+								<orgName type="department" key="dep2">Nursing Service</orgName>
+								<orgName type="institution">Tan Tock Seng Hospital</orgName>
+								<address>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kai</forename><forename type="middle">Siang</forename><surname>Chan</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Vascular Surgery Service</orgName>
+								<orgName type="department" key="dep2">Department of General Surgery</orgName>
+								<orgName type="institution">Tan Tock Seng Hospital</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Isabel</forename><forename type="middle">Jia</forename><surname>Le See</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Vascular Surgery Service</orgName>
+								<orgName type="department" key="dep2">Department of General Surgery</orgName>
+								<orgName type="institution">Tan Tock Seng Hospital</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Cheng</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cheng</forename><surname>Goh</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Wound and Stoma Care</orgName>
+								<orgName type="department" key="dep2">Nursing Service</orgName>
+								<orgName type="institution">Tan Tock Seng Hospital</orgName>
+								<address>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Sivakami Muthuveerappa</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Wound and Stoma Care</orgName>
+								<orgName type="department" key="dep2">Nursing Service</orgName>
+								<orgName type="institution">Tan Tock Seng Hospital</orgName>
+								<address>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Audrey</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Huimin</forename><surname>Tan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Wound and Stoma Care</orgName>
+								<orgName type="department" key="dep2">Nursing Service</orgName>
+								<orgName type="institution">Tan Tock Seng Hospital</orgName>
+								<address>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shanying</forename><surname>Liang</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Surgery</orgName>
+								<address>
+									<addrLine>Woodlands Health</addrLine>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">|</forename><surname>Zhiwen</surname></persName>
+							<email>zhiwen@gmail.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><surname>Lo</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Surgery</orgName>
+								<address>
+									<addrLine>Woodlands Health</addrLine>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><surname>Zhiwen</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MBBS, BMedSci, MMed, FRCSEd, FAMS, FICS, FACS</roleName><surname>Lo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zhiwen</forename><forename type="middle">Joseph</forename><surname>Lo</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Surgery</orgName>
+								<address>
+									<addrLine>Woodlands Health, 2 Yishun Central 2</addrLine>
+									<postCode>768024</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Clinical validation of a smartphone application for automated wound measurement in patients with venous leg ulcers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3D78A58582DAC43BE02135B58101372F</idno>
+					<idno type="DOI">10.1111/iwj.13918</idno>
+					<note type="submission">Received: 17 June 2022 Revised: 24 July 2022 Accepted: 25 July 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Chronic wounds are associated with significant clinical, economic and qualityof-life burden. Despite the variety of wound imaging systems available in the market for wound assessment and surveillance, few are clinically validated among patients of Asian ethnicity. We aimed to clinically validate the accuracy of a smartphone wound application (Tissue Analytics [TA], Net Health Systems Inc, Florida, USA), versus conventional wound measurements (visual approximation and paper rulers), in patients of Asian ethnicity with venous leg ulcers (VLU). A prospective cohort study of patients presenting with VLU to a specialist wound nurse clinic over a 5-week duration was conducted. Each patient received seven wound measurements: one by a trained wound nurse clinician, and three separate wound measurements using TA on each of the iOS and Android operating systems. Inter-rater and intra-rater reliability between clinical and TA-based measurements were analysed using intra-class correlation statistics, with values of &lt;0.5, 0.5 to 0.75, 0.75 to 0.9, and &gt;0.9 indicating poor, moderate, good and excellent reliability, respectively. 82 patients (51% males), with a mean age at 65.8 years, completed the 5-week study duration. 25 (30%) had underlying diabetes mellitus. Chinese, Malay and Indian ethnicity comprised 68%, 12% and 11%, respectively. The VLU healed in 26 (32%) of patients within the study period. In total, 358 wound episodes with 2334 wound images were analysed. Inter-rater reliability for length, width and area between wound nurse measurements and TA application measurements was good (range 0.799-0.919, P &lt; 0.001). Separate measurements of intra-rater reliability for length, width and area within the iOS or Android systems were excellent (range 0.967-0.985 and range 0.977-0.984 respectively, P &lt; 0.001). Inter-rater reliability between TA used on the iOS and Android systems was also excellent (0.987-0.989, P &lt; 0.001). Tissue Analytics, a smartphone wound</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>application, is a useful adjunct for wound assessment and surveillance in VLU patients of Asian ethnicity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>K E Y W O R D S chronic venous insufficiency, machine learning, venous ulcers, wound imaging, wound management</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Messages</head><p>• this study aimed to clinically validate measurements of venous leg ulcers (VLU) using the Tissue Analytics (TA) artificial-intelligence assisted imaging system, by comparing them against traditional wound assessment measurements by a trained wound nurse, through the use of intra-class correlation statistics • there was good inter-rater reliability for VLU length, width and area between wound nurse measurements and measurements derived from TA (range 0.799-0.919, P &lt; 0.001) • there was excellent intra-rater reliability for VLU length, width and area across repeated measurements within each of the iOS or Android systems (range 0.967-0.985 and range 0.977-0.984, respectively, P &lt; 0.001) • inter-rater reliability between the use of TA on iOS versus Android systems was also excellent (0.987-0.989, P &lt; 0.001)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Chronic venous insufficiency (CVI) is a serious but often overlooked health care problem, with varicose veins afflicting an estimated 5% to 30% of adults. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> A serious downstream consequence of CVI is the development of venous leg ulcers (VLUs), which occur in an estimated 20% of patients with CVI. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> VLUs create a notable socioeconomic impact, causing reduced quality of life, loss of productive work hours and large financial burden on the health care system. <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> This is further exacerbated by their high recurrence rate of 17% in 1 year. <ref type="bibr" target="#b8">9</ref> The management of VLUs is multidisciplinary; health care professionals must address the active ulcer as well as the background of CVI. Venous hypertension, the commonest aetiology of VLUs, is typically treated with compression bandaging, but interventions may also extend to surgical options such as endoluminal laser treatment, radiofrequency ablation and sclerotherapy. <ref type="bibr" target="#b9">10</ref> In addressing the ongoing ulcer, wound care is a crucial pillar of VLU management and is typically overseen by specialised wound care nurses. <ref type="bibr" target="#b10">11</ref> Continued assessment of healing progress is traditionally done via manual wound measurements; however, technological advancements in recent years have led to the development of numerous digital wound imaging and assessment systems. Some of these systems have been tested and validated in the clinical setting. <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> The advantages of such systems lie in their contactless nature, which helps to reduce infection risk; ease of use via smartphones and tablets; reduction in time spent on wound measurement; remote monitoring of wounds via patient-uploaded images; and seamless integration into electronic health records services. <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> Nevertheless, a systematic review in 2020 found that the majority of commercially available wound assessment systems have yet to be reviewed in the literature with regards to measurement accuracy. <ref type="bibr" target="#b18">19</ref> Even fewer of these systems have been clinically validated in patients of Asian ethnicity. This study aims to bolster existing literature on commercially available wound imaging systems, by clinically validating a 3-dimensional (3-D) enabled, machine learning-based imaging system (Tissue Analytics [TA], Net Health Systems Inc, Florida, USA) against traditional wound measurements in patients with VLUs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| METHODS</head><p>This was a prospective cross-sectional study on patients with VLUs from June 2020 to March 2021 in a single-centre, university-affiliated tertiary hospital in Singapore. Inclusion criteria were all patients aged 21 years and above with VLUs. Exclusion criteria were patients who were pregnant, breastfeeding, had leg ulcers of nonvenous origin such as primarily arterial ulcer or neuropathic ulcer, or did not have capacity to consent. Mixed arterio-venous ulcers were also included. This study was approved by a local institutional review board (National Healthcare Group Domain Specific Review Board Ref No: 2020/00148). Written consent was obtained for all patients included in the study with appropriate translations as required for non-English speakers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Study protocol</head><p>The study protocol is shown in Figure <ref type="figure" target="#fig_0">1</ref>. Patients were identified and recruited from the outpatient wound clinic. Baseline demographics and clinical profile were collected from medical records prior to the study. All participants in this study were subjected to a standardised VLU management pathway with standardised follow-up. The approximate study duration for each patient was five clinic visits or until complete resolution of the ulcer, whichever was earlier. No additional clinic visits were required for the purpose of this study. During each clinic visit, wound measurements were recorded traditionally by a trained specialised wound nurse and electronically by a dedicated research coordinator using the TA imaging system. Wound episode was defined as the wound images taken at each clinic visit. In total, seven wound images would be taken at each wound episode: one with a digital camera by the specialised trained wound nurse, and three on each of the Android and iOS platforms by the research coordinator.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Tissue analytics wound imaging system</head><p>Tissue Analytics (TA) is a non-contact, digital wound assessment and documentation tool that can be run as a smartphone application on both iOS and Android devices. Image capture is performed by placing a small green dot next to the patient's wound. This dot allows the study team to normalise for environmental conditions such as irregular room lighting, distance from the wound and camera skew angle. Approximately five seconds of video footage of the wound is captured. The application then uses machine learning and computer vision to generate a 3D rendering of the wound. Machine learning is applied using trained algorithms which are used to automatically define the borders between wounds and healthy skin. Altogether, this allows measurements of the ulcer volume and depth with sub-millimetre resolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Standardisation of ulcer measurement</head><p>If a patient had multiple VLUs, an index ulcer was identified for the purpose of this study during the first clinic visit, and this was monitored during subsequent clinic visits. When patients arrived at the clinic, they were directed to a dedicated room with adequate lighting from the ceiling prior to consultation with the doctor. Measurement of the index ulcer was performed in this room. All participants were positioned sitting on a chair with their feet overhanging. Wound measurements were first taken traditionally by a specialised trained wound nurse, then using TA by a dedicated research coordinator.</p><p>Each instance of manual wound measurement was performed by either of two trained specialised wound nurses. Both nurses had more than 2 years of experience in wound care and management. Standardisation of measurements was performed prior to the conduct of the study. Tracing paper was first placed over wound, then a sterile marker pen was used to outline the wound. Using this tracing, the length (defined as the longest axis) and width (defined as longest axis perpendicular to the length) of the wound were measured. The tracing paper was placed over the graph paper with 1 cm Â 1 cm squares, and wound area was obtained by counting the number of grids within the outlined boundary. Following completion of the manual measurements, the wound nurse left the dedicated treatment room and a dedicated research coordinator would then enter the room to perform the next set of measurements, to reduce interinvestigator bias. Both the wound nurse and research coordinator were blinded from each other's observations so as to reduce bias. The research coordinator first took a photograph of the wound using a digital camera (Canon Power-Shot G7X), with a reference ruler laid over the wound. Then, the research coordinator took three images of the wound using TA running on an iOS device (iPhone 11, iOS 13) and three images using TA running on an Android device (XiaoMi Mi Max 2, Android 7.0), for a total of seven images per wound. An optical zoom of 1.0x was used to capture images at approximately 40 cm from the wound, and a green dot was included in the field of view as a reference for the software (Figure <ref type="figure">2</ref>). Each repeat image of the same wound involved repositioning of the research coordinator and the patient. The wound length, width and area were automatically calculated based on the image boundaries determined by the imaging system. Automated boundary detection was difficult or vastly different from the actual wound boundaries in a small select group of wound images in view of (a) poor colour contrast with patients' skin tone (with darker complexion posing a greater challenge to the software artificial intelligence), (b) wounds being too small (&lt;1 cm), or (c) being located in areas where with large variation in skin contours (such as bony prominences on the malleolus). Manual adjustments were made to the wound boundary selection window in these circumstances.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Sample size calculation</head><p>Sample size was calculated as per number of wound images (defined as wound episode) rather than the number of subjects as due to the cross-sectional nature of this study. Based on TA's internal validation, the baseline mean accuracy is 90%. Hence, assuming baseline correction (R 0 ) at 0 and alternative correlation (R 1 ) at 0.2, the sample size required for one correlation test with power 90% and alpha 0.05 is 258 wound images. For intra-rater reliability between TA on iOS and Android platforms, assuming baseline correlation (R 0 ) at 0 with alterative correction (R 1 ) at 0.2, sample size required for intraclass correlation with Power 90% and alpha 0.05 is 83. As such, the overall sample size required was 341 wound images.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Statistical analysis</head><p>All statistical analyses were performed with SPSS version 25.0 (SPSS Inc., Chicago, III., USA). Statistical significance was determined by P &lt; 0.05. Intra-class correlation statistics (ICC) was used to analyse intra-rater and inter-rater reliability. <ref type="bibr" target="#b19">20</ref> Inter-rater reliability for length, width and area of VLU between the wound nurse measurements and measurements from TA running on either iOS or Android was analysed using two-way mixed effects model, absolute agreement and single measure. Intra-rater reliability for length, width and area between images taken by TA on the same device (for both iOS and Android systems) was also analysed using two-way mixed effects model, absolute agreement and single measure. Inter-rater reliability between the iOS and Android systems was analysed using two-way random effects model, absolute agreement and single measure. The two-way random effects model was used for inter-rater reliability between TA running on different devices, for generalising our results for all existing TA devices in the market. <ref type="bibr" target="#b20">21</ref> There is no standard definition or cut-offs for ICC to determine the extent of reliability. Hence, the following definitions were used in this study: ICC &lt;0.5 indicates poor reliability, 0.5 to 0.75 indicates moderate reliability, 0.75 to 0.9 indicates good reliability and &gt; 0.9 indicates excellent reliability. <ref type="bibr" target="#b21">22</ref> 3 | RESULTS</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Patient demographics</head><p>A total of 82 patients were analysed. The mean age was 65.8 years, 42 (51%) were male, and the mean body mass index (BMI) was 29.1. The VLU healed in 26 (32%) of</p><formula xml:id="formula_0">F I G U R E 2</formula><p>Venous leg ulcer on a patient, for measurement using the Tissue Analytics application patients within the study period. Table <ref type="table">1</ref> summarises the relevant patient demographics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Wound episodes</head><p>A total of 358 wound episodes and 2334 wound images were analysed. Although each patient was theoretically expected to have seven images from each of five clinic visits for a total of 2870 images, the missing data of 536 images was due to: (1) patients withdrew from the study (140 images), (2) defaulted appointments (140 images), (3) complete resolution of ulcer before the end of the study period (256 images).</p><p>There was good inter-rater reliability between the measurements made by the wound nurse and with the TA running on both iOS and Android devices for ulcer length, width and area (range 0.799-0.919, P &lt; 0.001 for iOS; range 0.803-0.914, P &lt; 0.001 for Android) (Tables <ref type="table">2,</ref><ref type="table">3</ref>).</p><p>There was excellent intra-rater reliability for length, width and area between three different images of the same wound taken by the same iOS or Android device running TA (range 0.967-0.985 for iOS and range 0.977-0.984 for Android, P &lt; 0.001) (Table <ref type="table">4</ref>). Inter-rater reliability between TA running on the iOS versus Android was also excellent (range 0.987-0.989, P &lt; 0.001) (Table <ref type="table">5</ref>). When analysis was stratified by ethnicity, inter-rater reliability between TA and wound nurse measurements in Malay and Indian patients (who had darker skin complexion) was numerically lower compared to Chinese patients (who had lighter skin complexion) (Table <ref type="table">6</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>Numerous wound imaging technologies are commercially available and they are becoming increasingly .</p><p>Abbreviations: 95%CI, 95% confidence interval; SD, standard deviation.</p><p>relevant in clinical care. <ref type="bibr" target="#b22">23</ref> Digital wound imaging systems have been shown to provide rapid, accurate and consistent measures of wound parameters. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b23">24</ref> Images stored on the electronic device can also be transferred to electronic medical records, enabling seamless monitoring of wound healing. <ref type="bibr" target="#b22">23</ref> The present study demonstrates favourable intra-rater reliability between images taken by the same device, inter-rater reliability between the two devices, and interrater reliability between TA and measurements by a wound nurse. This provides proof of the real-world efficacy of this imaging system, and its translatability to clinical practice. Moreover, with good inter-rater reliability between iOS and Android showing that the type of device does not affect reliability of the application, TA can be easily used by various institutions without need for special customisation. TA is also an application which can capitalise on developments in hardware technology. For instance, the use of Light Detection and Ranging (LiDAR) scanners in newer iPhone models, which allows for accurate depth perception, may circumvent current limitations in depth perception in the near future. <ref type="bibr" target="#b24">25</ref> The rapid capture of wound parameters (less than 5 s per wound) using a no-touch technique is a favourable alternative to conventional measurements by border tracing, which are time-consuming and may unwittingly introduce infection. These advantages may have wider implications in the care of patients with VLUs. Studies have observed a treatment period ranging from 80 to 117 days for VLUs, which necessitates multiple clinic visits. <ref type="bibr" target="#b25">26</ref> Continued documentation of wound status, particularly the reduction in wound area, is helpful in determining the progress of healing and evaluating whether changes in management are needed. <ref type="bibr" target="#b26">27</ref> Hence, reducing the time taken for each wound measurement is likely to translate into significant time savings, and a corresponding reduction in the economic cost of longer waiting times. <ref type="bibr" target="#b27">28</ref> Nonetheless, despite the time savings documented in other studies, this study did not capture such data for comparison. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b28">29</ref> Moreover, the digital nature of this system may aid in remote assessment of wounds. The COVID-19 pandemic was found to limit the ability to practice wound care under normal conditions, with higher rates of missed appointments and loss of contact with patients. <ref type="bibr" target="#b29">30</ref> This could potentially worsens healing outcomes and may lead to patients presenting at a later date with larger, more serious, or infected ulcers. <ref type="bibr" target="#b30">31</ref> Under such situations where physical attendance at the wound clinic is not desired by the patient or delayed by administrative policies, a digital application that can be downloaded by patients themselves may be helpful: patients can submit images of their wounds and the accompanying T A B L E 5 Inter-rater reliability between Tissue Analytics on iOS versus Android devices on the average measurements of all three images taken using each device Measurements, mean ± SD Inter-rater reliability (95%CI) parameters onto the digital app, health care professionals can then evaluate the progress of healing remotely. For instance, a study by Barakat-Johnson et al in Australian patients during the COVID-19 pandemic, also using the TA wound imaging application, noted improvements in the areas of objective wound assessment, shared wound plans and patient adherence. <ref type="bibr" target="#b31">32</ref> The completeness of wound documentation was improved relative to standard care (P &lt; 0.001), and enhanced efficiency in providing virtual care was observed via qualitative surveys of patients and clinicians. Additionally, travel time savings of 35.9 min by car and 14 min by public transport, along with their corresponding cost savings, were observed in metropolitan patients. Although our present study did not perform such calculations, similar socioeconomic benefits are theorised to be applicable to the local context and may warrant investigation in future studies. The efficacy of remote monitoring using this system may complement the increase in teleconsultations during the COVID-19 pandemic for better wound care. The availability of images may also facilitate continuity of care between community-based wound care nurses and home care professionals. <ref type="bibr" target="#b32">33</ref> This study adds to the developing scene of the wound imaging industry and also showcases the competitive nature of the field. Previous studies have employed various contactless wound imaging systems, most of which were operated using a smartphone or tablet; these showed good agreement between manual and softwarebased measurements. <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b33">34</ref> Nonetheless, prospective comparisons of the relative accuracies of these systems have yet to be performed.</p><formula xml:id="formula_1">p</formula><p>The main strength of this study is its large sample size of 2334 wound images, which provides adequate data for analysis of reliability of the software. Multiple parameters of wound assessment (length, width and area) were also measured to provide a similarity to traditional clinical measurements and allow easy comparison of accuracy. The standardisation of wound measurements by specialised wound nurses, as well as the capturing of digital images by only one research coordinator, helped to reduce the risk of bias in this study. In addition, this is the first study of TA in patients of Asian ethnicity. As imaging systems tend to be validated in predominantly Western populations, and artificial intelligence software trained using datasets from these populations, it is imperative to verify the efficacy of the system in Asian patients who may have different skin colours and tones. The results of this study help to support the use of this system in a more global context.</p><p>Nonetheless, several limitations of this study should be mentioned. The study was limited to purely numerical measurements of the VLU (length, width and area); other functions such as wound depth and wound characterisation were not studied. Due to the inclusion of all races in this study, the inter-rater and intra-rater reliability was numerically lower in patients with darker skin tone. Qualitative characteristics such as the presence of slough, exudates, eschars and oedema were only assessable by the wound nurse. Hence, although TA offers rapid imaging and parameter calculation, its capabilities must also be paired with clinical assessment of wound status.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| CONCLUSION</head><p>This study of the TA mobile application in measuring the dimensions of VLUs demonstrated good to excellent intra-rater and inter-rater reliability when compared with traditional wound assessment and between the iOS and Android platforms. Hence, it is a suitable tool for monitoring of VLU healing progress when combined with clinical assessment. Future prospective studies should aim to measure other functions of the imaging software, such as depth measurements and wound characterisation, as well as the wider socioeconomic impact of its use.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>1</head><label>1</label><figDesc>Outpatient wound clinic Inclusion criteria: Venous leg ulcers, ≥21 years old Informed consent taken Prospective data collection of demographics and clinical profile Index ulcer identified Manual measurement of identified ulcer Wound image capture using Tissue Analytics (3 images on Android, 3 images on iOS) Automated detection of wound boundaries Automated calculation of wound parameters: length, breadth, Study protocol for participation recruitment and standardisation of wound measurement process</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,50.68,51.76,232.75,232.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Demographics of patients included in the study Inter-rater reliability between wound nurse and Tissue Analytics (Android device) for the corresponding image Intra-rater reliability within the same Tissue Analytics device (iOS or Android) on three different images obtained from the same wound</figDesc><table><row><cell></cell><cell></cell><cell>Area</cell><cell>&lt;0.001</cell><cell>Number of patients (n = 82)</cell><cell></cell><cell>Area</cell><cell>&lt;0.001</cell><cell></cell><cell>&lt;0.001</cell></row><row><cell>Age Mean (SD) Median (IQR) Male gender, n (%)</cell><cell></cell><cell>Width</cell><cell>&lt;0.001</cell><cell>65.8 (11.7) 66.5 (60.3-74.0) 42 (51%)</cell><cell>p value</cell><cell>Length Width</cell><cell>&lt;0.001 &lt;0.001</cell><cell></cell><cell>&lt;0.001 &lt;0.001</cell></row><row><cell>Ethnicity, n (%) Chinese Malay</cell><cell>p value</cell><cell>Length</cell><cell>&lt;0.001</cell><cell>56 (68%) 10 (12%)</cell><cell></cell><cell>Area</cell><cell>0.974</cell><cell>(0.969-0.978)</cell><cell>0.981</cell><cell>(0.977-0.984)</cell></row><row><cell>Indian Others Comorbidities, n (%) Diabetes mellitus Hypertension Heart disease</cell><cell></cell><cell>Area</cell><cell>0.803 (0.701-0.864)</cell><cell>9 (11%) 7 (9%) 25 (30%) 49 (60%) 17 (21%)</cell><cell>Intra-rater reliability (95%CI)</cell><cell>Length Width</cell><cell>0.985 0.967</cell><cell>(0.982-0.987) (0.960-0.872)</cell><cell>0.984 0.977</cell><cell>(0.981-0.987) (0.973-0.981)</cell></row><row><cell cols="11">Chronic kidney disease Cerebrovascular accident Peripheral vascular disease Varicose veins Previous venous surgery Previous skin/leg ulcers Location of ulcer, n (%) Anterior Medial Lateral Gaiter Ankle area Others Wound parameters, median (IQR) Length, cm Width, cm Area, cm 2 Abbreviations: IQR, interquartile range; SD, standard deviation. 7 (8.5%) 6 (7.3%) 77 (94%) 39 (48%) 28 (34%) 75 (91%) 10 (12%) 40 (49%) 26 (32%) 3 (3.7%) 56 (68%) 23 (28%) 2.65 (1.53-4.65) 1.80 (1.00-3.45) 3.55 (1.40-9.23) T A B L E 2 Inter-rater reliability between wound nurse and Tissue Analytics (iOS device) for the corresponding image Measurements, mean ± SD Inter-rater reliability (95%CI) p value Length Width Area Length Width Area Length Width Area TA on iOS 3.10 ± 2.21 2.27 ± 1.61 6.18 ± 7.99 0.919 (0.840-0.953) 0.846 (0.789-0.885) 0.799 (0.678-0.866) &lt;0.001 &lt;0.001 &lt;0.001 Wound nurse 3.55 ± 2.55 2.62 ± 2.27 9.13 ± 12.89 Measurements, mean ± SD Width Area 6.10 ± 8.05 6.29 ± 8.22 0.855 (0.808-0.890) Width 2.27 ± 1.58 2.30 ± 1.62 Inter-rater reliability (95%CI) Length Width Area Length TA on Android 3.11 ± 2.20 2.31 ± 1.65 6.38 ± 8.30 Image 3 Length 3.07 ± 2.22 3.08 ± 2.20 0.914 (0.843-0.947) Wound nurse 3.55 ± 2.55 2.62 ± 2.27 9.13 ± 12.89 Note: Length and width are expressed in cm; area is expressed in cm 2 . Width Area 2.22 ± 1.58 6.05 ± 7.93 2.30 ± 1.67 6.39 ± 8.51 Abbreviations: 95%CI, 95% confidence interval; SD, standard deviation; TA, Tissue Analytics. Measurements, mean ± SD Image 1 Image 2 Length Width Area Length iOS 3.06 ± 2.15 2.26 ± 1.61 6.07 ± 7.88 3.07 ± 2.19 Note: Android 3.09 ± 2.19 2.29 ± 1.67 6.29 ± 8.31 3.10 ± 2.23 Length and width are expressed in cm; area is expressed in cm 2</cell></row></table><note><p><p><p><p><p>T A B L E 1</p>Note: Length and width are expressed in cm; area is expressed in cm</p><ref type="bibr" target="#b1">2</ref> </p>. Abbreviations: 95%CI, 95% confidence interval; SD, standard deviation; TA, Tissue Analytics.</p>T A B L E 3 T A B L E 4</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Inter-rater reliability between wound nurse and Tissue Analytics (iPhone), and between wound nurse and Tissue Analytics (Android) for the corresponding image in various</figDesc><table><row><cell></cell><cell>Area</cell><cell>&lt;0.001</cell><cell>Area</cell><cell>&lt;0.001 a</cell><cell>&lt;0.001 b</cell><cell>-</cell><cell>&lt;0.001 a</cell><cell>&lt;0.001 b</cell><cell>-</cell><cell>&lt;0.001 a</cell><cell>&lt;0.001 b</cell><cell>-</cell><cell>&lt;0.001 a</cell><cell>&lt;0.001 b</cell><cell>-</cell><cell></cell><cell></cell></row><row><cell>value</cell><cell>Length Width</cell><cell>&lt;0.001 &lt;0.001 p value</cell><cell>Length Width</cell><cell>&lt;0.001 a &lt;0.001 a</cell><cell>&lt;0.001 b &lt;0.001 b</cell><cell>--</cell><cell>&lt;0.001 a &lt;0.001 a</cell><cell>&lt;0.001 b &lt;0.001 b</cell><cell>--</cell><cell>&lt;0.001 a &lt;0.001 a</cell><cell>&lt;0.001 b &lt;0.001 b</cell><cell>--</cell><cell>&lt;0.001 a &lt;0.001 a</cell><cell>&lt;0.001 b &lt;0.001 b</cell><cell>--</cell><cell></cell><cell></cell></row><row><cell>iOS Android</cell><cell>Length Width Area Length Width Area Length Width Area races</cell><cell>Image 3.10 ± 2.21 2.27 ± 1.61 6.18 ± 7.99 3.11 ± 2.20 2.31 ± 1.65 6.38 ± 8.30 0.989 0.988 0.987 Measurements, mean ± SD (0.987-0.991) (0.984-0.990) (0.984-0.990) Mode of Inter-rater reliability</cell><cell>Area Note: Length and width are expressed in cm; area is expressed in cm 2 . Race measurement Width Length Width Area Length</cell><cell>0.871 (0.783-0.918) a Abbreviations: 95%CI, 95% confidence interval; SD, standard deviation. 0.892 (0.855-0.919) a Chinese iPhone 2.92 ± 2.22 2.09 ± 1.46 5.41 ± 7.64 0.931 (0.849-0.962) a</cell><cell>0.883 (0.815-0.922) b 0.895 (0.862-0.920) b (n = 226) Android 2.93 ± 2.25 2.12 ± 1.50 5.62 ± 8.17 0.929 (0.855-0.959) b</cell><cell>--Wound nurse 3.36 ± 2.50 2.28 ± 1.70 7.39 ± 10.46 -</cell><cell>0.774 (0.521-0.888) a 0.793 (0.587-0.893) a Malay iPhone 3.40 ± 2.12 2.66 ± 2.04 7.93 ± 8.70 0.887 (0.776-0.941) a</cell><cell>0.801 (.566-0.902) b 0.816 (0.641-0.904) b (n = 43) Android 3.40 ± 2.05 2.75 ± 2.10 8.19 ± 8.95 0.874 (0.758-0.933) b</cell><cell>--Wound nurse 3.86 ± 2.64 3.54 ± 3.59 12.26 ± 15.12 -</cell><cell>0.738 (0.236-0.893) a 0.838 (0.625-0.924) a Indian iPhone 3.68 ± 1.69 2.89 ± 1.40 8.06 ± 5.97 0.906 (0.713-0.961) a</cell><cell>0.775 (0.321-0.909) b 0.852 (0.675-0.928) b (n = 39) Android 3.75 ± 1.70 2.94 ± 1.39 8.43 ± 6.26 0.918 (0.781-0.963) b</cell><cell>--Wound nurse 4.12 ± 1.82 3.35 ± 1.73 11.98 ± 8.99 -</cell><cell>0.688 (0.375-0.852) a 0.802 (0.602-0.906) a Others iPhone 3.25 ± 2.76 2.31 ± 2.02 7.09 ± 11.10 0.897 (0.765-0.954) a</cell><cell>0.647 (0.326-0.828) b 0.796 (0.597-0.902) b (n = 27) Android 3.25 ± 2.53 2.34 ± 2.01 6.88 ± 10.22 0.873 (0.723-0.942) b</cell><cell>---Wound nurse 3.86 ± 3.41 2.98 ± 3.51 14.58 ± 24.82</cell><cell>Note: . Length and breadth are expressed in cm. Area was expressed in cm 2</cell><cell>Abbreviation: SD, standard deviation.</cell></row></table><note><p>T A B L E 6 a Between wound nurse and Tissue Analytics (iPhone). b Between wound nurse and Tissue Analytics (Android).</p></note></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p><rs type="funder">Agency for Science, Technology and Research (A*STAR)</rs>: <rs type="programName">Industry Alignment Fund -Pre-Positioning; Programme</rs>, Grant/Award Number: <rs type="grantNumber">H19/01/a0/0Y9</rs>; <rs type="funder">National Research Medical Council (NMRC)</rs> <rs type="grantName">Research Training Fellowship, Grant/Award Number</rs>: <rs type="grantNumber">FLWSHP19nov-0015</rs>; <rs type="programName">Tan Tock Seng Hospital FY2020 Pitch-for-Fund Program Grant</rs>, Grant/ Award Number: <rs type="grantNumber">PFFP20-17</rs></p></div>
+			</div>
+			<div type="funding">
+<div><p>FUNDING INFORMATION This study was funded by the <rs type="funder">Tan Tock Seng Hospital FY2020 Pitch-for-Fund Program Grant</rs> (<rs type="grantNumber">PFFP20-17</rs>); <rs type="funder">Agency for Science, Technology and Research (A*STAR)</rs>: <rs type="programName">Industry Alignment Fund -Pre-Positioning; Programme (IAF-PP)</rs>, Grant/Award Number: <rs type="grantNumber">H19/01/a0/0Y9</rs>; <rs type="funder">National Research Medical Council (NMRC)</rs> <rs type="grantName">Research Training Fellowship</rs> (<rs type="grantNumber">FLWSHP19nov-0015</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_yqnYjyg">
+					<idno type="grant-number">H19/01/a0/0Y9</idno>
+					<orgName type="program" subtype="full">Industry Alignment Fund -Pre-Positioning; Programme</orgName>
+				</org>
+				<org type="funding" xml:id="_qxhPPqJ">
+					<idno type="grant-number">FLWSHP19nov-0015</idno>
+					<orgName type="grant-name">Research Training Fellowship, Grant/Award Number</orgName>
+					<orgName type="program" subtype="full">Tan Tock Seng Hospital FY2020 Pitch-for-Fund Program Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_dvQXAyP">
+					<idno type="grant-number">PFFP20-17</idno>
+				</org>
+				<org type="funding" xml:id="_4Pc8V2F">
+					<idno type="grant-number">PFFP20-17</idno>
+				</org>
+				<org type="funding" xml:id="_3jJJVFg">
+					<idno type="grant-number">H19/01/a0/0Y9</idno>
+					<orgName type="program" subtype="full">Industry Alignment Fund -Pre-Positioning; Programme (IAF-PP)</orgName>
+				</org>
+				<org type="funding" xml:id="_WczrybH">
+					<idno type="grant-number">FLWSHP19nov-0015</idno>
+					<orgName type="grant-name">Research Training Fellowship</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The research data is not publicly available. Special requests may be made to the corresponding author for request of data.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST</head><p>The authors declare that there is no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,314.17,717.36,235.46,7.58;9,322.81,728.87,226.79,7.58;10,61.57,52.24,226.83,7.58;10,61.57,63.34,183.77,7.99" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Prevalence of varicose veins and chronic venous insufficiency in men and women in the general population: Edinburgh vein study</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Fowkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Ruckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Epidemiol Community Health</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="149" to="153" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.98,74.85,235.42,7.99;10,61.57,86.36,105.78,7.99" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Chronic venous insufficiency</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Eberhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Raffetto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="333" to="346" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.98,98.28,235.40,7.58;10,61.57,109.38,226.84,7.99;10,61.57,121.24,25.65,7.58" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Prevalence and risk factors of chronic venous insufficiency</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Fowkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angiology</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">Suppl 1</biblScope>
+			<biblScope unit="page" from="5" to="S15" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.98,132.75,235.41,7.58;10,61.57,144.26,226.85,7.58;10,61.57,155.36,226.79,7.99;10,61.57,167.28,29.62,7.58" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Factors affecting clinical outcome following endoscopic perforator vein ablation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rhodes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gloviczki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Canton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lindsey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Surg</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="162" to="167" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.98,178.78,235.44,7.58;10,61.57,189.83,177.95,7.99" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Socioeconomic impact of chronic venous insufficiency and leg ulcers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Ruckley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angiology</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="67" to="69" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.98,201.75,235.46,7.58;10,61.57,212.85,220.76,7.99" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Cost-of-illness of chronic leg ulcers in Germany</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Purwins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Debus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="97" to="102" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.98,224.76,235.40,7.58;10,61.57,236.27,226.87,7.58;10,61.57,247.37,216.60,7.99" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The importance of chronic venous insufficiency. Various preliminary data on its medico-social consequences</title>
+		<author>
+			<persName><forename type="first">Da</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Navarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Batalheiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phlebologie</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="439" to="443" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.98,259.29,235.42,7.58;10,61.57,270.74,226.86,7.58;10,61.57,281.84,209.55,7.99" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Quality of life in patients with chronic venous disease: San Diego population study</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Criqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Denenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bergan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fronek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1047" to="1053" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.98,293.76,235.44,7.58;10,61.57,305.27,226.82,7.58;10,61.57,316.37,226.84,7.99;10,61.57,327.88,135.04,7.99" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Risk factors for delayed healing and recurrence of chronic venous leg ulcers-an analysis of 1324 legs</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Gohel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Earnshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Heather</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Poskitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Whyman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Vasc Endovasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="74" to="77" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.54,339.74,235.85,7.58;10,61.51,350.84,125.51,7.99" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Management of venous ulcer disease</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Van Gent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Wilschut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wittens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">341</biblScope>
+			<biblScope unit="page">6045</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.54,362.76,235.90,7.58;10,61.51,373.86,139.15,7.99" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Management of venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Dix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Mccollum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="issue">7452</biblScope>
+			<biblScope unit="page" from="1358" to="1362" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.53,385.78,235.86,7.58;10,61.51,397.28,163.70,7.58" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Clinical validation of a machine-learning-based handheld</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Cho</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="3" to="4" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.53,408.79,235.85,7.58;10,61.51,420.25,226.88,7.58;10,61.51,431.35,138.72,7.99" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Remote assessment of diabetic foot ulcers using a novel wound imaging system</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Paterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="30" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.53,443.26,235.90,7.58;10,61.51,454.77,226.91,7.58;10,61.51,465.87,214.44,7.99" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Clinical validation of an artificial intelligence-enabled wound imaging mobile application in diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ahm</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="114" to="124" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.53,477.79,235.86,7.58;10,61.51,489.24,226.88,7.58;10,61.51,500.34,226.89,7.99;10,61.51,512.26,26.97,7.58" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Monitoring wound progression to healing in diabetic foot ulcers using threedimensional wound imaging</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Malone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schwarzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Complicat</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">107471</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.53,523.77,235.87,7.58;10,61.51,535.28,226.90,7.58;10,61.51,546.38,198.95,7.99" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Digital imaging of wounds: are measurements reproducible among observers?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Quan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Lazarus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Kohli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kapoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="245" to="248" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.53,558.24,235.89,7.58;10,61.51,569.75,226.93,7.58;10,61.51,580.85,188.70,7.99" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Digital imaging versus conventional contact tracing for the objective measurement of venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Samad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>French</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dodds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="137" to="140" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.53,592.77,235.86,7.58;10,61.51,604.28,226.92,7.58;10,61.51,615.38,226.93,7.99;10,61.51,627.29,68.80,7.58" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Timesaving comparison of wound measurement between the ruler method and the swift skin and wound app</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Au</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jae</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sasseville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cutan Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="226" to="228" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,52.53,638.75,235.86,7.58;10,61.51,649.85,226.90,7.99;10,61.51,661.36,84.71,7.99" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Wound assessment, imaging and monitoring systems in diabetic foot ulcers: a systematic review</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Lo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1909" to="1923" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,52.26,235.82,7.58;10,322.70,63.76,226.95,7.58;10,322.70,74.87,217.39,7.99" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Correlation and agreement: overview and clarification of competing concepts and measures</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">M</forename><surname>Tu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Shanghai Arch Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="115" to="120" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,86.78,235.84,7.58;10,322.70,97.88,226.92,7.99;10,322.70,109.39,88.36,7.99" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A guideline of selecting and reporting Intraclass correlation coefficients for reliability research</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Koo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chiropr Med</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="163" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,120.84,235.82,7.99;10,322.70,132.35,226.92,7.99;10,322.70,144.27,92.76,7.58" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Foundations of Clinical Research: Applications to Practice</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Portney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Watkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NJ</title>
+		<imprint>
+			<biblScope unit="volume">892</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Pearson/Prentice Hall Upper Saddle River</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,155.78,235.87,7.58;10,322.70,166.88,223.52,7.99" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">What digital wound care could mean for those suffering from wounds</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Queen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Perez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="501" to="502" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.77,178.78,235.86,7.58;10,322.70,190.23,226.94,7.58;10,322.70,201.33,181.40,7.99" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Point-of-care wound visioning technology: reproducibility and accuracy of a wound measurement app</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jae</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">183139</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.77,213.25,235.86,7.58;10,322.70,224.76,226.96,7.58;10,322.70,235.86,182.35,7.99" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Real-time single image depth perception in the wild with handheld devices</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Aleotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zaccaroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bartolomei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mattoccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.77,247.78,235.85,7.58;10,322.70,258.88,204.90,7.99" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The social and economic burden of venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Majewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Clin Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="573" to="581" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,270.74,235.82,7.58;10,322.70,281.84,208.21,7.99" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Wound measurement: can it help us to monitor progression to healing?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flanagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="189" to="194" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,293.76,235.86,7.58;10,322.70,305.27,226.90,7.58;10,322.70,316.37,209.51,7.99" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A study of queues and appointment Systems in Hospital out-Patient Departments, with special reference to waiting-times</title>
+		<author>
+			<persName><forename type="first">Ntj</forename><surname>Bailey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J R Stat Soc B Methodol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="185" to="199" />
+			<date type="published" when="1952">1952</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,328.28,235.83,7.58;10,322.70,339.33,226.93,7.99;10,322.70,351.24,86.60,7.58" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Increasing productivity with smartphone digital imagery wound measurements and analysis</title>
+		<author>
+			<persName><forename type="first">Hkr</forename><surname>Nair</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="12" to="S19" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,362.75,235.84,7.58;10,322.70,373.85,226.88,7.99;10,322.70,385.77,21.31,7.58" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Wound care during COVID-19 pandemic</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guarnera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pitocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tshomba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="93" to="94" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,397.28,235.82,7.58;10,322.70,408.38,226.94,7.99;10,322.70,420.24,72.69,7.58" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The impact of COVID-19 pandemic on vascular leg ulcers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sallustro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Florio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">15347346211010958</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,431.75,235.85,7.58;10,322.70,443.26,226.90,7.58;10,322.70,454.77,226.90,7.58;10,322.70,465.87,156.46,7.99" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Reshaping wound care: evaluation of an artificial intelligence app to improve wound assessment and management amid the COVID-19 pandemic</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barakat-Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,477.79,235.85,7.58;10,322.70,489.24,226.92,7.58;10,322.70,500.34,226.92,7.88;10,322.70,511.85,131.22,7.99" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Reducing the risks of wound consultation: adding digital images to verbal reports</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Adelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Agazio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Ostomy Continence Nurs Off Publ Wound Ostomy Continence Nurs Soc</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="163" to="170" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.78,523.77,235.84,7.58;10,322.70,535.28,226.91,7.58;10,322.70,546.38,98.75,7.99" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Wound area measurement with 3D transformation and smartphone images</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eic</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinf</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">724</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

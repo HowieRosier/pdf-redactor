@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Telephone-based management of pressure ulcers in people with spinal cord injury in low-and middle-income countries: a randomised controlled trial</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-12-20">20 December 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">M</forename><surname>Arora</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">John Walsh Centre for Rehabilitation Research</orgName>
+								<orgName type="institution" key="instit2">Kolling Institute of Medical Research</orgName>
+								<orgName type="institution" key="instit3">Northern Sydney Local Health District</orgName>
+								<address>
+									<settlement>St Leonards, New South Wales</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Sydney Medical School Northern</orgName>
+								<orgName type="institution">University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>New South Wales</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Professor</roleName><forename type="first">L</forename><forename type="middle">A</forename><surname>Harvey</surname></persName>
+							<email>lisa.harvey@sydney.edu.au</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">John Walsh Centre for Rehabilitation Research</orgName>
+								<orgName type="institution" key="instit2">Kolling Institute of Medical Research</orgName>
+								<orgName type="institution" key="instit3">Northern Sydney Local Health District</orgName>
+								<address>
+									<settlement>St Leonards, New South Wales</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Sydney Medical School Northern</orgName>
+								<orgName type="institution">University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>New South Wales</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Glinsky</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">John Walsh Centre for Rehabilitation Research</orgName>
+								<orgName type="institution" key="instit2">Kolling Institute of Medical Research</orgName>
+								<orgName type="institution" key="instit3">Northern Sydney Local Health District</orgName>
+								<address>
+									<settlement>St Leonards, New South Wales</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Sydney Medical School Northern</orgName>
+								<orgName type="institution">University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>New South Wales</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Chhabra</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Spine Service</orgName>
+								<orgName type="institution">Indian Spinal Injuries Centre</orgName>
+								<address>
+									<region>Delhi</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Hossain</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Centre for Rehabilitation of the Paralysed</orgName>
+								<address>
+									<settlement>Savar</settlement>
+									<country key="BD">Bangladesh</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Arumugam</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Physiotherapy</orgName>
+								<orgName type="institution">Punjabi University</orgName>
+								<address>
+									<settlement>Patiala</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Bedi</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Physiotherapy</orgName>
+								<orgName type="institution">Punjabi University</orgName>
+								<address>
+									<settlement>Patiala</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><surname>Lavrencic</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="laboratory">Spinal Cord Injury Unit</orgName>
+								<orgName type="institution">Royal North Shore Hospital</orgName>
+								<address>
+									<settlement>St Leonards, New South Wales</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hayes</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">School of Public Health</orgName>
+								<orgName type="institution">University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>New South Wales</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Cameron</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">John Walsh Centre for Rehabilitation Research</orgName>
+								<orgName type="institution" key="instit2">Kolling Institute of Medical Research</orgName>
+								<orgName type="institution" key="instit3">Northern Sydney Local Health District</orgName>
+								<address>
+									<settlement>St Leonards, New South Wales</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Sydney Medical School Northern</orgName>
+								<orgName type="institution">University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>New South Wales</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><surname>Walsh</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Centre for Rehabilitation Research</orgName>
+								<orgName type="department" key="dep2">Sydney Medical School Northern</orgName>
+								<orgName type="institution">Kolling Institute of Medical Research</orgName>
+								<address>
+									<addrLine>Level 13</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution">The University of Sydney</orgName>
+								<address>
+									<addrLine>Reserve Road</addrLine>
+									<postCode>2065</postCode>
+									<settlement>St Leonards</settlement>
+									<region>New South Wales</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Telephone-based management of pressure ulcers in people with spinal cord injury in low-and middle-income countries: a randomised controlled trial</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-12-20">20 December 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B1E08F3035FD963A3F6406AB9775FC87</idno>
+					<idno type="DOI">10.1038/sc.2016.163</idno>
+					<note type="submission">Received 25 July 2016; revised 28 September 2016; accepted 6 October 2016;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Study design: A multicentre, prospective, assessor-blinded, parallel randomised controlled trial. Objectives: The objective of the trial was to determine the effectiveness of telephone-based management of pressure ulcers in people with spinal cord injury (SCI) in low-and middle-income countries. Methods: One hundred and twenty people with SCI living in the community were recruited through three hospitals in India and Bangladesh between November 2013 and March 2016. Participants had sustained an SCI 43 months prior and had a pressure ulcer. Participants were randomly allocated (1:1) to a control or intervention group. Participants in the control group received no intervention. Participants in the intervention group received weekly advice by telephone for 12 weeks about the management of their pressure ulcers from a trained health-care professional. Outcomes were measured by a blinded assessor at baseline and 12 weeks. There was one primary outcome, namely, the size of the pressure ulcer and 13 secondary outcomes. Results: The mean between-group difference for the size of the pressure ulcer at 12 weeks was 2.3 cm 2 (95% confidence interval -0.3 to 4.9; favouring the intervention group). Eight of the 13 secondary outcomes were statistically significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>The results of our primary outcome (that is, size of pressure ulcer) do not provide conclusive evidence that people with SCI can be supported at home to manage their pressure ulcers through regular telephone-based advice. However, the results from the secondary outcomes are sufficiently positive to provide hope that this simple intervention may provide some relief from this insidious problem in the future.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Pressure ulcers following spinal cord injury (SCI) are common with serious consequences. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> They can cause sepsis, osteomyelitis, amputation and permanent scarring. <ref type="bibr" target="#b2">3</ref> They are also associated with depression, pain and social isolation, which negatively impact quality of life. <ref type="bibr" target="#b3">4</ref> They prevent people from working and therefore have large financial implications for individuals and their families. Pressure ulcers are also a major cause of mortality, particularly in low-and middle-income countries (LMICs) where there is limited access to treatment options. <ref type="bibr" target="#b4">5</ref> A large cohort study from Bangladesh reported that one in five people with SCI who were wheelchair dependent had died within 2 years of discharge from hospital, mostly from pressure ulcers (2-year survival was 81%; 95% confidence interval (CI) 76-86%). <ref type="bibr" target="#b5">6</ref> Given the high rates of postdischarge mortality in LMICs, finding effective, low-cost and locally applicable treatment options for the management of pressure ulcers is a key part of improving levels of care for people with SCI globally. <ref type="bibr" target="#b4">5</ref> There is a large divide between the management of pressure ulcers in high-income countries compared with the management in LMICs. <ref type="bibr" target="#b4">5</ref> Treatment of pressure ulcers in high-income countries is intensive and multi-faceted. It involves hospitalisation or home nursing and regular wound care as well as specialised equipment, such as alternating pressure-relieving mattresses. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr">[9]</ref> However, such resource-intensive treatments are not common options in LMICs, <ref type="bibr" target="#b9">10</ref> where economic constraints mean that people with SCI are largely left to manage their pressure ulcers alone at home. <ref type="bibr" target="#b10">11</ref> Regular professional advice over the telephone might be a realistic and low-cost option, which may make a notable difference to those living in LMICs with no or limited access to health care. The accessibility of mobile phones in most LMICs now enables cheap and simple communication between a health-care professional and those living with an SCI. <ref type="bibr" target="#b11">12</ref> A small number of studies have looked at telephone-based management of pressure ulcers. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> However, these studies were conducted in high-income countries where the telephone-based management was an adjunct to an already high level of care.</p><p>We hypothesised that a health-care professional could help people with pressure ulcers to manage their pressure ulcers at home through weekly telephone contact. Our hope for this intervention was based on two trials indicating the benefits of patient education and support for the management of pressure ulcers. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> Typically, education and support are provided through face-to-face contact with a health-care professional, but this is a costly service and hence not feasible for most in LMICs. In LMICs, high-quality education and support could be provided over the telephone. If effective, this would provide some relief from the insidious problem of pressure ulcers in LMICs at little cost. The aim of this trial was to determine the effects of a 12-week telephone-based pressure ulcer management programme on pressure ulcer size in people with SCI. The secondary aims were to determine the effects of telephone-based management on outcomes reflecting healing of pressure ulcers, participants' and clinicians' perspective of treatment effectiveness, quality of life and depression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS Design</head><p>A multicentre, prospective, assessor-blinded, parallel, randomised controlled trial was undertaken in India and Bangladesh. People living in the community with pressure ulcers secondary to SCI were randomised to a control or intervention group. Participants in both groups managed their pressure ulcers alone at home. However, participants in the intervention group also received weekly advice over the telephone for 12 weeks about the management of their pressure ulcers from a trained health-care professional. Participants were recruited between November 2013 and March 2016. The last 12-week assessment took place in May 2016. The trial protocol (including full details of the trial rationale, design and statistical analysis) has been published and is available online. <ref type="bibr" target="#b16">17</ref> The trial was conducted through the Indian Spinal Injuries Centre (New Delhi, India), Punjabi University (Punjab, India) and The Centre for Rehabilitation of the Paralysed (Dhaka, Bangladesh). Initially, the trial was planned for just one site. However, the two other sites were entered into the trial 8 months later to increase the rate of recruitment. The trial was approved by the Institutional Ethics Committees at each site. We certify that all applicable institutional and governmental regulations concerning the ethical use of human volunteers were followed during the course of this research. The trial was prospectively registered at the Australian New Zealand Clinical Trial Registry (www.anzctr.org.au; Identifier: ACTRN12613001225707).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Participants were recruited from outpatient clinics and through hospital databases. Participants were included if they: were aged 418 years; had sustained an SCI 43 months prior to recruitment; had at least one pressure ulcer on the sacrum, ischial tuberosity or greater trochanter of the femur; were unlikely to be admitted to hospital for management within the next 12 weeks; were living in the community; were able to speak either sufficient Hindi (for the Indian sites) or Bengali (for the Bangladesh site) to allow them to participate in the trial without the assistance of a translator; had access to a phone; had the potential to benefit from advice provided over the telephone.</p><p>Participants were excluded if they: had cognitive or verbal impairments; had any clinically significant medical condition that would compromise participation in the trial; were unable to be assessed at 12 weeks.</p><p>A computer-generated random allocation schedule was formulated prior to commencement of the trial by an independent person located in Australia who was not involved in recruitment. The rand() function in Excel was used to generate the schedule. <ref type="bibr" target="#b17">18</ref> A blocked allocation (1:1) schedule was used. Participants' allocations were placed in opaque, sequentially numbered and sealed envelopes that were kept in Australia. After a participant passed the screening process and completed the baseline assessment, a randomisation envelope was opened and allocation revealed. The participant was considered to have entered the trial at this point.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intervention</head><p>Participants from both the control and intervention groups managed their pressure ulcers alone at home but typically with the assistance of family members. They were all given a pamphlet containing information about pressure ulcer management at the time of recruitment, and were free to seek any help or medical assistance that they deemed appropriate or could access. In addition, participants allocated to the intervention group received weekly phone calls from a trained health-care professional for 12 weeks. Each time the healthcare professionals rang the participants, they reinforced self-help strategies important for managing pressure ulcers, minimising psychological stress and enhancing engagement with life. Specifically, participants and their families received education and advice about appropriate seating, bed overlays, cushions, equipment, diet, nutrition and wound dressings. In addition, they were advised about techniques to relieve pressure and when to seek further medical or nursing attention. Some participants were advised to remain on strict bed rest. Participants were also provided with advice to help minimise dampness associated with any bladder or bowel incontinence. Each week, participants and the health-care professionals negotiated goals that were reviewed at the next phone call. For example, a participant's goal might have included strict bed rest for the next week.</p><p>Two health-care professionals provided the advice over the telephone. One was a nurse and the other was a physiotherapist. They both had extensive experience in the management of SCI and pressure ulcers in LMICs. In addition, they were supported by multidisciplinary teams specialised in SCI and pressure ulcers from Australia, India and Bangladesh.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome measures</head><p>All assessments were conducted at the beginning and end of the 12-week trial period by three independent, trained, blinded assessors (one at each site). The assessments were either conducted at the hospital or in participants' homes. Participants were asked not to discuss their group allocation with assessors. The success of blinding was verified at the end of each participant's assessment by asking assessors to reveal whether they had been unblinded to group allocation.</p><p>The primary outcome was the size of the pressure ulcer at 12 weeks. This was assessed using commercially available grid paper designed for measuring pressure ulcers. Length and width were measured and expressed as cm <ref type="bibr" target="#b1">2</ref> . If a participant had more than one pressure ulcer, the pressure ulcer with most potential to benefit by telephone-based advice was identified at baseline. This pressure ulcer was measured at baseline and 12 weeks.</p><p>There were 13 secondary outcomes. <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref> The details for each outcome are described in the freely available trial protocol <ref type="bibr" target="#b16">17</ref> and summarised in Table <ref type="table">1</ref>. One of the 13 secondary outcomes was time to healing. This outcome was collected from an unblinded assessor who rang all participants every fortnight and asked them if their pressure ulcer had healed. At this time, participants were also asked about costs associated with managing their pressure ulcers (details will be reported in a subsequent paper devoted to an economic analysis).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample size</head><p>There were very little data upon which to base power calculations. A sample of 120 people was therefore selected primarily on the basis of available resources. The minimally worthwhile treatment effect was set a priori as equivalent to 10% of the mean initial size of participants' pressure ulcers at baseline expressed in raw units (cm 2 ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>All data were entered twice onto an electronic database using the Research Electronic Data Capture (REDCap) software hosted at the University of Sydney, Australia. <ref type="bibr" target="#b28">29</ref> REDCap is a secure web application designed to support data capture for research studies. The data were analysed using intention to treat and the Stata software (Version 13, StataCorp LP, College Station, TX, USA). The analyses were conducted by a blinded researcher based at the John Walsh Centre for Rehabilitation Research, University of Sydney, Australia. Linear regression was used to determine the mean between-group differences (and 95% CIs) for all continuous outcomes using baseline scores and group allocation as covariates. Missing data were not imputed. In addition, time to pressure ulcer healing was analysed using survival analysis and Cox's regression, with the treatment effect expressed as an unadjusted Hazard ratio (and 95% CI). P-values o0.05 were considered significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Flow of participants</head><p>A total of one hundred and twenty people with pressure ulcers secondary to SCI were recruited through the Indian Spinal injuries Centre (n = 69), the Centre for Rehabilitation of the Paralysed (n = 40) and an outpatient clinic at the Punjabi University (n = 11). The flow of participants through the trial is shown in Figure <ref type="figure" target="#fig_0">1</ref>. Five participants dropped out of the trial prior to the 12-week assessment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participant characteristics</head><p>The mean (s.d.) age and time since injury were 35 years (12) and 7 years (13), respectively. Participants had a mix of complete and incomplete SCI according to the International Standards for the Neurological Classification of SCI. <ref type="bibr" target="#b29">30</ref> Participants had stage 2 (n = 35), stage 3 (n = 83) and stage 4 (n = 2) pressure ulcers. <ref type="bibr" target="#b6">7</ref> These pressure ulcers were located on the sacrum (n = 54), ischial tuberosity (n = 45) and greater trochanter of the femur (n = 21). The groups were similar at baseline (see Table <ref type="table" target="#tab_0">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Compliance with trial protocol</head><p>There was one protocol violation with the inclusion of a participant who had sustained his SCI o3 months prior to randomisation. The data for this participant were included in all analyses. Adherence to all other aspects of the trial protocol was very good. The protocol dictated that all participants be assessed in person at baseline and at 12 weeks; however, two participants were assessed only by telephone at 12 weeks. For one participant, the pressure ulcer had been surgically repaired and was deemed healed at 12 weeks, and in the other participant, the blinded assessor instructed a family member over the telephone to</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1 Details of secondary outcomes</head><p>Outcome Description</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PUSH</head><p>The PUSH version 3.0 was used to measure the severity of the PU. <ref type="bibr" target="#b18">19</ref> The PUSH rates pressure ulcers on a scale of 0-17 points taking into account the area of the PU, amount of exudate and type of tissue damage (lower value indicates less severity). Depth of PU Depth of the PU was measured using a sterile scaled probe at the centre of the PU. <ref type="bibr" target="#b19">20</ref> This was recorded in centimetres (lower value indicates less depth). Undermining distance of PU Undermining of the PU was measured using a sterile scaled probe at 12 O'clock, 3 O'clock, 6 O'clock and 9 O'clock directions and then summed to derive one single score. <ref type="bibr" target="#b20">21</ref> This was recorded in centimetres (lower value indicates less undermining).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Braden scale</head><p>The Braden scale was used to measure the risk of developing a PU on a scale of 0-23 points using six domains <ref type="bibr" target="#b21">22</ref> (higher value indicates lower risk). HADS HADS was used to measure depression. <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> HADS assesses depression on a scale of 0-21. A score of 0-7 indicates normal, 8-10 indicates borderline-abnormal and a score of 11-12 indicates abnormal (lower value indicates fewer depressive symptoms). Participation items-WHODAS Participation items on WHODAS 2.0 questionnaire were used to measure participation. <ref type="bibr" target="#b24">25</ref> The WHODAS rates participation over the past 30 days using an eight-item questionnaire. Each item is scored on a five-point scale ranging from none (1 point) to extreme/cannot do (5 points). The total score ranges from 8 to 40 points (lower value indicates higher participation). Utility score-EQ-5D-5L</p><p>Participants' health state was measured using the five dimensions on the EQ-5D-5L health survey. <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> The five dimensions are mobility, self-care, usual activities, pain/depression and anxiety/depression. These were used to derive a utility score (higher value indicates higher health state).</p><p>Self-rated health EQ-5D-VAS Self-rated health was measured using a health thermometer on the EQ-5D-5L health survey. <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> Participants were asked to rate their health on a vertical VAS numbered from 0 (worst imaginable health state) to 100 (best imaginable health state; higher value indicates higher health).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants' impression of PU status</head><p>Participants' impression of PU status was assessed with one question, namely-'How would you rate the quality of your wound and skin over the affected area?' Participants were asked to respond to this question using a 10-point NRS <ref type="bibr" target="#b27">28</ref> anchored at one end with 'extremely poor' and at the other end with 'extremely good' (higher value indicates a good impression of PU status).</p><p>Participants' confidence to manage PU Participants' confidence to manage their PUs was assessed with one question, namely-'How confident are you in managing your PU at home each day?' Participants were asked to respond to this question using a 10-point NRS <ref type="bibr" target="#b27">28</ref> anchored at one end with 'not very confident' and at the other end with 'very confident' (higher value indicates more confidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinician's impression of PU status</head><p>Clinicians' impression of PU status was assessed with one question, namely-'How would you rate the quality of the wound and skin over the affected area?' The blinded assessor was asked to respond to this question using a 10-point NRS <ref type="bibr" target="#b27">28</ref> anchored at one end with 'extremely poor' and at the other end with 'extremely good' (higher value indicates a good impression of PU status).</p><p>Participants' satisfaction Participants' satisfaction for health-care provision was assessed with one question, namely-'How satisfied are you with the services you have received for your pressure ulcer over the past 12 weeks?' Participants were asked to respond to this question using a 10-point NRS <ref type="bibr" target="#b27">28</ref> anchored at one end with 'very unsatisfied' and at the other end with 'very satisfied' (higher value indicates more satisfaction with the services).</p><p>Self-report time for PU resolution Self-report time for PU resolution was assessed on a fortnightly basis through one question, namely-'Is your pressure ulcer healed?' These data were collected fortnightly over the telephone and reported as 'yes' or 'no'. The total number of days to PU healing were calculated (fewer days indicates shorter time to healing).</p><p>Abbreviations: EQ-5D-5L, Euro Quality of Life 5-dimensional 5-level; HADS, Hospital Anxiety and Depression Scale; NRS, Numeric Rating Scale; PU, pressure ulcer; PUSH, Pressure Ulcer Scale for Healing; VAS, Visual Analogue Scale; WHODAS, World Health Organisation Disability Assessment Schedule. Note: All the self-report questionnaires were administered to participants in English, Hindi or Bengali.</p><p>take the various pressure ulcer measurements. All other outcomes for these two participants were collected by interview over the telephone. There was 100% success at keeping assessors blinded. A mean (s.d.) of 11 (2) phone calls were made to each participant in the intervention group. That is, a total of 685 of the planned 720 telephone calls (this does not include the multiple attempts often required to make contact with a participant). The mean (s.d.) duration of the phone calls was 16 (2) min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Treatment effect</head><p>Primary outcome: The mean between-group difference for the size of the pressure ulcer at 12 weeks, adjusted by baseline size, was 2.3 cm 2 favouring the intervention group (95% CI -0.3 to 4.9; P = 0.08; see Table <ref type="table" target="#tab_1">3</ref>). The minimally worthwhile treatment effect (equivalent to 10% of mean initial values) was 1.1 cm 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Secondary outcomes:</head><p>The mean between-group differences (95% CI and P-values) for the secondary outcomes are presented in Table <ref type="table" target="#tab_1">3</ref>. The Kaplan-Meier estimates for time to healing of the pressure ulcers for both groups and accompanying hazard ratio (95% CI) are depicted in Figure <ref type="figure" target="#fig_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>This trial is the first randomised controlled trial to investigate a low-cost treatment option for the management of pressure ulcers in people with SCI living in LMICs. Pressure ulcers for this group of people are a major cause of mortality and misery and receive very little research attention. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b30">31</ref> The primary aim of this trial was to determine the effects of a 12-week telephone-based pressure ulcer management programme on pressure ulcer size in people with SCI. The results for the primary outcome (size of pressure ulcer) failed to provide a clear answer to our research question; however, the results do not rule out the possibility that advice about pressure ulcer management provided over the telephone may be a worthwhile intervention (mean betweengroup difference = 2.3 cm 2 ; 95% CI -0.3 to 4.9). The upper bound of the 95% CI (4.9 cm 2 ) associated with the mean between-group difference is greater than our predetermined minimally worthwhile treatment effect of 1.1 cm 2 (equivalent to 10% of mean initial values). This indicates that it would be valuable to repeat this trial with a larger sample particularly given that 8 of our 13 secondary outcomes indicate a statistically significant between-group difference.</p><p>The results of our survival analysis for time to healing are particularly promising, indicating a between-group difference favouring the intervention group (hazard ratio = 2.0; 95% CI 1.0-3.9). However, these results need to be verified, because these data were collected from an unblinded assessor who rang all participants each fortnight and asked them if their pressure ulcers had healed. Such People with spinal cord injury identified from databases (n = 762)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Baseline assessment</head><p>(n = 120)</p><p>People with spinal cord injury identified from clinics (n = 92)</p><p>Lost to follow-up (n = 3)</p><formula xml:id="formula_0">• Withdrew consent (n = 1) • Not contactable (n = 2)</formula><p>Lost to follow-up (n = 2)</p><formula xml:id="formula_1">• Withdrew consent (n = 1) • Not contactable (n = 1)</formula><p>12 week assessments and number analysed (n = 58) self-report data may be biased because participants were unblinded and needed to use their own judgement as to whether their pressure ulcers had healed. Future studies could send blinded assessors to participants' homes each week, although this would be costly.</p><formula xml:id="formula_2">12</formula><p>We demonstrated a statistically significant between-group difference for the Pressure Ulcer Scale for Healing (PUSH) although it is not clear whether the size of this treatment effect is clinically meaningful (mean between-group difference = 1.8 points on a 17-point scale; 95% CI, 0.3-3.3 points). We included the PUSH because it is one of the most widely used generic measures of pressure ulcer severity. <ref type="bibr" target="#b6">7</ref> It reflects the area of the pressure ulcer as well as amount of exudate and type of wound tissue. We did not use the PUSH as our primary outcome because we were concerned about its sensitivity with its limited ordinal scale. However, our reasonably precise estimate for the PUSH indicates that these concerns were not justified. We also captured two other aspects of pressure ulcer severity, namely, pressure ulcer undermining and depth. The results for both these outcomes were inconclusive failing to rule in or out a potential therapeutic effect. Similarly, the participants' and clinicians' subjective impressions about whether the pressure ulcers had improved over the 12-week trial period were also inconclusive. Future studies could consider omitting some of these outcomes and instead relying on the PUSH, time to healing and size of pressure ulcer data to reflect the effectiveness of the intervention on pressure ulcers. Future studies could also consider following participants until the pressure ulcer is healed.</p><p>The results of the Braden scale are also interesting (mean betweengroup difference = 1.4 points on a 23-point scale, 95% CI 0.7-2.0). The Braden scale was included as an outcome measure to determine whether telephone-based pressure ulcer management changed the risk factors associated with developing a new pressure ulcer. The Braden scale rates six different indicators of susceptibility to pressure ulcers including sensation, moisture, activity, mobility, nutrition and friction or shear. The improvements on the Braden scale were primarily due to improved ratings on the moisture and nutrition indicators. This may be because the health-care professionals educated the participants about strategies to minimise moisture and enhance nutrition. The results of the Braden scale mirror participants' increased confidence in managing their pressure ulcers (mean between-group difference = 1.7 points on a 10-point scale, 95% CI 1.0-2.3). Participants in the intervention group rated their confidence with managing pressure ulcers highly (mean confidence = 7.3 points on a 10-point scale, s.d. 1.6). Together, these results may indicate that participants learnt about the importance of minimising moisture and maximising nutrition as well as other strategies for pressure ulcer management.</p><p>There is some indication that regular telephone-based management of pressure ulcers may have wider therapeutic benefits on both general health and participation, although it is not clear whether the size of the treatment effects are clinically meaningful. This is reflected in the  statistically significant between-group differences for the World Health Organisation Disability Assessment Schedule (mean between-group difference = 2.3 points on a 40-point scale; 95% CI 0.8-3.8), Euro Quality of Life-5 dimensional-5 level utility score (mean between-group difference = 0.1 units; 95% CI 0.02-0.2) and Euro Quality of Life-Visual Analogue Scale (mean between-group difference = 10.5 points on a 100-point scale; 95% CI 4.5-16.6), favouring the intervention. Participants may have reaped some social support from the regular contact with a concerned health-care professional. This may have been particularly valuable for the participants of this trial who were left to manage their pressure ulcers alone at home. The interpretation of these results is supported by participants' satisfaction with the telephone-based advice they received (mean level of satisfaction for the intervention group was 8.6 points on a 10-point scale, s.d. 1.4). Importantly, the participants in the intervention group were more satisfied than the participants in the control group (mean betweengroup difference 2.1 points on a 10-point scale; 95% CI 1.3-2.9) even though the participants in the control group were also somewhat satisfied (mean level of satisfaction for the control group was 6.4 points on a 10-point scale; s.d. 2.7). The satisfaction of the control group may indicate that they valued the contact with the health-care professionals during the assessments.</p><p>We included a measure of depression to explore the possibility that regular telephone contact helps alleviate depression. However, there was no indication that this was the case (mean between-group difference = 0.2 points on a 21-point scale; 95% CI -1.1 to 1.4) even though mean scores on the Hospital Anxiety and Depression Scale at baseline are indicative of moderate depression. <ref type="bibr" target="#b23">24</ref> The failure of the intervention to reduce depression is not altogether surprising because the health-care professionals providing the telephone-based advice were not psychologists, and many participants were being encouraged to remain on bed rest. Prolonged bed rest probably does not help alleviate depression.</p><p>Intervention participants could not always follow the advice provided by the health-care professionals. For example, some participants were alone at home during the day without assistance and therefore could not regularly dress their pressure ulcers or change bed linen to remain dry. Others needed to get up and go to work because of the profound implications of limited income and social support for them and their families. Sometimes the problems were too great to solve by advice. For example, some participants needed surgery or wound debridement, and other participants did not have access to basic dressings, adequate nutrition, appropriate bed overlays or pressure cushions. A few participants had other associated conditions such as diabetes that were poorly managed and contributing to the pressure ulcers.</p><p>In all, telephone-based management of pressure ulcers is a promising intervention for LMICs. Although the results of our primary outcome (that is, size of pressure ulcer) do not provide conclusive evidence about the effectiveness of telephone-based management, they also do not rule out the possibility that this intervention may provide a feasible approach to this insidious problem. In addition, the results from the secondary outcomes are sufficiently positive to justify a larger randomised controlled trial with a longer intervention and follow-up.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>•Figure 1</head><label>1</label><figDesc>Figure 1 Design and flow of participants through the trial.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Kaplan-Meier survival estimates for pressure ulcer healing in the two groups.</figDesc><graphic coords="5,62.21,376.25,205.58,164.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 2</head><label>2</label><figDesc>Baseline characteristics of participants</figDesc><table><row><cell></cell><cell cols="2">Randomised (n = 120)</cell></row><row><cell>Participants' characteristics</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Con (n = 60)</cell><cell>Int (n = 60)</cell></row><row><cell>Age (years), mean (s.d.)</cell><cell>36 (12)</cell><cell>35 (11)</cell></row><row><cell>Gender, n (%)</cell><cell></cell><cell></cell></row><row><cell>Male</cell><cell>54 (90)</cell><cell>52 (87)</cell></row><row><cell>Female</cell><cell>6 (10)</cell><cell>8 (13)</cell></row><row><cell>Duration since injury (years), median (IQR)</cell><cell>3.7 (1.3, 8.5)</cell><cell>3.7 (1.4, 9.6)</cell></row><row><cell>Mode of injury, n (%)</cell><cell></cell><cell></cell></row><row><cell>Road traffic accident</cell><cell>23 (38)</cell><cell>32 (53)</cell></row><row><cell>Fall from height</cell><cell>19 (32)</cell><cell>18 (30)</cell></row><row><cell>Others</cell><cell>15 (25)</cell><cell>10 (17)</cell></row><row><cell>Unknown</cell><cell>3 (5)</cell><cell>-</cell></row><row><cell>Neurological level of injury, n (%)</cell><cell></cell><cell></cell></row><row><cell>Upper cervical (C1-C4)</cell><cell>4 (7)</cell><cell>1 (2)</cell></row><row><cell>Lower cervical (C5-C8)</cell><cell>13 (22)</cell><cell>11 (19)</cell></row><row><cell>Upper thoracic (T1-T9)</cell><cell>14 (23)</cell><cell>17 (28)</cell></row><row><cell>Lower thoracic (T10-L1)</cell><cell>23 (38)</cell><cell>21 (35)</cell></row><row><cell>Lumbar and sacral</cell><cell>-</cell><cell>2 (3)</cell></row><row><cell>Unknown</cell><cell>6 (10)</cell><cell>8 (13)</cell></row><row><cell>ASIA impairment scale, n (%)</cell><cell></cell><cell></cell></row><row><cell>A</cell><cell>47 (78)</cell><cell>52 (87)</cell></row><row><cell>B</cell><cell>2 (3)</cell><cell>3 (5)</cell></row><row><cell>C</cell><cell>8 ( 1 4 )</cell><cell>2 ( 3 )</cell></row><row><cell>D</cell><cell>1 (2)</cell><cell>-</cell></row><row><cell>Unknown</cell><cell>2 (3)</cell><cell>3 (5)</cell></row><row><cell>Location of PU, n (%)</cell><cell></cell><cell></cell></row><row><cell>Sacral</cell><cell>25 (42)</cell><cell>29 (48)</cell></row><row><cell>Right ischial tuberosity</cell><cell>10 (17)</cell><cell>13 (22)</cell></row><row><cell>Left ischial tuberosity</cell><cell>12 (20)</cell><cell>10 (17)</cell></row><row><cell>Right trochanter of the femur</cell><cell>8 (13)</cell><cell>6 (10)</cell></row><row><cell>Left trochanter of the femur</cell><cell>5 (8)</cell><cell>2 (3)</cell></row><row><cell>Stage of pressure ulcers, n (%)</cell><cell></cell><cell></cell></row><row><cell>Stage II</cell><cell>13 (22)</cell><cell>22 (37)</cell></row><row><cell>Stage III</cell><cell>45 (75)</cell><cell>38 (63)</cell></row><row><cell>Stage IV</cell><cell>2 (3)</cell><cell>-</cell></row></table><note><p>Abbreviations: ASIA, American Spinal Cord Injury Association; Con, control group; Int, intervention group; IQR, interquartile range; PU, pressure ulcer.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3</head><label>3</label><figDesc>Results of the intention-to-treat analysis for the primary and secondary outcomes at 12 weeks after randomisation</figDesc><table><row><cell>Outcome</cell></row></table><note><p>1.7 (1.0 to 2.3; Po0.001) Clinician's impression of PU status (10 points) 4.5 (1.3) 4.7 (1.5) 6.6 (2.3) 7.3 (2.5) 0.6 (-0.3 to 1.4; P = 0.18) Participants' satisfaction (10 points) --6.4 (2.7) 8.6 (1.4) 2.1 (1.3 to 2.9; Po0.001) Abbreviations: CI, confidence interval; Con, control group; EQ-5D-5L, Euro Quality of Life 5-dimensional 5-level; HADS, Hospital Anxiety and Depression Scale; Int, intervention group; PU, pressure ulcers; PUSH, Pressure Ulcer Scale for Healing; VAS, Visual Analogue Scale; WHODAS, World Health Organisation Disability Assessment Schedule. Note: Primary outcome for the trial is in bold.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>The authors acknowledge the assistance of the project coordinators (<rs type="person">Mr Jaspreet Singh Sethi</rs>, <rs type="person">Md Abdullah</rs> and <rs type="person">Mr Ranjit Roy</rs>) at the trial sites, the participants and staff who assisted in recruiting participants.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA ARCHIVING</head><p>There were no data to deposit.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST</head><p>MA conducted this trial in partial fulfilment of his PhD. He was supported through a Prime Minister's Australia Asia Post Graduate Research Endeavour Award for the duration of his PhD candidature. The trial was supported by the John Walsh Centre for Rehabilitation Research. The authors declare no conflict of interest in trial design, data collection and analysis, decision to publish, or preparation of the manuscript. Those supporting this research have no financial interests in the results. The authors and all organisations associated with the authors did not confer any benefit.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,321.17,251.12,238.32,5.92;6,321.17,259.12,138.02,5.92" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Pressure ulcers in people with spinal cord injury in developing nations</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Zakrasek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Creasey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Crew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Spinal Cord</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="7" to="13" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.17,267.05,238.33,5.92;6,321.17,275.05,238.25,5.92;6,321.17,282.98,28.20,5.92" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Prevalence of pressure ulcers in Thai wheelchair users with chronic spinal cord injuries</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kovindha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kammuang-Lue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Prakongsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wongphan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Spinal Cord</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="767" to="771" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.17,290.98,238.34,5.92;6,321.17,298.97,238.28,5.92;6,321.17,306.91,238.26,5.92;6,321.17,314.90,183.18,5.92" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Canadian best practice guidelines for the prevention and management of pressure ulcers in people with spinal cord injury. A resource handbook for clinicians</title>
+		<ptr target="http://onf.org/system/attachments/168/original/Pressure_Ulcers_Best_Practice_Guideline_Final_web4.pdf" />
+		<imprint>
+			<date type="published" when="2013-06">2013. June 2016</date>
+		</imprint>
+	</monogr>
+	<note>Internet. cited 05</note>
+</biblStruct>
+
+<biblStruct coords="6,321.17,322.84,238.23,5.92;6,321.17,330.83,85.97,5.92" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Repositioning for treating pressure ulcers</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">E</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cowman</surname></persName>
+		</author>
+		<idno>Cd006898</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cochrane Database Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.17,338.83,238.34,5.92;6,321.17,346.76,238.25,5.92;6,321.17,354.76,54.97,5.92" xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bickenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Officer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shakespeare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Health Organization and International Spinal Cord Society-International Perspectives on Spinal Cord Injury</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Von Groote</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Malta</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.17,362.69,238.34,5.92;6,321.17,370.69,238.33,5.92;6,321.17,378.63,74.35,5.92" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Two-year survival following discharge from hospital after spinal cord injury in Bangladesh</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Hossain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Herbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Quadir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Harvey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Spinal Cord</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="132" to="136" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.17,386.62,238.26,5.92;6,321.17,394.61,238.32,5.92;6,321.17,402.55,101.34,5.92" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">European Pressure Ulcer Advisory Panel and National Pressure Ulcer Advisory Panel. Treatment of pressure ulcers: Quick Reference Guide. National Pressure Ulcer Advisory Panel</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<pubPlace>Washington, DC, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.17,410.54,238.37,5.92;6,321.17,418.48,238.36,5.92;6,321.17,426.47,47.03,5.92" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Pan Pacific Clinical Practice Guideline for the Prevention and Management of Pressure Injury</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Australian Wound Management Association</publisher>
+			<pubPlace>Cambridge Media; Osborne Park, WA, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,311.36,434.47,248.12,5.92;6,321.17,442.40,238.31,5.92;6,321.16,450.40,33.08,5.92" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Support surfaces for pressure ulcer prevention</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mcinnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jammali-Blasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sem</forename><surname>Bell-Syer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Dumville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Middleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cullum</surname></persName>
+		</author>
+		<idno>CD001735</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cochrane Database Syst Rev</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.11,458.33,238.28,5.92;6,321.11,466.33,238.31,5.92;6,321.11,474.32,28.15,5.92" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Managing pressures ulcers in a resource constrained situation: a holistic approach</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Datta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">R</forename><surname>Mohanty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bandhopadhyay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indian J Palliat Care</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="255" to="259" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.11,482.26,238.39,5.92;6,321.11,490.25,238.39,5.92;6,321.11,498.19,71.01,5.92" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">National spending on health by source for 184 countries between</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Dieleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Templin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sadat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Reidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chapin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Foreman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">387</biblScope>
+			<biblScope unit="page" from="2521" to="2535" />
+			<date type="published" when="2013">2013. 2040. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.11,506.00,238.42,6.48;6,321.11,514.12,238.33,5.92;6,321.11,522.11,85.13,5.92" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Telecommunication sector in Indiaan analysis</title>
+	</analytic>
+	<monogr>
+		<title level="j">India. International Journal of Computer Applications</title>
+		<editor>
+			<persName><forename type="first">N</forename><surname>Swapna</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2012-04-08">7-8 April 2012</date>
+			<publisher>Bangalore</publisher>
+			<pubPlace>India</pubPlace>
+		</imprint>
+	</monogr>
+	<note>MPGI National Multi Conference</note>
+</biblStruct>
+
+<biblStruct coords="6,321.11,530.11,238.39,5.92;6,321.11,538.05,238.33,5.92;6,321.11,546.04,101.96,5.92" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Teleassessment compared with live assessment of pressure ulcers in a wound clinic: a pilot study</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elrod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Convit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Woods</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="91" to="96" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.11,553.98,238.38,5.92;6,321.11,561.97,238.31,5.92;6,321.11,569.96,28.15,5.92" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Use of telerehabilitation to manage pressure ulcers in persons with spinal cord injuries</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vesmarovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Hauber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Temkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Burns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="264" to="269" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.11,577.90,238.40,5.92;6,321.11,585.89,238.38,5.92;6,321.11,593.83,148.45,5.92" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A structured educational model to improve pressure ulcer prevention knowledge in veterans with spinal cord dysfunction</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Garber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Rintala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Friedman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rehabil Res Dev</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="575" to="588" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.11,601.83,238.34,5.92;6,321.11,609.76,238.27,5.92;6,321.11,617.76,238.31,5.92;6,321.11,625.75,35.86,5.92" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Preventing recurrent pressure ulcers in veterans with spinal cord injury: impact of a structured education and follow-up intervention</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Rintala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Garber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="1429" to="1441" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.11,633.69,238.33,5.92;6,321.11,641.68,238.38,5.92;6,321.11,649.62,238.28,5.92;6,321.11,657.61,238.31,5.92;6,321.11,665.60,28.15,5.92" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effectiveness and cost-effectiveness of telephone-based support versus usual care for treatment of pressure ulcers in people with spinal cord injury in low-income and middle-income countries: study protocol for a 12-week randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Chhabra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Glinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cameron</forename><surname>Id</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">8369</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.11,673.54,238.36,5.92;6,321.11,681.53,36.14,5.92" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">How to do random allocation (randomization)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Surg</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="103" to="109" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.11,689.47,238.31,5.92;6,321.11,697.47,238.28,5.92;6,321.11,705.40,164.83,5.92" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A prospective, multicenter study to validate use of the PUSH in patients with diabetic, venous, and pressure ulcers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lagden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mclaren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>'sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Orr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Houghton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="26" to="36" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,321.11,713.40,238.29,5.92;6,321.11,721.39,238.31,5.92;6,321.11,729.33,20.49,5.92" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Monitoring healing of pressure ulcers: a review of assessment instruments for use in the spinal cord unit</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Van Lis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fwa</forename><surname>Van Asbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mwm</forename><surname>Post</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Spinal Cord</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="92" to="99" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,45.64,71.80,238.29,5.92;7,45.64,80.76,226.97,5.92" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Utility of the Sussman Wound Healing Tool in predicting wound healing outcomes in physical therapy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sussman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Swanson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="74" to="77" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,45.64,88.70,238.36,5.92;7,45.64,97.71,103.49,5.92" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The Braden Scale for predicting pressure sore risk: reflections after 25 years</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Braden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">61</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,45.64,105.65,238.29,5.92;7,45.64,114.61,238.26,5.92;7,45.64,123.62,143.01,5.92" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A preliminary psychometric evaluation of the Hospital Anxiety and Depression Scale (HADS) in 963 people living with a spinal cord injury</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Woolrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tasiemski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Health Med</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="80" to="90" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,45.64,131.56,238.37,5.92;7,45.64,140.51,79.00,5.92" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The Hospital Anxiety and Depression Scale</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Zigmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Psychiatr Scand</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="361" to="370" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,45.64,148.51,238.36,5.92;7,45.64,157.46,238.37,5.92;7,45.64,166.42,53.15,5.92" xml:id="b24">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Üstün</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kostanjsek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chatterji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rehm</surname></persName>
+		</author>
+		<title level="m">Measuring health and disability: manual for WHO Disability Assessment Schedule (WHODAS 2.0)</title>
+		<meeting><address><addrLine>Geneva, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>WHO Press</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,45.64,174.42,238.31,5.92;7,45.64,183.37,20.49,5.92" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">EuroQol: the current state of play</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Charro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Policy</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="53" to="72" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,305.69,71.80,238.35,5.92;7,305.69,79.74,238.39,5.92;7,305.69,87.73,59.56,5.92" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A review of preference-based health-related quality of life questionnaires in spinal cord injury research</title>
+		<author>
+			<persName><forename type="first">Dgt</forename><surname>Whitehurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Noonan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mfs</forename><surname>Dvorak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bryan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Spinal Cord</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="646" to="654" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,305.69,95.67,238.32,5.92;7,305.69,103.66,124.13,5.92" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Validity of four pain intensity rating scales</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ferreira-Valente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Pais-Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pain</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="2399" to="2404" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,305.69,111.66,238.34,5.92;7,305.69,119.59,238.37,5.92;7,305.69,127.59,238.25,5.92;7,305.69,135.52,28.15,5.92" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Research electronic data capture (REDCap)-a metadata-driven methodology and workflow process for providing translational research informatics support</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Thielke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Payne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Conde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Inform</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="377" to="381" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,305.69,143.52,238.25,5.92;7,305.69,151.51,238.27,5.92;7,305.69,159.45,158.09,5.92" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">International standards for neurological classification of spinal cord injury (revised 2011)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Kirshblum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Biering-Sorensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Donovan</forename><forename type="middle">W</forename><surname>Graves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Jha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Spinal Cord Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="535" to="546" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,305.69,167.44,238.33,5.92;7,305.69,175.38,238.25,5.92;7,305.69,183.37,28.15,5.92" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Determinants of mortality among older adults with pressure ulcers</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Khor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">I</forename><surname>Saedon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Kamaruzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Poi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Gerontol Geriatr</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="536" to="541" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

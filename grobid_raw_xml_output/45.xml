@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fully Automated Wound Tissue Segmentation Using Deep Learning on Mobile Devices: Cohort Study</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>PhD</roleName><forename type="first">Dhanesh</forename><surname>Ramachandram</surname></persName>
+							<email>dhanesh@swiftmedical.io</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Swift Medical Inc</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<address>
+									<postCode>888 755 2565</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Jose</forename><surname>Luis Ramirez-Garcialuna</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Swift Medical Inc</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<address>
+									<postCode>888 755 2565</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Robert</forename><forename type="middle">D J</forename><surname>Fraser</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Swift Medical Inc</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<address>
+									<postCode>888 755 2565</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MN, RN;</roleName><forename type="first">Mario</forename><surname>Aurelio Martínez-Jiménez</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Universidad Autonoma de San Luis Potosi</orgName>
+								<address>
+									<settlement>San Luis Potosi</settlement>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, PhD</roleName><forename type="first">Jesus</forename><forename type="middle">E</forename><surname>Arriaga-Caballero</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Universidad Autonoma de San Luis Potosi</orgName>
+								<address>
+									<settlement>San Luis Potosi</settlement>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Justin</forename><surname>Allport</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Swift Medical Inc</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<address>
+									<postCode>888 755 2565</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Beng</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xsl</forename><forename type="middle">•</forename><surname>Fo</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Swift Medical Inc Suite</orgName>
+								<address>
+									<addrLine>500 1 Richmond St W Toronto</addrLine>
+									<postCode>M5H 3W4</postCode>
+									<region>ON</region>
+									<country>Canada Phone</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fully Automated Wound Tissue Segmentation Using Deep Learning on Mobile Devices: Cohort Study</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3C6673A6C2EB720C18EE98EAF296F601</idno>
+					<idno type="DOI">10.2196/36977</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>wound</term>
+					<term>tissue segmentation</term>
+					<term>automated tissue identification</term>
+					<term>deep learning</term>
+					<term>mobile imaging</term>
+					<term>mobile phone</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Composition of tissue types within a wound is a useful indicator of its healing progression. Tissue composition is clinically used in wound healing tools (eg, Bates-Jensen Wound Assessment Tool) to assess risk and recommend treatment. However, wound tissue identification and the estimation of their relative composition is highly subjective. Consequently, incorrect assessments could be reported, leading to downstream impacts including inappropriate dressing selection, failure to identify wounds at risk of not healing, or failure to make appropriate referrals to specialists.</p><p>Objective: This study aimed to measure inter-and intrarater variability in manual tissue segmentation and quantification among a cohort of wound care clinicians and determine if an objective assessment of tissue types (ie, size and amount) can be achieved using deep neural networks. Methods: A data set of 58 anonymized wound images of various types of chronic wounds from Swift Medical's Wound Database was used to conduct the inter-and intrarater agreement study. The data set was split into 3 subsets with 50% overlap between subsets to measure intrarater agreement. In this study, 4 different tissue types (epithelial, granulation, slough, and eschar) within the wound bed were independently labeled by the 5 wound clinicians at 1-week intervals using a browser-based image annotation tool. In addition, 2 deep convolutional neural network architectures were developed for wound segmentation and tissue segmentation and were used in sequence in the workflow. These models were trained using 465,187 and 17,000 image-label pairs, respectively. This is the largest and most diverse reported data set used for training deep learning models for wound and wound tissue segmentation. The resulting models offer robust performance in diverse imaging conditions, are unbiased toward skin tones, and could execute in near real time on mobile devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>A poor to moderate interrater agreement in identifying tissue types in chronic wound images was reported. A very poor Krippendorff α value of .014 for interrater variability when identifying epithelization was observed, whereas granulation was most consistently identified by the clinicians. The intrarater intraclass correlation (3,1), however, indicates that raters were relatively consistent when labeling the same image multiple times over a period. Our deep learning models achieved a mean intersection over union of 0.8644 and 0.7192 for wound and tissue segmentation, respectively. A cohort of wound clinicians, by consensus, rated 91% (53/58) of the tissue segmentation results to be between fair and good in terms of tissue identification and segmentation quality.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions:</head><p>The interrater agreement study validates that clinicians exhibit considerable variability when identifying and visually estimating wound tissue proportion. The proposed deep learning technique provides objective tissue identification and measurements to assist clinicians in documenting the wound more accurately and could have a significant impact on wound care when deployed at scale.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overview</head><p>Wounds result from the breakdown in the protective function of the skin and the loss of continuity of the epithelium. Wounds can be generally categorized into acute and chronic wounds. Normal wound healing involves four overlapping stages: hemostasis, inflammation, proliferation, and remodeling. Wound closure can be observed between several weeks to several months depending on wound size and other patient factors. Although debatable, generally wounds taking &gt;3 months to heal are considered chronic wounds <ref type="bibr" target="#b1">[1]</ref>. Wound progress through the 4 phases of healing is generally assessed using subjective observation of changes in size and tissue types by clinicians. Improvement to these subjective measures offers potential for better assessment of healing, improved treatment selection, and potential to predict patients at risk of developing a chronic or nonhealing wound.</p><p>Estimates indicate that 40 million patients worldwide may be affected by chronic wounds. A recent study that examined the prevalence of wounds in Canada between 2011 and 2012 found that almost 4% of inpatient acute hospitalization clients, &gt;7% of home-care clients, almost 10% of long-term care clients, and almost 30% of hospital-based continuing care clients developed compromised wounds. Chronic wound care also imposes a hefty economic burden on the national health care system. The adverse economic impact of wound care has been well studied <ref type="bibr" target="#b2">[2,</ref><ref type="bibr" target="#b3">3]</ref>. For example, it is estimated that the total direct-care cost of diabetic foot ulcers to the Canadian health care system was determined to be CAD $547 million (US $546.6 million), with an average cost per case of CAD $21,371 (US $21,364). A major concern is to ensure that health care professionals provide timely and effective wound care to affected individuals. Although better treatment protocols, drugs, and tissue regeneration methods are being constantly developed, it is imperative that research into timely treatment and wound healing monitoring is pursued in parallel. The protocols for treatments and medication may also be dependent on accurate assessment of wound healing and wound tissue identification.</p><p>Wound assessments and measurements have long been fraught with subjectivity and considerable variability between clinicians <ref type="bibr" target="#b4">[4]</ref>. Although there has been progress made in automated wound area measurements using computer vision and machine learning, the reporting of wound tissue composition and their reactive proportions is still largely subjective. When tissue compositions can be measured objectively, the results could improve the accuracy of wound healing progress monitoring, enable data-driven pressure injury staging, and better predict wound healing times. Therefore, the objectives of our work were, first, to measure the inter-and intrarater variability in manual tissue identification and quantification among a cohort of wound care clinicians. We sought to establish the extent of variability and subjectivity in manual wound tissue measurements and how this related to specific tissue types of interests. Second, we investigated if an objective assessment of tissue types (ie, size and amount) could be achieved using a machine learning model that predicts wound tissue types. The proposed model's performance is reported in terms of numerical metrics, that is, mean intersection over union (mIOU) between model prediction and the ground truth labels. Finally, we evaluated the performance of the proposed model for wound tissue segmentation as collectively judged by a cohort of wound care clinicians observing the model predictions.</p><p>In this study, we proposed a fully automated wound and tissue segmentation technique based on deep convolutional neural networks. In wound segmentation, the goal is to delineate the region in the image that corresponds to the wound bed, and in tissue segmentation; the goal is to further breakdown regions within the identified wound bed into its constituent tissue types. The proposed deep learning models have been integrated into a mobile app and allow clinicians to obtain objective measurements, thereby eliminating the guesswork associated with wound tissue identification. This objective measurement addressed 2 challenges. First, differentiating tissue types within chronic wounds, when done manually, often varies between clinicians for a variety of reasons (eg, training and experience). Second, accurately determining the proportion or quantification (ie, measurement) of tissue types is challenging for a human. The models developed could automatically detect the location of a wound in an image, delineate the accurate boundaries of the wound, determine if any of the 4 types of tissue are present within the wound bed, and finally compute their relative proportions for reporting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background and Related Work</head><p>For the context of this study, we aim to identify and quantify four major tissue types present in chronic wounds using deep learning: epithelial tissue, granulation tissue, slough, and eschar which are typically reported in wound assessment tools such as the Bates-Jensen Wound Assessment Tool (BWAT) <ref type="bibr" target="#b5">[5]</ref> and to stage pressure ulcers using the National Pressure Injury Advisory Panel pressure injury staging system (Pressure Ulcer Scale for Healing [PUSH]) <ref type="bibr" target="#b6">[6]</ref>. These tissues are present in an open wound in various color spectra when observed through a conventional imaging sensor. Epithelial tissue is observed as being pinkish or white regions that migrate from the wound margin with minimal exudate. It eventually covers the wound bed and is the final visual sign of healing. Granulation tissue is found mainly in the red spectrum. Its presence in a chronic wound indicates that regeneration is progressing well and that the wound is being properly treated. Slough is observed as a soft, yellow glutinous covering on the wound and is a type of necrotic tissue. Made up of dead cells and fibrin, a wound may be completely or partially filled with slough. It may also be fibrous or strand-like, adhering to the wound bed. Finally, because of tissue death, the surface of the wound is covered with a layer of dead or devitalized tissue (eschar) that is frequently black or brown. Initially soft, the dead tissue can lose moisture rapidly and become dehydrated with the surface becoming hard and dry. Colliquative necrosis are a subtype of this category and are yellow in color, similar to fibrin deposits. They are produced when the necrotic tissue softens and are, therefore, of a mushy consistency. The appearance of necrosis indicates degenerative breakdown of wound tissue.</p><p>The tissue composition and their relative quantity within the wound bed are important parameters for estimating wound healing progress. For example, the PUSH score <ref type="bibr" target="#b6">[6]</ref> was proposed for pressure injuries and consists of three parameters: length×width, exudate amount (none, light, moderate, and heavy), and tissue type (necrotic tissue, slough, granulation tissue, epithelial tissue, and closed). Each parameter was scored, and the sum of the 3 scores yielded a total wound status score, which helped classify wound severity and identify nonhealing wounds. The relative quantities of relevant wound bed tissues are subjectively determined during assessments. As human beings, we are poor in accurately judging relative proportions, and inaccurate assessments can lead to incorrect downstream tasks like wound staging and treatment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound Area Measurement</head><p>There are numerous approaches <ref type="bibr" target="#b7">[7]</ref> for wound area measurement, which vary in their accuracy and repeatability across multiple raters <ref type="bibr" target="#b8">[8]</ref>. The most common approach would be to use a ruler and measure the width and length of a wound. This measurement does not allow accurate area measurement as wounds are not typically rectilinear in shape. The next step up could be to lay a grid pattern over the wound and mark the number of square grid boxes which overlap with the wound and thereby estimate the area.</p><p>Computer-aided approaches for wound segmentation (defining wound area) have been proposed in the past for small, controlled data sets, and their robustness on large-scale data sets has never been proven to be effective. Techniques include active contours <ref type="bibr" target="#b9">[9]</ref>, graph cuts <ref type="bibr" target="#b10">[10]</ref>, and color histograms <ref type="bibr" target="#b11">[11]</ref> as well as machine learning approaches such as support vector machines <ref type="bibr" target="#b12">[12,</ref><ref type="bibr" target="#b13">13]</ref> and artificial neural networks <ref type="bibr" target="#b14">[14]</ref>.</p><p>With the recent advances in artificial intelligence, it has now become possible to train a deep learning model to perform automatic segmentation of chronic wounds <ref type="bibr" target="#b15">[15]</ref><ref type="bibr" target="#b16">[16]</ref><ref type="bibr" target="#b17">[17]</ref> in an end-to-end manner. These methods forego the need for image feature engineering and can automatically learn a hierarchy of image features required for a specific task. Despite the increasing number of papers being published for deep learning-based wound segmentation, most approaches have only been trained and tested on limited data sets often conducted in controlled settings as shown in Table <ref type="table" target="#tab_0">1</ref>. In addition, most of these approaches have not been demonstrated to run on mobile devices having limited computing resources-a critical factor in enabling objective electronic wound documentation at the bedside. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound Tissue Segmentation</head><p>Wound tissue segmentation, which is a more challenging problem, has received far less attention than wound segmentation. Tissue segmentation entails a pixel-wise classification of various tissues that are found within the wound bed region. Past approaches have attempted to solve this using image patch-based color clustering or segmentation <ref type="bibr" target="#b19">[18,</ref><ref type="bibr" target="#b21">20,</ref><ref type="bibr" target="#b24">23]</ref>. When classifiers are used, a training data set of image patches is built from a small set of wound images. The data set of image patches are then used to train a classifier to assign each patch to a specific tissue type. During inference, a wound image is first segmented from its background, and the wound region is split into smaller image patches. Each image patch is then classified by the trained model. This process is slow and typically not robust enough to handle variations in imaging conditions (eg, lighting and image angle) as is often the case in practice. Recently, deep learning techniques such as fully convolutional neural networks have been applied to wound tissue segmentation <ref type="bibr" target="#b20">[19]</ref>. The approach is not fully automated; wound segmentation is performed using a dynamic color thresholding in the YbCbCr color space to segment the wound area, and then a fully convolutional neural network <ref type="bibr" target="#b25">[24]</ref> is used to classify wound tissue within the segmented wound region. A limited set of images were used to train the network, and mobile implementation was not reported.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overview</head><p>The inter-and intrarater agreement for wound tissue identification by wound care clinicians was first measured to establish the degree of variability present in visual estimation of tissue proportions and labeling tissue regions in wound images. The Swift Wound Data Set, which to the best of our knowledge is the largest labeled chronic wound data set for both wound segmentation and tissue segmentation ever reported in the literature for training deep neural networks for wound image segmentation and tissue segmentation, is described. Subsequently, a fully automated wound and tissue segmentation approach is presented, which is based on a deep encoder-decoder convolutional neural network and trained using data from our internal Swift Wound Data Set. Finally, the authors discuss the results obtained for both the interrater agreement study and the proposed deep learning technique for wound tissue segmentation in depth. A diagram depicting steps in this study is presented in Figure <ref type="figure" target="#fig_0">S1A</ref>-1 in Multimedia Appendix 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rater Agreement in Wound Tissue Identification and Quantification</head><p>To establish the variability of wound assessment when it comes to tissue region labeling, we examined the inter-and intrarater variability between wound care clinicians when estimating not only the presence of a given tissue type in the wound bed but also their relative proportions and their confidence in the estimations. In this paper, we interchangeably use the term raters to refer to the wound clinicians and nurses who were involved in our study.</p><p>For this study, a random sample of 58 anonymized wound images (taken under uncontrolled lighting and viewing angles) from the Swift Wound Data Set consisting of pressure injuries, arterial ulcers, and venous ulcers was used. The data set was stratified according to skin tone using the Fitzpatrick scale and split into 3 subsets, with 50% overlap between subsets to measure intrarater agreement. In particular, 4 different tissue regions (epithelial, granulation, slough, and eschar) were manually labeled within the wound bed in each image. In addition, 5 experienced clinicians (a family physician, a dermatologist, a vascular surgeon, a burn surgeon, and a registered nurse) were tasked to label these images in random order using a browser-based image annotation tool shown in Figure <ref type="figure" target="#fig_0">1</ref>. Apart from labeling (or annotating) the tissue regions, labelers were instructed to visually estimate the proportions of the 4 tissue types present within the wound bed and indicate their confidence levels when identifying these tissues.</p><p>To measure the inter-and intrarater variability, we used the Shrout and Fleiss CC <ref type="bibr" target="#b26">[25]</ref>. As the same set of k raters labeled the same set of n samples in the data set, we used a 2-way, mixed effects model, specifically the intraclass correlation (ICC) as described in that paper to compute the ICC as a measure of reliability. Another measure of reliability is the Krippendorff α, which measures disagreement between a number of raters.</p><p>For the sake of brevity, we refer readers to the study by Krippendorff <ref type="bibr" target="#b27">[26]</ref> for a complete description of this statistical measure. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Swift Medical Wound Data Set</head><p>Previous studies on wound segmentation were either trained or validated on small wound image data sets <ref type="bibr" target="#b19">[18]</ref><ref type="bibr" target="#b20">[19]</ref><ref type="bibr" target="#b21">[20]</ref><ref type="bibr" target="#b22">[21]</ref><ref type="bibr" target="#b23">[22]</ref><ref type="bibr" target="#b24">[23]</ref>, often acquired under very controlled conditions and focused on a limited number of wound types; for example, diabetic foot ulcers were analyzed with high-resolution digital single-lens reflex cameras with large imaging sensors (23×15.6 mm 2 ) and macrolenses; <ref type="bibr" target="#b17">[17]</ref> however, questions remain as to the robustness of these approaches in real-world scenarios as results were demonstrated using very limited data.</p><p>In this study, we used our internal deidentified data set to train and validate the deep learning models for wound segmentation and tissue segmentation. Wound images in our data set were acquired using heterogeneous cellphone cameras under uncontrolled settings using the Swift Skin and Wound app from hundreds of skilled nursing facilities and long-term care centers across North America. Our data set is significantly larger (by 2 to 3 orders of magnitude) than data sets reported in previous studies <ref type="bibr" target="#b15">[15,</ref><ref type="bibr" target="#b17">17,</ref><ref type="bibr" target="#b22">21,</ref><ref type="bibr" target="#b23">22]</ref> (Table <ref type="table" target="#tab_0">1</ref>). In addition, it is to be noted that there are no publicly available data sets for fully labeled wound tissues (ie, for epithelial, granulation, eschar, and slough), unlike the data sets listed in Table <ref type="table" target="#tab_0">1</ref> which are data sets with purely binary labels (wound or background), which are much simpler to manually label.</p><p>There is significant variability in terms of viewing angles, lighting conditions, background, and magnification factors for wound images in the Swift data set as shown in Figure <ref type="figure" target="#fig_1">2</ref>. This data set also covers a wider range of skin lesions and chronic wounds than any of the previously published studies. Specifically, it consists of 14 different types of wounds or skin lesions at various stages of healing. These include bruise or abrasion, blister, burn, cancer lesion, diabetic foot ulcer, laceration, moisture associated skin damage, mole, open lesion, pressure injury, venous ulcer, rash, skin tear, and surgical wound.</p><p>There are numerous variations in skin tones because of ethnicity, which makes it challenging to isolate healthy skin and wound bed regions using traditional computer vision techniques. In most images in the data set, healthy skin area was found to be covered with age spots-a pigmentation effect associated with older individuals. Figure <ref type="figure" target="#fig_1">2</ref> shows examples of skin tone variations present in the data set. There is also a wide variation of the visible characteristics of the wounds in our data set; for example in terms of wound type, location, and severity. This data set reflects the actual diversity in wound images typically observed in practice. As deep learning techniques generally scale well and perform better when trained with larger data sets, the automatic wound and tissue segmentation approach presented in this paper are expected to be more robust and accurate than previously reported approaches for large-scale deployment. It is to be noted that owing to patient privacy concerns, we are unable to publicly share the data sets used to train our models. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fully Automated Wound Tissue Segmentation</head><p>A high-level depiction of this fully automated wound and tissue segmentation method is shown in Figure <ref type="figure" target="#fig_2">3</ref>. A high-resolution image is first acquired using the smartphone camera. The first stage involves detecting the presence of a wound and determining the bounding box of the wound. Although other reported approaches <ref type="bibr" target="#b22">[21]</ref> used a separate object detection model such as YoloV3 <ref type="bibr" target="#b28">[27]</ref> to locate the wound, we used an encoder-decoder wound segmentation network, dubbed AutoTrace, whose predictions can not only be used to compute the bounding box of the wound, but also determine the accurate segmentation (trace) of the wound bed. This model is small and fast enough to enable real-time inference on mobile devices. When implementing deep learning architectures, particularly on mobile devices, the input image dimension is a critical factor to ensure that memory and computation requirements are manageable. Therefore, deep learning approaches typically use a low-resolution version of the images for training and inference. A drawback of using low-resolution image inputs is that information loss is attributed to downscaling. The higher the downscaling factor, the higher the possibility of information loss owing to interpolation (see Figure <ref type="figure" target="#fig_3">4</ref> for an illustration). To ensure that we minimize the potential information loss from image scaling or subsampling, we take steps to apply our deep learning models on regions of interest in an image, particularly at locations where an actual wound is located within the image. Therefore, we first use the AutoTrace model to detect the presence of an open wound in the image, then select a bounding box encompassing the detected wound region, and finally rescale that region to the dimension required as inputs to our tissue segmentation model, that is, AutoTissue.</p><p>Because a wound typically only constitutes between 25% and 65% of the imaged area in our data set, applying our tissue segmentation model directly on the detected wound region ensures a high wound-to-background pixel ratio for the model inputs, which leads to more accurate predictions and less errors from the series of downsampling and upsampling operations which are applied when using the deep learning models.</p><p>The tissue segmentation network, AutoTissue, produces a dense prediction of 4 wound tissue types (epithelial, granulation, slough, and eschar) when present within the detected wound bed. Wound border refinement is made using the wound contour computed from AutoTrace's wound prediction. Here, we clip the predicted tissue predictions with the accurate wound contour to ensure only tissues that are present within the wound bed are used to compute the tissue proportions.</p><p>In the following subsections, we present a high-level overview of both the AutoTrace and AutoTissue models. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AutoTrace: Wound Segmentation Model</head><p>Our wound segmentation model, as depicted in Figure <ref type="figure" target="#fig_4">5</ref>, is a deep convolutional encoder-decoder neural network with attention gates in the skip connections. The encoder block is responsible for feature extraction, and the decoder block decodes the learned features to produce the required output (ie, the segmentation mask). The AutoTrace architecture was derived from the study by Schlemper et al <ref type="bibr" target="#b29">[28]</ref> who first proposed attention gates in convolutional neural networks. Additional customizations were implemented in our models to allow them to run on mobile devices. We replaced the normal convolutional blocks with depth-wise separable convolutional layers <ref type="bibr" target="#b30">[29]</ref>. The main advantage of replacing normal convolutions with depth-wise separable convolutions is the significant reduction in computation required with only a small penalty to the final accuracy. Second, we implemented strided depth-wise convolutions that can learn to downsample activations instead of a fixed max-pooling operation for downsampling. Third, an additive attention gate was placed in each of the skip connections in the architecture. The inclusion of additive self-attention modules in the skip connections regulates the flow of activations from earlier layers. The attention coefficients identify salient image regions and prune feature responses to preserve only the activations relevant to the specific task. This ultimately provides improved performance for the wound segmentation task. Finally, to further reduce computational and memory requirements, the decoder blocks consisted of a bilinear upsampling followed by 2 depth-wise separable convolution layers per block instead of transposed convolution layers.</p><p>We trained this model on 467,000 image-label pairs with wound region labels provided by clinicians. Our held-out test set consists of 2000 image-label pairs of arterial, venous, pressure, and diabetic ulcers taken in diverse imaging conditions and wound locations. During training, data augmentation performed included random crops, horizontal or vertical flips and random contrast and brightness adjustments. Unlike the U-Net with Attention model <ref type="bibr" target="#b29">[28]</ref> which was trained using deep supervision, we trained our model using a single loss function by minimizing the soft dice loss which is the form of the following: where is the predicted probability of the pixel and is the ground truth of the pixel. The early stopping criterion was used to stop the training after convergence. L2 regularization and dropout regularization <ref type="bibr" target="#b31">[30]</ref> were used to control overfitting. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AutoTissue: Tissue Segmentation Model</head><p>The wound tissue segmentation model presented in this paper is significant as most of the previously published studies using deep learning in the domain focused on wound segmentation <ref type="bibr" target="#b15">[15]</ref><ref type="bibr" target="#b16">[16]</ref><ref type="bibr" target="#b17">[17]</ref><ref type="bibr" target="#b19">[18]</ref><ref type="bibr" target="#b21">20]</ref> and not tissue segmentation. The AutoTissue model (shown in Figure <ref type="figure" target="#fig_6">6</ref>) is an encoder-decoder convolutional neural network that uses an EfficientNetB0 architecture <ref type="bibr" target="#b32">[31]</ref>  The AutoTissue model was trained using a subset of 17,000 anonymized wound images from the Swift Wound Data Set where healthy tissue, background, the HealX calibrant sticker, and the 4 wound bed tissue regions, if present, were labeled in the images. The data set was meticulously labeled by a team of trained labelers and was curated by a panel of wound clinicians. The authors could not identify any published work that used labeled data at this scale for deep learning-based wound tissue segmentation in the literature. Data augmentation, a technique used to increase the amount of training data and prevent overfitting when training deep learning models, was performed on the fly, during model training by applying random crop and rotation, random color jittering and cutout regularization <ref type="bibr" target="#b33">[32]</ref>. Both networks were trained using AdamW (Adam With Decoupled Weight Decay) <ref type="bibr" target="#b34">[33]</ref> adaptive learning rate using an initial learning rate of 0.001. The held-out test set consisted of 383 images consisting of stage-2 pressure, arterial, and venous ulcers and diabetic wounds. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interrater Agreement Study Results</head><p>First, the authors presented the results obtained from the interrater agreement study. As mentioned earlier, the data set was split into 3 subsets, and each subset was presented to the raters (clinicians) for labeling at 1-week intervals. In all, 50% (29/58) of the images were labeled thrice, each presented 1 week apart to measure intrarater agreement. From each manually labeled image, the tissue proportions within the wound bed were assessed by counting the pixels that belonged to a certain class and computing its proportion against the total wound area. In addition, visual estimation of the tissue proportions was also recorded. Figure <ref type="figure" target="#fig_8">7</ref> illustrates an example set of labels made by the wound clinicians in our study. Note the considerable variability between the labels and this observation in this example. A similar observation extends to the entire set of 58 images used to study the interrater variability and is captured by the interrater agreement ICC score presented in Table <ref type="table" target="#tab_1">2</ref> Additional examples of inter-and intrarater variability in labeling tissue are provided in Multimedia Appendix 1.</p><p>The intrarater agreement for computed tissue proportions is presented in Table <ref type="table" target="#tab_2">3</ref>. As mentioned earlier in this section, a subset of wound images were repeatedly presented to the   As can be seen in Table <ref type="table" target="#tab_2">3</ref>, the high ICC score for individual raters (rows in the table) signifies that raters were relatively consistent when labeling (thereby reflected by computed tissue proportions) the same image multiple times over a period. The only exception was the relatively poorer intrarater agreement for epithelial tissue labeling compared with other tissue types.</p><p>Although there was moderate to high agreement in the intrarater agreement, only moderate interrater agreement was observed between raters when labeling tissue types in wound images. In particular, interrater agreement was poor for epithelial and slough tissues and moderate for other tissues based on ICC, values shown in Table <ref type="table" target="#tab_1">2</ref>. Note that the computation of tissue proportions as identified by experts as performed in this study differs from how tissue proportions are visually estimated in practice, which can be extremely subjective. The images were labeled using a browser-based image annotation tool that allows precise annotation of different tissue types; however, in practice, wound clinicians do not have the time or tools to perform the same. We can, therefore, anticipate even higher inter-and intrarater variability in subjective visual estimations of tissue proportions compared with that reported in this study.</p><p>Figure <ref type="figure" target="#fig_9">8</ref> shows a box plot depicting the differences between the computed proportions based on labeled regions and the visual estimates of 4 different tissues present in the set of 58 labeled wound images as labeled in the inter-and intrarater agreement study. The subjectivity in visual estimation naturally leads to variability between the rater's visual estimates and the proportions computed from tissue labels provided by the raters through the image annotation tool. Raters largely overestimated epithelization and eschar (shown by mean and median of the box plot being negative values) and underestimated granulation and slough during visual estimation. There is substantial variability (in terms of SDs) in the distribution of errors between estimation and computed proportions for all tissue types in the range of 38% to 39%.</p><p>Apart from measuring inter-and intrarater agreement for tissue proportions calculated from labeled tissue regions, we additionally computed the interrater agreement in the clinician's ability to identify the presence of any 1 of the 4 tissue types in the wound images presented to them. As this involves binary decisions (ie, True when a given tissue is labeled as present and False when it is not-disregarding the proportions computed), we used the Krippendorff α to measure the interrater agreement. Our results, as presented in Table <ref type="table" target="#tab_3">4</ref>, indicate very poor interrater agreement in determining the presence and regions of epithelial tissue with a Krippendorff α value of only .014, whereas fair to moderate agreement was scored for the other tissue types. Granulation was the most agreed upon tissue type, which was in line with observations in clinical practice.  One final parameter that we captured during this study was each clinician's confidence in labeling the 4 tissue types in question. Results indicate that the clinicians involved in the study were generally very confident in labeling granulation and slough tissues, moderately confident when labeling eschar, and least confident when labeling epithelial tissue as shown in Figure <ref type="figure" target="#fig_10">9</ref>.</p><p>This result correlated well with the Krippendorff α value we observed in Table <ref type="table" target="#tab_3">4</ref>. The significance of this observation will be seen later when we discuss our model performance for different tissue types. Data and code pertaining to these experiments is available for public download on the web <ref type="bibr" target="#b35">[34]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Automated Wound and Tissue Segmentation Results</head><p>The performances of both the wound segmentation and wound tissue segmentation models were evaluated separately on 2 different held-out test sets. We evaluated the performances of our models by computing an objective numerical metric, which is the mIOU between the ground truth labels and the predictions made by our models. The intersection over union metric measures the number of pixels common between the target and prediction label masks divided by the total number of pixels present across both label masks (see Figure <ref type="figure" target="#fig_0">10</ref> for a graphical depiction). When there are several classes of labels involved (eg, in the case of wound segmentation, there are two classes to be predicted, ie, wound and background classes), then the mean value of individual per class intersection over union is computed to arrive at a single metric, which is the mIOU.</p><p>The wound segmentation model, AutoTrace, achieves a mIOU of 0.8644 for wound region segmentation, whereas the AutoTissue model achieves a mIOU of 0.7192 for tissue segmentation on the held-out test sets. Several sample predictions made using our technique are presented in Figure <ref type="figure" target="#fig_0">11</ref>. See Figure <ref type="figure" target="#fig_0">S1C</ref> in Multimedia Appendix 1 for additional results The normalized confusion matrix for the model predictions is shown in Figure <ref type="figure" target="#fig_12">12</ref>. The confusion matrix indicates that the AutoTissue model is able to accurately distinguish between the wound region and healthy skin or background. Similarly, the model is performant when segmenting the HealX calibrant sticker as its appearance is relatively consistent on all images. Granulation, slough, and eschar tissue prediction performance is also favorable. We can observe that slough is largely misclassified as granulation and vice versa. This primarily reflects the challenges faced by wound clinicians when labeling regions in the wound bed that show the mixed presence of slough and granulation tissue where labelers tend to be less confident or inconsistent across different images as shown in Figure <ref type="figure" target="#fig_13">13</ref>.  Table <ref type="table" target="#tab_4">5</ref> presents the classifier report for the AutoTissue model. As noted, the epithelial classification exhibits low precision and low recall and a corresponding F 1 -score of only 0.253. In contrast, the F 1 -score for slough and eschar detection is relatively high, registering values of 0.731 and 0.802, respectively.</p><p>On the test set, the model correctly predicts 42% of pixels belonging to epithelial tissue; however, at the same time confuses epithelial tissue with healthy skin, which is part of the background or nonwound class. We attribute the model's poor performance for this class of wound tissue to the fact that the epithelial class is underrepresented in the training data set and it is challenging to label correctly within the wound bed region. Because tissue proportions are computed for regions within an open wound, epithelial tissue found in the periwound region is not considered when computing the proportions. In addition, we observed in our study that there is very poor agreement between raters in labeling epithelialization within the wound bed.</p><p>We can note that slough is sometimes misclassified as granulation and vice versa. This primarily reflects the challenges faced by wound clinicians when labeling regions in the wound bed that show the mixed presence of slough and granulation tissue where there could be considerable disagreement between raters.</p><p>Apart from testing model performance on the held-out test data as is typically reported in machine learning literature, we additionally used the 58 images which were part of the interrater agreement study to measure the agreement between predictions of the AutoTissue model and wound clinicians' labels in terms of the mIOU metric. From Table <ref type="table" target="#tab_5">6</ref>, we note that there is a relatively high degree of agreement for the intersection over union metric for all tissue types between our model's output and the clinicians' ground truth segmentation. In other words, there is high consistency between our model's segmentation results compared with experts' labels.</p><p>Finally, we measured a consensus-based evaluation of the correctness of the predictions made by our deep learning models. The set of 58 images and corresponding AutoTissue wound tissue predictions were shown to the group of wound clinicians.</p><p>We then requested the wound clinicians to collectively examine the model's predictions, discuss, and provide a quality rating based on a consensus-based agreement. This approach demonstrated that 91% (53/58) of the images were jointly rated as being very good to fair, and only 9% (5/58) of the predictions were rated as being poor. This provides an additional validation of the plausibility of our model predictions on the 4 tissue types present within the wound bed. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Principal Findings</head><p>Although we have established that there is a considerable variability in tissue labeling even between trained wound clinicians, it might appear contradictory that a deep learning model that has been trained using noisy labels can perform as well as humans. Arpit et al <ref type="bibr" target="#b36">[35]</ref> suggested that sufficiently large deep neural networks did not memorize the data when trained on data sets that had mostly correct labels. Multiple studies <ref type="bibr" target="#b37">[36]</ref><ref type="bibr" target="#b38">[37]</ref><ref type="bibr" target="#b39">[38]</ref> have also shown that a machine learning model trained using a large-scale data set of nonexpert labels can still match the performance of experts in medical image segmentation. During training, these models learn the dominant patterns observed in the data set that are shared across the data set. Therefore, to put this into the context of our own model, as the labels in our data set are pixel-wise labels (ie, there exists a label for each pixel in the image), there is an overwhelming majority of pixels that do have correct labels associated to them and a small percentage of pixels that have wrong labels associated to them owing to interrater variability. However, the noise that may be present in our labels is generally distributed across images and raters. Despite this, our models have the capacity to learn the dominant features for each of the tissue types and therefore are able to generalize well to unseen instances owing to the distributed and hierarchical representation, which is inherent in the design of deep neural network architectures and aided by the regularization schemes (eg, cutout and L2 regularizations) that we implement when training the models. Training on a very large data set, as was the case in our study, helped mitigate the effects of noisy or inaccurate pixel-wise labels. In future studies, we would want to pursue several methods <ref type="bibr" target="#b40">[39]</ref> for dealing with noisy labels in training data to further improve our segmentation results. The labeling confidence we observed for different tissue types has direct implications to the performance of the models. We note that the model performs well for tissue classes that are easier to label and for which there are less ambiguities among labelers, and vice versa.</p><p>Still a major issue within the dermatology and medical community in general is that physicians are not trained to assess dark skin well, including wounds because most medical textbooks have illustrations that feature predominantly light-colored skin, and physicians still face a huge challenge in detecting certain tissues in dark skinned individuals. An unfortunate outcome of this implicit bias is that an accurate and prompt diagnosis may not always be possible with individuals of the Black, Indigenous, and people of color communities. For example, necrosis at the wound edge, which is an important finding, is still challenging to identify on dark skin. Our wound and tissue segmentation models on the other hand have been trained on a diverse set of wound types and skin tones, and this is a major step in ensuring the models do not inadvertently learn a bias toward a particular skin tone, which naturally leads to enhancing the ability to care for all patients. Timely, accurate wound assessment and reporting is important for modern wound care practice. Rather than paper-based measurements and wound assessments, electronic wound assessments could have a large impact on the wound healing progress as such systems provide a more objective wound measurement, allow tracking of wound healing progress, and minimize errors or incomplete assessments. We believe that with the current technological advances, smartphone-based wound assessments will continue to have an increasing footprint in modern wound care practice. Therefore, we prioritized designing our deep learning models to be able to execute on a wide range of off-the-shelf smartphones, without the need for off-line processing. Both the AutoTrace and AutoTissue models have been integrated into the Swift Skin and Wound app and are very performant for real-time inference on mobile devices (Multimedia Appendix 2). Both models have a combined size of &lt;16 million parameters and a peak memory consumption of approximately 85 MB per model during inference. The inference time averaged 300 ms on mobile central processing units when tested on low-end devices and is considerably faster on newer devices that support graphics processing unit acceleration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations</head><p>The relatively poor performance of the model for epithelial tissue can be attributed to several factors, including the challenge in labeling epithelialization within the wound bed and the distinction between epithelialization and epithelial tissue, that is, intact skin resulting from healing process in the periwound region, which also appears pinkish but is not considered during labeling. While acknowledging this limitation, we believe that there would be no significant impact on pressure ulcer staging (PUSH) or wound assessment (BWAT) because epithelialization is not critical for these measures.</p><p>The Swift Skin and Wound app used for measuring and documenting wounds and the HealX fiducial markers are each Food and Drug Administration-registered Class I medical devices which are being used in over 4000 organizations across North America. We agree that verification, validation, and continued monitoring of artificial intelligence performance, including understanding the way outputs are used are critical and are the core to deployment of such models. This study documents some, but not all, of the extensive validation undertaken as part of our design, development, risk management, and regulatory processes. The deep learning models reported in this manuscript have been integrated into the Skin and Wound device app but are yet to be deployed on a wide scale in these organizations. The predictions from this model serve to assist clinicians to document wounds in an objective manner given that our inter-and intrarater studies have shown that there is a high degree of variability when humans manually detect and estimate wound tissue proportions. In the mobile app, the models' outputs serve an informative role and do not constitute diagnosis or therapy. All Swift Skin and Wound users are provided both live training and training materials, wherein these issues are addressed. We continue to monitor the performance of all models after deployment and regularly assess all our products to determine whether changes should result in reclassification or premarket notification or authorization. The models discussed in this work were assessed through our regulatory process to not cause such a change in classification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Significant interrater variability in visual estimation of tissue proportions by a cohort of wound care clinicians reflects the subjective challenge of tissue typing. Epithelialization is the most varied measurement and can be linked to the challenges observed in clinical practice in identifying that tissue type. To reduce ambiguity and provide objectivity in tissue identification, we present a framework for deep learning-based wound segmentation and tissue segmentation that is capable of running in near real time on off-the-shelf smartphones. To the best of our knowledge, our models have been trained using a chronic wound image data set that is not only magnitudes larger than any previously reported data sets but also the most diverse in terms of wound types and skin tones allowing for unbiased, robust models to be trained. These models are able to provide plausible predictions of tissue types and allow accurate and objective tissue proportions to be computed. This will help to improve objectivity in downstream tasks such as pressure ulcer staging, healing risk prediction, identification on nonhealing wounds, adjustment of treatment options and may ultimately lead to improved healing rates for chronic wounds.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. The web-based image annotation tool used for the interrater agreement study.</figDesc><graphic coords="5,56.69,82.36,481.86,361.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Sample images from the data set. The blue-white sticker seen in the images is the Food and Drug Administration-registered HealX calibrant used with the Swift Skin and Wound app for color-correction and scale calibration. Note variations in terms of viewing angles and distances, background, wound types, severity, skin tone, and wound sizes.</figDesc><graphic coords="6,56.69,132.87,481.89,495.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. A high-level overview of AutoTissue, the proposed fully-automated wound and tissue segmentation approach.</figDesc><graphic coords="7,56.69,82.34,481.89,158.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Diagram depicting the relationship between scaling factor and potential information loss owing to downscaling and the proposed approach. Note that scaling factor x is much larger than y as shown in the diagram.</figDesc><graphic coords="7,56.69,499.22,481.86,199.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. A graphical representation of the AutoTrace model for wound segmentation. ReLu: Rectified Linear Unit.</figDesc><graphic coords="8,56.69,335.21,481.91,383.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>as the JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 8 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes) Ramachandram et al JMIR MHEALTH AND UHEALTH XSL • FO RenderX encoder. The decoder is made up of 4 blocks; each of which consists of a single 2-dimensional bilinear upsampling layer followed by 2 depth-wise convolution layers.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Graphical representation of the AutoTissue architecture for wound tissue segmentation.</figDesc><graphic coords="9,56.69,220.33,481.91,383.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>JMIR</head><label></label><figDesc>Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 9 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes) Ramachandram et al JMIR MHEALTH AND UHEALTH XSL • FO RenderX clinicians to label at 1-week intervals. Thus, each image has a set of 3 labels provided by the same clinician.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. The variability between raters in labeling different tissue regions is visualized in this figure. The colors of the labels correspond to different tissue types: red corresponding to granulation, pink to epithelial, yellow to slough, and green to eschar.</figDesc><graphic coords="10,56.69,113.56,481.86,342.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Box plot showing difference (in percentages) between computed tissue proportions and visual estimates for different tissue types in the rater agreement study. Negative differences indicate overestimation of rater's visual estimation. Scatter plot shows actual distribution of data points for computed differences in tissue proportions. Red triangle point indicates the mean.</figDesc><graphic coords="11,56.69,357.75,481.88,383.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Clinician's confidence in tissue identification.</figDesc><graphic coords="12,56.69,213.47,481.86,190.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 10 .Figure 11 .</head><label>1011</label><figDesc>Figure 10. A graphical representation of mean intersection over union (IOU) which varies from 0.0 (no overlap) to 1.0 (perfect overlap).</figDesc><graphic coords="12,56.69,574.11,481.86,93.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. Normalized confusion matrix for the AutoTissue model on the held-out test set. Background (BG) includes all nonwound bed pixels including healthy tissue and background, HLX represents the calibrant sticker used for computing accurate wound measurement. EPI: epithelial; ESC: eschar; GRA: granulation; SLO: slough.</figDesc><graphic coords="14,56.69,102.72,481.94,167.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 13 .</head><label>13</label><figDesc>Figure13. A wound region where pinkish tissue outside the wound bed is labeled as background in our training data set, as we are only interested in tissues within the wound bed. Note that these pinkish regions share similar appearance as tissues belonging to the epithelial class. BG: background.</figDesc><graphic coords="14,56.69,307.25,481.86,201.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,56.69,92.45,482.00,399.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Comparison of wound image data sets used for wound segmentation model training.</figDesc><table><row><cell>Study</cell><cell>Database used</cell><cell>Type</cell><cell>Total images in training set</cell><cell>Acquisition settings</cell></row><row><cell>Lu et al [16]</cell><cell>Medetec</cell><cell>Public</cell><cell>&lt;500</cell><cell>Unspecified</cell></row><row><cell>Yadav et al [18]</cell><cell>Medetec</cell><cell>Public</cell><cell>77</cell><cell>Unspecified</cell></row><row><cell>Goyal et al [17]</cell><cell>Lancashire DFU a database</cell><cell>Proprietary</cell><cell>600</cell><cell>Controlled, DSLR b , and flash</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>used</cell></row><row><cell>Li et al [19]</cell><cell>Hospital+internet search</cell><cell>Proprietary</cell><cell>950</cell><cell>Unspecified</cell></row><row><cell>Chakraborty [20]</cell><cell>Medetec+proprietary data</cell><cell>Mixed</cell><cell>153</cell><cell>Unspecified</cell></row><row><cell>Wang et al [21]</cell><cell>NYU c wound image database</cell><cell>Proprietary</cell><cell>500</cell><cell>Unspecified</cell></row><row><cell>Scebba et al [22]</cell><cell>SWISSWOU, Medtec, FUSC SIH d</cell><cell>Public</cell><cell>&lt;300</cell><cell>Unspecified</cell></row><row><cell>This study</cell><cell>Swift Wound Data Set</cell><cell>Proprietary</cell><cell>Approximately 465,000</cell><cell>Uncontrolled and mobile</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>phone camera</cell></row><row><cell cols="2">a DFU: diabetic foot ulcer.</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">b DSLR: digital single-lens reflex camera.</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">c NYU: New York University.</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">d SIH: secondary intention healing.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Interrater agreement intraclass correlation for tissue proportions that were computed from wound images labeled by wound clinicians in our study.</figDesc><table><row><cell>Intraclass correlation</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Intrarater intraclass correlation for tissue proportions that were computed from wound images labeled by wound clinicians in our study.</figDesc><table><row><cell>Rater</cell><cell>Epithelial</cell><cell>Granulation</cell><cell>Slough</cell><cell>Eschar</cell></row><row><cell>Rater 1</cell><cell>0.785</cell><cell>0.789</cell><cell>0.843</cell><cell>0.803</cell></row><row><cell>Rater 2</cell><cell>0.410</cell><cell>0.685</cell><cell>0.836</cell><cell>0.840</cell></row><row><cell>Rater 3</cell><cell>0.535</cell><cell>0.729</cell><cell>0.641</cell><cell>0.493</cell></row><row><cell>Rater 4</cell><cell>0.475</cell><cell>0.806</cell><cell>0.745</cell><cell>0.809</cell></row><row><cell>Rater 5</cell><cell>0.757</cell><cell>0.958</cell><cell>0.986</cell><cell>0.963</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Interrater agreement in identifying wound tissue types.</figDesc><table><row><cell>Measure of reliability</cell><cell>Epithelial</cell><cell>Granulation</cell><cell>Slough</cell><cell>Eschar</cell></row><row><cell>Krippendorff α</cell><cell>.014</cell><cell>.664</cell><cell>.415</cell><cell>.379</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5 .</head><label>5</label><figDesc>Classification report for the AutoTissue model.</figDesc><table><row><cell>Metric</cell><cell>Epithelial</cell><cell>Granulation</cell><cell>Slough</cell><cell>Eschar</cell><cell>Average</cell></row><row><cell>Precision</cell><cell>0.180</cell><cell>0.623</cell><cell>0.783</cell><cell>0.759</cell><cell>0.586</cell></row><row><cell>Recall</cell><cell>0.424</cell><cell>0.693</cell><cell>0.685</cell><cell>0.850</cell><cell>0.663</cell></row><row><cell>F 1</cell><cell>0.253</cell><cell>0.656</cell><cell>0.731</cell><cell>0.802</cell><cell>0.610</cell></row><row><cell>Sensitivity</cell><cell>0.424</cell><cell>0.693</cell><cell>0.685</cell><cell>0.850</cell><cell>0.663</cell></row><row><cell>Specificity</cell><cell>0.603</cell><cell>0.772</cell><cell>0.862</cell><cell>0.825</cell><cell>0.765</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 6 .</head><label>6</label><figDesc>Interrater agreement intraclass correlation for per-tissue intersection over union between AutoTissue and expert labelers.</figDesc><table><row><cell>Intraclass correlation</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 2 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 3 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 4 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 5 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 6 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 7 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 10 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 11 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_8"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 13 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_9"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 14 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_10"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 15 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_11"><p>JMIR Mhealth Uhealth 2022 | vol. 10 | iss. 4 | e36977 | p. 19 https://mhealth.jmir.org/2022/4/e36977 (page number not for citation purposes)</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors would like to thank <rs type="person">Dr Bob Bartlett</rs> and <rs type="person">Dr Sheila Wang</rs> for their helpful suggestions in the preparation of this manuscript.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest</head><p>DR, JLRG, RDJF, and JA are current employees of Swift Medical Inc. At the time this research was conducted, JLRG was attached to the Division of Experimental Surgery, Department of Surgery, McGill University, Quebec, and RDJF was an adjunct Professor at the Arthur Labatt Family School of Nursing, Western University, Ontario.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Multimedia Appendix 1</head><p>Overview of research approach and additional results.</p><p>[PDF File (Adobe PDF File), 8233 KB-Multimedia Appendix 1]</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Multimedia Appendix 2</head><p>Screen capture of our mobile app implementation of wound tissue segmentation.</p><p>[PDF File (Adobe PDF File), 310 KB-Multimedia <ref type="bibr">Appendix</ref>  This is an open-access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in JMIR mHealth and uHealth, is properly cited. The complete bibliographic information, a link to the original publication on https://mhealth.jmir.org/, as well as this copyright and license information must be included.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="16,384.16,794.25,168.59,6.30;16,42.52,794.25,109.94,6.30;16,440.71,802.65,112.05,6.30" xml:id="b0">
+	<analytic>
+		<title/>
+		<ptr target="https://mhealth.jmir.org/2022/4/e36977" />
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Mhealth Uhealth</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="36977" to="36993" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,46.27,72.37,3.75,9.00;17,66.52,72.37,467.44,9.00;17,66.52,84.37,486.26,9.00;17,66.52,96.37,43.33,9.00" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Chronic wounds: current status, available strategies and emerging therapeutic solutions</title>
+		<author>
+			<persName><forename type="first">Las</forename><surname>Heras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Igartua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Santos</forename><forename type="middle">-</forename><surname>Vizcaino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jconrel.2020.09.039</idno>
+		<idno>Medline: 32971198</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Control Release</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="page" from="532" to="550" />
+			<date type="published" when="2020-12-10">2020 Dec 10</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,46.27,108.37,3.75,9.00;17,66.52,108.37,486.25,9.00;17,66.52,120.37,397.11,9.00;17,66.52,132.37,234.71,9.00" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Human skin wounds: a major and snowballing threat to public health and the economy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kirsner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Hunt</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2009.00543.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="763" to="771" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="17,46.27,144.37,3.75,9.00;17,66.52,144.37,478.62,9.00;17,66.52,156.37,486.25,9.00;17,66.52,168.37,43.33,9.00" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Economic burden of illness associated with diabetic foot ulcers in Canada</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harlock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jegathisawaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Goeree</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12913-015-0687-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Serv Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<date type="published" when="2015-01-22">2015 Jan 22</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text. Medline: 25608648</note>
+</biblStruct>
+
+<biblStruct coords="17,46.27,180.37,3.75,9.00;17,66.52,180.37,476.90,9.00;17,66.52,192.37,457.65,9.00" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">How precise is the evaluation of chronic wounds by health care professionals?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stremitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoelzenbein</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1742-481X.2007.00334.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="156" to="161" />
+			<date type="published" when="2007-06">2007 Jun</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="17,46.27,204.37,3.75,9.00;17,66.52,204.37,463.47,9.00" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Chronic wound assessment</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Bates-Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nurs Clin North Am</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="799" to="845" />
+			<date type="published" when="1999-12">1999 Dec</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 10523437</note>
+</biblStruct>
+
+<biblStruct coords="17,46.27,216.37,3.75,9.00;17,66.52,216.37,486.25,9.00;17,66.52,228.37,486.25,9.00;17,66.52,240.37,323.63,9.00" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Revised national pressure ulcer advisory panel pressure injury staging system: revised pressure injury staging system</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Edsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mcnichol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sieggreen</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/WON.0000000000000281</idno>
+		<idno>Medline: 27749790</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Ostomy Continence Nurs</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="585" to="597" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="17,46.27,252.37,3.75,9.00;17,66.52,252.37,486.34,9.00;17,66.52,264.37,154.85,9.00" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The evolving field of wound measurement techniques: a literature review</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Khoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jansen</surname></persName>
+		</author>
+		<idno>Medline: 27377609</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="175" to="181" />
+			<date type="published" when="2016-06">2016 Jun</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="17,46.27,276.37,3.75,9.00;17,66.52,276.37,472.79,9.00;17,66.52,288.37,486.29,9.00;17,66.52,300.37,43.33,9.00" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Wound measurement techniques: comparing the use of ruler method, 2D imaging and 3D scanner</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wollak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Shah</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jccw.2015.02.001</idno>
+		<idno>Medline: 26199893</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Clin Wound Spec</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="52" to="57" />
+			<date type="published" when="2015-02-27">2015 Feb 27</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="17,46.27,312.37,3.75,9.00;17,66.52,312.37,466.94,9.00;17,66.52,324.37,86.94,9.00" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Snakes: active contour models</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Witkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Terzopoulos</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf00133570</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Comput Vision</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="321" to="331" />
+			<date type="published" when="1988-01">1988 Jan</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,336.37,497.30,9.00;17,66.52,348.37,246.23,9.00" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Fast approximate energy minimization via graph cuts</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Boykov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Veksler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zabih</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/34.969114</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Pattern Anal Machine Intell</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1222" to="1239" />
+			<date type="published" when="2001-11">2001 Nov</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,360.37,494.05,9.00;17,66.52,372.37,475.07,9.00;17,66.52,384.37,247.24,9.00" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Multi-dimensional color histograms for segmentation of wounds in images</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fexa</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/11559573_123</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2nd International Conference Image Analysis and Recognition. 2005 Presented at: ICIAR &apos;05</title>
+		<meeting>the 2nd International Conference Image Analysis and Recognition. 2005 Presented at: ICIAR &apos;05<address><addrLine>Toronto, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">September 28-30, 2005</date>
+			<biblScope unit="page" from="1014" to="1022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,396.37,496.10,9.00;17,66.52,408.37,486.32,9.00" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">How robust is the SVM wound segmentation?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fexa</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/norsig.2006.275274</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Signal Processing Symposium. 2006 Presented at: NORSIG &apos;06</title>
+		<meeting>the 7th Nordic Signal Processing Symposium. 2006 Presented at: NORSIG &apos;06<address><addrLine>Reykjavik, Iceland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006-09">June 7-9, 2006</date>
+			<biblScope unit="page" from="50" to="53" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,420.37,486.01,9.00;17,66.52,432.37,382.92,9.00;17,66.52,444.37,214.16,9.00" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Area determination of diabetic foot ulcer images using a cascaded two-stage SVM-based classification</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Strong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tulu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TBME.2016.2632522</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2098" to="2109" />
+			<date type="published" when="2017-09">2017 Sep</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,456.37,501.90,9.00;17,66.52,468.37,471.74,9.00;17,66.52,480.37,263.25,9.00" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Automated wound identification system based on image segmentation and artificial neural networks</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sacan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/bibm.2012.6392633</idno>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Bioinformatics and Biomedicine</title>
+		<meeting><address><addrLine>Philadelphia, PA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012-10-04">2012. October 4-7, 2012</date>
+			<biblScope unit="page" from="1" to="4" />
+		</imprint>
+	</monogr>
+	<note>BIBM &apos;12</note>
+</biblStruct>
+
+<biblStruct coords="17,50.85,492.37,501.91,9.00;17,66.52,504.37,486.24,9.00;17,66.52,516.37,214.72,9.00" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A unified framework for automatic wound segmentation and analysis with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kochhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Warren</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/EMBC.2015.7318881</idno>
+		<idno>Medline: 26736781</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Int Conf IEEE Eng Med Biol Soc</title>
+		<imprint>
+			<biblScope unit="volume">2015</biblScope>
+			<biblScope unit="page" from="2415" to="2418" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,528.37,501.90,9.00;17,66.52,540.37,274.70,9.00" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Wound intensity correction and segmentation with convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cpe.3927</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Concurr Comput</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2017-03-25">2017 Mar 25</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,552.37,501.90,9.00;17,66.52,564.37,476.74,9.00" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Fully convolutional networks for diabetic foot ulcer segmentation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spragg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Systems, Man, and Cybernetics</title>
+		<imprint>
+			<date type="published" when="2017-10-05">2017. October 5-8, 2017</date>
+		</imprint>
+	</monogr>
+	<note>SMC &apos;17</note>
+</biblStruct>
+
+<biblStruct coords="17,66.52,576.37,263.34,9.00" xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Banff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Canada</forename><forename type="middle">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1109/smc.2017.8122675</idno>
+		<imprint>
+			<biblScope unit="page" from="618" to="623" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,588.37,494.96,9.00;17,66.52,600.37,459.95,9.00" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Segmentation of chronic wound areas by clustering techniques using selected color space</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Manohar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<idno type="DOI">10.1166/jmihi.2013.1124</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Imaging Health Inform</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="29" />
+			<date type="published" when="2013-03-01">2013 Mar 01</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,612.37,491.39,9.00;17,66.52,624.37,469.74,9.00;17,66.52,636.37,85.27,9.00" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A composite model of wound segmentation based on traditional methods and deep neural networks</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1155/2018/4149103</idno>
+		<idno>Medline: 29955227</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Intell Neurosci</title>
+		<imprint>
+			<biblScope unit="page">4149103</biblScope>
+			<date type="published" when="2018-05-31">2018 May 31. 2018</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="17,50.85,648.37,501.99,9.00;17,66.52,660.37,135.84,9.00" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Computational approach for chronic wound tissue characterization</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.imu.2019.100162</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inform Med Unlocked</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">100162</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,672.37,501.78,9.00;17,66.52,684.37,395.79,9.00;17,66.52,696.37,212.48,9.00" xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Fully automatic wound segmentation with deep convolutional neural networks. Sci Rep</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Dhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rostami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niezgoda</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-020-78799-w</idno>
+		<imprint>
+			<date type="published" when="2020-12-14">2020 Dec 14</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">21897</biblScope>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="17,50.85,708.37,484.32,9.00;17,66.52,720.37,452.68,9.00" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Detect-and-segment: a deep learning approach to automate wound image segmentation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scebba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Catanzaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mihai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Distler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.imu.2022.100884</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inform Med Unlocked</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">100884</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,50.85,732.37,501.91,9.00;17,66.52,744.37,471.90,9.00;17,66.52,756.37,207.50,9.00;17,384.16,794.25,168.59,6.30;17,42.52,794.25,109.94,6.30;17,440.71,802.65,112.05,6.30" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Segmentation and analysis of leg ulcers color images</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gonzaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Alves</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/miar.2001.930300</idno>
+		<ptr target="https://mhealth.jmir.org/2022/4/e36977" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Workshop on Medical Imaging and Augmented Reality</title>
+		<meeting>the International Workshop on Medical Imaging and Augmented Reality<address><addrLine>Hong Kong, China</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001-06-10">2001. June 10-12. 2001. 2022</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="36977" to="36994" />
+		</imprint>
+	</monogr>
+	<note>Presented at: MIAR &apos;01. page number not for citation purposes</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,72.37,501.91,9.00;18,66.52,84.37,477.14,9.00;18,66.52,96.37,218.05,9.00" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Fully convolutional networks for semantic segmentation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shelhamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Darrell</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2015.7298965</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2015 IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the 2015 IEEE Conference on Computer Vision and Pattern Recognition<address><addrLine>Boston, MA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-06-07">2015. June 7-12, 2015</date>
+			<biblScope unit="page" from="3431" to="3440" />
+		</imprint>
+	</monogr>
+	<note>CVPR &apos;15</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,108.37,493.00,9.00;18,66.52,120.37,464.84,9.00" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Intraclass correlation -a discussion and demonstration of basic features</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liljequist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Elfving</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Skavberg</forename><surname>Roaldsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0219854</idno>
+		<idno>Medline: 31329615</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">219854</biblScope>
+			<date type="published" when="2019-07-22">2019 Jul 22</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,132.37,502.00,9.00;18,66.52,144.37,103.30,9.00" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Computing Krippendorff &apos;s alpha-reliability</title>
+		<idno>2022-04-02</idno>
+		<ptr target="http://repository.upenn.edu/asc_papers/43" />
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Pennsylvania</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,50.85,156.37,500.67,9.00" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Yolov3: an incremental improvement</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Redmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Farhadi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">arXiv. Preprint posted online April</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,168.37,497.16,9.00;18,66.52,180.37,486.27,9.00;18,66.52,192.37,85.27,9.00" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Attention gated networks: learning to leverage salient regions in medical images</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schlemper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Oktay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schaap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heinrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kainz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Glocker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.media.2019.01.012</idno>
+		<idno>Medline: 30802813</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Image Anal</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="197" to="207" />
+			<date type="published" when="2019-04">2019 Apr</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,204.37,498.92,9.00;18,66.52,216.37,486.25,9.00;18,66.52,228.37,117.22,9.00" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Xception: deep learning with depthwise separable convolutions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chollet</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2017.195</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2017 IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the 2017 IEEE Conference on Computer Vision and Pattern Recognition<address><addrLine>Honolulu, HI</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017-07-21">2017. July 21-26, 2017</date>
+			<biblScope unit="page" from="1800" to="1807" />
+		</imprint>
+	</monogr>
+	<note>CVPR &apos;17</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,240.37,495.79,9.00;18,66.52,252.37,241.69,9.00" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Dropout: a simple way to prevent neural networks from overfitting</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krizhevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salakhutdinov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mach Learn Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">56</biblScope>
+			<biblScope unit="page" from="1929" to="1958" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,50.85,264.37,474.49,9.00;18,66.52,276.37,486.24,9.00;18,66.52,288.37,45.83,9.00" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Efficientnet: rethinking model scaling for convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Le</surname></persName>
+		</author>
+		<idno>PMLR &apos;19</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 36th International Conference on Machine Learning</title>
+		<meeting>the 36th International Conference on Machine Learning<address><addrLine>Long Beach, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-06-09">2019. June 9-15. 2019</date>
+			<biblScope unit="page" from="6105" to="6114" />
+		</imprint>
+	</monogr>
+	<note>Presented at</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,300.37,501.92,9.00;18,66.52,312.37,135.97,9.00" xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Improved regularization of convolutional neural networks with cutout</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Devries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno>arXiv. Preprint posted online August 15</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,324.37,498.30,9.00;18,66.52,336.37,36.80,9.00" xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Loshchilov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hutter</surname></persName>
+		</author>
+		<title level="m">Decoupled weight decay regularization. arXiv. Preprint posted online November 14</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,348.37,479.63,9.00;18,66.52,360.37,196.10,9.00" xml:id="b35">
+	<monogr>
+		<idno>2022-04-13</idno>
+		<ptr target="https://dataverse.scholarsportal.info/dataverse/jrg_experimental_surgery" />
+		<title level="m">Scholars Portal Dataverse</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>McGill University Dataverse</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,50.85,372.37,501.92,9.00;18,66.52,384.37,477.28,9.00;18,66.52,396.37,144.47,9.00" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A closer look at memorization in deep networks</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Arpit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jastrzębski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ballas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Krueger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kanwal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 34th International Conference on Machine Learning</title>
+		<meeting>the 34th International Conference on Machine Learning<address><addrLine>Sydney, Australia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017-08-06">2017. August 6-11, 2017</date>
+			<biblScope unit="page" from="233" to="242" />
+		</imprint>
+	</monogr>
+	<note>ICML &apos;17</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,408.37,496.64,9.00;18,66.52,420.37,484.79,9.00;18,66.52,432.37,203.42,9.00" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Adding seemingly uninformative labels helps in low data regimes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Matsoukas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dembrower</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Konuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 37th International Conference on Machine Learning</title>
+		<meeting>the 37th International Conference on Machine Learning</meeting>
+		<imprint>
+			<date type="published" when="2020-07-13">2020. July 13-18, 2020</date>
+			<biblScope unit="page" from="6775" to="6784" />
+		</imprint>
+	</monogr>
+	<note>ICML &apos;20</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,444.37,491.29,9.00;18,66.52,456.37,474.31,9.00;18,66.52,468.37,486.24,9.00" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Can masses of non-experts train highly accurate image classifiers? A crowdsourcing approach to instrument segmentation in laparoscopic images</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Maier-Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mersmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kondermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bodenstedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stock</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-10470-6_55</idno>
+		<idno>Medline: 25485409</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Image Comput Comput Assist Interv</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">Pt 2</biblScope>
+			<biblScope unit="page" from="438" to="445" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,50.85,480.37,501.98,9.00;18,66.52,492.37,486.34,9.00;18,66.52,504.37,43.33,9.00" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Large-scale medical image annotation with crowd-powered algorithms</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Heim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Roß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Seitel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>März</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stieltjes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eisenmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/1.JMI.5.3.034002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Imaging (Bellingham)</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">34002</biblScope>
+			<date type="published" when="2018-07">2018 Jul</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text. Medline: 30840724</note>
+</biblStruct>
+
+<biblStruct coords="18,50.85,516.37,482.51,9.00;18,66.52,528.37,467.88,9.00;18,66.52,540.37,85.27,9.00" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Deep learning with noisy labels: exploring techniques and remedies in medical image analysis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Karimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Warfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gholipour</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.media.2020.101759</idno>
+		<idno>Medline: 32623277</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Image Anal</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">101759</biblScope>
+			<date type="published" when="2020-10">2020 Oct</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

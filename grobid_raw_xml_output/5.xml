@@ -1,0 +1,2538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Surgical site infection and costs in low-and middle-income countries: A systematic review of the economic burden</title>
+				<funder ref="#_nXEQ4nS">
+					<orgName type="full">National Institute of Health Research</orgName>
+					<orgName type="abbreviated">NIHR</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-06-04">June 4, 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Monahan</surname></persName>
+							<idno type="ORCID">0000-0002-1175-9421</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Translational Medicine</orgName>
+								<orgName type="department" key="dep2">Heritage Building</orgName>
+								<orgName type="institution">NIHR Global Health and Global Surgery Unit</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Institute of Applied Health</orgName>
+								<orgName type="department" key="dep2">College of Medical and Dental Sciences</orgName>
+								<orgName type="laboratory">Health Economics Unit</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Susan</forename><surname>Jowett</surname></persName>
+							<idno type="ORCID">0000-0001-8936-3745</idno>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Institute of Applied Health</orgName>
+								<orgName type="department" key="dep2">College of Medical and Dental Sciences</orgName>
+								<orgName type="laboratory">Health Economics Unit</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Pinkney</surname></persName>
+							<idno type="ORCID">0000-0001-7320-6673</idno>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Institute of Applied Health</orgName>
+								<orgName type="department" key="dep2">College of Medical and Dental Sciences</orgName>
+								<orgName type="institution" key="instit1">Birmingham Surgical Trials Consortium</orgName>
+								<orgName type="institution" key="instit2">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Brocklehurst</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Translational Medicine</orgName>
+								<orgName type="department" key="dep2">Heritage Building</orgName>
+								<orgName type="institution">NIHR Global Health and Global Surgery Unit</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Institute of Applied Health</orgName>
+								<orgName type="department" key="dep2">College of Medical and Dental Sciences</orgName>
+								<orgName type="institution" key="instit1">Birmingham Surgical Trials Consortium</orgName>
+								<orgName type="institution" key="instit2">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dion</forename><forename type="middle">G</forename><surname>Morton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Translational Medicine</orgName>
+								<orgName type="department" key="dep2">Heritage Building</orgName>
+								<orgName type="institution">NIHR Global Health and Global Surgery Unit</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Institute of Applied Health</orgName>
+								<orgName type="department" key="dep2">College of Medical and Dental Sciences</orgName>
+								<orgName type="institution" key="instit1">Birmingham Surgical Trials Consortium</orgName>
+								<orgName type="institution" key="instit2">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zainab</forename><surname>Abdali</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Institute of Applied Health</orgName>
+								<orgName type="department" key="dep2">College of Medical and Dental Sciences</orgName>
+								<orgName type="laboratory">Health Economics Unit</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Tracy</forename><forename type="middle">E</forename><surname>Roberts</surname></persName>
+							<email>*t.e.roberts@bham.ac.uk</email>
+							<idno type="ORCID">0000-0002-0624-0537</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Translational Medicine</orgName>
+								<orgName type="department" key="dep2">Heritage Building</orgName>
+								<orgName type="institution">NIHR Global Health and Global Surgery Unit</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Institute of Applied Health</orgName>
+								<orgName type="department" key="dep2">College of Medical and Dental Sciences</orgName>
+								<orgName type="laboratory">Health Economics Unit</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">University Magna Graecia of Catanzaro</orgName>
+								<address>
+									<country key="IT">ITALY</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Surgical site infection and costs in low-and middle-income countries: A systematic review of the economic burden</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-06-04">June 4, 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FACD670A9691CD859847F0733A799C22</idno>
+					<idno type="DOI">10.1371/journal.pone.0232960</idno>
+					<note type="submission">Received: February 12, 2020 Accepted: April 24, 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Surgical site infection (SSI) is a worldwide problem which has morbidity, mortality and financial consequences. The incidence rate of SSI is high in Low-and Middle-Income countries (LMICs) compared to high income countries, and the costly surgical complication can raise the potential risk of financial catastrophe.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objective</head><p>The aim of the study is to critically appraise studies on the cost of SSI in a range of LMIC studies and compare these estimates with a reference standard of high income European studies who have explored similar SSI costs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>A systematic review was undertaken using searches of two electronic databases, EMBASE and MEDLINE In-Process &amp; Other Non-Indexed Citations, up to February 2019. Study characteristics, comparator group, methods and results were extracted by using a standard template.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Studies from 15 LMIC and 16 European countries were identified and reviewed in full. The additional cost of SSI range (presented in 2017 international dollars) was similar in the LMIC</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Mortality within 30 days of surgery is the third largest contributor to global deaths <ref type="bibr" target="#b0">[1]</ref>. Surgical Site Infection (SSI) is linked to 38% of deaths in patients with SSI <ref type="bibr" target="#b1">[2]</ref>. SSI is common, associated with increased patient morbidity and mortality <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>, recognised globally as a problem and shown to represent a substantial financial burden <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. In comparison to the relatively high income countries (HIC) of Western Europe, the incidence rate of SSIs is much greater in Low-and Middle-Income Countries (LMIC) <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref> and here the majority of the hospital care cost is borne by the patient <ref type="bibr" target="#b8">[9]</ref>. In the LMIC setting, the risk of acquiring an SSI substantially increases the overall risk of financial catastrophe-a situation in which health care spending on this event exceeds 10% of annual household expenditure <ref type="bibr" target="#b9">[10]</ref>.</p><p>Identifying appropriate solutions to combat SSI is of global interest <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12]</ref>. Recently completed and ongoing research studies to find the most cost-effective prevention strategies for SSI, are having mixed success <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>. The majority of this research is randomised controlled trials (RCTs) with a parallel economic evaluation based in HIC <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>. Plans are in place to carry out similar studies exploring cost-effective strategies to combat SSI in the LMIC setting <ref type="bibr" target="#b16">[17]</ref>. Significant challenges hamper clinical trials in LMICs relating to lack of infrastructure and limited human resources <ref type="bibr" target="#b18">[18]</ref>. This limits the data that can be feasibly collected in contrast to trials in HICs settings.</p><p>A cost of illness (COI) study quantifies how much society is spending on a particular disease and represents the cost burden averted if the disease was eradicated <ref type="bibr" target="#b19">[19]</ref>. Understanding the additional cost burden imposed by the complications of surgery such as those caused by an SSI, helps to strengthen the case for identifying interventions to reduce such complications <ref type="bibr" target="#b20">[20]</ref>. This in turn provides the justification for undertaking economic evaluations to present relevant evidence to inform the prioritization of resource allocation decisions for interventions to reduce SSI complications.".</p><p>We identified five main challenges in measuring the additional costs associated with an SSI. First, different definitions of an SSI affects which patients are considered to have an SSI <ref type="bibr" target="#b21">[21]</ref>. Second, as an SSI can manifest beyond hospital discharge, approaches for post-discharge SSI confirmation will impact SSI detection rate <ref type="bibr" target="#b22">[22,</ref><ref type="bibr" target="#b23">23]</ref>. Follow-up difficulties can be exacerbated for surgical patients in low income settings due to high out-of-pocket transportation costs in accessing healthcare <ref type="bibr" target="#b24">[24]</ref>.</p><p>Third, estimating the additional cost of SSI relies on the choice of the comparator, which is patients without SSI. Studies with a case-control design try to address potential confounding with an adjusted comparison where each of the exposure and control patients have matching confounding variables (e.g. same age, gender, surgical procedure). Yet, the choice of matching variables should be considered carefully in case-control studies because of its impact on the efficiency and validity of the results <ref type="bibr" target="#b25">[25]</ref>.</p><p>Fourth, SSI costs are only as representative as the hospital settings used. Resource use and costs are known to differ across urban and rural settings and different patient population mixes from different surgical procedures can influence the cost of SSI, limiting the generalisability across procedures. Finally, SSIs vary in severity, and those SSIs that are severe can substantially increase costs and inpatient length of stay <ref type="bibr" target="#b26">[26]</ref>. However, the distinction between SSI severity levels is open to subjective interpretation by the attending physician <ref type="bibr" target="#b27">[27]</ref>.</p><p>The objective of this study is to critically appraise and assess how the cost of SSI has been estimated in a range of LMIC studies and compare with a selection of high income European studies which explored similar SSI costs. European studies are included in the review to provide a reference standard for the LMIC studies. The aim of the comparison is to examine the costs associated with SSI (presented in international dollars) across the different settings and identify potential data gaps, and methodological considerations in each setting.</p><p>This paper is structured so that the review of the selection of European studies is presented in Part 1. An analogous review of the LMIC studies is presented in Part 2. Part 3 presents a comparison between the main finding of the reviews for the HIC and LMIC settings before the main discussion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head><p>The review followed the UK Centre for Review and Dissemination <ref type="bibr" target="#b28">[28]</ref> guidelines and Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) <ref type="bibr" target="#b29">[29]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Search strategy</head><p>The following electronic databases were searched from inception to 20 th February 2019: EMBASE and MEDLINE In-Process &amp; Other Non-Indexed Citations. Additional references were found using hand searching of relevant journal articles and Google scholar searches. Search terms used for each database are detailed in S1-S4 Files</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Eligibility criteria</head><p>Studies were included if they considered the costs associated with SSIs in European Organisation for Economic Co-operation and Development (OECD) countries <ref type="bibr" target="#b30">[30]</ref>. For the analogous review of LMIC, studies were included if they considered the economic impact of SSIs in LMICs. For both settings costs could be borne by the healthcare providers, patients, wider community and/or society. Eligible articles included cost analysis, partial or full economic evaluations (trial-based and model-based) and cost of illness studies in a European country or LMIC setting. Multi-country studies were included if at least one eligible country was included and the study's findings were reported separately for that country. Non-eligible studies were those that were not published in English, conference proceedings, protocols, commentaries, and editorials.</p><p>Study selection. The titles and abstracts of the databases' search results were screened against the eligibility criteria. A three stage categorisation process was used to determine relevant studies appropriate for inclusion, using methods described elsewhere <ref type="bibr" target="#b31">[31]</ref>. Two investigators carried out study screening and data extraction for the LMIC search (MM &amp; ZA). One investigator (MM) carried out all study screening and data extraction for the European literature search, and another investigator (ZA) undertook screening of a random 20% to assess agreement. Disagreements were resolved through discussion, a third independent investigator (TR) was sought where agreement could not be reached.</p><p>For each included study, data were extracted on the study characteristics, country setting, costs and resource use included, use of adjusted analyses, and the main results reported. The information was tabulated, and the issues faced by the individual studies in estimating the additional costs of SSI were compared narratively. For consistency across studies, costs were converted to international dollars and inflated to 2017, where appropriate. To improve comparability of cost findings, costs were adjusted by their country's Purchasing Power Parity (PPP) conversion factor <ref type="bibr" target="#b32">[32]</ref>. Where a country did not have a PPP conversion factor, an implied PPP conversion factor from the IMF was used instead <ref type="bibr" target="#b33">[33]</ref>. For inflation purposes, studies without a specified cost year were assumed to be the last year of data collection.</p><p>All included studies were assessed by a modified reporting Mu ¨ller checklist (translated into English) for COI studies and scored by their inclusion of relevant items <ref type="bibr" target="#b34">[34]</ref>. A study scored one on each aspect they had described or justified out of a possible maximum score of 36. The checklist for each study is available upon request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Part 1: European literature search</head><p>The electronic database search for the European studies yielded 588 citations. General study characteristics. The sixteen studies were published from 1992 to 2018 and data collection spanned 1987 to 2016. Studies were based in England (n = 6) <ref type="bibr" target="#b35">[35]</ref><ref type="bibr" target="#b36">[36]</ref><ref type="bibr" target="#b37">[37]</ref><ref type="bibr" target="#b38">[38]</ref><ref type="bibr" target="#b39">[39]</ref><ref type="bibr" target="#b40">[40]</ref>, Spain (n = 2) <ref type="bibr" target="#b41">[41,</ref><ref type="bibr" target="#b42">42]</ref>, Scotland (n = 2) <ref type="bibr" target="#b43">[43,</ref><ref type="bibr" target="#b44">44]</ref>, Finland (n = 1) <ref type="bibr" target="#b45">[45]</ref>, France (n = 1) <ref type="bibr" target="#b46">[46]</ref>, Switzerland (n = 1) <ref type="bibr" target="#b47">[47]</ref>, Belgium (n = 1) <ref type="bibr" target="#b48">[48]</ref>, Denmark (n = 1) <ref type="bibr" target="#b49">[49]</ref> and Germany (n = 1) <ref type="bibr" target="#b50">[50]</ref>. Table <ref type="table" target="#tab_0">1</ref> shows general characteristics of each study included in the review.</p><p>Definition of SSI. SSI was defined using the Center of Disease Control (CDC) guidelines in most of the studies <ref type="bibr" target="#b35">[35,</ref><ref type="bibr" target="#b37">37,</ref><ref type="bibr" target="#b38">38,</ref><ref type="bibr" target="#b41">41,</ref><ref type="bibr" target="#b42">42,</ref><ref type="bibr" target="#b45">45,</ref><ref type="bibr" target="#b46">46,</ref><ref type="bibr" target="#b50">50]</ref>. Other strategies for SSI confirmation included using a microbiological test <ref type="bibr" target="#b36">[36,</ref><ref type="bibr" target="#b39">39]</ref> or if a patient required antibiotic treatment for wound problems <ref type="bibr" target="#b40">[40,</ref><ref type="bibr" target="#b49">49]</ref>. Lynch et al <ref type="bibr" target="#b43">[43]</ref> defined an SSI based on pus discharge or a wound with a score of greater than ten on ASEPSIS, a scoring mechanism for postoperative SSI <ref type="bibr" target="#b51">[51]</ref>. Reilly et al <ref type="bibr" target="#b44">[44]</ref> defined an SSI as pus or painful skin inflammation indicative of cellulitis.</p><p>Patients were followed-up for the occurrence of SSI for at least 30 days <ref type="bibr" target="#b35">[35,</ref><ref type="bibr" target="#b41">41,</ref><ref type="bibr" target="#b43">43,</ref><ref type="bibr" target="#b44">44]</ref> with two studies following up SSI patients until the wound had healed <ref type="bibr" target="#b37">[37,</ref><ref type="bibr" target="#b45">45]</ref>. Approaches to diagnose post-discharge SSI included outpatient clinics or primary care visits <ref type="bibr" target="#b41">[41,</ref><ref type="bibr" target="#b44">44,</ref><ref type="bibr" target="#b45">45]</ref>, surveys/ questionnaires, <ref type="bibr" target="#b35">[35,</ref><ref type="bibr" target="#b43">43]</ref> or a home visit <ref type="bibr" target="#b37">[37]</ref>.</p><p>Patient matching. An imbalance of patient characteristics can bias and confound the cost calculation of SSI patients. This is analogous to an observational non-RCT setting where the difference in outcomes may be partially or wholly explained by factors other than the presence of SSI. Some form of patient matching in the analysis to adjust for confounding variables was used in most studies <ref type="bibr" target="#b35">[35,</ref><ref type="bibr" target="#b36">36,</ref><ref type="bibr" target="#b38">38,</ref><ref type="bibr" target="#b39">39,</ref><ref type="bibr" target="#b41">41,</ref><ref type="bibr" target="#b42">42,</ref><ref type="bibr" target="#b46">[46]</ref><ref type="bibr" target="#b47">[47]</ref><ref type="bibr" target="#b48">[48]</ref><ref type="bibr" target="#b50">50]</ref>. However, justification for the selected matching variables was given in less than half of these studies <ref type="bibr" target="#b36">[36,</ref><ref type="bibr" target="#b38">38,</ref><ref type="bibr" target="#b39">39,</ref><ref type="bibr" target="#b41">41,</ref><ref type="bibr" target="#b48">48]</ref>.</p><p>Setting &amp; procedure. Public teaching hospitals <ref type="bibr">[35-37, 39-43, 46, 47, 50]</ref> were the setting for majority of the studies with one hospital setting unclear <ref type="bibr" target="#b44">[44]</ref>, and another study referring to unspecified referral hospitals <ref type="bibr" target="#b45">[45]</ref>. Study settings were mostly restricted to a single site with only four studies involving multiple hospitals <ref type="bibr" target="#b38">[38,</ref><ref type="bibr" target="#b45">45,</ref><ref type="bibr" target="#b48">48,</ref><ref type="bibr" target="#b49">49]</ref>. Surgical procedures ranged from general surgery or multiple surgery categories (n = 8), cardiothoracic (n = 1), colorectal (n = 2), gynaecological (n = 1), and orthopaedic (n = 4). The patient population were all adult patients.</p><p>Half the studies that assessed SSI across surgical categories reported surgery category-specific costs associated with SSI <ref type="bibr" target="#b35">[35,</ref><ref type="bibr" target="#b43">43,</ref><ref type="bibr" target="#b44">44,</ref><ref type="bibr" target="#b47">47]</ref>. All of these studies showed variation of SSI costs across surgical categories. Severity of SSI was always associated with increased costs. A deep SSI was more costly compared to a superficial SSI in all studies that had severity-specific SSI costs <ref type="bibr" target="#b39">[39,</ref><ref type="bibr" target="#b47">47,</ref><ref type="bibr" target="#b49">49</ref>]. Yet, the stated approaches to classify the superficial versus deep SSI differed. Approaches to define superficial SSI included CDC criteria <ref type="bibr" target="#b49">[49]</ref>, or a treatment for an  infection at the surgical site within 30 days postoperatively <ref type="bibr" target="#b47">[47]</ref>, or were not defined <ref type="bibr" target="#b39">[39]</ref>.</p><p>Approaches to classify a deep SSI included a microbiological confirmation of tissue from a further surgery <ref type="bibr" target="#b39">[39]</ref>, or an SSI requiring surgery <ref type="bibr" target="#b47">[47]</ref> or using CDC criteria <ref type="bibr" target="#b49">[49]</ref> The sample size of SSI patients in the European studies ranged from as low as 17 patients to as high as 513 patients.</p><p>Cost components. The type of costs included and considered in each of the studies is shown in Table <ref type="table" target="#tab_2">2</ref> and<ref type="table" target="#tab_0">S1 Table.</ref> All studies considered at least some form of direct medical costs in their cost calculations. However, there was a considerable variation in the description and the number of direct medical cost items included in each study. In terms of the costs arising from the initial hospitalization of patients, the description of the included cost components ranged from an unspecified cost per bed day to a comprehensive bottom up costing of the hospital length of stay, consumables, diagnostics, overhead, reoperation and staffing costs. Nonhospital costs were also considered in some of the studies including post-discharge costs from general practitioner/ nurse visits <ref type="bibr" target="#b37">[37,</ref><ref type="bibr" target="#b41">41,</ref><ref type="bibr" target="#b43">43,</ref><ref type="bibr" target="#b44">44]</ref>, and patient/community costs of wound dressings.</p><p>To facilitate a cost comparison across studies a specified year for which the costs are applicable allows for the findings to be inflated correctly. The cost year was not stated in six studies <ref type="bibr" target="#b35">[35,</ref><ref type="bibr" target="#b40">40,</ref><ref type="bibr" target="#b43">43,</ref><ref type="bibr" target="#b45">45,</ref><ref type="bibr" target="#b46">46,</ref><ref type="bibr" target="#b50">50]</ref>. Transparency on the amount that each cost component is contributing to the additional cost of SSI clarifies which aspects of medical care are driving the additional cost burden. However, the additional cost of SSI was not broken down into their cost components in seven studies <ref type="bibr" target="#b36">[36,</ref><ref type="bibr" target="#b38">38,</ref><ref type="bibr" target="#b42">42,</ref><ref type="bibr" target="#b45">45,</ref><ref type="bibr" target="#b47">47,</ref><ref type="bibr" target="#b49">49]</ref>.</p><p>All but one study restricted costs to the perspective of the health care payer. Alfonso et al <ref type="bibr" target="#b41">[41]</ref> widened the perspective to societal and looked at direct and indirect costs associated with SSI including hospital, primary care, informal care, and productivity loss.</p><p>Resource use. The reporting of resource use of SSI and non-SSI patients was inconsistent across studies. Beyond the main resource item of hospital length of stay, there was little detail on the differential resource use of SSI and non-SSI patients. Alfonso et al <ref type="bibr" target="#b41">[41]</ref> (Spain) reported that patients with an SSI had significantly longer durations of use for hospital consumables (catheters, and antibiotics) compared with patients without an SSI. However, resource use details were omitted on general practitioner/ nurse visits and the level of informal care needed. Reilly et al <ref type="bibr" target="#b44">[44]</ref> (UK) presented a breakdown of resource use for SSI patients only.</p><p>Cost of surgical site infection. Overall there was a lack of detail in the reporting of costs for SSI and non-SSI patients. Average costs of both the respective SSI and non-SSI patients groups were omitted for the majority of studies <ref type="bibr" target="#b37">[37,</ref><ref type="bibr" target="#b41">41,</ref><ref type="bibr" target="#b42">42,</ref><ref type="bibr" target="#b44">[44]</ref><ref type="bibr" target="#b45">[45]</ref><ref type="bibr" target="#b46">[46]</ref><ref type="bibr" target="#b47">[47]</ref><ref type="bibr" target="#b48">[48]</ref><ref type="bibr" target="#b49">[49]</ref>.</p><p>Lynch et al <ref type="bibr" target="#b43">[43]</ref> had the lowest relative magnitude of cost difference with SSI costs being 1.73 times higher than non-SSI costs. The authors had estimated the costs of SSI and non-SSI patients as $3,678 and $2,116 respectively <ref type="bibr" target="#b43">[43]</ref>.</p><p>Pollard et al <ref type="bibr" target="#b36">[36]</ref> reported the highest relative magnitude of cost difference with SSI costs being 3.39 times higher than non-SSI costs. For elderly proximal femoral fracture surgery patients, they had estimated the costs of SSI and non-SSI patients to be $44,157 and $13,043 respectively. Their inclusion criteria meant that the SSI patients were those who specifically needed further surgery, representing an upper estimate of the additional costs of an SSI.</p><p>While all eligible studies had to present a cost difference between SSI and non-SSI patients, there was a lack of reporting of the average costs for the SSI and non-SSI patient groups used to calculate the difference (Table <ref type="table" target="#tab_1">2</ref>). All studies showed an elevated cost of SSI relative to non-SSI patients. The additional medical costs of SSI, which included costs incurred by the hospital and health system, ranged from $21 to $34,001 per patient.</p><p>The lowest additional cost associated of SSI was estimated in a Danish study assessing the cost-effectiveness of incisional negative pressure wound therapy in obese women after caesarean section. In addition to the cost-effectiveness results, the study also provided a perpatient cost of superficial SSI and deep SSI compared with patients who did not suffer an SSI.</p><p>The superficial SSI was defined as requiring antibiotic treatment for an infection at the surgical site within the first 30 days after the caesarean section and not requiring further surgery. The highest additional health care cost associated with SSI was estimated by Weber et al <ref type="bibr" target="#b47">[47]</ref>.</p><p>While the average additional cost of all SSI patients was $17,060, an organ space SSI approximately doubled the additional cost of an SSI in their case-control designed study. Alfonso et al <ref type="bibr" target="#b41">[41]</ref> (Spain) was the only study to adopt a broader societal perspective and included the cost of productivity loss, informal care and health care costs. They estimated the cost associated with SSI to be an additional $145,366 per patient. This estimate comprised productivity costs (78.7%) with carer costs (10.8%) and health costs (10.5%) making up the remainder. Including only the health care costs made the additional cost of SSI $15,733 per patient.</p><p>Checklist. All studies were compared against a modified reporting Mu ¨ller COI study checklist (see S1 Table for scores). Alfonso et al <ref type="bibr" target="#b41">[41]</ref> achieved the highest number of items (23 points) in the checklist with detailed descriptions of the methods used to estimate the additional costs of SSI. Turtainen et al <ref type="bibr" target="#b45">[45]</ref> achieved the lowest score (11 points) in the checklist with little to no description in the study on what was included in the SSI cost estimate and how it was derived. In general, studies scored relatively poorly in the evaluation methods and presentation of results section of the checklist but highly in the discussion and conclusions sections.   (n = 1) <ref type="bibr" target="#b62">[62]</ref>, India (n = 1) <ref type="bibr" target="#b63">[63]</ref>, Mexico (n = 1) <ref type="bibr" target="#b64">[64]</ref>,Rwanda (n = 1) <ref type="bibr" target="#b65">[65]</ref>, and South Africa (n = 1) <ref type="bibr" target="#b66">[66]</ref>. According to the World Bank classifications, the studies were part of the following income groups: Low Income Country (n = 1) <ref type="bibr" target="#b65">[65]</ref>, Lower Middle Income (n = 2) <ref type="bibr" target="#b62">[62,</ref><ref type="bibr" target="#b63">63]</ref> and Upper Middle Income (n = 12) <ref type="bibr">[52-61, 64, 66]</ref>. Table <ref type="table" target="#tab_3">3</ref> shows general characteristics of each study included in the review.</p><p>Definition of SSI. The Center of Disease Control guidelines were used in the majority of the studies to define an SSI <ref type="bibr">[52-57, 61-64, 66]</ref>. However, three studies lacked a definition of what constituted a SSI <ref type="bibr" target="#b59">[59,</ref><ref type="bibr" target="#b60">60,</ref><ref type="bibr" target="#b65">65]</ref>. One study classified a SSI based on the wound discharge culture or other SSI suggestive signs and symptoms but these were not elaborated further <ref type="bibr" target="#b58">[58]</ref>.</p><p>Post-discharge SSIs cannot be detected where there is no follow-up. In this review, patients were not followed up after hospital discharge or it was not indicated in many of the studies <ref type="bibr">[55, 56, 58-61, 63, 65, 66]</ref>. Where follow-up was specified, it was only recorded if the patient happened to return to the index hospital in two studies <ref type="bibr" target="#b54">[54,</ref><ref type="bibr" target="#b57">57]</ref>. The only specified method of follow-up in the studies was attendance of an outpatient clinic attendance a month after the patient's operation <ref type="bibr" target="#b52">[52,</ref><ref type="bibr" target="#b54">54,</ref><ref type="bibr" target="#b62">62,</ref><ref type="bibr" target="#b64">64]</ref>.</p><p>Patient matching. When estimating the additional cost burden of SSI, most of the studies did not make any adjustments in the comparison with non-SSI patients or it was unclear if adjustment had been used (Table <ref type="table" target="#tab_3">3</ref>). Justification on the inclusion of the patient matching variables was only given in one of the six studies where patient matching was utilised <ref type="bibr" target="#b56">[56]</ref>.</p><p>Setting &amp; procedure. The setting where the findings are derived from were mainly public teaching hospitals <ref type="bibr">[41, 52, 57-62, 64, 66]</ref> with three based in private hospitals <ref type="bibr" target="#b53">[53]</ref><ref type="bibr" target="#b54">[54]</ref><ref type="bibr" target="#b55">[55]</ref><ref type="bibr" target="#b63">63]</ref>. All the studies were based in single centres. Surgical procedures ranged from general surgery or multiple surgical categories (n = 5), oncological procedures (n = 4), cardiothoracic (n = 2), orthopaedic (n = 1), gastric (n = 1), general, cardiac and neurosurgery (n = 2). The patient population was broader in the LMIC studies and varied from children (n = 2), adults (n = 12) and pregnant women (n = 1). For the studies with SSI patients taken from multiple surgical categories, none reported costs of SSI by surgical category.</p><p>SSI severity increased the additional cost of SSI <ref type="bibr" target="#b54">[54,</ref><ref type="bibr" target="#b56">56]</ref>. A subgroup analysis of one study had low sample sizes for the superficial (n = 13), subcutaneous (n = 6) and deep soft SSIs (n = 1) 53 . Another study compared the severity of infections in three different types of surgical procedure, however, the reported cost was for all cases <ref type="bibr" target="#b64">[64]</ref>.</p><p>In general, studies tended to have a low number of SSI patients with the sample size of SSI patients in each study ranging from 4 patients <ref type="bibr" target="#b60">[60,</ref><ref type="bibr" target="#b63">63]</ref> to 106 patients <ref type="bibr" target="#b57">[57]</ref>. Six studies had twenty or fewer SSI patients <ref type="bibr" target="#b52">[52,</ref><ref type="bibr" target="#b53">53,</ref><ref type="bibr" target="#b56">56,</ref><ref type="bibr" target="#b59">59,</ref><ref type="bibr" target="#b60">60,</ref><ref type="bibr" target="#b63">63]</ref>.</p><p>Cost components. All studies estimated direct medical costs (Table <ref type="table" target="#tab_4">4</ref>). The lack of followup of patients beyond discharge limited most of the studies to report only inpatient hospital costs. One study had attempted to measure the direct non-medical costs, however the authors did not report it as a cost of an SSI <ref type="bibr" target="#b65">[65]</ref>. Most studies did not report the relevant year for the cost estimation (S2 Table ). The majority of studies did not break down the extent to which each cost component makes up the costs of SSI and non-SSI patients. Where cost components were reported in studies, it either included both SSI and non-SSI patients <ref type="bibr" target="#b55">[55,</ref><ref type="bibr" target="#b59">59,</ref><ref type="bibr" target="#b65">65]</ref> or was limited to only SSI patients <ref type="bibr" target="#b53">[53,</ref><ref type="bibr" target="#b54">54,</ref><ref type="bibr" target="#b61">61]</ref>.</p><p>Resource use. There was no reporting of resource use of SSI and non-SSI patients beyond hospital length of stay in any of the studies. There was partial reporting on the additional procedures or investigations for SSI <ref type="bibr" target="#b54">[54,</ref><ref type="bibr" target="#b61">61]</ref> but no detail on the total resource use by SSI and non-SSI patients.</p><p>Cost of surgical site infection. The additional cost of SSI varied considerably across the studies. All but one study showed an elevated cost of SSI relative to non-SSI patients. The study by O ¨zmen et al <ref type="bibr" target="#b52">[52]</ref> (Turkey) study looked at outcomes of patients after elective gastric cancer surgery and found that the unspecified hospital costs were non-significantly lower for superficial SSI patients compared to non-SSI patients. The calculations behind the lower SSI cost was unclear given that overall hospital costs were higher than either of the mean costs of the patient groups (SSI and non-SSI).</p><p>The additional cost of SSI ranged from $174 (Thailand) <ref type="bibr" target="#b60">[60]</ref> to $29,610 (India) <ref type="bibr" target="#b63">[63]</ref>. The lowest additional cost of SSI was from a study by Siribumrungwong et al <ref type="bibr" target="#b60">[60]</ref>. Their SSI cost was made up of undefined hospital costs of four SSI patients with no detail of the non-SSI comparator group. The highest additional cost of SSI was from a study by Tiwari et al <ref type="bibr" target="#b63">[63]</ref>. For their four patients who suffered an SSI, drug acquisition costs, length of stay and antimicrobial drugs were the main cost drivers.</p><p>Clarity on the relative magnitude of difference in cost between SSI and non-SSI patients was mixed. Half of studies did not present average costs of both SSI and non-SSI patients. The lowest relative magnitude of difference in reported costs was in Jordan where SSI costs were 1.4 times higher than non-SSI costs <ref type="bibr" target="#b59">[59]</ref>. However, it is unclear what cost items are the major contributors of the additional costs. They had estimated the costs of SSI and non-SSI patients as $31,666 and $22,329, respectively. The highest relative magnitude of difference in costs was in India where Tiwari et al <ref type="bibr" target="#b63">[63]</ref> found that SSI costs were 4.8 times higher than non-SSI costs <ref type="bibr" target="#b63">[63]</ref>. The authors had estimated the costs of SSI and non-SSI patients as $37,295 and $7,685 respectively.</p><p>Checklist. For the COI checklist, the studies achieved on average a score of 11.07 out a maximum of possible score of 36. The lack of a stated perspective and cost year reduced the scores of many of the LMIC studies. Dramowski et al <ref type="bibr" target="#b66">[66]</ref> scored the highest number of items <ref type="bibr" target="#b15">(16)</ref> in the discussion and conclusion. The lack of description of pertinent study items meant that Porras-Herna ´ndez et al <ref type="bibr" target="#b66">[66]</ref> scored the lowest <ref type="bibr" target="#b5">(6)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Part 3: Comparison between HIC European countries and LMICs</head><p>The CDC criteria were used for SSI diagnosis by most studies in both settings. The biggest methodological difference between the HIC and LMIC settings was the use of adjusted analyses for comparing SSI and non-SSI patients. Most European studies used patient matching while the opposite was true for LMIC studies. Multicentre study settings were only present in the European studies. Slightly more European studies had follow up beyond discharge but the follow-up methods varied. Sample sizes of SSI patients tended to be higher in the European studies. On the other hand, LMIC studies had marginally better reporting of the average costs of the SSI and non-SSI patient groups.</p><p>For the COI reporting checklist, the European studies achieved a higher score on average compared with the LMIC studies. In both settings, studies tended to score highly in the discussion and conclusion checklist but poorly on the evaluation methods and result presentation sections.</p><p>Statement of principal findings. This review assessed the estimated the cost burden of SSIs in the reported literature for both LMICs and a selection of European High Income Countries.</p><p>For medical costs, the additional cost of SSI was $21 to $34,000 in European studies while the additional cost attributed to SSI ranged from $174 to $29,610 in LMICs. The huge range of costs in both settings reflects the difficulty associated with accurately estimating the costs attributable to SSI and consequently limited cross-study comparability of findings. Five main challenges to the estimation of the costs are summarised below: 1. Time horizon and follow-up: Studies from both settings used the CDC criteria to define SSI, but the lack of follow-up in LMIC studies failed to meet the recommended time needed to detect an SSI. According to the CDC, the specified time horizon for an SSI to occur is up to 30 days post-surgery for non-implant operations and up to 12 months for implant operations. Where no follow-up exists, there is a risk of underestimating the true number of SSI patients and skewing the cost burden information to only patients with an inpatient SSI.</p><p>The type of follow-up method will affect the detection rate but this was rarely mentioned in studies. Inadequate IT infrastructure in LMIC healthcare systems has been implicated as the cause of poor follow up through health care pathways <ref type="bibr" target="#b67">[67]</ref>.</p><p>2. The choice of comparator was important in the estimating the additional cost burden of SSI. Most LMIC studies did not use any adjustments for potential confounders which risked producing a false estimation (overestimate or underestimate) of SSI costs due to an imbalance in the characteristics of the comparators. For example, some of the differences in costs between SSI patients and non-SSI patients could be due to greater levels of comorbidity in one group, causing a higher estimated additional cost for SSI than may otherwise be true. In contrast, the majority of the European studies did make adjustments for potential confounders but few gave justification for the included matching variables. Proper consideration of matching variables can help avoid the problem of undermatching or overmatching in case-control studies <ref type="bibr" target="#b25">[25]</ref>.</p><p>3. Over reliance on single centre studies: Both settings had an overreliance on single centre studies and the lack of multi-centre settings affected the representativeness of the findings. Greater numbers of hospitals participating and more diversity in hospital settings for each study would help strengthen the applicability and robustness of any findings. Some studies with a patient population across multiple surgical categories indicated differential additional SSI costs by procedure. However, this was only reported in the European studies and there was no clear signal on which procedures would be the costliest across these studies. Some studies had low numbers of SSI patients; cost estimation with a small sample size are prone to unreliability and imprecision. This has an impact on the interpretation of the results given that the differences in costs between SSI patients and non-SSI patients could be driven by chance or extreme values. In general, the European studies had more patients, but this could be as a result of better SSI surveillance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Lack of studies in Low Income and Lower Middle Income countries:</head><p>The LMIC studies found in the review span across different continents, patient populations, surgical procedures, income levels, health systems and cultures. However, there was an underrepresentation of studies in Low Income countries and Lower Middle Income countries making the generalisability of the overall findings to these settings more difficult.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Inconsistency in consideration of costs and narrow cost perspective:</head><p>The type of costs included will have a direct impact on the estimation of SSI costs. The cross-country cost comparison of SSI was hindered by the absence of a standardized approach in the basket of cost items included. However, even when a standardized approach is adopted as in a multinational randomised control trial, costs and resource use will differ across countries <ref type="bibr" target="#b68">[68]</ref>.</p><p>Variations in clinical practice and relative prices across countries will affect the transferability of healthcare resource use and costs <ref type="bibr" target="#b69">[69]</ref>. Despite an SSI has far-reaching resource use implications for the healthcare system, patient and community, costs from the patient's perspective were not considered in any LMIC study. The absence of patient and societal costs are concerning given the relatively high out of pocket expenditure faced by patients in LMICs. Lack of consideration of these costs is likely to underestimate the true cost burden of SSI, and one of the European studies found that the addition of informal care alone doubled the costs associated with SSI <ref type="bibr" target="#b41">[41]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Strengths and weaknesses.</head><p>The strength of this study is that it is the first systematic review to specifically investigate the economic impact of SSI in LMICs. By including a parallel review of SSI with HICs in Europe, the review offers new insight into the methodological considerations and the potential data gaps in SSI cost studies from the contrasting settings.</p><p>A limitation relates to the use of an implied PPP exchange rate for some of the LMIC settings and the English language restriction for the article inclusion criteria. A PPP exchange rate is used to adjust for the cost of living differences between countries. Relying on implied PPP rates for adjusting the comparative cost results is likely to introduce measurement error in the study findings compared to those using official PPP rates <ref type="bibr" target="#b70">[70]</ref>. A previous study looking at risk factors for child conduct problems and youth violence in LMICs reported that including only English language studies was likely to have reduced the number of potentially relevant articles by around 15% <ref type="bibr" target="#b71">[71]</ref>.</p><p>Comparison with other studies. Previous systematic reviews have looked at the costs of a SSI, mainly in high income countries <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b72">72,</ref><ref type="bibr" target="#b73">73]</ref>. Similar issues were encountered on the lack of standardized approach, insufficient detail on how costs were derived, and the failure to include societal costs. To better articulate the first two study issues, the present review added the use of a cost of illness reporting checklist to give an indication of the study transparency and comparability. In contrast to the previous systematic reviews, the search criteria of the present study were not limited by date to be as inclusive as possible. A previous systematic review established that many essential surgical interventions are cost-effective in resource poor countries <ref type="bibr" target="#b74">[74]</ref>. However, complications such as SSI can impose unforeseen additional costs in these countries, which are overlooked by most of the studies included in the paper.</p><p>Implications for practice. An SSI is the most common hospital acquired infection in LMICs <ref type="bibr" target="#b75">[75]</ref>. Preventing SSIs will decrease the financial burden of both the patient and health system. Hospital bed overcrowding is problematic in LMICs <ref type="bibr" target="#b76">[76]</ref><ref type="bibr" target="#b77">[77]</ref><ref type="bibr" target="#b78">[78]</ref> and any reduction in SSIs would help to increase capacity in bed days.</p><p>There is need for multicentre studies with large number of SSI patients to capture relevant costs and consequences of the infection across settings. The use of a standardized data collection pathway will help improve cross-study comparability. Future studies should include more detailed information on analytic approaches in the methods along with rationale and discussion of their likely impact on results. Ideally, reporting should include resource use, costs and cost categories of SSI and non-SSI patients to give more context on the key influences for the cost difference between patient groups. The identification, measurement and collection of costs should as far as possible take a societal perspective to appropriately encompass all healthcare, patient and wider society costs that may be affected by an SSI. The costs of inpatient SSI and outpatient SSI need to be differentiated given that the former is plausibly more expensive from increased inpatient bed days. Subgroup analysis would allow the heterogeneity to be examined between these groups instead of being masked in overall figures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>An SSI represents a financial burden in both high income and LMICs settings. The magnitude of the cost difference depends on the SSI definition used, severity of SSI, patient population, choice of comparator, hospital setting, and cost items included. Huge heterogeneity in design and lack of transparency has made it difficult to draw meaningful comparison across studies and countries.</p><p>We suggest that future studies endeavour to achieve the most appropriate time horizon to include appropriate complications, focus on a comparator that has a degree of matching of patient characteristics, and researchers should limit their focus on single centre studies to increase generalisability. These three items are typically within the gift of researchers during the design stage. The impact of SSI in low-income countries is likely to be severe and more research in these setting is required with particular care on choosing the right perspective for the collection of cost data, which is key to ensuring the appropriate financial burden captured. Agreement on what would the composition of a standardised basket of items of costs to include would also be extremely helpful.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Fig 1 presents a flow diagram of the selection process. Sixteen studies met the inclusion criteria.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig 1 .</head><label>1</label><figDesc>Fig 1. PRISMA diagram of European search. https://doi.org/10.1371/journal.pone.0232960.g001</figDesc><graphic coords="5,156.02,66.05,419.98,551.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Part 2 :</head><label>2</label><figDesc>LMIC literature searchThe LMIC studies electronic database search yielded 2,557 citations. Five additional records were identified through hand searching references of included papers. Fig 2 presents a flow diagram of the selection process. Fifteen studies met the inclusion criteria. General study characteristics. The fifteen studies were published from 2003 to 2018 and data collection spanned 1999 to 2015. Studies were based in Turkey (n = 3) [52-54], China (n = 2) [55, 56], Jordan (n = 2) [57, 58], Thailand (n = 2) [59, 60], Brazil (n = 1) [61], Egypt</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig 2 .</head><label>2</label><figDesc>Fig 2. PRISMA Diagram of LMIC search. https://doi.org/10.1371/journal.pone.0232960.g002</figDesc><graphic coords="10,200.01,78.01,360.00,487.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>1 .</head><label>1</label><figDesc>Time horizon for capturing an SSI 2. Choice of comparator 3. Over reliance on single centre studies and small number of patients with SSI 4. Under representation of Low Income and Lower Middle Income Countries in the literature 5. Inconsistency in consideration of costs and narrow cost perspective.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . European study characteristics. Lead author (Year) Country Patient population Setting Study aim Type of study Number of SSI &amp; Comparator Period of data collection Cardiothoractic surgery</head><label>1</label><figDesc></figDesc><table><row><cell>Graf (2010)</cell><cell>Germany</cell><cell>CABG patients</cell><cell>University hospital</cell><cell>Calculate the costs of deep</cell><cell cols="2">Case-control study 17 SSI/ Non-</cell><cell>2006-2008</cell></row><row><cell>[50]</cell><cell></cell><cell></cell><cell></cell><cell>sternal wound infection</cell><cell></cell><cell>SSI</cell><cell></cell></row><row><cell cols="2">Colorectal surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Tanner</cell><cell>England</cell><cell>Adult colorectal</cell><cell>University hospital</cell><cell>Provide an accurate cost for</cell><cell cols="2">Surveillance study 29 SSI/ Non-</cell><cell>2008</cell></row><row><cell>(2009) [37]</cell><cell></cell><cell>patients</cell><cell></cell><cell>treating patients with SSI</cell><cell></cell><cell>SSI</cell><cell></cell></row><row><cell>Turtiainen</cell><cell>Finland</cell><cell>Vascular surgery</cell><cell>Four secondary referral</cell><cell>Calculate the extra cost of</cell><cell>Prospective</cell><cell>49 SSI /136</cell><cell>2007-2008</cell></row><row><cell>(2010) [45]</cell><cell></cell><cell>patients</cell><cell>hospitals</cell><cell>services needed to treat SSI</cell><cell>observational</cell><cell>Non-SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>study</cell><cell></cell><cell></cell></row><row><cell cols="2">Multiple surgical categories</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Alfonso</cell><cell>Spain</cell><cell>Adult patients</cell><cell>General, tertiary</cell><cell>To identify overall costs</cell><cell>Cost of illness</cell><cell>30 SSI/ non-</cell><cell>2001-2005</cell></row><row><cell>(2007) [41]</cell><cell></cell><cell></cell><cell>hospital</cell><cell>generated by SSI patients</cell><cell>study</cell><cell>SSI</cell><cell></cell></row><row><cell>Defez (2008)</cell><cell>France</cell><cell>Acute care patients</cell><cell>University hospital</cell><cell>Calculate the additional costs</cell><cell>Prospective cohort</cell><cell>21 SSI/21 non-</cell><cell>2001-2003</cell></row><row><cell>[46]</cell><cell></cell><cell></cell><cell></cell><cell>of nosocomial infection:</cell><cell>study</cell><cell>SSI</cell><cell></cell></row><row><cell>Jenks (2014)</cell><cell>England</cell><cell>Patients who</cell><cell>University hospital</cell><cell>Determine the clinical and</cell><cell>Cost analysis</cell><cell>282 SSI/ 14,018</cell><cell>2010-2012</cell></row><row><cell>[35]</cell><cell></cell><cell>underwent major</cell><cell></cell><cell>economic burden of SSI</cell><cell></cell><cell>non-SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell>surgical procedures</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Lynch (1992)</cell><cell>Scotland</cell><cell cols="2">Adult surgical patients Teaching hospital</cell><cell>Study the cost of SSI</cell><cell>Cost analysis</cell><cell>513 SSI/ 2969</cell><cell>1987-1989</cell></row><row><cell>[43]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>non-SSI</cell><cell></cell></row><row><cell>Reilly (2001)</cell><cell>Scotland</cell><cell>Surgery patients</cell><cell>Unspecified hospital</cell><cell>Quantify the cost of SSI to the</cell><cell>Prospective cohort</cell><cell>220 SSI /1982</cell><cell>1995-1999</cell></row><row><cell>[44]</cell><cell></cell><cell></cell><cell></cell><cell>hospital, community, and</cell><cell>study</cell><cell>non-SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>patient</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Vegas (1993)</cell><cell>Spain</cell><cell>General surgery and</cell><cell>University hospital</cell><cell>Estimate the length of stay of</cell><cell>Prospective cohort</cell><cell>106 SSI/ 212</cell><cell>1990</cell></row><row><cell>[42]</cell><cell></cell><cell>digestive surgery</cell><cell></cell><cell>SSI patients</cell><cell>study</cell><cell>non-SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell>patients</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Vrijens</cell><cell>Belgium</cell><cell>Acute care patients</cell><cell>Acute care hospitals in</cell><cell>Estimate the total economic</cell><cell>Retrospective</cell><cell>77 SSI/ 261 non-</cell><cell>2007</cell></row><row><cell>(2012) [48]</cell><cell></cell><cell></cell><cell>Belgium</cell><cell>cost of infection to the public</cell><cell>cohort study</cell><cell>SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>healthcare provider</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Weber</cell><cell cols="2">Switzerland Traumatology, visceral</cell><cell>University hospital</cell><cell>Quantify the economic burden</cell><cell>Retrospective</cell><cell>168 SSI/ 168</cell><cell>2000-2001</cell></row><row><cell>(2008) [47]</cell><cell></cell><cell>and vascular surgery</cell><cell></cell><cell>of SSI</cell><cell>cohort study</cell><cell>non-SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell>patients</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Gynaecological surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hyldig</cell><cell>Denmark</cell><cell>Obese women after</cell><cell>5 obstetric</cell><cell>Evaluate the cost-effectiveness</cell><cell>Within trial cost</cell><cell>57 SSI/780 non-</cell><cell>2013-2016</cell></row><row><cell>(2018) [49]</cell><cell></cell><cell>caesarean section</cell><cell>departments across 2</cell><cell>of incisional negative pressure</cell><cell>effectiveness</cell><cell>SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>tertiary &amp; 3 teaching</cell><cell>wound therapy in preventing</cell><cell>analysis</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>hospitals</cell><cell>SSI</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Orthopaedic surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Edwards</cell><cell>England</cell><cell>Hip fracture patients</cell><cell>University hospital</cell><cell>Estimate the cost of treating</cell><cell>Retrospective</cell><cell>80 SSI/ non-</cell><cell>1999-2004</cell></row><row><cell>(2008) [40]</cell><cell></cell><cell></cell><cell></cell><cell>SSI</cell><cell>cohort study</cell><cell>SSI</cell><cell></cell></row><row><cell>Pollard</cell><cell>England</cell><cell>Proximal femoral</cell><cell>Tertiary teaching</cell><cell>Assess the financial burden of</cell><cell>Retrospective</cell><cell>61 SSI/ 122 non-</cell><cell>1998-2003</cell></row><row><cell>(2006) [36]</cell><cell></cell><cell>fracture surgery</cell><cell>hospital</cell><cell>deep SSI after surgery</cell><cell>cohort study</cell><cell>SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell>patients over 65 years</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Parker</cell><cell>England</cell><cell>Lower limb open</cell><cell>24 specialist trauma</cell><cell>Estimate economic outcomes</cell><cell>Costing analysis of</cell><cell>35 SSI/ 423 non-</cell><cell>2012-2015</cell></row><row><cell>(2018) [38]</cell><cell></cell><cell>fracture patients</cell><cell>hospitals</cell><cell>associated with deep SSI</cell><cell>a prospective RCT</cell><cell>SSI</cell><cell></cell></row><row><cell>Thakar</cell><cell>England</cell><cell>Proximal femoral</cell><cell>Tertiary teaching</cell><cell>Calculate the additional</cell><cell>Prospective cohort</cell><cell>46 SSI/ non-</cell><cell>2003-2008</cell></row><row><cell>(2010) [39]</cell><cell></cell><cell>fracture patients</cell><cell>hospital</cell><cell>hospital costs due to</cell><cell>study</cell><cell>SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>complications</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">All costs were inflated and converted to 2017 international dollars where appropriate</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">NNIS, Nosocomial Infection Surveillance System risk index; SSI, Surgical Site Infection;</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>https://doi.org/10.1371/journal.pone.0232960.t001</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 . Costs of SSI in European studies.</head><label>2</label><figDesc></figDesc><table><row><cell>Lead author</cell><cell>Adjusted group comparison</cell><cell>Costs included</cell><cell>Average cost</cell><cell>Average costs</cell><cell>Additional cost</cell><cell>Length of Stay</cell></row><row><cell>(Year)</cell><cell></cell><cell></cell><cell>SSI patients</cell><cell>Non-SSI</cell><cell>of SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>patients</cell><cell></cell><cell></cell></row><row><cell cols="2">Cardiothoractic surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Graf (2010)</cell><cell>Age, sex, DRG, preoperative LOS</cell><cell>Surgery, lab tests, hospital LOS</cell><cell>$50,912</cell><cell>$18,751</cell><cell>$32,161</cell><cell>SSI: 34.4 days</cell></row><row><cell>[50]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Non-SSI: 16.5</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>days</cell></row><row><cell cols="2">Colorectal surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Tanner</cell><cell>Unadjusted analysis</cell><cell>Hospital stay, nurse &amp; GP visits,</cell><cell>Not reported</cell><cell>Not reported</cell><cell>$18,101</cell><cell>SSI: Extra 22.72</cell></row><row><cell>(2009) [37]</cell><cell></cell><cell>outpatient clinic, wound dressing,</cell><cell></cell><cell></cell><cell></cell><cell>days</cell></row><row><cell></cell><cell></cell><cell>readmissions, antibiotics, wound swab</cell><cell></cell><cell></cell><cell></cell><cell>Non-SSI not reported</cell></row><row><cell>Turtiainen</cell><cell>Unadjusted analysis</cell><cell>LOS, Outpatient clinic and</cell><cell>Not reported</cell><cell>Not reported</cell><cell>$4,237</cell><cell>Not reported</cell></row><row><cell>(2010) [45]</cell><cell></cell><cell>rehabilitation</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Multiple surgical categories</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Alfonso</cell><cell>Age, sex, diagnosis, surgery</cell><cell>Hospital Stay, readmission,</cell><cell>Not reported</cell><cell cols="2">Not reported Health care costs:</cell><cell>SSI pre-</cell></row><row><cell>(2007) [41]</cell><cell>duration, comorbidity, and</cell><cell>diagnostics, antibiotics informal care,</cell><cell></cell><cell></cell><cell>$15,263</cell><cell>discharge: 23.73</cell></row><row><cell></cell><cell>procedure</cell><cell>primary care, productivity loss</cell><cell></cell><cell></cell><cell></cell><cell>days</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Informal care:</cell><cell>SSI post-</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>$15,734</cell><cell>discharge: 12.99</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>days</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Societal costs:</cell><cell>No SSI: 9.45</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>$145,336</cell><cell>days</cell></row><row><cell>Defez (2008)</cell><cell>Age, sex, ward type, principal</cell><cell>Hospital stay, laboratory tests,</cell><cell>Not reported</cell><cell>Not reported</cell><cell>$2,780</cell><cell>Not reported</cell></row><row><cell>[46]</cell><cell>diagnosis</cell><cell>radiology, surgery, diagnostics, &amp;</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>antibiotics</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Jenks (2014)</cell><cell>Surgery, age and NNIS risk index</cell><cell>Overhead, staffing costs,</cell><cell>$12,928</cell><cell>$5,837</cell><cell>$5,239</cell><cell>SSI: 19 days</cell></row><row><cell>[35]</cell><cell></cell><cell>readmission, reoperation, hospital stay, diagnostics, consumables</cell><cell></cell><cell></cell><cell></cell><cell>Non-SSI: 5 days</cell></row><row><cell>Lynch (1992)</cell><cell>Unadjusted comparison</cell><cell>GP visits, wound dressings, antibiotic</cell><cell>$3,678</cell><cell>$2,116</cell><cell>$1,563</cell><cell>No overall</cell></row><row><cell>[43]</cell><cell></cell><cell>costs, hospital stay</cell><cell></cell><cell></cell><cell></cell><cell>figures reported</cell></row><row><cell>Reilly (2001)</cell><cell>Unadjusted comparison</cell><cell>Hospital stay, readmissions, GP and</cell><cell>Not reported</cell><cell>Not reported</cell><cell>$541</cell><cell>Not reported</cell></row><row><cell>[44]</cell><cell></cell><cell>nurse visits, wound dressings,</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>antibiotic prescriptions</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Vegas (1993)</cell><cell>Diagnosis, procedure, age</cell><cell>Hospital stay</cell><cell>Not reported</cell><cell>Not reported</cell><cell>$10,688</cell><cell>SSI: extra 14.33</cell></row><row><cell>[42]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>days</cell></row><row><cell>Vrijens</cell><cell>Destination after discharge,</cell><cell>Hospital stay</cell><cell>Not reported</cell><cell>Not reported</cell><cell>$3,149</cell><cell>SSI: 35.2 days</cell></row><row><cell>(2012) [48]</cell><cell>hospital, comorbidity, ward, Age, DRG</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Non-SSI: 29.2 days</cell></row><row><cell>Weber (2008)</cell><cell>Age, procedure, and NNIS risk</cell><cell>Antibiotic use, postoperative LOS,</cell><cell>Not reported</cell><cell>Not reported</cell><cell>Overall: $17,060</cell><cell>SSI: 29 days</cell></row><row><cell>[47]</cell><cell></cell><cell>hospital costs and patient charges</cell><cell></cell><cell></cell><cell>Superficial $2,226</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Deep incisional:</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>$3,801</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Organ space:</cell><cell>Non-SSI: 12.3</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>$34,001</cell><cell>days</cell></row><row><cell cols="2">Gynaecological surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hyldig (2018)</cell><cell>Unadjusted analysis</cell><cell>Inpatient stays, outpatient care,</cell><cell>Not reported</cell><cell cols="2">Not reported Superficial SSI:</cell><cell>Not reported</cell></row><row><cell>[49]</cell><cell></cell><cell>antibiotic treatment, postoperative</cell><cell></cell><cell></cell><cell>$21</cell><cell></cell></row><row><cell></cell><cell></cell><cell>dressing, primary care visits</cell><cell></cell><cell></cell><cell>Deep SSI: $9,527</cell><cell></cell></row><row><cell cols="2">Orthopaedic surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Edwards</cell><cell>Unadjusted analysis</cell><cell>Inpatient stay, equipment, surgery</cell><cell>$49,290</cell><cell>$17,060</cell><cell>$32,229</cell><cell>SSI: 76 days</cell></row><row><cell>(2008) [40]</cell><cell></cell><cell>consumables and staff salaries, investigations, medication, antibiotics</cell><cell></cell><cell></cell><cell></cell><cell>Non-SSI not reported</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(Continued )</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>(Continued)    </figDesc><table><row><cell>Lead author</cell><cell>Adjusted group comparison</cell><cell>Costs included</cell><cell>Average cost</cell><cell>Average costs</cell><cell>Additional cost</cell><cell>Length of Stay</cell></row><row><cell>(Year)</cell><cell></cell><cell></cell><cell>SSI patients</cell><cell>Non-SSI</cell><cell>of SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>patients</cell><cell></cell><cell></cell></row><row><cell>Parker (2018)</cell><cell>Age, sex, trial site, wound grade,</cell><cell>Hospital inpatient &amp; outpatient</cell><cell>$22,255</cell><cell>$20,429</cell><cell>SSI (multiple</cell><cell>Not reported</cell></row><row><cell>[38]</cell><cell>diabetes, height, weight, and</cell><cell>services, community health &amp; social</cell><cell>(complete case</cell><cell>(complete case</cell><cell>imputation)</cell><cell></cell></row><row><cell></cell><cell>smoking status</cell><cell>care, medication, aids and</cell><cell>analysis)</cell><cell>analysis)</cell><cell>$2,866</cell><cell></cell></row><row><cell></cell><cell></cell><cell>adaptations</cell><cell></cell><cell></cell><cell>SSI (complete</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>case analysis):</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>$1,825</cell><cell></cell></row><row><cell>Pollard</cell><cell>Sex, age, fracture type, ASA grade,</cell><cell>Hospital stay, Antibiotics, outpatient</cell><cell>$44,157</cell><cell>$13,043</cell><cell>$31,114</cell><cell>SSI: 80 days</cell></row><row><cell>(2006) [36]</cell><cell>pre-fracture residence type,</cell><cell>treatment, theatre time, prosthetic</cell><cell></cell><cell></cell><cell></cell><cell>(median)</cell></row><row><cell></cell><cell>operation, social dependency &amp; mobility scores</cell><cell>costs, radiology, physiotherapy</cell><cell></cell><cell></cell><cell></cell><cell>Non-SSI: 28 days (median)</cell></row><row><cell>Thakar</cell><cell>Sex, age, fracture type, ASA grade,</cell><cell>Theatre time, prosthetic costs,</cell><cell>Superficial SSI:</cell><cell>Superficial SSI</cell><cell>Superficial SSI:</cell><cell>Superficial SSI:</cell></row><row><cell>(2010) [39]</cell><cell>operation, pre-fracture residence</cell><cell>radiology and pharmaceuticals</cell><cell>$30,193</cell><cell>control: $13,987</cell><cell>$16,206</cell><cell>62.5 days</cell></row><row><cell></cell><cell>type, social dependency &amp; mobility</cell><cell></cell><cell>Deep SSI:</cell><cell>Deep SSI</cell><cell cols="2">Deep SSI: $25,669 Superficial SSI</cell></row><row><cell></cell><cell></cell><cell></cell><cell>$39,299</cell><cell>control: $13,631</cell><cell></cell><cell>control: 35 days</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Deep SSI: 79.3</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>days</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Deep SSI</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>matched control:</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>34.3 days</cell></row></table><note><p>All costs were inflated and converted to 2017 international dollars where appropriate. ASA grade, American Society of Anaesthesiologists; DRG, Diagnosis-related group; GP, General Practitioner; HAI, Hospital Acquired Infection; LOS, Length of stay; NNIS, Nosocomial Infection Surveillance System risk index; SSI, Surgical Site Infection https://doi.org/10.1371/journal.pone.0232960.t002</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 . LMIC study characteristics. Lead author (Year) [Income Group]</head><label>3</label><figDesc></figDesc><table><row><cell></cell><cell cols="2">Country Patient population</cell><cell>Setting</cell><cell>Study aim</cell><cell>Type of study</cell><cell>Number of SSI</cell><cell>Period of</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>&amp; Comparator</cell><cell>data</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>collection</cell></row><row><cell>Cardio-thoracic surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Al-Zaru (2011) [57]</cell><cell>Jordan</cell><cell>CABG adult patients</cell><cell>Teaching</cell><cell>Assess clinical &amp;</cell><cell>Retrospective</cell><cell>106 SSI/ 525</cell><cell>2005-2008</cell></row><row><cell>[Upper Middle Income]</cell><cell></cell><cell></cell><cell>hospital</cell><cell>economic impact of SSIs</cell><cell>comparative study,</cell><cell>Non-SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>cost estimation</cell><cell></cell><cell></cell></row><row><cell>Coskun (2005) [54]</cell><cell>Turkey</cell><cell>CABG adult patients</cell><cell>Private hospital</cell><cell>Evaluate costs &amp;</cell><cell>Prospective</cell><cell>88 SSI/88 Non-</cell><cell>1999-2002</cell></row><row><cell>[Upper Middle Income]</cell><cell></cell><cell>referred back with</cell><cell></cell><cell>outcomes for Sternal SSI</cell><cell>surveillance</cell><cell>SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Sternal SSI</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">General Surgery or multiple surgical categories</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Dramowski (2016) [66]</cell><cell>South</cell><cell>Paediatric surgery,</cell><cell>Teaching</cell><cell>Investigate burden &amp; risk</cell><cell>Prospective</cell><cell>21 SSI/ 1022</cell><cell>2014-2015</cell></row><row><cell>[Upper Middle Income]</cell><cell>Africa</cell><cell>orthopaedics and</cell><cell>Children hospital</cell><cell>factors of HAI</cell><cell>surveillance</cell><cell>Non-SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell>urology patients</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Galal (2011) [62] [Lower</cell><cell>Egypt</cell><cell>Surgery patients 21-60</cell><cell>Teaching</cell><cell>Compare different</cell><cell>Prospective</cell><cell>50 SSI/400</cell><cell>Not</cell></row><row><cell>Middle Income]</cell><cell></cell><cell>years</cell><cell>hospital</cell><cell>sutures for SSI reduction</cell><cell>randomised double</cell><cell>Non-SSI</cell><cell>reported</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>blind study</cell><cell></cell><cell></cell></row><row><cell>Porras-Herna ´ndez</cell><cell>Mexico</cell><cell>Neurological,</cell><cell>Tertiary teaching</cell><cell>Determine the incidence</cell><cell>Prospective study</cell><cell>80 SSI / 348</cell><cell>1998-1999</cell></row><row><cell>(2003) [64] [Upper</cell><cell></cell><cell>cardiovascular &amp; general</cell><cell>paediatric</cell><cell>of SSI</cell><cell></cell><cell>Non-SSI</cell><cell></cell></row><row><cell>Middle Income]</cell><cell></cell><cell>surgery patients, younger</cell><cell>hospital</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>than 18 years</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Siribumrungwong</cell><cell cols="2">Thailand Varicose Vein patients</cell><cell>Teaching</cell><cell>Economic evaluation of</cell><cell>Prospective cohort</cell><cell>4 SSI/ 73 Non-</cell><cell>2011-2013</cell></row><row><cell>(2015) [60] [Upper</cell><cell></cell><cell></cell><cell>hospital</cell><cell>interventions for great</cell><cell>study / economic</cell><cell>SSI</cell><cell></cell></row><row><cell>Middle Income]</cell><cell></cell><cell></cell><cell></cell><cell>saphenous vein ablation</cell><cell>analysis</cell><cell></cell><cell></cell></row><row><cell>Tiwari (2013) [63]</cell><cell>India</cell><cell>Adult patients with at</cell><cell>Private tertiary</cell><cell>Assess the costs</cell><cell>Retrospective</cell><cell>4 SSI/ 104 Non-</cell><cell>2008-2009</cell></row><row><cell>[Lower Middle Income]</cell><cell></cell><cell>least 48 hours hospital</cell><cell>care hospital</cell><cell>associated with HAIs</cell><cell>comparative study /</cell><cell>SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell>stay</cell><cell></cell><cell></cell><cell>cost analysis</cell><cell></cell><cell></cell></row><row><cell>Gastrointestinal surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Liu (2018) [56] [Upper</cell><cell>China</cell><cell>Colorectal cancer adult</cell><cell>Tertiary public</cell><cell>Economic burden caused</cell><cell>Retrospective</cell><cell>20 SSIs/ 38</cell><cell>2015</cell></row><row><cell>Middle Income]</cell><cell></cell><cell>patients who had tumour</cell><cell>hospital</cell><cell>by HAIs</cell><cell>surveillance / cost</cell><cell>Non-SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell>surgically removed</cell><cell></cell><cell></cell><cell>analysis</cell><cell></cell><cell></cell></row><row><cell>O ¨zmen (2016) [52]</cell><cell>Turkey</cell><cell>Elective gastric surgery</cell><cell>Teaching</cell><cell>Factors affecting SSI rate</cell><cell>Prospective</cell><cell>10 SSI/ 42 Non-</cell><cell>2013</cell></row><row><cell>[Upper Middle Income]</cell><cell></cell><cell>cancer patients</cell><cell>hospital</cell><cell>after elective gastric</cell><cell>observational cohort</cell><cell>SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>cancer surgery</cell><cell>study</cell><cell></cell><cell></cell></row><row><cell>Phothong (2015) [59]</cell><cell cols="2">Thailand Patients with sigmoid</cell><cell>Teaching</cell><cell>Outcomes and treatment</cell><cell>Retrospective review</cell><cell>6 SSI/ 44 Non-</cell><cell>2008-2013</cell></row><row><cell>[Upper Middle Income]</cell><cell></cell><cell>cancer</cell><cell>hospital</cell><cell>costs following a</cell><cell>/ Economic analysis</cell><cell>SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>sigmoidectomy</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Silverstein (2016) [65]</cell><cell cols="2">Rwanda Biliary disease surgery</cell><cell>Referral military</cell><cell>Laparoscopic</cell><cell>Economic analysis /</cell><cell>Not reported</cell><cell>Not</cell></row><row><cell>[Low Income]</cell><cell></cell><cell>patients</cell><cell>hospital,</cell><cell>cholecystectomy versus</cell><cell>Cohort study</cell><cell></cell><cell>reported</cell></row><row><cell></cell><cell></cell><cell></cell><cell>secondary and</cell><cell>an open approach</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>tertiary care</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Gynaecological Surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Ko ¨şu ¨ş (2009) [53]</cell><cell>Turkey</cell><cell>Women who had</cell><cell>Private hospital</cell><cell>Trial on the prevention of</cell><cell>Randomised</cell><cell>38 SSI/ 76 Non-</cell><cell>2004-2007</cell></row><row><cell>[Upper Middle Income]</cell><cell></cell><cell>caesarean surgery</cell><cell></cell><cell>post-caesarean wound</cell><cell>prospective study</cell><cell>SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>infection</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Cardio &amp; Neurological surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Zhou (2015) [55]</cell><cell>China</cell><cell>Patients who had a</cell><cell>Tertiary care</cell><cell>Cost-benefit analysis of</cell><cell>Prospective study /</cell><cell>12 SSI/ 588</cell><cell>2009-2012</cell></row><row><cell>[Upper Middle Income]</cell><cell></cell><cell>craniocerebral operation</cell><cell>hospital</cell><cell>SSI control</cell><cell>economic analysis</cell><cell>Non-SSI</cell><cell></cell></row><row><cell>Hweidi (2018) [58]</cell><cell>Jordan</cell><cell>Adult patients who had a</cell><cell>Teaching</cell><cell>Estimate the additional</cell><cell>Retrospective case</cell><cell>32 SSI/ 32 Non-</cell><cell>2009-2015</cell></row><row><cell>[Upper Middle Income]</cell><cell></cell><cell>craniocerebral operation</cell><cell>hospital</cell><cell>healthcare costs</cell><cell>control study</cell><cell>SSI</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>attributable to SSI</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Orthopaedic surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Dal-paz (2010) [61]</cell><cell>Brazil</cell><cell>Total knee arthroplasty</cell><cell>Tertiary level</cell><cell>Estimate the additional</cell><cell>Retrospective</cell><cell>34 SSI/ Non-SSI</cell><cell>2006-2007</cell></row><row><cell>[Upper Middle Income]</cell><cell></cell><cell>patients</cell><cell>teaching hospital</cell><cell>cost of nosocomial</cell><cell>observational cohort</cell><cell>cases not</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>infections</cell><cell>study / cost analysis</cell><cell>reported</cell><cell></cell></row></table><note><p>All costs were inflated and converted to 2017 international dollars where appropriate CABG, Coronary Artery Bypass Graft; HAI, Hospital Acquired Infection; SSI, Surgical Site Infection; https://doi.org/10.1371/journal.pone.0232960.t003</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4 . Costs of SSI in LMIC studies. Lead author (Year) Adjusted group comparison</head><label>4</label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell>Costs included</cell><cell>Average</cell><cell>Average costs</cell><cell>Additional cost of SSI</cell><cell>Length of Stay</cell></row><row><cell></cell><cell></cell><cell></cell><cell>cost SSI</cell><cell>Non-SSI</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>patients</cell><cell>patients</cell><cell></cell><cell></cell></row><row><cell cols="2">Cardio-thoracic surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Al-Zaru (2011) [57] Unadjusted comparison Hospital stay, medications,</cell><cell>$31,666</cell><cell>$22,329</cell><cell>$9,337</cell><cell>SSI: 16.7 days Non-SSI:</cell></row><row><cell></cell><cell></cell><cell>radiology, microbiological &amp;</cell><cell></cell><cell></cell><cell></cell><cell>7.8 days</cell></row><row><cell></cell><cell></cell><cell>lab tests</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Coskun (2005) [54] Age &amp; sex</cell><cell>Medication, examination and</cell><cell>Not</cell><cell cols="2">Not reported Deep: $23,408 Superficial:</cell><cell>Deep SSI: Extra 35 days</cell></row><row><cell></cell><cell></cell><cell>lab test, hospital stay,</cell><cell>reported</cell><cell></cell><cell>$12,782</cell><cell>Superficial SSI: Extra 21</cell></row><row><cell></cell><cell></cell><cell>additional operation</cell><cell></cell><cell></cell><cell></cell><cell>days</cell></row><row><cell>General surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Dramowski (2016)</cell><cell>Age, ward, preoperative</cell><cell>Hospital length of stay,</cell><cell>Not</cell><cell cols="2">Not reported $1,546</cell><cell>SSI median excess days:</cell></row><row><cell>[68]</cell><cell>length of stay</cell><cell>laboratory investigations,</cell><cell>reported</cell><cell></cell><cell></cell><cell>4 days Non-SSI: not</cell></row><row><cell></cell><cell></cell><cell>radiology and pharmacy cost</cell><cell></cell><cell></cell><cell></cell><cell>reported</cell></row><row><cell>Galal (2011) [62]</cell><cell cols="2">Unadjusted comparison Hospital stay</cell><cell>$2,465</cell><cell>$610</cell><cell>$1,855</cell><cell>SSI: 7.10 days Non-SSI:</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>3.39 days</cell></row><row><cell>Porras-Herna ´ndez</cell><cell cols="2">Unadjusted comparison Hospital stay (excluding</cell><cell>Not</cell><cell cols="2">Not reported $2,164</cell><cell>SSI: 13 days Non-SSI: 6</cell></row><row><cell>(2003) [64]</cell><cell></cell><cell>antibiotics)</cell><cell>reported</cell><cell></cell><cell></cell><cell>days</cell></row><row><cell>Siribumrungwong</cell><cell>Not reported</cell><cell>Unspecified hospital costs</cell><cell>Not</cell><cell cols="2">Not reported $174</cell><cell>Not reported</cell></row><row><cell>(2015) [60]</cell><cell></cell><cell></cell><cell>reported</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Tiwari (2013) [63]</cell><cell>Matched groups of HAI</cell><cell>Consumables, hospital room,</cell><cell>$37,295</cell><cell>$7,685</cell><cell>$29,610</cell><cell>SSI: Not reported Non-</cell></row><row><cell></cell><cell>and non-HAI by age,</cell><cell>medications, investigations,</cell><cell></cell><cell></cell><cell></cell><cell>SSI: 9 days</cell></row><row><cell></cell><cell>diagnosis, illness</cell><cell>blood components,</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>severity</cell><cell>consultation</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Gastrointestinal surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Liu (2018) [58]</cell><cell>Age, sex, comorbidity,</cell><cell>Medication, equipment &amp;</cell><cell>Not</cell><cell>$11,691</cell><cell>Overall: $1,410 Superficial:</cell><cell>SSI: Not reported Non-</cell></row><row><cell></cell><cell>disease, and prior</cell><cell>supplies, diagnostics</cell><cell>reported</cell><cell></cell><cell>$462 Subcutaneous SSI:</cell><cell>SSI: 22 days (median)</cell></row><row><cell></cell><cell>surgeries</cell><cell></cell><cell></cell><cell></cell><cell>$2,386 Deep soft SSI:</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>$17,094</cell><cell></cell></row><row><cell>O ¨zmen (2016) [52]</cell><cell cols="2">Unadjusted comparison Hospital stay</cell><cell>$4,195</cell><cell>$4,872</cell><cell>SSI patients had lower</cell><cell>SSI: 5.27 days Non-SSI:</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>costs</cell><cell>5.40 days</cell></row><row><cell>Phothong (2015)</cell><cell cols="2">Unadjusted comparison Room charges, theatre time,</cell><cell>$12,109</cell><cell>$5,960</cell><cell>$6,149</cell><cell>SSI: 23.5 days Non-SSI:</cell></row><row><cell>[59]</cell><cell></cell><cell>medication, anaesthesia,</cell><cell></cell><cell></cell><cell></cell><cell>9.8 days</cell></row><row><cell></cell><cell></cell><cell>equipment &amp; laboratory</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>charges &amp; nursing</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Silverstein (2016)</cell><cell>Not reported</cell><cell>Unclear</cell><cell>Not</cell><cell cols="2">Not reported $483</cell><cell>Not reported</cell></row><row><cell>[65]</cell><cell></cell><cell></cell><cell>reported</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Cardio &amp; Neurological surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Zhou (2015) [55]</cell><cell>Age, sex, operation type,</cell><cell>Medication, equipment, lab</cell><cell>$16,979</cell><cell>$10,240</cell><cell>$6,739</cell><cell>SSI: 29 days Non-SSI:</cell></row><row><cell></cell><cell>incision type, operation</cell><cell>test, treatment, exams and</cell><cell></cell><cell></cell><cell></cell><cell>17.25 days</cell></row><row><cell></cell><cell>date, &amp; physical status</cell><cell>additional surgeries</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hweidi (2018) [58]</cell><cell>Age, sex, index</cell><cell>Length of stay, antibiotics,</cell><cell>$34,872</cell><cell>$15,974</cell><cell>$18,899</cell><cell>SSI: 30.15 days Non-</cell></row><row><cell></cell><cell>diagnosis, admission</cell><cell>reoperation</cell><cell></cell><cell></cell><cell></cell><cell>SSI: 6.98 days</cell></row><row><cell></cell><cell>month</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Gynaecological surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Ko ¨şu ¨ş (2009) [53]</cell><cell cols="2">Unadjusted comparison Preventative antibiotics,</cell><cell>$1,736</cell><cell>$0</cell><cell>$1,736</cell><cell>Two SSI patients had 7</cell></row><row><cell></cell><cell></cell><cell>hospital readmission and out-</cell><cell></cell><cell></cell><cell></cell><cell>days readmission. None</cell></row><row><cell></cell><cell></cell><cell>patient</cell><cell></cell><cell></cell><cell></cell><cell>for Non-SSI patients</cell></row><row><cell>Orthopaedic surgery</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Dal-paz (2010) [61] Unadjusted comparison Hospital stay, lab and</cell><cell>Not</cell><cell cols="2">Not reported $3,865</cell><cell>SSI: Extra 29.7 days</cell></row><row><cell></cell><cell></cell><cell>imagining test, additional</cell><cell>reported</cell><cell></cell><cell></cell><cell>Non-SSI not reported</cell></row><row><cell></cell><cell></cell><cell>operations and antibiotics</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">All costs were inflated and converted to 2017 international dollars where appropriate.</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>CABG, Coronary Artery Bypass Graft; HAI, Hospital Acquired Infection; SSI, Surgical Site Infection; https://doi.org/10.1371/journal.pone.0232960.t004</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>PLOS ONE | https://doi.org/10.1371/journal.pone.0232960 June 4, 2020</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Funding: <rs type="funder">National Institute of Health Research (NIHR) Global Health</rs> <rs type="grantName">Research Unit Grant</rs> (<rs type="grantNumber">NIHR 17-0799</rs>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. The views expressed are those of the authors and not necessarily those of the National Health Service,</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_nXEQ4nS">
+					<idno type="grant-number">NIHR 17-0799</idno>
+					<orgName type="grant-name">Research Unit Grant</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>All relevant data are within the manuscript and its Supporting Information files.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S1 Table. Cost information included in each</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="18,208.20,93.70,367.77,7.40;18,221.50,103.16,170.99,7.40" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Global burden of postoperative death</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nepogodiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Biccard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Makupe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bhangu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ademuyiwa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Lancet</title>
+		<imprint>
+			<biblScope unit="volume">393</biblScope>
+			<biblScope unit="page">401</biblScope>
+			<date type="published" when="2019">2019. 10170</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,208.20,116.20,360.50,7.40;18,221.50,125.67,350.22,7.40;18,221.50,135.19,205.13,7.40" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Morbidity and mortality associated withsurgical site infections: results from the 1997-1999 INCISO surveillance</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Astagneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rioux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Golliot</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bru ¨cker G</surname></persName>
+		</author>
+		<idno type="DOI">10.1053/jhin.2001.1003</idno>
+		<idno type="PMID">11461127</idno>
+		<ptr target="https://doi.org/10.1053/jhin.2001.1003" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hospital Infection</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="267" to="274" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,208.20,148.18,353.67,7.40;18,221.50,157.70,312.50,7.40" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Guideline for prevention of surgical site infection</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mangram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Horan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Pearson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Jarvis</surname></persName>
+		</author>
+		<idno type="PMID">10196487</idno>
+		<imprint>
+			<date type="published" when="1999">1999. 1999</date>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="97" to="134" />
+		</imprint>
+	</monogr>
+	<note>American journal of infection control</note>
+</biblStruct>
+
+<biblStruct coords="18,208.20,170.68,362.67,7.40;18,221.50,180.15,349.80,7.40;18,221.50,189.68,141.69,7.40" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Health Utility Values Associated with Surgical Site Infection: A Systematic Review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gheorghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Duffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pinkney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Calvert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jval.2015.08.004</idno>
+		<idno type="PMID">26686800</idno>
+		<ptr target="https://doi.org/10.1016/j" />
+	</analytic>
+	<monogr>
+		<title level="j">Value in Health</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1126" to="1137" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,208.20,202.66,348.30,7.40;18,221.50,212.18,349.77,7.40;18,221.50,221.65,316.02,7.40" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Impact of surgical site infection on healthcare costs and patient outcomes: a systematic review in six European countries</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Badia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Casey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Petrosillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hudson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Crosby</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2017.03.004</idno>
+		<idno type="PMID">28410761</idno>
+		<ptr target="https://doi.org/10.1016/j.jhin.2017.03.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hospital Infection</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,208.20,234.69,365.95,7.40;18,221.50,244.16,36.36,7.40" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Global guidelines for the prevention of surgical site infection: World Health Organization</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Organization</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,208.20,257.20,355.79,7.40;18,221.50,266.66,352.97,7.40;18,221.50,276.19,346.07,7.40;18,221.50,285.66,167.08,7.40" xml:id="b6">
+	<analytic>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">D</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Richtmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Apisarnthanarak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ku ¨bler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Viet-Hung</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/670626</idno>
+		<idno type="PMID">23651890</idno>
+		<ptr target="https://doi.org/10.1086/670626" />
+	</analytic>
+	<monogr>
+		<title level="m">Surgical Site Infections, International Nosocomial Infection Control Consortium (INICC) Report, Data Summary of 30 Countries</title>
+		<imprint>
+			<date type="published" when="2005">2005-2010. 2015</date>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="597" to="604" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,208.20,298.69,359.71,7.40;18,221.50,308.16,269.41,7.40" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Laparoscopy in management of appendicitis in high-, middle-, and low-income countries: a multicenter, prospective, cohort study</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Collaborative</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surgical endoscopy</title>
+		<imprint>
+			<biblScope unit="volume">2018</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,208.20,321.20,355.51,7.40;18,221.50,330.67,272.02,7.40" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Health care systems in low-and middle-income countries</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mills</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMra1110897</idno>
+		<idno type="PMID">24499213</idno>
+		<ptr target="https://doi.org/10.1056/NEJMra1110897" />
+	</analytic>
+	<monogr>
+		<title level="j">New England Journal of Medicine</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="552" to="557" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,207.86,343.65,368.22,7.40;18,221.50,353.18,344.98,7.40;18,221.50,362.70,121.67,7.40" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Catastrophic expenditure to pay for surgery worldwide: a modelling study</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Shrime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Dare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Alkire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Neill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Meara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/S2214-109X(15)70085-9</idno>
+		<idno type="PMID">25926319</idno>
+		<ptr target="https://doi.org/10.1016/S2214-109X" />
+	</analytic>
+	<monogr>
+		<title level="j">The Lancet Global health</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="70085" to="70089" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,207.86,375.68,367.07,7.40;18,221.50,385.15,331.37,7.40" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Surgical site infection-the next frontier in global surgery. The Lancet Infectious Diseases</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Sawyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Evans</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1473-3099(18)30118-X</idno>
+		<idno type="PMID">29452939</idno>
+		<ptr target="https://doi.org/10.1016/S1473-3099(18)30118-X" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="477" to="478" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,207.86,398.19,356.39,7.40;18,221.50,407.66,351.15,7.40;18,221.50,417.18,349.31,7.40;18,221.50,426.65,239.13,7.40" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Surgical site infection after gastrointestinal surgery in high-income, middle-income, and low-income countries: a prospective, international, multicentre cohort study. The Lancet Infectious Diseases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bhangu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Ademuyiwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Aguilera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Al-Saqqa</forename><surname>Sw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Borda-Luque</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1473-3099(18)30101-4</idno>
+		<idno type="PMID">29452941</idno>
+		<ptr target="https://doi.org/10.1016/S1473-3099(18)30101-4" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="516" to="525" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,207.86,439.69,367.56,7.40;18,221.50,449.16,352.49,7.40;18,221.50,458.68,349.79,7.40;18,221.50,468.15,180.46,7.40" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The cost-effectiveness of wound-edge protection devices compared to standard care in reducing surgical site infection after laparotomy: an economic evaluation alongside the ROSSINI trial</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gheorghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Pinkney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Bartlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Calvert</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0095595</idno>
+		<idno type="PMID">24748154</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0095595" />
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">95595</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,207.86,481.19,368.23,7.40;18,221.50,490.66,351.30,7.40;18,221.50,500.18,330.23,7.40;18,221.50,509.65,350.10,7.40;18,221.50,519.17,35.05,7.40" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A mixed-methods feasibility and external pilot study to inform a large pragmatic randomised controlled trial of the effects of surgical wound dressing strategies on surgical site infections (Bluebelle Phase B): study protocol for a randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Andronis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Blazeby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Blencowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Calvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coast</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13063-017-2102-5</idno>
+		<ptr target="https://doi.org/10.1186/s13063-017-2102-5PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">Trials</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">28851399</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,207.86,532.16,365.68,7.40;18,221.50,541.68,346.50,7.40;18,221.50,551.15,69.17,7.40" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Systematic review of the cost-effectiveness of preoperative antibiotic prophylaxis in reducing surgical-site infection</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Veerman</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bjs5.45</idno>
+		<idno type="PMID">29951632</idno>
+		<ptr target="https://doi.org/10.1002/bjs5.45" />
+	</analytic>
+	<monogr>
+		<title level="j">BJS Open</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="81" to="98" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,207.86,564.19,363.52,7.40;18,221.50,573.65,340.62,7.40;18,221.50,583.18,312.04,7.40" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Impact of wound edge protection devices on surgical site infection after laparotomy: multicentre randomised controlled trial (ROSSINI Trial)</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Pinkney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Calvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Bartlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gheorghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Redman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dowswell</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmj.f4305</idno>
+		<idno type="PMID">23903454</idno>
+		<ptr target="https://doi.org/10.1136/bmj.f4305" />
+	</analytic>
+	<monogr>
+		<title level="j">Bmj</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page">4305</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,207.86,596.16,108.06,7.40" xml:id="b16">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">ClinicalTrials.gov</title>
+		<imprint/>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct coords="18,317.54,596.16,253.85,7.40;18,221.50,605.69,352.44,7.40;18,221.50,615.15,212.21,7.40" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">FALCON Trial Testing Measures to Reduce Surgical Site Infection</title>
+		<author>
+			<persName><forename type="first">Nct03700749</forename><surname>Identifier</surname></persName>
+		</author>
+		<ptr target="https://clinicaltrials.gov/ct2/show/NCT03700749" />
+		<imprint>
+			<date type="published" when="2000">2008 Oct 9. 2000</date>
+			<publisher>National Library of Medicine (US</publisher>
+			<pubPlace>Bethesda (MD</pubPlace>
+		</imprint>
+	</monogr>
+	<note>cited 2019 1st September</note>
+</biblStruct>
+
+<biblStruct coords="18,207.86,628.19,364.46,7.40;18,221.50,637.66,329.19,7.40;18,221.50,647.19,206.49,7.40" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Clinical trials in low and middle-income countries-successes and challenges</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jhingran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Mahantshetty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Small W Jr</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gore.2016.11.007</idno>
+		<idno type="PMID">28004030</idno>
+		<ptr target="https://doi.org/10.1016/j.gore.2016.11.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Gynecologic oncology reports</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="5" to="9" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,207.86,660.17,360.64,7.40;18,221.50,669.69,158.41,7.40" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Cost of illness studies</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Byford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Torgerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raftery</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmj.320.7245.1335</idno>
+		<idno type="PMID">10807635</idno>
+		<ptr target="https://doi.org/10.1136/bmj.320.7245.1335" />
+	</analytic>
+	<monogr>
+		<title level="j">Bmj</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="issue">7245</biblScope>
+			<biblScope unit="page">1335</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,207.86,682.67,358.41,7.40;18,221.50,692.20,235.23,7.40" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Cost-of-illness analysis: what room in health economics? Health policy</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tarricone</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.healthpol.2005.07.016</idno>
+		<idno type="PMID">16139925</idno>
+		<ptr target="https://doi.org/10.1016/j.healthpol.2005.07.016" />
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="51" to="63" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,77.54,367.27,7.40;19,221.50,87.06,346.94,7.40;19,221.50,96.53,200.31,7.40" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">How will surgical site infection be measured to ensure &quot;high quality care for all</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ashby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Haddad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Donnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wilson</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1302/0301-620X.92B9.22401</idno>
+		<idno type="PMID">20798451</idno>
+		<ptr target="https://doi.org/10.1302/0301-620X.92B9.22401" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of bone and joint surgery British</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1294" to="1299" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,109.51,354.04,7.40;19,221.50,119.04,344.69,7.40;19,221.50,128.56,118.56,7.40" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Surveillance of surgical site infection: more accurate definitions and intensive recording needed</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Leaper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kiernan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2012.11.013</idno>
+		<idno type="PMID">23332350</idno>
+		<ptr target="https://doi.org/10.1016/j.jhin.2012.11.013" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hospital Infection</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="83" to="86" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,141.54,361.15,7.40;19,221.50,151.01,352.17,7.40;19,221.50,160.54,247.99,7.40" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Post-discharge surveillance (PDS) for surgical site infections: a good method is more important than a long duration</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Koek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Isken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Benthem</surname></persName>
+		</author>
+		<idno type="DOI">10.2807/1560-7917.es2015.20.8.21042</idno>
+		<idno type="PMID">25742435</idno>
+		<ptr target="https://doi.org/10.2807/1560-7917.es2015.20.8.21042" />
+	</analytic>
+	<monogr>
+		<title level="j">Eurosurveillance</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">21042</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,173.52,363.59,7.40;19,221.50,183.04,354.55,7.40;19,221.50,192.51,345.83,7.40;19,221.50,202.03,187.61,7.40" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Low infection rates after 34,361 intramedullary nail operations in 55 low-and middle-income countries: validation of the Surgical Implant Generation Network (SIGN) online surgical database</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Lie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hallan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Zirkle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Engesaeter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Havelin</surname></persName>
+		</author>
+		<idno type="DOI">10.3109/17453674.2011.636680</idno>
+		<idno type="PMID">22066554</idno>
+		<ptr target="https://doi.org/10.3109/17453674.2011.636680" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta orthopaedica</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="737" to="743" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,215.02,361.06,7.40;19,221.50,224.54,234.67,7.40" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Why match? Investigating matched case-control study designs with causal effect estimation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Van Der Laan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The international journal of biostatistics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,237.52,361.18,7.40;19,221.50,247.05,353.03,7.40;19,221.50,256.52,251.44,7.40" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Impact of surgical site infection after colorectal surgery on hospital stay and medical expenditure in Japan</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kashimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kusachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Konishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kusunoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oka</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00595-012-0126-8</idno>
+		<idno type="PMID">22286573</idno>
+		<ptr target="https://doi.org/10.1007/s00595-012-0126-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Surgery today</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="639" to="645" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,269.56,362.57,7.40;19,221.50,279.02,329.11,7.40;19,221.50,288.55,44.61,7.40" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Perspectives in prevention and treatment of surgical site infection-a narrative review of the literature. Wounds: a compendium of clinical research and practice</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Leaper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Assadian</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="313" to="323" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,301.53,366.37,7.40;19,221.50,311.05,175.83,7.40" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">CRD&apos;s Guidance for Undertaking Reviews in Health Care. Layerthorpe: University of York</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dissemination</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>Centre for Reviews and Dissemination</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,324.04,362.07,7.40;19,221.50,333.56,347.00,7.40;19,221.50,343.03,338.48,7.40;19,221.50,352.55,112.88,7.40" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate health care interventions: explanation and elaboration</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liberati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tetzlaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mulrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Gøtzsche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pmed.1000100</idno>
+		<idno type="PMID">19621070</idno>
+		<ptr target="https://doi.org/10.1371/journal.pmed.1000100" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS medicine</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">1000100</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,365.54,363.84,7.40;19,221.50,375.06,317.71,7.40" xml:id="b30">
+	<monogr>
+		<title level="m" type="main">List of OECD Member countries-Ratification of the Convention on the OECD</title>
+		<ptr target="http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm" />
+		<imprint>
+			<publisher>OECD</publisher>
+		</imprint>
+	</monogr>
+	<note>cited 2019 18th January</note>
+</biblStruct>
+
+<biblStruct coords="19,207.86,388.04,362.71,7.40;19,221.50,397.51,341.40,7.40;19,221.50,407.04,220.82,7.40" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Antenatal ultrasound screening for fetal abnormalities: a systematic review of studies of cost and cost effectiveness</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mugford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bricker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Garcia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BJOG: An International Journal of Obstetrics &amp; Gynaecology</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="44" to="56" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,420.02,357.25,7.40;19,221.50,429.54,163.82,7.40" xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Purchasing power parities (PPP)</title>
+		<author>
+			<persName><surname>Oecd Data</surname></persName>
+		</author>
+		<ptr target="https://data.oecd.org/conversion/purchasing-power-parities-ppp.htm" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>cited 2018 11th October</note>
+</biblStruct>
+
+<biblStruct coords="19,207.86,442.52,368.01,7.40;19,221.50,452.05,267.91,7.40" xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Implied PPP conversion rate</title>
+		<ptr target="https://www.imf.org/external/datamapper/PPPEX@WEO/OEMDC/ADVEC/WEOWORLD" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>International Monetary Fund</publisher>
+		</imprint>
+	</monogr>
+	<note>cited 2018 11th October</note>
+</biblStruct>
+
+<biblStruct coords="19,207.86,465.03,368.19,7.40;19,221.50,474.56,352.23,7.40;19,221.50,484.02,246.70,7.40" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Checklist for the Development and Assessment of Cost-of-Illness Studies</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mu ¨ller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C-M</forename><surname>Dintsios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chernyak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gerber-Grote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Gloede</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gesundheitswesen (Bundesverband der Arzte des Offentlichen Gesundheitsdienstes (Germany))</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">8-09</biblScope>
+			<biblScope unit="page" from="744" to="753" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,497.01,353.08,7.40;19,221.50,506.53,342.53,7.40;19,221.50,516.06,334.38,7.40" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Clinical and economic burden of surgical site infection (SSI) and predicted financial consequences of elimination of SSI from an English hospital</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jenks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laurent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mcquarry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Watkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2013.09.012</idno>
+		<idno type="PMID">24268456</idno>
+		<ptr target="https://doi.org/10.1016/j.jhin.2013.09.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hospital Infection</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="24" to="33" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,529.04,367.09,7.40;19,221.50,538.56,341.41,7.40;19,221.50,548.03,118.56,7.40" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Deep wound infection after proximal femoral fracture: consequences and costs</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Barlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Willett</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2006.01.015</idno>
+		<idno type="PMID">16621145</idno>
+		<ptr target="https://doi.org/10.1016/j.jhin.2006.01.015" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hospital Infection</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="133" to="139" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,561.01,367.49,7.40;19,221.50,570.54,335.91,7.40;19,221.50,580.06,202.91,7.40" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Post-discharge surveillance to identify colorectal surgical site infection rates and related costs</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aplin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bankart</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2009.03.021</idno>
+		<idno type="PMID">19446918</idno>
+		<ptr target="https://doi.org/10.1016/j.jhin.2009.03.021" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hospital Infection</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="243" to="250" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,593.04,366.23,7.40;19,221.50,602.51,336.32,7.40;19,221.50,612.04,317.55,7.40;19,221.50,621.56,41.63,7.40" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Economic outcomes associated with deep surgical site infection in patients with an open fracture of the lower limb</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petrou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Achana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jpm</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Costa</surname></persName>
+		</author>
+		<idno type="DOI">10.1302/0301-620X.100B11.BJJ-2018-0308.R1</idno>
+		<idno type="PMID">62494885</idno>
+		<ptr target="http://dx.doi.org/10.1302/0301-620X.100B11.BJJ-2018-0308.R1" />
+	</analytic>
+	<monogr>
+		<title level="j">Bone and Joint Journal</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1506" to="1510" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,634.54,355.51,7.40;19,221.50,644.01,353.79,7.40;19,221.50,653.53,241.00,7.40" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The cost and consequences of proximal femoral fractures which require further surgery following initial fixation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thakar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alsousou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Willett</surname></persName>
+		</author>
+		<idno type="DOI">10.1302/0301-620X.92B12.25021</idno>
+		<idno type="PMID">21119173</idno>
+		<ptr target="https://dx.doi.org/10.1302/0301-620X.92B12.25021" />
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Br</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1669" to="1677" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,207.86,666.52,354.02,7.40;19,221.50,676.04,343.07,7.40;19,221.50,685.51,105.12,7.40" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Early infection after hip fracture surgery: risk factors, costs and outcome</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Counsell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Moran</surname></persName>
+		</author>
+		<idno type="DOI">10.1302/0301-620X.90B6.20194</idno>
+		<idno type="PMID">18539671</idno>
+		<ptr target="https://dx.doi.org/10.1302/0301-620X.90B6" />
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Br</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="770" to="777" />
+			<date type="published" when="2008">2008. 20194</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,77.54,359.60,7.40;20,221.50,87.06,334.32,7.40;20,221.50,96.53,305.25,7.40" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Are we really seeing the total costs of surgical site infections? A Spanish study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Alfonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Pereperez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Canoves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">-</forename><surname>Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2007.00254.x</idno>
+		<idno type="PMID">17650090</idno>
+		<ptr target="https://doi.org/10.1111/j.1524-475X.2007.00254.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Wound repair and regeneration</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="474" to="481" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,109.34,335.19,7.57;20,221.50,119.04,354.48,7.40;20,221.50,128.56,122.12,7.40" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Garcı ´a ML. Nosocomial infection in surgery wards: a controlled study of increased duration of hospital stays and direct cost of hospitalization</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Vegasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Jodra</surname></persName>
+		</author>
+		<idno type="PMID">8307135</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European journal of epidemiology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="504" to="510" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,141.54,358.84,7.40;20,221.50,151.01,334.05,7.40;20,221.50,160.54,35.05,7.40" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Costing wound infection in a Scottish hospital</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Malek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Davey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Napier</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00019053-199202020-00008</idno>
+		<idno type="PMID">10146955</idno>
+		<ptr target="https://doi.org/10.2165/00019053-199202020-00008" />
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacoeconomics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="163" to="170" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,173.52,359.46,7.40;20,221.50,183.04,323.83,7.40" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">An economic analysis of surgical wound infection</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Twaddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kean</surname></persName>
+		</author>
+		<idno type="DOI">10.1053/jhin.2001.1086</idno>
+		<idno type="PMID">11740871</idno>
+		<ptr target="https://doi.org/10.1053/jhin.2001.1086" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hospital Infection</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="245" to="249" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,195.86,360.44,7.57;20,221.50,205.55,350.01,7.40;20,221.50,215.02,310.86,7.40" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Surgical wound infections after vascular surgery: prospective multicenter observational study</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Turtiainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Saimanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Partio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ka</forename><surname>¨rkka ¨inen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kiviniemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ma ¨kinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<idno type="DOI">10.1177/145749691009900312</idno>
+		<idno type="PMID">21044935</idno>
+		<ptr target="https://doi.org/10.1177/145749691009900312" />
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Surgery</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="167" to="172" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,228.06,359.87,7.40;20,221.50,237.52,344.54,7.40;20,221.50,247.05,343.02,7.40;20,221.50,256.52,106.42,7.40" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Additional direct medical costs of nosocomial infections: an estimation from a cohort of patients in a French university hospital</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Defez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fabbro-Peray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cazaban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boudemaghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Daures</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2007.11.005</idno>
+		<idno type="PMID">18201796</idno>
+		<ptr target="https://doi.org/10.1016/j.jhin.2007.11.005" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of hospital infection</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="130" to="136" />
+			<date type="published" when="2008-01-19">2008. 2008/01/19</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,269.56,356.91,7.40;20,221.50,279.02,338.92,7.40;20,221.50,288.55,247.59,7.40" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Economic burden of surgical site infections at a European university hospital</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zwahlen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feder-Mengus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Misteli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/589331</idno>
+		<idno type="PMID">18564917</idno>
+		<ptr target="https://dx.doi.org/10.1086/589331" />
+	</analytic>
+	<monogr>
+		<title level="j">Infection Control &amp; Hospital Epidemiology</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="623" to="629" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,301.53,364.17,7.40;20,221.50,311.05,354.50,7.40;20,221.50,320.52,333.60,7.40;20,221.50,330.05,37.26,7.40" xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Hospital-acquired infections in Belgian acute-care hospitals: An estimation of their global impact on mortality, length of stay and healthcare costs. Epidemiology and Infection</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vrijens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hulstaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Devriese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>De Sande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1017/S0950268811000100</idno>
+		<idno type="PMID">21320376</idno>
+		<ptr target="http://dx.doi.org/10.1017/S0950268811000100" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="126" to="136" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,343.03,363.57,7.40;20,221.50,352.55,330.48,7.40;20,221.50,362.02,354.50,7.40;20,221.50,371.55,255.93,7.40" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Cost-effectiveness of incisional negative pressure wound therapy compared with standard care after caesarean section in obese women: a trial-based economic evaluation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hyldig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Joergensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Vinter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sorensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1471-0528.15573</idno>
+		<idno type="PMID">62572769</idno>
+		<ptr target="http://dx.doi.org/10.1111/1471-0528.15573" />
+	</analytic>
+	<monogr>
+		<title level="j">BJOG: An International Journal of Obstetrics and Gynaecology</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,384.53,350.02,7.40;20,221.50,394.05,351.41,7.40;20,221.50,403.52,146.04,7.40" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Economic aspects of deep sternal wound infections</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Graf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R-P</forename><surname>Vonberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kuehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haverich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>Chaberny</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ejcts.2009.10.005</idno>
+		<idno type="PMID">19896860</idno>
+		<ptr target="https://doi.org/10.1016/j.ejcts.2009.10.005" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Cardio-Thoracic Surgery</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="893" to="896" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,416.56,344.66,7.40;20,221.50,426.03,347.61,7.40" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Gru ¨neberg R. A scoring method (ASEPSIS) for postoperative wound infections for use in clinical trials of antibiotic prophylaxis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sturridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Treasure</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Lancet</title>
+		<imprint>
+			<biblScope unit="volume">327</biblScope>
+			<biblScope unit="issue">8476</biblScope>
+			<biblScope unit="page" from="311" to="312" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,437.31,365.49,9.10;20,221.50,448.53,351.77,7.40;20,221.50,458.06,116.91,7.40" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Factors affecting surgical site infection rate after elective gastric cancer surgery</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>O ¨zmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Javadov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Yeğen</surname></persName>
+		</author>
+		<idno type="DOI">10.5152/UCD.2015.3135</idno>
+		<idno type="PMID">27528811</idno>
+		<ptr target="https://doi.org/10.5152/UCD.2015.3135" />
+	</analytic>
+	<monogr>
+		<title level="j">Turkish Journal of Surgery/Ulusal cerrahi dergisi</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">178</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,470.87,360.71,7.57;20,221.50,480.51,310.26,7.40" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Rifamycin SV application to subcutaneous tissue for prevention of post-cesarean surgical site infection</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ko ¨şu ¨ş</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ko ¨şu ¨ş</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gu ¨ler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of General Medicine</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,493.55,355.52,7.40;20,221.50,503.02,351.66,7.40;20,221.50,512.54,334.38,7.40" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Mortality rate, length of stay and extra cost of sternal surgical site infections following coronary artery bypass grafting in a private medical centre in Turkey</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Coskun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aytac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aydınlı</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bayer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2004.10.017</idno>
+		<idno type="PMID">15866018</idno>
+		<ptr target="https://doi.org/10.1016/j.jhin.2004.10.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hospital Infection</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="176" to="179" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,525.52,361.01,7.40;20,221.50,535.05,350.32,7.40;20,221.50,544.52,82.38,7.40" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Cost-benefit analysis of craniocerebral surgical site infection control in tertiary hospitals in China</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+		<idno type="DOI">10.3855/jidc.4482</idno>
+		<idno type="PMID">25699493</idno>
+		<ptr target="http://dx.doi.org/10.3855/jidc.4482" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Infection in Developing Countries</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="182" to="189" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,557.55,359.70,7.40;20,221.50,567.02,346.05,7.40;20,221.50,576.55,289.48,7.40" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Evaluating the direct economic burden of health care-associated infections among patients with colorectal cancer surgery in China</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiao</forename><forename type="middle">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cwh</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ajic.2017.08.003</idno>
+		<idno type="PMID">28967510</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.ajic.2017.08.003" />
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Infection Control</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="34" to="38" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,589.53,362.87,7.40;20,221.50,599.05,334.33,7.40;20,221.50,608.52,70.41,7.40" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Economical and clinical impact of surgical site infection following coronary artery bypass graft surgery in north Jordan</title>
+		<author>
+			<persName><forename type="first">Al-Zaru Im</forename><surname>Abualrub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Musallam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Nursing Practice</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="117" to="125" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,621.56,359.77,7.40;20,221.50,631.03,333.24,7.40;20,221.50,640.55,264.08,7.40" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Surgical site infections after craniotomy: a matched health-care cost and length of stay study</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Hweidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Barbarawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Tawalbeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Al-Hassan</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Al-Ibraheem</forename><surname>Sw</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2018.27.12.885</idno>
+		<idno type="PMID">30557106</idno>
+		<ptr target="https://doi.org/10.12968/jowc.2018.27.12.885" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of wound care</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="885" to="890" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,653.53,366.34,7.40;20,221.50,663.06,354.56,7.40;20,221.50,672.53,199.85,7.40" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Cost-effective and potential benefits in three-port hand-assisted laparoscopic sigmoidectomy</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Phothong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Akaraviputh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chinswangwatanakul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Methasate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Trakarnsanga</surname></persName>
+		</author>
+		<idno type="PMID">26591396</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Medical Association of Thailand</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="864" to="870" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,207.86,685.51,363.15,7.40;20,221.50,695.03,334.60,7.40;21,221.50,77.54,344.75,7.40;21,221.50,87.06,134.77,7.40" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Cost-utility analysis of great saphenous vein ablation with radiofrequency, foam and surgery in the emerging health-care setting of Thailand</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Siribumrungwong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Noorit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wilasrusmee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Leelahavarong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thakkinstian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Teerawattananon</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0268355515604258</idno>
+		<idno type="PMID">26341394</idno>
+		<ptr target="http://dx.doi.org/10.1177/0268355515604258" />
+	</analytic>
+	<monogr>
+		<title level="j">Phlebology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="573" to="581" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,100.05,362.24,7.40;21,221.50,109.51,353.80,7.40;21,221.50,119.04,279.33,7.40" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Economic impact of treatment for surgical site infections in cases of total knee arthroplasty in a tertiary public hospital in Brazil</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dal-Paz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prd</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>De Paula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mcs</forename><surname>Da Emerick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Pecora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Allm</forename><surname>Lima</surname></persName>
+		</author>
+		<idno type="PMID">20963320</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Brazilian Journal of Infectious Diseases</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="356" to="359" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,132.02,364.01,7.40;21,221.50,141.54,347.05,7.40;21,221.50,151.01,77.95,7.40" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Impact of using triclosan-antibacterial sutures on incidence of surgical site infection</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Galal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>El-Hindawy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.amjsurg.2010.06.011</idno>
+		<idno type="PMID">21600552</idno>
+		<ptr target="dhttp://dx.doi.org/10.1016/j.amjsurg.2010.06.011" />
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Surgery</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="133" to="138" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,164.05,364.25,7.40;21,221.50,173.52,342.48,7.40;21,221.50,183.04,123.36,7.40" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Assessment of costs associated with hospital-acquired infections in a private tertiary care hospital in India</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rohit</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.vhri.2013.03.002</idno>
+		<idno type="PMID">29702858</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.vhri" />
+	</analytic>
+	<monogr>
+		<title level="j">Value in Health Regional Issues</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="87" to="91" />
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,195.80,347.10,7.63;21,221.50,205.55,342.03,7.40;21,221.50,215.02,341.87,7.40;21,221.50,224.54,35.05,7.40" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">A prospective study of surgical site infections in a pediatric hospital in Mexico City</title>
+		<author>
+			<persName><forename type="first">Porras-Herna ´ndez</forename><surname>Jd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vilar-Compte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cashat-Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ordorica-Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bracho-Blanchet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Avila-Figueroa</surname></persName>
+		</author>
+		<idno type="DOI">10.1067/mic.2003.85</idno>
+		<idno type="PMID">12888767</idno>
+		<ptr target="https://doi.org/10.1067/mic.2003.85" />
+	</analytic>
+	<monogr>
+		<title level="j">American journal of infection control</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="302" to="308" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,237.52,352.05,7.40;21,221.50,247.05,338.67,7.40;21,221.50,256.52,335.30,7.40;21,221.50,266.04,35.05,7.40" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Laparoscopic Versus Open Cholecystectomy: A Cost-Effectiveness Analysis at Rwanda Military Hospital</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Silverstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Costas-Chavarri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Gakwaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lule</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mukhopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Meara</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00268-016-3851-0</idno>
+		<idno type="PMID">27905020</idno>
+		<ptr target="https://doi.org/10.1007/s00268-016-3851-0" />
+	</analytic>
+	<monogr>
+		<title level="j">World journal of surgery</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1225" to="1233" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,279.02,368.22,7.40;21,221.50,288.55,343.51,7.40;21,221.50,298.02,168.78,7.40" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Burden, spectrum, and impact of healthcare-associated infection at a South African children&apos;s hospital</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dramowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Whitelaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Cotton</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2016.08.022</idno>
+		<idno type="PMID">27717603</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jhin.2016.08.022" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hospital Infection</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="364" to="372" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,311.05,338.71,7.40;21,221.50,320.52,349.11,7.40;21,221.50,330.05,269.81,7.40" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Barriers and facilitators to health information exchange in low-and middle-income country settings: a systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhlaq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mckinstry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Muhammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sheikh</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/heapol/czw056</idno>
+		<idno type="PMID">27185528</idno>
+		<ptr target="https://doi.org/10.1093/heapol/czw056" />
+	</analytic>
+	<monogr>
+		<title level="j">Health policy and planning</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1310" to="1325" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,343.03,357.50,7.40;21,221.50,352.55,336.86,7.40;21,221.50,362.02,91.06,7.40" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Economic evaluation alongside multinational studies: a systematic review of empirical studies</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oppong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jowett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Roberts</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0131949</idno>
+		<idno type="PMID">26121465</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0131949" />
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">131949</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,375.06,368.01,7.40;21,221.50,384.53,337.27,7.40;21,221.50,394.05,274.18,7.40" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Transferability of economic evaluations across jurisdictions: ISPOR Good Research Practices Task Force report</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Drummond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barbieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Glick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Malik</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-4733.2008.00489.x</idno>
+		<idno type="PMID">19900249</idno>
+		<ptr target="https://doi.org/10.1111/j.1524-4733.2008.00489.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Value in health</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="409" to="418" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,407.04,356.24,7.40" xml:id="b70">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Callen</surname></persName>
+		</author>
+		<title level="m">PPP versus the market: which weight matters? Finance and Development</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">50</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,420.02,355.63,7.40;21,221.50,429.54,351.01,7.40;21,221.50,439.01,31.58,7.40" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Methods for conducting systematic reviews of risk factors in low-and middle-income countries</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shenderovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eisner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mikton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Murray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC medical research methodology</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">32</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,452.05,366.75,7.40;21,221.50,461.52,326.91,7.40;21,221.50,471.04,35.05,7.40" xml:id="b72">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Broex</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Asselt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bruggeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Tiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2009.03.020</idno>
+		<idno type="PMID">19482375</idno>
+		<ptr target="https://doi.org/10.1016/j.jhin.2009.03.020" />
+		<title level="m">Surgical site infections: how high are the costs? Journal of Hospital Infection</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="193" to="201" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,484.02,367.21,7.40;21,221.50,493.55,342.72,7.40" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Accuracy of economic studies on surgical site infection</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yasunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ide</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Imamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ohe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2006.07.008</idno>
+		<idno type="PMID">16978732</idno>
+		<ptr target="https://doi.org/10.1016/j.jhin.2006.07.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hospital Infection</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="102" to="107" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,506.53,361.02,7.40;21,221.50,516.06,341.15,7.40;21,221.50,525.52,15.38,7.40" xml:id="b74">
+	<monogr>
+		<title level="m" type="main">Cost-effectiveness of surgery and its policy implications for global health: a systematic review and analysis</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mandigo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hagander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Resch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Weiser</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="334" to="e345" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,538.56,361.53,7.40" xml:id="b75">
+	<monogr>
+		<title level="m" type="main">Report on the burden of endemic health care-associated infection worldwide</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Organization</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,551.54,367.09,7.40;21,221.50,561.01,353.77,7.40;21,221.50,570.54,58.68,7.40" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Identifying priorities for quality improvement at an emergency Department in Ghana</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dewulf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Otchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Soghoian</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12873-017-0139-0</idno>
+		<idno type="PMID">28854879</idno>
+		<ptr target="https://doi.org/10.1186/s12873-017-0139-0" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC emergency medicine</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">28</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,583.52,368.03,7.40;21,221.50,593.04,349.13,7.40;21,221.50,602.51,242.31,7.40" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Barriers and facilitators of surgical care in rural Uganda: a mixed methods study</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">C</forename><surname>Nwanna-Nzewunwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-M</forename><surname>Ajiko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kirya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Epodoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kabagenyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Batibwe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jss.2016.04.051</idno>
+		<idno type="PMID">27451893</idno>
+		<ptr target="https://doi.org/10.1016/j.jss.2016.04.051" />
+	</analytic>
+	<monogr>
+		<title level="j">journal of surgical research</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="242" to="250" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,207.86,615.55,353.66,7.40;21,221.50,625.02,349.05,7.40;21,221.50,634.54,252.85,7.40" xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Hospital acquired infections in low and middle income countries: root cause analysis and the development of infection control practices in Bangladesh</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shahida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Dey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkatesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goodman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Journal of Obstetrics and Gynecology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page">28</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

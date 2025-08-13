@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Near-Infrared Spectroscopy Imaging for Assessing Skin and Wound Oxygen Perfusion</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>DPM</roleName><forename type="first">Adam</forename><surname>Landsman</surname></persName>
+							<email>alandsman@cha.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Podiatric Surgery</orgName>
+								<orgName type="institution" key="instit1">Cambridge Health Alliance</orgName>
+								<orgName type="institution" key="instit2">Harvard Medical School</orgName>
+								<address>
+									<addrLine>1493 Cam-bridge Street</addrLine>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>BS</roleName><forename type="first">Darrell</forename><surname>Barnhart</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Kent Imaging</orgName>
+								<address>
+									<addrLine>804B 16 Avenue</addrLine>
+									<postCode>T2R 0S9</postCode>
+									<settlement>Calgary</settlement>
+									<region>SW, AB</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Michael</forename><surname>Sowa</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Kent Imaging</orgName>
+								<address>
+									<addrLine>804B 16 Avenue</addrLine>
+									<postCode>T2R 0S9</postCode>
+									<settlement>Calgary</settlement>
+									<region>SW, AB</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Near-Infrared Spectroscopy Imaging for Assessing Skin and Wound Oxygen Perfusion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D2F99B92DAC85737CB2262B311572A5C</idno>
+					<idno type="DOI">10.1016/j.cpm.2018.02.005</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Disclosures: A. Landsman serves as the Chief Medical Officer for Kent Imaging. M. Sowa and D. Barnhart are employed by Kent Imaging.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="432.0" lry="648.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Without a doubt, among the most important aspects in assessment of wound closure and skin viability is blood supply. Blood carries nutrients to the site and removes waste. It plays a role in every aspect of tissue life. Measurement of blood supply has continually evolved over the last 30 years, from simply palpating pulses to angiography to peripheral circulatory measurements based on skin perfusion. The evaluation of skin perfusion becomes much more complex due to the tiny and diffuse nature of the capillary beds.</p><p>The Ankle-Brachial Index and angiography give little useful information when it comes to evaluating blood flow to the skin. Historically, patients may have good macroscopic blood flow and yet still may have poor skin perfusion, which can be KEYWORDS Near-infrared spectroscopy NIRS Wound perfusion Healing rate Oxygenated hemoglobin Tissue oxygenation Tissue oxygen perfusion</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>KEY POINTS</head><p>One of the most important aspects in assessment of wound closure and skin viability is blood supply. Measurement of blood supply has continually evolved over the last 30 years, from simply palpating pulses to angiography to peripheral circulatory measurements based on skin perfusion. Light-based systems have provided a new way to evaluate the delicate peripheral oxygenation of superficial tissues.</p><p>attributed to basement membrane thickening in patients with diabetes and to issues such as microembolism in patients with a history of atherosclerotic disease.</p><p>Light-based systems have provided a new way to evaluate the delicate peripheral oxygenation of superficial tissues. Pulse oximetry (S p O2) systems are routinely found in operating rooms and are a staple for monitoring oxygenation levels during anesthesia. This simple diode-receptor combination attaches to a finger and measures changes in oxygenation levels in the larger arteries. Similarly, plastic surgeons have relied on local probes that can be attached directly to a skin flap to monitor flow to 1 point within the flap. Flow is calculated using an algorithm and is expressed in tissue perfusion units, which does not actually relate to a volumetric measure but rather a relative assessment of perfusion. Both modalities have 2 significant limitations. The first is that they require direct contact with the tissues. This may be problematic in cases in which there is concern about an infection. The second issue is that they provide information from only a single point, without providing any information about adjacent areas.</p><p>To measure greater areas of tissue, an intravenous dye, indocyanine green (ICG) can be administered. It has a peak spectral absorption of around 800 nm, and can be viewed when a specialized light source and camera are used to view the tissues shortly after administration. Typically, this process is done within the operating room suite, allowing real-time viewing of the tissues as they are being perfused. Although this system is highly capable of providing a detailed image of the superficial tissue circulation, it has significant limitations. The test must be conducted in an operating room suite, adding significant costs. The test cannot be immediately repeated, which is problematic if taking an image, adjusting some aspect influencing perfusion, and then repeating the image to determine if the adjustment had any effect. For example, if a patient had reflex sympathetic dystrophy with autonomically controlled vasoconstriction, the image would show reduced perfusion. Then, if a nerve block is performed, one would expect to see resultant vasodilation but this would not be possible with an ICG system. A second limitation is the physical size of the device. A typical ICG-based system is on a large cart that requires a significant amount of space and coordination to operate.</p><p>Thermography is another alternative that may give some indication about the level of peripheral circulation. Historically, warm tissues are well-perfused, whereas colder tissues are not. Although thermography can be used to assess peripheral circulation indirectly, the images typically lack detail, and are highly susceptible to changes in room temperature and the patient's level of comfort. Consequently, thermographic images are highly irreproducible.</p><p>More recently, near-infrared spectroscopy (NIRS) has become available. This technique is based on the transmission of near-infrared light onto the skin surface. Some portions of the light are absorbed, whereas other portions are reflected. The device used in this study is an imaging NIRS device (Kent KD203, Kent Imaging, Calgary, AB, Canada), emitting a series of illuminating flashes of near-infrared light between 600 and 1000 nm. Light around 750 nm is predominantly absorbed by unbound hemoglobin, whereas light around 850 nm is predominantly absorbed by hemoglobin bound to oxygen. By measuring the relative absorption of near-infrared light around those key wavelengths, the ratio of oxygenated to oxygenation plus deoxygenated hemoglobin can be determined. Well-perfused tissues will have a higher percent of oxygenated hemoglobin than poorly perfused skin (Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>Spectroscopy systems that use near-infrared light to determine hemoglobin oxygenation have the benefit of sampling tissue more deeply compared with their visible light counterparts. This is particularly the case in the presence of higher epidermal melanin content. Visible light is highly attenuated by melanin, whereas nearinfrared light is less affected. Thus, visible light devices are challenged to sample beyond the epidermal melanin layer in darker skin.</p><p>To establish the accuracy of this measurement technique, Bowen and colleagues 1 looked at the correlation between measurements taken using NIRS and trans cutaneous oxygen perfusion (TCPO2) in patients with chronic wounds. They took simultaneous measurements on 20 subjects, and found a correlation coefficient of 0.92 and r 2 equals 0.84, indicating that the NIRS correlated well with TCPO2. They also noted that there were some significant advantages to using NIRS, including lower cost and its noncontact nature, compared with the need for a TCPO2 probe, which must actually touch the skin being assessed. The investigators also noted the faster sampling time with NIRS, approximately 2 minutes versus 90 minutes with TCPO2.</p><p>Using an array of infrared emitters, the NIRS device can capture data from large areas of skin. The device used in this study is able to capture oxygen perfusion data over an area of approximately 150 cm 2 . Over the 8 seconds it takes to collect and display data, it captures a JPEG clinical image, as well as the images showing oxygenated and deoxygenated hemoglobin. Using an algorithm to calculate the ratios, the images can be overlaid to determine the oxygen perfusion of any area within the field of view. Simply touching a portion of the screen instantaneously displays the ratio of oxygenated to oxygenated plus deoxygenated hemoglobin within an area of approximately 0.2 cm 2 (Fig. <ref type="figure">2</ref>).</p><p>In this study, NIRS was used to evaluate skin oxygen perfusion. These data were used to draw some conclusions about the correlation between the level of tissue oxygenation and the ability to heal a wound. Other clinical applications were also explored, including an assessment of skin flaps and the predictive value of NIRS for flap survival.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EVALUATION OF DIABETIC FOOT ULCERS</head><p>Foot ulcers are among the most common complications among patients with diabetes, particularly in the presence of neuropathy and/or peripheral vascular disease. Regardless of the specific etiologic factor causing the ulcer to form, vascular perfusion is essential for healing. In this evaluation, a group of subjects with diabetes and wounds were followed to determine if NIRS had any predictive value for determining the probability of closure. This study builds on the work by Livingston, 2 which was presented as an abstract but never published due to the death of the investigator shortly after the preliminary work was completed. In his preliminary study, Livingston found that when the ratio of oxygenated to oxygenated plus deoxygenated hemoglobin was lower than 40%, the risk of wounds not healing increased dramatically. Therefore, in the current study, the authors paid particular attention to cases in which the ratio was less than or equal to 40%. In addition, we have observed that the percentage of oxygenated hemoglobin can be limited to the area within the wound margin or can spread to the areas surrounding the wound. Therefore, the impact of perfusion in the adjacent areas was also examined.</p><p>Finally, the accuracy of the displayed values partially depend on the interference of pigmentation when trying to penetrate through the skin. Pigmentation is usually described according to the Fitzpatrick scale, <ref type="bibr" target="#b2">3</ref> ranging from Fitzpatrick 1 (very light coloration) to Fitzpatrick 6, which is the darkest (Table <ref type="table" target="#tab_0">1</ref>). All light-based systems must take pigmentation into account when determining absorption and reflection, and will use an algorithm for compensating for melanin levels.</p><p>The following case series illustrate some of the critical issues associated with NIRS. In particular, the ability to predict wound healing and flap survival are the primary focus of this research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case #1: Predicting Surgical Wound Dehiscence</head><p>A 38-year-old woman had a 3 cm soft tissue mass excised from the dorsal lateral aspect of her left foot. The lesion appeared to be a ganglion and was located superficial to the deep fascia. Fig. <ref type="figure">2</ref> shows the patient immediately after surgery, with sutures in place. Clinically, there is some slight bruising apparent but no evidence of Fig. <ref type="figure">2</ref>. Skin slough following excision of lipoma. Immediate clinical picture shows a wellcoapted wound, with some evidence of bruising (A). However, the NIRS image shows the ischemia above the incision line (11%) (B). This area did go on to a full-thickness slough.</p><p>ischemia (Fig. <ref type="figure">2A</ref>). However, the NIRS image showed 11% oxygen saturation to the central portion of the incision (Fig. <ref type="figure">2B</ref>). The adjacent tissues show excellent tissue oxygen saturation (S t O 2 ) with values ranging from 69% to 84% S t O 2 . The patient is a Fitzpatrick 2 to 3, so no melanin correction was required. Seven days after this image was captured, the surgical wound dehisced and there was a full-thickness slough along the incision line.</p><p>Due to the size of the wound and the exposure of the deep fascia, a split-thickness skin graft was required to achieve closure. Examination of the skin graft shortly after application revealed a secured graft with minimal perfusion noted. Over time, the graft slowly incorporated, and the improvement in wound bed perfusion was apparent with the NIRS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case #2: Determining the Level and Timing of Amputation</head><p>A 70-year-old man with diabetes presented with gangrenous changes to his hallux. NIRS images suggested a clear line of demarcation in the area just proximal to the metatarsal phalangeal joint. Several images were captured over a period of 3 weeks, with no notable changes in the line of demarcation and with relatively poor levels of oxygenation at the margin itself (Fig. <ref type="figure">3A</ref>). Based on the stability of the demarcation line, the decision was made to perform an amputation of the gangrenous hallux, as well as resection of the first metatarsal head.</p><p>Immediately following the surgery, the clinical picture of the foot seemed to show an excellent outcome, with good coloration of the skin along the wound margin. However, the NIRS image clearly showed a different story (Fig. <ref type="figure">3B</ref>). In this image, one could appreciate the drop in percentage of S t O 2 to only 18%. Not surprisingly, the wound dehisced approximately 1 week later. The foot began to show signs of ischemia, with widening of the area of low S t O 2 . Ultimately, gangrenous changes started to appear, extending proximally and laterally. At this point, the decision was made to proceed on to a transmetatarsal amputation.</p><p>Three weeks after the initial procedure, the transmetatarsal amputation was performed without complication. Clinical examination of the foot appeared to show good coloration, and the wound remained well-coapted. NIRS taken at the same time showed some slight decrease in perfusion along the incision line, with some areas going as low as 43% and 48% S t O 2 (Fig. <ref type="figure">3C</ref>). Considering 40% as the benchmark for adequate oxygenation for healing, it was not surprising that this wound did go on to heal completely without complication. Near-Infrared Spectroscopy Imaging Fig. <ref type="figure">3</ref>. Evaluation of skin demarcation following gangrene and amputation. This patient had gangrenous changes to the hallux and, based on NIRS images, the decision was made to resect to the level of the first metatarsal phalangeal joint (A). Initially, the clinical appearance of the foot was good (B) but the NIRS image tells another story with ischemic changes (18%) along the incision line that ultimately led to total dehiscence of the closure (C). Due to the extent of the damage, ultimately, a transmetatarsal amputation was needed (D), which resulted in much better perfusion along the incision line, and this did go on to full healing (E).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case #3: Skin Graft Incorporation</head><p>A 67-year-old woman presented with a chronic ankle ulceration that was present for nearly 2 years. She had treatments with multiple biologic and living cell products with progressive worsening of the wound. Ultimately, her wound deteriorated to reach the level of the medial malleolus and exposed periosteum. After her initial presentation, an NIRS image showed very low levels of oxygenation, consistent with this relatively dysvascular tissue. She was taken to the operating room where debridement was performed, to the level of bone, and an array of small holes was drilled into the bone with a Kirschner wire to stimulate bleeding. Following copious irrigation, a cryopreserved split-thickness skin allograft was applied (TheraSkin, Soluble Systems, Newport News, VA, USA). One week after application, the patient returned to the clinic. Examination of the wound was inconclusive concerning whether or not the graft had become incorporated (Fig. <ref type="figure" target="#fig_1">4A</ref>). However, an NIRS image clearly demonstrated not only excellent perfusion of the wound bed but also integration of the graft (Fig. <ref type="figure" target="#fig_1">4B</ref>). Four weeks later, the graft was fully incorporated into the wound bed and a second graft was applied. The wound went on to full closure 8 weeks after initial debridement and graft application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case#4: Gangrenous Changes in a Toe</head><p>A very common scenario is the presentation of a toe with wet gangrene. In most cases, amputation is eminent to reduce the risk of prolonged drainage and exacerbation of infection. Images taken (Fig. <ref type="figure" target="#fig_2">5A,</ref><ref type="figure">C</ref>) show the clinical picture, with obvious destruction to the tip of the toe. However, the question was how far the damage extended.</p><p>In the NIRS images (Fig. <ref type="figure" target="#fig_2">5B</ref>, D), it is apparent that the damage does not extend beyond the proximal interphalangeal joint. A partial amputation of the toe was performed and the wound went on to heal without complications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case #5: Deep Laceration of Skin to the Toe</head><p>This patient presented to the emergency department with a deep laceration to the dorsum of the hallux and second toe. Initially, the elevated skin appeared to be dusky and it was questionable whether or not the skin flap would survive. Following a cleansing of the area, the flap was reapproximated to the wound bed using Near-Infrared Spectroscopy Imaging monofilament suture. NIRS demonstrated a large area where the flap was poorly perfused over the hallux. The patient was instructed to reduce activity level, keep the foot elevated, avoid ice to the area, and leave the bandages in place (Fig. <ref type="figure" target="#fig_3">6A,</ref><ref type="figure">B</ref>).</p><p>Subsequently, the patient returned to clinic 1 week later and the imaging was repeated. It was apparent that the skin flap was surviving, and that perfusion had improved (Fig. <ref type="figure" target="#fig_3">6C,</ref><ref type="figure">D</ref>). The final outcome 3 weeks after the original injury was complete closure of the wound (Fig. <ref type="figure" target="#fig_3">6E,</ref><ref type="figure">F</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case #6: Plantar Skin Graft with Subsequent Revascularization</head><p>The patient presented with sloughing of the plantar mid-arch area of the foot. A stable eschar was present but wound healing was not progressing. One month after initial presentation, the eschar was debrided and, at the time of surgery, minimal bleeding was noted from the plantar surface. A split-thickness skin allograft was applied and NIRS images demonstrated poor oxygenation of the surrounding tissues (Fig. <ref type="figure" target="#fig_4">7A,</ref><ref type="figure">B</ref>). Two weeks after angioplasty imaging showed restored flow to the foot.   One can appreciate the change in perfusion to the plantar skin (Fig. <ref type="figure" target="#fig_4">7D</ref>), as well as the improvement in granulation tissue and graft incorporation that accompanied the improvement in flow (Fig. <ref type="figure" target="#fig_4">7C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>NIRS is an invaluable tool for evaluation of tissue oxygenation and perfusion. In the authors' series, there were several trends observed. The previous study by Bowen and colleagues <ref type="bibr" target="#b0">1</ref> clearly demonstrated that the oxygenation levels determined from NIRS correlated precisely with TCPO2 measurements, with the added advantages of more rapid assessment, without the need for patient contact, in addition to the ability to assess the condition of the skin over a much larger area.</p><p>Like all light-based systems, NIRS relies on the ability to differentiate between the color of oxygenated and deoxygenated hemoglobin in the face of various levels of melanin in the skin. The ability to gather accurate data in more darkly pigmented individuals becomes more elusive and depends on the algorithms used to filter the data, as well as the wavelengths of light chosen. Near-infrared light, like that used with the Kent Imaging device, is able to penetrate more deeply into the tissues than visible light systems, giving a much more accurate determination of the oxygenation levels of the wound bed and surrounding skin.</p><p>One limitation to the NIRS device is the need for measuring reflected light. Nearly all body parts have some slight curvature to their surface. When the curvature becomes extreme, such as along the edge of a foot, the images appear to show lower levels of oxygenation. This is an obvious artifact of making measurements over larger areas. A strong advantage to using a fast handheld device, such as that used in this study, is that it becomes very easy to take several images from different points of view to more accurately assess the percentages of oxygenation while eliminating the edge effects. This device is very light in weight, and can easily be held in a position that is parallel to the surface of interest, and can be used to take pictures from the top, bottom, and sides. This becomes much more difficult when trying to image curved surfaces with a stand-mounted device.</p><p>In the clinical setting, measurement of tissue oxygenation is useful for giving insights to the potential for healing based not only on the levels of oxygenation within the wound bed but also in the surrounding areas. In the authors' clinical experience, we have found NIRS to be highly useful for predicting flap failure and surgical wound dehiscence. Immediate testing of tissues following surgery in which the tissues appeared to be healthy and viable clinically, often gave accurate clues of potential future problems when the NIRS images were examined. In fact, we found that reduced levels of tissue oxygenation may predict as far as 7 days in advance when a flap is likely to fail. By knowing this far in advance that there is a potential problem with a surgical wound or skin flap, several steps can be taken to protect the tissues (see Table <ref type="table" target="#tab_0">1</ref>).</p><p>Previously, it was reported that a tissue oxygenation percentage greater than 40% is required to achieve wound healing, depending also on the levels of oxygenation of the adjacent surrounding tissues. The authors' experiences concur that oxygenation levels of around 40% are significant. Although we have seen wounds that have closed with oxygenation levels into the 30% range, this usually will occur only if the surrounding tissues are well-perfused and the wound is relatively small. Conversely, we have seen wounds with oxygenation levels in the 50% and even 60% levels that were nonprogressive but these wounds were usually larger and deeper. In cases in which there is an overall decreased level of oxygenation, surgical intervention to restore Near-Infrared Spectroscopy Imaging blood flow may be indicated. Conversely, if the immediate area of the wound appears to be well-perfused, further intervention may not be necessary.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUMMARY</head><p>New biologic wound treatments are changing the way that clinicians think about achieving healing. The addition of collagen, growth factors, hyaluronic acid, and living cell therapy have given the clinician new tools for addressing deficits in the healing process. Similarly, diagnostic tools to assess wound bed pathologic conditions are also evolving and now include measures for matrix metalloproteases (MMPs), pH, and quick tests for biofilms. Pressure and temperature transducers built into shoes, or even floor mats, can add further information to predict who may develop or fail to heal a wound.</p><p>Of all of the factors that influence wound healing, oxygenated blood flow is probably the most critical. Without blood flow, there is no mechanism for delivering nutrients and removing waste products. Furthermore, there is no nourishment of these tissues, which are often compromised by infection, and other issues. With time, the ability to interpret the effect of perfusion, both macroscopically and microscopically, continues to improve. From simple methods that use measurement of pulses and handheld Doppler, to more sophisticated techniques, such as fluorescent and radiopaque dye injection, the ability to assess vascular insufficiency and treat these problems continues to evolve.</p><p>NIS is a natural extension in the evolution of perfusion measurement. The current device illustrates the high quality of the data that can be collected, showing details in perfusion that can be determined across the entire surface of skin in increments of only a millimeter or 2. In the future, clinicians and scientists will become better at understanding the direct correlation between local oxygenation levels and determining the effect on wound healing.</p><p>Future applications for NIRS will certainly include early detection of MMPs that can stimulate angiogenesis but also cause periwound inflammation when present at excessive levels. Similarly, wounds that are infected may show increased periwound perfusion. Ischemia in the tissues can easily be detected before it is clinically apparent and will help determine the presence of microvascular disease, as well as serve as a signal to identify patients in need of vascular intervention. Imaging of the wound surface will also help assess when adequate debridement has been achieved.</p><p>Although the current study focused on the use of NIRS for applications related to wound healing, the value of NIRS is much greater. General surgeons who are performing anastomosis following bowel resection, for example, can image the surgical site intraoperatively to assess the quality of their repair. Similarly, plastic surgeons can use NIRS as a tool for assessing tissue perfusion in areas where sloughing is common, such as with various types of skin flaps. Physicians who administer oxygen in hyperbaric chambers may even be able to assess both the value of the current treatment, as well as the longer persisting benefits of this modality. Ultimately, NIRS will be seen is a way to detect the transition between normal, well-perfused tissues and abnormal tissues. The ramifications for this extend far beyond the assessment of wounds.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Kent Imaging NIRS device (A). Front of Kent camera showing light-emitting diodes and camera lens (B). (Courtesy of Kent Imaging Calgary, Alberta, Canada).</figDesc><graphic coords="3,42.75,53.80,328.88,125.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 4 .</head><label>4</label><figDesc>Fig.4. Full-thickness venous ulceration to the medial malleolus. The skin graft is showing minimal evidence of integration on the clinical picture (A). However, the NIRS image clearly demonstrates excellent perfusion of the skin graft, which did go on to complete closure (B).</figDesc><graphic coords="7,41.78,430.07,330.80,147.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Determining level of perfusion in the presence of a gangrenous toe. Clinically, the level of demarcation of the second digit is poorly defined (A, C) but the NIRS image clearly shows that the toe is well-perfused to the proximal interphalangeal joint on both the dorsal and plantar surfaces (B, D).</figDesc><graphic coords="8,62.42,53.80,324.68,342.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 6 .</head><label>6</label><figDesc>Fig.6. Laceration of skin. The initial laceration (A) along with the NIRS image (B) show poor perfusion of the laceration but excellent perfusion in the adjacent tissue. One week later, the skin is adhering well (C) and the increase in perfusion is evident in the flap (D). Two weeks later, sutures are removed, and the skin appears to have survived (E). The NIRS image also demonstrates excellent oxygenation of the tissues (F).</figDesc><graphic coords="9,42.18,40.37,330.20,516.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Vascular intervention to save a skin flap. Clinical image (A) and NIRS image (B) demonstrate several areas of graft integration but there was concern on the NIRS image for ischemia over adjacent areas on the plantar surface. Two weeks after angioplasty, the clinical image shows increase in granulation tissue throughout the graft (C) and the NIRS image illustrates the improved perfusion of the entire plantar surface of the foot (D).</figDesc><graphic coords="10,61.06,53.80,327.46,501.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Options for treatment of ischemic changes</figDesc><table><row><cell>Issue</cell><cell>Treatment</cell></row><row><cell>Ischemia along incision line</cell><cell>Reposition sutures</cell></row><row><cell></cell><cell>Loosen tension</cell></row><row><cell>Ischemia extending away from incision</cell><cell>Hyperbaric oxygenation</cell></row><row><cell>Poor perfusion of wound bed</cell><cell>Surgical debridement</cell></row><row><cell></cell><cell>Negative-pressure therapy</cell></row><row><cell></cell><cell>Warm room environment</cell></row><row><cell>Venous congestion</cell><cell>Nitroglycerin paste</cell></row><row><cell>Ischemic areas surrounding the wound</cell><cell>Vascular intervention to restore or improve</cell></row><row><cell></cell><cell>overall blood flow</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,59.18,581.22,335.05,8.35;12,67.41,592.22,326.71,8.35;12,67.41,603.16,234.96,8.35" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Correlation of near infrared spectroscopy measurements of tissue oxygen saturation with transcutaneous pO2 in patients with chronic wounds</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Bowen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Grn</forename><surname>Treadwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mrrt</forename><surname>Goodwin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SM Vasc Med</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">2016</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,41.61,53.81,334.94,8.35;13,49.83,64.75,326.75,8.35;13,49.83,75.69,111.65,8.35" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Multispectral oximetry imaging readings with associated healing trajectory</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Livingston</surname></persName>
+		</author>
+		<ptr target="http://www.kentimaging.com/research/" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,41.61,86.69,334.98,8.35;13,49.83,97.63,145.73,8.35" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Fitzpatrick skin typing: applications in dermatology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sachdeva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indian J Dermatol Venereol Leprol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="93" to="96" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multiview hyperspectral topography of tissue structural and functional characteristics</title>
+				<funder ref="#_dPJVAPb">
+					<orgName type="full">National Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_GJZumbK">
+					<orgName type="full">National Institute of Standards and Technology</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Peng</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Precision Machinery and Precision Instrumentation</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<addrLine>96 Jinzhai Rd</addrLine>
+									<postCode>230027</postCode>
+									<settlement>Hefei</settlement>
+									<region>Anhui</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiwei</forename><surname>Huang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biomedical Engineering</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<addrLine>1080 Carmack Rd</addrLine>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>Ohio</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Shiwu</forename><surname>Zhang</surname></persName>
+							<email>swzhang@ustc.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Precision Machinery and Precision Instrumentation</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<addrLine>96 Jinzhai Rd</addrLine>
+									<postCode>230027</postCode>
+									<settlement>Hefei</settlement>
+									<region>Anhui</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biomedical Engineering</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<addrLine>1080 Carmack Rd</addrLine>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>Ohio</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ronald</forename><forename type="middle">X</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Precision Machinery and Precision Instrumentation</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<addrLine>96 Jinzhai Rd</addrLine>
+									<postCode>230027</postCode>
+									<settlement>Hefei</settlement>
+									<region>Anhui</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biomedical Engineering</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<addrLine>1080 Carmack Rd</addrLine>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>Ohio</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multiview hyperspectral topography of tissue structural and functional characteristics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CC9A7D851661CD4E0E126F1674CF14FF</idno>
+					<idno type="DOI">10.1117/1.JBO.21.1.016012]</idno>
+					<note type="submission">Paper 150527PR received Sep. 1, 2015; accepted for publication Dec. 16, 2015; published online Jan. 28, 2016.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>multiview imaging</term>
+					<term>hyperspectral imaging</term>
+					<term>structural characteristics</term>
+					<term>functional characteristics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Accurate and in vivo characterization of structural, functional, and molecular characteristics of biological tissue will facilitate quantitative diagnosis, therapeutic guidance, and outcome assessment in many clinical applications, such as wound healing, cancer surgery, and organ transplantation. We introduced and tested a multiview hyperspectral imaging technique for noninvasive topographic imaging of cutaneous wound oxygenation. The technique integrated a multiview module and a hyperspectral module in a single portable unit. Four plane mirrors were cohered to form a multiview reflective mirror set with a rectangular cross section. The mirror set was placed between a hyperspectral camera and the target biological tissue. For a single image acquisition task, a hyperspectral data cube with five views was obtained. The five-view hyperspectral image consisted of a main objective image and four reflective images. Three-dimensional (3-D) topography of the scene was achieved by correlating the matching pixels between the objective image and the reflective images. 3-D mapping of tissue oxygenation was achieved using a hyperspectral oxygenation algorithm. The multiview hyperspectral imaging technique was validated in a wound model, a tissue-simulating blood phantom, and in vivo biological tissue. The experimental results demonstrated the technical feasibility of using multiview hyperspectral imaging for 3-D topography of tissue functional properties.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="629.972" lry="809.972"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Accurate and in vivo characterization of structural, functional, and molecular characteristics of biological tissue will facilitate quantitative diagnosis, therapeutic guidance, and outcome assessment in many clinical applications, such as wound healing, cancer surgery, and organ transplantation. Traditionally, structural characteristics are measured with a standard phantom or a transparent paper, which are invasive and inconvenient. <ref type="bibr" target="#b0">1</ref> Optical techniques, such as optical coherence tomography (OCT) and multiview imaging, provide noninvasive, rapid, and quantitative methods for characterizing tissue topography. OCT is able to obtain depth-resolved structural information of biological tissue with an imaging depth up to 3 mm. <ref type="bibr" target="#b1">2</ref> Multiview images utilize multiple viewpoints and captured multiple pictures of objective tissue to reconstruct three-dimensional (3-D) tissue topography. However, these methods reveal only 3-D structural information of biological tissue without functional characteristics.</p><p>Tissue functional characteristics provide important parameters for accurate and quantitative assessment of many tissue disorders, such as chronic wounds and cancer. Clinically relevant tissue parameters include oxygenation and vascular perfusion. Hyperspectral imaging, laser speckle imaging, and laser Doppler imaging are clinically effective techniques for acquiring a tissue oxygenation map and blood perfusion. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> However, these imaging systems cannot provide 3-D structural information of the biological tissue for the real-time guidance of clinical intervention.</p><p>We propose to integrate multiview imaging and hyperspectral imaging in a single portable unit for simultaneous 3-D imaging of tissue structural and functional characteristics. Four plane mirrors were cohered together to form a multiview reflective mirror set with a rectangular cross section. The multiview reflective mirror set was placed between the camera and the measured biological tissue. Since multiview image reconstruction requires high-resolution images that cannot be achieved by the hyperspectral camera in our lab, we consequently demonstrated 3-D oxygenation imaging by acquiring multiview and hyperspectral images using different cameras. For a single image acquisition task, a five-view image comprising a main objective image and four reflective images were first captured by a multiview camera at a high resolution (4288 × 2848 pixels). 3-D topography of the test scene was achieved by correlating the matching pixels between the objective image and the reflective images. After that, a hyperspectral data cube of the same scene was acquired using a hyperspectral camera at a lower resolution (1344 × 1024 pixels). The tissue oxygenation map was derived from hyperspectral imaging analysis and coregistered with the 3-D topographic image in order to obtain 3-D mapping of tissue oxygenation. Our multiview hyperspectral imaging technique was validated in a chronic wound model, a tissue-simulating blood phantom, and an in vivo biological tissue model. The preliminary results have demonstrated the technical feasibility of using multiview hyperspectral imaging for 3-D topography of tissue functional properties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Multiview Imaging</head><p>The multiview imaging setup consists of a Pentax Kx digital single-lens reflex (DSLR) camera with a resolution of 4288 × 2848 pixels (Ricoh Imaging Company Ltd., Tokyo, Japan) and a square mirror set. The square mirror set was composed of four plane mirrors that were cohered together with a square 70 × 70 mm cross section. This configuration allowed us to obtain five different views of the target within a single image at exactly the same time. With a 3-D reconstruction algorithm, the 3-D superficial characteristics of the tissue could be obtained.</p><p>The basic principle underlying the multiviewpoint imaging system is shown in Fig. <ref type="figure">1</ref>. The multiview camera is placed on one end of the square mirror, and its optical axis is coincident with the axis of the square mirror set. Each of the four mirrors produces a virtual subcamera on the other side. Thus the virtual subcameras are symmetric with respect to the optical axis, and the distance between a real subcamera and a virtual subcamera is equal to that between the opposite mirrors. The five "cameras" will take pictures of point P from different viewpoints. As a result, 3-D topography of the scene can be achieved by correlating the matching pixels between the objective image and the reflective images.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Reconstruction of Structural Characteristics</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1">Pinhole camera model</head><p>A camera converts a 3-D world coordinate into a two-dimensional (2-D) pixel coordinate on the imaging plane by projecting a point in space onto its image sensor. This pinhole camera model consists of the following three-coordinate systems:</p><p>(1) pixel coordinate system on the image sensor, (2) camera coordinate system with its origin at the camera aperture, and (3) world coordinate system based on a fixed point in space. A point P in space has a 3-D world coordinate of ðx w ; y w ; z w Þ and a 3-D camera pixel coordinate ðx c ; y c ; z c Þ, and its projection on the image sensor has a pixel coordinate of ðu; vÞ. The relationship between the pixel coordinate and the world coordinate can be described as</p><formula xml:id="formula_0">E Q -T A R G E T ; t e m p : i n t r a l i n k -; s e c 2 . 2 . 1 ; 6 3 ; 2 9 1 z c " u v 1 # ¼ A½ R T 2 4</formula><p>x w y w z w 1</p><formula xml:id="formula_1">3 5 ;</formula><p>where ½u; v; 1 T and ½x w ; y w ; z w ; 1 T are the homogeneous coordinates of a point P; A is the 3 × 3 intrinsic matrix of the camera which can convert the 3-D camera coordinate into 2-D pixel coordinate; R is the 3 × 3 rotation matrix; and T is the 3 × 1 translation matrix. Matrix ½ R T converts the world coordinate into the camera coordinate and denotes the extrinsic parameters of the imaging system. The intrinsic matrix A is defined as</p><formula xml:id="formula_2">E Q -T A R G E T</formula><p>; t e m p : i n t r a l i n k -; s e c 2 . 2 . 1 ; 3 2 6 ; 6 9 7</p><formula xml:id="formula_3">A ¼ " α x γ u 0 0 α y v 0 0 0 1 # ;</formula><p>which includes five intrinsic parameters. α x and α y represent the focal length of the camera in the x and y directions in terms of pixels, respectively. γ represents the skew coefficient between the x-and y-axes, and is often zero. u 0 and v 0 represent the pixel coordinate of the principle point.</p><p>If the lens introduce significant distortion, several nonlinear parameters have to be used to describe the distortion effect. <ref type="bibr" target="#b5">6</ref> k c is a 5 × 1 vector that stores the image distortion coefficients (radial and tangential distortions). For a point P, let x n be the normalized image projection E Q -T A R G E T ; t e m p : i n t r a l i n k -; s e c 2 . 2 . 1 ; 3 2 6 ; 5 3 2 </p><formula xml:id="formula_4">x n ¼ x c ∕z c y c ∕z c ¼ x y : Let r 2 ¼ x 2 þ y 2 ,</formula><formula xml:id="formula_5">x d ¼ x d<label>ð1Þ</label></formula><formula xml:id="formula_6">x d<label>ð2Þ</label></formula><formula xml:id="formula_7">¼ ½1 þ k c ð1Þr 2 þ k c ð2Þr 4 þ k c ð5Þr 6 x n þ dx;</formula><p>where dx is the tangential distortion vector E Q -T A R G E T ; t e m p : i n t r a l i n k -; s e c 2 . 2 . 1 ; 3 2 6 ; 3 9 2</p><formula xml:id="formula_8">dx ¼ 2k c ð3Þxy þ k c ð4Þðr 2 þ 2x 2 Þ k c ð3Þðr 2 þ 2y 2 Þ þ 2k c ð4Þxy :</formula><p>Finally, with distortion, the pixel coordinate ðx p ; y p Þ of the projection of point P on the image plane can be described as E Q -T A R G E T ; t e m p : i n t r a l i n k -; s e c 2 . 2 . 1 ; 3 2 6 ; 3 2 5</p><formula xml:id="formula_9">" x p y p 1 # ¼ A " x d<label>ð1Þ</label></formula><formula xml:id="formula_10">x d<label>ð2Þ</label></formula><formula xml:id="formula_11">1 # :</formula><p>To calibrate our multiview imaging system, we need to (1) calibrate the digital camera to undistort the acquired images; (2) calibrate each of the five real and virtual subcameras to get their intrinsic and extrinsic parameters; and (3) stereo calibrate each subcamera pair to obtain the 2-D to 3-D coordinate conversion.</p><p>Fig. <ref type="figure">1</ref> Principle of the multiview imaging system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2">Image undistortion</head><p>The camera in the multiview imaging was a Pentax Kx camera with a Pentax DAL18-55 mm lens. Since a wide-angle view including the objective image and all the reflection images was needed, the focal length was set to 18 mm. However, wideangle lenses brings distortions to the captured images, and those distortions can be corrected by the camera calibration. As shown in Fig. <ref type="figure">2</ref>(a), 15 images of a flat checker board placed at different positions and orientations were captured. Knowing that the size of each square on the checker board is 15 × 15 mm, the focal length, principal points, skew coefficient, distortion coefficient, and its extrinsic parameters were obtained using the camera calibration toolbox. <ref type="bibr" target="#b6">7</ref> Then any captured images with distortion can be undistorted. Figure <ref type="figure">2</ref>(b) shows the reconstructed checker board position with respect to the camera in each captured image.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3">Stereo calibration of the real and the virtual subcameras</head><p>The 3-D coordinate of a space point can be calculated by any two of the real and virtual subcameras shown in Fig. <ref type="figure">1</ref>. In our system, the real subcamera was stereo-calibrated with each virtual subcamera, respectively, so we were able to use four stereo image pairs to reconstruct the same point. Viewing from these five subcameras at the same time can significantly reduce the occlusion caused by the fluctuant surface of the object. For each real-virtual subcamera pair, we calibrated it as a stereo system intrinsically and extrinsically using the method provided in the toolbox. These parameters were used to rectify the image pairs of the sample and convert the 2-D pixel coordinate pair into 3-D world point coordinate in the future. Similarly, 15 images of a small flat checker board with the size of 5 × 5 mm 2 squares were taken. Each of the images was cut into five small images corresponding to the real and the virtual subcameras.</p><p>Those virtual subcamera images were flipped as they were reflected by mirrors. Thus we got four groups of small checker board calibration images: middle-left, middle-right, middle-top, and middle-bottom. Figure <ref type="figure" target="#fig_7">3</ref>(a) shows one of the small checker board calibration images, and Fig. <ref type="figure" target="#fig_7">3</ref>(b) shows the cut and flipped images. Figure <ref type="figure" target="#fig_7">3</ref>(c) displays one pair of cameras and the reconstructed position of the calibration planes after the stereo calibration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.4">Three-dimensional reconstruction</head><p>A local and window-based method for stereo matching was used to find the corresponding points in each image pair. This method is based on normalized cross-correlation, <ref type="bibr" target="#b7">8</ref> incorporating subpixel <ref type="bibr" target="#b8">9</ref> computation into the matching matrices to avoid the contouring effects caused by integer-valued disparity estimates, and detecting the occluded areas using cross-checking, <ref type="bibr" target="#b9">10</ref> which refined the corresponding points estimate. With the stereo calibration results, the 3-D coordinates of a set of points can be calculated using the stereo triangulation function in the toolbox when given their corresponding pixel coordinates on the image pair. The reconstructed coordinates from the four image pairs were then averaged to reduce the reconstruction error.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Multiview Hyperspectral Imaging</head><p>The procedure of multiview hyperspectral imaging consists of the following three consecutive steps: (1) multiview images were acquired using the reflective mirror set and the high-resolution camera in order to reconstruct 3-D topography of the objective tissue; (2) hyperspectral data cubes were acquired for calculation of a tissue oxygenation map; and (3) 3-D tissue topography and the oxygenation map were fused for 3-D mapping of tissue functional parameters. Two methods were used to obtain the hyperspectral images of the objective tissue. The first one is to utilize OL 490 Agile Light Source (Gooch &amp; Housego, Orlando, Florida) as the tunable light source that provided a wide wavelength range (380 to 780) nm at a spectral resolution of 2 nm. A fiber optic ring light guide (Edmund Optics, Barrington, New Jersey) was connected to the tunable light source to provide uniform illumination. The second method is to mount a liquid crystal tunable filter (Cambridge Research Inc., Cambridge, Massachusetts) with the wavelength range of 400 to 720 nm and a bandwidth of 7 nm in front of the camera lens to enable imaging at designated wavelengths. A Hamamatsu C4742-80-12AG air-cooled digital CCD camera (Hamamatsu, Bridgewater, New Jersey) with 1344 × 1024 pixels resolution was mounted at the same position of the DSLR camera to capture hyperspectral images.</p><p>The experimental system as shown in Fig. <ref type="figure">4</ref> was carefully aligned for the coincident optical axes of two cameras. Two cameras were alternately used to acquire multiview and hyperspectral images to guarantee sufficient resolution for the multiview imaging and the high sensitivity for hyperspectral imaging simultaneously. The camera for multiview imaging has a resolution of 4288 × 2848 pixels, which is similar to the resolution of the hyperspectral camera after being equally divided into five separate views. The hyperspectral camera has a high sensitivity (quantum efficiency &gt;50%) at wavelengths from 400 to 700 nm. Switching between the two cameras and coregistering their corresponding images would be the best way to obtain both highquality structural and functional information of the objective tissue. We took out the middle view from the multiview camera and registered it with the hyperspectral image. The scale-invariant feature transform method was used to find at least three sets of feature points on the two images, and the transform matrix was calculated. <ref type="bibr" target="#b10">11</ref> Since the 3-D model was reconstructed based on the middle view, with the transform matrix we were able to map any functional information obtained from hyperspectral imaging onto the 3-D results. After obtaining the hyperspectral images of the objective tissue, a wide gap secondderivative spectroscopic technique was used to reconstruct tissue oxygenation maps based on the hyperspectral images. <ref type="bibr" target="#b11">12</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">Validation Experiment</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1">Three-dimensional reconstruction accuracy and axial resolution measurement</head><p>To determine the reconstruction accuracy of the multiview system, we used two known geometry objects as the imaging targets, a flat checker board and a cylindrical checker board with a diameter of 57.70 mm, as shown in Fig. <ref type="figure">5</ref>(a). The captured images are shown in Figs. 5(b) and 5(c). Sixty-four corner points of the black and white squares were extracted, and their spatial coordinates were reconstructed using the calibrated parameter obtained in the previous work. Then a plane and a cylindrical surface were fitted using these set of points as the reconstructed surfaces. The root mean square error between the reconstructed points and the best-fit surface can indicate the reconstruction accuracy of the multiview system.</p><p>To measure the axial reconstruction resolution, we mounted the flat checker board onto a linear motorized translation stage PT1-Z8 (Thorlabs Inc., Newton, New Jersey) that has a minimal achievable incremental movement of 0.05 μm and a bidirectional repeatability of &lt;1.5 μm. The translation stage moved 7 mm in total along the axis of the multiview system with a step size of 0.5 mm. At each step, we captured one image and reconstructed the plane at that position. The minimal axial distance of the system can be resolved by comparing the distance between each reconstructed plane. Figure <ref type="figure">6</ref>(a) shows the configuration of the accuracy test experiment. Figure <ref type="figure">6(b)</ref> shows the images we captured at different axial positions. as shown in Fig. <ref type="figure" target="#fig_5">7</ref>(a). The wound model was mounted on a gypsum base manufactured especially for it. A flat board with a 1cm grid was also mounted onto the base to illustrate the size of the model. With the algorithm described in Sec. 2.2, we could reconstruct the 3-D morphology of the wound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.3">Three-dimensional oxygenation mapping of a tissuesimulating blood phantom</head><p>We also combined multiview imaging with hyperspectral imaging for 3-D mapping of oxygenation. The experimental setup consists of the high resolution DSLR camera, the hyperspectral camera, the multiview reflective mirror set, the tunable light source, a light ring, and a tube simulated blood phantom, as displayed in Fig. <ref type="figure" target="#fig_6">8</ref>(a). The tunable light source was used to illuminate the test objects at the designated wavelengths. To verify the performance of the multiview hyperspectral system, a tubeshaped blood phantom was placed at a tilted angle within the field of view. The topography of the phantom was reconstructed based on the multiview image, while the oxygenation map was reconstructed from the hyperspectral images using a wide gap second derivative spectroscopic technique. The tube-shaped blood phantom was prepared in advance by the following protocol: (1) add 20-g milk powder into deionized water to make 200-ml milk suspension; (2) mix 200 ml of milk, 70 ml of deionized water, and 12 ml of donated blood; and (3) put the mixture in a polycarbonate centrifuge tube of 60 ml. The oxygenation level of the phantom was adjusted by the drop-wise addition of sodium hydrosulfite solution into the phantom mixture by a syringe. The sodium hydrosulfite solution was prepared in advance by adding 1 g of hydrosulfite to 40 ml of deionized water. A series of blood phantoms with consequentially decreased oxygenation levels were produced by adding the following amount of sodium hydrosulfite solution into the centrifuge tube: 0, 0.1, 0.15, 0.15, 0.20, 0.25, and 0.30 ml, respectively. After the sodium hydrosulfite solution was added, the centrifuge tube was sealed and stirred for uniform distribution of oxygenation. A fiber optical sensor of an OOISensors system (Ocean Optics Inc., Dunedin, Florida) was inserted in the phantom to monitor the partial pressure of dissolved oxygen and compare with the oxygenation map acquired by hyperspectral imaging. The measurement of oxygen partial pressure was used to validate the multispectral oximetry technique because of an approximately linear correlation between oxygen saturation and oxygen tension in an oxygen saturation range from 20% to 80%. <ref type="bibr" target="#b12">13</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.4">In vivo tissue model</head><p>The integrated multiview hyperspectral method was also validated in vivo following a clinical protocol approved by the Ohio State University IRB (Protocol No: 2010H0017). The experimental setup consists of a high resolution DSLR camera, a hyperspectral camera, a liquid crystal tunable filter, a multiview reflective mirror set, a broadband light source, a light ring, and a tube simulated blood phantom, as displayed in Fig. <ref type="figure" target="#fig_6">8(b)</ref>. The Varispec visible liquid crystal tunable filter (Cambridge Research Inc., Cambridge, Massachusetts) with the wavelength range of 400 to 720 nm and a bandwidth of 7 nm was mounted in front of the camera lens to enable imaging at designated wavelengths. A healthy subject's fingers were put in the view field of the integrated system and monitored, and an occlusion experiment was conducted. The fingers were continuously monitored from the beginning of the occlusion to the postocclusive reactive hyperemia. Before the experiment, a pressure cuff was applied around the upper arm of the subject. Then we began to simultaneously monitor the tissue structural and functional characteristics with the multiview hyperspectral imaging setup.</p><p>After a 1-min baseline measurement, an occlusion was created with the pressure cuff. We quickly inflated the cuff above 180 mm∕Hg and maintained the pressure for another 2 min, which was called the occlusion stage. Then the cuff was released and a reactive hyperemia stage came, which also lasted for 4 min. The dynamics of 3-D oxygenation saturation of the fingers could be obtained from the analysis on the data from the multiview hyperspectral imaging technique. A probe 404 of the PF5010 unit and a tcpO 2 electrode of the PF5040 (Perimed, Kings Park, New York) unit were attached on the fingers for continuous monitoring of blood perfusion and oxygen partial pressure, respectively.</p><p>3 Results Figure <ref type="figure" target="#fig_10">10</ref> shows the results of the axial resolution measurement. Fifteen planes were reconstructed corresponding to the 15 axial positions of the flat checker board, with a total axial range of 7 mm, as shown in Fig. <ref type="figure" target="#fig_10">10(a)</ref>. Figure <ref type="figure" target="#fig_10">10(b)</ref> shows a slice across the reconstructed points and the best-fit planes that are indicated in Fig. <ref type="figure" target="#fig_10">10(a)</ref>, where each layer of the best-fit planes can be easily distinguished. Thus, the axial resolution of 0.5 mm (translation stage movement step size) can be achieved by the multiview imaging technique.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Accuracy and Axial Resolution for Three-Dimensional Topographic Reconstruction</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Reconstruction of Wound Model</head><p>Figure <ref type="figure" target="#fig_11">11</ref> shows the reconstructed topography of the wound model using the multiview imaging system. Figure <ref type="figure" target="#fig_11">11(a</ref>     From the figure, it can be easily observed that the oxygenation saturation of the blood phantom decreased along with the increased volume of the sodium hydrosulfite solution. This result indicated that the structural and functional characteristics of the simulated blood phantom could be easily achieved with the simple multiview hyperspectral method. The mean StO 2 of the region of interest on the blood phantom obtained from the hyperspectral imaging and the partial pressure (PO 2 ) of dissolved oxygen in the blood phantom measured by the fiber optics probe connected to an OOISensors system are shown as a green curve and a blue curve, respectively, in Figs. 12(i) and 12(j). The consistency of the change of StO 2 and PO 2 from the recipe 1 to 7 also validates the multiview hyperspectral method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Multiview Hyperspectral Imaging of an In Vivo Tissue Model</head><p>Figure <ref type="figure" target="#fig_13">13</ref> displays the result of the occlusion experiment on the healthy subject. Figure <ref type="figure" target="#fig_13">13</ref>(a) is the dynamics of the blood perfusion of the fingers during the occlusion experiment, while Fig. <ref type="figure" target="#fig_13">13(b</ref>) is the dynamics of tcpO 2 of the fingers during the occlusion experiment. Figures <ref type="figure" target="#fig_13">13(c</ref>)-13(e) are the topography of the fingers with oxygenation characteristics at one moment during the baseline, occlusion, and reperfusion stage, respectively. The result indicated the occlusion effect and hyperemia effect clearly, which also implies that the system simultaneously can obtain topographic and oxygenation characteristics in live tissue.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Camera Selection</head><p>In our system, a DSLR camera is used to acquire a multiview image while a hyperspectral camera is used to acquire multispectral images. Ideally speaking, it is better to use a single camera to acquire all the images. However, a single camera system cannot be implemented because a hyperspectral camera has a much lower total pixel amount (1344 × 1024 pixels) than that of the DSLR camera. If we use a hyperspectral camera to capture all the images, these pixels have to be reassigned to nine  views (including five views used for image processing), with only 448 × 448 pixels for each view. In contrast, using a relatively low-cost Pentax DSLR camera can readily increase the pixel per view level to 1429 × 1429 pixels so that 3-D reconstruction will yield a higher spatial resolution. A hyperspectral camera will acquire the center view of the test subject without sacrificing its achievable resolution. Our next step is to integrate multiview and hyperspectral imaging procedures using a single high-resolution hyperspectral camera.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Image Time and System Alignment</head><p>Since we use two cameras to obtain structural and functional information of the subject, the cameras should be easily switched in order to shorten the operating time. The total imaging time includes multiview imaging time, hyperspectral imaging time, and the time to switch between two cameras.</p><p>Multiview imaging only takes one shot on the target object. The exposure time ranges from 0.05 to 0.5 s, depending on the illumination and the reflectance conditions. Hyperspectral imaging takes five images of the object at five wavelengths for the blood oxygen measurement. The exposure time ranges from 0.05 to 1 s, depending on the illumination wavelengths. The time of switching cameras is less than 10 s. Therefore, the total time for acquiring a complete set of images is estimated less than 20 s.</p><p>To minimize the positional error induced by switching two cameras, we used a coaxial alignment for the optical axes of two cameras and coregistered the hyperspectral images with the center view image. First, both cameras were mounted onto clamping slides (Thorlabs Inc., Newton, New Jersey), slid along on a horizontal 66 mm optical construction rail (Thorlabs Inc., Newton, New Jersey), and fixed at specific positions. Second, a dovetail optical rail (Thorlabs Inc., Newton, New Jersey) was vertically aligned with a rail carrier slide (Thorlabs Inc., Newton, New Jersey) on the operation table below the camera. A round alignment disk target (Thorlabs Inc., Newton, New Jersey) was then mounted onto the slide with the horizontal position of the rail fixed so that the target can only move along the rail vertically. Third, the DSLR camera was aligned so that the target remained at the center of the acquired images as it was placed at different heights from 0 to 15 cm. The  calibration procedure ensured that the camera was coaxial with the path of the moving target. The same calibration procedure was repeated for the hyperspectral camera so that the optical axes of both cameras were precisely aligned and readily switchable in a short time with accuracy. After each experiment, the acquired hyperspectral images and the center view image were coregistered in order to obtain the 3-D structural and functional information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Imaging Distortion Induced by Target-Camera</head><p>Distance and Target Curvature</p><p>Target-camera distance and target curvature contribute to the distortion of the acquired images by the multiview system.</p><p>To minimize the influence of target-camera distance on imaging distortion, the target is placed at a designated target-camera distance (around 10 mm to the end of the square mirror set) and the corresponding area in the five views is maximized. With the designated target-camera distance in the experiment, its influence on the imaging distortion can be effectively compensated.</p><p>To minimize the influence of target curvature on imaging distortion, we calibrate the multiview system in advance by placing a checker board at the designated target-camera distance. The checkerboard is orientated in different directions corresponding to different shapes and curvatures for a target object in 3-D space. Based on the results of the calibration test, the radial and the tangential factors of the distortion can be calculated and corrected. In a 40 × 40 × 10 mm 3 space volume, reconstruction of a flat board after the above calibration procedures is able to reach an RMS error of &lt;0.0120 mm in comparison with the best-fit plane. Similarly, reconstruction of a cylindrical board after the above calibration procedures is able to reach an RMS error of less than 0.1491 mm in comparison with the best-fit cylinder. These results imply that the proposed calibration procedures can effectively reduce the imaging distortion induced by target-camera distance and target curvature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">Scattering of Biological Tissue</head><p>For multiview imaging of biological tissue, the scattering of light will also affect the imaging reconstruction accuracy. On one hand, light scattering in deep tissue may blur the surface texture and induce difficulty for stereo matching. On the other hand, depending on different view angles, light scattering may cause different levels of dislocation for deep layers of tissue. This effect exists in not only multiview imaging, but also other 3-D surface reconstruction methods such as surface scan and structured light illumination. Since it is difficult to eliminate imaging distortion due to light scattering, the alternative effect is to reduce the light scattering from deep tissue. Jacques et al. used polarized light to differentiate between superficial and deep tissue. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> O'Toole et al. used structured-light-transport imaging to geometrically get rid of the strong subsurface scattering. <ref type="bibr" target="#b15">16</ref> Despite these effects, 3-D imaging distortion induced by light scattering has not been fully studied or compensated. Many researchers simply neglected the scattering effect as they estimated wound tissue topography using various 3-D imaging techniques such as multiview imaging, laser scanning, and structured light illumination. <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> By using polarized light and combining multiple imaging modalities, it is possible to acquire only the surface reflectance of biological tissue for reducing imaging distortion in 3-D reconstruction and for obtaining other pathophysiologic information of biological tissue. <ref type="bibr" target="#b13">14</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Conclusions and Future Work</head><p>A multiview hyperspectral imaging method was introduced to map the 3-D oxygenation distribution on biological tissue. A multiview reflective mirror set was placed in front of the lens of the imager, and the topography of the tissue with an oxygenation map could be obtained with a 3-D reconstruction algorithm and a wide gap second-derivative spectroscopic algorithm. The imaging devices in the method are reportable, noninvasive, cost effective, and clinically implementable for applications such as wound healing assessment, intraoperative surgical navigation, and organ transplantation. The method was calibrated with a stereo camera calibration method. Four experiments were conducted to validate the method. Reconstruction accuracy and axial resolution measurement showed that this multiview imaging was able to reconstruct a subject accurately with high resolution. A wound model was imaged and reconstructed in 3-D.</p><p>A tissue-simulating blood phantom and an in vivo experiment were also conducted and the results also indicate that the method can simultaneously achieve the structural and functional characteristics of the tissue. Our preliminary results have demonstrated the technical feasibility of using multiview hyperspectral imaging for 3-D topography of tissue functional properties, which is very useful for clinical treatment. Future work will mainly concern the development of an integrated portable system that utilizes one camera to simultaneously capture the multiview images and hyperspectral images.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 Fig. 3</head><label>23</label><figDesc>Fig. 2 Calibration of the multiview camera: (a) 15 images of a flat checker board placed at different positions and orientations; and (b) the position of the reconstructed checker board with respect to the camera in each captured image.</figDesc><graphic coords="4,138.39,341.97,350.88,174.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>2. 4 . 2 Fig. 4</head><label>424</label><figDesc>Fig. 4 Multiview hyperspectral imaging system. The 3-D structural characteristics of the object obtained by the multiview camera, and the functional characteristics of the object were obtained through oxygenation algorithm on the hyperspectral images captured by the hyperspectral camera.</figDesc><graphic coords="5,81.81,487.84,201.12,207.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 5 Fig. 6</head><label>56</label><figDesc>Fig. 5 Checker board validation for multiview imaging: (a) a flat checker board and a cylindrical checker board; (b) multiview image of the flat checker board; and (c) multiview image of the cylindrical checker board.</figDesc><graphic coords="6,138.90,59.76,349.92,108.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 9 (</head><label>9</label><figDesc>Figure9(a) shows the reconstructed points of the flat checker board imaged in Fig.5(b) and their best-fit plane. The RMS error obtained by fitting the reconstructed points with a plane is only 0.0120 mm. Figure9(b) shows a slice of the best-fit plane and the reconstructed points on it, indicating its high reconstruction accuracy. Figures9(c) and 9(d) show the reconstructed points of the cylindrical checker board imaged in Fig.5(c) and a slice across the best-fit cylinder, respectively. We used a cylindrical surface to fit these points. The RMS error between the reconstructed points and the best cylinder is 0.1491 mm. The diameter of the best-fit cylinder surface is 57.348 mm, which shows a very good reconstruction accuracy compared to the real value of 57.70 mm. The different colors in Figs. 9(a) and 9(c) represent different height values of the reconstructed images, with the scales shown as the z-axis.Figure10shows the results of the axial resolution measurement. Fifteen planes were reconstructed corresponding to the 15 axial positions of the flat checker board, with a total axial range of 7 mm, as shown in Fig.10(a). Figure10(b) shows a slice across the reconstructed points and the best-fit planes that are indicated in Fig.10(a), where each layer of the best-fit planes can be easily distinguished. Thus, the axial resolution of 0.5 mm (translation stage movement step size) can be achieved by the multiview imaging technique.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Figure11shows the reconstructed topography of the wound model using the multiview imaging system. Figure11(a) illustrates the 3-D reconstructed surface, where the different colors</figDesc><graphic coords="7,63.33,536.88,238.08,186.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 7</head><label>7</label><figDesc>Fig. 7 Multiview imaging for 3-D reconstruction of the chronic wound model: (a) multiview imaging system for the wound model; (b) the wound model; (c) four representative wounds on the wound model; and (d) a photograph of the wound taken by the multiview imaging technique.</figDesc><graphic coords="7,88.89,59.76,450.00,172.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8</head><label>8</label><figDesc>Fig. 8 Multiview hyperspectral imaging experiments: (a) tissue-simulating blood phantom and (b) in vivo tissue model.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>3. 3</head><label>3</label><figDesc>Multiview Hyperspectral Reconstruction of the Simulated Blood Phantom</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 12 (</head><label>12</label><figDesc>Figure 12(a) shows the reconstructed topography of the tube, where the different colors represent different height values of the reconstructed surface. Figures 12(b)-12(h) display oxygenation maps of the tube-shaped blood phantom with the topography characteristics.From the figure, it can be easily observed that the oxygenation saturation of the blood phantom decreased along with the increased volume of the sodium hydrosulfite solution. This result indicated that the structural and functional characteristics of the simulated blood phantom could be easily achieved with the simple multiview hyperspectral method. The mean StO 2 of the region of interest on the blood phantom obtained from the hyperspectral imaging and the partial pressure (PO 2 ) of dissolved oxygen in the blood phantom measured by the fiber optics probe connected to an OOISensors system are shown as a green curve and a blue curve, respectively, in Figs. 12(i) and 12(j). The consistency of the change of StO 2 and PO 2 from the recipe 1 to 7 also validates the multiview hyperspectral method.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 3</head><label>9</label><figDesc>Fig. 9 3-D reconstruction accuracy measurement results: (a) reconstructed points of the flat checker board; (b) a slice of the best-fit plane with the reconstructed points; (c) reconstructed points of the cylindrical checker board; and (d) a slice across the best-fit cylinder with the reconstructed points.</figDesc><graphic coords="8,63.10,59.76,501.60,114.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10</head><label>10</label><figDesc>Fig. 10 Axial resolution measurement results: (a) reconstructed result of 15 axial positions of the flat checker board; and (b) a slice across the reconstructed points and the best-fit planes.</figDesc><graphic coords="8,88.27,550.55,451.20,172.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 11</head><label>11</label><figDesc>Fig. 11 Topography of the wound model obtained by the multiview technique. (a) 3-D surface topology reconstructed from multiview images; and (b) 3-D image of the wound model after pasting the color textured image on 3-D surface topology.</figDesc><graphic coords="9,87.70,59.76,452.40,117.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 12</head><label>12</label><figDesc>Fig.12Multiview hyperspectral imaging of a tube simulating blood phantom: (a) topography of the tube; (b)-(h) topographic StO 2 map of the tube simulated blood phantom from recipe 1 to 7, red color denotes a higher oxygen saturation, while blue color denotes a lower oxygen saturation; and (i) and (j) StO 2 of the region of interest obtained from the hyperspectral imaging and the partial pressure of dissolved oxygen in the blood phantom measured by the fiber optics probe that connected to an OOISensors system.</figDesc><graphic coords="9,63.89,484.95,499.92,210.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 13</head><label>13</label><figDesc>Fig. 13 Multiview hyperspectral imaging of a healthy subject's fingers in an occlusion experiment: (a) dynamics of blood perfusion of fingers during occlusion experiment; (b) dynamics of tcpO 2 of fingers during occlusion experiment; (c) 3-D oxygenation distribution of the fingers at one moment during the baseline stage; (d) 3-D oxygenation distribution of the fingers at one moment during the occlusion stage; (e) 3-D oxygenation distribution of the fingers at one moment during the reperfusion stage; and (f) 3-D topography of the fingers.</figDesc><graphic coords="10,65.31,59.76,497.04,365.04" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>January 2016 • Vol. 21(1) Liu et al.: Multiview hyperspectral topography of tissue structural and functional characteristics Downloaded From: http://biomedicaloptics.spiedigitallibrary.org/ on 02/02/2016 Terms of Use: http://spiedigitallibrary.org/ss/TermsOfUse.aspx</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Journal of Biomedical Optics 016012-3 January 2016 • Vol. 21(1) Liu et al.: Multiview hyperspectral topography of tissue structural and functional characteristics Downloaded From: http://biomedicaloptics.spiedigitallibrary.org/ on 02/02/2016 Terms of Use: http://spiedigitallibrary.org/ss/TermsOfUse.aspx</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Downloaded From: http://biomedicaloptics.spiedigitallibrary.org/ on 02/02/2016 Terms of Use: http://spiedigitallibrary.org/ss/TermsOfUse.aspx</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This research was sponsored by the <rs type="funder">National Institute of Standards and Technology</rs> (<rs type="grantNumber">60NANB10D184</rs>) and <rs type="funder">National Science Foundation of China</rs> (<rs type="grantNumber">81271527</rs>). The authors are grateful for experimental help provided by <rs type="person">Professor Allen Yi</rs> and his student Peng He at The <rs type="institution">Ohio State University</rs>, and helpful discussions with <rs type="person">Professor Chandan Sen</rs> at The <rs type="institution">Ohio State University Medical Center</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_GJZumbK">
+					<idno type="grant-number">60NANB10D184</idno>
+				</org>
+				<org type="funding" xml:id="_dPJVAPb">
+					<idno type="grant-number">81271527</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Peng Liu is a PhD student and research assistant in Lab for Multimodal Biomedical Imaging and Therapy at University of Science and Technology of China (USTC). He is a member of the International Society for Optics and Photonics (SPIE). He earned his BS of mechanical engineering at USTC. His research interests include multimodal imaging of biological tissue with hyperspectral imaging, laser speckle imaging, fluorescent imaging, structured light imaging, 3-D reconstruction, and microscopic imaging.</p><p>Jiwei Huang is a scientist and engineer with expertise in optical microscopy imaging, fluorescence spectroscopy and imaging, lowphoton-flux detection system, hyperspectral imaging system and algorithm, tissue optics model, oximetry, and imaging contrast agent. He earned his BS from Sun Yat-Sen University and PhD from Lab of Multimodal Imaging and Image-Guided Therapy of the Ohio State University. Currently he works in semiconductor industry and involves in R&amp;D of optical microcopy system. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Shiwu</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="11,69.72,706.37,232.14,7.97;11,76.71,716.43,144.73,7.13" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Advances in wound photography and assessment methods</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ahn</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.ASW.0000305411.58350.7d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="85" to="93" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,69.72,725.30,232.20,7.97;11,76.71,735.36,225.20,7.12;11,76.70,744.89,33.78,7.01" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Optical coherence tomography: an emerging technology for biomedical imaging and optical biopsy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Fujimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.neo.7900071</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neoplasia</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="9" to="25" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.71,63.24,232.14,7.97;11,339.70,73.30,202.27,7.13" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Emerging technology: hyperspectral imaging</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Kellicut</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/153100350401600114</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Perspect. Vasc. Surg. Endovasc. Therapy</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="53" to="57" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.71,82.18,232.19,7.97;11,339.70,92.35,225.24,7.01;11,339.70,101.70,158.61,7.13" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Evaluation of a laser Doppler flowmeter for measurement of tissue blood flow</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tenland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Å</forename><surname>Öberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TBME.1980.326582</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Eng. IEEE Trans. BME</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="597" to="604" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.71,110.58,232.20,7.97;11,339.70,120.64,204.99,7.12" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Laser speckle microstrain measurement in vascular tissue</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Kirkpatrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Cipolla</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.347480</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. SPIE</title>
+		<meeting>SPIE</meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">3598</biblScope>
+			<biblScope unit="page" from="121" to="129" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.71,129.52,232.21,7.97;11,339.70,139.57,75.51,7.13" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Decentering distortion of lenses</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photometric Eng</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="444" to="462" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.71,148.45,232.20,7.97;11,339.70,158.62,224.31,7.01;11,339.70,168.09,70.11,7.01" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Camera Calibration Toolbox for Matlab</title>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Bouguet</surname></persName>
+		</author>
+		<ptr target="http://cn.mathworks.com/products/computer-vision/features.html#camera-calibration" />
+		<imprint>
+			<date type="published" when="2004">2004. 2012016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.71,176.86,232.21,7.97;11,339.71,187.03,225.22,7.01;11,339.70,196.38,71.48,7.13" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A taxonomy and evaluation of dense two-frame stereo correspondence algorithms</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Scharstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Szeliski</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/A:1014573219977</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Comput. Vision</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="7" to="42" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.71,205.26,232.19,7.97;11,339.70,215.26,171.88,7.13" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Prediction of correlation errors in stereo-pair images</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hunt</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.7972515</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Eng</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">193312</biblScope>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,224.42,232.49,7.97;11,339.70,234.48,215.71,7.13" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A parallel stereo algorithm that produces dense depth maps and preserves image features</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fua</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF01212430</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. Vision Appl</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="49" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,243.58,232.51,7.97;11,339.70,253.64,225.19,7.13;11,339.70,263.22,146.20,7.01" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Object recognition from local scale-invariant features</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Lowe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computer Vision, 1999. Proc. of the Seventh IEEE Int. Conf. on</title>
+		<meeting><address><addrLine>Greece</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE, Corfu</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1150" to="1157" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,272.21,232.45,7.97;11,339.70,282.38,225.15,7.01;11,339.70,291.74,201.19,7.12" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Noninvasive method for measuring local hemoglobin oxygen saturation in tissue using wide gap second derivative nearinfrared spectroscopy</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Myers</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/1.1925250</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Opt</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">34017</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,300.90,232.56,7.97;11,339.70,311.01,225.15,7.01;11,339.70,320.37,104.36,7.13" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Optical properties of human skin, subcutaneous and mucous tissues in the wavelength range from 400 to 2000 nm</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bashkatov</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/38/15/004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. D</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page">2543</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,329.53,232.47,7.97;11,339.70,339.59,225.18,7.12;11,339.70,349.17,23.07,7.01" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Imaging skin pathology with polarized light</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Jacques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Ramella-Roman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/1.1484498</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Opt</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="329" to="340" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,358.16,232.49,7.97;11,339.70,368.22,208.79,7.13" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Imaging superficial tissues with polarized light</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Jacques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Roman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/(SICI)1096-9101(2000)26:2%3C119::AID-LSM3%3E3.0.CO;2-Y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lasers Surg. Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="119" to="129" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,377.32,232.52,7.97;11,339.70,387.49,225.18,7.01;11,339.70,396.96,225.20,7.01;11,339.70,406.43,100.62,7.01" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">3-D shape and indirect appearance by structured light transport</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>O'toole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mather</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Kutulakos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting><address><addrLine>Columbus, Ohio</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014">2014. 2014</date>
+			<biblScope unit="page" from="3246" to="3253" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,415.42,232.53,7.97;11,339.70,425.59,225.18,7.01;11,339.70,435.06,191.39,7.01" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Assessment of ulcer wounds size using 3D skin surface imaging</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F M</forename><surname>Hani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Visual Informatics: Bridging Research and Practice</title>
+		<meeting><address><addrLine>Berlin Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="243" to="253" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,444.11,232.47,7.97;11,339.70,454.28,225.15,7.01;11,339.70,463.63,166.39,7.12" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Enhanced assessment of the wound-healing process by accurate multiview tissue classification</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wannous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TMI.2010.2077739</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imaging</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="315" to="326" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,472.74,232.51,7.97;11,339.70,482.80,225.18,7.12;11,339.70,492.38,23.07,7.01" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">MAVIS: a non-invasive instrument to measure area and volume of wounds</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1350-4533(98)00034-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med. Eng. Phys</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="332" to="338" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,332.40,501.37,232.47,7.97;11,339.70,511.54,225.21,7.01;11,339.70,520.89,104.59,7.13" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Three-dimensional assessment of skin wounds using a standard digital camera</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Albouy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TMI.2008.2012025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imaging</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="752" to="762" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.76,63.05,239.11,7.48;12,62.76,72.00,239.15,7.48;12,62.76,80.96,180.96,7.48" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">He has also been a visiting scholar in the Department of Biomedical Engineering, the Ohio State University</title>
+		<author>
+			<persName><surname>Ustc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">His research interests include biomedical optics and intelligent robot</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.76,98.88,239.11,7.48;12,62.76,107.83,239.12,7.48;12,325.76,63.05,239.19,7.48;12,325.76,72.00,239.12,7.48;12,325.76,80.96,239.17,7.48;12,325.76,89.92,239.09,7.48;12,325.76,98.88,239.16,7.48;12,325.76,107.84,193.39,7.48;12,62.76,772.39,101.71,7.48;12,296.00,772.39,37.66,7.48;12,472.77,772.39,94.13,7.48" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Xu is an associate professor of Biomedical Engineering at the Ohio State University and professor of Precision Machinery and Instrumentation at USTC. He is also a fellow of the Institute of Physics and a senior member of the International Society for Optics and Photonics (SPIE)</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ronald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomedical Optics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2016-01">January 2016</date>
+		</imprint>
+	</monogr>
+	<note>His research interests include novel micro-/ nano-encapsulation techniques for controlled drug delivery, multimodal imaging and image-guided surgery, and 3-D printing of tissue-simulating phantoms for standardized biomedical imaging</note>
+</biblStruct>
+
+<biblStruct coords="12,147.91,36.11,333.83,7.48" xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Multiview hyperspectral topography of tissue structural and functional characteristics</title>
+		<author>
+			<persName><surname>Liu</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

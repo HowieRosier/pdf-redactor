@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Artificial Intelligence in Wound Care Education: Protocol for a Scoping Review</title>
+				<funder ref="#_8Vq3tMN">
+					<orgName type="full">FCT within the scope of the Centre for Interdisciplinary Research in Health</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-03-14">14 March 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Rúben</forename><surname>Encarnação</surname></persName>
+							<email>rcencarnacao@ucp.pt</email>
+							<idno type="ORCID">0000-0003-2666-7391</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health Sciences and Nursing</orgName>
+								<orgName type="institution" key="instit1">Centre for Interdisciplinary Research in Health</orgName>
+								<orgName type="institution" key="instit2">Universidade Católica Portuguesa</orgName>
+								<address>
+									<postCode>4169-005</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Cardiology ICU</orgName>
+								<orgName type="institution" key="instit2">São João University Hospital Center</orgName>
+								<address>
+									<postCode>4200-319</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tânia</forename><surname>Manuel</surname></persName>
+							<idno type="ORCID">0000-0003-0915-9950</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health Sciences and Nursing</orgName>
+								<orgName type="institution" key="instit1">Centre for Interdisciplinary Research in Health</orgName>
+								<orgName type="institution" key="instit2">Universidade Católica Portuguesa</orgName>
+								<address>
+									<postCode>4169-005</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Prove.pt</orgName>
+								<orgName type="institution">Grupo Saúde Nuno Mendes</orgName>
+								<address>
+									<postCode>4560-164</postCode>
+									<settlement>Penafiel</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hélder</forename><surname>Palheira</surname></persName>
+							<email>helder.palheira@hc-healthcare.com</email>
+							<idno type="ORCID">0009-0009-4305-5136</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health Sciences and Nursing</orgName>
+								<orgName type="institution" key="instit1">Centre for Interdisciplinary Research in Health</orgName>
+								<orgName type="institution" key="instit2">Universidade Católica Portuguesa</orgName>
+								<address>
+									<postCode>4169-005</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">HC Healthcare &amp; Innovation</orgName>
+								<address>
+									<postCode>4445-176</postCode>
+									<settlement>Alfena</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Cardiothoracic Center</orgName>
+								<orgName type="institution">São João University Hospital Center</orgName>
+								<address>
+									<postCode>4200-319</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">João</forename><surname>Neves-Amado</surname></persName>
+							<idno type="ORCID">0000-0002-5330-779X</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health Sciences and Nursing</orgName>
+								<orgName type="institution" key="instit1">Centre for Interdisciplinary Research in Health</orgName>
+								<orgName type="institution" key="instit2">Universidade Católica Portuguesa</orgName>
+								<address>
+									<postCode>4169-005</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paulo</forename><surname>Alves</surname></persName>
+							<email>pjalves@ucp.pt</email>
+							<idno type="ORCID">0000-0002-6348-3316</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health Sciences and Nursing</orgName>
+								<orgName type="institution" key="instit1">Centre for Interdisciplinary Research in Health</orgName>
+								<orgName type="institution" key="instit2">Universidade Católica Portuguesa</orgName>
+								<address>
+									<postCode>4169-005</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Artificial Intelligence in Wound Care Education: Protocol for a Scoping Review</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-03-14">14 March 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D182455BA17F0795E400BAF09153DB32</idno>
+					<idno type="DOI">10.3390/nursrep14010048</idno>
+					<note type="submission">Received: 23 December 2023 Revised: 31 January 2024 Accepted: 5 March 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>artificial intelligence</term>
+					<term>wound</term>
+					<term>education</term>
+					<term>scoping review</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>As healthcare continues evolving in the age of digital technology, the integration of artificial intelligence has emerged as a powerful force, particularly in wound care. The education of healthcare professionals in wound care is crucial for ensuring they acquire the necessary knowledge and skills, optimizing patient outcomes. This paper outlines the protocol for a scoping review with the goal of mapping and analyzing the current scientific evidence regarding the potential impact of artificial intelligence in wound care education. The current protocol follows the JBI methodological framework. The search was conducted in December 2023 in the following databases: CINAHL Complete (via EBSCOhost), MEDLINE (via PubMed), Cochrane Library, Academic Search Complete, Scientific Electronic Library Online (Scielo), Scopus, and Web of Science. Electronics searches were conducted in the Scientific Open Access Scientific Repositories of Portugal (RCAAP) and ProQuest Dissertations and Theses, OpenAIRE, and Open Dissertations databases to access gray literature. Additionally, searches were performed on Google Scholar and specific journals such as the International Wound Journal, Skin Research and Technology, Journal of Wound Care, and Wound Repair and Regeneration. The initial database searches retrieved a total of 11,323 studies. After removing duplicates, a total of 6450 studies were submitted for screening. Currently, 15 studies are included in this review, and data charting and analysis are underway. The findings of this scoping review will likely provide insights into the application of artificial intelligence in wound care education.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Wound care is an essential field of healthcare that involves the proper management and treatment of wounds to promote complete and timely healing and prevent complications that may lead to amputation, infection, and other potentially life-threatening outcomes. Traditionally, wound care has involved standard protocols, often relying on primary dressings and routine procedures. In recent years, innovative technologies, such as artificial intelligence (AI), have revolutionized wound care, providing more effective and efficient solutions for acute and chronic injuries.</p><p>The exact definition of AI remains a point of ongoing discussion. The term, created by John McCarthy in 1955, refers to the creation of computer systems able to perform tasks and solve problems that usually require human intelligence, such as image recognition, decision-making, and natural language processing <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. It can be broadly defined as the incorporation of human intelligence into machines.</p><p>With the integration of AI-based technologies in daily life, applying such technologies will be indispensable for every organization. AI stands out as a highly promising technology Nurs. Rep. 2024, 14 628 within the healthcare sector. There is great optimism that these technologies have the potential to provide significant improvements in all healthcare domains <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>. Several AI functionalities are applied in the health sector, such as decision-making support, patient monitoring, early diagnosis, workflow improvement, information sharing, security, remote surgery, virtual patients, and virtual assistants <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b10">11]</ref>.</p><p>Furthermore, AI has significantly transformed the training and education of professional healthcare personnel, offering numerous benefits. AI in education includes intelligent tutoring systems, chatbots, robots, and automated assessment tools integrated into digitized materials that improve education <ref type="bibr" target="#b3">[4]</ref>. These advancements provide students with personalized, efficient, and immersive learning experiences, enhancing teachers' understanding of students' learning processes and enabling machine-supported queries at any time <ref type="bibr" target="#b3">[4,</ref><ref type="bibr">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref>.</p><p>A significant feature of incorporating AI into medical education is its adaptive learning ability to analyze and offer instant feedback and assessment, allowing students to monitor their knowledge gaps, recognize weaknesses, and receive immediate guidance for improvement <ref type="bibr" target="#b3">[4]</ref>. AI has the capability to tailor the learning experience based on each student's individual needs, knowledge level, and preferred learning style, ensuring the delivery of relevant and efficient educational materials <ref type="bibr">[12]</ref>. Educators can also gain advantages from analytics generated by AI, which offer assistance in recognizing trends and patterns in student performance, adapting teaching approaches as needed, and enhancing the overall learning experience. This can contribute to enhanced working efficiency and teaching competence.</p><p>Generative AI is defined as a form or subset of AI that uses machine learning and deep learning techniques to create new data. A crucial element of generative AI is the capability of understanding potential data distributions and producing new data that mirror the original set. This technology diverges from traditional AI tasks like classification or regression, as it is capable of autonomously generating new content, including images and text. Its applications extend to different areas; in image generation, Generative Adversarial Networks (GANs) are often used, while Recurrent Neural Networks (RNNs) and transformer networks are employed in natural language processing to produce novel textual content. This technology is also recognized for its potential to transform medical education <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>.</p><p>The application of AI in education has drawn worldwide interest across numerous areas of healthcare professional education. Physicians and nurses have increasingly incorporated AI technology to enrich students' learning experiences with more realistic, sophisticated, complex, and immersive simulations <ref type="bibr" target="#b16">[17]</ref><ref type="bibr">[18]</ref><ref type="bibr" target="#b18">[19]</ref>. This enables students and healthcare professionals to refine their clinical skills within a secure and controlled learning environment <ref type="bibr">[12]</ref>. The potential of generative AI in medical education can significantly enhance wound care training and practice. It offers innovative methods for personalized learning, cased-based learning and simulation-based training, continuous education, and research assistance <ref type="bibr" target="#b15">[16]</ref>.</p><p>Despite the various benefits and the potential of AI in medical education, some areas still require further investigation. These include clarifying the long-term implications of AI-driven learning methodologies for student performance, instructor-student interactions, and the ethical implications of AI <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21]</ref>.</p><p>Despite ongoing improvements in the wound care field, AI provides valuable contributions to early detection, risk factor analysis, risk stratification, prediction, diagnosis, intelligent treatment, outcome prediction, and prognosis evaluation <ref type="bibr">[8,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr">[26]</ref>. From innovative dressings embedded with sensors to advanced imaging techniques, this technology is improving the healing process and supplying healthcare professionals with real-time data for decision-making support and predictive risk assessment related to wounds. This technology is transforming wound care from prevention to treatment, and wound care must adjust to this changing world to improve patient care <ref type="bibr" target="#b10">[11,</ref><ref type="bibr">26]</ref>.</p><p>Treating wounds is often a significant challenge for healthcare professionals, as the multitude of treatment criteria, care products, patient conditions, and responses complicate the healing process and results. To maximize patient outcomes in wound care, it is recommended that those involved possess the appropriate knowledge and skills <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b27">28]</ref>. Wound care education contributes significantly to patient well-being and healthcare efficiency.</p><p>While specific studies directly addressing the role of AI in wound care education are limited, emerging technologies are making significant progress in this area. For instance, the use of metaverse technology, including virtual reality (VR) simulations, provides immersive learning and training experiences that closely resemble real-life surgical scenarios, while also being more efficient in the use of resources <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref>. Another advancement is the integration of Augmented Reality (AR) with machine learning (ML) algorithms, which facilitates real-time interventions and diagnostic information <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref>. These developments in medical education highlight the growing integration of AI technologies, offering students realistic and immersive scenarios, especially in surgical fields, and this approach can be extended to wound care education <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref>. The potential of combining these technologies with machine learning and AI indicates a promising future for more effective, personalized, and interactive learning experiences in healthcare education.</p><p>Using generative AI to create personalized quizzes or images of detailed and varied different wound types would enhance personalized and case-based learning, allowing students to diagnose and plan treatment for a wide range of wound conditions, and learning materials and feedback can be tailored specifically to wound care <ref type="bibr" target="#b30">[31]</ref>. This approach would allow educators to address individual students' strengths and weaknesses in wound care techniques, pathology, and patient management, for example.</p><p>The challenge lies in ensuring the academic integrity and validity of AI-generated research <ref type="bibr" target="#b30">[31]</ref>. The impact on scholarly communication is profound, as it necessitates new methods for peer review and verification to maintain the credibility of the scientific process <ref type="bibr" target="#b30">[31]</ref>. This emerging scenario presents both opportunities and challenges for academic communities.</p><p>In 1947, Alan Turing, a pioneering figure in computer science, delivered one of the earliest public lectures about computer intelligence, saying "What we want is a machine that can learn from experience" and the "possibility of letting the machine alter its own instructions provides the mechanism for this". Integrating AI literacy into medical education curricula and rethinking assessment methods considering AI's capabilities are essential for the rapid evolution of AI.</p><p>A preliminary search in the CINAHL Complete, MEDLINE (PubMed), Cochrane Database of Systematic Reviews, PROSPERO, and Open Science Framework (OSF) databases indicates that, at present, there are no published or ongoing scoping reviews or systematic reviews concerning the use of AI in wound care education. The literature refers to a considerable number of AI applications for wound care. However, the integration of AI into wound care education remains uncertain. Thus, the authors conducted a scoping review to map and analyze the existing scientific literature on the potential impact of AI in wound care education.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head><p>Given the limited knowledge about AI applications in wound care education and the emerging nature of this topic, a scoping review approach was determined to be the most appropriate method, given its purpose in mapping the evidence <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b32">33]</ref>. In addition, it emerged as the starting point for subsequent research <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>. Given their exploratory nature, scoping reviews are particularly useful when the goal is to map the existing literature on a broad topic, identify key concepts, and provide an overview of the available evidence <ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref>.</p><p>Furthermore, unlike systematic reviews, scoping reviews provide greater flexibility in study selection, enabling a more expansive exploration of the literature <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>. This adaptability proves especially valuable in emerging fields with evolving evidence, where research questions may be less defined <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>. It aids researchers in understanding the current knowledge landscape, clarifying concepts, and shaping future research directions <ref type="bibr" target="#b34">[35]</ref>.</p><p>This exploratory approach makes them valuable for gaining a comprehensive understanding and mapping out this research area. This mapping can provide a detailed description of the available information on AI applications in wound care education, identifying possible gaps in knowledge, offering conclusions about the current state of research activity in this area, and making recommendations for future research.</p><p>This review protocol was registered in the Open Science Framework (OSF) platform (https://doi.org/10.17605/OSF.IO/MTGDX, accessed on 30 November 2023).</p><p>The scoping review follows the Joanna Briggs Institute's (JBI) methodology for scoping reviews <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b35">36]</ref> and the Guidance for Conducting Systematic Scoping Reviews <ref type="bibr" target="#b32">[33]</ref>. Results will be presented following the Preferred Reporting Items for Systematic and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) <ref type="bibr" target="#b31">[32]</ref> guidelines.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Research Questions</head><p>It is suggested that scoping review questions should have a broad scope <ref type="bibr">[37]</ref>. This involves delineating the concept, specifying the target population, and identifying health outcomes of interest to bring clarity to the scoping study's focus and develop a robust search strategy <ref type="bibr">[37]</ref>. The research questions were formulated through collaborative discussions with the research team and relevant stakeholders. A panel of experts, including advanced practice nurses, nurse researchers, and educators in the fields of digital health technologies and health education, were consulted to shape the research questions aligning with the objective of this review.</p><p>To achieve this study's aims, the following research question was identified according to JBI recommendations in the PCC mnemonic guide: what evidence currently exists regarding the application of AI in wound care education?</p><p>Additionally, this review aims to answer the following sub-questions:</p><p>• How is AI integrated into wound care education?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>How is AI being used to educate healthcare students about wound assessment and management?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>How does AI contribute to the education of healthcare professionals in wound assessment and management, particularly in clinical and academic settings? • What evidence currently exists regarding the use of machine learning and simulation technologies in AI-driven wound care education? • What evidence currently exists regarding the application of AI in formal wound care educational programs and training? • What are the benefits of AI application in wound care education for healthcare practi- tioners, students, and educators? • What experiences and perceptions do healthcare practitioners, students, and educators have regarding AI in wound care education?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>What learning outcomes result from integrating AI technology in wound care education?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>What are the barriers to and facilitators of applying AI technology in wound care education?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Inclusion Criteria</head><p>To determine the main subjects under investigation and formulate the eligibility criteria, the PCC (Population, Concept, Context) framework was used:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>Participants: this study will encompass all literature that discussed participants as healthcare practitioners, students, and educators.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>Concept: this review will include literature that analyzes AI and its influence on wound care education.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>Context: education. To expand the scope of the review, the context will be broad and involve any educational settings without geographic restrictions.</p><p>The scope of the literature reviewed will include any quantitative, qualitative, and mixed-method studies. Additionally, gray literature (conference abstracts, theses, government reports, clinical practice guidelines, editorial and opinion papers) will be included as well. Provided they meet the eligibility criteria, this analysis may also include additional relevant manuscripts. Studies that do not explore AI in wound care education will be excluded.</p><p>Literature sources were limited to English, Portuguese, and Spanish, based on the authors' language proficiency, without imposing geographical or cultural restrictions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Search Strategy</head><p>We used the PCC method and field knowledge to identify relevant keywords concerning this topic. As recommended by JBI scoping review methodology <ref type="bibr" target="#b37">[38]</ref>, we performed preliminary research using keywords (artificial intelligence, wound, and education) on two databases relevant to the topic of interest: Medical Literature Analysis and Retrieval System Online (MEDLINE via PubMed) and the Cumulative Index to Nursing and Allied Health Literature (CINAHL via EBSCOhost). The titles, abstracts, and index terms of the identified studies were reviewed to extract the MeSH thesaurus and CINAHL Subject Headings used to describe the literature. Subsequently, in collaboration with a health sciences librarian, two reviewers developed the search strategy, which was peer-reviewed by the third expert reviewer based on the Peer Review of Electronic Search Strategies (PRESS) <ref type="bibr" target="#b31">[32]</ref>. The MEDLINE (via Pubmed) search strategy can be found in Appendix A. The search strategy, including all identified keywords and index terms, was customized for each literature source. When available, subject headings such as MeSH and Emtree terms were used.</p><p>As experts in the development of scoping review protocols, team members reviewed the search terms, Boolean operators, and results to edit and enhance the search strategy.</p><p>Article reference lists were sourced for additional articles. This step aims to check for additional studies not previously identified. Establishing contact with the authors of the identified studies might be useful for potential clarifications or obtaining references.</p><p>The whole search was carried out in the following databases: CINAHL Complete (via EBSCOhost), MEDLINE (via PubMed), Cochrane Library, Academic Search Complete, Scientific Electronic Library Online (Scielo), Scopus, and Web of Science. Electronic searches were also conducted in the Scientific Open Access Scientific Repositories of Portugal (RCAAP) and ProQuest Dissertations and Theses, OpenAIRE, and Open Dissertations databases to access gray literature. Additionally, searches were performed on Google Scholar and specific journals such as the International Wound Journal, Skin Research and Technology, Journal of Wound Care, and Wound Repair and Regeneration. The selection of these databases was performed in collaboration with the health sciences librarian to guarantee comprehensive coverage of the key concepts (artificial intelligence, wounds, and education).</p><p>The searches were carried out on 1 December 2023, and all results were imported into Endnote vX20 (Clarivate Analytics, Philadelphia, PA, USA). Duplicated studies were subsequently removed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Evidence Screening and Study Selection</head><p>In the first phase, article titles and abstracts were screened independently by two reviewers for eligibility criteria using the Rayyan QCR platform. In the second phase, potentially relevant records were obtained in full through institutional access or by emailing authors. The full text of potentially relevant evidence was screened according to the inclusion criteria by two independent reviewers.</p><p>To systematize the review and minimize research bias, two independent reviewers were involved in each selection phase. Any disagreements were addressed and resolved by reaching a consensus with a third reviewer until complete agreement was achieved. The review team conducted a pilot test of this process and held regular meetings to en-sure consistency in the application of the eligibility criteria. During this process, 10% of the records were screened, and the results were compared and discussed with the team. Inclusion criteria were modified as needed.</p><p>The final scoping review will document the reasons for excluding studies that do not meet the inclusion criteria.</p><p>The methodological quality of the included studies will not be assessed. Scoping reviews, in contrast to systematic reviews, do not require the same degree of evidence since they do not synthesize results from sources through a formal appraisal process but instead aim to provide an overview of the literature <ref type="bibr" target="#b33">[34]</ref>.</p><p>The decision not to assess the methodological quality of the included studies is deliberate as it will allow us to conduct a comprehensive review that includes a broad range of relevant studies to address the research question and achieve the primary study objective. In scoping reviews, assessing critical appraisal or risk of bias is generally not recommended because the aim is to map the available evidence rather than provide a synthesized and clinically meaningful answer to a question <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>. Due to the diverse spectrum of study methods and interventions and the inclusion of both gray and published literature, conducting a critical appraisal was not feasible. Given the emerging nature of this topic, performing a methodological quality appraisal and subsequently excluding studies based on this evaluation may result in the rejection of relevant research. The decision not to conduct a quality assessment promotes transparency and rigor.</p><p>The research results will be fully described in the final review, and, at this stage, they are presented in a PRISMA-ScR flow diagram <ref type="bibr" target="#b38">[39]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>).</p><p>authors. The full text of potentially relevant evidence was screened according to the inclusion criteria by two independent reviewers.</p><p>To systematize the review and minimize research bias, two independent reviewers were involved in each selection phase. Any disagreements were addressed and resolved by reaching a consensus with a third reviewer until complete agreement was achieved. The review team conducted a pilot test of this process and held regular meetings to ensure consistency in the application of the eligibility criteria. During this process, 10% of the records were screened, and the results were compared and discussed with the team. Inclusion criteria were modified as needed.</p><p>The final scoping review will document the reasons for excluding studies that do not meet the inclusion criteria.</p><p>The methodological quality of the included studies will not be assessed. Scoping reviews, in contrast to systematic reviews, do not require the same degree of evidence since they do not synthesize results from sources through a formal appraisal process but instead aim to provide an overview of the literature <ref type="bibr" target="#b33">[34]</ref>.</p><p>The decision not to assess the methodological quality of the included studies is deliberate as it will allow us to conduct a comprehensive review that includes a broad range of relevant studies to address the research question and achieve the primary study objective. In scoping reviews, assessing critical appraisal or risk of bias is generally not recommended because the aim is to map the available evidence rather than provide a synthesized and clinically meaningful answer to a question <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>. Due to the diverse spectrum of study methods and interventions and the inclusion of both gray and published literature, conducting a critical appraisal was not feasible. Given the emerging nature of this topic, performing a methodological quality appraisal and subsequently excluding studies based on this evaluation may result in the rejection of relevant research. The decision not to conduct a quality assessment promotes transparency and rigor.</p><p>The research results will be fully described in the final review, and, at this stage, they are presented in a PRISMA-ScR flow diagram <ref type="bibr" target="#b38">[39]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Data Charting</head><p>Following the JBI methodology, data will be extracted from included records by two independent reviewers using a data extraction tool created by the review team based on the JBI instrument for extracting study details, characteristics, and results <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>. The authors will develop a pilot test of this form to ensure the appropriate capture of all relevant data. The initial three records extracted will be discussed and extracted data compared to assess any conflicts. Any disagreements between the reviewers will be resolved through discussion or with a third reviewer.</p><p>The extracted data contain specific details about the population (wounds), concept (artificial intelligence), context (education), and critical findings relevant to the review question and objective (Appendix B). This includes the title, author, year of publication, country of origin, research design, research purpose, participant details, wound specifics, AI characteristics, and education program details.</p><p>Participant details indicate the role (health student, health educator, or health practitioner). Regarding AI characteristics, the data include AI technology, tools, equipment, main functions, and other details (adaptive learning, interactive engagement, visual recognition, diagnostic assistance, feedback mechanism, continuous monitoring, and real-time updates). The data presented also encompass details of the education program, specifically the educational setting where it takes place (hospital, universities, and non-university settings), education level (undergraduate or post-graduate), and the outcomes measured.</p><p>It should be highlighted that adjustments to the data extraction tool could be carried out during the review stage. If there is any missing information in the included records, the respective authors will be contacted to request it.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Data Analysis</head><p>Data will be presented in a table and in narrative form to describe how the tabulated results relate to the review's objective and question.</p><p>The same reviewers involved in the previous step will independently carry out this procedure. A third reviewer may be consulted to gain consensus on the differences found.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>A cohort of 15 studies has been earmarked for intricate data charting and analytical review. This selection follows a preliminary scrutiny of 6450 studies, distilled from an exhaustive retrieval of 11,323 potential studies.</p><p>The included papers were published between 2006 and 2023, encompassing a variety of study types, including conference papers, experimental studies, editorial papers, and other original articles. The majority of studies included in the review address various types of wounds, with some focusing specifically on certain types, such as pressure ulcers or diabetic foot ulcers.</p><p>The integration of AI in wound care education, as evidenced by these studies, marks a pivotal shift towards enhancing clinical decision support and e-learning platforms. This evolution is illuminated by these studies, which showcase AI's capacity to transform healthcare education by offering tailored and engaging learning experiences. Moreover, these papers collectively underline the importance of evidence-based, personalized learning approaches facilitated by AI.</p><p>Several of these studies underscore the pivotal role of AI in fostering active learning and hands-on experiences. This is achieved through the development of e-learning scenarios that draw upon real-world experiences, thereby enriching the educational process with practical, applicable knowledge and insights.</p><p>The integration of AI paradigms, such as Bayesian Inference, Case-Based Reasoning, and Intelligent Agents, into e-learning platforms exemplifies a forward-thinking approach to medical education. This approach enables participants to analyze wound images based on color and texture, helping them to understand wound healing barriers such as non-viable tissue, infection, inflammation, and moisture imbalance.</p><p>Images entirely generated by AI to facilitate pattern recognition and clinical case discussions are also presented as a promising strategy to improve medical education. These AI-created visuals, not being real, carry the added benefit of preserving patient privacy while providing an innovative tool for educational purposes.</p><p>Other papers suggest employing smartphone-based AI applications for pressure injury assessment and utilizing case-based reasoning as educational tools. These methods enable learners to practice and enhance their knowledge and evidence levels, thereby maximizing their motivation and performance.</p><p>Large language models like ChatGPT are also presented as potential tools in providing personalized, accessible, and up-to-date educational content for healthcare professionals. This perspective underscores the flexibility and scalability of AI technologies in improving educational practices within the domain of wound care. It acknowledges, however, the necessity to address challenges pertaining to data privacy and the accuracy of the content provided.</p><p>In conclusion, the included studies indicate a promising future for AI in wound care education, pointing to the need for ongoing development, validation, and testing. Its relevance and pertinence to the research question are undeniable.</p><p>The comprehensive review will collate and present the outcomes within the main conceptual frameworks identified in this study. The authors will discuss and cross-validate the findings to ensure validity and credibility. They will also address the implications for future research, clinical practice, and policy while critically evaluating the significance of the findings concerning the study's primary objective.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>As the World Health Organization (WHO) acknowledges, the use of AI in medical education presents a paradigm shift, offering unprecedented personalization and decisionmaking enhancements <ref type="bibr">[40]</ref>. However, it also brings ethical dilemmas, such as ensuring patient privacy, fairness in AI-driven decisions, and legal accountability <ref type="bibr">[40]</ref>.</p><p>The WHO document on AI in health outlines several advantages and ethical pitfalls of AI in medical education. Some advantages are related to Enhanced Management and Diagnostics: AI aids in managing complex cases and streamlining routine diagnoses, enhancing the educational process with practical applications; Reduced Administrative Burden: AI reduces the workload on healthcare providers by handling clerical tasks, allowing more focus on education; Novel Insights from Data: AI provides new insights from health data, enriching educational content with advanced knowledge; and Support in Education and Research: AI tools support medical and nursing education and research, improving the understanding of medical conditions <ref type="bibr">[40]</ref>.</p><p>Despite this, we have as Potential Ethical Pitfalls the Quality of Education: AI inaccuracies could negatively impact medical education quality; the Additional Burden on Healthcare Workers: AI integration may require additional training for healthcare professionals not yet skilled in digital technologies; Bias and Privacy Concerns: AI in education raises issues of bias, privacy breaches, and accessibility, necessitating fairness and data protection; and Skills Degradation and Moral De-skilling: over-reliance on AI might erode clinicians' skills and confidence in making independent decisions and moral judgments <ref type="bibr">[40]</ref>.</p><p>As emphasized by Drabiak et al., while AI and machine learning bring significant promise to education, particularly in personalizing learning experiences and enhancing educational efficiency, they also raise critical ethical concerns <ref type="bibr" target="#b40">[41]</ref>. These concerns include issues related to data privacy, the responsibility of AI decision-making, trustworthiness of AI systems, and ensuring fairness in educational outcomes <ref type="bibr" target="#b40">[41]</ref>. This perspective highlights the need for a balanced approach in AI implementation, ensuring that the technological advancements contribute positively to the educational landscape while conscientiously addressing ethical implications <ref type="bibr" target="#b40">[41]</ref>.</p><p>Incorporating AI into wound care education demands careful consideration of ethical aspects. The effectiveness of AI is also deeply influenced by the quality of the data it processes. For wound care education, it is essential to use high-quality, diverse, and representative data to avoid biases in AI algorithms. These biases can arise from both the data and human input, potentially distorting educational outcomes. Consequently, special attention to data selection and algorithm design is crucial for equitable and accurate educational experiences <ref type="bibr" target="#b40">[41]</ref>.</p><p>Furthermore, ethical aspects of AI, such as interpretability, accountability, and bias, are critical and need to be addressed carefully. Recent research has identified a need for better understandability of machine learning algorithms and predictions <ref type="bibr" target="#b41">[42]</ref>. This includes clarifying AI's role in decision-making, advocating for transparency, reducing algorithmic bias, and enhancing trust among stakeholders <ref type="bibr" target="#b41">[42]</ref>.</p><p>The integration of AI in wound care education should be ruled by robust ethical oversight. This involves establishing committees for the ethical review of AI applications, ensuring alignment with ethical principles, and respecting learner rights. Continuous assessment of the risks and benefits of AI in education is vital for maintaining integrity and trustworthiness.</p><p>Balancing the benefits of data sharing with the protection of individual privacy is a critical ethical challenge. Rigorous data security measures and transparent data usage tracking mechanisms are elemental. This approach helps maintain trust while leveraging AI's educational advantages.</p><p>Transparency in AI operations and decision-making processes is also crucial in education. On the practical side, the implementation of AI faces technical and pedagogical hurdles. The cross-disciplinary nature of AI necessitates joint consideration of technical and legal aspects, especially in sensitive areas such as data cleaning in medical AI <ref type="bibr" target="#b18">[19]</ref>. Instructors' technological skills are instrumental but not sufficient for integrating AI in classrooms, further complicating the issue <ref type="bibr" target="#b18">[19]</ref>.</p><p>By addressing these ethical considerations, AI can be used in wound care education effectively, while also being ethically rigorous and responsible <ref type="bibr" target="#b42">[43]</ref>. This approach enhances the educational experience while safeguarding the interests and rights of all involved stakeholders <ref type="bibr" target="#b42">[43]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Limitations</head><p>We acknowledge potential limitations of the scoping review, particularly its restriction to studies published in English, Portuguese, and Spanish. However, no studies will be excluded based on country. Potentially relevant studies will be listed in a supplement of the final review.</p><p>The inclusion of diverse sources, with various study designs, may challenge the validity of the results. Variability in how AI and wound care education are defined and measured across studies may also affect construct validity.</p><p>While scoping reviews typically do not appraise the quality of included articles, and explicit reasons for not conducting such appraisals in this review are provided, this is acknowledged as another potential limitation of the scoping review. The lack of critical appraisal may limit the scoping review's ability to provide concrete recommendations for practice or policy, as the quality of the included studies is not systematically evaluated. Despite these limitations, given that scoping reviews are considered a precursor to a systematic review <ref type="bibr" target="#b33">[34]</ref>, critical appraisal could be implemented if the conditions for conducting a systematic review are met.</p><p>Scoping reviews aim to offer a comprehensive overview rather than specific recommendations, limiting the ability to draw detailed conclusions and generalize findings. The applicability of results to various educational settings or populations might be constrained by the specific focus on AI in wound care education. Additionally, findings may not be directly transferable to different healthcare systems, educational institutions, or regions with distinct practices and resources.</p><p>We will consider the impact of these limitations and address any additional limitations that may arise when reporting our results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p>AI plays a significant role in the future of healthcare education. Therefore, embracing AI and related technologies is not merely an option but a transformative trend that organizations must acknowledge and leverage for competitive advantage. While AI tools have been employed to assess wound care, efforts are needed to enhance their potential impact on wound care education. Integrating AI into health education, specifically wound care, represents a paradigm shift in how educational content is delivered and processed. This transformation goes beyond traditional methods to provide a more personalized, efficient, and interactive learning experience. AI-driven tools can adapt to individual learning styles and provide tailored teaching materials and simulations. This adaptability improves the learning process, making it more engaging and efficient for students and professionals alike. With AI's ability to analyze and interpret complex medical data, students and physicians can gain insights into wound care from remote locations, breaking down geographic barriers in education. This is especially important in the current global situation, where distance learning and telemedicine are becoming increasingly important. We hope that integrating AI into wound care education will not only revolutionize the delivery of knowledge but also directly improve patient outcomes. By more effectively training healthcare professionals in wound care, AI can help better diagnose, treat, and manage wounds, ultimately improving the quality of patient care. This is consistent with the broader goals of health education, which focus on improving health outcomes and the standards of patient care.</p><p>As this scoping review will illustrate, harnessing the potential of AI in wound care education requires not only a thorough understanding of its capabilities but also a commitment to addressing the ethical and practical challenges associated with its implementation. A careful exploration of the ethical aspects surrounding artificial intelligence in wound care education is essential. As AI shapes the educational landscape, addressing issues like data privacy and bias is crucial for a responsible integration that ensures both educational excellence and ethical approval.</p><p>As far as we know, this is the first review to explore the influence of AI in the context of wound care education. The findings of this scoping review will likely provide insights into the application of AI in wound care education, identify research gaps in the literature, and promote further research initiatives. Hopefully, it will also be relevant for educators, students, policymakers, health and education organizations, and researchers in healthcare sciences and engineering.</p><p>The results will be disseminated through presentations at health education meetings and conferences and publication in a peer-reviewed health education journal. of data, the writing of this article or the decision to submit it for publication. Author Hélder Palheira was employed by the company HC Healthcare &amp; Innovation. This company was not involved in the study design, collection, analysis, interpretation of data, the writing of this article or the decision to submit it for publication. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) 2020 flow diagram.</figDesc><graphic coords="6,47.53,369.57,502.39,311.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>1 " 2 " 3 "</head><label>123</label><figDesc>wound*"[Title/Abstract] OR "ulcer*"[Title/Abstract] OR "bed sore*"[Title/Abstract] OR "bedsore*"[Title/Abstract] OR "pressure sore*"[Title/Abstract] OR "diabetic feet"[Title/Abstract] OR "diabetic foot"[Title/Abstract] OR "surgical dressing*"[Title/Abstract] OR "injury"[Title/Abstract] OR "injuries"[Title/Abstract] OR "pressure ulcer"[MeSH Terms] OR "wounds and injuries"[MeSH Terms] OR "surgical wound"[MeSH Terms] OR "wound healing"[MeSH Terms] OR "wound infection"[MeSH Terms] OR "varicose ulcer"[MeSH Terms] OR "ulcer"[MeSH Terms] OR "leg ulcer"[MeSH Terms] OR "skin ulcer"[MeSH Terms] OR "foot ulcer"[MeSH Terms] OR "diabetic foot"[MeSH Terms] artificial Intelligence"[Title/Abstract] OR "AI"[Title/Abstract] OR "chatgtp"[Title/Abstract] OR "expert system*"[Title/Abstract] OR "computational intelligence"[Title/Abstract] OR "computer reasoning"[Title/Abstract] OR "computer vision"[Title/Abstract] OR "machine intelligence"[Title/Abstract] OR "machine learning"[Title/Abstract] OR "deep learning"[Title/Abstract] OR "natural language processing"[Title/Abstract] OR "neural network*"[Title/Abstract] OR "artificial Intelligence"[MeSH Terms] OR "Expert Systems"[MeSH Terms] OR "machine learning"[MeSH Terms] OR "deep learning"[MeSH Terms] OR "natural language processing"[MeSH Terms] OR "neural networks, computer"[MeSH Terms] educat*"[Title/Abstract] OR "teach*"[Title/Abstract] OR "student*"[Title/Abstract] OR "training"[Title/Abstract] OR "instruction*"[Title/Abstract] OR "simulat*"[Title/Abstract] OR "interactive learning"[Title/Abstract] OR "gamification"[Title/Abstract] OR "game*"[Title/Abstract] OR "health education"[MeSH Terms] OR "teaching"[MeSH Terms] OR "learning"[MeSH Terms] OR "education"[MeSH Terms] OR "educational technology"[MeSH Terms] OR "simulation training"[MeSH Terms] OR "high fidelity simulation training"[MeSH Terms] OR "students"[MeSH Terms] OR "students, health occupations"[MeSH Terms] OR "students, medical"[MeSH Terms] OR "students, nursing"[MeSH Terms] OR "students, nursing"[MeSH Terms] OR "education, medical"[MeSH Terms] OR "education, medical, graduate"[MeSH Terms] OR "education, medical, undergraduate"[MeSH Terms] OR "education, graduate"[MeSH Terms] OR "education, medical, continuing"[MeSH Terms] OR "education, professional"[MeSH Terms] OR "health educators"[MeSH Terms] OR "educational personnel"[MeSH Terms] OR "faculty, medical"[MeSH Terms] OR "faculty, nursing"[MeSH Terms] OR "education, nursing"[MeSH Terms] OR "education, nursing, graduate"[MeSH Terms] OR "education, nursing, continuing"[MeSH Terms] OR "education, nursing, baccalaureate"[MeSH Terms] OR "education, continuing"[MeSH Terms] words in PUBMED.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments:</head><p>The authors express their gratitude to <rs type="person">Maria Perdigão</rs> from the <rs type="affiliation">Library Services at the Catholic University of Portugal</rs> for her support in developing the search strategy.</p></div>
+			</div>
+			<div type="funding">
+<div><p>Funding: This research was supported by national funds through <rs type="funder">FCT within the scope of the Centre for Interdisciplinary Research in Health</rs> (<rs type="grantNumber">UIDB/04279/2020</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_8Vq3tMN">
+					<idno type="grant-number">UIDB/04279/2020</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: For data supporting reported results, please contact the authors of this review.</p><p>Public Involvement Statement: There was no public involvement in any aspect of this research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Guidelines and Standards Statement:</head><p>This scoping review follows the Joanna Briggs Institute's (JBI) methodology for scoping reviews.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author Contributions: Conceptualization, R.E., T.M., H.P., J.N.-A. and P.A.; methodology, R.E.; validation, T.M., J.N.-A. and P.A.; investigation, R.E., T.M., J.N.-A. and P.A.; resources, R.E., T.M., J.N.-A. and P.A.; writing-original draft preparation, R.E.; writing-review and editing, R.E., T.M., H.P., J.N.-A. and P.A.; visualization, R.E.; supervision, P.A.; project administration, R.E. All authors have read and agreed to the published version of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>Author Tânia Manuel was employed by the company Prove.pt, Grupo Saúde Nuno Mendes. This company was not involved in the study design, collection, analysis, interpretation </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix B. Preliminary Data Charting Tool</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,39.08,511.45,369.26,8.74" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">On Defining Artificial Intelligence</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.2478/jagi-2019-0002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Artif. Gen. Intell</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="37" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,39.08,522.96,521.32,8.74;12,57.23,534.47,113.75,8.74" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence, machine learning and deep learning: Definitions and differences</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jakhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kaur</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ced.14029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Exp. Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="131" to="132" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,39.08,546.09,520.20,8.63;12,57.23,557.48,503.16,8.74;12,57.23,569.10,68.92,8.63" xml:id="b2">
+	<analytic>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Helm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Swiergosz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Haeberle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Karnuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Schaffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Spitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Ramkumar</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12178-020-09600-8</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning and Artificial Intelligence: Definitions, Applications, and Future Directions</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="69" to="76" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,39.08,580.61,520.19,8.63;12,57.23,592.00,431.06,8.74" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Systematic literature review on opportunities, challenges, and future research recommendations of artificial intelligence in education</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K F</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.caeai.2022.100118</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Educ. Artif. Intell</title>
+		<imprint>
+			<date type="published" when="2023">2023, 4, 100118</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,39.08,603.51,521.32,8.74;12,56.88,615.13,267.00,8.63" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The rise of artificial intelligence in healthcare applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Memarzadeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/B978-0-12-818438-7.00002-2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Artificial Intelligence in Healthcare</title>
+		<meeting><address><addrLine>Cambridge, MA, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="25" to="60" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,39.08,626.64,520.20,8.63;12,57.23,638.03,270.65,8.74" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Application of artificial intelligence-based technologies in the healthcare industry: Opportunities and challenges</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Yoon</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijerph18010271</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Environ. Res. Public Health</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">271</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,39.08,649.65,520.20,8.63;12,57.23,661.04,503.61,8.74" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A systematic literature review of artificial intelligence in the healthcare sector: Benefits, challenges, methodologies, and functionalities</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Abdelbaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Elbasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A A</forename><surname>Alryalat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Dwivedi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Innov. Knowl</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">100333</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,39.08,684.17,521.32,8.63;12,56.96,695.56,307.11,8.74" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in healthcare: Past, present and future. Stroke Vasc</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/svn-2017-000101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="230" to="243" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,39.08,707.18,520.37,8.63;12,57.23,718.58,502.04,8.74;12,57.23,730.20,40.01,8.63" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Application of explainable artificial intelligence for healthcare: A systematic review of the last decade</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Loh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Ooi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Barua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Molinari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">R</forename><surname>Acharya</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmpb.2022.107161</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Methods Programs Biomed</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<date type="published" when="2011">2011-2022. 2022. 107161</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.19,741.59,516.09,8.74;12,57.23,753.21,40.01,8.63;13,35.72,51.03,65.58,7.64;13,547.32,53.12,11.96,7.67" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The potential for artificial intelligence in healthcare</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kalakota</surname></persName>
+		</author>
+		<idno type="DOI">10.7861/futurehosp.6-2-94</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Future Healthc. J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">639</biblScope>
+			<date type="published" when="2019">2019. 2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,90.64,517.66,8.74" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Data-driven specialisation of wound care through artificial intelligence</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Queen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Wound. J</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="879" to="880" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,113.65,517.21,8.74;13,56.95,125.16,194.69,8.74" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The State of Artificial Intelligence in Nursing Education: Past, Present, and Future Directions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>De Gagne</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijerph20064884</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Environ. Res. Public Health</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,136.78,516.09,8.63;13,57.23,148.17,247.59,8.74" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in online higher education: A systematic review of empirical research from 2011 to 2020</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ouyang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jiao</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10639-022-10925-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Educ. Inf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="7893" to="7925" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,159.80,516.09,8.63;13,57.23,171.19,248.50,8.74" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Applications and Challenges of Implementing Artificial Intelligence in Medical Education: Integrative Review</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zary</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/13930</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Med. Educ</title>
+		<imprint>
+			<date type="published" when="2019-05">2019, 5, e13930</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,182.69,517.21,8.74;13,57.23,194.20,109.26,8.74" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Generative artificial intelligence empowers educational reform: Current status, issues, and prospects</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/feduc.2023.1183162</idno>
+		<imprint>
+			<date type="published" when="2023">2023. 1183162</date>
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,205.82,517.21,8.63;13,57.23,217.21,282.53,8.74" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Opportunities, Challenges, and Future Directions of Generative Artificial Intelligence in Medical Education: Scoping Review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Preiksaitis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rose</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/48785</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Med. Educ</title>
+		<imprint>
+			<biblScope unit="volume">2023</biblScope>
+			<biblScope unit="page">48785</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,228.84,516.08,8.63;13,57.23,240.23,503.61,8.74" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The virtual operative assistant: An explainable artificial intelligence tool for simulation-based training in surgery and medicine</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mirchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bissonnette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yilmaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ledwos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Winkler-Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Del Maestro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">229596</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,263.36,516.26,8.63;13,57.23,274.75,478.50,8.74" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A virtual counseling application using artificial intelligence for communication skills training in nursing education: Development study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shorey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chui</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/14658</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<date type="published" when="2019">2019. 14658</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,286.37,516.08,8.63;13,56.96,297.76,319.11,8.74" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Use of artificial intelligence and virtual reality within clinical simulation for nursing pain education: A scoping review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Summons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Inder</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nedt.2020.104700</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nurse Educ. Today</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<date type="published" when="2021">2021. 104700</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,309.27,517.21,8.74;13,56.78,320.89,59.95,8.63" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A Conversation on Artificial Intelligence, Chatbots, and Plagiarism in Higher Education</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>King</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12195-022-00754-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Mol. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,332.40,516.09,8.63;13,57.23,343.91,503.61,8.63;13,57.23,355.30,216.72,8.74" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Artificial Intelligence Ethics and Challenges in Healthcare Applications: A Comprehensive Review in the Context of the European GDPR Mandate</title>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Amini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jesus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fanaei Sheikholeslami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hassanzadeh Benam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hariri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/make5030053</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. Learn Knowl. Extr</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1023" to="1035" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,366.92,516.09,8.63;13,57.23,378.31,198.40,8.74" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">The enlightening role of explainable artificial intelligence in chronic wound classification</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sarp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuzlu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Cali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Guler</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/electronics10121406</idno>
+		<imprint>
+			<date type="published" when="1406">2021. 1406</date>
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,389.93,516.09,8.63;13,56.98,401.32,503.42,8.74;13,56.78,412.95,120.13,8.63" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Clinical validation of an artificial intelligence-enabled wound imaging mobile application in diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H M</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R C</forename><surname>Chong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W L</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13603</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="114" to="124" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,424.45,516.09,8.63;13,57.23,435.96,503.62,8.63;13,57.23,447.35,175.12,8.74" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Reshaping wound care: Evaluation of an artificial intelligence app to improve wound assessment and management amid the COVID-19 pandemic</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barakat-Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Frotjold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Randall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fethney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Coyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13755</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1561" to="1577" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,458.86,517.65,8.74" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Diabetic wounds and artificial intelligence: A mini-review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tehsin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kausar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jameel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World J. Clin. Cases</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="84" to="91" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,481.87,517.21,8.74;13,57.23,493.38,122.71,8.74" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Risk profiling in the prevention and treatment of chronic wounds using artificial intelligence</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13952</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1283" to="1285" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,505.00,517.66,8.63;13,57.23,516.39,202.68,8.74" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Wound healing and treating wounds Chronic wound care and management</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Powers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Higham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Broussard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jaad.2015.08.070</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Acad. Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="607" to="625" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,527.90,517.21,8.74;13,57.23,539.41,104.78,8.74" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Wound care evidence, knowledge and education amongst nurses: A semi-systematic literature review</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Welsh</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.12822</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Wound J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="53" to="61" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,550.91,517.21,8.74;13,56.88,562.42,170.13,8.74" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Unlocking Medical Potentials: An In-depth Investigation of Augmented Reality Technology in Medicine</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Luo</surname></persName>
+		</author>
+		<idno type="DOI">10.54254/2753-7064/27/20232151</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Humanit. Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="126" to="130" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,573.93,412.47,8.74" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">AR, machine learning &amp; AI in Orthopaedics?</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mah</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Metaverse</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/10225536231165362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Orthop. Surg</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,585.55,516.09,8.63;13,57.23,596.94,452.07,8.74" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">From Google Gemini to OpenAI Q* (Q-Star): A Survey of Reshaping the Generative Artificial Intelligence (AI) Research Landscape</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Susnjak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Watters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Halgamuge</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/arXiv.2312.10868</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Latex Cl. Files 2023</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="30" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,608.56,516.09,8.63;13,57.23,619.96,324.68,8.74" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">PRESS Peer Review of Electronic Search Strategies: 2015 Guideline Statement</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcgowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sampson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Salzwedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cogo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Foerster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lefebvre</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclinepi.2016.01.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="40" to="46" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,631.58,516.09,8.63;13,57.23,642.97,471.95,8.74" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Updated methodological guidance for the conduct of scoping reviews</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Marnie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Tricco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Munn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcinerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Godfrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Khalil</surname></persName>
+		</author>
+		<idno type="DOI">10.11124/JBIES-20-00167</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JBI Evid. Synth</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2119" to="2126" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,654.48,434.37,8.74" xml:id="b33">
+	<monogr>
+		<idno type="DOI">10.46658/JBIMES-20-01</idno>
+		<title level="m">JBI Manual for Evidence Synthesis; JBI: Adelaide, Australia</title>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Aromataris</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Z</forename><surname>Munn</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,666.10,516.27,8.63;13,57.23,677.49,493.40,8.74" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Munn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D J</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tufanaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mcarthur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Aromataris</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12874-018-0611-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med. Res. Methodol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">143</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,689.11,517.66,8.63;13,57.23,700.50,503.61,8.74" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Tricco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zarin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Colquhoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Levac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Horsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Weeks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Intern. Med</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="467" to="473" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,723.52,506.40,8.74" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Scoping studies: Advancing the methodology</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Levac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Colquhoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>O'brien</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1748-5908-5-69</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Implement. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,43.19,735.14,516.09,8.63;13,57.23,746.53,293.58,8.74;14,35.72,51.03,65.58,7.64" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Guidance for conducting systematic scoping reviews</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D J</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Godfrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Khalil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcinerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Soares</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/XEB.0000000000000050</idno>
+		<idno>Nurs. Rep. 2024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Evid. Based Healthc</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,43.19,90.75,517.20,8.63;14,57.23,102.15,503.61,8.74" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The PRISMA 2020 statement: An updated guideline for reporting systematic reviews</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bossuyt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Boutron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Mulrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shamseer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Tetzlaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Akl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Brennan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page">105906</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,43.19,125.28,516.09,8.63;14,57.23,136.78,502.04,8.63;14,57.23,148.29,228.89,8.63" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Ethics and Governance of Artificial Intelligence for Health. Ethics and Governance of Artificial Intelligence for Health: Who Guidance</title>
+		<ptr target="https://iris.who.int/bitstream/handle/10665/341996/9789240029200-eng.pdf?sequence=1" />
+		<imprint>
+			<date type="published" when="2021-02-10">2021. 10 February 2024</date>
+			<publisher>World Health Organization</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,43.19,159.68,517.21,8.74;14,57.23,171.19,120.13,8.74" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">El Naqa, I. AI and machine learning ethics, law, diversity, and global impact</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Drabiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kyzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nemov</surname></persName>
+		</author>
+		<idno type="DOI">10.1259/bjr.20220934</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Radiol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<date type="published" when="1150">2023. 1150</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,43.19,182.81,517.21,8.63;14,57.23,194.20,350.21,8.74" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Transparency and explainability of AI systems: From ethical guidelines to requirements</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Balasubramaniam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kauppinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rannisto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hiekkanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kujala</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.infsof.2023.107197</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inf. Softw. Technol</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<date type="published" when="2023">2023. 107197</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,43.19,205.71,517.21,8.74;14,57.01,217.21,64.43,8.74" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Ethics and governance of trustworthy medical artificial intelligence</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12911-023-02103-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med. Inform. Decis. Mak</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,35.72,243.38,523.56,8.63;14,35.72,254.89,523.56,8.63;14,35.45,266.40,414.48,8.63" xml:id="b43">
+	<monogr>
+		<title level="m" type="main">The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods</title>
+		<imprint>
+			<publisher>Disclaimer/Publisher&apos;s Note</publisher>
+		</imprint>
+	</monogr>
+	<note>instructions or products referred to in the content</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

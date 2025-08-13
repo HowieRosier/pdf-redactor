@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Improved detection of clinically relevant wound bacteria using autofluorescence image-guided sampling in diabetic foot ulcers</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kathryn</forename><surname>Ottolino-Perry</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Princess Margaret Cancer Centre</orgName>
+								<orgName type="institution">University Health Network</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emilie</forename><surname>Chamma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Princess Margaret Cancer Centre</orgName>
+								<orgName type="institution">University Health Network</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kristina</forename><forename type="middle">M</forename><surname>Blackmore</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Princess Margaret Cancer Centre</orgName>
+								<orgName type="institution">University Health Network</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Liis</forename><surname>Lindvere-Teene</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Princess Margaret Cancer Centre</orgName>
+								<orgName type="institution">University Health Network</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Danielle</forename><surname>Starr</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">MolecuLight, Inc</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario Canada</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kim</forename><surname>Tapang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Hyperbaric Medicine</orgName>
+								<orgName type="institution">Judy Dan Research &amp; Treatment Centre</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario Canada</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cheryl</forename><forename type="middle">F</forename><surname>Rosen</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Dermatology</orgName>
+								<orgName type="institution" key="instit1">Toronto Western Hospital</orgName>
+								<orgName type="institution" key="instit2">University Health Network</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario Canada</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bethany</forename><surname>Pitcher</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Biostatistics</orgName>
+								<orgName type="institution">University Health Network</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario Canada</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tony</forename><surname>Panzarella</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Biostatistics</orgName>
+								<orgName type="institution">University Health Network</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario Canada</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ron</forename><surname>Linden</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Hyperbaric Medicine</orgName>
+								<orgName type="institution">Judy Dan Research &amp; Treatment Centre</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario Canada</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Dr</roleName><forename type="first">Ralph</forename><forename type="middle">S</forename><surname>Dacosta</surname></persName>
+							<email>rdacosta@uhnresearch.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Princess Margaret Cancer Centre</orgName>
+								<orgName type="institution">University Health Network</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Medical Biophysics</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="institution">Techna Institute</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Princess Margaret Cancer Centre and Techna Institute University Health Network MaRS Centre Toronto Medical Discovery Tower</orgName>
+								<address>
+									<addrLine>101 College Street Room 15-312 Toronto Ontario</addrLine>
+									<postCode>M5G 1L7</postCode>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Improved detection of clinically relevant wound bacteria using autofluorescence image-guided sampling in diabetic foot ulcers</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">1742-4801</idno>
+					</monogr>
+					<idno type="MD5">6202086409A317BDD670F62BEE94A07C</idno>
+					<idno type="DOI">10.1111/iwj.12717</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Autofluorescence imaging</term>
+					<term>Clinical signs and symptoms</term>
+					<term>Diabetic foot ulcers</term>
+					<term>Levine technique</term>
+					<term>Microbiological sampling</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Clinical wound assessment involves microbiological swabbing of wounds to identify and quantify bacterial species, and to determine microbial susceptibility to antibiotics. The Levine swabbing technique may be suboptimal because it samples only the wound bed, missing other diagnostically relevant areas of the wound, which may contain clinically significant bacteria. Thus, there is a clinical need to improve the reliability of microbiological wound sampling. To address this, a handheld portable autofluorescence (AF) imaging device that detects bacteria in real time, without contrast agents, was developed. Here, we report the results of a clinical study evaluating the use of real-time AF imaging to visualise bacteria in and around the wound bed and to guide swabbing during the clinical assessment of diabetic foot ulcers, compared with the Levine technique. We investigated 33 diabetic foot ulcers (n = 31 patients) and found that AF imaging more accurately identified the presence of moderate and/or heavy bacterial load compared with the Levine technique (accuracy 78% versus 52%, P = 0⋅048; adjusted diagnostic odds ratio 7⋅67, P &lt; 0⋅00022 versus 3⋅07, P = 0⋅066) and maximised the effectiveness of bacterial load sampling, with no significant impact on clinical workflow. AF imaging may help clinicians better identify the wound areas with clinically significant bacteria, and maximise sampling of treatment-relevant pathogens.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Chronic wounds negatively affect patient's quality of life and strain already burdened global health care systems <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref>. People living with diabetes are at higher risk for the development of chronic wounds such as diabetic foot ulcers (DFUs), and subsequent wound infections, due to a loss of sensation in limbs (peripheral neuropathy) and decreased blood flow (vascular dysfunction). The current standard of care for diagnosing</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Messages</head><p>• autofluorescence (AF) imaging of diabetic foot ulcers provides an accurate assessment of the presence of clinically significant bacteria, which is more accurate than the current standard practice • a total of 33 diabetic foot ulcers were serially assessed for infection using clinical signs and symptoms and AF imaging and sampled using Levine technique and AF-guided swabbing • the bacterial load in wounds was sampled more accurately using autofluorescence image-guided swabbing compared with the Levine technique wound infections involves bedside assessment of clinical signs and symptoms (CSS), using a CSS checklist that identifies and defines 12 signs and symptoms of localised wound infection: heat, oedema, pain, erythema, wound breakdown, purulent exudate, serous exudate with concurrent inflammation, delayed healing, foul odour, pocketing at base of wound, discolouration of granulation tissues and friable granulation tissue <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6)</ref>. However, in certain cases, such as asymptomaticity, CSS are insufficient for detecting bacterial loads. As such, early opportunities to treat and improve the outcome of infected wounds are missed <ref type="bibr" target="#b6">(7)</ref>.</p><p>Identification and quantification of bacterial species and antibiotic susceptibility may be achieved by wound sampling using microbiological swabs <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b7">8)</ref> or tissue biopsies. In practice, swabs are more widely used than biopsies, because the latter require an increased skill level to collect, are potentially painful and distressing to the patient and are more expensive to process <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b9">10)</ref>. Although the Levine swabbing technique <ref type="bibr" target="#b0">(1)</ref>, which is the standard of care in Canada, provides semi-quantitative information and may objectively determine infection and predict healing <ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref>, this technique may be suboptimal because sampling is restricted to the wound bed. As such, treatment-relevant bacteria at the wound periphery or other regions remote from the wound bed are not collected or identified. Moreover, although microbiology reports summarise information about bacterial species, growth rates (semi-quantitative) and antibiotic susceptibility, these details are provided 3-5 days after swabbing <ref type="bibr" target="#b13">(14)</ref>. At this stage, the biology and bioburden of the wound is no longer the same as it was at the time of initial swabbing <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16)</ref>. As a result, treatment may be suboptimal <ref type="bibr" target="#b16">(17)</ref>, particularly in cases where debridement and wound hygiene are insufficient/ineffective and broad-spectrum antibiotics, which promote antibiotic-resistant bacteria (methicillin-resistant Staphylococcus aureus (MRSA) and Clostridium difficile <ref type="bibr" target="#b17">(18)</ref>), are prescribed.</p><p>The clinical need to ameliorate microbiological swabbing of chronic wounds and their subsequent treatment is significant and unmet <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b18">19)</ref>. To address this, K2, a handheld, non-contact and portable point-of-care optical imaging device (a second-generation prototype based on the original prototype PRODIGI autofluorescence (AF) imaging device <ref type="bibr" target="#b19">(20,</ref><ref type="bibr" target="#b20">21)</ref>), which obtains high-resolution, real-time white light (WL) and AF images or videos of normal skin and wounds, was developed. This technology takes advantage of the light absorbing properties of endogenously produced bacterial porphyrins (e.g. haeme) which play vital roles in the metabolism of molecular oxygen and diatomic gases, as well as gene regulation. AF imaging of endogenous bacterial porphyrins from numerous clinically relevant bacterial species (e.g. S. aureus, MRSA, Escherichia coli, coagulase-negative staphylococci, Enterococcus spp, Proteus spp, Klebsiella pneumoniae, beta-hemolytic streptococci (group B) and Enterobacter spp.) <ref type="bibr" target="#b21">(22)</ref><ref type="bibr" target="#b22">(23)</ref><ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref> produces a distinct red fluorescence emission (peak at ∼635 nm) that can be detected under 405-nm light illumination in the absence of a contrast agent. In the present study, we report our findings of a recent clinical trial involving patients with diabetic foot ulcers (DFUs). The main objective of this trial was to evaluate real-time AF imaging using the K2 device to visualise bacteria and guide wound swabbing during the clinical assessment of DFUs, compared with standard clinical signs and symptoms (CSS) plus Levine technique of swabbing of the same wound. Our initial clinical results raise concern that conventional wound sampling using CSS plus the Levine technique are suboptimal, and that current clinical protocols may require careful re-examination and revision.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient population</head><p>This investigator-sponsored non-randomised clinical trial (clinicaltrials.gov, ID: NCT02315092) was conducted at the Judy Dan Research and Treatment Centre (Toronto, Canada). A total of 33 adult (≥18 years, male or female) patients presenting with one or more non-healing DFUs larger than 1 cm in the greatest dimension were enrolled (37 DFUs total). Participants were excluded if they had received treatment with an investigational drug ≤1 month prior to the study enrolment, had any known contraindication to routine wound care and/or monitoring or were unable to provide consent. One patient (one DFU) was withdrawn due to ineligibility (wound was already healed at initial visit) and data from another patient (one DFU) was excluded due to unintentional mishandling of the swabs. A total of 190 swabs across 75 DFU assessments (including repeat visits) were recorded. A total of 47 swabs were found to be expired at the time of use and 10 swabs were determined to contain Pseudomonas aeruginosa only (see the section Analysis and statistics). As such, all swabs corresponding to these wound assessments (15 swabs total) were excluded from the analysis, leaving a total of 128 swabs collected from 33 DFUs (n = 29 participants) across a total of 52 visits. The mean age of all eligible patients (n = 29, 2 females, 27 males) was 63 years (SD = 12⋅0 years; range 36-82 years). The majority of patients were male (93⋅1%) and Caucasian (65⋅5%) (Table <ref type="table" target="#tab_0">1</ref>). The trial was approved by the University Health Network Research Ethics Board and by an external institutional review board, Veritas (#14-8303). All participants provided written informed consent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Imaging device and procedures</head><p>WL and corresponding AF images of DFUs were obtained using the handheld K2 imaging device (provided by Molecu-Light, Inc., Toronto, Canada). The device consists of an integrated consumer grade iPod touch console with a camera sensor capable of capturing 5 megapixel colour images and 1080p video, with a large, integrated 4 inch multi-touch retina display. The device is housed in a 3D printed RenShape SL 7820 case (Figure <ref type="figure" target="#fig_0">1</ref>) that also encloses the internal power electronics of the custom-built battery source. Illumination of the wound A swab obtained from a red AF positive area as indicated by AF imaging, resulting in a microbiology finding less than moderate load of any pathogen True negative (TN) A swab obtained from the wound bed, but not indicated by CSS, resulting in a microbiology finding less than moderate load of any pathogen</p><p>A swab obtained from a red AF negative area on the wound periphery farthest from the wound bed, resulting in a microbiology finding of less than moderate load of any pathogen False negative (FN) A swab obtained from the wound bed, but not indicated by CSS, resulting in a microbiology finding of moderate or heavy load of any pathogen</p><p>A swab obtained from a red AF negative area on the wound periphery farthest from the wound bed, resulting in a microbiology finding of moderate or heavy load of any pathogen during AF imaging is provided by two 405 nm light emitting diodes (LEDs) emitting 5 Watts each of optical power that produce a bright and clinically safe (by ANSI Z136.1 international standards) uniform illumination. Heat emitted by the two LEDs during operation is dissipated by a custom heat sink. A slider mechanism is used to switch between WL and AF modes by turning on the 405 nm LEDs and sliding the built-in dual-band fluorescence emission filter (500-545 nm and 600-665 nm) in front of the imaging sensor during AF operation. AF imaging was performed in real-time with the room lights turned off. An integrated near-infrared optical range finder ensured the device was held at a distance of 8-10 cm from the wound for standardised and optimal wound illumination and image collection. In addition, an ambient room light indicator on the device assessed the level of darkness in the environment and signalled the user when lighting conditions were appropriate for AF imaging. Corresponding WL imaging of wounds was recorded on the same system using room lighting with the LEDs turned off and without the fluorescence emission filter in front of the image detector. A commercially available measurement sticker (Shamrock Scientific Specialty Systems, Bellwoods, IL, USA) marked with the date and subject ID was placed in the imaging field of view.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound sampling</head><p>For each DFU, WL and AF images of the wound were taken after standard cleaning, debridement (if required) and clinical assessment of the wound (Figure <ref type="figure" target="#fig_1">2</ref>). An experienced wound care clinician, with over 20 years of specialised wound care experience, evaluated all participants, thereby minimising inter-rater variability. The clinician was blinded to the AF results and asked to decide, based on CSS assessment using the CSS checklist <ref type="bibr" target="#b25">(26)</ref>, if a Levine technique swab was indicated and their decision was noted for each wound studied. In all cases, the clinician collected a Levine technique swab in the wound bed and recorded it as either indicated or not indicated based on CSS assessment. A trained study researcher collected AF image-guided swabs in all red AF positive (red AF+) regions (if present) as indicated by the device, and at the red AF negative (red AF-) region farthest from the centre of the wound. Sterile cotton-tipped swabs and culture medium in a pre-packaged collection and transport system were used for both techniques.</p><p>Blinded microbiological analysis was performed as per standard practice at Gamma Dynacare Medical Laboratories (North York, Ontario, Canada). Swabs were analysed for culture and sensitivity including Gram staining, yielding the species of bacteria present on the swab (if any) and a semi-quantitative scale (none, occasional, light, moderate, heavy) of the bacterial load. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analyses and statistics</head><p>Standard diagnostic accuracy measures were calculated for both, AF-guided swabbing and CSS plus Levine technique swabbing to determine the ability of each method to correctly identify the need for a swab and the presence of pathogenic bacteria, as well as to accurately sample the wound. These measures included accuracy, sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV) and the diagnostic odds ratio (DOR) <ref type="bibr" target="#b25">(26)</ref>. For the purposes of this study, only moderate and/or heavy bacterial loads, as reported in microbiology results, were considered positive for bacteria. This is both clinically relevant and technologically feasible given that occasional and/or light bacteria growth likely represents wound contamination or colonisation and AF intensity correlates with bacterial load, respectively <ref type="bibr" target="#b19">(20)</ref>.</p><p>Accuracy (the percentage of swabs correctly classified by AF or CSS as indicated or not, i.e. bacteria positive or negative) was defined as the number of true positive (TP) swabs plus the number of true negative (TN) swabs divided by the total number of swabs taken (Table <ref type="table" target="#tab_0">1</ref>). Sensitivity [the probability of a positive test result (AF+, CSS+) given the presence of bacteria] was defined as the number of TP swabs divided by the total number of TP and false negative (FN) swabs. Specificity [the probability of a negative test result (AF-, CSS-) given that bacteria were not present] was defined as the number of TN swabs divided by the total number of TN and false positive (FP) swabs. The PPV [the probability that bacteria were present given that the test was positive (AF+, CSS+)] was defined by the number of TP swabs divided by the total number of TP and FP swabs. The NPV [the probability that bacteria is not present given that the test is negative (AF-, CSS-)] is defined as the number of TN swabs divided by the total number of TN and FN swabs. The DOR [the ratio of the odds of the test (AF, CSS) being positive when pathogenic bacteria were present relative to the odds of the test being positive when pathogenic bacteria were not present] was calculated by the following formula: (TP/FN) ÷ (FP/TN). The value of the DOR ranges from 0 to infinity, with higher values indicating better discriminatory test performance <ref type="bibr" target="#b26">(27)</ref>.</p><p>Diagnostic accuracy measures were calculated for AF imaging and CSS wound assessments across all patient visits, including repeat visits for a single patient, as well as for swabs collected at the patients' initial visit only. This was done to examine any potential bias introduced by each method in patients examined multiple times over the course of the study. In addition, P. aeruginosa (PA) was not considered in this study as a red AF positive pathogen because PA emits a dominant cyan AF signal at 405 nm excitation, due to abundant endogenous fluorescent siderophore molecules <ref type="bibr" target="#b19">(20)</ref>. Although spectrally distinct, the cyan signal from PA and the green fluorescent signal emitted by connective tissues (e.g. collagen) are visually similar and the prototype K2 device was not optimised to distinguish these signals. Hence, for all analyses, swabs reporting only PA were excluded (n = 15). For swabs reporting multiple bacterial species including PA, other species were kept in the analysis, and PA results were excluded.</p><p>For each diagnostic accuracy measure, marginal regression models were used to estimate 95% confidence intervals (CIs) and to assess differences between AF and CSS <ref type="bibr" target="#b27">(28,</ref><ref type="bibr" target="#b28">29)</ref>. Marginal regression analysis was also used to calculate and compare the DOR and 95% CIs adjusted for repeat visits within a single patient <ref type="bibr" target="#b27">(28)</ref>. All statistical analyses were carried out using R 3.1.2, and P-values &lt;0⋅05 were considered statistically significant. P-values were not adjusted for multiple comparisons.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Autofluorescence imaging more accurately identifies the presence of moderate and/or heavy bacterial load in a wound compared with standard clinical signs and symptoms</head><p>Of the 33 eligible DFUs (n = 29 patients), 17 DFUs were imaged once, while the remaining 16 DFUs were imaged at least two times. Across all 52 study visits, 128 swabs were considered eligible for analysis (CSS = 53 swabs; AF imaging = 75 swabs) (Table <ref type="table" target="#tab_1">2</ref>). Wound debridement was performed at 84⋅6% of visits and participants were on prescribed antibiotics at 7 of the 23 visits (30⋅4%) during which antibiotic use was reported. A total of 65 swabs were taken at the initial visits (CSS = 28, AF imaging = 37). All CSS swabs (n = 53) were acquired from the wound bed by the Levine technique. AF swabs (72/75) were collected primarily from the wound periphery, with three AF swabs collected from the wound bed. Bacterial species detected included S. aureus, MRSA, Staphylococcus epidermidis, E. coli, Diphtheroid bacilli and Enterobacteria cloacae. The prevalence of moderate and/or heavy growth of microbial pathogens at the time of wound assessment in either the wound bed or periphery was 52% of DFUs when considering all visits and 44% when considering the initial visit only (Table <ref type="table" target="#tab_2">3</ref>).  Across all visits, 12% and 8% of DFUs were positive for moderate and/or heavy growth in the wound bed only and periphery only, respectively, and 33% were positive in both the wound bed and periphery (Table <ref type="table" target="#tab_2">3</ref>). The diagnostic accuracy measures (excluding adjusted DOR) presented in Table <ref type="table" target="#tab_3">4</ref> are based on swabs taken at the time of the patients' initial visit, as our analysis suggested a potential swabbing bias under CSS with repeat visits (data not shown). Overall, we found that CSS was poorly predictive of moderate and/or heavy bacterial growth, with a sensitivity of 73%, and specificity of 38%. This was compared with AF image-guided swabbing, which resulted in a sensitivity of 78% and specificity of 78%. The accuracy of AF imaging to correctly identify the bacterial load in the wound (either positive or negative for moderate and/or heavy pathogen growth on culture) was 78% compared with 52% for CSS with Levine swabbing. Both diagnostic specificity (P = 0⋅0043) and accuracy (P = 0⋅048) were significantly increased when using AF image-guided sampling relative to standard of care (CSS + Levine swabbing) based on marginal regression models <ref type="bibr" target="#b27">(28,</ref><ref type="bibr" target="#b28">29)</ref>. Of the 27 wounds examined at the initial visit, swabbing was indicated in 66⋅7% (18/27) based on CSS and 40⋅7% (11/27) based on AF imaging. The increased frequency of indicated swabs was associated with an increased false-positive rate with CSS relative to AF image-guided swabbing. The DOR, which is defined as the ratio of the odds of the test being positive if the subject has a disease relative to the odds of the test being positive if the subject does not have the disease, is a single measure of the effectiveness of a diagnostic test. The adjusted DOR (Table <ref type="table" target="#tab_3">4</ref>) for CSS with Levine swabbing and AF image-guided swabbing were 3⋅07 (95% CI: 0⋅93-10⋅14) and 7⋅67 (95% CI: 2⋅6-22⋅6), respectively. Although not statistically different from each other (P = 0⋅29), the adjusted DOR of AF image-guided swabbing was statistically different from 1 (P = 0⋅00022), indicating it was significantly better than chance at predicting the presence of moderate and/or heavy bacterial growth, whereas CSS with Levine swabbing was not (P =0⋅066).</p><p>Based on our data set, 44% (12/27) of DFUs examined (initial visits only) were positive for moderate and/or heavy bacterial growth in the wound bed (2/27), periphery (1/27) or both (9/27). Therefore, under CSS assessment, 37% (10/27) of DFUs would not have been appropriately swabbed in areas containing clinically significant bacterial growth (periphery). Additionally, considering the sensitivity of CSS in the wound bed to detect bacteria (73%), this would result in 40% (11⋅46/27) of wounds not being swabbed appropriately in the presence of moderate and/or heavy growth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Autofluorescence image-guided wound swabbing maximises bacterial load sampled</head><p>Microbiology culture results from TP tests across all visits (including repeat visits) showed that AF image-guided swabs detected more species per swab compared with the Levine technique, based on CSS. Of the 17 TP swabs (n = 15 DFUs, 17 visits) obtained using the Levine technique, 12 swabs (70%) were positive for only one bacterial species and five swabs (29%) were positive for two different bacterial species. Of the 19 TP swabs (n = 13 DFUs, 16 visits) obtained by AF guided technique, 12 swabs (63%) were positive for one bacterial species, five swabs (26%) were positive for two different bacterial species and two swabs (11%) were positive for three different bacterial species.</p><p>In addition, among the 13 DFUs (16 visits) determined to be positive for moderate and/or heavy bacterial growth using AF image-guided swabbing, four of these wounds (five visits) would not have been swabbed based on conventional CSS assessment alone (Figure <ref type="figure" target="#fig_2">3</ref>, top panel). Moreover, if these four wounds were swabbed using the Levine technique (i.e. sampling the wound bed only), cultures would have yielded negative results three of five times. Of these four wounds missed by CSS assessment, three wounds were positive for moderate and/or heavy growth of S. aureus and one wound was positive for heavy growth of E. coli and moderate growth of mixed bacterial species (Figure <ref type="figure" target="#fig_2">3</ref>, bottom panel).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The need for more standardised and objective methods for identifying wounds that require sampling (using Levine technique, Z-technique or biopsy) at the point-of-care has been well documented in the clinical literature <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b29">(30)</ref><ref type="bibr" target="#b30">(31)</ref><ref type="bibr" target="#b31">(32)</ref><ref type="bibr" target="#b32">(33)</ref><ref type="bibr" target="#b33">(34)</ref>. We report our clinical findings comparing conventional CSS wound assessment including Levine technique sampling with AF image-guided sampling in DFUs. Our results demonstrate that AF imaging of DFUs performed at the bedside using the handheld K2 device (i) detects clinically significant moderate and/or heavy growth of bacteria based on endogenous red fluorescence, (ii) more accurately samples wounds compared with standard of care and (iii) performs well given its statistically significant DOR.</p><p>Accuracy, specificity, PPV and NPV of AF image-guided swabbing for detecting clinically significant bacteria in DFUs were higher than those of CSS, with accuracy and specificity demonstrating statistical significance. The poor performance of CSS with Levine swabbing may be due to the fact that many classical CSS of infection may be subtle or not present in certain wounds, especially in asymptomatic patients <ref type="bibr" target="#b20">(21)</ref>, making it difficult for clinicians to determine if a microbiology swab is required. Furthermore, the presence of bacteria at the periphery of the wound is not assessed by the Levine technique under the standard CSS assessment protocol, which samples the wound bed only. In our study, 27 of 52 study visits found wounds with moderate and/or heavy bacterial growth, 78% (21/27) of which were associated with wounds that had positive swab results in the wound periphery. This suggests that the Levine technique may be inadequate when assessing the overall bacterial load of a DFU. However, combined with conventional CSS wound assessment, AF imaging enables instant visualisation of the location and extent of moderate and/or heavy bacterial loads in a wound (beyond the wound bed), thereby facilitating targeted swabbing pertinent to clinical decision-making. AF imaging also allows for a more objective assessment of wound bioburden, making it more accurate and reproducible between different users at the point-of-care.</p><p>Although accuracy is generally considered independent of the prevalence of the target condition, it does weigh FP and FN findings equally, which in some circumstances may not be desirable, such as in the case of over-/under-treating. Other measures of diagnostic accuracy (i.e. PPV and NPV) can be influenced by disease prevalence, which limits their comparison between different populations. The DOR, which is a single indicator of test performance, is independent of prevalence <ref type="bibr" target="#b26">(27)</ref>. To our knowledge, our study is the first to report and compare the DOR for CSS and AF imaging. The results presented here show that CSS is equally likely to indicate that a Levine swab is required in wounds with or without moderate to heavy growth of bacteria (i.e. the DOR was not significantly different from 1) <ref type="bibr" target="#b26">(27)</ref>. Therefore, as supported by the DOR, standard CSS may not provide diagnostically accurate information about the bacterial load in a wound. However, AF imaging of a wound is approximately seven times more likely to indicate that a swab is required (red AF+) when moderate and/or heavy growth of bacteria is present than it is to indicate that a swab is required in an area of no, occasional or light bacterial load in a wound.</p><p>We further showed that sampling of the wound using AF-guided swabbing maximised the bacterial load, detected and identified pathogens that may have otherwise been missed under CSS alone (S. aureus and E. coli). An accurate and representative sampling of the wound is critical for appropriate antimicrobial treatment decisions, as the sensitivity of different species to antibiotic regimens can vary greatly (1). Thus, our data suggest that AF imaging can improve the microbiological swabbing process of DFUs by providing useful information on the presence of moderate to heavy growth of bacteria in real time. In addition, the location and extent of the wound's bacterial load can be documented for each visit, thereby providing an objective means of tracking changes in bacterial burden while also monitoring changes in the species present (from corresponding laboratory reports) over the course of wound care for a given patient.</p><p>In this study, we directly compared the performance of AF image-guided swabbing with CSS-guided Levine swabbing, as this is the current standard of care in Canada and many countries around the world. However, we do not propose that AF image-guided sampling necessarily replace the expert judgement of wound care clinicians in clinical practice. Rather, we propose that when used in concert with CSS, AF imaging augments the diagnostic information available to the clinician without significantly modifying workflow. This may also provide added confidence for clinicians performing wound sampling by objectively drawing attention to areas of wounds containing clinically significant bacteria that may traditionally be overlooked during conventional diagnosis.</p><p>Interpretation of our results must be considered in the context of certain study limitations. In Canada, and many countries around the world, swabs are favoured over biopsies. Swab collection may be less painful and distressing to the patient, easier to perform and less expensive to process <ref type="bibr" target="#b8">(9)</ref>. Our study employed swab cultures as the sampling method, which has limitations compared with other sampling techniques <ref type="bibr" target="#b32">(33)</ref>. Although the Levine technique is generally accepted as the preferred method of swabbing, there is insufficient evidence to support swabs over biopsies, or vice versa, and this topic remains controversial <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b32">33)</ref>. The imaging technology used in this study detects bacterial red fluorescence signals up to approximately 1⋅5 mm below the wound surface. Swabs specifically sample microbes at the wound surface and in purulent fluids, while biopsies sample the deeper wound compartment (up to 2-4 mm below the surface). We were restricted to collecting samples by swabbing as per standard wound care practice in Canada. As such, in cases where we report a FP by AF image-guided swabbing, clinically relevant bacterial growth may have been detected below the wound surface by the K2 device, but not detected on microbiology analysis of the corresponding tissue surface swab. To address this limitation, future studies will be designed using tissue biopsy as the sample collection method for microbiological validation, when possible. Additionally, while wounds were evaluated based on the CSS checklist, data was not collected on which specific criteria (or combination of criteria) were present and informed the classification of a wound as CSS+. This information would have been useful in order to understand how the CSS checklist was applied. Inconsistent application of the CSS checklist has been previously reported <ref type="bibr" target="#b29">(30,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b33">34)</ref>. In this study, all patients were evaluated by the same expert wound care clinician, therefore eliminating any inter-rater variability (only one rater for all patients) and minimising the intra-rater variability (over 20 years of experience). Nevertheless, future trials, in particular multicentre trials with multiple treating clinicians, will be designed to prospectively collect data on the use of the CSS checklist.</p><p>While the results of this study are compelling, interpretation of the data must also take into consideration the relatively small sample size and the multiple statistical comparisons performed. Indeed, larger multicentre studies will be required to confirm the statistical validity of our results across broader clinical settings and patient populations. For example, we reported statistically significant improvements in specificity (P = 0⋅0043) and accuracy (P = 0⋅048) of AF image-guided swabbing relative to CSS with Levine swabbing; however, given that the unadjusted accuracy comparison was only marginally significant, any conclusions must account for these limitations. Sensitivity, PPV and NPV were not statistically different between sampling methods in this study; however, future larger-scale trials may prove statistically significant changes in these measures as well. Over-fitting can also be a concern when small data sets are analysed. The general rule of thumb for logistic regression is that there must be 10 events for every predictor included in the model. For specificity, PPV and accuracy, there were a sufficient number of swabs and events, therefore over-fitting is not a notable issue. Alternatively for other measures such as sensitivity and NPV, where we do not observe enough 'events', over-fitting could be a potential problem; however, no conclusions were drawn from our data regarding these measures as neither were significant. Overall, the results of this trial underline the potential utility of this approach for improving conventional wound sampling protocols and support further clinical investigation.</p><p>Guidelines dictate that wound samples (swabs or biopsies) be obtained after appropriate wound bed preparation (cleaning, debridement). Our study suggests that despite conventional wound bed preparation prior to sampling, which is intended to avoid obtaining only a culture of surface contamination, many of the study wounds continued to contain moderate and/or heavy levels of bacteria on the wound surface based on AF imaging and culture swabs. This suggests that more appropriate wound bed preparation may be required prior to sampling and that AF imaging could be used to guide this in a practical and reproducible manner.</p><p>In this study, we report a higher accuracy of CSS in identifying the presence of pathogens in DFUs compared with the results of a previous publication from our group assessing standard WL versus AF imaging of 48 chronic wounds in 28 participants (52% versus 36%). However, the accuracy of AF imaging in the present study is lower (75% versus 82⋅4%) <ref type="bibr" target="#b19">(20)</ref>. This difference in diagnostic accuracy between the previous and current studies may be due to a number of factors, including population demographics (age, gender), wound characteristics (only 54% of wounds were DFUs in the previous study versus 100% here), the prevalence of pathogenic bacteria (74⋅5% in the previous study versus 41% here) and sample size (n = 490 swabs analysed in the previous study versus n = 128 here).</p><p>The current study did not determine the accuracy of the Levine technique per se but that of conventional CSS to accurately assess if a Levine technique swab is indicated and to compare the ability of AF imaging to appropriately guide wound sampling with the current 'gold standard' of care (CSS + Levine-based swab). Hence, we cannot directly compare our diagnostic accuracy measures of the Levine technique to other previously reported studies, which compare the Levine technique with sampling methods such as the Z-technique, based on the results of biopsies taken in acute and chronic wounds of varying aetiologies (reviewed in <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b34">35)</ref>). However, a recent review by Rondas et al. <ref type="bibr" target="#b9">(10)</ref> and a study by <ref type="bibr">Gardner et al. (35)</ref> comparing the diagnostic validity of swabbing techniques for identifying wound infections concluded that although the Levine technique is the most reliable and valid method to date, more studies are needed to optimise the accuracy of diagnosing chronic infected wounds and to identify/validate the best sampling technique for taking a swab. Insofar as the current study is concerned, AF image-guided swabbing of locations not routinely swabbed (i.e. the periphery) and the ability to more accurately identify pathogens that may otherwise be invisible to the clinician (especially in patients who are asymptomatic) is clinically pertinent and, when combined with current practice, optimise the assessment and treatment management of these patients. Based on the data presented here, AF image-guided swabbing increases the probability of correctly identifying wounds with moderate and/or heavy bacterial growth, with a reasonably low rate of unnecessary swab collection (AF FPs). This will allow for improved allocation of health care resources by decreasing costs associated with the collection and analysis of unnecessary swabs (FPs) and avoiding the prescription of broad-spectrum antibiotics in uninfected wounds.</p><p>Our findings show that, when used as a part of standard clinical practice, AF imaging is simple and offers a more accurate sampling advantage over the conventional Levine sampling method, which may improve the thoroughness of treatment sampling and the subsequent effectiveness of wound assessment. Future investigation will consider how this technology may be used to detect additional clinically significant bacteria, such as Pseudomonas spp., through optimisation of complementary software analysis programmes, as well as improve treatment outcomes. Previously, we reported clinical findings in which the handheld K2 imaging device guided cleaning and debridement of wounds while easily integrating into standard clinical workflow <ref type="bibr" target="#b19">(20)</ref>. Taken together, AF imaging may provide an objective and multiparametric evidence-based approach to wound care, which may lead to improved wound healing; however, additional large-scale clinical studies will be required to test this.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>These results show that AF imaging of DFUs can better guide microbiological swabbing of the wound by more accurately detecting the presence of moderate to heavy bacterial growth and by maximising the bacterial load sampled compared with standard CSS using the Levine technique. The new K2 device can be integrated with CSS protocols to enable more effective assessment of DFUs, with the goal of optimising treatment outcomes.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 The prototype K2 imaging device used in the study. The front view (left) shows (1) the integrated iPod camera, home button and display screen built into the device housing, (2) the sliding light emitting diodes (LED)-activation mechanism, (3) the heat sink to safely dissipate LED heat, (4) the range finder and ambient light LED indicators. The back view (right) shows (5) the two 405-nm emitting LEDs, (6) the imaging detector and sliding emission filter and labels for device identification and certification.</figDesc><graphic coords="3,54.91,268.82,201.27,162.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2 White light (left) and corresponding autofluorescence (AF) (right) imaging of a study diabetic foot ulcer (DFU) after routine cleaning and debridement. Levine technique swab was taken in the wound bed over a 1 cm 2 area, as per gold standard (area 1). The AF-guided swab was taken from the entire distal red AF+ area (area 2). Other red AF+ areas are visible at the periphery of the wound. Microbiology results from swab 1 showed light growth of methicillin-resistant Staphylococcus aureus (MRSA), while swab 2 revealed moderate growth of MRSA. Scale bar: 2 cm.</figDesc><graphic coords="4,51.88,50.84,232.53,159.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>Figure 3 Clinical signs and symptoms (CSS) alone fail to detect wounds with moderate and/or heavy bacterial growth. Images of the four diabetic foot ulcers identified as negative for CSS of infection (top panel) but accurately identified as positive for moderate to heavy bacterial growth by autofluorescence imaging (bottom panel). White boxes (top panel) indicate area where Levine technique swab was performed. White regions of interest (bottom panel) indicate areas identified as red fluorescent. Scale bar: 0⋅5 cm.</figDesc><graphic coords="7,55.93,50.81,487.86,342.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Definition of true positive (TP), true negative (TN), false positive (FP) and false negative (FN) for the two swabbing techniques used in this study</figDesc><table><row><cell></cell><cell>Levine technique</cell><cell>Autofluorescence (AF)-guided technique</cell></row><row><cell>True positive (TP)</cell><cell>A swab obtained from the wound bed as indicated by clinical</cell><cell>A swab obtained from a red AF positive area as indicated by</cell></row><row><cell></cell><cell>signs and symptoms (CSS), resulting in a microbiology finding</cell><cell>AF imaging, resulting in a microbiology finding of moderate</cell></row><row><cell></cell><cell>of moderate or heavy load of any pathogen</cell><cell>or heavy load of any pathogen</cell></row><row><cell cols="2">False positive (FP) A swab obtained from the wound bed as indicated by CSS,</cell><cell></cell></row><row><cell></cell><cell>resulting in a microbiology finding less than moderate or heavy</cell><cell></cell></row><row><cell></cell><cell>of any pathogen</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Patient characteristics and swabs collected</figDesc><table><row><cell>Characteristics</cell><cell>n (%)</cell></row><row><cell>Patients (total)</cell><cell>29</cell></row><row><cell>Age (years) (mean ± SD)</cell><cell>63 ± 12</cell></row><row><cell>Male (n, %)</cell><cell>27 (93 ⋅ 1)</cell></row><row><cell>Female (n, %)</cell><cell>2 (6 ⋅ 9)</cell></row><row><cell>Caucasian (n, %)</cell><cell>19 (65 ⋅ 5)</cell></row><row><cell>DFUs (total)</cell><cell>33</cell></row><row><cell>Assessments*</cell><cell>52</cell></row><row><cell>Antibiotic use recorded</cell><cell>23 (44 ⋅ 2)</cell></row><row><cell>Using antibiotics</cell><cell>7 (36 ⋅ 8)</cell></row><row><cell>Wound debridement</cell><cell>44 (84 ⋅ 6)</cell></row><row><cell>Swabs (total)*</cell><cell>128</cell></row><row><cell>CSS swabs</cell><cell>53</cell></row><row><cell>AF swabs</cell><cell>75</cell></row><row><cell>First visit swabs*</cell><cell>65</cell></row><row><cell>CSS swabs</cell><cell>28</cell></row><row><cell>AF swabs</cell><cell>37</cell></row><row><cell cols="2">AF, autofluorescence; CSS, clinical signs and symptoms; DFU, diabetic</cell></row><row><cell>foot ulcer; SD, standard deviation.</cell><cell></cell></row></table><note><p>*Not including swabs with Pseudomonas aeuroginosa only.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Prevalence of clinically relevant bacterial load by wound location</figDesc><table><row><cell></cell><cell>All visits (n)</cell><cell>Initial visit (n)</cell></row><row><cell>All swabs</cell><cell>41% (128)</cell><cell>38% (65)</cell></row><row><cell>Wound assessments</cell><cell>52% (52)</cell><cell>44% (27)</cell></row><row><cell>Wound bed</cell><cell>12% (6/52)</cell><cell>7% (2/27)</cell></row><row><cell>Periphery</cell><cell>8% (4/52)</cell><cell>4% (1/27)</cell></row><row><cell>Wound bed + periphery</cell><cell>33% (17/52)</cell><cell>33% (9/27)</cell></row><row><cell>None</cell><cell>48% (25/52)</cell><cell>56% (15/27)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Diagnostic accuracy measures for identifying clinically relevant</figDesc><table><row><cell>bacteria*</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>CSS (n = 27)</cell><cell>AF imaging (n = 27)</cell><cell>P-value †</cell></row><row><cell>TP</cell><cell>8</cell><cell>7</cell><cell></cell></row><row><cell>FN</cell><cell>3</cell><cell>2</cell><cell></cell></row><row><cell>TN</cell><cell>6</cell><cell>14</cell><cell></cell></row><row><cell>FP</cell><cell>10</cell><cell>4</cell><cell></cell></row><row><cell>Sensitivity</cell><cell>0⋅73 (0⋅41, 0⋅91)</cell><cell>0⋅78 (0⋅42, 0⋅94)</cell><cell>0⋅82</cell></row><row><cell>Specificity</cell><cell>0⋅38 (0⋅18, 0⋅62)</cell><cell>0⋅78 (0⋅54, 0⋅91)</cell><cell>0⋅0043</cell></row><row><cell>PPV</cell><cell>0⋅44 (0⋅24, 0⋅67)</cell><cell>0⋅64 (0⋅34, 0⋅86)</cell><cell>0⋅22</cell></row><row><cell>NPV</cell><cell>0⋅67 (0⋅33, 0⋅89)</cell><cell>0⋅88 (0⋅61, 0⋅97)</cell><cell>0⋅2</cell></row><row><cell>Accuracy</cell><cell>0⋅52 (0⋅34, 0⋅7)</cell><cell>0⋅78 (0⋅59, 0⋅9)</cell><cell>0⋅048</cell></row><row><cell>DOR (adj.) ‡</cell><cell>3⋅07 (0⋅93, 10⋅14)</cell><cell>7⋅67 (2⋅6, 22⋅6)</cell><cell>0⋅29</cell></row><row><cell>P-value</cell><cell>0⋅066</cell><cell>0⋅00022</cell><cell></cell></row><row><cell cols="4">*Swabs were obtained at a patient's initial visit (n, total number of swabs)</cell></row><row><cell cols="4">from the wound bed or periphery using CSS or AF imaging, respectively.</cell></row><row><cell cols="4">Diagnostic odds ratio (DOR) calculated for all visits (n = 128 swabs).</cell></row><row><cell cols="4">†Italics indicate P-values that are considered statistically significant.</cell></row><row><cell cols="3">‡Adjusted for repeat visits within a patient.</cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2017 Medicalhelplines.com Inc and John Wiley &amp; Sons Ltd</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,311.52,436.96,229.97,7.13;8,319.50,446.87,221.99,7.13;8,319.50,456.78,55.68,7.13" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Wound microbiology and associated approaches to wound management</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Bowler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Duerden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Microbiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="244" to="269" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.52,466.69,229.97,7.13;8,319.50,476.60,182.87,7.13" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Criteria for identifying wound infection -revisited</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Cutting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="28" to="34" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.52,486.51,229.97,7.13;8,319.50,496.42,153.15,7.13" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Science, medicine and the future: healing chronic wounds</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Patel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">324</biblScope>
+			<biblScope unit="page" from="160" to="163" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.52,506.32,229.97,7.13;8,319.50,516.23,168.28,7.13" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Wound healing: an overview</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Broughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Janis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Attinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Suppl):1e-S-32e-S</note>
+</biblStruct>
+
+<biblStruct coords="8,311.52,526.14,229.97,7.13;8,319.50,536.05,222.00,7.13;8,319.50,545.96,47.71,7.13" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Infection in chronic wounds: controversies in diagnosis and treatment</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Browne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Sibbald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="23" to="27" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.53,555.87,229.97,7.13;8,319.50,565.78,114.34,7.13" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Wound pathophysiology, infection and therapeutic options</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Bowler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="419" to="427" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.53,575.69,229.96,7.13;8,319.50,585.60,221.98,7.13;8,319.50,595.51,66.10,7.13" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Molecular microbiology: new dimensions for cutaneous biology and wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Zenilman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Lazarus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="38" to="48" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.53,605.42,229.95,7.13;8,319.50,615.33,221.97,7.13;8,319.50,625.24,141.50,7.13" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Bacterial load predicts healing rate in neuropathic diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Mclennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Natfaji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Twigg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Yue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="378" to="380" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.53,635.14,229.98,7.13;8,319.50,645.05,65.35,7.13" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Identifying infection in chronic wounds</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Fleck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="20" to="21" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,654.96,230.29,7.13;8,319.50,664.87,222.01,7.13;8,319.50,674.78,69.33,7.13" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Swab versus biopsy for the diagnosis of chronic infected wounds</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Rondas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Halfens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Stobberingh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="211" to="219" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,684.69,230.30,7.13;8,319.50,694.60,222.01,7.13;8,319.50,704.51,222.00,7.13;8,319.50,714.42,47.71,7.13" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">High bacterial load in asymptomatic diabetic patients with neurotrophic ulcers retards wound healing after application of Dermagraft</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Browne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vearncombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Sibbald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="44" to="49" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,50.84,230.28,7.13;9,68.76,60.80,221.97,7.13;9,68.76,70.77,164.74,7.13" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Increased matrix metalloproteinase-9 predicts poor wound healing in diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nube</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Twigg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Mclennan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="117" to="119" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,80.73,230.29,7.13;9,68.76,90.69,80.91,7.13" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Bacteria and wound healing</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="91" to="96" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,100.66,230.30,7.13;9,68.76,110.62,221.99,7.13;9,68.76,120.58,221.99,7.13;9,68.76,130.54,51.70,7.13" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The clinical efficacy of two semi-quantitative wound-swabbing techniques in identifying the causative organism(s) in infected cutaneous wounds</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Angel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Carville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Santamaria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="176" to="185" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,140.51,217.58,7.13" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Biology of wound healing</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Aukhil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Periodontol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="44" to="50" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,150.47,230.29,7.13;9,68.76,160.42,59.66,7.13" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Cell biology of wound healing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Schaffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Nanney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Rev Cytol</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="151" to="181" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,170.38,230.30,7.13;9,68.76,180.35,221.99,7.13;9,68.76,190.31,51.70,7.13" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">How precise is the evaluation of chronic wounds by health care professionals?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stremitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoelzenbein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="156" to="161" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,200.27,230.29,7.13;9,68.76,210.24,195.89,7.13" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The microbiology laboratory&apos;s role in life-threatening infections</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Papasian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Kragel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crit Care Nurs Q</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="44" to="59" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,220.20,230.31,7.13;9,68.76,230.16,222.01,7.13;9,68.76,240.12,125.94,7.13" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Wound samples: moving towards a standardised method of collection and analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ramsay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nanney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schultz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="880" to="891" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,250.09,230.27,7.13;9,68.76,260.05,222.00,7.13;9,68.76,270.01,222.00,7.13;9,68.76,279.97,222.00,7.13;9,68.76,289.94,197.64,7.13" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Point-of-care autofluorescence imaging for real-time sampling and treatment guidance of bioburden in chronic wounds: first-in-human results</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Dacosta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kulbatski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lindvere-Teene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Starr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blackmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Opoku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Medeiros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Linden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">116623</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,299.90,230.29,7.13;9,68.76,309.86,222.00,7.13;9,68.76,319.83,221.98,7.13;9,68.76,329.79,222.00,7.13;9,68.76,339.75,85.43,7.13" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Handheld fluorescence imaging device detects subclinical wound infection in an asymptomatic patient with chronic diabetic foot ulcer: a case report</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lindvere-Teene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Starr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tapang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shekhman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Linden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Dacosta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="449" to="453" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,349.71,230.27,7.13;9,68.76,359.68,222.00,7.13" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Quantitative optical spectroscopy for tissue diagnosis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Richards-Kortum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sevick-Muraca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Phys Chem</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="555" to="606" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,369.64,230.28,7.13;9,68.76,379.60,222.00,7.13;9,68.76,389.56,114.01,7.13" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Molecular fluorescence excitation-emission matrices relevant to tissue spectroscopy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Dacosta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photochem Photobiol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="384" to="392" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,50.83,230.30,7.13;9,323.63,60.79,153.74,7.13" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Porphyrin photosensitization of bacteria</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kjeldstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Johnsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Exp Med Biol</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="155" to="159" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,70.76,230.29,7.13;9,323.63,80.72,221.99,7.13;9,323.63,90.68,51.70,7.13" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Comparison of porphyrin and heme biosynthesis in various heterotrophic bacteria</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Philipp-Dormston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Doss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="57" to="64" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,100.64,230.28,7.13;9,323.63,110.61,222.00,7.13;9,323.63,120.57,221.99,7.13;9,323.63,130.53,99.50,7.13" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A tool to assess clinical signs and symptoms of localized infection in chronic wounds: development and reliability</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Troia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eastman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Buresh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Healy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="40" to="47" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,140.50,230.30,7.13;9,323.63,150.46,221.99,7.13;9,323.63,160.41,59.68,7.13" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The diagnostic odds ratio: a single indicator of test performance</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Glas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Lijmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Prins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Bonsel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bossuyt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="1129" to="1135" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,170.37,230.30,7.13;9,323.63,180.34,221.98,7.13;9,323.63,190.30,55.68,7.13" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Comparisons of predictive values of binary medical diagnostic tests for paired designs</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Leisenring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alonzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Pepe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="345" to="351" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,200.28,230.32,7.13;9,323.63,210.24,222.00,7.13;9,323.63,220.20,59.68,7.13" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A marginal regression modelling framework for evaluating medical diagnostic tests</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Leisenring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Pepe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Longton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stat Med</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1263" to="1281" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,230.17,230.29,7.13;9,323.63,240.13,70.70,7.13" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">When and how to culture a chronic wound</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Care Advisor</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="23" to="25" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,250.09,230.29,7.13;9,323.63,260.05,221.99,7.13;9,323.63,270.02,222.01,7.13;9,323.63,279.98,59.68,7.13" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Lack of reliability of clinical/visual assessment of chronic wound infection: the incidence of biopsy-proven infection in venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Serena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Robson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ignatius</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="197" to="202" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,289.94,230.32,7.13;9,323.63,299.90,221.99,7.13;9,323.63,309.87,143.87,7.13" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The lack of reliability of clinical examination in the diagnosis of wound infection: preliminary communication</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Serena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Hanft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Snyder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="32" to="35" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,319.83,230.28,7.13;9,323.63,329.79,205.07,7.13" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Does this patient have an infection of a chronic wound</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Kalkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Rochon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="page" from="605" to="611" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,339.76,230.30,7.13;9,323.63,349.72,201.33,7.13" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Audit of wound swab sampling: why protocols could improve practice</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kingsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Winfield-Davies</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prof Nurse</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="338" to="343" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,359.68,230.29,7.13;9,323.63,369.64,222.01,7.13;9,323.63,379.61,180.65,7.13" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Diagnostic validity of three swab techniques for identifying chronic wound infection</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Saltzman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scherubel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="548" to="557" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

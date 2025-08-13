@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Telemedicine in Wound Care: A Review</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Caroline</forename><surname>Chanussot-Deprez</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Jose</forename><surname>´contreras-Ruiz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Www</forename><forename type="middle">Woundcarejournal</forename><surname>Com</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">is Dermatologist</orgName>
+								<orgName type="department" key="dep2">Dermatology Department</orgName>
+								<orgName type="institution">Hospital General de Pemex de Veracruz</orgName>
+								<address>
+									<settlement>Veracruz</settlement>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Interdisciplinary Clinic of Wound and Ostomy Care</orgName>
+								<orgName type="institution" key="instit2">Hospital General &apos;&apos;Dr Manuel Gea Gonzalez</orgName>
+								<address>
+									<settlement>Tlalpan</settlement>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Telemedicine in Wound Care: A Review</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7D2A4ECF4EE39D0E1ECDF0C35EDB6DD0</idno>
+					<note type="submission">Submitted July 13, 2011; accepted in revised form October 10, 2012.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>telemedicine</term>
+					<term>teleconsultation</term>
+					<term>teledermatology</term>
+					<term>wound care</term>
+					<term>leg ulcer</term>
+					<term>pressure ulcer</term>
+					<term>forefoot ulceration</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Telemedicine (TM) is a new, rapidly evolving area and can be of great value in the provision of healthcare to remote and rural populations. Wound healing and wound management are prime candidates for TM. The treatment of skin ulcers requires frequent assessments of local wound status and adjustment of therapy. The availability of reasonably priced photographic equipment and quick electronic transfer of high-quality digital images should make the assessment of wound status by remote experts possible. Several studies showing the feasibility and the usefulness of teleconsultations in dermatology have already been described in the literature, and high accordance for diagnosis and treatment between face-to-face visits and teleconsultations has been reported. Some used digital photographs and sent the image and clinical data via the Internet to a wound care specialist (store and forward), whereas others used a webcam (televideoconferencing). TeleYwound care offers great potential for the future in chronic wound care. By reducing the need to travel long distances to the hospital or to consult with a physician, TM decreases the costs and improves the quality of life for patients with chronic wounds, while still maintaining high standards of wound care. The intent of TM is to reduce, in a clinically equivalent way, the number of visits to a specialized clinic, but not necessarily to eliminate all visits. Further well-designed research is necessary to understand how best to deploy TM services in healthcare.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="558.0" lry="756.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="558.0" lry="756.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="558.0" lry="756.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="558.0" lry="756.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="558.0" lry="756.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Telemedicine (TM) is defined by the World Health Organization as the practice of healthcare using interactive audio, visual, and/or data communications. This includes healthcare delivery, diagnosis, consultation, and treatment as well as education and transfer of medical data. <ref type="bibr" target="#b0">1</ref> Telemedicine is a new, rapidly evolving area that can be of great value in the provision of healthcare to remote and rural populations, facilitating the delivery of a wide range of medical specialties, such as radiology, dermatology, and neurology. <ref type="bibr" target="#b1">2</ref> Telemedicine can be used in many medical specialties, especially those with a strong visual component. Thus, wound healing and wound management are prime candidates for TM. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> Today's technology, specifically the Internet, allows information to be acquired and transmitted across vast distances, enabling the concept of TM to become a reality.</p><p>The treatment of skin ulcers requires frequent assessments of local wound status and adjustment of therapy. <ref type="bibr" target="#b4">5</ref> Chronic wound care and patient transportation represent important cost factors for healthcare systems. The availability of reasonably priced photographic equipment and quick electronic transfer of high-quality digital images should make the assessment of wound status by remote experts possible. <ref type="bibr" target="#b3">4</ref> This type of care is particularly valuable for developing countries because it provides an opportunity for cheaper networking in difficult-to-treat cases and where wound care specialists are scarce. <ref type="bibr" target="#b5">6</ref> The authors reviewed the TM wound care literature to determine what is known about its safety and efficacy in wound care and highlight implications for future practice and research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>A literature search was conducted on PubMed for articles on the role of TM in wound care. Using the keywords ''telemedicine in wound care,'' the search yielded 27 articles published from 2000 to 2011.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Several studies showing the feasibility and usefulness of teleconsultations in dermatology have already been described in the literature. Favorable comparisons of diagnosis and treatment between face-to-face visits and teleconsultations have been reported, and it is noted that TM is helpful in chronic wound scenarios, not in emergency cases. <ref type="bibr" target="#b6">7</ref> Typically, TM is used for 3 reasons: (1) to make a diagnosis, (2) to treat a wound, or (3) to assist a wound care nurse in wound care treatment strategies, such as dressing recommendations. The majority of the articles evaluate the treatment and the therapeutic supervision of the skin ulcer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TELEMEDICINE AND DIAGNOSIS</head><p>A recent study <ref type="bibr" target="#b7">8</ref> determined the factors that influence the use of TM consultation by primary care providers (PCPs) in the management of patients with chronic wounds. To treat the difficult-toheal wound, it is important to have an effective communication support system among the PCP, the patient, and the wound care surgical specialist (WCSS).</p><p>A short questionnaire was administered to 36 PCPs who referred to a Wound Care Program within 1 year. Sixty percent of respondents felt comfortable with TM consultation based on recommendations alone. The total number of patients referred for TM consult was 230, and face-to-face consultation with a WCSS was provided for 30% of patients. The perception of shared decision making, streamlining patient care, and an opportunity for follow-up were all highly ranked benefits. Most PCPs (93%) agreed that TM wound care consult is a useful tool in their practice and would continue to use the TM consult service. <ref type="bibr" target="#b7">8</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TELEMEDICINE AND TREATMENT</head><p>One study's objective was to determine if the management of forefoot ulcerations through realYtime, interactive TM consultations is medically equivalent to ulcer care at a face to-face diabetes foot program. <ref type="bibr" target="#b8">9</ref> Twenty consecutive patients with diabetes were treated for neuropathic forefoot ulcerations via TM consultation, and 120 consecutive patients with diabetes were treated face-to face at a diabetes foot program.</p><p>The results showed no differences between the TM and diabetes foot program groups in the average forefoot ulcer healing time (P = .828), the percentage of forefoot ulcers healed in 12 weeks (P = .546), and the adjusted healing time ratio (P = .104). <ref type="bibr" target="#b8">9</ref> Bowling et al 10 also investigated the reliability of a novel optical image system using a 3-dimensional camera and disposable optical marker in diabetic foot ulcers. To assess the system's ability to identify key clinically relevant features, the authors had 2 clinicians evaluate 20 different wounds at 2 centers, recording observations on a standardized form. Three other clinicians recorded their observations using only the corresponding 3-dimensional images. Using the in-person assessment as the criterion standard, the authors assessed concordance of the remote with in-person assessments. Overall agreement for remote assessment versus inperson agreements was good. Finally, this pilot study showed that a clinician viewing only the 3-dimensional images could accurately measure and assess a diabetic foot wound remotely. <ref type="bibr" target="#b9">10</ref> Other studies examined the feasibility and acceptance of teledermatology for wound management of patients with chronic leg ulcers. In 2 studies, the investigators evaluated the accordance between direct consultations and electronic consultations (photograph with a digital camera) in the assessment of chronic leg ulcers. They found that, for important features such as slough, necrosis, and granulation tissue formation, the concordance was 84.6%, 98.2%, and 76.4%, respectively. <ref type="bibr" target="#b4">5</ref> Another study transmitted digital images of the wound and surrounding skin and clinical information via a secure website to an expert at the wound care center. <ref type="bibr" target="#b10">11</ref> In 89% of the 492 teleconsultations, the quality of the images was sufficient or excellent, and the experts were confident giving therapeutic recommendations. <ref type="bibr" target="#b10">11</ref> A 9-month pilot study demonstrated that a multidisciplinary wound care team using a store and forward approach can feasibly provide TM consultations for patients in remote locations. <ref type="bibr" target="#b11">12</ref> During the study, 76% of wounds treated decreased in size, and exit surveys indicated that 98.2% of patients were satisfied with their care. <ref type="bibr" target="#b11">12</ref> Also, studies were conducted on the use of TM in chronic wounds in general. The TM consult was found to be a useful aid in increasing the satisfaction rate from care decisions ultimately made during the direct consult. The decisional conflict as a state of uncertainty about the course of action to take was reduced in patients subjected to the TM decision aid. <ref type="bibr" target="#b12">13</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TELEMEDICINE AND NURSE ASSISTANCE</head><p>Binder et al <ref type="bibr" target="#b13">14</ref> studied the feasibility and acceptance of teledermatology for wound management of patients with leg ulcers by home care nurses. Of the 707 images transmitted for teleconsultation, in 644 (89%) the quality of the images was excellent; of the 45 ulcers, 32 (71%) decreased in size, and 14 of these 32 ulcers healed completely. Despite the TM monitoring, 10 of the 45 ulcers (22%) increased slightly in size. In 3 ulcers (7%), no measurement was possible because of the overly large size of the ulcers. A reduction of 46% in transportation costs for the insurance companies was made. <ref type="bibr" target="#b13">14</ref> A different, interesting study used video teleconferencing equipment and advanced camera technology that enabled the wound care nurse specialist to evaluate wounds from a remote location. Eighty-three percent of the staff strongly agreed that using video teleconferencing for wound care consultations improved the productivity and efficiency of the professionals, and 94% of the study staff indicated they were comfortable using this equipment. <ref type="bibr" target="#b14">15</ref> Telemedicine has also been evaluated in pressure ulcers and nonhealing surgical wounds. A study by Terry et al <ref type="bibr" target="#b15">16</ref> evaluated the effectiveness of TM with digital cameras in treating wounds in a home care setting. Subjects were randomly assigned to 1 of 3 groups: group A, weekly visits with TM and a wound care specialist; group B, weekly consults with a wound care specialist; and group C, standard care. The results showed that 90% of the wounds improved or healed. The average time to heal was longer for group A wounds than for those in groups B and C (P = .008). The change in wound size for pressure ulcers was significant for group A (P = .39). Indeed, the changes in group A wound sizes were statistically significant for both types of wounds when compared with the changes in wound sizes found in groups B and C (P = .52). The results showed that wounds in the TM group (group A) in general did not do as well as those in the 2 comparison groups. The primary reason for these findings was unrelated to the intervention of TM but rather to the disproportionate distribution, by chance, in group A, of large nonhealing surgical wounds and large, numerous pressure ulcers. This is an interesting study; however, the methodology is poor so the conclusions are very difficult to interpret. The TM wound specialist had the worst results. The author stated the reason for the results was that the wounds were larger in the first group. An alternative explanation could be that appropriate care was not provided in the field, despite an accurate treatment program or that needed procedures were delayed in implementation.</p><p>Two important benchmarks were established for home care. <ref type="bibr" target="#b15">16</ref> First, it took 51 days on average to heal or improve pressure ulcers and 34 days to heal or improve surgical wounds. Second, nearly 90% of wounds improved or healed. <ref type="bibr" target="#b15">16</ref> Recently, a TM program was implanted, based on technology manufactured by Visicu Inc (Baltimore, Maryland) used by intensive care and step-down unit patients. Wound consultation was performed with a certified wound and ostomy care (WOC) nurse in the remote facility and another certified WOC nurse at the patient's bedside to establish method reliability. Following this assessment of feasibility, the authors initiated a formal program for remote wound care consultations in March 2009. Fifty remote wound consults have been completed, resulting in an estimated savings of $5000. This program uses a unique, real-time technology for remote wound care consultations. The potential cost savings related to a decrease in complications of wounds and the positive effects on patient progression and length of stay have not yet been measured. However, these results suggest that remote consultations using real-time TM reduce the delay between the request for consultations and their completion, diminish transportation and nonproductive staff time costs, and are comparable to traditional face-to-face consultations. <ref type="bibr" target="#b16">17</ref> Another important aspect to consider is that chronic wound care is both prevalent and costly in home care, and factors contributing to cost include inconsistency of the wound assessment and documentation and little usage of advanced wound products. The authors examined the utilization of TM in situations where wound specialists consulted with the home health nurse in the patient's home regarding care of chronic wounds. During the 2-way video visit, the wound specialist assessed the patient and the wounds and made recommendations for treatment. Results revealed improved healing rates, decreased healing time, a decreased number of home health visits, and a decreased number of hospitalizations related to wound complications. <ref type="bibr" target="#b17">18</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TELEMEDICINE TECHNIQUES</head><p>In the studies about the use of TM that the authors reviewed, some transmitted digital photographs and clinical data via the Internet to a wound care specialist (store and forward). Others used a webcam for televideoconferencing (TVC). The store and forward method is well accepted by wound care specialists, nurses, and patients. In Australia, in order to test the methodology of a telehealth solution to the chronic wound care problems in the Midwest, a project called ''Wound Witch'' was developed (to record wound history and treatment, store digital images of the wound, and refer for expert review and consultation). <ref type="bibr" target="#b18">19</ref> Wound Witch was implemented in 12 sites. Only 45% of the 18 staff trained in using the software at the beginning of the trial were still working at participating sites at the end of the trial. This was explained by prolonged periods of understaffing that resulted in a workforce crisis in at least 1 remote clinic. Staff shortages also negatively impacted on some clinicians' willingness to invest time in gaining confidence in using the system. <ref type="bibr" target="#b18">19</ref> Two telehealth modalities were investigated in patients with spinal cord injuries and a pressure ulcer, telephone-only contact and videoconferencing. The agreement on the presence of a pressure ulcer and the diagnosis of the stage of the ulcer were excellent for both telephone and videoconferencing approaches. Telephone contact can be a useful tool for identifying the presence of a pressure ulcer, but videoconferencing is required to obtain an evaluation reasonably close to that of a home visit. <ref type="bibr" target="#b19">20</ref> Televideoconferencing for wound care evaluation and treatment is also well accepted between the WOC nurses; 83% of the staff strongly agreed that using TVC improved the productivity and efficiency of the professionals in the study of Litzinger et al. <ref type="bibr" target="#b14">15</ref> In this case, TM consultations were scheduled at a regular time each week, which can be inconvenient for some wound care specialists.</p><p>An important factor in TM is that the real-time TM consultations enhanced the nurse specialists' ability to see patients he/she may not have seen in a remote setting and to learn to treat more patients. In addition, current real-time video equipment for TM is typically inexpensive relative to the salaries of specialized staff. <ref type="bibr" target="#b8">9</ref> Studies have evaluated the value of wound care experts providing tele-advice to community nurses to enhance their knowledge of leg ulcer care. Results suggest that tele-advice can be of great benefit to community nurses. This may have significant implications for more efficient use of human resources and costeffectiveness in wound care. <ref type="bibr" target="#b20">21</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Telemedicine is a useful tool for wound care management. Despite the current enthusiasm among many providers and healthcare organizations for TM, controlled clinical trials are still needed to demonstrate the effectiveness and value of this approach. Telemedicine can be incorporated as part of medical quality management as a way to obtain a specialist diagnosis from a PCP, as a way to provide supervision of nurses for ongoing care, or as a way to get dressing recommendations.</p><p>One interesting study <ref type="bibr" target="#b21">22</ref> reviewed evidence on the prevention and treatment of pressure ulcers in patients with spinal cord injuries. Important aspects of chronic wound care is prevention or rehabilitation, yet despite the cost-effectiveness of prevention, little research exists on preventive interventions. More research is needed for both prevention and treatment, but especially for prevention. <ref type="bibr" target="#b21">22</ref> Telerehabilitation has the potential to deliver medical rehabilitation, nutritional and psychosocial elements of healthcare at a distance, thereby facilitating continuity of care. Pressure ulcer management is one area in which telerehabilitation currently is being used.</p><p>Telemedicine has also been used in patients with minor injuries. In a study by Benger et al, <ref type="bibr" target="#b22">23</ref> the objective was to determine the safety of minor injury TM compared with on-site specialist care. The study concluded that minor injury TM is safe and clinically effective, but there is no evidence that TM provides superior care. In fact, a number of process issues may impede successful implementation of this new technique (mean duration of a TM consultation, for example). <ref type="bibr" target="#b22">23</ref> A key advantage of TM is to reduce costs for the patient and the healthcare system, reducing transportation and staff time costs. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b23">24</ref> Another study that evaluates the use of remote video technology in the home healthcare setting shows the total mean costs of care, excluding home health costs, were $1948 in the intervention group (routine home healthcare, home visits and telephone contact, and access to a remote video system that allowed nurses and patients to interact in real time) and $2674 in the control group (routine home healthcare, home visits, and telephone contact).</p><p>In conclusion, remote technology has the potential to generate cost savings when used to substitute some in-person visits. <ref type="bibr" target="#b24">25</ref> However, most studies lacked information on perspective and costing method, few used general statistics and sensitivity analysis to assess validity, and even fewer used marginal analysis. <ref type="bibr" target="#b25">26</ref> Telemedicine aims to improve interdisciplinary collaboration, through facilitating interaction not only between health professionals, but also with others involved in the provision of care, such as administrative staff and local reimbursement authorities. <ref type="bibr" target="#b25">26</ref> In the United States, store and forward methods are not reimbursable, even though they are the most practical. <ref type="bibr" target="#b26">27</ref> An important factor that needs to be determined is ''who'' is responsible in cases of incorrect diagnosis and treatment. It is important to establish clearly these parameters because the physician is typically responsible for the patient's treatment. This aspect has not been addressed in TM because it is new and has been used in experimental protocols.</p><p>The law is different in each country. For example, in the United States, a physician cannot provide TM for a patient outside the state in which he/she is licensed to practice. <ref type="bibr" target="#b27">28</ref> This seems to defeat much of the practical advantages of TM.</p><p>Another factor not evaluated in the studies that the authors reviewed was that TM was not studied for accuracy but rather for the treatment administered. There is no discussion about inadequate resources at the trial site, even in the presence of an accurate treatment plan by the specialistVespecially in procedural intervention or product availability in the rural setting.</p><p>More studies are needed to determine the criteria in which TM is used, including billing policies and scope of practice laws regarding its use in various countries and scenarios. In addition, the overall legal implications of TM need to be carefully considered if it is to be safely integrated into daily clinical practice. <ref type="bibr" target="#b28">29</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>The authors believe that telewound care offers great potential for the future of chronic wound care. By reducing the need to travel long distances to the hospital or to consult a physician, TM decreases the costs and improves the quality of life for patients with chronic wounds, while still maintaining a high standard of wound care. <ref type="bibr" target="#b5">6</ref> The intent of TM is to reduce the number of visits to a specialized foot clinic, but not necessarily to eliminate all visits. <ref type="bibr" target="#b6">7</ref> Most PCPs (93%) agree that TM wound care consults are a useful tool in their practice and would continue to use the TM consult service. <ref type="bibr" target="#b25">26</ref> Significant gaps exist in the evidence base between where TM is used and where its use is supported by high-quality evidence. Further well-designed research is necessary to understand how best to deploy TM services in healthcare practices. <ref type="bibr" target="#b29">30</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CALL FOR PAPERS</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Advances in Skin &amp; Wound Care is soliciting manuscripts on a variety of topics, including original investigations, clinical reviews, and innovative treatments. Consult the journal's Web site, www.woundcarejournal.com, for the Author Guidelines.</figDesc><table><row><cell>Advances in</cell></row><row><cell>SKIN&amp; WOUND CARE</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="4,291.41,621.43,234.08,6.26;4,297.41,630.39,228.12,6.26;4,297.41,639.41,227.02,6.26" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">A health telematics policy in support of WHO&apos;s Health-For-All Strategy for global health development: report of the WHO group consultation of the health telematics</title>
+		<imprint>
+			<date type="published" when="1997">December 11-16, 1997. 1998</date>
+			<publisher>World Health Organization</publisher>
+			<pubPlace>Geneva, Switzerland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,291.41,648.87,234.10,6.26;4,297.41,657.83,183.08,6.26" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Challenges faced in implementation of a telehealth enabled chronic wound care system</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Carville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ellis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rural Remote Health</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1154</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,291.41,667.30,234.11,6.26;4,297.41,676.26,40.94,6.26" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Telemedicine in wound healing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Banwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Shakespeare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="225" to="230" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,291.41,685.72,234.14,6.26;4,297.41,694.68,176.23,6.26" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Health staff priorities for the future development of telehealth in western Australia</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bahaadini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yogesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wootton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rural Remote Health</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1164</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.50,127.53,235.05,6.26;5,44.50,136.54,143.74,6.26" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Wound teleconsultation in patients with chronic leg ulcers</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Salmhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hofmann-Wellenhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gabler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatology</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="211" to="217" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.50,145.50,235.11,6.26;5,44.50,154.46,22.50,6.26" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Telemedicine in wound care</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chanussot-Deprez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Contreras-Ruiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="651" to="654" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.50,163.41,235.07,6.26;5,44.50,172.37,111.70,6.26" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A cost-consequences analysis of minor injuries telemedicine</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Noble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Benger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Telemed Telecare</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="15" to="19" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.50,181.33,235.06,6.26;5,44.50,190.34,229.12,6.26;5,44.50,199.30,64.66,6.26" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Do telemedicine wound care specialist consults meet the needs of the referring physician? A survey of primary care providers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Dobke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bhavsar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Herrera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Telemed Appl</title>
+		<imprint>
+			<biblScope unit="volume">2011</biblScope>
+			<biblScope unit="page" from="321" to="376" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.50,208.26,235.03,6.26;5,44.50,217.21,211.32,6.26" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The use of telemedicine in the management of diabetesrelated foot ulceration: a pilot study</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wilbright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Birke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Patout</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin and Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="232" to="238" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.05,226.17,235.53,6.26;5,44.39,235.13,191.81,6.26" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Remote assessment of diabetic foot ulcers using a novel wound imaging system</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Paterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="30" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.05,244.14,235.54,6.26;5,44.39,253.10,229.19,6.26;5,44.39,262.06,110.24,6.26" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Feasibility and acceptance of telemedicine for wound care in patients with chronic leg ulcers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hofmann-Wellenhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Salmhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Binder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Okcu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kerl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Soyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Telemed Telecare</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">Suppl 1</biblScope>
+			<biblScope unit="page" from="15" to="17" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.05,271.02,235.54,6.26;5,44.39,279.97,88.86,6.26" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Feasibility of virtual wound care: a pilot study</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lowery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goldfarb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="275" to="276" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.05,288.93,235.55,6.26;5,44.39,297.89,219.94,6.26" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Pilot trial of telemedicine as a decision aid for patients with chronic wounds</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Dobke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bhavsar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gosman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>De Neve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Neve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Telemed J E Health</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="245" to="249" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.05,306.90,235.53,6.26;5,44.39,315.86,229.29,6.26;5,44.39,324.82,20.32,6.26" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Teledermatological monitoring of leg ulcers in cooperation with home care nurses</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Binder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hofmann-Wellenhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Salmhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ocku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kerl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Soyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="1581" to="1582" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.05,333.77,235.57,6.26;5,44.39,342.73,160.01,6.26" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">In-home wound care management utilizing information technology</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Litzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Demuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Home Healthc Nurse</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="119" to="130" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.05,351.69,235.57,6.26;5,44.39,360.70,135.07,6.26" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Feasibility of home care wound management using telemedicine</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="358" to="364" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,38.05,369.66,235.55,6.26;5,44.39,378.62,229.22,6.26;5,44.39,387.58,25.84,6.26" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Telemedicine in a rural community hospital for remote wound care consultations</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clegg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Engels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Simonds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Ostomy Continence Nurs</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="301" to="304" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,127.53,235.52,6.26;5,297.41,136.54,167.82,6.26" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The impact of telemedicine on outcomes of chronic wounds in the home care setting</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kobza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Scheurich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="48" to="53" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,145.50,235.48,6.26;5,297.41,154.46,187.48,6.26" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Challenges faced in implementation of a telehealth enabled chronic wound care system</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Crville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ellis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rural Remote Health</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,163.41,235.50,6.26;5,297.41,172.37,229.35,6.26;5,297.41,181.33,31.71,6.26" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Validation of home telehealth for pressure ulcer assessment: a study in patients with spinal cord injury</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Cronkite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Ota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Kiratli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Telemed Telecare</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="196" to="202" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,190.34,235.50,6.26;5,297.41,199.30,136.89,6.26" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Impact of tele-advice on community nurses&apos; knowledge of venous leg ulcer care</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ameen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Coll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Peters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Adv Nurs</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="583" to="594" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,208.26,235.59,6.26;5,297.41,217.21,229.31,6.26;5,297.41,226.17,203.95,6.26" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A systematic review of therapeutic interventions for pressure ulcers after spinal cord injury</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Regan</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Spinal Cord Injury Rehabilitation Evidence Research Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Teasell</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Spinal Cord Injury Rehabilitation Evidence Research Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Wolfe</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Spinal Cord Injury Rehabilitation Evidence Research Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Keast</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Spinal Cord Injury Rehabilitation Evidence Research Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Mortenson</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Spinal Cord Injury Rehabilitation Evidence Research Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Aubut</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Spinal Cord Injury Rehabilitation Evidence Research Team</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="213" to="231" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,235.13,235.61,6.26;5,297.41,244.14,114.26,6.26" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The safety and effectiveness of minor injuries telemedicine</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Benger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Noble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Kendall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Emerg Med J</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="438" to="445" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,253.10,235.55,6.26;5,297.41,262.06,229.22,6.26;5,297.41,271.01,25.93,6.26" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Telemedicine in a rural community hospital for remote wound care consultations</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clegg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Engels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Simonds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Ostomy Continence Nurs</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="301" to="304" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,279.97,235.47,6.26;5,297.41,288.93,68.84,6.26" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Economic evaluation in telemedicine-still room for improvement</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Bergmo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Telemed Telecare</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="229" to="231" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,297.89,235.54,6.26;5,297.41,306.90,58.58,6.26" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Telemedicine in the management of patients with chronic wounds</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jelnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="187" to="190" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,315.86,235.51,6.26;5,297.41,324.82,122.13,6.26" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Private payer reimbursement for telemedicine services in the United States</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Whitten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Buis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Telemed J E Health</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="15" to="23" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,333.77,235.52,6.26;5,297.41,342.73,102.19,6.26" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Telemedicine: medical, legal and ethical perspectives</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Capuzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Monit</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="A261" to="A272" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,351.69,235.49,6.26;5,297.41,360.70,208.85,6.26" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Telemedicine and plastic surgery: a review of its applications, limitations and legal pitfalls</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gardiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Hartzell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Plast Reconstr Aesthet Surg</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="47" to="53" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,291.13,369.66,235.44,6.26;5,297.41,378.62,229.23,6.26;5,297.41,387.58,85.69,6.26" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Diagnosis, access and outcomes: update of a systematic review of telemedicine services</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Hersh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Hickman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Severance</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Dana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pyle</forename><surname>Krages</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Helfand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Telemed Telecare</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">Suppl 2</biblScope>
+			<biblScope unit="page" from="3" to="31" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

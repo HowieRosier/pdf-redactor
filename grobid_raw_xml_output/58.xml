@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effect of a telemedicine intervention for diabetes-related foot ulcers on health, wellbeing and quality of life: secondary outcomes from a cluster randomized controlled trial (DiaFOTo)</title>
+				<funder>
+					<orgName type="full">Norwegian Directorate of Health and Innovation Norway</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Western Norway University of Applied Sciences</orgName>
+				</funder>
+				<funder ref="#_XaNxXfQ #_eTE29u7">
+					<orgName type="full">Western Norway Regional Health Authority</orgName>
+				</funder>
+				<funder ref="#_nSXaq3a">
+					<orgName type="full">Norwegian Research Council</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Norwegian Diabetes Association</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Marjolein</forename><forename type="middle">M</forename><surname>Iversen</surname></persName>
+							<idno type="ORCID">0000-0001-9954-171X</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Health and Social Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Health and Caring Sciences</orgName>
+								<orgName type="institution">Western Norway University of Applied Sciences</orgName>
+								<address>
+									<postCode>N-5020</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Section of Endocrinology</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Faculty of Health and Social Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Health and Caring Sciences</orgName>
+								<orgName type="institution">Western Norway University of Applied Sciences</orgName>
+								<address>
+									<postCode>N-5020</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Section of Endocrinology</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jannicke</forename><surname>Igland</surname></persName>
+							<idno type="ORCID">0000-0001-9954-171X</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Health and Social Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Health and Caring Sciences</orgName>
+								<orgName type="institution">Western Norway University of Applied Sciences</orgName>
+								<address>
+									<postCode>N-5020</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Faculty of Health and Social Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Health and Caring Sciences</orgName>
+								<orgName type="institution">Western Norway University of Applied Sciences</orgName>
+								<address>
+									<postCode>N-5020</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Global Public Health and Primary Care</orgName>
+								<orgName type="institution">University of Bergen</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hilde</forename><surname>Smith-Strøm</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Health and Social Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Health and Caring Sciences</orgName>
+								<orgName type="institution">Western Norway University of Applied Sciences</orgName>
+								<address>
+									<postCode>N-5020</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Section of Endocrinology</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Faculty of Health and Social Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Health and Caring Sciences</orgName>
+								<orgName type="institution">Western Norway University of Applied Sciences</orgName>
+								<address>
+									<postCode>N-5020</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Section of Endocrinology</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Truls</forename><surname>Østbye</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Global Public Health and Primary Care</orgName>
+								<orgName type="institution">University of Bergen</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Duke Global Health Institute</orgName>
+								<orgName type="institution">Duke University</orgName>
+								<address>
+									<settlement>Durham</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Grethe</forename><forename type="middle">S</forename><surname>Tell</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Global Public Health and Primary Care</orgName>
+								<orgName type="institution">University of Bergen</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Svein</forename><surname>Skeie</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Research</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">G</forename><surname>Cooper</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Section of Endocrinology</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Section of Endocrinology</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Peyrot</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Health and Social Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Health and Caring Sciences</orgName>
+								<orgName type="institution">Western Norway University of Applied Sciences</orgName>
+								<address>
+									<postCode>N-5020</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Faculty of Health and Social Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Health and Caring Sciences</orgName>
+								<orgName type="institution">Western Norway University of Applied Sciences</orgName>
+								<address>
+									<postCode>N-5020</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Sociology</orgName>
+								<orgName type="institution">Loyola University Maryland</orgName>
+								<address>
+									<settlement>Baltimore</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marit</forename><surname>Graue</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Health and Social Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Health and Caring Sciences</orgName>
+								<orgName type="institution">Western Norway University of Applied Sciences</orgName>
+								<address>
+									<postCode>N-5020</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Faculty of Health and Social Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Health and Caring Sciences</orgName>
+								<orgName type="institution">Western Norway University of Applied Sciences</orgName>
+								<address>
+									<postCode>N-5020</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effect of a telemedicine intervention for diabetes-related foot ulcers on health, wellbeing and quality of life: secondary outcomes from a cluster randomized controlled trial (DiaFOTo)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">968474C827848AF7A78F7EF867D126AE</idno>
+					<idno type="DOI">10.1186/s12902-020-00637-x</idno>
+					<note type="submission">Received: 4 May 2020 Accepted: 13 October 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Diabetic foot</term>
+					<term>Psychological aspects</term>
+					<term>Health care delivery</term>
+					<term>Clinical trials</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Follow-up care provided via telemedicine (TM) is intended to be a more integrated care pathway to manage diabetes-related foot ulcers (DFU) than traditionally-delivered healthcare. However, knowledge of the effect of TM follow-up on PROMs including self-reported health, well-being and QOL in patients with DFUs is lacking and often neglected in RCT reports in general. Therefore, in this study of secondary outcomes from the DiaFOTo trial, the aim was to compare changes in self-reported health, well-being and QOL between patients with DFUs receiving telemedicine follow-up care in primary healthcare in collaboration with specialist healthcare, and patients receiving standard outpatient care. Methods: The current study reports secondary endpoints from a cluster randomized controlled trial whose primary endpoint was ulcer healing time. The trial included 182 adults with diabetes-related foot ulcers (94/88 in the telemedicine/standard care groups) in 42 municipalities/districts, recruited from three clinical sites in Western Norway. Mean (SD) diabetes duration for the study population was 20.8 (15.0). The intervention group received care in the community in collaboration with specialist healthcare using an asynchronous telemedicine intervention. The intervention included an interactive web-based ulcer record and a mobile phone enabling counseling and communication between the community nurses and specialist healthcare; the control group received standard outpatient care. In total 156 participants (78/78) reported on secondary endpoints: self-reported health, well-being and quality of life evaluated by generic and disease-specific patient-reported outcome measures (e.g. Euro-QOL, the Hospital Anxiety and Depression Scale (HADS), Problem Areas in Diabetes (PAID), Neuropathy and Foot Ulcer-Specific Quality of Life Instrument (NeuroQOL)). Linear mixed-effects regression was used to investigate possible differences in changes in the scores between the intervention and control group at the end of follow-up.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Follow-up care provided via telemedicine (TM) is intended to be a more integrated care pathway to manage diabetes-related foot ulcers (DFU) than traditionallydelivered healthcare. However, TM follow-up in diabetes care can alter patient-provider relationships, and might have unintended negative effects on health, well-being and quality of life (QOL) <ref type="bibr" target="#b0">[1]</ref>. Hence, it is important to also evaluate self-reported health and well-being outcomes among those receiving telemedicine follow-up care. Measures of health-related quality of life (HRQOL) among adults living with diabetes-related foot ulcers have shown that the occurrence of a DFU, in general, is associated with reduced quality of life <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. While several different patient-reported outcome measures (PROMs) have been used, none has been found to be more appropriate than others in assessing HRQOL associated with diabetes-related foot ulcers <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. Although generic measures such as the WHO-Five Well-Being Index (WHO-5) and the Euro-QOL five-dimension questionnaire (EQ-5D-5L) are useful, they do not capture disease-specific aspects of HRQOL <ref type="bibr" target="#b3">[4]</ref>. Disease or condition specific PROMs, such as Problem Areas in Diabetes (PAID) and Neuropathy and Foot Ulcer-Specific Quality of Life (NeuroQOL) may be more useful to study foot ulcer patients' distress and their response to treatment <ref type="bibr" target="#b4">[5]</ref>. Moreover, identifying emotional distress in foot ulcer patients with diabetes is important as depression is associated with development of the first foot ulcer <ref type="bibr" target="#b5">[6]</ref> and symptoms of depression are associated with an increased risk of a diabetes-related foot ulcer in a dose response manner <ref type="bibr" target="#b6">[7]</ref>. Analyses of PROMs utilizing validated instruments allow healthcare providers to determine whether different treatments provide patients with the best possible outcomes and improve HRQOL <ref type="bibr" target="#b3">[4]</ref>.</p><p>Two TM randomized controlled trials among adults with a DFU have been performed, one in Denmark <ref type="bibr" target="#b7">[8]</ref> and one in Norway <ref type="bibr" target="#b8">[9]</ref>. Both studies evaluated the effect of TM on ulcer healing, amputation and death and compared TM with SOC. The Danish study found no significant differences regarding amputation and healing time <ref type="bibr" target="#b7">[8]</ref>. In the Norwegian study, the Diabetic Foot and Telemedical Images Project (DiaFOTo) <ref type="bibr" target="#b8">[9]</ref>, we confirmed the hypothesis that TM in patients with DFUs in primary healthcare, in collaboration with specialist healthcare, was non-inferior to standard outpatient care (SOC) regarding healing time among those whose DFU healed (79.8% vs 76.1%). The direction of the effect estimates for healing time in months (0.43 (-1.50, 0.65)), death (-0.4% (-6.5, 5.7%)), and consultations all favored TM, although there were no statistically significant effects. Telemedicine monitoring was superior regarding avoidance of amputations (6.4% vs 14.8%) in the Norwegian study. However, knowledge of the effect of TM follow-up on PROMs (including self-reported health, well-being and QOL) in patients with DFUs is lacking and often neglected in RCT reports in general. Therefore, in this study of secondary outcomes from the DiaFOTo trial, the aim was to compare changes in self-reported health, well-being and QOL between patients with DFUs receiving telemedicine follow-up care in primary healthcare in collaboration with specialist healthcare, and patients receiving SOC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trial design</head><p>The design of the study has been described previously <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>. Briefly, this was a multicenter clusterrandomized controlled noninferiority trial. Patients from three clinical sites in western Norway were included (NCT01710774). The recruitment period lasted from September 2012 to June 2016. A total of 182 patients were included, 94 in the TM group and 88 in the control group in 42 municipalities/districts. Forty-two clusters were matched in 21 pairs which were then randomized to either TM or control. These were matched in pairs according to population size and rural/urban characteristics. The randomization sequences were generated by an independent statistician using SPSS version 21 statistical software (IBM Corp) <ref type="bibr" target="#b9">[10]</ref>. The study was approved by the Western Norway Regional Committee for Medical and Health Research Ethics (2011/1609). All participants gave written consent. The study adheres to CONSORT guidelines (Additional file 1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Included in the original trial were patients with type 1 or type 2 diabetes who were 20 years or older, diagnosed with a new DFU <ref type="bibr" target="#b8">[9]</ref>, defined as a skin lesion below the ankle. Excluded were patients who had an ulcer on the same foot treated during the last 6 months in specialist healthcare or a diagnosis of mental disorder or cognitive impairment. Another exclusion criteria was having a life expectancy less than 1 year, and the patient also had to be able to understand and write Norwegian <ref type="bibr" target="#b9">[10]</ref>. Patients in both groups were followed until ulcer healing, amputation, or death, up to a maximum of 12 months of follow-up. (The Consort flow chart for the primary study is available as Fig. <ref type="figure">S1</ref> in the supplementary appendix.)</p><p>In the current study we included all participants with at least one valid patient-reported outcome measure at baseline in the TM group (n = 78 (83.0%)) and in the control group (n = 78 (88.6%)). PROMs were collected at baseline and at predefined endpoints (healed ulcer or amputation or at 12 months if the ulcer did not heal). For persons who died during follow-up or were lost to follow-up for other reasons, only the baseline measurements were used in analyses and these persons did thus not contribute to the estimation of the intervention effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intervention</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Telemedicine (TM)</head><p>The randomization procedures and a more in-depth description of the intervention have been reported previously <ref type="bibr" target="#b8">[9]</ref>. Briefly, community nurses used a mobile phone to take pictures of the ulcer which was then sent via a web-based platform to the hospital for review by a specialist health care professional, facilitating counseling and feed-back. This platform is a web-based ulcer record system accessible from mobile devices and computers via the Internet <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>. The platform facilitate to register clinical data regarding the ulcers, digital images of the ulcers, a written assessment of the ulcer, and to ask for and give guidance. Measurements can be compared over time to visualize the healing process of the ulcer. This allows all involved staff to contribute, even though they are on a distance. This system is customized for collaboration, discussions, and advice regarding the treatment between cooperating medical staff in different health care institutions. The main reason for using the webbased ulcer record system is the collaboration functionality that enables integrated care across different levels of the health care sector. Relevant ulcer data are accessible to the involved staff, regardless of employment in community care or specialist health care. During followup, the community nurses provided care under supervision of the specialist nurses at the outpatient clinics and communicated at least weekly with the specialist nurses at the outpatient clinic <ref type="bibr" target="#b9">[10]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Standard outpatient care</head><p>Patients in the control group received standard care provided by the outpatient clinic, normally scheduled to take place every second week. The medical treatment given to the control and intervention group is based on the same evidence-based procedures <ref type="bibr" target="#b9">[10]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PROMs</head><p>We used both generic and disease-specific PROMs to assess the patients' perceptions of the intervention on selfreported health and well-being, and QOL. Included were three generic instruments (Euro-QOL EQ-5D-5L/ EQ-5D-VAS, the Hospital Anxiety and Depression Scale (HADS), the WHO-Five Well-Being Index (WHO-5)), and two disease-specific measures; Problem Areas In Diabetes (PAID-20) and Neuropathy and Foot Ulcer-Specific Quality of Life (NeuroQOL).</p><p>We used the EQ-5D-5L questionnaire as a health utility score <ref type="bibr" target="#b11">[12]</ref>. Part one comprises five single items: mobility, self-care, usual activities, pain/discomfort and anxiety/depression (dimensions of health) with ratings on five levels of perceived problems from no problems (1) to extreme problems <ref type="bibr" target="#b4">(5)</ref>. The level scores are presented as global health indices with a weighted total value for health status <ref type="bibr" target="#b12">[13]</ref>. The second part is a Visual Analogue Scale (VAS) ranging from 0 (worst health state) to 100 (best health state), and used as an overall measure of perceived health status <ref type="bibr" target="#b11">[12]</ref>. The WHO-5 was used to describe well-being during the previous 2 weeks <ref type="bibr" target="#b13">[14]</ref>. Five items with ratings from 0 to 5. Item scores are summed (0-25) and transformed to a 0-100 scale with higher scores indicating better well-being. The HADS assessed anxiety and depressive symptoms during the past week <ref type="bibr" target="#b14">[15]</ref>. This instrument comprises seven items on anxiety (HADS-A) and seven items on depression (HADS-D). Each item is scored from 0 to 3, yielding a maximum score of 21. Higher scores indicate a higher symptom load.</p><p>Diabetes distress was measured with PAID-20 <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>. The instrument covers frequently reported emotional states. Scale scores are transformed to a 0-100 scale, with 100 indicating greater distress. The cut-off score is suggested to be equal or more than 40. The NeuroQOL assessed patients' perception of the impact of foot ulcers on their QOL <ref type="bibr" target="#b17">[18]</ref>. The instrument consists of six domains: 1) painfully symptoms and paresthesia; 2) symptoms of reduced/lost feeling in the feet; 3) diffuse sensory motor symptoms; 4) restrictions in daily activities; 5) interpersonal problems and 6) emotional burden. Higher scores indicate a greater negative impact of foot ulcers on QOL.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Other measures</head><p>Healing of the ulcer was defined as healing (intact skin) of the whole foot without minor or major amputations. Amputation was defined as minor or major amputation before ulcer healing. Amputation performed below the ankle was defined as minor amputation, whereas amputation above the ankle was defined as major amputation. Death was defined as death before ulcer healing.</p><p>In addition, clinical data, comorbidities and foot ulcer specific data were collected from the electronic medical journals at the clinical sites. Those with grade 2 or grade 3 combined with stage C and D were defined as high severity and all other grades and stages were combined to a group with versus low and medium severity <ref type="bibr" target="#b18">[19]</ref>. Other measures as demographic data and lifestyle characteristics were self-reported by the patient <ref type="bibr" target="#b9">[10]</ref> (Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analyses</head><p>Data were analyzed according to the initial group allocation (intention to treat). Continuous variables are presented as mean and standard deviations (SD), and categorical variables are presented as proportions. We used linear mixed effects regression analyses with random intercept to account for clustering within treatment groups. Intra-cluster correlation for the primary outcome healing time in the main study was 0.0014. All models were specified with the sum score of the PROMs (EQ-5D-5L, HADS, WHO-5, PAID-20 and the NeuroQOL subscales respectively) as dependent variables with fixed effects for time, group allocation and interaction between time and allocation group. The coefficient for the interaction term between time and allocation group was reported as the intervention effect and can be interpreted as the difference in change in PROM score between the two groups after adjustment for baseline differences in PROM score. The intervention effects are reported as regression coefficients with 95% CIs. For analyses of the dichotomous outcome PAID&gt; 40 we used generalized estimation equations (GEE) instead of linear mixed models. Sample size calculation was reported previously <ref type="bibr" target="#b8">[9]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional analyses</head><p>In additional analyses, we tested whether distance to the outpatient clinic moderated the intervention effect. We conducted a subgroup analysis with a linear mixed model, including only patients who lived 25 km from the outpatient clinic. All analyses were also repeated excluding 13 patients originally assigned to the TM group who did not receive TM (per protocol analyses) <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>. A greater percentage of participants in the intervention group with ulcers on the toes than in the control group suggested possible differential selection. In sensitivity analyses we therefore repeated the linear mixed-effects regression analyses and GEE adjusted for localization of ulcer. We also did analyses with stratification on severity of ulcer measured in terms of grade and stage from the UT classification system <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b19">20]</ref>. Statistical significance was defined as P &lt; 0.05. Statistical analyses and graphs were performed and constructed in Stata (version 14).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trial participants</head><p>In total, 345 patients were assessed for eligibility between September 2012 and June 2016; of these 163 did not meet the inclusion criteria. In total 182 patients were included (94 in the TM group) and 88 in the SOC group) (Table <ref type="table" target="#tab_0">1</ref>). Most participants were male (73.7%), the mean HbA1c was 7.9% (SD 1.7), and the majority used insulin (65.2%). A history of cardiovascular disease and neuropathy was present in 27.3 and 70.0% of patients, respectively. Furthermore, most ulcers were classified as grade 1 and stage A or B at baseline <ref type="bibr" target="#b8">[9]</ref>. Overall, characteristics were well balanced between the two groups at baseline, except type of diabetes and localization of ulcer. Completion rates for PROMs for patients with at least one valid PROM at baseline were 87% (Table <ref type="table" target="#tab_0">S1</ref> in the supplementary appendix) (n = 156/ 182). Mean (SD) time between baseline measurement and follow-up measurement of PROMs was 4.4 months (4.1) in the TM group and 4.2 months (3.6) in the SOC group (Not shown in table). The mean (± SD) scores for PROMs at baseline and post-intervention and regression coefficients for the intervention effect are reported in Table <ref type="table" target="#tab_1">2</ref>. In addition, unweighted scores for the Neuro-QOL at baseline and follow-up are reported in Table <ref type="table" target="#tab_1">S2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome measures</head><p>The mean scores for generic measures (EQ-5D-5L, WHO-5, HADS) were relatively stable from baseline to post intervention in both treatment groups, with no significant intervention effect (Table <ref type="table" target="#tab_1">2</ref>). Within the standard treatment group, the mean EQ-5D-VAS score improved slightly (from 57.7 (SD 20.8) to 63.5 (SD 21.4), P = 0.02) but not in the TM group (from 59.0 (SD 21.8) to 60.4 (SD 21.7), P = 0.53).</p><p>Both disease-specific measures, PAID-20 and Neuro-QOL, were also relatively stable and did not show an intervention effect (Table <ref type="table" target="#tab_0">1</ref>). Within the treatment groups, the mean PAID score increased from baseline to post intervention in the TM group (P = 0.04), indicating emotional problems. The proportion of patients with a PAID score of 40 or more decreased from 20.6% at baseline to 17.2% in the TM group (ns) and increased from 12.9 to 14.6% in the corresponding time period in the SOC group (ns). The mean weighted ADL restriction score (subscale from Neuro-QOL) decreased within the standard treatment group, indicating less ADL restrictions (from 8.2 (4.4) at baseline to 6.3 (4.0) at follow-up, P = 0.003), but not in the TM group (from 7.2 (4.2) at baseline to 6.5 (3.7) at follow-up, P = 0.19) (Table <ref type="table" target="#tab_1">2</ref>). None of the additional analyses revealed significant differences between the treatment groups. In the current study we included all participants with at least one valid patient-reported outcome measure at baseline b Education level: primary: up to 10 years of compulsory education, secondary: high school or vocational school and tertiary: college/university c HbA1c measurements were reported using the International Federation of Clinical Chemistry units (mmol/mol) in addition to the derived NGSP units (%) upon attendance at the outpatient clinic d Cardiovascular disease was defined as a history of angina pectoris, myocardial infarction or stroke e Neuropathy: Neuropathy was defined as an abnormal pressure sensation evaluated with the 10 g monofilament and/or presence of symptoms and/or signs of peripheral nerve dysfunction</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This is the first randomized controlled trial assessing the effect of a telemedicine intervention for DFUs, compared to SOC, designed primarily to study its effect on ulcer healing. Here we report the effect on self-reported health, well-being and QOL. PROMs were relatively stable from baseline to post-intervention in both treatment groups and the intervention did not affect the participants' health, well-being or QOL.</p><p>As no previous studies have reported the effect of telemedicine follow-up on PROMs in patients with a DFU, we compare our findings to other relevant telemedicine studies. Telehealth as implemented in the Whole Systems Demonstrator Evaluation did not improve QOL or psychological outcomes for patients with chronic obstructive pulmonary disease (COPD), diabetes, or heart failure over 12 months <ref type="bibr" target="#b0">[1]</ref>. In a sub-study, for those with COPD there was a consistent trend of improved health related QOL in the intention to treat analysis <ref type="bibr" target="#b20">[21]</ref>. However, in the subsample of people with diabetes, the telemedicine intervention was not effective <ref type="bibr" target="#b21">[22]</ref>. A systematic review including other studies of patients with COPD found mixed results on various QOL measures <ref type="bibr" target="#b22">[23]</ref>. Another systematic review, on asynchronous and synchronous teleconsultation for diabetes care, concluded that neither synchronous nor asynchronous teleconsultations for diabetes care showed any significant differences between control (usual care) and intervention groups for QOL. Nevertheless, these studies found that increased intensity of contact between provider and patients were perceived as more supportive and generated more effective communication <ref type="bibr" target="#b23">[24]</ref>.</p><p>Possible mechanisms or pathways by which our telemedicine intervention might have improved PROMs include: (1) telemedicine might produce better DFU treatment outcomes (fewer adverse outcomes, quicker recovery time), which in turn result in better PROMs; and (2) patients might find telemedicine more supportive, independent of treatment outcome. In this study, there was a significantly lower proportion of amputation the first 12 months (n = 6 in TM, n = 13 in SOC, mean difference -8.3, 95% CI -16.3, -0.5%). DFU treatment outcomes (healing time and patient satisfaction) were similar for the TM and SOC groups. Therefore, Higher scores on EQ-VAS, or WHO-5 reflect better perceived health, health state or psychological well-being. Higher scores on EQ-5D, HADS-anxiety ordepression or PAID-20 reflect lower health-related quality of Life, more anxiety or depressive symptoms or more diabetes distress; Higher scores on the NeuroQOL reflect greater impact of foot ulcers on quality of life we would not expect that different treatment outcomes would cause improved PROMs in the telemedicine group and the first proposed mechanism is thus unlikely to occur <ref type="bibr" target="#b8">[9]</ref>. However, there was some evidence that telemedicine was perceived positively by participants. In general, patients experienced that if TM functions as intended, it can be an important additional tool <ref type="bibr" target="#b24">[25]</ref>. Moreover, results from qualitative studies among healthcare personnel, conducted in conjunction with this RCT, indicated that using the TM intervention enhanced confidence among community nurses, as they perceived improvement in their wound care skills and facilitated more comprehensive DFU care <ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref>.</p><p>The second proposed mechanism could thus have resulted in improved PROMs in the telemedicine group. Nevertheless, positive experiences among healthcare personnel and increased wound knowledge do not necessarily influence patients' perception of health, well-being and QOL, which may explain why we did not find any effects on PROMs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Strengths and limitations</head><p>One strength of this study was the design; RCTs have been recommended to improve the evidence-base for treating DFUs in clinical practice and to facilitate changes in relevant care pathways <ref type="bibr" target="#b28">[29]</ref>. Another strength was the real-life context as the study was performed in daily clinical practice at three sites. It has been suggested that there is a need for more research in TM interventions for well-defined patient groups in order to increase study validity <ref type="bibr" target="#b29">[30]</ref>; in this study only participants with a DFU were included, not patients with other types of ulcers or other foot problems. Finally, this study used a broad range of PROMs, including diseasespecific measures, to reduce the problems with insensitive or irrelevant outcome measures. However, this study also has limitations. First, patients with a diagnosed mental disorder or cognitive impairment who might benefit most were excluded. More flexible health services may be especially beneficial for patients with more complex illness living in nursing homes or having mental problems and those having difficulties traveling to a hospital. However, most of these frail elderly patients were excluded from participation in the current trial as they were unable to give informed consent. Further, the sample size estimation was done for the primary endpoint (ulcer healing time) and we cannot rule out the possibility that we failed to detect small positive or negative intervention effects because of Type II error. Although it would be of interest to test if the effect of the intervention on PROs differed between patients with healed DFU and patients with remaining DFU and/or amputations, the sample size of the current study was too small to be able to detect such possible effect modifications. Participants in the study had a relative longstanding diabetes and most likely established self-management routines. It is possible that it was too optimistic to expect that a relative short telemedicine intervention should affect patient reported outcomes. As to user involvement, one patient was part of the research team, however we could have invited a larger group of patients as co-workers leading to a more systematic coproduction and an intervention perhaps better tailored to patients' needs <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b30">31]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Telemedicine technology has emerged as a relevant alternative to usual care for people with DFUs, facilitating flexible healthcare services and close cooperation between levels of healthcare services <ref type="bibr" target="#b8">[9]</ref>. The intervention did not have a significant effect on DFU treatment outcomes or PROMs; measures of health, well-being and QOL were relatively stable from baseline to postintervention in both treatment groups. Although the intervention did not yield short-term benefit for the participants, it is notable that it was also was not associated with worse outcomes. TM is as effective as face-to-face care, while having greater reach. Future studies may reveal that it is possible to modify the telemedicine intervention to more accurately fit settings and contexts in order to generate both improved ulcer healing and patient-reported outcomes.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Characteristics of the participants: the DiaFOTo study, Western Norway a</figDesc><table><row><cell>Characteristics</cell><cell>Total</cell><cell>Telemedicine</cell><cell>Standard outpatient care</cell></row><row><cell></cell><cell>(n = 156)</cell><cell>(n = 78)</cell><cell>(n = 78)</cell></row><row><cell>Demographic variables</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Male sex</cell><cell>115 (73.7)</cell><cell>57 (73.1)</cell><cell>58 (74.4)</cell></row><row><cell>Age (years)</cell><cell>65.5 ± 16.3</cell><cell>66.3 ± 16.3</cell><cell>64.7 ± 16.4</cell></row><row><cell>Married or Cohabitant</cell><cell>91 (60.7)</cell><cell>42 (56.8)</cell><cell>49 (64.5)</cell></row><row><cell>Education level b</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Primary</cell><cell>36 (25.5)</cell><cell>22 (32.4)</cell><cell>14 (19.2)</cell></row><row><cell>Secondary</cell><cell>73 (51.8)</cell><cell>34 (50.0)</cell><cell>39 (53.4)</cell></row><row><cell>Tertiary</cell><cell>32 (22.7)</cell><cell>12 (17.7)</cell><cell>20 (27.4)</cell></row><row><cell>Employed</cell><cell>34 (21.9)</cell><cell>18 (23.4)</cell><cell>16 (20.5)</cell></row><row><cell>Travel distance &gt; 25 km to hospital</cell><cell>40 (27.4)</cell><cell>21 (28.4)</cell><cell>19 (26.4)</cell></row><row><cell>Lifestyle characteristics</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Smoking (yes)</cell><cell>27 (18.1)</cell><cell>14 (18.9)</cell><cell>13 (17.3)</cell></row><row><cell>Subgroups of diabetes</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Type 1 diabetes</cell><cell>35 (22.4)</cell><cell>11 (14.1)</cell><cell>24 (30.8)</cell></row><row><cell>Type 2 diabetes</cell><cell>121 (77.6)</cell><cell>67 (85.9)</cell><cell>54 (69.2)</cell></row><row><cell>Diabetes-related variables</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Diabetes duration, years</cell><cell>20.8 ± 15.0</cell><cell>19.8 ± 14.1</cell><cell>21.8 ± 15.8</cell></row><row><cell>Insulin treatment</cell><cell>101 (65.2)</cell><cell>47 (61.0)</cell><cell>54 (69.2)</cell></row><row><cell>HbA 1c , (mmol/mol) c</cell><cell>63 ± 18.6</cell><cell>63 ± 17.5</cell><cell>64 ± 18.6</cell></row><row><cell>HbA 1c , (%) b</cell><cell>7.9 ± 1.7</cell><cell>7.9 ± 1.6</cell><cell>8.0 ± 1.7</cell></row><row><cell>Ulcer characteristics</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Localization of ulcer</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Toe</cell><cell>80 (51.3)</cell><cell>49 (62.7)</cell><cell>31 (39.8)</cell></row><row><cell>Metatarsal</cell><cell>23 (14.7)</cell><cell>8 (10.3)</cell><cell>15 (19.2)</cell></row><row><cell>Heal</cell><cell>12 (7.7)</cell><cell>7 (9.0)</cell><cell>5 (6.4)</cell></row><row><cell>Other</cell><cell>41 (26.3)</cell><cell>14 (18.0)</cell><cell>27 (34.6)</cell></row><row><cell>Comorbidities</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Cardiovascular disease d</cell><cell>42 (27.3)</cell><cell>19 (24.7)</cell><cell>23 (29.9)</cell></row><row><cell>Neuropathy e</cell><cell>102 (70.0)</cell><cell>51 (70.0)</cell><cell>51 (70.0)</cell></row><row><cell>Renal disease, GFR &lt; 60</cell><cell>58 (37.2)</cell><cell>31 (39.7)</cell><cell>27 (34.6)</cell></row><row><cell>Retinopathy</cell><cell>53 (37.1)</cell><cell>23 (31.9)</cell><cell>30 (42.3)</cell></row><row><cell>Ulcer endpoints</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Healing</cell><cell>124 (79.5)</cell><cell>64 (82.1)</cell><cell>60 (76.9)</cell></row><row><cell>Amputation</cell><cell>15 (9.6)</cell><cell>4 (5.1)</cell><cell>11 (14.1)</cell></row><row><cell>Death</cell><cell>9 (5.8)</cell><cell>4 (5.1)</cell><cell>5 (6.4)</cell></row><row><cell>Not healed after 12 months</cell><cell>8 (5.1)</cell><cell>6 (7.8)</cell><cell>2 (2.6)</cell></row><row><cell cols="3">Data are shown as n (%) Percent of patients with valid values for categorical variables and mean ± SD for continuous variables</cell><cell></cell></row><row><cell>a</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Patient-reported outcomes comparing telemedicine versus standard outpatient care: the DiaFOTo study, Western Norway a</figDesc><table><row><cell></cell><cell cols="2">Telemedicine</cell><cell></cell><cell cols="3">Standard Outpatient Care (SOC)</cell><cell>Intervention effect</cell><cell></cell></row><row><cell></cell><cell>(n = 78)</cell><cell></cell><cell></cell><cell>(n = 78)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Baseline</cell><cell>Follow-</cell><cell>p-</cell><cell>Baseline</cell><cell>Follow-</cell><cell>p-</cell><cell>Effect b</cell><cell>p-</cell></row><row><cell></cell><cell></cell><cell>up</cell><cell>value</cell><cell></cell><cell>up</cell><cell>value</cell><cell></cell><cell>value</cell></row><row><cell>Generic Quality of Life measures c</cell><cell>n</cell><cell>n</cell><cell></cell><cell>n</cell><cell>n</cell><cell></cell><cell></cell><cell></cell></row><row><cell>EQ-5D-5L, (0-1)</cell><cell cols="3">75 0.72 (0.3) 67 0.76 (0.2) 0.06</cell><cell cols="3">72 0.70 (0.3) 56 0.75 (0.2) 0.02</cell><cell cols="2">-0.01 (-0.08, 0.05) 0.66</cell></row><row><cell>EQ-VAS, (0-100)</cell><cell>74 59.0</cell><cell cols="2">68 60.4 (21.7) 0.53</cell><cell>73 57.7</cell><cell cols="2">57 63.5 (21.4) 0.02</cell><cell>-3.99 (-10.17,</cell><cell>0.21</cell></row><row><cell></cell><cell>(21.8)</cell><cell></cell><cell></cell><cell>(20.8)</cell><cell></cell><cell></cell><cell>2.19)</cell><cell></cell></row><row><cell>WHO-5, (0-100)</cell><cell>73 63.2</cell><cell cols="2">64 65.4 (19.8) 0.44</cell><cell>67 59.4</cell><cell cols="2">54 62.4 (20.6) 0.48</cell><cell cols="2">-0.67 (-6.74, 5.39) 0.83</cell></row><row><cell></cell><cell>(21.0)</cell><cell></cell><cell></cell><cell>(21.5)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>HADS-A, (0-21)</cell><cell>77 4.3 (3.3)</cell><cell>66 4.5 (3.9)</cell><cell>0.89</cell><cell>78 4.6 (4.0)</cell><cell>58 4.7 (3.9)</cell><cell>0.43</cell><cell cols="2">-0.25 (-1.28, 0.78) 0.63</cell></row><row><cell>HADS-D, (0-21)</cell><cell>77 4.7 (3.3)</cell><cell>66 4.7 (3.9)</cell><cell>0.88</cell><cell>78 5.4 (4.1)</cell><cell>58 5.1 (3.5)</cell><cell>0.57</cell><cell>0.15 (-0.83, 1.1)</cell><cell>0.76</cell></row><row><cell cols="2">Disease-specific Quality of Life measures c</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>PAID-20, mean (SD)</cell><cell>68 21.6</cell><cell cols="2">64 25.4 (20.0) 0.04</cell><cell>62 21.4</cell><cell cols="2">48 22.3 (18.0) 0.76</cell><cell>2.56 (-1.95, 7.06)</cell><cell>0.27</cell></row><row><cell></cell><cell>(18.6)</cell><cell></cell><cell></cell><cell>(18.3)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>PAID-20 ≥ 40 (%)</cell><cell cols="2">68 14 (20.6) 64 11 (17.2)</cell><cell>0.31</cell><cell>62 8 (12.9)</cell><cell>48 7 (14.6)</cell><cell>0.85</cell><cell cols="2">-0.34 (-1.22, 0.54) 0.45</cell></row><row><cell>NeuroQOL weighted (1-15)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Painful symptoms</cell><cell>75 4.0 (2.2)</cell><cell>65 4.1 (2.6)</cell><cell>0.97</cell><cell>73 4.2 (2.7)</cell><cell>58 4.2 (2.7)</cell><cell>0.89</cell><cell>0.06 (-0.77-0.88)</cell><cell>0.90</cell></row><row><cell>Reduced feeling</cell><cell>71 4.8 (3.7)</cell><cell>63 4.4 (3.3)</cell><cell>0.19</cell><cell>70 5.2 (3.3)</cell><cell>55 4.7 (3.3)</cell><cell>0.26</cell><cell cols="2">-0.03 (-1.06-0.99) 0.95</cell></row><row><cell>Diffuse sensorimotor</cell><cell>70 5.8 (4.2)</cell><cell>64 5.5 (4.3)</cell><cell>0.29</cell><cell>71 5.7 (4.0)</cell><cell>54 5.4 (3.7)</cell><cell>0.12</cell><cell>0.23 (-0.78-1.24)</cell><cell>0.66</cell></row><row><cell>symptoms</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>ADL restrictions</cell><cell>69 7.2 (4.2)</cell><cell>58 6.5 (3.7)</cell><cell>0.19</cell><cell>70 8.2 (4.4)</cell><cell>52 6.3 (4.0)</cell><cell>0.003</cell><cell>1.05 (-0.65-2.75)</cell><cell>0.23</cell></row><row><cell>Interpersonal burden</cell><cell>70 5.5 (3.9)</cell><cell>59 5.1 (4.0)</cell><cell>0.18</cell><cell>71 5.3 (3.5)</cell><cell>50 4.7 (3.6)</cell><cell>0.20</cell><cell>0.02 (-1.18-1.22)</cell><cell>0.97</cell></row><row><cell>Emotional distress</cell><cell>75 4.0 (2.2)</cell><cell>63 4.1 (2.6)</cell><cell>0.97</cell><cell>73 4.2 (2.7)</cell><cell>53 4.2 (2.7)</cell><cell>0.89</cell><cell>0.06 (-0.77-0.88)</cell><cell>0.90</cell></row><row><cell cols="5">Data are shown as mean ± SD for continuous variables and n (%) percent for categorical variables</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p><p>a</p>In the current study we included all participants with at least one valid patient-reported outcome measure at baseline b Regression coefficient for interaction between time and treatment group in linear mixed effects model for continuous outcome and generalized estimation equations (GEE) for binary outcomes c</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors thank the medical staff at the outpatient clinics, the community nurses in the municipalities, and the patients who participated in this study. Thanks to <rs type="person">Eva Skipenes</rs> and <rs type="person">Ellen K. Christiansen</rs> from the <rs type="affiliation">Norwegian Centre for Integrated Care and Telemedicine, University Hospital North Norway</rs> for supporting this project with their expertise in data security and legal aspects.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>The <rs type="funder">Norwegian Directorate of Health and Innovation Norway</rs>, the <rs type="funder">Western Norway Regional Health Authority</rs> (<rs type="grantNumber">911716</rs>, <rs type="grantNumber">911605</rs>), the <rs type="funder">Norwegian Diabetes Association</rs> (2011,2012,2013), and <rs type="funder">Western Norway University of Applied Sciences</rs> funded the trial. This study was also funded by a grant from the <rs type="funder">Norwegian Research Council</rs>, project number <rs type="grantNumber">221065</rs>. The funding body did not have a role in the design of the study and collection, analysis, and interpretation of data and in writing the manuscript.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_XaNxXfQ">
+					<idno type="grant-number">911716</idno>
+				</org>
+				<org type="funding" xml:id="_eTE29u7">
+					<idno type="grant-number">911605</idno>
+				</org>
+				<org type="funding" xml:id="_nSXaq3a">
+					<idno type="grant-number">221065</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>The datasets generated and/or analysed during the current study are not publicly available due to personal data protection legislation but are available from the corresponding author on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary information</head><p>Supplementary information accompanies this paper at https://doi.org/10. 1186/s12902-020-00637-x.</p><p>Additional file 1: Fig. <ref type="figure">S1</ref> Supplementary appendix: The Consort flow chart for the primary study Additional file 2: Table <ref type="table">S1</ref> Supplementary appendix: Completion rates at baseline and follow-up in the current study: the DiaFOTo study, Western Norway 1 . 1 The study population in the current study is defined as patients with at least one valid patient-reported outcome measure (PROM) at baseline (n = 78 in the telemedicine group and n = 78 in the standard outpatient care group, n = 156 in total). n = 182 among the participants in the main study. Table <ref type="table">S2 Supplementary</ref>  Authors' contributions M.M.I. and M.F.H. were responsible for the study concept. M.M.I., G.S.T., J.G.C., M.P. and M.G. designed the study, applied for funding and drafted the protocol. M.M.I., M.F.H., S.S., and J.G.C. contributed to developing and improving the delivery of the intervention. M.M.I., M.F.H., and H.S.S. contributed to collecting data. M.M.I., M.P. and J.I. contributed to data analysis. M.M.I., J.I., M.G., T.Ø., G.S.T., H.S.S., S.S., M.F.H and M.P. wrote the manuscript. M.M.I. is the guarantor of this work and, as such, had full access to all the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis. The author(s) read and approved the final manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics approval and consent to participate</head><p>The study was approved by the Western Norway Regional Committee for Medical and Health Research Ethics (2011/1609). All participants gave written consent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's Note</head><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,58.99,564.26,225.79,6.62;8,71.72,573.27,193.06,6.62;8,71.72,582.28,198.15,6.62;8,71.72,591.30,187.78,6.62" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Effect of telehealth on quality of life and psychological outcomes over 12 months (whole systems demonstrator telehealth questionnaire study): nested study of patient reported outcomes in a pragmatic, cluster randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cartwright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">346</biblScope>
+			<biblScope unit="page">653</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.99,600.25,229.02,6.62;8,71.72,609.27,207.12,6.62;8,71.72,618.28,25.19,6.62" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Health-related quality of life among adults living with diabetic foot ulcers: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khunkaew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Qual Life Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1413" to="1427" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.99,627.30,226.92,6.62;8,71.72,636.25,188.01,6.62" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Measures of health-related quality of life in diabetes-related foot disease: a systematic review</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Hogg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetologia</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="552" to="565" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.99,645.27,226.45,6.62;8,71.72,654.28,210.38,6.62;8,71.72,663.30,217.08,6.62" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Assessing health-related quality of life in patients with diabetic foot disease: why is it important and how can we improve? The 2017 Roger E. Pecoraro Award Lecture</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Wukich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Raspovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="391" to="397" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.99,672.25,227.19,6.62;8,71.72,681.27,173.21,6.62" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Diabetic peripheral neuropathy and depressive symptoms: the association revisited</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vileikyte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2378" to="2383" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.99,690.28,223.91,6.62;8,71.72,699.30,114.47,6.62" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Depression predicts first but not recurrent diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Gonzalez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetologia</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2241" to="2248" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.99,708.25,217.27,6.62;8,71.72,717.27,202.76,6.62;8,71.72,726.28,77.10,6.62" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Is depression a risk factor for diabetic foot ulcers? 11years follow-up of the Nord-Trondelag health study (HUNT)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Iversen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Complicat</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="20" to="25" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,307.02,90.30,224.96,6.62;8,319.75,99.26,212.28,6.62;8,319.75,108.27,51.76,6.62" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A randomized controlled trial comparing Telemedical and standard outpatient monitoring of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Rasmussen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1723" to="1729" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,307.02,117.29,230.14,6.62;8,319.75,126.30,200.11,6.62;8,319.75,135.26,94.59,6.62" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The effect of telemedicine follow-up care on diabetesrelated foot ulcers: a cluster-randomized controlled noninferiority trial</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Smith-Strom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="96" to="103" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,144.27,200.17,6.62;8,319.75,153.29,212.71,6.62;8,319.75,162.30,174.04,6.62" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Telemedicine versus standard follow-up Care for Diabetes-Related Foot Ulcers: protocol for a cluster randomized controlled noninferiority trial (DiaFOTo)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Iversen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Res Protoc</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">148</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,171.26,227.60,6.62;8,319.75,180.27,176.38,6.62" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Shared electronic health record systems: key legal and security challenges</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Christiansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1234" to="1239" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,189.29,211.42,6.62;8,319.75,198.30,214.86,6.62" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">EuroQol: health-related quality of life measurement. Valuations of health states by the general public in Norway</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nord</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Policy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="36" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,207.26,224.32,6.62;8,319.75,216.27,119.18,6.62" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Valuing health-related quality of life: an EQ-5D-5L value set for England</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Devlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Econ</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="7" to="22" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,225.29,222.18,6.62;8,319.75,234.30,207.07,6.62;8,319.75,243.26,85.27,6.62" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Psychometric and screening properties of the WHO-5 wellbeing index in adult outpatients with type 1 or type 2 diabetes mellitus</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Hajos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet Med</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="63" to="69" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,252.27,226.30,6.62;8,319.75,261.29,175.59,6.62" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The validity of the hospital anxiety and depression scale. An updated literature review</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bjelland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Psychosom Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="69" to="77" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,270.30,221.68,6.62;8,319.75,279.26,51.78,6.62" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Assessment of diabetes-related distress</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Polonsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="754" to="760" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,288.27,213.21,6.62;8,319.75,297.29,201.50,6.62;8,319.75,306.30,217.31,6.62" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Diabetes-related emotional distress in adults: reliability and validity of the Norwegian versions of the problem areas in diabetes scale (PAID) and the diabetes distress scale (DDS)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Nurs Stud</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="174" to="182" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,315.26,227.38,6.62;8,319.75,324.27,210.52,6.62" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The development and validation of a neuropathy-and foot ulcer-specific quality of life instrument</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vileikyte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2549" to="2555" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,333.29,212.39,6.62;8,319.75,342.30,207.47,6.62;8,319.75,351.26,170.30,6.62" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Severity and duration of diabetic foot ulcer (DFU) before seeking care as predictors of healing time: A retrospective cohort study</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Smith-Strom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">177176</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,360.27,208.30,6.62;8,319.75,369.29,198.72,6.62;8,319.75,378.30,113.39,6.62" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A comparison of two diabetic foot ulcer classification systems: the Wagner and the University of Texas wound classification systems</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Oyibo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="84" to="88" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,387.26,211.84,6.62;8,319.74,396.27,204.56,6.62" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A RCT of telehealth for COPD patient&apos;s quality of life: the whole system demonstrator evaluation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Respir J</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="459" to="469" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,405.29,224.51,6.62;8,319.74,414.30,209.99,6.62;8,319.74,423.26,216.83,6.62" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The effect of Telehealth on quality of life and psychological outcomes over a 12-month period in a diabetes cohort within the whole systems demonstrator cluster randomized trial</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Hirani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,432.27,224.25,6.62;8,319.74,441.29,165.16,6.62" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Home telemonitoring for respiratory conditions: a systematic review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jaana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sicotte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Manag Care</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="313" to="320" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,450.30,213.49,6.62;8,319.74,459.26,209.80,6.62;8,319.74,468.27,33.52,6.62" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Asynchronous and synchronous teleconsultation for diabetes care: a systematic literature review</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Verhoeven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="666" to="684" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,477.28,214.90,6.62;8,319.74,486.30,210.25,6.62;8,319.74,495.26,205.98,6.62" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">An integrated wound-care pathway, supported by telemedicine, and competent wound management-essential in follow-up care of adults with diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Smith-Strom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Med Inform</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="59" to="66" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,504.27,219.27,6.62;8,319.74,513.28,171.23,6.62" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Telemedicine in diabetes foot care delivery: health care professionals&apos; experience</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Kolltveit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Serv Res</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">134</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,522.30,219.92,6.62;8,319.75,531.26,208.81,6.62;8,319.75,540.27,134.32,6.62" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Telemedicine follow-up facilitates more comprehensive diabetes foot ulcer care: a qualitative study in home-based and specialist health care</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Kolltveit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Nurs</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page" from="1134" to="1145" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,549.29,214.28,6.62;8,319.75,558.30,173.36,6.62" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Conditions for success in introducing telemedicine in diabetes foot care: a qualitative inquiry</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Kolltveit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Nurs</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">2</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,567.26,222.93,6.62;8,319.75,576.27,216.58,6.62" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Current challenges and opportunities in the prevention and Management of Diabetic Foot Ulcers</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Jeffcoate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="645" to="652" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,585.29,222.18,6.62;8,319.75,594.30,129.26,6.62" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">More research is needed in telemedicine for well-defined patient groups</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kidholm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ugeskr Laeger</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="issue">12a</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,310.06,603.26,203.59,6.62;8,319.75,612.27,211.67,6.62" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">How patient and community involvement in diabetes research influences health outcomes: a realist review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Expect</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Wound area measurement with 3D transformation and smartphone images</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Chunhui</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Beijing Advanced Innovation Center for Biomedical Engineering</orgName>
+								<orgName type="laboratory">State Key Laboratory of Software Development Environment and Key Laboratory of Biomechanics and Mechanobiology of Ministry of Education and Research Institute</orgName>
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<addrLine>Xueyuan Road No.37</addrLine>
+									<postCode>100191</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Beijing Advanced Innovation Center for Biomedical Engineering</orgName>
+								<orgName type="laboratory">State Key Laboratory of Software Development Environment and Key Laboratory of Biomechanics and Mechanobiology of Ministry of Education and Research Institute</orgName>
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<addrLine>Xueyuan Road No.37</addrLine>
+									<postCode>100191</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution">China mobile research institute</orgName>
+								<address>
+									<addrLine>Xuanwumen West Street No.32</addrLine>
+									<postCode>100053</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xingyu</forename><surname>Fan</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution">Bioengineering College of Chongqing University</orgName>
+								<address>
+									<addrLine>Shazheng Street No. 174</addrLine>
+									<postCode>400044</postCode>
+									<settlement>Chongqing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhizhi</forename><surname>Guo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Beijing Advanced Innovation Center for Biomedical Engineering</orgName>
+								<orgName type="laboratory">State Key Laboratory of Software Development Environment and Key Laboratory of Biomechanics and Mechanobiology of Ministry of Education and Research Institute</orgName>
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<addrLine>Xueyuan Road No.37</addrLine>
+									<postCode>100191</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Beijing Advanced Innovation Center for Biomedical Engineering</orgName>
+								<orgName type="laboratory">State Key Laboratory of Software Development Environment and Key Laboratory of Biomechanics and Mechanobiology of Ministry of Education and Research Institute</orgName>
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<addrLine>Xueyuan Road No.37</addrLine>
+									<postCode>100191</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhongjun</forename><surname>Mo</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Economic and Technological Development Zone</orgName>
+								<orgName type="laboratory" key="lab1">Beijing Key Laboratory of Rehabilitation Technical Aids for Old-Age Disability</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Rehabilitation Technical Aids Technology and System of the Ministry of Civil Affairs</orgName>
+								<orgName type="laboratory" key="lab3">National Research Centre for Rehabilitation Technical Aids</orgName>
+								<address>
+									<addrLine>No.1 Ronghuazhong Road</addrLine>
+									<postCode>100176</postCode>
+									<settlement>Beijing, Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eric I-Chao</forename><surname>Chang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Microsoft Research</orgName>
+								<address>
+									<addrLine>Danling Street No. 5</addrLine>
+									<postCode>100080</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="institution">Microsoft Research</orgName>
+								<address>
+									<addrLine>Danling Street No. 5</addrLine>
+									<postCode>100080</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yan</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Beijing Advanced Innovation Center for Biomedical Engineering</orgName>
+								<orgName type="laboratory">State Key Laboratory of Software Development Environment and Key Laboratory of Biomechanics and Mechanobiology of Ministry of Education and Research Institute</orgName>
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<addrLine>Xueyuan Road No.37</addrLine>
+									<postCode>100191</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Microsoft Research</orgName>
+								<address>
+									<addrLine>Danling Street No. 5</addrLine>
+									<postCode>100080</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Beijing Advanced Innovation Center for Biomedical Engineering</orgName>
+								<orgName type="laboratory">State Key Laboratory of Software Development Environment and Key Laboratory of Biomechanics and Mechanobiology of Ministry of Education and Research Institute</orgName>
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<addrLine>Xueyuan Road No.37</addrLine>
+									<postCode>100191</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="institution">Microsoft Research</orgName>
+								<address>
+									<addrLine>Danling Street No. 5</addrLine>
+									<postCode>100080</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Wound area measurement with 3D transformation and smartphone images</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2E2D7371DAA32E1962253AD82FE98F5D</idno>
+					<idno type="DOI">10.1186/s12859-019-3308-1</idno>
+					<note type="submission">Received: 3 August 2018 Accepted: 3 December 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Wound measurement</term>
+					<term>3D</term>
+					<term>Structure from motion</term>
+					<term>Least squares conformal mapping</term>
+					<term>Smartphone</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Quantitative areas is of great measurement of wound significance in clinical trials, wound pathological analysis, and daily patient care. 2D methods cannot solve the problems caused by human body curvatures and different camera shooting angles. Our objective is to simply collect wound areas, accurately measure wound areas and overcome the shortcomings of 2D methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>We propose a method with 3D transformation to measure wound area on a human body surface, which combines structure from motion (SFM), least squares conformal mapping (LSCM), and image segmentation. The method captures 2D images of wound, which is surrounded by adhesive tape scale next to it, by smartphone and implements 3D reconstruction from the images based on SFM. Then it uses LSCM to unwrap the UV map of the 3D model. In the end, it utilizes image segmentation by interactive method for wound extraction and measurement. Our system yields state-of-the-art results on a dataset of 118 wounds on 54 patients, and performs with an accuracy of 0.97. The Pearson correlation, standardized regression coefficient and adjusted R square of our method are 0.999, 0.895 and 0.998 respectively. Conclusions: A smartphone is used to capture wound images, which lowers costs, lessens dependence on hardware, and avoids the risk of infection. The quantitative calculation of the 3D wound area is realized, solving the challenges that 2D methods cannot and achieving a good accuracy.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="595.0" lry="791.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>The measurement of wounds is an important component in the field of clinical research, the accuracy of which influences doctors' diagnosis, treatment and research programs directly <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. In the clinical field, the wound area is considered as an effective and reliable index of later complete wound closure <ref type="bibr" target="#b2">[3]</ref>. It also plays a role in drug evaluation and research of wound healing characteristics <ref type="bibr" target="#b3">[4]</ref>. Moreover, it can help doctors with wound classification, treatment strategy selection, and propelling the treatment technology forward <ref type="bibr" target="#b2">[3]</ref>. Cardinal M et al. <ref type="bibr" target="#b2">[3]</ref> show it is a strong predictor of venous leg ulcers healing by tracking the area of a skin wound within 12 weeks. Lavery LA et al. <ref type="bibr" target="#b0">[1]</ref> show that the diabetic foot wound area between the first and fourth week can be used to predict the healing effect after 16 weeks, and to assist with the evaluation of treatment and drug use.</p><p>The wound measurement method has undergone a transition from 1D to 2D, and then 2D to 3D. The traditional 1D ruler method <ref type="bibr" target="#b4">[5]</ref> for measuring wound areas is simple and widely used. It measures the external rectangular of wound width by ruler, flexible rule, or adhesive ruler, and then multiples the wound's external rectangular width to obtain the wound area. Rahul S et al. <ref type="bibr" target="#b5">[6]</ref> show that the measurement result of the ruler method is nearly 150% of the actual area, which is very inaccurate, and it is tedious and time-consuming. The 2D method based on image segmentation <ref type="bibr" target="#b6">[7]</ref> is a mature method. It uses a 2D image segmentation and adhesive scale to measure wound areas. Yang <ref type="bibr" target="#b7">[8]</ref> have developed a wound surface area calculation method using digital photography, and they investigate its error rate. However, this kind of method has drawbacks such as: <ref type="bibr" target="#b0">(1)</ref> Given the existence of human body curvatures, a 2D method is difficult to express in the whole shape of a wound, so as to get the correct area value. <ref type="bibr" target="#b1">(2)</ref> The 2D method can be greatly affected by camera angle, and the use of different angles may generate different results. Recently, Foltynski <ref type="bibr" target="#b8">[9]</ref> have proposed the Planimator app, which was a correction method of area measurement based on calculated camera tilt angle and the calculation of calibration coefficient of linear dimensions as the weighted average. It overcomes the large error caused by the shooting angle in the 2D measurement, but it still cannot overcome the 2D measurement problem caused by the large body curvature. Meanwhile, when disposable paper rulers are used for area measurement with the Planimator app, some deviations from the true area value may occur when the ticks at these rulers are placed at the wrong distances. On the theoretical level, Zhang B <ref type="bibr" target="#b9">[10]</ref> proposes a stereo vision 3D method to measure wound areas, but he does not implement it. Sirazitdinova et al. <ref type="bibr" target="#b10">[11]</ref> present a conceptual design of a system using inexpensive consumer level hardware for 3D wound reconstruction. Images are recorded using the interactive app running on the mobile device. The data is transferred to the operational server and processed on it. The resulting data can be shown to the patient and to the clinician. They provide a convenient wound measurement solution that allows patients to receive professional guidance on their injuries at home. However, at present, this is only a conceptual stage and has not been implemented. Further experiments are needed to prove the effectiveness of this scheme. Chen et al. <ref type="bibr" target="#b11">[12]</ref> present an efficient and effective 3D surface reconstruction framework for an intra-operative monocular laparoscopic scene based on SLAM. The 3D geometric information of the surgical scene allows accurate placement AR augmentations based on 3D calibration. However, their method is a 3D reconstruction of endoscopic surgery, which does not meet our application scenarios. SLAM is more suitable for objects with rich geometric texture. It is easy to lose frames when rotating, and the point cloud in the map is also very sparse. Therefore, it is not practical for scenes that need to accurately measure the wound area. Huang <ref type="bibr" target="#b12">[13]</ref> present a new solution to surface area measurement of vitiligo lesions by incorporating a depth camera and image processing algorithms. They use Kinect V1 or Kinect V2 to capture data. Then the segmented lesion area is calculated using depth data through a software component. Their solution shows good performance in the smooth part of the human body. However, if a huge block of the depth image is missing depth information, the accuracy of area measurement will be compromised.</p><p>In recent years, the resolution of smartphone cameras has been getting higher and higher, and now it can reach tens of millions of resolutions, which is enough for most photo-taking scenes. Early smartphone image technology focuses on how to present sharper picture quality. With the development of camera hardware and the universality of smartphones in people's daily lives, the development of smartphone image technology is shifting to focus on how to use images more effectively. Masiero A et al. <ref type="bibr" target="#b13">[14]</ref> have developed a mobile mapping system (MMS) using smartphones, enabling low-cost devices to build reliable MMS. Gatys LA et al. <ref type="bibr" target="#b14">[15]</ref> introduce an artistic neural algorithm, combining images taken by smartphone with many famous art works. Liu S et al. <ref type="bibr" target="#b15">[16]</ref> propose a method to automatically track facial markers using smartphones. This work inspires us to use the images acquired by smartphone to establish a 3D model of body surface wounds.</p><p>The structure from motion method (SFM) has been actively researched by scholars. By analyzing the motion of the object, it can obtain 3D information from 2D images. Since its request of images is very low, SFM can use images taken at random sequences for 3D reconstruction. At the same time, it can save on camera calibration steps in advance, and it has strong robustness. This inspires us to use SFM to implement 3D reconstruction of the body surface, and then to calculate the wound area.</p><p>In this paper, we propose a 3D wound area measurement with smartphone images. The method goes through the process of 2D to 3D to 2D. The definition of 2D to 3D to 2D is as follows: first, we collect 2D images of tested bodies by smartphone, and construct a 3D model using these 2D images; second, we unwrap the UV (Texture coordinates usually have U and V coordinate axes, so called UV coordinates.) map of the 3D model to make it into the 2D plane; finally, we use interactive image segmentation and scale conversion to extract and measure wound areas. The flow of our method is shown in Fig. <ref type="figure">1</ref>.</p><p>Our method provides a complete set of methods for measuring wound area. Since the 3D reconstruction method based on 2D images is adopted, it avoids the situation of frame loss in SLAM real-time reconstruction, making the whole method more practical. At the same time, we convert the 3D model to the 2D plane by LSCM algorithm, and then measure the wound area through the conversion between pixels and real length, which solves the challenge of directly segmenting the wound on the reconstructed 3D model. Moreover, we have verified the accuracy, practicability and effectiveness of this method through clinical experiments.</p><p>The contribution of our work is as follows:</p><p>1 The smartphone makes it very convenient and quick to capture images of wounded body parts. Our Fig. <ref type="figure">1</ref> The flow of our method method avoids wound infection, and its sampling is simple and has limited device dependence. 2 We process a novelty pipeline of 2D to 3D to 2D procedure. It overcomes the difficulties of shooting angles, human body curvature, and disabled 3D segmentation. <ref type="bibr" target="#b2">3</ref> We demonstrate the efficiency and effectiveness of our method by calculating wound areas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Related work</head><p>Since 3D reconstruction and 3D unwrapping are very important processes in our work, the related work can be divided into three broad categories: (1) wound measurement equipment, (2) 3D reconstruction methods and (3) 3D unwrapping methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound measurement equipment</head><p>The Visitrak <ref type="bibr" target="#b16">[17]</ref> is an electronic device that manually tracks wound boundaries for wound measurements. Users first use the film coverage method to draw out wound borders and then put the film in a Visitrak transparent plate.</p><p>A pen is used to draw borders in the device interface, and the area value of the wound is automatically calculated with the equipment using the Kundin formula <ref type="bibr" target="#b17">[18]</ref>. It can cause pain and risk wound infection, even as it reaches 93% accuracy <ref type="bibr" target="#b18">[19]</ref>.</p><p>The MAVIS <ref type="bibr" target="#b19">[20]</ref> uses the color coding principle to realize 3D measurement. It uses a CCD camera to record a set of alternate colors, which is projected onto the wound at about 45 degrees. Then according to the calibrated camera focus, a known location projector and the light intersection of the beam, the geometry of the wound surface is rebuilt to calculate the area. However, the MAVIS is large and expensive, which is difficult to widely use in clinical scenarios. At the same time, in the wound area &lt; 10cm 2 , the MAVIS error is above 10%.</p><p>The Silhouette mobile <ref type="bibr" target="#b20">[21]</ref> includes a hand-held computer and an integrated high-resolution digital camera with an embedded laser. The laser launches two beams of light on the edge of the wound, then the Silhouette mobile generates the wound in a 3D model based on the surface topography. The Silhouette mobile can reach 95% accuracy for diabetic foot wounds. However, this expensive Silhouette mobile cannot be applied to telemedicine, and it needs to collect data through a visible laser.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3D reconstruction methods</head><p>The stereoscopic light method takes multiple photos at the same angle and under different lighting conditions to reconstruct a 3D model. The simplest stereoscopic light method uses three light sources to illuminate the object in three different directions, opening only one light source at a time. It uses three comprehensive photos and the perfect diffuse to work out the gradient on the surface of the object. Then the 3D model is obtained after integrating the vector field. Basri R et al. <ref type="bibr" target="#b21">[22]</ref> realize 3D reconstruction under the unknown condition of light source. Hernandez C et al. <ref type="bibr" target="#b22">[23]</ref> further propose the use of colored light for reconstruction. However, the stereoscopic light method needs to know the exact location and direction of the light source, so it is difficult to apply in real life.</p><p>The stereo vision method <ref type="bibr" target="#b23">[24]</ref> is another commonlyused 3D reconstruction method. In concept, this method simulates human eyes to perceive images. It mainly includes three ways of obtaining distance information: directly using the rangefinder, predicting 3D information through a single image, and restoring 3D information by using two or more images on different viewpoints. By simulating the human visual system, it obtains the position deviation between the corresponding points of the image based on the parallax principle, and recovers 3D information.</p><p>SFM is used to detect matching feature points in an image in order to restore the position relation between the cameras. Harris C et al. <ref type="bibr" target="#b24">[25]</ref> propose the definition of the corner point, and Shi J et al. <ref type="bibr" target="#b25">[26]</ref> improve on this and propose a better angle extraction method. The state-of-the-art method of extracting and matching feature points is the scale-invariant feature transform method (SIFT) <ref type="bibr" target="#b26">[27]</ref>. Besides the SIFT method, researchers have also proposed some faster methods, such as principal component analysis scale-invariant feature transform (PCA-SIFT) <ref type="bibr" target="#b27">[28]</ref>, gradient location-orientation histogram (GLOH) <ref type="bibr" target="#b28">[29]</ref>, and speed up robust features (SURF) <ref type="bibr" target="#b29">[30]</ref>. These proposed algorithms are faster than the SIFT method in terms of speed, but weaker in terms of both stability and accuracy. Therefore, the SIFT method is still the best option when there is not much requirement for computing speed. The image demand for SFM is very low, so it can reconstruct a 3D model using video or even randomly shot image sequences. At the same time, the image sequence can be used for camera self-calibration eliminating predetermined steps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3D unwrapping methods</head><p>A heuristic method for triangulation flattening is proposed by McCartney J et al. <ref type="bibr" target="#b30">[31]</ref>. It uses a triangle list to describe the 3D surface flattening algorithm for 3D unwrapping. The method is based on an optimal local positioning of projected nodes and a sequential addition of the nodes. It incorporates an energy model in terms of the strain energy required to deform the edges of the triangular mesh. It is efficient and produces good results for nearly planar surfaces. However, the method does not guarantee the preservation of the metric structure of the 2D mesh or even its validity.</p><p>Eck et al. <ref type="bibr" target="#b31">[32]</ref> suggest the use of harmonic maps to generate the 2D projection of the 3D model. It is based on the approximation of an arbitrary initial mesh by a mesh that has subdivision connectivity and is guaranteed to be within a specified tolerance. The method produces approximations of good quality, and provides an accurate mapping function. A major disadvantage of the method is that it requires the boundary of the 2D mesh to be predefined and convex. Another drawback is that the method does not guarantee the validity of the resulting flat mesh, and the method requires the boundary of the 2D mesh domain to be predefined and convex.</p><p>The least squares conformal mapping method (LSCM) <ref type="bibr" target="#b32">[33]</ref> is a method from polygon mesh to texture mapping, which can map the shape of a 3D model to a 2D texture and is relatively undistorted. The method is robust, and can parameterize large charts with complex borders. It introduces segmentation methods to decompose the model into charts with natural shapes, and a new packing algorithm to gather them in the texture space. By using the map as a guide when creating a new 2D image, the colors of the 2D image can be applied to the original 3D model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison with the stereo vision method</head><p>An example of 3D reconstruction results is shown in Fig. <ref type="figure" target="#fig_0">2</ref>. For the wound part based on stereo vision reconstruction, only the fuzzy shape of the wound can be seen. Even the shape of the part cannot be seen clearly, and the wound area cannot be calculated through it. However, for f Calculated results of our method. The calculated results of stereo vision is unavailable, so we have to make the results empty here the wound part based on SFM reconstruction, the wound shape can be clearly seen, and its area can be calculated through our method.</p><p>SFM obtains the depth information of an object by building the relationship among natural image sequence. It then reconstructs a 3D model of the wound. Compared to other common methods like the stereoscopic light method and the stereo vision method, this method does not require pre-calibration <ref type="bibr" target="#b23">[24]</ref> or a special environment <ref type="bibr" target="#b19">[20]</ref>. It is a good method of reconstruction in the field of computer vision.</p><p>The feature match results play a vital role in building the relationship of natural image sequence. We use SIFT characteristics <ref type="bibr" target="#b26">[27]</ref> to match features. Compared to the traditional Harris <ref type="bibr" target="#b33">[34]</ref> and KLT characteristics <ref type="bibr" target="#b34">[35]</ref>, it has immutability towards rotation, scale-zooming, and brightness variation, as well as stability towards visual angle, affine, and noise variation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison with 2D measurement</head><p>The experiment results of our method are compared with the 2D measurement result to evaluate the accuracy of our method. The example of area calculation results in our methods are as shown in Fig. <ref type="figure" target="#fig_1">3</ref>. The results for the wound area are calculated using our method and the 2D method, with real values shown in Table <ref type="table" target="#tab_0">1</ref>.</p><p>And the statistical index of Pearson correlation, standardized regression coefficient and adjusted R square are listed in Table <ref type="table" target="#tab_2">2</ref>. The 2D measurement values and the measured values of our method are compared in the line chart, as shown in Fig. <ref type="figure">4</ref>. The regression curve of 2D method and ours are shown in Figs. <ref type="figure" target="#fig_2">5</ref> and<ref type="figure" target="#fig_3">6</ref> respectively. And the Bland-Altman plot of the 2D method and ours are shown in Figs. <ref type="figure">7</ref> and<ref type="figure">8</ref>. The distribution of relative measurement error (relative error) and absolute value of relative error of both methods are shown in Figs. 9 and 10. The box-plot of relative measurement error of both methods is shown in Fig. <ref type="figure">11</ref>.</p><p>From these results the measurements of the 2D method are not ideal for areas with large body curvatures. The average error rate for the 2D method is 18.40%, while the average error rate for our method is only 2.94%. In the case of less than 1cm 2 , the average error rate for the 2D method is 19.40%, and the average error rate for this method is 3.66%. In the case of 1cm 2 and above, the average error rate for the 2D method is 17.80%, and for our method it is 2.51%.</p><p>A Mann-Whitney U test was run to determine if there were differences in relative measurement error and in absolute value of relative error between 2D method and our method. As can be seen from Figs. 9 and 10, distributions of the relative measurement error and absolute   value of relative error for 2D and ours were not similar, as assessed by visual inspection. Relative measurement error for 2D and ours were statistically significantly different, U = 5668.5, z = -2.467, p = 0.014 &lt;0.05, using an asymptotic sampling distribution for U. And absolute value of relative error for 2D and ours were statistically significantly different as well, U = 1753.5.5, z = -9.932, p = 0.000 &lt;0.05, using an asymptotic sampling distribution for U.</p><p>As can be seen from Fig. <ref type="figure">11</ref>, the 2D method has 4 significant outlier while ours only have one. The sample outliers of our method are also outliers of the 2D method (no.112), and the error is much larger than that of our method. Meanwhile, it can be seen that the relative measurement error of our method is much smaller and more concentrated than that of the 2D method. This shows that our method has not only better accuracy, but also better robustness.</p><p>As can be seen from Figs. <ref type="figure">7</ref> and<ref type="figure">8</ref>, the mean difference value of the 2D method is -0.1, the standard deviation of the difference value is 0.714, and the 95% consistency limit is -1.5 to 1.3.Our method had a difference of 0.01, a standard deviation of 0.112, and a 95% consistency margin of -0.21 to 0.23. Only 5 groups of the two methods and true knowledge were outside the consistency limit (5/118=4.24%), and the overall proportion was relatively small. Therefore, it can be considered that the two methods and truth value have good consistency and can be used in clinical practice. However, in terms of the difference mean and the standard deviation of the difference, the 2D method in the upper arm of the difference mean is 10 times smaller, indicating that our method is closer to the truth value. Meanwhile, the standard deviation of our difference is 6 times smaller than that of the 2D method, indicating that the difference stability is also better than that of the 2D method.</p><p>It is obvious that our method is better than the 2D method for the measurement results of a large wound, minor wound, and arbitrary shape wound, and the average accuracy rate is above 97%. The variance of the 2D method is 0.0254, while the variance of our method is only 0.0004, meaning the wound area size and shape are less of a factor for our method.</p><p>In the measurement of skin wounds, the aim of quantitative measurement is to extract the wound area from the 3D model and calculate it accurately. We use the 2D to 3D to 2D method to complete the measurement. It not only overcomes the error caused by the position of the camera and the curvature of the body to the 2D measurement method, but also guarantees the accuracy of the damage area extracted from the 3D model <ref type="bibr" target="#b32">[33]</ref>. Therefore, our method is more accurate than the 2D method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison using different devices and methods</head><p>Table <ref type="table" target="#tab_3">3</ref> compares our method with other commonly used measurement methods, advanced commercial equipment and the state-of-the-art methods in terms of accuracy, need for calibration, risk of infection, and so on with the same dataset.</p><p>It can be seen from Table <ref type="table" target="#tab_3">3</ref> that the accuracy of our method is higher than other methods and devices widely used at present. In addition, our method uses non-contact photography to collect wound images without a complicated pre-calibration process and has no special requirements on light. Meanwhile, the 2D software method needs the photograph angle to be as perpendicular as possible to the wound, and stereo vision may cause matching failure. The MAVIS requires the equipment to be placed at 45 degrees to take a shot. Huang's <ref type="bibr" target="#b12">[13]</ref> method still has a large error in parts with a large curvature of human body as well as the Yang's <ref type="bibr" target="#b7">[8]</ref>. In contrast, our method is not Fig. <ref type="figure">4</ref> The line chart of ground truth, 2D measurement and our measurement limited by shooting angle, easy to operate, can be widely applied, and avoids wound infection and pain. Moreover, our method requires only a smartphone with an ordinary PC to complete measurement. It has practical application value and possibilities, and even can be applied to remote medical treatment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The wound parts acquired from the stereo vision method are fuzzy. The stereo vision method is used to calculate the 3D coordinates of spatial points in projective geometry by means of space ray intersection. This method is relatively loose in camera calibration and correction and  Compared with 1D and 2D measurement methods, the accuracy of our method is high, especially in areas with a large curvature. Compared with the 3D method, the accuracy of this method is the same as that of the commercial equipment while our method does not need calibration. It is harmless and has little dependence on equipment. Wound area measurement can be done using a smartphone and an ordinary computer. Moreover, this method has the potential to be applied to telemedicine. Therefore, the smartphone based 3D wound area quantitative measurement in clinical and forensic applications have great prospects, and is worth further exploration and research.</p><p>As for the resolution of the camera, different cameras can bring different results. If the camera resolution is too low, the wound boundary will become very blurred, so that neither interactive segmentation nor automatic segmentation can be completed, and accurate results cannot be obtained by digital methods. Of course, if the resolution is increased, the ability of the image to express the wound itself is also enhanced, which is undoubtedly beneficial to the wound edge segmentation.</p><p>At the same time, this method has the possibility of further improvement. First, since 3D reconstruction and interactive segmentation are involved, out method takes about 16 minutes to be completed. And 3D reconstruction based on SFM requires multi-angle image information of wound area for feature point matching and point cloud location calculation. Therefore, the more images, the better the reconstruction effect will be, and the higher the measurement accuracy will be. However, this will lead to a long operation time, and shortening the operation time of 3D reconstruction will be an urgent problem for the method in this paper. Second, although the interactive  segmentation method on 2D images can bring excellent segmentation results, it consumes more energy. Due to the characteristics of clinical medicine and forensic medicine, there is still no good automatic segmentation method at present. And if the segmentation result is coarse, it is bound to affect the final result. We consulted with clinical and forensic experts. In practice, because the edge of the wound is different from the border in other pictures, the definition of the wound margins relies on the experience of medical experts. In order to make the segmentation of wound as correct as possible, we used an interactive segmentation method. In the future, deep learning method can be considered to complete the automatic segmentation of the damaged area after a large number of real injury images training, so as to save human workload and improve the measurement accuracy at the same time. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>In this paper, we implemented a wound measurement method based on 3D transformation and smartphone images. A smartphone is used to capture wound images, which lowers costs, lessens dependence on hardware, and avoids the risk of infection. The structure from motion method (SFM) and the least square conformal mapping method (LSCM) are introduced into the measurement of the wound area. A quantitative calculation of the 3D wound area is realized, which solving the challenges that 2D methods cannot and achieving a good accuracy of 0.97. First, based on SFM, the 3D model of a wound is reconstructed by feature extraction, sparse reconstruction, clustering and intensive reconstruction. Then, based on LSCM, the UV of the 3D model is mapped onto a 2D plane. Finally, the interactive image segmentation method and scale conversion method are used to extract and measure the wound areas.</p><p>Our method uses a contactless smartphone camera and software processing to complete the body surface wound location from 2D to 3D to 2D. Our method overcomes the defects of traditional methods, which can cause wound infection and face human subjective factors. On the other hand, it solves the problem of human curvature and the problem of shooting angles which cannot be overcome in the 2D measurement method of a computer software system based on the wound image. Moreover, it solves the shortcomings of equipment complexity and equipment dependence in commercial settings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>The main purpose of this paper is to measure the area of a surface wound precisely and quantitatively. We propose a pipeline consisting of 3D reconstruction and model mapping combined with image segmentation for measuring wound area quantitatively. The pipeline consists of three phases: (1) 3D reconstruction of the wound part of the body according to multiple images based on SFM;</p><p>(2) mapping the 3D model to the 2D plane, using LSCM to do UV unwrapping (texture coordinates usually have two axes of U and V, thus called the UV coordinates); (3) we use the interactive image segmentation method and the scale conversion algorithm to extract and measure the wound area. The flowchart of the whole pipeline is shown in Fig. <ref type="figure" target="#fig_0">12</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3D reconstruction based on SFM</head><p>SFM <ref type="bibr" target="#b35">[36]</ref> estimates the 3D structure from a sequence of 2D images. It first determines the spatial and geometric relationship of the target by moving the camera. It then Fig. <ref type="figure" target="#fig_0">12</ref> A flowchart of the proposed method. The method consists of three phases: 3D reconstruction, UV unwrapping and 2D calculation. (1) In the first phase, multiple images of one object are captured by smart-phone, the features of them are extracted and matched through SIFT. Then the 3D model of the object is reconstructed based on SFM, and goes through the process of sparse &amp; dense reconstruction and networking. (2) In the second phase, the UV of the 3D model is unwrapped to a 2D image based on LSCM. (3) In the lase phase, the wound area on the 2D image is extracted and calculated uses the numerical method to recover 3D information by detecting the matching feature point set in multiple uncalibrated images. The schematic diagram of SFM is shown in Fig. <ref type="figure" target="#fig_6">13</ref>. SFM extracts feature points from adjacent multiple images at different times, and establishes corresponding relationships. Then we calculate the structure and motion of the object, and generate the reconstruction of the 3D model of the sparse point cloud.</p><p>The overall block diagram of 3D reconstruction based on structure from motion is shown in Fig. <ref type="figure">14</ref>. We start by extracting image features using SIFT, which searches all image locations on the scale, and then uses the Gaussian differential function to identify potential interest points for scale and rotation invariance. The standard space of an image is defined as the function L(x, y, σ ). It is usually given by the convolution of G(x, y, σ ) with the input image I(x, y) of a sigma variable. The calculation formula is as follows:</p><formula xml:id="formula_0">L(x, y, σ ) = G(x, y, σ ) * I(x, y), (<label>1</label></formula><formula xml:id="formula_1">)</formula><formula xml:id="formula_2">G(x, y, σ ) = 1 2πσ 2 e -( x 2 +y 2 ) 2σ 2 ,<label>( 2 )</label></formula><p>Where, σ is the scale, * is the convolution operation. In each candidate position, the location and scale are determined by a fitting model. We use the DOG function D(x, y, σ ) to find out the most stable key points in the scale space. The function D(x, y, σ ) can be evaluated on two adjacent scales. The formula is:</p><formula xml:id="formula_3">D(x, y, σ ) = (G(x, y, kσ ) -G(x, y, σ )) * I(x, y),<label>(3)</label></formula><p>Where, k is a constant factor between these two scales, * is the convolution operation. Based on the gradient direction of the image, each key point is assigned one or more directions. The scale of key points is used to select the Gaussian smooth image I with the closest scale, so that all calculations are carried out in a scale-invariant way. In this scale σ , for every graph sample I(x, y), the gradient size m(x, y) and direction (x, y) is precomputed in terms of pixel differences. We have chosen the histogram of the scale in which the key points are located and its statistical radius is 3 ×1.5 σ . The calculation formula of gradient size and direction is as follows:</p><formula xml:id="formula_4">A = (I(x + 1, y) -I(x -1, y)),<label>( 4 )</label></formula><formula xml:id="formula_5">B = (I(x, y + 1) -I(x, y -1)),<label>( 5 )</label></formula><formula xml:id="formula_6">m(x, y) = A 2 + B 2 ,<label>( 6 )</label></formula><formula xml:id="formula_7">θ(x, y) = tan -1 B A ,<label>( 7 )</label></formula><p>All subsequent operations on the image data are transformed by the direction, scale, and location of key points, in order to provide invariance to these transformations. The characteristics of the images are matched according to the feature point set extracted from all relevant images. In feature matching between two images, considering image I and J are the two images, there may be a feature in image I corresponding to two characteristics in image J. In order to solve the above problems, we use F matrix and the random sampling consistency algorithm (RANSAC) <ref type="bibr" target="#b36">[37]</ref> to optimize and filter the results after initial matching. The F matrix can associate the pixel coordinates between two images, and the pixel coordinates of each matched pair of features should be satisfied:</p><formula xml:id="formula_8">x y 1 F ⎡ ⎣ x y 1 ⎤ ⎦ ,<label>( 8 )</label></formula><p>F is the basic matrix, (X, Y ), and (X , Y ) are the pixel coordinates of the feature points corresponding to two images, respectively.</p><p>Then, according to the matching results, the 3D reconstruction module uses SFM <ref type="bibr" target="#b37">[38]</ref> for sparse reconstruction.</p><p>After sparse reconstruction, the collected images are clustered using clustering multi-view stereo (CMVS) <ref type="bibr" target="#b38">[39]</ref>. CMVS can optimize the input of SFM and reduce the time and space cost of intensive matching. Then, through the patch-based multi-view stereo (PMVS) <ref type="bibr" target="#b39">[40]</ref>, each image cluster is reconstructed independently. Finally, using the Poisson surface reconstruction algorithm <ref type="bibr" target="#b40">[41]</ref>, the points are connected and networked. In this way, we set the information of the input point as a surface information model composed of a seamless triangular face, which constructs a 3D model according to the 3D point cloud.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3D unwrap based on LSCM</head><p>The segmentation of a 3D model is based on two kinds of 3D models: one is the analogy of existing models <ref type="bibr" target="#b41">[42]</ref>, and the other is models from software modeling <ref type="bibr" target="#b42">[43]</ref>. It is difficult to segment a precise local area of the model from 3D reconstruction. In order to guarantee accuracy of wound area segmentation, we adopt LSCM <ref type="bibr" target="#b32">[33]</ref> to unwrap the surface of a 3D model onto a 2D plane. The block diagram of 3D unwrapping is shown in Fig. <ref type="figure" target="#fig_7">15</ref>. The conformal mapping, or conformal equivalence <ref type="bibr" target="#b43">[44]</ref>, defines a one-to-one mapping between two surfaces that preserves the local angle and local similarity. Mathematically, the conformal mapping is defined as follows: when the mapping U maps a domain (u, v) to a surface U(u, v), each (u, v) satisfies:</p><formula xml:id="formula_9">N(u, v) ∂U(u, v) ∂u = ∂U(u, v) ∂v ,<label>( 9 )</label></formula><p>The conformal mapping is defined on the Riemann surface. In formula <ref type="bibr" target="#b8">(9)</ref>, N(u, v) is the unit norm vector on the surface U(u, v).</p><p>LSCM <ref type="bibr" target="#b32">[33]</ref> is a new quasi-conformal parameterization method based on a least-square approximation of the Cauchy-Riemann equations. The schematic diagram of LSCM is shown in Fig. <ref type="figure" target="#fig_3">16</ref>. Consider a triangulation mesh K = (V , T), where V = {v 1 , v 2 , ..., v n }, v i is a set of vertex positions, and T = {t 1 , t 2 , ..., t m }, t i = {v i1 , v i2 , v i3 } is a set of triangles consisting of triples of vertices, with i1, i2, and i3 denoting the vertical index in V. Since each triangle t i has a uniquely defined norm, t i can be imposed on a local orthonormal basis (x, y) with the normal direction along the z-axis.</p><p>Consider a triangulation mesh K = (V , T), where V = {v 1 , v 2 , ..., v n }, v i is a set of vertex positions, and T = {t 1 , t 2 , ..., t m }, t i = {v i1 , v i2 , v i3 } is a set of triangles consisting of triples of vertices, with i1, i2, and i3 denoting the vertical index in V. Since each triangle t i has a uniquely defined norm, t i can be imposed on a local orthonormal basis (x, y) with the normal direction along the Z-axis.</p><p>Based on the Riemann equation, a mapping U : (x, y) → (u, v) is said to be conformal on a triangle t i if and only if the following equation holds true:</p><formula xml:id="formula_10">∂U ∂x + i ∂U ∂y = 0,<label>(10)</label></formula><p>As formula ( <ref type="formula" target="#formula_9">9</ref>) cannot be strictly enforced on the whole surface, the violation of the equation can be defined as the conformal energy in a square sense:</p><formula xml:id="formula_11">E LSCM = t i ∈T | ∂U ∂x + i ∂U ∂y | 2 A(t i ),<label>(11)</label></formula><p>Where A(t i ) is the area of the triangle t i . By calculating the smallest value of E LSCM in formula <ref type="bibr" target="#b10">(11)</ref>, the planar coordinates (u, v) of the 3D triangle network in the parameter space is obtained, which means the 3D network is expanding in the parameters of a 2D plane.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound segmentation and area calculation</head><p>The particularity of clinical medicine requires maintaining of the authenticity of image damage. However, due to the different types of light, color and wounds, ensuring accurate segmentation of all images for the automatic segmentation method for 2D images is difficult. Therefore, we use an interactive image segmentation method to artificially modify the image segmentation results and carry out the extraction of the wound area. The wound extraction and calculation process is shown in Fig. <ref type="figure">17</ref>.</p><p>We attach two lengths of known adhesive tape to the outside of the damaged area, which form X and Y directions. The user uses the mouse to mark the scale of X and Y in the image, and the system automatically labels the pixel length as L x and L y , as shown in Fig. <ref type="figure">18</ref>. We use the scale conversion method according to the ratio of the known length and the pixel length in X, Y direction, using formula <ref type="bibr" target="#b11">(12)</ref> to transform the pixel area into the actual area. The measurement length is accurate to 1 mm and the measurement area is accurate to 1 mm 2 . </p><formula xml:id="formula_12">S wound = l x L x × l y L y × S img .<label>(12)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dataset</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Simulated wound</head><p>Simulated wounds are used to compare the 3D reconstruction method in this paper with the popular stereo vision method. They are obtained by arbitrarily tailoring the coordinate paper. We use scissors to cut out different shapes and sizes on the coordinate paper to simulate the 2D wounds, and the cut is not in accordance with any rule. The process method is shown in Fig. <ref type="figure">19</ref>.</p><p>The simulated wound of the rectangle and its superposition are the regular wounds, and other shape wounds are irregular wounds. Due to the more realistic significance of irregular wounds, in the experiment, there are 12 regular wounds and 28 irregular wounds. The comparison experiment attaches the simulated wounds to parts of the larger body curvatures like fingers, wrist, arm, ankle, etc.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Real wound</head><p>Real wounds are used to verify the accuracy of our method. They are obtained from the mammary department of the Xiyuan Hospital in China. The patients total 54 in number and range in age from 21 to 50, with a total Fig. <ref type="figure">18</ref> Schematic diagram of area calculation. For the example, the actual lengths l x and l y are 5 cm 2 . The pixel lengths L x and L y are automatically recorded by the system Fig. <ref type="figure">19</ref> The production of simulated wound. We use scissors to cut out different shapes and sizes on the coordinate paper to simulate the wounds of 118 wounds. The area of the wound ranges from 0.11 to 12.5cm 2 , with 44 at less than 1cm 2 and 74 at 1cm 2 and above. We get the wound images at multiple angles using an Iphone6 and the method above. The spatial resolution of the image is 72 dpi ×72 dpi, the color resolution of which is 3264 pixel ×2448 pixel and the bit depth is 24.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ground truth</head><p>The film coverage method is the most accurate measurement in the relative field. The sterile transparent film is covered in the wound area and the shape of the area is depicted artificially. Then the film is put on a coordinate paper. The area is obtained by counting the number artificially. Most researchers in the field of wound measurement use this method as the real value for wound or simulated wound area <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b44">45]</ref>.</p><p>The real value of the wound area in this paper is obtained by means of counting done multiple times by multiple people, and then taking the average of the counted numbers. Among them, the coordinate paper on each grid is 1mm 2 , and each wound is reviewed by at least 3 counters. For an incomplete grid of less than one, we artificially judge whether it is less than half of the area. When it is less than half grid, it is not calculated, otherwise, it is calculated as a whole grid.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implementation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The stereo vision method</head><p>We use an advanced 3D reconstruction device of stereo vision ZED <ref type="bibr">[46]</ref> to set the baseline. ZED equipment is an advanced stereovision camera with stable results. It simulates human body parts with a simulated wound attached to the body parts with larger curvatures. We have conducted three times of parameter pre-calibration, and its mean variance is 0.0008. The pre-calibration parameters in our experiment are as follows: in the left sensor, the fx = 1399.17, fy = 1399.17 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The 2D method</head><p>We put the adhesive tape scale next to the wound, forming an XY axis, and then shooting it with the data acquisition device in the vertical direction of the wound. Measurements are taken with close placement of the adhesive tape scale from the wound edges (0.5-1cm). When the wound is in a large part of human curvature, a picture cannot show the whole wound, we consider one wound as two wounds and shoot them vertically respectively. The images are then fed into commercial 2D measurement software, where the edges of the wound are artificially portrayed and the area of the wound is calculated. The 2D software originates from a Chinese judicial identification center, where all the people depicting the wound were doctors, legal medical experts or medical students.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Our method</head><p>The requirement of data acquisition equipment in our method is low. Any digital camera, smartphone, and other type of camera can be used to capture wound images. The acquisition process is not limited to the left and right movement of the acquisition equipment. It can be shot at any angle, distance, or even the same acquisition device. The device used for acquiring data is the iphone6.</p><p>We use the smartphone around the simulated wound for shooting. The angle between the two images is not greater than 30 degrees, and the number of photos is not less than For real wounds, we use the same method to take images and reconstruct a 3D model, and use our method to unwrap the wound area UV of the 3D model. Users trace the contour points of the whole damage area sequentially along the contour of the damaged area on the 2D image of the wound. The system selects and saves the selected points automatically, and connects each two adjacent points with a straight line. When the whole area is drawn, the system automatically connects the two points at the beginning and end, forming a closed polygon. Result for the whole process are shown in Fig. <ref type="figure" target="#fig_10">20</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ruler method</head><p>The ruler method is a simple method of wound measurement, and it is also the most used method in clinic. By measuring the length and width of the external rectangular wound with a ruler, a flexible ruler or a self-adhesive ruler, the measurement value of the wound area can be obtained by multiplying the length and width.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Visitrak method</head><p>The Visitrak device method is an electronic device that manually tracks the wound boundary for wound measurement. The user first describes the wound boundary with the method of film covering, and then places the film under the Visitrak transparent plate, and draws the boundary in the device interface with a pen. The device automatically calculates the length, width and area value of the wound with the Kundin formula.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 3D reconstruction comparatione of simulated wounds. a Images captured by smartphone. b Ground truths. c Looks of 2D method. d 3D model by stereo vision. e 3D model by ours. f Calculated results of our method. The calculated results of stereo vision is unavailable, so we have to make the results empty here</figDesc><graphic coords="4,126.82,364.65,340.36,328.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Clinical experience result. a Images captured by smart-phone. b Ground truths. c Results of feature matching. d 3D reconstruction results by SFM. e Results of networking. f Results of unwrapped images (2D). g Calculated results of our method</figDesc><graphic coords="5,127.96,433.26,340.36,270.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Regression analysis plot of 2D method</figDesc><graphic coords="8,126.82,443.70,340.36,269.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 6</head><label>6</label><figDesc>Fig. 6 Regression analysis plot of our method</figDesc><graphic coords="9,64.96,93.66,467.08,369.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 7 Fig. 8</head><label>78</label><figDesc>Fig. 7 Bland-Altman plot of 2D method</figDesc><graphic coords="10,126.82,101.79,340.36,255.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 9 Fig. 10</head><label>910</label><figDesc>Fig. 9 Distributions of relative measurement error</figDesc><graphic coords="11,127.96,434.25,340.36,279.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 13</head><label>13</label><figDesc>Fig.<ref type="bibr" target="#b12">13</ref> Schematic diagram of SFM. A target point P 1 (x, y, z) in the space passes through the horizontal, vertical, and rotational motions to point P 2 (x , y , z ), point (X, Y) and, (X , Y ) respectively represent the imaging point in a 2D plan for P 1 (x, y, z) and P 2 (x , y , z )</figDesc><graphic coords="14,155.32,459.48,283.72,243.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 15</head><label>15</label><figDesc>Fig. 15 Block diagram of 3D unwrapping. The block diagram shows the main process of 3D unwrapping, and the visualization process diagrams are provided at some steps</figDesc><graphic coords="15,127.96,598.59,340.36,104.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 16 Fig. 17</head><label>1617</label><figDesc>Fig.<ref type="bibr" target="#b15">16</ref> Schematic diagram of LSCM. V and V represent T and T respectively in a 2D plane. U 1 , U 2 , U 3 , U 4 are respectively the fixed points V 1 , V 2 , V 3 , V 4 of the triangular section of the 3D model</figDesc><graphic coords="16,63.82,543.03,467.08,160.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>, cx = 983.48, cy = 521.523, k1 = -0.17355, k2 = 0.027811; In the right sensor, fx = 1399.49, fy = 1399.49, cx = 962.345, cy = 514.697, k1 = -0.17177, and k2 = 0.026456; the stereo baseline= 119.958, the stereo convergence= 0.010710, the rx (tilt) = 0.008133, the rz (roll) = 0.001022. Because the ZED camera can perceive depths between 50cm (1.8feet) and 20meters (65feet), the experiences are taken from distance greater than 50cm. The example of 3D reconstruction results is shown in Fig. 2.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 20</head><label>20</label><figDesc>Fig. 20 Wound area measurement process of a real wound. a The image captured by smart-phone. b The result of feature matching. c The spares reconstruction result. d The dense reconstruction result. e The result of networking. f The reconstructed 3D model. g The result of unwrapped images. h The calculated result of our method</figDesc><graphic coords="19,127.96,94.29,340.36,202.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="12,126.82,110.85,340.36,269.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="12,126.82,449.43,340.36,247.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,64.96,418.95,467.08,256.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="17,156.46,459.12,283.72,244.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Area calculation and error rate comparison of 2D system and our method (RA = real area, AC = area calculation, AE = absolute value of relative error, MAPE = mean absolute percent error, var = variance)</figDesc><table><row><cell>No.</cell><cell>RA(cm 2 )</cell><cell>AC(cm 2 ) 2D</cell><cell>ours</cell><cell>A E ( % ) 2D</cell><cell>ours</cell><cell>No.</cell><cell>RA(cm 2 )</cell><cell>AC(cm 2 ) 2D</cell><cell>ours</cell><cell>A E ( % ) 2D</cell><cell>ours</cell></row><row><cell>1</cell><cell>2.02</cell><cell>2.1456</cell><cell>1.9641</cell><cell>6.22</cell><cell>2.77</cell><cell>60</cell><cell>0.78</cell><cell>0.8173</cell><cell>0.7533</cell><cell>4.78</cell><cell>3.43</cell></row><row><cell>2</cell><cell>0.27</cell><cell>0.1544</cell><cell>0.2581</cell><cell>42.82</cell><cell>4.41</cell><cell>61</cell><cell>3.03</cell><cell>3.1793</cell><cell>2.9266</cell><cell>4.93</cell><cell>3.41</cell></row><row><cell>3</cell><cell>1.90</cell><cell>1.9257</cell><cell>1.8883</cell><cell>1.35</cell><cell>0.61</cell><cell>62</cell><cell>4.35</cell><cell>4.3271</cell><cell>4.3493</cell><cell>0.53</cell><cell>0.02</cell></row><row><cell>4</cell><cell>5.03</cell><cell>2.9112</cell><cell>5.2029</cell><cell>42.12</cell><cell>3.44</cell><cell>63</cell><cell>3.67</cell><cell>5.4157</cell><cell>3.5271</cell><cell>47.57</cell><cell>3.89</cell></row><row><cell>5</cell><cell>9.91</cell><cell>9.4237</cell><cell>9.9797</cell><cell>4.91</cell><cell>0.70</cell><cell>64</cell><cell>1.25</cell><cell>1.1972</cell><cell>1.2581</cell><cell>4.23</cell><cell>0.65</cell></row><row><cell>6</cell><cell>0.20</cell><cell>0.1820</cell><cell>0.2078</cell><cell>9.00</cell><cell>3.89</cell><cell>65</cell><cell>3.64</cell><cell>3.6731</cell><cell>3.6411</cell><cell>0.91</cell><cell>0.03</cell></row><row><cell>7</cell><cell>1.33</cell><cell>1.2343</cell><cell>1.3485</cell><cell>7.19</cell><cell>1.39</cell><cell>66</cell><cell>1.85</cell><cell>2.4991</cell><cell>1.8362</cell><cell>35.08</cell><cell>0.75</cell></row><row><cell>8</cell><cell>12.50</cell><cell>7.5514</cell><cell>13.2206</cell><cell>39.59</cell><cell>5.76</cell><cell>67</cell><cell>0.39</cell><cell>0.4435</cell><cell>0.3890</cell><cell>13.71</cell><cell>0.26</cell></row><row><cell>9</cell><cell>1.09</cell><cell>1.0202</cell><cell>1.1145</cell><cell>6.41</cell><cell>2.25</cell><cell>68</cell><cell>0.15</cell><cell>0.1520</cell><cell>0.1450</cell><cell>1.35</cell><cell>3.32</cell></row><row><cell>10</cell><cell>0.11</cell><cell>0.1015</cell><cell>0.1065</cell><cell>7.74</cell><cell>3.19</cell><cell>69</cell><cell>0.61</cell><cell>0.6762</cell><cell>0.5812</cell><cell>10.84</cell><cell>4.73</cell></row><row><cell>11</cell><cell>0.99</cell><cell>0.6230</cell><cell>1.0458</cell><cell>37.07</cell><cell>5.64</cell><cell>70</cell><cell>1.12</cell><cell>1.1793</cell><cell>1.1410</cell><cell>5.29</cell><cell>1.98</cell></row><row><cell>12</cell><cell>6.74</cell><cell>6.9441</cell><cell>6.6396</cell><cell>3.03</cell><cell>1.49</cell><cell>71</cell><cell>0.18</cell><cell>0.1984</cell><cell>0.1795</cell><cell>10.22</cell><cell>0.28</cell></row><row><cell>13</cell><cell>0.23</cell><cell>0.2195</cell><cell>0.2347</cell><cell>4.56</cell><cell>2.04</cell><cell>72</cell><cell>0.89</cell><cell>0.7812</cell><cell>0.9094</cell><cell>12.22</cell><cell>2.18</cell></row><row><cell>14</cell><cell>0.23</cell><cell>0.2355</cell><cell>0.2255</cell><cell>2.40</cell><cell>1.95</cell><cell>73</cell><cell>0.28</cell><cell>0.2810</cell><cell>0.2825</cell><cell>0.34</cell><cell>0.91</cell></row><row><cell>15</cell><cell>6.20</cell><cell>5.4769</cell><cell>6.3677</cell><cell>11.66</cell><cell>2.70</cell><cell>74</cell><cell>0.34</cell><cell>0.2691</cell><cell>0.3529</cell><cell>20.84</cell><cell>3.79</cell></row><row><cell>16</cell><cell>0.59</cell><cell>0.5509</cell><cell>0.6075</cell><cell>6.63</cell><cell>2.97</cell><cell>75</cell><cell>0.96</cell><cell>0.4828</cell><cell>0.9796</cell><cell>49.70</cell><cell>2.04</cell></row><row><cell>17</cell><cell>0.88</cell><cell>0.8151</cell><cell>0.9091</cell><cell>7.38</cell><cell>3.30</cell><cell>76</cell><cell>2.72</cell><cell>1.6988</cell><cell>2.8421</cell><cell>37.54</cell><cell>4.49</cell></row><row><cell>18</cell><cell>3.99</cell><cell>4.0891</cell><cell>3.9113</cell><cell>2.48</cell><cell>1.97</cell><cell>77</cell><cell>1.48</cell><cell>0.8552</cell><cell>1.5444</cell><cell>42.22</cell><cell>4.35</cell></row><row><cell>19</cell><cell>0.72</cell><cell>0.8002</cell><cell>0.7487</cell><cell>11.14</cell><cell>3.99</cell><cell>78</cell><cell>3.05</cell><cell>4.0327</cell><cell>2.9880</cell><cell>32.22</cell><cell>2.03</cell></row><row><cell>20</cell><cell>2.98</cell><cell>3.0852</cell><cell>2.9614</cell><cell>3.53</cell><cell>0.62</cell><cell>79</cell><cell>1.61</cell><cell>0.9655</cell><cell>1.5669</cell><cell>40.03</cell><cell>2.68</cell></row><row><cell>21</cell><cell>1.80</cell><cell>2.7304</cell><cell>1.7449</cell><cell>51.69</cell><cell>3.06</cell><cell>80</cell><cell>0.36</cell><cell>0.1964</cell><cell>0.3722</cell><cell>45.45</cell><cell>3.39</cell></row><row><cell>22</cell><cell>2.04</cell><cell>1.9410</cell><cell>2.0404</cell><cell>4.85</cell><cell>0.02</cell><cell>81</cell><cell>2.79</cell><cell>2.2028</cell><cell>2.8371</cell><cell>21.05</cell><cell>1.69</cell></row><row><cell>23</cell><cell>2.47</cell><cell>2.6954</cell><cell>2.4928</cell><cell>9.13</cell><cell>0.92</cell><cell>82</cell><cell>2.20</cell><cell>1.3042</cell><cell>2.3150</cell><cell>40.72</cell><cell>5.23</cell></row><row><cell>24</cell><cell>5.96</cell><cell>5.0697</cell><cell>6.0596</cell><cell>14.94</cell><cell>1.67</cell><cell>83</cell><cell>1.66</cell><cell>1.6802</cell><cell>1.6637</cell><cell>1.22</cell><cell>0.22</cell></row><row><cell>25</cell><cell>3.06</cell><cell>2.1524</cell><cell>3.1713</cell><cell>29.66</cell><cell>3.64</cell><cell>84</cell><cell>1.69</cell><cell>1.2231</cell><cell>1.7594</cell><cell>27.63</cell><cell>4.11</cell></row><row><cell>26</cell><cell>0.97</cell><cell>0.7183</cell><cell>1.0164</cell><cell>25.94</cell><cell>4.78</cell><cell>85</cell><cell>4.36</cell><cell>4.7699</cell><cell>4.1851</cell><cell>9.40</cell><cell>4.01</cell></row><row><cell>27</cell><cell>3.49</cell><cell>3.4324</cell><cell>3.4955</cell><cell>1.65</cell><cell>0.16</cell><cell>86</cell><cell>2.50</cell><cell>2.5650</cell><cell>2.5028</cell><cell>2.60</cell><cell>0.11</cell></row><row><cell>28</cell><cell>12.14</cell><cell>12.6043</cell><cell>12.1365</cell><cell>3.82</cell><cell>0.03</cell><cell>87</cell><cell>2.29</cell><cell>2.1020</cell><cell>2.3011</cell><cell>8.21</cell><cell>0.49</cell></row><row><cell>29</cell><cell>4.65</cell><cell>3.9788</cell><cell>4.7489</cell><cell>14.44</cell><cell>2.13</cell><cell>88</cell><cell>5.12</cell><cell>5.5105</cell><cell>5.0762</cell><cell>7.63</cell><cell>0.85</cell></row><row><cell>30</cell><cell>0.84</cell><cell>0.6692</cell><cell>0.8794</cell><cell>20.34</cell><cell>4.69</cell><cell>89</cell><cell>0.41</cell><cell>0.5473</cell><cell>0.3989</cell><cell>33.49</cell><cell>2.70</cell></row><row><cell>31</cell><cell>0.89</cell><cell>0.8189</cell><cell>0.9227</cell><cell>7.99</cell><cell>3.67</cell><cell>90</cell><cell>8.10</cell><cell>9.5860</cell><cell>7.9691</cell><cell>18.35</cell><cell>1.62</cell></row><row><cell>32</cell><cell>8.17</cell><cell>6.0788</cell><cell>8.5622</cell><cell>25.60</cell><cell>4.80</cell><cell>91</cell><cell>0.38</cell><cell>0.5559</cell><cell>0.3731</cell><cell>46.29</cell><cell>1.82</cell></row><row><cell>33</cell><cell>1.40</cell><cell>1.4173</cell><cell>1.3779</cell><cell>1.24</cell><cell>1.58</cell><cell>92</cell><cell>2.29</cell><cell>2.0965</cell><cell>2.2347</cell><cell>8.45</cell><cell>2.41</cell></row><row><cell>34</cell><cell>1.37</cell><cell>1.2933</cell><cell>1.3213</cell><cell>5.60</cell><cell>3.56</cell><cell>93</cell><cell>0.45</cell><cell>0.2244</cell><cell>0.4401</cell><cell>50.14</cell><cell>2.20</cell></row><row><cell>35</cell><cell>0.74</cell><cell>0.6854</cell><cell>0.7051</cell><cell>7.38</cell><cell>4.71</cell><cell>94</cell><cell>0.76</cell><cell>0.7058</cell><cell>0.7765</cell><cell>7.13</cell><cell>2.17</cell></row><row><cell>36</cell><cell>1.35</cell><cell>1.1543</cell><cell>1.4025</cell><cell>14.50</cell><cell>3.89</cell><cell>95</cell><cell>8.03</cell><cell>7.9612</cell><cell>8.1409</cell><cell>0.86</cell><cell>1.38</cell></row><row><cell>37</cell><cell>0.59</cell><cell>0.4972</cell><cell>1.6038</cell><cell>15.73</cell><cell>2.34</cell><cell>96</cell><cell>3.25</cell><cell>3.7312</cell><cell>3.2752</cell><cell>14.71</cell><cell>0.78</cell></row><row><cell>38</cell><cell>5.10</cell><cell>3.6088</cell><cell>5.3373</cell><cell>29.24</cell><cell>4.65</cell><cell>97</cell><cell>11.26</cell><cell>11.8617</cell><cell>11.2349</cell><cell>5.23</cell><cell>0.22</cell></row><row><cell>39</cell><cell>1.44</cell><cell>1.3620</cell><cell>1.4128</cell><cell>5.42</cell><cell>1.89</cell><cell>98</cell><cell>3.78</cell><cell>3.8444</cell><cell>3.7817</cell><cell>1.70</cell><cell>0.04</cell></row><row><cell>40</cell><cell>0.11</cell><cell>0.1249</cell><cell>0.1131</cell><cell>13.57</cell><cell>2.85</cell><cell>99</cell><cell>0.80</cell><cell>1.0795</cell><cell>0.7856</cell><cell>34.93</cell><cell>1.80</cell></row><row><cell>41</cell><cell>0.89</cell><cell>0.8149</cell><cell>0.9306</cell><cell>8.44</cell><cell>4.57</cell><cell>100</cell><cell>0.47</cell><cell>0.5556</cell><cell>0.4623</cell><cell>18.21</cell><cell>1.65</cell></row><row><cell>42</cell><cell>2.14</cell><cell>2.0095</cell><cell>2.1400</cell><cell>6.10</cell><cell>0.00</cell><cell>101</cell><cell>1.00</cell><cell>1.0367</cell><cell>1.0077</cell><cell>3.67</cell><cell>0.77</cell></row><row><cell>43</cell><cell>0.27</cell><cell>0.2066</cell><cell>0.2830</cell><cell>23.49</cell><cell>4.83</cell><cell>102</cell><cell>0.46</cell><cell>0.5045</cell><cell>0.4387</cell><cell>9.66</cell><cell>4.62</cell></row><row><cell>44</cell><cell>4.41</cell><cell>4.1795</cell><cell>4.5546</cell><cell>5.23</cell><cell>3.28</cell><cell>103</cell><cell>0.50</cell><cell>0.3250</cell><cell>0.5174</cell><cell>35.00</cell><cell>3.49</cell></row><row><cell>45</cell><cell>2.25</cell><cell>1.7818</cell><cell>2.2985</cell><cell>20.81</cell><cell>2.15</cell><cell>104</cell><cell>6.98</cell><cell>5.5115</cell><cell>7.0106</cell><cell>21.04</cell><cell>0.44</cell></row><row><cell>46</cell><cell>1.59</cell><cell>1.1074</cell><cell>1.6206</cell><cell>30.35</cell><cell>1.92</cell><cell>105</cell><cell>2.28</cell><cell>1.4454</cell><cell>2.3099</cell><cell>36.60</cell><cell>1.31</cell></row><row><cell>47</cell><cell>1.04</cell><cell>1.6420</cell><cell>1.0235</cell><cell>57.88</cell><cell>1.58</cell><cell>106</cell><cell>0.31</cell><cell>0.2947</cell><cell>0.3106</cell><cell>4.92</cell><cell>0.20</cell></row><row><cell>48</cell><cell>2.02</cell><cell>2.3111</cell><cell>1.9642</cell><cell>14.41</cell><cell>2.76</cell><cell>107</cell><cell>0.35</cell><cell>0.3352</cell><cell>0.3586</cell><cell>4.23</cell><cell>2.46</cell></row><row><cell>49</cell><cell>2.13</cell><cell>2.4079</cell><cell>2.0971</cell><cell>13.05</cell><cell>1.55</cell><cell>108</cell><cell>4.73</cell><cell>4.9577</cell><cell>4.5500</cell><cell>4.81</cell><cell>3.81</cell></row><row><cell>50</cell><cell>2.64</cell><cell>2.4554</cell><cell>2.6605</cell><cell>6.99</cell><cell>0.78</cell><cell>109</cell><cell>0.45</cell><cell>0.40.5</cell><cell>0.4575</cell><cell>10.33</cell><cell>1.66</cell></row><row><cell>51</cell><cell>0.15</cell><cell>0.2385</cell><cell>0.1383</cell><cell>59.03</cell><cell>7.83</cell><cell>110</cell><cell>0.22</cell><cell>0.2280</cell><cell>0.2019</cell><cell>3.66</cell><cell>8.23</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Area calculation and error rate comparison of 2D system and our method (RA = real area, AC = area calculation, AE = absolute value of relative error, MAPE = mean absolute percent error, var = variance) (Continued)</figDesc><table><row><cell>No.</cell><cell>RA(cm 2 )</cell><cell>AC(cm 2 ) 2D</cell><cell>ours</cell><cell>A E ( % ) 2D</cell><cell>ours</cell><cell>No.</cell><cell>RA(cm 2 )</cell><cell>AC(cm 2 ) 2D</cell><cell>ours</cell><cell>A E ( % ) 2D</cell><cell>ours</cell></row><row><cell>52</cell><cell>0.23</cell><cell>0.1250</cell><cell>0.2439</cell><cell>45.66</cell><cell>6.03</cell><cell>111</cell><cell>0.50</cell><cell>0.4164</cell><cell>0.5394</cell><cell>16.72</cell><cell>7.87</cell></row><row><cell>53</cell><cell>0.57</cell><cell>0.5687</cell><cell>0.5419</cell><cell>0.24</cell><cell>4.93</cell><cell>112</cell><cell>0.64</cell><cell>0.9773</cell><cell>0.5563</cell><cell>52.71</cell><cell>13.08</cell></row><row><cell>54</cell><cell>1.11</cell><cell>0.8933</cell><cell>1.2041</cell><cell>19.53</cell><cell>8.47</cell><cell>113</cell><cell>1.36</cell><cell>0.9864</cell><cell>1.4244</cell><cell>27.47</cell><cell>4.74</cell></row><row><cell>55</cell><cell>1.59</cell><cell>1.2239</cell><cell>1.6628</cell><cell>23.02</cell><cell>4.58</cell><cell>114</cell><cell>1.62</cell><cell>2.4508</cell><cell>1.5403</cell><cell>51.28</cell><cell>4.92</cell></row><row><cell>56</cell><cell>1.67</cell><cell>2.3435</cell><cell>1.5873</cell><cell>40.33</cell><cell>4.95</cell><cell>115</cell><cell>2.30</cell><cell>1.3004</cell><cell>2.4115</cell><cell>43.46</cell><cell>4.85</cell></row><row><cell>57</cell><cell>2.34</cell><cell>2.9862</cell><cell>2.2232</cell><cell>27.61</cell><cell>4.99</cell><cell>116</cell><cell>3.13</cell><cell>4.1409</cell><cell>2.9426</cell><cell>32.30</cell><cell>5.99</cell></row><row><cell>58</cell><cell>3.49</cell><cell>4.4483</cell><cell>3.3186</cell><cell>27.46</cell><cell>4.91</cell><cell>117</cell><cell>4.18</cell><cell>3.3670</cell><cell>4.3813</cell><cell>19.45</cell><cell>4.82</cell></row><row><cell>59</cell><cell>6.91</cell><cell>7.8040</cell><cell>6.5722</cell><cell>12.94</cell><cell>4.89</cell><cell>118</cell><cell>8.53</cell><cell>7.4215</cell><cell>8.9107</cell><cell>12.99</cell><cell>4.46</cell></row><row><cell cols="5">MAPE(2D) = 18.40%, MAPE(3D) = 2.94%, var(2D) = 0.0254, var(3D) = 0.0004</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>The statistical index of 2D method and our method</figDesc><table><row><cell>Method</cell><cell>Pearson</cell><cell>Standardized</cell><cell>Adjusted R square</cell></row><row><cell></cell><cell>correlation</cell><cell>regression</cell><cell></cell></row><row><cell></cell><cell></cell><cell>coefficient</cell><cell></cell></row><row><cell>Ours</cell><cell>0.999</cell><cell>0.895</cell><cell>0.998</cell></row><row><cell cols="2">2D method 0.961</cell><cell>0.110</cell><cell>0.924</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3</head><label>3</label><figDesc>The Comparison of our method, other commonly used methods and business equipments</figDesc><table><row><cell>Method</cell><cell>Accuracy(%)</cell><cell>Calibration</cell><cell>Infection</cell><cell>Angle effect</cell><cell>Light</cell><cell>Tele-</cell><cell>Facility</cell><cell>Computational</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>medicine</cell><cell></cell><cell>time reference</cell></row><row><cell>Ours</cell><cell>97.06</cell><cell>No</cell><cell>Little</cell><cell>No</cell><cell>natural</cell><cell>Yes</cell><cell>monocular</cell><cell>16min</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>light</cell><cell></cell><cell>camera + PC</cell><cell></cell></row><row><cell>2D method</cell><cell>81.60</cell><cell>No</cell><cell>Little</cell><cell>Yes</cell><cell>natural</cell><cell>Yes</cell><cell>monocular</cell><cell>1min</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>light</cell><cell></cell><cell>camera + PC</cell><cell></cell></row><row><cell>Ruler method</cell><cell>52.10</cell><cell>No</cell><cell>Little</cell><cell>No</cell><cell>natural</cell><cell>No</cell><cell>ruler</cell><cell>1min</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>light</cell><cell></cell><cell></cell><cell></cell></row><row><cell>MAVIS</cell><cell>85.26</cell><cell>Yes</cell><cell>No</cell><cell>Yes</cell><cell cols="2">darkroom No</cell><cell>MAVIS</cell><cell>10min</cell></row><row><cell>Visitrak</cell><cell>92.17</cell><cell>No</cell><cell>Low</cell><cell>No</cell><cell>natural</cell><cell>No</cell><cell>Visitrak + trans-</cell><cell>4min</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>light</cell><cell></cell><cell>parent film</cell><cell></cell></row><row><cell>Huang [13]</cell><cell>86.02</cell><cell>No</cell><cell>Low</cell><cell>No</cell><cell>natural</cell><cell>No</cell><cell>Kinect V2 + PC</cell><cell>8min</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>light</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Yang [8]</cell><cell>84.31</cell><cell>No</cell><cell>Little</cell><cell>Yes</cell><cell>natural</cell><cell>Yes</cell><cell>monocular</cell><cell>2min</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>light</cell><cell></cell><cell>camera + PC +</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>color patches</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>Not applicable.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>The datasets used and/or analysed during the current study are available from the corresponding author on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics approval and consent to participate</head><p>The biological and medical ethics committee of Beihang University granted approval for the study. Written informed consent was granted by the participants for the use of the images.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's Note</head><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="20,58.62,327.48,211.70,6.73;20,70.76,336.48,209.13,6.73;20,70.76,345.48,145.63,6.73" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Prediction of healing for postoperative diabetic foot wounds based on early wound area progression</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="26" to="29" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,58.62,355.48,224.59,6.73;20,70.76,364.48,195.92,6.73;20,70.76,373.48,216.14,6.73;20,70.76,382.48,57.76,6.73" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Fifty percent area reduction after 4 weeks of treatment is a reliable indicator for healing-analysis of a single-center cohort of 704 diabetic patients</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coerper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Beckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Küper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jekov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Königsrainer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">49</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,58.62,392.48,221.35,6.73;20,70.76,401.48,201.28,6.73;20,70.76,410.48,166.15,6.73" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Early healing rates and wound area measurements are reliable predictors of later complete wound closure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cardinal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Eisenbud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="19" to="22" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,58.62,419.48,216.27,6.73;20,70.76,428.48,156.77,6.73" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Several animal models for the study of wound repair in chinese</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chin J Exp Surg</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="479" to="480" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,58.62,437.48,226.96,6.73;20,70.76,446.48,216.02,6.73;20,70.76,455.48,41.06,6.73" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Measuring wound length, width, and area: which technique?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">42</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,58.62,464.48,205.49,6.73;20,70.76,473.48,215.14,6.73;20,70.76,482.48,127.33,6.73" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A novel and accurate technique of photographic wound measurement</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rahul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sreekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shashank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indian J Plast Surg Off Publ Assoc Plast Surg India</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">425</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,58.62,491.48,211.79,6.73;20,70.76,500.48,201.72,6.73" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Computer-aided legal medical examination of body surface</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">445</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,58.62,509.48,220.69,6.73;20,70.76,518.48,214.49,6.73;20,70.76,527.48,214.56,6.73;20,70.76,536.48,214.78,6.73" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Error rate of automated calculation for wound surface area using a digital photography</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Oh</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/srt.12398</idno>
+		<ptr target="https://doi.org/10.1111/srt.12398" />
+	</analytic>
+	<monogr>
+		<title level="j">Skin Res Technol Off J Int Soc Bioeng Skin (ISBS) Int Soc Digit Imaging Skin (ISDIS) Int Soc Skin Imaging (ISSI)</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,58.62,545.48,211.67,6.73;20,70.76,554.48,215.03,6.73;20,70.76,563.48,59.38,6.73" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Ways to increase precision and accuracy of wound area measurement using smart devices: Advanced app planimator</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plos ONE</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">192485</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,61.89,572.48,198.79,6.73;20,70.76,581.48,204.69,6.73;20,70.76,590.48,67.85,6.73" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">The research of human body surface 3d measurement technology based on computer vision in chinese</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+		<respStmt>
+			<orgName>Central South University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct coords="20,61.89,599.48,226.13,6.73;20,70.76,608.48,206.54,6.73;20,70.76,617.48,194.78,6.73" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">System design for 3d wound imaging using low-cost mobile devices</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sirazitdinova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Deserno</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.2254389</idno>
+		<ptr target="https://doi.org/10.1117/12.2254389" />
+	</analytic>
+	<monogr>
+		<title level="j">Society of Photo-Optical Instrumentation</title>
+		<imprint>
+			<biblScope unit="page">1013810</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,61.89,626.48,227.70,6.73;20,70.76,635.48,187.01,6.73;20,70.76,644.48,210.57,6.73;20,70.76,653.48,174.06,6.73" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Slam-based dense surface reconstruction in monocular minimally invasive surgery and its application to augmented reality</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmpb.2018.02.006</idno>
+		<ptr target="https://doi.org/10.1016/j.cmpb.2018.02.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput Methods Programs Biomed</title>
+		<imprint>
+			<biblScope unit="page" from="2018135" to="2018146" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,61.89,662.48,227.14,6.73;20,70.76,671.48,153.32,6.73" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Automatic 3d surface area measurement for vitiligo lesions</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+		<respStmt>
+			<orgName>Massachusetts Institute of Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct coords="20,61.89,680.48,223.23,6.73;20,70.76,689.48,206.63,6.73;20,70.76,698.48,16.05,6.73" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Toward the use of smartphones for mobile mapping</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Masiero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fissore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pirotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guarnieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vettore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geospatial Inform Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,61.89,707.48,220.49,6.73;20,70.76,716.48,205.86,6.73;20,70.76,725.48,208.80,6.73" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Image style transfer using convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Gatys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Ecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bethge</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2016.265</idno>
+		<ptr target="https://doi.org/10.1109/cvpr.2016.265" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="2414" to="2423" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,92.12,227.71,6.73;20,318.80,101.12,204.50,6.73;20,318.80,110.12,125.87,6.73" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Robust facial landmark detection and tracking across poses and expressions for in-the-wild monocular video</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Vis Media</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="47" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,119.12,206.98,6.73;20,318.80,128.12,218.62,6.73" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Wound measurement comparing the use of acetate tracings and visitrak digital planimetry</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gethin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cowman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Nurs</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">422</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,137.12,207.77,6.73;20,318.80,146.12,87.61,6.73" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Designing and developing a new measuring instrument</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Kundin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Perioper Nurs Q</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">40</biblScope>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,154.73,206.02,6.73;20,318.80,163.73,218.02,6.73;20,318.80,172.73,147.78,6.73" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Accuracy and precision of selected wound area measurement methods in diabetic foot ulceration</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ladyzynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sabalinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wojcicki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Technol Ther</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">712</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,181.32,228.10,6.73;20,318.80,190.32,162.34,6.73" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Mavis: a non-invasive instrument to measure area and volume of wounds</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Eng Phys</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">332</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,198.93,221.06,6.73;20,318.80,207.93,192.55,6.73;20,318.80,216.93,216.01,6.73" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Digital planimetry results in more accurate wound measurements: a comparison to standard ruler measurements</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bevilacqua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="799" to="802" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,225.53,226.42,6.73;20,318.80,234.53,97.66,6.73" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Photometric stereo with general, unknown lighting</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Basri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jacobs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Comput Vis</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="239" to="257" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,243.13,218.50,6.73;20,318.80,252.13,215.06,6.73;20,318.80,261.13,203.86,6.73;20,318.80,270.13,26.95,6.73" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Non-rigid photometric stereo with colored lights</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vogiatzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Brostow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cipolla</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/iccv.2007.4408939</idno>
+		<ptr target="https://doi.org/10.1109/iccv.2007.4408939" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Computer Vision</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,278.73,224.34,6.73;20,318.80,287.73,202.24,6.73;20,318.80,296.73,41.06,6.73" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Determining surface orientations of specular surfaces by using the photometric stereo method</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ikeuchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Pattern Anal Mach Intell</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">661</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,305.33,211.29,6.73;20,318.80,314.33,63.13,6.73" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">A combined corner and edge detector</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Harris</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<biblScope unit="volume">1988</biblScope>
+			<biblScope unit="page" from="147" to="151" />
+		</imprint>
+	</monogr>
+	<note>Proc Alvey Vis Conf</note>
+</biblStruct>
+
+<biblStruct coords="20,309.92,322.94,213.90,6.73;20,318.80,331.94,209.75,6.73;20,318.80,340.94,205.61,6.73;20,318.80,349.94,23.28,6.73" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Good features to track</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Tomasi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.1994.323794</idno>
+		<ptr target="https://doi.org/10.1109/cvpr.1994.323794" />
+	</analytic>
+	<monogr>
+		<title level="m">Computer Vision and Pattern Recognition</title>
+		<imprint>
+			<publisher>IEEE Computer Society Conference On</publisher>
+			<date type="published" when="1994">1994. 1994. 2002</date>
+			<biblScope unit="page" from="593" to="600" />
+		</imprint>
+	</monogr>
+	<note>Proceedings CVPR &apos;94</note>
+</biblStruct>
+
+<biblStruct coords="20,309.92,358.53,223.04,6.73;20,318.80,367.53,93.41,6.73" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Distinctive image features from scale-invariant keypoints</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Lowe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Comput Vis</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="91" to="110" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,376.14,217.37,6.73;20,318.80,385.14,211.11,6.73;20,318.80,394.14,218.36,6.73;20,318.80,403.14,57.30,6.73" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Pca-sift: A more distinctive representation for local image descriptors</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sukthankar</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2004.1315206</idno>
+		<ptr target="https://doi.org/10.1109/cvpr.2004.1315206" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Computer Society Conference on Computer Vision and Pattern Recognition</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="page" from="506" to="513" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,411.74,221.22,6.73;20,318.80,420.74,168.71,6.73" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A performance evaluation of local descriptors</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mikolajczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Pattern Anal Mach Intell</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1615" to="1630" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,429.34,203.78,6.73;20,318.80,438.34,202.36,6.73;20,318.80,447.34,27.04,6.73" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Surf: Speeded up robust features</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tuytelaars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Gool</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">European Conference on Computer Vision</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="404" to="417" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,455.94,215.49,6.73;20,318.80,464.94,213.99,6.73" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The flattening of triangulated surfaces incorporating darts and gussets</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccartney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hinds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Seow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput-Aided Des</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="249" to="260" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,473.54,211.17,6.73;20,318.80,482.54,213.51,6.73;20,318.80,491.54,211.34,6.73;20,318.80,500.54,190.89,6.73" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Multiresolution analysis of arbitrary meshes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Derose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Duchamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hoppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lounsbery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Stuetzle</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/218380.218440</idno>
+		<ptr target="https://doi.org/10.1145/218380.218440" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 22nd Annual Conference on Computer Graphics and Interactive Techniques</title>
+		<meeting>the 22nd Annual Conference on Computer Graphics and Interactive Techniques</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="page" from="173" to="182" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,509.15,211.29,6.73;20,318.80,518.15,216.37,6.73" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Least squares conformal maps for automatic texture atlas generation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petitjean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acm Trans Graph</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="362" to="371" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,527.15,214.81,6.73;20,318.80,536.15,185.13,6.73;20,318.80,545.15,200.89,6.73;20,318.80,554.15,23.37,6.73" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Multiscale fusion of visible and thermal ir images for illumination-invariant face recognition</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boughorbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Abidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koschan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Abidi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Comput Vis</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="215" to="233" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,564.14,228.10,6.73;20,318.80,573.14,30.70,6.73" xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Detection and tracking of point features</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tomasi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="9795" to="9802" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Tech Rep</note>
+</biblStruct>
+
+<biblStruct coords="20,309.92,582.14,207.58,6.73;20,318.80,591.14,215.14,6.73" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Shape and motion from image streams under orthography: a factorization method</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tomasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kanade</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Comput Vis</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="137" to="154" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,600.14,228.09,6.73;20,318.80,609.14,211.11,6.73;20,318.80,618.14,114.80,6.73" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Random sample consensus: A paradigm for model fitting with applications to image analysis and automated cartography</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fischler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Bolles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Readings Comput Vis</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="726" to="740" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,627.14,203.83,6.73;20,318.80,636.14,198.19,6.73;20,318.80,645.14,143.21,6.73" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">3d reconstruction from accidental motion</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gallup</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2014.509</idno>
+		<ptr target="https://doi.org/10.1109/cvpr.2014.509" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="3986" to="3993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,654.14,205.78,6.73;20,318.80,663.14,215.74,6.73;20,318.80,672.14,157.86,6.73" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Towards internet-scale multi-view stereo</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Furukawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Curless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Seitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Szeliski</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2010.5539802</idno>
+		<ptr target="https://doi.org/10.1109/cvpr.2010.5539802" />
+	</analytic>
+	<monogr>
+		<title level="m">Computer Vision and Pattern Recognition</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="1434" to="1441" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,681.14,221.23,6.73;20,318.80,690.14,165.05,6.73" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Accurate, dense, and robust multiview stereopsis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Furukawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ponce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Pattern Anal Mach Intell</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1362" to="1376" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,699.14,205.76,6.73;20,318.80,708.14,197.14,6.73" xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Poisson surface reconstruction</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hoppe</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1364901.1364904</idno>
+		<ptr target="https://doi.org/10.1145/1364901.1364904" />
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>The Japan Institute of Energy</publisher>
+			<biblScope unit="page" from="314" to="315" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,309.92,717.14,219.02,6.73;20,318.80,726.14,194.65,6.73;21,71.90,92.12,193.19,6.73;21,71.90,101.12,105.40,6.73" xml:id="b41">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><surname>Parvizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Giretzlehner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wurzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shoham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Bohanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Haller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tuca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Branski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Lumenta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Burncase 3d software validation study: Burn size measurement accuracy and inter-rater reliability</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="329" to="335" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,63.02,110.12,222.40,6.73;21,71.90,119.12,136.15,6.73" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Three-dimensional area measurement based on mesh model</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Softw Guide</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="98" to="101" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,63.02,128.12,208.34,6.73;21,71.90,137.12,211.55,6.73;21,71.90,146.12,96.36,6.73" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Conformal surface parameterization for texture mapping</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Angenent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tannenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kikinis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Halle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Vis Comput Graph</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="189" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,63.02,155.12,228.04,6.73;21,71.90,164.12,193.29,6.73" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Efficient wound measurements using rgb and depth images</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sunkara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anj</forename><surname>Raj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Celik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Biomed Eng Technol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">333</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Management of venous leg ulcers</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Deborah</forename><forename type="middle">A</forename><surname>Simon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Academic Department of Surgery</orgName>
+								<orgName type="institution">Wythenshawe Hospital</orgName>
+								<address>
+									<postCode>M23 9LT</postCode>
+									<settlement>Manchester</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Academic Department of Surgery</orgName>
+								<orgName type="institution">Wythenshawe Hospital</orgName>
+								<address>
+									<postCode>M23 9LT</postCode>
+									<settlement>Manchester</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francis</forename><forename type="middle">P</forename><surname>Dix</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Academic Department of Surgery</orgName>
+								<orgName type="institution">Wythenshawe Hospital</orgName>
+								<address>
+									<postCode>M23 9LT</postCode>
+									<settlement>Manchester</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Academic Department of Surgery</orgName>
+								<orgName type="institution">Wythenshawe Hospital</orgName>
+								<address>
+									<postCode>M23 9LT</postCode>
+									<settlement>Manchester</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Charles</forename><forename type="middle">N</forename><surname>Mccollum</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Academic Department of Surgery</orgName>
+								<orgName type="institution">Wythenshawe Hospital</orgName>
+								<address>
+									<postCode>M23 9LT</postCode>
+									<settlement>Manchester</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Academic Department of Surgery</orgName>
+								<orgName type="institution">Wythenshawe Hospital</orgName>
+								<address>
+									<postCode>M23 9LT</postCode>
+									<settlement>Manchester</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Academic Department of Surgery</orgName>
+								<orgName type="institution">Wythenshawe Hospital</orgName>
+								<address>
+									<postCode>M23 9LT</postCode>
+									<settlement>Manchester</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Management of venous leg ulcers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">27A411E9F9563C7FD508008CA26D1242</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Leg ulcers are a big problem for both patients and health service resources. <ref type="bibr" target="#b1">[1]</ref><ref type="bibr" target="#b2">[2]</ref><ref type="bibr" target="#b3">[3]</ref> Most ulcers are associated with venous disease, but other causes or contributing factors include immobility, obesity, trauma, arterial disease, vasculitis, diabetes, and neoplasia (box 1). In the United Kingdom, venous leg ulceration alone has been estimated to cost the NHS £400m ($720m; €600m) a year. <ref type="bibr" target="#b1">[1]</ref><ref type="bibr" target="#b2">[2]</ref><ref type="bibr" target="#b3">[3]</ref> Much of this cost is accounted for by community nursing services; district nurses spend up to half of their time caring for patients with ulcers. <ref type="bibr">1 4</ref> Most venous leg ulcers could be healed if patients were admitted to hospital for continuous leg elevation. Shortage of hospital beds, the high cost of inpatient care, and the need to maintain independence in this elderly population of patients mean that this once popular approach is now rarely practical. <ref type="bibr" target="#b2">2</ref> Furthermore, ulcers often recur when the patient returns home and resumes a lifestyle in which most of the day is spent with the legs in dependency. <ref type="bibr">w1</ref> Outpatient systems of care that maintain mobility and avoid the complications of bed rest are more cost effective and appropriate. Outpatient and community based care also maintain independence and quality of life.</p><p>Care for patients with leg ulcers has improved in the past two decades as research based approaches have been adopted. Community leg ulcer clinics using compression bandaging have dramatically improved healing rates and reduced costs, but close supervision by leg ulcer nurse specialists is essential if standards are to be maintained. <ref type="bibr">1 2 5</ref> We have reviewed the evidence for this approach and on new treatments that may improve care of leg ulcers in the future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sources and search criteria</head><p>We compiled material for this review from published literature located by online searches of Medline, PubMed, and Embase using the terms "leg ulcer management," "treatment of leg ulcer," and "leg ulcer." We also sourced references quoted in these original papers and examined Cochrane reviews on leg ulcers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Causes of venous ulceration</head><p>The pathophysiology of venous ulceration is contentious, and detailed consideration of the microcirculatory changes leading to tissue necrosis is beyond the scope of this review. However, management must be based on an understanding of the causes of the venous hypertension that is ultimately responsible for both the symptoms of chronic venous insufficiency and venous ulceration. Chronic venous insufficiency has been widely assumed to be due to deep venous obstruction or incompetence, and the term "post-phlebitic limb" has been used, even though most people with venous ulcers have no history of deep vein thrombosis. Venous ulceration is clearly associated with age, and younger patients with severe chronic venous insufficiency may avoid ulceration by virtue of their mobility, which maintains function of the calf muscle pump. Whether the final mechanism in ulceration is a fibrin cuff, leucocyte trapping, or chronic inflammation due to a repetitive ischaemia reperfusion injury, the treatment for venous ulceration is based almost entirely on avoiding sustained venous hypertension. <ref type="bibr" target="#b6">6</ref> Venous hypertension is usually caused by a combination of the factors given in box 2, of which venous disease, obesity, and immobility are perhaps the most important; many factors develop with increasing age.</p><p>Sustained venous hypertension results in oedema within the dependent lower limb, which increases the distance over which metabolites must diffuse from the microcirculation to tissue cells. The tissues around the ankle become ischaemic during dependency, with reperfusion on walking or elevation. <ref type="bibr" target="#b7">7</ref> This chronic reperfusion injury results in an inflammatory process with further oedema, tissue fibrosis, and formation of a cuff of extracellular matrix proteins around capillaries. These changes result in the features of chronic venous insufficiency, which include aching, heaviness of the legs, itching, lipodermatosclerosis, pigmentation, swell-</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary points</head><p>Care of patients with venous leg ulcers has been improved by a research based approach Most venous ulcers can be managed by compression bandaging in the community Supervision by leg ulcer nurses is essential if standards are to be maintained in community leg ulcer services Future research should focus on preventing ulceration by identifying at risk populations ing, eczema, and ultimately ulceration (fig <ref type="figure" target="#fig_0">1</ref>). Treatment is based on preventing sustained venous hypertension and reducing its effects by compression bandaging to reduce venous stasis and tissue oedema.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diagnosis and investigation</head><p>Management must start with a full history and examination to identify risk factors such as age, sex, cardiovascular disease, body mass index, mobility, arthritis, diabetes, and a history of leg injury or deep vein thrombosis. Leg ulceration can be defined as any chronic ulcer on the lower leg but excluding those on the forefoot or toes. <ref type="bibr">w2</ref> The patient should be examined both lying and standing to detect varicose veins. Hand held Doppler is essential to measure the ankle brachial pressure index to exclude arterial disease (ankle brachial pressure index &gt; 0.9) and assess superficial venous reflux. w3 Venography gave little functional information and has been superseded by duplex imaging, which is indicated for patients with recurrent or complicated varicose veins, short saphenous incompetence, or suspected deep venous disease. <ref type="bibr" target="#b8">8</ref> Superficial venous incompetence is almost universal and is the predominant cause of venous hypertension in approximately half of limbs with venous ulcers, particularly in younger patients with good mobility. <ref type="bibr" target="#b9">9</ref> Venous function in patients with mixed deep and superficial disease should be investigated by ambulatory venous pressure measurements. <ref type="bibr" target="#b10">10</ref> This involves cannulation of a foot vein and the use of tourniquets to occlude incompetent superficial veins to select those patients who may benefit from superficial venous surgery.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Management of the ulcer</head><p>Despite considerable research, little evidence of major benefits from modern interactive dressings has been published. An emphasis on education, training, and further development of compression systems is needed to improve patient care and ulcer healing. The basis for effective treatment of venous leg ulcers is outlined in box 3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Where should care be carried out?</head><p>Patients with venous leg ulcers are best managed in the community for two reasons:</p><p>x Maintenance of independence and mobility is important in this elderly population x The number of patients would overwhelm hospital services. <ref type="bibr">1 2</ref> However, direct access to appropriate specialised hospital services is essential for the investigation of underlying vascular disease and for microbiology, histopathology, and dermatology. Having said that, leg ulcer services provided in hospitals often fail to appreciate how many patients with leg ulcers simply refuse to come to hospital, let alone consent to venous investigation or surgery. <ref type="bibr">1 2</ref> Few community patients are prepared to be referred for assessment of their underlying venous disease. <ref type="bibr">1 2 5</ref> Box 1: Causes of leg ulcers  Rates of healing have been shown to be improved and costs to be reduced when a coordinated service using research based protocols was introduced. 1 2 <ref type="bibr">5 11</ref> Responsibility for patient care should not be removed from community nurses; they should be provided with resources and training aimed at delivering an appropriate, high quality service in specialist leg ulcer clinics. Evidence from our own research in two large health authorities in the United Kingdom showed that standards could be maintained only with close supervision; when a leg ulcer service was continued without the direct involvement of a leg ulcer nurse specialist, healing rates declined and costs increased. <ref type="bibr" target="#b5">5</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Treating the ulcer</head><p>The underlying causes need to be identified (box 2). Multiple pathologies are common, but patients with diabetes may have simple venous ulcers that are no more difficult to heal than in people without diabetes. As 80-85% of ulcers are associated with venous hypertension, compression remains the mainstay of treatment. 12 w4</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dressing materials</head><p>Patients with leg ulcers are prone to contact sensitivity, particularly from wool alcohols, topical antibiotics, cetylstearyl alcohols, parabens, and rubber mixes, which are present in many dressings, ointments, and creams. <ref type="bibr">w5</ref> Many entirely inadequate studies have examined the role of different dressing materials; most have shown that modern "designer" dressing materials have no additional effect on wound healing over that achieved by simple low adherence dressings under multilayer compression bandaging. <ref type="bibr">w6</ref> Compression treatment Sustained graduated compression overcomes the effects of venous hypertension by reducing venous stasis and preventing (or treating) tissue oedema. The pressure within the veins on standing is largely hydrostatic, and the level of external pressure needed to counteract this decreases progressively up the leg.</p><p>Compression treatment has been covered in a Cochrane review on the cost effectiveness of both bandaging and stockings in the treatment of venous ulceration. <ref type="bibr" target="#b13">13</ref> Twenty two trials were identified and con-sistently showed that compression encouraged healing of ulcers. <ref type="bibr" target="#b13">13</ref> More ulcers were healed at 12-15 weeks with high compression systems than with low compression systems. <ref type="bibr" target="#b13">13</ref> No significant difference was found between the effectiveness of different high compression systems, but more ulcers healed at 24 weeks with four layer bandages than with a single layer. <ref type="bibr">w7</ref> The most effective level of compression to overcome venous hypertension has been determined to be around 40 mm Hg at the ankle. <ref type="bibr">w8</ref> Correct application of bandages is essential to avoid pressure ulceration over bony high points and along the anterior border of the tibia. To achieve this pressure in a range of limb diameters, bandaging regimens must be adjusted according to ankle circumference (fig <ref type="figure">2</ref>). Despite training, community nurses have been found to abandon ankle circumference measurements when not closely supervised by a venous nurse specialist. <ref type="bibr" target="#b5">5</ref> As venous ulcer services improve, more patients have their ulcers healed and are then at risk of recurrence; recurrence rates of 26% at one year and 31% at 18 months have been quoted. <ref type="bibr" target="#b14">14</ref> A Cochrane review on the role of compression in the prevention of recurrence identified few adequate trials, but concluded that recurrence may be lower with higher compressions. <ref type="bibr" target="#b15">15</ref> Limb elevation Limb dependency, immobility, and oedema all contribute to venous hypertension. Limb elevation reduces oedema and enhances flow in the microcirculation, reducing trapping, sequestration, and activation of white cells-a necessary first step in the pathophysiology of ulceration. w9 Leg elevation in hospital enhances healing. w1</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Skin grafting</head><p>Split skin grafting is technically demanding and requires hospital admission. The discharge from the surface of venous ulcers tends to dislodge continuous sheets of split skin, leaving a choice between mesh and pinch skin grafting. <ref type="bibr">w10</ref> Pinch skin grafts provide epithelial islands, from which epithelial growth may spread outwards as well as inwards from the ulcer margin. Pinch skin grafting has been done by district nurses in the community and has been found to be cost effective, accelerating healing when used with multilayer compression bandaging (fig <ref type="figure">3</ref>). w11 w12</p><p>Bioengineered skin products, including bilayered skin constructs and frozen human allogeneic epidermal cultures, are being developed and may stimulate wound healing through the release of growth factors and cytokines. The numbers of patients recruited to such studies have been small, and most products are not yet available for clinical use. w13 w14 These new approaches have yet to be compared with pinch skin grafting, which is simple and inexpensive. w12</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Growth factors</head><p>Wound fluid from non-healing ulcers contained higher concentrations of pro-inflammatory cytokines, interleukin-1, interleukin-6, and tumour necrosis factor-and had reduced proliferative responses compared with fluid from healing ulcers. <ref type="bibr" target="#b16">16</ref> Research on platelet derived growth factor, hepatocyte growth factor, and human keratinocyte growth factor-2 has been published, but these studies were small and often poorly designed. 17 w15 w16</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drug treatment</head><p>Antibiotics have little effect on ulcer healing but are needed for clinical infections with surrounding cellulitus. w17 Pentoxifylline has been evaluated in clinical trials, but the largest placebo controlled, double blind, randomised study included only 80 patients; 88% were healed by 12 months on pentoxifylline compared with 44% on placebo. <ref type="bibr" target="#b18">18</ref> Oxerutins failed to improve ulcer healing or influence recurrence. <ref type="bibr" target="#b19">19</ref> w18 Fibrinolytic agents such as stanozolol have also been disappointing. w18 Studies on prostaglandin E 1 and micronised purified flavonoids were simply too small to influence clinical practice. w19 w20 Sulodexide is a profibrinolytic and antithrombotic drug that was evaluated in a clinical trial that recruited 94 patients and achieved healing rates at two months of 58%, compared with 36% in controls (P = 0.03). <ref type="bibr" target="#b20">20</ref> Aspirin has also been studied in a randomised trial and significantly improved healing, but only 20 patients were randomised. <ref type="bibr" target="#b21">21</ref> In both the above studies, the healing rate achieved with drugs was no better than that achieved without drug treatment in community leg ulcer clinics. <ref type="bibr">1 2</ref> Venous surgery Superficial venous surgery has been shown to improve ulcer healing in patients with only superficial venous incompetence. <ref type="bibr" target="#b22">22</ref> In patients with no deep reflux on duplex imaging, superficial venous surgery also reduced ulcer recurrence at three years from 44% to 26% in a non-randomised study. <ref type="bibr" target="#b23">23</ref> When superficial venous surgery was compared with compression alone in 87 patients with venous ulcers, surgery achieved complete healing at a mean of 31 days compared with 63 days with compression; recurrence rates at three years were 9% and 38%. <ref type="bibr" target="#b24">24</ref> Box 4 shows indications for superficial venous surgery. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Box 4: Indications for superficial venous surgery</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A patient's perspective</head><p>I developed an ulcer on my right leg in 1992. It started when I kicked my right ankle with the heel of my left shoe. This broke the skin, and very soon the wound became infected. I went to my general practitioner and had the wound dressed by a nurse at the surgery. This went on for several weeks, but the wound would not heal. My doctor then decided to send me to hospital, where a new treatment was being used with great success. This was compression bandaging. I attended the hospital ulcer clinic for a time until a local clinic was opened in an area near to where I live. I attended the clinic once a week to have my leg bandaged. This was not always done by the same nurse, and the tension in the bandaging varied. After some time they told me that the bandaging did not suit my condition. I was then put into compression stockings, but the ulcer got bigger. I must mention that at this time I had rheumatoid arthritis and was on a lot of medication for it. I was told that this affected the healing process. The ulcer on my leg became very badly infected, and I was in a lot of pain. It was then discovered that I had MRSA, and the district nurse had to attend to my bandaging at home. As the ulcer was getting worse, I was then referred to the ulcer clinic at Withington Hospital. After many setbacks, with infection and many different antibiotics, it was suggested that because of my ankle size I needed a different combination of bandages to get the pressure I needed for the ulcer to heal. With this, coupled with leg elevation when sitting and in bed, my leg started to improve. It did take time, but I am pleased to say that my leg has completely healed. Four layer bandaging did work in the end, but the same nurse did it all the time and used consistent tension of bandaging.</p><p>The role of surgery in mixed superficial and deep venous incompetence is less clear. In unselected patients with combined superficial and deep incompetence, superficial surgery without postoperative compression failed to improve venous hypertension or achieve ulcer healing. <ref type="bibr" target="#b25">25</ref> However, where the deep incompetence was limited or "segmental" improvements in healing were achieved. <ref type="bibr" target="#b26">26</ref> Ambulatory venous pressures may help to identify patients who would benefit from surgery. Virtually no research has been done on prophylactic surgery to prevent ulceration in at risk patients with superficial venous incompetence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future research</head><p>Research is currently focused on the role of superficial venous surgery and the use of cultured skin allografts. The level of compression needed to optimise healing should be explored. On a microvascular level, the wound healing process is thought to be directed by a variety of cell derived soluble factors, including cytokines (growth, regulatory, and chemotactic factors) and proteolytic enzymes (proteases); these will inevitably become future targets for specific treatments. <ref type="bibr" target="#b16">16</ref> Ultimately, our focus should move from treating active ulcers to the prevention of ulceration by identifying at risk populations. Prevention would undoubtedly be cheaper than cure and would also improve quality of life for patients with chronic venous hypertension at risk of ulceration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interactive case report</head><p>A 64 year old woman with knee pain: case presentation P Tugwell, A M O'Connor, N A Santesso Mrs Patell is a 64 year old woman with osteoarthritis of the right knee. A year ago, her general practitioner had recommended up to 4000 mg/day of paracetamol (acetominophen) for pain localised at the medial compartment of the knee. Mrs Patell had been taking the paracetamol but had forgotten that her general practitioner had mentioned that it should not be taken with alcohol. She has recently seen a newspaper article warning people about the risks of chronic use of analgesics. The article warns against liver damage when taking high doses of paracetamol in association with alcohol.</p><p>After reading the newspaper article she became worried, because she enjoys a cocktail before dinner and shares a bottle of wine while eating with her husband. She knew she needed to take something; her pain was intolerable with lower doses and the pain also This case is fictional but was developed from several real cases. It was commissioned to contribute to the special issue on harms that will be published on 3  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 1</head><label>1</label><figDesc>Fig 1 This superficial leg ulcer, in the classic position above the medial malleolus, has healthy granulation tissue after two weeks of compression treatment. The features of lipodermatosclerosis with pigmentation can be seen at the upper margin</figDesc><graphic coords="2,269.85,614.59,199.33,113.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig 2 Fig 3</head><label>23</label><figDesc>Fig 2The combination of compression bandages used to achieve compression of 40 mm Hg at the ankle will depend on ankle circumference according to Laplace's law. A combination of bandages achieving ideal pressures in the average ankle will produce ineffective pressures in a large oedematous limb and dangerously high pressures risking skin necrosis over bony high points in small or narrow ankles</figDesc><graphic coords="3,127.66,566.25,199.33,136.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Box 2: Causes of sustained venous hypertension</head><label></label><figDesc></figDesc><table><row><cell>Vascular</cell></row><row><cell>• Venous-80-85% of all leg ulcers</cell></row><row><cell>• Arterial-atherosclerosis, arteriovenous</cell></row><row><cell>malformation</cell></row><row><cell>• Vasculitis-systemic lupus erythematosis,</cell></row><row><cell>rheumatoid arthritis, scleroderma, polyarteritis</cell></row><row><cell>nodosa, Wegener's granulomatosis</cell></row><row><cell>• Lymphatic</cell></row><row><cell>Neuropathic</cell></row><row><cell>Diabetes, peripheral neuropathy-usually feet</cell></row><row><cell>Haematological</cell></row><row><cell>Polycythaemia rubra vera, sickle cell anaemia</cell></row><row><cell>Traumatic</cell></row><row><cell>Burns, cold injury, pressure sore, radiation, factitious</cell></row><row><cell>Neoplastic</cell></row><row><cell>Basal or squamous cell carcinoma, melanoma,</cell></row><row><cell>Marjolin's ulcer, Bowen's disease</cell></row><row><cell>Others</cell></row><row><cell>Sarcoidosis, tropical ulcer, pyoderma gangrenosum</cell></row><row><cell>• Venous disease:</cell></row><row><cell>Superficial venous incompetence-varicose veins</cell></row><row><cell>Deep venous incompetence</cell></row><row><cell>Primary</cell></row><row><cell>Deep venous obstruction (rare)</cell></row><row><cell>Previous deep vein thrombosis</cell></row><row><cell>External compression</cell></row><row><cell>• Impaired calf muscle pump function:</cell></row><row><cell>Immobility</cell></row><row><cell>Joint disease</cell></row><row><cell>Paralysis</cell></row><row><cell>Obesity-immobility, femoral vein compression, high</cell></row><row><cell>abdominal pressures</cell></row><row><cell>• Congestive cardiac failure</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>BMJ VOLUME 328 5 JUNE 2004 bmj.com</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="5,127.66,395.27,200.04,7.15;5,127.66,403.80,102.62,7.15;5,127.66,414.23,115.26,7.15" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Contributors: DAS and FDP did the literature review</title>
+		<imprint/>
+	</monogr>
+	<note>All authors contributed to writing the paper. Competing interests: None declared</note>
+</biblStruct>
+
+<biblStruct coords="5,137.65,431.71,190.11,5.96;5,137.65,438.82,190.09,5.96;5,137.65,445.93,49.46,5.96" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Community clinics for leg ulcers and impact on healing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Moffatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Oldroyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bosanquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Greenhalgh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">305</biblScope>
+			<biblScope unit="page" from="1389" to="1392" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,137.65,453.04,190.09,5.96;5,137.65,460.15,190.12,5.96;5,137.65,467.26,73.39,5.96" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Community leg ulcer clinics: a comparative study in two health authorities</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Freak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kinsella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Groarke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">312</biblScope>
+			<biblScope unit="page" from="1648" to="1651" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,137.65,474.37,190.12,5.96;5,137.65,481.47,89.05,5.96" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Socio-economic impact of chronic venous insufficiency and leg ulcers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Ruckley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angiology</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="67" to="69" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,137.65,488.58,190.09,5.96;5,137.65,495.69,105.48,5.96" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Prevalence of lower limb ulceration in an urban health district</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Lees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lambert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Surg</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1032" to="1034" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,137.65,502.80,190.09,5.96;5,137.65,509.91,190.12,5.96;5,137.65,517.02,74.75,5.96" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Evaluating the cost and efficacy of leg ulcer care provided in two large UK health authorities</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Ellison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tracey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Mccollum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="47" to="51" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,137.65,524.13,190.09,5.96;5,137.65,531.24,190.12,5.96;5,137.65,538.35,36.14,5.96" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The possible role of ischaemic reperfusion in the pathogenesis of chronic venous ulceration</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Greenwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Mccollum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="211" to="219" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,80.98,190.09,5.96;5,350.93,88.36,190.11,5.96;5,350.93,95.74,190.09,5.96;5,350.93,103.12,49.46,5.96" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Sequential changes in histologic pattern and extracellular matrix deposition during the healing of chronic venous ulcers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Herrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sloan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mcgurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Freak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Mccollum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mwj</forename><surname>Ferguson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Pathol</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="1085" to="1095" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,110.50,190.10,5.96;5,350.93,117.88,190.10,5.96;5,350.93,125.26,122.08,5.96" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The place of duplex scanning for varicose veins and common venous problems</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Halim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aertssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bmf</forename><surname>Ridler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Niblett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann R Coll Surg Engl</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="490" to="493" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,132.64,190.10,5.96;5,350.93,140.01,190.12,5.96;5,350.93,147.39,84.95,5.96" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Colour duplex ultrasonography in the rational treatment of chronic venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Grabs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Wakeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Nyameke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ask</forename><surname>Ghauri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Poskitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Surg</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1380" to="1382" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,154.77,190.09,5.96;5,350.93,162.15,190.12,5.96;5,350.93,169.53,190.09,5.96;5,350.93,176.91,46.13,5.96" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Ambulatory venous pressure: correlation with skin condition and role in identifying surgically correctible disease</title>
+		<author>
+			<persName><forename type="first">Spk</forename><surname>Payne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Njm</forename><surname>London</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Newland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Thrush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Barrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prf</forename><surname>Bell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Vasc Endovasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="195" to="200" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,184.29,190.10,5.96;5,350.93,191.67,190.12,5.96;5,350.93,199.04,75.23,5.96" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cost effectiveness of community leg ulcer clinics: randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Morrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Walters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lml</forename><surname>Brereton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">316</biblScope>
+			<biblScope unit="page" from="1487" to="1491" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,206.42,190.08,5.96;5,350.93,213.80,190.08,5.96;5,350.93,221.18,49.46,5.96" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Sustained compression and the healing of chronic ulcers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Blair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ddi</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Backhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Riddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Mccollum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page" from="1159" to="1161" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,228.56,190.10,5.96;5,350.93,235.94,170.49,5.96" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Compression for venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cullum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Fletcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+		<idno>CD000265</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cochrane Database Syst Rev</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,243.32,190.12,5.96;5,350.93,250.69,190.09,5.96;5,350.93,258.07,92.52,5.96" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Risk factors for leg ulcer recurrence: a randomized trial of two types of compression stocking</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Oldroyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Sharp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Moffatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Age Ageing</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="490" to="494" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,265.45,190.09,5.96;5,350.93,272.83,190.09,5.96;5,350.93,280.21,53.55,5.96" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Compression for preventing recurrence of venous ulcers</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sem</forename><surname>Bell-Syer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Cullum</surname></persName>
+		</author>
+		<idno>CD002303</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cochrane Database Syst Rev</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,287.59,190.12,5.96;5,350.93,294.97,190.11,5.96;5,350.93,302.35,70.21,5.96" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Mitogenic activity and cytokine levels in non-healing and healing chronic leg ulcers</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Trengrove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bielefeldt-Ohmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Stacey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="13" to="25" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,309.72,190.09,5.96;5,350.93,317.10,190.11,5.96;5,350.93,324.48,190.11,5.96;5,350.93,331.86,130.18,5.96" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Randomised trial of topically applied repifermin (recombinant human keratinocyte growth factor-2) to accelerate wound healing in venous ulcers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Robson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Falanga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Odenheimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Parish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="347" to="352" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,339.24,190.08,5.96;5,350.93,346.62,190.12,5.96;5,350.93,353.99,190.11,5.96;5,350.93,361.37,87.15,5.96" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Treatment of venous ulcers with pentoxifylline: a 12 month, double-blind, placebo controlled trial-microcirculation and healing</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Sanctis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Belcaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cesarone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Ippolito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nicolaides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Incandela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angiology</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="49" to="51" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,368.75,190.11,5.96;5,350.93,376.13,190.11,5.96;5,350.93,383.51,158.40,5.96" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Oxerutins in the prevention of recurrence in chronic venous ulceration: randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">Ddi</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Blair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Backhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moffatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Mccollum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Surg</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1269" to="1270" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,390.89,190.09,5.96;5,350.93,398.26,108.79,5.96" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Treatment of venous leg ulcers with sulodexide</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scondotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Aloisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ferrari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angiology</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="883" to="889" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,405.64,190.10,5.96;5,350.93,413.02,158.03,5.96" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Randomised trial of aspirin for chronic venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Layton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Ibbotson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Goodfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="page" from="164" to="165" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,420.40,190.10,5.96;5,350.93,427.78,190.10,5.96;5,350.93,435.16,63.67,5.96" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Role of superficial venous surgery in the treatment of venous ulceration</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scriven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hartshorne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prf</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Naylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Njm</forename><surname>London</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Surg</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="755" to="759" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,442.54,190.08,5.96;5,350.93,449.92,190.11,5.96;5,350.93,457.30,190.09,5.96;5,350.93,464.67,76.78,5.96" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Surgical correction of isolated superficial venous reflux reduces long-term recurrence rate in chronic venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Barwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deacon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ask</forename><surname>Ghauri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wakely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Vasc Endovasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="363" to="368" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,472.04,190.09,5.96;5,350.93,479.41,190.11,5.96;5,350.93,486.78,190.09,5.96;5,350.93,494.14,52.60,5.96" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Minimally invasive surgical management of primary venous ulcers vs. compression treatment: a randomised clinical trial</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zamboni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cisno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marchetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mazza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fogato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Caradina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Vasc Endovasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="313" to="318" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,501.51,190.12,5.96;5,350.93,508.88,190.12,5.96;5,350.93,516.25,56.09,5.96" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Role of saphenous vein surgery in the treatment of venous ulceration</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scriven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hartshorne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Thrush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prf</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Naylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Njm</forename><surname>London</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Surg</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="781" to="784" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,350.93,523.61,190.09,5.96;5,350.93,530.98,190.10,5.96;5,350.93,538.35,144.23,5.96" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Role of superficial venous surgery in patients with combined superficial and segmental deep venous reflux</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hartshorne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Njm</forename><surname>London</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Vasc Endovasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="469" to="472" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

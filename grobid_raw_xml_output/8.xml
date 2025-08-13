@@ -1,0 +1,3366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Human Wounds and Its Burden: An Updated Compendium of Estimates</title>
+				<funder ref="#_YYJf6xX #_y4bhKKg #_mwJBDFK">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_vMhZPEe #_Bqzthn8 #_RGVeppS">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>PhD</roleName><forename type="first">Chandan</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+							<email>cksen@iu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Indiana University Health Comprehensive Wound Center</orgName>
+								<address>
+									<settlement>Indianapolis</settlement>
+									<region>Indiana</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Surgery</orgName>
+								<orgName type="department" key="dep2">In-diana University Health Comprehensive Wound Center</orgName>
+								<address>
+									<addrLine>975 W Walnut Street</addrLine>
+									<postCode>46202</postCode>
+									<settlement>Indianapolis</settlement>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Human Wounds and Its Burden: An Updated Compendium of Estimates</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A9E86A9B45F020AAF1E5B4199C646037</idno>
+					<idno type="DOI">10.1089/wound.2019.0946</idno>
+					<note type="submission">Submitted for publication January 15, 2019. Accepted in revised form January 15, 2019.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>human wound burden</term>
+					<term>wound care economics</term>
+					<term>military wound care</term>
+					<term>wound care training and education</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A 2018 retrospective analysis of Medicare beneficiaries identified that *8.2 million people had wounds with or without infections. Medicare cost estimates for acute and chronic wound treatments ranged from $28.1 billion to $96.8 billion. Highest expenses were for surgical wounds followed by diabetic foot ulcers, with a higher trend toward costs associated with outpatient wound care compared with inpatient. Increasing costs of health care, an aging population, recognition of difficult-to-treat infection threats such as biofilms, and the continued threat of diabetes and obesity worldwide make chronic wounds a substantial clinical, social, and economic challenge. Recent Advances: Chronic wounds are not a problem in an otherwise healthy population. Underlying conditions ranging from malnutrition, to stress, to metabolic syndrome, predispose patients to chronic, nonhealing wounds. From an economic point of view, the annual wound care products market is expected to reach $15-22 billion by 2024. The National Institutes of Health's (NIH) Research Portfolio Online Reporting Tool (RePORT) now lists wounds as a category. Future Directions: A continued rise in the economic, clinical, and social impact of wounds warrants a more structured approach and proportionate investment in wound care, education, and related research.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>A 2009 review of the state of human skin wounds and the threat they present to public health and the health care economy provided an overview of the far-reaching impact of chronic wounds. There is a need for allocation of resources to understand the mechanistic basis of cutaneous wound complications. <ref type="bibr" target="#b0">1</ref> The current article is intended to provide an update on the rising threat that chronic wounds present to global health and economy. A recent retrospective analysis of the Medicare 5% dataset for 2014 analyzed all wound cate-gories, including acute and chronic wounds, and identified that about 8.2 million Medicare beneficiaries had at least one type of wound or related infection. <ref type="bibr" target="#b1">2</ref> Medicare cost projections for all wounds ranged from $28.1 billion to $96.8 billion, including costs for infection management, among which surgical wounds and diabetic ulcers were the most expensive to treat. <ref type="bibr" target="#b1">2</ref> Furthermore, outpatient costs ($9.9-$35.8 billion) were higher than inpatient costs ($5.0-$24.3 billion), possibly because of an increase in outpatient wound treatments that are currently provided. <ref type="bibr" target="#b1">2</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHRONIC WOUNDS</head><p>Wounds that have not progressed through the normal process of healing and are open for more than a month are classified as chronic wounds. <ref type="bibr" target="#b2">3</ref> There are varying etiologies of chronic wounds, all of which burden the health care system. Patients suffering from diabetes and obesity are at a high risk of developing chronic wounds. A vast majority of the people who have a prolonged open wound usually also have other major health conditions. The simultaneous presence of a combination of chronic diseases is called a comorbidity. Chronic wounds are often complicated by comorbidities, making it difficult to track chronic wounds as a disease in itself. <ref type="bibr" target="#b2">3</ref> As such, research funding directly addressing the study of chronic wounds is disproportionately low compared with the overall impact of chronic wounds as a health care problem. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> National Institutes of Health has recently set up the first consortium of its kind, a national Diabetic Foot Consortium (NIDDK; FOA: DK17-014; NOT-DK-18-017), aimed at bringing experts across the United States together to improve the care of diabetic foot ulcers (DFUs).</p><p>Chronic wounds are mostly seen in the elderly population. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b5">6</ref> In the United States, 3% of the population &gt;65 years of age have open wounds. By 2020, the US government estimates that the elderly population will be over 55 million, suggesting that chronic wounds will continue to be an increasingly persistent problem in this population. <ref type="bibr" target="#b6">7</ref> Overall, in the United States *2% of the total population are estimated to be affected by chronic wounds. <ref type="bibr" target="#b7">8</ref> The impact of chronic wounds is also adverse worldwide. For example, a 2016 report from Wales estimated a 6% prevalence of chronic wounds with a 5.5% cost to the National Health Service (NHS). <ref type="bibr" target="#b8">9</ref> In the world's largest wound-dressing markets, United States and Europe, there is a significant demand for wound care products. Globally, the annual cost for wound care was an average of $2.8 billion in 2014. It is projected to rise up to $3.5 billion in 2021. <ref type="bibr" target="#b9">10</ref> The 2018 market research report predicts that the global wound-closure products market will exceed $15 billion by 2022. <ref type="bibr" target="#b10">11</ref> The advanced wound care market targeting surgical wounds and chronic ulcers is expected to exceed $22 billion by 2024, driven by technological advancement, rising incidences of chronic wounds, increasing government support, and a rising geriatric population. <ref type="bibr" target="#b11">12</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PRESSURE ULCERS</head><p>Pressure, or pressure in combination with shear and/or friction, promotes the development of lo-calized ulcers called pressure ulcers (PUs). PU care is expensive and costs more than $11 billion annually in the United States per the Agency for Healthcare Research and Quality (AHRQ) statistics. <ref type="bibr" target="#b12">13</ref> Cost of individual patient care ranges from $20,900 to $151,700 per PU. <ref type="bibr" target="#b12">13</ref> Apart from hospital costs, additional charges for food, transportation, and maintenance is *$43,180 per year. <ref type="bibr" target="#b12">13</ref> Elderly patients; patients with stroke, diabetes, dementia; and those with impaired/limited mobility or sensation are extremely vulnerable to PU. Prolonged sedentary stays in the intensive care unit can also drive PU development in otherwise healthy patients.</p><p>The incidence of PU increases with age and is promoted by a lack of skin perfusion, moisture, and nutrition. <ref type="bibr" target="#b13">14</ref> In the United States around 2.5 million people develop PUs annually. <ref type="bibr" target="#b12">13</ref> They are usually preventable, but they can be lethal if proper, timely care is not received. <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> The global market for PU care products is expected to reach $4.5 billion by 2024. <ref type="bibr" target="#b19">20</ref> Factors that spur this increase include the aging population and associated mobility and neurological disorders. <ref type="bibr" target="#b19">20</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DIABETES</head><p>The Centers for Disease Control and Prevention (CDC) recently released a study that indicated that more than 100 million adults are living with diabetes or prediabetes in the United States. <ref type="bibr" target="#b20">21</ref> As of 2015, 30.3 million Americans (9.4% of the US population) live with diabetes; besides, 84.1 million have prediabetes, which if left untreated often leads to type 2 diabetes (T2D) within 5 years. <ref type="bibr" target="#b20">21</ref> Diabetes prevalence has been found to increase with age. Four percent of adults aged 18-44, 17% of adults aged 45-64 years, and 25% of those aged ‡65 years have diabetes. <ref type="bibr" target="#b20">21</ref> Worldwide, there are an estimated 400 million people living with diabetes. <ref type="bibr" target="#b21">22</ref> In reference to the statistical studies by the World Health Organization (WHO) in 91 countries globally, it was identified that a tiny island country in Micronesia, Nauru, had the highest prevalence rate of 30.9% in 2010. <ref type="bibr" target="#b22">23</ref> This was projected to rise to 33.4% by the year 2030. <ref type="bibr" target="#b22">23</ref> United Arab Emirates was next in line with 18.7% prevalence in 2010, and a projected increase to 21.4% in 2030. <ref type="bibr" target="#b22">23</ref> The age of diabetes onset in developing countries is 45-64. <ref type="bibr" target="#b23">24</ref> By 2030 it is predicted that developing countries will have more people (&gt;65 years of age) with diabetes (82 million) than developed countries (48 million). <ref type="bibr" target="#b24">25</ref> The prevalence of foot ulcers (FUs) is high in the diabetic population and has a neuropathic origin. <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> The annual prevalence of FUs is estimated to be 4-10%, and the risk of development of these ulcers in diabetics is estimated to be anywhere from 15% to 25%. <ref type="bibr" target="#b27">28</ref> The management of DFUs costs $9-$13 billion in the United States. <ref type="bibr" target="#b25">26</ref> By 2026, the T2D market is expected to rise from $28.6 billion to an estimated $64 billion. A compound annual growth of 8.4% is expected in the United States, France, Germany, Italy, Spain, the United Kingdom, and Japan. <ref type="bibr" target="#b28">29</ref> In the United States, the demand for insulin pumps is expected to rise to a $3.8 billion business by 2022, driven by the increasing number of people with diabetes, as well as technological advances in treatment. <ref type="bibr" target="#b29">30</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FOOT ULCERS</head><p>An open sore on the foot is called a FU. It may be shallow, confined only to the surface of the skin. Deep FUs can involve full thickness of the skin, muscle, tendons, and bones. FUs are common in people with diabetes and individuals with compromised blood circulation. <ref type="bibr">31</ref> Despite advanced health care and pharmacotherapy techniques that are widely available, the prevalence of FU has not changed in the past two decades. <ref type="bibr" target="#b30">32</ref> Fourteen percent to 24% suffer from amputation. <ref type="bibr" target="#b31">33</ref> Neuroischemic ulcers are particularly associated with limb amputations. <ref type="bibr" target="#b26">27</ref> Recently, a systematic review and meta-analysis of the global epidemiology of FUs was performed using PubMed, EMBASE, ISI Web of Science, and Cochrane database searches. This was the largest analysis of its kind, including &gt;800,000 subjects from 33 countries. The global DFU prevalence was found to be 6.3%. The lower prevalence of DFU in Europe (5.1%) compared with North America (13.0%) presents a striking difference. Out of 33 countries, Belgium had the highest prevalence with 16.6% and Australia the lowest with 1.5%. Men appeared to be more prone to FUs than women (4.5% vs. 3.5%). Furthermore, FUs were seen more often in patients with T2D compared with type 1 diabetes (6.4% vs. 5.5%). <ref type="bibr" target="#b32">34,</ref><ref type="bibr" target="#b33">35</ref> In general, patients with FUs were older, had a lower body mass index (BMI), longer diabetes duration, higher hypertension rates, higher incidence of diabetic retinopathy, and a smoking history, compared with those without FUs.</p><p>The global DFU market expects a positive 6.6% compound annual growth rate between 2016 and 2024. At this pace, the market's valuation may reach $4.9 billion by the end of 2024. Regionally, the United States dominated the global market in 2016 with an estimated share of 38.1%. It is expected to remain dominant through the forecast period (2024). <ref type="bibr" target="#b34">36</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VENOUS ULCERS</head><p>A vast majority (70%) of lower-extremity ulcers are caused by chronic venous insufficiency. <ref type="bibr" target="#b35">37</ref> In the United States and Europe, people &gt;65 years of age are vulnerable to venous ulcers. <ref type="bibr" target="#b36">38</ref> The prevalence of venous ulcers is 1% of the population globally among those aged 18-64. <ref type="bibr" target="#b37">39</ref> In the United States, 10-35% of the population suffer from some kind of chronic venous issues with 4% (&gt;65 age group) of the cases having active ulcers. <ref type="bibr">40</ref> In the United States and the United Kingdom, venous leg ulcers cost around $2.5 billion and £300-600 million, respectively. <ref type="bibr" target="#b38">41</ref> The annual expenditure to treat a venous ulcer is estimated at $10,563. <ref type="bibr" target="#b39">42</ref> For chronic, nonhealing venous ulcers, the treatment expenditure is estimated to be *$34,000 or higher. <ref type="bibr" target="#b39">42</ref> Chronic venous ulcers burden economic productivity by resulting in the loss of 4.6 million work-days per year. <ref type="bibr" target="#b40">43</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OVERWEIGHT AND OBESITY</head><p>According to a recently updated report from the WHO, worldwide obesity has nearly tripled between 1975 and 2016. <ref type="bibr" target="#b41">44</ref> Excessive accumulation of fat complicates numerous aspects of vital functions within the body, causing illness and posing a risk for an increase in additional health complications. For adults, WHO defines overweight as a BMI ‡25. Obesity is defined as a BMI ‡30. <ref type="bibr" target="#b41">44</ref> Estimates from 2016 indicated that 39% of adults (1.9 billion; ‡18 years) worldwide were overweight, and 13% (&gt;650 million) were obese. <ref type="bibr" target="#b41">44</ref> Among these, women were more prone to overweight or obesity than men. The threat of obesity is not a menace only for adults. Globally, 340 million children and adolescents, aged 5-19, were overweight or obese in 2016. <ref type="bibr" target="#b41">44</ref> In children &lt;5 years, 41 million were either overweight or obese. <ref type="bibr" target="#b41">44</ref> Overweight and obese are at a high risk for noncommunicable diseases <ref type="bibr" target="#b41">[44]</ref><ref type="bibr" target="#b42">[45]</ref><ref type="bibr" target="#b43">[46]</ref> such as: Cardiovascular diseases (primarily heart disease and stroke) Diabetes and associated chronic wounds Musculoskeletal disorders Some cancers (including endometrial, breast, ovarian, prostate, liver, etc). Childhood obesity <ref type="bibr" target="#b44">47,</ref><ref type="bibr" target="#b45">48</ref> is associated with a predisposition to breathing difficulties, increased tendency toward fractures, hypertension, increased risk of cardiovascular disease, insulin resistance, and psychosocial impacts. <ref type="bibr" target="#b46">49,</ref><ref type="bibr" target="#b47">50</ref> In adults, the association between obesity and multiple complications such as impaired or totally failed cutaneous wound healing, particularly following surgery, has been identified by various groups. <ref type="bibr" target="#b48">[51]</ref><ref type="bibr" target="#b49">[52]</ref><ref type="bibr" target="#b50">[53]</ref><ref type="bibr" target="#b51">[54]</ref><ref type="bibr" target="#b52">[55]</ref><ref type="bibr" target="#b53">[56]</ref><ref type="bibr" target="#b54">[57]</ref><ref type="bibr" target="#b55">[58]</ref><ref type="bibr" target="#b56">[59]</ref><ref type="bibr" target="#b57">[60]</ref> Being overweight or obese significantly increases the likelihood of infection-related complications compared with those within a healthy weight range. <ref type="bibr" target="#b58">61</ref> There are many factors that contribute to the chronicity of infection in obese people. Decreased vascularization of the adipose tissue is a major cause for increased infection in obese patients. <ref type="bibr" target="#b50">53</ref> Such poor perfusion limits the supply of host immune cells that represent key components of host defenses against infection. <ref type="bibr" target="#b50">53,</ref><ref type="bibr" target="#b59">[62]</ref><ref type="bibr" target="#b60">[63]</ref><ref type="bibr" target="#b61">[64]</ref> In obese individuals, intentional weight loss was associated with *15-18% reduction in all-cause mortality. <ref type="bibr" target="#b62">65,</ref><ref type="bibr" target="#b63">66</ref> Intragastric balloons (IGBs) are the leading treatment options for obesity and associated diseases. The growing acceptance of minimally invasive surgical methods for IGB insertion is expected to fuel the rising use of this methodology. The IGB market value is expected to exceed $270 million by 2024. <ref type="bibr" target="#b64">67</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PERILS OF CHRONIC WOUNDS</head><p>Access and delivery of wound care are both significant problems that challenge patients suffering from chronic wounds. Lack of access to specialized wound care has resulted in amputations and loss of work productivity. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b65">[68]</ref><ref type="bibr" target="#b66">[69]</ref><ref type="bibr" target="#b67">[70]</ref> In the United States, chronic ulcers are conservatively estimated to cost the health care system $28 billion each year as a primary diagnosis and up to $31.7 billion as a secondary diagnosis. <ref type="bibr" target="#b68">71</ref> According to the American Diabetes Association (ADA), over 9-12 million Americans suffer from chronic ulcers. <ref type="bibr" target="#b69">72</ref> The mortality rate for leg ulcers after the first amputation has dramatically doubled from 20% to 50% in the first 3 years to 70% after 5 years. <ref type="bibr" target="#b69">72</ref> There is a profound psychological impact on the patients suffering from chronic wounds, such as loneliness, separation from an active social life, and depression. These psychosocial stressors further worsen healing outcomes. <ref type="bibr" target="#b70">73,</ref><ref type="bibr" target="#b71">74</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACUTE WOUNDS</head><p>Disruptions in the integrity of the skin that heals uneventfully with time are considered acute wounds. <ref type="bibr" target="#b2">3</ref> Surgical and traumatic wounds, abrasions, or superficial burns are generally considered acute wounds. <ref type="bibr" target="#b2">3</ref> Every time the integrity of the cutaneous barrier is compromised, a wound is created. Wound infections complicate recovery from surgery and significantly increase the cost of wound care postsurgery. The development of novel and practical concepts to prevent and treat these wound infections are key to effective wound management.</p><p>In 2014, acute wounds resulted in 17.2 million hospital visits, including ambulatory/outpatient and inpatient surgical visits. <ref type="bibr" target="#b72">75</ref> The majority (57.8%) of these visits occurred in hospital-owned outpatient settings, while 42.2% were inpatient. <ref type="bibr" target="#b72">75</ref> Outpatient visits were primarily (48.6%) covered by private insurers, while Medicare primarily (43.4%) covered inpatient surgical stays. <ref type="bibr" target="#b72">75</ref> Hospital discharge data derived from the Healthcare Cost and Utilization Project (HCUP) from burn-related hospital inpatient stays and emergency department visits identify that although there have been significant improvements in treatment options for burn injuries, the frequency and associated costs of these injuries remain high. <ref type="bibr" target="#b73">76</ref> Almost half million patients were treated for burns in 2011. Costs estimates show that *$1.5 billion was spent in burn injury care in 2010. An additional $5 billion in costs was associated with lost work-hours. The length of inpatient stay of burn patients was estimated to be twice that of nonburn-related stays. <ref type="bibr" target="#b73">76</ref> Surgical site infections (SSI) represent a major concern in overall health care in the United States and worldwide. <ref type="bibr" target="#b74">[77]</ref><ref type="bibr" target="#b75">[78]</ref><ref type="bibr" target="#b76">[79]</ref> It is the second leading cause of hospital-acquired infections costing $3.5-$10 billion per year. <ref type="bibr" target="#b77">80,</ref><ref type="bibr" target="#b78">81</ref> Despite all efforts, SSI contributes to mortality in 75% of cases. <ref type="bibr" target="#b79">82,</ref><ref type="bibr" target="#b80">83</ref> Emergency wound care for acute wounds has relevance in combat settings and preparedness against natural disasters, terrorist attacks, and other such events that result in acute injuries. Survivors of bombings are primarily impacted at the soft tissue and musculoskeletal system level. <ref type="bibr" target="#b81">84</ref> Amputations are the unfortunate end result of the most extreme of these injuries and reported to occur in 1-3% of blast victims. <ref type="bibr" target="#b81">84,</ref><ref type="bibr" target="#b82">85</ref> Acute wound care accompanied by associated infections may highly impact occupational health.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INFECTION</head><p>Bacteria rapidly colonize in open skin wounds after burn injury <ref type="bibr" target="#b83">[86]</ref><ref type="bibr" target="#b84">[87]</ref><ref type="bibr" target="#b85">[88]</ref><ref type="bibr" target="#b86">[89]</ref><ref type="bibr" target="#b87">[90]</ref> or surgical incisions. <ref type="bibr" target="#b48">51,</ref><ref type="bibr" target="#b88">[91]</ref><ref type="bibr" target="#b89">[92]</ref><ref type="bibr" target="#b90">[93]</ref><ref type="bibr" target="#b91">[94]</ref><ref type="bibr" target="#b92">[95]</ref><ref type="bibr" target="#b93">[96]</ref> Microorganisms colonizing these wounds are typically the patient's normal flora <ref type="bibr" target="#b94">[97]</ref><ref type="bibr" target="#b95">[98]</ref><ref type="bibr" target="#b96">[99]</ref><ref type="bibr" target="#b97">[100]</ref><ref type="bibr" target="#b98">[101]</ref> or may be transferred via contact with contaminated water, fomites, or the soiled hands of health care workers. <ref type="bibr" target="#b99">[102]</ref><ref type="bibr" target="#b100">[103]</ref><ref type="bibr" target="#b101">[104]</ref><ref type="bibr" target="#b102">[105]</ref><ref type="bibr" target="#b103">[106]</ref> Gram-positive bacteria such as Staphylococcus aureus, Enterococcus spp., and Gramnegative organisms such as Pseudomonas aeruginosa, Acinetobacter spp., fungi like Candida spp., Aspergillus spp., are all among a list of common pathogens that can cause acute wound infections, and several of them are resistant to antibiotics. <ref type="bibr" target="#b104">107</ref> An important factor in the failure of a sore to heal is the presence of polymicrobial consortia, living cooperatively in highly organized biofilms. The biofilm shields the pathogenic microbes from antimicrobial therapy and the patient's immune response. Biofilm infections have been linked to wound chronicity. <ref type="bibr" target="#b86">89,</ref><ref type="bibr" target="#b87">90,</ref><ref type="bibr" target="#b105">[108]</ref><ref type="bibr" target="#b106">[109]</ref><ref type="bibr" target="#b107">[110]</ref><ref type="bibr" target="#b108">[111]</ref><ref type="bibr" target="#b109">[112]</ref> Recent studies reveal that biofilm infection may directly hinder wound closure or cause defective wound closure where the wound site appears closed but the repaired skin lacks barrier function. <ref type="bibr" target="#b84">87,</ref><ref type="bibr" target="#b86">89,</ref><ref type="bibr" target="#b87">90,</ref><ref type="bibr" target="#b109">112</ref> Such observation calls for a revision of the current wound care endpoint. Covering of a wound and a lack of discharge may not be adequate criteria to declare a wound closed. It is important to add that the repaired skin must have physiological functionality. Thus, covering of the wound, a lack of discharge, and restoration of barrier function should be considered as criteria for wound closure in patients. It is suspected that wounds that appear closed, but are deficient in barrier function, lend themselves to wound recurrence. Patient-based studies (NCT 02577120) are currently in progress to test this hypothesis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MALNUTRITION</head><p>The process of wound healing, involving de novo tissue generation, is a metabolic and caloriedemanding process. From a microenvironment standpoint, energy needs to be generated to enable cellular repair mechanisms, chemotactic responses (growth factors and cytokine response), cell motility, division, and differentiation. <ref type="bibr" target="#b110">113,</ref><ref type="bibr" target="#b111">114</ref> At a macroenvironment scale, patients with nonhealing wounds often suffer from nutritional deficiencies. <ref type="bibr" target="#b112">115</ref> Those with, compared with those without, nutritional deficits are more likely to develop chronic wounds that are slower to heal. <ref type="bibr" target="#b113">[116]</ref><ref type="bibr" target="#b114">[117]</ref><ref type="bibr" target="#b115">[118]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STRESS</head><p>Another key determinant relating to wound outcomes is psychosocial stress. <ref type="bibr" target="#b49">52,</ref><ref type="bibr" target="#b70">73,</ref><ref type="bibr" target="#b116">[119]</ref><ref type="bibr" target="#b117">[120]</ref><ref type="bibr" target="#b118">[121]</ref><ref type="bibr" target="#b119">[122]</ref> Stress impairs cellular immunity, compromising wound healing. The discipline of psychoneuroimmunology (PNI) is of direct relevance to wound healing outcomes. <ref type="bibr" target="#b120">123,</ref><ref type="bibr" target="#b121">124</ref> PNI provides a key insight into how the immune system bi-directionally communicates with the central nervous and endocrine systems and how these communications impact health outcomes. <ref type="bibr" target="#b120">123,</ref><ref type="bibr" target="#b121">124</ref> Stress-induced immune dysregulation results in impaired wound healing. <ref type="bibr" target="#b120">123,</ref><ref type="bibr" target="#b122">125,</ref><ref type="bibr" target="#b123">126</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SCAR AND FIBROSIS</head><p>Scars and associated functional as well as aesthetic concerns represent a huge burden on health care. <ref type="bibr" target="#b124">127</ref> Burn wounds usually leave hypertrophic scars after they have healed. In particular, the face is highly susceptible to excessive scarring, causing functional deficits. Some of the critical facial characteristics following thermal injury of the face include ectropion (epithelial-ocular junction), eversion of the lip (epithelial-oral junction), and excessive skin contracture. Deficits such as oral incompetence are common. Such disorders cause social, emotional, and psychological burdens. Patients with such facial disfigurations showed symptoms of depression, anxiety, and hostility, compared with a matched normal control group, for a period of up to 1 year post trauma. <ref type="bibr" target="#b125">128</ref> Other than the face, scarring is a substantial health care problem today. The global skin scar therapy market is expected to reach around $35 billion by 2023. <ref type="bibr" target="#b126">129</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PHYSICIAN EDUCATION</head><p>Comprehensive education is critical for the development of wound care management as a discipline in mainstream medicine. <ref type="bibr" target="#b127">130</ref> Formal wound care education in US medical schools is often weak at best. Of 55 schools surveyed throughout the United States, only seven offered a formal wound healing elective. <ref type="bibr" target="#b128">131</ref> Typically, education and training in wound care for the medical students within the United States do not exceed &gt;9.2 h in the 4-year curriculum. <ref type="bibr" target="#b129">132</ref> To help address this gap in medical training, the American College of Wound Healing and Tissue Repair was founded to help train physicians specialize in wound care. This institution is currently working toward accreditation by the American Board of Medical Specialties and hopes to achieve this by 2022. <ref type="bibr" target="#b127">130</ref> In Europe, wound care education lacks consensus in relation to the minimum education needed to be an expert in wound care. <ref type="bibr" target="#b130">133</ref> Various diploma and certificate programs are available in France, England, and Wales. The European Wound Management Association (EWMA) is working toward establishing a core standard for acceptable wound management education. <ref type="bibr" target="#b130">133</ref> In Denmark, however, a 2-year additional educational experience following basic specialty training has been developed for medical doctors. <ref type="bibr" target="#b130">133</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NURSING EDUCATION, PHYSICAL THERAPY, AND OSTOMY</head><p>Traditionally, wound healing has been under the aegis of basic nursing practices, <ref type="bibr" target="#b131">134</ref> such as wound covering management, therapeutic nutrition, and mobility and psychosocial support. Nurses play a crucial role in handling and managing acute wounds and chronic wounds such as PUs, bedsores, FUs, and venous ulcers. The Wound Ostomy and Continence Nurses (WOCN) Society is the oldest wound care society that has board-certified over 6,000 nurses worldwide. <ref type="bibr" target="#b131">134</ref> They are considered the gold standard for certification in wound nursing, and this process requires completion of a rigorous curriculum followed by stringent recertification processes. <ref type="bibr" target="#b131">134</ref> In 2010, the Organization of Wound Care Nurses (OWCN) was established. <ref type="bibr" target="#b132">135</ref> It provides the foundation and free-of-cost training for all the licensed nurses who are practicing in different care settings. Wound care and ostomy education programs for nurses are increasingly becoming available in an effort to improve nursing service quality. <ref type="bibr" target="#b133">136</ref> Appropriate professional use of multiple wound care disciplines may markedly impact wound care. <ref type="bibr" target="#b134">[137]</ref><ref type="bibr" target="#b135">[138]</ref><ref type="bibr" target="#b136">[139]</ref> Physical therapy represents one such major discipline. Trained physical therapists may employ numerous treatment regimens, such as wound debridement, modalities, edema management, positioning, orthotic use, and mobility improvement. Occupational therapists may provide edema management, wound debridement, positioning, toileting programs, self-feeding, and wheelchair management as relevant to the need of the patient. Addressing supportive interventions such as physical and occupational therapy and nutrition management are likely to promote the rate of wound healing, thereby lowering the overall costs of wound care. After all, the longer a patient's healing time, the higher the cost to the facility.</p><p>Wound, ostomy, and continence nurses, in addition to being educated and trained to provide acute and rehabilitative care, represent an important component of the wound care ecosystem. <ref type="bibr" target="#b137">[140]</ref><ref type="bibr" target="#b138">[141]</ref><ref type="bibr" target="#b139">[142]</ref> Ostomies, stomas, acute and chronic wounds, and urinary and fecal incontinence often present severe physical challenges to wound patients. These lead to emotional and social issues that may be addressed by properly trained allied medical professionals. Limitations in well-structured education of wound care providers may be viewed as a significant barrier to uniform evidence-based wound care throughout the country.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PATIENT EDUCATION</head><p>Literature addressing patient-centered wound care has mostly focused on quality of life (QoL), pain, adherence, and coping. A key concern from the patients' perspective is improved provider rec-ognition of patients' concerns in treatment planning and request for personalized approaches. The evolution to shared wound care decision making is what patients are seeking. <ref type="bibr" target="#b140">143,</ref><ref type="bibr" target="#b141">144</ref> Engaging patients' awareness and involvement in wound management is key to ensuring successful healing outcomes. <ref type="bibr" target="#b142">145</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>COMBAT WOUND CARE</head><p>In the military and related defense services, wounds and trauma are a common problem. In 2017, the National Academies of Science, Engineering, and Medicine reported a new vision for a national trauma care system with the ultimate aim of ''zero'' preventable deaths after injury to benefit those in combat. <ref type="bibr" target="#b143">146</ref> This vision is based on studies conducted between 2001 and 2011, which identified that *75% of combat deaths were caused by explosions and lack of timely and appropriate care before the patient reached a medical treatment facility. <ref type="bibr" target="#b143">146</ref> The Department of Defense (DoD) and the US Department of Veterans Affairs (VA) are the two federal government institutions involved in providing health care to the 3.9 million US military members who served in Operation Enduring Freedom and Operation Iraqi Freedom (OEF/ OIF), the 17 million veterans from prior periods, and the 1.3 million active personnel and their families. <ref type="bibr" target="#b144">147</ref> The DoD covers active service members, and the VA provides medical support to eligible retirees. The TRICARE for Life program is a wraparound plan meant to supplement Medicare coverage of military retirees and to pay for military hospitals and health care workers. <ref type="bibr" target="#b145">148</ref> The VA estimates that around 25% of military veterans have diabetes <ref type="bibr" target="#b146">149,</ref><ref type="bibr" target="#b147">150</ref> (compared with 9% of the civilian adult population). The economic burden of lower limb amputations in diabetic veterans was $206 million. <ref type="bibr" target="#b148">151</ref> The Combat Casualty Care Research Program is a collaborative, multidisciplinary partnership that utilizes clinical and translational research to provide state-of-the-art wound care. <ref type="bibr" target="#b149">152</ref> With an effort to maximize restoration of function and QoL in service members with combat-related extremity trauma, the VA and DoD have increased their research and clinical care efforts with a focus on regenerative medicine. <ref type="bibr" target="#b150">153</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CLOSING REMARKS</head><p>Based on estimates originating from independent sources, it is clear that the magnitude of wounds as a health care problem is sharply rising. Resources allocated to the education, care, and research of wounds continues to be disproportionately low and deserves strategic attention. A key challenge in all of these three domains-education, care, and research-is the ability to recruit interdisciplinary talent that would work together cohesively as one team.</p></div>		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS AND FUNDING SOURCES</head><p>Work on wound care in this program is supported by the <rs type="funder">National Institutes of Health</rs> awards <rs type="grantNumber">R01NR015676</rs>, <rs type="grantNumber">R01GM077185</rs>, <rs type="grantNumber">R01GM108014</rs>, <rs type="grantNumber">R0 1DK114718</rs>, <rs type="grantNumber">U01DK119099</rs>, and <rs type="grantNumber">R01NR013898</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_vMhZPEe">
+					<idno type="grant-number">R01NR015676</idno>
+				</org>
+				<org type="funding" xml:id="_Bqzthn8">
+					<idno type="grant-number">R01GM077185</idno>
+				</org>
+				<org type="funding" xml:id="_RGVeppS">
+					<idno type="grant-number">R01GM108014</idno>
+				</org>
+				<org type="funding" xml:id="_YYJf6xX">
+					<idno type="grant-number">R0 1DK114718</idno>
+				</org>
+				<org type="funding" xml:id="_y4bhKKg">
+					<idno type="grant-number">U01DK119099</idno>
+				</org>
+				<org type="funding" xml:id="_mwJBDFK">
+					<idno type="grant-number">R01NR013898</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR DISCLOSURE AND GHOSTWRITING</head><p>No competing financial interests exist. The content of this article was expressly written by the author listed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ABOUT THE AUTHOR</head><p>Chandan K. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,52.43,357.70,146.83,7.30;7,57.60,367.63,141.64,7.30;7,57.60,377.60,141.67,7.30;7,57.60,387.58,72.75,7.30" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Human skin wounds: a major and snowballing threat to public health and the economy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="763" to="771" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.43,402.49,146.82,7.30;7,57.60,412.47,141.65,7.30;7,57.60,422.45,141.68,7.30;7,57.60,432.43,136.43,7.30" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An economic evaluation of the impact, cost, and medicare policy implications of chronic nonhealing wounds</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Nussbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Fife</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Value Health</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="27" to="32" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.43,447.34,146.93,7.30;7,57.60,457.31,141.66,7.30;7,57.60,467.29,80.37,7.30" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Wound Healing (Neligan Plastic Surgery: Volume One)</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gordillo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Elsevier</publisher>
+			<pubPlace>Amsterdam, Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.43,482.20,146.80,7.30;7,57.60,492.18,141.67,7.30;7,57.60,502.16,141.70,7.30;7,57.60,512.08,94.02,7.30" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">US-National Institutes of Health-funded research for cutaneous wounds in 2012</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Richmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Lamel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Davidson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="789" to="792" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.43,527.05,146.80,7.30;7,57.60,537.02,141.67,7.30;7,57.60,546.95,141.67,7.30;7,57.60,556.92,72.75,7.30" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Wound research funding from alternative sources of federal funds in 2012</title>
+		<author>
+			<persName><forename type="first">Baquerizo</forename><surname>Nole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Yim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Van Driessche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="295" to="300" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.43,571.89,146.85,7.30;7,57.60,581.81,141.67,7.30;7,57.60,591.79,141.70,7.30;7,57.60,601.77,27.02,7.30" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Chronic wound repair and healing in older adults: current status and future research</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gould</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Abadir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Geriatr Soc</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="427" to="438" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.43,616.74,146.86,7.30;7,57.60,626.66,141.64,7.30;7,57.60,636.63,141.50,7.30;7,57.60,646.61,102.76,7.30" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Are you at risk for chronic wounds?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Serena</surname></persName>
+		</author>
+		<ptr target="www.futureofpersonalhealth.com/prevention-and-treatment/are-you-at-risk-for-chronic-wounds" />
+		<imprint>
+			<date type="published" when="2015-09-06">2015. September 6, 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.43,661.30,146.86,7.53;7,57.60,671.50,141.67,7.30;7,57.60,681.48,141.68,7.30;7,57.60,691.46,54.47,7.30" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The humanistic and economic burden of chronic wounds: a protocol for a systematic review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ja ¨rbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><surname>So ¨nnergren H</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="15" to="15" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.43,706.37,146.85,7.30;7,57.60,716.35,141.66,7.30;7,57.60,726.32,141.69,7.30;7,57.60,736.24,141.66,7.30;7,57.60,746.22,98.93,7.30" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Estimating the costs associated with the management of patients with chronic wounds using linked routine data</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Humphreys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fletcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Macey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1193" to="1197" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,227.07,357.70,147.52,7.30;7,232.50,367.63,142.09,7.30;7,232.50,377.60,142.13,7.30;7,232.50,387.58,141.97,7.30;7,232.50,397.50,104.24,7.30" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">A Robust market rich with opportunities: advanced wound dressings</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Settipalli</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015-06-13">June 13, 2015. September 20, 2015</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">com/a-robust-marketrich-with-opportunities-advanced-wound-dressings</note>
+	<note>www.pm360online</note>
+</biblStruct>
+
+<biblStruct coords="7,227.07,412.47,147.52,7.30;7,232.50,422.45,142.13,7.30;7,232.50,432.43,142.10,7.30;7,232.50,442.35,141.87,7.30;7,232.50,452.33,142.09,7.30;7,232.50,462.30,29.23,7.30" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Wound Closure Products Market Share 2018 Industry analysis, growth, and forecast to 2022</title>
+		<imprint>
+			<date type="published" when="2018-04-23">2018. April 23, 2018</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">www.financeswire.com/wound-closureproducts-market-share-2018-industry-analysisgrowth-and-forecast-to-2022</note>
+</biblStruct>
+
+<biblStruct coords="7,227.07,477.21,147.55,7.30;7,232.50,487.19,142.15,7.30;7,232.50,497.17,142.12,7.30;7,232.50,507.15,142.08,7.30;7,232.50,517.07,142.05,7.30;7,232.50,527.05,142.09,7.30;7,232.50,537.02,141.92,7.30;7,232.50,546.95,88.73,7.30" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Advanced Wound Care Market Outlook &amp; Forecasts 2018 to 2024: Global industry research, demand and future industry growth analysis</title>
+		<ptr target="www.abnewswire.com/pressreleases/advanced-wound-care-market-outlook-forecasts-2018-to-2024-global-industry-research-demand-and-future-industry-growth-analysis_201175.html" />
+		<imprint>
+			<date type="published" when="2018-04-23">2018. April 23, 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,227.07,561.91,147.51,7.30;7,232.50,571.89,142.14,7.30;7,232.50,581.81,142.15,7.30;7,232.50,591.79,142.14,7.30;7,232.50,601.77,142.12,7.30;7,232.50,611.75,26.03,7.30" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Preventing pressure ulcers in hospitals; A toolkit for improving quality of care</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berlowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vandeusen</forename><surname>Lukas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Agency for Healthcare Research and Quality (AHRQ)</title>
+		<editor>
+			<persName><forename type="first">Affairs</forename><surname>Usdov</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>U.S. Department of Health and Human Services</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,227.07,626.66,147.56,7.30;7,232.50,636.63,142.08,7.30;7,232.50,646.61,142.09,7.30;7,232.50,656.53,15.99,7.30" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Patient risk factors for pressure ulcer development: systematic review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gorecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Nurs Stud</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="974" to="1003" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,227.07,671.50,147.56,7.30;7,232.50,681.48,142.10,7.30;7,232.50,691.46,142.10,7.30" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Hospital-aquired pressure ulcers: a comparison of costs in medical vs. surgical patients</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Beckrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Aronovitch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nurs Econ</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">263</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,227.07,706.37,147.51,7.30;7,232.50,716.35,142.11,7.30;7,232.50,726.32,142.13,7.30;7,232.50,736.24,142.12,7.30;7,232.50,746.22,15.99,7.30" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Preventing Pressure Ulcers in Hospitals: A Toolkit for Improving Quality of Care</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berlowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vandeusen</forename><surname>Lukas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Agency of Healthcare Research and Quality</publisher>
+			<pubPlace>Rockville, MD</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,402.42,357.70,147.54,7.30;7,407.85,367.63,142.07,7.30;7,407.85,377.60,141.11,7.30" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Quality of care for hospitalized Medicare patients at risk for pressure ulcers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Lyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Preston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Grady</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="1549" to="1554" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,402.42,393.82,147.52,7.30;7,407.85,403.74,142.08,7.30;7,407.85,413.72,27.10,7.30" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">High cost of stage IV pressure ulcers</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nierman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Surg</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="473" to="477" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,402.42,429.93,147.51,7.30;7,407.85,439.85,142.11,7.30;7,407.85,449.83,142.13,7.30;7,407.85,459.81,142.10,7.30;7,407.85,469.79,60.36,7.30" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Pressure ulcers: avoidable or unavoidable? Results of the national pressure ulcer advisory panel consensus conference</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Edsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Baharestani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,402.42,485.94,147.54,7.30;7,407.85,495.92,142.08,7.30;7,407.85,505.90,142.03,7.30;7,407.85,515.82,140.57,7.30;7,407.85,525.80,142.07,7.30;7,407.85,535.78,48.47,7.30" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Aging population, growing awareness and innovations drive the global pressure ulcer relief products market</title>
+		<imprint>
+			<date type="published" when="2017-04-23">2017. April 23, 2018</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">www.strategyr.com/Market Research/Pressure_Ulcer_Relief_Treatment_ Devices_Market_Trends.asp</note>
+</biblStruct>
+
+<biblStruct coords="7,402.42,551.94,147.55,7.30;7,407.85,561.91,142.10,7.30;7,407.85,571.89,142.11,7.30;7,407.85,581.81,142.12,7.30;7,407.85,591.79,94.83,7.30" xml:id="b20">
+	<monogr>
+		<ptr target="https://www.cdc.gov/media/releases/2017/p0718-diabetes-report.html" />
+		<title level="m">New CDC report: more than 100 million have diabetes or prediabetes</title>
+		<imprint>
+			<date type="published" when="2018-01-05">2018. January 5, 2019</date>
+		</imprint>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,402.42,608.00,147.53,7.30;7,407.85,617.98,142.10,7.30;7,407.85,627.90,141.72,7.30;7,407.85,637.88,138.94,7.30" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">LGND) diabetes candidate positive in Phase II Study</title>
+		<author>
+			<persName><surname>Ligand</surname></persName>
+		</author>
+		<ptr target="https://finance.yahoo.com/news/ligand-lgnd-diabetes-candidate-positive-140302194.html" />
+		<imprint>
+			<date type="published" when="2017-04-23">2017. April 23, 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,402.42,654.10,147.54,7.30;7,407.85,664.02,142.09,7.30;7,407.85,673.99,142.12,7.30" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Global estimates of the prevalence of diabetes for 2010 and 2030</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sicree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Z</forename><surname>Zimmet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Res Clin Pract</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="4" to="14" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,402.42,690.21,147.54,7.30;7,407.85,700.13,142.13,7.30;7,407.85,710.11,142.07,7.30;7,407.85,720.09,43.09,7.30" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Global burden of diabetes, 1995-2025: prevalence, numerical estimates, and projections</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Aubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Herman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1414" to="1431" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,402.42,736.24,147.52,7.30;7,407.85,746.22,142.08,7.30;8,77.33,72.43,142.14,7.30;8,77.33,82.40,75.01,7.30" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Global prevalence of diabetes: estimates for the year 2000 and projections for 2030</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Roglic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sicree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1047" to="1053" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,97.31,147.61,7.30;8,77.33,107.29,142.16,7.30;8,77.33,117.27,142.11,7.30;8,77.33,127.25,128.48,7.30" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Financial burden of diabetic foot ulcers to world: a progressive topic to discuss always</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raghav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Labala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Noor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Mishra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Therap Adv Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="29" to="31" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,142.16,147.58,7.30;8,77.33,152.14,113.90,7.30" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Management of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Alexiadou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Doupis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Ther</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="4" to="4" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,167.10,147.59,7.30;8,77.33,177.02,142.15,7.30;8,77.33,187.00,142.12,7.30;8,77.33,196.98,76.67,7.30" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Diabetic foot disease: from the evaluation of the &apos;&apos;foot at risk&apos;&apos; to the novel diabetic ulcer treatment modalities</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Doupis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World J Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="153" to="164" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,211.89,147.57,7.30;8,77.33,221.87,142.13,7.30;8,77.33,231.85,141.46,7.30;8,77.33,241.82,142.09,7.30;8,77.33,251.75,18.63,7.30" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Type 2 diabetes market set to soar to $64bn by 2026</title>
+		<ptr target="www.pmlive.com/pharma_news/type_2_diabetes_market_set_to_soar,_says_globaldata_1202514" />
+		<imprint>
+			<date type="published" when="2017-04-23">2017. April 23, 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,266.71,147.64,7.30;8,77.33,276.69,142.11,7.30;8,77.33,286.61,142.18,7.30;8,77.33,296.59,142.21,7.30;8,77.33,306.57,141.84,7.30;8,77.33,316.55,140.86,7.30;8,77.33,326.47,141.80,7.30;8,77.33,336.45,141.76,7.30;8,77.33,346.42,142.11,7.30;8,77.33,356.34,17.36,7.30" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">8 Billion Insulin Pump Market 2017-2022 with Insulet Corporation, Medtronic, Roche, Animas Corporation and Tandem Diabetes Care Dominating</title>
+		<ptr target="https://globenewswire.com/news-release/2017/08/25/1100546/0/en/" />
+		<imprint>
+			<date type="published" when="2017-04-23">2017. April 23, 2018</date>
+			<publisher>United States $3</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Insulet-Corporation-Medtronic-Roche-Animas-Corporation-and-Tandem-Diabetes-Care-Dominating.html</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">United-States-3-8-Billion-Insulin-Pump-Market-2017-2022-with</note>
+</biblStruct>
+
+<biblStruct coords="8,71.90,406.18,147.58,7.30;8,77.33,416.16,142.15,7.30;8,77.33,426.13,142.14,7.30;8,77.33,436.06,142.15,7.30;8,77.33,446.03,75.36,7.30" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Temporal changes in the prevalence and associates of foot ulceration in type 2 diabetes: the Fremantle Diabetes Study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davis</forename><forename type="middle">Wa</forename><surname>Norman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Complications</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="356" to="361" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,459.02,147.57,9.29;8,77.33,470.92,142.15,7.30;8,77.33,480.90,142.12,7.30;8,77.33,490.88,106.33,7.30" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Association between peripheral arterial disease and diabetic foot ulcers in patients with diabetes mellitus type 2</title>
+		<author>
+			<persName><forename type="first">Ma</forename><forename type="middle">´</forename><surname>Tresierra-Ayala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Garcia</forename><surname>Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Univ</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="123" to="126" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,505.79,147.56,7.30;8,77.33,515.77,142.15,7.30;8,77.33,525.74,142.15,7.30;8,77.33,535.72,67.89,7.30" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Global epidemiology of diabetic foot ulceration: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Med</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="106" to="116" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,550.63,147.53,7.30;8,77.33,560.61,140.51,7.30" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The global burden of diabetic wounds</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schreml</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berneburg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="845" to="846" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,575.52,146.19,7.30;8,77.33,585.50,141.82,7.30;8,77.33,595.48,141.36,7.30;8,77.33,605.45,141.74,7.30;8,77.33,615.38,142.13,7.30;8,77.33,625.35,51.46,7.30" xml:id="b34">
+	<monogr>
+		<title level="m" type="main">diabetic-foot-ulcers-and-pressure-ulcers-market-toreach-us49-billion-by-2024-immobility-in-patientsdue-to-chronic-ailments-to-fuel-demand-for-treat ments-says-tmr-617648423.html</title>
+		<ptr target="https://www.prnewswire.com/news-releases/" />
+		<imprint>
+			<date type="published" when="2019-01-05">January 5, 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,640.32,147.52,7.30;8,77.33,650.24,142.07,7.30;8,77.33,660.22,20.45,7.30" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Chronic leg ulcers: epidemiology, aetiopathogenesis, and management</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Agale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Ulcers</title>
+		<imprint>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,675.19,147.54,7.30;8,77.33,685.17,142.11,7.30;8,77.33,695.09,98.07,7.30" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The venous ulcer continues to be a clinical challenge: an update</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rerkasem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Burns Trauma</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,71.90,710.05,147.57,7.30;8,77.33,720.03,142.12,7.30;8,77.33,729.95,142.09,7.30;8,252.68,72.43,142.08,7.30;8,252.68,82.40,142.14,7.30;8,252.68,92.38,106.72,7.30" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Challenging the use of bandage compression as the baseline for evaluating the healing outcomes of venous leg ulcer-related compression therapies in the community and outpatient setting: an integrative review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Asaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Salim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tuffaha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dubai Med J</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="19" to="25" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,142.78,147.58,7.30;8,252.68,152.76,142.10,7.30;8,252.68,162.68,142.14,7.30;8,252.68,172.66,142.12,7.30;8,252.68,182.64,105.77,7.30" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Management of venous leg ulcers: clinical practice guidelines of the Society for Vascular Surgery (R) and the American Venous Forum</title>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Donnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jr</forename><surname>Passman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Marston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="3" to="59" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="8,247.25,197.89,147.54,7.30;8,252.68,207.81,142.07,7.30;8,252.68,217.79,132.12,7.30" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The real cost of treating venous ulcers in a contemporary vascular practice</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Donnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Iafrati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="355" to="361" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,233.04,147.52,7.30;8,252.68,243.01,142.14,7.30;8,252.68,252.94,51.90,7.30" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The evaluation of lower-extremity ulcers</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spentzouris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Labropoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Intervent Radiol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="286" to="295" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,268.19,147.56,7.30;8,252.68,278.16,142.07,7.30;8,252.68,288.14,140.72,7.30;8,252.68,298.06,96.13,7.30" xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Fact sheet on obesity and overweight</title>
+		<ptr target="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" />
+		<imprint>
+			<date type="published" when="2015-01-02">2015. January 2, 2019</date>
+			<publisher>World Health Organization</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,313.31,147.52,7.30;8,252.68,323.29,142.10,7.30;8,252.68,333.27,142.12,7.30;8,252.68,343.19,121.97,7.30" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Body Fatness and cancer-viewpoint of the IARC Working Group</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lauby-Secretan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scoccianti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Loomis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Grosse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bianchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Straif</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="794" to="798" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,358.44,147.53,7.30;8,252.68,368.42,142.13,7.30;8,252.68,378.40,142.14,7.30;8,252.68,388.37,118.73,7.30" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Obesity and loss of disease-free years owing to major noncommunicable diseases: a multicohort study</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Nyberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Batty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pentti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Public Health</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="490" to="e497" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,403.34,147.52,7.53;8,252.68,413.55,142.13,7.30;8,252.68,423.52,48.34,7.30" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Gu ¨ngo ¨r NK. Overweight and obesity in children and adolescents</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Res Pediatr Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="129" to="143" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,438.77,147.54,7.30;8,252.68,448.70,68.76,7.30" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Pediatric obesity. An introduction</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Yanovski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appetite</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="3" to="12" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,463.95,147.56,7.30;8,252.68,473.92,142.09,7.30;8,252.68,483.90,82.81,7.30" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Psychological issues in pediatric obesity</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kalra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sonavane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ind Psychiatry J</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="11" to="17" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,499.15,147.58,7.30;8,252.68,509.07,142.11,7.30;8,252.68,519.05,142.13,7.30;8,252.68,529.03,101.61,7.30" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Psychological consequences of childhood obesity: psychiatric comorbidity and prevention</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rankin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cobley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adolesc Health Med Ther</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="125" to="146" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,544.28,147.51,7.30;8,252.68,554.20,142.12,7.30;8,252.68,564.18,136.21,7.30" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Determining risk factors for surgical wound dehiscence: a literature review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sandy-Hodgetts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Carville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Leslie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="265" to="275" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,579.43,147.56,7.30;8,252.68,589.41,128.10,7.30" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Factors affecting wound healing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dipietro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Dent Res</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="219" to="229" />
+			<date type="published" when="2010-03">Mar 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,604.66,147.57,7.30;8,252.68,614.58,142.14,7.30;8,252.68,624.56,41.26,7.30" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Factors that impair wound healing</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hamm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Clin Wound Special</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="84" to="91" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,639.81,147.53,7.30;8,252.68,649.78,142.10,7.30;8,252.68,659.70,142.09,7.30;8,252.68,669.68,27.10,7.30" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Obesity and post-operative complications in patients undergoing non-bariatric surgery</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Doyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lysaght</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Reynolds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Obes Rev</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="875" to="886" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,684.93,147.54,7.30;8,252.68,694.91,142.14,7.30;8,252.68,704.83,89.51,7.30" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Obesity and surgical wound healing: a current review</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename><surname>Pierpont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Dinh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Salas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISRN Obes</title>
+		<imprint>
+			<biblScope unit="page">638936</biblScope>
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,247.25,720.08,147.51,7.30;8,252.68,730.06,115.61,7.30" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Obesity and the skin</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Shipman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Millington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="page" from="743" to="750" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,72.42,147.54,7.30;8,428.03,82.40,142.13,7.30;8,428.03,92.38,138.70,7.30" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Obesity related complications in surgery</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Otolaryngol Head Neck Surg</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="341" to="347" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,107.57,147.55,7.30;8,428.03,117.55,142.09,7.30;8,428.03,127.53,27.10,7.30" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Obesity and burns</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Goutos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sadideen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Pandya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Ghosh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Burn Care Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="471" to="482" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,142.83,147.56,7.30;8,428.03,152.76,142.12,7.30;8,428.03,162.73,142.10,7.30;8,428.03,172.71,142.10,7.30;8,428.03,182.69,142.14,7.30;8,428.03,192.61,138.79,7.30" xml:id="b56">
+	<monogr>
+		<title level="m" type="main">morbid obesity increases the risk of postoperative wound complications, infection, and repeat surgical procedures following upper extremity limb salvage surgery for soft tissue sarcoma</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Houdek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Wunder</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">1558944718797336</biblScope>
+			<pubPlace>Hand (N Y) 2018</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,207.86,147.54,7.30;8,428.03,217.84,142.11,7.30;8,428.03,227.82,142.13,7.30;8,428.03,237.74,142.17,7.30;8,428.03,247.72,126.85,7.30" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Obesity is associated with larger soft-tissue sarcomas, more surgical complications, and more complex wound closures (obesity leads to larger soft-tissue sarcomas)</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Siegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Surg Oncol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="184" to="191" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,263.08,147.53,7.30;8,428.03,273.00,142.12,7.30;8,428.03,282.98,142.10,7.30;8,428.03,292.96,142.22,7.30;8,428.03,302.93,142.06,7.30;8,428.03,312.86,20.73,7.30" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Impact of obesity on the risk of wound infection following surgery: results from a nationwide prospective multicentre cohort study in England</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thelwall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Harrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sheridan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lamagni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Microbiol Infect</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">1008</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>e1001-e1008 .e1008</note>
+</biblStruct>
+
+<biblStruct coords="8,422.60,328.22,147.51,7.30;8,428.03,338.20,142.09,7.30;8,428.03,348.12,142.07,7.30;8,428.03,358.10,39.52,7.30" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Wound hypoxia and acidosis limit neutrophil bacterial killing mechanisms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Maguire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahdavian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Surg</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="991" to="996" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,373.46,147.49,7.30;8,428.03,383.44,142.16,7.30" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Checklist for factors affecting wound healing</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">192</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,398.63,147.55,7.30;8,428.03,408.61,142.09,7.30;8,428.03,418.59,142.09,7.30;8,428.03,428.57,142.10,7.30;8,428.03,438.49,90.29,7.30" xml:id="b61">
+	<monogr>
+		<title level="m" type="main">What&apos;s the connection between diabetes and wound healing?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dening</surname></persName>
+		</author>
+		<ptr target="https://www.healthline.com/health/diabetes/diabetes-and-wound-healing" />
+		<editor>Butler N</editor>
+		<imprint>
+			<date type="published" when="2017">2017. 2018</date>
+			<biblScope unit="volume">29</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,453.85,147.51,7.30;8,428.03,463.83,142.12,7.30;8,428.03,473.75,142.14,7.30;8,428.03,483.73,69.22,7.30" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Intentional weight loss and all-cause mortality: a meta-analysis of randomized clinical trials</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Kritchevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Beavers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">121993</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,499.09,147.52,7.30;8,428.03,509.01,142.08,7.30;8,428.03,518.99,142.10,7.30;8,428.03,528.97,142.14,7.30;8,428.03,538.95,62.52,7.30" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Effects of weight loss interventions for adults who are obese on mortality, cardiovascular disease, and cancer: systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Avenell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bolland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page">4849</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,554.26,147.55,7.30;8,428.03,564.23,142.07,7.30;8,428.03,574.21,140.81,7.30;8,428.03,584.13,141.56,7.30;8,428.03,594.11,140.61,7.30;8,428.03,604.09,109.85,7.30" xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Intragastric Balloon Market to surpass $270mn by 2024: Global Market Insights Inc</title>
+		<ptr target="https://globenewswire.com/news-release/2017/03/08/933250/0/en/Intragastric" />
+		<imprint>
+			<date type="published" when="2017-04-23">2017. April 23, 2018</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Balloon-Marketto-surpass-270mn-by-2024-Global-Market-Insights-Inc.html</note>
+</biblStruct>
+
+<biblStruct coords="8,422.60,619.45,147.56,7.30;8,428.03,629.37,142.08,7.30;8,428.03,639.35,127.59,7.30" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Cost-of-illness of leg ulcers in the community</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Augustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Brocatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Rustenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Schafer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="283" to="292" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,654.72,147.52,7.30;8,428.03,664.64,142.11,7.30;8,428.03,674.61,142.08,7.30;8,428.03,684.59,43.09,7.30" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Critical elements to building an effective wound care center</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Steinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Attinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1703" to="1709" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,422.60,699.90,147.53,7.30;8,428.03,709.88,142.09,7.30;8,428.03,719.86,142.07,7.30;8,428.03,729.83,27.94,7.30" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The costs of diabetic foot: the economic case for the limb salvage team</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Driver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fabbi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gibbons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="17S" to="22" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="9,51.72,72.43,147.55,7.30;9,57.15,82.40,142.12,7.30;9,57.15,92.38,142.11,7.30;9,57.15,102.30,112.46,7.30" xml:id="b68">
+	<monogr>
+		<title level="m" type="main">New study demonstrates the economic costs; medicare policy implications of chronic wounds</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Carver</surname></persName>
+		</author>
+		<ptr target="https://www.apwca.org/news/53104492017" />
+		<imprint>
+			<date type="published" when="2019-01-05">January 5, 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,117.55,147.57,7.30;9,57.15,127.53,139.83,7.30;9,57.15,137.51,141.94,7.30" xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Economics of wound care</title>
+		<author>
+			<persName><surname>Ada</surname></persName>
+		</author>
+		<ptr target="https://www.brhmedical.com/healthcare-professionals/#economics" />
+		<imprint>
+			<date type="published" when="2015">2015. 2018</date>
+			<biblScope unit="volume">15</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,152.76,147.52,7.30;9,57.15,162.68,142.17,7.30;9,57.15,172.66,142.14,7.30;9,57.15,182.64,44.82,7.30" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The impact of psychological stress on wound healing: methods and mechanisms</title>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Gouin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kiecolt-</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunol Allergy Clin N Am</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="81" to="93" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,197.89,147.49,7.30;9,57.15,207.81,142.16,7.30;9,57.15,217.78,137.58,7.30" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Slowing of wound healing by psychological stress</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kiecolt-Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Marucha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Malarkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mercado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glaser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">346</biblScope>
+			<biblScope unit="page" from="1194" to="1196" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,233.04,147.54,7.30;9,57.15,243.01,142.10,7.30;9,57.15,252.93,142.15,7.30;9,57.15,262.91,142.18,7.30;9,57.15,272.89,76.00,7.30" xml:id="b72">
+	<monogr>
+		<title level="m" type="main">Surgeries in Hospital-Based Ambulatory Surgery and Hospital Inpatient Settings</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Imshaug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pickens</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014. 2018</date>
+			<publisher>Agency for HealthCare Research and Quality</publisher>
+			<pubPlace>Rockville, MD</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,288.14,147.56,7.30;9,57.15,298.06,142.16,7.30;9,57.15,308.04,142.13,7.30;9,57.15,318.02,142.14,7.30;9,57.15,328.00,37.53,7.30" xml:id="b73">
+	<monogr>
+		<title level="m" type="main">Burn-Related Hospital Inpatient Stays and Emergency Department Visits</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Mcdermott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elixhauser</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013. 2016</date>
+			<publisher>Agency for Healthcare Research and Quality AHRQ</publisher>
+			<pubPlace>Rockville, Maryland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,343.19,147.58,7.30;9,57.15,353.17,142.14,7.30;9,57.15,363.14,142.11,7.30;9,57.15,373.12,142.15,7.30;9,57.15,383.04,114.74,7.30" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Impact of surgical site infection on healthcare costs and patient outcomes: a systematic review in six European countries</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Badia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Casey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Petrosillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Hudson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Crosby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hosp Infect</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,398.29,147.54,7.30;9,57.15,408.27,142.13,7.30;9,57.15,418.25,142.18,7.30;9,57.15,428.17,71.45,7.30" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Financial impact of surgical site infections on hospitals: the hospital management perspective</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shepard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Milstone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Surg</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page" from="907" to="914" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,443.42,147.53,7.30;9,57.15,453.40,142.11,7.30;9,57.15,463.38,142.13,7.30" xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Global Guidelines for the Prevention of Surgical Site Infection</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>WHO (World Health Organization</publisher>
+			<pubPlace>Geneva, Switzerland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,478.63,147.56,7.30;9,57.15,488.55,142.11,7.30;9,57.15,498.53,142.09,7.30;9,57.15,508.50,121.00,7.30" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">American College of Surgeons and Surgical Infection Society: surgical site infection guidelines, 2016 update</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Ban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Minei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Laronga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Surg</title>
+		<imprint>
+			<biblScope unit="volume">224</biblScope>
+			<biblScope unit="page" from="59" to="74" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,523.47,147.54,7.58;9,57.15,533.68,142.10,7.30;9,57.15,543.65,142.10,7.30;9,57.15,553.63,123.62,7.30" xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Strategies to prevent surgical site infections in acute care hospitals: 2014 update</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Podgorny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Berrı ´os-Torres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Control Hosp Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="605" to="627" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,568.88,147.59,7.30;9,57.15,578.80,142.15,7.30;9,57.15,588.78,142.16,7.30;9,57.15,598.76,142.10,7.30;9,57.15,608.74,142.13,7.30" xml:id="b79">
+	<monogr>
+		<ptr target="https://www.cdc.gov/nhsn/pdfs/pscmanual/9pscssicurrent.pdf" />
+		<title level="m">Surgical site infection (SSI) event. Atlanta: Centers for Disease Control and Prevention</title>
+		<imprint>
+			<date type="published" when="2013-01-13">2013. January 13, 2019</date>
+		</imprint>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,623.99,147.53,7.30;9,57.15,633.91,142.10,7.30;9,57.15,643.89,86.94,7.30" xml:id="b80">
+	<analytic>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Waltz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Zuckerbraun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Surgical site infections and associated operative characteristics</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="447" to="450" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,659.14,147.53,7.30;9,57.15,669.11,142.12,7.30;9,57.15,679.04,141.99,7.30;9,57.15,689.01,142.08,7.30;9,57.15,698.99,83.53,7.30" xml:id="b81">
+	<monogr>
+		<ptr target="https://cdn.ymaws.com/www.amtrauma.org/resource/resmgr/TIIDE/Blast_InjuryExtremities.pdf" />
+		<title level="m">Blast injuries. Fact sheets for professionals</title>
+		<imprint>
+			<date type="published" when="2019-01-03">January 3, 2019</date>
+		</imprint>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,51.72,714.24,147.55,7.30;9,57.15,724.16,142.25,7.30;9,57.15,734.14,142.24,7.30;9,57.15,744.12,113.28,7.30" xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Imaging of blast injuries to the lower extremities sustained in the Boston marathon bombing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guermazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Katz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1893" to="1898" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,72.42,147.53,7.30;9,232.50,82.40,142.14,7.30;9,232.50,92.37,51.89,7.30" xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Burn wound infections</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Church</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Elsayed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Winston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lindsay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Microbiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="403" to="434" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,107.29,147.51,7.30;9,232.50,117.26,142.12,7.30;9,232.50,127.24,142.13,7.30;9,232.50,137.16,142.11,7.30;9,232.50,147.14,58.70,7.30" xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Electric field based dressing disrupts mixed-species bacterial biofilm infection and restores functional wound healing</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Barki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dixith</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/SLA.0000000000002504</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Surg</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,162.11,147.51,7.30;9,232.50,172.03,142.16,7.30;9,232.50,182.01,142.14,7.30;9,232.50,191.98,142.12,7.30;9,232.50,201.96,117.59,7.30" xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Histopathological comparisons of Staphylococcus aureus and Pseudomonas aeruginosa experimental infected porcine burn wounds</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Chaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ganesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mathew</forename><forename type="middle">-</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="541" to="549" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,216.87,147.55,7.30;9,232.50,226.85,142.13,7.30;9,232.50,236.83,142.10,7.30;9,232.50,246.75,55.47,7.30" xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Mixedspecies biofilm compromises wound healing by disrupting epidermal barrier function</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Elgharably</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sinha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pathol</title>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="page" from="331" to="343" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,261.72,147.51,7.30;9,232.50,271.70,142.13,7.30;9,232.50,281.62,142.14,7.30;9,232.50,291.59,142.10,7.30;9,232.50,301.57,71.86,7.30" xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Staphylococcus aureus biofilm infection compromises wound healing by causing deficiencies in granulation tissue collagen</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Santra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Das</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/SLA.0000000000003053</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Surg</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,316.54,147.55,7.30;9,232.50,326.46,142.09,7.30;9,232.50,336.44,142.09,7.30;9,232.50,346.42,71.47,7.30" xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Surgical site infection prevention: time to move beyond the surgical care improvement program</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Hawn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Vick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Richman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Surg</title>
+		<imprint>
+			<biblScope unit="volume">254</biblScope>
+			<biblScope unit="page" from="494" to="501" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,361.33,147.53,7.30;9,232.50,371.31,108.58,7.30" xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Surgical site infections</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Khadaroo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surg Clin N Am</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="1245" to="1264" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,386.27,147.52,7.30;9,232.50,396.19,85.46,7.30" xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Surgical site infections</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Dis Clin N Am</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="135" to="153" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,411.16,147.54,7.30;9,232.50,421.14,142.09,7.30;9,232.50,431.06,12.43,7.30" xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Surgical site infections: an update</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Garner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Dis Clin N Am</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="909" to="929" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,446.03,147.62,7.30;9,232.50,456.01,142.21,7.30;9,232.50,465.93,142.22,7.30" xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Surgical site infections: epidemiology and microbiological aspects in trauma and orthopaedic surgery</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="8" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="9,227.07,480.89,147.51,7.30;9,232.50,490.87,94.47,7.30" xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Trends in surgical wound healing</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gottrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Surg</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="220" to="225" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,505.78,147.53,7.30;9,232.50,515.76,142.12,7.30;9,232.50,525.74,121.06,7.30" xml:id="b94">
+	<analytic>
+		<title level="a" type="main">The skin microbiome: a focus on pathogens and their association with skin disease</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Findley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Grice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">e1004436</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,540.65,147.55,7.30;9,232.50,550.63,142.09,7.30;9,232.50,560.60,142.10,7.30;9,232.50,570.58,48.33,7.30" xml:id="b95">
+	<analytic>
+		<title level="a" type="main">The skin microbiome: potential for novel diagnostic and therapeutic approaches to cutaneous disease</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Grice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Cutan Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="98" to="103" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,227.07,585.49,147.51,7.30;9,232.50,595.47,142.11,7.30;9,232.50,605.45,51.89,7.30" xml:id="b96">
+	<analytic>
+		<title level="a" type="main">The human microbiome: our second genome</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Grice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Segre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Genom Hum Genet</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="151" to="170" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,226.51,620.36,148.10,7.30;9,232.10,630.34,91.64,7.30" xml:id="b97">
+	<analytic>
+		<title level="a" type="main">The skin microbiome</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Grice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Segre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="244" to="253" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,226.51,645.30,148.07,7.30;9,232.10,655.22,142.63,7.30;9,232.10,665.20,142.62,7.30;9,232.10,675.18,122.42,7.30" xml:id="b98">
+	<analytic>
+		<title level="a" type="main">The wound microbiome: modern approaches to examining the role of microorganisms in impaired chronic wound healing</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Misic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Grice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="502" to="510" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,226.51,690.09,148.12,7.30;9,232.10,700.07,142.49,7.30;9,232.10,710.05,142.52,7.30;9,232.10,720.02,74.01,7.30" xml:id="b99">
+	<analytic>
+		<title level="a" type="main">The role played by contaminated surfaces in the transmission of nosocomial pathogens</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Otter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yezli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>French</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Control Hosp Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="687" to="699" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,226.51,734.94,148.09,7.30;9,232.10,744.91,142.48,7.30;9,407.45,72.43,142.50,7.30;9,407.45,82.40,142.49,7.30;9,407.45,92.38,47.43,7.30" xml:id="b100">
+	<analytic>
+		<title level="a" type="main">The role of environmental contamination in the transmission of nosocomial pathogens and healthcare-associated infections</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Suleyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Alangaden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Bardossy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Infect Dis Rep</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">12</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,401.86,107.29,148.11,7.30;9,407.45,117.27,142.50,7.30;9,407.45,127.25,142.52,7.30;9,407.45,137.17,142.50,7.30;9,407.45,147.15,142.50,7.30;9,407.45,157.12,108.57,7.30" xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Role of hospital surfaces in the transmission of emerging health careassociated pathogens: norovirus, Clostridium difficile, and Acinetobacter species</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Rutala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Huslage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sickbert-Bennett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Infect Control</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="25" to="S33" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="9,401.86,172.04,148.08,7.30;9,407.45,182.01,142.54,7.30;9,407.45,191.99,142.50,7.30;9,407.45,201.97,142.52,7.30;9,407.45,211.89,87.29,7.30" xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Cross-sectional point prevalence survey to study the environmental contamination of nosocomial pathogens in intensive care units under real-life conditions</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Wille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kreidl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hosp Infect</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="90" to="95" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,401.86,226.86,148.10,7.30;9,407.45,236.84,142.49,7.30;9,407.45,246.76,122.86,7.30" xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Surface contamination in operating rooms: a risk for transmission of pathogens?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yezli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Barbut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Otter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surg Infect</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="694" to="699" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,401.86,261.72,148.10,7.30;9,407.45,271.70,142.50,7.30;9,407.45,281.62,51.89,7.30" xml:id="b104">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Norbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Herndon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tanksley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Jeschke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Finnerty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surg Infect</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="250" to="255" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Infection in Burns</note>
+</biblStruct>
+
+<biblStruct coords="9,401.86,296.59,148.11,7.30;9,407.45,306.57,142.49,7.30;9,407.45,316.55,142.51,7.30;9,407.45,326.47,142.20,7.30;9,407.45,336.45,141.42,7.30;9,407.45,346.42,141.47,7.30;9,407.45,356.34,129.24,7.30" xml:id="b105">
+	<monogr>
+		<title level="m" type="main">Chronic wounds: infectious diseases that won&apos;t go away. Wounds, gauzes and biofilms combine for an ugly triad</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mantlagh</surname></persName>
+		</author>
+		<ptr target="http://healthcare-executive-insight.advanceweb.com/Features/Articles/Chronic" />
+		<imprint>
+			<date type="published" when="2012-01-13">2012. January 13, 2019</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Wounds-Infectious-Diseases-That-Wont-Go-Away-2</note>
+</biblStruct>
+
+<biblStruct coords="9,401.86,371.31,148.08,7.30;9,407.45,381.29,142.49,7.30;9,407.45,391.21,116.47,7.30" xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Bacterial contribution in chronicity of wounds</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rahim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saleha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Basit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">L</forename><surname>Franco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb Ecol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="710" to="721" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,401.51,406.18,148.42,7.30;9,406.77,416.16,143.14,7.30;9,406.77,426.13,127.40,7.30" xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Biofilms in wounds: a review of present knowledge</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bjarnsholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alhede</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">570</biblScope>
+			<biblScope unit="page" from="576" to="580" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>passim</note>
+</biblStruct>
+
+<biblStruct coords="9,401.86,441.04,148.09,7.30;9,407.45,451.02,142.52,7.30;9,407.45,461.00,90.67,7.30" xml:id="b108">
+	<analytic>
+		<title level="a" type="main">Nadworny P. Microbial biofilms and chronic wounds</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Omar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Burrell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microorganisms</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>5:pii: E9</note>
+</biblStruct>
+
+<biblStruct coords="9,401.86,475.91,148.08,7.30;9,407.45,485.89,142.50,7.30;9,407.45,495.87,101.50,7.30" xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Chronic wound biofilm model</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ganesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mathew</forename><forename type="middle">-</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="382" to="388" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,401.86,510.78,148.12,7.30;9,407.45,520.76,120.44,7.30" xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Nutrition and wound healing</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="432" to="439" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,401.86,535.72,148.05,7.30;9,407.45,545.64,142.61,7.30" xml:id="b111">
+	<analytic>
+		<title level="a" type="main">Nutrition, anabolism, and the wound healing process: an overview</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Demling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eplasty</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="9" to="e9" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,401.86,560.61,148.21,7.30;9,407.45,570.59,136.28,7.30" xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Nutrition and wound healing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barbul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="42" to="58" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="9,401.86,585.50,148.09,7.30;9,407.45,595.48,142.55,7.30;9,407.45,605.45,142.51,7.30" xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Nutrition and chronic wounds: improving clinical outcomes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Molnar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Vlad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gumus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="71S" to="81" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="9,401.86,620.37,148.10,7.30;9,407.45,630.34,142.50,7.30;9,407.45,640.32,27.10,7.30" xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Nutrition and chronic wounds</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Molnar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Underdown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clark</forename><forename type="middle">Wa</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="663" to="681" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,401.86,655.23,148.08,7.30;9,407.45,665.21,142.50,7.30;9,407.45,675.19,83.77,7.30" xml:id="b115">
+	<analytic>
+		<title level="a" type="main">The role of nutrition in the management of lower extremity wounds</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Patel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="12" to="22" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,401.86,690.10,148.12,7.30;9,407.45,700.08,142.47,7.30;9,407.45,710.05,27.03,7.30" xml:id="b116">
+	<analytic>
+		<title level="a" type="main">The impact of stress on acute wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Commun Nurs</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">Sup12</biblScope>
+			<biblScope unit="page" from="16" to="22" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,401.86,724.96,148.10,7.30;9,407.45,734.94,142.46,7.30;9,407.45,744.92,142.51,7.30" xml:id="b117">
+	<analytic>
+		<title level="a" type="main">Psychological distress and its impact on wound healing: an integrative review</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>House</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Ostomy Continence Nurs</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="38" to="41" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,72.43,148.12,7.30;10,76.93,82.40,142.56,7.30;10,76.93,92.38,44.77,7.30" xml:id="b118">
+	<analytic>
+		<title level="a" type="main">Psychological stress and wound healing in humans: what we know</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Lucas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="76" to="83" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,107.29,148.09,7.30;10,76.93,117.27,74.02,7.30" xml:id="b119">
+	<analytic>
+		<title level="a" type="main">Stress and wound healing</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vileikyte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="49" to="55" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,132.24,148.14,7.30;10,76.93,142.16,142.53,7.30;10,76.93,152.14,142.50,7.30;10,76.93,162.11,81.16,7.30" xml:id="b120">
+	<analytic>
+		<title level="a" type="main">Stress-induced immune dysregulation: implications for wound healing, infectious disease and cancer</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Godbout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glaser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neuroimmune Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="421" to="427" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,177.02,148.11,7.30;10,76.93,187.00,142.51,7.30;10,76.93,196.98,88.99,7.30" xml:id="b121">
+	<analytic>
+		<title level="a" type="main">Stress-induced immune dysfunction: implications for health</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kiecolt-Glaser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Immunol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="243" to="251" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,211.89,148.09,7.30;10,76.93,221.87,142.52,7.30;10,76.93,231.85,132.45,7.30" xml:id="b122">
+	<analytic>
+		<title level="a" type="main">The influence of anger expression on wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Gouin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kiecolt-Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Malarkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glaser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Behav Immun</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="699" to="708" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,246.76,148.12,7.30;10,76.93,256.74,142.51,7.30;10,76.93,266.71,142.54,7.30;10,76.93,276.69,90.83,7.30" xml:id="b123">
+	<analytic>
+		<title level="a" type="main">Hostile marital interactions, proinflammatory cytokine production, and wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kiecolt-Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Loving</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Stowell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Gen Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1377" to="1384" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,291.60,148.11,7.30;10,76.93,301.58,85.28,7.30" xml:id="b124">
+	<analytic>
+		<title level="a" type="main">Scar prevention: the healing touch</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wadman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">436</biblScope>
+			<biblScope unit="page" from="1079" to="1080" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,316.55,148.08,7.30;10,76.93,326.47,142.55,7.30;10,76.93,336.45,27.10,7.30" xml:id="b125">
+	<analytic>
+		<title level="a" type="main">Psychological sequelae of facial trauma</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Bisson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dhutia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Trauma</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="496" to="500" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,351.41,148.14,7.30;10,76.93,361.33,142.53,7.30;10,76.93,371.31,142.39,7.30;10,76.93,381.29,142.52,7.30;10,76.93,391.21,51.46,7.30" xml:id="b126">
+	<analytic>
+		<title/>
+		<ptr target="https://www.psmarketresearch.com/press-release/global-scar-treatment-market" />
+	</analytic>
+	<monogr>
+		<title level="j">Scar Treatment Market to Reach $</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<date type="published" when="2018-01-03">2023. 2018. January 3, 2019</date>
+			<publisher>Prescient Strategic Intelligence</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,406.18,148.12,7.30;10,76.93,416.16,142.54,7.30;10,76.93,426.13,142.55,7.30;10,76.93,436.06,48.33,7.30" xml:id="b127">
+	<analytic>
+		<title level="a" type="main">Wound care specialization: the current status and future plans to move wound care into the medical community</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Ennis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="184" to="188" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,451.02,148.11,7.30;10,76.93,461.00,142.51,7.30;10,76.93,470.92,117.56,7.30" xml:id="b128">
+	<analytic>
+		<title level="a" type="main">Wound healing in US medical school curricula</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kirsner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Salgado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="467" to="472" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,485.89,148.12,7.30;10,76.93,495.87,142.49,7.30;10,76.93,505.79,142.54,7.30;10,76.93,515.77,142.53,7.30;10,76.93,525.74,64.68,7.30" xml:id="b129">
+	<analytic>
+		<title level="a" type="main">Comparison of wound education in medical schools in the United States</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Granick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Kanakaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Giannoudis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Werdin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-O</forename><surname>Rennekampff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eplasty</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="8" to="e8" />
+			<date type="published" when="2008">2008</date>
+			<publisher>United Kingdom, and Germany</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,71.34,540.65,148.09,7.30;10,76.93,550.63,142.52,7.30;10,76.93,560.61,124.53,7.30" xml:id="b130">
+	<analytic>
+		<title level="a" type="main">Education in wound management in Europe with a special focus on the Danish Model</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gottrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="133" to="137" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.69,72.43,148.10,7.30;10,252.29,82.40,142.53,7.30;10,252.29,92.38,32.40,7.30" xml:id="b131">
+	<analytic>
+		<title level="a" type="main">Wound care nursing: professional issues and opportunities</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Q</forename><surname>Corbett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="189" to="193" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.69,106.78,148.12,7.30;10,252.29,116.76,142.49,7.30;10,252.29,126.74,17.73,7.30" xml:id="b132">
+	<monogr>
+		<ptr target="https://woundcarenurses.org" />
+		<title level="m">Organization of Wound Care Nurses</title>
+		<imprint>
+			<date type="published" when="2019-01-13">January 13, 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.69,141.19,148.12,7.30;10,252.29,151.12,142.50,7.30;10,252.29,161.09,142.35,7.30;10,252.29,171.07,142.53,7.30;10,252.29,181.05,44.31,7.30" xml:id="b133">
+	<monogr>
+		<title level="m" type="main">Improving outcomes through wound care staff education</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hovan</surname></persName>
+		</author>
+		<ptr target="https://www.woundsource.com/blog/improving-outcomes-through-wound-care-staff-education" />
+		<imprint>
+			<date type="published" when="2017-01-13">2017. January 13, 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.69,195.45,148.08,7.30;10,252.29,205.43,142.51,7.30;10,252.29,215.40,142.50,7.30;10,252.29,225.38,142.53,7.30;10,252.29,235.30,100.13,7.30" xml:id="b134">
+	<analytic>
+		<title level="a" type="main">advanced technologies to improve wound healing: electrical stimulation, vibration therapy, and ultrasound-what is the evidence</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Ennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gellada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Corbiere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Koh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="94" to="104" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="10,246.69,249.76,148.11,7.30;10,252.29,259.74,142.50,7.30;10,252.29,269.72,138.22,7.30" xml:id="b135">
+	<analytic>
+		<title level="a" type="main">Wound management for the 21st century: combining effectiveness and efficiency</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lindholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Searle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">Suppl 2</biblScope>
+			<biblScope unit="page" from="5" to="15" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.69,284.12,148.11,7.30;10,252.29,294.09,142.51,7.30;10,252.29,304.07,142.54,7.30;10,252.29,314.05,142.54,7.30;10,252.29,323.97,105.87,7.30" xml:id="b136">
+	<analytic>
+		<title level="a" type="main">Tomic-Canic M. Effect of physical therapy on wound healing and quality of life in patients with venous leg ulcers: a systematic review</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kirsner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Gailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Mandel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="320" to="327" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.69,338.43,148.10,7.30;10,252.29,348.41,142.51,7.30;10,252.29,358.38,51.90,7.30" xml:id="b137">
+	<analytic>
+		<title level="a" type="main">Outcome research and WOC nursing practice</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gallagher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Ostomy Continence Nurs</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="278" to="282" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.69,372.78,148.22,7.30;10,252.29,382.76,142.49,7.30;10,252.29,392.74,142.50,7.30" xml:id="b138">
+	<analytic>
+		<title level="a" type="main">Evidence-based nursing practice: a primer for the WOC nurse</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Z</forename><surname>Bliss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bookout</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Ostomy Continence Nurs</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="283" to="286" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.69,407.20,148.12,7.30;10,252.29,417.12,83.37,7.30" xml:id="b139">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pontieri-Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Basics of ostomy care. Medsurg Nurs</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="199" to="202" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.69,431.69,148.08,7.30;10,252.28,441.67,142.56,7.30;10,252.28,451.59,142.50,7.30;10,252.28,461.56,142.43,7.30;10,252.28,471.54,142.51,7.30" xml:id="b140">
+	<monogr>
+		<title level="m" type="main">Emphasizing the fundamentals and patient education in diabetic foot care</title>
+		<author>
+			<persName><forename type="first">Perry</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ccfp</forename></persName>
+		</author>
+		<ptr target="http://www.sawc.net/spring/content/emphasizing-fundamentals-and-patient-education-diabetic-foot-care" />
+		<imprint>
+			<date type="published" when="2015-01-13">2015. January 13, 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.69,486.00,148.11,7.30;10,252.28,495.92,142.50,7.30;10,252.28,505.90,64.31,7.30" xml:id="b141">
+	<analytic>
+		<title level="a" type="main">What do patients want? Patient preference in wound care</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Q</forename><surname>Corbett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Ennis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="537" to="543" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,246.33,520.47,148.47,7.30;10,251.66,530.39,143.16,7.30;10,251.66,540.37,142.90,7.30;10,251.66,550.35,143.10,7.30;10,251.66,560.32,83.86,7.30" xml:id="b142">
+	<monogr>
+		<title level="m" type="main">How can patient engagement improve wound care outcomes?</title>
+		<author>
+			<persName><surname>Aranz</surname></persName>
+		</author>
+		<ptr target="https://www.aranzmedical.com/uncategorized/outcomes-delivered-patient-engagement-patients-healthcare-providers" />
+		<imprint>
+			<date type="published" when="2017-05-01">2017. May 1, 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,422.04,72.42,148.11,7.30;10,427.64,82.40,142.53,7.30;10,427.64,92.38,140.89,7.30;10,427.64,102.30,132.42,7.30" xml:id="b143">
+	<monogr>
+		<title level="m" type="main">Wound care and healing: aiming for zero preventable deaths</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Collins</surname></persName>
+		</author>
+		<ptr target="https://www.defensemedianetwork.com/stories/wound-care-and-healing" />
+		<imprint>
+			<date type="published" when="2018-01-05">2018. January 5, 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,422.04,117.78,148.09,7.30;10,427.64,127.70,142.47,7.30;10,427.64,137.68,21.71,7.30" xml:id="b144">
+	<analytic>
+		<title level="a" type="main">Military and veterans&apos; health, health care, and wellbeing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Amara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Defence Peace Econ</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,422.04,153.15,148.12,7.30;10,427.64,163.08,141.53,7.30;10,427.64,173.05,142.54,7.30" xml:id="b145">
+	<monogr>
+		<title level="m" type="main">TRICARE for life and medicare</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Struve</surname></persName>
+		</author>
+		<ptr target="https://www.gomedigap.com/blog/tricare-for-life-and-medicare" />
+		<imprint>
+			<date type="published" when="2017">2017. 2018</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,422.04,188.47,148.15,7.30;10,427.64,198.45,142.56,7.30;10,427.64,208.43,142.50,7.30" xml:id="b146">
+	<analytic>
+		<title level="a" type="main">Prevalence of and trends in diabetes among veterans</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sayam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prev Chronic Dis</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="135" to="E135" />
+			<date type="published" when="2005">2005-2014. 2017</date>
+			<pubPlace>United States</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,422.04,223.85,148.09,7.30;10,427.64,233.83,142.41,7.30;10,427.64,243.81,131.55,7.30" xml:id="b147">
+	<monogr>
+		<ptr target="https://www.research.va.gov/pubs/docs/va_factsheets/Diabetes.pdf" />
+		<title level="m">Veterans Affairs. VA research on diabetes</title>
+		<imprint>
+			<date type="published" when="2019-01-03">January 3, 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,422.04,259.23,148.09,7.30;10,427.64,269.21,142.54,7.30;10,427.64,279.18,142.55,7.30;10,427.64,289.10,142.49,7.30;10,427.64,299.08,72.68,7.30" xml:id="b148">
+	<analytic>
+		<title level="a" type="main">Cost of lower-limb amputation in U.S. veterans with diabetes using health services data in fiscal years</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pogach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mph</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rehabil Res Dev</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1325" to="1330" />
+			<date type="published" when="2004">2004. 2010. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,422.04,314.50,148.11,7.30;10,427.64,324.48,142.52,7.30;10,427.64,334.46,141.43,7.30;10,427.64,344.44,103.78,7.30" xml:id="b149">
+	<monogr>
+		<title level="m" type="main">Combat Casualty Care Research Program (CCCRP)</title>
+		<author>
+			<persName><surname>Usamrmc</surname></persName>
+		</author>
+		<ptr target="https://mrmc.amedd.army.mil/index.cfm?pageid=medical_r_and_d.ccc.overview" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,422.04,359.86,148.11,7.30;10,427.64,369.84,142.51,7.30;10,427.64,379.76,142.53,7.30;10,427.64,389.73,25.27,7.30" xml:id="b150">
+	<analytic>
+		<title level="a" type="main">The convergence of regenerative medicine and rehabilitation: federal perspectives</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brindle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Regen Med</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="19" to="19" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

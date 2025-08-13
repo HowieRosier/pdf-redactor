@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Computerized segmentation and measurement of chronic wound images</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Mohammad</forename><surname>Faizal</surname></persName>
+							<email>faizal1@mmu.edu.my</email>
+						</author>
+						<author>
+							<persName><forename type="first">Ahmad</forename><surname>Fauzi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Engineering</orgName>
+								<orgName type="institution">Multimedia University</orgName>
+								<address>
+									<settlement>Cyberjaya</settlement>
+									<region>Selangor</region>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ibrahim</forename><surname>Khansa</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Plastic Surgery</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<addrLine>Wexner Medical Center</addrLine>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Karen</forename><surname>Catignani</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<addrLine>Wexner Medical Center</addrLine>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gayle</forename><surname>Gordillo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Plastic Surgery</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<addrLine>Wexner Medical Center</addrLine>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Center for Regenerative Medicine and Cell-Based Therapies</orgName>
+								<orgName type="department" key="dep2">Wexner Medical Center</orgName>
+								<orgName type="institution" key="instit1">OSU Comprehensive Wound Center</orgName>
+								<orgName type="institution" key="instit2">The Ohio State University</orgName>
+								<address>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chandan</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<addrLine>Wexner Medical Center</addrLine>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Center for Regenerative Medicine and Cell-Based Therapies</orgName>
+								<orgName type="department" key="dep2">Wexner Medical Center</orgName>
+								<orgName type="institution" key="instit1">OSU Comprehensive Wound Center</orgName>
+								<orgName type="institution" key="instit2">The Ohio State University</orgName>
+								<address>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Metin</forename><forename type="middle">N</forename><surname>Gurcan</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biomedical Informatics</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<address>
+									<postBox>68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87</postBox>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Faculty of Engineering</orgName>
+								<orgName type="institution">Multimedia University</orgName>
+								<address>
+									<addrLine>Jalan Multi-media, 63100 Cyberjaya</addrLine>
+									<settlement>Selangor</settlement>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Computerized segmentation and measurement of chronic wound images</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7C0144D9561C709EB11EDBC57C2800B9</idno>
+					<idno type="DOI">10.1016/j.compbiomed.2015.02.015</idno>
+					<note type="submission">Received 12 December 2014 Accepted 19 February 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Wound segmentation Wound measurement Wound analysis Chronic wound Probability map</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>An estimated 6.5 million patients in the United States are affected by chronic wounds, with more than US $25 billion and countless hours spent annually for all aspects of chronic wound care. There is a need for an intelligent software tool to analyze wound images, characterize wound tissue composition, measure wound size, and monitor changes in wound in between visits. Performed manually, this process is very time-consuming and subject to intra-and inter-reader variability. In this work, our objective is to develop methods to segment, measure and characterize clinically presented chronic wounds from photographic images. The first step of our method is to generate a Red-Yellow-Black-White (RYKW) probability map, which then guides the segmentation process using either optimal thresholding or region growing. The red, yellow and black probability maps are designed to handle the granulation, slough and eschar tissues, respectively; while the white probability map is to detect the white label card for measurement calibration purposes. The innovative aspects of this work include defining a fourdimensional probability map specific to wound characteristics, a computationally efficient method to segment wound images utilizing the probability map, and auto-calibration of wound measurements using the content of the image. These methods were applied to 80 wound images, captured in a clinical setting at the Ohio State University Comprehensive Wound Center, with the ground truth independently generated by the consensus of at least two clinicians. While the mean inter-reader agreement between the readers varied between 67.4% and 84.3%, the computer achieved an average accuracy of 75.1%.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Computer-aided measurement of the size and characteristics of chronic wounds is a novel approach to standardizing the accuracy of chronic wound assessment. A chronic wound, as defined by Centers for Medicare and Medicaid Services, is a wound that has not healed in 30 days. An estimated 6.5 million patients in the United States are affected by chronic wounds, and it is claimed that an excess of US$25 billion is spent annually on treatment of chronic wounds. The burden is growing rapidly due to increasing health care costs, an aging population and a sharp rise in the incidence of diabetes and obesity worldwide <ref type="bibr" target="#b0">[1]</ref>. As such, there is a need for a timely and accurate method to document the size and evolving nature of chronic wounds in both the inpatient and outpatient settings. Such an application can potentially reduce clinicians' workload considerably; make the treatment and care more consistent and accurate; increase the quality of documentation in the medical record and enable clinicians to achieve quality benchmarks for wound care as determined by the Center for Medicare Services.</p><p>The current state of the art approach in measuring wound size using digital images, known as digital planimetry, requires the clinician to identify wound borders and wound tissue type within the image. This is a time-intensive process and is a barrier to achieving clinical quality benchmarks. Our group is developing image analysis tools that will enable the computer to perform this analysis rather than requiring user input. Developing an accurate method of measuring wound size and tissue characteristics serially over time will yield clinically meaningful information in relation to the progression or improvement of the wound. The focus of the work reported in this paper is the segmentation of the wounds.</p><p>A wound exhibits a complex structure and may contain many types of tissue such as granulation, slough, eschar, epithelialization, bone, tendon and blood vessels, each with different color and texture characteristics. In this paper, we proposed a novel probability map that measures the likelihood of wound pixels belonging to granulation, slough or eschar (see Fig. <ref type="figure" target="#fig_0">1</ref>), which can then be segmented using any standard segmentation techniques. In this work, we focus on the granulation, slough and eschar tissues as these are the three most commonly seen tissues in wounds. A preliminary version of this work has been reported in <ref type="bibr" target="#b1">[2]</ref>. This paper extended the previous work significantly with an extensive literature review, more elaborate explanation of the proposed method, employing two segmentation techniques to show that the probability map is adaptable to many different techniques, comparison with other existing method, comprehensive analyses on inter-reader variability between clinicians, a much bigger dataset used for performance evaluation (which was divided into three sets for analysis purpose), as well as more elaborate discussions on the results.</p><p>The paper is organized as follows: Section 2 presents the review of the literature on wound image analysis. In Section 3, we present our proposed probability map approach to wound segmentation and integrate it with two different segmentation techniques. Section 4 and 5 discusses the experimental setup, results and discussion. Finally, Section 6 concludes the paper and describes future work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Literature review</head><p>Although wound segmentation from photographic images has been the subject of several studies, most of the work in this area deals with images that are either acquired under controlled imaging conditions <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>, confined to wound region only <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>, or narrowed to specific types of wounds <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>. Because these restrictions are mostly impractical for clinical conditions, there is a need to develop image segmentation methods that will work with images acquired in regular clinical conditions.</p><p>Table <ref type="table" target="#tab_1">1</ref> summarizes current works in wound segmentation and monitoring as well as existing software tools. Wannous et al. <ref type="bibr" target="#b2">[3]</ref> compared the mean shift, JSEG and CSC techniques in segmenting 25 wound images, before extracting color and textural features to classify the tissues into granulation, slough and necrosis using an SVM classifier. The wound images were taken with respect to a specific protocol integrating several points of views for each single wound, which includes using a ring flash with specific control and placing a calibrated Macbeth color checker pattern near the wounds. They reported that both segmentation and classification work better on granulation than slough and necrosis. Hettiarachchi et al. <ref type="bibr" target="#b3">[4]</ref> attempted wound segmentation and measurement in a mobile setting. The segmentation is based on active contour models which identifies the wound border irrespective of coloration and shape. The active contour process was modified by changing the energy calculation to minimize points sticking together as well as including preprocessing techniques to reduce errors from artifacts and lighting conditions. Although the accuracy was reported to be 90%, the method is rather sensitive to camera distance, angle and lighting conditions.</p><p>In the work by Veredas et al. <ref type="bibr" target="#b4">[5]</ref>, a hybrid approach based on neural networks and Bayesian classifiers is proposed in the design of a computational system for tissue identification and labeling in wound images. Mean shift and region-growing strategy are implemented for region segmentation. The neural network and Bayesian classifiers are then used to categorize the tissue based on color and texture features extracted from the segmented regions, with 78.7% sensitivity, 94.7% specificity and 91.5% accuracy reported. Hani et al. <ref type="bibr" target="#b5">[6]</ref> presented an approach based on utilizing hemoglobin content in chronic ulcers as an image marker to detect the growth of granulation tissue. Independent Component Analysis is employed to extract grey level hemoglobin images from Red-Green-Blue (RGB) color images of chronic ulcers. Data clustering techniques are then implemented to classify and segment detected regions of granulation tissue from the extracted hemoglobin images. 88.2% sensitivity and 98.8% specificity were reported on a database of 30 images.</p><p>Perez et al. <ref type="bibr" target="#b6">[7]</ref> proposed a method for the segmentation and analysis of leg ulcer tissues in color images. The segmentation is obtained through analysis of the red, green, blue, saturation and intensity channels of the image. The algorithm, however, requires the user to provide samples of the wound and the background before the segmentation can be carried out. Wantanajittikul et al. <ref type="bibr" target="#b7">[8]</ref> employs the Cr-transformation, Luv-transformation and fuzzy cmeans clustering technique to separate the burn wound area from healthy skin before applying mathematical morphology to reduce segmentation errors. To identify the degree of the burns, htransformation and texture analysis are used to extract feature vectors for SVM classification. Positive predictive value and sensitivity between 72.0% and 98.0% were reported in segmenting burn areas in five images, with 75.0% classification accuracy.</p><p>Song and Sacan <ref type="bibr" target="#b8">[9]</ref> proposed a system capable of automatic image segmentation and wound region identification. Several commonly used segmentation methods (k-means clustering, edge detection, thresholding, and region growing) are utilized to obtain a collection of candidate wound regions. Multi-Layer Perceptron (MLP) and Radial Basis Function (RBF) are then applied with supervised learning in the prediction procedure for the wound identification. Experiments on 92 images from 14 patients (78 training, 14 testing) showed that both MLP and RBF have decent efficiency, with their own advantages and disadvantages.  used color and textural features from 3-D color histogram, local binary pattern and local contrast variation with the support vector machine (SVM) classifier to segment 23 wound images based on 50 manually segmented training images. The SVM generated wound boundary is further refined using  deformable snake adjustment. Although this study does not have the aforementioned restrictions (i.e. acquired under controlled imaging conditions, confined to wound region only, or narrowed to specific types of wounds), results were reported on a relatively small set of images. An average error rate of 6.6%, 22.2% and 5.8% were reported for the color, texture and hybrid features, respectively. In addition to wound segmentation, wound healing and monitoring have been the subject of several studies on wound image analysis. Cukjati et al. <ref type="bibr" target="#b12">[13]</ref> presented their findings on how the wound healing rate should be defined to enable appropriate description of wound healing dynamics. They suggested that wound area measurements should be transformed to percentage of initial wound area and fitted to a delayed exponential model. In the suggested model, the wound healing rate is described by the slope of the curve is fitted to the normalized wound area measurements over time after initialization delay. Loizou et al. <ref type="bibr" target="#b13">[14]</ref> established a standardized and objective technique to assess the progress of wound healing in a foot. They concluded that while none of the geometrical features (area, perimeter, x-, y-coordinate) show significant changes between visits, several texture features (mean, contrast, entropy, SSV, sum variance, sum average) do, indicating these features might provide a better wound healing rate indication. Finally, Burns et al. <ref type="bibr" target="#b14">[15]</ref> evaluated several methods for quantitative wound assessment on diabetic foot ulcers, namely wound volume, wound area, and wound coloration.</p><p>There are also quite a few software tools for wound analysis and monitoring currently available. All the software; however, has yet to incorporate automated or semi-automated wound detection or segmentation so that the clinician's initial involvement can be minimized. For example, PictZar Digital Planimetry Software <ref type="bibr" target="#b15">[16]</ref> is commercial software for wound analysis which provides measurements such as length, width, surface area, circumference, and estimated volume to the users. The software, however, does not incorporate automated or semi-automated wound detection; instead it requires user drawings and calibration for the above measurements to be computed. Filko et al. <ref type="bibr" target="#b16">[17]</ref> developed WITA, a color image processing software application that has the capability to analyze digital wound images, and based on learned tissue samples, the program classifies the tissue and monitors wound healing. The wound tissue types are divided into black necrotic eschar, yellow fibrin or slough, red granulation tissue and unclassified parts of the image, although no evaluation against the known ground truth was presented for the image analysis part of the software. To obtain wound dimensions, users must mark the distance on the photograph that is equivalent to 1 cm (or 1 in.). A different approach to wound monitoring software and hardware was proposed by Weber et al. <ref type="bibr" target="#b17">[18]</ref>. They developed a new "wound mapping" device, which is based on electrical impedance spectroscopy and involves the multifrequency characterization of the electrical properties of wound tissue under an electrode array. This approach, however, requires major changes to the daily clinical routine in wound care. Unlike the wound images used in the literature <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref>, these images present additional challenges. As discussed in the previous section, many previous works in this field are typically carried out in regions that contain the wound only, thus they do not have to deal with the issue of complicated background, especially those red, yellow and black objects, interfering with the segmentation process (see Fig. <ref type="figure">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Wound segmentation based on a probability map</head><p>In order to simplify the task at this stage, the algorithm requires the user to mark a single point (i.e. a single click) inside the wound to start the segmentation process.</p><p>Our proposed method consists of several stages as shown in Fig. <ref type="figure">3</ref>. The first step is the red-yellow-black-white (RYKW) probability map computation in a modified HSV (Hue-Saturation-Value) color space (Section 3A). Once the probability map is established, the next step is the segmentation of the boundaries of the wound in the area (Section 3B). We present the results of two different segmentation approaches: region growing segmentation and optimal thresholding. Because the distance between the camera and the wound is not recorded, this information needs to be extracted by the content in the image. We developed a novel approach, which analyzes the image to detect patient labels, typically attached near the wound and uses the size of the label to calibrate the wound size measurements (Section 3C).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Probability map computation</head><p>Granulation, slough and eschar tissues generally correspond to red (R), yellow (Y) and black (K) tissues, respectively in the wound area (see Fig. <ref type="figure" target="#fig_0">1</ref>). Due to the fact that the subsequent stage requires the detection of white label cards, as well as to avoid any white pixels in the image being wrongly classified as yellow, a fourth color, white (W) is included in the probability map computation, resulting in a four-dimensional (4D) RYKW map. Given a wound image, our method computes the probability of each pixel in the image belonging to one of these colors. The probability is computed based on the distance of the image pixels to the red, yellow, black and white colors in a modified HSV color space. The HSV color space was chosen because it can be modified to maximize the distances between the four colors of interest (refer to Eq. 2 and Eq. 3).</p><p>Consider an image I, probability matrix P, and color set C k ¼ R; Y; K; W f gwhere k ¼ 1; 2; 3; 4 represents the 4 colors R, Y, K, W respectively. For a particular pixel x within I, the probability p of the pixel belonging to a color C k (i.e. one of red, yellow, black or white) is computed through the following equation:</p><formula xml:id="formula_0">p k x ð Þ ¼ 1 d C k ;x ð Þ d R;x ð Þ 2 þ d C k ;x ð Þ d Y;x ð Þ 2 þ d C k ;x ð Þ d K;x ð Þ 2 þ d C k ;x ð Þ d W;x ð Þ 2<label>ð1Þ</label></formula><formula xml:id="formula_1">where d C k ; x ð Þ is the distance (see Eqs. (4-<label>7</label></formula><p>)) between the value of pixel x and the particular color C k . In other words, the probability is inversely proportional to the relative distance between the pixel and the color of interest. The above equation is applied to all pixels for all four colors, producing a 4D probability map, P, with the sum of the probability at any one pixel is equal to 1. The probability definition used here is similar to that of the fuzzy c-means clustering method without the fuzzifier parameter <ref type="bibr" target="#b18">[19]</ref>. From the image point of view, the 4D matrix P can be viewed as a stack of 4 single matrices P k , each showing the probability of the wound image pixels belonging to the 4 different colors. From the pixel point of view, the matrix P can be viewed as a collection of many vectors p, each showing the probability of individual pixels belonging to the 4 colors of interest.</p><p>One of the challenges in wound segmentation is to differentiate between regions with similar hue characteristics: e.g. dark red (granulation) vs. black (eschar) regions, as well as light yellow (slough) vs. white (epibole, skin etc.) regions. Fig. <ref type="figure" target="#fig_2">4</ref> shows an example of a dark red granulation tissue whose Value channel, V, values range between 0.2 and 0.4. Taking V ¼ 0:5 as the threshold, the tissue would have been misclassified as being closer to black rather than red (where 0 refers to pure black, and 1 refers to pure red). This, combined with the close proximity between red and  yellow colors, makes segmentation of the three tissue types complicated, regardless of the color model used (RGB, HSV, CIE Lnanbn etc.). In this work, we developed a modified HSV color model to improve the accuracy of the probability map by scaling the Saturation (S) and Value (V) components according to Eqs. 2 and 3, respectively to obtain S mod and V mod :</p><formula xml:id="formula_2">S mod ¼ log αnS þ 1 ð Þ log α þ 1 ð Þ<label>ð2Þ</label></formula><formula xml:id="formula_3">V mod ¼ log αnV þ 1 ð Þ log α þ 1 ð Þ<label>ð3Þ</label></formula><p>where S mod and V mod are the modified Saturation and modified Value respectively, and α is a constant. In our work, we have chosen α ¼ 8 so that the first quarter of the original scale (dark or light regions) will be stretched to half the modified scale, while the remaining three quarters of the original scale (red or yellow regions) will be compressed to occupy the remaining half of the modified scale (see Fig. <ref type="figure" target="#fig_3">5</ref>). Furthermore, the Hue (H) component is also shifted by 301 to maximize the distance between red and yellow. Fig. <ref type="figure" target="#fig_3">5</ref>(a) shows the transformation of S and V using Eq. ( <ref type="formula" target="#formula_2">2</ref>) and Eq. ( <ref type="formula" target="#formula_3">3</ref>), while Fig. <ref type="figure" target="#fig_3">5(b</ref>) and (c) shows the transformation of the black-red, black-yellow, white-red, white-yellow and red-yellow color transition from the standard HSV to the modified HSV color model. It can be observed that the modified HSV model better reflects the color distances between the four colors of interest. Under the standard HSV, dark red and dark yellow are closer to black; similarly light red and light yellow are closer to white. This would negatively affect the accuracy of the color probability map. The proposed modified HSV model is thus better suited to computing the probability of pixels belonging to any one of the four colors (see Section 5B and Table <ref type="table" target="#tab_19">14</ref> for comparison between the modified and original HSV for region growing).</p><p>Due to the uneven color distribution of the HSV or modified HSV color models (e.g. dark colors occupied almost half of the entire color space), the calculation of distance, d C k ; x ð Þ between a particular pixel, x and the colors is defined differently for the four colors. The distance of a pixel to black is based solely on V mod , while the distance to white is based on V mod and S mod . The distances to red and yellow on the other hand make use of all V mod , S mod and H mod . For a particular pixel x, the proposed distance equations are summarized below:   </p><formula xml:id="formula_4">d R; x ð Þ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi H mod x ð ÞÀH mod R ð Þ ð Þ 2 þ S mod x ð ÞÀS mod R ð Þ ð Þ 2 þ V mod x ð ÞÀV mod R ð Þ ð Þ 2 q ð4Þ d Y; x ð Þ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi H mod x ð ÞÀH mod Y ð Þ ð Þ 2 þ S mod x ð ÞÀS mod Y ð Þ ð Þ 2 þ V mod x ð ÞÀV mod Y ð Þ ð Þ 2 q<label>ð5Þ</label></formula><formula xml:id="formula_5">d K; x ð Þ¼V mod x ð ÞÀV mod K ð Þ<label>ð6Þ</label></formula><formula xml:id="formula_6">d W; x ð Þ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi V mod x ð ÞÀV mod W ð Þ ð Þ 2 þ S mod x ð ÞÀS mod W ð Þ ð Þ 2 q<label>ð7Þ</label></formula><p>where the following values are defined:</p><formula xml:id="formula_7">V mod K ð Þ ¼ 0 V mod W ð Þ¼1 S mod W ð Þ¼0 H mod R ð Þ ¼ 11=12 S mod R ð Þ ¼ 1 V mod R ð Þ ¼ 1 H mod Y ð Þ ¼ 1=12 S mod Y ð Þ ¼ 1 V mod Y ð Þ ¼ 1 3.2. Segmentation</formula><p>While there are many possible segmentation methods for use in medical applications, e.g. <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref>, we based our segmentation on two well-known and rather basic techniques, namely region growing segmentation, and optimal thresholding. We will demonstrate that even with these two simple segmentation algorithms, when coupled with our proposed probability map approach, is able to provide reliable segmentation of wounds. While the proposed approach works with the selection of an initial seed point by a clinician, the RYKW map has the potential to improve the segmentation into fully automated segmentation. This can be achieved by first identifying all potential wound regions throughout the entire image based on color information, before carrying out advanced image analysis to filter the false positive regions, leaving only true wound regions as the segmented output.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Region growing</head><p>Region growing <ref type="bibr" target="#b25">[26]</ref> is a pixel-based image segmentation algorithm that examines neighboring pixels of initial seed points and determines whether neighbors of the pixel should be added to the region. In our proposed method, the initial seed points are to be provided by the clinician. The regions are grown from the initial seed point's probability vector to adjacent points based on the 4D probability map P (Eq. 1). A neighbor is added to the region if the distance between that pixel's probability vector and the mean probability vector of the region (i.e. the mean probability of each R, Y, K, W channel over the current segmented region) is less than a certain threshold value, t. The process continues until either all the neighbor's distances are above the threshold, or all the pixels have been processed.</p><p>To ensure the region growing process does not stop prematurely, a mechanism is included to search for pixels with a similar probability map within a certain radius, r, from the region boundary, and the process continues. Morphological closing and filling operations are then applied during post-processing to remove noise and soften the edges. From experiments, suitable values for the threshold and radius are t¼0.1 and r¼5 pixels, respectively. Note that the proposed algorithm only segments the granulation, slough and/or eschar regions and ignores the rest of the image as clinicians are only interested in the wounds. While region growing is generally considered as computationally expensive operation, the probability map really helps to speed up the process by providing a valuable color discriminator between the four colors of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Optimal thresholding</head><p>Our "optimal thresholding approach" segments the image by thresholding the difference matrix of the probability map, P, while taking into account the pixel's tissue type and strength of its probability. While there are many available thresholding methods such as Otsu thresholding that can be used to segment the probability map, these methods are rather "hard" thresholding methods; if single wounds are inadvertently separated to 2 or more smaller wounds (which can happen very frequently due to illumination etc.), the segmentation can be considered to fail since the calculated accuracy (refer Section 4) will be very low.</p><p>The key idea behind our approach is first to identify all pixels whose color characteristics are similar to those of the seed pixel, before iteratively refining the segmentation boundary. The refinement is by simple thresholding of the difference matrix, Q, which is a matrix of the difference between the two highest probabilities for each pixel, and provides a second degree of tissue membership probability:</p><formula xml:id="formula_8">Q ¼ P max1 À P max2<label>ð8Þ</label></formula><p>where</p><formula xml:id="formula_9">P max1 ¼ max P ð Þ and P max2 ¼ max P ð Þ P a P max1</formula><p>Given the seed point pixel and its probability vector, its highest probability tissue class is identified, and pixels with the following properties are considered for segmentation: Property 1. Pixels with the same tissue class as their highest probability. Value of Q ranges from 0 to the maximum value in Q, φ.</p><p>Property 2. Pixels with the same tissue class as their second highest probability, and in which their difference with the highest probability is below a certain threshold, τ. Value of Q ranges from 0 to -τ.</p><p>In the strictest sense, only pixels with Property 1 should be included in the segmented region; however, due to the complicated nature of the wound tissue, pixels with Property 2 are also included to minimize false negative. The region of interest (ROI) at this point is defined as the region in Q whose pixels satisfy either Property 1 or Property 2, with values ranging between the φ and -τ.</p><p>The next step is to iteratively threshold the ROI, starting from φ. At each step the mean of the segmented ROI where the seed point is located is calculated. Theoretically the mean will decrease as the threshold value decreases towards À τ. The optimal threshold is defined as the threshold value where the mean values become 'stable' without any sudden decreasess or increase. The segmented wound region can then be obtained by thresholding the ROI with the optimal threshold value. As in the region growing, morphological closing and filling operations are then applied during postprocessing to obtain the final segmentation. Experimentally, the suitable values for the threshold, τ, and step size decrement, step, are τ ¼ 0:1 and step ¼ 0:01, respectively. The whole process is summarized as pseudo-code in Table <ref type="table" target="#tab_5">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3.">Label card detection and wound measurement</head><p>Since the distance between the camera and the wound is not recorded, the absolute values for wound measurementsnecessary for clinical reportingcannot be recorded. To solve this problem, we have developed a technique to automatically scale the  wound size. As in most medical centers, each of the wound images taken at the Wexner Medical Center contains a white label card, which we automatically detected and used as a reference to compute the actual pixel size in the image. The white label card has a standard size of 4.5 cm by 6.5 cm. With successful detection of the card and its size with respect to the image, we can easily calculate the pixel measurements in cm per pixel unit.</p><p>To detect the card, first the white regions are identified from the same RYKW map computed in the previous step (Section 3A). Then, the detected white regions are filtered based on their area, rectangularity (actual area over minimum bounding rectangle area) and convexity measure (actual area over convex hull area) to identify potential rectangular regions for the white card. The rectangularity and convexity measure helps in eliminating irregular shape region, while the area relative to the image size helps in eliminating false rectangular regions. The length and width of the identified label card are then used to calibrate the pixel size. With the pixel size available, measuring the wound size is straightforward. Currently, the proposed algorithm outputs three measurements: area, length (major diameter) and width (minor diameter) of the segmented wound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Experimental setup</head><p>This study was done with the institutional review board (IRB) approval. In our experiments, we used a total of 80 images, whose ground truth was provided by at least two clinicians. The images are of 768 Â 1024 pixels in resolution, stored in JPEG format. They were captured by the clinicians following normal clinical practice and under non-controlled conditions, i.e. no measures were taken to control the illumination, background or the wound to background ratio, resulting in a very challenging set of images. To capture the ground truth, an in-house software tool was developed. Using this tool, clinicians can not only draw the boundaries of the wound but also its three tissue components: granulation, slough and eschar tissues. Again using this tool, the user can input the estimates (as a percentage) for tissue components that are already an integral part of wound documentation. The clinicians first manually drew the wound boundaries for each image independently. Based on the drawn boundaries, the clinicians were then asked to estimate the percentage of granulation, slough and eschar tissues before proceeding to draw the boundaries for each tissue type. The tool is capable of handling as many number of wound or tissue regions possible, hence the clinicians were asked to provide as detail a drawing as possible. Depending on the complexity of the image, clinicians spent between 30 s and 3 min to annotate a single image.</p><p>The images were divided into three sets as shown in Table <ref type="table" target="#tab_7">3</ref>. Set 1, consisting of 10 images, were annotated with the consensus of three clinicians, and used as a training set to ensure that all three clinicians have the same understanding in defining the different tissue types as well as their boundaries. Set 2, with 15 images, were annotated by all three clinicians separately, producing three separate ground truth files for each image. Finally Set 3, with 55 images, were annotated by two clinicians independently, resulting in two separate ground truth files. The wound and tissue boundaries from the ground truth files of Sets 2 and 3 are compared to evaluate the level of agreement between the clinicians. Tissue component percentage estimation by the clinicians were also compared to the actual tissue percentage from the drawings to evaluate the accuracy of the clinicians' estimation.</p><p>The inter-reader variability is measured using the agreement measure in Eq. ( <ref type="formula" target="#formula_10">9</ref>):</p><formula xml:id="formula_10">Agreement ¼ D 1 \ D 2 D 1 [ D 2 Â 100<label>ð9Þ</label></formula><p>where D 1 and D 2 refer to the region annotated by the first, second or third clinician, respectively. Due to the high degree of interreader variability (to be discussed in Section 5), it is difficult to obtain one common ground truth for Sets 2 and 3. Hence, to evaluate the accuracy of computer segmentation, the resulting segmentation is compared to each of the different ground truths.</p><p>In other words, the segmentation results are compared to each clinician's manual drawings, thereby indicating with which proposed algorithm the clinicians tend to agree more. The same measurement in Eq. ( <ref type="formula" target="#formula_10">9</ref>) is used to determine the accuracy of the computer segmented regions against the ground truth:</p><formula xml:id="formula_11">Accuracy ¼ GT \ CS GT [ CS Â 100<label>ð10Þ</label></formula><p>where GT refers to the boundaries drawn by any one of the clinicians, and CS refers to the computer segmented region.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Experimental results and discussion</head><p>We first present the inter-reader variability between clinicians on the wound boundaries, tissue characterization as well as tissue percentage estimation in Section 5A. The proceeding sub-section will then report the results of the computer segmentation against all the ground truth discussed in Section 5B.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Inter-reader variability between clinicians</head><p>As explained in Section 4, three clinicians independently drew the boundaries of the wounds in Set 2 as well as estimated the percentages of tissue types. In this section, this data will be used to evaluate inter-reader variability. Table <ref type="table">4</ref> shows the statistics of wound boundary agreement between the clinicians for the images in Set 2. Since there are three clinicians involved, four sets of comparison are carried out. As can be observed from Table <ref type="table">4</ref>, the mean agreement between any two clinicians varies between 80.3% and 84.3%. The mean drops to 74.3% when all three clinicians' readings are compared, indicating that it is more difficult to reach an agreement when more clinicians involved (the trend for the median agreement follows a similar trend). Note that the minimum agreement goes as low as 40.7%, which suggests that some of the wounds are quite complicated and thus their boundaries are relatively difficult to define.</p><p>Table <ref type="table" target="#tab_9">5</ref> shows the statistics for images in Set 3. Clearly, with more images, the mean and median agreement between clinicians 2 and 3 (clinician 1 is not involved in evaluating Set 3) drops rather sharply, from 80.3% to around 67.4% in mean agreement, and from 83.3% to 70.8% in median. The standard deviation also almost doubles, while the minimum agreement can be as low as 24.4%. This suggests that with increased number of images to annotate,  some of which contain relatively complicated wounds, the agreement between the clinicians plummets. This is another reason why we will be comparing the computer segmentation with the ground truth from individual clinicians instead of a combined ground.</p><p>To gauge intra-reader variability, we have also asked two of the clinicians to re-draw the wound boundary for a subset of cases (10 images) after a month from their initial reading. The intra-reader variability is summarized in Table <ref type="table" target="#tab_10">6</ref>. As in the inter-reader variability (Table <ref type="table">4</ref>), the difference between two consecutive readings is relatively high, with average self-agreement of 80.4% and 84.5% for the two clinicians.</p><p>While the average agreement between the clinicians at the wound level may still acceptable, their agreement at the tissue level is much lower. Tables <ref type="table" target="#tab_11">7</ref> and<ref type="table" target="#tab_12">8</ref> show the tissue characterization agreement between the clinicians for Sets 2 and 3, respectively. It can be seen that the mean and median agreement are all below 60% with standard deviation of mostly more than 30%. There were many instances where the clinicians do not agree on the particular tissue types within the wound, especially when it comes to differentiating granulation and slough, or between slough and eschar, and even granulation and epithelium. This is the reason for minimum agreement (all the values in the 'Min' column in Tables <ref type="table" target="#tab_11">7</ref> and<ref type="table" target="#tab_12">8</ref>) to be 0%. In other words, there are always situations where one clinician will identify a particular region within the wound, with which the other clinician will not agree. For example, Fig. <ref type="figure" target="#fig_4">6</ref> shows two examples of images with the lowest agreement between two clinicians. While the clinicians show quite decent agreement when it comes to granulation, their agreement for slough and eschar tissues is very low. Again, as in determining agreement on wound boundaries, the more the number of clinicians involved (3 vs. 2), the lower the agreement. Similarly, the more the images (Set 3 vs. Set 2), the lower the overall agreement is.</p><p>The last comparison we made regarding the clinicians ground truth is on the accuracy of their tissue percentage estimation. During annotation, once they completed drawing the overall wound boundaries for an image, the clinicians were asked to estimate the percentage of granulation, slough and eschar tissues within the wound boundaries. They were then required to draw the tissue boundaries within the wound, and these 'actual' percentages were compared to their earlier estimates. Wounds with only one tissue type (e.g. granulation only) were excluded as for these images they were not required to estimate (automatically set to 100%). Table <ref type="table" target="#tab_14">9</ref> shows the percentage differences for the three clinicians for Sets 2 and 3. The values are computed as the absolute difference between all three tissue types (hence some differences exceed 100%). As an example, a computer calculated percentages of (60% granulation, 20% slough and 20% eschar) against clinician's estimation of (80% granulation, 10% slough and 10% eschar) will give an error rate of 40%: 20% error from the granulation, and 10% error each from the slough and eschar. It can be seen that the mean differences between the three clinicians are almost the same, which are around 20% for Set 2, and around 25% for Set 3. This suggests  that even the most experienced of clinicians are having trouble estimating the tissue percentages, which is an important piece of information required in wound documentation.</p><p>The results presented in this section show that wound segmentation and characterization are complicated processes, where even the most experienced clinicians have different opinions regarding wound boundaries and the type of tissues involved. The next section will discuss the results of the computer segmentation, and we will demonstrate that the proposed segmentation algorithm based on a probability map can be as good as the clinicians' consensus ground truth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Segmentation and measurement accuracy</head><p>We carried out both qualitative and quantitative evaluations of the algorithm performance and these results will be presented in the next two subsections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.1.">Qualitative evaluation</head><p>First, the performance of the segmentation algorithm was evaluated qualitatively. Fig. <ref type="figure" target="#fig_5">7</ref> shows four examples of the results obtained using both segmentation methods. For the first case (Fig. <ref type="figure" target="#fig_5">7</ref>(a), granulation), the accuracy is 91.3% and 77.7% compared to the ground truth by Clinicians 2 and 3, respectively using the optimal thresholding, and 83.6% and 71.2% using the region growing segmentation. The discrepancies between the results against the different ground truths are caused by the rather big difference in the wound boundaries created by the two clinicians. For the second case (Fig. <ref type="figure" target="#fig_5">7</ref>(b), granulation), the accuracies for both segmentation methods against both clinicians' ground truths are all more than 90%.</p><p>For the third example (Fig. <ref type="figure" target="#fig_5">7</ref>(c), eschar), the accuracies are all more than 80% except for the optimal thresholding result against Clinician 3, which is around 75%. Finally for case 4 (Fig. <ref type="figure" target="#fig_5">7</ref>(d), eschar), the accuracies for the optimal thresholding are recorded as 58.6% and 86.3%, while the region growing scores were 39.4% and 62.2%. As in case 1, the two clinicians differed in defining the wound boundary, where one of them included some parts of healed tissues as well, lowering the accuracy percentages for both methods. The optimal thresholding method agrees well with Clinician 3 with 86.3% accuracy, although the region growing approach seems to have missed some boundary pixels. The small size of the wound also contributes to further lower the accuracy of this particular wound image, due to the 'unforgiving' measurement metric used. Nevertheless, the four examples demonstrate that despite the complex nature of the wound boundary, the proposed algorithm is able to segment the wounds rather accurately.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.2.">Quantitative evaluation</head><p>Tables <ref type="table" target="#tab_16">10</ref> and<ref type="table" target="#tab_1">11</ref> present the overall segmentation accuracy using optimal thresholding and region growing approach respectively. Each table presents the results according to the different image sets as well as different clinicians' ground truths. It is observed that using optimal thresholding segmentation on the probability map provides slightly better overall results compared to using region growing. However, these differences diminish as the size of the dataset increases (i.e. Set 1 À 4 Set 3), and the average accuracies become almost identical (74.0% vs. 74.2%). This trend is also true for individual clinician's agreements with the algorithm for different methods. Optimal thresholding is also more consistent than region growing as can be deduced by the lower standard deviation for all image sets. The overall average accuracy of 75% is very promising considering the level of agreement between the clinicians varies from 65% to 85%.</p><p>For performance comparison, we also run Sefexa image segmentation tool <ref type="bibr" target="#b26">[27]</ref>, which was developed based on the work by Kolesnik and Fexa <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>, on the same sets of images, and the results are summarized in Table <ref type="table" target="#tab_17">12</ref>. Their method, like ours and unlike the other works discussed in Section 2, is not limited to images captured under controlled environment, not confined to the wound region, or designed for specific wound types only. Furthermore, besides supervised automatic mode, their method can also work on semi-automatic mode by requiring the user to provide samples of pixels belonging to wound and non-wound regions. These two factors make Sefexa, which is based on color and texture features, the most appropriate benchmark for our proposed method. Comparing the readings in Tables 10-12, both of our approaches outperform the Sefexa approach, which only records 68.8% average accuracy. Based on the standard deviation readings (10.5% for optimal thresholding, 13.1% for region growing and 17.0% for Sefexa overall), we can also deduce that our approach is more consistent. This is expected as Kolesnik and Fexa's approach depends heavily on the pixel samples to start the segmentation. While our approach requires the user to provide only an initial seed   (i.e. a single click on an image), which is more convenient for the clinicians, the other method requires two sets of samples. Table <ref type="table" target="#tab_7">13</ref> shows the segmentation accuracy according to the different tissue types. Both approaches work best in segmenting granulation and eschar tissues, with lower accuracy for slough tissue. This is not surprising given the better delineated boundaries of granulation and eschar tissues. Slough tissues appear more sporadic, and also may be easily confused with other tissue types. This finding also agrees with the one reported by Wannous et al. <ref type="bibr" target="#b2">[3]</ref>.   space and the original HSV color space. Clearly, without modifying the HSV color space, the segmentation performance decreases considerably; highlighting the importance of our proposed modification. Without the modification, each of the overall wound segmentation as well as the granulation, slough and eschar tissues segmentation recorded a drop in accuracy between 5% and 15%. As expected, the granulation tissue segmentation benefits the most from our modified color space because better threshold is used to distinguish dark red (granulation) and black (eschar) tissues.</p><p>Optimal thresholding has much lower computational complexity compared to the region growing method. Region growing processes all the wound pixels, hence, the larger the image or the wound, the longer time is needed to complete processing all the pixels of interest. On average, to segment an image of size 768 Â 1024 on 2.3 GHz Intel s Core™ i7 processor, optimal thresholding needed less than the second, while region growing required up to five seconds, depending on the wound size. Another issue to be considered when using the region growing approach for segmentation is the repeatability, i.e. the method should provide consistent segmentation results for different initial seeds. This is particularly even more challenging in our case as wound images tend to have "glossy" pixels within the granulation or slough area due to their wet nature. The optimal thresholding segmentation does not suffer from this problem, and thus is relatively more stable. Nevertheless, the proposed probability map approach, together with the mechanism to prevent premature stopping, is able to address this issue rather well.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusion and future work</head><p>We have developed a method for the segmentation of wound images into granulation, slough and eschar regions and automatically carry out the measurements necessary for wound documentation. We proposed the red-yellow-black-white (RYKW) probability map as the platform for the region growing process in segmenting the three regions as well as the white label cards. Experiments were conducted on 80 wound images provided by The Ohio State University Wexner Medical Center. These images exhibited challenging characteristics with different types of wounds at different stages, typically pictured in a clinical setting with complicated backgrounds, some of which with similar characteristics to the color palette of the wounds or surrounding healthy skin. The analysis presented from the inter-and intra-reader variability experiment suggests that wound segmentation and characterization are a complicated process, where even the most experienced clinicians have different opinions regarding wound boundaries and the type of tissues involved.</p><p>Using the optimal thresholding approach, the proposed method achieves an overall accuracy of 75.1%, which is very promising considering that the average agreement between the clinicians is between 67.4 and 84.3%. The wound area, length and width measurements also give a promising accuracy of 75.0%, 87.0% and 85.0%, respectively. We have also demonstrated that the probability map approach, computed through a modified HSV color model, is a very promising method for use with many segmentation techniques to reliably segment wound images. Based on two simple segmentation methods, optimal thresholding and region growing, the overall accuracy of around 75.1% has been observed. This suggests that the proposed RYKW map manages to identify the wound and its different tissues rather well, on par with the experts. Utilizing the RYKW map with a more advanced segmentation method can only further improve the accuracy of the segmentation, and is currently being worked on in our lab. The proposed method was also evaluated against other existing technique and experiment on the same sets of images shows much better performance for our proposed method.</p><p>We believe the proposed system will help wound experts immensely in the future. This early success could pave the way for a computer-assisted wound analysis software where the computer can segment the wounds reliably (with confirmation from the clinician) and provide a more accurate tissue characterization (as opposed to current clinicians' estimates), with possible extension into wound healing monitoring as well. With the tedious tasks of drawing the wound boundaries and populating the basic information on tissue characterization carried out by the computer, the clinicians will have more time in exercising their expertise in actual clinical work, thus achieving quality benchmarks for wound care as determined by the Center for Medicare Services.</p><p>It should be noted that the quality of the segmentation results as well as the resulting measurements depend on the quality of the input images. Unlike most of the previous work in this area, our work aimed at developing a solution that will work with actual, clinically captured images (all the images in this study were captured during routine clinical work and the personnel who captured them were not aware of software development). However, there is still the expectation that the images capture the wound in a reasonable manner; for example, if only a tiny portion of the wound is visible in the image, obviously, the segmentation will fail to properly capture the wound or its tissue components. Admittedly, human readers will run into the same challenge if asked to evaluate such images. Similarly, if the labels are not placed reasonably well, the absolute measurements may be skewed. Although our software can recognize some of the variations in the placements of cards, it cannot recover from severely distorted placement of cards. A ruler and color scale in the label cards can be easily included and these can be used to calibrate both size measurements and color variations, hence improving the overall accuracy. Other image acquisition issues include poor lighting and noise. While some of the images in our dataset do suffer from non-uniform lighting, noise and/or other artifacts (e.g. blurring in the images due to shaking the camera while taking the picture) to a certain degree, the proposed method performs rather well in handling these types of images. A future study needs to analyze the effect of such variations on the overall performance in a controlled manner.</p><p>The proposed algorithm has some limitations in segmenting and characterizing wounds on dark skins, especially when trying to identify eschar tissues or dark granulation tissues. In some rare instances, the color of Caucasian skins tend to be very red in appearance (in which the probability of red will be very high), hence segmenting fresh granulation tissues may not work on these images. We are exploring the possibility of incorporating edge and depth analysis into the current algorithm in order to address these problems, which could also potentially measure undermining wounds. In addition, work is currently under way to include images from other medical centers as well, and to further improve the segmentation accuracy by applying other segmentation techniques on the probability map. Automatic detection of the wounds, which would eliminate the need for the seed pixel by the user, is also under consideration. The proposed RYKW map is conveniently suited to achieve this by first identifying potential wound region throughout the entire image based on color information, before carrying out advanced analysis to filter the false positive regions. Finally, the ultimate goal of the wound software is not only to be able to characterize the wound at a single time, but also at multiple  time periods. By comparing the wound characteristics from the first visit to the second and subsequent visits, as well as taking into account the demographic information of the patient (age group, gender, ethnicity) and the type of ulcers (diabetic, venous, pressure), the healing rate can be estimated. This would be a significant breakthrough in wound healing management.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Most commonly seen tissues in wounds: granulation, slough and eschar.</figDesc><graphic coords="2,82.64,58.61,420.32,102.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .Fig. 3 .</head><label>23</label><figDesc>Fig. 2. Example of wound images with complicated backgrounds used in the experiment.</figDesc><graphic coords="4,34.73,58.64,516.00,94.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Illustration of red granulation tissue mistaken as black eschar tissue.</figDesc><graphic coords="5,47.96,58.61,240.32,372.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. (a) Transformation of S and V to S mod and V mod , based on Eqs. (2) and (3) (α ¼ 8), and color transitions for (b) standard HSV, and (c) modified HSV color models. The dashed lines show how the H, S and V values are shifted after the transformation.</figDesc><graphic coords="5,316.80,58.64,240.48,417.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Two examples of very low agreement between 2 clinicians.</figDesc><graphic coords="9,48.05,58.64,240.00,371.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Selected segmentation results. For each case, the red and blue markings show the wound boundaries drawnQ2by Clinicians 2 and 3, respectively, while the green and yellow markings show the segmentation obtained by the optimal thresholding and region growing approaches respectively. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)</figDesc><graphic coords="10,52.49,58.64,480.48,383.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Summary of current works on wound segmentation, monitoring and software tools.</figDesc><table><row><cell>The wound images used in our experiments are provided by the</cell></row><row><cell>Comprehensive Wound Center of the Ohio State University Wexner</cell></row></table><note><p>employees (not professional photographers) capturing the images in routine clinical work using different cameras. This simulates the variation that we expect to see in other medical centers in terms of patient variability as well as variation due to image capture.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 2</head><label>2</label><figDesc>Pseudo-code of the optimal-thresholding based segmentation approach.</figDesc><table><row><cell>Input: 4D probability map, P</cell></row><row><cell>Output: Segmented wound region, Iseg</cell></row><row><cell>Procedure:</cell></row><row><cell>1 Compute probability difference matrix, Q</cell></row><row><cell>2 Based on probability map of seed pixel, identify ROI</cell></row><row><cell>3 Set φ ¼ max Q ð Þ</cell></row><row><cell>4 Set τ ¼ 0:1</cell></row><row><cell>5 Set step ¼0.01</cell></row><row><cell>6 Set th ¼ φ</cell></row><row><cell>7 While th 4 À τ</cell></row><row><cell>seg ¼ ROI 4th</cell></row><row><cell>segmean ¼ meanðsegÞ</cell></row><row><cell>th ¼ thÀ step</cell></row><row><cell>end</cell></row><row><cell>8 Identify optimal threshold, thopt based on segmean</cell></row><row><cell>9 Iseg ¼ ROI 4 thopt</cell></row><row><cell>10 Perform morphological operations on Iseg</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 3</head><label>3</label><figDesc>Categorization of images.</figDesc><table><row><cell>Sets</cell><cell cols="2">Number of images</cell><cell></cell><cell cols="3">Number of ground truth</cell></row><row><cell>Set 1</cell><cell>10</cell><cell></cell><cell></cell><cell cols="3">1 (consensus from 3 clinicians)</cell></row><row><cell>Set 2</cell><cell>15</cell><cell></cell><cell></cell><cell cols="2">3 (from 3 clinicians)</cell></row><row><cell>Set 3</cell><cell>55</cell><cell></cell><cell></cell><cell cols="2">2 (from 2 clinicians)</cell></row><row><cell>Table 4</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="7">wound agreement for set 2 images (percentage accuracy measure in Eq. (9)).</cell></row><row><cell cols="2">Agreement Between</cell><cell>Mean</cell><cell>Min</cell><cell>Max</cell><cell>Med</cell><cell>Std Dev</cell></row><row><cell cols="2">Clinicians 1,2 and 3</cell><cell>74.3</cell><cell>40.7</cell><cell>88.3</cell><cell>76.3</cell><cell>12.5</cell></row><row><cell cols="2">Clinicians 1 and 2</cell><cell>84.3</cell><cell>69.7</cell><cell>94.4</cell><cell>86.1</cell><cell>7.4</cell></row><row><cell cols="2">Clinicians 1 and 3</cell><cell>81.5</cell><cell>41.4</cell><cell>92.3</cell><cell>87.4</cell><cell>13.0</cell></row><row><cell cols="2">Clinicians 2 and 3</cell><cell>80.3</cell><cell>55.0</cell><cell>92.7</cell><cell>83.2</cell><cell>10.5</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>Table 5</head><label>5</label><figDesc>Wound agreement for Set 3 images (Percentage accuracy measure in Eq. (9)).</figDesc><table><row><cell>Agreement between</cell><cell>Mean</cell><cell>Min</cell><cell>Max</cell><cell>Med</cell><cell>Std dev</cell></row><row><cell>Clinicians 2 and 3</cell><cell>67.4</cell><cell>24.5</cell><cell>94.5</cell><cell>70.8</cell><cell>19.5</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>Table 6</head><label>6</label><figDesc>Intra-reader variability for wound agreement.</figDesc><table><row><cell>Agreement between</cell><cell>Mean</cell><cell>Min</cell><cell>Max</cell><cell>Med</cell><cell>Std dev</cell></row><row><cell>Clinicians 2</cell><cell>84.5</cell><cell>66.0</cell><cell>97.3</cell><cell>87.2</cell><cell>10.5</cell></row><row><cell>Clinicians 3</cell><cell>80.4</cell><cell>58.0</cell><cell>97.3</cell><cell>84.8</cell><cell>14.7</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head>Table 7</head><label>7</label><figDesc>Tissue agreement for Set 2 images.</figDesc><table><row><cell>Tissue types</cell><cell>Agreement between clinicians</cell><cell>Mean</cell><cell>Min</cell><cell>Max</cell><cell>Med</cell><cell>Std dev</cell><cell>of img</cell></row><row><cell>Granul</cell><cell>1,2 and 3</cell><cell>42.9</cell><cell>0.0</cell><cell>86.2</cell><cell>42.4</cell><cell>31.6</cell><cell>19</cell></row><row><cell></cell><cell>1 and 2</cell><cell>59.6</cell><cell>0.0</cell><cell>94.0</cell><cell>71.9</cell><cell>30.1</cell><cell>19</cell></row><row><cell></cell><cell>1 and 3</cell><cell>50.9</cell><cell>0.0</cell><cell>89.2</cell><cell>54.2</cell><cell>35.0</cell><cell>19</cell></row><row><cell></cell><cell>2 and 3</cell><cell>52.6</cell><cell>0.0</cell><cell>88.5</cell><cell>60.3</cell><cell>31.8</cell><cell>18</cell></row><row><cell>Slough</cell><cell>1,2 and 3</cell><cell>17.8</cell><cell>0.0</cell><cell>63.1</cell><cell>0.2</cell><cell>24.3</cell><cell>15</cell></row><row><cell></cell><cell>1 and 2</cell><cell>31.3</cell><cell>0.0</cell><cell>74.2</cell><cell>27.0</cell><cell>31.7</cell><cell>13</cell></row><row><cell></cell><cell>1 and 3</cell><cell>29.1</cell><cell>0.0</cell><cell>72.7</cell><cell>17.7</cell><cell>31.2</cell><cell>14</cell></row><row><cell></cell><cell>2 and 3</cell><cell>38.4</cell><cell>0.0</cell><cell>84.7</cell><cell>44.8</cell><cell>33.4</cell><cell>15</cell></row><row><cell>Eschar</cell><cell>1,2 and 3</cell><cell>24.5</cell><cell>0.0</cell><cell>85.8</cell><cell>0.0</cell><cell>37.7</cell><cell>9</cell></row><row><cell></cell><cell>1 and 2</cell><cell>37.4</cell><cell>0.0</cell><cell>90.5</cell><cell>0.0</cell><cell>46.7</cell><cell>7</cell></row><row><cell></cell><cell>1 and 3</cell><cell>26.5</cell><cell>0.0</cell><cell>90.8</cell><cell>0.0</cell><cell>40.8</cell><cell>9</cell></row><row><cell></cell><cell>2 and 3</cell><cell>48.5</cell><cell>0.0</cell><cell>91.4</cell><cell>55.4</cell><cell>34.4</cell><cell>8</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head>Table 8</head><label>8</label><figDesc>Tissue agreement for Set 3 images</figDesc><table><row><cell>Tissue Types</cell><cell>Agreement Between Clinicians</cell><cell>Mean</cell><cell>Min</cell><cell>Max</cell><cell>Med</cell><cell>Std Dev</cell><cell>of Img</cell></row><row><cell>Granul</cell><cell>2 &amp; 3</cell><cell>42.7</cell><cell>0.0</cell><cell>93.9</cell><cell>51.1</cell><cell>34.6</cell><cell>65</cell></row><row><cell>Slough</cell><cell>2 &amp; 3</cell><cell>15.9</cell><cell>0.0</cell><cell>90.1</cell><cell>0.0</cell><cell>27.3</cell><cell>42</cell></row><row><cell>Eschar</cell><cell>2 &amp; 3</cell><cell>25.0</cell><cell>0.0</cell><cell>92.3</cell><cell>0.0</cell><cell>34.6</cell><cell>30</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head>Table 9</head><label>9</label><figDesc>Tissue percentage estimation.</figDesc><table><row><cell>Sets</cell><cell>Clinicians</cell><cell>Mean</cell><cell>Min</cell><cell>Max</cell><cell>Med</cell><cell>Std Dev</cell><cell>of Img</cell></row><row><cell>Set 2</cell><cell>1</cell><cell>23.3</cell><cell>7.6</cell><cell>51.7</cell><cell>19.4</cell><cell>12.8</cell><cell>14</cell></row><row><cell></cell><cell>2</cell><cell>22.8</cell><cell>1.2</cell><cell>73.2</cell><cell>19.3</cell><cell>20.4</cell><cell>18</cell></row><row><cell></cell><cell>3</cell><cell>19.5</cell><cell>0.7</cell><cell>48.4</cell><cell>16.4</cell><cell>14.8</cell><cell>16</cell></row><row><cell>Set 3</cell><cell>2</cell><cell>28.8</cell><cell>0.2</cell><cell>160.0</cell><cell>18.6</cell><cell>31.0</cell><cell>46</cell></row><row><cell></cell><cell>3</cell><cell>25.4</cell><cell>0.1</cell><cell>132.7</cell><cell>16.3</cell><cell>27.4</cell><cell>53</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15"><head></head><label></label><figDesc>Table 14  compares the segmentation accuracies of the region growing approach between the proposed modified HSV color</figDesc><table><row><cell>1</cell></row><row><cell>2</cell></row><row><cell>3</cell></row><row><cell>4</cell></row><row><cell>5</cell></row><row><cell>6</cell></row><row><cell>7</cell></row><row><cell>8</cell></row><row><cell>9</cell></row><row><cell>10</cell></row><row><cell>11</cell></row><row><cell>12</cell></row><row><cell>13</cell></row><row><cell>14</cell></row><row><cell>15</cell></row><row><cell>16</cell></row><row><cell>17</cell></row><row><cell>18</cell></row><row><cell>19</cell></row><row><cell>20</cell></row><row><cell>21</cell></row><row><cell>22</cell></row><row><cell>23</cell></row><row><cell>24</cell></row><row><cell>25</cell></row><row><cell>26</cell></row><row><cell>27</cell></row><row><cell>28</cell></row><row><cell>29</cell></row><row><cell>30</cell></row><row><cell>31</cell></row><row><cell>32</cell></row><row><cell>33</cell></row><row><cell>34</cell></row><row><cell>35</cell></row><row><cell>36</cell></row><row><cell>37</cell></row><row><cell>38</cell></row><row><cell>39</cell></row><row><cell>40</cell></row><row><cell>41</cell></row><row><cell>42</cell></row><row><cell>43</cell></row><row><cell>44</cell></row><row><cell>45</cell></row><row><cell>46</cell></row><row><cell>47</cell></row><row><cell>48</cell></row><row><cell>49</cell></row><row><cell>50</cell></row><row><cell>51</cell></row><row><cell>52</cell></row><row><cell>53</cell></row><row><cell>54</cell></row><row><cell>55</cell></row><row><cell>56</cell></row><row><cell>57</cell></row><row><cell>58</cell></row><row><cell>59</cell></row><row><cell>60</cell></row><row><cell>61</cell></row><row><cell>62</cell></row><row><cell>63</cell></row><row><cell>64</cell></row><row><cell>65</cell></row><row><cell>66</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16"><head>Table 10</head><label>10</label><figDesc>Average segmentation (%) for optimal thresholding.</figDesc><table><row><cell>Set 1</cell><cell>78.6</cell><cell>NA</cell><cell>NA</cell><cell>NA</cell><cell>78.6</cell><cell>8.0</cell></row><row><cell>Set 2</cell><cell>NA</cell><cell>79.6</cell><cell>77.4</cell><cell>73.5</cell><cell>76.8</cell><cell>9.8</cell></row><row><cell>Set 3</cell><cell>NA</cell><cell>NA</cell><cell>74.8</cell><cell>73.2</cell><cell>74.0</cell><cell>10.8</cell></row><row><cell cols="2">Overall 78.6</cell><cell>79.6</cell><cell>75.4</cell><cell>73.3</cell><cell>75.1</cell><cell>10.5</cell></row><row><cell>Table 11</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">Average segmentation (%) for region growing.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sets</cell><cell cols="6">Consensus Clinician 1 Clinician 2 Clinician 3 Average Std. Dev.</cell></row><row><cell>Set 1</cell><cell>70.8</cell><cell>NA</cell><cell>NA</cell><cell>NA</cell><cell>70.8</cell><cell>14.3</cell></row><row><cell>Set 2</cell><cell>NA</cell><cell>77.1</cell><cell>75.7</cell><cell>73.6</cell><cell>75.4</cell><cell>10.8</cell></row><row><cell>Set 3</cell><cell>NA</cell><cell>NA</cell><cell>74.3</cell><cell>74.0</cell><cell>74.2</cell><cell>12.0</cell></row><row><cell cols="2">Overall 70.8</cell><cell>77.1</cell><cell>74.6</cell><cell>73.9</cell><cell>74.0</cell><cell>13.1</cell></row></table><note><p><p>Sets</p>Consensus Clinician 1 Clinician 2 Clinician 3 Average Std. Dev.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head>Table 12 Average</head><label>12</label><figDesc></figDesc><table><row><cell>Set 1</cell><cell>65.1</cell><cell>NA</cell><cell>NA</cell><cell>NA</cell><cell>65.1</cell><cell>22.8</cell></row><row><cell>Set 2</cell><cell>NA</cell><cell>78.9</cell><cell>78.3</cell><cell>80.4</cell><cell>79.2</cell><cell>10.4</cell></row><row><cell>Set 3</cell><cell>NA</cell><cell>NA</cell><cell>66.7</cell><cell>66.7</cell><cell>66.7</cell><cell>17.3</cell></row><row><cell cols="2">Overall 65.1</cell><cell>78.9</cell><cell>69.2</cell><cell>69.6</cell><cell>68.8</cell><cell>17.0</cell></row><row><cell>Table 13</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">Average segmentation (%) according to tissue types.</cell><cell></cell><cell></cell></row><row><cell>Tissues</cell><cell></cell><cell cols="2">Optimal Threshold</cell><cell></cell><cell cols="2">Region Growing</cell></row><row><cell cols="2">Granulation</cell><cell>76.2</cell><cell></cell><cell></cell><cell>75.3</cell><cell></cell></row><row><cell>Slough</cell><cell></cell><cell>63.3</cell><cell></cell><cell></cell><cell>63.9</cell><cell></cell></row><row><cell>Eschar</cell><cell></cell><cell>75.1</cell><cell></cell><cell></cell><cell>71.5</cell><cell></cell></row></table><note><p><p><p>segmentation (%) for sefexa segmentation tool.</p>Sets</p>Consensus Clinician 1 Clinician 2 Clinician 3 Average Std. Dev.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_19"><head>Table 14</head><label>14</label><figDesc>Performance comparison (%) between modified and original HSV for region growing.</figDesc><table><row><cell>Tissues</cell><cell>Modified HSV</cell><cell>Original HSV</cell></row><row><cell>Overall</cell><cell>74.0</cell><cell>62.9</cell></row><row><cell>Granulation</cell><cell>75.3</cell><cell>58.9</cell></row><row><cell>Slough</cell><cell>63.9</cell><cell>57.2</cell></row><row><cell>Eschar</cell><cell>71.5</cell><cell>66.8</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Please cite this article as: M.F. Ahmad Fauzi, et al., Computerized segmentation and measurement of chronic wound images, Comput. Biol. Med. (2015), http://dx.doi.org/10.1016/j.compbiomed.2015.02.015i</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,47.85,204.91,235.95,6.03;12,47.85,212.84,235.91,6.03;12,47.85,220.84,27.54,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Human skin wounds: a major and snowballing threat to public health and the economy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gordillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="763" to="771" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,47.85,228.78,235.96,6.03;12,47.85,236.77,235.94,6.03;12,47.85,244.76,235.89,6.03;12,47.85,252.70,179.07,6.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Segmentation and automated measurement of chronic wound images: probability map approach</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F A</forename><surname>Fauzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Khansa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Catignani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Gurcan</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.2043791</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computer-Aided Diagnosis</title>
+		<imprint>
+			<biblScope unit="volume">9035</biblScope>
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note>Proceedings SPIE</note>
+</biblStruct>
+
+<biblStruct coords="12,47.85,260.69,235.88,6.03;12,47.85,268.63,235.92,6.03;12,47.85,276.62,164.26,6.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Supervised tissue classification from color images for a complete wound assessment tool</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wannous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE EMBS International Conference</title>
+		<meeting>the IEEE EMBS International Conference</meeting>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="6031" to="6034" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,47.85,284.56,235.97,6.03;12,47.85,292.55,235.89,6.03;12,47.85,300.55,193.25,6.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Mobile-based wound measurement</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D J</forename><surname>Hettiarachchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B H</forename><surname>Mahindaratne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D C</forename><surname>Mendis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Nanayakkara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Nanayakkara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Point-of-Care Healthcare Technologies</title>
+		<meeting>the IEEE Point-of-Care Healthcare Technologies</meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="298" to="301" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,47.85,308.48,235.96,6.03;12,47.85,316.48,235.90,6.03;12,47.85,324.41,48.86,6.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Binary tissue classification on wound images with neural networks and bayesian classifiers</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Veredas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imaging</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="410" to="427" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,47.85,332.41,235.93,6.03;12,47.85,340.40,235.93,6.03;12,47.85,348.34,174.54,6.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Haemoglobin distribution in ulcers for healing assessment</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F M</forename><surname>Hani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Arshad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Malik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jamil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Intelligent and Advanced Systems</title>
+		<meeting>the International Conference on Intelligent and Advanced Systems</meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="362" to="367" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,47.85,356.33,235.86,6.03;12,47.85,364.27,235.89,6.03;12,47.85,372.26,159.84,6.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Segmentation and analysis of leg ulcers color images</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gonzaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Alves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Workshop on Medical Imaging and Augmented Reality</title>
+		<meeting>the International Workshop on Medical Imaging and Augmented Reality</meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="262" to="266" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,47.85,380.20,235.86,6.03;12,47.85,388.19,235.88,6.03;12,47.85,396.19,235.93,6.03;12,47.85,404.12,38.08,6.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Automatic segmentation and degree identification in burn color images</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wantanajittikul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Theera-Umpon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Auephanwiriyakul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koanantakool</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Biomedical Engineering</title>
+		<meeting>the International Conference on Biomedical Engineering</meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="169" to="173" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,47.85,412.12,235.95,6.03;12,47.85,420.05,235.87,6.03;12,47.85,428.05,221.14,6.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Automated wound identification system based on image segmentation and artificial neural networks</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sacan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE International Conference Bioinformatics and Biomedicine</title>
+		<meeting>the IEEE International Conference Bioinformatics and Biomedicine</meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="1" to="4" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.91,60.45,235.88,6.03;12,316.91,68.90,188.21,6.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Segmentation of wounds in the combined color-texture feature space</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fexa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. SPIE Med. Imaging</title>
+		<imprint>
+			<biblScope unit="volume">5370</biblScope>
+			<biblScope unit="page" from="549" to="556" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.63,76.83,236.08,6.03;12,316.63,85.34,209.07,6.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Multi-dimensional color histograms for segmentation of wounds in images</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fexa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lect. Notes Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">3656</biblScope>
+			<biblScope unit="page" from="1014" to="1022" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,317.02,93.27,235.71,6.03;12,317.02,101.78,230.94,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">How robust is the SVM wound segmentation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fexa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the NORDIC Signal Processing Symposium</title>
+		<meeting>the NORDIC Signal Processing Symposium</meeting>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="50" to="53" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.91,109.71,235.81,6.03;12,316.91,118.22,131.91,6.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Measures of wound healing rate</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cukjati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Karba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rebersek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miklavcic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE EMBS Int. Conf</title>
+		<meeting>IEEE EMBS Int. Conf</meeting>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="765" to="768" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.91,126.16,235.78,6.03;12,316.91,134.66,235.80,6.03;12,316.91,143.11,27.43,6.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Evaluation of wound healing process based on texture analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Loizou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kasparis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Mitsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Polyviou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. IEEE Int. Conf. Bioinf. Bioeng</title>
+		<imprint>
+			<biblScope unit="page" from="709" to="714" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.91,151.10,235.78,6.03;12,316.91,159.55,235.90,6.03;12,316.91,168.00,91.72,6.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Development of a wound assessment system for quantitative chronic wound monitoring</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Enderle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rosow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. IEEE Annual Northeast Bioeng. Conf</title>
+		<imprint>
+			<biblScope unit="page" from="7" to="8" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.91,174.66,197.06,7.62" xml:id="b15">
+	<analytic>
+		<title/>
+		<ptr target="〈http://www.pictzar.com/〉" />
+	</analytic>
+	<monogr>
+		<title level="j">PictZar s Digital Planimetry Software</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.69,183.89,236.05,6.38;12,316.69,192.43,230.50,6.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">WITAapplication for wound analysis and management</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antonic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Huljev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Int. Conf. e-Health Netw</title>
+		<meeting>IEEE Int. Conf. e-Health Netw</meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="68" to="73" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.80,200.43,235.91,6.03;12,316.80,208.88,235.91,6.03;12,316.80,217.32,171.03,6.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Remote wound monitoring of chronic ulcers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Watermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jossinet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chantrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>So</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>O'kane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Mcadams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Inf. Technol. Biomed</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="371" to="377" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.91,225.32,235.85,6.03;12,316.91,233.76,78.96,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">On weighting clustering</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,317.31,241.76,235.41,6.03;12,317.31,250.21,235.38,6.03;12,317.31,258.71,159.97,6.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Segmentation and analysis of leg ulcers color images</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gonzaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Alves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Workshop on Medical Imaging and Augmented Reality</title>
+		<meeting>the International Workshop on Medical Imaging and Augmented Reality</meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="262" to="266" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,317.02,266.65,235.68,6.03;12,317.03,275.15,235.66,6.03;12,317.03,283.60,143.82,6.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Automatic graph-cut based segmentation of bones from knee magnetic resonance images for osteoarthritis research</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Ababneh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Prescott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Gurcan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med. Image Anal</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="438" to="448" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,317.31,291.53,235.41,6.03;12,317.31,300.04,235.42,6.03;12,317.31,308.49,113.98,6.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Impact of diffusion barriers to small cytotoxic molecules on the efficacy of immunotherapy in breast cancer</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K K</forename><surname>Niazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Aggarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,317.31,316.48,235.41,6.03;12,317.31,324.93,235.38,6.03;12,317.31,333.43,211.45,6.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Partitioning histopathological images: an integrated framework for supervised color-texture segmentation and cell splitting</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gurcan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Belkacem-Boussaid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imaging</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1661" to="1677" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,317.25,341.37,235.52,6.03;12,317.25,349.72,235.46,6.38;12,317.25,358.32,221.54,6.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Image analysis for cystic fibrosis: computer-assisted airway wall and vessel measurements from lowdose, limited scan lung CT images</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">U</forename><surname>Mumcuoğlu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Castile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Gurcan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Digit. Imaging</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="82" to="96" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,317.31,366.26,235.41,6.03;12,317.31,374.76,235.41,6.03;12,317.31,383.21,27.82,6.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A general framework for the segmentation of follicular lymphoma virtual slides</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Belhomme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Gurcan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Med. Imaging Gr</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="442" to="451" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,317.31,391.20,235.43,6.03;12,317.31,399.65,54.75,6.03" xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Woods</surname></persName>
+		</author>
+		<title level="m">Digital image processing</title>
+		<meeting><address><addrLine>New Jersey</addrLine></address></meeting>
+		<imprint>
+			<publisher>Prentice Hall</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>2nd Edition</note>
+</biblStruct>
+
+<biblStruct coords="12,317.19,407.55,215.99,6.38" xml:id="b26">
+	<analytic>
+		<title/>
+		<ptr target="〈http://www.fexovi.com/sefexa.html〉" />
+	</analytic>
+	<monogr>
+		<title level="j">Sefexa Image Segmentation Tool</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

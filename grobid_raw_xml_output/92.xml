@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Non-invasive techniques for wound assessment: A comprehensive review</title>
+				<funder ref="#_2nyMGba">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Chunlin</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Thoracic Surgery</orgName>
+								<orgName type="department" key="dep2">School of Nursing</orgName>
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<region>West China Hospital</region>
+									<country>West China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yuchen</forename><surname>Guo</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Nursing</orgName>
+								<orgName type="institution" key="instit1">West China Hospital</orgName>
+								<orgName type="institution" key="instit2">Sichuan University</orgName>
+								<address>
+									<country>West China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><forename type="middle">Lingli</forename><surname>Li</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Nursing</orgName>
+								<orgName type="institution" key="instit1">West China Hospital</orgName>
+								<orgName type="institution" key="instit2">Sichuan University</orgName>
+								<address>
+									<country>West China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Nursing Key Laboratory of Sichuan Province</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mei</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Thoracic Surgery</orgName>
+								<orgName type="department" key="dep2">School of Nursing</orgName>
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<region>West China Hospital</region>
+									<country>West China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Lingli</forename><surname>Li</surname></persName>
+							<email>lilingli2000@126.com</email>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">School of Nursing</orgName>
+								<orgName type="institution" key="instit1">West China Hospital</orgName>
+								<orgName type="institution" key="instit2">Sichuan University</orgName>
+								<address>
+									<country>West China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Non-invasive techniques for wound assessment: A comprehensive review</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5C81D015D964CB3C0DC449C2FDC8A3F4</idno>
+					<idno type="DOI">10.1111/iwj.70109</idno>
+					<note type="submission">Received: 14 August 2024 Revised: 5 October 2024 Accepted: 7 October 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Efficient wound assessment is essential for healthcare teams to facilitate prompt diagnosis, optimize treatment plans, reduce workload, and enhance patients' quality of life. In recent years, non-invasive techniques for aiding wound assessment, such as digital photography, 3D modelling, optical imaging, fluorescence and thermography, as well as artificial intelligence, have been gradually developed. This paper aims to review the various methods of measurement and diagnosis based on non-invasive wound imaging, and to summarize their application in wound monitoring and assessment. The goal is to provide a foundation and reference for future research on wound assessment. K E Y W O R D S imaging technology, mobile medical devices, wound assessment, wound diagnosis Key messages • Importance of Efficient Wound Assessment: Essential for timely diagnosis, optimized treatment plans, reduced workload, and improved quality of life for patients. • Emergence of Non-Invasive Techniques: Recent developments include digital photography, 3D modelling, optical imaging, fluorescence, thermography, and artificial intelligence. • Focus of the Paper: This review examines various methods for measurement and diagnosis based on wound images. • Applications: Summarizes the use of these non-invasive techniques in monitoring and assessing wounds. • Research Foundation: Aims to provide a basis for future studies in wound assessment.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Wound healing is a complex process that requires a certain amount of time to complete. In recent years, the issue of patients' wounds has garnered significant attention. <ref type="bibr" target="#b0">1</ref> Delayed wound healing not only imposes a substantial burden on families and society but can also pose a risk to the patient's life. <ref type="bibr" target="#b1">2</ref> Objective and precise documentation and assessment play a crucial role in aiding wound diagnosis and treatment. The advancement of smartphones, computer hardware, optics, and internet technologies has led to the emergence of studies on wound images. These studies have proven to be effective in wound management, from the acquisition of wound images to the analysis of their information. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> By examining the visual characteristics of wounds, healthcare professionals can accurately evaluate the condition of the wound and surrounding skin, including factors like size, depth, and tissue type. The optical properties of a wound can reveal pathological changes in the underlying tissue, which is essential for determining the progression of the wound and the effectiveness of treatment. Quantifying these optical properties can enhance the accuracy of wound monitoring and enable precise wound management. However, the lack of standardized tools for wound image acquisition poses challenges for obtaining accurate images and for medical personnel to analyse and process them. In conclusion, while wound image-based analysis and processing techniques have garnered significant attention and shown promise for application, further research is necessary to effectively implement these techniques in clinical practice for comprehensive and efficient wound management. This review paper aims to summarize the research progress on acquisition tools and processing techniques for wound images, providing valuable references and guidance for the utilization of wound images in clinical settings. The advantages and disadvantages of various wound image imaging techniques are shown in Table <ref type="table">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| WOUND IMAGING TECHNOLOGY 2.1 | Digital photography</head><p>Digital photography has become an essential tool in wound recording and management, offering superior image resolution and colour reproduction. This enhances the efficiency and quality of wound tracking and management. The research on wound image dataset construction and intelligent wound assessment systems primarily focuses on acquiring wound image datasets through digital cameras and mobile electronic devices. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> Moreover, wound images captured with smartphones have emerged as a valuable source of information for medical professionals to assess wound healing progress and identify abnormalities promptly. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> Commonly used wound image capture software includes WoundZoom, PictZar, Motic Images Plus, etc. However, variations in camera models, settings, shooting methods, and environments can lead to differences in the quality and clarity of acquired wound images. The quality of these images directly impacts the assessment of wounds by medical personnel and the accuracy of intelligent wound assessment systems. Therefore, enhancing the quality of wound images is crucial.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1">| Methods to improve the quality of digital photography of wound images</head><p>Zhang et al. <ref type="bibr" target="#b8">9</ref> developed an mHealth tool to enhance wound image quality, comprising a wound imaging and management app, custom colour reference stickers, and a smartphone holder to create a comprehensive wound image acquisition system. The system introduces two objective image quality parameters: colour checker detection rate and colour checker sharpness. These parameters offer direct feedback on image quality, enabling users to adjust shooting settings for optimal image quality in real-time acquisition. Chairat et al. <ref type="bibr" target="#b3">4</ref> created a wound calibration chart as a reference point to address colour variations in wound images captured under different conditions. This chart assists users in calibrating image colour and scale, as well as developing an automated algorithm for wound colour and measurement calibration. To overcome challenges in acquiring wound images during clinical practice and maximize the utility of available images for further analysis, researchers have developed various image processing techniques. These techniques include histogram equalization and colour space transformation to address differences in smartphone images caused by lighting and location variations, These techniques include histogram equalization and colour space transformation, which address variations in smartphone images caused by differences in lighting and location. Histogram equalization improves image contrast, making features more discernible. Methods involved include calculating the histogram and computing the cumulative distribution function, among others. Additionally, colour space transformation enables more effective manipulation of image colours and properties, with methods such as defining colour spaces and applying conversion formulas, among others. A comprehensive understanding of these methods and their respective purposes can significantly enhance the quality and efficacy of image analysis tasks. <ref type="bibr" target="#b9">10</ref> Through these image processing methods, it is possible to enhance existing wound image quality, extract important wound feature information, and address challenges related to low light and colour discrepancies in clinical settings. This work establishes a critical foundation for subsequent wound diagnosis and assessment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| 3D wound model</head><p>Two-dimensional (2D) planar wound images captured by digital cameras or smartphones are currently considered to be one of the most cost-effective, non-invasive, and straightforward methods for obtaining wound images. However, due to the curvature of the human body surface and the three-dimensional nature of wounds, relying solely on 2D images may not provide a comprehensive representation of the wound's actual condition. For instance, details regarding the depth and volume of wounds may not be accurately captured. Traditional methods of measuring wound volume, such as inserting cotton swabs or using sterile objects to fill the wound, often result in additional damage to the wound and increase the risk of infection. The use of 3D wound data allows for the precise calculation of three-dimensional information about the wound area, making the assessment of wounds with the aid of a three-dimensional (3D) wound model a topic of significant interest among researchers. <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> Digital imaging and morphometry are commonly utilized methods for reconstructing 3D models of wounds. Pavlovčič et al. <ref type="bibr" target="#b12">13</ref> developed a 3D measurement system based on laser triangulation, which offers convenience and speed for measuring wounds in 3D. However, this method has only been validated for typical wounds and requires further improvement in terms of reproducibility and minimizing bias. While 3D wound image acquisition tools have shown significant benefits for wound characterization and monitoring, the impact of human factors cannot be overlooked. Inexperienced operators may result in a 3D wound model that does not accurately represent the actual wound. To address this issue, Tassanavipas et al. <ref type="bibr" target="#b13">14</ref> utilized servo motors to stabilize the wound 3D scanner and implemented image processing techniques to calculate wound area and volume. This method was tested on wounds of various sizes, demonstrating its advantage in estimating the volume of larger wounds. As smartphone camera resolution improves, researchers have explored using smartphones for 3D wound measurement. This approach combines structure from motion (SFM), least-squares conformal mapping (LSCM), and image segmentation to extract and measure wound features, enhancing the convenience and accuracy of wound management. <ref type="bibr" target="#b14">15</ref> Nevertheless, the effectiveness, accuracy, and feasibility of 3D wound modelling in realworld settings require further investigation and validation. Commonly used software and equipment for 3D wound imaging include Silhouette, Aranz Medical's Sil-houetteStar, eKare inSight, and WoundVision Scout, etc.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Optical imaging</head><p>Optical imaging techniques, including near-infrared spectroscopy (NIRS), hyperspectral imaging (HSI), and thermography, offer valuable quantitative data on the structure and chemical composition of skin tissues. These methods allow for the assessment of oxygen levels in wound tissues, evaluation of the microvascular system, monitoring tissue health, and analysing wound microbiology. By providing insights into tissue perfusion of wounds, these imaging tools equip clinical staff with valuable resources for in-depth wound analysis. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1">| Wound imaging using near-infrared spectrum imaging technology</head><p>Near Infrared Spectroscopic Imaging (NIRSI) is a noninvasive optical imaging technique utilized to evaluate oxygen perfusion in skin and wounds. This involves placing a NIR light source and detector on the skin or around a wound to collect light intensity data. The analysis of light intensity variations allows for the calculation of parameters like oxygen saturation and tissue blood flow. <ref type="bibr" target="#b17">18</ref> Some researchers have combined NIR spectroscopy with support vector machines (SVMs) to detect microorganisms in wounds, offering innovative approaches for microorganism identification. <ref type="bibr" target="#b18">19</ref> However, NIR spectroscopic imaging can only provide information about the surface layer of tissues and cannot penetrate deeper into tissue conditions. Professional operation and data interpretation are essential for accurate and reliable results when using this instrument. Therefore, it is crucial that professionals handle the operation and interpretation of results when employing this technique.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2">| Wound imaging using hyperspectral imaging techniques</head><p>Hyperspectral imaging techniques involve using the visible and near-infrared spectra for imaging spectroscopy, which enables quick acquisition of information about the imaged tissue. This technique combines spatial and spectral wavelength data to convert received light intensity into an optoelectronic signal. It can quantitatively measure tissue oxygenation levels, making it valuable for assisted wound diagnosis. Various systems like OxyVu, TIVITA™, and Kent Camera have demonstrated significant potential for multispectral and hyperspectral techniques in wound assessment. <ref type="bibr" target="#b15">16</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.3">| Wound imaging using thermal imaging technology</head><p>Elevated wound temperatures may indicate an inflammatory response or infection. Real-time monitoring of wound temperature allows for early detection of potential issues. Thermal imaging technology can measure the radiant heat of the body surface using infrared cameras, <ref type="bibr" target="#b19">20</ref> This technology can provide valuable information about abnormal temperatures in the body or local tissues of the wound, which may be caused by ischemia, inflammation, or infection. <ref type="bibr" target="#b20">21</ref> However, factors like water evaporation from the wound bed can distort thermographic images, and practical factors such as acute pain, blood volume, and certain medications or foods that affect blood flow may impact results. It is important to consider these practical factors to obtain an accurate thermographic image.</p><p>In order to enhance wound assessment accuracy, researchers have integrated optical imaging with other techniques. Liu et al. <ref type="bibr" target="#b21">22</ref> developed a 3D morphologic multiview hyperspectral imaging system, demonstrating its technical feasibility for analysing tissue properties in three dimensions. Chang et al. <ref type="bibr" target="#b22">23</ref> introduced a multimodal system for pressure injury assessment, incorporating five sensing modalities for comprehensive wound evaluation. This system is user-friendly, suitable for non-specialized caregivers, and applicable in various settings. While optical imaging offers benefits like noninvasive monitoring of wound healing and assessment of tissue properties, challenges such as technological integration complexity, equipment costs, and ease of operation must be considered in implementation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| High frequency ultrasound</head><p>Advanced imaging techniques such as computed tomography (CT), magnetic resonance imaging (MRI), and high-frequency ultrasound (HFU) imaging have been shown to be useful in understanding the healing of wounds and the tissues underneath them. Compared to CT and MRI, which are expensive and expose patients to radiation, ultrasound, as a non-invasive, quantitative and reproducible imaging modality, provides visualization of the epidermis, dermis, etc., and studies have demonstrated that HFU imaging can be used as a non-invasive, quantitative, reliable, and cost-effective technique for the assessment of wound healing. <ref type="bibr" target="#b23">24</ref> The team of Mohafez et al., <ref type="bibr" target="#b24">25</ref> in the treatment of wounds in patients with diabetic feet in which ultrasound scanning technique was utilized and images of wounds were captured on the 7th, 14th, 21st and 28th day after wound debridement. By analysing the images, they observed and recorded the characteristics of the echostructure and intensity changes of the wound tissue during the wound healing process, thus developing a new method for quantitatively assessing wound healing in ulcerated diabetic foot. Ultrasound instruments are highly useful in the field of wound care due to their portability, non-invasiveness, and reproducibility, but the accuracy of their image analysis relies to a certain extent on the experience and skill level of the medical staff, and it requires a physician to have profound anatomical knowledge as well as a wealth of clinical experience to correctly select the wound area, which increases the subjectivity of the assessment. Although high-frequency ultrasound has shown unique advantages in the assessment of wounds such as ulcers, it is still understudied in acute surgical wounds, and more research is needed to confirm its broad validity and to explore how it can be combined with other imaging methods to improve the accuracy of wound assessment results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Fluorescence imaging</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.1">| Advantages of fluorescence imaging technology in identifying bacterial distribution in wounds</head><p>In a wound, inactive or bacteria-rich tissue not only hinders wound healing, but can also reduce the effectiveness of topical antimicrobials. Therefore, wound debridement is a crucial aspect of wound care when necessary. Challenges in recognizing and managing wound debridement may arise due to variations in expertise and experience. Fluorescence imaging techniques can be utilized to assess the bacterial load in tissues. By leveraging bacterial autofluorescence, fluorescence imaging stimulates the wound tissue and bacteria to emit distinct fluorescent signals, enabling the visualization of potentially harmful bacteria that are not visible to the naked eye. Common pathogens in wound infections such as Staphylococcus aureus and Pseudomonas aeruginosa can be identified under fluorescent imaging conditions by their specific fluorescent colours. This allows medical professionals to accurately quantify the distribution of bacterial colonies within the wound, leading to a more objective assessment of wound bioburden. Such insights can aid in determining the appropriate scope and depth of wound debridement, enhancing its precision and effectiveness. Additionally, changes in the number of colonies over time can serve as indicators of the infection status and the impact of clinical interventions on the wound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.2">| Development and challenges of fluorescence imaging technology in wound bacterial detection</head><p>Zheng et al. <ref type="bibr" target="#b25">26</ref> developed a bacterial autofluorescence detection imaging system using a low-cost LED and a smartphone to quickly detect common bacteria in wounds, However, in vitro bacterial experiments have not yet been conducted to validate the device's feasibility. Ottolino-Perry et al. <ref type="bibr" target="#b26">27</ref> created a handheld portable autofluorescence imaging device for wound bacteria detection, combining traditional clinical signs and symptoms assessment. Their study on 33 patients with diabetic foot ulcers demonstrated that autofluorescence image-guided wound swabs maximized bacterial load sampling, suggesting AF imaging as an objective approach to wound care. Despite the benefits of fluorescence imaging like real-time monitoring and non-invasiveness, potential drawbacks include interference from other microorganisms and the large size of imaging devices, limiting portability for wound monitoring. Further scientific research and technological advancements are needed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">| Artificial intelligence</head><p>Intelligent programs and software based on Artificial Intelligence have garnered considerable interest in recent years for their ability to assist remotely in the diagnosis and management of wounds. By leveraging computer science, these programs can more accurately assess wound characteristics and improve strategies for diagnosing and managing wounds in patients. These intelligent tools are crucial in remote wound management, encompassing tasks such as wound segmentation, classification, and measurement. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b27">28</ref> Cazzolato et al. <ref type="bibr" target="#b27">28</ref> introduced the UTrack framework, which can be utilized on a standard mobile device with a regular camera, without requiring an internet connection or specialized sensors or cameras. The framework aids in capturing photographs, segmenting, and measuring wounds. Currently, the device performs these tasks solely on mobile devices; however, future iterations could potentially allow healthcare professionals to manage and visualize data from multiple patients and offer appropriate guidance recommendations. Ahmad Fauzi et al. <ref type="bibr" target="#b28">29</ref> presented a segmentation tool designed to identify various types of wound tissues, including granulation, putrefied, and charred tissues. The innovative approach involves segmenting wound images for feature recognition using a four-dimensional probabilistic map of wound characteristics. The study's results indicate that the tool is more effective in segmenting granulation and crusted tissues, but less accurate in segmenting carrion, possibly due to the fragmented nature of carrion distribution, leading to confusion with other tissue types. An analysis conducted among clinicians providing true value annotations revealed the complexity of wound segmentation and feature recognition. Despite clinicians' extensive experience, differing opinions on the boundaries and tissue types of the same wound highlight the necessity for a tool with standardized operation specifications to aid in the diagnosis and treatment of wounds. The efficacy of intelligent software algorithms heavily relies on the availability of rich, high-quality data. In wound management, high-quality image data plays a crucial role in training algorithms. These algorithms analyse features like shape, colour, texture, and the surrounding skin of a wound to accurately assess and diagnose new wound conditions. This, in turn, provides decision support for healthcare professionals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| THE FUTURE OF WOUND IMAGING IN WOUND MANAGEMENT</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Wound healing monitoring of the future: smart image analysis combined with wearable technology</head><p>Wound healing is a complex and dynamic process influenced by factors such as skin condition and the presence of other pathologies. Advances in image processing technology are expected to enable comprehensive monitoring of the wound healing process through detailed analysis of wound images. By leveraging artificial intelligence and deep learning algorithms, the wound image diagnostic system can extract more accurate features, perform diagnostic analysis, and predict wound healing time through big data analysis. Moreover, the integration of wearable devices will enhance wound monitoring by enabling real-time and continuous data collection, thereby supporting personalized wound management. These mobile medical devices can effectively monitor wound healing, reduce healthcare costs, and allow for remote analysis of wound images by healthcare professionals without the need for frequent hospital visits. Patients can receive expert attention remotely and some devices even offer real-time wound assessment and diagnosis, empowering patients to stay informed about their own wound healing progress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Challenges and future development trends of wound image acquisition</head><p>Wound images play a crucial role in wound assessment and treatment, yet the process of acquiring these images remains a challenge. Medical professionals, whose primary focus is not data acquisition, may capture wound images of the same patient using different standards, leading to inconsistencies. Moreover, data imbalance is common in medical wound images due to variations in colour patterns, lighting, intensity, and edges caused by differences in imaging equipment, shooting distance, and angle. Despite obstacles like data privacy, device compatibility, and cost hindering the widespread use of wound imaging tools, the increasing demand for healthcare and the shift towards patient-centered care highlight the advantages of utilizing wound images in remote wound management. Some researchers leverage mobile devices with built-in cameras and portability to collect data (images and textual information) for wound monitoring. <ref type="bibr" target="#b29">30</ref> The integration of multiple techniques, such as fluorescence imaging and ultrasound imaging, is crucial for comprehensive wound analysis, uncovering key indicators that may be missed by individual imaging methods. An ideal wound imaging device should prioritize ease of use, affordability, and accuracy to deliver real-time feedback to healthcare providers and patients. Developing such a device will necessitate multidisciplinary collaboration and a focus on integrating diverse imaging modalities, which will likely be a prominent trend in future research and development of tools for assessing wound images. can be shared upon request, provided that the request complies with the ethical guidelines and privacy regulations of our institution.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Various wound imaging techniques.</figDesc><table><row><cell>Wound</cell><cell></cell><cell></cell><cell></cell></row><row><cell>imaging</cell><cell></cell><cell></cell><cell></cell></row><row><cell>technique</cell><cell>Imaging principle</cell><cell>Advantages</cell><cell>Disadvantages</cell></row><row><cell>Digital</cell><cell>Digital photography captures a wound</cell><cell>High resolution;</cell><cell>Deep tissue assessment limitations; High</cell></row><row><cell>photography 4,7-10</cell><cell>image through an optical lens, converts</cell><cell>Immediacy; Storable and</cell><cell>environmental impact; Dependence on</cell></row><row><cell></cell><cell>the optical signal into an electrical</cell><cell>shareable; Non-invasive</cell><cell>equipment; High operational skill</cell></row><row><cell></cell><cell>signal, and ultimately produces a digital</cell><cell></cell><cell>requirements; Difficulty in data</cell></row><row><cell></cell><cell>image</cell><cell></cell><cell>management</cell></row><row><cell>3D wound</cell><cell>The creation of a 3D wound model is</cell><cell>Precision; Visualization</cell><cell>High equipment costs; High technical</cell></row><row><cell>model 11-15</cell><cell>accomplished through the steps of image</cell><cell>effect; Non-invasive</cell><cell>requirements; Long time consumption;</cell></row><row><cell></cell><cell>acquisition (e.g., digital</cell><cell></cell><cell>Difficult in data management; High</cell></row><row><cell></cell><cell>photographyetc.), data processing, 3D</cell><cell></cell><cell>environmental dependency</cell></row><row><cell></cell><cell>reconstruction</cell><cell></cell><cell></cell></row><row><cell>Optical</cell><cell>Optical imaging utilizes the principles of</cell><cell>High resolution; Real-time;</cell><cell>Limited imaging depth; Light</cell></row><row><cell>imaging 16-23</cell><cell>reflection and transmission of light to</cell><cell>Easy to operate; Low cost;</cell><cell>dependence; Viewing angle limitations;</cell></row><row><cell></cell><cell>capture images of wounds through</cell><cell>Radiation-free</cell><cell>High information processing needs;</cell></row><row><cell></cell><cell>optical devices such as cameras and</cell><cell></cell><cell>Inability to penetrate obstacles</cell></row><row><cell></cell><cell>lenses</cell><cell></cell><cell></cell></row><row><cell>High frequency</cell><cell>High-frequency ultrasound imaging</cell><cell>High resolution; No</cell><cell>Imaging depth limitations; Operator skill</cell></row><row><cell>ultrasound 24,25</cell><cell>utilizes the principles of reflection and</cell><cell>radiation; Real-time</cell><cell>dependent; Gas interference; Field of</cell></row><row><cell></cell><cell>transmission of sound waves to generate</cell><cell>imaging; Portability; Tissue</cell><cell>view limitations; Resolution decay</cell></row><row><cell></cell><cell>an image of a wound by sending high-</cell><cell>characterization</cell><cell></cell></row><row><cell></cell><cell>frequency sound waves and receiving</cell><cell></cell><cell></cell></row><row><cell></cell><cell>their reflected signals</cell><cell></cell><cell></cell></row><row><cell>Fluorescence</cell><cell>Fluorescence imaging is a technique that</cell><cell>High sensitivity; High</cell><cell>Photobleaching; Operational complexity;</cell></row><row><cell>imaging 26,27</cell><cell>uses fluorescent signals to generate</cell><cell>specificity; Real-time</cell><cell>Fluorescent background noise</cell></row><row><cell></cell><cell>images, usually by injecting or applying a</cell><cell>imaging; Deep imaging;</cell><cell>interference; High cost</cell></row><row><cell></cell><cell>fluorescent dye to enhance the</cell><cell>Multiple imaging</cell><cell></cell></row><row><cell></cell><cell>visualization of tissue</cell><cell></cell><cell></cell></row><row><cell>Artificial</cell><cell>Artificial intelligence in wound imaging</cell><cell>High efficiency; High</cell><cell>Data dependency; High technological</cell></row><row><cell>intelligence 6,28,29</cell><cell>focuses on analysing and processing</cell><cell>consistency; High precision;</cell><cell>threshold; Privacy and security issues;</cell></row><row><cell></cell><cell>images through machine learning and</cell><cell>Personalized medicine;</cell><cell>Ethical issues</cell></row><row><cell></cell><cell>deep learning techniques</cell><cell>High learning capacity</cell><cell></cell></row></table><note><p>T A B L E 1</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0"><p>of 7 ZHAO ET AL.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>Preparation and conformational study of ultrahigh molecular weight polyethylene artificial joint materials with dual antimicrobial barriers (#<rs type="grantNumber">52373237</rs>).</p></div>
+			</div>
+			<div type="funding">
+<div><p><rs type="funder">National Natural Science Foundation of China</rs>, Grant/Award Number: 52373237</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_2nyMGba">
+					<idno type="grant-number">52373237</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>The authors declare no conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The datasets generated and analyzed during the current study are available from the corresponding author on reasonable request. Specific data related to the findings of this study, including detailed measurements and results,</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,52.98,119.37,235.43,7.58;7,61.57,130.88,226.85,7.58;7,61.57,142.38,196.89,7.58" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Capturing concerns about patient deterioration in narrative documentation in home healthcare</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hobensack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chae</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AMIA Annu Symp Proc</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page" from="552" to="559" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.98,153.89,235.48,7.58;7,61.57,165.35,226.88,7.58;7,61.57,176.85,219.27,7.58" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Surgical site infection and costs in low-and middle-income countries: a systematic review of the economic burden</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Monahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jowett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pinkney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">232960</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.98,188.36,235.41,7.58;7,61.57,199.87,226.85,7.58;7,61.57,211.38,84.71,7.58" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Wound assessment, imaging and monitoring systems in diabetic foot ulcers: a systematic review</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Lo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1909" to="1923" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.98,222.89,235.43,7.58;7,61.57,234.34,226.86,7.58;7,61.57,245.85,226.82,7.58;7,61.57,257.36,98.75,7.58" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Ai-assisted assessment of wound tissue with automatic color and measurement calibration on images taken with a smartphone</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chairat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chaichulee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dissaneewate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Healthcare (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">273</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.98,268.87,235.40,7.58;7,61.57,280.38,226.82,7.58;7,61.57,291.89,127.21,7.58" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effectiveness of semisupervised active learning in automated wound image segmentation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Curti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Merli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zengarini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Mol Sci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">706</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.98,303.34,235.46,7.58;7,61.57,314.85,226.83,7.58;7,61.57,326.36,226.83,7.58;7,61.57,337.87,79.34,7.58" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Multi-modal wound classification using wound image and location by deep neural network</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rostami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niezgoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gopalakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">20057</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.98,349.38,235.40,7.58;7,61.57,360.88,226.82,7.58;7,61.57,372.39,201.82,7.58" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Feasibility of an image-based mobile health protocol for postoperative wound monitoring</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Gunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fernandes-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rahman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Surg</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="277" to="286" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.99,383.85,235.44,7.58;7,61.57,395.35,226.82,7.58;7,61.57,406.86,226.82,7.58;7,61.57,418.37,77.11,7.58" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Monitoring surgical incision sites in orthopedic patients using an online physician-patient messaging platform</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dushaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Rasquinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Scuderi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Hepinstall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1897" to="1900" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.99,429.88,235.44,7.58;7,61.57,441.39,226.84,7.58;7,61.57,452.84,226.83,7.58;7,61.57,464.35,226.82,7.58;7,61.57,475.86,61.73,7.58" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Wound image quality from a mobile health tool for homebased chronic wound management with real-time quality feedback: randomized feasibility study</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mihai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tüshaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scebba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Distler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karlen</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Mhealth Uhealth</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">26149</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.54,487.37,235.86,7.58;7,61.51,498.88,226.91,7.58;7,61.51,510.39,126.28,7.58" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Surgical wounds assessment system for self-care</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Kuo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Syst Man Cybern Syst</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="5076" to="5091" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.54,521.90,235.90,7.58;7,61.51,533.35,226.92,7.58;7,61.51,544.86,75.52,7.58" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">2D/3D wound segmentation and measurement based on a robot-driven reconstruction system. Sensors</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Nyarko</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">3298</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.54,556.37,235.88,7.58;7,61.51,567.88,145.61,7.58" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Wound measurement by RGB-D camera</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cupec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Nyarko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mach Vis Appl</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="633" to="654" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.54,579.38,235.85,7.58;7,61.51,590.89,226.88,7.58;7,61.51,602.35,162.28,7.58" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Wound perimeter, area, and volume measurement based on laser 3D and color acquisition</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Pavlovčič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Diaci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Možina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jezeršek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Eng Online</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.53,613.85,235.88,7.58;7,61.51,625.36,226.88,7.58;7,61.51,636.87,226.91,7.58;7,61.51,648.38,84.01,7.58" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">An integrated hardware and software application to support wound measurement using a 3D scanner and image processing techniques</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tassanavipas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Natsupakpong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Biomed Eng J</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="73" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.53,659.89,235.90,7.58;7,61.51,671.40,226.91,7.58;7,61.51,682.85,121.63,7.58" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Wound area measurement with 3D transformation and smartphone images</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eic</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,52.53,694.36,235.91,7.58;7,61.51,705.87,226.91,7.58;7,61.51,717.38,152.91,7.58" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging in wound care: a systematic review</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Saiko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lombardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Au</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Queen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1840" to="1856" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.77,52.25,235.86,7.58;7,322.70,63.76,226.93,7.58;7,322.70,75.27,29.62,7.58" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Imaging in chronic wound diagnostics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Mohamedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Senkowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="245" to="263" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.77,86.78,235.84,7.58;7,322.70,98.29,226.94,7.58;7,322.70,109.80,151.91,7.58" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Near-infrared spectroscopy imaging for assessing skin and wound oxygen perfusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Landsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Barnhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sowa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Podiatr Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="343" to="355" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.77,121.25,235.86,7.58;7,322.70,132.76,226.89,7.58;7,322.70,144.27,29.62,7.58" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Identification of microbes in wounds using near-infrared spectroscopy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Burns</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="791" to="798" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.77,155.78,235.83,7.58;7,322.70,167.29,226.93,7.58;7,322.70,178.78,226.90,7.58;7,322.70,190.23,25.02,7.58" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Infrared thermography in wound care, surgery, and sports medicine: a review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ramirez-Garcialuna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bartlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Arriaga-Caballero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rdj</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Saiko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">210</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.77,201.74,235.86,7.58;7,322.70,213.25,226.90,7.58;7,322.70,224.76,226.90,7.58;7,322.70,236.27,226.92,7.58;7,322.70,247.78,82.79,7.58" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The surgical wound in infrared: thermographic profiles and early stage test-accuracy to predict surgical site infection in obese women during the first 30 days after caesarean section</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Childs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Willmott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Resist Infect Control</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.77,259.29,235.84,7.58;7,322.70,270.74,226.90,7.58;7,322.70,282.25,121.18,7.58" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Multiview hyperspectral topography of tissue structural and functional characteristics</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">X</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">16012</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.78,293.76,235.87,7.58;7,322.70,305.27,226.94,7.58;7,322.70,316.77,105.63,7.58" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Multimodal sensor system for pressure ulcer wound assessment and care</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Industr Inform</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1186" to="1196" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.78,328.28,235.86,7.58;7,322.70,339.74,226.95,7.58;7,322.70,351.24,226.95,7.58;7,322.70,362.75,129.18,7.58" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The application of ultra-high-frequency ultrasound in dermatology and wound management</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Izzetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Oranges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Janowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gabriele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Graziani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Romanelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="334" to="340" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.78,374.26,235.81,7.58;7,322.70,385.77,226.89,7.58;7,322.70,397.28,226.91,7.58;7,322.69,408.78,31.93,7.58" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Quantitative assessment of wound healing using high-frequency ultrasound image analysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mohafez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hadizadeh</surname></persName>
+		</author>
+		<idno type="DOI">info:doi/10.1111/srt.12388</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Skin Res Technol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="53" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.77,420.24,235.84,7.58;7,322.70,431.74,226.90,7.58;7,322.70,443.25,49.96,7.58" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Research and design of bacterial autofluorescence detection device</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Photon Sin</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="294" to="303" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.77,454.76,235.86,7.58;7,322.70,466.27,226.92,7.58;7,322.70,477.78,226.93,7.58;7,322.70,489.23,104.40,7.58" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Improved detection of clinically relevant wound bacteria using autofluorescence image-guided sampling in diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ottolino-Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chamma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Blackmore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="833" to="841" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.77,500.74,235.87,7.58;7,322.70,512.25,226.94,7.58;7,322.70,523.76,226.90,7.58;7,322.70,535.27,26.97,7.58" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The UTrack framework for segmenting and measuring dermatological ulcers through telemedicine</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Cazzolato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Rodrigues</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page">104489</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.78,546.78,235.87,7.58;7,322.70,558.23,226.92,7.58;7,322.70,569.74,99.88,7.58" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Computerized segmentation and measurement of chronic wound images</title>
+		<author>
+			<persName><forename type="first">Mfa</forename><surname>Fauzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Khansa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Catignani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="74" to="85" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,313.78,581.25,235.83,7.58;7,322.70,592.76,226.90,7.58;7,322.70,604.27,226.89,7.58;7,322.70,615.78,18.66,7.58" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Robust methods for real-time diabetic foot ulcer detection and localization on mobile devices</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J Biomed Health Inform</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1730" to="1741" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The surgical wound in infrared: thermographic profiles and early stage testaccuracy to predict surgical site infection in obese women during the first 30 days after caesarean section</title>
+				<funder>
+					<orgName type="full">Medical Research Council, UK</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Charmaine</forename><surname>Childs</surname></persName>
+							<email>c.childs@shu.ac.uk</email>
+							<idno type="ORCID">0000-0002-1558-5633</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health and Wellbeing</orgName>
+								<orgName type="institution" key="instit1">Montgomery House</orgName>
+								<orgName type="institution" key="instit2">Sheffield Hallam University</orgName>
+								<address>
+									<addrLine>32 Collegiate Crescent</addrLine>
+									<postCode>S102BP</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Health and Wellbeing</orgName>
+								<orgName type="institution" key="instit1">Montgomery House</orgName>
+								<orgName type="institution" key="instit2">Sheffield Hallam University</orgName>
+								<address>
+									<addrLine>32 Collegiate Crescent</addrLine>
+									<postCode>S102BP</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicola</forename><surname>Wright</surname></persName>
+							<idno type="ORCID">0000-0002-1558-5633</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health and Wellbeing</orgName>
+								<orgName type="institution" key="instit1">Montgomery House</orgName>
+								<orgName type="institution" key="instit2">Sheffield Hallam University</orgName>
+								<address>
+									<addrLine>32 Collegiate Crescent</addrLine>
+									<postCode>S102BP</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Health and Wellbeing</orgName>
+								<orgName type="institution" key="instit1">Montgomery House</orgName>
+								<orgName type="institution" key="instit2">Sheffield Hallam University</orgName>
+								<address>
+									<addrLine>32 Collegiate Crescent</addrLine>
+									<postCode>S102BP</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jon</forename><surname>Willmott</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Electronic and Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Portobello Centre</orgName>
+								<orgName type="institution">University of Sheffield</orgName>
+								<address>
+									<postCode>S1 4ET</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><surname>Davies</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Electronic and Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Portobello Centre</orgName>
+								<orgName type="institution">University of Sheffield</orgName>
+								<address>
+									<postCode>S1 4ET</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Karen</forename><surname>Kilner</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Sheffield Hallam University</orgName>
+								<address>
+									<addrLine>32 Collegiate Crescent</addrLine>
+									<postCode>S10 2BP</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Karen</forename><surname>Ousey</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Institute of Skin Integrity and Infection Prevention</orgName>
+								<orgName type="institution">University of Huddersfield</orgName>
+								<address>
+									<postCode>HD1 3DH</postCode>
+									<settlement>Queensgate, Huddersfield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hora</forename><surname>Soltani</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Faculty of Health and Wellbeing</orgName>
+								<orgName type="institution">Sheffield Hallam University</orgName>
+								<address>
+									<addrLine>32 Collegiate Crescent</addrLine>
+									<postCode>S10 2BP</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Priya</forename><surname>Madhuvrata</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Obstetrics and Gynaecology</orgName>
+								<orgName type="institution" key="instit1">Jessop Hospital</orgName>
+								<orgName type="institution" key="instit2">Tree Root Walk</orgName>
+								<address>
+									<postCode>S10 2SF</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><surname>Stephenson</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Biomedical Statistics</orgName>
+								<orgName type="institution">University of Huddersfield</orgName>
+								<address>
+									<postCode>HD1 3DH</postCode>
+									<settlement>Queensgate, Huddersfield</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The surgical wound in infrared: thermographic profiles and early stage testaccuracy to predict surgical site infection in obese women during the first 30 days after caesarean section</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">24A9CC2D17A26C324F10A4781BFC1CEF</idno>
+					<idno type="DOI">10.1186/s13756-018-0461-7</idno>
+					<note type="submission">Received: 27 September 2018 Accepted: 27 December 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Surgical site infection</term>
+					<term>Obesity</term>
+					<term>Caesarean section</term>
+					<term>Prognosis</term>
+					<term>Antibiotics</term>
+					<term>Infrared thermography</term>
+					<term>Thermal mapping</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Prophylactic antibiotics are commonly prescribed intra-operatively after caesarean section birth, often at high doses. Even so, wound infections are not uncommon and obesity increases the risk. Currently, no independent wound assessment technology is available to stratify women to low or high risk of surgical site infection (SSI). Study Aim: to investigate the potential of non-invasive infrared thermography (IRT), performed at short times after surgery, to predict later SSI.</p><p>Methods: IRT was undertaken in hospital on day 2 with community follow up (days 7, 15, 30) after surgery. Thermal maps of wound site and abdomen were accompanied by digital photographs, the latter used for wound assessment by six experienced healthcare professionals. Confirmatory diagnosis of SSI was made on the basis of antibiotic prescribing by the woman's community physician with logistic regression models derived to model dichotomous outcomes.</p><p>Results: Fifty-three women aged 21-44 years with BMI 30.1-43.9 Kg.m -2 were recruited. SSI rate (within 30 days) was 28%. Inter-rater variability for 'professional' opinion of wound appearance showed poor levels of agreement. Two regions of interest were interrogated; wound site and abdomen. Wound site temperature was consistently elevated (1.5 °C) above abdominal temperature with similar values at days 2,7,15 in those who did and did not, develop SSI. Mean abdominal temperature was lower in women who subsequently developed SSI; significantly so at day 7. A unit (1 °C) reduction in abdominal temperature was associated with a 3-fold raised odds of infection. The difference between the sites (wound minus abdomen temperature) was significantly associated with odds of infection; with a 1 °C widening in temperature associated with an odds ratio for SSI of 2.25 (day 2) and 2.5 (day 7). Correct predictions for wound outcome using logistic regression models ranged from 70 to 79%; Conclusions: IRT imaging of wound and abdomen in obese women undergoing c-section improves upon visual (subjective) wound assessment. The proportion of cases correctly classified using the wound-abdominal temperature differences holds promise for precision and performance of IRT as an independent SSI prognostic tool and future technology to aid decision making in antibiotic prescribing.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In the global context of hospital-acquired infections (HAIs), recent work by the World Health Organisation (WHO) shows that in low-and middle-income countries, surgical site infection (SSI) is the most widely surveyed and frequent HAI, affecting 33% of patients undergoing surgical procedures <ref type="bibr" target="#b0">[1]</ref>. In Europe and the United States of America SSI is the second most frequent HAI <ref type="bibr" target="#b1">[2]</ref>, and remains a substantial cause of post-operative morbidity and financial burden for health systems <ref type="bibr" target="#b2">[3]</ref>. Yet SSI is preventable, given adequate means for surveillance, prevention and early diagnosis.</p><p>SSI attracts attention from national <ref type="bibr" target="#b3">[4]</ref> and international organisations <ref type="bibr" target="#b0">[1]</ref> with publications for guidelines on prevention and consensus for best practice <ref type="bibr" target="#b4">[5]</ref> but there are groups within our international community who are increasingly recognised as being at particular risk. Across most surgical specialities (e.g. <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> obesity emerges consistently as a significant risk factor for SSI.</p><p>The growing 'epidemic' of obesity, particularly in women of reproductive age presents a major problem for maternal health <ref type="bibr" target="#b8">[9]</ref>. Over the last 30 years, the proportion of births delivered by caesarean section (c-section) has risen. Globally, c-section rates are high in Latin-America at 40.5% with America and Oceania at 32.3 and 31.1% respectively <ref type="bibr" target="#b9">[10]</ref> and with older women having the highest rates <ref type="bibr" target="#b10">[11]</ref>. In the UK in 2017 c-section rate was 25% <ref type="bibr" target="#b11">[12]</ref>. Obesity (body mass index, BMI &gt; 30 kg.m -2 ) increases the need for c-section birth and obese women giving birth by c-section are at a higher risk of SSI <ref type="bibr" target="#b12">[13]</ref>.</p><p>Whilst SSI rates have been reported as 5.5 to 7.5% for elective and emergency c-section respectively <ref type="bibr" target="#b13">[14]</ref>, even higher rates are also reported at 9.6% <ref type="bibr" target="#b14">[15]</ref>. Others report rates of 4-9% depending on the surveillance methods used for identifying infection <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>. More recently, in a retrospective series of 400 women in South East Asia, prevalence of SSI in a cohort with mixed body mass index (BMI) reached 18.8% <ref type="bibr" target="#b17">[18]</ref>. The greatest risk for SSI after c-section is obesity <ref type="bibr" target="#b18">[19]</ref> and more so for morbidly obese (BMI ≥40 kg.m -2 ) women, where the SSI rate can reach 50% <ref type="bibr" target="#b19">[20]</ref>.</p><p>With the trend towards short hospital stays after childbirth <ref type="bibr" target="#b20">[21]</ref> (including birth by c-section) the management of post-operative wound infections, when they occur, are increasingly a healthcare problem which develops in the community. Typically c-section infections are superficial <ref type="bibr" target="#b21">[22]</ref>, but occasionally, bacteria infiltrate deeper tissue and organ spaces. Catastrophic clinical deterioration leading to severe tissue necrosis sepsis and death <ref type="bibr" target="#b22">[23]</ref> is not a common occurrence after childbirth, but in the light of its impact on the quality of life and adverse experiences of mothers and their families, severe infection after c-section is becoming a growing concern among health care providers and policy makers <ref type="bibr" target="#b23">[24]</ref>.</p><p>In view of the burgeoning problems in society of obesity, the increasing numbers of babies delivered by c-section and the link between c-section birth and SSI, there is a real need to improve wound surveillance in the interim between hospital and community, for it is in the community, rather than in the hospital, that problems with wound healing, wound breakdown and wound infections become apparent. Currently there is no wound imaging diagnostic available in clinical practice with which to forewarn of early SSI risk or later wound breakdown.</p><p>In previous studies <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref> we have observed a wound 'signature' on infrared thermography which holds promise as an early diagnostic biomarker to forewarn of later delayed healing and SSI. In the present study we have tested the concept of thermographic mapping of the surgical wound and temporal thermal profiles of the abdomen and wound site in the visible, and in the infrared (IR) spectrum; the primary aim being to establish the characteristics of the abdomen and wound site in infrared to aid stratification of obese women to risk for later SSI. The study objectives were threefold: to 1) explore concordance in visual wound assessment between observers; 2) document the temporal infrared profile of the abdomen and c-section wound during the course of healing; and 3) show early-stage performance and test-accuracy in a pilot study of the performance of infrared thermography signatures to predict later SSI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>This study was undertaken as a prospective observational thermal mapping and early-stage test-accuracy investigation. It involved comparison of visual wound assessments by clinicians, and provided temporal mapping of wound healing after c-section with provisional information on thermography-based SSI risk stratification for obese women postpartum.</p><p>In this study, thermal 'mapping' was conducted during the SSI surveillance period defined by the Centre for Disease Control (CDC) as wound infection occurring within 30 days after surgery <ref type="bibr" target="#b26">[27]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics approval</head><p>The study received all required institutional research ethics and governance approvals: research ethics committee, health research authority, NHS Trust research governance and University research ethics. All approvals were in place at the time of the commencement of the study. The study also received approvals and clinical support via the regional Clinical Research Network (CRN). All identifiable and non-identifiable data, including thermal images were stored and retained in accordance with the data protection Act (1998). Informed consent was obtained from all participants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Women with a booking BMI ≥30 kg⋅m -2 who had delivered an infant by elective or emergency c-section were eligible to participate in the study. Women with a negative pressure wound therapy (NPWT) dressing in situ on return to the post-natal ward were excluded as IR thermal imaging cannot be undertaken with occlusive dressings in situ.</p><p>Screening for eligibility was undertaken by a research midwife or nurse of the National Institute for Health Research (NIHR) CRN in the antenatal clinics. Women were provided with a participant information sheet and given the time to consider the invitation to participate in the study. Confirmation of participation was undertaken on the postnatal wards after the birth of the baby. Once the baby had been delivered, women were approached once more with full information, written and verbal, to ensure that they were comfortable to continue to participate in the study.</p><p>Participation involved one thermal imaging session during the hospital stay (typically 24-48 h after the birth) and three further imaging follow-up sessions at the woman's own home targeted to days 7, 15 and 30 postpartum.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample size</head><p>Recruiting to time available for this study i.e. over 10 months, and an estimated SSI incidence of 20%, the thermal imaging signature for early stage SSI test-accuracy would be expected to correctly identify eight of 10 women with a SSI (sensitivity) and correctly identify 32 out of 40 who do not develop an infection (specificity) with a study sample of 50 women.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Demographics</head><p>Study information gathered included name, age, pregnancy history (gravida, parity), early pregnancy weight and height, operative procedure and wound closure methods. To stratify BMI, obese (type 1: 30 kg⋅m -2 ≤ BMI &lt; 35 kg⋅m -2 ); severe obesity (type 2: 35 kg⋅m -2 ≤ BMI &lt; 40 kg⋅m -2 ) and morbid obesity (type 3: BMI ≥40 kg⋅m -2 ) categories were used. Clinical information was obtained for body temperature from the last recorded clinical measurement before imaging. Information of medications (including antibiotic regimen), blood loss (ml), smoking status and pre-existing co-morbidity was obtained from the maternal records.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antibiotic prophylaxis and wound screening</head><p>Local antibiotic prophylaxis follows a protocol for intraoperative (before skin incision) intravenous antibiotic administration with cefuroxime 1.5G, metronidazole 500 mg.</p><p>Post-operative (oral) antibiotic prophylaxis, predominately co-amoxyclav (500/125 amoxicillin/ clavulanic acid) is given for 5 days in women with an early BMI ≥ 40 kg⋅m -2 . Postoperative oral antibiotics are also prescribed in the event of a clinical indication or concern for infection. Wound swabs were taken at the discretion of the clinical team (in-patients) or by the general practitioner (GP) in the event that the women returned to the GP with suspicion of wound infection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ambient conditions</head><p>Before undertaking thermal imaging, measurements of ambient conditions; air temperature (°C) relative humidity (RH%) air velocity (m⋅s -1 ) were taken with a hand-held weather meter (Kestrel 3000, Richard Paul Russell Ltd., Hampshire UK). Measurements were made at the hospital bedside and at each home visit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wellness screen and wound infection (at home follow-up)</head><p>At each home visit women were asked a series of questions to establish overall health and the personal views of the healing progress of their c-section wound. Broadly, this included the woman's general health since the birth of the baby and whether there had been episodes of illness (including fever). With regard to the scar and clinical evidence for wound infection, the CDC criterion was used, and responses documented as an SSI assessment on day 7. The CDC criteria were used again as a guide for wound progress on days 15 and 30. Information sought included episodes of pain in or around the wound site, haematoma, signs of inflammation (redness, swelling, heat) and/or exudate (purulent or serous fluid) malodour, discolouration (in or around the wound) and including evidence for early indications of wound breakdown. In addition, notes were made at each visit of the appearance of scar and surrounding tissue. Women were also asked about wound cleansing methods. In the event of antibiotic therapy, the type and dose prescribed was noted.</p><p>Follow-up was undertaken by sending a Fax to the GP clinic with a request to return a short questionnaire regarding clinic attendance, antibiotics prescribed (type, dose, duration) and whether a clinical diagnosis of wound infection had been made within the first 30 days after c-section. Wound swab reports were obtained via hospital record systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thermal imaging of skin surface</head><p>For c-section surgery, a lower abdominal, surgical transverse incision was performed in all women using the method described by Pfannenstiel <ref type="bibr" target="#b27">[28]</ref>. This is preferred for its cosmetic advantage, with the curve of the incision in a natural fold of skin. After surgical closure of the uterus and rectus sheath, skin closure was achieved using absorbable subcutaneous sutures. In some obese women the large abdominal "overhang" or pannus obscured the wound site. To image the wound, the abdomen was lifted upwards to 'expose' the surgical site.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Imaging protocol</head><p>In hospital, thermal imaging was undertaken after removal of dry dressing and with women lying supine. As we described previously <ref type="bibr" target="#b24">[25]</ref>, all extraneous sources of IR radiation were minimised. Images were taken 15 min after the camera was switched on, and after the measurement and recording of ambient conditions had been recorded.</p><p>In the hospital setting, any dry dressing covering the wound was removed. In the home, clothing was folded away from the field of view (FOV) and the pubic region below the scar line covered with a sheet. During follow-up visits at home, women selected either their own bed or a sofa. If a supine position could be achieved, and in view of recent surgery, women were requested to lie as flat as comfortable.</p><p>Two abdominal regions of interest (ROI) were selected. The first ROI focused on the central abdominal region (umbilicus centrally, ROI 1, Fig. <ref type="figure" target="#fig_0">1a</ref>) and before lifting the pannus. The second ROI (ROI 2,) included the full length of the c-section wound and immediate surrounding skin after lifting the pannus (Fig. <ref type="figure" target="#fig_0">1b</ref>).</p><p>For consistency of the images, the c-section wound ROI 2 (Fig. <ref type="figure" target="#fig_0">1b</ref>) was bounded by right and left iliac regions visible in the field of view. Wherever possible, the c-section wound was exposed to air for 10 min before imaging. Where hair was visible, these structures served to aid image focus. Images were taken from: a) the foot of the bed or sofa; and b) from an angle of approximately 45°o ver the abdomen to give a downward focus. Three to six consecutive images were taken for each ROI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Equipment and calibration</head><p>Thermal imaging was undertaken using a portable thermal camera (T450sc, uncooled microbolometer, FLIR Täby, Sweden) with image resolution of 320 × 240 pixels. A separate digital photograph was taken focusing directly on the abdomen and scar and to assist in visual inspection of the wound site.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement reliability</head><p>The thermal imaging camera was calibrated between 30 °C and 45 °C; against a black body source (Fig. <ref type="figure" target="#fig_1">2</ref> a, Fig. <ref type="figure" target="#fig_1">2b</ref>; P80P, Ametek-Land, Dronfield, UK) During calibration, temperature measurements from the thermal camera (T450sc, uncooled microbolometer, FLIR, Täby, Sweden) were compared (Fig. <ref type="figure" target="#fig_1">2c</ref>) to measurements from a certified (UKAS, UK) independent thermometer, of type 100 Ω platinum resistance thermometer (PRT100, ISOTECH, Skelmersdale, UK) in situ within the black body system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement uncertainty</head><p>The measurement uncertainty of the FLIR T450sc camera was evaluated as the root mean squared error (RMSE) metric of the measurements acquired during calibration. This allowed uncertainties to be assigned to the patient temperature measurements during the course of the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of distance</head><p>To determine if the distance of the camera and focus has any effect on the constant temperature detected from the target a separate series of experiments were undertaken. Here, the black body system was heated, as before, to 30 °C and allowed to stabilise for 10 min. Temperature measurements were taken using the FLIR camera at distances from the black body source ranging from 0.1 m to 1.5 m (Fig. <ref type="figure" target="#fig_1">2d</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Visual assessment of wounds</head><p>From the digital photographs obtained from the participants at each of the four imaging sessions, six senior clinicians (midwife, doctor, nurse) affiliated to the study (but 'blind' to patient identifiers, thermal image analysis and the wound outcome) rated each woman's risk of wound infection at days 2 and 7. The arithmetic mean of Cohen's kappa for all pairs of observers was used as a measure of inter-observer agreement on each day. At both time-points 'observers' were asked to rate the appearance of the c-section scar as 'yes'; 'no'; or 'uncertain' as to the chance of developing an SSI within 30 days (agreement on prediction of SSI).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analyses</head><p>The sample was summarised descriptively (SPSS ver 24). A series of univariate logistic regression models were derived to model the dichotomous outcome of SSI occurrence by day 30. Each model considered one of the following candidate (early) predictor variables: abdominal temperature at day 2 postpartum (ROI 1 D2); abdominal temperature at day 7 postpartum (ROI 1 D7); wound temperature at day 2 postpartum (ROI 2 D2); wound temperature at day 7 postpartum (ROI 2 D7); wound-abdominal temperature difference at day 2 postpartum (WATD-2); wound-abdominal temperature difference at day 7 postpartum (WATD-7). Information of the regions of interest (as for days 2 and 7) were also collected at Day 15 and Day 30 but were not used in subsequent regression analyses, as assessment of the early prediction of SSI was the objective.</p><p>The extent of any correlation between the same measure determined at different time points, and between different measures determined at the same time points, was assessed.</p><p>Cohen's kappa statistic was used to measure levels of agreement between all six clinician raters' assessments made on day 2 and again for day 7. Pairwise kappa statistics were also used to assess agreement on opinion of wound assessment for signs of SSI from photographs taken on day 2 and again on day 7.</p><p>ROC curves were constructed for all models with significant predictors. The area under the ROC curve (AUROC) statistic, with 95% confidence intervals, was derived for each curve, with an optimum cut-off at stated values of sensitivity and specificity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Calibrations</head><p>The FLIR thermal camera calibration (Fig. <ref type="figure" target="#fig_1">2c</ref>) demonstrated that the device measured consistently + 0.1 to + 0.2 °C higher than the black body source thermometer (set to 30 °C) when used in an open environment. At each of the selected distances (0.1 to 1.5 m between camera lens and black body), the source temperature did not vary by more than 0.1 °C (Fig. <ref type="figure" target="#fig_1">2d</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement uncertainty</head><p>The RMSE of the black body source temperature measurement was evaluated to be ±0.53 °C from comparison with the temperature, measured using a transfer standard platinum resistance thermometer (PRT) inserted into the calibration thermo-well of the black body source (Fig. <ref type="figure" target="#fig_1">2b</ref>). The RMSE of the camera calibration was estimated to be ±0. <ref type="bibr" target="#b12">13</ref>  black body-measured temperatures. The overall uncertainty around the camera measurements was estimated to be ±0.55 °C. The uncertainty of the PRT was certified by the manufacturer to be an order of magnitude smaller than the RMSE values calculated for the measurements, and therefore was neglected in evaluating the overall measurement uncertainty.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Fifty three women were recruited to the study (Table <ref type="table" target="#tab_0">1</ref>). Of these, 3 women were discharged before imaging could be undertaken; 50 women, aged 21 to 44 years (median 32 years), with a BMI within the range of 30.1 kg⋅m -2 to 43.9 kg⋅m -2 (median 34.2 kg⋅m -2 ) entered the study. At the time of first thermal imaging, 1-3 (median 2) days after surgery, all women were afebrile with aural temperatures ranging from 36.2 °C to 37.3 °C (median 36.8 °C). Of the 50 women, 14 (28%) were confirmed with a diagnosis of SSI. The sample is summarised fully in Table <ref type="table" target="#tab_0">1</ref>; partitioned by SSI status by day 30, and as an entire cohort.</p><p>Exploring for the raters' opinions in assessing the wound on day 2 for likely SSI, Kappa statistics between all six raters ranged from 0.155 to 0.556 (mean 0.329); hence the levels of agreement ranged from slight to moderate. At day 7, pairwise Kappa statistics between all six raters ranged from 0.223 and 0.670 (mean 0.428) suggesting a slight improvement in agreement at day 7 over day 2, but still moderate agreement only.</p><p>From the wound photographs on day 2, a visual assessment was made by the 6 clinician raters as to the likelihood of an SSI. Results showed poor agreement with the subsequently confirmed outcome. Pairwise Kappa statistics ranged from -0.124 to 0.086 with a mean of -0.026, indicating no improvement over chance agreement for the raters' wound assessment for likely SSI. By day 7, pairwise Kappa statistics between individual raters' and eventual wound infection diagnoses ranged from -0.040 to 0.190 with a mean of 0.112, indicating minimal improvement over the Day 2 levels of agreement between the clinician raters.</p><p>Among the six raters reviewing the wound photographs on day 2, prediction rates for later diagnosis of infection were between 2 and 30%. Similarly, on day 7, the six raters diagnosed likely infection in between 4.1 and 26.5% of cases. This suggests that prevalence of SSI in the sample will impact upon the estimate of Kappa and may cause wound infection to be under-or over-estimated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thermal imaging in hospital and at community follow-up</head><p>In this imaging series, thermal images were taken on 4 occasions, one in hospital before discharge and 3 at home. In 39 (78%) women, a full set of images (taken on four different days) were obtained. In 11 cases, access was not available on some of the follow-up days.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ambient temperature</head><p>Ambient conditions (air temperature, relative humidity (RH) %) of the postnatal unit ranged from 20.9 °C to 27.4 °C (median 24.0 °C) air temperature and 39 to 73% (median 53%) RH. At the second, third and fourth follow-up visits (nominally, days 7,15, 30), air temperature ranged from 17.4 °C to 25.8 °C (median 21.6 °C), from 17.3 °C to 26.8 °C (median 21.3 °C), and from 15.7 °C to 25.6 °C (median 20.9 °C) respectively; RH ranged from 39 to 73% (median 53)%, from 41 to 77% (median 58%) and from 42 to 72% (median 58%) respectively. There was no effect of ambient temperature or RH on skin temperature measurements across the measurement intervals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Post-operative oral antibiotic prophylaxis</head><p>With one exception (where i.v benzylpenicillin 1.8G was administered), all patients received the standard intra-operative, i.v antibiotic regimen (Cefuroxime 1.5G, Metronidazole 500 mg stat). In addition, post-operative oral antibiotic prophylaxis was given to 19 women (38%), 17 of whom (34%) were considered at SSI risk). Two women received post -operative antibiotics for urinary tract infections. Eight of 17 women (47%) received antibiotic prophylaxis due to high SSI risk (obese category 3; BMI ≥40 kg⋅m -2 ). Nine of 17 women (53%) in obese categories 1 and 2 (BMI 35 kg⋅m -2 to 39.9 kg⋅m -2 ) also received prophylactic antibiotics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound assessment and antibiotic administration during community follow-up</head><p>At the 30-day post-operative time-point, wound outcome was followed up with the GP. Sixteen women (32%) returned to their GP, between 6 and 24 days after caesarean section (median 18 days); one woman returned on two occasions. Of the 16 women returning to their GP, the reason was for a suspected wound infection or delayed healing; 14 women (28%) were prescribed oral antibiotics, with a corresponding clinical diagnosis of SSI. Two woman received antibiotics but no SSI diagnosis.</p><p>Wound swabs were not taken during in-patient stay but in 14 women (28%), a wound swab was taken at the (See figure on previous page.) Fig. <ref type="figure" target="#fig_1">2</ref> Bench-top black body instrument (a) set to 38 °C showing equivalent temperature measured with the camera lens positioned in front of the heat source and with pixel value obtained (at cross-hair) of 38 °C (b). Graph (c) shows results for reliability of the thermal camera across a temperature range <ref type="bibr">(31-46 °C)</ref> revealing consistency between camera and black body source to within + 0.1 o to 0.2 °C. Distance of camera lens from black body source has minimal effect on temperature readings (d) time of the GP visit. Gram positive organisms (Streptococcus species, group B) were isolated in one woman only. The remainder of isolates were either moderate or heavy growth of anaerobes. Four of 50 women (8%) with a GP confirmed SSI received i.v intraoperative antibiotics, immediate oral antibiotics and, subsequently, one or more courses of oral antibiotics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abdominal thermography and ROI mapping</head><p>Values for mean abdominal temperature and for wound site fell over time, from Day 2 to Day 30, but with wound site temperature remaining approximately 1.5 °C higher than abdominal temperature at each imaging session (Table <ref type="table" target="#tab_0">1</ref>). Differences in the temperature maps of both regions were observed between those patients who developed a wound infection by comparison to those who did not (Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Modelling of abdominal temperature</head><p>Mean abdominal temperature (ROI 1) was lower on days 2, 7 and 15 postpartum in women who subsequently developed a wound infection by Day 30 compared with those who did not (Table <ref type="table" target="#tab_0">1</ref>). Logistic regression models conducted on the ROI 1 measure at Days 2, 7 and 15 postpartum (Table <ref type="table" target="#tab_2">2</ref>) revealed that lower abdominal temperature was significantly associated, at the 5% significance level, with an increased risk of infection (p = 0.011) at day 7; with substantive but non-significant associations also observed at Day 2 and Day 15.</p><p>At day 7, a 1 °C increase in mean abdominal temperature was associated with an odds ratio (OR) of infection of 0.365 (95% CI: 0.168 to 0.793); i.e. a unit (i.e.1 °C) decrease in abdominal temperature was associated with approximately a 3-fold raised odds of SSI at best estimate. Despite the higher level of significance associated with the ROI 1 measure at Day 7, the number of cases correctly classified by this model was lower than at Day 2 or Day 15; however, the proportion of  cases classified correctly was very similar at all three measured time points (70.5 to 76.6%). At day 7, the mean difference in abdominal temperature between those with an SSI diagnosis and those with no SSI diagnosis was 0.95 °C (95% CI: 0.32, 1.58 °C) lower in those who subsequently developed a wound infection. This difference between the two groups was significant at the 5% significance level (p = 0.004).</p><p>The ROI 1 model at Day 7 was a good fit to the data (Nagelkerke's pseudo-R 2 = 0.237); other models were revealed to have moderate goodness-of-fit to the data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Modelling of wound site temperature</head><p>Mean wound site temperature (ROI 2) was similar at Days 2, 7 and 15 postpartum in patients who subsequently developed an SSI to those who did not (Table <ref type="table" target="#tab_0">1</ref>). Logistic regression models conducted on the ROI 2 measure at Days 2, 7 and 15 postpartum (Table <ref type="table" target="#tab_2">2</ref>) revealed that lower wound temperature was associated with a substantive, but non-significant increased risk of infection (p = 0.135) at day 15; and not substantively or statistically associated with infection at Day 2 or Day 7. The proportion of cases classified correctly was very similar at all three measured time points (70.2 to 72.7%); and also similar to those obtained from the use of the ROI 1 measure.</p><p>The ROI 2 model at Day 15 was a moderate fit to the data (Nagelkerke's pseudo-R 2 = 0.073); other models were revealed to have poor goodness-of-fit to the data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Modelling of the wound site temperature -Abdominal temperature difference</head><p>Mean wound site temperature-abdominal temperature difference (WATD) on days 2, 7 and 15 postpartum was greater in patients who develop a wound infection (Table <ref type="table" target="#tab_0">1</ref>).</p><p>Logistic regression models conducted on the WATD measure at Days 2, 7 and 15 postpartum (Table <ref type="table" target="#tab_2">2</ref>) revealed that greater temperature difference was significantly associated at the 5% significance level with an increased risk of infection at Day 2 (p = 0.034) and at Day 7 (p = 0.023); and not substantively or statistically associated with infection at Day 15. At day 2, a 1 °C wider difference between mean wound site temperature and abdominal temperature was associated with an odds ratio (OR) of infection of 2.25 (95% CI: 1.07 to 5.15); i.e. a unit (i.e. 1 °C) widening of temperature between wound and abdomen was associated with approximately a 2-fold raised odds of SSI at best estimate. At day 7, a 1 °C increase in the mean wound site -abdominal temperature difference was associated with an odds ratio (OR) of infection of 2.45 (95% CI: 1.13 to 5.29); i.e. a unit (i.e. 1 °C) increase in temperature difference was associated with approximately a 2.5-fold raised odds of SSI at best estimate.</p><p>The proportion of cases correctly classified by these models were similar to the proportion correctly classified by the models based on single-location temperatures with the optimum classification (78.7% correct) achieved at Day 7.</p><p>Despite the higher level of significance associated with the ROI 1 measure at Day 7, the number of cases correctly classified by this model was lower than at Day 2 or Day 15; however, the proportion of cases classified correctly was very similar at all three measured time points (70.5 to 76.6%).</p><p>The WATD model at Days 2 and 7 was a moderately good fit to the data (Nagelkerke's pseudo-R 2 = 0.140 at Day 2; and 0.186 at <ref type="bibr">Day 7)</ref>; the model based on data collected at Day 15 fitted less well to the data.</p><p>Correlational analysis revealed the existence of moderate positive correlation between the ROI 1 measures extracted at Day 7 and Day 15. The ROI 2 measures taken at each time point were all positively moderately correlated with each other. Moderate positive correlations were also observed between the ROI 1 and ROI 2 measures at each time point.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ROC analyses</head><p>An ROC analysis conducted for the ROI 1 measure extracted at Day 7 revealed that the AUROC statistic for this parameter was 0.752 (95% CI: 0.599 to 0.905), representing good predictive capability. A suitable cut-off focussing on optimising sensitivity was given by 33.9 °C, corresponding to 92.9% sensitivity and 36.4% specificity. A suitable cut-off focussing on optimising specificity was given by 32.65 °C, corresponding to 64.3% sensitivity and 81.8% specificity (Fig. <ref type="figure" target="#fig_2">3a</ref>).</p><p>An ROC analysis conducted for the difference measure extracted at Day 2 revealed that the AUROC statistic for this parameter was 0.697 (95% CI: 0.538 to 0.857), representing fairly good predictive capability. A suitable cut-off focussing on optimising sensitivity was given by 0.75 °C, corresponding to 92.9% sensitivity and 38.9% specificity. A suitable cut-off focussing on optimising specificity was given by 1.7 °C corresponding to 50.0% sensitivity and 80.6% specificity (Fig. <ref type="figure" target="#fig_2">3b</ref>).</p><p>An ROC analysis conducted for the difference measure extracted at Day 7 revealed that the AUROC statistic for this parameter was 0.687 (95% CI: 0.521 to 0.854), representing fairly good predictive capability. A suitable cut-off focussing on optimising sensitivity was given by 0.85 °C, corresponding to 92.9% sensitivity and 39.4% specificity. A suitable cut-off focussing on optimising specificity was given by 2.40 °C, corresponding to 35.7% sensitivity and 95.9% specificity (Fig. <ref type="figure" target="#fig_2">3c</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Protecting and improving the health of a nation is the core business of all health systems. In the United Kingdom, the National Health Service (NHS) 'serves' a million patients every 36 h with forecasted costs for 2018/ 19 of over £126bn <ref type="bibr" target="#b28">[29]</ref>. With 1 in 10 of the population undergoing surgical procedures, over 5 million of which are undertaken under anaesthesia in an operating theatre, the number of surgeries are increasing year on year; with a 4.2% increase from 2009 to 2014 <ref type="bibr" target="#b28">[29]</ref>.</p><p>Although post-operative mortality is decreasing <ref type="bibr" target="#b29">[30]</ref>, there is considerable variability in survivor outcomes. To an extent, understanding the impact of surgery and the outcomes or quality of care delivered to a Nation's health service is now being addressed (in the UK) via patient reported outcomes (PROMS) programme. Surgical site infection surveillance is currently limited to just four surgical categories <ref type="bibr" target="#b30">[31]</ref>. At present, SSI reporting after c-section is neither a mandatory nor a voluntary requirement of the surgical site infection surveillance service (SSISS) <ref type="bibr" target="#b30">[31]</ref>. It may not be surprising therefore that the incidence of SSI after c-section has such variation in reported incidence. The lack of a gold standard for SSI assessment persists as a 'gap' in our ability to measure and monitor wound infections. <ref type="bibr" target="#b31">Bruce et al. (2001)</ref> reports 41 different definitions of SSI and 13 grading scales to describe wound infection in a systematic review of 82 included studies <ref type="bibr" target="#b31">[32]</ref>. A definitive assessment of the surgical wound is overdue.</p><p>In this study we have taken the first steps towards investigating whether independent, quantitative wound imaging, as a non-invasive, non-ionising technology, has the potential to stratify patients (on the basis of the acquired thermal signature) to the later development of SSI. With acceptable performance, this technology has potential wide-reach and global impact for SSI risk stratification. Importantly, as we enter what is currently described as a 'post-antibiotic era' <ref type="bibr" target="#b32">[33]</ref>, concerns about a crisis in antibiotic resistance <ref type="bibr" target="#b33">[34]</ref>, attributed to the overuse of antibiotics, makes the need for rational antibiotic prescribing, now a part of the wider conversation in the media and community, ever more important.</p><p>In this study 14 of 50 obese women, presenting to the clinic on average18 days after c-section, were prescribed antibiotics for surgical wound infection, This SSI rate of 28% is higher than that reported for high risk 'dirty' colorectal wounds <ref type="bibr" target="#b34">[35]</ref> exceeds the 18% reported by Jasmin et al <ref type="bibr" target="#b17">[18]</ref> in a mixed BMI population but lower than reported by our previous study in morbidly obese women <ref type="bibr" target="#b19">[20]</ref>. Whether this SSI was truly due to pathogens residing in superficial tissue causing delay in wound closure or even to superficial wound dehiscence (SWD) in the absence of infection remains unclear <ref type="bibr" target="#b35">[36]</ref>. Intra-operative intravenous antibiotic prescribing was 100% with 38% additional (oral) courses prescribed post-operatively (within the first two days before hospital discharge). Even so 28% of women were reported to have developed an SSI. How often is clinical suspicion of SSI accurate? How frequently are antibiotics being prescribed, just in case? Without a 'gold' standard for SSI diagnosis it is not possible to tell. Even if wound swabs are taken, the methods used are notoriously unreliable in capturing bacteria <ref type="bibr" target="#b36">[37]</ref>. Furthermore, swab results per se are not diagnostic of infection; bacterial load virulence and host factors all play a role in eventual susceptibility to infection <ref type="bibr" target="#b37">[38]</ref>.</p><p>Diagnosis of SSI in this study was based on visual assessment of the wound by the GP following a visit to clinic. Where wound swabs were taken (and with the exception of one wound swab positive for Group B Streptococcus) laboratory confirmation was of either 'no growth' or 'moderate to heavy growth' of anaerobes. As anaerobic bacteria make up a significant proportion of the normal microbiota colonizing skin and various mucosal surfaces of the human body <ref type="bibr" target="#b38">[39]</ref> it is not clear which, if any, pathogenic species were present in the sample. Furthermore, antibiotics are typically prescribed before laboratory results are known. Two key factors emerge; the rate of SSI remains a clinical diagnosis, and antibiotics continue to be prescribed to treat infection even without knowledge of a causative organism. In seeking to obtain an objective technique to assess the wound and to stratify women to SSI risk on the basis of biological, rather than anthropometric, risk we have taken steps 'towards' a gold standard for antibiotic prescribing by developing an objective method to determine if there is an early (thermal) signature in those at highest risk of SSI. Here we used infrared thermography to image the wound and adjacent abdominal structures. Infrared energy is dependent upon radiation energy emitted from the skin (which is proportional to heat generated) <ref type="bibr" target="#b39">[40]</ref> but invisible by eye. With modern thermal cameras it is possible to 'see' infrared energy as a temperature map together with absolute values for temperature given appropriate corrections for skin emissivity <ref type="bibr" target="#b40">[41]</ref>. Recent studies have confirmed the relationship between human skin temperature, measured using thermography, and perfusion (measured using laser speckle contrast imaging). The different techniques show high convergent validity making thermography a robust surrogate for skin blood flow <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b42">43]</ref>. As observed in the present study, a consistent increase in wound site temperature (ROI2) of approximately 1.5 °C was evident over the course of 15 days (and including day 30 measures) compared to non-injured abdominal skin. This increase in wound temperature fits well with the long-held observation of a local increase in blood flow consequent upon local tissue inflammation. This temperature increase and associated blood flow has been used as a diagnostic sign of wound infection <ref type="bibr" target="#b39">[40]</ref>. In the present series, we have observed a temporal wound profile which remains elevated above the temperature of the abdomen consistently over the first month in those with, as well as in those without SSI, so there seems little prognostic value in thermography of the wound site per se for predicting those patients who later go on to develop SSI. However, wound site measures, in conjunction with the temperature of the abdomen, affords promise as a predictor of subsequent SSI. Of note here is the significantly wider temperature gradient between wound and abdominal temperatures on days 2 and 7, a time-point which precedes SSI onset. With ambient temperature having no significant effect on skin temperature values at the four measurement intervals and with mean wound temperature similar at early time points (days 2,7,15) the widening of the temperature gradient is primarily due to low abdominal temperature. In this study, we report a new observation that the temperature of the tissue adjacent to the wound site may play a more important role in risk for SSI and one possible explanation as to the link between obesity as a biological risk factor for SSI. As early as day 2 and day 7 we observed a 2.25 and 2.45 odds, respectively, for SSI with each 1 °C widening of the temperature gradient between wound site and abdomen.</p><p>We have observed previously, albeit in a South East Asian population <ref type="bibr" target="#b24">[25]</ref>, that mean abdominal temperature is inversely related to BMI category; lowest temperature values in participants with the higher BMI. Since subcutaneous fat has low thermal conductivity, an increase in abdominal fat effectively insulates the body <ref type="bibr" target="#b43">[44]</ref> and interferes with heat transfer from body core, so lowering skin temperature <ref type="bibr" target="#b44">[45]</ref>. Obesity, a condition associated with a high body heat content <ref type="bibr" target="#b45">[46]</ref> and higher resting energy expenditure, compared to lean individuals is primarily due to a larger fat-free (muscle) mass <ref type="bibr" target="#b44">[45]</ref>. However, due to increased body insulation and reduced conductive heat flow via the trunk, acral regions <ref type="bibr" target="#b46">[47]</ref> (hands and feet) become major sites for heat dissipation in the face of an increased metabolic heat production. Savastano et al. <ref type="bibr" target="#b44">[45]</ref> using infrared thermography show the effect of abdominal adiposity between normal weight and obese women; thermal mapping revealing a significant (1 °C) reduction in mean abdominal temperature in the obese compared to the normal-weight group. There is the possibility that reduced blood flow in the region surrounding the wound incision may compromise the delivery of oxygen and nutrients to the wound, so adding a risk for slow wound healing or infection by creating areas of skin commensurate with 'low perfusion'. Another possibility is of a 'dead-space' vascular region possibly due to seroma or oedema. We have shown previously that after colorectal surgery <ref type="bibr" target="#b24">[25]</ref> and c-section <ref type="bibr" target="#b25">[26]</ref> temperature 'cold spots' <ref type="bibr" target="#b47">[48]</ref> along the wound on thermography are observed in patients with confirmed SSI. As illustrated in Fig. <ref type="figure" target="#fig_0">1B</ref>, 'cold spots' (low radiation intensity) were also evident in some women, at times, in the present study. However, located within a wound region of higher average temperature (and blood flow), by averaging the temperature values, the cold spots are masked on quantitative analyses. The qualitative thermal map as well as arithmetic mean of the ROI's must be considered as complimentary for SSI risk prognosis. Further investigations to co-locate the extent and number of 'islands' of low temperature within the wound, together with the contribution of the adjacent (healthy) abdominal temperature per se will improve the sensitivity of the predictive model. Currently, whilst not outstanding in any of the models, the low number of cases in the sample (but a size appropriate for an early-stage pilot study) precludes the derivation of multiple models in the current analysis. None of the observed correlations suggested that a multiple model would be subject to excessive co-linearity; hence future modelling could investigate the potential of the inclusion of multiple temperature measurements in a logistic regression model to improve predictive capability. The predictive capability of abdominal temperature (ROI 1) and temperature differences (wound siteabdominal temperature; WATD) is substantially better than the assessment by the clinician's; which was in general no better than chance.</p><p>One of the limitations in undertaking this study is that we were unable to establish, with accuracy, the depth of SSI but, based upon the clinical assessment as well as review of photographs, it is likely that, in this series at least, the majority of wounds were superficial SSI's as none required wound debridement, referral to a plastic surgeon or prolonged hospital admission requiring prolonged intravenous antibiotics.</p><p>On the matter of the choice of follow up days to undertake post-operative thermal imaging as a predictive technique for SSI, we had little prior knowledge of the peak onset of SSI in this population. Our objective therefore was to assess and image the wound as often as practical within the first 30 days of surgery. A pragmatic decision was taken to optimise the number of community visits to three and to determine the day of onset of SSI from the GP per se. We have shown that the earliest time-point with best predictive performance is within 7 days after surgery, the timepoint at which 98% of women had not yet complained of a wound problem; all but one of the women developed SSI after day 7. As the median time of SSI diagnosis was at day 18, imaging up to day 7 'captures' the predictive interval before clinical signs appear.</p><p>The question remains, should we and can we, use antibiotics more sparingly in this era of AMR? As recommended by Lord Jim O'Neill, Chair of the Review on Antimicrobial Resistance <ref type="bibr" target="#b48">[49]</ref> a step change is needed in diagnostic technology. This includes not only the development of faster laboratory methods and ongoing search for new classes of antibiotics, but also a more reliable method for wound assessment independent of subjective opinion, which in this study was shown to be highly variable between clinicians. In attempting to achieve an objective (infrared) thermography technique for 'looking at wounds' we have developed promising performance of a technology towards SSI risk prognosis and defining of a biological signature for surgical wound infection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>In this study cohort of women with a BMI ≥35.0 Kg.m -2 , commensurate with a weight category of obesity, 28% of women were clinically diagnosed with a SSI 2-3 weeks after surgery. Wound infections developed in over one quarter of the cohort despite prodigious use of intravenous and oral antibiotic prophylaxis.</p><p>Visual assessment of the wound was poor for there was a lack of agreement between clinicians in their subjective assessment of the wound and a lack of agreement in identifying the wounds most likely to become infected. However, by using quantitative imaging and thermal mapping of the wound and abdomen at early times (day 2 and day 7) after surgery, improved predictions for later SSI was achieved in 77 and 70% of cases respectively. Best fit of the model was at day 7 from the temperature difference between wound and abdomen. The wider the temperature difference between the sites, the greater the odds of infection. With wound temperature remaining relatively constant across the first 15 days after surgery, it is the contribution of a low abdominal temperature that makes a substantive (at day 2) and significant three-fold (day 7) contribution to an increased risk of infection in obese women during the first week after surgery.</p><p>With a larger cohort of participants, verification of the predictive performance of infrared thermography signatures reported here offers potential for the development of a non-invasive, low-cost imaging modality. Augmenting subjective assessment with thermographic wound imaging would provide a rational approach to determine those women most at risk of SSI and thus those most in need of antibiotics. This would be of significant benefit in this obese population. Currently antibiotics are administered prophylactically by clinical protocol based on BMI range rather than SSI risk.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implications for research and practice</head><p>Considering the associated risks of morbidity from undetected infections and the added risks of antibiotic resistance in leading to longer hospital stays, higher medical costs and increased mortality, this technology could reduce the cost and resource burden on health service provisions. Within the obstetric field this could also have a significant impact on improving postpartum recovery experience for mothers and their families, given the high and increasing rates of both obesity and caesarean sections globally.</p><p>With a larger cohort of participants, verification of the predictive performance of infrared thermography signatures reported here offers potential for the development of a non-invasive, low-cost imaging modality. Augmenting the existing visual subjective assessment with thermographic wound imaging would provide a more reliable approach to determine those women most at risk of SSI and thus those most in need of antibiotics. camera. Our grateful thanks go to the women who participated in the study and for their continued support of this work in allowing us the privilege to undertake the study with them, in their homes during the course of the 30 days after the birth of their infant. This study was funded by the Medical Research Council UK under the Confidence in Concept scheme.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Abdominal thermal maps showing regions of interest (ROIs) with scale of abdominal temperature set to 30-37 °C. Upper panel (a) ROI 1 is of the abdomen with umbilicus centrally; ROI 2 (lower panel,b) shows the region of the scar and surrounding site</figDesc><graphic coords="4,155.68,292.25,283.87,410.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 (</head><label>2</label><figDesc>Fig. 2 (See legend on next page.)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Predictive capability of statistical models with receiver operator curve plots of sensitivity versus 1-specificity for abdominal temperature at day 7 (a), wound minus abdominal temperature difference at day 2 (b), and wound minus abdominal temperature difference at day 7 (c)</figDesc><graphic coords="11,63.84,94.85,467.66,547.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Patient characteristics</figDesc><table><row><cell>Categorical factor</cell><cell cols="2">Frequency (valid %)</cell><cell></cell></row><row><cell></cell><cell>SSI</cell><cell>Non-SSI</cell><cell>All patients</cell></row><row><cell></cell><cell>(n = 14)</cell><cell>(n = 36)</cell><cell>(n = 50)</cell></row><row><cell>Procedure</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Planned</cell><cell cols="2">6 (42.9%) 14 (38.9%)</cell><cell>20 (40.0%)</cell></row><row><cell>Emergency</cell><cell cols="2">8 (57.1%) 22 (61.1%)</cell><cell>30 (60.0%)</cell></row><row><cell>Ethnicity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>White British</cell><cell cols="2">13 (92.9%) 25 (69.4%)</cell><cell>38 (76.0%)</cell></row><row><cell>Non-White British</cell><cell>1 (7.1%)</cell><cell>11 (30.6%)</cell><cell>12 (24.0%)</cell></row><row><cell>Number of pregnancies</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1</cell><cell cols="2">2 (14.3%) 14 (38.9%)</cell><cell>16 (32.0%)</cell></row><row><cell>2</cell><cell cols="2">4 (28.6%) 7 (19.4%)</cell><cell>11 (22.0%)</cell></row><row><cell>3</cell><cell cols="2">5 (35.7%) 7 (19.4%)</cell><cell>12 (24.0%)</cell></row><row><cell>4</cell><cell>1 (7.1%)</cell><cell>5 (13.9%)</cell><cell>6 (12.0%)</cell></row><row><cell>5</cell><cell>0 (0.0%)</cell><cell>2 (5.6%)</cell><cell>2 (4.0%)</cell></row><row><cell>6</cell><cell>1 (7.1%)</cell><cell>1 (2.8%)</cell><cell>2 (4.0%)</cell></row><row><cell>7 or more</cell><cell>1 (7.1%)</cell><cell>0 (0.0%)</cell><cell>1 (2.0%)</cell></row><row><cell>Number of live births</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1</cell><cell cols="2">2 (14.3%) 18 (50.0%)</cell><cell>20 (40.0%)</cell></row><row><cell>2</cell><cell cols="2">10 (71.4%) 6 (16.7%)</cell><cell>16 (16.7%)</cell></row><row><cell>3</cell><cell>1 (7.1%)</cell><cell>7 (19.4%)</cell><cell>8 (16.0%)</cell></row><row><cell>4</cell><cell>0 (0.0%)</cell><cell>4 (11.1%)</cell><cell>4 (8.0%)</cell></row><row><cell>5</cell><cell>0 (0.0%)</cell><cell>1 (2.8%)</cell><cell>1 (2.0%)</cell></row><row><cell>6</cell><cell>0 (0.0%)</cell><cell>0 (0.0%)</cell><cell>0 (.0.0%)</cell></row><row><cell>7 or more</cell><cell>1 (7.1%)</cell><cell>0 (0.0%)</cell><cell>1 (2.0%)</cell></row><row><cell>Number of C-sections (n = 49)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1</cell><cell cols="2">5 (38.5%) 25 (69.4%)</cell><cell>30 (61.2%)</cell></row><row><cell>2</cell><cell cols="2">6 (46.2%) 7 (19.4%)</cell><cell>13 (26.5%)</cell></row><row><cell>3</cell><cell cols="2">2 (15.4%) 2 (5.6%)</cell><cell>4 (8.2%)</cell></row><row><cell>4</cell><cell>0 (0.0%)</cell><cell>2 (5.6%)</cell><cell>2 (4.1%)</cell></row><row><cell>Variable</cell><cell>Mean (SD)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>SSI (n =</cell><cell>Non-SSI (n =</cell><cell>All patients (n =</cell></row><row><cell></cell><cell>14)</cell><cell>36)</cell><cell>50)</cell></row><row><cell>Number of C-sections (n = 49)</cell><cell>1.77</cell><cell>1.47 (0.845)</cell><cell>1.55 (0.818)</cell></row><row><cell></cell><cell>(0.725)</cell><cell></cell><cell></cell></row><row><cell>Blood loss (ml) (n = 50)</cell><cell cols="2">472 (149) 692 (364)</cell><cell>630 (332)</cell></row><row><cell>Pre-operative haemoglobin</cell><cell cols="2">114 (8.03) 119 (13.7)</cell><cell>117 (12.5)</cell></row><row><cell>(g/L) (n = 49)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Post-operative haemoglobin</cell><cell>101.4</cell><cell>101 (11.8)</cell><cell>101 (11.0)</cell></row><row><cell>(g/L) (n = 43)</cell><cell>(8.73)</cell><cell></cell><cell></cell></row><row><cell>Pre-operative white blood</cell><cell cols="2">10.7 (3.91) 11.1 (3.87)</cell><cell>11.0 (3.84)</cell></row><row><cell>cell count (×10 9 /L) (n = 48)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Post-operative white blood</cell><cell cols="2">10.9 (5.09) 13.1 (3.81)</cell><cell>12.5 (4.23)</cell></row><row><cell>cell count (× 10 9 /L (n = 46)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Gestational age (weeks)</cell><cell cols="2">39.7 (1.28) 39.2 (1.67)</cell><cell>39.4 (1.53)</cell></row><row><cell>Body mass index (kg.m -2 )</cell><cell cols="2">35.2 (3.89) 35.3 (3.99)</cell><cell>35.3 (3.92)</cell></row><row><cell>Body temperature (°C)</cell><cell cols="2">36.8 (0.31) 36.8 (0.25)</cell><cell>36.8 (0.26)</cell></row><row><cell>(n = 50)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Abdominal temperature</cell><cell cols="2">33.4 (0.79) 33.8 (0.80)</cell><cell>33.7 (0.81)</cell></row><row><cell>Day 2 (°C) (n = 50)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Wound temperature</cell><cell cols="2">35.1 (0.53) 34.9 (0.69)</cell><cell>35.0 (0.65)</cell></row><row><cell>Day 2 (°C) (n = 50)</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Patient characteristics (Continued)</figDesc><table><row><cell>Abdominal temperature</cell><cell>32.5 (0.98) 33.5 (0.98)</cell><cell>33.2 (1.07)</cell></row><row><cell>Day 7 (°C) (n = 47)</cell><cell></cell><cell></cell></row><row><cell>Wound temperature</cell><cell>34.4 (0.77) 34.5 (0.80)</cell><cell>34.5 (0.78)</cell></row><row><cell>Day 7 (°C) (n = 47)</cell><cell></cell><cell></cell></row><row><cell>Abdominal temperature</cell><cell>31.7 (1.87) 32.6 (1.01)</cell><cell>32.3 (1.36)</cell></row><row><cell>Day 15 (°C) (n = 44)</cell><cell></cell><cell></cell></row><row><cell>Wound temperature</cell><cell>33.7 (1.11) 34.1 (0.86)</cell><cell>34.0 (0.95)</cell></row><row><cell>Day 15 (°C) (n = 44)</cell><cell></cell><cell></cell></row><row><cell>Wound minus abdominal</cell><cell>1.73 (0.96) 1.12 (0.77)</cell><cell>1.29 (0.86)</cell></row><row><cell>temperature difference Day 2 (°C)</cell><cell></cell><cell></cell></row><row><cell>Wound minus abdominal</cell><cell>1.92 (1.00) 1.09 (1.01)</cell><cell>1.34 (1.07)</cell></row><row><cell>temperature difference</cell><cell></cell><cell></cell></row><row><cell>Day 7 (°C) (n = 47)</cell><cell></cell><cell></cell></row><row><cell>Wound minus abdominal</cell><cell>1.96 (1.59) 1.56 (1.29)</cell><cell>1.68 (1.36)</cell></row><row><cell>temperature difference</cell><cell></cell><cell></cell></row><row><cell>Day 15 (°C) (n = 44)</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Univariable logistic regression parameters</figDesc><table><row><cell>Variable</cell><cell>Day</cell><cell>p-value</cell><cell>Odds ratio (OR)</cell><cell>95% CI for OR</cell><cell>Cases correctly classified</cell><cell>Nagelkerke's pseudo-R 2</cell></row><row><cell>ROI 1</cell><cell>2</cell><cell>0.112</cell><cell>0.51</cell><cell>(0.222, 1.17)</cell><cell>76.6%</cell><cell>0.076</cell></row><row><cell></cell><cell>7</cell><cell>0.011</cell><cell>0.365</cell><cell>(0.168, 0.793)</cell><cell>70.5%</cell><cell>0.237</cell></row><row><cell></cell><cell>15</cell><cell>0.070</cell><cell>0.613</cell><cell>(0.364, 1.04)</cell><cell>72.7%</cell><cell>0.117</cell></row><row><cell>ROI 2</cell><cell>2</cell><cell>0.331</cell><cell>1.62</cell><cell>(0.610, 4.31)</cell><cell>72.0%</cell><cell>0.028</cell></row><row><cell></cell><cell>7</cell><cell>0.609</cell><cell>0.813</cell><cell>(0.362, 1.82)</cell><cell>70.2%</cell><cell>0.008</cell></row><row><cell></cell><cell>15</cell><cell>0.135</cell><cell>0.588</cell><cell>(0.292, 1.18)</cell><cell>72.7%</cell><cell>0.073</cell></row><row><cell>(ROI 2-ROI 1)</cell><cell>2</cell><cell>0.034</cell><cell>2.25</cell><cell>(1.07, 5.15)</cell><cell>70.0%</cell><cell>0.140</cell></row><row><cell></cell><cell>7</cell><cell>0.023</cell><cell>2.45</cell><cell>(1.13, 5.29)</cell><cell>78.7%</cell><cell>0.186</cell></row><row><cell></cell><cell>15</cell><cell>0.388</cell><cell>1.23</cell><cell>(0.769, 1.98)</cell><cell>72.7%</cell><cell>0.024</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>Our sincere thanks go to <rs type="person">Professor Tom Farrell</rs> for his support in obtaining access to the women under his care and to the research midwives, <rs type="person">Hilary Rosser</rs>, <rs type="person">Sarah Senbeto</rs> and team of the <rs type="institution">Jessop Hospital, Sheffield NHS Hospital Trust</rs> for undertaking screening and recruitment. We thank <rs type="person">Dr. Andrew Heeley</rs>, of the <rs type="affiliation">University of Sheffield, Department of Electronic and Electrical Engineering</rs> for assistance with the calibration of the infrared</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>This study was funded from a grant provided by the <rs type="funder">Medical Research Council, UK</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>The datasets generated and analysed during the current study are not publicly available due to intellectual property protection but are available from the corresponding author on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' contributions</head><p>The authors meet the requirements of authorship. All authors read and approved the final manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics approval and consent to participate</head><p>Approval was given by the Derby Research Ethics committee (2016, 14/EM 0031). All participants provided their signed informed consent to participate in the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's Note</head><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="14,58.99,528.26,224.32,6.62;14,71.72,537.27,212.90,6.62;14,71.72,546.28,208.73,6.62;14,71.72,555.30,101.85,6.62" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Global guidelines for the prevention of surgical site infection. WHO Library Cataloguing-in-Publication Data</title>
+		<ptr target="http://www.who.int/gpsc/ssi-prevention-guidelines/en/)" />
+	</analytic>
+	<monogr>
+		<title level="j">World Health Organization</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>World Health Organisation</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,58.99,564.25,224.59,6.62;14,71.72,573.27,208.14,6.62;14,71.72,582.28,217.12,6.62;14,71.72,591.30,37.75,6.62" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Prevalence of healthcare-associated infections in acute care hospitals</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Magill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hellinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Boland</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/664048</idno>
+		<ptr target="https://doi.org/10.1086/664048" />
+	</analytic>
+	<monogr>
+		<title level="j">Infect Control Hosp Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="283" to="291" />
+			<date type="published" when="2012">2012</date>
+			<pubPlace>Jacksonville, Florida</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,58.99,600.25,211.68,6.62;14,71.72,609.27,214.38,6.62;14,71.72,618.28,218.69,6.62;14,71.72,627.30,115.87,6.62" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Impact of surgical site infection on healthcare costs and patient outcomes: a systematic review in six European countries</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Badiaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Casey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Petrosillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Hudson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Crosbye</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhin.2017.03.004</idno>
+		<ptr target="https://doi.org/10.1016/j.jhin.2017.03.004" />
+	</analytic>
+	<monogr>
+		<title level="j">J Hospital Infect</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,58.99,636.25,224.38,6.62;14,71.72,645.27,204.49,6.62;14,71.72,654.28,218.57,6.62;14,71.72,663.30,182.37,6.62" xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">Public</forename><surname>Health</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">England</forename></persName>
+		</author>
+		<ptr target="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/666465/SSI_annual_report_NHS_hospitals_2016-17.pdf" />
+		<title level="m">Surgical site infections in NHS hospitals in England</title>
+		<imprint>
+			<date type="published" when="2016-04">April 2016 to March 2017. 2017641</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,58.99,672.25,218.36,6.62;14,71.72,681.27,104.07,6.62" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">International Wound Infection Institute (IWII) Wound infection in clinical practice</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,58.99,690.28,226.00,6.62;14,71.72,699.30,103.59,6.62" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The Obese Surgical Patient: A Susceptible Host for Infection</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Anaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Dellinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surg Infect</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="473" to="480" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,58.99,708.25,213.86,6.62;14,71.72,717.27,213.83,6.62;14,71.72,726.28,54.36,6.62" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Impact of Obesity on Surgical Site Infection in Colon and Rectal Surgery</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hourigan</surname></persName>
+		</author>
+		<idno type="DOI">10.1245/s10434-012-2448-6</idno>
+		<ptr target="https://doi.org/10.1245/s10434-012-2448-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Ann Surg Oncol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="4099" to="4103" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,307.02,90.30,227.49,6.62;14,319.75,99.26,208.23,6.62;14,319.75,108.27,178.74,6.62" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Does obesity affect the surgical outcome and complication rates of spinal surgery? A Meta-analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11999-013-3346-3</idno>
+		<ptr target="https://doi.org/10.1007/s11999-013-3346-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Relat Res</title>
+		<imprint>
+			<biblScope unit="volume">472</biblScope>
+			<biblScope unit="page" from="968" to="975" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,307.02,117.51,220.55,6.62;14,319.75,126.53,218.44,6.62;14,319.75,135.54,100.69,6.62" xml:id="b8">
+	<analytic>
+		<ptr target="https://www.gov.uk/government/publications/chief-medical-officer-annual-report-2014-womens-health" />
+	</analytic>
+	<monogr>
+		<title level="m">The Health of the 51%: Women</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,144.78,225.77,6.62;14,319.75,153.80,208.66,6.62;14,319.75,162.81,184.02,6.62" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The increasing trend in caesarean section rates: global, regional and national estimates1990-2014</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Betrán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Moller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Gülmezoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Torloni</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0148343</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0148343" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,172.05,211.55,6.62;14,319.75,181.07,210.71,6.62;14,319.75,190.08,203.27,6.62" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Variation in rates of caesarean section among English NHS trusts after accounting for maternal and clinic risk: cross sectional study</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bragg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Cromwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Edozien</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmj.c5065</idno>
+		<ptr target="https://doi.org/10.1136/bmj.c5065" />
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">341</biblScope>
+			<biblScope unit="page">5065</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,199.32,224.05,6.62;14,319.75,208.33,76.12,6.62" xml:id="b11">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Report</title>
+		<imprint>
+			<date type="published" when="2017">2017. 2018</date>
+		</imprint>
+		<respStmt>
+			<orgName>NMPA Project Team. National Maternity and Perinatal Audit</orgName>
+		</respStmt>
+	</monogr>
+	<note>RCOG London</note>
+</biblStruct>
+
+<biblStruct coords="14,310.06,217.57,225.67,6.62;14,319.75,226.59,195.47,6.62;14,319.75,235.60,212.70,6.62;14,319.75,244.56,105.92,6.62" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The relationship between obesity and surgical site infections in women undergoing caesarean sections: an integrative review</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chaboyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gillespie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.midw.2012.12.012</idno>
+		<ptr target="https://doi.org/10.1016/j.midw.2012.12.012Epub" />
+	</analytic>
+	<monogr>
+		<title level="j">Midwifery</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1331" to="1338" />
+			<date type="published" when="2013-02-14">2013. 2013 Feb 14</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,253.86,226.66,6.62;14,319.75,262.82,196.39,6.62;14,319.75,271.83,190.50,6.62" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Enhanced surgical site infection surveillance following caesarean section: experience of a multicentre collaborative post-discharge system</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Charlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Crawshaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hosp Infect</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="166" to="173" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,281.13,212.81,6.62;14,319.75,290.09,206.31,6.62;14,319.75,299.10,185.34,6.62" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Risk factors for surgical site infection following caesarean section in England: results from a multicentre cohort study</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lamagni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Harrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Charlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sheridan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BJOG</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="1324" to="1333" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,308.34,217.57,6.62;14,319.75,317.35,217.05,6.62;14,319.75,326.37,96.05,6.62" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Prevalence and clinical significance of postpartum endometritis and wound infection</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chaim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bashiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bar-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Shoham-Vrdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mazor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Dis Obstet Gynecol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="77" to="82" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,335.61,211.22,6.62;14,319.75,344.62,210.57,6.62" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Enhanced identification of postoperative infections among inpatients</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Yokoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Noskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cunningham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Emerg Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1924" to="1930" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,353.86,214.38,6.62;14,319.75,362.88,190.03,6.62;14,319.75,371.89,212.72,6.62;14,319.75,380.91,123.41,6.62" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Incidence and risk factors of surgical site infection among patients undergoing caesarean section</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Jasim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sas</forename><surname>Sulaiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">T</forename><surname>Dawood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Abdulmeer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Usha</forename><forename type="middle">R</forename></persName>
+		</author>
+		<idno type="DOI">10.1177/1179559X17725273</idno>
+		<ptr target="https://doi.org/10.1177/1179559X17725273" />
+	</analytic>
+	<monogr>
+		<title level="j">Clin Med Insights: Therapeutics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,390.15,204.25,6.62;14,319.75,399.16,202.13,6.62" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Risk factors for postcesarean surgical site infection</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jamulitrat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chongsuvivatwong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Geater</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Obstet Gynecol</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="367" to="371" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,408.40,213.75,6.62;14,319.75,417.42,217.80,6.62;14,319.75,426.43,208.58,6.62;14,319.75,435.39,83.44,6.62" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Postpartum infection in morbidly obese women after caesarean section: does early prophylactic oral antbiotic use make a difference?</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yeeles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Trinick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Childs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Soltani</surname></persName>
+		</author>
+		<idno type="DOI">10.4236/ojog.2014.49077</idno>
+		<ptr target="https://doi.org/10.4236/ojog.2014.49077" />
+	</analytic>
+	<monogr>
+		<title level="j">Open J Obstet Gynecol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="547" to="549" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,444.69,208.71,6.62;14,319.75,453.65,205.06,6.62;14,319.75,462.66,197.52,6.62;14,319.75,471.68,215.05,6.62;14,319.75,480.69,100.11,6.62" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Length of stay after childbirth in 92 countries and associated factors in 30 low-and middleincome countries: compilation of reported data and a cross-sectional analysis from nationally representative surveys</title>
+		<author>
+			<persName><forename type="first">Omr</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cegolon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Macleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Benova</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pmed.1001972</idno>
+		<ptr target="https://doi.org/10.1371/journal.pmed.1001972" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Med</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,489.93,208.86,6.62;14,319.75,498.94,180.18,6.62;14,319.75,507.90,206.84,6.62;14,319.75,516.92,160.72,6.62" xml:id="b21">
+	<monogr>
+		<ptr target="https://www.hpsc.ie/a-z/microbiologyantimicrobialresistance/infectioncontrolandhai/surveillance/surgicalsiteinfectionsurveillance/reports/File,13907,en.pdf" />
+		<title level="m">Annual report 2010 Wexford Caesarean Section Surgical Site Infection Surveillance Wexford General Hospital</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,526.21,209.92,6.62;14,319.75,535.17,206.68,6.62;14,319.75,544.19,135.60,6.62" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A review of post-caesarean infectious morbidity: how to prevent and treat</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Briscoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Haas</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01443615.2017.1394281</idno>
+		<ptr target="https://doi.org/10.1080/01443615.2017.1394281" />
+	</analytic>
+	<monogr>
+		<title level="j">J Obstet Gynaecol</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,553.43,209.21,6.62;14,319.75,562.44,78.14,6.62" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Sepsis and maternal mortality</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Acosta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knight</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Obstet Gynecol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="109" to="116" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,571.74,214.51,6.62;14,319.75,580.69,209.44,6.62" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Thermographic mapping of the abdomen in healthy subjects and patients after enterostoma</title>
+		<author>
+			<persName><forename type="first">Rcj</forename><surname>Siah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Childs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Woundcare</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="112" to="120" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,589.99,203.08,6.62;14,319.75,598.95,183.69,6.62;14,319.75,607.96,176.57,6.62" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Thermal territories of the abdomen after caesarean section birth: infrared thermography and analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Childs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Siraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Selvan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Soltani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wilmott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Farrell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Woundcare</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="499" to="512" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,617.20,213.34,6.62;14,319.75,626.22,216.59,6.62;14,319.75,635.23,205.74,6.62" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">CDC Definitions of Nosocomial Surgical Site Infections, 1992: A Modification of CDC Definitions of Surgical Wound Infections</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Horan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Gaynes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Martone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Jarvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Emor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Control Hosp Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="606" to="608" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,644.47,225.12,6.62;14,319.75,653.49,217.52,6.62;14,319.75,662.50,41.61,6.62" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Atlas of pelvic surgery: Pfannenstiel incision</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Wheeles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Roennenberg</surname></persName>
+		</author>
+		<ptr target="http://www.atlasofpelvicsurgery.com/9AbdominalWall/1PfannenstielIncision/cha9sec1.html" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,671.74,228.33,6.62" xml:id="b28">
+	<monogr>
+		<ptr target="http://www.nhsconfed.org/resources/key-statistics-on-the-nhs" />
+		<title level="m">NMHS Confederation</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,681.04,207.79,6.62;14,319.75,690.00,214.74,6.62;14,319.75,699.01,195.82,6.62;14,319.75,708.03,85.11,6.62" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Frequency of surgical treatment and related hospital procedures in the UK: a national ecological study using hospital episode statistics</title>
+		<author>
+			<persName><forename type="first">Tef</forename><surname>Abbott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Fowler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Dobbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gillies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pearse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BJA: Br J Anaesthesia</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="249" to="257" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,310.06,717.27,220.29,6.62;14,319.75,726.28,134.17,6.62" xml:id="b30">
+	<monogr>
+		<author>
+			<persName><forename type="first">Public</forename><surname>Health</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">England</forename></persName>
+		</author>
+		<title level="m">Surveillance of Surgical Site Infections in NHS Hospitals in England</title>
+		<imprint>
+			<date type="published" when="2016-03">2017. April 2016 to March 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,90.30,205.09,6.62;15,71.72,99.26,217.45,6.62;15,71.72,108.27,43.34,6.62" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The measurement and monitoring of surgical adverse events</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bruce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mollison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Krukowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Technology Assessment</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="22" to="129" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,117.29,214.77,6.62;15,71.72,126.30,212.42,6.62;15,71.72,135.26,190.07,6.62;15,71.72,144.27,210.88,6.62;15,71.72,153.29,71.26,6.62" xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Director-General of the World Health Organisation: keynote address at the conference on Combating antimicrobial resistance: time for action Copenhagen</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chan</surname></persName>
+		</author>
+		<ptr target="http://www.who.int/dg/speeches/2012/amr_20120314/en/" />
+		<imprint>
+			<date type="published" when="2012-03-14">14 March 2012</date>
+			<pubPlace>Denmark</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Antimicrobial resistance in the European Union and the world</note>
+</biblStruct>
+
+<biblStruct coords="15,62.03,162.30,209.94,6.62" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The antibiotic resistance crisis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ventola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phar Ther</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="277" to="283" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,171.26,202.92,6.62;15,71.72,180.27,198.41,6.62;15,71.72,189.29,214.45,6.62;15,71.72,198.30,43.74,6.62" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Infectious postoperative complications decrease long-term survival in patients undergoing curative surgery for colorectal cancer</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Artinyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Orcutt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Anaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Berger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Surg</title>
+		<imprint>
+			<biblScope unit="volume">261</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="497" to="505" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,207.26,224.94,6.62;15,71.72,216.27,218.71,6.62;15,71.72,225.29,43.59,6.62" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Determining risk factors for surgical wound dehiscence: a literature review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sandy-Hodgetts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Carville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Leslie</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.12088</idno>
+		<ptr target="https://doi.org/10.1111/iwj.12088" />
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,234.30,209.69,6.62;15,71.72,243.26,208.01,6.62;15,71.72,252.27,209.35,6.62;15,71.72,261.29,174.04,6.62" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Improved detection of clinically relevant wound bacteria using autofluorescence image-guided samplingin diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ottolino-Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chamma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Blackmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lindvere-Teene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Starr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tapang</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.12717</idno>
+		<ptr target="https://doi.org/10.1111/iwj.12717" />
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="833" to="834" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,270.30,189.18,6.62;15,71.72,279.26,213.68,6.62;15,71.72,288.27,179.88,6.62;15,71.72,297.29,197.59,6.62;15,71.72,306.30,100.79,6.62" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Antimicrobial stewardship in wound care: a Position Paper from the British Society for Antimicrobial Chemotherapy and European Wound Management Association</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Lipsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dryden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gottrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nathwani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Seaton</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Stryja</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jac/dkw287</idno>
+		<ptr target="https://doi.org/10.1093/jac/dkw287" />
+	</analytic>
+	<monogr>
+		<title level="j">J Antimicrob Chemother</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="3026" to="3035" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,315.26,204.97,6.62;15,71.72,324.27,199.40,6.62;15,71.72,333.29,197.00,6.62;15,71.72,342.30,158.36,6.62" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Anaerobic bacteria in clinical specimensfrequent, but a neglected lot: a five year experience at a tertiary care hospital</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Shenoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vishwanath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gawda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shetty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Anegundi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Varma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mukhopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chawla</surname></persName>
+		</author>
+		<idno>DC44-C-DC48</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Diagnostic Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,351.26,218.69,6.62;15,71.72,360.27,211.09,6.62;15,71.72,369.29,187.03,6.62" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">The value of thermography in the early diagnosis of postoperative sternal wound infections. Thorac, Cardiovasc Surgeon</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Robicesk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Master</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Daugherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Selle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vajtai</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984">198. 1984</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="260" to="262" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,378.30,222.90,6.62;15,71.72,387.26,206.93,6.62" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Infrared camera assessment of skin surface temperature-effect of emissivity</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Staffa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mornstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bourek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physica Medica</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="583" to="559" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,396.27,222.46,6.62;15,71.72,405.29,194.30,6.62" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Blood flow, temperature and heat loss of skin exposed to local radiative and convective cooling</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Nilsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="586" to="593" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,414.30,225.96,6.62;15,71.72,423.26,210.51,6.62;15,71.72,432.27,208.98,6.62;15,71.72,441.29,182.24,6.62" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A multicentre study of the validity and reliability of responses to hand cold challenge as measured by laser speckle contrast imaging and thermography</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Leggett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Marjanovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/art.40457</idno>
+		<ptr target="https://doi.org/10.1002/art.40457" />
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,450.30,227.82,6.62;15,71.72,459.26,218.10,6.62" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Increased thermal body insulation: relationship to the development of obesity</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jequier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P-H</forename><surname>Gygax</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pittet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vannotti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="674" to="678" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,468.27,222.35,6.62;15,71.72,477.29,212.65,6.62;15,71.72,486.30,25.19,6.62" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Adiposity and human regional body temperature</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Savastano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Gorbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Eden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Yanovski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Clin Nutr</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="1124" to="1131" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,495.26,226.81,6.62;15,71.72,504.27,204.74,6.62;15,71.72,513.28,34.23,6.62" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Central neural control of thermoregulation and brown adipose tissue</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Morrison</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.autneu.2016.02.010</idno>
+		<ptr target="https://doi.org/10.1016/j.autneu.2016.02.010" />
+	</analytic>
+	<monogr>
+		<title level="j">Auton Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">196</biblScope>
+			<biblScope unit="page" from="14" to="24" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,522.30,215.58,6.62;15,71.72,531.26,209.44,6.62;15,71.72,540.27,147.70,6.62" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Responses in acral and non-acral skin vasomotion and temperature during lowering of ambient temperature</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vanggaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Lossius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Walløe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Bergersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Therm Biol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="168" to="174" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,549.28,205.83,6.62;15,71.72,558.30,196.88,6.62;15,71.72,567.26,215.26,6.62;15,71.72,576.27,186.06,6.62" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Thermal mapping, analysis and interpretation in medicine</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Selvan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Childs</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-981-10-3147-2_21</idno>
+		<ptr target="https://doi.org/10.1007/978-981-10-3147-2_21" />
+	</analytic>
+	<monogr>
+		<title level="j">Application of Infrared to Biomedical Sciences</title>
+		<editor>
+			<persName><forename type="middle">E Y K</forename><surname>Bioengineering</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Ng</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Etehadtavakol</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.03,585.28,227.84,6.62;15,71.72,594.30,212.32,6.62;15,71.72,603.26,199.34,6.62;15,71.72,612.27,121.26,6.62" xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Tackling drug resistant infections globally. Final report and recommendations. The review of antimicrobial resistance</title>
+		<author>
+			<persName><forename type="middle">Wellcome</forename><surname>Hm Government</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Trust</surname></persName>
+		</author>
+		<ptr target="https://amr-review.org/sites/default/files/160518" />
+		<editor>Jim O&apos;Neill</editor>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>_Final%20paper_with%20cover.pdf</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

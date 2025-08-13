@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Prevalence of chronic wounds in the general population: systematic review and meta-analysis of observational studies</title>
+				<funder>
+					<orgName type="full">Agency for Science, Technology and Research (A*STAR)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Lee Kong Chian School of Medicine at the Nanyang Technology University</orgName>
+					<orgName type="abbreviated">NTU</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2018-11-12">12 November 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>MD a ,</roleName><forename type="first">Laura</forename><surname>Martinengo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="institution" key="instit1">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>RN, MPH a ,</roleName><forename type="first">Maja</forename><surname>Olsson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="institution" key="instit1">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Ram</forename><surname>Bajpai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="institution" key="instit1">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, PhD</roleName><forename type="first">Michael</forename><surname>Soljak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="institution" key="instit1">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Zee</forename><surname>Upton</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Medical Biology</orgName>
+								<orgName type="department" key="dep2">Agency for Science, Technology and Research (A*STAR)</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Lee Kong Chian School of Medicine</orgName>
+								<address>
+									<settlement>Dermatology</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, PhD</roleName><forename type="first">Artur</forename><surname>Schmidtchen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Lee Kong Chian School of Medicine</orgName>
+								<address>
+									<settlement>Dermatology</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Division of Dermatology</orgName>
+								<orgName type="department" key="dep2">Department of Clinical Sciences</orgName>
+								<orgName type="department" key="dep3">Biomedical Center B14</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biomedical Sciences</orgName>
+								<orgName type="institution" key="instit1">Copenhagen Wound Healing Center</orgName>
+								<orgName type="institution" key="instit2">Bispebjerg Hospital</orgName>
+								<orgName type="institution" key="instit3">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>MD, PhD</roleName><forename type="first">Josip</forename><surname>Car</surname></persName>
+							<email>josip.car@ntu.edu.sg</email>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="institution" key="instit1">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Department of Primary Care and Public Health</orgName>
+								<orgName type="department" key="dep2">School of Public Health</orgName>
+								<orgName type="laboratory">Global eHealth Unit</orgName>
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">€</forename><surname>Krister</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><surname>Arbrink</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="institution" key="instit1">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Centre for Population Health Sciences (CePHaS)</orgName>
+								<orgName type="institution" key="instit1">Lee Kong Chian School of Medicine</orgName>
+								<orgName type="institution" key="instit2">Nanyang Techno-logical University</orgName>
+								<address>
+									<addrLine>Clinical Sciences Building 11 Mandalay Road</addrLine>
+									<postCode>308232</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Prevalence of chronic wounds in the general population: systematic review and meta-analysis of observational studies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-11-12">12 November 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8EF0AFBBB1AA20D5A0F20CA4E9C59208</idno>
+					<idno type="DOI">10.1016/j.annepidem.2018.10.005</idno>
+					<note type="submission">Received 13 November 2017 Accepted 17 October 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Chronic wounds Complex wounds Hard-to-heal ulcers Meta-analysis Prevalence Systematic review</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Purpose: Chronic wounds are a major public health challenge, but little is known about the true burden with studies reporting different estimates because of disparities in study designs and measurement methods. This hampers efficient resource allocation, planning, and improvement of wound care. Methods: Our study aimed to pool prevalence estimates from a global perspective by systematically carrying out searches in MEDLINE, EMBASE, Cochrane, CINAHL, Global Health, and PsycINFO databases for articles reporting the prevalence of chronic wounds in adults, from January 2000 to June 2018. The included publications had to define wound chronicity by duration (!3 weeks), and/or labeling the wounds as chronic, complex, or hard-to-heal. Results: Seventeen studies met the inclusion criteria, and 11 studies analyzing chronic wounds in the general population were included in random effects meta-analyses to calculate pooled prevalence. Chronic wounds of mixed etiologies (n ¼ 3) showed a pooled prevalence of 2.21 per 1000 population, and for chronic leg ulcers (n ¼ 9), the prevalence was estimated at 1.51 per 1000 population. Conclusions: Our findings, aligned to previous studies reporting point prevalence of chronic wounds identified within the healthcare system, showed that the vast majority of chronic wounds in epidemiological studies are made up by chronic leg ulcers.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Skin diseases are a growing problem worldwide. The global burden for skin and subcutaneous diseases has increased rapidly over a 10-year period, with a prevalence of 605,036,000 in year 2015 compared to 492,883,000 in 2005 based on global, regional, and national data from over 195 countries and territories reported by the Global Burden of Disease (GBD) study <ref type="bibr" target="#b0">[1]</ref>. Even though there are subcategories within the broad "skin and subcutaneous diseases," specific prevalence data for chronic wounds are inadequate, and seldom presented separately <ref type="bibr" target="#b0">[1]</ref>; hence, no global prevalence data are available for chronic wounds. Estimating wound prevalence is challenging, as there is no agreement or recognized distinction between acute and chronic wounds or a clear preestablished consensus for chronicity <ref type="bibr" target="#b1">[2]</ref>. A commonly used definition, labeling chronic wounds as wounds that fail "to proceed through an orderly and timely process to produce anatomic and functional integrity" <ref type="bibr" target="#b2">[3]</ref>, does not specify any timeframe for the healing or at what time point the wound becomes chronic. This absence of a coherent and systematic classification introduces difficulties in calculating reliable pooled prevalence estimates unambiguously for chronic wounds in the general population across studies and hinders improvement efforts.</p><p>Although there are several studies from different levels of care (e.g., hospitals, community care, and nursing homes) from countries across the world [4e7], wounds are in many aspects an underreported health issue <ref type="bibr" target="#b7">[8]</ref>; despite the fact that they are associated with significant costs [9e11], they have become a major challenge to healthcare systems worldwide <ref type="bibr" target="#b11">[12]</ref>. To have accurate prevalence estimates for chronic wounds, it is fundamental to understand the disease burden, inform decision makers <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>, and improve planning and the delivery of health services <ref type="bibr" target="#b13">[14]</ref>. For example, a high prevalence of chronic wounds will demand more nurses with wound-care expertise, or it could aid in allocating resources to target the most pressing health problems in the area <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>. Prevalence estimates for chronic wounds could potentially make healthcare service provision more cost-efficient when incorporated in health economic evaluations exploring how to reduce costs <ref type="bibr" target="#b14">[15]</ref>.</p><p>To accurately assess the prevalence of chronic wounds is problematic because of disparities in study design and how health conditions are defined and measured <ref type="bibr" target="#b15">[16]</ref>. Factors that limit comparability of prevalence studies are heterogeneous study design and lack of clear definitions <ref type="bibr" target="#b13">[14]</ref>. These obstacles hamper accurate comparability and calculations of pooled estimates for chronic wounds. This is likely a plausible reason why to date there have been no comprehensive systematic review with a metaanalysis exploring the global magnitude of the condition. The aim of this systematic review is to make an attempt to pool a prevalence estimate for chronic wounds globally within the general population based on existing literature and by applying a clear definition of chronicity (duration and/or wounds labeled as chronic).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Search strategies</head><p>This systematic review followed the Preferred Reporting Items for Systematic Review and Meta-Analysis (PRISMA) guidelines <ref type="bibr" target="#b16">[17]</ref>. The protocol was published and registered with PROSPERO (CRD42016037355) <ref type="bibr" target="#b17">[18]</ref>. The search strategy was developed by the research team in collaboration with experienced medical research librarians at Lee Kong Chian School of Medicine and Karolinska Institutet. An initial search was carried out in March 2016 covering MEDLINE (Ovid), EMBASE (Ovid), EBM Reviews and Cochrane Database of Systematic reviews (Ovid), Cumulative Index to Nursing and Allied Health Literature (CINAHL), (EBSCO), PsycINFO (EBSCO), and Global Health (EBSCO) databases for articles published from January 2000 through December 2015. An additional search was also performed in August 2016 to incorporate the newly developed term "pressure injury". In June 2018, we updated the search to include studies published from January 2016, using the original strategy with the addition of "pressure injury". The reference lists of all included articles were also searched for other sources of information <ref type="bibr" target="#b17">[18]</ref>.</p><p>For this review, chronic wounds were defined as those with a duration of 3 weeks or longer or if the wound was referred to as chronic, hard-to-heal, or complex, even when there was no mentioning of duration. This definition was deemed appropriate as there is no preestablished consensus for chronicity <ref type="bibr" target="#b1">[2]</ref>, and previous literature has suggested that wounds that do not reduce size after 2 to 4 weeks are likely to become chronic <ref type="bibr">[19e21]</ref>. This rather generous cut-off for duration allowed us to comprehensively capture a substantial amount of publications presenting prevalence data for chronic wounds.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inclusion and exclusion criteria</head><p>All included articles had to present prevalence estimates of chronic wounds in adults within the general population. We included articles referring to chronic wounds in the categories of venous ulcers, arterial ulcers, diabetic ulcers, and pressure ulcers. Studies had to be of a cross-sectional or cohort design, published in peer-reviewed journals, in English and available as full text publications. We excluded studies on chronic wounds of other etiologies, for example, injuries due to trauma, infections, autoimmune diseases, surgical wounds, and skin tumors that due to size and malignity require a longer time to heal. Randomized controlled trials, case studies, reviews, editorials, and abstracts were excluded, as well as studies that presented prevalence estimates of specific subsets of populations such as the terminally ill, patients with spinal cord injuries, or patients in special care units.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study selection, data extraction, and quality assessment</head><p>Two reviewers screened titles and abstracts independently to identify studies for potential inclusion. The full text of these articles was retrieved and reviewed by two investigators to ensure compliance with the eligibility criteria. Studies excluded in this step were listed with the reason for their exclusion. We also searched the bibliographic references of all included articles for additional studies. The selection process for articles was summarized in a flow chart. Information about study details (e.g., title, journal, author, year, country), study design (type of study, aims, method for data collection, response rate, recruitment, sample methods, and inclusion/exclusion criteria), participants' characteristics (number of persons surveyed, population characteristics, i.e., setting, age, gender, ethnicity, demographics), specific wound data and complications (diagnostic methods, ulcer specifications including stage), and prevalence, or sufficient information to calculate an estimate of the prevalence was extracted for each article by two reviewers. This information was collected in an electronic data extraction form that was previously piloted and reviewed by a panel of systematic reviews experts. The included articles were quality assessed using the Joanna Briggs Institute (JBI) critical appraisal checklist for studies reporting prevalence data <ref type="bibr" target="#b21">[22]</ref> by two reviewers. The tool evaluated the following: sample frame, sampling methods, sample size, description of setting, sufficient coverage for data analysis, objective and reliable methods for identifying the condition, appropriate statistical analysis, and adequate response rate. The tool appraises each domain as Yes/No/Unclear/Not applicable. We assigned a value 1 to a Yes answer and a value 0 if the answer was No/Unclear/Not Applicable. A higher score denotes a higher quality study, with a maximum attainable score of 9. As the appraisal tool does not give a specific definition of an acceptable quality, we defined as acceptable quality scores equal to or higher than five. In all stages of this process, discrepancies between reviewers were resolved by consensus or, if not, resolved by arbitration by a third reviewer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data synthesis and statistical analyses</head><p>Prevalence was calculated for all chronic wounds regardless of the etiology and for the leg ulcers subgroup. Prevalence was calculated as the ratio between the total number of reported ulcer cases over the total study population and presented as the number of cases per 1000 population. Random-effects meta-analysis, using DerSimonian and Laird method <ref type="bibr" target="#b22">[23]</ref>, was employed on individual study estimates to obtain a crude summary estimate for prevalence. Standard errors and 95% confidence intervals (CI) were determined from the reported crude estimates and population denominators, assuming exact binominal distribution as described by Clopper and Pearson <ref type="bibr" target="#b23">[24]</ref>. Heterogeneity between studies was assessed using the c 2 -based Cochran's Q statistic and I-squared (I 2 ) statistics (&gt;50% representing moderate heterogeneity) <ref type="bibr" target="#b24">[25]</ref>, and a subgroup analysis was conducted to identify potential sources of heterogeneity. A prediction interval for the random-effects distribution was also calculated to understand the possible range of ulcer prevalence if a new study is conducted as suggested by Higgins and Thompson <ref type="bibr" target="#b25">[26]</ref>. Publication bias was assessed by funnel plot and its asymmetry was tested by Egger's linear regression method <ref type="bibr" target="#b26">[27]</ref> (P &lt; .10 was considered as significant). The influence of studies on overall results was graphically assessed by Baujat's plot <ref type="bibr" target="#b27">[28]</ref>. Because of demographic and epidemiological transitions, it is understandable that the prevalence rates of ulcers may vary with the mean age of patients and the time the study was carried out. Therefore, with the limited data, a univariate and multivariate meta-regression analysis was conducted using maximum likelihood method for age and year of study (P &lt; .10 considered significant given the low power of these tests). A P value of &lt;.05 was considered statistically significant for the effect of study-level covariates on the estimated prevalence <ref type="bibr" target="#b28">[29]</ref>. All statistical analyses were conducted on R software (Version 3.3.2) using "meta" package <ref type="bibr" target="#b29">[30]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The systematic search returned a total of 5805 publications after excluding duplicates. A subsequent search for "pressure injury" returned a total of 213 unique references, producing an overall total of 6018 articles. After excluding irrelevant articles based on titles and abstracts, 716 articles remained for full text examination. Unrelated articles not fulfilling our inclusion criteria were discarded, and two articles from manual searches of the included articles reference lists were added, summing up to 15 remaining articles (Fig. <ref type="figure">1</ref>). The updated search in year 2018 yielded yet another two articles, for a final grand total of 17 articles included in the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quality assessment</head><p>The quality assessment indicated that most included studies were of acceptable quality. The average score was 6.6 points (range 5e9, with higher scores denoting higher quality articles), where the best scores were associated with sampling, sample frame, methods for sampling, and sample size. All studies used appropriate sampling strategies for the targeted populations (i.e., surveyed healthcare settings that were probable to treat wound patients), presented sufficient sample sizes, and most articles described the study settings in detail. The lowest scores were obtained in the questions referring to methods to assess the condition (correct diagnosis and staging of chronic wounds) and the appropriateness of the statistical analysis used. A summary of the quality assessment is included as Additional File 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characteristics of included studies</head><p>Seventeen studies conducted in 13 different countries reported prevalence of chronic wounds of various etiologies.  <ref type="table" target="#tab_1">1</ref> and<ref type="table" target="#tab_2">2</ref>.</p><p>In the studies presenting leg ulcers, the main reported underlying etiology was venous disease <ref type="bibr">[32e38,40]</ref>. However, one article investigating hospital settings reported diabetes as the main etiology for leg ulcers <ref type="bibr" target="#b41">[42]</ref>. Another study assessing leg ulcers specified foot ulcers as a subgroup and stated diabetes as the most common origin for this group <ref type="bibr" target="#b34">[35]</ref>. Four studies presented various types of chronic wounds, for example, leg ulcers, pressure ulcers, diabetic foot ulcers, and mixed chronic ulcers <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b42">43]</ref>.</p><p>Six studies presented chronic wounds prevalence solely from specific settings: patients in home care <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>, hospitals <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b45">46]</ref>, and a hospital-based diabetes clinic <ref type="bibr" target="#b46">[47]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prevalence stratified by sex and age</head><p>All included studies except for three <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b45">46]</ref> presented chronic wound prevalence estimates stratified by sex. Chronic wounds were more prevalent in women (range: 53%e68%), except in one hospital-based study from China where the proportion of chronic wounds was higher among men (64%) <ref type="bibr" target="#b41">[42]</ref>.</p><p>Regarding age, most studies reported rather similar mean/median ages (around 70e80 years of age), with the exception of one study from Egypt on prevalence of diabetic foot ulcers that reported a mean age of 50 years <ref type="bibr" target="#b46">[47]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Meta-analyses for chronic wounds</head><p>Eleven studies were included in the meta-analysis. All included studies presented prevalence data in the general population [31e41]. The test for consistency across studies revealed substantial heterogeneity (I 2 ¼ 100%; P &lt; .01). The meta-analysis estimated a total prevalence of chronic wounds of 1.67 per 1000 population (C.I.: 0.83e2.80). Subgroup analyses based on the type of wounds revealed a combined prevalence of 2.21 per 1000 population (C.I.: 0.56e4.94) for studies reporting ulcers of more than one etiology <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b40">41]</ref>. The meta-analysis of studies reporting prevalence of leg ulcers [31e39] computed a prevalence of 1.51 per 1000 population (C.I.: 0.24e3.84) (Fig. <ref type="figure">2</ref>). The I 2 value for leg ulcer subgroup was found to be 100% (P &lt; .01), indicating the presence of substantial heterogeneity between studies. The estimated prevalence between chronic ulcers of different etiologies and leg ulcers was not statistically significant (P ¼ .625). The prediction interval (C.I.: 0.00e8.16 per 1000 population) showed the confidence band of estimated prevalence for future population-based observational studies on chronic wounds. The weights of the studies reported from random effect model ranged from 25% for studies with ulcers of more than one etiology, and 75% for studies with leg ulcers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Meta-regression analysis</head><p>The overall association between the pooled prevalence of chronic wounds, mean reported age (years), and year of reporting was assessed by univariate and multivariate mixed-effect meta-regression analysis. The estimated effect of age and reporting year was not found to be statistically significant in univariate (age, P ¼ .102; year of reporting, P ¼ .449) and in multivariate regression analyses (age, P ¼ .156; reporting year, P ¼ .814) (see Supplementary Figs. <ref type="figure">1</ref> and<ref type="figure">2</ref> for bubble plots). The overall analysis indicated a negligible impact of age and year of reporting on the estimated prevalence of chronic wounds in general population.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publication bias</head><p>We used funnel plots (Fig. <ref type="figure" target="#fig_0">3</ref>) to assess publication bias. In the figure, the vertical line represents the summary estimate of the chronic wound prevalence. The diagonal lines represent the 95% confidence limits around the summary treatment effect. These show the expected distribution of studies in the absence of heterogeneity or selection biases. The funnel plot was asymmetric and indicated there might be missing studies. The funnel plot asymmetry was assessed by Egger's linear regression test that showed Fig. <ref type="figure">2</ref>. Forest plot (pooled prevalence of chronic and leg ulcers per 1000 population).</p><p>significant publication bias (slope ¼ 0.08, t ¼ À4.38, P &lt; .01). The overall influence of included studies on heterogeneity was assessed by Baujat plot, which indicated half of the studies were the larger contributors of the reported heterogeneity (Supplementary Fig. <ref type="figure" target="#fig_0">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This study, applying a clear definition for chronicity, provides a conservative estimate of the prevalence of chronic wounds from a global perspective.</p><p>Eleven of the 17 included studies presented chronic wounds prevalence in the general population. Of these, two studies included ulcers of various etiologies, eight studies reported leg ulcers, and one study presented the prevalence of chronic wounds of various etiologies and leg ulcers. These studies were incorporated in meta-analyses. Ulcers of various etiologies had a pooled prevalence of 2.21 per 1000 population; however, because of the small number of included studies, this result should be considered with caution. The pooled prevalence of nine studies reporting leg ulcers was estimated at 1.51 per 1000 population. Our results are generally aligned to previous studies reporting point prevalence of chronic wounds identified within the healthcare system <ref type="bibr" target="#b47">[48,</ref><ref type="bibr" target="#b48">49]</ref>, although they differ from studies reporting lifetime prevalence of chronic ulcers that tend to be approximately 10 per 1000 population <ref type="bibr" target="#b47">[48,</ref><ref type="bibr" target="#b49">50]</ref>. Given that all included studies presented prevalence of wounds detected within the healthcare system, self-treated cases were not reported.</p><p>Although we aimed to estimate the global prevalence of chronic wounds, our study mainly consisted of publications from developed countries (82%), with only three articles from developing countries. These articles reported setting-specific prevalence of chronic wounds <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b46">47]</ref>, and none were included in our metaanalysis. The dearth of epidemiology data from low-income countries was also revealed in a previous prevalence review for chronic wounds by Graves et al. <ref type="bibr" target="#b6">[7]</ref>, which presented only two papers from developing countries out of 69 included articles.</p><p>Global prevalence estimates of chronic wounds, including high-quality studies from developing countries, are urgently needed to understand geographical and ethnic variations in prevalence <ref type="bibr" target="#b50">[51]</ref>, as well as the leading etiology in each region. Previous reports from developing countries in the tropics show that chronic wounds are usually secondary to chronic infectious diseases like leprosy or tuberculosis <ref type="bibr" target="#b51">[52]</ref> and burns <ref type="bibr" target="#b5">[6]</ref>, but with the rising prevalence of diabetes, the prevalence of chronic wounds is also increasing <ref type="bibr" target="#b52">[53]</ref>. This information can be used as guidance when planning for healthcare services and provision of treatments globally <ref type="bibr" target="#b53">[54]</ref>. Obtaining wound data on a population level in developing countries is, however, problematic because of several limitations, for example, lack of healthcare information systems, limited access to adequate documentation records <ref type="bibr" target="#b54">[55]</ref>, workforce shortages impeding detailed documentation, and the ability to participate in surveys about prevalence <ref type="bibr" target="#b55">[56]</ref>. In some developing countries, epidemiology data for chronic wounds have been collected in hospitals <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b56">57]</ref>, but these appear insufficient to estimate the prevalence in the general population <ref type="bibr" target="#b56">[57]</ref>. To estimate the global prevalence of chronic wounds accurately, future studies must obtain comprehensive data from developing countries as well as developed ones. Accurate prevalence data on chronic wounds is currently deficient even though Global Burden of Disease studies have assessed the burden of skin diseases quite comprehensively <ref type="bibr" target="#b57">[58,</ref><ref type="bibr" target="#b58">59]</ref>. In regard to chronic wounds, studies fail to address them as a separate category, and presumably include them in the subgroup "Other skin and subcutaneous diseases," with the exception of pressure (decubitus) ulcers that are presented as a standalone subgroup <ref type="bibr" target="#b57">[58,</ref><ref type="bibr" target="#b58">59]</ref>. Hay et al. <ref type="bibr" target="#b58">[59]</ref> in their study on the global burden of skin disease in 2010 included data from 187 countries and showed that "Other skin and subcutaneous diseases" was the fifth most prevalent disease globally. There is no description of the skin diseases that populate this group or of the relative contribution to each group in the final calculation of prevalence. The data on decubitus ulcers showed highly variable prevalence rates across regions, fluctuating from 0.168 cases per 1000 population in Central American females to 2.324 cases per 1000 population in North African and Middle Eastern females <ref type="bibr" target="#b58">[59]</ref>. This shows the magnitude of skin diseases but also confirms the lack of specific epidemiology data for chronic wounds, leaving a huge gap in global skin research. The complexities associated with a lack of clear diagnosis and uniform methods for measuring and categorizing chronic wounds (e.g., diverse duration thresholds for wound chronicity) make it challenging to accurately explore and estimate the condition across countries, often resulting in under-reporting <ref type="bibr" target="#b50">[51]</ref>. However, in exploring the global burden of chronic wounds, it is urgent to assess prevalence in both developed and developing countries <ref type="bibr" target="#b50">[51,</ref><ref type="bibr" target="#b53">54]</ref>.</p><p>Regarding study quality, none of the included studies employed a random sampling strategy. All prevalence cases included were sampled from patients already within the healthcare system so under-reporting is likely. Although chronic wounds are often cared for within the healthcare system, efforts should be made to capture those patients caring for their wounds themselves. Other strategies, including door-to-door surveys, could be considered to capture all patients with a chronic wound, within and outside the healthcare system, for example, in rural areas <ref type="bibr" target="#b51">[52]</ref>. Furthermore, no study reported the differences between characteristics for included and nonincluded participants; this could also introduce a nonresponse bias.</p><p>This study is not without limitations. First, although we tried to develop a comprehensive search strategy including all ulcer categories, and as many variations of the terminology, that included running a supplementary search when informed of the newly incorporated term "pressure injury," we may have inadvertently missed relevant studies.</p><p>Second, this systematic review and meta-analysis attempted to pool estimates for global chronic wound prevalence observed a large statistical variability (I 2 value). Examining the heterogeneity of included studies is a crucial part of a meta-analysis as observational studies are prone to biases because of various clinical and methodological designs such as inclusion criteria, definition of chronicity, and sampling strategies. The result of a meta-analysis should therefore be viewed as an approximation of the actual prevalence and be interpreted with caution. However, statistical heterogeneity due to differences in methods and/or assessment or definitions of chronic wounds across studies suggests the use of different measurement methods but do not necessarily indicate that the true prevalence varies. In this sense, the prediction interval can be helpful to map the range of actual prevalence in future studies. Sources of heterogeneity in this review could likely be linked to the use of nonstandardized methods across studies and various procedures for data collection. Third, the diversity of assessment methods for chronic wounds makes it difficult to capture prevalence data across studies and countries, hence impedes a robust global estimate <ref type="bibr" target="#b47">[48]</ref>. Various definitions for chronicity (a couple of weeks up to several months) and the lack of standardized diagnostic methods, for example, leg ulcers, should ideally be confirmed by noninvasive methods such as Doppler, which introduces biases leading to either underestimations or overestimations of the existence of chronic wounds <ref type="bibr" target="#b47">[48,</ref><ref type="bibr" target="#b59">60]</ref>. This becomes problematic when ulcers are multifactorial or when prevalence studies present leg ulcers of various etiologies (e.g., diabetic foot ulcers and leg ulcers) clustered together and presented as leg ulcers <ref type="bibr" target="#b49">[50]</ref>. Reliable and accurate prevalence data for chronic wounds according to etiologies are of paramount importance when planning for proper treatment because different underlying causes of wounds demand different treatments and intervention strategies <ref type="bibr" target="#b59">[60]</ref>.</p><p>To conclude, our findings showed that the vast majority of chronic wounds are made up by chronic leg ulcers. However, prevalence studies with clear definitions of chronicity and comparable estimates are urgently needed to understand the magnitude of chronic wounds and to globally assess their prevalence.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Funnel plot with 95% confidence limits showing the prevalence (p) of ulcers in each study by the standard error (SE) of the studies.</figDesc><graphic coords="6,92.81,66.73,419.52,207.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,130.90,508.59,323.97,218.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>The included . Martinengo et al. / Annals of Epidemiology 29 (2019) 8e15studies were published between 2000 and 2017, and the majority were from European countries (65%). When the studies reported it, the patients' mean age ranged from 50 to 80 years of age. All studies reported prevalence for chronic wounds obtained during a limited period ranging from 1 day to 2 years. The total population covered across studies was 15,748,658 persons, of which 3,503,756 were patients in subgroup populations, for example, hospitalized patients only, etc. The total number of chronic wound cases was 141,311 (46,000 in subgroup populations). Most included patients (n ¼ 9,109,732) and wounds (n ¼ 91,723) were made up from one study from Germany assessing chronic wounds in the general population<ref type="bibr" target="#b30">[31]</ref>. The most commonly reported type of chronic wounds were leg ulcers (n ¼ 9) reported in 53% of the studies [31e39]. Five studies reported chronic wounds of various etiologies [40e43], three studies reported pressure ulcers [44e46], and one study assessed diabetic foot ulcers<ref type="bibr" target="#b46">[47]</ref>. Characteristics of the included studies are presented in Tables</figDesc><table><row><cell>Medline 2 722</cell><cell>EMBASE 1 487</cell><cell>Cochrane library 667</cell><cell>CINAHL 230</cell><cell>Global Health 917</cell><cell>PsychInfo 209</cell></row><row><cell cols="2">Pressure injury search</cell><cell cols="2">Initial search total</cell><cell></cell><cell></cell></row><row><cell>213</cell><cell></cell><cell>6 445</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Duplicates</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>427</cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="2">Total papers</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>6 018</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Excluded Title/abstract</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">5 302 (66 manual</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">duplicates)</cell></row><row><cell></cell><cell></cell><cell cols="2">Full-text articles</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>716</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Excluded 703</cell><cell></cell></row></table><note><p><p>Not wounds: 64 Excluded study design: 62 Manual duplicates: 2 Not prevalence/history of ulcers included: 119 Specific population: 137 Patients ≤18 y included: 32 Wound duration unknown/too short: 278 No full-text: 9 Manual search 2 Included 15 Included 17 Updated search (June'18) 2 Fig. 1. Flow chart to illustrate the selection process.</p>L</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Characteristics of studies included in the meta-analysis</figDesc><table><row><cell>Author (y)</cell><cell>Country</cell><cell>Wound type</cell><cell>Age (mean)</cell><cell>Total</cell><cell>No. of wound</cell><cell>Notes (time of data collection)</cell><cell>Reported</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>population</cell><cell>cases</cell><cell></cell><cell>prevalence</cell></row><row><cell>Clarke-Moloney</cell><cell>Ireland</cell><cell>Leg ulcers (&gt;1 mo)</cell><cell>75.5</cell><cell>339,591</cell><cell>382</cell><cell>Survey to nurses, patient seen</cell><cell>0.11%</cell></row><row><cell>et al 2006 [32]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(1 wk)</cell><cell></cell></row><row><cell>Hall et al 2014 [40]</cell><cell>United</cell><cell>Complex wounds defined as</cell><cell>~70 *</cell><cell>751,485</cell><cell>1,093 y</cell><cell>Ascertainment by healthcare</cell><cell>0.15%</cell></row><row><cell></cell><cell>Kingdom</cell><cell>"superficial-, partial-or full-</cell><cell></cell><cell></cell><cell></cell><cell>providers (2 wk)</cell><cell></cell></row><row><cell></cell><cell></cell><cell>thickness skin loss healing by</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>secondary intention"</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Heyer et al 2016 [31]</cell><cell cols="2">Germany Chronic wounds defined by</cell><cell>Mean/median</cell><cell>9,109,732</cell><cell>91,723</cell><cell>Register data from patients</cell><cell>1%</cell></row><row><cell></cell><cell></cell><cell>chronic wound diagnosis of any</cell><cell>not reported.</cell><cell></cell><cell></cell><cell>insured with the nationwide</cell><cell></cell></row><row><cell></cell><cell></cell><cell>wound etiology (ICD-10).</cell><cell>Range: 20e&gt;90</cell><cell></cell><cell></cell><cell>operating statutory health</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Stratified by ulcer types,</cell><cell></cell><cell></cell><cell></cell><cell>insurance provider (2 y)</cell><cell></cell></row><row><cell></cell><cell></cell><cell>diabetic foot ulcer, pressure</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>ulcer, and leg ulcer.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>McDermott-Scales</cell><cell>Ireland</cell><cell>Chronic open leg ulcers of</cell><cell>Mean: 69.3</cell><cell>133,562</cell><cell>179</cell><cell>Survey to nurses in community</cell><cell>0.13%</cell></row><row><cell>et al 2009 [41]</cell><cell></cell><cell>varying etiology located below</cell><cell></cell><cell></cell><cell></cell><cell>care settings. (1 random day)</cell><cell></cell></row><row><cell></cell><cell></cell><cell>the knee on the leg or foot</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>(&gt;4 wk), and other wounds or</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>skin injury resulting in tissue</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>damage</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Moffatt et al 2004 [33]</cell><cell>United</cell><cell>Open wounds on the leg</cell><cell>75</cell><cell>252,000</cell><cell>113</cell><cell>Ascertainment by healthcare</cell><cell>0.04%</cell></row><row><cell></cell><cell>Kingdom</cell><cell>excluding foot ulcers (&gt;4 wk)</cell><cell></cell><cell></cell><cell></cell><cell>professionals NHS (4 wk)</cell><cell></cell></row><row><cell>O'Brien et al 2000 [34]</cell><cell>Ireland</cell><cell>Open sore anywhere below the</cell><cell>72.3</cell><cell>317,069</cell><cell>374</cell><cell>Ascertainment by healthcare</cell><cell>0.12%</cell></row><row><cell></cell><cell></cell><cell>knee (&gt;4 wk)</cell><cell></cell><cell></cell><cell></cell><cell>professionals (2 mo)</cell><cell></cell></row><row><cell>Oien et al 2000 [35]</cell><cell>Sweden</cell><cell>Chronic leg and foot ulcers</cell><cell>79 z</cell><cell>151,610</cell><cell>316</cell><cell>Ascertainment by community</cell><cell>0.19%</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>and district nurses (1 wk)</cell><cell></cell></row><row><cell>Oien et al 2006 [36]</cell><cell>Sweden</cell><cell>Leg and foot ulcers</cell><cell>81 z</cell><cell>150,334</cell><cell>229</cell><cell>Ascertainment by community</cell><cell>0.15%</cell></row><row><cell></cell><cell></cell><cell>(hard-to-heal)</cell><cell></cell><cell></cell><cell></cell><cell>and district nurses (1 wk)</cell><cell></cell></row><row><cell cols="2">Palsdottir et al 2010 [37] Iceland</cell><cell>All ulcers below the</cell><cell>75.2</cell><cell>313,376</cell><cell>226</cell><cell>Ascertainment by healthcare</cell><cell>0.07%</cell></row><row><cell></cell><cell></cell><cell>knee (!6 wk)</cell><cell></cell><cell></cell><cell></cell><cell>(2 wk)</cell><cell></cell></row><row><cell>Pina et al 2005 [38]</cell><cell>Portugal</cell><cell>Open wounds on the</cell><cell>70.2</cell><cell>185,708</cell><cell>250</cell><cell>Ascertainment to health centers</cell><cell>0.13%</cell></row><row><cell></cell><cell></cell><cell>leg (&gt;4 wk)</cell><cell></cell><cell></cell><cell></cell><cell>(2 wk)</cell><cell></cell></row><row><cell>Walker et al 2002 [39]</cell><cell>New</cell><cell>Breaks in the skin on the lower</cell><cell>75 z</cell><cell>540,435</cell><cell>426</cell><cell>Ascertainment by community</cell><cell>0.08%</cell></row><row><cell></cell><cell>Zealand</cell><cell>leg (below the knee) or on the</cell><cell></cell><cell></cell><cell></cell><cell>and hospital-based health</cell><cell></cell></row><row><cell></cell><cell></cell><cell>foot (&gt;6 wk)</cell><cell></cell><cell></cell><cell></cell><cell>professionals or self-</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>notification (1 y)</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Characteristics of prevalence studies for chronic wounds in specific settings</figDesc><table><row><cell>Author (y)</cell><cell>Country</cell><cell>Type of wound</cell><cell>Age</cell><cell>Total</cell><cell>Sub population</cell><cell>No. of</cell><cell>Notes</cell><cell>Setting</cell><cell>Reported</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(mean)</cell><cell>population</cell><cell></cell><cell>wound cases</cell><cell></cell><cell></cell><cell>prevalence</cell></row><row><cell>Amir et al</cell><cell cols="3">Indonesia Pressure ulcers (&gt;3 mo) 55.6</cell><cell>d</cell><cell>No. of patients</cell><cell>8</cell><cell>Hospitals (1 d)</cell><cell>Only hospitals</cell><cell>0.70%</cell></row><row><cell>2017 [46]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>1132</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Barrois et al</cell><cell>France</cell><cell cols="2">Pressure ulcers (&gt;1 mo) Females 72.3</cell><cell>d</cell><cell>No. of patients:</cell><cell>1671</cell><cell>Both chronic and</cell><cell>Nonuniversity</cell><cell>4.48%</cell></row><row><cell>2008 [45]</cell><cell></cell><cell></cell><cell>Males 70.1</cell><cell></cell><cell>37,307</cell><cell></cell><cell>nonchronic</cell><cell>hospitals</cell><cell></cell></row><row><cell>El-Nahas et al</cell><cell>Egypt</cell><cell>Diabetic foot ulcers</cell><cell>50.47</cell><cell>d</cell><cell>1220</cell><cell>15</cell><cell>Outpatient diabetes</cell><cell>Specialist</cell><cell>1.2%</cell></row><row><cell>2008 [47]</cell><cell></cell><cell>(&gt;4 mo)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>clinic (over 1 y)</cell><cell>diabetes</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>outpatient</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>clinic</cell><cell></cell></row><row><cell>Jiang et al</cell><cell>China</cell><cell>A chronic wound was</cell><cell>d</cell><cell>d</cell><cell>1,488,201</cell><cell>2513</cell><cell>Hospitals (2 y)</cell><cell>Only hospitals</cell><cell>1.69%</cell></row><row><cell>2011 * [42]</cell><cell></cell><cell>defined as a defect in</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>the skin for example,</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>pressure, diabetic, and</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>venous wounds</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>(&gt;1 mo)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Rodrigues et al</cell><cell>Canada</cell><cell>Chronic wounds</cell><cell>68.5</cell><cell>d</cell><cell>34,857 (patients</cell><cell>488</cell><cell>Ascertainment by</cell><cell>Patients in</cell><cell>1.4%</cell></row><row><cell>2006 [43]</cell><cell></cell><cell>presented as pressure</cell><cell></cell><cell></cell><cell>in home care)</cell><cell></cell><cell>community and</cell><cell>home care</cell><cell></cell></row><row><cell></cell><cell></cell><cell>ulcers, venous ulcers,</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>home care nurses</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>and diabetic foot</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(2 mo)</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>wounds.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Schwien et al</cell><cell>United</cell><cell>Pressure ulcers</cell><cell>d</cell><cell>1,941,039</cell><cell>d</cell><cell>41,305</cell><cell>Database home</cell><cell>Home care</cell><cell>2.13%</cell></row><row><cell>2005 * [44]</cell><cell>States</cell><cell>(nonhealing)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>care setting</cell><cell>setting</cell><cell></cell></row></table><note><p>* Age not reported.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>* Mean of the total number of ulcers (including nonchronic). y 1093 refers to ulcers in people older than 18 years of age (contact with authors). z Age reported as median.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The research is funded by <rs type="funder">Lee Kong Chian School of Medicine at the Nanyang Technology University (NTU)</rs> and the <rs type="funder">Agency for Science, Technology and Research (A*STAR)</rs>. All authors have participated in conception and design, or analysis and interpretation of the data; drafting the article or revising it critically for important intellectual content; and approval of the final version.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary data</head><p>Supplementary data associated with this article can be found in the online version at https://doi.org/10.1016/j.annepidem.2018.10. 005.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,317.71,203.38,235.12,6.03;7,317.71,211.37,235.14,6.03;7,317.71,219.36,235.15,6.03;7,317.71,227.30,181.24,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990-2015: a systematic analysis for the Global Burden of Disease Study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Barber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Bhutta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">388</biblScope>
+			<biblScope unit="page" from="1545" to="e602" />
+			<date type="published" when="2015">2015. 2016. 10053</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,317.71,235.29,235.15,6.03;7,317.71,243.14,235.17,6.38;7,317.71,251.23,86.90,6.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Need for improved definition of &quot;chronic wounds&quot; in clinical studies</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Kyaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jarbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martinengo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Car</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schmidtchen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Derm Venereol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="157" to="e158" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,317.71,259.22,235.12,6.03;7,317.71,267.16,235.13,6.03;7,317.71,275.15,138.04,6.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Definitions and guidelines for assessment of wounds and evaluation of healing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lazarus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Knighton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Margolis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pecoraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rodeheaver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="165" to="e70" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,317.71,283.09,235.14,6.03;7,317.71,291.08,57.64,6.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The burden of chronic wounds in the UK</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Posnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nurs Times</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="44" to="e45" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,317.71,299.02,235.15,6.03;7,317.71,307.01,235.13,6.03;7,317.71,315.00,21.64,6.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The impact of telemedicine on outcomes of chronic wounds in the home care setting</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kobza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Scheurich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="48" to="e53" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,317.71,322.94,235.12,6.03;7,317.71,330.93,235.15,6.03;7,317.71,338.87,57.64,6.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Point prevalence of chronic wounds at a tertiary hospital in Nigeria</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Iyun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Ademola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Olawoye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Oluwatosin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="57" to="e62" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,317.71,346.86,235.13,6.03;7,317.71,354.86,155.10,6.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The prevalence and incidence of chronic wounds: a literature review</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Graves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Pract Res</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="4" to="e19" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,317.71,362.79,235.17,6.03;7,317.71,370.79,235.15,6.03;7,317.71,378.73,128.57,6.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Human skin wounds: a major and snowballing threat to public health and the economy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kirsner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Hunt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="763" to="e71" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,317.71,386.72,235.13,6.03;7,317.71,394.66,235.15,6.03;7,317.71,402.65,208.22,6.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Estimating the costs associated with the management of patients with chronic wounds using linked routine data</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Humphreys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fletcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Macey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1193" to="e1197" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.11,410.64,234.76,6.03;7,318.11,418.58,234.73,6.03;7,318.11,426.57,148.64,6.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Health economic burden that different wound types impose on the UK&apos;s National Health Service</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Guest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ayoub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mcilwraith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Uchegbu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gerrish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weidlich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="322" to="e330" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,434.51,234.74,6.03;7,318.10,442.50,234.75,6.03;7,318.10,450.50,81.40,6.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Wound care outcomes and associated cost among patients treated in US outpatient wound centers -data from the US wound registry</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fife</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="10" to="e17" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,458.43,234.78,6.03;7,318.10,466.43,146.88,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Challenges in the treatment of chronic wounds</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Frykberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="560" to="e82" />
+			<date type="published" when="2015">2015</date>
+			<pubPlace>New Rochelle</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,474.36,234.72,6.03;7,318.10,482.36,196.71,6.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Estimating disease prevalence and incidence using administrative data: some assembly required</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1241" to="e1243" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,490.35,234.72,6.03;7,318.10,498.29,148.98,6.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Development and importance of health needs assessment</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Wilkinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">316</biblScope>
+			<biblScope unit="issue">7140</biblScope>
+			<biblScope unit="page" from="1310" to="e1313" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,506.28,234.73,6.03;7,318.10,514.22,234.76,6.03;7,318.10,522.22,234.77,6.03;7,318.10,530.15,40.24,6.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Economics of chronic diseases protocol: cost-effectiveness modelling and the future burden of non-communicable disease in Europe</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Divajeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Logstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kestens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kriaucioniene</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Public Health</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">456</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,538.15,234.73,6.03;7,318.10,546.14,158.67,6.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Meta-analysis of prevalence</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Barendregt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Doi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Norman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Epidemiol Community Health</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="974" to="e978" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,554.08,234.73,6.03;7,318.10,562.07,234.73,6.03;7,318.10,570.01,145.58,6.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shamseer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ghersi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liberati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petticrew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,578.00,234.76,6.03;7,318.10,586.00,234.72,6.03;7,318.10,593.93,148.18,6.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Prevalence and incidence of chronic wounds and related complications: a protocol for a systematic review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>J€ Arbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>S€ Onnergren H, Schmidtchen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bajpai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">152</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,601.93,234.76,6.03;7,318.10,609.86,234.72,6.03;7,318.10,617.86,234.74,6.03;7,318.10,625.79,29.24,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Percent change in wound area of diabetic foot ulcers over a 4-week period is a robust predictor of complete healing in a 12-week prospective trial</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sheehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caselli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Giurini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Veves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1879" to="1e82" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,633.79,234.72,6.03;7,318.10,641.78,177.49,6.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Predictors of time to healing deep pressure ulcers</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Rijswijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Polansky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note>40e2. 46e48 passim</note>
+</biblStruct>
+
+<biblStruct coords="7,318.10,649.72,234.72,6.03;7,318.10,657.71,179.53,6.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Prognostic indicators in venous ulcers</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Trout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Olin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Falanga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Acad Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="627" to="e630" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,665.65,234.76,6.03;7,318.10,673.64,234.77,6.03;7,318.10,681.64,88.14,6.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The development of a critical appraisal tool for use in systematic reviews addressing questions of prevalence</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Munn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Riitano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lisy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Health Policy Manag</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="123" to="e128" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,689.57,234.75,6.03;7,318.10,697.57,48.97,6.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Meta-analysis in clinical trials</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dersimonian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Laird</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Control Clin Trials</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="177" to="e88" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,705.41,234.74,6.38;7,318.10,713.50,165.98,6.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The use of confidence or fiducial limits illustrated in the case of the binomial</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Clopper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Pearson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="404" to="e413" />
+			<date type="published" when="1934">1934</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,318.10,721.43,234.77,6.03;7,318.10,729.43,234.74,6.03;7,318.10,737.42,110.77,6.03" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Cochrane handbook for systematic reviews of interventions version 5.1.0 [updated</title>
+		<author>
+			<persName><forename type="first">Jpt</forename><surname>Higgins</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">The Cochrane Collaboration</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Green</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">The Cochrane Collaboration</orgName>
+			</affiliation>
+		</author>
+		<ptr target="http://handbook.cochrane.org" />
+		<imprint>
+			<date type="published" when="2011-03">March 2011. 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,66.75,234.77,6.03;8,58.79,74.74,234.80,6.03;8,58.79,82.68,170.97,6.03" xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tierney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rydzewska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Burdett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stewart</surname></persName>
+		</author>
+		<title level="m">Presenting random effects meta-analyses: where are we going wrong</title>
+		<meeting><address><addrLine>Lyon, France</addrLine></address></meeting>
+		<imprint>
+			<publisher>International Cochrane Colloquium</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,90.67,234.77,6.03;8,58.79,98.61,145.52,6.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Bias in meta-analysis detected by a simple, graphical test</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Egger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Minder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">315</biblScope>
+			<biblScope unit="page" from="629" to="e634" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,106.60,234.79,6.03;8,58.79,114.60,234.79,6.03;8,58.79,122.53,84.80,6.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A graphical method for exploring heterogeneity in meta-analyses: application to a meta-analysis of 65 trials</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Baujat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mahe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Pignon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stat Med</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="2641" to="2e52" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,130.53,234.80,6.03;8,58.79,138.37,168.70,6.38" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Introduction to metaanalysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Borenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Hedges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jpt</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rothstein</forename><surname>Hr</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>Ltd</publisher>
+			<pubPlace>Chichester, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,146.46,234.81,6.03" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">meta: An R package for meta-analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schwarzer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">R News</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="40" to="e45" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,154.39,234.78,6.03;8,58.79,162.39,234.76,6.03;8,58.79,170.38,128.62,6.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Epidemiology of chronic wounds in Germany: analysis of statutory health insurance data</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Heyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Protz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Glaeske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="434" to="e442" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,178.32,234.78,6.03;8,58.79,186.31,234.78,6.03;8,58.79,194.25,61.44,6.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">An exploration of current leg ulcer management practices in an Irish community setting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clarke-Moloney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Keane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kavanagh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="407" to="e410" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,202.24,234.76,6.03;8,58.79,210.23,180.72,6.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Prevalence of leg ulceration in a London population</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Moffatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Blewett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">QJM</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="431" to="e437" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,218.17,234.79,6.03;8,58.79,226.16,132.25,6.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Prevalence and aetiology of leg ulcers in Ireland</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Grace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Burke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ir J Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="110" to="e112" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,234.10,234.74,6.03;8,58.79,242.10,234.78,6.03;8,58.79,250.09,234.77,6.03;8,58.79,258.03,136.56,6.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Wound management for 287 patients with chronic leg ulcers demands 12 full-time nurses. Leg ulcer epidemiology and care in a well-defined population in southern Sweden</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Oien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hakansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ovhed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U</forename><surname>Hansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Prim Health Care</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="220" to="e225" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,266.02,234.78,6.03;8,58.79,273.96,234.74,6.03;8,58.79,281.95,25.50,6.03" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Accurate diagnosis and effective treatment of leg ulcers reduce prevalence, care time and costs</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Oien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ragnarson</forename><surname>Tennvall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="259" to="e62" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.78,289.89,234.76,6.03;8,58.78,297.88,65.18,6.03" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Chronic leg ulcers among the Icelandic population</title>
+	</analytic>
+	<monogr>
+		<title level="j">EWMA J</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="19" to="e23" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.78,305.87,234.74,6.03;8,58.78,313.81,202.66,6.03" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Leg ulceration in Portugal: prevalence and clinical history</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Furtado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Moffatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Vasc Endovasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="549" to="e53" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.78,321.80,234.76,6.03;8,58.78,329.74,234.78,6.03;8,58.78,337.73,76.64,6.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The occurrence of leg ulcers in Auckland: results of a population-based study</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rodgers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Birchall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Norton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Macmahon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Z Med J</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="159" to="e62" />
+			<date type="published" when="1151">2002. 1151</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.78,345.73,234.80,6.03;8,58.78,353.67,234.78,6.03;8,58.78,361.66,132.37,6.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Point prevalence of complex wounds in a defined United Kingdom population</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Lamb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stubbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Saramago</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Dumville</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="694" to="e700" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,369.60,234.76,6.03;8,58.79,377.59,205.05,6.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Prevalence of wounds in a community care setting in Ireland</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mcdermott-Scales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gethin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="405" to="e417" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,385.53,234.76,6.03;8,58.79,393.52,213.38,6.03" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Epidemiology of chronic cutaneous wounds in China</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="e188" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,58.79,401.52,234.75,6.03;8,58.79,409.45,221.71,6.03" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Prevalence of chronic wounds in Quebec home care: an exploratory study</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Megie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>46e8. 52e57</note>
+</biblStruct>
+
+<biblStruct coords="8,327.80,66.74,234.76,6.03;8,327.80,74.74,234.75,6.03;8,327.80,82.67,83.78,6.03" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Pressure ulcer prevalence and the role of negative pressure wound therapy in home health quality outcomes</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schwien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="47" to="e60" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.80,90.67,234.75,6.03;8,327.80,98.61,234.75,6.03;8,327.80,106.60,104.76,6.03" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A national prevalence study of pressure ulcers in French hospital inpatients</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Barrois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Labalette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rousseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Corbin</forename><forename type="middle">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Colin</forename><forename type="middle">D</forename><surname>Allaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="373" to="e376" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.80,114.59,234.75,6.03;8,327.80,122.53,234.72,6.03;8,327.80,130.52,148.52,6.03" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Pressure ulcers in four Indonesian hospitals: prevalence, patient characteristics, ulcer characteristics, prevention and treatment</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Amir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lohrmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Halfens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="184" to="e93" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.80,138.46,234.72,6.03;8,327.80,146.45,234.77,6.03;8,327.80,154.39,104.02,6.03" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The prevalence of risk factors for foot ulceration in Egyptian diabetic patients</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>El-Nahas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hms</forename><surname>Gawish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Tarshoby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">I</forename><surname>State</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ajm</forename><surname>Boulton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pract Diabetes Int</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="362" to="e366" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.80,162.38,234.73,6.03;8,327.80,170.38,162.02,6.03" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Prevalence of venous leg ulcer: the importance of the data collection method</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nelzen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phlebolymphology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="143" to="e50" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.80,178.31,234.75,6.03;8,327.80,186.31,234.76,6.03;8,327.80,194.24,234.75,6.03" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Treating the chronic wound: a practical approach to the care of nonhealing wounds and wound care dressings</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fonder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Lazarus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Cowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Aronson-Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Kohli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mamelak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Acad Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="185" to="e206" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.79,202.24,234.77,6.03;8,327.79,210.23,77.32,6.03" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Epidemiology of chronic leg ulcers in Australia</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Stacey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust N Z J Surg</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="258" to="e61" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.79,218.17,234.74,6.03;8,327.79,226.16,234.73,6.03;8,327.79,234.10,120.97,6.03" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Chronic wound repair and healing in older adults: current status and future research</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gould</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Abadir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Conner-Kerr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Davidson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="e13" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.79,242.09,234.75,6.03;8,327.79,250.09,190.70,6.03" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">An Indian community-based epidemiological study of wounds</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Shukla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="323" to="e325" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.79,258.02,234.77,6.03;8,327.79,266.02,234.74,6.03;8,327.79,273.95,194.79,6.03" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">IDF Diabetes Atlas: global estimates of diabetes prevalence for 2017 and projections for 2045</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karuranga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Da Rocha Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Ohlrogge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Res Clin Pract</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="271" to="e81" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.79,281.95,234.74,6.03;8,327.79,289.88,174.37,6.03" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Global epidemiology: the importance of international comparisons and collaborations</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pearce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Access Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.79,297.88,234.75,6.03;8,327.79,305.87,234.83,6.03;8,327.79,313.81,234.75,6.03" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Improving the quality of health information: a qualitative assessment of data management and reporting systems in Botswana</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Ledikwe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grignon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lebelonyane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ludick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Matshediso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Sento</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Res Pol Syst</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.79,321.80,234.75,6.03;8,327.80,329.75,95.74,6.03" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Epidemiologic surveillance in developing countries</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Frerichs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Public Health</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="257" to="e80" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.80,337.74,234.76,6.03;8,327.80,345.73,53.85,6.03" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Leg ulcers in the tropics</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Shukla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="58" to="e61" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.80,353.67,234.78,6.03;8,327.80,361.66,234.74,6.03;8,327.80,369.60,209.01,6.03" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Global skin disease morbidity and mortality: an update from the global burden of disease study</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Karimkhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Dellavalle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Coffeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Flohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Langan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="406" to="e412" />
+			<date type="published" when="2013">2013. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.80,377.59,234.78,6.03;8,327.80,385.53,234.74,6.03;8,327.80,393.52,205.61,6.03" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">The global burden of skin disease in 2010: an analysis of the prevalence and impact of skin conditions</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Johns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Bolliger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Dellavalle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1527" to="e1534" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,327.80,401.52,234.78,6.03;8,327.80,409.45,50.05,6.03" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Diagnosis and classification of chronic wounds</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Mostow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="e9" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

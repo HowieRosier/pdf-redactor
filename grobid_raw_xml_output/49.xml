@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination</title>
+				<funder ref="#_djf9gkS #_tsJbHg3">
+					<orgName type="full">Ministry of Science and Technology, Taiwan</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yung-Wei</forename><surname>Chen</surname></persName>
+							<idno type="ORCID">0000-0001-9903-9842</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Jui-Tse</forename><surname>Hsu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chih-Chieh</forename><surname>Hung</surname></persName>
+							<idno type="ORCID">0000-0002-6972-6577</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Jin-Ming</forename><surname>Wu</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Fellow, IEEE</roleName><forename type="first">Sy-Yen</forename><surname>Kuo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Y.-W</forename><surname>Chen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J.-M</forename><surname>Wu</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Chih-Chieh Hung</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+								<orgName type="institution">National Taiwan University</orgName>
+								<address>
+									<postCode>106</postCode>
+									<settlement>Taipei</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Graduate Institute of Biomedical Electronics and Bioinformatics</orgName>
+								<orgName type="institution">National Taiwan University</orgName>
+								<address>
+									<postCode>106</postCode>
+									<settlement>Taipei</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Computer Science and Information Engineering</orgName>
+								<orgName type="institution">Tamkang University</orgName>
+								<address>
+									<postCode>25137</postCode>
+									<settlement>New Taipei City</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">College of Medicine</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="institution">National Taiwan University</orgName>
+								<address>
+									<postCode>106</postCode>
+									<settlement>Taipei</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">616DBE693EF6BE4B5BBDE034CC230E30</idno>
+					<idno type="DOI">10.1109/TSMC.2018.2856405</idno>
+					<note type="submission">received September 30, 2017; revised January 30, 2018 and May 1, 2018; accepted June 30, 2018.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Artificial intelligence (AI)</term>
+					<term>classification</term>
+					<term>health care service systems</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The importance of effective surgical wound care cannot never be underestimated. Poorly managing surgical wounds may cause many serious complications. Thus, it raises the necessity to develop a patient-friendly self-care system which can help both patients and medical professionals to ensure the state of the surgical wounds without any special medical equipment. In this paper, a surgical wound assessment system for self-care is proposed. The proposed system is designed to enable patients capture surgical wound images of themselves by using a mobile device and upload these images for analysis. Combining image-processing and machine-learning techniques, the proposed method is composed of four phases. First, images are segmented into superpixels where each superpixel contains the pixels in the similar color distribution. Second, these superpixels corresponding to the skin are identified and the area of connected skin superpixels is derived. Third, surgical wounds will be extracted from this area based on the observation of the texture difference between skin and wounds. Lastly, state and symptoms of surgical wound will be assessed. Extensive experimental results are conducted. With the proposed method, more than 90% state assessment results are correct and more than 91% symptom assessment results consistent with the actual diagnosis. Moreover, case studies are provided to show the advantage and limitation of this system. These results show that this system could perform well in the practical self-care scenario.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>in hospital under observation, which imposes a heavy burden for medical professionals. To effectively utilize limited medical resources, patients' self-care becomes one of the most promising approaches: patients are educated by medical professionals to increase involvement in the care process and medical professionals could check the state of surgical wounds periodically <ref type="bibr" target="#b0">[1]</ref>, <ref type="bibr" target="#b1">[2]</ref>. This approach can not only relieve the burden of medical professionals but also guarantee the quality of surgical wound care effectiveness.</p><p>To achieve a successful self-care process, smooth communication between patients and medical professionals plays a key role. That is, patients could be easily aware of the state of their surgical wounds, so that the medical professionals can be notified and get involved if necessary. Unlike professional medical professionals, thus patients would need a convenient tool which can help them to determine the state of their surgical wounds.</p><p>Thanks to the rapid development of mobile technologies. Mobile devices, such as smartphones and pads, could be a good choice to develop these self-care tools. These smart devices equipped with camera have already become indispensable items for everybody nowadays. Therefore, these devices enable patients taking the photographs of their wounds so that these photographs could be used to assess the surgical wound state. This observation inspires this paper.</p><p>This paper aims at building a wound assessment system which takes photographs from nonprofessional camera (e.g., on mobile devices) as input to: 1) automatically identify the location of surgical wounds from the photographs; 2) distinguish if the state of surgical wounds is normal or not; and 3) assess the symptoms if there exists any abnormality on wounds. Building such an assessment system is not a trivial task. The challenging issues are as follows.</p><p>1) The Quality of the Photographs Could Not Be Similar:</p><p>In the self-care scenario, the photographs of surgical wounds are usually taken by nonprofessional photographers (e.g., patients themselves and family members) with nonprofessional cameras (e.g., camera in smartphones and pads). Unlike standard camera used for medical purposes <ref type="bibr" target="#b2">[3]</ref>, photographs taken by such devices usually come with different quality (e.g., color tone, color temperature, and so on). It is necessary to use sophisticated ways to process such photographs. 2) Surgical Wounds May Vary: Surgical wounds are created when a surgeon makes an incision or cut with a scalpel and usually closed with sutures. A wide variety of medical circumstances require surgery. The size and the shape of a surgical wound depends on the type of procedure and location on the body. This brings challenges for locating surgical wounds in photographs. 3) Early Detection of Symptoms Is Necessary: To prevent the worsening development of the surgical wound, it is very important to detect if there is any abnormality in surgical wounds in early stage. On the other hands, it would be too late when even nonmedical professionals could be easily aware of the abnormality of the wounds. Therefore, it is challenging to discover symptoms in early stage, even they are in a small proportion of surgical wounds. To overcome the research issues above, this paper proposes a system for surgical wound assessment in a top-down fashion. The concept of the proposed method is to filter out the parts which are not likely to be surgical wounds, step by step, so that the surgical wounds in the photograph can be precisely located and the correctness of the corresponding symptom assessment could be improved. Four phases are executed in the data analysis process: 1) superpixel segmentation phase; 2) skin area detection phase; 3) wound area detection phase; and 4) wound assessment phase, as shown in Fig. <ref type="figure" target="#fig_0">1</ref>.</p><p>Superpixel segmentation phase is first applied to normalize photographs so that the size of photographs can be same. Then, a photograph is segmented into superpixels. In general, a superpixel refers to a set of pixels with same color and brightness. Interested readers could find the detail of its definition in <ref type="bibr" target="#b7">[8]</ref>. By applying the concept of surgical hole towels, skin area detection phase first uses a classifier to see if a superpixel is skin or not. 1 Based on the fact that the surgical wound is on the skin, an ellipse is used to cover as many connected superpixels as possible automatically. These superpixels are called the skin-superpixels, which means they are skin-like superpixels. Wound area detection phase could exploit the characteristics of surgical wounds to further detect whether or not a skin-superpixel is a part of the surgical wound. Skin-superpixels with surgical wounds are called woundsuperpixels. A wound area is formed by wound-superpixels. At last, wound assessment phase first uses a classifier to classify if every wound-superpixel in a wound area is normal or not. If not, these wound-superpixels are called abnormal-superpixels and the second classifier is then used to further identify the symptoms in the abnormal-superpixels.</p><p>The proposed system could solve the research issues discussed earlier. First, this paper proposes to derive superpixels in training phase and detect wounds in classification phase rather than using the absolute color values to locate wounds. Being less sensitive to color bias due to nonprofessional cameras, this approach could be more suitable in self-care scenario. Therefore, the first research issue could be solved. Second, this paper proposes skin area detection and wound area detection to derive a wound area (a set of superpixels) to cover the surgical wound. Even if the surgical wounds may be in different sizes and shapes, they could be composed of an arbitrary number of superpixels in arbitrary shape. Therefore, the second research issue could be solved. Third, based on the observation that 1 Before being used, classifiers should be trained by labeled data. For the smooth of presentation, more details are left to the later sections. the abnormality starts from small pieces of wounds, wound assessment uses a superpixel in a wound area as a basic unit to classify if a small piece of wound has an abnormality or not. Moreover, since these superpixels are in small size, with the help of a classifier, symptoms could be identified in early stage precisely. The contribution of this paper also includes a comprehensive performance evaluation. Experimental results show that the proposed system could achieve the goal in this paper efficiently and effectively.</p><p>The rest of this paper is organized as follows. Related works are discussed in Section II. Preliminary is given in Section III. The four phases of the proposed system are detailed in Section IV. The experimental results are shown in Section V. Finally, Section VI concludes this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. RELATED WORKS</head><p>This section discusses some related work to the proposed system. Since the proposed system tends to assess symptoms on surgical wounds by photographs taken by nonprofessional cameras, both image-processing-related works and medicalrelated works are then discussed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Superpixel</head><p>Superpixel means a connected group of pixels that are similar to each other in color value or other features, it is popularized by Ren and Malik <ref type="bibr" target="#b3">[4]</ref> the term in the 2003. Once an image can be segmented into many superpixels, the computations will be more efficient than previous because only few hundred groups of pixels need to be processed. Therefore, superpixel is usually being used to object segmentation, motion estimation or tracking. Wang et al. <ref type="bibr" target="#b4">[5]</ref> proposed a tracking method which captured structural information from superpixels. The experimental results show that the approach can recover from the drifts and handle heavy occlusion. Ochs and Brox <ref type="bibr" target="#b5">[6]</ref> proposed a method to obtain dense segmentations from sparse trajectory clusters. The result shows that this approach increases the average precision of labels and raises the density of 3% to 100%. Achanta et al. <ref type="bibr" target="#b6">[7]</ref> proposed simple linear iterative clustering algorithm which adapts the k-means clustering method to generate superpixels. Van den Bergh et al. <ref type="bibr" target="#b7">[8]</ref> described an approach to generate superpixels. This approach can get an excellent compromise between accuracy and efficiency. Therefore, our approach used the method to extract superpixels from the input image.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Skin Detection</head><p>Skin recognition could be used for human-computer interaction and content analyzing. Zou and Kamata <ref type="bibr" target="#b8">[9]</ref> proposed an algorithm for face detection in color images with complex backgrounds. It used skin color detection to improve the accuracy of detections. Using the skin color to recognize skin is very useful method. Kim et al. <ref type="bibr" target="#b9">[10]</ref> used pixel-wise color groupings and texture analysis to extract regions of skin in HSV color space. Lin et al. <ref type="bibr" target="#b10">[11]</ref> combined RGB, Normalized RGB, and HSV color spaces to detect skin pixels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Image Feature Extraction</head><p>Here, the approaches of extracting image features are discussed. The approaches to selecting the features from images are usually application dependent. That is, each application should select the most suitable features to achieve their best performance.</p><p>The most intuitive feature is "edge" of an image. Canny <ref type="bibr" target="#b11">[12]</ref> presented the well-known robust edge detection method with a good response to noisy images. It has been widely used in the medical image processing <ref type="bibr" target="#b12">[13]</ref>, <ref type="bibr" target="#b13">[14]</ref>. Although the edge is a good feature, it cannot effectively provide the location of the surgical stitching point. In contrast, it was found in our experiment that the feature points were able to locate the position of the wound better. Therefore, feature points extraction will replace the edge detection to detect location of surgical stitching in our approach. Regarding feature points detection, Harris corner detection <ref type="bibr" target="#b14">[15]</ref>, scale-invariant feature transform (SIFT) <ref type="bibr" target="#b15">[16]</ref>, and speeded-up robust features (SURF) <ref type="bibr" target="#b16">[17]</ref> are methods to be evaluated. The SIFT is probably the most well-known feature points extraction method. SURF adopted a similar approach to the SIFT in scale and rotation invariant and used an efficient approximation to speed up the computation. Although the above two methods can detect the feature points, but in our application often detect too many redundant points. These redundant points should not appear in surgical stitching wounds as we know it. Therefore, we need to choose a method which has a physical meaning, good performance, and yields less redundant points. Gauglitz et al. <ref type="bibr" target="#b17">[18]</ref> compared many classical techniques, and according to its conclusion, the Harris corner detection has a good performance. In our experiment, this method can also extract feature points of surgical stitching wounds consistent with cognition. Therefore, we chose the Harris detection algorithms to be the feature points extraction method in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Self-Care Technology</head><p>The use of mobile technologies increases the ability to let people monitor the physiological state. There exists an opportunity to develop new technology to help patient perform self-treatment at home. Mezghani et al. <ref type="bibr" target="#b18">[19]</ref> proposed a modeldriven methodology to develop a monitoring system to manage patients' health evolution based on wearable devices which is assumed to be used for the "Blood Sugar." Grunerbl et al. <ref type="bibr" target="#b19">[20]</ref> introduced a system that can recognize depressive and manic states and detect state changes of patients suffering from bipolar disorder based on smartphone-sensing. Sukor et al. <ref type="bibr" target="#b20">[21]</ref> developed algorithms to assess quality of pulse oximetry and blood pressure signals that acquired from a home environment. Mathur et al. <ref type="bibr" target="#b21">[22]</ref> presents a full mobile sensor platform that is constituted by readily purchased consumer components to monitor the health of patients with prosthetic lower limbs. The platform is also designed to be able to operate standalone without Internet connectivity. The recent trend in this area is using sensors of smartphone to collect physiological information. Therefore, the wound images are all captured by using the camera of smartphone in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Skin Disease Detection</head><p>Recently, many research efforts are involved in detecting skin diseases by using machine learning techniques (especially using deep learning techniques). Esteva et al. <ref type="bibr" target="#b22">[23]</ref> classified skin lesions by using deep convolutional neural networks. Masood and Ali Al-Jumaily <ref type="bibr" target="#b23">[24]</ref> suggested a framework for comparative assessment of skin cancer diagnostic models and review the results based on these models. Phung et al. <ref type="bibr" target="#b24">[25]</ref> presented a study of the color pixel classification approach to skin segmentation by using color representation, color quantization, and classification algorithm. Alamdari et al. <ref type="bibr" target="#b25">[26]</ref> presented several image segmentation methods to detect acne lesions and machine learning methods that are used to distinguish different acne lesions from each other. Although the deep neural network (DNN) is currently used in many applications, it is not showing the best performance in our case. The reason why may be the limited size of our dataset due to the difficulty of collection of surgical wounds. The neural network approach will also be compared against the other ones in Section V.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. Wound Detection</head><p>The current methods employed to solve these problems include: measuring wounds by calculating wound areas using digital photograph planimetry software. Wendelken et al. <ref type="bibr" target="#b26">[27]</ref> used infrared photography technique to interpret wound temperature changes. Dini et al. <ref type="bibr" target="#b27">[28]</ref> built a mobile three-dimensional (3-D) system for wound measurement. Lubeley et al. <ref type="bibr" target="#b28">[29]</ref> performed 3-D surface scans of wounds to obtain wound top area, true surface area, depth, and volume. Hani et al. <ref type="bibr" target="#b29">[30]</ref> used imaging methods with depth of field information to judge the depths of wounds. Wannous et al. <ref type="bibr" target="#b30">[31]</ref> built a three-chip, serial-port-controlled CCD camera with a zoom lens and a halogen annular light source. Haeghen et al. <ref type="bibr" target="#b31">[32]</ref> photogrammetric measurement of body surfaces. Malian et al. <ref type="bibr" target="#b32">[33]</ref>, <ref type="bibr" target="#b33">[34]</ref>, and Boersma et al. <ref type="bibr" target="#b34">[35]</ref> built a trinocular vision system with a projector for wound measurement and used special optical instruments to analyze the wound. However, these methods are expensive and require special photographic equipment, and the cost of this special is not affordable for patient self-monitoring; therefore, they cannot be widely used on general surgery patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. PRELIMINARY</head><p>This section describes a brief introduction of classification problem and an overview of color spaces and histograms. For ease of presentation, the term photograph and image are interchangeable in the rest of this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Brief Introduction of the Classification Problem</head><p>In this paper, problems in many phases are modeled as classification problems. Here, a brief introduction of the classification problem is given.</p><p>The classification problem is an instance of supervised learning algorithms, which goal is to identify which category a new observation belongs. The classical way to solve the classification problem composed of two stages: 1) training stage and 2) classification stage. In training stage, a classifier is trained on the basis of training data containing observations whose categories (labels) are known. Observations are preprocessed and then transformed to feature vectors. These vectors with the corresponding labels are the input of a classification algorithm, such as classification and regression trees (CART) <ref type="bibr" target="#b35">[36]</ref>, Gaussian naive Bayes (GNB) <ref type="bibr" target="#b36">[37]</ref>, Knearest neighbors (KNNs) <ref type="bibr" target="#b37">[38]</ref>, logistic regression (LR) <ref type="bibr" target="#b38">[39]</ref>, DNNs <ref type="bibr" target="#b39">[40]</ref>, random forest (RF) <ref type="bibr" target="#b40">[41]</ref>, and support vector machines (SVM) <ref type="bibr" target="#b41">[42]</ref> to build a classifier (or a model). This classifier could then be used to identify the label for a new observation in classification stage, and the performance of this classifier is evaluated on the basis of the correctness of the identified results, such as precision, recall, and so on.</p><p>A system with high recall but low precision returns many results, but most of its predicted labels are incorrect when compared to the training labels. A system with high precision but low recall is just the opposite, returning very few results, but most of its predicted labels are correct when compared to the training labels. An ideal system with high precision and high recall will return many results, with all results labeled correctly. However, it is possible to optimize different metrics due to the different application scenario.</p><p>The choosing of a classification algorithm usually affects the correctness of the identified results as each classification algorithm has its own advantage. There are also many ways to choose the best classification algorithm for a dataset. In practice, the best classification algorithm is usually obtained by comparing many classification algorithms and picking the one leading to the best performance with respect to the given dataset. The same approach will be used in our system. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Color Space and Color Histogram</head><p>Some fundamental knowledge of image processing is introduced to facilitate the description in the latter sections as many image processing techniques will be used.</p><p>To represent an image, a color space should be first defined, which refers to a space which describes how a color is represented. RGB and HSV are two well-known examples of well-known color spaces. RGB describes a color by red, green, and blue, the three primary colors, and HSV describes a color by hue (i.e., the type of color), saturation (i.e., the intensity of the color), and value (i.e., the brightness of a color). The HSV color space is used in this paper since it shows excellent performance in the segmentation of a shaded skin or various human skin types when using the HSV color space <ref type="bibr" target="#b42">[43]</ref>.</p><p>The color histogram is a statistic that can be viewed as an approximation of an underlying continuous distribution of color values. The hue dimension is divided into 16 bins to represent the number of 16 color values in the image. Table <ref type="table">I</ref> shows the corresponding colors for the color histogram that is divided according to <ref type="bibr" target="#b43">[44]</ref>.</p><p>Specifically, the ith bin of the color histogram Hc i could be computed by the following formula:</p><formula xml:id="formula_0">Hc(i) = N i 16 j=1 N j (1)</formula><p>where N i denotes the number of data in the ith bin. Given an image with 100 pixels, where 40 pixels of this images are red and 60 are green, the hue histogram of this image in its first bin 0.4, which can be derived from (40/[40 + 60]), and its 7th bin is 0.6. The intensity histogram is a statistic that can be viewed as an approximation of an underlying continuous distribution of color saturations. The number of bins represents the granularity of the intensity strength. It is found that the different number of bins in the intensity histogram are decided in different works. For example, munsell color system divided saturation into 15 bins <ref type="bibr" target="#b44">[45]</ref>, whereas some works are just simply set the number of bins as 10 <ref type="bibr" target="#b45">[46]</ref>, <ref type="bibr" target="#b46">[47]</ref>. Since the intensity histogram in this paper is used to discretize the saturation value, this paper follows the previous works to set the number of bins as 10. That is, the ith bin of the intensity histogram Hi i could be computed by the following formula:</p><formula xml:id="formula_1">Hi(i) = N i 10 j=1 N j (2)</formula><p>where N i denotes the number of data in the ith bin. Given an image with 100 pixels, where 40 pixels of which saturation are between 1 and 10, 30 pixels are between 11 and 20, and 30 pixels are between 21 and 30. The intensity histogram of this image is with its first bin 0.4, which can be derived from [40 ÷ (40 + 30 + 30)], and its second bin is 0.3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. METHODOLOGY</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. System Architecture</head><p>To solve the symptom-assessment problem, this paper proposed the system as shown in Fig. <ref type="figure" target="#fig_1">2</ref>. The system which consists of two parts: 1) training and 2) classification. The classification part takes a photograph with surgical wounds as an input and report the symptoms of surgical wounds if exists. Four phases are included in this part: 1) superpixel segmentation; 2) skin area detection; 3) wound area detection; and 4) wound assessment. Three classifiers are used in this part, i.e., two are used in wound assessment phase and one in skin area detection phase. These classifiers should be trained with different training data in the training part correspondingly. The technical details will be described in later sections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Superpixel Segmentation</head><p>This phase is to segment a photograph into several superpixels as basic units for later phases. A superpixel is a set of pixels, which are rendered in the same color and brightness, and can be viewed as a perceptually meaningful atomic region.</p><p>That is, superpixel algorithms can segment the photograph by grouping pixels that belong to the same object. With a better image segmentation, superpixels are helpful in constructing more accurate classifiers in later phases.</p><p>Consider that the proposed system is designed for self-care of surgical wounds. The photographs are usually taken by different people in different devices. Therefore, image normalization is needed to unify the size and the range of pixel intensity values for each photograph. Regarding the size, all images will be reduced according to the aspect ratio. The size 720 × 480 is set as the default in this paper.</p><p>There are many existing approaches to segment a normalized image into several superpixels. After completing the whole process, an image will be divided into hundreds or thousands of superpixels with irregular edge. Fig. <ref type="figure" target="#fig_2">3</ref> shows a real example that a photograph with surgical wound is segmented into superpixels by applying the SEED algorithm <ref type="bibr" target="#b7">[8]</ref>.</p><p>As basic units in this paper, the derived superpixels are associated with additional information for further use: 1) ID; 2) RGB histogram; and 3) labels. ID is for identifying each superpixel, RGB histogram records the color distribution of this superpixel, and labels are given for different classification purposes [for example, a superpixel could have three labels (skin, abnormal, redness) where the "skin" is used in the skin area detection, abnormal is used in state assessment phase and "redness" is used in wound assessment phase].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Skin Area Detection</head><p>This phase aims at finding the skin area containing the surgical wounds. Since surgical wounds are on the surface of skin, skin area should be retrieved for further wound assessment. Given superpixels of an image, two tasks should be done: 1) extract superpixels which are skin (abbr. as skinsuperpixels) and 2) constructing the skin area, which refer to the maximum range of adjacent skin-superpixels. The first task could be modeled as a classification problem so that a classifier should be built. The second task could be done by finding a maximum ellipse area to cover the contiguous skin-superpixels. Finally, these contiguous skin-superpixels is a skin area of this image.</p><p>1) Extract Skin-Superpixels: Extracting skin-superpixels could be modeled as a classification problem. To obtain a skinclassifier which can identify whether or not a superpixel is skin, training data should be prepared and be used as the input to a classification algorithm and consequently the output of the classification algorithm is the desired skin-classifier. First of all, the source of training data comes from photographs taken by medical professionals and UCI Skin Segmentation Data Set <ref type="bibr" target="#b47">[48]</ref>. These photographs are then segmented into superpixels following the same process of the previous phase. Medical professionals are asked to label some meaningful superpixels. These labeled superpixels are then transformed to feature vectors. At last, the training data, a set of (feature vector, label)-pairs, could be determined.</p><p>Second, superpixels are labeled into skin and nonskin in this phase. Note that superpixels which are parts of wounds will not be included in the training dataset since they are easy to confuse with the surrounding environment. Here, is a sophisticated design: since the wound and the background may be hard to be distinguished, this phase only tends to identify skin and nonskin. Based on the fact that wounds are on the skin, the identification of wounds could be left in the later phase. Without background superpixels, wounds could be identified more precisely. Fig. <ref type="figure" target="#fig_3">4</ref> shows some examples of labeled superpixels. Fig. <ref type="figure" target="#fig_3">4(a)</ref> shows superpixels which are labeled as skin whereas Fig. <ref type="figure" target="#fig_3">4(b)</ref> shows that which are labeled as nonskin.</p><p>At last, feature vectors of superpixels are derived. The design of a feature vector should be able to distinguish skin and nonskin. In general, the region of skin is a smooth with similar color distribution relative to the surrounding environment, i.e., nonskin. Thus, the color histogram could be a determining factor to identify if a superpixel is skin. More specifically, HSV histogram is chosen to extract feature vector of each superpixel since human skin color can be discriminated under arbitrary illuminations in the HSV domain <ref type="bibr" target="#b48">[49]</ref>. In practice, the hue histogram and saturation histogram of each superpixel have to be normalized. Specifically, let H be a histogram and H i denote the value of ith bin. The value of ith bin of the normalized histogram H is determined by</p><formula xml:id="formula_2">Hi = H i -min(H) Max(H) -min(H)<label>(3)</label></formula><p>where Max(H) and min(H) refer to maximum and minimum bin value, respectively. The feature vector of a superpixel is formally defined as follows.</p><p>Definition 1 (Feature Vector for the Skin-Classifier): Given the normalized HSV histogram H of a superpixel, the feature vector of this superpixel is defined as</p><formula xml:id="formula_3">f skin = Hh , Hs<label>(4)</label></formula><p>where Hh and Hs refer to the hue histogram and saturation histogram respectively. Given the setting of this paper, each feature vector is a 460-D vector since the hue dimension is 360 and the saturation dimension is 100. One may note the value histogram does not take into account when the feature vector is constructed. The reason is because the variation of the brightness of the photographs may be larger due to different cameras. To eliminate such effect, the feature vector does not include the value histogram.</p><p>2) Constructing the Skin Area: Given a set of skinsuperpixels, the skin area is then constructed. Conceptually, the skin area refers to the maximum contiguous skin area which includes the wound in this image. Based on the fact that the surgical wound is on the surface of the skin, finding the skin area could filter out the irrelevant parts and leave the relevant parts of surgical wounds. More specifically, the skin area could be defined as follows.</p><p>Definition 2 (Skin Area): Given an image and its skinsuperpixels, the skin area is defined as a set of superpixels which is the union of: 1) the contiguous skin-superpixels with maximum area and 2) all the superpixels inside the contour made by superpixels in 1).</p><p>Finding the connected skin-superpixels with maximum area could be modeled as a problem of finding a connectedcomponent in a graph where each superpixel is a vertex and two nodes have an edge if two superpixels are connected. For example, Fig. <ref type="figure" target="#fig_4">5</ref> contains 329 superpixels and each superpixel is adjacent to 8 superpixels in average. Therefore, this graph contains 329 vertices with 2642 edges.</p><p>However, this approach is not only time-consuming, but also memory-consuming due to a large number of vertices and edges in this graph. Therefore, this approach may not fit the requirement of this paper.</p><p>A practical approach is to find an approximation for skinarea, which aims at finding connected skin-superpixels as large as possible, rather than finding the connected skin-superpixels with maximum area. The concept of the proposed approach is inspired by the surgical towel. The surgical towel is used to expose the area of skin where the surgical wounds are located before the surgery. By simulating the surgical tower,  the approximated skin-area could be derived which is likely to include wounds. The proposed approach is composed of five steps as shown as Fig. <ref type="figure" target="#fig_6">6</ref>. First of all, given the skin-superpixels of an image as shown Fig. <ref type="figure" target="#fig_6">6</ref>(a), an ellipse is conducted to include skinsuperpixels which total area is as large as possible. This process could be achieved efficiently by several open source libraries, such as OpenCV <ref type="bibr" target="#b49">[50]</ref>. Fig. <ref type="figure" target="#fig_6">6</ref>(b) shows the derived ellipse and all superpixels of the given image inside this ellipse. These superpixels are then separated into two parts: the superpixels insides the ellipse in Fig. <ref type="figure" target="#fig_6">6(c)</ref>, and those on the border of the ellipse as shown in Fig. <ref type="figure" target="#fig_6">6(d)</ref>. The superpixels on the border may belong to skin or not skin. Therefore, superpixels that are not belonging to the skin will be eliminated as shown as Fig. <ref type="figure" target="#fig_6">6</ref>(e). Finally, putting the superpixels in Fig. <ref type="figure" target="#fig_6">6(c</ref>) and (e) together, the skin area could be derived as shown in Fig. <ref type="figure" target="#fig_6">6</ref>(f).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Wound Area Detection</head><p>This phase locates the surgical wounds in the skin area of the image. The surgical wounds are so-called the wound area, which could be formally defined as follows.</p><p>Definition 3 (Wound Area): Given an image and its skin area, the wound area is defined as the connected skinsuperpixels which are surgical wounds (abbr. as woundsuperpixels). The problem to find the wound area could be modeled as a classification problem as well: given a skin-superpixel, classify this superpixel into the skin or wound. A naïve approach is to build another classifier for it. However, once the whole surgical wound is segmented into superpixels, wound-superpixels are easily extracted from skin-superpixels according to the obvious characteristic: a wound-superpixel is very likely to contain a cross whereas a skin-superpixel is not. Some cross shapes made during wounds were seamed so that several corners could be observed. Therefore, the problem of identifying wound-superpixels could be viewed as the problem of identifying the existence of corners.</p><p>This concept could be used to propose the approach for deriving the wound area, which contains three steps.</p><p>Step 1: For each superpixel inside the skin area, compute the number of corners on it. Step 2: A superpixel is identified as a wound-superpixel if the number of corners in it is more than others significantly.</p><p>Step 3: The wound area is the connected woundsuperpixels.</p><p>Step 1 could be implemented by a corner detection algorithm, step 2 could be done by a score function, and step 3 is then a trivial task.</p><p>There are several corner detection algorithms. The most widely-used one is Harris corner detection <ref type="bibr" target="#b14">[15]</ref>, which is also implemented in OpenCV <ref type="bibr" target="#b49">[50]</ref>. In a nutshell, Harris corner detection algorithm finds corners by detecting variations of intensity value in all directions.</p><p>Following the example in the previous phase, after applying the corner detection algorithm on each superpixel, Fig. <ref type="figure" target="#fig_7">7(a)</ref> shows the result where the yellow points refer to the identified corners.</p><p>Given the number of corners of each superpixel, the woundsuperpixels could be determined by testing if the number of corners in a superpixels is significantly larger than others. To achieve this goal, a score function wscore for a superpixel x i could be defined as follows:</p><formula xml:id="formula_4">wscore(x i ) = 2σ -(N(x i ) -μ) (<label>5</label></formula><formula xml:id="formula_5">)</formula><p>where μ and σ refer to the mean and standard deviation of the numbers of corners of all superpixels, respectively, and N(x i ) denotes the number of corners in x i . The wscore tests if the number of corners of this superpixel is larger than two standard deviations from the mean, which represents the number of IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS corners is more than others significantly. Therefore, a woundsuperpixel could be determined as follows: once the wscore is larger than 0, this superpixel is recognized as a woundsuperpixel. Otherwise, a superpixel may not contain enough corners to be recognized as a wound-superpixel. Finally, wound area that is composed of wound-superpixels can be detected from the input image as shown in Fig. <ref type="figure" target="#fig_7">7(b)</ref>. The wound area will be individually assessed by the corresponding symptoms in the next phase.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Wound Assessment</head><p>This phase derives the symptoms of wound areas if any abnormality exists. Two tasks should be done: 1) identify if there exists superpixels that is in an abnormal state (abbr. as abnormal-superpixels) in the wound area and 2) identify the symptoms for these abnormal-superpixels. These tasks could be modeled as two classification problems so that two classifiers are built in this phase, saying the state-classifier and the symptom-classifier. The following material discusses the detail of the determination of feature vectors from training data for these two classifiers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1) Identify the State of Wound-Superpixels:</head><p>The first task is to identify the state of the wound-superpixels. It is modeled as a classification problem, the following material addressed the extraction of feature vectors from the training dataset.</p><p>Similar to Section IV-C1, the training data are labeled by medical professionals. The only difference is that each superpixel here is labeled as normal and abnormal. The wound-superpixels which are labeled as abnormal should be further classified by corresponding symptoms whereas the ones which are labeled as normal could be filtered.</p><p>The next step is to extract feature vectors from woundsuperpixels which could distinguish the normal woundsuperpixels from the abnormal ones. The philosophy for feature extraction is based on the following observation: normal wounds are all alike, but abnormal wound is different in its own. That is, the color distribution of normal wounds will tend to be similar because of rehabilitation. Therefore, one of the most important features is the bins which frequently appears among color histogram. Technically, this goal could be achieved by the following three steps: 1) the first step is to find the plurality-set of a color histogram (Definition 4), which refers to the smallest bin which could represent the most major color of a superpixel by a user-specified threshold; 2) given the plurality-sets of every superpixels, the second step is to derive the majority-set among superpixels (Definition 5) which refers to the plurality-set which can match major colors among histograms most; and 3) the third step is to compute the significant-set which refers to the majority-set appearing among majority-sets derived by different threshold settings.</p><p>Definition 4 (Plurality-Set of a Color Histogram): Given a normalized color histogram Hc i and a user-specific threshold pk, the plurality-set of Hc i is the set of bins</p><formula xml:id="formula_6">PL i = {PL i1 , PL i2 , . . . , PL in } which satisfies: 1) Hc i (PL i1 ) &gt; Hc i (PL i2 ) &gt; . . . &gt; Hc i (PL in ); 2) Hc i (1) + Hc i (2) + • • • + Hc i (n) &gt; p k ; and</formula><p>3) PL i is the set which contains no any set satisfying the first criteria.</p><p>The threshold p k in this definition is used to decide the proportion of majority colors against the whole color distribution. The intuition behind the definition is that the smaller the set of bins is, the more concentrated the color distribution is. For example, given a color histogram Hc i = [0.1, 0.4, 0.4, 0.0, 0.1] and a threshold p k = 0.75, the sets of bins satisfying the first criteria are {2, 3, 1}, {2, 3}, and {2, 3, 1, 5} with the sum of the corresponding bins 0.9, 0.8, and 1, respectively. Among these sets, PL i = {2, 3} is the plurality-set of Hc i since {2,3} cannot contain {2,3,1} and {2,3,1,5}.</p><p>The plurality-set of each histogram could be extended to the majority-set among histograms. The formal definition is given as follows.</p><p>Definition 5 (Majority-Set Among Color Histograms): Given a set of normalized color histograms = {Hc 1 , . . . , Hc m } with their plurality-sets PL = {PL 1 , . . . , PL m } and the threshold p k , the majority-set of , saying MJ ,p k , is defined as</p><formula xml:id="formula_7">MJ ,p k = arg max PL i ⎧ ⎪ ⎪ ⎪ ⎪ ⎪ ⎨ ⎪ ⎪ ⎪ ⎪ ⎪ ⎩ Benefit ⎛ ⎝ 1 | | | | j=1 E(i, j) ⎞ ⎠ × Indication | | j=1 I(i, j) ⎫ ⎪ ⎪ ⎪ ⎪ ⎪ ⎬ ⎪ ⎪ ⎪ ⎪ ⎪ ⎭ where E(i, j) = 1 |PL i | S(i, j), S(i, j) = x∈PL i Hc j (x)</formula><p>, and I(i, j) is the indication function that S(i, j) &gt; p k .</p><p>The concept above is to calculate the weighted sum of matched bins from every plurality-set to every histograms. Some explanation could help to clarify the design of this definition. S(i, j) is the sum of the values in the bins of Hc j with respect to PL i . If the main color distribution of Hc j is similar than that of PL i , then it is expected to get a large S(i, j). Similarly, I(i, j) is the indicator to show if S(i, j) is large enough. The whole formula could be understood by finding the PLi which can maximize the average weighted sum over all the histograms.</p><p>For example, consider p k = 0.75 and a set of color histograms = {Hc 1 , Hc 2, Hc 3 } where Based on these values, we can compute the first term (benefit) as: (0.7 + 0.1 + 0.8) ÷ 2 ÷ 3 = 0.27, and the second term (indication) as (1+0+1) = 2. Therefore, the final result for PL 3 is 0.54. Similarly, we can compute the results of the inner term for PL 1 and PL 2 as 0.44 and 0.16, respectively. Therefore, the majority-set can be derived to be PL 3 .</p><p>Definition 6 (Significant-Set Among Color Histograms): Given a set of normalized color histograms = {Hc 1 , . . . , Hc n } and a set of thresholds T= {p 1 , . . . , p k }, the Algorithm 1: Significant Bins Extraction Algorithm return significantBins 45: ENDFUNCTION significant bins of is the majority bins with occurrence number to be the largest among all majority bin of histograms in .</p><p>For example, consider color histograms = {Hc 1 , Hc 2 , Hc 3 } and a set of threshold T= {p 1 , p 2 , p 3 } where p 1 = 0.25, p 2 = 0.50, p 3 = 0.75. The majorities of in each threshold are {2, 3}, {3, 4, 5}, {2, 3}. Then the significant-set of is {2,3} since it appears 2 times out of three.</p><p>The significant-set among color histograms could be derived by Algorithm 1.</p><p>The function "getPluralitySets" is used to collect pluralitysets of a histogram by the threshold. The function "getMajor-itySets" is used to determine the majority-set by calculating performance of plurality bins of color histograms. The function "getSignificantSet" is used to choose a majority-set to be the significant-set by voting where a majority-set appearing once can be viewed as getting one vote, and the majority-set with the most vote is the singnificant-set.</p><p>With the majority bins, the feature vector of a woundsuperpixel for the state-classifier could be defined as follows.</p><p>Definition 7 (Feature Vector for the State-Classifier): Given the color histogram Hc and the intensity histogram Hi of a superpixel, and the majority bins B of all wound-superpixels, the feature vector of this superpixel is defined as</p><formula xml:id="formula_8">f state = (α, β, γ , δ, θ )<label>(6)</label></formula><p>where α = i∈B Hc(i), β = arg max i (Hc(i)), γ = Hi(1), δ = Hi(2), θ = Hi(1) + Hi <ref type="bibr" target="#b1">(2)</ref>. The feature vector of a woundsuperpixel is composed of two parts. The first part is related to the color histogram, including α and β, and the second one is related to the intensity histogram, including γ , δ, and θ .</p><p>For the first part, the feature α represents the sum of values in the majority bins in a wound-superpixel, which represents if the color distribution is similar to that of normal wounds. The feature β is the index with the maximum value in the color histogram, which tends to capture the main color of this superpixel. This index is used to indicate the main color in this superpixel based on the observation that the color of abnormal-superpixels is usually different from the normal ones.</p><p>For the second part, the features γ , δ, and θ are the value of the first bin, second bin, and the sum of first two bins in the intensity histogram. They are used to see if the color is obvious enough. The reason is that colors become progressively gray as their saturation decreases <ref type="bibr" target="#b50">[51]</ref>. The proportion of color in the lower saturation will be used to evaluate whether the color appearance is sufficient to assess its symptoms. That is, the lower saturation indicates the color of the wound-superpixels tends to be gray, black, or white. In general, the color looks like gray if the summation of first three bin values in the intensity histogram is more than 50% in the intensity histogram Hi, e.g., Hi = [0.3, 0.1, 0.2, 0.1, 0.1, 0.2, 0.1, 0.1, 0.0, 0.0], the summation of first three bin values is 0.3 + 0.1 + 0.2 = 0.6 &gt;= 0.5(50%). It can be implied the overall saturation in a wound-superpixel is too low that more than 50% of colors are within the lowest three intensity values. As such, the woundsuperpixel would be not be enough saturation to distinguish the state of the wound.</p><p>Put them together. Each wound-superpixels could be transformed to (feature, label)-pairs which could be taken as an input to a classifier algorithm. The state-classifier could then be obtained.</p><p>2) Assess the Symptoms for Abnormal-Superpixels: When a wound-superpixel is classified as an abnormal-superpixel, its symptoms will be further assessed. This could also be modeled as a classification problem so that the symptom-classifier is built here.</p><p>In the training data, a superpixels are labeled into one of the four kinds of symptoms: 1) swelling; 2) necrosis; 3) redness; or 4) pus. The feature vector here is defined as follows.</p><p>Definition 8 (Feature Vector for the Symptom-Classifier): Given the normalized HSV histogram H of a superpixel, the feature vector of this superpixel is defined as where Hc and Hi refer to the color histogram and intensity histogram, respectively. Without any sophisticated design, the feature vector here is simply used to find the color histogram of an abnormalsuperpixel. One reason is because most of superpixels are filtered and only a few superpixels are left here. These superpixels are very likely to be abnormal. Therefore, the color histograms are enough for identifying these symptoms.</p><formula xml:id="formula_9">f symptom = (Hc, Hi) (7)<label>(a) (b)</label></formula><p>Same as the previous phases, abnormal-superpixels could be represented as (feature, label)-pairs. They could be used to train the symptom-classifier and then be used to assess the abnormal parts of surgical wounds. Fig. <ref type="figure" target="#fig_9">8</ref> shows the assessment results which contain some symptoms on the surgical wound.</p><p>Some suggestions and comments are made for this assessment system. First, the results of this assessment system should be viewed as warnings. In practice, a photograph containing any abnormal-superpixels with some symptoms should be confirmed by the medical professionals. Second, the aim of this system is to be an assistant for medical professionals and patients rather than replacing anyone. When the number of photographs is very large, the system can identify photographs with the abnormal state for medical professionals to confirm. Therefore, medical professionals could use their valuable time in much more valuable tasks. Third, this symptom assessment system can also assist in the diagnosis standardization. Different medical professionals can diagnose wound symptoms based on the same advice to reduce the subjective differences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. EXPERIMENTAL RESULTS</head><p>This section introduces the dataset and the performance metrics used for conducting all of the following experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Experimental Settings</head><p>The images of this wound dataset are captured by medical professionals using different smartphones from different manufactures in general indoor light sources. That is, the cameras they used are not limited to be any specific platform and specific lightening is not needed. There are total 131 images and these image samples are taken from 46 patients. The labels for every image are labeled by the corresponding state and symptoms which are diagnosed by the medical professionals. 2 For 2 To prevent the privacy issue and to ensure the reality of the experiments, all of our testing sample images are approved by the Institutional Review Board.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TABLE II NUMBER OF TRAINING SAMPLES</head><p>each image, the superpixels with different labels are extracted to build different classifiers in different phases. These labels are defined by at least three doctors to avoid bias. Table <ref type="table">II</ref> shows the statistics of the number of superpixels from the images.</p><p>There are 1563 superpixels which can be classified into eight categories: the label of skin or nonskin is used to build the skin-classifier; the labels normal and all kinds of abnormal are used to train the state-classifier; The four kinds of abnormal superpixels are used to build the symptom classifier. Here, the classification problem will face data imbalanced issue, i.e., 164 skin samples against 495 nonskin, 678 normal versus 226 abnormal, 159 swelling versus 44 necrosis versus 18 redness versus 5 pus. This experiment addressed this issue and implemented the approach based on <ref type="bibr" target="#b51">[52]</ref>.</p><p>In the following experiments, the way to split training data and testing data for each run is that the 80% of images are randomly chosen for training and the remaining 20% of images are used for testing. The results of each metrics reported in Tables IV, VI, and VII are obtained from the values of each metrics in 10 runs.</p><p>The metric measurements used in this paper include accuracy, precision, recall, and F-measure. Generally speaking, accuracy represents all the correct results among all the instances; precision represents the fraction of relevant instances among the retrieved instances; recall is the fraction of relevant instances that have been retrieved over total relevant instances in the image; the F1-measure is the combination of precision and recall. All of these measurements are therefore based on an understanding and measure of relevance. These </p><formula xml:id="formula_10">F1-Measure = 2|TP| 2|TP| + |FP| + |FN| (<label>11</label></formula><formula xml:id="formula_11">)</formula><p>where TP is true-positive, TN is true-negative, FP is falsepositive, and FN is false-negative The meaning of TP, TN, FP, and FN could have different meaning in the different scenario. Table <ref type="table">III</ref> gives the explanation of TP, TN, FP, and FN in wound area detection, state and symptom assessment, respectively. The values of |TP|, |TN|, |FP|, and |FN| represent the number of images that satisfied the criteria of TP, TN, FP, and FN, respectively. For example, the value of |TP| in wound area detection represents the number of images where each image has a wound area and the detecting area includes the wound area. It is worth mentioning that the different scenario may focus the different measurements. For example, state assessment focuses recall more than precision: all of surgical wounds in images are expected to be identified to prevent the danger caused by abnormal wounds whereas identifying the normal wound-superpixels as the abnormal ones will not bring any harmful results. On the other hand, the precision of symptom assessment is required to be high since it can save valuable time for medical professionals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Performance Evaluation</head><p>The process for wound area detection is the process to determine the scope of wound area according to the suture cross-shaped as shown in the skin area. Table IV reports the experimental results for detecting wound areas in 10 runs, which shows that the accuracy could achieve 90% and the precision could be 100%. That is, the proposed approach can locate the position of wound in the skin area effectively. To go further detail, it can be seen that TN and FP are zeros in the first part of Table <ref type="table" target="#tab_4">IV</ref>. This is an expected result since all the images includes wound areas. The last value FN shows that our approach cannot detect wound areas from testing images, which usually happens in some extreme cases. One of the case is shown in Fig. <ref type="figure" target="#fig_13">12</ref> with its wound being almost recovered. The capability and limitation of the proposed wound detection approach will be discussed in a more detail in Section V-E.</p><p>State and symptom assessment exploit classifiers to assess wound state and symptoms. The most widely-used classifiers are used in our approach: CART <ref type="bibr" target="#b35">[36]</ref>, GNB <ref type="bibr" target="#b36">[37]</ref>, KNN <ref type="bibr" target="#b37">[38]</ref>, LR <ref type="bibr" target="#b38">[39]</ref>, DNNs <ref type="bibr" target="#b39">[40]</ref>, RF <ref type="bibr" target="#b40">[41]</ref>, and SVMs <ref type="bibr" target="#b41">[42]</ref>. Table <ref type="table">V</ref> shows the main parameters of these classifiers where parameters for each classifier are decided by testing several combinations and picking the best one. The different classifiers may have their own advantages and disadvantages. Therefore, the metrics of each classifier are compared and the classifiers which can achieve the best performance results are chosen for state and symptom assessment, respectively.</p><p>Tables VI and VII show the experimental results of state and symptom assessment among several classifiers. Regarding state assessment, the recall value is required to be focused. Thus, the classifier with the highest recall value is desired. It can be seen that the recall values of every classifiers vary. KNN has the highest accuracy value 90% after 10 runs of testing. DNN and RF has maximum recall value 91% among the classifiers. This represents the abnormal-superpixels could almost be identified, which can achieve the highest safety standard of the proposed system.</p><p>Regarding symptom assessment, the accuracy value is used to evaluate the symptom classifier. Among all the classifiers, the accuracy values are between 86% to 91%. RF and KNN lead to the highest accuracy value. However, RF may lead to the maximum recall among all classifiers. To precisely obtain the symptoms of wounds, KNN and RF are also good choices.  To sum up, our approach uses KNN and RF to assess state and symptoms. This "hybrid classifier" system can efficiently assess the wound and adapt the situation of training sample change.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Sensitivity Analysis</head><p>In order to define the most suitable normal color segment in the color histogram, the voting mechanism is used in the  significant-set extraction. In the proposed algorithm for finding the significant-set, there are four kinds of majority-sets to be extracted as nominees by processing our normal sample data (on 99 kinds of ratios). These nominees and voting result shown in Fig. <ref type="figure" target="#fig_10">9</ref>. The majority bins "[2, 3]" is the most efficient combination which uses the least number of elements to exceed the predefined threshold. Therefore, the majority bins <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref> will be elected as the significant bins. Mapping to the color histogram, this majority bins <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref> represent "red-orange" and "orange and brown." This result is consistent with the principle that medical professionals choose normal wound samples: "the color of normal wound like the color of skin." Through this voting mechanism, the system can automatically adjust the composition of the feature vector to conform to the characteristics of normal wound samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Case Study</head><p>At last, some cases are given to discuss the advantages and limitations of the proposed system. Fig. <ref type="figure" target="#fig_11">10</ref>(a) and (b) shows the corner points found by the proposed method and the symptom assessment in the same image, respectively. It can be seen that Fig. <ref type="figure" target="#fig_11">10</ref>(a) contains some corner points which are not related to wounds in the right-hand side. However, these irrelevant corners are then eliminated by the state classifier so that only corners related to the real wound are further identified their symptoms and the symptom is identified correctly as shown in Fig. <ref type="figure" target="#fig_14">10(b)</ref>.</p><p>Consider the case in Fig. <ref type="figure" target="#fig_14">10(c</ref>) and (d). First of all, Fig. <ref type="figure" target="#fig_14">10(c</ref>) shows the abnormal-superpixels which are found from the wound. Then, Fig. <ref type="figure" target="#fig_14">10(d</ref>) identified all the symptoms from six abnormal-superpixels which contain necrosis, swelling, and redness. This proves the proposed system could deal with the wound very well even if the wound is in arc shape and multiple symptoms exist, which also shows the robustness and the effectiveness of the proposed system.</p><p>The proposed method has its own limitation. Fig. <ref type="figure" target="#fig_12">11</ref> shows the failure case where some are identified incorrectly: some of redness wound-superpixels are identified as swelling while some of swelling wound-superpixels are identified as redness. This is because there are blurry boundaries between these two symptoms. However, our system can correctly find out the abnormal-superpixels which can also remind patients and medical professionals for further tracing. Fig. <ref type="figure" target="#fig_13">12</ref> shows the other failure case. Serious glare was made by the cream on the skin. Moreover, the brightness of the skin in this photograph is different from our other training dataset. Therefore, our approach cannot find out the skin superpixels.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Discussion</head><p>To facilitate to execute field tests, an APP is developed on the Android platform, which core is the methodology proposed in this paper. A practical issue here is that patients and their families are not medical professionals. There is a potential risk that some patients cannot operate our system correctly, which may lead the failure of self-care. To resolve this issue, two approaches are adopted in this field tests. 2) Adding the Fool-Proofing Mechanism in App: This App also includes fool-proofing mechanism inside. First of all, when using this App to capture the wound image, the user would be suggested to put the wound in the central area in the capture screen. Second, when user presses the capture button and upload the capture image to the server. Our approach will check the area ratio between the skin area and the nonskin area after the process of "skin area detection." A threshold is used to remind patients to take a picture again and to drop out the ineffective image while the proportion of skin is lower than this threshold. The threshold is temporarily set to be 60% for now. However, this approach may not handle all of the cases. The more sophisticated approach would be needed and we left it as a future work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. CONCLUSION</head><p>This paper presents a surgical assessment system for selfcare to automatically assess wounds after surgeries. The proposed method consists of four phases.</p><p>1) Superpixel Segmentation: Superpixel extraction technique is used to group the pixels with similar color distribution. 2) Skin Area Detection: The skin-classifier is built to identify the skin-superpixels and use the ellipse-fitting approach to locate the surgical wounds. 3) Wound Area Detection: Based on the observation that the texture of surgical wounds are different than normal skin, the corner detection technique is used to capture superpixels which are surgical wounds precisely; 4) Wound Assessment: two classifiers are built to identify not only the state of but also the symptoms of woundsuperpixels. Extensive experiments are conducted. Compared with the diagnosis made by medical professionals, our approach can achieve 90% (accuracy) in state assessment and 91% (accuracy) of symptom assessment. Case studies also show the proposed system could detect and assess multiple symptoms on surgical wounds. These results show that the assessment quality achieved by the proposed system is very close to that by medical professional. This shows that this system can help medical professionals eliminate the efforts diagnosis effectively and focus on patients which need more care so that the efficiency of the usage of medical resources can be further improved.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. System architecture.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Block diagram of the proposed method. Left-side is training part and right-side is classification part. Two parts are not executed in the same time. (a) Training. (b) Classification.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. (a) Image and (b) there are 329 superpixels in the image.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Some examples which are labeled as (a) skin and (b) nonskin in our real dataset.</figDesc><graphic coords="7,60.47,53.69,108.62,109.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. There are 329 superpixels in the image. Each superpixel is adjacent to eight superpixels in average.</figDesc><graphic coords="7,319.43,55.47,161.96,107.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. (a) Skin-superpixels. (b) Ellipse includes the superpixels with wound. (c) Superpixels of the ellipse. (d) Superpixels in the border of the ellipse. (e) Edge superpixels of the ellipse. (f) Skin area.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Running examples. (a) Corner detection and (b) wound area.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Hc 1 =</head><label>1</label><figDesc>[0.1, 0.5, 0.2, 0.1, 0.1] Hc 2 = [0.2, 0.1, 0.0, 0.3, 0.4] Hc 3 = [0.1, 0.4, 0.4, 0.0, 0.1] with their plurality-sets PL 1 = {2, 3, 1}, PL 2 = {5, 4, 1}, and PL 3 = {2, 3}. Then, considering PL 3 , the inner term of the Definition 5 could start from calculating S(3, 1) = 0.5+0.2 = 0.7, S(3, 2) = 0.1 + 0.0 = 0.1, and S(3, 3) = 0.4 + 0.4 = 0.8.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. (a) Red rectangles are bounding wound-superpixels which present "abnormal" and (b) their symptoms are all assessed as "swelling" (pink rectangle).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Voting results of majority bins extraction.</figDesc><graphic coords="13,339.83,417.89,97.66,99.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. Success cases. (a) Wound area of foot includes unuseful elements such as background in the analysis, but in (b) only real wound are further identified their symptoms and the symptom is identified correctly. (c) Wound area includes four kinds of symptoms, they are identified correctly in (d).</figDesc><graphic coords="14,59.87,150.65,108.14,80.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 11 .</head><label>11</label><figDesc>Fig. 11. Failure case: some redness wound-superpixels are identified as swelling.</figDesc><graphic coords="14,333.47,53.81,207.86,155.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 12 .</head><label>12</label><figDesc>Fig. 12. Failure case: glare on the photograph.</figDesc><graphic coords="14,333.47,253.73,207.86,151.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>1 )</head><label>1</label><figDesc>Conduct Training and Education Session for Patientsand Their Family Before Leaving Hospital: Patients after surgery will receive training and education session by medical professionals before leaving hospital, such as the way to take medicine and how to change dressing for their wounds. Therefore, the instruction is given as a part of the patient education program so that patients and their family members could avoid possible operational error in the wound image capture steps. After applying this training program, most patients and their family members are capable to use our App to capture the wound area images themselves correctly. IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>1 :</head><label>1</label><figDesc>FUNCTION getPluralityBins(hist, pk)    </figDesc><table><row><cell>2:</cell><cell>dHistBins←hist.sortBins('DESCEND')</cell></row><row><cell>3:</cell><cell>FOR bin IN dHistBins</cell></row><row><cell>4:</cell><cell>IF sumOfBins &gt; pk</cell></row><row><cell>5:</cell><cell>BREAK</cell></row><row><cell>6:</cell><cell>ELSE</cell></row><row><cell>7:</cell><cell>sumOfBins ← sumOfBins + hist[bin]</cell></row><row><cell>8:</cell><cell>pluralityBins.append(bin)</cell></row><row><cell>9:</cell><cell>ENDIF</cell></row><row><cell>10:</cell><cell>ENDFOR</cell></row><row><cell>11:</cell><cell>return pluralityBins</cell></row><row><cell cols="2">12: ENDFUNCTION</cell></row><row><cell>13:</cell><cell></cell></row><row><cell cols="2">14: FUNCTION getMajorityBins(histList, pk)</cell></row><row><cell>15:</cell><cell>FOR hist IN histList</cell></row><row><cell>16:</cell><cell>pluralityBins ← getPluralityBins(hist, pk)</cell></row><row><cell>17:</cell><cell>pluralityBinsList.append(pluralityBins)</cell></row><row><cell>18:</cell><cell>ENDFOR</cell></row><row><cell>19:</cell><cell></cell></row><row><cell>20:</cell><cell>FOR pluralityBins IN pluralityBinsList</cell></row><row><cell>21:</cell><cell>FOR hist IN histList</cell></row><row><cell>22:</cell><cell>sumOfBins ← sum(hist[pluralityBins])</cell></row><row><cell>23:</cell><cell>IF sumOfBins &gt; pk</cell></row><row><cell>24:</cell><cell>indication ← indication + 1</cell></row><row><cell>25:</cell><cell>ENDIF</cell></row><row><cell>26:</cell><cell>benefit ← benefit + sumOfBins</cell></row><row><cell>27:</cell><cell>ENDFOR</cell></row><row><cell>28:</cell><cell>benefit ←benefit / pluralityBins.length() / histList.length()</cell></row><row><cell>29:</cell><cell>performance ← benefit * indication</cell></row><row><cell>30:</cell><cell>IF performance &gt; maxPerformance</cell></row><row><cell>31:</cell><cell>max ← performance</cell></row><row><cell>32:</cell><cell>majorityBins ← pluralityBins</cell></row><row><cell>33:</cell><cell>ENDIF</cell></row><row><cell>34:</cell><cell>ENDFOR</cell></row><row><cell>35:</cell><cell>return majorityBins</cell></row><row><cell cols="2">36: ENDFUNCTION</cell></row><row><cell>37:</cell><cell></cell></row><row><cell cols="2">38: FUNCTION getSignificantBins(histList, pk)</cell></row><row><cell>39:</cell><cell>FOR pk ←1 TO 99</cell></row><row><cell>40:</cell><cell>majorityBins ← getMajorityBins(histList, pk)</cell></row><row><cell>41:</cell><cell>nomineeList.append(majorityBins)</cell></row><row><cell>42:</cell><cell>ENDFOR</cell></row><row><cell>43:</cell><cell>significantBins ← voting(nomineeList)</cell></row><row><cell>44:</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>TABLE IV RESULTS</head><label>IV</label><figDesc>OF Wound Area Detection</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>TABLE VI</head><label>VI</label><figDesc></figDesc><table><row><cell>CROSS-VALIDATION OF State Assessment</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>This work was supported by the <rs type="funder">Ministry of Science and Technology, Taiwan</rs>, under Grant <rs type="grantNumber">MOST 105-2221-E-002-120-MY3</rs> and Grant <rs type="grantNumber">MOST 106-2218-E-032-004-MY2</rs>. This paper was recommended by Associate Editor <rs type="person">Y. Hata</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_djf9gkS">
+					<idno type="grant-number">MOST 105-2221-E-002-120-MY3</idno>
+				</org>
+				<org type="funding" xml:id="_tsJbHg3">
+					<idno type="grant-number">MOST 106-2218-E-032-004-MY2</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Yung-Wei Chen received the Ph.D. degree from the Department of Electrical Engineering, National Taiwan University, Taipei, Taiwan.</p><p>He is also a Software Engineer and a Product Manager in surveillance and education industry, respectively. He has published many papers in several conferences and journals and also holds some Taiwan patents. He plays a major role in the development of intelligent video surveillance system and e-learning platform. His current research interests include artificial intelligence, computer vision, video coding, e-commerce intelligence, Artificial Intelligence of Things, and Artificial Intelligence in Financial Technology.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Jui-Tse</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="15,67.22,659.29,232.80,7.17;15,67.22,668.26,232.82,7.17;15,67.22,677.22,232.81,7.17;15,67.22,686.19,76.92,7.17" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Discharge education to promote self-management following cardiovascular surgery: An integrative review</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Veronovici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Lasiuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Rempel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Norris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Cardiovasc. Nurs</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="31" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,67.22,695.74,232.83,7.17;15,67.22,704.71,232.83,7.17;15,67.22,713.67,218.59,7.17" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The impact of skin grafting on the quality of life and self-esteem of patients with venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Salomé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Blanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Ferreira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World J. Surg</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="233" to="240" />
+			<date type="published" when="2014-01">Jan. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,67.22,723.22,232.84,7.17;15,67.22,732.18,232.80,7.17;15,67.22,741.16,178.72,7.17" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">High-level intuitive features (HLIFs) for intuitive skin lesion description</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Amelard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Glaister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Clausi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Biomed. Eng</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="820" to="831" />
+			<date type="published" when="2015-03">Mar. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,59.71,232.79,7.17;15,330.24,68.68,232.82,7.17;15,330.24,77.64,34.67,7.17" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Learning a classification model for segmentation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Malik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Int. Conf. Comput. Vis. (ICCV)</title>
+		<meeting>IEEE Int. Conf. Comput. Vis. (ICCV)<address><addrLine>Nice, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="10" to="16" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,87.39,232.81,7.17;15,330.24,96.35,191.51,7.17" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Superpixel tracking</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Int. Conf. Comput. Vis</title>
+		<meeting>IEEE Int. Conf. Comput. Vis</meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="1323" to="1330" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,106.10,232.80,7.17;15,330.24,115.06,232.80,7.17;15,330.24,124.04,180.44,7.17" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Object segmentation in video: A hierarchical variational approach for turning point trajectories into dense regions</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ochs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Conf. Comput. Vis</title>
+		<meeting>Int. Conf. Comput. Vis</meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="1583" to="1590" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,133.78,232.82,7.17;15,330.24,142.75,232.82,7.17;15,330.24,151.71,89.22,7.17" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">SLIC superpixels compared to state-of-the-art superpixel methods</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Achanta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2274" to="2282" />
+			<date type="published" when="2012-11">Nov. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,161.46,232.79,7.17;15,330.24,170.42,232.79,7.17;15,330.24,179.39,132.86,7.17" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">SEEDS: Superpixels extracted via energy-driven sampling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Den Bergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Boix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Roig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Gool</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Comput. Vis</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="298" to="314" />
+			<date type="published" when="2015-02">Feb. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,189.13,232.79,7.17;15,330.24,198.10,178.01,7.17" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Face detection in color images based on skin color models</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-I</forename><surname>Kamata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. TENCON</title>
+		<meeting>TENCON</meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="681" to="686" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,207.85,232.78,7.17;15,330.24,216.82,232.81,7.17;15,330.24,225.78,80.77,7.17" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A practical system for detecting obscene videos</title>
+		<author>
+			<persName><forename type="first">C.-Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O.-J</forename><surname>Kwon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Consum. Electron</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="646" to="650" />
+			<date type="published" when="2011-05">May 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,235.53,232.80,7.17;15,330.24,244.49,232.82,7.17;15,330.24,253.46,163.13,7.17" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Face detection based on skin color segmentation and neural network</title>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Yen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-T</forename><surname>Kao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Conf. Neural Netw</title>
+		<meeting>Int. Conf. Neural Netw</meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1144" to="1149" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,263.20,232.81,7.17;15,330.24,272.17,232.81,7.17;15,330.24,281.14,35.81,7.17" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A computational approach to edge detection</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Canny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="679" to="698" />
+			<date type="published" when="1986-11">Nov. 1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,290.88,232.80,7.17;15,330.24,299.85,232.79,7.17;15,330.24,308.81,232.82,7.17;15,330.24,317.78,26.70,7.17" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">GPU-based segmentation of cervical vertebra in X-ray images</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mahmoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lecron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Manneback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Benjelloun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mahmoudi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Workshop HPCCE Conjunction IEEE Cluster</title>
+		<meeting>Workshop HPCCE Conjunction IEEE Cluster</meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,327.53,232.80,7.17;15,330.24,336.50,232.80,7.17;15,330.24,345.46,232.81,7.17;15,330.24,354.42,67.27,7.17" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Heterogeneous computing for vertebra detection and segmentation in X-ray images</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lecron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mahmoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Benjelloun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mahmoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Manneback</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biomed. Imag</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2011-06">2011. Jun. 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,364.17,232.85,7.17;15,330.24,373.14,153.04,7.17" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A combined corner and edge detection</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stephens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 4th Alvey Vis. Conf</title>
+		<meeting>4th Alvey Vis. Conf</meeting>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<biblScope unit="page" from="147" to="151" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,382.88,232.81,7.17;15,330.24,391.85,232.80,7.17;15,330.24,400.82,101.63,7.17" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Modern computer vision techniques for X-ray testing in baggage inspection</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Syst., Man, Cybern., Syst</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="682" to="692" />
+			<date type="published" when="2017-04">Apr. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,410.56,232.79,7.17;15,330.24,419.53,232.81,7.17;15,330.24,428.49,79.23,7.17" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Speeded-up robust features (SURF)</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tuytelaars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Gool</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Vis. Image Understanding</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="346" to="359" />
+			<date type="published" when="2008-06">Jun. 2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,438.24,232.82,7.17;15,330.24,447.21,217.15,7.17" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Evaluation of interest point detectors</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gauglitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Höllerer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Turk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Comput. Vis</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="151" to="172" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,456.95,232.81,7.17;15,330.24,465.92,232.78,7.17;15,330.24,474.89,232.80,7.17;15,330.24,483.85,124.33,7.17" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A model-driven methodology for the design of autonomic and cognitive IoT-based systems: Application to healthcare</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mezghani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Exposito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Drira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Emerg. Topics Comput. Intell</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="224" to="234" />
+			<date type="published" when="2017-06">Jun. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,493.60,232.81,7.17;15,330.24,502.56,232.80,7.17;15,330.24,511.53,127.87,7.17" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Smartphone-based recognition of states and state changes in bipolar disorder patients</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grunerbl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Biomed. Health Inform</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="140" to="148" />
+			<date type="published" when="2015-01">Jan. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,521.29,232.79,7.17;15,330.24,530.25,232.81,7.17;15,330.24,539.22,232.80,7.17;15,330.24,548.18,156.34,7.17" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Signal quality measures on pulse oximetry and blood pressure signals acquired from self-measurement in a home environment</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sukor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Mohktar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Redmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Lovell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Biomed. Health Inform</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="102" to="108" />
+			<date type="published" when="2015-01">Jan. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,557.93,232.79,7.17;15,330.24,566.89,232.81,7.17;15,330.24,575.86,205.62,7.17" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A practical design and implementation of a low cost platform for remote monitoring of lower limb health of amputees in the developing world</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mathur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="7440" to="7451" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,585.61,232.82,7.17;15,330.24,594.57,232.82,7.17;15,330.24,603.54,34.36,7.17" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Dermatologist-level classification of skin cancer with deep neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Esteva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">542</biblScope>
+			<biblScope unit="page" from="115" to="118" />
+			<date type="published" when="2017-02">Feb. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,613.28,232.82,7.17;15,330.24,622.25,232.81,7.17;15,330.24,631.22,143.38,7.17" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Computer aided diagnostic support system for skin cancer: A review of techniques and algorithms</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Masood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ali Al-Jumaily</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biomed. Imag</title>
+		<imprint>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2013-10">Oct. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,640.96,232.79,7.17;15,330.24,649.93,232.80,7.17;15,330.24,658.90,232.81,7.17;15,330.24,667.86,33.35,7.17" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Skin segmentation using color pixel classification: Analysis and comparison</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Phung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bouzerdoum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="148" to="154" />
+			<date type="published" when="2005-01">Jan. 2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,677.61,232.79,7.17;15,330.24,686.57,232.81,7.17;15,330.24,695.54,232.81,7.17;15,330.24,704.51,88.73,7.17" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Detection and classification of acne lesions in acne patients: A mobile application</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alamdari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tavakolian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alhashim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fazel-Rezai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Int. Conf. Electro Inf. Technol. (EIT)</title>
+		<meeting>IEEE Int. Conf. Electro Inf. Technol. (EIT)</meeting>
+		<imprint>
+			<date type="published" when="2016-05">May 2016</date>
+			<biblScope unit="page" from="739" to="0743" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,330.23,714.25,232.83,7.17;15,330.24,723.22,232.81,7.17;15,330.24,732.18,232.81,7.17;15,330.24,741.15,17.94,7.17" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Wounds measured from digital photographs using photodigital planimetry software: Validation and rater reliability</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Wendelken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds Compendium Clin. Res. Pract</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="267" to="275" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,59.71,232.81,7.17;16,67.22,68.68,232.80,7.17;16,67.22,77.64,232.81,7.17;16,67.22,86.61,17.94,7.17" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Correlation between wound temperature obtained with an infrared camera and clinical wound bed score in venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Dini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds Compendium Clin. Res. Pract</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="274" to="278" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,95.58,232.83,7.17;16,67.22,104.54,232.81,7.17;16,67.22,113.51,232.82,7.17;16,67.22,122.47,50.62,7.17" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">3D wound measurement system for telemedical applications</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lubeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jostschulte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Biskup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Clasbrummel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 39th Annu</title>
+		<meeting>39th Annu</meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="1418" to="1419" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.21,131.44,232.83,7.17;16,67.22,140.41,232.82,7.17;16,67.22,149.37,202.12,7.17" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Assessment of ulcer wounds size using 3D skin surface imaging</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F M</forename><surname>Hani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Eltegani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Hussein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jamil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Vis</title>
+		<meeting>Vis</meeting>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="243" to="253" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.21,158.34,232.80,7.17;16,67.22,167.31,232.76,7.17;16,67.22,176.27,213.66,7.17" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Enhanced assessment of the wound-healing process by accurate multiview tissue classification</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wannous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imag</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="315" to="326" />
+			<date type="published" when="2011-02">Feb. 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.21,185.24,232.79,7.17;16,67.22,194.21,232.79,7.17;16,67.22,203.17,232.80,7.17;16,67.22,212.14,32.03,7.17" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">An imaging system with calibrated color image acquisition for use in dermatology</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">V</forename><surname>Haeghen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M A D</forename><surname>Naeyaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lemahieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Philips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imag</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="722" to="730" />
+			<date type="published" when="2000-07">Jul. 2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.21,221.10,232.81,7.17;16,67.22,230.07,232.79,7.17;16,67.22,239.04,176.36,7.17" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">MEDPHOS: A new photogrammetric system for medical measurement</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Malian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Azizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Van Den</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Heuvel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Archives Photogrammetry</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">B5</biblScope>
+			<biblScope unit="page" from="311" to="316" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,248.00,232.83,7.17;16,67.22,256.96,232.79,7.17;16,67.22,265.94,207.53,7.17" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A robust photogrammetric system for wound measurement</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Malian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Van Den</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heuvel</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Azizi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Archives Photogrammetry Remote Sens. Spat. Inf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="264" to="269" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.21,274.90,232.78,7.17;16,67.22,283.87,232.81,7.17;16,67.22,292.83,232.81,7.17;16,67.22,301.80,55.40,7.17" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Photogrammetric wound measurement with a three-camera vision system</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Boersma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Van Den Heuvel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Scholtens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Archives Photogrammetry Remote Sens</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">B5</biblScope>
+			<biblScope unit="page" from="84" to="91" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,310.77,232.79,7.17;16,67.22,319.73,232.78,7.17;16,67.22,328.70,232.81,7.17;16,67.22,337.67,32.03,7.17" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Prediction of periventricular leukomalacia. Part I: Selection of hemodynamic features using logistic regression and decision tree algorithms</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Samanta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Intell. Med</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="201" to="215" />
+			<date type="published" when="2009-07">Jul. 2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.21,346.63,232.80,7.17;16,67.22,355.59,232.80,7.17;16,67.22,364.57,129.19,7.17" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Bayesian classification for data from the same unknown class</title>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-N</forename><surname>Hsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Syst., Man, Cybern. B, Cybern</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="137" to="145" />
+			<date type="published" when="2002-04">Apr. 2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,373.53,232.82,7.17;16,67.22,382.50,232.82,7.17;16,67.22,391.46,178.73,7.17" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Optimization models for feature selection of decomposed nearest neighbor</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Chaovalitwongse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Syst., Man, Cybern., Syst</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="177" to="184" />
+			<date type="published" when="2016-02">Feb. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,400.43,232.81,7.17;16,67.22,409.40,232.82,7.17;16,67.22,418.36,216.74,7.17" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Comparison between neural networks and multiple logistic regression to predict acute coronary syndrome in the emergency room</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Intell. Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="305" to="318" />
+			<date type="published" when="2006-11">Nov. 2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,427.32,232.83,7.17;16,67.22,436.30,232.82,7.17;16,67.22,445.26,176.40,7.17" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Object classification and grasp planning using visual and tactile sensing</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Syst., Man, Cybern., Syst</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="969" to="979" />
+			<date type="published" when="2016-07">Jul. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,454.22,232.82,7.17;16,67.22,463.19,232.80,7.17;16,67.22,472.16,160.64,7.17" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Prediction of synergistic anti-cancer drug combinations based on drug target network and drug induced gene expression profiles</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Intell. Med</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="35" to="43" />
+			<date type="published" when="2017-06">Jun. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,481.13,232.82,7.17;16,67.22,490.09,232.79,7.17;16,67.22,499.06,232.80,7.17;16,67.22,508.03,87.64,7.17" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Semisupervised incremental support vector machine learning based on neighborhood kernel estimation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Syst., Man, Cybern., Syst</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2677" to="2687" />
+			<date type="published" when="2017-10">Oct. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.21,516.99,232.79,7.17;16,67.22,525.95,232.81,7.17;16,67.22,534.93,102.51,7.17" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Skin segmentation based on multi pixel color clustering models</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Naji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zainuddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Jalab</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Digit. Signal Process</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="933" to="940" />
+			<date type="published" when="2012-12">Dec. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,543.89,232.81,7.17;16,67.22,552.85,99.88,7.17" xml:id="b43">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Workwithcolor</surname></persName>
+		</author>
+		<ptr target="http://www.workwithcolor.com" />
+		<imprint>
+			<date type="published" when="2017-04">Apr. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,561.82,232.81,7.17;16,67.22,570.79,232.81,7.17;16,67.22,579.76,232.82,7.17;16,67.22,588.72,120.52,7.17" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A Practical Description of the Munsell Color System With Suggestions for Its Use: Color Chroma Scale</title>
+		<ptr target="http://munsell.com/color-blog/grammar-of-color-chroma-scale/" />
+	</analytic>
+	<monogr>
+		<title level="j">A Grammar of Color-Part</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2017-04">Apr. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,597.68,232.80,7.17;16,67.22,606.66,192.07,7.17" xml:id="b45">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Shih</surname></persName>
+		</author>
+		<title level="m">Distributed Multimedia Databases: Techniques and Applications</title>
+		<meeting><address><addrLine>Hershey, PA, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Idea Group</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page">18</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,615.62,232.81,7.17;16,67.22,624.58,232.80,7.17;16,67.22,633.55,175.22,7.18" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">SOFSEM 2001: Theory and practice of informatics</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pacholski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ruzicka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 28th Conf. Current Trends Theory Pract</title>
+		<meeting>28th Conf. Current Trends Theory Pract<address><addrLine>Slovakia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001-12">Nov./Dec. 2001</date>
+			<biblScope unit="page">37</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,642.53,232.82,7.17;16,67.22,651.49,184.45,7.17" xml:id="b47">
+	<analytic>
+		<title/>
+		<ptr target="https://archive.ics.uci.edu/ml/datasets/Skin+Segmentation" />
+	</analytic>
+	<monogr>
+		<title level="j">Skin Segmentation Data Set</title>
+		<imprint>
+			<date type="published" when="2017-04">Apr. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,660.45,232.82,7.17;16,67.22,669.43,232.80,7.17;16,67.22,678.39,229.73,7.17" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Face detection in video using combined data-mining and histogram based skin-color model</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dzmitry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liming</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 3rd Int. Symp. Image Signal Process. Anal</title>
+		<meeting>3rd Int. Symp. Image Signal ess. Anal</meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="500" to="503" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,687.35,232.83,7.17;16,67.22,696.32,232.81,7.17;16,67.22,705.29,63.38,7.17" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A practical animal detection and collision avoidance system using computer vision technique</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">U</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Shah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="347" to="358" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,714.26,232.81,7.17;16,67.22,723.22,211.66,7.17" xml:id="b50">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">The</forename><surname>Color</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gray</forename></persName>
+		</author>
+		<ptr target="http://vanseodesign.com/web-design/hue-saturation-and-lightness/" />
+		<imprint>
+			<date type="published" when="2017-04">Apr. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,67.22,732.18,232.81,7.17;16,67.22,741.16,201.00,7.17" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Learning from imbalanced data</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Garcia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Knowl. Data Eng</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1263" to="1284" />
+			<date type="published" when="2009-09">Sep. 2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

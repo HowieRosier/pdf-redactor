@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A review of artificial intelligence in wound care</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-11-04">4 Nov 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ovya</forename><surname>Ganesan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic and Reconstructive Surgery</orgName>
+								<orgName type="department" key="dep2">Brigham and Women&apos;s Hospital</orgName>
+								<address>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Geisel School of Medicine at Dartmouth</orgName>
+								<address>
+									<postCode>03755</postCode>
+									<settlement>Hanover</settlement>
+									<region>NH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Miranda</forename><forename type="middle">Xiao</forename><surname>Morris</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Plastic and Reconstructive Surgery</orgName>
+								<orgName type="institution">Lahey Hospital and Medical Center</orgName>
+								<address>
+									<postCode>01805</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lifei</forename><surname>Guo</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Plastic and Reconstructive Surgery</orgName>
+								<orgName type="institution">Lahey Hospital and Medical Center</orgName>
+								<address>
+									<postCode>01805</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Dr</roleName><forename type="first">Dennis</forename><surname>Orgill</surname></persName>
+							<email>dorgill@bwh.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic and Reconstructive Surgery</orgName>
+								<orgName type="department" key="dep2">Brigham and Women&apos;s Hospital</orgName>
+								<address>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Harvard Medical School</orgName>
+								<address>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Plastic Surgery Department</orgName>
+								<orgName type="department" key="dep2">Brigham and Women&apos;s Hospital</orgName>
+								<address>
+									<addrLine>75 Francis Street</addrLine>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A review of artificial intelligence in wound care</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-11-04">4 Nov 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C31862F81733FF96955E39F4E37C512E</idno>
+					<idno type="DOI">10.20517/ais.2024.68</idno>
+					<note type="submission">Received: 15 Aug 2024 First Decision: 8 Oct 2024 Revised: 21 Oct 2024 Accepted: 28 Oct 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Artificial intelligence</term>
+					<term>wound healing</term>
+					<term>wound care</term>
+					<term>hard-to-heal wounds</term>
+					<term>chronic wounds</term>
+					<term>ulcers Copyright</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Our aging population, diabetes, and obesity have fueled the growth of chronic wounds seen throughout the world. Often, wounds are a marker of poor health that leads to increased mortality rates. However, the diagnosis and treatment of these wounds are challenging. Incorrectly differentiating between chronic wounds and other complex conditions can lead to adverse events. Artificial intelligence (AI) has been shown to offer some early benefits, and we hypothesized that it may enhance wound care but also carry some notable risks. We performed a detailed search using PubMed, Scopus, Cumulated Index in Nursing and Allied Health Literature, and Web of Science for AI applications in wound care. AI was found to be applied to wound diagnosis and characterization, wound monitoring for tissue change, daily therapy, and prevention and prognostics. AI made for more efficient and accurate wound assessments, less painful assessments of chronic wounds, more personalized treatment, and improved prognostic prediction capabilities. AI also allowed for more precise at-home observation and care, facilitating earlier wound treatment as needed. Challenges associated with AI included how to best allocate AI-assisted technologies equitably, how to safely maintain patient data, and how to diversify datasets for algorithm training. Because the algorithms are not transparent, validating findings may be challenging. AI presents a powerful tool in several aspects of advanced wound care and has the potential to improve diagnoses, accelerate healing, reduce pain, and improve the cost-effectiveness of wound care. More research needs to be done into how to best incorporate AI into daily clinical practice while keeping clinicians aware of the potential risks of using these evolving technologies.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.0" lry="807.9"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Wound healing is a rapidly growing multidisciplinary field drawing clinicians from diverse backgrounds including nursing, medicine, podiatry, plastic surgery, and physical therapy. The prevalence of chronic wounds has increased in association with underlying conditions, such as aging, obesity, and diabetes, which contribute to the nonhealing nature of many wounds. From 2014 to 2019, the number of Medicare beneficiaries with a wound increased from 8.2 million to 10.5 million, with the largest increase in wound prevalence in those less than 65 years of age <ref type="bibr" target="#b1">[1]</ref> . Economically, total Medicare spending estimates for all wounds spanned $28.1 to $96.8 billion in 2014 <ref type="bibr" target="#b2">[2]</ref> . However, these numbers do not begin to capture the impaired quality of life, lost wages, and lost productivity that is too often experienced by patients and their family members. Providers face a new challenge: how to best care for an increasing number of wounds in an age of strained resources. The rapid development of artificial intelligence (AI) may be an innovative method to help reduce the burden that patients and providers face in the area of wound care.</p><p>In this review, we define AI as the ability of computers, machines, and other technology to use algorithms to simulate human intelligence and problem-solving. AI's power lies in its ability to process and interpret large amounts of data quickly and improve upon itself without the need for manual input <ref type="bibr" target="#b3">[3,</ref><ref type="bibr" target="#b4">4]</ref> . AI can read electronic medical records (EMR), process images, and predict clinical outcomes, all of which can be applied to wound healing <ref type="bibr" target="#b5">[5]</ref> .</p><p>The following terminology is commonly described in AI-assisted medicine: machine learning, neural networks, natural language processing, deep learning, and computer vision <ref type="bibr" target="#b6">[6,</ref><ref type="bibr" target="#b7">7]</ref> . Machine learning focuses on using computers, data, and algorithms to imitate human learning and adaptation. Neural networks are sets of interconnected algorithms that handle multiple inputs and outputs, identifying various data relationships and filtering data as needed <ref type="bibr" target="#b7">[7]</ref> . Natural language processing comprehends language, translates texts, and recognizes speech. Deep learning extracts progressively higher-level features from data through multiple layers of processing to provide a single, high-level output. Computer vision enables computers to interpret visual input. Morris et al. have previously reviewed these categories in the context of the general field of surgery <ref type="bibr" target="#b7">[7]</ref> . These AI categories can additionally be applied to various stages of wound care, improving wound diagnosis, classification, and measurement. AI also aids wound management by assessing wounds for infection, necrosis, or healing. Additionally, AI has contributed to more personalized care and better prognosis and preventative strategies. However, AI brings challenges, including data privacy and equity of care. With appropriate safeguards and a cautiously optimistic approach to AI in wound care, we can leverage AI to make significant improvements to the field. In this review, we summarize AI advancements during stages of wound care, including diagnosis, monitoring, therapy, and prognosis and prevention. We also discuss the challenges and future directions of AI in wound care.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>A literature search was performed using freely accessible online databases, including PubMed, Scopus, Cumulated Index in Nursing and Allied Health Literature, and Web of Science, from publication to July 20, 2024. Keywords included "wound healing", "hard-to-heal wounds", "wound care", "artificial intelligence", "machine learning", "deep learning", "neural network", and "arterial, venous, diabetic, pressure, or chronic wounds and ulcers". Articles were included for their specific discussions on the use of AI in common chronic human wound diagnosis, management, prognosis, and prevention.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI in wound diagnosis</head><p>Wound diagnosis is challenging yet crucial to treatment. Chronic wounds most commonly include diabetic foot ulcers, pressure injuries, arterial ulcers, and venous insufficiency ulcers. Other less common disease states are often present where diagnoses are not obvious, such as pyoderma gangrenosum and inflammatory ulcerations. Treating the wound commonly involves treating the underlying condition, thus making proper diagnosis critical and the first step in treatment [Figure <ref type="figure" target="#fig_2">1</ref>].</p><p>Experienced clinicians who have the training to properly diagnose chronic wounds are limited. For medical students and physicians, formal wound care training is sparse. A survey of fifty American medical schools reported that the average number of educational hours spent on the physiology of tissue injury and wound healing over all four years of medical school was just 4.7 h <ref type="bibr" target="#b8">[8]</ref> . More than 47% of surveyed nurses in an inpatient setting stated that they "did not accept wound care as a nursing task", and more than half of the nurses failed to provide wound care discharge education <ref type="bibr" target="#b9">[9]</ref> . Because of the lack of standardized education on wound care, knowledge is often picked up through practitioner experience, creating a varied knowledge base. The lack of standardized education has also led to the creation of organizations working to address this issue. The Wound, Ostomy, and Continence Nurses Society is one of those organizations that provides standardized education to nurses to help fill the need for trained wound providers. AI can similarly help standardize and expand that base with an unlimited number of "experiences", or data. For example, by inputting hundreds of images of different wounds into a database, AI can examine a new wound's image, "compare" it to the ones in the database, and report information about the new wound.</p><p>Several researchers have utilized AI to differentiate between challenging-to-diagnose wounds [Table <ref type="table">1</ref>]. For example, pyoderma gangrenosum is easily misdiagnosed as cellulitis, diabetic foot ulcers, abscesses, and other processes. The misdiagnosis of pyoderma gangrenosum can expose patients to risks that are associated with its treatment and delay care for other causes of ulceration <ref type="bibr" target="#b10">[10]</ref> . It can lead to prolonged hospitalization, unnecessary procedures, and increased medical costs for the hospital and the patient. Birkner et al., however, developed a deep convolutional neural network to differentiate pyoderma gangrenosum from conventional leg ulcers with a higher sensitivity than trained dermatologists <ref type="bibr" target="#b11">[11]</ref> . This technology can help prevent misdiagnosis.</p><p>Similarly, Hüsers et al. studied image detection and classification algorithms for venous leg ulcers and diabetic foot ulcers, and their algorithms of the YoloV5 ("You-Only-Look-Once") family resulted in a high precision (0.94) <ref type="bibr" target="#b12">[12]</ref> . With such high precision, this technology could serve as a tool for double-checking physicians, enhancing their confidence that they are accurately diagnosing and treating patients.</p><p>Several deep learning tools, involving superpixel segmentation and a convolutional neural network, have been created to classify pressure and diabetic wound images with higher accuracy than what had been done in the past <ref type="bibr" target="#b13">[13]</ref><ref type="bibr" target="#b14">[14]</ref><ref type="bibr" target="#b15">[15]</ref><ref type="bibr" target="#b16">[16]</ref> . One model, "Alexnet architecture", attained about 99% accuracy, 99% sensitivity, and 99% specificity <ref type="bibr" target="#b16">[16]</ref> . Such high values are necessary for monitoring the progress of healing. Mohammed et al. used an AI digital application to capture quality wound images and calculate wound surface area faster than clinic staff using a standard digital camera, saving about two minutes on each wound assessment <ref type="bibr" target="#b17">[17]</ref> .</p><p>AI is quick and efficient, facilitating noncontact optical assessment of a patient's wound, which can potentially reduce pain and risk of infection. It also allows non-providers to assess wounds, which is crucial as they often require daily assistance from family members, friends, or nonmedical caretakers. For example, Lau et al. developed a smartphone application to perform real-time detection and staging classification of</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1. Summary of AI advancements in wound diagnosis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study AI framework and/or computational system Outcome Identification and classification</head><p>Birkner et al. [11]   Deep convolutional neural network trained with images of pyoderma gangrenosum and leg ulcers Differentiate pyoderma gangrenosum from conventional leg ulcer Hüsers et al. [12]   Image detection and classification algorithms of the YOLOv5, trained with 885 images of either wound Identify and classify venous leg ulcers and diabetic foot ulcers Swerdlow et al. <ref type="bibr" target="#b13">[13]</ref> and Zahia et al. [14]   Convolutional neural network Segmentation and classification of pressure injury images Chang et al. [15]   Deep learning based on superpixel segmentation Pressure ulcer diagnosis Eldem et al. [16]   "Alexnet architecture", a deep learning tool Classify pressure and diabetic wound images Lau et al. [18]   Smartphone application using a deep learning-based object detection system Detection and stage classification of printed images of pressure injury wounds</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sizing</head><p>Mohammed et al. [17]   "Swift", a noninvasive digital tool using AI Capture color calibrated images to identify wound boundaries, surface area, and depth</p><p>Chan et al. [19]   Mobile device application using YOLOv4, validated with 144 photos Detect length, width, and area of diabetic foot ulcers</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tissue identification</head><p>Aldoulah et al. [20]   SEEN-B4 deep learning framework Assess erythematous regions compared to an eschar or dry crust Veredas et al. [21]   Neural networks and Bayesian classifiers Identify tissue types in wound images</p><p>Lien et al. [22]   Neural network model trained with three rounds of active learning Detect the growth of granulation tissue in diabetic foot ulcers Liu et al.   printed images of pressure injuries using a deep learning-based object detection system <ref type="bibr" target="#b18">[18]</ref> . It has an accuracy of 63%, specificity of above 85%, and sensitivity of 73% <ref type="bibr" target="#b18">[18]</ref> . The app itself claims to provide a "reasonable pressure injury staging support tool for lay carers" <ref type="bibr" target="#b18">[18]</ref> . With a moderately high specificity and moderate sensitivity, providers should rely on this tool as a way to confirm suspected diagnosis rather than as a diagnostic tool itself. The technology specifically aimed to assist nursing home carers in accurate wound assessment and care planning to avoid downstream infection and hospitalization if the wound was otherwise not detected <ref type="bibr" target="#b18">[18]</ref> . Another mobile device application, described by Chan et al., can detect the length, width, and area of diabetic foot ulcers all without touching the ulcer <ref type="bibr" target="#b19">[19]</ref> .</p><p>Aldoulah et al. present a novel Swish-ELU EfficientNet-B4 (SEEN-B4) deep learning framework that specializes in the accurate assessment of erythematous regions compared to an eschar or dry crust <ref type="bibr" target="#b20">[20]</ref> . Similarly, Veredas et al. used neural networks and Bayesian classifiers to design a computational system for automatic tissue identification in wound images <ref type="bibr" target="#b21">[21]</ref> . Lien et al. used AI to detect the growth of granulation tissue in diabetic foot ulcers <ref type="bibr" target="#b22">[22]</ref> . In the same type of wound, Liu et al. and Viswanathan et al. used AI to create color-coded regions to identify ischemia and infection based on real patient images <ref type="bibr" target="#b23">[23,</ref><ref type="bibr" target="#b24">24]</ref> . These advancements in wound identification and assessment naturally lead to their application in wound management.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI in wound management</head><p>Many smartphone applications (apps) have been designed to facilitate wound monitoring at home, where most wound management happens. These apps assess pictures of wound tissue with automatic color and measurement calibration, remove background "noise", and use a factorization-based segmentation to classify and assess chronic wounds accurately <ref type="bibr" target="#b25">[25,</ref><ref type="bibr" target="#b27">26]</ref> . One app can also detect subsurface tissue oxygenation of wounds <ref type="bibr" target="#b28">[27]</ref> . Poor wound oxygenation can delay healing, and catching these complications early on could help prevent further deterioration.</p><p>Researchers are also aiming to sync data gathered from these apps with patients' EMRs to offer providers up-to-date information for wound healing. Previously, patients had to manually measure their wounds at home, take pictures of their wounds without necessarily knowing if they were infected or had changed, and send the images to the practice, then wait for a response. Now, AI-assisted apps connected to medical records allow patients to input a single photo and receive several outputs, including the wound's dimensions, classification, possible presence of infection or ischemia, and tissue types. This information can be synced with the EMR for immediate access by providers to further guide the patient.</p><p>One example of this kind of technology is "The Wound Viewer", developed by Zoppo et al. <ref type="bibr" target="#b29">[28]</ref> . The Wound Viewer is an AI-powered, portable medical device that leverages sensors and algorithms to remotely collect and analyze clinical data, including three-dimensional wound measurements and tissue composition, and upload interpretations to the EMR <ref type="bibr" target="#b29">[28]</ref> . Guadagnin et al. created an image mining-based system that automatically interprets tissue types and colors from pressure ulcers, while making selected relevant visual information available to providers in the medical record <ref type="bibr" target="#b30">[29]</ref> . Given the rapid deterioration of wounds, daily monitoring is crucial to ensure proper healing and timely treatment adjustments.</p><p>Daily monitoring can inform adjustments to wound treatment, since chronic wounds are, by definition, difficult to treat due to a number of underlying health conditions. Pressure injuries occur due to localized damage to the skin and underlying soft tissue, usually over a bony prominence <ref type="bibr" target="#b31">[30]</ref> . This damage is often a result of prolonged pressure, shear, and/or frictional forces <ref type="bibr" target="#b31">[30]</ref> . Patients who have sensory deficits have an absent pressure feedback response that results in prolonged pressure over a period of time <ref type="bibr" target="#b31">[30]</ref> . The way to prevent and heal these types of injuries is to avoid that prolonged pressure. This is especially difficult for those who are unable to sense pressure or those with mobility and activity challenges, like patients in wheelchairs. These patients also experience more friction/shear when transferring from chairs to other surfaces, are more likely to experience nutritional deficiencies, and have more moisture around their wounds. Sensory perception, mobility, activity, friction/shear, nutrition, and moisture are factors of the Braden Scale, a widely used scale that assesses six physical categories that affect wound healing <ref type="bibr" target="#b32">[31]</ref> .</p><p>Researchers have developed AI that tackles several of the factors included on the Braden Scale, aiming to facilitate the wound healing process. To address challenges in mobility, sensory perception, and activity, Gabison et al. used data from a noncontact system of load cells placed under a bed <ref type="bibr" target="#b33">[32]</ref> . The data were used to determine whether a patient was left-side lying, supine, or right-side lying with 94% accuracy <ref type="bibr" target="#b33">[32]</ref> . Danilovish et al. used an inexpensive "off-the-shelf" camera to classify a patient's positions into four different postures with 95% accuracy <ref type="bibr" target="#b34">[33]</ref> . Artificially intelligent load cells and cameras could eventually alert caregivers when a patient needs repositioning, enhancing effective healing.</p><p>Several AI-assisted technologies already aim to reposition patients automatically. Ni et al. developed an AI mattress that utilized three-dimensional InterSoft technology to detect bony prominences and redistribute pressure <ref type="bibr" target="#b35">[34]</ref> . They studied this mattress on a 79-year-old male with left-sided hemiplegia, a need for positional changes, a sacral ulcer measuring 2.5 × 2 × 3 cm 3 at five months of standard treatment, and an overall Braden score of 12, indicating a high risk of pressure injuries <ref type="bibr" target="#b35">[34]</ref> . The AI mattress had an active pressure sensory array that ensured correct positioning and calculated pressure every second <ref type="bibr" target="#b35">[34]</ref> . It used results from a first-time scan as a baseline to locate areas of bony prominences and employed a color-coded scheme to indicate areas at the highest risk for pressure injury <ref type="bibr" target="#b35">[34]</ref> . As a result, the mattress redistributed pressure off those highest-pressure areas <ref type="bibr" target="#b35">[34]</ref> . After four weeks of AI mattress usage, the wound measured shrunk in size, the patient reported more comfort, and he had healthier tissue types <ref type="bibr" target="#b35">[34]</ref> .</p><p>Recent advances in AI have also been employed through other methods to facilitate wound healing. One example includes the AI bandage. Kalasin et al. created a smart bandage with a flexible sensor and deep neural network algorithm <ref type="bibr" target="#b36">[35]</ref> . The bandage has MXene, a new class of graphene-like two-dimensional transitional metal carbon, which enhances its conductivity and sensory capabilities <ref type="bibr" target="#b36">[35]</ref> . It also has a wound dressing made of poly(vinyl acrylic) gel combined with polyaniline that can react to the wound's pH level <ref type="bibr" target="#b36">[35]</ref> . The wound dressing generates a voltage that responds to changes in pH, indicating different stages of healing <ref type="bibr" target="#b36">[35]</ref> . The deep learning network processes the voltage to classify the wound's healing stage with 95% accuracy <ref type="bibr" target="#b36">[35]</ref> . Healthcare professionals can make informed decisions about wound treatment based on the data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI in wound prognosis</head><p>Chronic wounds are hard-to-heal due to a complex web of contributing factors including immunocompromise, poor blood circulation, and chronic inflammation, resulting in often bleak prognoses. Accurate prognosis requires comprehensive data collection, and researchers have applied AI to this challenge. Topaz et al. developed a natural language processing application that selected detailed wound information from free text clinical notes, gathering comprehensive data on wound comorbidities, risk factors, and underlying contributors <ref type="bibr" target="#b37">[36]</ref> . With a strong ability to extract relevant data, AI can be leveraged to predict outcomes and prognoses. Robnik-Sikonja et al. used machine learning to analyze the effects of wound, patient, and treatment attributes on wound healing rates <ref type="bibr" target="#b38">[37]</ref> . Ngo et al. studied how machine learning could use textural features from thermal images of venous leg ulcers to predict delayed healing outcomes <ref type="bibr" target="#b39">[38]</ref> . They achieved a 79% sensitivity and 60% specificity with a Bayesian neural network <ref type="bibr" target="#b39">[38]</ref> . With moderate sensitivity but mild specificity, clinicians will still need to rule out false positives to avoid unnecessary treatment.</p><p>Chen et al. similarly used AI to assess images of pressure ulcers for tissue changes, wound stages, and healing conditions <ref type="bibr" target="#b40">[39]</ref> . These researchers aimed to provide clinicians with valuable information to guide treatment decisions and resource allocation.</p><p>With the creation of AI-assisted technologies like mattresses and bandages, appropriate resource allocation becomes crucial. Following the ethical principles of justice, resource allocation typically prioritizes those with the most dire conditions or those who stand to benefit the most and avoid the worst prognoses. Studies have examined wound healing prediction rates, but AI can also predict wound incidence. Alberden et al. created a machine-learning model to predict the development of pressure ulcers among surgical critical care patients <ref type="bibr" target="#b41">[40]</ref> . The predictions are made from data in the patient's EMR, differentiating it from other models that might require input from clinicians <ref type="bibr" target="#b41">[40]</ref> . Similarly, Cai et al. developed a machine-learning model that used factors including age, surgical procedure, weight, and disease category to predict a patient's risk of pressure ulcers after cardiovascular surgery <ref type="bibr" target="#b42">[41]</ref> . Lee et al. created an algorithm to predict nursing home patients at risk for pressure ulcers with 81% accuracy <ref type="bibr" target="#b43">[42]</ref> . Lustig et al. developed a machine-learning algorithm for early detection of deep tissue injuries in the heel <ref type="bibr" target="#b44">[43]</ref> . They trained the model with a database of six consecutive daily measurements of sub-epidermal moisture, which is an established biophysical marker that can detect pressure ulcer formation <ref type="bibr" target="#b44">[43]</ref> . The algorithm resulted in a strong power to predict deep tissue injury in the heel the next day, with a sensitivity and specificity of 77% and 80%, respectively <ref type="bibr" target="#b44">[43]</ref> . With the sensitivity and specificity being moderately high, clinicians may be able to use this tool as a diagnostic guide; however, clinical decision making must still be applied. Several studies explored an algorithm to identify certain risk factors associated with diabetic foot ulcer development <ref type="bibr" target="#b45">[44]</ref><ref type="bibr" target="#b46">[45]</ref><ref type="bibr" target="#b47">[46]</ref> . These models can be applied to various wound types to predict which patients are most at risk of developing hard-to-heal wounds.</p><p>Healthcare providers can allocate resources accordingly and work to prevent those injuries from happening.</p><p>Once those injuries do occur, complications are possible, and AI-assisted technologies can predict outcomes based on an array of inputted data. For example, poorly managed diabetic foot ulcers may result in amputation. Manual scoring systems help providers determine which ulcers are most at risk, but they do not capture as much data as AI can, leading to less accurate predictions. Schäfer et al. used machine learning with certain socioeconomic risk factors, such as household income, ethnic background, and changes in family status, to predict incidence and amputation risk for diabetic foot ulcers <ref type="bibr" target="#b48">[47]</ref> . Xie et al. used demographic features, medical and medication history, clinical and laboratory data, and various ulcer classifications in a machine-learning model to predict which hospitalized patients with diabetic foot ulcers would undergo amputation <ref type="bibr" target="#b49">[48]</ref> . The researchers demonstrated a 0.90, 0.85, and 0.86 predictive ability for non-amputation, minor amputation, and major amputation outcomes, respectively <ref type="bibr" target="#b49">[48]</ref> . These predictions can help providers with wound management and resource allocation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Challenges with AI in wound care</head><p>Although AI has the potential to significantly impact wound care, it raises several challenges [Figure <ref type="figure" target="#fig_3">2</ref>] <ref type="bibr" target="#b50">[49]</ref> . The World Health Organization outlines six challenging yet crucial regulatory areas for thoughtful implementation of AI in health: transparency and documentation, risk management, data validation with clear indications of intended use, ensuring unbiased and quality data, safeguarding privacy and data security, and fostering collaboration among regulatory bodies to secure safe usage of AI <ref type="bibr" target="#b51">[50]</ref> .</p><p>Transparency regarding how patient data will be used is crucial for building societal trust. Mitigating risk by safely integrating AI into clinical practice, training algorithms without bias, and ensuring data quality control will contribute to safer and more accurate AI. Integrating AI into clinical practice and syncing patients' EMRs with data gathered from AI-assisted technology demands time, effort, and appropriate safeguards to protect patient data. Considering that AI is usually trained with patient data, and AI can better achieve its goals if trained with a large quantity of high-quality and diverse data, care must also be taken to protect databases of patient information. Compromised data could deter patients from sharing their information in the future.</p><p>Ensuring that patients feel comfortable sharing data is important for creating diverse databases. Resourcelimited populations are more likely to be excluded from databases, leading to biased outputs. As AI becomes more capable of improving wound management, care should be taken to implement it in an equitable manner [Figure <ref type="figure" target="#fig_4">3</ref>]. AI-assisted technologies may be costly, creating barriers to resource-constrained practices. To address these issues, being mindful of regulatory guidelines and collaborating between  patients, providers, lawmakers, and ethicists will be vital to ensuring the ethical and safe implementation of AI in wound care <ref type="bibr" target="#b7">[7,</ref><ref type="bibr" target="#b50">49,</ref><ref type="bibr" target="#b52">51]</ref> .</p><p>As AI aims to improve prognostic prediction, providers should be aware of the challenges associated with communicating poor prognosis to patients. Providers might become fatigued when addressing treatment options for patients with unfavorable prognoses. Patients may question the validity of AI, and providers should be prepared to have such discussions. Although AI is prepared to analyze infinite amounts of data and suggest prognoses, providers must be equipped to discuss all those findings comprehensively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Current gaps and the future of AI in wound care</head><p>Thus far, AI has been leveraged to process large amounts of data quickly and accurately, proving useful for wound diagnosis and characterization, management, treatment, and prognosis prediction. With advancements in AI-assisted technology, considerations for equitable access must be addressed.</p><p>Understanding how this technology will be funded, whether through insurance, individual payers, government and public funding, or hybrid models, is crucial for equitable access. Wound management itself, even without AI-assisted technology, is expensive, and there are a plethora of available options for dressings, antibiotics, and more. Powerful and detailed AI algorithms could be used to help sort which methods of management might be most cost-effective given a patient's insurer. Utilizing the most costeffective methods of management from the onset of wound diagnosis could help save on downstream costs.</p><p>Additionally, integrating developed smartphone apps into clinical practice, rather than just a trial setting, should be studied. Considering the incorporation of AI into digital platforms used by healthcare providers, such as EMRs, may allow for real-time wound analysis. If AI technology can be implemented in rural areas, providers might be able to guide remote wound care. However, once AI is integrated into these settings, identifying who will supervise the data, whether the provider, hospital, or a third-party data analytics group, will be paramount to seamlessly incorporating accurate and accessible AI-assisted technology into wound care.</p><p>Of the current studies on AI advancements in wound care, very few report demographic data. Fewer reported AI-assisted technology's accuracy, sensitivity, and specificity stratified by racial background. This is particularly important for image-based detection methods, where an accurate AI-assisted technology should be able to adequately diagnose wounds regardless of skin color. Further reporting on demographics will improve transparency and reduce bias from AI-assisted technology. Diversifying datasets for AI training will also ensure less biased data and improve output accuracy.</p><p>Of note, patients from diverse backgrounds may heal in clinically different ways. Keloids are more likely to develop after injury in those of African and Asian ancestry <ref type="bibr" target="#b53">[52]</ref> . Hypertrophic scarring is more likely to occur in those with darker skin colors <ref type="bibr" target="#b54">[53]</ref> . Not only will demographically diverse data provide insights into these conditions, but AI may be able to predict when these complications might occur. Kim et al. used a neural network structure along with multinominal logistic regression to identify that scar severity was positively associated with postoperative itching and pain <ref type="bibr" target="#b55">[54]</ref> . They found that postoperative adhesion/tightening and induration/edema were negatively correlated with scar severity in patients. More research must be done to further predict keloid and hypertrophic scarring development in patients.</p><p>Additional research can be done into predicting wound healing complications such as sepsis and necrotizing fasciitis. Although AI's prognostic ability for both cases has been studied, they have not been studied in the context of wound healing <ref type="bibr" target="#b56">[55]</ref><ref type="bibr" target="#b57">[56]</ref><ref type="bibr" target="#b58">[57]</ref> . AI can be leveraged in molecular biology as well. So far, most of the technologies that analyze wounds have focused on the wound itself. However, wounds are often accompanied by a heterogeneous array of exudates, calluses, edema, maceration, and excoriations. Wound healing is often impacted by the specific type and amount of bacteria that are in the wound. Research into using AI to analyze wound exudates, periwound areas, and bacteriology could facilitate more accurate assessments of healing <ref type="bibr">[58]</ref> . Nanotechnology with AI may offer a promising way of identifying bacteria and their characteristics in wounds, though the idea has not yet been fully studied. Similarly, research into genetic risk factors for certain wounds could pave the way for better prognostics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>AI stands to meaningfully impact wound diagnosis, management and therapy, and prognosis. Its ability to draw conclusions from relevant data in EMRs, patient images, and entered criteria allows for efficient and effective guidance. AI can help guide treatments outside the clinic as well, eventually making for more equitable care. While ensuring equitable access, diverse datasets, and data security presents challenges, further research can help address these issues and mitigate potential harms.</p><p>Being receptive to the improvements AI can offer while also addressing challenges as they arise will be crucial to the safe use of new technology in wound care. The field of medicine is constantly evolving, but cautious optimism will allow for the deliberate integration of empowering AI usage in wound care.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>noninvasive device, Illuminate®, capable of autofluorescence imaging Create color-coded regions to identify ischemia and infection based on real patient images of diabetic foot ulcers AI: Artificial intelligence; SEEN-B4: Swish-ELU EfficientNet-B4.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Schematic of the elements that comprise wound care.</figDesc><graphic coords="4,72.81,424.14,452.40,75.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Visual diagram of the challenges and advantages of AI in wound care. AI: Artificial intelligence.</figDesc><graphic coords="8,177.50,72.80,240.00,257.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Schematic demonstrating the challenges arising from the proliferation of AI. AI: Artificial intelligence.</figDesc><graphic coords="8,217.50,371.67,160.00,279.37" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>Not applicable.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DECLARATIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' contributions</head><p>Conceptualization, writing -review and editing, writing -original draft: Ganesan O Writing -review and editing: Morris MX, Guo L Conceptualization, project administration, writing -original draft, writing -review and editing: Orgill D</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Financial support and sponsorship</head><p>None.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of interest</head><p>All authors declared that there are no conflicts of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethical approval and consent to participate</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Not applicable.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>Not applicable.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,90.80,626.89,433.32,7.02;10,90.80,637.52,339.91,7.02" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Chronic wound prevalence and the associated cost of treatment in Medicare beneficiaries: changes between 2014 and</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Davanzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Haught</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nusgart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cartwright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Fife</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/13696998.2023.2232256</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Econ</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="894" to="901" />
+			<date type="published" when="2019">2019. 2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,73.80,626.89,3.00,7.02;10,90.80,648.65,433.35,7.02;10,90.80,659.27,209.21,7.02" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An economic evaluation of the impact, cost, and medicare policy implications of chronic nonhealing wounds</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Nussbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Fife</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jval.2017.07.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Value Health</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="27" to="32" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,73.80,648.65,3.00,7.02;10,90.80,670.40,433.37,7.02;10,90.80,681.03,209.20,7.02" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Privacy-preserving artificial intelligence in healthcare: techniques and applications</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Khalid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Qayyum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bilal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Al-Fuqaha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qadir</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compbiomed.2023.106848</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page">106848</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,73.80,670.40,3.00,7.02;10,90.80,692.16,433.30,7.02;10,90.80,702.78,212.51,7.02" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence applications in health care practice: scoping review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Savage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Svedberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Nygren</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/40238</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">40238</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,73.80,692.16,3.00,7.02;11,90.80,73.51,433.40,7.02;11,90.80,84.14,59.32,7.02" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in surgery: the future is now</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Varma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fehervari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ashrafian</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000536393</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Surg Res</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="22" to="39" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,73.80,73.51,3.00,7.02;11,90.80,95.27,433.31,7.02;11,90.80,105.90,131.48,7.02" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence: the milestone in modern biomedical research</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Athanasopoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Daneva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Adamopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Scorilas</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/biomedinformatics2040049</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioMedInformatics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="727" to="744" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,73.80,95.27,3.00,7.02;11,90.80,117.02,433.29,7.02;11,90.80,127.65,315.71,7.02" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Current and future applications of artificial intelligence in surgery: implications for clinical practice and research</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fiocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Caneva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yiapanis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Orgill</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fsurg.2024.1393898</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Surg</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1393898</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,73.80,117.02,3.00,7.02;11,90.80,138.78,433.40,7.02;11,90.80,149.40,141.94,7.02" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Wound education: American medical students are inadequately trained in wound care</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Granick</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/sap.0b013e31802dd43b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Plast Surg</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="53" to="55" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>discussion 55</note>
+</biblStruct>
+
+<biblStruct coords="11,73.80,138.78,3.00,7.02;11,90.80,160.53,431.38,7.02;11,90.80,171.16,27.10,7.02" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Knowledge and practices of nurses regarding wound healing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sürme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Kartın</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Çürük</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jopan.2016.04.143</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Perianesth Nurs</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="471" to="478" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,73.80,160.53,3.00,7.02;11,90.80,182.29,431.23,7.02;11,90.80,192.91,45.32,7.02" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Skin ulcers misdiagnosed as pyoderma gangrenosum</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Weenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mdp</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Dahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wpd</forename><surname>Su</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMoa013383</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="1412" to="1418" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,182.29,3.33,7.02;11,90.80,204.04,433.33,7.02;11,90.80,214.67,263.81,7.02" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Computer-assisted differential diagnosis of pyoderma gangrenosum and venous ulcers with deep neural networks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Birkner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schalk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Von</forename><surname>Den Driesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/jcm11237103</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Med</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">7103</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,204.04,3.33,7.02;11,90.80,225.79,433.36,7.02;11,90.80,236.42,277.82,7.02" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">An image based object recognition system for wound detection and classification of diabetic foot and venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hüsers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moelleken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Richter</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/SHTI220397</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Stud Health Technol Inform</title>
+		<imprint>
+			<biblScope unit="volume">294</biblScope>
+			<biblScope unit="page" from="63" to="67" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,225.79,3.33,7.02;11,90.80,247.55,433.32,7.02;11,90.80,258.18,277.89,7.02" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Simultaneous segmentation and classification of pressure injury image data using Mask-R-CNN</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swerdlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Guler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yaakov</forename><forename type="middle">R</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename></persName>
+		</author>
+		<idno type="DOI">10.1155/2023/3858997</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Math Methods Med</title>
+		<imprint>
+			<biblScope unit="volume">2023</biblScope>
+			<biblScope unit="page">3858997</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,247.55,3.33,7.02;11,90.80,269.30,433.40,7.02;11,90.80,279.93,316.91,7.02" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Tissue classification and segmentation of pressure injuries using convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zahia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sierra-Sosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Garcia-Zapirain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elmaghraby</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmpb.2018.02.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Methods Programs Biomed</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="51" to="58" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,269.30,3.33,7.02;11,90.80,291.06,433.26,7.02;11,90.80,301.69,247.64,7.02" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Deep learning approach based on superpixel segmentation assisted labeling for automatic pressure ulcer diagnosis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Christian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0264139</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">264139</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,291.06,3.33,7.02;11,90.80,312.81,433.39,7.02;11,90.80,323.44,116.83,7.02" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Alexnet architecture variations with transfer learning for classification of wound images</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eldem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ülker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">Y</forename><surname>Işıklı</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jestch.2023.101490</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eng Sci Technol Int J</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">101490</biblScope>
+			<date type="published" when="2023">2023</date>
+			<publisher>DOI</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,312.81,3.33,7.02;11,90.80,334.57,433.30,7.02;11,90.80,345.19,241.45,7.02" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A time motion study of manual versus artificial intelligence methods for wound assessment</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Mohammed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Bartlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Babb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rdj</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mannion</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0271742</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<date type="published" when="2022">2022. 0271742</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,334.57,3.33,7.02;11,90.80,356.32,433.39,7.02;11,90.80,366.95,148.39,7.02" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">An artificial intelligence-enabled smartphone app for real-time pressure injury assessment</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Yip</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmedt.2022.905074</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Med Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">905074</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,356.32,3.33,7.02;11,90.80,378.08,433.27,7.02;11,90.80,388.70,229.63,7.02" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Clinical validation of an artificial intelligence-enabled wound imaging mobile application in diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ahm</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13603</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="114" to="124" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,378.08,3.33,7.02;11,90.80,399.83,433.40,7.02;11,90.80,410.46,68.65,7.02" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A novel fused multi-class deep learning approach for chronic wounds classification</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Aldoulah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Malik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Molyet</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/app132111630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">11630</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,399.83,3.33,7.02;11,90.80,421.58,433.40,7.02;11,90.80,432.21,167.95,7.02" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Binary tissue classification on wound images with neural networks and bayesian classifiers</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Veredas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morente</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tmi.2009.2033595</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Med Imaging</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="410" to="427" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,421.58,3.33,7.02;11,90.80,443.34,433.31,7.02;11,90.80,453.97,103.04,7.02" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A granulation tissue detection model to track chronic wound healing in DM foot ulcers</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Lien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tai</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/electronics11162617</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electronics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2617</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,443.34,3.33,7.02;11,90.80,465.09,433.39,7.02;11,90.80,475.72,169.71,7.02" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Diabetic foot ulcer ischemia and infection classification using efficientnet deep learning models</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ojemb.2022.3219725</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Open J Eng Med Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="189" to="201" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.46,465.09,3.33,7.02;11,90.80,486.85,433.30,7.02;11,90.80,497.47,413.80,7.02" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A clinical study to evaluate autofluorescence imaging of diabetic foot ulcers using a novel artificial intelligence enabled noninvasive device</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Viswanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Govindan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Selvaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rupert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kumar</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/15347346211047098</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="169" to="176" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,486.85,3.33,7.02;11,90.80,508.60,433.33,7.02;11,90.80,519.23,413.80,7.02" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">AI-assisted assessment of wound tissue with automatic color and measurement calibration on images taken with a smartphone</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chairat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chaichulee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dissaneewate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wangkulangkul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kongpanichakul</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/healthcare11020273</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Healthcare</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">273</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,508.60,3.33,7.02;11,90.80,530.36,433.31,7.02;11,90.80,540.98,433.35,7.02" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Analysis of chronic wound images using factorization based segmentation and machine learning methods</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kavitha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Suganthi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ramakrishnan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2017 International Conference on Computational Biology and Bioinformatics</title>
+		<meeting>the 2017 International Conference on Computational Biology and Bioinformatics</meeting>
+		<imprint/>
+	</monogr>
+	<note>ICCBB &apos;17</note>
+</biblStruct>
+
+<biblStruct coords="11,90.80,551.61,104.42,7.02" xml:id="b26">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1145/3155077.3155092</idno>
+		<imprint>
+			<biblScope unit="page" from="74" to="78" />
+			<pubPlace>New York, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,530.36,3.33,7.02;11,90.80,562.74,433.38,7.02;11,90.80,573.37,322.88,7.02" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Low-cost smartphone based imaging device to detect subsurface tissue oxygenation of wounds</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kaile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Leiva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mahadevan</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.2510425</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Optics and Biophotonics in Low-Resource Settings</title>
+		<imprint>
+			<biblScope unit="page" from="62" to="65" />
+			<date type="published" when="2019">2019</date>
+			<pubPlace>San Francisco, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.46,562.74,3.33,7.02;11,90.80,584.49,433.40,7.02;11,90.80,595.12,63.32,7.02" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">AI technology for remote clinical assessment and monitoring</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zoppo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marrone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pittarello</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2020.29.12.692</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="692" to="706" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,584.49,3.33,7.02;11,90.80,606.25,433.40,7.02;11,90.80,616.87,136.80,7.02" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">An image mining based approach to detect pressure ulcer stage</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guadagnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rds</forename><surname>Neves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Santana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Guilhem</surname></persName>
+		</author>
+		<idno type="DOI">10.1134/s1054661814020084</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognit Image Anal</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="292" to="296" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,606.25,3.33,7.02;11,90.80,628.00,433.40,7.02;11,90.80,638.63,100.80,7.02" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Pressure injury</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mondragon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Zito</surname></persName>
+		</author>
+		<ptr target="https://www.ncbi.nlm.nih.gov/books/NBK557868/" />
+	</analytic>
+	<monogr>
+		<title level="m">StatPearls</title>
+		<imprint>
+			<date type="published" when="2024-11-02">2 Nov 2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.46,628.00,3.33,7.02;11,90.80,649.76,433.40,7.02;11,90.80,660.38,183.44,7.02" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Wound pressure injury management</title>
+		<author>
+			<persName><forename type="first">Al</forename><surname>Aboud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Manna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+		<ptr target="https://www.ncbi.nlm.nih.gov/books/NBK532897/" />
+	</analytic>
+	<monogr>
+		<title level="m">StatPearls</title>
+		<imprint>
+			<date type="published" when="2024-11-02">2 Nov 2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.47,649.76,3.33,7.02;11,90.80,671.51,433.30,7.02;11,90.80,682.14,188.35,7.02" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Measuring repositioning in home care for pressure injury prevention and management</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gabison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pupic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dolatabadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dutta</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s22187013</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">7013</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.46,671.51,3.33,7.02;11,90.80,693.26,433.34,7.02;11,90.80,703.89,392.56,7.02" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Video monitoring over anti-decubitus protocol execution with a deep neural network to prevent pressure ulcer</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Danilovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Moshkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reimche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tevelevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mikhaylovskiy</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/embc46164.2021.9630830</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Int Conf IEEE Eng Med Biol Soc</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page" from="1384" to="1387" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,77.46,693.26,3.33,7.02;12,90.80,73.51,433.33,7.02;12,90.80,84.14,178.82,7.02" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Can a prolonged healing pressure injury be benefited by using an AI mattress? A case study</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12877-024-04900-x</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Geriatr</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">307</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,73.51,3.33,7.02;12,90.80,95.27,433.32,7.02;12,90.80,105.90,430.89,7.02;12,90.80,116.52,27.10,7.02" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Intelligent wearable sensors interconnected with advanced wound dressing bandages for contactless chronic skin monitoring: artificial intelligence for predicting tissue regeneration</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kalasin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sangnuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Surareungchai</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.analchem.2c00782</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal Chem</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="6842" to="6852" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,95.27,3.33,7.02;12,90.80,127.65,433.31,7.02;12,90.80,138.28,369.88,7.02" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Automated identification of wound information in clinical notes of patients with heart diseases: developing and validating a natural language processing application</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Topaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dowding</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijnurstu.2016.09.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Nurs Stud</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="25" to="31" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,127.65,3.33,7.02;12,90.80,149.40,433.40,7.02;12,90.80,160.03,133.48,7.02" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Comprehensible evaluation of prognostic factors and prediction of wound healing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Robnik-Sikonja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cukjati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kononenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0933-3657(03)00044-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Artif Intell Med</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="25" to="38" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,149.40,3.33,7.02;12,90.80,171.16,430.99,7.02;12,90.80,181.79,16.89,7.02" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Computerised prediction of healing for venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">C</forename><surname>Ngo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ogrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Kumar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-022-20835-y</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">17962</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,171.16,3.33,7.02;12,90.80,192.91,433.34,7.02;12,90.80,203.54,146.04,7.02" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Applying AIoT image recognition for prognosis of wound healing in long-term care residential facility</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Jhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11276-023-03452-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wireless Netw</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,192.91,3.33,7.02;12,90.80,214.67,433.38,7.02;12,90.80,225.29,119.31,7.02" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Predicting pressure injury in critical care patients: a machine-learning model</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alderden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Pepper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.4037/ajcc2018525</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Crit Care</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="461" to="468" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,214.67,3.33,7.02;12,90.80,236.42,433.34,7.02;12,90.80,247.05,209.87,7.02" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Predicting the development of surgery-related pressure injury using a machine learning algorithm model</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Zha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/jnr.0000000000000411</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Nurs Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">135</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,236.42,3.33,7.02;12,90.80,258.18,433.28,7.02;12,90.80,268.80,309.30,7.02" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Identifying the risk factors associated with nursing home residents&apos; pressure ulcers using machine learning methods</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Jang</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijerph18062954</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Environ Res Public Health</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">2954</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,258.18,3.33,7.02;12,90.80,279.93,433.28,7.02;12,90.80,290.56,346.64,7.02" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A machine learning algorithm for early detection of heel deep tissue injuries based on a daily history of sub-epidermal moisture measurements</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lustig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bryant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gefen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13728</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1339" to="1348" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,279.93,3.33,7.02;12,90.80,301.69,433.40,7.02;12,90.80,312.31,151.72,7.02" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A potent weighted risk model for evaluating the occurrence and severity of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13098-021-00711-x</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetol Metab Syndr</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">92</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,301.69,3.33,7.02;12,90.80,323.44,433.25,7.02;12,90.80,334.07,180.13,7.02" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Machine learning algorithm to evaluate risk factors of diabetic foot ulcers and its severity</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nanda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mohapatra</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11517-022-02617-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Biol Eng Comput</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="2349" to="2357" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,323.44,3.33,7.02;12,90.80,345.19,433.35,7.02;12,90.80,355.82,415.82,7.02" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Toward machine-learning-based decision support in diabetes care: a risk stratification study on diabetic foot ulcer and amputation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Schafer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mathisen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Svendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Engberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kirketerp-Møller</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmed.2020.601602</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Med</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">601602</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,345.19,3.33,7.02;12,90.80,366.95,433.34,7.02;12,90.80,377.58,431.19,7.02;12,90.80,388.20,16.89,7.02" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Toward machine-learning-based decision support in diabetes care: a risk stratification study on diabetic foot ulcer and amputation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Schäfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mathisen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Svendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Engberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rolighed</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirketerp-Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<idno type="DOI">10.3389/fmed.2020.601602</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Med</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">601602</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,366.95,3.33,7.02;12,90.80,399.33,433.24,7.02;12,90.80,409.96,195.24,7.02" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">An explainable machine learning model for predicting in-hospital amputation rate of patients with diabetic foot ulcer</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Deng</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13691</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="910" to="918" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,399.33,3.33,7.02;12,90.80,421.08,433.28,7.02;12,90.80,431.71,128.18,7.02" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Ethical, legal, and financial considerations of artificial intelligence in surgery</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rajesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Asaad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Phillips</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/00031348221117042</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am Surg</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="55" to="60" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,421.08,3.33,7.02;12,90.80,442.84,433.31,7.02;12,90.80,453.47,433.39,7.02;12,90.80,464.09,82.38,7.02" xml:id="b50">
+	<monogr>
+		<title level="m" type="main">WHO outlines considerations for regulation of artificial intelligence for health</title>
+		<ptr target="https://www.who.int/news/item/19-10-2023-who-outlines-considerations-for-regulation-of-artificial-intelligence-for-health" />
+		<imprint>
+			<date type="published" when="2023-11-02">2023. 2 Nov 2024</date>
+			<publisher>World Health Organization</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,442.84,3.33,7.02;12,90.80,475.22,433.40,7.02;12,90.80,485.85,433.41,7.02;12,90.80,496.47,433.40,7.02;12,90.80,507.10,20.66,7.02" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Ethical implications of artificial intelligence in the healthcare sector</title>
+		<author>
+			<persName><forename type="first">Nutifafa</forename><surname>Cudjoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<ptr target="https://www.researchgate.net/profile/Nutifafa-Amedior/publication/371806117_Ethical_Implications_of_Artificial_Intelligence_in_the_Healthcare_Sector/links/" />
+	</analytic>
+	<monogr>
+		<title level="m">66659941b769e769192559d4/Ethical-Implications-of-Artificial-Intelligence-in-the-Healthcare-Sector.pdf</title>
+		<imprint>
+			<date type="published" when="2024-11-02">2 Nov 2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,475.22,3.33,7.02;12,90.80,518.23,433.24,7.02;12,90.80,528.86,433.40,7.02;12,90.80,539.48,247.39,7.02" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Genetics of keloid scarring</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sadiq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Khumalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bayat</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Chapter</surname></persName>
+		</author>
+		<ptr target="https://www.ncbi.nlm.nih.gov/books/NBK586075/" />
+	</analytic>
+	<monogr>
+		<title level="m">Textbook on Scar Management: State of the Art Management and Emerging Technologies</title>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2020-11-02">2020. 2 Nov 2024</date>
+			<biblScope unit="page" from="61" to="76" />
+		</imprint>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct coords="12,77.47,518.23,3.33,7.02;12,90.80,550.61,433.40,7.02;12,90.80,561.24,147.90,7.02" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Hypertrophic scarring</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Schmieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Ferrer-Bruker</surname></persName>
+		</author>
+		<ptr target="https://www.ncbi.nlm.nih.gov/books/NBK470176/" />
+	</analytic>
+	<monogr>
+		<title level="m">StatPearls</title>
+		<imprint>
+			<date type="published" when="2024-11-02">2 Nov 2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,550.61,3.33,7.02;12,90.80,572.37,433.39,7.02;12,90.80,582.99,146.83,7.02" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Predicting the severity of postoperative scars using artificial intelligence based on images and clinical data</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-023-40395-z</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">13448</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,572.37,3.33,7.02;12,90.80,594.12,433.29,7.02;12,90.80,604.75,314.16,7.02" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Identifying necrotizing soft tissue infection using infectious fluid analysis and clinical parameters based on machine learning algorithms</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Fann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Hsieh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.heliyon.2024.e29578</idno>
+		<idno>PMC</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heliyon</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2024">2024. 29578</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,594.12,3.33,7.02;12,90.80,615.87,433.40,7.02;12,90.80,626.50,245.18,7.02" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence for the prediction of sepsis in adults</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Mcgill</surname></persName>
+		</author>
+		<ptr target="https://www.ncbi.nlm.nih.gov/books/NBK596676/" />
+	</analytic>
+	<monogr>
+		<title level="m">CADTH Horizon Scan</title>
+		<imprint>
+			<date type="published" when="2024-11-02">2 Nov 2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,615.87,3.33,7.02;12,90.80,637.63,433.37,7.02;12,90.80,648.26,270.66,7.02" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Factors driving provider adoption of the TREWS machine learning-based early warning system and its effects on sepsis treatment timing</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parent</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41591-022-01895-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1447" to="1454" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,77.47,637.63,3.33,7.02;12,90.80,659.38,433.39,7.02;12,90.80,670.01,71.32,7.02" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Unveiling the role of artificial intelligence for wound assessment and wound healing prediction</title>
+		<author>
+			<persName><forename type="first">Dtp</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Pham</surname></persName>
+		</author>
+		<idno type="DOI">10.37349/emed.2023.00163</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Explor Med</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="589" to="611" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

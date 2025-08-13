@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Effect of Telemedicine Follow-up Care on Diabetes-Related Foot Ulcers: A Cluster-Randomized Controlled Noninferiority Trial</title>
+				<funder ref="#_4rYX2EX">
+					<orgName type="full">Norwegian Research Council</orgName>
+				</funder>
+				<funder ref="#_aCyk59n #_kuWQVse">
+					<orgName type="full">Western Norway Regional Health Authority</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Western Norway University of Applied Sciences</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Norwegian Directorate of Health and Innovation Norway</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Norwegian Diabetes Association</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2025-07-16">16 July 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Marjolein</forename><forename type="middle">M</forename><surname>Iversen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Health and Social Science</orgName>
+								<orgName type="department" key="dep2">Cen-tre for Evidence-Based Practice</orgName>
+								<orgName type="institution">University of Applied Sciences</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country>Western Norway, Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Global Public Health and Pri-mary Care</orgName>
+								<orgName type="institution">University of Bergen</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Section of Endocrinology</orgName>
+								<orgName type="department" key="dep2">Department of Medi-cine</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hilde</forename><surname>Smith-Strøm</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Health and Social Science</orgName>
+								<orgName type="department" key="dep2">Cen-tre for Evidence-Based Practice</orgName>
+								<orgName type="institution">University of Applied Sciences</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country>Western Norway, Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Global Public Health and Pri-mary Care</orgName>
+								<orgName type="institution">University of Bergen</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jannicke</forename><surname>Igland</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Health and Social Science</orgName>
+								<orgName type="department" key="dep2">Cen-tre for Evidence-Based Practice</orgName>
+								<orgName type="institution">University of Applied Sciences</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country>Western Norway, Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Global Public Health and Pri-mary Care</orgName>
+								<orgName type="institution">University of Bergen</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Truls</forename><surname>Østbye</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Global Public Health and Pri-mary Care</orgName>
+								<orgName type="institution">University of Bergen</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">Duke Global Health Institute</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+								<address>
+									<settlement>Durham</settlement>
+									<region>NC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Grethe</forename><forename type="middle">S</forename><surname>Tell</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Global Public Health and Pri-mary Care</orgName>
+								<orgName type="institution">University of Bergen</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marie</forename><forename type="middle">F</forename><surname>Hausken</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Section of Endocrinology</orgName>
+								<orgName type="department" key="dep2">Department of Medi-cine</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marit</forename><surname>Graue</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Health and Social Science</orgName>
+								<orgName type="department" key="dep2">Cen-tre for Evidence-Based Practice</orgName>
+								<orgName type="institution">University of Applied Sciences</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country>Western Norway, Norway</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Global Public Health and Pri-mary Care</orgName>
+								<orgName type="institution">University of Bergen</orgName>
+								<address>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Svein</forename><surname>Skeie</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Research</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">G</forename><surname>Cooper</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Section of Endocrinology</orgName>
+								<orgName type="department" key="dep2">Department of Medi-cine</orgName>
+								<orgName type="institution">Stavanger University Hospital</orgName>
+								<address>
+									<settlement>Stavanger</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Effect of Telemedicine Follow-up Care on Diabetes-Related Foot Ulcers: A Cluster-Randomized Controlled Noninferiority Trial</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-07-16">16 July 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">846EA760EAEBC7F103D91D6F656C1A15</idno>
+					<idno type="DOI">10.2337/dc17-1025</idno>
+					<note type="submission">Received 22 May 2017 and accepted 10 October 2017.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>To evaluate whether telemedicine (TM) follow-up of patients with diabetes-related foot ulcers (DFUs) in primary health care in collaboration with specialist health care was noninferior to standard outpatient care (SOC) for ulcer healing time. Further, we sought to evaluate whether the proportion of amputations, deaths, number of consultations per month, and patient satisfaction differed between the two groups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESEARCH DESIGN AND METHODS</head><p>Patients with DFUs were recruited from three clinical sites in western Norway (2012)(2013)(2014)(2015)(2016). The cluster-randomized controlled noninferiority trial included 182 adults (94/88 in the TM/SOC groups) in 42 municipalities/districts. The intervention group received TM follow-up care in the community; the control group received SOC. The primary end point was healing time. Secondary end points were amputation, death, number of consultations per month, and patient satisfaction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Using mixed-effects regression analysis, we found that TM was noninferior to SOC regarding healing time (mean difference -0.43 months, 95% CI 21.50, 0.65). When competing risk from death and amputation were taken into account, there was no significant difference in healing time between the groups (subhazard ratio 1.16, 95% CI 0.85, 1.59). The TM group had a significantly lower proportion of amputations (mean difference -8.3%, 95% CI -16.3%, -0.5%), and there were no significant differences in the proportion of deaths, number of consultations, or patient satisfaction between groups, although the direction of the effect estimates for these clinical outcomes favored the TM group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>The results suggest that use of TM technology can be a relevant alternative and supplement to usual care, at least for patients with more superficial ulcers.</p><p>Treatment of diabetes-related foot ulcers (DFUs) puts great pressure on the health care system in terms of resource allocation and management strategy (1,2). Telemedicine (TM) may be an effective approach to wound care management that can meet these challenges (3). The availability of an interactive platform combined with photographic devices and electronic transfer of high-quality digital images makes assessment of</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>wound status possible. TM can reduce the number of consultations in specialist health care by transferring treatment and follow-up to primary health care while maintaining high standards of wound care <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b3">4)</ref>.</p><p>Current evidence favoring use of TM follow-up of DFU is limited. The available evidence of TM in wound care is characterized by heterogeneity in the study populations, methods, and interventions applied, making study results difficult to compare <ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref><ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref>. Only one randomized controlled study, from Denmark, evaluating the effect of telemedicine (TM) on DFU has been conducted, comparing TM follow-up with standard outpatient care (SOC) related to healing, amputation, and death <ref type="bibr" target="#b5">(6)</ref>. The results from quantitative research on healing are inconclusive as to whether TM follow-up care is better or no worse than SOC. Findings from qualitative studies of patients with DFUs exploring use of TM and its contribution to treatment and quality of care show positive results <ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref>.</p><p>The rationale for this TM follow-up care study was to evaluate whether TM follow-up could deliver the same treatment for patients with DFUs as SOC and contribute to more convenient treatment and integrated care. Therefore, we chose a noninferiority trial design based on the expectation that TM follow-up care would be no worse than SOC in terms of ulcer healing time but might be preferable to SOC given that TM follow-up may allow more patients to be treated in their home and can contribute to more flexible health care services <ref type="bibr" target="#b17">(18)</ref>.</p><p>Our primary aim was therefore to evaluate whether TM follow-up of patients with DFUs in primary health care in collaboration with hospital outpatient care is noninferior to SOC in terms of ulcer healing time. Noninferiority was a priori defined as the lower limit of the 95% CI for the mean difference in healing time ,1.5 months. Our secondary aims were assessed for superiority: to evaluate whether amputations, deaths and outpatient consultations were less frequent in the TM group compared with SOC. Further, we aimed to evaluate whether patients receiving TM follow-up care were more satisfied with the treatment and follow-up care than patients receiving SOC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESEARCH DESIGN AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trial Design</head><p>The trial protocol has previously been reported <ref type="bibr" target="#b18">(19)</ref>. Briefly, this multicenter noninferiority parallel cluster clinical trial <ref type="bibr" target="#b19">(20)</ref> involved three clinical sites in western Norway. This design was selected because a classical randomized controlled trial (RCT) could threaten internal validity because community nurses in the municipalities would treat patients in both the intervention and control group (CG). The recruitment period lasted from September 2012 to June 2016. The intervention consisted of TM follow-up care in the community in collaboration with specialist health care; the CG (SOC) had outpatient visits every 2 weeks and, if needed, additional follow-up with the community nurse. The trial is in accordance with the CONSORT (CONsolidated Standards Of Reporting Trials) checklist statement extension for cluster and noninferiority randomized trials <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b21">22)</ref> for transparent reporting and registered with ClinicalTrials.gov (NCT01710774). We evaluated the effectiveness of the intervention on patient health using the Model for Assessment of Telemedicine criteria <ref type="bibr" target="#b22">(23)</ref>. The study was approved by the Western Norway Regional Committee for Medical and Health Research Ethics (2011/1609). All participants gave written consent. One hundred and eighty-two patients participated in the trial, with 94 in the TM group and 88 in the CG.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>We included patients with DFUs from the endocrinology unit at Stavanger University Hospital, from the orthopedics or endocrinology unit at Haukeland University Hospital, and from the surgical unit at Stord county hospital. Inclusion criteria were that patients have type 1 or type 2 diabetes and be aged 20 years or older, presenting with a new DFU to the clinical site. A DFU was defined as a skin lesion below the ankle. Exclusion criteria were as follows: 1) an ulcer on the same foot treated during the last 6 months in specialist health care, 2) a diagnosis of mental disorders or cognitive impairment (including schizophrenia, other psychotic disorders, and dementia), 3) inability to complete questionnaires in Norwegian, or 4) life expectancy ,1 year <ref type="bibr" target="#b18">(19)</ref>. The difference in inclusion criteria between our study and the Danish RCT study <ref type="bibr" target="#b5">(6)</ref>, which did not show superiority of the intervention, was that we included only patients who had not been treated for any DFU in the last 6 months before inclusion, while the Danish RCT had no such limitation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Randomization and Blinding</head><p>Rogaland and Hordaland counties in western Norway were divided into 42 clusters based on the municipalities or districts within the municipalities. The clusters were matched in 21 pairs according to population size and rural/urban characteristics in the municipalities or districts and randomized to either the TM or SOC group. A person independent of the study performed the randomization sequences using SPSS, version 21, statistical software (IBM Corporation) <ref type="bibr" target="#b18">(19)</ref>.</p><p>All patients within each cluster were in the same treatment group. At the initial visit to the clinic, the study nurse screened patients for eligibility and informed them about the study. Patients who consented to participate were allocated to either TM follow-up care or SOC based on their cluster. Patients in both groups were followed until ulcer healing, amputation, or deathdup to a maximum of 12 months of follow-up. The health care professionals, patients, and researchers were not blinded to the patients' group allocation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intervention TM Follow-up</head><p>The TM application consisted of an interactive Web-based ulcer record and a mobile phone, enabling counseling and communication between the community nurses and specialist health care. The key ingredient was the close integration between the levels of the health care services. Patients in the intervention group received TM follow-up care in the community with consultations at the outpatient clinic every 6 weeks until an end point occurred. During follow-up in the community, the community nurses provided care under supervision of the specialist nurses at the outpatient clinics and communicated at least weekly with the specialist nurses at the outpatient clinic. The TM consultations consisted of written assessment of the ulcer and images sent via the mobile phone through the online Web-based ulcer record for assessment and feedback and further follow-up procedures. If the community nurse had questions regarding the feedback, discussion between the community nurse and the specialist was conducted by phone or e-mail. All diabetes specialist nurses and/or podiatrists and community nurses received training in the use of the Webbased ulcer record and mobile phone after a standardized procedure. Individual teaching and training of the nursing staff in primary care were offered at the specialist clinic or in primary care to ensure equivalent and competent handling of patients. In addition, nurses in the community were encouraged to visit the hospital clinic to improve their practical skills <ref type="bibr" target="#b18">(19)</ref>. SOC Patients randomized to SOC followed the SOC and treatment provided by the outpatient clinic. The treatment procedures were evidence based in agreement with the clinics. Consultations at the outpatient clinic were normally scheduled to take place every second week. For some patients in the SOC group, follow-up by the community nurse between the consultations at the outpatient clinics was necessary but without use of TM follow-up.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome Measures</head><p>Primary Outcome "Healing of the ulcer" was defined as healing (intact skin) of the whole foot without minor or major amputations. The maximum follow-up time for each patient was 12 months. For patients whose ulcers healed within 12 months, healing time was measured from start of treatment at the outpatient clinic when the foot ulcer was diagnosed until the foot ulcer was healed. "Noninferiority" for the TM intervention was defined as a difference in mean healing time of ,1.5 months in favor of SOC in comparison of the TM with the SOC group; i.e., the upper limit of the CI for the mean difference in healing time with SOC as the reference should not exceed 1.5 months. We selected the noninferiority margin of 1.5 months a priori as the minimal clinically relevant difference in healing time between the TM group and the SOC group based on clinical judgement and statistical considerations. The TM consultations at the outpatient clinic were planned to take place every 6 weeks. If the ulcer healed between two consultations, health care personnel verified that the ulcer had healed at the subsequent consultation at the outpatient clinic. Amputation and death were considered competing events for healing. Follow-up time in competing risk regression analysis was calculated as the time from the start of treatment in the outpatient clinic until healing, amputation, death, or end of follow-updwhichever came first.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Secondary Outcomes</head><p>"Amputation" was defined as minor or major amputation before ulcer healing. Amputation performed below the ankle was defined as minor amputation, whereas amputation above the ankle was defined as major amputation. Death was defined as death before ulcer healing. Number of Consultations. For the TM group, each consultation at the outpatient clinic was registered in the Web-based ulcer record. Consultations in primary health care for the TM group were based on the total number of consultations each patient received during follow up, documented by the community nurses in the Web-based ulcer record. For the SOC group, each consultation at the outpatient clinic was registered in the Web-based ulcer record. If the patients received follow-up from the community nurses, health care personnel at the outpatient clinic documented the total number of consultations during follow up.</p><p>Patients' experience was measured with the Generic Short Patient Experiences Questionnaire (GS-PEQ), a generic questionnaire on user experience with specialist health care <ref type="bibr" target="#b23">(24)</ref>. It consists of 10 questions with a response score on a 5-point Likert scale ranging from 1 to 5 (1 = not at all, and 5 = very strong degree) (Supplementary Table <ref type="table" target="#tab_0">1</ref>). Cronbach a was 0.80. The last question showed low item-to-total correlation and was therefore excluded before the calculation of a mean satisfaction score for each patient. The questionnaire was completed at the end of the follow-up period.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis</head><p>Sample size calculation based on an SD of healing time of 3.6 months showed that 92 participants per group would exceed 80% power to detect a difference in mean healing time larger than the selected noninferiority margin of 1.5 months <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b25">26)</ref> between the TM and SOC groups. Given an expected dropout rate of 25%, an intraclass correlation coefficient (ICC) of 0.02, and an average cluster size of 10 participants, the minimum necessary sample size increased to 217 participants. As we expected an attrition rate of 5%, our aim was to include 114 participants in each group <ref type="bibr" target="#b18">(19)</ref>.</p><p>Data were analyzed according to the initial group allocation (intention to treat). Continuous variables are presented as mean 6 SD, and categorical variables are presented as proportions. ICC was calculated for healing time among those whose ulcer healed. To account for clustering in treatment groups, we used linear mixedeffects regression to investigate differences in mean healing time among those whose ulcers healed, mean number of consultations per month, and mean sum score for patient experience. Differences in healing time were also analyzed with the Fine and Gray competing risk regression <ref type="bibr" target="#b26">(27)</ref> treating death and amputation as competing events, with robust SEs to account for clustering. Results are reported as subhazard ratios (SHRs) with 95% CIs. Cumulative incidence curves for ulcer healing time were constructed using the stcompet command in Stata, with amputation and death treated as competing events. A generalized linear model with binomial distribution, identity link function, and robust SEs to account for clustering was used to test for differences in the proportions of amputations and deaths.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional Analyses</head><p>To test whether distance to the outpatient clinic affected the difference in consultations per month between the TM and SOC groups, we conducted a subgroup analysis with a linear mixed model, including only patients who lived .25 km from the outpatient clinic. We also performed additional analyses using a linear mixed model to test whether there was an association between severity of ulcer (grade and stage) and number of consultations per month and whether there was a difference in the number of consultations between the three hospitals within the TM group. All analyses were also repeated excluding 13 patients originally assigned to the TM group who did not receive TM follow-up (per protocol analyses). A greater percentage of participants in the intervention group with ulcers on the toes than in the CG suggested possible differential selection. We therefore repeated the linear mixed-effects regression analyses and competing risk analyses and adjusted for localization of ulcer.</p><p>Statistical significance was defined as P , 0.025 for the primary outcome and P , 0.05 for secondary outcomes. SPSS, version 22, was used for the description of baseline data, and Stata, version 14, was used for competing risk regression and to construct cumulative incidence function curves in competing risk analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study Population</head><p>In total, 345 patients were assessed for eligibility between September 2012 and June 2016; of these patients, 163 did not meet the inclusion criteria. Thus, the final analysis set comprised 182 patients: 94 in the TM group and 88 in the SOC group (Fig. <ref type="figure" target="#fig_0">1</ref>). Overall, baseline characteristics were well matched between the two groups (Table <ref type="table" target="#tab_0">1</ref>). However, there was a significant difference between the two groups in type of diabetes (P = 0.016) and localization of ulcer (P = 0.009). A higher proportion of patients in the TM group had type 2 diabetes compared with the SOC group: 86.2% vs. 71.6%, respectively. A higher proportion of patients in the TM group had ulcers in the toe area compared with the CG: 60.6% vs. 38.6%, respectively. Most participants were male (74.2%), the mean 6 SD HbA 1c was 7.8 6 1.7%, and the majority used insulin (64.4%). A history of cardiovascular disease and neuropathy was present in 31.6% and 71.4% of patients, respectively (Table <ref type="table" target="#tab_0">1</ref>). Furthermore, most ulcers were classified as grade 1 and stage A or B at baseline (Supplementary Table <ref type="table" target="#tab_2">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Primary Outcome</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ulcer Healing Time</head><p>Of the 182 patients, 142 (78.9%) experienced complete ulcer healing. Of these, 75 (79.8%) healed in the TM group and 67 (76.1%) in the SOC group. Mean healing time was 3.4 and 3.8 months in the TM and SOC groups, respectively. The mean difference in healing time between TM and SOC (including only those who healed) was -0.43 months with 95% CI from -1.50 to 0.65 (Table <ref type="table" target="#tab_2">2</ref>). The upper confidence limit did not include 1.5, and TM was thus deemed noninferior to SOC in terms of healing time. ICC for healing time was 0.0014 with 95% CI. Competing risk regression showed no statistical differences between TM and SOC in healing time (SHR 1.16, 95% CI 0.85, 1.59) (Table <ref type="table" target="#tab_2">2</ref>). Of 182 patients, 11 (6.0%) did not experience ulcer healing within 12 months: 8 (8.5%) in the TM group and 3 (3.4%) in the SOC group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cumulative Incidence Curve</head><p>Cumulative incidence curves for healing stratified by group are shown in Fig. <ref type="figure" target="#fig_1">2</ref>. Throughout the follow-up period, the TM group showed higher cumulative incidence of healing compared with the SOC group, but the 95% CIs overlapped.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Secondary Outcomes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Amputation</head><p>Of 182 patients, 19 (10.6%) had an amputation: 6 (6.4%) patients in the TM group and 13 (14.8%) in the SOC group. The difference in proportions was significantly different from zero (-8.3% with 95% CI -16.3, -0.5) (Table <ref type="table" target="#tab_2">2</ref>). In total, 73.7% were minor amputations (n = 5 in TM and n = 9 in SOC). Four of the five major amputations were in the SOC group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mortality</head><p>Of 182 patients, 10 (5.5%) died: 5 (5.3%) in the TM group and 5 (5.7%) in the SOC group. There was no significant difference in the proportion of deaths between the two groups (difference in proportion -0.4% with 95% CI -6.5, 5.7) (Table <ref type="table" target="#tab_2">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consultations</head><p>The number of consultations per month at the outpatient clinic was not significantly different between the two groups, but the direction of the observed differences favored the TM group. The mean difference was 20.48 fewer consultations at the outpatient clinic per month with 95% CIs from -1.46 to 0.49 (Table <ref type="table" target="#tab_2">2</ref>). Patients receiving SOC had fewer visits with community nurses compared with those in the TM group, but the difference was not significant, with a mean difference of 0.92 visits per month and 95% CI -0.70, 2.53 (Table <ref type="table" target="#tab_2">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient Satisfaction</head><p>In total, 67 (71.3%) patients in the TM group and 57 (64.8%) in the SOC group answered the GS-PEQ questionnaire at follow-up. The majority of patients in both groups reported high satisfaction with the treatment and follow-up, with a mean 6 SD score of 4.4 6 0.5 (range 1-5); no significant difference was observed between the two groups (mean difference 0.07, 95% CI -0.10, 0.24) (Table <ref type="table" target="#tab_2">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional Analysis</head><p>Within the TM group, the mean number of consultations per month at the outpatient clinic was significantly lower among patients who lived .25 km from the clinic compared with those who lived #25 km from the clinic (mean difference -1.0 with 95% CI -1.9, -0.1. When the analysis was restricted to patients who lived .25 km from the outpatient clinic, there were significantly fewer consultations per month in the TM group compared with the SOC group (mean difference -1.2, 95% CI -2.4, -0.03).</p><p>The analyses of the association between severity of ulcer according to grade and stage and number of consultations per month at the outpatient clinic showed no statistically significant associations in the total study population or in the two treatment groups separately (results not shown).</p><p>Analyses comparing the number of consultations per month at the outpatient clinics between the three hospitals within the TM group showed a significantly lower number of consultations per month at the hospital that was included first in the intervention compared with the hospital that was included last (mean difference -1.1, 95% CI -2.2, -0.1). However, exclusion of the hospital that was recruited last did not result in any significant difference in consultations per month between the TM group and the SOC group, although the difference favored the TM group and was larger than the main result in Table <ref type="table" target="#tab_2">2</ref> (mean difference -0.56, 95% CI -1.7, 0.6).</p><p>When we repeated the main analyses, excluding 13 patients in the TM group who did not receive TM follow-up (per protocol analyses), results were approximately the same (results not shown).</p><p>A significantly greater percentage of participants in the intervention group than in the SOC group had ulcers in the toe area. We therefore repeated the linear mixed-effects regression analyses adjusting for ulcer localization. This did not change the results markedly. Similarly, in the competing risk analyses, with ulcer heling as the end point taking localization of ulcer into account, SHR did not change much (SHR 1.13, 95% CI 0.83, 1.57).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>We found that TM follow-up in patients with DFUs in primary health care was noninferior to SOC regarding healing time among those who experienced healing. When competing risk of death and amputation was taken into account, there was no significant difference in healing time between the two groups. There were significantly fewer amputations in the TM group. The direction of the effect estimates for healing, death, and consultations all favored TM follow-up. Patients in both treatment groups were satisfied with the treatment and follow-up they received.</p><p>This study confirmed our hypothesis that TM is noninferior to SOC regarding healing time. The noninferior healing time and the direction of the effect estimates favoring TM suggested that providing expert advice through TM intervention in wound care is promising and thus can be an alternative in treatment and follow-up care compared with SOC for patients with DFU. Results of the recent Danish study ( <ref type="formula">6</ref>) mentioned above correspond with these results. However, in contrast to the Danish study, we found no differences in mortality between the two groups. The Danish authors (6) reported excess mortality for TM follow-up care compared with standard care but could not identify any obvious reasons for the increased mortality rate in the TM group. In our study, we excluded patients with previous ulcers within the last 6 months before inclusion. Such patients may be particularly vulnerable to adverse outcomes. A similar restriction was not part of the Danish study <ref type="bibr" target="#b5">(6)</ref>. Differences in inclusion criteria should be clearly specified in future studies to identify subgroups for whom TM follow-up care might be particularly beneficial.</p><p>In this study, the TM intervention resulted in no significant differences between the two groups in number of consultations per month at the outpatient clinic. This result was unexpected, as with use of TM one might expect a change in the treatment routines resulting in a lower number of outpatient visits. Similar findings have been reported in a qualitative study in Denmark where the staff did not experience a decrease in the number of consultations at outpatient clinics <ref type="bibr" target="#b14">(15)</ref>. In our study, patients in the TM group had outpatient consultations, on average, every second week compared with the scheduled consultations (every 6 weeks). The higher  Unless otherwise indicated data are shown as n (%) (% of patients with valid values) for categorical variables and mean 6 SD for continuous variables. GFR, glomerular filtration rate. a Education level: primary, up to 10 years of compulsory education; secondary, high school or vocational school; and tertiary, college/university. b HbA 1c measurements were reported using the International Federation of Clinical Chemistry units (mmol/mol) in addition to the derived NGSP units (%) upon attendance at the outpatient clinic. c Cardiovascular disease was defined as a history of angina pectoris, myocardial infarction, or stroke. d Neuropathy was defined as an abnormal pressure sensation evaluated with the 10-g monofilament and/or presence of symptoms and/or signs of peripheral nerve dysfunction.</p><p>number of consultations in the TM group was not explained by ulcer severity: one might expect that more severe ulcers required more frequent consultations at the outpatient clinic. Interestingly, the subgroup analysis showed that within the TM group, patients who lived .25 km from the outpatient clinics had significantly fewer consultations per month compared with patients who lived closer to the outpatient clinic. This association was not seen in the SOC group. In addition, between the groups, there were significantly fewer consultations in the TM group compared with the SOC group for patients who lived more than .25 km from the outpatient clinic. This result suggests that distance is an important factor in the implementation of TM. The subgroup analysis within the TM group also showed that the outpatient clinics with the most experience with TM had fewer consultations per month compared with the other two outpatient clinics. This result corresponds with research showing that adaption to new technology requires maturity and time to organizational adoption <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b27">28)</ref>.</p><p>During the trial, we evaluated whether the intervention was working as intended.</p><p>In qualitative studies we explored more indepth how this complex intervention was working from a provider perspective. We found that health care personnel were enthusiastic and conscientious regarding the intervention even though in some municipalities the intervention was not optimally implemented. The overall findings point to important factors and conditions to consider for further use and implementation of TM technology <ref type="bibr" target="#b16">(17,</ref><ref type="bibr" target="#b17">18)</ref>. Applying new technology leads to changes in delivery of health care as well as changes in the organization of daily work routines <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b27">28)</ref>. Strategic use of TM may help us deliver integrated services across different levels of health care and reduce the burden on specialist clinics. Our study shows that TM follow-up is feasible and noninferior with regard to ulcer healing time.</p><p>Both TM and SOC led to positive experiences for the patients. Although we hypothesized that patients receiving TM would have more positive experiences than patients receiving SOC, we found no statistical differences in patient experience between the two groups. This may reflect that patients in both groups felt secure about and had confidence in the ulcer treatment and follow-up they received. This is consistent with supplementary qualitative studies conducted during this trial <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b16">17)</ref> indicating that health professionals had positive experiences based on knowledge and skills they gained in wound management <ref type="bibr" target="#b15">(16)</ref>. In addition, type of service (TM or SOC) seemed less important, as they both underscored continuity of care, confidence, and competence among the health professionals as key factors contributing to secure wound care treatment <ref type="bibr" target="#b15">(16)</ref>. These findings are in line with results from a study among patients with long-term  conditions in the U.K., which concluded that concerns about potentially deleterious effects of TM care are unfounded for most patients <ref type="bibr" target="#b28">(29)</ref>. Strengths of this cluster RCT study were the real-life context of specialist and primary health care. Only participants with a DFU were included, and participants had a long maximum follow-up period of 12 months. This study has limitations. First, the a priori sample size was not achieved. Despite this, we observed a CI for the primary outcome that did not include the noninferiority margin and were thus able to conclude that there was noninferiority. For the secondary outcomes, the smaller sample size may have limited us from detecting significant differences between the groups. However, all effect estimates for the secondary outcomes favored the TM group, indicating that a larger sample size would not have resulted in differences favoring SOC. Second, the proportion of patients with ulcers in the toe area was higher in the intervention group than in the SOC group. However, this is likely due to chance. The randomization took place on the level of municipality (cluster), which might cause more random variation than individual randomization, and it seems unlikely that municipalities have true differences in rates of ulcers in the toe area. Adjustment for ulcer localization did not change the results. Third, we excluded patients who had an ulcer on the same foot treated during the last 6 months. This was decided because chronic ulcers could have interfered with the primary outcome in the study. We also excluded patients with a life expectancy of ,1 year or with a mental illness, which calls into question the representativeness of the study sample. However, such patients are expected to benefit more from the intervention, as they have more problems traveling to the hospital. The estimates for the primary and secondary outcomes in the current study might therefore have been underestimated. Fourth, owing to the exclusion criteria, our cohort does not fully reflect the total population with DFUs attending the participating clinics and may limit the external validity of the findings. Even though the metabolic control of the patients in this study appears very good, we believe that our population is representative of other patients meeting the inclusion criteria for our study. Furthermore, there is little reason to believe that our intervention would be less effective for those with less metabolic control. Fifth, three outpatient clinics and nurses in many different municipalities and municipality districts provided the intervention. The treatment procedures were evidence based, but it is possible that there were minor differences in the use of bandages and/or off-loading between home care and the outpatient clinic, as there were different purchasing routines. This may have affected whether the intervention worked in the same way in all communities and within the communities <ref type="bibr" target="#b18">(19)</ref>. Training in use of the TM equipment offered by the specialist clinics was standardized, and the health care personnel using the same guidelines contributed to increasing the external validity and generalizability of the results, which thus made them more applicable to a realistic clinical setting. Sixth, even though our trial was not powered to detect significant differences for the secondary outcomes, it was unexpected that we did not observe differences in number of consultations between the TM and usual care group. It is possible that the overall frequency of follow-up in specialist clinics in the TM group affected the primary outcome. Seventh, there were fewer minor amputations and more ulcers not healed at 12 months in the TM group. Therefore, it is possible that there were more chronic ulcers in the TM group. Finally, the health care professionals at the outpatient clinics were not blinded in the study. This was not possible to avoid, as the TM and SOC groups were treated by the same health care professionals when the patients attended the clinic.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical and Research Implications</head><p>This TM trial took place in a novel setting, and the findings of no differences regarding time to healing, death, and patient satisfaction as well as significant fewer amputations in the TM group suggest that use of TM technology can be an alternative and supplement to usual care. Owing to the low proportion of patients with severe ulcers in the current sample, the conclusions are most relevant for patients with more superficial ulcers. The findings suggest that TM is particularly useful for patients who live far from an outpatient clinic. Thus, use of TM can reduce the burden that long travel distance entails but maintain high-quality wound care. The findings also indicate that the number of consultations at the outpatient clinics were lower when health professionals gained more experience using the TM equipment. However, the overall lack of significant differences in consultations per month between the two groups at the outpatient clinics highlights the need to focus on organizational aspects to facilitate use of TM solutions.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1-CONSORT flow diagram.</figDesc><graphic coords="4,50.97,424.29,312.81,301.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 -</head><label>2</label><figDesc>Figure 2-Cumulative incidence curve: healing time from start of treatment in specialist health care.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 -</head><label>1</label><figDesc>Baseline characteristics: the Diabetic Foot and Telemedical Images Project (DiaFOTo), western Norway</figDesc><table><row><cell></cell><cell>Total</cell><cell>TM</cell><cell>SOC</cell></row><row><cell>n</cell><cell>182</cell><cell>94</cell><cell>88</cell></row><row><cell>Demographic variables</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Male sex</cell><cell>135 (74.2)</cell><cell>70 (74.5)</cell><cell>65 (73.9)</cell></row><row><cell>Age (years)</cell><cell>66.4 6 16.6</cell><cell>67.2 6 16.7</cell><cell>65.5 6 16.5</cell></row><row><cell>Married or cohabitant</cell><cell>93 (60.0)</cell><cell>43 (56.6)</cell><cell>50 (63.3)</cell></row><row><cell>Education level a</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Primary</cell><cell>38 (26.6)</cell><cell>23 (33.3)</cell><cell>15 (20.3)</cell></row><row><cell>Secondary</cell><cell>73 (51.0)</cell><cell>34 (49.3)</cell><cell>39 (52.7)</cell></row><row><cell>Tertiary</cell><cell>32 (22.4)</cell><cell>12 (17.4)</cell><cell>20 (27.0)</cell></row><row><cell>Employed</cell><cell>35 (22.0)</cell><cell>18 (22.8)</cell><cell>17 (21.3)</cell></row><row><cell>Travel distance .25 km to hospital</cell><cell>50 (27.8)</cell><cell>29 (31.2)</cell><cell>21 (24.1)</cell></row><row><cell>Lifestyle characteristics</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Smoking (yes)</cell><cell>28 (18.2)</cell><cell>14 (18.4)</cell><cell>14 (18.0)</cell></row><row><cell>Subgroups of diabetes</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Type 1 diabetes</cell><cell>38 (20.9)</cell><cell>13 (13.8)</cell><cell>25 (28.4)</cell></row><row><cell>Type 2 diabetes</cell><cell>144 (79.1)</cell><cell>81 (86.2)</cell><cell>63 (71.6)</cell></row><row><cell>Diabetes-related variables</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Diabetes duration (years)</cell><cell>20.7 6 15.0</cell><cell>19.9 6 14.4</cell><cell>21.5 6 15.6</cell></row><row><cell>Insulin treatment</cell><cell>116 (64.4)</cell><cell>63 (67.0)</cell><cell>53 (61.6)</cell></row><row><cell>HbA 1c (mmol/mol) b</cell><cell>62 6 18.6</cell><cell>62 6 18.6</cell><cell>63 6 18.6</cell></row><row><cell>HbA 1c (%) b</cell><cell>7.8 6 1.7</cell><cell>7.8 6 1.7</cell><cell>7.9 6 1.7</cell></row><row><cell>Ulcer characteristics</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Localization of ulcer</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Toe</cell><cell>91 (50.0)</cell><cell>57 (60.6)</cell><cell>34 (38.6)</cell></row><row><cell>Metatarsal</cell><cell>27 (</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 -</head><label>2</label><figDesc>Summary of primary and secondary outcomes by TM and SOC within 12 months of recruitment Data are n (%) or mean 6 SD unless otherwise indicated. a Mean difference adjusted for clustering using linear mixed models for continuous outcomes and difference in proportions estimated using generalized linear models with robust SEs for dichotomous outcomes. b Estimated using competing risk regression with robust SEs to adjust for clustering. The SOC group is the reference group. c Total score for each patient calculated as the mean of the responses (range 1-5).</figDesc><table><row><cell>TM</cell><cell>SOC</cell><cell>Mean difference (95% CI) a</cell><cell>SHR b</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>care.diabetesjournals.org Smith-Strøm and Associates 97 Downloaded from http://diabetesjournals.org/care/article-pdf/41/1/96/553667/dc171025.pdf?casa_token=g9o11EyyGVoAAAAA:DwnI2wgqmAji2p7yYivPy0-Edv-HXhMoZrvPr87hKa_BiX-esJjff7bCXNx9F63ufDkywYnCU9o by guest on 16 July 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="98" xml:id="foot_1"><p>Telemedicine Follow-up Care of Adults With DFUs Diabetes Care Volume 41, January 2018 Downloaded from http://diabetesjournals.org/care/article-pdf/41/1/96/553667/dc171025.pdf?casa_token=g9o11EyyGVoAAAAA:DwnI2wgqmAji2p7yYivPy0-Edv-HXhMoZrvPr87hKa_BiX-esJjff7bCXNx9F63ufDkywYnCU9o by guest on 16 July 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Downloaded from http://diabetesjournals.org/care/article-pdf/41/1/96/553667/dc171025.pdf?casa_token=g9o11EyyGVoAAAAA:DwnI2wgqmAji2p7yYivPy0-Edv-HXhMoZrvPr87hKa_BiX-esJjff7bCXNx9F63ufDkywYnCU9o by guest on 16 July 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="100" xml:id="foot_3"><p>Telemedicine Follow-up Care of Adults With DFUs Diabetes Care Volume 41, January 2018 Downloaded from http://diabetesjournals.org/care/article-pdf/41/1/96/553667/dc171025.pdf?casa_token=g9o11EyyGVoAAAAA:DwnI2wgqmAji2p7yYivPy0-Edv-HXhMoZrvPr87hKa_BiX-esJjff7bCXNx9F63ufDkywYnCU9o by guest on 16 July 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="102" xml:id="foot_4"><p>Telemedicine Follow-up Care of Adults With DFUs Diabetes Care Volume 41, January 2018 Downloaded from http://diabetesjournals.org/care/article-pdf/41/1/96/553667/dc171025.pdf?casa_token=g9o11EyyGVoAAAAA:DwnI2wgqmAji2p7yYivPy0-Edv-HXhMoZrvPr87hKa_BiX-esJjff7bCXNx9F63ufDkywYnCU9o by guest on 16 July 2025</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments. The authors thank the medical staff at the outpatient clinics, the community nurses in the municipalities, and the patients who participated in this study. The authors also extend thanks to <rs type="person">Eva Skipenes</rs> and <rs type="person">Ellen K. Christiansen</rs> from the <rs type="affiliation">Norwegian Centre for Integrated Care and Telemedicine, University Hospital North Norway</rs>, for supporting this project with expertise in data security and legal aspects. Funding. The <rs type="funder">Norwegian Directorate of Health and Innovation Norway</rs>, the <rs type="funder">Western Norway Regional Health Authority</rs> (<rs type="grantNumber">911716</rs> and <rs type="grantNumber">911605</rs>), the <rs type="funder">Norwegian Diabetes Association</rs>, and <rs type="funder">Western Norway University of Applied Sciences</rs> funded the trial. This study was also funded by a grant from the <rs type="funder">Norwegian Research Council</rs> (<rs type="affiliation">Norges Forskningsråd</rs>), project number <rs type="grantNumber">221065</rs>. Duality of Interest. No potential conflicts of interest relevant this article were reported. Author Contributions. H.S.-S., M.F.H., and M.M.I. contributed to collecting data. H.S.S., J.I., T.Ø., and M.M.I. contributed to data analysis. H.S.-S., J.I., T.Ø., G.S.T., M.F.H., M.G., S.S., and M.M.I. wrote the manuscript. T.Ø., G.S.T., M.G., J.G.C., and M.M.I. designed the study, applied for funding, and drafted the protocol. M.F.H. and M.M.I. were responsible for the study concept. M.F.H., S.S., J.G.C., and M.M.I. contributed to developing and improving the delivery of the intervention. M.M.I. is the guarantor of this work and, as such, had full access to all the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis. Prior Presentation. An abstract of this study was presented at the <rs type="projectName">FEND (Foundation of European Nurses in Diabetes</rs>)22nd AnnualConference, Lisbon, Portugal, 8-9 September 2017.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_aCyk59n">
+					<idno type="grant-number">911716</idno>
+				</org>
+				<org type="funding" xml:id="_kuWQVse">
+					<idno type="grant-number">911605</idno>
+				</org>
+				<org type="funded-project" xml:id="_4rYX2EX">
+					<idno type="grant-number">221065</idno>
+					<orgName type="project" subtype="full">FEND (Foundation of European Nurses in Diabetes</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,395.46,579.25,150.46,6.45;7,392.54,588.72,153.43,6.45;7,392.54,598.18,153.50,6.45;7,392.54,607.65,153.38,6.45;7,392.54,617.12,18.80,6.45" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The global burden of diabetes and its complications: an emerging pandemic</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Dieren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Beulens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Van Der Schouw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Grobbee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Neal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Cardiovasc Prev Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Suppl. 1): S3-S8</note>
+</biblStruct>
+
+<biblStruct coords="7,395.46,626.59,150.46,6.45;7,392.54,636.06,153.49,6.45;7,392.54,645.52,115.27,6.45" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The global burden of diabetic foot disease</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Boulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vileikyte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ragnarson-Tennvall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Apelqvist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="1719" to="1724" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,395.46,654.93,150.61,6.45;7,392.54,664.40,153.42,6.45;7,392.54,673.87,62.91,6.45" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Telemedicine in wound care: a review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chanussot-Deprez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Contreras-Ruiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="78" to="82" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,395.46,683.34,150.57,6.45;7,392.54,692.81,153.42,6.45;7,392.54,702.27,153.52,6.45;7,392.54,711.74,153.41,6.45;7,392.54,721.21,153.32,6.45;7,392.54,730.68,95.37,6.45" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Telemedicine: opportunities and developments in member states</title>
+		<ptr target="http://www.who.int/goe/publications/goe_telemedicine_2010.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Report on the Second Global Survey on eHealth</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<date type="published" when="2010-03">2010. March 2017</date>
+			<publisher>World Health Organization</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,395.46,740.14,150.48,6.45;7,392.54,749.61,153.49,6.45;8,47.85,72.64,153.52,6.45;8,47.85,82.11,38.98,6.45" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effect of telemedicine follow-up care of leg and foot ulcers: a systematic review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Nordheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Haavind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Iversen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Serv Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">565</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,50.84,91.58,150.35,6.45;8,47.85,100.99,153.48,6.45;8,47.85,110.46,153.38,6.45;8,47.85,119.92,153.38,6.45;8,47.85,129.39,34.96,6.45" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A randomized controlled trial comparing telemedical and standard outpatient monitoring of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Froekjaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Bjerregaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1723" to="1729" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,50.77,138.86,150.46,6.45;8,47.85,148.33,153.38,6.45;8,47.85,157.79,153.51,6.45;8,47.85,167.26,145.09,6.45" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The use of telemedicine in the management of diabetes-related foot ulceration: a pilot study</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Wilbright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Birke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Patout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Varnado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Horswell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="232" to="238" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,50.77,176.73,150.57,6.45;8,47.85,186.20,153.39,6.45;8,47.85,195.67,153.38,6.45;8,47.85,205.13,153.50,6.45" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Expert advice provided through telemedicine improves healing of chronic wounds: prospective cluster controlled study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zarchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Haugaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Dufour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gbe</forename><surname>Jemec</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="895" to="900" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,50.77,214.60,150.45,6.45;8,47.85,224.07,153.43,6.45;8,47.85,233.54,136.31,6.45" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Remote wound monitoring of chronic ulcers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Watermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jossinet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Inf Technol Biomed</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="371" to="377" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,54.32,243.00,146.93,6.45;8,47.85,252.47,153.48,6.45;8,47.85,261.94,153.43,6.45;8,47.85,271.35,54.40,6.45" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A pilot study on the potential of remote support to enhance wound care for nursing-home patients</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vowden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="481" to="488" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,54.32,280.82,147.03,6.45;8,47.85,290.29,153.43,6.45;8,47.85,299.75,153.38,6.45;8,47.85,309.22,27.12,6.45" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Feasibility study of home care wound management using telemedicine</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Hare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="358" to="364" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,54.32,318.69,146.93,6.45;8,47.85,328.16,153.40,6.45;8,47.85,337.63,153.45,6.45;8,47.85,347.09,153.48,6.45;8,47.85,356.56,116.35,6.45" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The effectiveness of digital imaging and remote expert wound consultation on healing rates in chronic lower leg ulcers in the Kimberley region of Western Australia</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Santamaria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Carville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prentice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prim Intent</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">62</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,54.32,366.03,146.95,6.45;8,47.85,375.50,153.37,6.45;8,47.85,384.96,153.35,6.45;8,47.85,394.43,149.86,6.45" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Treatment of diabetic foot ulcers in the home: video consultations as an alternative to outpatient hospital care</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clemensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kirkevold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ejskjaer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Telemed Appl</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">132890</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,220.00,72.64,146.54,6.45;8,213.22,82.11,153.42,6.45;8,213.22,91.58,153.39,6.45;8,213.22,100.99,153.51,6.45;8,213.22,110.46,87.61,6.45" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Asynchronous and synchronous teleconsultation for diabetes care: a systematic literature review</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Verhoeven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tanja</forename><forename type="middle">-</forename><surname>Dijkstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nijland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Eysenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Gemert-Pijnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="666" to="684" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,220.15,119.93,146.50,6.45;8,213.22,129.39,153.38,6.45;8,213.22,138.86,153.44,6.45;8,213.22,148.33,153.41,6.45;8,213.22,157.80,109.17,6.45" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A qualitative study of the key factors in implementing telemedical monitoring of diabetic foot ulcer patients</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Froekjaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kidholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kensing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Yderstraede</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Med Inform</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="799" to="807" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,219.69,167.26,146.93,6.45;8,213.22,176.73,153.50,6.45;8,213.22,186.20,153.40,6.45;8,213.22,195.67,153.40,6.45;8,213.22,205.14,153.50,6.45;8,213.22,214.60,63.80,6.45" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">An integrated wound-care pathway, supported by telemedicine, and competent wound managementdessential in follow-up care of adults with diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Smith-Strøm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Iversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Skeie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kirkevold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Med Inform</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="59" to="66" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,219.69,224.07,147.05,6.45;8,213.22,233.54,153.38,6.45;8,213.22,243.01,153.33,6.45;8,213.22,252.47,153.38,6.45;8,213.22,261.94,21.52,6.45" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Telemedicine in diabetes foot care delivery: health care professionals&apos; experience</title>
+		<author>
+			<persName><forename type="first">B-Ch</forename><surname>Kolltveit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gjengedal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Iversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thorne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kirkevold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Serv Res</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">134</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,219.69,271.35,147.05,6.45;8,213.22,280.82,153.38,6.45;8,213.22,290.29,153.40,6.45;8,213.22,299.76,148.52,6.45" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Conditions for success in introducing telemedicine in diabetes foot care: a qualitative inquiry</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Kolltveit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gjengedal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Iversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thorne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kirkevold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Nurs</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,219.69,309.22,146.95,6.45;8,213.22,318.69,153.41,6.45;8,213.22,328.16,153.39,6.45;8,213.22,337.63,153.41,6.45;8,213.22,347.10,126.67,6.45" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Telemedicine versus standard follow-up care for diabetes-related foot ulcers: protocol for a cluster randomized controlled noninferiority trial (DiaFOTo)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Iversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Espehaug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Hausken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Res Protoc</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">148</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,219.69,356.56,146.91,6.45;8,213.22,366.03,153.46,6.45;8,213.22,375.50,153.53,6.45;8,213.22,384.97,153.38,6.45;8,213.22,394.44,86.13,6.45" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Improving the reporting of pragmatic trials: an extension of the CONSORT statement</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zwarenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treweek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Gagnier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">337</biblScope>
+			<biblScope unit="page">2390</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>CONSORT group; Pragmatic Trials in Healthcare (Practihc) group</note>
+</biblStruct>
+
+<biblStruct coords="8,385.07,72.65,147.02,6.45;8,378.60,82.11,153.50,6.45;8,378.60,91.58,153.44,6.45;8,378.60,100.99,153.43,6.45;8,378.60,110.46,66.02,6.45" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Reporting of noninferiority and equivalence randomized trials: extension of the CONSORT 2010 statement</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Piaggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Elbourne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Pocock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dg; Consort</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Group</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">308</biblScope>
+			<biblScope unit="page" from="2594" to="2604" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,385.52,119.93,146.47,6.45;8,378.60,129.40,153.43,6.45;8,378.60,138.86,153.40,6.45;8,378.60,148.33,50.42,6.45" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Consort 2010 statement: extension to cluster randomised trials</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Piaggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Elbourne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dg; Consort</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Group</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page">5661</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,385.24,157.80,146.73,6.45;8,378.60,167.27,153.46,6.45;8,378.60,176.73,153.39,6.45;8,378.60,186.20,46.56,6.45" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A model for assessment of telemedicine applications: MAST</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kidholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Ekeland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Technol Assess Health Care</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="44" to="51" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,385.07,195.67,146.92,6.45;8,378.60,205.14,153.39,6.45;8,378.60,214.61,153.44,6.45;8,378.60,224.07,153.52,6.45;8,378.60,233.54,63.64,6.45" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The Generic Short Patient Experiences Questionnaire (GS-PEQ): identification of core items from a survey in Norway</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Sjetne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Bjertnaes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Olsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Iversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bukholm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Serv Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">88</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,385.07,243.01,147.05,6.45;8,378.60,252.48,135.12,6.45" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Sample sizes for clinical trials with normal data</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Julious</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stat Med</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1921" to="1986" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,385.07,261.94,146.97,6.45;8,378.60,271.36,153.39,6.45;8,378.60,280.82,50.30,6.45" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Sample Size Calculations in Clinical Research. 2nd ed</title>
+		<author>
+			<persName><forename type="first">S-C</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>CRC Press</publisher>
+			<pubPlace>Boca Raton</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,385.41,290.29,146.60,6.45;8,378.60,299.76,153.40,6.45;8,378.60,309.23,120.26,6.45" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A proportional hazards model for the subdistribution of a competing risk</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Fine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Gray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Stat Assoc</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="496" to="509" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,385.07,318.69,147.07,6.45;8,378.60,328.16,153.39,6.45;8,378.60,337.63,105.38,6.45" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Adoption of telemedicine: from pilot stage to routine delivery</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zanaboni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wootton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Inform Decis Mak</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,385.24,347.10,146.75,6.45;8,378.60,356.57,153.50,6.45;8,378.60,366.03,153.41,6.45;8,378.60,374.55,153.50,7.97;8,378.60,384.97,153.38,6.45;8,378.60,394.44,19.48,6.45;8,47.85,31.59,82.20,6.45;8,443.96,31.59,111.98,6.45" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Whole System Demonstrator Evaluation Team. Effect of telehealth on use of secondary care and mortality: findings from the Whole System Demonstrator cluster randomised trial</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Steventon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bardsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Billings</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="page">103</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

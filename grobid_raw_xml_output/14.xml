@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reliability of Wound Measurement Methods</title>
+				<funder>
+					<orgName type="full">New Jersey Health Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2022-09-29">29 September 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Dahlia</forename><surname>Musa</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Frank</forename><surname>Guido-Sanz</surname></persName>
+							<email>frank.guido-sanz@ucf.edu</email>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Mindi</forename><surname>Anderson</surname></persName>
+							<email>mindi.anderson@ucf.edu</email>
+						</author>
+						<author>
+							<persName><roleName>Member, IEEE</roleName><forename type="first">Salam</forename><surname>Daher</surname></persName>
+							<email>salam.daher@njit.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">New Jersey Institute of Technology</orgName>
+								<address>
+									<postCode>07102</postCode>
+									<settlement>Newark</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Central Florida</orgName>
+								<address>
+									<postCode>32816</postCode>
+									<settlement>Orlando</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">the University of Central Florida</orgName>
+								<address>
+									<postCode>328016</postCode>
+									<settlement>Orlando</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">New Jersey Institute of Technology</orgName>
+								<address>
+									<postCode>07102</postCode>
+									<settlement>Newark</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reliability of Wound Measurement Methods</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-09-29">29 September 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6BCF529A08A5F15F6310D45F22087401</idno>
+					<idno type="DOI">10.1109/OJIM.2022.3219471</idno>
+					<note type="submission">This paper was submitted for review on This article has been accepted for publication in IEEE Open Journal of Instrumentation and Measurement. This article has been accepted for publication in IEEE Open Journal of Instrumentation and Measurement.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Wound measurement</term>
+					<term>3-dimensional</term>
+					<term>3D scanning</term>
+					<term>reliability</term>
+					<term>variability</term>
+					<term>physical</term>
+					<term>image</term>
+					<term>software</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Reliable and accurate measurement methods are necessary for clinical assessment of wounds. Repeated measure of a wound indicates whether its healing is progressing or deteriorating, and if alternate treatment must be initiated. Many wound measurement techniques lack accuracy and reliability. Technology: We developed a software prototype that calculates 3-dimensional (3D) wound measurements from 3D scans. We conducted a study to compare the software prototype to physical and 2-dimensional (2D) image measurement techniques commonly used by clinicians. We compared inter-rater reliability between the techniques and measurements (i.e., length, width, depth, perimeter, surface area). Results: Inter-rater reliability was good or excellent for the physical, image, and software measurement techniques, however, there were significant differences in measurements between the techniques. For complex measurements (i.e., perimeter, surface area), the reliability of the software exceeded that of the physical and image techniques. Conclusions: Although inter-rater reliability was high for all measurement techniques, there was significant variability between the techniques. The software was overall most reliable, especially for calculation of complex measurements. Clinical Impact: Reducing the variability of wound measurements may improve patient outcomes, reduce the injury's prevalence, and mitigate the associated morbidity, mortality, and costs of these occurrences.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>W OUNDS require close monitoring to ensure that treat- ment is promoting adequate healing. The effectiveness of wound treatment is often determined by measuring the dimensions of the wound and assessing whether there is a reduction in its size over time. A 10-15 % reduction in wound size per week suggests increased likelihood of wound closure <ref type="bibr" target="#b0">[1]</ref>. When a wound does not respond to a treatment, a new course of treatment may be initiated. Chronic wounds deviate from the typical progression of healing and are especially challenging to treat. These non-healing wounds are associated with increased morbidity and mortality, and present a financial burden to the healthcare system <ref type="bibr" target="#b1">[2]</ref>.</p><p>Pressure injuries are a common type of chronic wound <ref type="bibr" target="#b2">[3]</ref>. Yearly, over 2.5 million Americans are affected by pressure injuries <ref type="bibr" target="#b3">[4]</ref> and close to $11 billion is spent in the United States on prevention and treatment for these injuries <ref type="bibr" target="#b4">[5]</ref>. Despite the magnitude of this healthcare problem, preventing pressure injuries and implementing mitigating efforts remain difficult tasks. The Institute for Healthcare Improvement (IHI) made pressure ulcer prevention a top priority to support through the 5 Million Lives Campaign, aiming to reduce morbidity and mortality by implementing reliable science-based prevention measures <ref type="bibr" target="#b5">[6]</ref>. More than ten years after the campaign, and despite being considered a quality-of-care indicator, pressure injury incidence, prevalence, and elevated associated morbidity and mortality remain a top healthcare concern <ref type="bibr" target="#b6">[7]</ref>.</p><p>As important as identifying the wound history and location of the injuries during a physical exam, the physical characteristics of the pressure injuries (e.g., length, width, depth) need to be accurately assessed and documented <ref type="bibr" target="#b6">[7]</ref>. Several barriers exist in current efforts to reduce the incidence and prevalence of pressure injuries, including the absence of a universal classification system to guide the management of injuries by stages <ref type="bibr" target="#b6">[7]</ref> and the variability in methods to assess and measure the area of the injury. Several methods or techniques are used to size the injuries: ruler measuring, wound tracing with graduated acetate paper, and digital planimetry <ref type="bibr" target="#b7">[8]</ref>. With these and other methods, an overestimation of wound size can occur <ref type="bibr" target="#b7">[8]</ref>, and the orientation or angle of the measurement can affect the accuracy of the sizing <ref type="bibr" target="#b8">[9]</ref>.</p><p>A common wound measurement technique used among clinicians is the ruler method. In the ruler method, the longest length (L) and widest width (W) are measured with a ruler, and the two measurements are multiplied as LxW to calculate the surface area <ref type="bibr" target="#b8">[9]</ref>. The depth (D) is often measured by inserting a Q-tip into the wound and measuring the inserted segment of the Q-tip with a ruler <ref type="bibr" target="#b8">[9]</ref>. The ruler method has gained prevalence because it is simple and quick, but it has disadvantages related to accuracy <ref type="bibr" target="#b8">[9]</ref>. The LxW surface area equation measures the area of a rectangle, and since wounds are usually irregularly shaped, this equation results in a significant overestimation of about 41 % <ref type="bibr" target="#b9">[10]</ref>. Some clinicians alternatively calculate the surface area as the area of an ellipse <ref type="bibr" target="#b10">[11]</ref>, but this measurement also assumes that the shape of the wound is elliptical. Additionally, the direct contact made with the wound is a possible source of infection and discomfort for the patient <ref type="bibr" target="#b11">[12]</ref>. Several 2-dimensional (2D) digital measurement techniques have been developed to increase the accuracy of measurements and eliminate physical contact with the wound. In one method, ImageJ <ref type="bibr" target="#b12">[13]</ref> software is used to calculate linear measurements between specified points on an image of the wound. While image measurements may be more accurate than ruler measurements, there are limitations. The angle of the camera may warp the image and effect the measurements. A 2D image also does not account for curvature, which can be problematic if the wound is located on a curved body part <ref type="bibr" target="#b13">[14]</ref>, such as the forearm or heel of the foot.</p><p>One alternative approach is to use 3-dimensional (3D) measurement systems. In these systems, measurements are taken on virtual 3D models that replicate the physical wound, and no direct contact is made with the wound. 3D models retain the surface geometry and color of the wound, and allow for manipulation, visualization, and enhanced clarity of wound features that is difficult to achieve in 2D images <ref type="bibr" target="#b14">[15]</ref>. In many systems, 3D models are generated using structure from motion (SfM) photogrammetry <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b17">18]</ref> or 3D scanners <ref type="bibr" target="#b18">[19]</ref>. SfM matches features between 2D images and combines the data to create a 3D model. 3D scanners generate 3D models automatically without the need for 2D images. 3D scanners typically produce better quality 3D models than SfM; however, 3D scanners can be expensive and SfM is an affordable alternative <ref type="bibr" target="#b19">[20]</ref>. 3D surface area measurements taken from 3D models have been shown to be more sensitive and thus better indicators of healing compared to 2D measurements <ref type="bibr" target="#b20">[21]</ref>. Wound perimeter has also been recognized as an important factor in the prediction of wound healing <ref type="bibr" target="#b21">[22]</ref>. 3D software can facilitate the measurement of perimeter as it is often difficult to calculate the perimeter of irregularly shaped wounds.</p><p>We developed a software prototype that calculates 3D wound measurements from 3D scans. The software can potentially improve clinicians' wound monitoring, assessment, and documentation in a non-contact method. This paper discusses the development and study of our software prototype. We address the following research questions: Q1: Does our 3D software support greater inter-rater reliability compared to physical and image measurement techniques? Q2: Does our 3D software support greater inter-rater reliability of complex measurements (i.e., perimeter, surface area) than simple measurements (i.e., length, width, depth)? Q3: Does variability exist between measurements (i.e., length, width, depth, perimeter, surface area) across different measurement techniques (i.e., physical, image, software)? II. METHODS AND PROCEDURES A. Development 1) 3D Wound Software Prototype</p><p>We developed the 3D wound software prototype in Unity 3D <ref type="bibr" target="#b22">[23]</ref> using the programming language C#. The software takes 3D scans of the wounds as input and measures the length, width, depth, perimeter, and surface area of the wounds in a semi-automatic process. The user indicates the points of measurement by clicking on the 3D model, and the software calculates and displays the measurements between those points. Linear measurements are calculated by applying the Euclidean distance equation in 3D <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25]</ref>. The length, width, and depth are calculated as the distance between the end points indicated by the user. A linear measurement is shown in Figure <ref type="figure" target="#fig_0">1A</ref>. Since the perimeter consists of several points around the wound edge, the perimeter measurement is calculated as the sum of the Euclidean distances between every two subsequent points. A perimeter measurement is shown in Figure <ref type="figure" target="#fig_0">1B</ref>. For the surface area calculation, the perimeter points are used to define the boundary of the wound, and within this boundary, the software computes the sum of the mesh triangle areas. The surface area is calculated automatically from the perimeter points, but the user has the option to refine the measurement by adding or removing area from the calculation. A surface area measurement is shown in Figure <ref type="figure" target="#fig_0">1C</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2) System Calibration</head><p>Equipment used in the calibration of the 3D wound software was metrologically traceable and calibrated. Calibration of the software was performed using the Scantech iReal 2E 3D scanner <ref type="bibr" target="#b25">[26]</ref>, Maya <ref type="bibr" target="#b26">[27]</ref>, and Unity <ref type="bibr" target="#b22">[23]</ref>. The 3D scanner was calibrated according to the manufacturer's guidelines. The room temperature during calibration of the 3D scanner was within the range specified by the manufacturer (5°C to 40°C) <ref type="bibr" target="#b25">[26]</ref>. After calibration of the 3D scanner, four Avkin <ref type="bibr" target="#b27">[28]</ref> simulated wounds were 3D scanned individually with rulers and reference objects of known measurements placed in the x, y, and z directions. The rulers used in the 3D scans were compared with gauge blocks to ensure correctness of measurements. The 3D scans were imported into Maya, and using Maya's measurement tools, the 3D scans were scaled in the x, y, and z dimensions until the measurements of the reference objects in Maya were consistent with the objects' known measurements. The scale factor in Maya was found to be 0.1 in all dimensions. The mesh of the 3D models was then trimmed to remove the reference objects and include only the simulated wounds. The 3D models were exported from Maya as OBJ files and imported into Unity to be incorporated into the software. Maya and Unity both calculate measurements by applying the distance formula to two specified vertices, so calibration of the 3D models in Maya confirms calibration in Unity <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b28">29]</ref>. We measured the diameter of the 3D models in our software to verify that the measurements were equivalent to the known diameter of the simulated wounds. This calibration process was performed separately for each of the four simulated wounds used in this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Participants</head><p>Participation was open to all students, faculty, and staff at New Jersey Institute of Technology (NJIT). Participants were excluded if they were not fluent in English or if they had vision impairment not corrected by glasses or contact lenses. Participants were not required to have any prior knowledge of healthcare or wound measurement, but were expected to have basic knowledge of measurement and math. A total of 20 participants were included in the study. The data of two participants were excluded from analysis due to incompletion, resulting in the inclusion of 18 participants' data. Participants' ages ranged from 18 to 31 years. Of the 18 participants, one participant had previous experience in wound measurement and all others had no previous experience.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Experiment Setup</head><p>The pilot study was conducted on the campus of NJIT. The physical and image measurements were taken using the NEIKO 01407A electronic digital caliper <ref type="bibr" target="#b29">[30]</ref> with units set to millimeters (mm). The digital caliper was calibrated with gauge blocks to confirm correctness of measurements. The resolution of the caliper was 0.01 mm. The resolution of the wound images was 250 x 250 pixels. Based on the pixel dimensions of the wound images, the resolution of the image measurements was 0.48 mm. The mesh resolution of the 3D scans was 0.5 mm. The mesh resolution is the distance between the vertices of the mesh and determines the resolution of the software measurements. For the physical measurements, we placed four Avkin simulated wounds on a table, as shown in Figure <ref type="figure" target="#fig_1">2A</ref>, and provided the caliper and Q-tips to measure the depth of the wounds. A webcam was positioned above the table to record participants as they measured the physical wounds. For the image measurements, we used color images of the wounds calibrated to account for camera distortions, and scaled them to their actual size. The images used for length, width, perimeter, and surface area were taken from a top-down view, and for depth, we took three images of each wound showing the inner edge of the wound from different angles. The images were printed onto standard white paper and placed on a desk for participants to measure with the caliper. A webcam was positioned on a tripod facing the desk to record participants as they measured the wound images. The setup for the image measurements is shown in Figure <ref type="figure" target="#fig_1">2B</ref>. For the software measurements, the setup consisted of a desktop computer, mouse, and speakers. The software measurements were recorded in centimeters. The software setup is shown in Figure <ref type="figure" target="#fig_1">2B</ref>. The wounds were positioned in the same orientation and presented in the same order for all measurement techniques.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Experiment Procedure</head><p>The procedure was approved by the NJIT Institutional Review Board. The study had a within-participant design. Before conducting the study, we received training from an expert clinician on the wound measurement techniques. Our instructions to participants were informed by our training.</p><p>Participants were asked to measure the length, width, depth, perimeter, and surface area of four simulated wounds using the physical, image, and software measurement techniques. Participants used the caliper to take the physical and image measurements. Since the caliper could not be used to directly measure perimeter and surface area, these measurements required some calculation. We instructed participants to use the calculation method they believed was most suitable for the measurement estimation (e.g., approximating the wound shape to a simpler geometric shape and applying equations). Before taking the wound measurements, participants confirmed that they understood the measurement technique. As participants measured the wounds, we watched to ensure that they were using the instrument correctly. If we noticed participants incorrectly using the instrument, we corrected them and ensured that their measurements were ultimately taken through correct use of the instrument. Participants' demographic and measurement data were collected through Google Forms <ref type="bibr" target="#b30">[31]</ref>. Participants accessed the online form on their cellphones using a QR code that we provided. Each participant submitted one measurement for the length, width, depth, perimeter, and surface area of each wound in each measurement technique, but they could take as many measurements as needed before submitting their final measurements. For all measurement techniques, participants were instructed to measure the length vertically and the width horizontally.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1) Physical Measurements</head><p>Participants watched as we showed them a live demonstration of how to use the caliper for measurements and the Qtip technique to measure the wound depth. Participants then proceeded to measure the length, width, depth, perimeter, and surface area of the physical wounds. Participants entered their measurements into the online form.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2) Image Measurements</head><p>Participants watched as we showed them a live demonstration of how to measure the wound images with the caliper. For the depth measurement, participants were given three images depicting the wound depth from different angles. We instructed participants to choose the image they perceived to best represent the depth of the wound and measure the wound depth from that image. Participants then proceeded to measure the length, width, depth, perimeter, and surface area of the wound images. Participants entered their measurements into the online form.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3) Software Measurements</head><p>Participants watched a short pre-recorded video that demonstrated how to use the software to measure the wounds. The first wound presented in the software was a practice wound to allow participants to gain familiarity with the software before measuring the four Avkin wounds. The practice wound was a physical simulated wound that we 3D scanned and imported into the software as we did with the Avkin wounds. Participants measured the length, width, depth, perimeter, and surface area of the practice wound and four Avkin wound 3D scans. Participants entered their measurements into the online form as they appeared in the software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Statistical Analysis</head><p>During the study, we asked participants to measure the length vertically and width horizontally. However, many participants measured the length and width in the reverse or diagonally. To reduce inconsistency within the data, we defined the length as the greater measurement and width as the lesser measurement. We classified the numerical measurements as length and width according to this definition. Participants' original length and width measurements for the software technique are shown in Figure <ref type="figure" target="#fig_2">3A</ref>, and the reclassified measurements are shown in Figure <ref type="figure" target="#fig_2">3B</ref>. Before statistical analysis was performed, we also converted the software measurements from centimeters to millimeters since the physical and image measurements were recorded in millimeters. From this data, we analyzed the inter-rater reliability of the measurement techniques and variability between the techniques. Inter-rater reliability is used to measure agreement between raters <ref type="bibr" target="#b31">[32]</ref>. High agreement between raters indicates that the measurement technique produces consistent results and is thus reliable. We analyzed inter-rater reliability as the absolute agreement, two-way mixed intra-class correlation coefficient (ICC) <ref type="bibr" target="#b32">[33]</ref>. We analyzed variability between measurement techniques by comparing values of length, width, depth, perimeter, and surface area for each wound using the Friedman test and subsequent Conover post hoc tests. The Friedman test is a nonparametric test equivalent to the repeated measures ANOVA test <ref type="bibr" target="#b33">[34]</ref>. We used a non-parametric test because the data were not normally distributed and therefore a parametric test is not recommended <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b35">36]</ref>. Standard error was calculated as σ √ n , where σ represents the standard deviation and n represents the number of samples (n = 18).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. Results</head><p>Descriptive statistics of the measurement data for the physical, image, and software measurement techniques are shown in Table <ref type="table">I</ref>. Standard deviation was used to evaluate precision of the techniques. The lowest standard deviation in length measurements of wounds 2, 3, and 4 was observed from the software technique, and of wound 1 from the image technique. The lowest standard deviation in width measurements of wounds 1, 2, and 4 was observed from the software technique, and of wound 3 from the image technique. The lowest standard deviation in depth measurements of wound 2 was observed from the software technique, and of wounds 1, 3, and 4   <ref type="table" target="#tab_1">II</ref>.</p><p>from the image technique. The lowest standard deviation in perimeter and surface area measurements of all wounds was observed from the software technique. Standard error values followed the same trend reported for standard deviation.</p><p>Inter-rater reliability. ICC values were greater than 0.8 for length, width, depth, perimeter, and surface area measurements for the physical, image, and software measurement techniques, indicating high reliability of all three techniques for all measurements. ICC values greater than 0.9 were observed for physical length, width, and depth measurements; for image length, width, perimeter, and surface area measurements; and for all software measurements. The highest ICC value observed was 0.99 for software length and surface area measurements. The lowest ICC values observed were 0.861, 0.866 and 0.883 for physical surface area, image depth, and physical perimeter, respectively. The inter-rater reliability results are shown in Figure <ref type="figure" target="#fig_3">4</ref> and Table <ref type="table" target="#tab_1">II</ref>.</p><p>Length variability. There were statistically significant (p &lt; 0.05) differences in length measurements between the  physical, image, and software measurement techniques for wounds 1, 2, 3, and 4. Pair-wise comparisons revealed statistically significant differences between the physical and image techniques for wounds 2, 3, and 4; between the physical and software techniques for wound 1; and between the image and software techniques for wounds 2 and 4. These results for the Friedman and Conover tests are shown in 5A and Table <ref type="table">I</ref>. Width variability. There were statistically significant differences in width measurements between the physical, image, and software measurement techniques for wounds 1, 2, 3, and 4. Pair-wise comparisons revealed statistically significant differences between the physical and image techniques for wounds 1, 2, 3, and 4; between the physical and software techniques for wounds 2, 3, and 4; and between the image and software techniques for wounds 2 and 4. These results for the Friedman and Conover tests are shown in 5B and Table <ref type="table">I</ref>.</p><p>Depth variability. There were statistically significant differences in depth measurements between the physical, image, and software measurement techniques for wounds 3 and 4. Pairwise comparisons revealed statistically significant differences between the physical and image techniques for wounds 3 and 4; between the physical and software techniques for wound 4; and between the image and software techniques for wound 3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>These results for the Friedman and Conover tests are shown in 5C and Table I.</head><p>Perimeter variability. There were statistically significant differences in perimeter measurements between the physical, image, and software measurement techniques for wounds 2, 3, and 4. Pair-wise comparisons revealed statistically significant differences between the physical and image techniques for wounds 1, 2, 3, and 4; between the physical and software techniques for wound 2; and between the image and software techniques for wound 4. These results for the Friedman and Conover tests are shown in 5D and Table <ref type="table">I</ref>.</p><p>Surface area variability. There were statistically significant differences in surface area measurements between the physical, image, and software measurement techniques for wounds 2, 3, and 4. Pair-wise comparisons revealed statistically significant differences between the physical and image techniques for wounds 2 and 4; between the physical and software techniques for wound 1, 2, 3, and 4; and between the image and software techniques for wounds 3 and 4. These results for the Friedman and Conover tests are shown in 5C and Table <ref type="table">I</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>G. Discussion</head><p>During our study, many participants misrepresented the length and width of the wounds despite instructions to measure the length vertically and width horizontally. Participants' inconsistent classifications of length and width suggest that measurement error may result from misunderstanding or lack of clear instruction. It is likely that clinical wound measurements are susceptible to the same errors; therefore, it is important that visual representations of clinicians' measurements are documented in patients' records and that measurements can be repeated if errors are found. Since physical measurements are performed directly on the patient, measurements cannot be repeated at a later point in time under the same conditions. Clinicians may retain the original image used for image measurements, but images are inherently prone to distortion and warping and do not accurately depict curved surfaces <ref type="bibr" target="#b36">[37]</ref>. Our 3D software maintains 3D models that accurately represent wound surface geometry and color, as well as visual indicators of the measured distances. The software measurements can also be repeated on the same 3D model as needed. In addition to the advantages of visualization and repeatability of measurements, our results suggest that the software may have greater reliability and reduced variability compared to physical and image measurement techniques.</p><p>Inter-rater reliability of measurement techniques. ICC values between 0.75 and 0.9 indicate good inter-rater reliability, and ICC values above 0.9 indicate excellent reliability <ref type="bibr" target="#b32">[33]</ref>. The ICC values for all measurement techniques suggested good and excellent reliability, however, the reliability of the software technique was consistently excellent for all measurements. Overall, the software supported greater inter-rater reliability compared to the physical and image measurement techniques. These results answer our first research question (Q1).</p><p>Inter-rater reliability of simple and complex measurements. Comparison of ICC values between measurements revealed a noticeable trend between simple measurements (i.e., length, width, depth) and complex measurements (i.e., perimeter, surface area). ICC values for simple measurements were excellent across all techniques except image depth, which yielded an ICC value of 0.866. The lower ICC value for image depth is unsurprising as depth information is difficult to represent in a 2D image. The reliability of the physical and image techniques was decreased for complex measurements compared to simple measurements, while the reliability of the software technique was increased for complex measurements compared to simple measurements. In the physical and image techniques, complex measurements cannot be measured directly and instead must be calculated through use of a geometric equation or other methods. Many participants reported in the survey that for the physical and image techniques, they calculated the perimeter and surface area by applying equations for circle circumference and area, respectively. The software, however, did not require any calculation as the complex measurements were computed automatically from participants' inputs. The software reduced variability in complex measurements compared to the physical and image techniques by automating the computation. These results suggest that the software is more reliable than the physical and image techniques for complex measurements. These results answer our second research question (Q2).</p><p>Variability between measurement techniques. When comparing measurement values between techniques, we found that there were significant differences, primarily between the physical and image techniques. In the physical technique, measurements were taken on the actual wounds in 3D space, while in the image technique, measurements were taken in flat 2D space. These results suggest that the loss of a dimension in 2D images affects the measurements. Despite the high inter-rater reliability of the physical and image measurement techniques, this variability suggests that the techniques are not equivalent. Inter-rater reliability for these techniques were likely high because the techniques were easy to use, but the reliability is not indicative of the techniques' accuracy. In fact, the occurrence of both high inter-rater reliability and variability between the techniques suggests that the techniques may be inherently susceptible to error. Since the focus of this study was on reliability, we have no further analysis on the accuracy of the measurement techniques, but we plan to investigate accuracy in future studies. Nevertheless, the variability between measurement techniques is concerning, and this variability may also exist in clinical practice. In clinical practice, physical and image measurement techniques are frequently used to monitor wound healing. Depending on which technique is used, the patient's healing trajectory may be interpreted differently and influence treatment decisions. To ensure that patients receive the most effective wound care, it is essential that measurement techniques are consistent. These results answer our third research question (Q3).</p><p>Accurate and consistent measurement of wounds can facilitate tracking the progress or deterioration of healing, allowing clinicians to assess the injury and evaluate the effectiveness of the treatment <ref type="bibr" target="#b8">[9]</ref>. Reducing the variability in measurements of wound size and characteristics (e.g., depth) may improve patient outcomes, reduce the injury's prevalence, and mitigate the associated morbidity, mortality, and costs to these occurrences.</p><p>The proposed technology has the potential to benefit patients, their families, and health systems. Moreover, this proposed technology may facilitate the recording and exchange of data between members of the team caring for patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. LIMITATIONS</head><p>Our study was limited by three factors. Firstly, the inconsistencies in participants' classifications of length and width forced us to define the measurements on different terms. In clinical practice, the length is defined as the greatest measurement along the patient's head-to-toe axis, and the width is the greatest measurement perpendicular to the length <ref type="bibr" target="#b8">[9]</ref>. By defining the length as the longest vertical measurement and width as the widest horizontal measurement, our definitions would have been consistent with those used by clinicians. Our reclassification of length as the larger measurement and width as the smaller measurement were still valid definitions of length and width, though not practiced by clinicians. The second limitation was that we did not have ground truth values to compare participants' measurements to and as a result, we were unable to assess the accuracy of the measurement techniques. The simulated wounds used in this study were handmade without any pre-defined dimensions. Any ground truth values would have been measured using one of the techniques evaluated in this study, and therefore may have biased our results. Although data pertaining to measurement accuracy may have enhanced our results, the lack of this data did not affect the findings reported in this paper. Lastly, participants of this study were not healthcare professionals and did not have a background in wound measurement. This was a pilot study intended to test the capability of the 3D wound software. We could have asked participants to measure any objects, but we used simulated wounds in anticipation of future studies that will involve healthcare professionals. We plan to compare these results to those we will obtain from healthcare professionals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. CONCLUSION</head><p>In this paper, we proposed a safe and reliable software capable of measuring wounds in 3D. We compared our 3D software to physical and 2D image measurement techniques commonly used in clinical practice. Inter-rater reliability was high for all techniques; however, measurements between the techniques differed significantly, indicating that the techniques did not produce equivalent measurements. Additionally, the software was more reliable than the physical and image techniques for computation of complex measurements. Based on these results, we recommend that clinicians consider software as an alternative to physical and image measurement techniques to reduce variability of wound measurements and ultimately deliver more effective wound treatment to patients.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. (A) Linear measurement of a 3D wound model. (B) Perimeter measurement of a 3D wound model. (C) Surface area of a 3D wound model calculated automatically using the perimeter as the wound boundary.</figDesc><graphic coords="2,317.03,56.07,240.94,79.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. (A) Setup of the Avkin simulated wounds for the physical measurement technique. (B) Setup of the wound images for the image measurement technique, and setup of the desktop computer for the software technique. The left monitor shows the view of the webcam recordings for each technique. The software interface is displayed on the middle monitor.</figDesc><graphic coords="3,317.03,56.07,240.95,218.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. (A) Participants' original length and width measurements recorded for the software technique. (B) Participants' length and width measurements for the software technique after reclassification. Length measurements are shown in green and width measurements are shown in yellow.</figDesc><graphic coords="4,317.03,315.95,240.95,165.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Inter-rater reliability of measurement techniques analyzed as ICC values. These data are shown in TableII.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Individual value plots showing the distribution of participants' physical, image, and software measurements of each wound for (A) length, (B) width, (C) depth, (D) perimeter, and (E) surface area. Error bars represent one standard error from the mean. These data are shown in Table I. (* p ≤ 0.05; ** p ≤ 0.01; *** p ≤ 0.001)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>This article has been accepted for publication in IEEE Open Journal of Instrumentation and Measurement. This is the author's version which has not been fully edited and content may change prior to final publication. Citation information: DOI 10.1109/OJIM.2022.3219471 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/ &gt; OJIM-22-00044 &lt;</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>RESULTS</head><label></label><figDesc>OF THE FRIEDMAN AND CONOVER TESTS EVALUATING VARIABILITY BETWEEN PHYSICAL (P), IMAGE (I), AND SOFTWARE (S) MEASUREMENT TECHNIQUES. DESCRIPTIVE DATA INCLUDE MEAN, STANDARD ERROR (SE), AND STANDARD DEVIATION (SD). UNITS FOR LENGTH, WIDTH, DEPTH, AND PERIMETER ARE IN MM, AND UNITS FOR SURFACE AREA ARE IN MM 2 . STATISTICALLY SIGNIFICANT P-VALUES (P ≤ 0.05) ARE IN BOLD TEXT. THESE RESULTS ARE GRAPHED IN FIGURE 5.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Physical</cell><cell></cell><cell>Image</cell><cell></cell><cell>Software</cell><cell></cell><cell></cell><cell cols="3">Conover post hoc</cell></row><row><cell></cell><cell>Wound</cell><cell>Mean ± SE</cell><cell></cell><cell>SD</cell><cell>Mean ± SE</cell><cell>SD</cell><cell>Mean ± SE</cell><cell>SD</cell><cell>Friedman</cell><cell>P vs. I</cell><cell>P vs. S</cell><cell>I vs. S</cell></row><row><cell></cell><cell>1</cell><cell cols="2">51.10 ± 1.11</cell><cell>4.73</cell><cell>52.39 ± 0.74</cell><cell>3.16</cell><cell>53.49 ± 0.88</cell><cell>3.75</cell><cell>0.042</cell><cell>0.143</cell><cell>0.017</cell><cell>0.324</cell></row><row><cell>Length</cell><cell>2 3</cell><cell cols="2">71.52 ± 1.02 94.36 ± 1.49</cell><cell>4.31 6.30</cell><cell>77.70 ± 0.54 100.60 ± 1.20</cell><cell>2.29 5.08</cell><cell>73.83 ± 0.36 97.29 ± 1.02</cell><cell>1.54 4.35</cell><cell>&lt; .001 &lt; .001</cell><cell>&lt; .001 &lt; .001</cell><cell>0.251 0.054</cell><cell>&lt; .001 0.054</cell></row><row><cell></cell><cell>4</cell><cell cols="2">60.89 ± 0.84</cell><cell>3.57</cell><cell>68.55 ± 0.74</cell><cell>3.14</cell><cell>60.57 ± 0.49</cell><cell>2.07</cell><cell>&lt; .001</cell><cell>&lt; .001</cell><cell>0.741</cell><cell>&lt; .001</cell></row><row><cell></cell><cell>1</cell><cell cols="2">46.35 ± 0.92</cell><cell>3.91</cell><cell>49.23 ± 0.84</cell><cell>3.55</cell><cell>48.67 ± 0.79</cell><cell>3.35</cell><cell>0.002</cell><cell>0.002</cell><cell>0.020</cell><cell>0.362</cell></row><row><cell>Width</cell><cell>2 3</cell><cell cols="2">67.48 ± 0.96 63.60 ± 1.22</cell><cell>4.05 5.18</cell><cell>74.45 ± 0.90 69.88 ± 0.73</cell><cell>3.82 3.09</cell><cell>69.72 ± 0.31 64.55 ± 2.68</cell><cell>1.30 11.39</cell><cell>&lt; .001 &lt; .001</cell><cell>&lt; .001 &lt; .001</cell><cell>0.105 0.012</cell><cell>0.003 0.012</cell></row><row><cell></cell><cell>4</cell><cell cols="2">57.39 ± 1.13</cell><cell>4.78</cell><cell>65.24 ± 0.75</cell><cell>3.18</cell><cell>58.17 ± 0.72</cell><cell>3.04</cell><cell>&lt; .001</cell><cell>&lt; .001</cell><cell>0.620</cell><cell>&lt; .001</cell></row><row><cell></cell><cell>1</cell><cell cols="2">13.54 ± 1.00</cell><cell>4.26</cell><cell>13.94 ± 0.96</cell><cell>4.09</cell><cell>13.73 ± 1.18</cell><cell>4.99</cell><cell>0.211</cell><cell>0.191</cell><cell>0.741</cell><cell>0.105</cell></row><row><cell>Depth</cell><cell>2 3</cell><cell cols="2">20.13 ± 1.77 30.06 ± 1.54</cell><cell>7.50 6.52</cell><cell>20.12 ± 2.05 20.96 ± 0.74</cell><cell>8.71 3.15</cell><cell>17.90 ± 1.96 32.09 ± 2.48</cell><cell>8.31 10.54</cell><cell>0.115 &lt; .001</cell><cell>0.620 &lt; .001</cell><cell>0.054 0.410</cell><cell>0.143 &lt; .001</cell></row><row><cell></cell><cell>4</cell><cell cols="2">25.82 ± 1.66</cell><cell>7.05</cell><cell>20.36 ± 0.72</cell><cell>3.04</cell><cell>21.09 ± 0.98</cell><cell>4.18</cell><cell>0.006</cell><cell>0.012</cell><cell>0.008</cell><cell>0.869</cell></row><row><cell>Perimeter</cell><cell>1 2 3 4</cell><cell cols="2">152.95 ± 13.61 203.11 ± 11.26 238.35 ± 15.30 188.81 ± 9.32</cell><cell>57.76 47.77 64.90 39.54</cell><cell>162.18 ± 8.61 226.73 ± 12.13 258.03 ± 15.73 208.77 ± 12.43</cell><cell>36.54 51.46 66.74 52.72</cell><cell>160.25 ± 0.75 229.48 ± 2.51 257.81 ± 2.37 198.76 ± 1.52</cell><cell>3.18 10.67 10.06 6.47</cell><cell>0.078 &lt; .001 0.042 0.003</cell><cell>0.036 &lt; .001 0.017 0.002</cell><cell>0.120 0.017 0.143 0.251</cell><cell>0.561 0.143 0.324 0.037</cell></row><row><cell>Surface area</cell><cell>1 2 3 4</cell><cell cols="7">2389.23 ± 532.35 2258.59 2102.95 ± 153.99 3593.45 ± 262.23 1112.55 4493.91 ± 471.90 2002.10 653.34 5950.36 ± 905.50 3841.71 5904.89 ± 635.13 2694.64 3349.20 ± 413.07 1752.49 4250.97 ± 452.97 1921.78 6219.16 ± 108.94 462.17 2163.67 ± 25.90 109.88 4892.76 ± 24.29 103.06 7986.66 ± 52.67 223.44</cell><cell>0.066 &lt; .001 &lt; .001 &lt; .001</cell><cell>0.076 0.017 0.191 0.017</cell><cell>0.037 &lt; .001 &lt; .001 &lt; .001</cell><cell>0.741 0.143 0.008 0.030</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>TABLE I</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="3">ICC values</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Measurement</cell><cell cols="3">Physical Image Software</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Length</cell><cell>0.996</cell><cell>0.998</cell><cell>0.999</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Width</cell><cell>0.987</cell><cell>0.995</cell><cell>0.975</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Depth</cell><cell>0.956</cell><cell>0.866</cell><cell>0.951</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Perimeter</cell><cell>0.883</cell><cell>0.910</cell><cell>0.998</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Surface area</cell><cell>0.861</cell><cell>0.918</cell><cell>0.999</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE II INTER</head><label>II</label><figDesc>-RATER RELIABILITY OF MEASUREMENT TECHNIQUES ANALYZED AS ICC VALUES. ALL COMPARISONS HAVE A P-VALUE OF &lt; .001. THESE RESULTS ARE DEPICTED AS A KIVIAT DIAGRAM IN FIGURE 4.</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>This article has been accepted for publication in IEEE Open Journal of Instrumentation and Measurement. This is the author's version which has not been fully edited and content may change prior to final publication. Citation information: DOI 10.1109/OJIM.2022.3219471 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>. Acknowledgment: This project has been partially funded by a grant from the <rs type="funder">New Jersey Health Foundation</rs>, and partially by the <rs type="institution">New Jersey Institute of Technology through PhD student Dahlia Musa</rs>. We thank <rs type="person">Avkin</rs> for loaning us the</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>&gt; OJIM-22-00044 &lt;</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,333.56,273.15,229.48,8.64;7,333.56,285.10,229.48,8.64;7,333.56,296.89,229.48,8.81;7,333.56,309.01,229.48,8.64;7,333.56,320.97,229.48,8.64;7,333.56,332.92,229.48,8.64;7,333.56,344.71,229.48,8.81;7,333.56,356.83,59.40,8.64" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The management of diabetic foot: a clinical practice guideline by the society for vascular surgery in collaboration with the american podiatric medical association and the society for vascular medicine</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hingorani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Lamuraglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Meissner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Loretz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Zinszer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Driver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Frykberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Carman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Marston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of vascular surgery</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="3S" to="21" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,333.56,368.79,229.48,8.64;7,333.56,380.74,229.48,8.64;7,333.56,392.53,229.48,8.81;7,333.56,404.65,43.34,8.64" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Healing chronic wounds: Current challenges and potential solutions</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Darwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tomic-Canic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Current Dermatology Reports</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="296" to="302" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,333.56,416.61,229.48,8.64;7,333.56,428.39,229.48,8.81;7,333.56,440.52,140.55,8.64" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chronic wound infection: Facts and controversies</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Siddiqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bernstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clinics in dermatology</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="519" to="526" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,333.56,452.47,229.48,8.64;7,333.56,464.43,47.19,8.64;7,399.73,464.43,33.20,8.64;7,451.90,464.43,23.79,8.64;7,494.66,464.43,7.75,8.64;7,521.39,464.43,41.64,8.64;7,333.56,476.38,213.90,8.64;7,333.56,488.34,229.48,8.64;7,333.56,500.29,51.20,8.64" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Preventing pressure ulcers in hospitals</title>
+		<ptr target="https://www.ahrq.gov/patient-safety/settings/hospital/resource/pressureulcer/tool/index.html" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<publisher>Agency for Healthcare Research and Quality</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,333.56,512.25,229.48,8.64;7,333.56,524.20,229.48,8.64;7,333.56,536.16,229.48,8.64;7,333.56,547.95,229.48,8.81;7,333.56,559.90,222.83,8.81" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The incidence of pressure ulcers and its associations in different wards of the hospital: A systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Borojeny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Albatineh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Dehkordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Gheshlagh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Preventive Medicine</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">171</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,333.56,572.03,229.48,8.64;7,333.56,583.98,197.43,8.64;7,333.56,595.94,229.48,8.64;7,333.56,607.89,64.65,8.64" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Institute for Healthcare Improvement</title>
+		<ptr target="http://www.ihi.org/Engage/Initiatives/Completed/5MillionLivesCampaign/Pages/default.aspx" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,333.56,619.85,229.48,8.64;7,333.56,631.63,86.09,8.58" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Pressure injury</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mondragon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Zito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">StatPearls</title>
+		<imprint/>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct coords="7,333.56,653.54,229.48,10.81;7,333.56,667.67,229.48,8.64;7,333.56,679.45,229.48,8.81;7,333.56,691.41,178.54,8.81" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A comparison of 3 wound measurement techniques: Effects of pressure ulcer size and shape</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bilgin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ü</forename><forename type="middle">Y</forename><surname>Günes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wound Ostomy &amp; Continence Nursing</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="590" to="593" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,333.56,703.53,229.48,8.64;7,333.56,715.32,229.48,8.81;7,333.56,727.44,22.42,8.64" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Wound assessment part 1: How to measure a wound</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nichols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Essentials</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="51" to="55" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,333.56,739.40,229.48,8.64;8,70.54,57.95,229.48,8.64;8,70.54,69.91,229.48,8.64;8,70.54,81.69,229.48,8.81;8,70.54,93.65,168.57,8.81" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Digital planimetry results in more accurate wound measurements: a comparison to standard ruler measurements</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bevilacqua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Diabetes Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="799" to="802" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,105.77,229.48,8.64;8,70.54,117.56,229.48,8.81;8,70.54,129.51,229.48,8.81;8,70.54,141.64,73.22,8.64" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Wound surface area measurement methods</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ciechanowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ladyzynski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biocybernetics and Biomedical Engineering</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1454" to="1465" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,153.59,229.48,8.64;8,70.54,165.55,35.25,8.64;8,124.49,165.55,8.30,8.64;8,151.50,165.55,18.26,8.64;8,188.46,165.55,27.02,8.64;8,234.18,165.55,65.84,8.64;8,70.54,177.50,185.14,8.64;8,70.54,189.46,186.52,8.64;8,70.54,201.41,109.07,8.64" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">How can you improve the accuracy of your wound measurements</title>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<ptr target="https://www.aranzmedical.com/uncategorized/can-improve-accuracy-wound-measurements/" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,213.37,229.48,8.64;8,70.54,225.33,64.65,8.64" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">ImageJ</title>
+		<author>
+			<persName><surname>Imagej</surname></persName>
+		</author>
+		<ptr target="https://imagej.nih.gov/ij/" />
+		<imprint>
+			<date type="published" when="2022">03/30/2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,237.11,229.48,8.81;8,70.54,249.24,229.48,8.64;8,70.54,261.02,229.48,8.81;8,70.54,273.15,64.26,8.64" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Wound area measurement with 3d transformation and smartphone images</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,285.10,229.48,8.64;8,70.54,297.06,229.48,8.64;8,70.54,309.01,229.48,8.64;8,70.54,320.80,229.48,8.81;8,70.54,332.75,150.61,8.81" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Documentation and analysis of traumatic injuries in clinical forensic medicine involving structured light three-dimensional surface scanning versus photography</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shamata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of forensic and legal medicine</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="93" to="100" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,344.88,229.48,8.64;8,70.54,356.83,229.48,8.64;8,70.54,368.79,229.48,8.64;8,70.54,380.57,229.48,8.81;8,70.54,392.70,130.59,8.64" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Sfm-3dulc: Reliability of a new 3d wound measurement procedure and its accuracy in projected area</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sánchez-Jiménez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Buchón-Moragues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Escutia-Muñoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Botella-Estrada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Wound Journal</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="44" to="51" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,404.65,229.48,8.64;8,70.54,416.61,229.48,8.64;8,70.54,428.39,229.48,8.81;8,70.54,440.35,105.91,8.81" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Measuring surface area of skin lesions with 2d and 3d algorithms</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Mirzaalian</forename><surname>Dastjerdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Töpfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Rupitsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Biomedical Imaging</title>
+		<imprint>
+			<biblScope unit="volume">2019</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,452.47,229.48,8.64;8,70.54,464.43,229.48,8.64;8,70.54,476.22,229.48,8.81;8,70.54,488.17,229.48,8.58;8,70.54,500.29,79.20,8.64" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Accurate chronic wound area measurement using structure from motion</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M C</forename><surname>Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Gomes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2020 IEEE 33rd International Symposium on Computer-Based Medical Systems (CBMS)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="208" to="213" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,512.25,229.48,8.64;8,70.54,524.20,229.48,8.64;8,70.54,536.16,229.48,8.64;8,70.54,547.95,229.48,8.81;8,70.54,560.07,130.59,8.64" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">An integrated hardware and software application to support wound measurement using a 3d scanner and image processing techniques</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tassanavipas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Natsupakpong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Open Biomedical Engineering Journal</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="73" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,572.03,229.48,8.64;8,70.54,583.98,229.48,8.64;8,70.54,595.94,229.48,8.64;8,70.54,607.72,229.48,8.81;8,70.54,619.68,229.48,8.58;8,70.54,631.63,229.48,8.81;8,70.54,643.76,22.42,8.64" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Volumetric monitoring of cutaneous leishmaniasis ulcers: Can camera be as accurate as laser scanner?</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zenteno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Valencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Castaneda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Llanos-Cuentas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computer Methods in Biomechanics and Biomedical Engineering: Imaging &amp; Visualization</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page" from="667" to="675" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,655.71,229.48,8.64;8,70.54,667.67,229.48,8.64;8,70.54,679.62,229.48,8.64;8,70.54,691.58,229.48,8.64;8,70.54,703.36,229.48,8.81;8,70.54,715.49,140.55,8.64" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Monitoring wound healing of diabetic foot ulcers using two-dimensional and three-dimensional wound measurement techniques: A prospective cohort study</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Jørgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Halekoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Jemec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sørensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Yderstraede</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="553" to="563" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,70.54,727.44,229.48,8.64;8,70.54,739.40,229.48,8.64;8,333.56,57.78,229.48,8.81;8,333.56,69.74,229.48,8.58;8,333.56,81.69,229.48,8.81;8,333.56,93.82,102.88,8.64" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The impact of the wound shape on wound healing dynamics: Is it time to revisit wound healing measures</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Saiko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 14th International Joint Conference on Biomedical Engineering Systems and Technologies (BIOSTEC 2021)</title>
+		<meeting>the 14th International Joint Conference on Biomedical Engineering Systems and Technologies (BIOSTEC 2021)</meeting>
+		<imprint>
+			<publisher>BIOIMAG-ING</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="182" to="187" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,105.77,229.48,8.64;8,333.56,117.73,214.06,8.64" xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Unity real-time development platform</title>
+		<ptr target="https://unity.com/" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>Unity Technologies</note>
+</biblStruct>
+
+<biblStruct coords="8,333.56,129.68,229.48,8.64;8,333.56,141.64,229.48,8.64;8,333.56,153.59,51.20,8.64" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Glossary -euclidean distance</title>
+		<author>
+			<persName><forename type="first">Rosalind</forename></persName>
+		</author>
+		<ptr target="https://rosalind.info/glossary/euclidean-distance/" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,165.55,229.48,8.64;8,333.56,177.51,201.72,8.64;8,333.56,189.46,170.67,8.64" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Unity Technologies</title>
+		<ptr target="https://docs.unity3d.com/ScriptReference/Vector3.Distance.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Scripting API: Vector3.Distance</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,201.42,229.48,8.64;8,333.56,213.37,211.99,8.64;8,333.56,225.33,109.07,8.64" xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Scantech</surname></persName>
+		</author>
+		<ptr target="https://www.3d-scantech.com/product/ireal-2e-color-3d-scanner/" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>ireal 2e 3d body scanner</note>
+</biblStruct>
+
+<biblStruct coords="8,333.56,237.28,229.48,8.64;8,333.56,249.24,213.00,8.64" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Maya software</title>
+		<author>
+			<persName><surname>Autodesk</surname></persName>
+		</author>
+		<ptr target="https://www.autodesk.com/products/maya/overview" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,261.19,229.48,8.64;8,333.56,273.15,226.33,8.64" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Wound care simulation</title>
+		<author>
+			<persName><surname>Avkin</surname></persName>
+		</author>
+		<ptr target="https://avkin.com/avwound-wound-simulator/" />
+		<imprint>
+			<date type="published" when="2022">05/30/2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,285.10,40.68,8.64;8,392.25,285.10,38.72,8.64;8,448.99,285.10,12.17,8.64;8,479.18,285.10,32.65,8.64;8,529.84,285.10,33.20,8.64;8,333.56,297.06,14.84,8.64;8,374.69,297.06,30.58,8.64;8,431.56,297.06,131.48,8.64;8,333.56,309.01,179.64,8.64;8,333.56,320.97,162.66,8.64;8,333.56,332.92,251.38,8.64;8,333.56,344.88,133.32,8.64" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Measure the distance between two points</title>
+		<author>
+			<persName><surname>Autodesk</surname></persName>
+		</author>
+		<ptr target="https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-FBCD868D-4BFB-4C1F-8A2F-9DAF64E46A8E-htm.html" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,356.83,229.48,8.64;8,333.56,368.79,229.48,8.64" xml:id="b29">
+	<monogr>
+		<author>
+			<persName><surname>Neiko</surname></persName>
+		</author>
+		<ptr target="https://tinyurl.com/y5dcdv9n" />
+		<title level="m">NEIKO 01407A electronic digital caliper</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,380.74,229.48,8.64;8,333.56,392.70,229.48,8.64;8,333.56,404.65,51.20,8.64" xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Google forms: Online form creator</title>
+		<author>
+			<persName><surname>Google</surname></persName>
+		</author>
+		<ptr target="https://www.google.com/forms/about/" />
+		<imprint>
+			<date type="published" when="2022">05/30/2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,416.61,229.48,8.64;8,333.56,428.39,229.48,8.81;8,333.56,440.35,229.48,8.81;8,333.56,452.47,49.31,8.64" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Computing inter-rater reliability for observational data: An overview and tutorial</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Hallgren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Tutorials in quantitative methods for psychology</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,464.43,229.48,8.64;8,333.56,476.38,229.48,8.64;8,333.56,488.17,229.48,8.81;8,333.56,500.29,106.10,8.64" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A guideline of selecting and reporting intraclass correlation coefficients for reliability research</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Koo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of chiropractic medicine</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="163" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,512.25,229.48,8.64;8,333.56,524.04,229.48,8.81;8,333.56,536.16,115.65,8.64" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Basic statistical tools in research and data analysis</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Bhaskar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indian journal of anaesthesia</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">662</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,548.12,229.48,8.64;8,333.56,559.90,229.48,8.81;8,333.56,572.03,140.55,8.64" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Treating ordinal scales as interval scales: An attempt to resolve the controversy</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Knapp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nursing research</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="121" to="123" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,583.98,229.48,8.64;8,333.56,595.77,229.48,8.81;8,333.56,607.72,176.50,8.81" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The seven deadly sins of statistical analysis</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kuzon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Urbanchek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mccabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of plastic surgery</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="265" to="272" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,333.56,619.85,229.48,8.64;8,333.56,631.80,229.48,8.64;8,333.56,643.59,212.75,8.81" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A new smartphone-based method for wound area measurement</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ladyzynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wojcicki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial organs</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="346" to="352" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

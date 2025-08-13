@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Point-of-care wound visioning technology: Reproducibility and accuracy of a wound measurement app</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017-08-17">August 17, 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Sheila</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+							<email>sheila.wang@mail.mcgill.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Division of Dermatology</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">A E</forename><surname>Anderson</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">York University</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robyn</forename><surname>Evans</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Wound Care Centre, Women&apos;s College Hospital</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><surname>Woo</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Nursing</orgName>
+								<orgName type="institution">Queen&apos;s University</orgName>
+								<address>
+									<settlement>Kingston</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamin</forename><surname>Beland</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Faculty of Medicine</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Denis</forename><surname>Sasseville</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Division of Dermatology</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Linda</forename><surname>Moreau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Division of Dermatology</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">IDI</orgName>
+								<address>
+									<settlement>Immacolata</settlement>
+									<country key="IT">ITALY</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Point-of-care wound visioning technology: Reproducibility and accuracy of a wound measurement app</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-08-17">August 17, 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0AF502FF70CD6CD7F939BDB6FD48D2AC</idno>
+					<idno type="DOI">10.1371/journal.pone.0183139</idno>
+					<note type="submission">Received: May 17, 2016 Accepted: July 31, 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Current wound assessment practices are lacking on several measures. For example, the most common method for measuring wound size is using a ruler, which has been demonstrated to be crude and inaccurate. An increase in periwound temperature is a classic sign of infection but skin temperature is not always measured during wound assessments. To address this, we have developed a smartphone application that enables non-contact wound surface area and temperature measurements. Here we evaluate the inter-rater reliability and accuracy of this novel point-of-care wound assessment tool.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods and findings</head><p>The wounds of 87 patients were measured using the Swift Wound app and a ruler. The skin surface temperature of 37 patients was also measured using an infrared FLIR™ camera integrated with the Swift Wound app and using the clinically accepted reference thermometer Exergen DermaTemp 1001. Accuracy measurements were determined by assessing differences in surface area measurements of 15 plastic wounds between a digital planimeter of known accuracy and the Swift Wound app. To evaluate the impact of training on the reproducibility of the Swift Wound app measurements, three novice raters with no wound care training, measured the length, width and area of 12 plastic model wounds using the app. High inter-rater reliabilities (ICC = 0.97-1.00) and high accuracies were obtained using the Swift Wound app across raters of different levels of training in wound care. The ruler method also yielded reliable wound measurements (ICC = 0.92-0.97), albeit lower than that of the Swift Wound app. Furthermore, there was no statistical difference between the temperature differences measured using the infrared camera and the clinically tested reference thermometer.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Wound measurement is important not only as a means for monitoring wound progression but also for predicting wound healing. Clinical studies have shown that when healing normally, a wound's area should be 20-40% smaller after 2-4 weeks of treatment <ref type="bibr" target="#b0">[1]</ref>. Problematic wounds which take longer to heal need to be identified at the earliest possible stage because delays increase the difficulty of treatment and healing <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. The most common method for measuring wounds is the ruler-based method, which measures longest length head-to-toe and longest perpendicular width side-to-side <ref type="bibr" target="#b3">[4]</ref>. This method has been shown to overestimate wound area by at least 44% <ref type="bibr" target="#b4">[5]</ref>, especially for wounds with irregular shapes or those that curve around the body <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. Measuring wounds using digital photography is more accurate than the ruler method <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>. However, calculating wound area by tracing the wound edge from an uploaded digital photo on a computer is more time-consuming and costly than the ruler method; the costs of setting up and maintaining digital photographic management systems range from $2000-$4000 USD, not including the personnel to take the digital photographs, analyse the images and organize the files <ref type="bibr" target="#b7">[8]</ref>. Therefore, this process is often impractical in clinical settings. More recently, wound measurement devices with custom software have been developed for computerized photogrammetry and three-dimensional imaging. These include hand-held devices and larger stereo photographic systems equipped with multiple cameras and projection units with up-front costs ranging from $800 to $5000 USD and the need for a trained operator <ref type="bibr" target="#b8">[9]</ref>.</p><p>Recent technological advances in smartphone applications have opened up new solutions to the infrastructure and cost barriers. Smartphones are ubiquitous, user-friendly and come already equipped with increasingly high-resolution cameras. Building software that capitalizes on existing smartphone hardware allows users to capture reliable, objective, noninvasive wound images and parameters that contribute to better wound assessment and management.</p><p>This study measured the length, width and surface area of 45 patient wounds by three different expert raters at the Wound Care Centre at the Women's College Hospital (Toronto, Canada) using a smartphone application called Swift Wound and developed by Swift Medical. Here, we measure the inter-rater reliability of this tool. In addition, two expert raters using the ruler method measured the wounds of another cohort of 42 patients and an interrater reliability for this method was also calculated. We also investigated whether expertise in wound care affected variations in wound measurements. To test this, we recruited three non-expert raters with no wound care training, who then measured the length, width and area of 12 plastic model wounds. The inter-rater reliability of these measurements was evaluated. In addition, accuracy measurements were determined by comparing the Swift Wound app to a digital planimeter of a known accuracy on 15 photos of plastic model wounds. Finally, given the growing body of literature supporting the use of patient home monitoring with infrared thermometers <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>, as well as a recent study by Fierheller and Sibbald that demonstrated the relationship between increased periwound skin temperature by more than 2˚F and local wound infection <ref type="bibr" target="#b15">[16]</ref>, an infrared FLIR™ camera was also integrated into the Swift Wound app and temperature measurements were compared to that of the clinically accepted reference thermometer Exergen DermaTemp 1001, which has been utilized in several peer-reviewed studies <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>, to determine if an infrared camera attached to a mobile phone can detect localized increases in skin surface temperature comparable to scientific grade instruments. Kanazawa et al. have demonstrated high inter-rater and intra-rater reliabilities when obtaining thermal images in a clinical setting using the FLIR™ camera attached to a smartphone <ref type="bibr" target="#b16">[17]</ref>.</p><p>With the Swift Wound app, clinicians can deploy highly reliable and accurate detailed wound photography and thermal imaging in non-subjective assessments at the point-of-care using their smartphone; here we have effectively brought the accuracy and inter-rater reliability of proprietary medical imaging technology to the ubiquitous smartphone.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Swift Wound technology</head><p>The Swift mobile app is a medical device that photographs and documents the progression of wound healing over time. The app runs on Apple 1 iPhone devices with iOS version 8 and above, and includes functions for capture, measurement, documentation, and review of external wounds. All patient data is held secure and encrypted. The Swift Wound app is both HIPPA (Health Insurance Portability and Accountability Act of 1996 U.S.) and PHIPPA (Personal Health Information Protection Act of 2004, Canada) compliant.</p><p>For this study, iPhone 6 devices running iOS version 8.4 were used. Swift also interfaces with off-the-shelf thermal cameras, such as the FLIR One™ device, to simultaneously capture far-infrared thermal images of a wound, allowing the practitioner to evaluate average absolute temperatures and temperature differences within and around the wound. The FLIR One™ camera captures low-resolution thermal images that can be used to compute aggregate temperature statistics. The FLIR One™ device was used in this study for all thermal images and data.</p><p>To measure and assess a wound, practitioners affix one of Swift's small 1 cm diameter HealX™ adhesive reference marker next to the wound prior to capturing the image. The marker serves as a scale and color reference in images taken of the wound. The practitioner identifies the wound margin on the image, and the true area (cm 2 ), and length and width (cm) are computed. The practitioner can opt to compute using the longest length and longest perpendicular width, or a user-selected length orientation (e.g. toward the head) and longest perpendicular width. The practitioner can annotate the wound image with wound depth, and the location and size of any tunneling and undermining (Fig <ref type="figure" target="#fig_0">1</ref>).</p><p>The Swift Wound app allows practitioners to review a historical timeline of images for a given patient and wound, observing directly the wound's progression over time, as well as see objectively the orientation and location of the wound margin (and length and width) used in prior images; aiding the acquisition of consistently captured images. This capability was not used as part of this study as the raters were blinded to each other's measurements, to ensure accurate evaluation of inter-rater reliability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Swift Wound app measurements</head><p>The Swift Wound app was developed in collaboration with the author (SCW) to optimize its clinical utility. To determine the inter-rater reliability of the smartphone application (Swift Wound app), each rater independently measured the length, width and surface area of 45 wounds on separate smartphone devices using the Swift Wound app. To calibrate wound size and colour, raters placed a HealX™ reference marker on the skin next to the wound and took a photo of it with the Swift Wound app. Photos were taken from a distance of 20 cm to 30 cm, and perpendicular to the wound surface to the extent practical, in accordance with instructions provided with the Swift Wound app. Raters then loosely traced the wound directly on the digital photo with their finger. The Swift software identifies the wound edges automatically based on colour models and energy minimization methods, however computer-assisted identification of wound edges may not correlate with how the rater would define the wound's edge. Therefore, the decision to accept the software's identification of wound edges or to make manual adjustments to the wound perimeter was left up to the rater as this best reflects how users will interact with the app. The Swift software then, based on the identified wound perimeter, automatically calculates the maximum vertical length and maximum horizontal width, (perpendicular to length), as well as the true area of the wound (Fig <ref type="figure" target="#fig_0">1</ref>) by digital planimetry methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Expert measurements</head><p>A total of 124 patients attending the Wound Care Centre at Women's College Hospital (Toronto, Canada) participated in this study. All the patients were receiving treatment for the management of chronic wounds related to diabetes (such as diabetic foot ulcers), venous insufficiency and pressure ulcers. Written informed consent was obtained from each patient participant and the signed consent forms were stored. The Research Ethics Board of Women's College Hospital approved this consent procedure. This study protocol conformed to the ethical guidelines of the 1975 Declaration of Helsinki as reflected in approval by the Research Ethics Board of Women's College Hospital.</p><p>Three expert raters in clinical wound care were assigned to measure 45 wounds using the smartphone application. These included one physician, one medical student and one nurse. Two additional expert raters, who were nurses, measured an additional 42 wounds using the ruler method. The five raters for this each had between 4-10 years of experience in wound management at the Wound Care Clinic at Women's College Hospital (Toronto, Canada). Extended visit times and patient discomfort were limited by replicating app and ruler measurements in separate groups of patients. Measurements were made after the wound had been cleansed and debrided and were recorded before the next rater repeated the measurement. All raters were blinded to each other's assessments. Only patients with a single wound were included in this study to ensure that raters measured the same wound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ruler measurements</head><p>To assess the inter-rater reliability of the ruler method, 2 nurses, each with over 10 years of experience in wound care, measured what they perceived to be the longest length (head-totoe) and longest perpendicular width (side-to-side) of 42 wounds using a disposable 17-cm paper ruler placed directly on the patient's skin. Each rater was provided a separate table to record the length and width of the wounds. Wounds larger than 17 cm in either dimension were excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Non-expert measurements</head><p>We sought to determine the inter-rater reliability of the Swift Wound app measurements taken by wound-care novices (non-experts), who are familiar with the Swift Wound app. We recruited three non-expert raters who measured the maximum length, width and surface area of 12 different plastic wounds (Pressure Injury Staging Model™, VATA Inc., Canby, U.S.A.) using the Swift Wound app, as described above. Inter-rater reliability measurements were then calculated for this data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accuracy of smartphone application surface area measurements</head><p>To assess the accuracy of the Swift Wound app, it was used to calculate the area of 15 photos of plastic wounds, with clearly defined margins and surface areas up to 60 cm 2 , taken from wound models (Pressure Inury Staging Model™, Wilma Wound Foot™ and Seymour II™ Wound Care Model, VATA Inc., Canby, U.S.A.), this process was repeated three times. Each wound edge was also traced three times with the tip of a digital planimeter (Placom KP-90N, Koizumi Sokki Mfg.Co.Ltdl, Nagaoka-Shi, Japan) and a numeric display on the planimeter gave a direct read-out of the plane area enclosed by the ulcer tracing. The planimeter has an accuracy of ±0.2% and a resolution of 0.1 cm 2 . We used a 2 (app vs planimeter) x 3 (epoch) mixed ANOVA with epoch serving as the repeated measure to calculate whether measurements were a) stable across episodes within technique, and b) differed by technique. A significant interaction term would indicate that one technique became more or less reliable with repeated measurements than the other.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Temperature measurements</head><p>To assess the performance of the Swift Wound app for measuring surface skin temperatures compared to the clinically accepted reference thermometer Exergen DermaTemp 1001, the difference measured between the wound temperature and the contralateral limb temperature for both the Swift Wound app/FLIR 1 infrared camera and a standard temperature probe. One rater measured 37 wounds and contralateral limbs using both techniques and the differences in temperature were compared using a paired samples t-test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Reliability was determined using intraclass correlation coefficients (ICC) calculated with the psych package in R (R Core Team, 2015; Revelle &amp; Revelle, 2015) <ref type="bibr" target="#b17">[18]</ref>. Internal reliability was interpreted to be excellent for ICCs = 0.80-1.00. Accuracy measurements were determined by assessing differences in surface area measurements of photos of plastic wounds between planimetry of a known accuracy and the Swift Wound app using a 2 (app, planimeter) x 3 (measurement 1, measurement 2, measurement 3) mixed ANOVA with measure repeated within assessor. Temperature differences between the periwound on one limb and the contralateral limb measured using the FLIR 1 infrared camera/Swift Wound app and the clinically accepted reference thermometer were compared using a paired samples t-test to determine whether a difference existed between the two methods. All data available as supporting information (S1 Raw data).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inter-rater reliabilities of the app exceed ruler measurements</head><p>High inter-rater reliabilities were observed using the Swift Wound app across all wound sizes ranging from 0.2 cm 2 to 60 cm 2 (ICCs = 0.98, 0.97 and 1.00 for length, width and surface area measurements respectively, Table <ref type="table" target="#tab_0">1</ref> and<ref type="table">Fig 2)</ref>. The greatest agreement was observed in calculating the surface area of wounds (ICC = 1.00, 95% CI = 0.99-1.00, Table <ref type="table" target="#tab_0">1</ref> and<ref type="table">Fig 2)</ref>. Lower reliability coefficients were observed when using the ruler method to measure perceived maximum length and width (ICCs = 0.92, 95% CI = 0.86-0.96 and 0.97, 95% CI = 0.95-0.99 for length and width measurements respectively, Table <ref type="table" target="#tab_0">1</ref> and<ref type="table">Fig</ref>  <ref type="bibr" target="#b2">3)</ref> in 42 wounds with lengths and widths ranging from 0.2-14.7 cm and 0.2-9.6 cm respectively.</p><p>Non-expert inter-rater reliabilities of wound measurements using the Swift Wound app are high. High inter-rater reliabilities were observed across all measurements of length, width and surface area (ICCs = 0.99, 95% CI = 0.99-1.00, Table <ref type="table" target="#tab_0">1</ref> and<ref type="table">Fig</ref>  <ref type="bibr" target="#b3">4)</ref>, similar to the high reliability coefficients observed in app measurements of patient wounds by clinical wound experts.</p><p>Swift Wound app area measurements are accurate. Given the high repeatability between non-expert wound measurements using the Swift Wound app, we then assessed the accuracy of the app by using it to calculate the areas of 15 photos of plastic wound shapes with areas up    measuring skin surface temperature, we computed the difference measured between the wound bed and the contralateral limb skin temperature for both the clinically accepted reference thermometer Exergen DermaTemp 1001 and the Swift Wound app using a FLIR 1 infrared camera (Fig <ref type="figure" target="#fig_5">6</ref>). The difference between the two methods was non-significant using a paired t-test, t(34) = 1.29, p = 0.21 (S2 Table ). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, we demonstrate that the Swift Wound app provides reliable (ICC = 0.97-1.00) and accurate measurements of wounds. The standard ruler method also yields fairly reliable length and width measurements, (ICC = 0.92-0.97), but is less robust than the app. When using the ruler method, typically only simple length and width measurements are recorded in the clinic because multiplying the two measurements to obtain a rough estimate of a rectangular area has been shown to introduce large variability and inaccuracies <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. Length and width measurements alone, however, do not capture islands of healing within the wound bed or healing at the wound edge that are independent of maximum length and width dimensions. Furthermore, ruler-based measurements have been shown to become less reliable in larger, irregular wounds <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. Here we demonstrate that the inter-rater reliability of the Swift Wound app is unaffected by wound size and that the Swift Wound app is accurate for the different wound shapes tested in our study. Follow-up studies may wish to collect a larger sample of wound shapes and sizes to extend the results we present here. Ultimately, changes in wound area, as calculated by the Swift Wound app, provide a better assessment of wound healing over time <ref type="bibr" target="#b18">[19]</ref> compared to simple ruler length and width measurements. Furthermore, unlike the ruler method, the app is a non-contact tool that measures wound dimensions quickly and easily without touching the wound bed.</p><p>There was also no statistical difference between the differences in temperature measurements for the FLIR 1 infrared camera integrated with the Swift Wound app when compared to that of the clinically accepted reference thermometer, demonstrating that the infrared FLIR 1 camera can detect localized changes in skin surface temperature comparable to scientific grade instruments; this additional feature enables wound care practitioners to detect signs of inflammation or infection <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b19">20]</ref> in addition to tracking changes in wound size over time.</p><p>Of note, high inter-rater reliability was observed among clinical experts as well as nonexperts, suggesting that patients and their caregivers can also use this tool for home monitoring. The authors previously demonstrated that being able to visualize difficult-to-see wounds using digital photography can improve patient satisfaction, adherence to treatment and involvement in their own wound care <ref type="bibr" target="#b20">[21]</ref>.</p><p>A limitation of this study is that the plastic model wounds used by the non-expert raters had clear margins. By contrast, in real patient wounds, (which were measured by the expert raters), the wound edge is often not well defined. Previous studies have demonstrated that variation between wound measurements is largely due to differences in subjective identification of the wound edge <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b21">22]</ref>. This is a challenge for traditional as well new digital wound imaging tools and is addressed in two ways by the Swift Wound app. Firstly, the Swift Wound app automatically identifies wound edges with clear colour contrast, providing an objective demarcation of the wound margins to the rater, who may accept, reject, or modify the identified margins. However, when there is surrounding inflammation and poor colour contrast, automatic identification of the wound edges may not be possible for the software, making the ability to manually identify wound margins necessary. A second feature of the Swift Wound app allows clinicians to retrieve and overlay previous traces of the wound edge on newly acquired images. This eliminates the need for different raters to redefine the wound edge at each appointment and thus reduce inconsistencies across visits.</p><p>Several wound measurement devices have been developed recently to address the challenges of wound imaging and measurement <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b22">23]</ref>. Costs however continue to be an important factor, limiting dissemination of these tools in clinics and in community care teams. A solution we propose is to take advantage of recent advances in mobile technology by developing an app that is an inexpensive, easy-to-use, reliable and accurate tool for wound measurement. This app is further able to photo-document and track wound healing over time. Finally, we suggest that there are several additional benefits to patients, clinicians, researchers and policy makers inherent in adopting this platform. This tool has the potential to greatly increase the efficiency of assessing and documenting changes in wound healing and exchanging this information between stakeholders. To our knowledge, this is the first study to validate clinically a mobile app for wound size and temperature measurement. Importantly, the Swift Wound app can be used reliably by both expert and non-experts in wound care. In principle, a mobile wound care application can be used in a wide range of situations, whether a primary care environment, a telemedicine consultation, or home monitoring. This technology has the potential to significantly impact clinical management and patient outcomes.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 1 .</head><label>1</label><figDesc>Fig 1. Left: Example of tracking changes in wound size over time using the Swift Wound app. Right: Example of the touch screen interface for measuring the area of a wound using the Swift Wound app. The green region represents the projected surface area of the wound. The dark blue line represents the maximum length, here at a pre-set orientation. The light blue line represents the maximum width perpendicular to length. The blue region represents undermining and the yellow dashed lines represent locations and extent of tunneling. Fig 1 was reprinted from www.swiftmedical.io under a CC BY license, with permission from Swift Medical Inc., original copyright 2015. https://doi.org/10.1371/journal.pone.0183139.g001</figDesc><graphic coords="4,124.33,78.01,451.62,239.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig 2 .</head><label>2</label><figDesc>Fig 2. Inter-rater reliabilities between length, width and surface area measurements using the Swift Wound app (ICCs = 0.98. 0.97 and 1.00 respectively). https://doi.org/10.1371/journal.pone.0183139.g002</figDesc><graphic coords="7,172.69,78.01,403.26,552.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig 3 .</head><label>3</label><figDesc>Fig 3. Inter-rater reliabilities between length and width using the ruler method (ICCs-0.92 and 0.97 respectively). Note that eliminating case 11 changes the ICC for length from 0.92 to 0.95, CI (0.92-.097), eliminating this case did not change the ICC estimate for width: 0.97, CI (0.94-0.98). https://doi.org/10.1371/journal.pone.0183139.g003</figDesc><graphic coords="8,95.98,78.01,479.91,448.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig 4 .</head><label>4</label><figDesc>Fig 4. Interrater reliabilities for length, width and surface area using the Swift Wound app by non-experts (ICC = 0.99, 0.99 and 0.99 respectively). https://doi.org/10.1371/journal.pone.0183139.g004</figDesc><graphic coords="9,170.65,78.01,405.30,559.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig 5 .</head><label>5</label><figDesc>Fig 5. Accuracy of the Swift Wound app. Planimeter area measurements predicting Swift Wound app area measurements for 15 photos of plastic wound shapes. The dashed line represents the line of unity (i.e. a perfect fit). Points represent the average across three measures ± 95% CI. https://doi.org/10.1371/journal.pone.0183139.g005</figDesc><graphic coords="10,197.74,72.00,378.14,509.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig 6 .</head><label>6</label><figDesc>Fig 6. Example of an infrared image of an ulcer on the medial malleolus, taken using the Swift Wound app and a FLIR™ infrared camera. Left: Infrared image displaying heat distribution around a venous ulcer on the medial malleolus with a temperature scale. Right: Corresponding white light photograph of the ulcer. https://doi.org/10.1371/journal.pone.0183139.g006</figDesc><graphic coords="11,95.98,78.01,479.91,267.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Inter-rater reliability of measurements of wounds using the Swift Wound app and the ruler.</head><label>1</label><figDesc></figDesc><table><row><cell>ICC</cell></row></table><note><p>App by Novice (n = 12) 0.99, 95% CI (0.99-1.00) 0.99, 95% CI (0.97-1.00) 0.99, 95% CI (0.99-1.00) https://doi.org/10.1371/journal.pone.0183139.t001</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>PLOS ONE | https://doi.org/10.1371/journal.pone.0183139August 17, 2017  </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank the nurses of the <rs type="institution">Wound Care Clinic at Women's College Hospital</rs> (<rs type="affiliation">Toronto, Canada</rs>) for data collection and advice.</p></div>
+			</div>
+			<div type="funding">
+<div><p>The authors received no specific funding for this work. No funding for this project (including the gathering, analysis or publication of any data obtained from it) or salary support for SCW or RE was provided by the company for any part of this project. No funding bodies had any role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>All relevant data are within the paper and its Supporting Information files.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting information</head><note type="other">S1</note></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S1 Table. Repeated measures ANOVA within subjects effects (A) and between subjects effects (B). (PDF)</head><p>S2 Table . Temperature data. The difference between the two methods was non-significant using a paired t-test, t( <ref type="formula">34</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="13,208.20,546.73,363.16,7.40;13,221.50,556.25,354.39,7.40;13,221.50,565.78,54.31,7.40" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Full-thickness leg ulcers: Patient demographics and predictors of healing</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Rijswijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Berard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Borglund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Daniel-Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Degreef</surname></persName>
+		</author>
+		<idno type="PMID">8505605</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Family Practice</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="625" to="632" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,208.20,578.76,361.61,7.40;13,221.50,588.23,340.86,7.40;13,221.50,597.75,58.68,7.40" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Which venous leg ulcers will heal with limb compression bandages?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Berlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Strom</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0002-9343(00)00379-X</idno>
+		<idno type="PMID">10936473</idno>
+		<ptr target="https://doi.org/10.1016/S0002-9343(00)00379-X" />
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Medicine</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="15" to="19" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,208.20,610.73,363.92,7.40;13,221.50,620.26,320.11,7.40;13,221.50,629.78,35.05,7.40" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Clinical predictors of leg ulcer healing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Moffatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smithdale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2133.2009.09397.x</idno>
+		<idno type="PMID">19785616</idno>
+		<ptr target="https://doi.org/10.1111/j.1365-2133.2009.09397.x" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Dermatology</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="51" to="58" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,208.20,642.77,365.95,7.40;13,221.50,652.23,350.18,7.40;13,221.50,661.76,168.16,7.40" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Measuring wound length, width, and area: which technique?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thompson</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.ASW.0000284967.69863.2f</idno>
+		<idno type="PMID">18156829</idno>
+		<ptr target="https://doi.org/10.1097/01" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in skin &amp; wound care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="7" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,208.20,674.74,343.13,7.40;13,221.50,684.26,350.10,7.40;13,221.50,693.73,338.32,7.40;13,221.50,703.26,93.78,7.40" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A proposed assessment framework for developing best practice recommendations for wound assessment</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Keast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Bowering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Mackean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Burrows</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Measure</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1067-1927.2004.0123S1.x</idno>
+		<idno type="PMID">15230830</idno>
+		<ptr target="https://doi.org/10.1111/j.1067-1927.2004.0123S1" />
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair and Regeneration</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="S17" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,208.20,77.54,360.75,7.40;14,221.50,87.06,338.27,7.40;14,221.50,96.53,70.41,7.40" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Two-dimensional wound measurement: comparison of 4 techniques</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Melland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Henly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in wound care: the journal for prevention and healing</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="337" to="343" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,208.20,109.51,352.46,7.40;14,221.50,119.04,348.75,7.40;14,221.50,128.56,208.63,7.40" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Reliability of Electronic Versus Manual Wound Measurement Techniques</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haghpanah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bogie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Banks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Ho</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apmr.2006.06.014</idno>
+		<idno type="PMID">17023252</idno>
+		<ptr target="https://doi.org/10.1016/j.apmr.2006.06.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Archives of Physical Medicine and Rehabilitation</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1396" to="1402" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,208.20,141.54,364.03,7.40;14,221.50,151.01,181.48,7.40" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">More than one way to measure a wound: an overview of tools and techniques</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salcido</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in skin &amp; wound care</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="236" to="243" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,208.20,164.05,353.62,7.40;14,221.50,173.52,335.44,7.40;14,221.50,183.04,58.68,7.40" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Advances in wound photography and assessment methods</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Salcido</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.ASW.0000305411.58350.7d</idno>
+		<idno type="PMID">18349736</idno>
+		<ptr target="https://doi.org/10.1097/01.ASW.0000305411.58350.7d" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in skin &amp; wound care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="4" to="5" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,196.03,354.21,7.40;14,221.50,205.55,338.67,7.40;14,221.50,215.02,174.96,7.40" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Skin Temperature Monitoring Reduces the Risk for Diabetic Foot Ulceration in High-risk Patients</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Holtz-Neiderer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wendel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mohler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Kimbriel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<idno type="PMID">18060924</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Medicine</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1042" to="1046" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,228.06,365.68,7.40;14,221.50,237.52,347.11,7.40;14,221.50,247.05,87.59,7.40" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Predicting neuropathic ulceration with infrared dermal thermometry</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<idno type="DOI">10.7547/87507315-87-7-336</idno>
+		<ptr target="https://doi.org/10.7547/87507315-87-7-336PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Podiatric Medical Association</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">9241978</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,260.03,353.57,7.40;14,221.50,269.56,267.59,7.40" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Infrared dermal thermometry for the high-risk diabetic foot</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Liswood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Tredwell</surname></persName>
+		</author>
+		<idno type="PMID">9037217</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Therapy</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="169" to="177" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,282.54,354.39,7.40;14,221.50,292.06,353.74,7.40;14,221.50,301.53,184.55,7.40" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Home monitoring of foot skin temperatures to prevent ulceration</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Lanctot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Constantinides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Zamorano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/diacare.27.11.2642</idno>
+		<idno type="PMID">15504999</idno>
+		<ptr target="https://doi.org/10.2337/diacare.27.11.2642" />
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2642" to="2647" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,314.51,364.79,7.40;14,221.50,324.04,349.50,7.40;14,221.50,333.56,335.46,7.40" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Preventing diabetic foot ulcer recurrence in high-risk patients: Use of temperature monitoring as a self-assessment tool</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Lanctot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Constantinides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Zamorano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Athanasiou</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/dc06-1600</idno>
+		<idno type="PMID">17192326</idno>
+		<ptr target="https://doi.org/10.2337/dc06-1600" />
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="20" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,346.54,366.01,7.40;14,221.50,356.01,336.07,7.40;14,221.50,365.54,108.06,7.40" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">What are the most effective interventions in preventing diabetic foot ulcers?</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ejg</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1742-481X.2007.00378.x</idno>
+		<idno type="PMID">18593392</idno>
+		<ptr target="https://doi.org/10.1111/j.1742-481X.2007.00378" />
+	</analytic>
+	<monogr>
+		<title level="j">International Wound Journal</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="425" to="433" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,378.52,368.12,7.40;14,221.50,388.04,339.88,7.40;14,221.50,397.51,131.62,7.40" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A clinical investigation into the relationship between increased periwound skin temperature and local wound infection in patients with chronic leg ulcers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fierheller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Sibbald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in skin &amp; wound care</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="80" to="81" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,410.55,356.71,7.40;14,221.50,420.02,347.44,7.40;14,221.50,429.54,264.08,7.40" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Use of smartphone attached mobile thermography assessing subclinical inflammation: A pilot study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kanazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nakagami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Noguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyagaki</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2016.25.4.177</idno>
+		<idno type="PMID">27064366</idno>
+		<ptr target="https://doi.org/10.12968/jowc.2016.25.4.177" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="177" to="182" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,442.52,361.83,7.40;14,221.50,452.05,279.00,7.40" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Intraclass correlations: Uses in assessing rater reliability</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Shrout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Fleiss</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-2909.86.2.420</idno>
+		<idno type="PMID">18839484</idno>
+		<ptr target="https://doi.org/10.1037/0033-2909.86.2.420" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="420" to="428" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,465.03,341.26,7.40;14,221.50,474.56,252.75,7.40" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Wound outcomes: The utility of surface measures</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gilman</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1534734604264419</idno>
+		<idno type="PMID">15866803</idno>
+		<ptr target="https://doi.org/10.1177/1534734604264419" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="125" to="132" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,487.54,361.57,7.40;14,221.50,497.01,341.98,7.40;14,221.50,506.53,329.52,7.40;14,221.50,516.05,35.05,7.40" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Infrared skin thermometry: An underutilized cost-effective tool for routine wound care practice and patient high-risk diabetic foot self-monitoring</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Sibbald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mufti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.ASW.0000458991.58947.6b</idno>
+		<idno type="PMID">25502975</idno>
+		<ptr target="https://doi.org/10.1097/01.ASW.0000458991.58947.6b" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Skin and Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="37" to="44" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,529.04,359.26,7.40;14,221.50,538.56,251.82,7.40" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Patient perception of wound photography</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.12293</idno>
+		<idno type="PMID">24872018</idno>
+		<ptr target="https://doi.org/10.1111/iwj.12293" />
+	</analytic>
+	<monogr>
+		<title level="j">International Wound Journal</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,551.54,366.71,7.40;14,221.50,561.01,333.34,7.40;14,221.50,570.54,348.17,7.40;14,221.50,580.06,35.05,7.40" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Comparison of in-person and digital photograph assessment of stage III and IV pressure ulcers among veterans with spinal cord injuries</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Terris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Jarczok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Ho</surname></persName>
+		</author>
+		<idno type="DOI">10.1682/JRRD.2010.03.0036</idno>
+		<idno type="PMID">21480096</idno>
+		<ptr target="https://doi.org/10.1682/JRRD.2010.03.0036" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Rehabilitation Research and Development</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="215" to="224" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,207.86,593.04,358.75,7.40;14,221.50,602.51,334.29,7.40;14,221.50,612.04,139.01,7.40" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Interrater and intrarater reliability of Silhouette wound imaging device</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Karimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Donohue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kapp</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.ASW.0000422626.25031.b8</idno>
+		<idno type="PMID">23080239</idno>
+		<ptr target="https://doi.org/10.1097/01.ASW.0000422626.25031" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Skin and Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="513" to="518" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

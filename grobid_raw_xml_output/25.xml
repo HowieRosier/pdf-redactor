@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Comparison of Digital Planimetry and Ruler Methods for the Measurement of Extraction Socket Wounds</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2023-01-10">10 January 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Weal</forename><forename type="middle">I</forename><surname>Ibraheem</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Preventive Dental Sciences</orgName>
+								<orgName type="department" key="dep2">College of Dentistry</orgName>
+								<orgName type="institution">Jazan University</orgName>
+								<address>
+									<postCode>45142</postCode>
+									<settlement>Jazan</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ashok</forename><surname>Kum Bhati</surname></persName>
+							<idno type="ORCID">0000-0001-8504-1343</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Nazeeha</forename><forename type="middle">Ahmed</forename><surname>Hakami</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Preventive Dental Sciences</orgName>
+								<orgName type="department" key="dep2">College of Dentistry</orgName>
+								<orgName type="institution">Jazan University</orgName>
+								<address>
+									<postCode>45142</postCode>
+									<settlement>Jazan</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Private Practitioner</orgName>
+								<address>
+									<postCode>82715</postCode>
+									<settlement>Jazan</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Abdulsalam</forename><forename type="middle">Dhafer</forename><surname>Alshehri</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Private Practitioner</orgName>
+								<address>
+									<postCode>61412</postCode>
+									<settlement>Abha</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohammed</forename><surname>Hassan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Wadani</surname></persName>
+							<idno type="ORCID">0000-0001-8504-1343</idno>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Dental Intern</orgName>
+								<orgName type="department" key="dep2">College of Dentistry</orgName>
+								<orgName type="institution">Jazan University</orgName>
+								<address>
+									<postCode>45142</postCode>
+									<settlement>Jazan</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fai</forename><surname>Mohammed</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Essa</forename><surname>Ageeli</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Dental Intern</orgName>
+								<orgName type="department" key="dep2">College of Dentistry</orgName>
+								<orgName type="institution">Jazan University</orgName>
+								<address>
+									<postCode>45142</postCode>
+									<settlement>Jazan</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Comparison of Digital Planimetry and Ruler Methods for the Measurement of Extraction Socket Wounds</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-01-10">10 January 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4631654576B644D8D88A7FBAE99F00FE</idno>
+					<idno type="DOI">10.3390/medicina59010135</idno>
+					<note type="submission">Received: 7 December 2022 Revised: 30 December 2022 Accepted: 5 January 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>wound healing</term>
+					<term>soft tissue injuries</term>
+					<term>confidence interval</term>
+					<term>software</term>
+					<term>ruler method</term>
+					<term>digital planimetry</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background and objectives: The purpose of the study was to evaluate and compare ruler and digital planimetry methods to measure extraction socket wounds. Materials and Methods: In total, 41 extraction socket wounds were selected for assessment of wound area by ruler and digital planimetry methods. In the simple ruler method, the periodontal probe was utilized to measure the length and breadth of the extraction wound, whereas in the digital planimetry technique, Pictzar software was used. Data were analyzed using R software version 4.1.1 and Excel. For intergroup comparisons of wound surface area, Welch t-tests were used, and paired t-tests were used for intragroup comparisons. Intra-class correlation coefficients (ICC) and 95% confidence intervals (CIs) were used to evaluate the inter-method reliabilities of surface area. Results: Both ruler and digital planimetry techniques showed post-operative reductions in surface area. A significant difference was reported between the two techniques; however, the ruler method measurements were overestimated compared to those obtained with digital planimetry. Conclusions: This study concludes that digital planimetry techniques provide more accurate results when compared with the simple ruler method.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Wound healing is a complex process. In both monitoring the wound healing process and evaluating the success of the treatment protocol, precise measurements of wound size are important. The size and location of a wound are good predictors of the treatment outcome <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. In the precise clinical management of the wound healing process and the development of new treatment measurements for a group of people, the agreement, accuracy, dependability, and feasibility of wound assessment techniques are essential considerations. Various methods for objectively measuring wound size are available, ranging from simple to complex techniques. Simple methods are commonly used, but it is important to know good measurement techniques that can help clinicians in making treatment decisions <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref>. In recent decades, the primary focus has been on two-dimensional wound area measurement techniques, which can be divided into contact methods (e.g., digital and manual planimetry) and non-contact methods (e.g., the mathematical elliptical method, simple ruler method, stereo-photogrammetry (SPG), and digital imaging) <ref type="bibr" target="#b5">[6]</ref>.</p><p>In the clinical context, a variety of wound measuring techniques are utilized. These measurements need a variety of instruments, ranging from simple tools, such as a ruler, to more complicated and costly machines. The most advanced approach for measuring wound areas is using a planimetric tablet, such as the Visitrak device, or smartphone software <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>. Two laser beams can be used for linear dimension calibration, and skin curvature adjustment is the more specialized and accurate mechanism for measuring wounds <ref type="bibr" target="#b9">[10]</ref>. The most comprehensive 3D imaging systems enable a more detailed examination of wound shape, but they are not widely used in clinical practice due to high prices and time-consuming tests <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b10">11]</ref>. The most common method to determine wound areas is using a ruler. By multiplying the greatest length by the greatest perpendicular width, clinicians can calculate the wound surface area <ref type="bibr" target="#b11">[12]</ref>. This measurement is simple, quick, and affordable, but it is only mathematically accurate for square or rectangular wounds. As a result, when wound shapes differ from regular square or rectangular shapes, this results in overestimation of the wound area. The ruler approach has been proven to overestimate wound area by 10% to 44%, and accuracy decreases as the wound size increases <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>.</p><p>Digital planimetry is another common method for calculating wound surface area. This method is available both manually and digitally. In manual form, a clear film is placed over the wound, and the manual procedure marks the boundaries. The traced film is then set on a metric grid and the wound area is estimated by counting the number of grid squares that the traced area covers. In digital planimetry, images of the wound are taken and sent to the computer. The wound margin is traced on-screen with a pointing device and the wound surface area is calculated by the software. According to extant research, digital planimetric measures are more precise and trustworthy for approximating the surface area of a wound <ref type="bibr" target="#b12">[13]</ref>. Research comparing ruler and digital planimetry techniques has mainly been performed for the chronic lesions of the skin.</p><p>There is a lack of research focusing on extraction socket wounds using the digital planimetry method in comparison to the ruler method to assess extraction wound areas. Therefore, the aim of this study was to evaluate and compare the two techniques for assessing extraction socket wounds by measuring the surface area of the wounds immediately after extraction and one-week post-extraction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Ethical Approval</head><p>The study was approved by the Scientific Research Unit of College of Dentistry, Jazan University, Saudi Arabia (CODJU-20181). Informed consent was obtained from all the participants before the commencement of the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Study Population</head><p>A convenience sampling technique was conducted in patients with at least a single tooth extraction. In total, 41 extraction socket wounds were included, irrespective of the size, location (anterior or posterior teeth), method of extraction, or patient's age and gender.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Assessment of Wound Area</head><p>The area of the socket wound was measured using two different techniques: ruler method and digital planimetry method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1.">Ruler Method</head><p>The basic ruler approach for calculating the surface area entails multiplying the wound's maximum length by its maximum perpendicular breadth. It is a low-cost and easyto-implement method. However, it is only accurate for perfectly rectangular wounds and does not account for shape variations. As a result, this approach is prone to overestimating the size of a wound. In a study conducted by Roger et al., the basic ruler approach was found to overestimate surface wounds by 41% compared with digital planimetry <ref type="bibr" target="#b12">[13]</ref>. Similarly, Shetty et al. discovered that the basic ruler approach overestimates wound area by 29% to 43%. However, both studies used a limited sample size <ref type="bibr" target="#b13">[14]</ref>. Periodontal probes were utilized in this study to measure the buccolingual and mesiodistal measurements of the extraction wound (Figure <ref type="figure" target="#fig_2">1</ref>). utilized in this study to measure the buccolingual and mesiodistal measurements of the extraction wound (Figure <ref type="figure" target="#fig_2">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1.</head><p>Wound measurement using the ruler method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2.">Digital Planimetry Method</head><p>Digital photographs were taken. The captured digital images were then transferred to a computer. Transferred images were analyzed to assess the wound surface area using PictZar software (Pictzar ® -Pro version 7.6.1. SS, Elmwood Park, NJ, USA) (Figure <ref type="figure" target="#fig_1">2</ref>). The wound margins were traced by the examiner to determine the surface area. The software determines the area by counting the pixels of the picture after it has been scaled with a ruler placed in the same plane as the lesion. The image was calibrated using a 3 mm segment of the ruler. A graduated periodontal probe was used as a ruler. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Data Analysis</head><p>Data were analyzed using R software version 4.1.1 and Excel. For intergroup comparisons of wound surface area, Welch t-tests were used, and paired t-tests were used for intragroup comparisons. Intra-class correlation coefficients (ICCs) and 95% confidence intervals (CIs) were used to evaluate the inter-method reliabilities of surface area. ICC values less than 0.5 are indicative of poor reliability; values between 0.5 and 0.75 indicate moderate reliability; values between 0.75 and 0.9 indicate good reliability; and values greater than 0.90 indicate excellent reliability. In order to depict the pairwise variations between ruler and digital planimetry methods, Bland and Altman plots were drawn, depicting the mean value of the pairs against the difference. These plots also demonstrate the degree of agreement between the methods. The two dotted lines on the top and bottom indicate the 95% confidence limits, within which approximately 95% of the differences between the measurements of each method should lie. The within-methods biases, in addition to their 95% upper and lower limits, were calculated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>The surface areas of 41 extraction socket wounds were assessed using the standard ruler and digital planimetry techniques at baseline and at one week following extraction. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2.">Digital Planimetry Method</head><p>Digital photographs were taken. The captured digital images were then transferred to a computer. Transferred images were analyzed to assess the wound surface area using PictZar software (Pictzar ® -Pro version 7.6.1. SS, Elmwood Park, NJ, USA) (Figure <ref type="figure" target="#fig_1">2</ref>). The wound margins were traced by the examiner to determine the surface area. The software determines the area by counting the pixels of the picture after it has been scaled with a ruler placed in the same plane as the lesion. The image was calibrated using a 3 mm segment of the ruler. A graduated periodontal probe was used as a ruler.</p><p>Medicina 2023, 59, x FOR PEER REVIEW 3 of 10 utilized in this study to measure the buccolingual and mesiodistal measurements of the extraction wound (Figure <ref type="figure" target="#fig_2">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1.</head><p>Wound measurement using the ruler method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2.">Digital Planimetry Method</head><p>Digital photographs were taken. The captured digital images were then transferred to a computer. Transferred images were analyzed to assess the wound surface area using PictZar software (Pictzar ® -Pro version 7.6.1. SS, Elmwood Park, NJ, USA) (Figure <ref type="figure" target="#fig_1">2</ref>). The wound margins were traced by the examiner to determine the surface area. The software determines the area by counting the pixels of the picture after it has been scaled with a ruler placed in the same plane as the lesion. The image was calibrated using a 3 mm segment of the ruler. A graduated periodontal probe was used as a ruler. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Data Analysis</head><p>Data were analyzed using R software version 4.1.1 and Excel. For intergroup comparisons of wound surface area, Welch t-tests were used, and paired t-tests were used for intragroup comparisons. Intra-class correlation coefficients (ICCs) and 95% confidence intervals (CIs) were used to evaluate the inter-method reliabilities of surface area. ICC values less than 0.5 are indicative of poor reliability; values between 0.5 and 0.75 indicate moderate reliability; values between 0.75 and 0.9 indicate good reliability; and values greater than 0.90 indicate excellent reliability. In order to depict the pairwise variations between ruler and digital planimetry methods, Bland and Altman plots were drawn, depicting the mean value of the pairs against the difference. These plots also demonstrate the degree of agreement between the methods. The two dotted lines on the top and bottom indicate the 95% confidence limits, within which approximately 95% of the differences between the measurements of each method should lie. The within-methods biases, in addition to their 95% upper and lower limits, were calculated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>The surface areas of 41 extraction socket wounds were assessed using the standard ruler and digital planimetry techniques at baseline and at one week following extraction. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Data Analysis</head><p>Data were analyzed using R software version 4.1.1 and Excel. For intergroup comparisons of wound surface area, Welch t-tests were used, and paired t-tests were used for intragroup comparisons. Intra-class correlation coefficients (ICCs) and 95% confidence intervals (CIs) were used to evaluate the inter-method reliabilities of surface area. ICC values less than 0.5 are indicative of poor reliability; values between 0.5 and 0.75 indicate moderate reliability; values between 0.75 and 0.9 indicate good reliability; and values greater than 0.90 indicate excellent reliability. In order to depict the pairwise variations between ruler and digital planimetry methods, Bland and Altman plots were drawn, depicting the mean value of the pairs against the difference. These plots also demonstrate the degree of agreement between the methods. The two dotted lines on the top and bottom indicate the 95% confidence limits, within which approximately 95% of the differences between the measurements of each method should lie. The within-methods biases, in addition to their 95% upper and lower limits, were calculated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>The surface areas of 41 extraction socket wounds were assessed using the standard ruler and digital planimetry techniques at baseline and at one week following extraction. Both methods revealed reductions in wound sizes at one-week post-operation. A significant difference was reported between the two techniques (Table <ref type="table" target="#tab_0">1</ref>). However, it was observed that the ruler method overestimated the measurements both at baseline and one-week post-operation. When the intergroup analysis was performed, the standard ruler method had overestimated the measurements by 46.46% at baseline and 44.11% at one-week post-operation (Table <ref type="table" target="#tab_1">2</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Baseline and One-Week Post-Operative Measurements with the Ruler Method</head><p>With the ruler method, the mean surface areas of extraction wounds assessed at baseline and at one-week post-operation were 47.05 mm 2 and 18.61 mm 2 , respectively (Table <ref type="table" target="#tab_0">1</ref>).</p><p>We observed that the 95% confidence intervals of the mean surface area of the ruler method at baseline and one-week post-operation did not overlap each other. The differences in paired mean 95% confidence intervals did not cross zero. Hence, the difference between means is greater than zero. Therefore, it can clearly be determined from Figure <ref type="figure" target="#fig_5">3</ref> that there is a difference in the mean surface area assessed by the ruler method between baseline and one-week post-operation (Figure <ref type="figure" target="#fig_5">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Baseline and One-Week Post-Operative Measurements with the Digital Planimetry Method</head><p>Using digital planimetry, the mean surface areas of extraction wounds assessed at baseline and one-week post-operation were 27.74 mm 2 and 10.40 mm 2 , respectively (Table <ref type="table" target="#tab_0">1</ref>).</p><p>We observed that the 95% confidence intervals of the mean surface area assessed using the digital planimetry method at baseline and one-week post-operation did not overlap with each other. The 95% confidence intervals of the paired mean difference did not cross zero. Hence, the difference between means is greater than zero. Therefore, it can be inferred from Figure <ref type="figure" target="#fig_6">4</ref> that there is a difference in the mean surface area assessed by the digital planimetry method between the baseline and one-week post-operative measurements (Figure <ref type="figure" target="#fig_6">4</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Baseline and One-Week Post-Operative Measurements with the Digital Planimetry Method</head><p>Using digital planimetry, the mean surface areas of extraction wounds assessed at baseline and one-week post-operation were 27.74 mm 2 and 10.40 mm 2 , respectively (Table <ref type="table" target="#tab_0">1</ref>).</p><p>We observed that the 95% confidence intervals of the mean surface area assessed using the digital planimetry method at baseline and one-week post-operation did not overlap with each other. The 95% confidence intervals of the paired mean difference did not cross zero. Hence, the difference between means is greater than zero. Therefore, it can be inferred from Figure <ref type="figure" target="#fig_6">4</ref> that there is a difference in the mean surface area assessed by the digital planimetry method between the baseline and one-week post-operative measurements (Figure <ref type="figure" target="#fig_6">4</ref>).   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Baseline and One-Week Post-Operative Measurements with the Digital Planimetry Method</head><p>Using digital planimetry, the mean surface areas of extraction wounds assessed at baseline and one-week post-operation were 27.74 mm 2 and 10.40 mm 2 , respectively (Table <ref type="table" target="#tab_0">1</ref>).</p><p>We observed that the 95% confidence intervals of the mean surface area assessed using the digital planimetry method at baseline and one-week post-operation did not overlap with each other. The 95% confidence intervals of the paired mean difference did not cross zero. Hence, the difference between means is greater than zero. Therefore, it can be inferred from Figure <ref type="figure" target="#fig_6">4</ref> that there is a difference in the mean surface area assessed by the digital planimetry method between the baseline and one-week post-operative measurements (Figure <ref type="figure" target="#fig_6">4</ref>).  We observed that the 95% confidence intervals of the mean surface area assessed using the ruler method and the digital planimetry method at baseline and one-week postoperation did not overlap with each other. The 95% confidence interval of the unpaired mean difference did not cross zero. Hence, the difference between means is greater than zero. Therefore, it can clearly be stated from Figure <ref type="figure" target="#fig_11">5</ref> that there are differences between the mean surface area assessed with the ruler method and the digital planimetry method at baseline and at one-week post-operation (Figures <ref type="figure" target="#fig_14">5</ref> and<ref type="figure" target="#fig_12">6</ref>).</p><p>We observed that the 95% confidence intervals of the mean surface area assessed using the ruler method and the digital planimetry method at baseline and one-week postoperation did not overlap with each other. The 95% confidence interval of the unpaired mean difference did not cross zero. Hence, the difference between means is greater than zero. Therefore, it can clearly be stated from Figure <ref type="figure" target="#fig_11">5</ref> that there are differences between the mean surface area assessed with the ruler method and the digital planimetry method at baseline and at one-week post-operation (Figures <ref type="figure" target="#fig_14">5</ref> and<ref type="figure" target="#fig_12">6</ref>).  The Bland-Altman plot indicates that the majority of points lie within the 95% confidence interval. Hence, there is good agreement between the surface area assessed using the ruler method and the digital planimetry method at one-week post-operation (Figures <ref type="figure">7</ref> and<ref type="figure" target="#fig_18">8</ref>); the bias is 8.21 (95% CI: 6.89-9.53).</p><p>The lower LOA is 0.013 (95% CI: -2.26-2.29) and the upper LOA is 16.42 (95% CI: 14.14-18.69). We observed that the 95% confidence intervals of the mean surface area assessed using the ruler method and the digital planimetry method at baseline and one-week postoperation did not overlap with each other. The 95% confidence interval of the unpaired mean difference did not cross zero. Hence, the difference between means is greater than zero. Therefore, it can clearly be stated from Figure <ref type="figure" target="#fig_11">5</ref> that there are differences between the mean surface area assessed with the ruler method and the digital planimetry method at baseline and at one-week post-operation (Figures <ref type="figure" target="#fig_14">5</ref> and<ref type="figure" target="#fig_12">6</ref>).  The Bland-Altman plot indicates that the majority of points lie within the 95% confidence interval. Hence, there is good agreement between the surface area assessed using the ruler method and the digital planimetry method at one-week post-operation (Figures <ref type="figure">7</ref> and<ref type="figure" target="#fig_18">8</ref>); the bias is 8.21 (95% CI: 6.89-9.53).</p><p>The lower LOA is 0.013 (95% CI: -2.26-2.29) and the upper LOA is 16.42 (95% CI: 14.14-18.69). The Bland-Altman plot indicates that the majority of points lie within the 95% confidence interval. Hence, there is good agreement between the surface area assessed using the ruler method and the digital planimetry method at one-week post-operation (Figures <ref type="figure">7</ref> and<ref type="figure" target="#fig_18">8</ref>); the bias is 8.21 (95% CI: 6.89-9.53).</p><p>The lower LOA is 0.013 (95% CI: -2.26-2.29) and the upper LOA is 16.42 (95% CI: 14.14-18.69).</p><p>There was no significant interclass correlation coefficient between the ruler method and the digital planimetry method at baseline and one-week post-operation (Table <ref type="table" target="#tab_2">3</ref>).  There was no significant interclass correlation coefficient between the ruler method and the digital planimetry method at baseline and one-week post-operation (Table <ref type="table" target="#tab_2">3</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Accurate wound assessment is an essential stage in deciding appropriate treatment regimens. The continuous monitoring of wound size is important. Wound assessment techniques must be precise, dependable, and practical for use in clinical practice and clinical research investigations. Delineation of the wound border, which is sometimes difficult  There was no significant interclass correlation coefficient between the ruler method and the digital planimetry method at baseline and one-week post-operation (Table <ref type="table" target="#tab_2">3</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Accurate wound assessment is an essential stage in deciding appropriate treatment regimens. The continuous monitoring of wound size is important. Wound assessment techniques must be precise, dependable, and practical for use in clinical practice and clin- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Accurate wound assessment is an essential stage in deciding appropriate treatment regimens. The continuous monitoring of wound size is important. Wound assessment techniques must be precise, dependable, and practical for use in clinical practice and clinical research investigations. Delineation of the wound border, which is sometimes difficult to identify, is one of the elements impacting the accuracy of wound measurement. Slight motions can change the appearance of a wound. The assessment methods should be able to perform consistent and accurate measurements for different types of lesions across broad geographic and clinical settings <ref type="bibr" target="#b14">(15)</ref>. Traditionally, wound-measuring methodologies have been based on two-dimensional approaches. The basic ruler method overestimates wound size if the shape deviates from square or rectangular, making it inefficient in assessing large wounds with irregular borders; however, it is quick, easy, and inexpensive <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>.</p><p>Few studies have reported the non-significant and significant difference in the measured wound areas using digital and mobile cameras <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b15">16]</ref>. A study performed by Foltynski et al. in 2015 reported an insignificant influence of camera type on the precision of the area measured using digital planimetry and the ruler method <ref type="bibr" target="#b16">[17]</ref>.</p><p>To understand whether there were any significant or non-significant differences in values obtained using the ruler and digital planimetry methods, we calculated the p-values. A p-value of &gt;0.05 from the simple ruler and digital methods indicated a statistically significant difference. The simple ruler technique overestimated measurements both at baseline one-week post-extraction. Thus, it could be interpreted that a simple ruler technique, even though it is easy to learn, use, and is cost-effective, does not provide an accurate result compared with digital planimetry. The ruler approach has been proven to overestimate wound area by 10% to 44%, and accuracy decreases as the wound size increases <ref type="bibr">[18,</ref><ref type="bibr" target="#b18">19]</ref>. Our study suggests that the simple ruler technique overestimates the wound size by 44% to 46%. Similar findings were reported by Oien et al., who compared 4 wound measurement techniques in 50 leg ulcers <ref type="bibr" target="#b19">[20]</ref>. The conclusion drawn by these researchers was that the ruler method does tend to overestimate the measurement. Similarly, Cutler et al. evaluated different approaches for determining ulcer size and found that the values obtained from length and breadth measurements overestimate the ulcer area compared with surface area assessed by digital planimetry <ref type="bibr" target="#b20">[21]</ref>. However, in studies performed by Wendelken et al., it was concluded that simple ruler measurements are only reliable when a wound is of a smaller size (1-4 cm 2 ) and a regular shape <ref type="bibr" target="#b21">[22]</ref>. Thus, the traditional method of measuring wound area, even though it overestimates the results in a larger wound, can be used when the wound is small.</p><p>The variations that might have been observed while using the ruler and planimetry are easily demonstrated. Multiplying the area of an irregular wound by its length and breadth usually gives the area of a rectangle. This has the added difficulty that if part of the wound heals, the greatest length and width may not change, leading to the incorrect conclusion that the wound size has not altered. As a result, length multiplied by breadth offers a rough estimate of wound size, but it is not a precise depiction of the area <ref type="bibr" target="#b21">[22]</ref>. Similarly, the present study reported an overestimation of the measurements by the ruler method.</p><p>Intra-and intergroup evaluations were performed between both techniques: the simple ruler method showed a considerable difference compared with the digital planimetry method. Similarly, in a study performed by Sugama et al., it was reported that digital planimetry has both a high inter-and intra-rater reliability as compared with the ruler method <ref type="bibr" target="#b22">[23]</ref>. Digital planimetry produces faster and more accurate measurements <ref type="bibr" target="#b23">[24]</ref>. <ref type="bibr" target="#b3">Gethin (2006)</ref> studied 50 wound tracings of superficial leg ulcers with 25 tracings smaller than 10 cm 2 and 25 tracings larger than 10 cm 2 ; they measured wound area by acetate tracing and Visitrak digital planimetry <ref type="bibr" target="#b6">[7]</ref>. The authors concluded that more precise measurements were seen with digital planimetry. <ref type="bibr" target="#b24">Yang et al. (2008)</ref> assessed the wound area of diabetic cutaneous ulcer surfaces with digital planimetry and transparent acetate tracing and found that digital planimetry provides accurate results <ref type="bibr" target="#b24">[25]</ref>. The review conducted by Khoo and Jansen also reported that digital planimetry provides more accurate results <ref type="bibr" target="#b25">[26]</ref>. In addition, our study found that digital planimetry is more accurate and precise.</p><p>Although the results of this study showed that digital planimetry gives more accurate and precise readings in comparison to the ruler method, there are certain limitations to the study. The sample size of the study was limited for statistical analysis with a short, single post-operative duration. Furthermore, there was no evaluation of wound healing variations in large and small socket wounds. Therefore, further studies assessing wound healing with a greater sample size and with different wound sizes at different post-operative durations should be conducted.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Wound measurement using digital planimetry.</figDesc><graphic coords="3,169.16,350.21,122.05,144.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Wound measurement using the ruler method.</figDesc><graphic coords="3,216.13,99.29,92.45,103.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Wound measurement using digital planimetry.</figDesc><graphic coords="3,121.77,348.36,122.05,144.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Wound measurement using digital planimetry.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Estimation plot of the confidence intervals of the surface area assessed with the ruler method at baseline and one-week post-operation.</figDesc><graphic coords="5,169.69,98.32,335.43,218.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Estimation plot of the confidence intervals of the surface area assessed by the digital planimetry method at baseline and one-week post-operation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Estimation plot of the confidence intervals of the surface area assessed with the ruler method at baseline and one-week post-operation.</figDesc><graphic coords="5,170.81,366.73,340.60,221.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Estimation plot of the confidence intervals of the surface area assessed with the ruler method at baseline and one-week post-operation.</figDesc><graphic coords="5,169.31,-50.83,335.43,218.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Estimation plot of the confidence intervals of the surface area assessed by the digital planimetry method at baseline and one-week post-operation.</figDesc><graphic coords="5,171.19,515.87,340.60,221.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Estimation plot of the confidence intervals of the surface area assessed by the digital planimetry method at baseline and one-week post-operation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Estimation plot of the confidence intervals of surface area assessed using the ruler method and the digital planimetry method at baseline.</figDesc><graphic coords="6,170.07,100.01,331.40,215.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Estimation plot of the confidence intervals of surface area assessed using the ruler method and the digital planimetry method at one-week post-operation.</figDesc><graphic coords="6,170.07,360.08,322.96,210.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Estimation plot of the confidence intervals of surface area assessed using the ruler method and the digital planimetry method at baseline.</figDesc><graphic coords="6,171.56,105.02,331.40,215.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Estimation plot of the confidence intervals of surface area assessed using the ruler method and the digital planimetry method at baseline.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Estimation plot of the confidence intervals of surface area assessed using the ruler method and the digital planimetry method at one-week post-operation.</figDesc><graphic coords="6,171.56,365.09,322.96,210.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Estimation plot of the confidence intervals of surface area assessed using the ruler method and the digital planimetry method at one-week post-operation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Table 3 . 10 Figure 7 .</head><label>3107</label><figDesc>Abbreviation: ICC, intraclass correlation coefficient. Medicina 2023, 59, x FOR PEER REVIEW 7 of 10</figDesc><graphic coords="7,169.31,194.14,314.60,181.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Bland-Altman plot of the surface area assessed using the ruler method and the digital planimetry method at one-week post-operation.</figDesc><graphic coords="7,169.31,416.71,320.20,185.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 7 . 10 Figure 7 .</head><label>7107</label><figDesc>Figure 7. Bland-Altman plot of the surface area assessed using the ruler method and the digital planimetry method at baseline.</figDesc><graphic coords="7,169.69,205.28,314.60,181.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Bland-Altman plot of the surface area assessed using the ruler method and the digital planimetry method at one-week post-operation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Bland-Altman plot of the surface area assessed using the ruler method and the digital planimetry method at one-week post-operation.</figDesc><graphic coords="7,169.69,427.85,320.20,185.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Inter-and intragroup comparison of the mean surface area at baseline and one-week post-operation with ruler and digital planimetry methods.</figDesc><table><row><cell>Type of Methods</cell><cell>Baseline</cell><cell>One-Week Post-Operation</cell><cell>p-Value</cell></row><row><cell>Ruler Method</cell><cell>47.05 ± 18.01</cell><cell>18.61 ± 8.12</cell><cell>&lt;0.001 PT *</cell></row><row><cell>Digital Planimetry Method</cell><cell>27.74 ± 8.90</cell><cell>10.40 ± 5.03</cell><cell>&lt;0.001 PT *</cell></row><row><cell>p-value</cell><cell>&lt;0.001 WT *</cell><cell>&lt;0.001 WT *</cell><cell>-</cell></row></table><note><p>Abbreviations: WT, Welch's t test; PT, paired t test; * indicates statistical significance.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Overestimation of surface area measurements by the ruler method at baseline and one-week post-operation.</figDesc><table><row><cell>Baseline</cell><cell>One-Week Post-Operation</cell></row></table><note><p>c = a/b * 100. * indicates statistical significance.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Interclass correlation coefficient of the ruler method and the digital planimetry method at baseline and one-week post-operation.</figDesc><table><row><cell>Time Point</cell><cell>ICC (95% CI)</cell><cell>p-Value</cell></row><row><cell>Baseline</cell><cell>0.232 (0-0.533)</cell><cell>0.109</cell></row><row><cell>One-Week Post-Operation</cell><cell>0.466 (0-0.795)</cell><cell>0.104</cell></row><row><cell cols="2">Abbreviation: ICC, intraclass correlation coefficient.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Interclass correlation coefficient of the ruler method and the digital planimetry method at baseline and one-week post-operation.</figDesc><table><row><cell>Time Point</cell><cell>ICC (95% CI)</cell><cell>p-Value</cell></row><row><cell>Baseline</cell><cell>0.232 (0-0.533)</cell><cell>0.109</cell></row><row><cell>One-Week Post-Operation</cell><cell>0.466 (0-0.795)</cell><cell>0.104</cell></row><row><cell cols="2">Abbreviation: ICC, intraclass correlation coefficient.</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head n="5.">Conclusions</head><p>Digital planimetry provides more accurate and precise results than the ruler method for measuring the area of an extraction socket wound. Clinicians should choose measurement techniques for wound assessment that provide more reliable and accurate measurements.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: Data included in study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Informed Consent Statement: Informed consent was obtained from all subjects involved in the study. Written informed consent has been obtained from the patient(s) to publish this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,39.08,382.15,520.20,8.63;9,57.23,393.54,503.62,8.74;9,57.23,405.17,83.73,8.63" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The effects of ulcer size and site, patient&apos;s age, sex and type and duration of diabetes on the outcome of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Oyibo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Jude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tarawneh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Harkless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J M</forename><surname>Boulton</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1464-5491.2001.00422.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet. Med</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="133" to="138" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,39.08,416.67,520.20,8.63;9,57.23,428.06,243.74,8.74" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Validation of a system of foot ulcer classification in diabetes mellitus</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Treece</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Macfarlane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pound</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Game</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Jeffcoate</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1464-5491.2004.01275.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet. Med</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="987" to="991" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,39.08,439.57,479.06,8.74" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Improving accuracy of wound measurement in clinical practice</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flanagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manag</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="28" to="40" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,39.08,451.08,376.03,8.74" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The importance of continuous wound measurement</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gethin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds UK</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="60" to="68" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,39.08,462.70,520.19,8.63;9,57.23,474.09,310.09,8.74" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Early healing rates and wound area measurements are reliable predictors of later complete wound closure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cardinal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Eisenbud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2007.00328.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="19" to="22" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,39.08,485.71,520.19,8.63;9,57.23,497.11,326.67,8.74" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The association between baseline characteristics and the outcome of foot lesions in a UK population with diabetes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ince</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kendrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Game</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jeffcoate</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1464-5491.2007.02189.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet. Med</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="977" to="981" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,39.08,508.61,521.31,8.74;9,57.23,520.12,156.00,8.74" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Wound measurement comparing the use of acetate tracings and Visitrak digital planimetry</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gethin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cowman</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2702.2006.01364.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Nurs</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="422" to="427" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,39.08,531.63,520.20,8.74" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Advances in wound photography and assessment methods</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Salcido</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.ASW.0000305411.58350.7d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="85" to="93" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,39.08,543.13,521.32,8.74;9,57.23,554.64,91.33,8.74" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A new smartphone-based method for wound area measurement</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ladyzynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wojcicki</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/aor.12169</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Organs</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="346" to="352" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,43.19,566.15,517.21,8.74;9,56.81,577.65,220.75,8.74" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The reliability of a handheld wound measurement and documentation device in clinical practice</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Nixon</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/WON.0b013e318215fc60</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wound Ostomy Cont. Nurs</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="260" to="264" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,43.19,589.16,517.21,8.74;9,56.94,600.67,256.20,8.74" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A practical and objective approach to scar colour assessment</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hallam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcnaught</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nduka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bjps.2013.06.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plast. Reconstr. Aesthet. Surg</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="271" to="e276" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,43.19,612.29,516.89,8.63;9,56.91,623.68,233.66,8.74" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Measuring wound length, width, and area: Which technique?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thompson</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.ASW.0000284967.69863.2f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="42" to="45" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,43.19,635.30,516.44,8.63;9,57.23,646.69,421.85,8.74" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Digital planimetry results in more accurate wound measurements: A comparison to standard ruler measurements</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bevilacqua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andros</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/193229681000400405</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Diabetes Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="799" to="802" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,43.19,658.20,517.21,8.74;9,56.95,669.71,159.99,8.74" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A novel and accurate technique of photographic wound measurement</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shetty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sreekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lamba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Gupta</surname></persName>
+		</author>
+		<idno type="DOI">10.4103/0970-0358.101333</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Indian J. Plast. Surg</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="425" to="429" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,43.19,681.33,516.09,8.63;9,57.23,692.72,263.71,8.74" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Comparison of Digital Planimetry and Ruler Technique to Measure ABSSSI Lesion Sizes in the ESTABLISH-1 Study</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>De Anda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Prokocimer</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/sur.2013.070</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surg. Infect</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="105" to="110" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,43.19,704.35,516.09,8.63;9,57.23,715.74,266.62,8.74" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">An evaluation of three wound measurement techniques in diabetic foot wounds</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Lagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Stevenson</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/dc07-0122</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2641" to="2642" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,43.19,727.36,516.08,8.63;9,56.86,738.75,503.99,8.74" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Wound Area Measurement with Digital Planimetry: Improved Accuracy and Precision with Calibration Based on 2 Rulers</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ladyzynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ciechanowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Migalska-Musial</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Judzewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sabalinska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">134622</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,43.19,761.76,413.16,8.74" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Reliability of wound surface area measurements</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Majeske</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ptj/72.2.138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="138" to="141" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,43.19,98.61,517.21,8.74;10,57.23,110.12,113.75,8.74" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">More than one way to measure a wound: An overview of tools and techniques</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salcido</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00129334-200209000-00011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Ski. Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="236" to="243" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,43.19,121.74,516.09,8.63;10,57.23,133.13,200.97,8.74" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Measuring the size of ulcers by planimetry: A useful method in the clinical setting</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Öien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Håkansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bjellerup</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2002.11.5.26399</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="165" to="168" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,43.19,144.75,516.08,8.63;10,57.23,156.14,327.63,8.74" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Comparison of quantitative methodologies to define chronic pressure ulcer measurements</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Cutler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Seifert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brunelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Sramek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcneill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Boyd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Decubitus</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="22" to="30" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,43.19,167.77,516.09,8.63;10,56.96,179.16,484.69,8.74" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Wounds measured from digital photographs using photo digital planimetry software: Validation and rater reliability</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Wendelken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lichtenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Markowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Comfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Alvarez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="267" to="275" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,43.19,190.78,516.08,8.63;10,56.96,202.17,424.34,8.74" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A study of the efficiency and convenience of an advanced portable Wound Measurement System (VISITRAK)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sugama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sanada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Konya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okuwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kitagawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2702.2007.01790.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Nurs</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1265" to="1269" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,43.19,213.68,517.20,8.74;10,56.81,225.18,203.98,8.74" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Wound areas by computerized planimetry of digital images: Accuracy and reliability</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Mayrovitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Soontupe</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.ASW.0000350839.19477.ce</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Ski. Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="222" to="229" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,43.19,236.81,516.09,8.63;10,57.23,248.20,328.47,8.74" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A comparison of digital planimetry and transparency tracing methods for measuring diabetic cutaneous ulcer surface area</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chin. J. Reparative Reconstr. Surgery</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="563" to="566" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,43.19,259.71,517.21,8.74;10,56.95,271.21,94.09,8.74" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The Evolving Field of Wound Measurement Techniques: A Literature Review. Wounds Compend</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Khoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Res. Pract</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="175" to="181" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,35.72,297.38,523.56,8.63;10,35.72,308.89,523.56,8.63;10,35.45,320.39,414.48,8.63" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods</title>
+		<imprint>
+			<publisher>Disclaimer/Publisher&apos;s Note</publisher>
+		</imprint>
+	</monogr>
+	<note>instructions or products referred to in the content</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

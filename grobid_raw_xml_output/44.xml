@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Automated Tissue Classification Framework for Reproducible Chronic Wound Assessment</title>
+				<funder>
+					<orgName type="full">Indian Council for Medical Research</orgName>
+					<orgName type="abbreviated">ICMR</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2014-07-08">8 July 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Rashmi</forename><surname>Mukherjee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Medical Science &amp; Technology</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>721302</postCode>
+									<settlement>Kharagpur</settlement>
+									<region>West Bengal</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dhiraj</forename><forename type="middle">Dhane</forename><surname>Manohar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Medical Science &amp; Technology</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>721302</postCode>
+									<settlement>Kharagpur</settlement>
+									<region>West Bengal</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dev</forename><forename type="middle">Kumar</forename><surname>Das</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Medical Science &amp; Technology</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>721302</postCode>
+									<settlement>Kharagpur</settlement>
+									<region>West Bengal</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Arun</forename><surname>Achar</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Dermatology</orgName>
+								<orgName type="institution">Midnapore Medical College Hospital</orgName>
+								<address>
+									<postCode>721101</postCode>
+									<settlement>Midnapore</settlement>
+									<region>West Bengal</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Analava</forename><surname>Mitra</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Medical Science &amp; Technology</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>721302</postCode>
+									<settlement>Kharagpur</settlement>
+									<region>West Bengal</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Chandan</forename><surname>Chakraborty</surname></persName>
+							<email>chandanc@smst.iitkgp.ernet.in</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Medical Science &amp; Technology</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>721302</postCode>
+									<settlement>Kharagpur</settlement>
+									<region>West Bengal</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Automated Tissue Classification Framework for Reproducible Chronic Wound Assessment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-07-08">8 July 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BCBEC9C21EFC845580A706FAB007CEC7</idno>
+					<idno type="DOI">10.1155/2014/851582</idno>
+					<note type="submission">Received 24 February 2014; Revised 30 May 2014; Accepted 4 June 2014;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aim of this paper was to develop a computer assisted tissue classification (granulation, necrotic, and slough) scheme for chronic wound (CW) evaluation using medical image processing and statistical machine learning techniques. The red-green-blue (RGB) wound images grabbed by normal digital camera were first transformed into HSI (hue, saturation, and intensity) color space and subsequently the "S" component of HSI color channels was selected as it provided higher contrast. Wound areas from 6 different types of CW were segmented from whole images using fuzzy divergence based thresholding by minimizing edge ambiguity. A set of color and textural features describing granulation, necrotic, and slough tissues in the segmented wound area were extracted using various mathematical techniques. Finally, statistical learning algorithms, namely, Bayesian classification and support vector machine (SVM), were trained and tested for wound tissue classification in different CW images. The performance of the wound area segmentation protocol was further validated by ground truth images labeled by clinical experts. It was observed that SVM with 3rd order polynomial kernel provided the highest accuracies, that is, 86.94%, 90.47%, and 75.53%, for classifying granulation, slough, and necrotic tissues, respectively. The proposed automated tissue classification technique achieved the highest overall accuracy, that is, 87.61%, with highest kappa statistic value (0.793).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="600.05" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="600.05" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="600.05" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="600.05" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="600.05" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="600.05" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="600.05" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="600.05" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="600.05" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Globally, chronic wounds (CWs) are a major threat to the public health and economy since they have detrimental effect on patient's quality of life causing depression, social separation, and high costs for treatment. CWs are those that did not proceed through an orderly and timely reparative process to produce anatomic and functional integrity of the injured site, generally remaining unhealed for longer than 6 weeks <ref type="bibr" target="#b0">[1]</ref>. Furthermore, the healing process may be delayed if appropriate treatment is not provided based on accurate diagnosis. In the United States, CW affects approximately 6.5 million patients <ref type="bibr" target="#b1">[2]</ref>. The prevalence of CW was 4.48 per 1000 of a study population in India <ref type="bibr" target="#b2">[3]</ref>. Thus, it can be very wellunderstood that this type of health threat is progressively increasing as a silent epidemic. Although diabetic foot ulcers, venous ulcers, and pressure ulcers are considered as the 3 main types of CW, still, burn, malignant ulcer, and Pyoderma gangrenosum incidence rate is quite significant <ref type="bibr" target="#b1">[2]</ref>. These CWs are often resistant to healing and require long term medical care.</p><p>Quantitative assessment of CW still depends on visual inspection and manual techniques for depicting the shape of the wound perimeter, surface, depth, and so forth and the biological nature of the skin tissues percentage of each class, wound severity stage, burn degree, and so forth. CW includes mainly three types of tissues namely, nonuniform mixture of yellow slough, black necrotic, and red granulation tissues. These tissue types play a pivotal role in understanding the healing progress of different CWs. However, during CW diagnosis, clinicians frequently face difficulty in estimating percentage of these tissues within wound area due to color ambiguities. Routine diagnosis of CW completely relies on clinician's (namely, burn unit nurse practitioners/dermatologists) manual examination which involves measurement methods like ruler-based methods, transparency tracing, alginate casts, and so forth <ref type="bibr" target="#b3">[4]</ref>. Similarly, assessing the type and proportion of tissues remains highly debatable as assessment is performed visually and then recorded on a red-black-yellow scale corresponding, respectively, to the dominant color of the different tissues found on a wound that is, granulation, slough, and necrosis. These conventional processes are very often inaccurate since such evaluation depends on his/her clinical experience and causes extreme discomfort to the patients. Moreover it is time consuming and expert-intensive.</p><p>In order to provide an efficient as well as rapid CW diagnosis scheme, wound tissue classification is indeed required so that the percentage of tissues can be quantitatively estimated on regular basis for healing rate assessment during the treatment. The principal objective of the present study is to develop an automated tissue classification scheme for reproducible CW assessment using computer vision and machine learning methods. These techniques can serve as effective tools for precise wound bed demarcation, segmentation, and tissue identification in CWs.</p><p>There have been efforts to use image processing techniques for automatic and quantitative analysis of CW images. Leg ulcer regions were identified using contour detection with histogram segmentation <ref type="bibr" target="#b4">[5]</ref> and active contour modeling <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>. Zhang et al. applied region growing method for edge detection on digitized skin tumor images <ref type="bibr" target="#b7">[8]</ref>. Attempt was made to extract wound region using texture analysis <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b8">9]</ref>. Wound tissues were characterized using different algorithms, namely, histogram thresholding, mean shift smoothing, region growing, and graphs <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>. A case-based tissue classification approach was developed for monitoring leg ulcer healing <ref type="bibr" target="#b11">[12]</ref>. Pressure ulcer lesion area was evaluated under telemedicine system <ref type="bibr" target="#b12">[13]</ref>. Serrano et al. developed a computer aided diagnostic process for evaluating burns by depth of injury <ref type="bibr" target="#b13">[14]</ref>. A supervised tissue classification from color images was designed for assessment of wound lesions <ref type="bibr" target="#b14">[15]</ref>.</p><p>In India, very few studies have been performed though risk factors of CW like diabetes, atherosclerosis, tuberculosis, leprosy, and trauma are very much prevalent. Nayak et al. addressed the composition of different types of tissue based on color and pigmentation inside the wound by image processing <ref type="bibr" target="#b15">[16]</ref>. Extensive literature survey revealed that there is an urgent requirement for quantitative estimation of wound tissue classification within the wound bed, which might assist clinicians to effectively monitor the wound healing rate. In view of this, we have proposed here a computer assisted tissue classification methodology using fuzzy divergence based CW region segmentation and statistical machine learning techniques. The overall workflow has been depicted in Figure <ref type="figure" target="#fig_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Selection of Wound Images and Preprocessing.</head><p>In the present study, CW images from Medetec medical image database <ref type="bibr" target="#b16">[17]</ref> (http://www.medetec.co.uk/files/medetec image databases.html) were considered which were captured under same optical imaging set-up. Normal digital optical camera was used by the dermatologist to grab images (𝑅: red; 𝐺: green; 𝐵: blue, i.e., 𝑅𝐺𝐵 format) from wound sites of CW patients. Figure <ref type="figure" target="#fig_1">2</ref> shows two representative CW images.</p><p>In the present study, we have considered all the six types of CW, namely, burn, diabetic ulcer, malignant ulcer, Pyoderma gangrenosum, venous ulcer, and pressure ulcers. These wounds are mainly characterized by the target clinical parameters, namely, granulation, slough, and necrotic tissues <ref type="bibr" target="#b17">[18]</ref>. In fact, the percentage of each type of tissues plays major role in evaluating various chronic wounds. The granulation tissue comprises new connective tissue and tiny blood vessels that form on the surfaces of a wound during the healing process. It looks light red and/or dark pink in color. Necrotic tissue is basically dead tissue that generally results from an inadequate local blood supply. It is of black color and found in a wide variety of wound types, including burns and all types of chronic wounds. In contrast, slough is a yellow fibrinous tissue that consists of fibrin, pus, and proteinaceous material. It can be found on the surface of a previously clean wound bed and it is thought to be associated with bacterial activity. The accumulation of necrotic tissue or slough in a chronic wound is of major clinical significance <ref type="bibr" target="#b17">[18]</ref>, because it is thought to promote bacterial colonization and prevent complete repair of the wound. Here, we considered 222 regions as granulation tissue, 451 regions as slough tissue, and 94 regions as necrotic tissue based on 74 wound images (burn (𝑛 = 12), diabetic ulcer (𝑛 = 24), malignant ulcer (𝑛 = 14), Pyoderma gangrenosum (𝑛 = 8), venous ulcer (𝑛 = 7), and pressure ulcer (𝑛 = 9)) identified by medical experts from the wound database.</p><p>Due to rapid photography and dust attached to the camera lens, the wound images are very often affected by salt and paper noise. In order to remove this noise from wound images, median filter <ref type="bibr" target="#b18">[19]</ref> being the most popular nonlinear filter was here used by replacing the window center value by the median value of center neighborhood. In fact, the median filter using a 5 × 5 structural element window was used to 𝑅𝐺𝐵 channels individually for wound images. It basically maintains the edges of the wound areas and reduces the noise. In effect, the CW images become more homogeneous leading to improved wound bed segmentation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Color Space Conversion from</head><p>𝑅𝐺𝐵 to 𝐻𝑆𝐼. The grabbed wound images were in fact color images in 𝑅𝐺𝐵 format. Generally, clinicians/nurse practitioners at burn unit face diagnostic problem due to color nonuniformity present in 𝑅𝐺𝐵 wound images. In addition, since 𝑅𝐺𝐵 components are highly interrelated, it is not proper to use chromatic information directly.</p><p>In order to segment the boundary of wound bed, filtered 𝑅𝐺𝐵 wound image was converted into 𝐻𝑆𝐼 (𝐻: hue, 𝑆: saturation, 𝐼: intensity) color space as it is more close to the way humans perceive the color. In fact, 𝐻 describes pure color where 𝑆 provides the degree to which a pure color is diluted by white light and 𝐼 is subjective color <ref type="bibr" target="#b19">[20]</ref>. In order to avoid any color conflict during segmentation of wound area from skin, only 𝑆 component of 𝐻𝑆𝐼 channels was selected here that showed the improved contrast at the wound boundary as shown in Figure <ref type="figure" target="#fig_2">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Wound Area Segmentation Using Fuzzy Divergence Based</head><p>Thresholding. Threshold selection is very crucial in wound area segmentation like any other images. The accuracy in segmentation is very often degraded due to overlapping intensities and pixel ambiguities especially at the junction between wound and nonwound (skin) regions. In order to reduce overlapping pixel intensity, a simple fuzzy divergence method was considered here to segment the wound area in 𝑆 channel wound image <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>. Ghosh et al. have proved fuzzy divergence based thresholding to be very much useful in medical image segmentation. For any grayscale image, pixel intensity ranges in [0, 255] where fuzzy image was defined by associating a membership value 𝜇(𝑓 𝑖𝑗 ) to the intensity value 𝑓 𝑖𝑗 at the (𝑖, 𝑗)th pixel. And hence the fuzzy image was given as 𝐴 = {𝑓 𝑖𝑗 , 𝜇(𝑓 𝑖𝑗 ) | 𝜇 : 𝑓 𝑖𝑗 → [0, 1]}. Theoretically, for any two images 𝐴 and 𝐵 of same size 𝑀 × 𝑁 with distinct gray values, the information about the discrimination between the membership values at the (𝑖, 𝑗)th pixel was given by Chaira and Ray as</p><formula xml:id="formula_0">𝑒 𝜇 𝐴 (𝑎 𝑖𝑗 ) 𝑒 𝜇 𝐵 (𝑏 𝑖𝑗 ) = 𝑒 𝜇 𝐴 (𝑎 𝑖𝑗 )-𝜇 𝐵 (𝑏 𝑖𝑗 ) ,<label>(1)</label></formula><p>where 𝑖 = 0, 1, . . . , 𝑀 -1 and 𝑗 = 0, 1, . . . , 𝑁 -1; 𝜇 𝐴 (𝑎 𝑖𝑗 ) and 𝜇 𝐵 (𝑏 𝑖𝑗 ) indicate the membership values of the (𝑖, 𝑗)th pixel in images 𝐴 and 𝐵, respectively <ref type="bibr" target="#b20">[21]</ref>. Hence the discrimination of image 𝐴 against 𝐵 is</p><formula xml:id="formula_1">𝐼 𝐴𝐵 (𝜇 𝐴 , 𝜇 𝐵 ) = 𝑀-1 ∑ 𝑖=0 𝑁-1 ∑ 𝑗=0 [1 -{1 -𝜇 𝐴 (𝑎 𝑖𝑗 )} 𝑒 𝜇 𝐴 (𝑎 𝑖𝑗 )-𝜇 𝐵 (𝑏 𝑖𝑗 ) -𝜇 𝐴 (𝑎 𝑖𝑗 ) 𝑒 𝜇 𝐵 (𝑏 𝑖𝑗 )-𝜇 𝐴 (𝑎 𝑖𝑗 ) ] .<label>(2)</label></formula><p>Similarly, discrimination of image 𝐵 against 𝐴 is</p><formula xml:id="formula_2">𝐼 𝐵𝐴 (𝜇 𝐴 , 𝜇 𝐵 ) = 𝑀-1 ∑ 𝑖=0 𝑁-1 ∑ 𝑗=0 [1 -{1 -𝜇 𝐵 (𝑏 𝑖𝑗 )} 𝑒 𝜇 𝐵 (𝑏 𝑖𝑗 )-𝜇 𝐴 (𝑎 𝑖𝑗 ) -𝜇 𝐵 (𝑏 𝑖𝑗 ) 𝑒 𝜇 𝐴 (𝑎 𝑖𝑗 )-𝜇 𝐵 (𝑏 𝑖𝑗 ) ] .</formula><p>( Hence, the total fuzzy divergence between 𝐴 and 𝐵 was computed by summing (1) and ( <ref type="formula" target="#formula_1">2</ref>)</p><formula xml:id="formula_3">) (a) (b) (c) (d)<label>3</label></formula><formula xml:id="formula_4">𝐷 (𝜇 𝐴 , 𝜇 𝐵 ) = 𝐼 𝐴𝐵 (𝜇 𝐴 , 𝜇 𝐵 ) + 𝐼 𝐵𝐴 (𝜇 𝐴 , 𝜇 𝐵 ) = 𝑀-1 ∑ 𝑖=0 𝑁-1 ∑ 𝑗=0 [2 -{1 -𝜇 𝐴 (𝑎 𝑖𝑗 ) + 𝜇 𝐵 (𝑏 𝑖𝑗 )} 𝑒 𝜇 𝐴 (𝑎 𝑖𝑗 )-𝜇 𝐵 (𝑏 𝑖𝑗 ) -{1 -𝜇 𝐵 (𝑏 𝑖𝑗 ) + 𝜇 𝐴 (𝑎 𝑖𝑗 )} 𝑒 𝜇 𝐵 (𝑏 𝑖𝑗 )-𝜇 𝐴 (𝑎 𝑖𝑗 ) ] .<label>(4)</label></formula><p>Here membership values of pixel intensities of wound images in 𝑆 channel were assessed using Gaussian membership function <ref type="bibr" target="#b21">[22]</ref>. Thereafter, basic operations, namely, erosion and dilation in mathematical morphology, were used by using suitable structuring element for achieving boundary continuity preserving the wound tissue information. After getting the precise wound boundary, the only actual wound bed was segmented from the filtered (𝑅𝐺𝐵) wound image for quantitative feature extraction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Feature Extraction for Tissue Subclassification.</head><p>In wound characterization, clinicians mainly target the distribution and density of the clinical features, namely, granulation, slough, and necrotic tissues, over wound bed. In order to provide the more accurate evaluation towards wound tissue classification, a set of quantitative color and textural features were computed here as these features provide useful information regarding color and microstructural descriptions of tissues.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1.">Color Features.</head><p>Wound image analysis primarily deals with color information for clinical evaluation. Clinically, color bears significant information due to the properties of light passing/reflection through tissue. In view of this, we attempted here to extract color features quantitatively for understanding the wounds in various color spaces. In this work, fifteen color spaces, namely, 𝑅𝐺𝐵, 𝐻𝑆𝐼, 𝑋𝑌𝑍, 𝐿𝑎𝑏, 𝐿𝑢V, 𝐿𝐶𝐻, 𝐻𝑆𝑉, 𝐻𝑆𝐿, 𝑌𝑈𝑉, 𝑌𝐼𝑄, CAT02 𝐿𝑀𝑆, 𝑌𝐶 𝑏 𝐶 𝑟 , JPEG-𝑌𝐶 𝑏 𝐶 𝑟 , 𝑌𝐷 𝑏 𝐷 𝑟 , and 𝑌𝑃 𝑏 𝑃 𝑟 <ref type="bibr" target="#b18">[19]</ref>, having three color components in each color space were taken and hence total 45 color channels were considered for quantifying the color properties of individual tissues without considering spatial dependency between them. Original acquired wound image in 𝑅𝐺𝐵 format was converted into other 14 color spaces by suitable conversion function <ref type="bibr" target="#b18">[19]</ref>. Five color based features, namely, mean, standard deviation, skewness, kurtosis, and variance, were extracted from each of 45 color channels for every region of interest. Let 𝑊(𝑥, 𝑦) be the segmented region of interest having total 𝑁 number of pixels in the region then color features are computed as follows:</p><formula xml:id="formula_5">Mean (𝜇) = 1 𝑁 𝑁 ∑ 𝑖=1 𝑊 𝑖 (𝑥, 𝑦) , Standard Deviation (𝜎) = √ 1 𝑁 𝑁 ∑ 𝑖=1 (𝑊 𝑖 (𝑥, 𝑦) -𝜇) 2 , Variance (𝑆 2 𝑁 ) = 1 𝑁 𝑁 ∑ 𝑖=1 (𝑊 𝑖 (𝑥, 𝑦) -𝜇) 2 , Skewness ( Ŝ) = 1 𝑁 𝑁 ∑ 𝑖=1 ( 𝑊 𝑖 (𝑥, 𝑦) -𝜇 𝜎 ) 3 , Kurtosis ( K) = 1 𝑁 𝑁 ∑ 𝑖=1 ( 𝑊 𝑖 (𝑥, 𝑦) -𝜇 𝜎 ) 4 .<label>(5)</label></formula><p>2.4.2. Texture Features. Texture represents microstructural information of self-similar pattern in a small region. Ten textural features, namely, Shannon's entropy <ref type="bibr" target="#b22">[23]</ref>, three local contrast features (based on mean, mode, and median), and six local binary pattern (LBP) features, were extracted from each of 45 color channels for every segmented wound region. Local contrast measures the variation in the pixel values of the given region with respect to a parameter chosen as a measure of the central tendency (mean, median, and mode) computed over the local region. Local contrast is computed as the difference between an average value of pixels above the central value and an average value of pixels below the central value. In view of this, three local contrast features were computed as follows:</p><formula xml:id="formula_6">Local Contrast (LC) = (𝑇 -𝐴) (𝑇 + 𝐴) , (<label>6</label></formula><formula xml:id="formula_7">)</formula><p>where 𝑇 is the average value of all the pixels whose intensity values are equal to or greater than that of selected measure of the central tendency (mean, median, and mode) and 𝐴 is a complementary average intensity value of remaining pixels which are less than the selected measure of the central tendency (mean, median, and mode). Local binary pattern (LBP) <ref type="bibr" target="#b23">[24]</ref> is a simple and efficient method for textural analysis of gray scale images (see Figure <ref type="figure" target="#fig_3">4</ref>). LBP labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number. LBP is a consolidating approach to the traditionally divergent structural and statistical models of textural analysis. Consider a sample neighborhood from the wound tissue region containing "𝑃" pixels with 𝑔 𝑐 corresponding to the gray intensity value of the centre pixel. The texture 𝑇 for this pixel is computed as</p><formula xml:id="formula_8">𝑇 = 𝑡 (𝑔 𝑐 , 𝑔 0 , 𝑔 1 , . . . , 𝑔 𝑃-1 ) ,<label>(7)</label></formula><p>where 𝑔 𝑝 (𝑝 = 0, . . . , 𝑃 -1) corresponds to the gray values of 𝑃 equally spaced pixels on a circle of radius 𝑅 as shown in Figure <ref type="figure" target="#fig_2">3</ref>. The LBP for the centre pixel is computed by</p><formula xml:id="formula_9">LBP 𝑃,𝑅 = 𝑃-1 ∑ 𝑝=0 𝑆 (𝑔 𝑝 -𝑔 𝑐 ) 2 𝑝 ,<label>(8)</label></formula><p>where</p><formula xml:id="formula_10">𝑆 (𝑥) = { 1, 𝑥 ≥ 0, 0, 𝑥 &lt; 0. (<label>9</label></formula><formula xml:id="formula_11">)</formula><p>Rotation invariance is achieved by rotating the neighbor set clockwise such that maximal number of most significant bits is zero in the LBP code: To include the local image texture contrast, a rotation invariant measure of local variance is given by</p><formula xml:id="formula_12">LBP 𝑟𝑖 𝑃,𝑅 = min {ROR (LBP 𝑃,𝑅,𝑖 ) | 𝑖 = 0, 1 . . . , 𝑃 -1} . (<label>10</label></formula><formula xml:id="formula_13">)</formula><formula xml:id="formula_14">VAR 𝑃,𝑅 = 1 𝑃 𝑃-1 ∑ 𝑝=0 (𝑔 𝑝 -𝜇) 2 ,<label>(11)</label></formula><p>where</p><formula xml:id="formula_15">𝜇 = 1 𝑃 𝑃-1 ∑ 𝑝=0 𝑔 𝑝 . (<label>12</label></formula><formula xml:id="formula_16">)</formula><p>VAR 𝑃,𝑅 was computed for three radius values as 𝑅 = 1, 2 and 3 with the corresponding pixel count 𝑃 being 8, 16, and 24, respectively. Mean of each of the LBP output image was calculated, which was combined with the mean local contrast of the image to obtain six features. Finally, a total of 675 features (5 color and 10 textural features on each of 45 color channels) were extracted. As the number of features was large, 𝐹statistic <ref type="bibr" target="#b24">[25]</ref> was used to find only the statistical significant features for classification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Statistical Learning Schemes.</head><p>Bayesian and support vector machine (SVM) being the most significant learning techniques were considered to learn the three types of wound tissues, namely, granulation, slough, and necrotic based on statistically significant color and texture features.</p><p>(A) Bayesian Learning. Bayesian classifier <ref type="bibr" target="#b25">[26]</ref> was used for classifying three tissue types using significant color and texture features. Suppose there are 𝑚 classes 𝐶 1 , 𝐶 </p><formula xml:id="formula_17">𝑃 (𝐶 𝑖 | 𝑋) = 𝑃 (𝑋 | 𝐶 𝑖 ) ⋅ 𝑃 (𝐶 𝑖 ) 𝑃 (𝑋) ,<label>(13)</label></formula><p>where 𝑃(𝐶 𝑖 ) denotes the prior probability and total probability is defined as function leads to product of marginal density functions, defined as</p><formula xml:id="formula_18">𝑃 (𝑋) = 𝑚 ∑ 𝑖=1 𝑃 (𝑋 | 𝐶 𝑖 ) 𝑃 (𝐶 𝑖 ) .<label>(14)</label></formula><formula xml:id="formula_19">𝑃 (𝑋 | 𝐶 𝑖 ) = 𝑑 ∏ 𝑘=1 𝑃 (𝑥 𝑘 | 𝐶 𝑖 ) = 𝑃 (𝑥 1 | 𝐶 𝑖 ) × 𝑃 (𝑥 2 | 𝐶 𝑖 ) × 𝑃 (𝑥 3 | 𝐶 𝑖 ) ⋅ ⋅ ⋅ × 𝑃 (𝑥 𝑑 | 𝐶 𝑖 ) .<label>(15)</label></formula><p>The tissue pixel is classified into one class where it attains the maximum posterior probability.</p><p>(B) Support Vector Machine (SVM). SVM is a well-known supervised learning technique which separates the classes more accurately especially for linearly nonseparable dataset <ref type="bibr" target="#b23">[24]</ref>. In such situation, the input space of tissue pixels is transformed into a feature space using nonlinear function "Φ, " called kernel function. The feature space is a highdimensional space in which the classes can be separated by a linear classifier. For instance, 𝑑 dimensional feature vector 𝑋 = (𝑥 1 , 𝑥 2 , . . . , 𝑥 𝑑 ) describing pixel's characteristics is considered where tissue class level 𝑦 was assigned to +1, -1. The discriminant function used in SVM with kernel function is found by 𝑔(𝑋) = 𝑊 𝑇 Φ(𝑋) + 𝑏. Here Φ(𝑋) represents the mapping of input data 𝑋 into the kernel space. Therefore, the optimization equation is found as</p><formula xml:id="formula_20">Max. [ [ 𝑛 ∑ 𝑖=1 𝛼 𝑖 - 𝑛 ∑ 𝑖,𝑗=1 𝛼 𝑖 𝛼 𝑗 𝑦 𝑖 𝑦 𝑗 Φ(𝑥 𝑖 ) 𝑇 Φ (𝑥 𝑗 ) ] ] .<label>(16)</label></formula><p>Here, linear, 2nd and 3rd order polynomial and radial basis functions (RBF) were considered as kernel functions (see Figure <ref type="figure" target="#fig_4">5</ref>) for classifying wound tissues into three classes <ref type="bibr" target="#b23">[24]</ref>. </p><p>In addition, Cohen's Kappa statistics were used here to evaluate the agreement between expert and classifier based results towards tissue pixel classification <ref type="bibr" target="#b26">[27]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>The median filtered wound images of 𝑅𝐺𝐵 format (downloaded from Medetec Image Database) were transformed into 𝐻𝑆𝐼 color space where "𝑆" component images for different wounds were considered for segmentation. Thereafter, wound areas were segmented using fuzzy divergence based thresholding where Gaussian membership based divergence value for wound was 0.45±0.02. The corresponding gray value for 𝑆 component wound images was 207.4±10.4. The machine generated segmented wound areas were also validated on ground truth images by clinical experts (Figure <ref type="figure" target="#fig_4">5</ref>). From the wound database, medical experts identified total 767 tissue regions describing 222 regions as granulation tissue, 451 regions as slough tissue, and 94 regions as necrotic tissue based on 74 wound images. Five color and ten textural features were extracted for all the selected regions. Six local binary pattern (LBP) features, namely, LBP-1 for 8, LBP-2 for 16, and LBP-3 for 24 neighborhood points were computed. Out of the total 675 extracted features, 50 features were found to be statistically significant (𝑃 &lt; 0.001) having 𝐹-value more than 21. Out of five color features only mean color value was significant. And mean values of LBP-1, LBP-2, and LBP-3 were the three features selected out of ten textural features form various color channels. Using selected features, wound tissues were classified into red granulation tissue, yellow slough tissue, and black necrotic tissue based on Bayesian and SVM classifiers. The proposed methodology was applied on various types of wound images and wound tissue pixels were recognized (Figure <ref type="figure">6</ref>). For example, in case of the 1st image in Figure <ref type="figure">6</ref>, red granulation, yellow slough, and black tissue were estimated as 64.3%, 16.6%, and 19.1%, respectively. From Table <ref type="table">1</ref>, it can be observed that Bayesian method provided 81.15% overall accuracy in predicting three types of tissue pixels.</p><p>SVM was used for the wound tissue pixel classification. Since the dataset was nonlinear in nature, different kernel functions have been used to obtain the suitable classifier. The confusion matrix shown in Table <ref type="table" target="#tab_1">2</ref> denotes wound pixel classification matrix.</p><p>From Table <ref type="table" target="#tab_2">3</ref>, it can be observed that the overall accuracy of Bayesian classifier was 81.15% whereas tissue-wise accuracies were 86.84% for granulation tissue, 78.27% for slough, and 78.72% for necrotic tissue. By comparing various kernels for SVM, it may be suggested that SVM with 3rd polynomial kernel provided the highest overall accuracy, that is, 86.13% along with tissue-wise accuracies for all three wound tissues. The results were clinically validated with the ground truths where kappa statistic value was maximum (=0.793) for SVM with 3rd polynomial kernel in comparison with others including Bayesian approach. Wannous et al. also showed tissue classification scheme for reproducible wound assessment in telemedicine environments <ref type="bibr" target="#b27">[28]</ref>. They have used one type of wound based on color and textures features. Here, six types of wound were considered to show the efficiency of our proposed method. Because of intrapixel ambiguities, the accuracy decreases while wound type increases. The proposed image processing methodology will assist a clinician to assess/monitor chronic wound's healing status through quantitative estimation of granulation, slough, and necrotic tissues in each type of wounds. In addition, it will also provide the wound area with augmented accuracy. Overall, the proposed method is able to generate efficient results in reproducible wound assessment. The paper is important in that it establishes novel technical guidelines for the evaluations of CW using relatively inexpensive technology. The proposed algorithms aid the identification of necrotic tissue within CWs in a very simple way especially in areas where there are few skilled wound care specialists. The proposed methodology requires relatively unsophisticated technology and is easily transmitted. It may assist in establishing further refinements to this technology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusion</head><p>Summarizing, the present study attempted to develop a computer aided wound tissue classification scheme for chronic wound evaluation and management using wounds' images acquired through normal digital camera. The proposed methodology included computer vision and statistical pattern classification for automated characterization of three types of wound tissues, which are frequently required for diagnosis. The results showed SVM with 3rd degree polynomial provided highest classification accuracy for separating three types of wound tissue pixels based on color and texture features. Here we considered not only color features but also texture features. Moreover, it may be concluded that present findings could have important implications to the field of clinical evaluation and management of CW. Clinicians may now be provided with an objective, reliable, and efficient computational tool for segmentation and measurement of wound area facilitating an accurate assessment of wound healing, combining dimensional measurements with tissue characterization. Future work will include validation with larger data set of chronic wound images and the exploration of the performance of different segmentation and classification algorithms based on different color, textural, and statistical features. Moreover, this methodology may be directly extrapolated to other similar environments such as tissue segmentation on burn wound images or skin tumor pictures. Overall, our findings suggest that a computer aided wound assessment tool may assist health professionals to monitor the healing of CW during treatment. It may also provide clinical guidance through telewound care in remote areas where there is lack of clinical expert in wound management. This tool for wound assessment may also assist in computing real tissue areas by mapping tissue classification results on wound 3D surfaces.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Work flow of the proposed computer assisted imaging tissue classification technique.</figDesc><graphic coords="2,428.16,240.76,54.04,50.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Photographs of chronic wounds grabbed by a digital camera.</figDesc><graphic coords="3,305.07,73.72,168.31,114.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Color conversion: (a-b) original 𝑅𝐺𝐵 images; (c-d) 𝑆 component images of (a-b) of 𝐻𝑆𝐼.</figDesc><graphic coords="4,125.64,214.39,168.13,126.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Neighborhood with different values of radius (𝑅) for calculating LBP.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: SVM based data classification.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>(</head><label></label><figDesc>C) Accuracy Computation and Statistical Validation Using Kappa Statistic. Accuracy is computed for pixel prediction for three types of wound tissues using Pixel classification accuracy (%) = Number of pixels correctly classified in one tissue class Total no. of pixels characterzing granulation, slough, and necrotic tissue × 100.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>2 , 𝐶 3 , . . . , 𝐶 𝑚 , whereas 𝑑 dimensional feature space 𝑋 = (𝑥 1 , 𝑥 2 , . . . , 𝑥 𝑑 ) is considered as wound tissue descriptors. For a particular feature set 𝑋, classifier predicts the tissue type in one of the three classes where it achieves higher posterior probability; that is, granulation pixel belongs to the class 𝐶 1 if and only if 𝑃(𝐶 𝑖 | 𝑋) &gt; 𝑃(𝐶 𝑗 | 𝑋) for 1 ≤ 𝑗 ≤ 𝑚, 𝑗 ̸ = 𝑖. Posterior probability is obtained using Bayes' theorem as</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 :</head><label>2</label><figDesc>Wound pixel classification matrix using SVM learning models.</figDesc><table><row><cell>SVM</cell><cell>Original</cell><cell>Granulation</cell><cell>Predicted pixels Slough</cell><cell>Necrotic</cell></row><row><cell></cell><cell>Granulation</cell><cell>184</cell><cell>35</cell><cell>3</cell></row><row><cell>Linear kernel</cell><cell>Slough</cell><cell>50</cell><cell>390</cell><cell>11</cell></row><row><cell></cell><cell>Necrotic</cell><cell>14</cell><cell>34</cell><cell>46</cell></row><row><cell></cell><cell>Granulation</cell><cell>182</cell><cell>33</cell><cell>7</cell></row><row><cell>2nd order polynomial</cell><cell>Slough</cell><cell>38</cell><cell>400</cell><cell>13</cell></row><row><cell></cell><cell>Necrotic</cell><cell>5</cell><cell>22</cell><cell>69</cell></row><row><cell></cell><cell>Granulation</cell><cell>195</cell><cell>23</cell><cell>4</cell></row><row><cell>3rd order polynomial</cell><cell>Slough</cell><cell>31</cell><cell>410</cell><cell>10</cell></row><row><cell></cell><cell>Necrotic</cell><cell>3</cell><cell>16</cell><cell>75</cell></row><row><cell></cell><cell>Granulation</cell><cell>184</cell><cell>32</cell><cell>6</cell></row><row><cell>RBF kernel</cell><cell>Slough</cell><cell>39</cell><cell>401</cell><cell>11</cell></row><row><cell></cell><cell>Necrotic</cell><cell>4</cell><cell>20</cell><cell>70</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 :</head><label>3</label><figDesc>Performance evaluation of various classifiers for wound tissue classification.</figDesc><table><row><cell>Statistical learning schemes</cell><cell cols="2">Tissue-wise accuracy (%) Granulation Slough</cell><cell>Necrotic</cell><cell>Overall accuracy (%)</cell><cell>Kappa statistic</cell></row><row><cell>Bayesian classifier</cell><cell>86.48</cell><cell>78.27</cell><cell>78.72</cell><cell>81.15</cell><cell>0.704</cell></row><row><cell>SVM with linear kernel</cell><cell>82.88</cell><cell>86.47</cell><cell>48.93</cell><cell>72.76</cell><cell>0.653</cell></row><row><cell>SVM with 2nd polynomial kernel</cell><cell>81.98</cell><cell>88.69</cell><cell>73.40</cell><cell>81.35</cell><cell>0.718</cell></row><row><cell>SVM with 3rd polynomial kernel</cell><cell>87.84</cell><cell>90.90</cell><cell>79.78</cell><cell>86.13</cell><cell>0.793</cell></row><row><cell>SVM with RBF kernel</cell><cell>82.88</cell><cell>88.91</cell><cell>74.46</cell><cell>80.08</cell><cell>0.697</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgment</head><p>The authors would like to acknowledge <rs type="funder">Indian Council for Medical Research (ICMR), Government of India</rs>, for financial support to carry out this work.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interests</head><p>The authors declare that there is no conflict of interests regarding the publication of this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,66.50,222.19,224.19,8.49;9,66.52,232.65,224.05,8.49" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Wound Physiology and Moist Wound Healing</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cutting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical Communications Ltd</title>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<pubPlace>Holsworthy, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.52,244.69,224.15,8.49;9,66.52,255.15,224.13,8.49;9,66.52,265.61,224.15,8.49;9,66.52,276.08,51.88,8.49" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Human skin wounds: a major and snowballing threat to public health and the economy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair and Regeneration</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="763" to="771" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.52,288.11,224.16,8.49;9,66.52,298.58,224.16,8.49;9,66.52,309.04,162.20,8.49" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">An Indian community-based epidemiological study of wounds</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Shukla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="323" to="325" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.49,321.07,224.13,8.49;9,66.52,331.54,224.19,8.49;9,66.52,342.00,139.07,8.49" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Technological advances in wound bed measurements</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Romanelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gaggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Piaggesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coluccia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rizello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="58" to="66" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.50,354.04,224.18,8.49;9,66.52,364.50,224.16,8.49;9,66.52,374.95,224.15,8.49;9,66.52,385.42,58.35,8.49" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Multi-dimensional color histograms for segmentation of wounds in images</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fexa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Image Analysis and Recognition</title>
+		<title level="s">Lecture Notes in Computer Science</title>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">3656</biblScope>
+			<biblScope unit="page" from="1014" to="1022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.49,397.45,224.17,8.49;9,66.52,407.91,224.17,8.49;9,66.52,418.38,154.92,8.49" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An active contour model for measuring the area of leg ulcers</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Medical Imaging</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1202" to="1210" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.52,430.41,224.16,8.49;9,66.52,440.88,224.16,8.49;9,66.52,451.34,180.80,8.49" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Improved active contour models with application to measurement of leg ulcers</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Electronic Imaging</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="317" to="326" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.52,463.38,224.16,8.49;9,66.52,473.84,224.17,8.49;9,66.52,484.30,152.33,8.49" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Border detection on digitized skin tumor images</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">V</forename><surname>Stoecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Moss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Medical Imaging</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1128" to="1143" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.52,496.34,224.15,8.49;9,66.52,506.80,224.15,8.49;9,66.52,517.26,73.01,8.49" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Skin texture modeling</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename><surname>Cula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Dan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Computer Vision</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="97" to="119" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,67.27,527.40,223.39,10.39;9,66.52,539.76,224.16,8.49;9,66.52,550.22,224.16,8.49;9,66.52,560.69,224.17,8.48;9,66.52,571.14,177.46,8.49" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Segmentation and analysis of the tissue composition of dermatological ulcers</title>
+		<author>
+			<persName><forename type="first">É</forename><forename type="middle">A G</forename><surname>Dorileo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A C</forename><surname>Frade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Rangayyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Azevedo-Marques</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 23rd Canadian Conference on Electrical and Computer Engineering (CCECE &apos;10)</title>
+		<meeting>the 23rd Canadian Conference on Electrical and Computer Engineering (CCECE &apos;10)<address><addrLine>Calgary, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010-05">May 2010</date>
+			<biblScope unit="page" from="2" to="5" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.52,583.18,224.14,8.49;9,66.52,593.64,224.16,8.49;9,66.52,604.10,224.15,8.49;9,66.52,614.57,52.73,8.49" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Segmentation and analysis of leg ulcers color images</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gonzaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Alves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of International Workshop on Medical Imaging and Augmented Reality</title>
+		<meeting>International Workshop on Medical Imaging and Augmented Reality</meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="262" to="266" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.52,626.60,224.16,8.49;9,66.52,637.07,224.14,8.49;9,66.52,647.54,224.19,8.48;9,66.52,657.98,144.83,8.49" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Casebased tissue classification for monitoring leg ulcer healing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Galushka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bradley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 18th IEEE Symposium on Computer-Based Medical Systems</title>
+		<meeting>the 18th IEEE Symposium on Computer-Based Medical Systems</meeting>
+		<imprint>
+			<date type="published" when="2005-06">June 2005</date>
+			<biblScope unit="page" from="353" to="358" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.52,670.03,224.16,8.49;9,66.52,680.48,224.17,8.49;9,66.52,690.94,224.15,8.49;9,66.52,701.41,18.03,8.49" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Automated pressure ulcer lesion diagnosis for telemedicine systems</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Kosmopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Tzevelekou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Engineering in Medicine and Biology Magazine</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="18" to="22" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,66.52,713.44,224.16,8.49;9,66.52,723.91,224.19,8.49;9,66.52,734.37,207.25,8.49" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A computer assisted diagnosis tool for the classification of burns by depth of injury</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Serrano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Acha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gómez-Cía</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Acha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Roa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Burns</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="275" to="281" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,324.55,74.84,224.16,8.49;9,324.55,85.31,224.16,8.49;9,324.55,95.76,224.17,8.49;9,324.55,106.23,224.15,8.48;9,324.55,116.68,146.76,8.49" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Supervised tissue classification from color images for a complete wound assessment tool</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wannous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 29th Annual International Conference of IEEE-EMBS, Engineering in Medicine and Biology Society (EMBC &apos;07)</title>
+		<meeting>the 29th Annual International Conference of IEEE-EMBS, Engineering in Medicine and Biology Society (EMBC &apos;07)</meeting>
+		<imprint>
+			<date type="published" when="2007-08">August 2007</date>
+			<biblScope unit="page" from="6031" to="6034" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,324.57,129.14,224.09,8.49;9,324.55,139.60,224.16,8.49;9,324.55,150.06,224.16,8.49;9,324.55,160.52,224.19,8.49" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Towards a comprehensive assessment of wound-composition using color-image processing</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nayak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Galigekere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE International Conference on Image Processing (ICIP &apos;09)</title>
+		<meeting>the IEEE International Conference on Image Processing (ICIP &apos;09)</meeting>
+		<imprint>
+			<date type="published" when="2009-11">November 2009</date>
+			<biblScope unit="page" from="4185" to="4188" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,324.53,172.98,224.14,8.49;9,324.55,183.44,224.15,8.49;9,324.55,193.89,81.54,8.49" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Wound dressings</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Epidermis in Wound Healing</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Rovee</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">I</forename><surname>Maibach</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Boca Raton, Fla, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,324.53,206.35,224.17,8.49;9,324.55,216.81,224.13,8.49;9,324.55,227.26,47.58,8.49" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">A Collaborative Practice Manual</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sussman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Bates-Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wound</forename><surname>Care</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Lippincott Williams &amp; Wilkins</publisher>
+		</imprint>
+	</monogr>
+	<note>3rd edition</note>
+</biblStruct>
+
+<biblStruct coords="9,324.55,239.71,224.17,8.49;9,324.55,250.18,191.21,8.49" xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Woods</surname></persName>
+		</author>
+		<title level="m">Digital Image Processing</title>
+		<meeting><address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Prentice Hall</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>2nd edition</note>
+</biblStruct>
+
+<biblStruct coords="9,324.51,262.62,224.18,8.49;9,324.55,273.09,224.16,8.49;9,324.55,283.55,224.16,8.49;9,324.55,294.01,110.07,8.49" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Watershed segmentation of cervical images using multiscale morpholigcal gradient and HSI color space</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nallaperumal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Krishnaveni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Imaging Science and Engineering</title>
+		<imprint>
+			<biblScope unit="page" from="212" to="216" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,324.51,306.46,224.21,8.49;9,324.55,316.92,223.11,8.49" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Segmentation using fuzzy divergence</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chaira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Ray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognition Letters</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1837" to="1844" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,324.51,329.38,224.20,8.49;9,324.55,339.84,224.16,8.49;9,324.55,350.30,87.01,8.49" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Automated leukocyte recognition using fuzzy divergence</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Ray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Micron</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="840" to="846" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,324.53,362.75,224.19,8.49;9,324.55,373.22,221.79,8.49" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Elements of Information Theory</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Cover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Willey Series in Telecommunication</title>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<publisher>Wiley-Interscience</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,324.55,385.67,224.16,8.49;9,324.55,396.13,64.53,8.49" xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Webb</surname></persName>
+		</author>
+		<title level="m">Statistical Pattern Recognition</title>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>2nd edition</note>
+</biblStruct>
+
+<biblStruct coords="9,324.55,408.58,224.17,8.49;9,324.55,419.05,82.41,8.49" xml:id="b24">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Zar</surname></persName>
+		</author>
+		<title level="m">Biostatistical Analysis</title>
+		<meeting><address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Prentice Hall</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>5th edition</note>
+</biblStruct>
+
+<biblStruct coords="9,324.53,431.49,224.19,8.49;9,324.55,441.96,137.74,8.49" xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kamber</surname></persName>
+		</author>
+		<title level="m">Data Mining: Concepts and Techniques</title>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>2nd edition</note>
+</biblStruct>
+
+<biblStruct coords="9,324.54,454.41,224.15,8.49;9,324.55,464.88,222.48,8.49" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A coefficient of agreement for nominal scales</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Educational and Psychological Measurement</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="37" to="46" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,324.52,477.32,224.20,8.49;9,324.55,487.79,224.14,8.49;9,324.55,498.25,224.13,8.49;9,324.55,508.71,47.74,8.49" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Robust tissue classification for reproducible wound assessment in telemedicine environments</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wannous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+		<idno>ID 023002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Electronic Imaging</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

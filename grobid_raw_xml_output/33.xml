@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Moi</forename><surname>Hoon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+							<email>manu.goyal@stu.mmu.ac.uk</email>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+							<email>m.yap@mmu.ac.uk</email>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+							<email>n.reeves@mmu.ac.uk</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computing</orgName>
+								<orgName type="department" key="dep2">Math-ematics and Digital Technology</orgName>
+								<orgName type="institution">Manchester Metropolitan University</orgName>
+								<address>
+									<postCode>M1 5GD</postCode>
+									<settlement>Manchester</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Research Centre for Musculoskeletal Science &amp; Sports Medicine</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">School of Healthcare Science</orgName>
+								<orgName type="department" key="dep2">Faculty of Science and Engineering</orgName>
+								<orgName type="institution">Manchester Metropolitan University</orgName>
+								<address>
+									<postCode>M1 5GD</postCode>
+									<settlement>Manchester</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Lancashire Teaching Hospital</orgName>
+								<address>
+									<postCode>PR2 9HT</postCode>
+									<settlement>Preston</settlement>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">58A3250F9003DA147B7D7E93AF3941B6</idno>
+					<idno type="DOI">10.1109/JBHI.2018.2868656</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="594.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>D IABETIC foot ulcers (DFU) that affect the lower extrem- ities are a major complication of Diabetes. According to the global prevalence data of International Diabetes Federation in 2015, annually, DFU develop in 9.1 million to 26.1 million people with diabetes worldwide <ref type="bibr" target="#b0">[1]</ref>. It has been estimated that patients with diabetes have a lifetime risk of 15% to 25% in developing a DFU, with 85% of lower limb amputations occurring due to an infected DFU that did not heal <ref type="bibr" target="#b1">[2]</ref>, <ref type="bibr" target="#b2">[3]</ref>. In a more recent study, when additional data is considered, the risk is suggested to be in-between 19% to 34% <ref type="bibr" target="#b3">[4]</ref>.</p><p>Due to the proliferation of Information Communication Technology, the intelligent automated telemedicine systems are often tipped as one of the most cost-effective solutions for remote detection and prevention of DFU. Telemedicine systems along with current healthcare services can integrate with each other to provide more cost-effective, efficient and quality treatment for DFU. In recent years, there has been a rapid development in computer vision, especially towards the difficult and vital issues of understanding images from different domains such as spectral, medical, object detection <ref type="bibr" target="#b4">[5]</ref> and human motion analysis <ref type="bibr" target="#b5">[6]</ref>. The computer vision and deep learning algorithms are extensively used for the analysis of medical imaging of various modalities such as MRI, CT scan, X-ray, dermoscopy, and ultrasound <ref type="bibr" target="#b6">[7]</ref>. Recently, computer vision algorithms are extended to assess different types of skin condition such as skin cancer and DFU <ref type="bibr" target="#b7">[8]</ref>, <ref type="bibr" target="#b8">[9]</ref>.</p><p>From a computer vision and medical imaging perspective, there are three common tasks that can be performed for the detection of abnormalities on medical images, which are 1) Classification 2) Localization 3) Segmentation. These tasks on DFU are illustrated by Fig. <ref type="figure" target="#fig_1">1</ref>. Various researchers have made contributions related to computerised methods for the detection of DFU. We divided these contributions into four categories:</p><p>1) Algorithms development based on basic image processing and traditional machine learning techniques 2) Algorithms development based on deep learning techniques 3) Research based on different modalities of images 4) Smartphone applications for DFU Several studies suggested computer vision methods based on basic image processing approaches and supervised traditional machine learning for the detection of DFU/wound. Mainly, these studies have performed the segmentation task by extracting texture descriptors and color descriptors on small patches of wound/DFU images, followed by traditional machine learning algorithms to classify them into normal and abnormal skin patches <ref type="bibr" target="#b10">[11]</ref>- <ref type="bibr" target="#b13">[14]</ref>. In conventional machine learning, the handcrafted features are usually affected by skin shades, illumination, and image resolution. Also, these techniques struggled to segment the irregular contour of the ulcers or wounds. On the other hand, the unsupervised approaches rely upon image processing techniques, edge detection, morphological operations and clustering algorithms using different color space to segment the wounds from images <ref type="bibr" target="#b14">[15]</ref>- <ref type="bibr" target="#b16">[17]</ref>. Wang et al. <ref type="bibr" target="#b17">[18]</ref> used an image capture box to capture image data and determined the area of DFU using cascaded two-stage SVM-based classification. They proposed the use of superpixel technique for segmentation and extracted the number of features to perform two-stage classification. Although this system reported promising results, it has not been validated on a more substantial dataset. In addition, the image capture box is very impractical for data collection as there is a need for the patient's barefoot to be placed directly in contact with the screen of image capture box. In healthcare, such setting would not be allowed due to the concerns regarding infection control.</p><p>The majority of these methods involve manually tuning of the parameters according to different input images and multistage processing which make them hard to implement in clinical settings. These state-of-the-art methods were validated on relatively small datasets, ranging from 10 to 172 images. Current state-of-the-art methods based on basic image processing and traditional machine learning techniques are not robust, due to their nature of reliance on specific regulators and rules, with certain assumptions.</p><p>In contrast to traditional machine learning, deep learning methods do not require such intense assumptions and have demonstrated superiority in DFU localization and segmentation of DFU, which suggests that the robust fully automated detection of DFU may be achieved, by adopting such approach <ref type="bibr" target="#b8">[9]</ref>, <ref type="bibr" target="#b9">[10]</ref>, <ref type="bibr" target="#b18">[19]</ref>. In the field of deep learning, several researchers made contributions on the classification and segmentation of DFU. Goyal et al. <ref type="bibr" target="#b8">[9]</ref> proposed a new deep learning framework called DFUNet which classified the skin lesions of the foot region into two classes, i.e. normal skin (healthy skin) and abnormal skin (DFU). In addition, they used deep learning methods for the semantic segmentation of DFU and its surrounding skin with a limited dataset of 600 images <ref type="bibr" target="#b9">[10]</ref>. Wang et al. <ref type="bibr" target="#b18">[19]</ref> proposed a new deep learning architecture based on encoder-decoder to perform wound segmentation and analysis to measure the healing progress of wound. To date, this paper is the first attempt to develop deep learning methods for the DFU localization task.</p><p>Then, in a separate study from computer vision techniques, van Netten et al. <ref type="bibr" target="#b19">[20]</ref> proposed the detection of DFU using a different modality called infra-red thermal imaging. They found that there is a significant temperature difference between the DFU and the surrounding healthy skin of the foot. Hence, they used this considerable temperature difference on a heat-map to detect the DFU. Liu et al. presented a preliminary case study to evaluate the effectiveness of infra-red dermal thermography on diabetic feet soles to identify pre-signs of ulceration <ref type="bibr" target="#b20">[21]</ref>. Harding et al. <ref type="bibr" target="#b21">[22]</ref> performed a study to assess the infra-red imaging for the prevention of secondary osteomyelitis. Similarly, infrared thermography has been used in various studies to detect the complications related to the DFU <ref type="bibr" target="#b22">[23]</ref>, <ref type="bibr" target="#b23">[24]</ref>.</p><p>Health applications on the smartphone are fast becoming popular in monitoring essential aspects of the human body. Yap et al. <ref type="bibr" target="#b24">[25]</ref>, <ref type="bibr" target="#b25">[26]</ref> developed an app called FootSnap, which is used to produce the standardized dataset of the DFU images. This application used basic image processing techniques such as edge detection to provide the ghost images of the foot which is useful to monitor the progress of DFU. Since this was designed to standardise image capture conditions, it did not perform any automated detection function. Recently, Brown et al. <ref type="bibr" target="#b26">[27]</ref> developed a smartphone application called MyFootCare, which provides useful guidance to the DFU patients as well as keep the record of foot images. In this application, the end-users need to crop the patch of the captured image, and with basic color clustering algorithms, it can produce DFU segmentation. But, previous research <ref type="bibr" target="#b9">[10]</ref> has already shown that the basic clustering algorithms are not robust enough to provide accurate DFU segmentation on full foot images.</p><p>The major challenges of DFU localization task are as follow: 1) Expensive in data collection and expert labelling on the DFU dataset; 2) High inter-class similarity between the DFU lesions and intraclass variation depending upon the classification of DFU <ref type="bibr" target="#b28">[29]</ref>; and 3) Lighting conditions and patient's ethnicity. In this work, we provide a large-scale annotated DFU dataset and propose an end-to-end mobile solution for DFU localisation.</p><p>The key contributions of this paper include:</p><p>1) We present one of the largest DFU dataset, which consists of 1775 images with annotated bounding box indicating the ground truth of DFU location. To date, the largest dataset we encountered is of 600 DFU images, where it was used for the semantic segmentation of DFU and its surrounding skin <ref type="bibr" target="#b9">[10]</ref>. 2) We propose the use of convolutional neural networks (CNNs) to localize DFU in real-time with two-tier transfer learning. To our best knowledge, this is the first time CNNs are used for this task. Since our main focus is on mobile devices, we emphasize on light-weight object localization models. 3) Finally, we demonstrate the application of our proposed methods on two types of mobile devices: Nvidia Jetson TX2 and an android mobile application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. METHODOLOGY</head><p>This section describes the preparation of the dataset and expert labeling of the DFU on foot images. The description of CNNs for DFU localization is detailed. Finally, the performance metrics used for validation are reported.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. DFU Dataset</head><p>We received NHS Research Ethics Committee approval with REC reference number 15/NW/0539 to use the foot images of DFU for our research. Foot images with DFU were collected from the Lancashire Teaching Hospitals over the past few years. Our dataset has a total of 1775 foot images with DFU. There were three cameras mainly used for capturing the foot images, Kodak DX4530, Nikon D3300 and Nikon COOLPIX P100. Whenever possible, the images were acquired with close-ups of the full foot with the distance of around 30-40 cm with the parallel orientation to the plane of an ulcer. The use of flash as the primary light source was avoided, and instead, adequate room lights are used to get the consistent colors in images. The sample foot images in the dataset are shown in the Fig. <ref type="figure" target="#fig_2">2</ref>. To test the specificity measure for the algorithms, we have included 105 healthy foot images in the DFU dataset from the FootSnap application <ref type="bibr" target="#b25">[26]</ref>.</p><p>In this dataset, the size of images varies between 1600 × 1200 and 3648 × 2736. We resized all the images to 640 × 640 to improve the performance and reduce the computational costs. We used Hewitt et al. <ref type="bibr" target="#b27">[28]</ref> annotation tool for producing the ground truths in the form of bounding box as shown in Fig. <ref type="figure" target="#fig_3">3</ref>.  The ground truth was produced by two healthcare professionals (a podiatrist and a consultant physician with specialization in the diabetic foot) specialized in diabetic wounds and ulcers. When there was disagreement, the final decision was mutually settled with the consent of both. In the DFU dataset, there is only one bounding box in approximately 90% of the images, two bounding boxes in 7% and finally, more than two bounding boxes in the remaining 3% images of the whole dataset. The medical experts delineated a total of 2080 DFUs (some images with more than one ulcer) using an annotator software. As shown in the Fig. <ref type="figure" target="#fig_4">4</ref>, approximately 88% DFU have the size less than 10% of the actual size of an image. The size varied considerably across the DFUs in the dataset.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Conventional Methods for DFU Localization</head><p>In this section, we assessed the performance of conventional methods for the localization of DFU. For traditional machine learning, we delineated 2028 normal skin patches and 2080 abnormal skin patches for feature extraction and training of classifier using 5-fold cross-validation <ref type="bibr" target="#b8">[9]</ref>. We also used dataaugmentation techniques such as flipping, rotation, random crop, color channels to make a total of 28392 normal and 29120 abnormal patches. 80% of the image data is used to train the classifier and remaining 20% of the data is used as test im-ages. Since these two classes of skin (normal and abnormal) have significant textural differences amongst them, we investigated various feature extraction techniques including low-level features such as edge detection, corner detection <ref type="bibr" target="#b29">[30]</ref>, texture descriptors such as Local Binary Patterns (LBP) <ref type="bibr" target="#b30">[31]</ref>, Gabor filter <ref type="bibr" target="#b31">[32]</ref>, Histogram of Oriented Gradients (HOG) <ref type="bibr" target="#b32">[33]</ref>, shape based descriptors such as hough transform <ref type="bibr" target="#b33">[34]</ref> and color descriptors such as Normalized RGB, HSV, and L*u*v features <ref type="bibr" target="#b34">[35]</ref>. With exhaustive feature selection technique, we settled with LBP, HOG, color descriptors to extract features from skin patches of both normal and abnormal classes. For a single patch, 209 features were extracted with above mentioned feature extraction techniques. After the feature extraction from images, we used Quadratic support vector machine <ref type="bibr" target="#b35">[36]</ref> as a classifier for the classification task. Then, to perform DFU localization task with multiple scales, we used the sliding window approach to mask each box if the corresponding patch is detected as ulcer by trained classifier.</p><p>This technique has achieved a good score in evaluation metrics, 70.3% in Mean Average Precision. The conventional machine learning methods require a lot of intermediate steps like pre-processing of images, extracting hand-crafted features and multiple stages to get the final results which makes them very slow. Whereas, deep learning provides the faster end-to-end models on various computing platforms which simply take images as input and provide the final localization results as output.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Deep Learning Methods for DFU Localization</head><p>CNNs proved their superiority compared to the conventional machine learning techniques in image recognition tasks such as ImageNet <ref type="bibr" target="#b36">[37]</ref> and MS-COCO challenges <ref type="bibr" target="#b37">[38]</ref>. They are very capable of classifying the images into different classes of objects from both non-medical and medical imaging by extracting the hierarchies of features. One of the important tasks in computer vision is object localization where algorithms need to localize and identify the multiple objects in an image. Mainly, object localization networks consist of three stages as described in the following subsections.</p><p>1) CNN as Feature Extractor: In Stage 1, the standard CNN such as MobileNet, InceptionV2, the convolutional layers extract the features from input images as feature maps. These feature maps are used to identify the objects in the image with particular attention focused on DFU regions as shown in the Fig. <ref type="figure" target="#fig_5">5</ref>. These feature maps serve as input for the later stages such as generation of proposals in the second stage and classification and regression of RoI in the third stage.</p><p>2) Generation of Proposals and Refinement: In Stage 2, the network scans the image in a sliding-window fashion and finds specific areas that contain the objects using the feature map extracted in Stage 1. These areas are known as proposals which have different boxes distributed over the image. In general, around 200,000 proposals of different sizes and aspect ratios are found to cover as many objects as possible in the image. With GPU, Faster-RCNN produces these much anchors in 10 ms <ref type="bibr" target="#b38">[39]</ref>. Stage 2 generates two outputs for each proposal:  The foreground class means there is likely an object in that proposal and it is also known as a positive proposal. r Proposal Refinement: A positive proposal might not be perfectly captured the object. So the network estimates a delta (% change in x, y, width, height) for refinement of the proposal box to center the object better as illustrated in Fig. <ref type="figure" target="#fig_6">6</ref>. r Bbox Refinement: Its purpose is to refine the location of RoI boxes. We considered three types of object localization networks to perform on the DFU dataset. First is Faster R-CNN <ref type="bibr" target="#b38">[39]</ref>, which is a successor of Fast R-CNN <ref type="bibr" target="#b39">[40]</ref> for object localization in terms of speed. It consists of all three stages of object localization network as shown in the Fig. <ref type="figure" target="#fig_9">8</ref>. It has two-stage loss   Single Shot Multibox Detector (SSD) <ref type="bibr" target="#b41">[42]</ref> is a new architecture for the object localization which uses a single stage CNN to predict classes directly and anchor offsets without the need of second stage proposal generator unlike Faster R-CNN <ref type="bibr" target="#b38">[39]</ref> and R-FCN <ref type="bibr" target="#b40">[41]</ref> as shown in the Fig. <ref type="figure" target="#fig_11">10</ref>. The SSD meta-architecture produces anchors much faster than other object localization networks, which makes it more suitable for the mobile platforms.</p><p>There are six popular state-of-the-art object localization models which are based on these three region based detector metaarchitectures i.e. Single Shot multibox detector <ref type="bibr" target="#b41">[42]</ref>, R-FCN <ref type="bibr" target="#b40">[41]</ref> and Faster R-CNN <ref type="bibr" target="#b38">[39]</ref>. These three meta-architectures used the state-of-the-art classification algorithms like Mo-bileNet <ref type="bibr" target="#b42">[43]</ref>, InceptionV2 <ref type="bibr" target="#b43">[44]</ref>, ResNet101 <ref type="bibr" target="#b44">[45]</ref>, Inception-ResNetV2 <ref type="bibr" target="#b45">[46]</ref> to get the anchor boxes from the features maps, and finally, classify these anchors to different classes. Table <ref type="table">I</ref> summarises the size of models, speed (inference per image), and accuracy (mAP) trained on MS-COCO dataset with 90 classes <ref type="bibr" target="#b37">[38]</ref>, <ref type="bibr" target="#b46">[47]</ref>.</p><p>Since our work is limited by the hardware on mobile devices and real-time prediction, we only considered lightweight models (very small, low latency) in terms of size of the model and inference speed. We used the first three models (SSD-MobileNet, SSD-InceptionV2 and Faster R-CNN with InceptionV2) for the DFU dataset as illustrated in Table <ref type="table">I</ref>. These small models are specifically chosen to match the resource restrictions (latency, size) on mobile devices for this application. To evaluate the performance of DFU localization using heavy model, we also include R-FCN with ResNet101 to our experiment.</p><p>Inception-V2 is a new iteration of the original inception architecture called GoogleNet with new features such as factorization of bigger convolution kernels to multiple smaller convolution kernels and improved normalization. For the first time, this network used depth-wise separable convolutions to reduce the computations in the first few layers. They also in- <ref type="bibr" target="#b37">[38]</ref> troduced batch normalization layer which can decrease internal covariate shift, also combat the gradient vanishing problem to improve the convergence during training <ref type="bibr" target="#b43">[44]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TABLE I PERFORMANCE OF STATE-OF-THE-ART OBJECT LOCALIZATION MODELS ON MS-COCO DATASET</head><p>MobileNet is a recent lightweight CNN which uses depthwise separable convolutions to build small, low latency models with a reasonable amount of accuracy that matches the limited resource on mobile devices. The basic block of depth-wise separable convolution consists of depth-wise convolution and pointwise convolution. The 3 × 3 depth-wise convolution is used to apply a single filter per each input channel whereas pointwise convolution is just simple 1 × 1 convolution used to create the linear combination of the depth-wise convolution output. Also, it uses both batchnorm layers as well as RELU layers after both layers <ref type="bibr" target="#b42">[43]</ref>.</p><p>ResNet101 is one of the residual learning networks which won the first place on ILSVRC 2015 classification task <ref type="bibr" target="#b44">[45]</ref>. As suggested by the name, ResNet101 is a very deep network consists of 101 layers which is about 5 times much deeper than VGG nets but still having lower complexity. The core idea of ResNet is providing shortcut connection between layers, which make it safe to train very deep network to gain maximal representation power without worrying about the degradation problem, i.e., learning difficulties introduced by deep layers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. The Transfer Learning Approach</head><p>CNNs requires a considerable dataset to learn the features to get the positive results for detection of objects in images <ref type="bibr" target="#b4">[5]</ref>. It is vital to use transfer learning from massive datasets in non-medical backgrounds such as ImageNet and MS-COCO dataset to converge the weights associated with each convolutional layers of network <ref type="bibr" target="#b9">[10]</ref>, <ref type="bibr" target="#b47">[48]</ref>, <ref type="bibr" target="#b48">[49]</ref> for training the limited dataset. The main reason for using two-tier transfer learning in this work is because, the medical imaging datasets are very limited. Hence, when CNNs are trained from scratch on these datasets, they do not produce useful results. There are two types of transfer learning i.e. partial transfer learning in which only the features from few convolutional layers are transferred and full transfer learning in which features are transferred from all the layers of previous pre-trained models. We used both types of transfer learning known as two-tier transfer learning <ref type="bibr" target="#b9">[10]</ref>. In the first tier, we used partial transfer learning by transferring the features only from the convolutional layers trained on most significant classification challenge dataset called ImageNet which consists of more than 1.5 million images with 1000 classes <ref type="bibr" target="#b36">[37]</ref>. In the second tier, we used full transfer learning to transfer the features from a model trained on object localization dataset called MS-COCO that consists of more than 80000 images with 90 classes <ref type="bibr" target="#b37">[38]</ref>. Hence, we used the two-tier transfer learning technique to produce the pre-trained model for all frameworks in our DFU localization task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Performance Measures of Deep Learning Methods</head><p>We used four performance metrics i.e. Speed, Size of the model, mean average precision (mAP), and Overlap Percentage. The Speed determines the time model takes to perform inference on single image whereas Size of the model is the total size of the frozen model that is used for the inference of test images. These are crucial factors for the real-time prediction on mobile platforms. The mAP has an "overlap criterion" of intersection-over-union greater than 0.5. The mAP is an important performance metric extensively used for the evaluation of the object localization task. The prediction by model to be considered a correct detection, the area of overlap A o between the bounding box of prediction B p and bounding box of ground truth B g must exceed 0.5 (50%) <ref type="bibr" target="#b49">[50]</ref>. The last evaluation metric is called Overlap Percentage, which is mean average of intersection over union for all correct detection.</p><formula xml:id="formula_0">A o = area(B p ∩ B g ) area(B p ∪ B g )<label>(1)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. EXPERIMENT AND RESULT</head><p>As mentioned previously, we used the deep learning models based on three meta-architectures for the DFU localization task. Tensorflow object detection API <ref type="bibr" target="#b46">[47]</ref> provides an open source framework which makes very convenient to design and build various object localization models. The experiments were carried out on the DFU dataset and evaluated with 5-fold crossvalidation technique. First, we randomly split the whole dataset into 5 testing sets (20% each) for 5-fold cross validation. This is to ensure that the whole dataset was evaluated on testing sets. For each testing set (20%), the remaining images was randomly split into 70% for training set and 10% validation set. Hence, for each fold, we divided the whole dataset of 1775 images into approximately 1242 images in training set, 178 in validation set and 355 in testing set. This was repeated for 5-fold to ensure the whole dataset was included in testing set.</p><p>a) Configuration of GPU Machine for Experiments: (1) Hardware: CPU -Intel i7-6700 @ 4.00 Ghz, GPU -NVIDIA TITAN X 12 GB, RAM -32 GB DDR4 (2) Software: Tensor-flow <ref type="bibr" target="#b46">[47]</ref>.</p><p>We tested four state-of-the-art deep convolutional networks for our proposed object localization task as described in Section III B. We trained the models with input-size of 640 × 640 using stochastic gradient descent with different learning rate on Nvidia GeForce GTX TITAN X card. We initialised the network with pre-trained weights using transfer learning rather than randomly initialized weights for the better convergence of the network. We tested the multiple learning rates by decreasing the original learning rates with the 10 and 100 times as well as multiplication factor from 1 to 5 to check the overall minimal validation loss. For example, if the original Inception-V2 learning rate was set at 0.001. Then, for training on DFU dataset, we used 10 learning rates of 0.0001, 0.0002, 0.0003, 0.0004, 0.0005, 0.00001, 0.00002, 0.00003, 0.00004, 0.00005.</p><p>We used 100 epochs for training of each reported model, which we found are sufficient to train the DFU dataset as both training and validation loss finally converge to optimal lowest. We selected the models on the basis of minimum validation losses for the evaluation. We tried different hyper-parameters such as learning rate, number of steps and data augmentation options for each model to minimize both training and validation losses. In next section, we report the different network hyper-parameters and configurations for each model used for evaluation on the DFU dataset.</p><p>We set the appropriate hyper-parameters on the basis of metaarchitecture to train the models on DFU dataset. For SSD, we used two CNNs, MobileNet and Inception-V2 (both of them use depth-wise separable convolutions), we set the weight for l2_regularizer as 0.00004, initializer that generates a truncated normal distribution with standard deviation of 0.03 and mean of 0.0, batch_norm with decay of 0.9997 and epsilon of 0.001. For training, we used a batch size of 24, optimizer as RMS_Prop with a learning rate of 0.004 and decay factor of 0.95. The momentum optimizer value is set at 0.9 with a decay of 0.9 and epsilon of 0.1. We also used two types of data augmentation as random horizontal flip and random crop. For Faster-RCNN, we set the weight for l2_regularizer as 0.0, initializer that generates a truncated normal distribution with standard deviation of 0.01, batch_norm with decay of 0.9997 and epsilon of 0.001. For training, we used a batch size of 2, optimizer as momentum with manual step learning rate with an initial rate as 0.0002, 0.00002 at epoch 40 and 0.000002 at epoch 60. The momentum optimizer value is set at 0.9. For training RFCN, we used same hyper-parameters as Faster-RCNN with only change in the learning rate set as 0.0005. For data augmentation, we used only random horizontal flip for these two meta-architectures.</p><p>In Table <ref type="table" target="#tab_0">II</ref>, we report the performance evaluation of object localization networks for DFU dataset on 5-fold cross validation. Overall, all the models achieved promising localization results with high confidence on DFU dataset. Few instances of accurate localization by all trained models are demonstrated by the Fig. <ref type="figure" target="#fig_12">11</ref>. SSD-MobileNet ranked first in the Size of Model and Average Speed performance index. This is mainly due to the simpler architecture to generate anchor boxes in SSD <ref type="bibr" target="#b41">[42]</ref>. Whereas in Ulcer mAP and Overlap Percentage, R-FCN with ResNet101 and Faster R-CNN with InceptionV2 were almost equally competitive in these performance measures. In Ulcer mAP, Faster R-CNN with InceptionV2 ranked first with overall mAP of 91.8%, just slightly better than R-FCN with ResNet101 with mAP of 90.6%. But, in Overlap Percentage, R-FCN-Resnet101 achieved a score of 96.1%, which was slightly better than Faster R-CNN with Inception. SSD-InceptionV2 ranked third in both of these performance measure categories with difference of 4.6% in Ulcer mAP and 3.5% in Overlap Percentage from the first position. In performance measures, overall Faster R-CNN with InceptionV2 was the best performer, and the most lightweight SSD-MobileNet emerged as the worst performer in terms of accuracy. Finally, we tested models on the dataset of 105 healthy foot images for specificity measure. None of the above-mentioned models produce any DFU localization on these healthy images.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Inaccurate DFU Localization Cases</head><p>In this work, we explored different object localization metaarchitectures to localize DFU on full foot images. Although the performance of all models is quite accurate as shown in the Fig. <ref type="figure" target="#fig_12">11</ref>, this section explores inaccurate localization cases by trained models on DFU dataset in 5-fold cross-validation as shown in the Fig. <ref type="figure" target="#fig_13">12</ref>. We found that trained models were struggled to localize the DFU of very small size and that has the similar skin tone of the foot especially, SSD-MobileNet and SSD-InceptionV2. There are cases of DFU that have very subtle features, not even, most accurate models such as Faster-RCNN with InceptionV2 and R-FCN with ResNet101 were able to detect these conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. INFERENCE OF TRAINED MODELS ON NVIDIA JETSON TX2 DEVELOPER KIT</head><p>Nvidia Jetson TX2 is the latest mobile computer hardware with an onboard 5-megapixel camera and a GPU card for the remote deep learning applications as shown in the Fig. <ref type="figure" target="#fig_14">13</ref>. However, it is not capable of training large deep learning models. We installed tensor-flow specifically designed for this hardware to produce inference from the DFU localization models that we trained on the GPU machine. Jetson TX2 is a very compact and portable device that can be used in various remote locations.</p><p>b) Configuration of Jetson TX2 for Inference: (1) Hardware: CPU -dual-core NVIDIA Denver2 + quad-core ARM Cortex-A57, GPU -256-core Pascal GPU, RAM -8 GB LPDDR4 (2) Software: Ubuntu Linux 16.04 &amp; Tensor-flow.</p><p>We did not find any difference in the prediction of the models on Jetson TX2 hardware and the GPU machine; the only let-off is the slow inference speed on the Jetson TX2. It is obviously  due to limited hardware compared to the GPU machine. For example, the speed of SSD-MobileNet was 70 ms per inference on Jetson TX2 as compared to 30 ms on GPU machine. Also, for real-time localization, models can produce the visualization of maximum 5 fps using the on-board camera with lightweight model. Fig. <ref type="figure" target="#fig_4">14</ref> demonstrates the inference using Jetson TX2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. REAL-TIME DFU LOCALIZATION WITH SMARTPHONE APPLICATION</head><p>Training and inference of the deep learning frameworks on smartphone are challenging tasks due to limited resources of a smartphone. Hence, we trained these object localization frameworks on the desktop with a GPU card. We utilized the   We tested our prototype application for the real-time application in real-time healthcare settings as shown in the Fig. <ref type="figure" target="#fig_15">15</ref>. We tested this application on 30 people in this preliminary test in which 10 people were with DFU. Out of 10 people with DFU, our application detected 8 DFU and out of 20 people with normal foot, our application did not detect any false detection. Furthermore, more user-friendly features, care, and guidance will be added to this application to make it a complete package of DFU care for diabetic patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. DISCUSSION AND CONCLUSION</head><p>Diagnosis and detection of DFU by the computerized method has been an emerging research area with the evolution of computer vision, especially deep learning methods. In this work, we investigated the use of both conventional machine learning and deep learning for the DFU localization task. We achieved relatively good performance using conventional machine learning technique. But, due to multiple intermediate steps, this approach is very slow for the DFU localization task. In deep learning, we used different object localization meta-architectures to train the end-to-end models on the DFU dataset with different hyper-parameter settings and two-tier transfer learning to localize DFU on the full foot images with high accuracy. As shown in the Fig. <ref type="figure" target="#fig_12">11</ref>, these methods are capable of localizing multiple DFU with high inference speed. We also found that though SSD meta-architecture produced fastest inference due to the two-stage architecture, Faster R-CNN produced the most accurate results in our task. Then, we demonstrated how these methods can be easily transferred to a portable device, Nvidia Jetson TX2, to produce inference remotely. Finally, these deep learning methods were used in an android application to provide real-time DFU localization. In this work, we developed mobile systems that can assist both medical experts and patients for the DFU diagnosis and follow-up in the remote settings.</p><p>In the present situation, manual inspection by podiatrists remains the ideal solution for the diagnosis of DFU. However, Netten et al. <ref type="bibr" target="#b50">[51]</ref> claimed that human observers achieved low validity and reliability for remote assessment of DFU. Therefore, computerized method could be used as a tool to improve human performance. Developing the remote, computerized and innovative DFU diagnosis system according to the medical classification systems and exactness accomplished by the podiatrist, it demands a significant amount of research. To assist podiatrist, foot analysis with computerized methods in the near future, the following issues need to be addressed.</p><p>1) The detection of DFU on foot images with computerized methods is a difficult task due to high inter-class similarities and intra-class variations in terms of color, size, shape, texture and site amongst different classes of DFU. Although, detection and localization of DFU on full foot images is a valuable study, further analysis of each DFU on foot images is required according to the medical classification systems followed by podiatrists such as the Texas Classification of DFU <ref type="bibr" target="#b28">[29]</ref> and the SINBAD Classification System <ref type="bibr" target="#b51">[52]</ref>. Most of the state-of-the-art computerized imaging methods rely on the supervised learning. Hence, there is a need for laborious manual annotation by medical experts according to these popular classification systems. For example, the Texas classification system classifies DFU into 16 classes depending on conditions of DFU based on ischemia, infection, area and depth. These methods can be extended to produce localization of DFU and determine the outcome of DFU according to the Texas classification system with substantial image data belonging to each class and expert annotations. 2) Deep learning methods require a considerable amount of data to learn features of abnormality in medical imaging.</p><p>To achieve accurate DFU detection according to different classification systems, multiple images of same DFU covering key specific conditions such as lighting conditions, the distance of image capture from the foot and orientation of the camera relative to the foot. To our best knowledge, there are no publicly available standardized DFU dataset with descriptions and annotation. Hence, there is a requirement for a publicly available annotated DFU dataset with essential diagnostic capability in this regard. The standardized dataset can help to produce even more accurate results with these methods. 3) Early detection of key pathological changes in the diabetic foot leading to the development of a DFU is really important. Hence, the time-line dataset of patients with early signs of DFU till the diagnosis is required to achieve this objective. With these methods and time-line dataset, the early prediction, healing progress and other potential outcomes of DFU could be possible. 4) The combination of image features and diagnosis features such as patient's ethnicity, the presence of ischemia, depth of DFU to the tendon, neuropathy would aid to a more robust DFU diagnosis system. 5) The DFU diagnosis system should be scalable to multiple devices, platforms and operating systems. With limited human resources and facilities in healthcare systems, DFU diagnosis is a significant workload and burden for the government. The computer-based systems have huge potential to assist healthcare systems in DFU assessment. The new technologies like the Internet of Things (IoT), cloud computing, computer vision and deep learning can enable computer systems to remotely assess the wounds, provide faster feedback with good accuracy. But, this integrated system should be tested and validated rigorously by podiatrists and medical experts, before it is implemented in the real healthcare setting and deployed as a mobile application.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Robust</head><label></label><figDesc>Methods for Real-Time Diabetic Foot Ulcer Detection and Localization on Mobile Devices Manu Goyal , Student Member, IEEE, Neil D. Reeves , Satyan Rajbhandari, and Moi Hoon Yap , Member, IEEE Abstract-Current practice for diabetic foot ulcers (DFU) screening involves detection and localization by podiatrists. Existing automated solutions either focus on segmentation or classification. In this work, we design deep learning methods for real-time DFU localization. To produce a robust deep learning model, we collected an extensive database of 1775 images of DFU. Two medical experts produced the ground truths of this data set by outlining the region of interest of DFU with an annotator software. Using five-fold crossvalidation, overall, faster R-CNN with InceptionV2 model using two-tier transfer learning achieved a mean average precision of 91.8%, the speed of 48 ms for inferencing a single image and with a model size of 57.2 MB. To demonstrate the robustness and practicality of our solution to realtime prediction, we evaluated the performance of the models on a NVIDIA Jetson TX2 and a smartphone app. This work demonstrates the capability of deep learning in real-time localization of DFU, which can be further improved with a more extensive data set. Index Terms-Diabetic foot ulcers, deep learning, convolutional neural networks, DFU localization, real-time localization.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Examples of three common tasks for inspection of abnormalities on a DFU image. (a) Classification, (b) localization, and (c) segmentation of DFU (green) and surrounding skin (red) [10].</figDesc><graphic coords="2,130.67,66.89,327.62,102.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Illustration of high-resolution full feet images of our DFU dataset.</figDesc><graphic coords="3,61.58,66.27,211.91,222.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Example of delineating ground truth on DFU dataset using Brett et al. annotation tool [28].</figDesc><graphic coords="3,318.17,66.84,225.12,160.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Comparison of Size of DFU against the size of image.</figDesc><graphic coords="3,312.66,270.13,235.92,142.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Stage 1: The feature map extracted by CNN that acts as backbone for object localization network. Conv refers convolutional layer.</figDesc><graphic coords="4,332.45,66.80,188.40,132.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Stage 2: Detected proposal boxes with translate/scale operation to fit the object. There can be several proposals on a single object.</figDesc><graphic coords="4,304.45,241.84,244.08,168.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>3 )</head><label>3</label><figDesc>RoI Classifier and Bounding Box Regressor: Stage 3 consists of the classification of RoI boxes provided by Stage 2 and further refinement of the RoI boxes as shown in the Fig. 7. First, all RoI boxes are fed into the RoI pooling layer to resize them into fixed input size for classifier as RoI boxes can have different sizes. Similar to Stage 2, it generates two outputs for each RoI: r RoI Class: The softmax layer provides the classification of regions to specific classes (if more than one class). If the RoI is classified as background class, it is discarded.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Illustration of Stage 3: The classification and further box refinement of RoI boxes from the second stage proposal with softmax and Bbox regression. Where FC refers to Fully-connected layer.</figDesc><graphic coords="5,121.66,66.64,354.60,104.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Faster R-CNN architecture for DFU localization which consists of all three stages discussed earlier.</figDesc><graphic coords="5,55.65,216.18,224.40,128.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. R-FCN architecture which considers only the feature map from the last convolutional layer which speeds up the three stage network.</figDesc><graphic coords="5,55.65,388.31,224.28,128.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. The architecture of Single Shot Multibox Detector (SSD). It considers only two stage by eliminating the last stage to produce faster box proposals.</figDesc><graphic coords="5,340.67,215.46,179.76,99.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 11 .</head><label>11</label><figDesc>Fig. 11. The accurate localization results to visually compare the performance of object localization networks on the DFU dataset. Where SSD-MobNet is SSD-MobileNet, SSD-IncV2 is SSD-InceptionV2, FRCNN-IncV2 is Faster R-CNN with InceptionV2, and RFCN-Res101 is R-FCN with ResNet101.</figDesc><graphic coords="8,78.09,196.77,434.14,412.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 12 .</head><label>12</label><figDesc>Fig. 12. Incorrect localization results to visually compare the performance of object localization networks on DFU dataset. Where SSD-MobNet is SSD-MobileNet, SSD-IncV2 is SSD-InceptionV2, FRCNN-IncV2 is Faster R-CNN with InceptionV2, and RFCN-Res101 is R-FCN with ResNet101.</figDesc><graphic coords="9,62.15,66.20,474.36,451.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. 13 .</head><label>13</label><figDesc>Fig. 13. Nvidia Jetson TX2. Fig. 14. DFU localization on Nvidia Jetson TX2 using Faster R-CNN with InceptionV2 on tensor-flow.</figDesc><graphic coords="9,67.65,561.46,200.16,150.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig. 15 .</head><label>15</label><figDesc>Fig.15. Real-time localization using smartphone android application. In the first row, images are captured by default camera. In the second row, the snapshot of real-time localization by our prototype android application.</figDesc><graphic coords="10,125.75,66.44,338.37,258.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE II PERFORMANCE</head><label>II</label><figDesc>MEASURES OF OBJECT LOCALIZATION MODELS ON THE DFU DATASET</figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENT</head><p>The authors express their gratitude to <rs type="person">Lancashire Teaching Hospitals</rs> and <rs type="person">J. Spragg</rs> who is a Podiatrist/Chiropodist in the <rs type="affiliation">Rossendale Practice, Rawtenstall, Lancashire</rs> for their extensive support and contribution in carrying out this research. They gratefully acknowledge the support of <rs type="institution">NVIDIA Corporation</rs> with the donation of the GPU used for this research.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="11,323.40,152.54,232.79,7.17;11,323.40,161.50,232.81,7.17;11,323.40,170.48,53.81,7.17" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Idf diabetes atlas: Global estimates for the prevalence of diabetes for 2015 and 2040</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ogurtsova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Res. Clin. Pract</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="40" to="50" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,179.44,232.81,7.17;11,323.40,188.40,232.83,7.17" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Incidence, outcomes, and cost of foot ulcers in patients with diabetes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Ramsey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="382" to="387" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,197.37,232.81,7.17;11,323.40,206.34,232.82,7.17;11,323.40,215.30,61.78,7.17" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Pathways to diabetic limb amputation: basis for prevention</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Pecoraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Reiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Burgess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="513" to="521" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.40,224.27,232.80,7.17;11,323.40,233.23,232.84,7.17;11,323.40,242.20,17.94,7.17" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Diabetic foot ulcers and their recurrence</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Boulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New England J. Med</title>
+		<imprint>
+			<biblScope unit="volume">376</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="2367" to="2375" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.40,251.17,232.81,7.17;11,323.40,260.13,93.66,7.17" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Deep learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lecun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">521</biblScope>
+			<biblScope unit="issue">7553</biblScope>
+			<biblScope unit="page" from="436" to="444" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,269.11,232.80,7.17;11,323.40,278.07,232.80,7.17;11,323.40,287.03,178.52,7.17" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Automated analysis and quantification of human mobility using a depth sensor</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Leightley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Mcphee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Biomed. Health Informat</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="939" to="948" />
+			<date type="published" when="2017-07">Jul. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.40,296.00,232.83,7.17;11,323.40,304.97,232.79,7.17;11,323.40,313.93,102.96,7.17" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Automated breast ultrasound lesions detection using convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Biomed. Health Informat</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1218" to="1226" />
+			<date type="published" when="2018-07">Jul. 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,322.90,232.80,7.17;11,323.40,331.86,232.80,7.17;11,323.40,340.83,39.87,7.17" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Multi-class semantic segmentation of skin lesions via fully convolutional networks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1711.10449</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct coords="11,323.40,349.80,232.80,7.17;11,323.40,358.76,232.81,7.17;11,323.40,367.73,232.74,7.17;11,323.40,376.70,114.92,7.17" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">DFUNet: Convolutional neural networks for diabetic foot ulcer classification</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Davison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spragg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TETCI.2018.2866254</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Emerg. Topics Comput. Intell</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,385.66,232.80,7.17;11,323.40,394.63,232.80,7.17;11,323.40,403.59,195.60,7.17" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Fully convolutional networks for diabetic foot ulcer segmentation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spragg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Int. Conf. Syst., Man, Cybern</title>
+		<meeting>IEEE Int. Conf. Syst., Man, Cybern</meeting>
+		<imprint>
+			<date type="published" when="2017-10">Oct. 2017</date>
+			<biblScope unit="page" from="618" to="623" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,412.56,232.82,7.17;11,323.40,421.53,232.80,7.17;11,323.40,430.49,69.76,7.17" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Multi-dimensional color histograms for segmentation of wounds in images</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fexa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Conf. Image Anal. Recognit</title>
+		<meeting>Int. Conf. Image Anal. Recognit</meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="1014" to="1022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,439.46,232.81,7.17;11,323.40,448.43,210.87,7.17" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">How robust is the svm wound segmentation?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fexa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE 7th Nordic Signal Process. Symp</title>
+		<meeting>IEEE 7th Nordic Signal ess. Symp</meeting>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="50" to="53" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.40,457.39,232.81,7.17;11,323.40,466.36,232.80,7.17;11,323.40,475.33,232.83,7.17;11,323.40,484.29,17.94,7.17" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Image analysis of chronic wounds for determining the surface area</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Papazoglou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zubkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neidrauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rannou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Weingarten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regeneration</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="349" to="358" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,493.26,232.82,7.17;11,323.40,502.22,232.80,7.17;11,323.40,511.19,163.60,7.17" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Binary tissue classification on wound images with neural networks and bayesian classifiers</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Veredas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imag</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="410" to="427" />
+			<date type="published" when="2010-02">Feb. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,520.16,232.81,7.17;11,323.40,529.12,232.81,7.17;11,323.40,538.09,232.82,7.17;11,323.40,547.06,17.94,7.17" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Segmentation of chronic wound areas by clustering techniques using selected color space</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Manohar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Imag. Health Informat</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="29" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.40,556.02,232.81,7.17;11,323.40,564.99,232.81,7.17;11,323.40,573.95,156.18,7.17" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Analysis of fuzzy clustering algorithms for the segmentation of burn wounds photographs</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bóveda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Arcay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Conf. Image Anal. Recognit</title>
+		<meeting>Int. Conf. Image Anal. Recognit</meeting>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="491" to="501" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,582.92,232.81,7.17;11,323.40,591.89,232.80,7.17;11,323.40,600.85,161.27,7.17" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Segmenting skin lesions with partialdifferential-equations-based image processing algorithms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sapiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imag</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="763" to="767" />
+			<date type="published" when="2000-07">Jul. 2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,609.82,232.81,7.17;11,323.40,618.79,232.79,7.17;11,323.40,627.75,232.83,7.17;11,323.40,636.72,33.89,7.17" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Area determination of diabetic foot ulcer images using a cascaded two-stage SVM based classification</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Strong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tulu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Biomed. Eng</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2098" to="2198" />
+			<date type="published" when="2016-09">Sep. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.40,645.69,232.80,7.18;11,323.40,654.66,232.81,7.17;11,323.40,663.62,192.39,7.17" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A unified framework for automatic wound segmentation and analysis with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE 37th Annu</title>
+		<meeting>IEEE 37th Annu</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="2415" to="2418" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,672.59,232.80,7.17;11,323.40,681.56,232.80,7.17;11,323.40,690.52,232.83,7.17;11,323.40,699.49,33.89,7.17" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Infrared thermal imaging for automated detection of diabetic foot complications</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Van Netten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Van Baal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Der Heijden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Diabetes Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1122" to="1129" />
+			<date type="published" when="2013-09">Sep. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,323.39,708.45,232.81,7.17;11,323.40,717.42,232.78,7.17;11,323.40,726.39,232.80,7.17;11,323.40,735.35,80.21,7.17" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Infrared dermal thermography on diabetic feet soles to predict ulcerations: A case study</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Der Heijden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Van Baal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Van Netten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc</title>
+		<meeting>null</meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">8572</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.16,67.45,232.81,7.17;12,56.17,76.42,232.80,7.17;12,56.17,85.39,222.57,7.17" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Infrared imaging in diabetic foot ulceration</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wertheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Melhuish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE 20th Annu</title>
+		<meeting>IEEE 20th Annu</meeting>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="916" to="918" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.16,94.35,232.81,7.17;12,56.17,103.32,232.81,7.17;12,56.17,112.28,204.92,7.17" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Narrative review: Diabetic foot and infrared thermography</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hernandez-Contreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Peregrina-Barreto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rangel-Magdaleno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gonzalez-Bernal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infrared Phys. Technol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="105" to="117" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.16,121.25,232.81,7.17;12,56.17,130.22,232.84,7.17;12,56.17,139.18,190.40,7.17" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Computer aided diagnosis of diabetic foot using infrared thermography: A review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Heng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">R</forename><surname>Acharya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="326" to="336" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.16,148.15,232.82,7.17;12,56.17,157.12,232.81,7.17;12,56.17,166.08,118.56,7.17" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Computer vision algorithms in the detection of diabetic foot ulceration a new paradigm for diabetic foot care?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Diabetes Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="612" to="613" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.16,175.05,232.82,7.17;12,56.17,184.01,232.83,7.17" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A new mobile application for standardizing diabetic foot images</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Diabetes Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="169" to="173" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.16,192.98,232.81,7.17;12,56.17,201.95,232.80,7.17;12,56.17,210.91,232.80,7.17;12,56.17,219.88,126.54,7.17" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Myfootcare: A mobile self-tracking tool to promote self-care amongst people with diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ploderer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S D</forename><surname>Seng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Van Netten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Lazzarini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 29th Australian Conf. Comput.-Human Interaction</title>
+		<meeting>29th Australian Conf. Comput.-Human Interaction</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="462" to="466" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.17,228.85,232.82,7.17;12,56.17,237.81,232.81,7.17;12,56.17,246.78,86.35,7.17" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Manual whisker annotator (mwa): A modular open-source tool</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hewitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Grant</surname></persName>
+		</author>
+		<idno type="DOI">10.5334/jors.93</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Open Res. Softw</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.16,255.75,232.81,7.17;12,56.17,264.71,232.82,7.17;12,56.17,273.68,17.94,7.17" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Classification of diabetic foot wounds</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Harkless</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Foot Ankle Surg</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="528" to="531" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.17,282.64,232.81,7.17;12,56.17,291.61,125.96,7.17" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A framework for low level feature extraction</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Förstner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Eur. Conf. Comput. Vis</title>
+		<meeting>Eur. Conf. Comput. Vis</meeting>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="page" from="383" to="394" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.17,300.58,232.83,7.17;12,56.17,309.54,232.79,7.17;12,56.17,318.51,130.70,7.17" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A completed modeling of local binary pattern operator for texture classification</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Image Process</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1657" to="1663" />
+			<date type="published" when="2010-06">Jun. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.16,327.48,232.82,7.17;12,56.17,336.44,232.81,7.17;12,56.17,345.41,130.04,7.17" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">An evaluation of the two-dimensional gabor filter model of simple receptive fields in cat striate cortex</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Palmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1233" to="1258" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.17,354.37,232.82,7.17;12,56.17,363.34,232.73,7.17;12,56.17,372.31,83.77,7.17" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Histograms of oriented gradients for human detection</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dalal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Triggs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="886" to="893" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.17,381.27,232.81,7.17;12,56.17,390.24,195.39,7.17" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Generalizing the hough transform to detect arbitrary shapes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Ballard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognit</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="111" to="122" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.17,399.21,232.80,7.17;12,56.17,408.17,232.82,7.17;12,56.17,417.14,17.94,7.17" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Color information for region segmentation</title>
+		<author>
+			<persName><forename type="first">Y.-I</forename><surname>Ohta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kanade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sakai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Graph. Image Process</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="222" to="241" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,56.17,426.11,232.81,7.17;12,56.17,435.07,232.82,7.17;12,56.17,444.04,17.94,7.17" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A tutorial on support vector machines for pattern recognition</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Burges</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Data Mining Knowl. Discov</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="121" to="167" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,67.45,232.78,7.17;12,319.19,76.41,232.81,7.17;12,319.19,85.39,105.84,7.17" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Imagenet classification with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krizhevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Adv. Neural Inf</title>
+		<meeting>Adv. Neural Inf</meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="1097" to="1105" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,94.35,232.80,7.17;12,319.19,103.31,141.01,7.17" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Microsoft coco: Common objects in context</title>
+		<author>
+			<persName><forename type="first">T.-Y</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Eur. Conf. Comput. Vis</title>
+		<meeting>Eur. Conf. Comput. Vis</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="740" to="755" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,112.28,232.82,7.17;12,319.19,121.25,232.81,7.17;12,319.19,130.22,101.49,7.17" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Faster r-cnn: Towards real-time object detection with region proposal networks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Girshick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Proc. Adv. Neural Inf. Process. Syst</title>
+		<imprint>
+			<biblScope unit="page" from="91" to="99" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,139.18,232.82,7.17;12,319.19,148.14,49.83,7.17" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Fast r-cnn</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Girshick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Int. Conf. Comput. Vis</title>
+		<meeting>IEEE Int. Conf. Comput. Vis</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="1440" to="1448" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,157.12,232.82,7.17;12,319.19,166.08,232.80,7.17;12,319.19,175.05,61.79,7.17" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">R-fcn: Object detection via region-based fully convolutional networks</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Proc. Adv. Neural Inf. Process. Syst</title>
+		<imprint>
+			<biblScope unit="page" from="379" to="387" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,184.01,232.82,7.17;12,319.19,192.99,98.61,7.17" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">SSD: Single shot multibox detector</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Eur. Conf. Comput. Vis</title>
+		<meeting>Eur. Conf. Comput. Vis</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="21" to="37" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,201.95,232.81,7.17;12,319.19,210.91,232.06,7.17" xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Mobilenets: Efficient convolutional neural networks for mobile vision applications</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1704.04861</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct coords="12,319.18,219.88,232.82,7.17;12,319.19,228.85,232.82,7.17;12,319.19,237.81,172.07,7.17" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Rethinking the inception architecture for computer vision</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vanhoucke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ioffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shlens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wojna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Conf. Comput. Vis. Pattern Recognit</title>
+		<meeting>IEEE Conf. Comput. Vis. Pattern Recognit</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="2818" to="2826" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,246.78,232.81,7.17;12,319.19,255.75,232.82,7.17;12,319.19,264.71,41.86,7.17" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Deep residual learning for image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Conf. Comput. Vis. Pattern Recognit</title>
+		<meeting>IEEE Conf. Comput. Vis. Pattern Recognit</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="770" to="778" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,273.68,232.80,7.17;12,319.19,282.64,232.80,7.17;12,319.19,291.62,165.04,7.17" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Inception-v4, inception-resnet and the impact of residual connections on learning</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ioffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vanhoucke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Alemi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Nat. Conf. Artif. Intell</title>
+		<meeting>Nat. Conf. Artif. Intell</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="4278" to="4284" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,300.58,232.81,7.17;12,319.19,309.54,184.89,7.17" xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Speed/accuracy trade-offs for modern convolutional object detectors</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1611.10012</idno>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct coords="12,319.18,318.51,232.80,7.17;12,319.19,327.48,232.82,7.17;12,319.19,336.44,232.83,7.17;12,319.19,345.41,34.54,7.17" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Transfer learning improves supervised image segmentation across imaging protocols</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Opbroek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ikram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Vernooij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">De</forename><surname>Bruijne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imag</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1018" to="1030" />
+			<date type="published" when="2015-05">May 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,354.37,232.82,7.17;12,319.19,363.34,200.86,7.17" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Imagenet large scale visual recognition challenge</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Russakovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Comput. Vis</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="211" to="252" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,372.31,232.81,7.17;12,319.19,381.27,232.79,7.17;12,319.19,390.24,107.67,7.17" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The pascal visual object classes (voc) challenge</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Everingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Gool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Winn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Comput. Vis</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="303" to="338" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,399.21,232.80,7.17;12,319.19,408.17,232.80,7.17;12,319.19,417.14,213.60,7.17" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The validity and reliability of remote diabetic foot ulcer assessment using mobile phone images</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Van Netten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Lazzarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Janda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Reed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">9480</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,319.18,426.11,232.82,7.17;12,319.19,435.07,232.80,7.17;12,319.19,444.04,127.33,7.17" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Use of the sinbad classification system and score in comparing outcome of foot ulcer management on three continents</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ince</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="964" to="967" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

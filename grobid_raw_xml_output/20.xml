@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Clinical validation of an artificial intelligence-enabled wound imaging mobile application in diabetic foot ulcers</title>
+				<funder>
+					<orgName type="full">Tetsuyu</orgName>
+				</funder>
+				<funder ref="#_Nyer3Md #_KCA74RN">
+					<orgName type="full">Agency for Science, Technology and Research (A*STAR)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kai</forename><surname>Siang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chan</forename><forename type="middle">|</forename><surname>Yam</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Meng</forename><surname>Chan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><forename type="middle">Audrey</forename><surname>Hui</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Min</forename><surname>Tan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shanying</forename><surname>Liang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Yuan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Teng</forename><surname>Cho</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Qiantai</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Hong</forename><forename type="middle">|</forename><surname>Enming</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yong</forename><forename type="middle">|</forename><surname>Lester</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rhan</forename><surname>Chaen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chong</forename><forename type="middle">|</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zhang</forename><forename type="middle">|</forename><surname>Glenn</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wei</forename><surname>Leong</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tan</forename><forename type="middle">|</forename><surname>Sadhana</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Chandrasekar</forename><forename type="middle">|</forename><surname>Zhiwen</surname></persName>
+							<email>zhiwen@gmail.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><surname>Lo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><surname>Zhiwen</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>FRCS, Vascular</roleName><surname>Lo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kai</forename><forename type="middle">Siang</forename><surname>Chan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zhiwen</forename><forename type="middle">Joseph</forename><surname>Lo</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of General Surgery</orgName>
+								<orgName type="department" key="dep2">Vascular Surgery Service</orgName>
+								<address>
+									<addrLine>11 Jalan Tan Tock Seng</addrLine>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Surgery Service</orgName>
+								<orgName type="department" key="dep2">Department of General Surgery</orgName>
+								<orgName type="institution">Tan Tock Seng Hospital</orgName>
+								<address>
+									<addrLine>11 Jalan Tan Tock Seng</addrLine>
+									<postCode>308433</postCode>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Clinical validation of an artificial intelligence-enabled wound imaging mobile application in diabetic foot ulcers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">35759B004B7D5FEE59A5EE17624EA6A7</idno>
+					<idno type="DOI">10.1111/iwj.13603</idno>
+					<note type="submission">Received: 1 April 2021 Accepted: 8 April 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>There is a lifetime risk of 15% to 25% of development of diabetic foot ulcers (DFUs) in patients with diabetes mellitus. DFUs need to be followed up on and assessed for development of complications and/or resolution, which was traditionally performed using manual measurement. Our study aims to compare the intra-and inter-rater reliability of an artificial intelligence-enabled wound imaging mobile application (CARES4WOUNDS [C4W] system, Tetsuyu, Singapore) with traditional measurement. This is a prospective crosssectional study on 28 patients with DFUs from June 2020 to January 2021. The main wound parameters assessed were length and width. For traditional manual measurement, area was calculated by overlaying traced wound on graphical paper. Intra-and inter-rater reliability was analysed using intra-class correlation statistics. A value of &lt;0.5, 0.5-0.75, 0.75-0.9, and &gt;0.9 indicates poor, moderate, good, and excellent reliability, respectively. Seventy-five wound episodes from 28 patients were collected and a total of 547 wound images were analysed in this study. The median wound area during the first clinic consultation and all wound episodes was 3.75 cm 2 (interquartile range</p><p>[IQR] 1.40-16.50) and 3.10 cm 2 (IQR 0.60-14.84), respectively. There is excellent intra-rater reliability of C4W on three different image captures of the same wound (intra-rater reliability ranging 0.933-0.994). There is also excellent inter-rater reliability between three C4W devices for length (0.947), width (0.923), and area (0.965). Good inter-rater reliability for length, width, and area (range 0.825-0.934) was obtained between wound nurse measurement and each of the C4W devices. In conclusion, we obtained good inter-rater and intra-rater reliability of C4W measurements against traditional wound measurement. The C4W is a useful adjunct in monitoring DFU wound progress.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Diabetes mellitus (DM) is debilitating chronic disease with a prevalence of 6.28% of the world's population in 2017. <ref type="bibr" target="#b0">1</ref> Patients with DM have a 15% to 25% lifetime risk of developing diabetic foot ulcers (DFUs). <ref type="bibr" target="#b1">2</ref> DFU is associated with significant morbidity and mortality, with major amputation rates ranging between 19.9% and 39%. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> It is therefore prudent for proper management of DFUs.</p><p>Management of DFUs is complex and requires a multidisciplinary team of doctors, nurses, and allied health professionals for successful management. <ref type="bibr" target="#b6">7</ref> Wound care is an important facet of the DFU "care bundle", consisting of wound assessment, monitoring, and management. Traditionally, wound assessment and monitoring are performed by specialised and trained wound nurses. With advancements in technology, until now there are several commercially available wound assessment or monitoring systems available for monitoring of chronic wounds. <ref type="bibr" target="#b8">9</ref> We recently conducted a systematic review on wound imaging modalities and concluded the following: (a) paucity of existing studies evaluating the efficacy of wound assessment and imaging systems and (b) bias in existing studies evaluating the effectiveness of wound imaging systems with lack of sample size calculation. <ref type="bibr" target="#b9">10</ref> Though they are several commercially available wound assessment systems, a majority of them have not been reviewed in the literature on measurement accuracy, especially because DFU may occur on curves or angles on the foot. Hence, the aim of this study is to add on to existing literature on commercially available wound imaging systems, by clinically validating an artificial intelligence-enabled wound imaging mobile application (CARES4WOUNDS [C4W] system, Tetsuyu, Singapore) against traditional wound assessment measurements by a trained specialist wound nurse, for patients with DFU.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| MATERIALS AND METHODS</head><p>This is a prospective cross-sectional study on patients with DFUs from June 2020 to January 2021 in a singlecentre tertiary hospital. Inclusion criteria were all patients aged 21 years and above with DFUs. Exclusion criteria were patients who were pregnant, breastfeeding, had non-DFUs such as primarily venous ulcer or neuropathic ulcer, or did not have capacity to consent. This study was approved by a local institutional review board (National Healthcare Group Domain Specific Review Board Ref No: 2019/00837). Written consent was obtained for all patients who were included in our study with appropriate translations as required for non-English speakers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Tetsuyu C4W wound imaging solution</head><p>The C4W system is intended to be used for wound imaging, automatic measurement of wound dimensions, and tissue classification to aid in the assessment of pressure ulcers, diabetic ulcers, venous ulcers, and problem healing wounds. It is a non-contact, digital wound assessment, and documentation tool aimed to provide a standardised approach to the monitoring of wound healing progress by medical professionals. It consists of a software application that is used in combination with commercial off-the-shelf (COTS) mobile computing platforms (iPad with 3D structure sensor and iPhone with dual camera) and a web-based software application that is tailored to the mobile platforms. The mobile application uses locked software algorithms to automatically measure the dimensions of wounds, detect wound bed, and classify the tissue types based on epithelisation, granulation, necrotic, and slough. The data output is documented in real time in accordance with the current stateof-the-art clinical workflow to assure consistency and </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Study protocol</head><p>Our study protocol is shown in Figure <ref type="figure" target="#fig_0">1</ref>. Eligible patients were identified in both inpatient and outpatient settings. Baseline demographics and clinical profile were collected prior to the commencement of the study. The approximate study duration for each patient is five visits or until complete resolution of the ulcer, whichever was earlier.</p><p>All patients who were included in the study were subjected to a standardised DFU management pathway with standardised follow-up; no additional clinic visits were required for the purpose of this study. During each clinic visit, wound measurements were recorded traditionally by a trained specialised wound nurse and electronically by a dedicated research coordinator using the C4W imaging system. An additional digital wound image capture with a reference ruler was also taken independently with a Canon (PowerShot G7X Mark II) digital camera. A wound episode was defined as any clinic consultation for this study. The total number of wound images is calculated by the number of images taken by each of the C4W imaging system (ie, each wound episode should result in nine wound images, with three wound images taken per device).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Standardisation of ulcer measurement</head><p>For patients with multiple DFUs, an index ulcer was identified for the purpose of the study during the first clinic visit, which will be monitored during subsequent clinic visits. Measurement of ulcer was conducted in a dedicated room with adequate lighting prior to clinic consultation with the doctor. All participants were positioned sitting on a chair with their feet overhanging. Wound measurements (length and width) were taken traditionally by a specialised trained wound nurse first (Figure <ref type="figure">2A</ref>) and subsequently taken using the C4W application by a dedicated research coordinator. Method of wound measurement was standardised between the wound nurses prior to the conduct of the study: placement of tracing over wound, followed by the use of sterile marker pen to outline the wound on the tracing paper. The length (defined as the longest axis in the wound box) and width (defined as the longest axis perpendicular to the length in the wound box) were measured using the traced wound (Figure <ref type="figure">2B</ref>). Area computation was conducted by overlaying the tracing paper on a graphical paper, in which squares were counted corresponding to the area covered by the wound. Digital measurement of the wound was performed by a dedicated research coordinator with the C4W application (Version 1, build 1) installed on three different iPhone (Apple Inc., California) device models: device 1 was an iPhone 8 Plus, device 2 was an iPhone 11 Pro, and device 3 was an iPhone XS. All of the iPhone devices were running on the iOS 13.0 operating system. A novel feature of C4W is the ability to capture wound images and measure wound dimensions using software algorithms via an application on conventional Apple iPhone/ iPad devices (Figure <ref type="figure">2C</ref>). This widens the application of C4W to more clinical scenarios and removes the need for detection was vastly different from the actual boundaries, manual adjustments were made to ensure accurate detection of the wound boundaries. These instances occurred when there was poor colour contrast with the patients' underlying skin tone, were too small (&lt;1 cm), or were located in areas of large variation in contours (eg, bony prominences such as the malleolus).</p><formula xml:id="formula_0">F I G U R E</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Sample size calculation</head><p>Sample size was calculated as per number of wound images rather than the number of subjects as this is a cross-sectional study on wound imaging. Based on Tetsuyu's internal validation, the baseline mean accuracy is 90%. Hence, assuming baseline correction (R 0 ) at 0 and alternative correlation (R 1 ) at 0.2, sample size required for one correlation test with power 90% and α 0.05 is 258 wound images. Intra-rater reliability will be evaluated by comparing three different C4W measurements against the same wound with intra-class correlation (ICC) statistics. Hence, assuming baseline correlation (R 0 ) at 0 with alterative correction (R 1 ) at 0.2, sample size required for ICC with power 90% and α 0.05 is 83. In our institution with an average of 20 and 30 DFU wound inspections in outpatient and inpatient setting, respectively, per week, our target sample size was 341 wound images.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Statistical analysis</head><p>All statistical analyses were performed with SPSS version 25.0 (SPSS Inc., Chicago, Illinois). Statistical significance was determined by P &lt; .05. ICC statistics was used to analyse intra-rater and inter-rater reliability. <ref type="bibr" target="#b10">11</ref> Intra-rater reliability between measurements taken by the same C4W device and inter-rater reliability between the wound nurse measurements and each C4W device were analysed using two-way mixed-effects model, absolute agreement, and single measure. Inter-rater reliability between the C4W devices was analysed using two-way random-effects model, absolute agreement, and single measure. Two-way random-effects model was used for inter-rater reliability between the C4W devices for generalising our results for all existing C4W devices in the market. <ref type="bibr" target="#b11">12</ref> Although there is no standard definition or cut-offs available for ICC to determine the extent of reliability, we have defined ICC values as the following: &lt;0.5 indicates poor reliability, between 0.5 and 0.75 indicates moderate reliability, between 0.75 and 0.9 indicates good reliability, and &gt;0.9 indicates excellent reliability. <ref type="bibr" target="#b12">13</ref> 3 | RESULTS</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Patient baseline characteristics</head><p>The median age of the study population was 60 (IQR 52.5-66) with a male predominance (n = 24, 85.7%). Common comorbidities include DM (n = 28/28, 100%), hypertension (n = 24/28, 85.7%), chronic kidney disease (n = 20/28, 71.4%), and peripheral vascular disease (n = 18/28, 64.3%). Table <ref type="table">1</ref> summarises the overall patient demographics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Wound images</head><p>There was a total of 75 wound episodes from 28 patients. A total of 547 wound images were analysed in this study. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Note:</head><p>Length and width were expressed in cm, while area was expressed in cm <ref type="bibr" target="#b1">2</ref> .</p><p>One-hundred twenty-eight images (not included in the above count) were excluded in this analysis in view of inaccurate data: overestimated wound boundaries and inaccurate detection of wound due to unclear wound boundaries. Table <ref type="table">2</ref> summarises the overall baseline characteristics of all included wound episodes. There is excellent intra-rater reliability of C4W on three different image captures of the same wound for length (intra-rater reliability ranging 0.956-0.993 for three different devices), width (intra-rater reliability ranging 0.933-0.963 for three different devices), and area (intra-rater reliability ranging 0.984-0.994). Table <ref type="table">3</ref> summarises the intra-rater reliability of three different images taken from the same C4W device. Table <ref type="table">4</ref> summarises the inter-rater reliability between the three C4W devices; we obtained excellent inter-rater reliability between the three C4W devices for length (inter-rater reliability 0.947 [95% CI: 0.923-0.964, P &lt; .001]), width (inter-rater reliability 0.923 [95% CI: 0.890-0.948, P &lt; .001]), and area (inter-rater reliability 0.965 [95% CI: 0.949-0.977, P &lt; .001]).</p><p>When comparing the manual measurements obtained by trained wound nurse with each of the C4W devices, we obtained good inter-rater reliability for length (range 0.825-0.934), width (range 0.825-0.930), and area (range 0.872-0.932). The inter-rater reliability values between the trained wound nurse and each of the C4W devices are summarised in Tables <ref type="table">5</ref><ref type="table">6</ref><ref type="table">7</ref>. When comparing the wound area calculated manually to each of the C4W devices, the areas are greater by 25.2%, 13.4%, and 15.3% for device 1, 2, and 3, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>Advancements in technology permit the use of adjuncts to improve efficiency of clinical care. Innovation is also ongoing to improve user experience and reduce difficulty in setting up of imaging systems for clinical use. For instance, prior version of the C4W imaging system required the use of a three-dimensional (3D) sensor attachment on a tablet device (iPad) for measurement. With improvements in mobile technology and design, depth sensors are integrated into mobile devices, permitting 3D measurements with depth perception. Hence, this study aims to validate the new C4W imaging system. Our study demonstrated high intra-rater reliability between devices and inter-rater reliability between the C4W imaging system and traditional wound measurements.</p><p>Our recent systematic review until March 2020 summarised existing literature on the use of wound assessment, imaging, and monitoring systems in DFUs; of which, we identified 17 articles (5 on computer applications or handheld devices, 2 on mobile interfaces, 2 on optical imaging, 4 on spectroscopy or hyperspectral imaging, and 4 on artificial intelligence). <ref type="bibr" target="#b9">10</ref> The C4W imaging system allows easy use on mobile and/or handheld devices. In our study, this application was used on iPhone 11 Pro. Yap et al in 2018, who analysed the use of the application FootSnap (Manchester Metropolitan University, Manchester, UK) on DFUs, demonstrated high intra-rater reliability for operator 1 (mean Jaccard Similarity Index [JSI] 0.89 [range 0.84-0.93]) and operator 2 (mean JSI 0.91 [range 0.84-0.95]). <ref type="bibr" target="#b13">14</ref> Inter-rater reliability was also high (mean JSI 0.89 [range 0.83-0.94]). Comparatively, in our study, we demonstrated excellent (ICC &gt; 0.900) intra-rater reliability for each of the C4W imaging system and inter-rater reliability between each of the C4W imaging systems.</p><p>Our systematic review also described the list of commercially available wound assessment products listed on WoundSource, a reference guide on wound care products, for a list of commercially available wound assessment and monitoring tools available for DFUs. <ref type="bibr" target="#b8">9</ref> Of which, six of the identified 18 wound assessment products have been described and/or validated in the literature: EPISCAN I-200 (Longport, Inc., Pennsylvania), Scout (WoundVision, Indiana), Silhouette (ARANZ Medical Ltd., Christchurch, New Zealand), Swift Skin and Wound (Swift Medical, Ontario, Canada), WoundMatrix (WoundMatrix, Inc., Pennsylvania) and WoundZoom (WoundZoom, Inc., Wisconsin). <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref> Khong et al evaluated the use of WoundAide (Konica Minolta Business Solutions Asia Pte Ltd, Tokyo), an application that uses image segmentation and enhancement techniques. <ref type="bibr" target="#b22">23</ref> The use of C4W imaging system in our study was non-inferior compared to their study (which assessed the use of WoundAide, WoundZoom (WoundZoom, Inc., Wisconsin) and Visitrak (Smith &amp; Nephew, London, UK); we similarly demonstrated ICC of &gt;0.900 for both intra-rater and inter-rater reliability. Unfortunately, we were unable to compare the ICC of the inter-rater reliability of the manual measurements taken by a trained wound nurse compared to the wound imaging system with their study.</p><p>Previous literature has interestingly showed that wound measurements by standard ruler results in overestimation of wound area (calculated by length × width) by up to 41%. <ref type="bibr" target="#b18">19</ref> This is an expected finding as the simple multiplication of length and width is unable to account for wounds with irregular surface area. Our study similarly shows overestimation of the calculated wound area from manual measurements compared to the C4W devices (ranging from 13.4 to 25.2%). However, good inter-rater reliability was demonstrated for device 1 (ICC 0.872 (95% CI: 0.794-0.920) and excellent inter-rater reliability for device 2 (ICC 0.932 (95% CI: 0.893-0.957), and device 3 (ICC 0.923 [95% CI: 0.878-0.952]). This implies T A B L E 4 Inter-rater reliability of the three different Tetsuyu devices on the average measurements across all three images taken on each device Note: Length and width were expressed in cm, while area was expressed in cm 2 . that despite the seemingly significant overestimation of wound area based on the multiplication of length and width, this overestimation is not significant when performed over a large number of wound images. An additional advantage conferred by the use of digital image capture is its ability to calculate the wound parameters in a shorter time. <ref type="bibr" target="#b19">20</ref> Unfortunately, we did not collect on time taken as our study was primarily focused on assessing the intra-and inter-rater reliability of traditional wound measurement vs digital image capture with the C4W system. The C4W imaging system is an adaptable software, which uses the native camera system of handheld device. Users do not have to physically install another 3D sensor to the handheld device prior to its use, providing convenience. The accuracy of the C4W imaging system is dependent on the camera of the handheld device itself. Though this implies that usage of older models of handheld devices with less advanced camera features will result in lower measurement accuracy, with advancements in camera systems and improvement in depth perception such as in the new iPhone 12 Pro Max, <ref type="bibr" target="#b23">24</ref> the C4W imaging system is able to utilise the improved camera system for better accuracy.</p><p>Our study exhibits the following strengths; we assessed the use of multiple parameters in wound assessment (length, width, and area) in the wound imaging system, which is not present in some of the existing reviews of wound imaging products. For instance, the studies by Jeffcoate et al in 2017 and Yap et al in 2018 assessed cross-sectional area and perimeter/surface area only, respectively. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b24">25</ref> In addition, our study compared the use of the C4W imaging system with manual measurements taken by a trained wound nurse, the traditional method of wound measurement. We also standardised the method of manual measurement prior to the study to reduce bias. Similarly, only one research coordinator was involved in the digital image capture using the C4W devices, eliminating the risk of bias.</p><p>There are however, limitations to our study. Our study is limited to the quantitative characteristics of the C4W wound imaging system (length, width, and area). We were not able to evaluate other quantitative characteristics such as depth and undermining of wounds. Qualitative characteristics of the wound (such as the presence of exudates, eschar, and oedema) were only assessed by the wound nurse and not the C4W imaging system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| CONCLUSIONS</head><p>Our study demonstrates excellent inter-rater and intrarater reliability of C4W measurements against traditional wound assessment by a trained specialist wound nurse, with C4W being a useful adjunct in monitoring DFU wound progress. There are technical limitations to the image capture resulting inaccurate detection of wound boundaries that require manual adjustment. Nevertheless, these limitations will improve with advancements in camera technology and machine learning, and they will serve as useful clinical adjuncts in monitoring of chronic DFUs. More studies are however required to assess the other commercially available wound imaging products.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>1</head><label>1</label><figDesc>Study protocol for participation recruitment and standardisation of process for wound measurement attachment cameras. An optical zoom of ×1.0 was used to capture the images at a distance of approximately 20 cm from the wound. Three images of the same wound were taken from each C4W device. Each repeat image of the same wound involved repositioning of the patient and the research coordinator. This was repeated across the three different devices. The parameters measured (length, width, and area) were automatically calculated based on the image boundaries determined by the imaging system. For images where automatic boundary F I G U R E 2 Foot wound from a patient: A, manual measurement of the wound parameters by a trained wound nurse; B, schematic diagram for determination of length and width; C, application interface of the Tetsuyu CARES4WOUNDS system on an iPhone 11 Pro (C4Wi version 1, build 1)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Image 3.13 ± 3.21 1.95 ± 1.78 7.23 ± 10.35 3.40 ± 3.38 2.09 ± 1.88 7.98 ± 10.75 3.35 ± 3.47 2.01 ± 1.83 7.85 ± 10.81 0.947 (0.923-0.964) 0.923 (0.890-0.948) 0.965 (0.949-0.977) Length and width were expressed in cm, while area was expressed in cm<ref type="bibr" target="#b1">2</ref> .T A B L E 5 Inter-rater reliability between wound nurse and Tetsuyu device 1 for the corresponding image Length and width were expressed in cm, while area was expressed in cm<ref type="bibr" target="#b1">2</ref> .T A B L E 6 Inter-rater reliability between wound nurse and Tetsuyu device 2 for the corresponding image Length and width were expressed in cm, while area was expressed in cm 2 .T A B L E 7 Inter-rater reliability between wound nurse and Tetsuyu device 3 for the corresponding image</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,201.15,51.76,347.88,586.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Clinical profile of patients included in the study</figDesc><table><row><cell cols="2">T A B L E 1 Number of</cell></row><row><cell></cell><cell>patients (n = 28)</cell></row><row><cell>Age</cell><cell>60 (52.5-66)</cell></row><row><cell>Gender, male</cell><cell>24 (85.7)</cell></row><row><cell>Smoking, yes</cell><cell>7 (25)</cell></row><row><cell>Ethnicity</cell><cell></cell></row><row><cell>Chinese</cell><cell>17 (60.7)</cell></row><row><cell>Malay</cell><cell>2 (7.1)</cell></row><row><cell>Indian</cell><cell>9 (32.1)</cell></row><row><cell>Comorbidities</cell><cell></cell></row><row><cell>Diabetes mellitus</cell><cell>28 (100)</cell></row><row><cell>Hypertension</cell><cell>24 (85.7)</cell></row><row><cell>Coronary artery disease</cell><cell>3 (10.7)</cell></row><row><cell>Chronic heart failure</cell><cell>4 (14.3)</cell></row><row><cell>Chronic kidney disease</cell><cell>20 (71.4)</cell></row><row><cell>Cerebrovascular accident</cell><cell>4 (14.3)</cell></row><row><cell>Chronic obstructive pulmonary</cell><cell>0 (0)</cell></row><row><cell>disease</cell><cell></cell></row><row><cell>Peripheral vascular disease</cell><cell>18 (64.3)</cell></row><row><cell>Previous ulcer</cell><cell>7 (25)</cell></row><row><cell>Previous surgical debridement</cell><cell>11 (39.3)</cell></row><row><cell>Previous revascularisation</cell><cell>7 (25)</cell></row><row><cell>Previous amputation (minor/</cell><cell>6 (21.4)</cell></row><row><cell>major)</cell><cell></cell></row><row><cell>Location of ulcer</cell><cell></cell></row><row><cell>Heel</cell><cell>4 (14.3)</cell></row><row><cell>Dorsum</cell><cell>7 (25)</cell></row><row><cell>Sole</cell><cell>9 (32.1)</cell></row><row><cell>Toes</cell><cell>8 (28.6)</cell></row><row><cell>Wound parameters taken at the</cell><cell></cell></row><row><cell>first visit a</cell><cell></cell></row><row><cell>Length, cm</cell><cell>3.00 (1.63-6.03)</cell></row><row><cell>Width, cm</cell><cell>2.35 (1.10-3.88)</cell></row><row><cell>Area, cm 2</cell><cell>3.75 (1.40-16.50)</cell></row></table><note><p>Note: All categorical variables are expressed as n (%) unless otherwise specified. All continuous variables are expressed as median (interquartile range) unless otherwise specified. a Wound area was calculated based on the manual measurements taken by the wound nurse.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Intra-rater reliability of the same Testuyu device on three different images obtained from the same wound</figDesc><table><row><cell>T A B L E 2 Baseline characteristics of wound episodes Number of wound episodes (n = 75) Age 61 (49-66) Gender 70 (93.3) Smoking, yes 23 (30.7) Ethnicity Chinese 51 (68) Malay 4 (5.3) Indian 20 (26.7) Comorbidities Diabetes mellitus 75 (100) Hypertension 67 (89.3) Coronary artery disease 10 (13.3) Chronic heart failure 14 (18.7) Chronic kidney disease 53 (70.7) Cerebrovascular accident 12 (16) Chronic obstructive pulmonary disease 0 (0) Peripheral vascular disease 50 (66.7) Previous ulcer 33 (44) Previous surgical debridement 35 (46.7) Previous revascularisation 26 (34.7) Previous amputation (minor/major) 23 (30.7) Location of ulcer Heel 10 (13.3) Dorsum 18 (24) Sole 21 (28) Toes 26 (34.7) Wound parameters a Length, cm 2.60 (1.00-5.70) Width, cm 1.40 (0.50-3.30) Area, cm 2 3.10 (0.60-14.84) Note: All categorical variables are expressed as n (%) unless otherwise specified. All continuous variables are expressed as median (interquartile range) unless otherwise specified. a Wound area was calculated based on the manual measurements taken by the wound nurse.</cell><cell>Measurements, mean ± SD</cell><cell>Image 1 Image 2 Image 3 Intra-rater reliability (95% CI) P value</cell><cell>Length Width Area Length Width Area Length Width Area Length Width Area Length Width Area</cell><cell>Device 1 4.12 ± 3.46 2.50 ± 1.86 9.30 ± 12.00 3.79 ± 3.25 2.37 ± 1.76 8.68 ± 10.90 3.77 ± 3.31 2.33 ± 1.77 8.48 ± 11.01 0.956 (0.931-0.973) 0.946 (0.917-0.967) 0.984 (0.974-0.990) &lt;.001 &lt;.001 &lt;.001</cell><cell>Device 2 4.15 ± 3.39 2.49 ± 1.76 9.81 ± 11.33 4.06 ± 3.35 2.48 ± 1.79 9.58 ± 11.07 4.07 ± 3.36 2.58 ± 2.00 9.72 ± 11.33 0.993 (0.989-0.995) 0.933 (0.901-0.957) 0.994 (0.991-0.996) &lt;.001 &lt;.001 &lt;.001</cell><cell>Device 3 4.32 ± 3.62 2.48 ± 1.73 10.09 ± 11.66 4.20 ± 3.40 2.44 ± 1.72 9.86 ± 11.42 4.20 ± 3.41 2.54 ± 1.87 9.86 ± 11.28 0.984 (0.976-0.990) 0.963 (0.944-0.977) 0.994 (0.991-0.996) &lt;.001 &lt;.001 &lt;.001</cell></row></table><note><p>T A B L E 3</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Int Wound J. 2022;19:114-124. wileyonlinelibrary.com/journal/iwj</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>The authors would like to thank <rs type="person">Mr Sivapathasundaram Dayalan</rs>, <rs type="person">Ms Natalin Neo</rs>, and <rs type="person">Ms Li Lian Ng</rs> from <rs type="affiliation">Tetsuyu, Singapore</rs>, for their support in this study. This study is funded by the <rs type="funder">Agency for Science, Technology and Research (A*STAR)</rs> under its <rs type="programName">Industry Alignment Fund-Pre-Positioning Programme (IAF-PP) as part of Wound Care Innovation for the Tropics (WCIT) Programme</rs>, Grant/Award Number: <rs type="grantNumber">H19/01/a0/PP9</rs> and partially supported by funding from <rs type="funder">Tetsuyu</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div><p><rs type="funder">Agency for Science, Technology and Research (A*STAR)</rs>: <rs type="programName">Industry Alignment Fund -Pre-Positioning Programme (IAF-PP)</rs>, Grant/Award Number: <rs type="grantNumber">H19/01/a0/ PP9</rs>; Tetsuyu</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Nyer3Md">
+					<idno type="grant-number">H19/01/a0/PP9</idno>
+					<orgName type="program" subtype="full">Industry Alignment Fund-Pre-Positioning Programme (IAF-PP) as part of Wound Care Innovation for the Tropics (WCIT) Programme</orgName>
+				</org>
+				<org type="funding" xml:id="_KCA74RN">
+					<idno type="grant-number">H19/01/a0/ PP9</idno>
+					<orgName type="program" subtype="full">Industry Alignment Fund -Pre-Positioning Programme (IAF-PP)</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST</head><p>The authors do not have any conflicts of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,313.32,496.37,235.47,7.58;10,321.96,507.88,226.79,7.58;10,321.96,519.39,226.82,7.58;10,321.96,530.84,41.65,7.58" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Epidemiology of type 2 diabetes-global burden of disease and forecasted trends</title>
+		<author>
+			<persName><forename type="first">Mab</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hashim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Govender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mustafa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Al</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Epidemiol Global Health</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="107" to="111" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.32,542.35,235.46,7.58;10,321.96,553.07,226.79,8.50;10,321.96,565.37,144.30,7.58" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Diabetic foot disease: from the evaluation of the &quot;foot at risk&quot; to the novel diabetic ulcer treatment modalities</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Doupis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World J Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="153" to="164" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.32,576.88,235.49,7.58;10,321.96,588.39,226.79,7.58;10,321.96,599.84,226.82,7.58;10,321.96,611.35,89.05,7.58" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Diabetic foot: infections and outcomes in Iranian admitted patients</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hadadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Omdeh</forename><surname>Ghiasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hajiabdolbaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zandekarimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hamidian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jundishapur J Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="11680" to="e11680" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.32,622.86,235.44,7.58;10,321.96,634.37,226.81,7.58;10,321.96,645.88,226.79,7.58;10,321.96,657.39,165.12,7.58" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A retrospective analysis of amputation rates in diabetic patients: can lower extremity amputations be further prevented?</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alvarsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sandgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wendel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alvarsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Brismar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cardiovasc Diabetol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.31,668.84,235.43,7.58;10,321.96,680.35,226.82,7.58;10,321.96,691.86,226.77,7.58;10,321.96,703.37,29.62,7.58" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Risk factors for lower extremity amputation in diabetic foot disease categorized by Wagner classification</title>
+		<author>
+			<persName><forename type="first">J-H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-S</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C-H</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Res Clin Pract</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="358" to="363" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,313.31,714.87,235.47,7.58;10,321.96,726.38,208.81,7.58" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Diabetic foot: surgical approach in emergency</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Setacci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sirignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mazzitelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Med</title>
+		<imprint>
+			<biblScope unit="page">296169</biblScope>
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.83,52.24,235.46,7.58;11,62.42,63.75,226.83,7.58;11,62.42,75.26,159.78,7.58" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Clinical and economic burden of wound care in the tropics: a 5-year institutional population health review</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Eng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="790" to="803" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.84,86.77,235.41,7.58;11,62.42,98.28,226.86,7.58;11,62.42,109.79,226.83,7.58;11,62.42,121.24,120.81,7.58" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Clinical and economic burden of diabetic foot ulcers: a 5-year longitudinal multiethnic cohort study from the tropics</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Surendra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saxena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Car</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13540</idno>
+		<ptr target="https://doi.org/10.1111/iwj.13540" />
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.83,132.75,235.46,7.58;11,62.42,144.26,226.77,7.58;11,62.42,155.77,218.23,7.58;11,62.42,167.28,199.51,7.58" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Wound Assessment &amp; Monitoring Systems. Kestrel Health Information</title>
+		<author>
+			<persName><surname>Woundsource</surname></persName>
+		</author>
+		<ptr target="https://www.woundsource.com/product-category/wound-assessment-documentation/wound-assessment-monitoring-systems" />
+		<imprint>
+			<date type="published" when="2020-04-07">2020. April 7, 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.39,178.78,235.86,7.58;11,62.36,190.24,226.90,7.58;11,62.36,201.75,84.71,7.58" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Wound assessment, imaging and monitoring systems in diabetic foot ulcers: a systematic review</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Lo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1909" to="1923" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.38,213.25,235.88,7.58;11,62.36,224.76,226.89,7.58;11,62.36,236.27,217.39,7.58" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Correlation and agreement: overview and clarification of competing concepts and measures</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">M</forename><surname>Tu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Shanghai Arch Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="115" to="120" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.38,247.78,235.90,7.58;11,62.36,259.29,226.91,7.58;11,62.36,270.74,123.39,7.58" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A guideline of selecting and reporting intraclass correlation coefficients for reliability research</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Koo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chiropr Med</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="163" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.38,282.25,235.87,7.58;11,62.36,293.76,226.89,7.58;11,62.36,305.27,101.77,7.58" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Foundations of Clinical Research: Applications to Practice</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Portney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Watkins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>Pearson/Prentice Hall</publisher>
+			<biblScope unit="volume">892</biblScope>
+			<pubPlace>Upper Saddle River, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.39,316.78,235.85,7.58;11,62.36,328.29,226.88,7.58;11,62.36,339.74,68.80,7.58" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A new mobile application for standardizing diabetic foot images</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Chatwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Ng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="169" to="173" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.39,351.25,235.86,7.58;11,62.36,362.76,226.90,7.58;11,62.36,374.27,226.91,7.58;11,62.36,385.78,103.10,7.58" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Principles of high-frequency ultrasonography for investigation of skin pathology</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jasaitiene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Valiukeviciene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Linkeviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Raisutis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jasiuniene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kazys</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Eur Acad Dermatol Venereol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="375" to="382" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.39,397.28,235.87,7.58;11,62.36,408.79,226.90,7.58;11,62.36,420.25,226.89,7.58;11,62.36,431.75,135.58,7.58" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A reliability study using a long-wave infrared thermography device to identify relative tissue temperature variations of the body surface and underlying tissue</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Spahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="109" to="119" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,53.39,443.26,235.99,7.58;11,62.36,454.77,226.98,7.58;11,62.36,466.28,226.92,7.58;11,62.36,477.79,226.61,7.58" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Comparison of standardized clinical evaluation of wounds using ruler length by width and scout length by width measure and scout perimeter trace</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Spahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Pinnamaneni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="116" to="121" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,314.63,52.25,235.82,7.58;11,323.55,63.76,226.91,7.58;11,323.55,75.27,226.92,7.58;11,323.55,86.78,92.61,7.58" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Accuracy and precision of selected wound area measurement methods in diabetic foot ulceration</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ladyzynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sabalinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wojcicki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Technol Therapeut</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="712" to="721" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,314.63,98.29,235.87,7.58;11,323.55,109.80,226.94,7.58;11,323.55,121.25,226.94,7.58;11,323.55,132.76,96.67,7.58" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Digital planimetry results in more accurate wound measurements: a comparison to standard ruler measurements</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bevilacqua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="799" to="802" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,314.63,144.27,235.86,7.58;11,323.55,155.78,226.92,7.58;11,323.55,167.28,226.93,7.58;11,323.55,178.79,68.80,7.58" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Timesaving comparison of wound measurement between the ruler method and the swift skin and wound app</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Au</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sasseville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cutan Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="226" to="228" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,314.63,190.25,235.86,7.58;11,323.55,201.75,226.94,7.58;11,323.55,213.26,143.42,7.58" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Skin and wound map from 23,453 nursing home resident records: relative prevalence study</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Au</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laforet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Talbot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">11875</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,314.63,224.77,235.88,7.58;11,323.55,236.28,226.96,7.58;11,323.55,247.79,199.00,7.58" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Digital imaging of wounds: are measurements reproducible among observers?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Quan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Lazarus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Kohli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kapoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="245" to="248" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,314.63,259.30,235.85,7.58;11,323.55,270.75,226.91,7.58;11,323.55,282.26,29.62,7.58" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Evaluating an iPad app in measuring wound dimension: a pilot study</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Khong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Goh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="752" to="760" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,314.63,293.77,235.85,7.58;11,323.55,305.28,226.83,7.58;11,323.55,316.79,221.40,7.58;11,323.55,328.30,112.20,7.58" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Apple introduces iPhone 12 Pro and iPhone 12 Pro Max with 5G</title>
+		<author>
+			<persName><surname>Apple</surname></persName>
+		</author>
+		<ptr target="https://www.apple.com/sg/newsroom/2020/10/apple-introduces-iphone-12-pro-and-iphone-12-pro-max" />
+		<imprint>
+			<date type="published" when="2020-10-14">2020. October 14, 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,314.63,339.75,235.85,7.58;11,323.55,351.26,226.93,7.58;11,323.55,362.77,77.11,7.58" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Using image J to document healing in ulcers of the foot in diabetes</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Jeffcoate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Musgrove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Lincoln</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1137" to="1139" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Wound perimeter, area, and volume measurement based on laser 3D and color acquisition</title>
+				<funder ref="#_mGnEQBG">
+					<orgName type="full">Slovenian Research Agency</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Urban</forename><surname>Pavlovčič</surname></persName>
+							<email>urban.pavlovcic@fs.uni-lj.si</email>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Ljubljana</orgName>
+								<address>
+									<addrLine>Aškerčeva 6</addrLine>
+									<postCode>1000</postCode>
+									<settlement>Ljubljana</settlement>
+									<country key="SI">Slovenia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Janez</forename><surname>Diaci</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Ljubljana</orgName>
+								<address>
+									<addrLine>Aškerčeva 6</addrLine>
+									<postCode>1000</postCode>
+									<settlement>Ljubljana</settlement>
+									<country key="SI">Slovenia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Janez</forename><surname>Možina</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Ljubljana</orgName>
+								<address>
+									<addrLine>Aškerčeva 6</addrLine>
+									<postCode>1000</postCode>
+									<settlement>Ljubljana</settlement>
+									<country key="SI">Slovenia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matija</forename><surname>Jezeršek</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Ljubljana</orgName>
+								<address>
+									<addrLine>Aškerčeva 6</addrLine>
+									<postCode>1000</postCode>
+									<settlement>Ljubljana</settlement>
+									<country key="SI">Slovenia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Wound perimeter, area, and volume measurement based on laser 3D and color acquisition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0D8510A3595ECDADAFF77FB5F7CEFA16</idno>
+					<idno type="DOI">10.1186/s12938-015-0031-7</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>3D measurement</term>
+					<term>Wound measurement</term>
+					<term>Healing assessment</term>
+					<term>Wound segmentation</term>
+					<term>Laser triangulation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Wound measuring serves medical personnel as a tool to assess the effectiveness of a therapy and predict its outcome. Clinically used methods vary from measuring using rules and calipers to sophisticated methods, based on 3D measuring. Our method combines the added value of 3D measuring and well-known segmentation algorithms to enable volume calculation and achieve reliable and operator-independent analysis, as we demonstrate in the paper. Methods: Developed 3D measuring system is based on laser triangulation with simultaneous color acquisition. Wound shape analysis is based on the edgedetermination, virtual healthy skin approximation over the wound and perimeter, area, and volume calculation. In order to validate the approach, eight operators analyzed four different wounds using proposed method. Measuring bias was assessed by comparing measured values with expected values on an artificially modeled set of wounds. Results: Results indicate that the perimeter, area, and volume are measured with a repeatability of 2.5 mm, 12 mm 2 , and 30 mm 3 , respectively, and with a measuring bias of -0.2 mm, -8.6 mm 2 , 24 mm 3 , respectively. Conclusions: According to the results of verification and the fact that typical wound analysis takes 20 seconds, the method for wound shape measurement can be clinically used as a precise tool for objectively monitoring the wound healing based on measuring its 3D shape and color.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="793.701" lry="595.276"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Measurement of the wound shape is important because it serves as a tool for the medical personnel to assess the effectiveness of a therapy and predict its outcome <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. The ideal assessment method should be quick, affordable, accurate, unobtrusive to the patient, and user-friendly to be suitable for everyday use in the clinical practice. As far as possible, the method should not require a specially trained operator to perform it.</p><p>Traditionally, the area of the ulcer is measured, since it has been proven to be a reliable and accurate indicator of the healing progress. Although measuring the ulcer's volume provides a lot of additional information, it is poorly documented in the literature. This is probably due to practical limitations <ref type="bibr" target="#b2">[3]</ref>, since the volume measurement is much more complicated than the measurement of wound area and its perimeter. Some authors claim it is not precise and therefore cannot inform clinical practice <ref type="bibr" target="#b4">[5]</ref> and others suggest estimating wound area and volume based on the circumference information, when direct measurements are hampered, since high correlations between circumference and area (0.90, p &lt; 0.001) and circumference and volume (0.70, p &lt; 0.001) were found <ref type="bibr" target="#b5">[6]</ref>.</p><p>The most straightforward method of wound area measurement is based on using a ruler and on the assumption that the ulcer is rectangular in shape. Thus, its surface is usually overestimated in the range from 10 to 44%. The accuracy decreases with the increasing dimensions of the wound <ref type="bibr" target="#b6">[7]</ref>. Another commonly used method is to manually trace with a pen the wound on a gridded transparent foil. The wound area is obtained by summing the area of the squares inside the traced wound edge. The method is relatively fast, but its accuracy is limited due to necessary assessment of the contributions of squares, which are located on the border of the wound <ref type="bibr" target="#b7">[8]</ref>. The process of aggregation may also be carried out using an electronic device that calculates the area inside the traced wound edge. Some studies have shown that the accuracy of the measured area is to a greater degree limited by the problem of determining the margins of the wound rather than the aggregation of the squares <ref type="bibr" target="#b5">[6]</ref>. In a related method, the ulcer is photographed and then the computer program determines its edges. The advantage of this method is its contact-less measurement, but the object of the known size must be seen in the image so we can determine the proper scale. Another good feature of this particular method is that the image also stores the information regarding the visual appearance of the wound. It is important that the photographer pays attention to the appropriate illumination of the wound to assure the quality of the captured image. Variations in viewing can bring up to a 10% change in the measured wound characteristics <ref type="bibr" target="#b8">[9]</ref>. Some researchers are not satisfied with the results attained by only using 2D methods of measurement and are opting for 3D measurement of wounds <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11]</ref>. The methods of stereovision <ref type="bibr" target="#b11">[12]</ref>, photogrammetry <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b12">13]</ref> and laser or white light triangulation <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> are often used, as they enable the reliable measurement of 3D surfaces. The main added value of the 3D methods lies in the possibility of determining the wound volume, area, and perimeter. To reliably calculate those characteristics of the wound, its edge must be determined firstly. Active contour algorithm using B-splines proved to produce higher-precision compared to fully manual wound edge determination <ref type="bibr" target="#b16">[17]</ref>. In another approach, the course of the edge is roughly outlined and then a computer algorithm adjusts the edge to coincide with the highest gradient of the surface <ref type="bibr" target="#b13">[14]</ref>. Other authors used combination of unsupervised segmentation methods and machine learning algorithms to segment the area of the wound <ref type="bibr" target="#b17">[18]</ref>. In order to measure the volume of the wound, it is necessary to approximate virtual healthy skin (ViHS). The approaches are different, but authors usually use some form of interpolation to approximate the course of healthy skin <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b18">19]</ref>.</p><p>In another study authors compared accuracy and precision of area measurement using elliptical estimation, Visitrak, SilhouetteMobile and TeleDIaFoS system <ref type="bibr" target="#b19">[20]</ref>. They report accuracy of 13.3%, 6.8%, 2.3% and 2.1%, and precision of 6.0%, 6.3%, 3.1% and 1.6%. Volume measurement was not conducted. Authors of Silhouete device report it has a bias of 0.01% for perimeter, 0.3% for area, and 2.5% for volume measuring <ref type="bibr" target="#b20">[21]</ref>.</p><p>In this paper we present a measurement system with corresponding evaluation software for quick and reliable wound measurement and analysis. It is based on 3D measurement of the wound and the surrounding healthy skin; the approximation of healthy skin and segmentation procedures. Three different segmentation approaches were used and evaluated. The outcomes of the method are the perimeter, area and volume of the wound, which enable the calculation of the initial healing rates and thus evaluate the progress of healing and predict its outcome.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3D measuring system</head><p>The developed measuring system is based on the principle of laser-line triangulation, where the laser line is translated over the measured surface in order to obtain its 3D shape <ref type="bibr" target="#b21">[22]</ref>. A color camera and a laser-line projector are attached to a swingarm. It is rotated around a hinge by a linear stepper motor as shown in Figure <ref type="figure">1</ref>. The laser projector (World Star Tech) has 3.5 mW of power, 635 nm wavelength, a laser plane spread angle of 15°a nd a 1 mm laser-line width. According to the manufacturer the laser projector falls under laser safety class II <ref type="bibr" target="#b22">[23]</ref>. The camera (PointGrey, model FireFly MV) has a resolution of 640 × 480 pixels, the sensor size is 1/3" and the maximum frame rate is 60 frames per Figure <ref type="figure">1</ref> A schematic representation of the 3D measuring system. The surface is measured using the laser triangulation principle, where the laser line is translated along the entire surface using the linear stepper motor which rotates the swingarm.</p><p>second. The camera is connected to a computer (HP ProBook 4710 s, Intel Core 2 Duo 2.10 GHz, 3GB of RAM) via a FireWire interface.</p><p>The data acquisition process consists of two consecutive phases: (i) 3D shape measurement and (ii) color measurement. During the 3D shape measuring process the laser projector is switched on to illuminate the measured surface. At the intersection of the laser plane and the measuring surface an intersection curve is formed which is captured by the camera and extracted with the algorithm described in <ref type="bibr" target="#b21">[22]</ref>. The surface color is measured on the return stroke, when the laser projector is turned off. In this phase, the camera captures frames with a longer shutter time (switched from 3 ms to about 30 ms or more) and electronic gain is enabled, since the ambient light with a lower intensity is used for the illumination. The color information is extracted only from the pixels where the laser line was detected during the 3D measurement phase.</p><p>The system is calibrated using a reference surface of known geometry as described in <ref type="bibr" target="#b23">[24]</ref>. The accuracy after the calibration is 0.25 mm in all directions. Measuring range is 150 mm × 150 mm × 200 mm at a working distance of 800 mm. Since the data acquisition process takes about five seconds, special attention must be paid to the fixation of leg during the measurement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3D wound shape analysis</head><p>The shape of the wound is analyzed in the following steps (see Figure <ref type="figure" target="#fig_0">2</ref>): (i) the 3D surface is imported into the software and the color information of the surface is converted into a 2D color image; (ii) the edge of the wound is detected using a segmentation algorithm (details will be explained in the next chapter); (iii) the virtual healthy skin (ViHS) is approximated; and finally (iv) the volume of the wound is determined as the volumetric difference between the measured surface and the ViHS.</p><p>The ViHS is a non-uniform rational basis spline (NURBS) surface, which is determined by four edges, and is approximated with the measured surface <ref type="bibr" target="#b24">[25]</ref>. The woundvolume is calculated by the numerical integration of the differences within the entire wound-area <ref type="bibr" target="#b25">[26]</ref>. The absolute values of the negative volume under the ViHS and the positive volume above the ViHS are summed and the result is defined as the volumetric deviation of the wound (VDW). This estimator quantifies the cumulative deviation between the measured surface and the ViHS. We decided to sum absolute values over non-absolute values, since in the case of equal (negative and positive) volumes, summing the non-absolute values would return zero value. This usually indicates the absence of a wound and the result would therefore be misleading. There is also no reason to neglect either; when wound is healed, both should fade.</p><p>In terms of repeatability of the ViHS, a selection of its vertices is the most crucial step. They can be determined manually, but it was found out at an early stage of this research that the orientation and bounding conditions at the ViHS approximation contributed significantly to the VDW measuring uncertainty. Circumference and tilt of lower leg parts, where wounds under consideration usually appear, change rapidly and so do bounding conditions for ViHS approximation. That can result in systematic deviation between VDWs of same wound with different ViHSes. This effect is not noticeable analyzing generic wound on plain, cylindrical or sphere surface, but is evident analyzing in-vivo measurements. With a view to reduce that effect, location of the vertices were fixed to the more reliable and repeatable featurethe wound edge. Once the edge of the wound is detected, the software automatically determines the initial ViHS location by circumscribing the rectangle with the minimal possible area to the edge (using OpenCV function cvMinAreaRect2 <ref type="bibr" target="#b26">[27]</ref>). In that manner we ensure the orientation of the ViHS at the same wound is consistent. To further reduce the influence of the bounding parameters, additional 30 ViHS instances are calculated by randomly scattering each vertex inside a 5 × 5 mm surrounding rectangle. For that purpose we use a random generator with a uniform distribution probability. In that manner, 31 volumes, areas and perimeters are calculated as it is shown in Figure <ref type="figure" target="#fig_0">2</ref>. The results of the analysis are defined as the average values of the perimeter, area, and VDW.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound edge detection</head><p>The wound edge is not only used for the area and perimeter measurement, but also for the ViHS determination. The developed method can be used in combination with any segmentation method; three well-known (Canny edge detector algorithm (CED) <ref type="bibr" target="#b27">[28]</ref>, the GrowCut segmentation <ref type="bibr" target="#b28">[29]</ref>, and the GrabCut segmentation algorithm <ref type="bibr" target="#b29">[30]</ref>) have been tested and evaluated.</p><p>The CED segmentation consists of three main steps which require the operator's interaction: (i) selecting the color channel, where the edge of the wound is most clearly seen, (ii) setting the threshold values for the CED procedure and (iii) the automatic and/or manual closing of the wound edge. The other two segmentations require a similar operator input to each of them. The operator must first determine a region which definitely belongs to the wound (the red region in Figure <ref type="figure" target="#fig_1">3</ref>) and the region which definitely does not (the blue region in Figure <ref type="figure" target="#fig_1">3</ref>). These regions represent the initial conditions on which the segmentation of the remaining part of the image is performed. The procedure is interactive, so once the segmentation is done, the operator can select additional regions as a part of the wound or the healthy skin and repeat the segmentation to alter the course of the edge.</p><p>The software was developed in the C++ programming language with the use of the OpenCV libraries <ref type="bibr" target="#b26">[27]</ref>. Algorithms of the CED and GrabCut are included in the OpenCV library. GrowCut was written on our own on the basis of the example given in <ref type="bibr" target="#b30">[31]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Verification</head><p>To assess the repeatability (defined as one standard deviation) of the wound measurement, we compared the results obtained by eight operators (four women aged 36.8 ± 14.9 and four men aged 31.0 ± 6.1) who analyzed four wound samples (see Figure <ref type="figure" target="#fig_2">4</ref>) using all three segmentation methods. Analysis of each wound was repeated five times by each operator. The operators first analyzed the first wound using all three methods, then the second wound using all three methods and so on. After analyzing the fourth wound, they started the loop again. The operators were not informed in advance that the test wounds would be repeated in order to ensure that they did not remember the settings they had used.</p><p>It is important to emphasize that the operators, with the exception of one, had no previous experience with any kind of image segmentation software, so the verification simulated worst-case scenario.</p><p>The test wounds were selected according to their characteristics and were measured in cooperation with Department of Dermatovenereology, University Medical Centre Ljubljana, Slovenia. Before the measurement the patients have signed a written consent and approval by the National Medical Ethics Committee of the Republic of Slovenia has been granted (No.: 78/11/09). The basic information and characteristics of each wound are shown in Table <ref type="table" target="#tab_0">1</ref>. Wound A is easy to segment, but its surrounding skin is deformed due to the compression bandage, which was used during therapy. The radius of the curvature in both the vertical and horizontal direction, changes rapidly, so the course of the ViHS is highly dependent on the location of the selected vertices. Wound B is surrounded with a much smoother area, which is more suitable for describing with the NURBS curves. The edge of the wound is still nicely seen, but on some parts it is a bit blurred. That is why some operator interaction is necessary. Even more operator interaction is required in the case of wound C. The difficulty lies in the fact that the operator has to decide which regions to include in the wound segment and which to omit. The hardest to analyze is wound D. The edge is not clearly seen, since the contrast between the healthy skin and the wound is poor. It is very shallow, so the calculated VDW is expected to be highly influenced by the determined wound edge.</p><p>From the results of the analysis we can assess the intra-operator and inter-operator agreement. The intra-operator agreement denotes the correlation of the results each operator obtained by repeating the analysis. The inter-operator denotes the correlation between the results among different operators. Both agreements are then analyzed using the one-way Kruskal-Wallis (K-W) test. The homogeneity of variance is checked by using the Levene's test. In all statistical tests the 95% level of confidence is used. If the Levene's test rejects the hypothesis of the homogeneity of variance, we check the deviations, the p-values of the Levene's and K-W tests, respectively, and interpret the results in view of all the tests.</p><p>To assess the bias of the analysis procedure, six wounds were artificially modeled using Geomagic Studio <ref type="bibr" target="#b31">[32]</ref> on a measured surface of a healthy skin. These wounds were modeled so that the exact values of perimeter, area and volume were known.  Hereinafter, these values will be referred to as the expected values. Surfaces of modeled wound were imported directly into analyzing software, so that only bias of analyzing procedure was assessed, omitting 3D measuring step. The analysis was performed by one operator. The test wounds were designed in pairs: two wounds were roughly the same shape, one bigger and one smaller, to simulate the healing process.</p><p>The verification procedure was concentrated on the VDW measurement, since it is by far the most complex property of the wound to measure. The verification of the perimeter and area measurements is presented at the end of the Results and discussion section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>The results of the average VDW values and the corresponding standard deviations of all five analyses for each operator are shown in Table <ref type="table" target="#tab_1">2</ref>. For each operator (see the first column) the results for the CED, GrowCut and GrabCut methods are presented. In the bottom row (Average) the average value and the standard deviation of the operator's averages are shown.</p><p>The large standard deviation in the operator rows indicates a low intra-operator agreement (the differences in each sub-image in Figure <ref type="figure" target="#fig_3">5</ref>), whereas the large standard deviation in the Average row indicates a low inter-operator agreement. That can be caused by a different ViHS orientation (see differences in the initial ViHS rectangles in Figure <ref type="figure" target="#fig_3">5d</ref>) or by a different course of the edge (compare the edges in Figure <ref type="figure" target="#fig_3">5a</ref>). One of the reasons for the differences is that the operators in some cases spent more time segmenting the wound and put a lot of effort into excluding healthy parts, whereas in other cases the same operator did not pay so much attention to the details.</p><p>The best intra-operator results were acquired in the case of wound A in combination with the GrabCut algorithm (see Table <ref type="table" target="#tab_1">2</ref>), where the standard deviations of the operators range from 5 mm 3 to 16 mm 3 . In that case, the initially found edge is very close to the actual edge, so very little or even no operator interaction is necessary. The results were the worst in the case of wound D in combination with the GrowCut (see Table <ref type="table" target="#tab_1">2</ref>), where standard deviations range from 39 mm 3 to 130 mm 3 . The standard deviation of the operators' average VDW (bottom row) match those results, since it is also the lowest (wound A using GrabCut, 4 mm 3 ) and the highest (wound D using GrowCut, 115 mm 3 ) in cases of the same combinations.</p><p>When analyzing the average values and the standard deviations (see Table <ref type="table" target="#tab_1">2</ref>) we noticed that some operators (for example operator 5 using the GrowCut in the case of wound C and operators 1 and 2 using the GrowCut in the case of wound D) have obtained results with average values very different compared to the others. We cannot say that those operators were wrong, but it rather implies the subjective nature of the wound edge perception.</p><p>In Figure <ref type="figure" target="#fig_3">5c</ref> we can see the example of the operator who determined almost the same edge in all five cases. Even though the standard deviation in his results (see Table <ref type="table" target="#tab_1">2</ref>, operator 8 using the GrabCut in the case of wound C) is not lower compared to the other operators, so we can conclude that the effect of the ViHS course is still noticeable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intra-operator agreement</head><p>The results of the statistical analysis of the intra-operator agreement are shown in Table <ref type="table" target="#tab_2">3</ref>. The percentage indicates how many of the operators' results are not statistically significantly different for all five analyses per wound and the algorithm. Thus, a higher value means that the method is less sensitive to the operator's input.</p><p>The most surprising results are those for wound A, where the results of the CED and the GrowCut are significantly different for all operators. This wound is considered easy in terms of segmentation, but the difficulty lies in the undulating surrounding skin. If the segmented area is even minimally different; due to its roundish shape, the initial outlined rectangle can be oriented significantly differently, and consequently the course of the ViHS also varies. Even though the intra-operator differences of the GrabCut method are not statistically significant, since the algorithm in that particular wound requires virtually no operator interaction, so in almost all cases identical edges are found.</p><p>In the case of wound B, the intra-operator correlation is high using the CED algorithm, and much lower using both segmentation algorithms. The exact location of the edge is unvaryingly determined by the CED, whereas when using the GrowCut and the GrabCut more operator interaction is required, so the final location depends on the punctiliousness of the operator and his/her perception of the wound. That may seem contradictory to the findings in previous section, but can be explained that GrabCut segments wound A perfectly, since the contrast in colors of wounded and healthy area is very high. Meanwhile wound C has color, quite similar to the color of healthy skin. The contrast of the edge is lower, which in our opinion is the main reason for the less accurate segmentation and VDW calculation.</p><p>Wound C is large and deep and has a good contrast between the healthy skin and the wound. But there are some regions where the operator has to decide whether to include them in the wound or not. The results show that some operators decided differently each time. But even so, the agreement with each operator is still high using the  CED-and the GrabCut-based method. Figure <ref type="figure" target="#fig_4">6</ref> shows the edges of wound C by one operator (no. 7 in Table <ref type="table" target="#tab_1">2</ref>). The edges found using the CED, GrowCut and Grabcut are drawn in red, green and blue, respectively. In Figure <ref type="figure" target="#fig_4">6d</ref> all the edges are overlapping so the better the overlap, the whiter the edge is. The edge is most consistent in the case of the CED, but the lower right part of the wound is sometimes included in the wound and sometimes omitted. The results calculated by the GrabCut are also consistent, whereas there are slightly more differences between the edges determined by the GrowCut. Rectangles show the initial edges of the ViHS approximation.</p><p>The results of wound D are the worst. According to Table <ref type="table" target="#tab_2">3</ref>, the GrabCut performs the best, but the matching between the detected and the actual edge is often low. It is higher in the case of the CED, but the results each operator obtained when repeating the analyses vary significantly, since a lot of operator interaction, in terms of manually drawing the missing edge segments, is required.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inter-operator agreement</head><p>In Table <ref type="table" target="#tab_3">4</ref> the average measured VDW and the standard deviations for each algorithm are shown. It can be seen, that the repeatability of the methods based on the CED and the GrowCut algorithms are comparable. The average repeatability for all four wounds is 32 mm 3 for the CED and 26 mm 3 for the GrabCut, whereas the repeatability of the GrowCut is much lower (81 mm 3 ). The repeatability is the highest in the case of wound A and the GrabCut algorithm.</p><p>In Figure <ref type="figure" target="#fig_5">7</ref> the overlap of one edge per operator can be seen. The differences between the operators as well as the differences between the algorithms are evident. The measured VDW by the CED and GrabCut are comparable (251 ± 24 mm 3 and 223 ± 26 mm 3 ),  whereas the average VDW measured by the GrowCut method is about 40% and the standard deviation 180% higher. The most problematic issue is the upper left part, where the differences are most prominent. Visual inspection shows that the best results are achieved using the CED.</p><p>The results of the statistical analysis (p-values of the K-W test) are shown in Table <ref type="table" target="#tab_4">5</ref>. All three algorithms and all four wounds are compared among the operators. We see that in the case of wound A (p-values 0.40, 0.59, and 0.45) and B (p-values 0.83, 0.55, and 0.14) the differences are not statistically significant, whereas in the case of wound C and D they are. Analyzing the average and variance values of the statistically significantly different results showed that certain operators caused the rejection of a null hypothesis, whereas others produced statistically insignificantly different results. The result of the K-W test, excluding one operator whose average value differed the most from all the others was noted a . The result excluding two operators was noted b .</p><p>These results indicate that the differences between the operators are most evident in the case of wounds where edge detection is harder due to the unclear course of the edge (wound C) or the poor contrast of the colors (wound D). In cases of clearly seen and unambiguous edges (wounds A and B) the differences between operators are not statistically significant for either edge detection algorithm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Repeatability of perimeter and area measuring</head><p>The repeatability of perimeter and area measuring is better than the VDW, since the ViHS has lesser impact. In Tables <ref type="table" target="#tab_5">6</ref> and<ref type="table" target="#tab_6">7</ref>, the measured perimeters and areas with standard deviations are shown respectively. It is clear that the differences between the  operators are much lower compared to the VDW measurement. The average standard deviations are 2.1 mm, 3.5 mm, and 2.6 mm for the methods based on the CED, GrowCut, and GrabCut, respectively.</p><p>The dilemma about the course of the edge in wound C was mentioned before. We also mentioned that the differences in the measured VDW were not that large, since the wound is deep. But the effect can be clearly seen in the perimeter values, since the indentation can significantly increase the overall length of the edge. The same effect is visible in wound D. In Figure <ref type="figure" target="#fig_5">7</ref> it is visible, that the edge found by the GrabCut is mostly composed of longer straight lines without much indentation, whereas the GrowCut edge varies the most.</p><p>The results of measuring the area in Table <ref type="table" target="#tab_6">7</ref> show that the lowest standard deviation was achieved with the CED on wound A, even though the VDW differences were statistically significant. This confirms our assumption that the differences are not caused by the different courses of the edge. Instead, they were caused by the ViHS. This confirms how important the fixation of the initial rectangle to the edge is; as well as the scattering of the ViHS vertices and averaging.</p><p>The area is most directly related to the detected edge. The areas of wound A, B, and C are quite close (K-W p-values are 0.08, 0.01, and 0.63, respectively) for the GrowCut and the GrabCut, whereas the CED areas are larger. But in the case of wound D, the areas of the CED and the GrabCut correlate nicely (K-W p-value 0.99), but the GrowCut result is significantly larger.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bias verification</head><p>The expected and measured values of VDW of artificially modeled wounds, as well as the changes of VDW during simulated healing are shown in Table <ref type="table" target="#tab_7">8</ref>. Average absolute differences between expected and measured values of perimeter, area, and VDW are -0.2 mm, -8.6 mm 2 , and 24 mm 3 , respectively. Furthermore, the relative differences are 1.5% for perimeter, 0.9% for area, and 3.5% for VDW measurement.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>A novel method for wound shape measurement is presented in this study. The 3D shape and color of the wound is obtained using a laser triangulation profilometer with a repeatability of 0.25 mm. The perimeter, area, and volumetric deviation (VDW) are measured employing semi-automatic edge detection and an approximation of the virtual healthy skin by the NURBS surface. Typical wound analysis time is 30 seconds.</p><p>The system was verified by the procedure where eight operators analyzed four typical wounds. The results show that the system enables measuring wound geometry with the repeatability of 2.5 mm, 12 mm 2 , and 30 mm 3 for perimeter, area, and VDW measurement, respectively. On average, best results on our wound set were acquired in combination with GrabCut segmentation. We assume those results are conservative, since operators were not previously trained. Even though operators did not have much problems managing the software. The bias of the system was assessed by comparing results of the analysis of artificial wound with expected values and was found to be about 1.5%, 0.9% and 3.5% for perimeter, area and volume measuring.</p><p>Achieved repeatability and bias are comparable to those, presented in Background section. However, the experiments conducted in order to assess those characteristics greatly differ. While some other authors used absolutes of very basic shapes <ref type="bibr" target="#b20">[21]</ref>, where highly repeatable and low biased results are more easily achievable, our test wounds were modeled on the surface of healthy skin. Its surfaces are much more complex and interpolated ViHS is more influenced by bounding conditions. That is way we think our results mimic the in-vivo situation to a greater degree.</p><p>Presented system was used to measure characteristics of the wound in study, conducted in clinical environment in cooperation with University Clinical Centre Ljubljana, Slovenia. Analysis software proved to be easy to use and fast, but on the other hand, specifics of used 3D measuring system turned out not to be ideal for measuring in clinical environment, so we will seek improvement in that area. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Block diagram of the analysis procedure.</figDesc><graphic coords="4,127.28,519.93,340.76,195.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3</head><label>3</label><figDesc>Figure3The initial regions of the wound. Region of the wound (red color) and the healthy skin (blue) for the GrowCut and GrabCut segmentation procedures.</figDesc><graphic coords="6,155.68,96.27,283.87,289.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4</head><label>4</label><figDesc>Figure 4 Test wound samples. The upper row shows cropped texture images. The bottom row shows the 3D surfaces together with corresponding textures. The wound segmentation was performed on raw color information seen in the upper row.</figDesc><graphic coords="7,155.68,96.27,283.87,135.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5</head><label>5</label><figDesc>Figure 5 Comparison of the edges found by four different operators for wound C. a) Operator no. 7. b) Operator no. 4. c) Operator no. 6. d) Operator no. 1.</figDesc><graphic coords="10,127.28,96.27,340.76,121.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 6</head><label>6</label><figDesc>Figure 6 The edges found on wound C by one operator (no. 7). Edges found with CED (a), GrowCut (b) and GrabCut (c) and all together (d). The vertices of the rectangle are initial points between which the NURBS surface in approximated.</figDesc><graphic coords="11,127.28,96.27,340.76,105.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 7</head><label>7</label><figDesc>Figure 7 The edges of wound D. Edges as determined with the CED (a), GrowCut (b) and GrabCut (c) by each operator. The edge of each operator is drawn in a different color. It can be seen that the upper left and lower wound edge are especially hard to determine. The better the overlapping of the edges, the whiter the edge is.</figDesc><graphic coords="12,155.68,96.26,283.87,114.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,155.68,397.53,283.87,297.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Basic characteristics of the test wounds</figDesc><table><row><cell>Wound sample</cell><cell>A</cell><cell>B</cell><cell>C</cell><cell>D</cell></row><row><cell>Resolution</cell><cell>208 ± 455</cell><cell>208 ± 309</cell><cell>208 ± 455</cell><cell>208 ± 520</cell></row><row><cell>Approx. area</cell><cell>62 ± 28</cell><cell>46 ± 25</cell><cell>57 ± 30</cell><cell>30 ± 17</cell></row><row><cell>Approx. depth</cell><cell>3</cell><cell>4</cell><cell>6</cell><cell>3</cell></row><row><cell>Segmentation difficulty</cell><cell>Easy</cell><cell>Medium</cell><cell>Medium</cell><cell>Hard</cell></row><row><cell>ViHS sensitivity</cell><cell>Low</cell><cell>Good</cell><cell>Medium</cell><cell>Medium</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>VDW of woundsA, B, C, and D</figDesc><table><row><cell>Wound Seg. m.</cell><cell>A CED</cell><cell>GrowCut</cell><cell>GrabCut</cell><cell>B CED</cell><cell>GrowCut</cell><cell>GrabCut</cell><cell>C CED</cell><cell>GrowCut</cell><cell>GrabCut</cell><cell>D CED</cell><cell>GrowCut</cell><cell>GrabCut</cell><cell>Pavlovčič et al. BioMedical Engineering OnLine (2015) 14:39</cell></row><row><cell>Op. 1</cell><cell>676 ± 50</cell><cell>775 ± 114</cell><cell>676 ± 7</cell><cell>1301 ± 48</cell><cell>1171 ± 69</cell><cell>1136 ± 56</cell><cell>1195 ± 14</cell><cell>1308 ± 24</cell><cell>1343 ± 22</cell><cell>235 ± 57</cell><cell>564 ± 120</cell><cell>375 ± 129</cell><cell></cell></row><row><cell>Op. 2</cell><cell>640 ± 57</cell><cell>713 ± 105</cell><cell>673 ± 9</cell><cell>1292 ± 35</cell><cell>1128 ± 100</cell><cell>1092 ± 72</cell><cell>1201 ± 49</cell><cell>1307 ± 90</cell><cell>1340 ± 10</cell><cell>283 ± 39</cell><cell>449 ± 130</cell><cell>187 ± 11</cell><cell></cell></row><row><cell>Op. 3</cell><cell>659 ± 79</cell><cell>774 ± 39</cell><cell>667 ± 5</cell><cell>1309 ± 35</cell><cell>1175 ± 30</cell><cell>1127 ± 18</cell><cell>1213 ± 9</cell><cell>1219 ± 80</cell><cell>1259 ± 77</cell><cell>278 ± 14</cell><cell>301 ± 50</cell><cell>238 ± 5</cell><cell></cell></row><row><cell>Op. 4</cell><cell>643 ± 53</cell><cell>705 ± 87</cell><cell>669 ± 9</cell><cell>1316 ± 4</cell><cell>1198 ± 104</cell><cell>1146 ± 54</cell><cell>1245 ± 44</cell><cell>1338 ± 55</cell><cell>1347 ± 5</cell><cell>248 ± 15</cell><cell>245 ± 39</cell><cell>196 ± 21</cell><cell></cell></row><row><cell>Op. 5</cell><cell>661 ± 75</cell><cell>741 ± 91</cell><cell>668 ± 16</cell><cell>1326 ± 12</cell><cell>1184 ± 21</cell><cell>1158 ± 28</cell><cell>1213 ± 14</cell><cell>1159 ± 78</cell><cell>1234 ± 34</cell><cell>257 ± 30</cell><cell>369 ± 63</cell><cell>243 ± 24</cell><cell></cell></row><row><cell>Op. 6</cell><cell>640 ± 58</cell><cell>766 ± 58</cell><cell>669 ± 8</cell><cell>1316 ± 3</cell><cell>1130 ± 38</cell><cell>1165 ± 16</cell><cell>1292 ± 9</cell><cell>1415 ± 232</cell><cell>1340 ± 10</cell><cell>218 ± 9</cell><cell>210 ± 48</cell><cell>176 ± 4</cell><cell></cell></row><row><cell>Op. 7</cell><cell>569 ± 53</cell><cell>758 ± 52</cell><cell>678 ± 7</cell><cell>1316 ± 4</cell><cell>1150 ± 58</cell><cell>1163 ± 33</cell><cell>1218 ± 31</cell><cell>1247 ± 34</cell><cell>1299 ± 42</cell><cell>227 ± 19</cell><cell>318 ± 52</cell><cell>182 ± 6</cell><cell></cell></row><row><cell>Op. 8</cell><cell>686 ± 42</cell><cell>739 ± 39</cell><cell>669 ± 8</cell><cell>1328 ± 16</cell><cell>1188 ± 86</cell><cell>1172 ± 34</cell><cell>1234 ± 44</cell><cell>1379 ± 332</cell><cell>1327 ± 29</cell><cell>263 ± 12</cell><cell>305 ± 63</cell><cell>191 ± 8</cell><cell></cell></row><row><cell>Average</cell><cell>647 ± 36</cell><cell>746 ± 27</cell><cell>671 ± 4</cell><cell>1313 ± 12</cell><cell>1166 ± 27</cell><cell>1145 ± 26</cell><cell>1226 ± 31</cell><cell>1296 ± 85</cell><cell>1311 ± 43</cell><cell>251 ± 24</cell><cell>345 ± 115</cell><cell>223 ± 66</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>The percentage of operators with whom the differences were not statistically significant</figDesc><table><row><cell>Seg. m.</cell><cell>CED</cell><cell>GrowCut</cell><cell>GrabCut</cell></row><row><cell>Wound A</cell><cell>0%</cell><cell>0%</cell><cell>100%</cell></row><row><cell>Wound B</cell><cell>88%</cell><cell>38%</cell><cell>38%</cell></row><row><cell>Wound C</cell><cell>100%</cell><cell>25%</cell><cell>88%</cell></row><row><cell>Wound D</cell><cell>38%</cell><cell>0%</cell><cell>63%</cell></row><row><cell>Average</cell><cell>56%</cell><cell>16%</cell><cell>72%</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Average precision</figDesc><table><row><cell>Seg. m.</cell><cell>CED</cell><cell>GrowCut</cell><cell>GrabCut</cell></row><row><cell>Wound A</cell><cell>646.6 ± 58.5</cell><cell>746.4 ± 73.3</cell><cell>671.2 ± 8.6</cell></row><row><cell>Wound B</cell><cell>1313.0 ± 19.7</cell><cell>1165.5 ± 63.0</cell><cell>1144.6 ± 38.9</cell></row><row><cell>Wound C</cell><cell>1226.2 ± 26.7</cell><cell>1296.4 ± 115.6</cell><cell>1311.0 ± 28.6</cell></row><row><cell>Wound D</cell><cell>251.3 ± 24.4</cell><cell>345.1 ± 70.6</cell><cell>223.4 ± 25.9</cell></row><row><cell>Average</cell><cell>32.3</cell><cell>80.6</cell><cell>25.5</cell></row></table><note><p>Average precision of each segmentation method (Seg. m.). All values are in mm 3 .</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>Statistical analysis</figDesc><table><row><cell>Seg. m.</cell><cell>CED</cell><cell>GrowCut</cell><cell>GrabCut</cell></row><row><cell>Wound A</cell><cell>0.40</cell><cell>0.59</cell><cell>0.45</cell></row><row><cell>Wound B</cell><cell>0.83</cell><cell>0.55</cell><cell>0.14</cell></row><row><cell>Wound C</cell><cell>0.00/0.23 a</cell><cell>0.00/0.05 b</cell><cell>0.00/0.17 b</cell></row><row><cell>Wound D</cell><cell>0.00/0.10 a</cell><cell>0.00</cell><cell>0.00</cell></row></table><note><p>P-values for different segmentation methods (Seg. m.) calculated using K-W test. a P-value excluding "worst" operator. b P-value excluding two "worst" operators.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 6</head><label>6</label><figDesc>Precision of the perimeter measurementPrecision of the perimeter measurement using different wound segmentation methods (Seg. m.) for all four test wounds. All values are in mm.</figDesc><table><row><cell>Seg. m.</cell><cell>CED</cell><cell>GrowCut</cell><cell>GrabCut</cell></row><row><cell>Wound A</cell><cell>143.8 ± 1.0</cell><cell>138.4 ± 2.4</cell><cell>136.8 ± 0.3</cell></row><row><cell>Wound B</cell><cell>110.6 ± 0.7</cell><cell>109.5 ± 0.5</cell><cell>105.4 ± 0.7</cell></row><row><cell>Wound C</cell><cell>139.0 ± 3.8</cell><cell>140.1 ± 5.8</cell><cell>135.1 ± 5.3</cell></row><row><cell>Wound D</cell><cell>81.2 ± 3.0</cell><cell>88.9 ± 5.1</cell><cell>78.4 ± 4.1</cell></row><row><cell>Average</cell><cell>2.1</cell><cell>3.5</cell><cell>2.6</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 7</head><label>7</label><figDesc>Precision of the area measurement</figDesc><table><row><cell>Seg. m.</cell><cell>CED</cell><cell>GrowCut</cell><cell>GrabCut</cell></row><row><cell>Wound A</cell><cell>1084 ± 5</cell><cell>1033 ± 24</cell><cell>1044 ± 7</cell></row><row><cell>Wound B</cell><cell>730 ± 7</cell><cell>673 ± 23</cell><cell>663 ± 11</cell></row><row><cell>Wound C</cell><cell>1008 ± 14</cell><cell>969 ± 31</cell><cell>965 ± 9</cell></row><row><cell>Wound D</cell><cell>388 ± 13</cell><cell>439 ± 34</cell><cell>388 ± 22</cell></row><row><cell>Average</cell><cell>10</cell><cell>28</cell><cell>12</cell></row></table><note><p>Precision of the perimeter measurement using different wound segmentation methods (Seg. m.) for all four test wounds. All values are in mm 2 .</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 8</head><label>8</label><figDesc>Bias of VDW measurement Wound Before After Change Expected Measured Rel. diff. Expected Measured Rel. diff. Expected Measured Rel. diff. Measured VDW values compared to the expected values. All values are in mm 3 except where noted differently.</figDesc><table><row><cell>1</cell><cell>1507</cell><cell>1428</cell><cell>-5.2%</cell><cell>992</cell><cell>936</cell><cell>-5.6%</cell><cell>515</cell><cell>492</cell><cell>-4.5%</cell></row><row><cell>2</cell><cell>2772</cell><cell>2715</cell><cell>-2.1%</cell><cell>1602</cell><cell>1589</cell><cell>-0.8%</cell><cell>1171</cell><cell>1126</cell><cell>-3.8%</cell></row><row><cell>3</cell><cell>2688</cell><cell>2716</cell><cell>1.1%</cell><cell>1565</cell><cell>1528</cell><cell>-2.4%</cell><cell>1122</cell><cell>1188</cell><cell>5.8%</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>Research was conducted as a part of the project Laser triangulation in medicine (<rs type="grantNumber">LASTRIM-L7-4274</rs>) financed by the <rs type="funder">Slovenian Research Agency</rs>.</p><p>The authors would also like to thank <rs type="person">Assistant Professor Nada Kecelj Leskovec, MD, PhD</rs>, from <rs type="affiliation">Department of Dermatovenereology, UMC Ljubljana</rs>, for all the help during the in-vivo measurements and all the volunteers who participated in the research.</p><p>Received: 24 November 2014 Accepted: 2 April 2015</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_mGnEQBG">
+					<idno type="grant-number">LASTRIM-L7-4274</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Abbreviations CED: Canny edge detector; K-W: Kruskall-Wallis; ViHS: Virtual healthy skin; VDW: Volumetric deviation of the wound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' contributions</head><p>UP carried out the measurement, analysis and drafted the manuscript. JD concepted and designed the experiment and revised the manuscript critically. JM proposed and conceived the research. MJ wrote the manuscript and designed the experimental system. All authors have read and approved the final version of the manuscript.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="15,119.93,163.72,336.34,6.62;15,132.66,172.68,315.21,6.62;15,132.66,181.69,73.09,6.62" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Initial healing rates as predictive factors of venous ulcer healing: the use of a laser-based three-dimensional ulcer measurement</title>
+		<author>
+			<persName><forename type="first">Kecelj</forename><surname>Leskovec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Perme</forename><surname>Pohar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jezeršek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Možina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pavlović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Lunder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="507" to="512" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,119.93,190.71,307.48,6.62;15,132.66,199.72,140.76,6.62" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">3D Wound Measurement System for Telemedica Application</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lubeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jostschulte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Biskup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Clasbrummel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomedizimische Technik</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1418" to="1419" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,119.93,208.68,325.77,6.62;15,132.66,217.69,97.81,6.62" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A comparison of wound area measurement techniques: visitrak versus photography</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dearman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Greenwood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eplasty</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,119.93,226.71,317.67,6.62;15,132.66,235.72,116.68,6.62" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">An overview of techniques used to measure wound area and volume</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Little</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mccarron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="250" to="253" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,119.93,244.68,332.41,6.62" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Wound measurement: can it help us to monitor progression to healing?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flanagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="189" to="194" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,119.93,253.69,340.24,6.62" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Circumference, area and volume of the healing wound</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Melhuish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="380" to="384" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,119.94,262.70,267.92,6.62" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Reliability of wound surface area measurements</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Majeske</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="138" to="141" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,119.94,271.72,333.18,6.62;15,132.66,280.68,202.86,6.62" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A comparison of computer-assisted and manual wound size measurement</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Thawer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Houghton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Woodbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Keast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="46" to="53" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,119.94,289.69,339.84,6.62" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A digital video technique for radiographs and monitoring ulcers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ledgard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Photogr S</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="65" to="67" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,298.71,337.70,6.62;15,132.66,307.72,317.41,6.62" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A new structured light method for 3-D wound measurement</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ozturk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schafer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Chou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1996 IEEE Twenty-Second Annual Northeast Bioengineering Conference</title>
+		<meeting>the 1996 IEEE Twenty-Second Annual Northeast Bioengineering Conference<address><addrLine>New Brunswick, NJ, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,316.68,335.51,6.62;15,132.66,325.69,322.23,6.62" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A complete 3d wound assessment tool for accurate tissue classification and measurement</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wannous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Albouy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">15th IEEE International Conference on Image Processing</title>
+		<meeting><address><addrLine>San Diego, California, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,334.70,334.67,6.62;15,132.66,343.72,125.42,6.62" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Accuracy and precision of the hand-held MAVIS wound measurement device</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mccarthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="176" to="190" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,352.68,330.91,6.62;15,132.66,361.69,250.88,6.62" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Photogrammetric wound measurement with a threecamera vision system. Int Arch Photogramm Remote Sens</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Boersma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Van Den Heuvel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Scholtens</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="84" to="91" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,370.70,326.23,6.62;15,132.66,379.72,273.91,6.62" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Derma: Monitoring the Evolution of Skin Lesions with a 3D System</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Callieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cignoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pingi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Scopigno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coluccia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gaggio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Vision Modeling and Visualization</title>
+		<meeting><address><addrLine>München, Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>AKA</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,388.68,329.83,6.62;15,132.66,396.03,308.70,8.28;15,132.66,406.71,69.54,6.62" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Analytical studies on volume determination of leg ulcer using laser triangulation and structured light data acquisition techniques</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Chong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Abdul-Rani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mha</forename><surname>Fadzil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">B</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jamil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">th Iranian Conf</title>
+		<meeting><address><addrLine>Teheran, Iran</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page">18</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,415.72,310.66,6.62;15,132.66,424.68,71.81,6.62" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Wound measurement in diabetic foot ulceration</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Perspective on Diabetic Foot Ulcerations</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>InTech</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,433.69,327.50,6.62;15,132.66,442.71,58.58,6.62" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">An active contour model for measuring the area of leg ulcers</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Med Imaging</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1202" to="1210" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,451.72,336.24,6.62;15,132.66,460.68,162.50,6.62" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Enhanced assessment of the wound-healing process by accurate multiview tissue classification</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wannous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Med Imaging</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="315" to="326" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,469.69,314.18,6.62;15,132.66,478.70,51.78,6.62" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">An instrument to measure the dimensions of skin wounds</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="464" to="470" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,487.72,334.32,6.62;15,132.66,496.68,221.29,6.62" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Accuracy and precision of selected wound area measurement methods in diabetic foot ulceration</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ladyzynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sabalinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wojcicki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet Technol Terap</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="711" to="720" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.97,505.69,337.33,6.62;15,132.66,514.70,293.80,6.62" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Study: Assessment of accuracy and repeatability on wound models of a new hand-held, electronic wound measurement device</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Nixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Rivett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Robinson</surname></persName>
+		</author>
+		<ptr target="http://www.aranzmedical.com/wound-measurement-accuracy-study/" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.97,523.72,248.60,6.62" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A laser anamorph profilometer</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jezeršek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Možina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mech Eng</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="76" to="89" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,532.68,222.20,6.62" xml:id="b22">
+	<monogr>
+		<title level="m">ULL Series Red Laser Line Module, World Star Tech</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>World Star Tech</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,541.69,313.25,6.62;15,132.66,550.70,111.45,6.62" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">High-speed measurement of foot shape based on multiple-laser-plane triangulation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jezeršek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Možina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt Eng</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="113604" to="113604" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,559.72,173.34,6.62" xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Piegl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tiller</surname></persName>
+		</author>
+		<author>
+			<persName><surname>The</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Book</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,568.68,312.72,6.62;15,132.66,577.69,317.07,6.62;15,132.66,586.70,73.09,6.62" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Measurement of venous leg ulcers with a laser-based three-dimensional method: Comparison to computer planimetry with photography</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kecelj-Leskovec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jezeršek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Možina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Pavlović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lunder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="767" to="771" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.97,595.72,330.53,6.62;15,132.66,604.68,48.45,6.62" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Learning OpenCV: Computer Vision with the OpenCV Library</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bradski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaehler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>O&apos;Reilly Media, Inc</publisher>
+			<pubPlace>Cambridge, MA, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,613.69,279.67,6.62" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A computational approach to edge detection</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Canny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Pattern Anal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="679" to="698" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,622.70,327.14,6.62;15,132.66,630.06,326.88,8.28;15,132.66,640.68,193.77,6.62" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Interactive multi-label ND image segmentation by cellular automata</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vezhnevets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Konouchine</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Growcut</surname></persName>
+		</author>
+		<ptr target="http://graphicon.ru/en/conference/2005/proceedings" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 15 th International Conference on Computer Graphics and Applications GraphiCon</title>
+		<meeting>the 15 th International Conference on Computer Graphics and Applications GraphiCon<address><addrLine>Novosibirsk, Russia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,649.69,325.72,6.62;15,132.66,658.71,201.69,6.62" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Interactive foreground extraction using iterated graph cuts</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rother</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kolmogorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Blake</forename><forename type="middle">A</forename><surname>Grabcut</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>ACM</publisher>
+			<pubPlace>New York, New York, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,667.72,335.68,6.62;15,132.66,676.68,107.20,6.62" xml:id="b30">
+	<monogr>
+		<title level="m" type="main">GrowCut Segmentation In Matlab</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lankton</surname></persName>
+		</author>
+		<ptr target="http://www.shawnlankton.com/2008/03/growcut-segmentation-in-matlab/" />
+		<imprint>
+			<date type="published" when="2014">2008 5.5.2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,122.98,685.69,258.73,6.62" xml:id="b31">
+	<monogr>
+		<ptr target="http://www.geomagic.com/en/products/wrap/overview" />
+		<title level="m">Geomagic Studio Presentation</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

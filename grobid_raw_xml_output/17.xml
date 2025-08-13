@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Remote assessment of diabetic foot ulcers using a novel wound imaging system</title>
+				<funder ref="#_hQK4rNb">
+					<orgName type="full">Eykona Technologies Ltd</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>PhD</roleName><forename type="first">Frank</forename><forename type="middle">L</forename><surname>Bowling</surname></persName>
+							<email>frank.bowling@manchester.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Manchester</orgName>
+								<orgName type="institution" key="instit2">Manchester Royal Infirmary</orgName>
+								<address>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MSc</roleName><forename type="first">Laurie</forename><surname>King</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Oxford Centre for Diabetes, Endocrinology and Metabolism</orgName>
+								<address>
+									<settlement>Oxford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>DPhil</roleName><forename type="first">James</forename><forename type="middle">A</forename><surname>Paterson</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Eykona Technologies Ltd</orgName>
+								<address>
+									<settlement>Oxford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MBBS</roleName><forename type="first">Jingyi</forename><surname>Hu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Manchester</orgName>
+								<orgName type="institution" key="instit2">Manchester Royal Infirmary</orgName>
+								<address>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Benjamin</forename><forename type="middle">A</forename><surname>Lipsky</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Puget Sound Health Care System</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<address>
+									<settlement>Seattle, Washington</settlement>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>DPhil</roleName><forename type="first">David</forename><forename type="middle">R</forename><surname>Matthews</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">;</forename><surname>Andrew</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Oxford Centre for Diabetes, Endocrinology and Metabolism</orgName>
+								<address>
+									<settlement>Oxford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">NIHR</orgName>
+								<orgName type="institution" key="instit2">Oxford Biomedical Research Centre</orgName>
+								<address>
+									<settlement>Oxford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">J</forename><forename type="middle">M</forename><surname>Boulton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Manchester</orgName>
+								<orgName type="institution" key="instit2">Manchester Royal Infirmary</orgName>
+								<address>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Manchester Diabetes Centre</orgName>
+								<address>
+									<addrLine>193 Hathersage Road</addrLine>
+									<postCode>M13 0JE</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Remote assessment of diabetic foot ulcers using a novel wound imaging system</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E52189A6D968A6EA7C503AF437CDCC24</idno>
+					<idno type="DOI">10.1111/j.1524-475X.2010.00645.x</idno>
+					<note type="submission">received: March 22, 2010 Accepted in final form: September 28, 2010</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Wound Repair and Regeneration</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Telemedicine allows experts to assess patients in remote locations, enabling quality convenient, cost-effective care. To help assess foot wounds remotely, we investigated the reliability of a novel optical imaging system employing a threedimensional camera and disposable optical marker. We first examined inter-and intraoperator measurement variability (correlation coefficient) of five clinicians examining three different wounds. Then, to assess of the system's ability to identify key clinically relevant features, we had two clinicians evaluate 20 different wounds at two centers, recording observations on a standardized form. Three other clinicians recorded their observations using only the corresponding threedimensional images. Using the in-person assessment as the criterion standard, we assessed concordance of the remote with in-person assessments. Measurement variation of area was 3.3% for intraoperator and 11.9% for interoperator; difference in clinician opinion about wound boundary location was significant. Overall agreement for remote vs. in-person assessments was good, but was lowest on the subjective clinical assessments, e.g., value of debridement to improve healing. Limitations of imaging included inability to show certain characteristics, e.g., moistness or exudation. Clinicians gave positive feedback on visual fidelity. This pilot study showed that a clinician viewing only the three-dimensional images could accurately measure and assess a diabetic foot wound remotely.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="593.972" lry="782.986"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Complications of diabetes may affect various tissues and organ systems, thus requiring a multidisciplinary team of health providers to ensure the highest quality of care. <ref type="bibr" target="#b0">1</ref> Among the most frequent complications are those affecting the foot; the life-time risk for a person with diabetes developing a foot ulcer is up to 25%. <ref type="bibr" target="#b1">2</ref> These diabetic foot ulcers cause substantial morbidity, restrict mobility, and may lead to lower extremity amputation. Unfortunately, experts in various types of foot care are not readily available in many areas. Remote evaluation of the patient by telemedicine systems can allow specialists to provide diagnostic advice for patients in distant locations. Such evaluations have been found to be both clinically beneficial and cost-effective, <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> especially for those in areas without access to specialist foot care. <ref type="bibr" target="#b4">5</ref> We have developed a novel digital optical system that employs a bespoke camera-like device, computer software, and single-use disposable optical targets to provide a highly realistic three-dimensional (3D) image of diabetic foot wounds. This system quickly provides a colorcalibrated, fully 3D image of the wound and surrounding tissue that consist of a large number of coordinate measurements in millimeters. Thus, the clinician can view the 3D images using computer software that allows extensive interactive control of display. The quality of the color and 3D geometrical information provided by our system allows a highly realistic representation to be presented to the opera-tor on the PC's monitor. These 3D images can also be readily stored and transmitted electronically, making them potentially ideal for remote assessment and objective quantification of wounds in clinical and research studies. To provide an effective platform for remote wound assessment, our imaging system must allow accurate and repeatable measurement of wounds, and provide sufficient visual fidelity to allow clinicians to reliably identify the most clinically relevant features of wounds. We undertook this study as an initial assessment of the potential usefulness of our system for remote assessment of diabetic foot wounds.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head><p>We conducted this study in two centers, the Oxford Centre for Diabetes, Endocrinology, and Metabolism (OCDEM) The optical target used in our system is a flat white plastic disc that has a biocompatible glue pad on one side and a black optical pattern that can be interpreted by the computer on the other. The target is temporarily attached onto the unbroken skin and acts as a calibration marker. The reporting software displays the resulting 3D wound data allowing variation of pan, tilt, zoom, and incident lighting. It also allows measurement of wound length, depths, volume, surface area, surface curvature (via contour lines), and (numerically scored) colors. Measurement is performed by ''marking up'' salient features on the wound image using the computer mouse (Figure <ref type="figure">1</ref>, right).</p><p>Our study had two main activities: the first was to quantify the inter-and intraoperator measurement variability in our system. This trial comprised five operators of varying clinical backgrounds and technical expertise repeatedly imaging a wound on three different patients.</p><p>We attempted to standardize the inevitable differences in opinion about the location of the boundary between Figure <ref type="figure">1</ref>. Screen captures of interactive 3D image illustrative of typical wound image quality. Note the optical target (white disc with black square pattern) attached to unbroken skin near the wound-this disposable component is part of the imaging system. Top and middle rows: several viewpoints of the same 3D model. Right: measurement of area performed via interactive tool. Bottom row: pseudocoloring shows underlying high geometric resolution of 3D model. Also see accompanying video available for download at http://www.3dwoundimaging.com/ WRR2010.avi healthy and wounded tissue by using a visual guideline agreed by a panel of experts. The participating clinicians were all shown the visual guideline then asked to perform repeatedly the demarcation of the wounds. This allowed calculation of the area of the exposed tissue bed. We anticipated two further major sources of variation, i.e., due to (1) the measurement process, i.e., variation due to inaccuracy in demarking the wound boundary with the PC mouse, and (2) limited image accuracy, i.e., variation due to the imaging system having finite accuracy in producing 3D data, and changing viewpoint between acquisitions. We calculated variation in measurement using the correlation coefficient, i.e., mean divided by standard deviation, leading to a percentage variation.</p><p>We acquired images from the patients in a single short session. During each session, one of the clinicians was arbitrarily elected to repeatedly image the wound 10 times. The other four clinicians then imaged each wound once. This yielded 14 images from each of the three wounds.</p><p>To assess variation due to the measurement process, an independent third party first randomly selected a single 3D image from each set of 14. A single clinician was then asked to measure the area of the wound present in each of the selected 3D images 10 times, allowing computation of the intraobserver variation due to the measurement process. The remaining four clinicians then measured the wounds in each of the selected 3D images. These measurements were used in conjunction with those above to compute the interobserver variation due to the measurement process.</p><p>To assess variation due to imaging accuracy, a single clinician was chosen to measure the wounds present in the entire set of forty-two 3D images. The three sets of 10 measurements obtained from repeated imaging of the wounds were used to compute intraobserver variation due to limited image accuracy. The other four measurements from each set were then combined with these data to compute the interobserver variation due to limited image accuracy (Table <ref type="table" target="#tab_0">1</ref>).</p><p>The second phase of the study examined the ability of the system to reliably reproduce visual cues from the wound and surrounding tissue to allow key clinical observations. One study clinician personally examined each participant and this evaluation was termed the ''criterion standard'' assessment. The clinician irrigated, visually examined, manually explored, and probed the wound. Then, the clinician answered 11 questions about clinically relevant observations on a specially designed assessment form (see Table <ref type="table" target="#tab_1">2</ref>). We instructed clinicians to interpret the term ''evidence'' to mean the visual (or other sensory) information available at the in-person assessment before any debridement that might be needed. The clinician then used the system to image the wound.</p><p>We then collated the wound images and showed them on a PC monitor to three other clinicians who had not examined the patient; one was from the same center at which the patient was seen ''remote, same center,'' while the other two were from the other study center ''remote, other center.'' The clinicians viewed the 3D images obtained with our system, using the computer software described above. These clinicians then completed the same assessment form, providing three ''remote'' assessments for each wound. For assessments originating from the same center as the in-person (criterion) assessment (i.e., ''remote, same center''), we asked the clinicians to disregard any prior knowledge of the patient from past examinations, and to complete the assessment based only on its appearance at the time the patient presented.</p><p>We collated the assessment forms and calculated the concordance between the remote and the criterion assessments. For each remote assessment, we classified each questionnaire response as one of the following: true positive (TP); false positive (FP); true negative (TN); or false negative (FN). We calculated overall prevalence as (TP1FN)/(TP1FP1TN1 FN) and accuracy (ACC) on a per-assessor basis as ACC5(TP1TN)/(TP1FP1TN1FN). We calculated results separately for the two clinics on a per-question basis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Results from the first phase of our study are presented in Table <ref type="table" target="#tab_0">1</ref>. The wounds were all foot ulcers on diabetic patients who presented at OCDEM: a dorsal wound, in a Is there evidence that debridement of the wound would improve healing? 2. Is there evidence that debridement of the skin around the wound would improve healing? 3. Is there evidence of some granulation tissue? 4. Is there evidence of ischemia? 5. Is there evidence of wound infection? 6. Does the wound bed contain slough? 7. Can you see tendon or bone in the wound bed? 8. Does the wound appear to be tracking or tunneling? 9. Is there evidence that the wound is moist or exuding? 10. Is there presence of wet or dry gangrene? 11. Is there evidence of surrounding cellulitis or erythema? patient with peripheral arterial disease; a medial first metatarsal phalangeal joint in a patient with peripheral neuropathy; and a fifth toe amputation site in a patient with neuropathy. Variation of measurement was typically very low (&lt; 4.2%), with the exception of interobserver variation due to measurement (11.9%). Notably, maximum intraobserver variation due to measurement (2.4%) was much lower than the corresponding maximum interobserver variation (11.9%). This supports our expectation that the clinicians in our study often did not agree on the exact location of the boundary of the wound, but could use the computer tools mark the wounds in the images to indicate their opinion with a high degree of repeatability. Maximum intra-and interobserver variation due to limited imaging accuracy were only 3.3 and 4.2%, respectively.</p><p>For the second phase of our study, we enrolled a total of 20 patients with diabetes who had a full-thickness breach of the skin distal to the medial and lateral malleoli. All but one of the participants had type 2 diabetes, 17 (85%) had peripheral neuropathy, and 11 (55%) had peripheral arterial disease. The locations of the foot ulcers were forefoot plantar (50%); forefoot dorsal (35%); and rearfoot plantar (15%). Two of the wounds had clinical evidence of infection and these patients were receiving antibiotic therapy. Table <ref type="table" target="#tab_2">3</ref> shows the results of the evaluations for each of 11 assessment questions about the diabetic foot ulcers made by the remote clinicians compared with the criterion standard. Table <ref type="table" target="#tab_2">3A</ref> shows the comparisons for 10 patients from the OCDEM clinic, while Table <ref type="table" target="#tab_2">3B</ref> shows the comparison for 10 patients from DIALEX.</p><p>The prevalence of certain findings, notably visible evidence of ischemia (Q4) or infection (Q5), visible tendon or bone (Q7), tunneling (Q8), gangrene (Q10), and surrounding cellulitis or erythema (Q11), was low in both centers. In the majority of patients, concordance with the criterion standard was &gt; 50% across all questions for both the ''remote, same center'' and ''remote, other center'' assessors. The notable exceptions to this were questions 1 and 2, which asked for an opinion regarding the need for debridement to improve healing. Question 6 (presence of slough) generally had good accuracy, with the prevalence of this finding varying between centers. Wound moist or exuding (Q9) had a 50% prevalence in both centers, but the accuracy of remote assessment was between 50 and 80%. Within the OCDEM clinic one of the ''remote, other center'' assessors achieved generally superior concordance with the criterion standard. In DIALEX the ''remote, same center'' was considered best among the observers.</p><p>Figure <ref type="figure">1</ref> shows a monitor capture of two 3D wound models from the study being manipulated in our interactive measurement and viewing package. To show the interactive nature of the models, we have shown the examples drawn by the computer from several viewpoints. The models consist of both color and geometrical samples. To highlight the geometrical resolution achieved in the lower row of Figure <ref type="figure">1</ref>, we used a pseudocoloring drawing technique. The sampling resolution of the models typically approaches 200 mm, which allows resolution of very subtle geometry, such as papillary ridges and bandage pressure marks. Note that the disposable optical target is affixed near the wound during imaging. There is also an accompanying video available for download at http://www. 3dwoundimaging.com/WRR2010.avi, which shows the system in-use visualizing and measuring a 3D wound image.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The results of this study suggest that clinicians can reliably assess patients with a diabetic foot ulcer in a remote setting using our 3D digital optical system, including performing accurate measurement of wound area. The study also provides initial guidance on the ability of the system to provide images of several clinically relevant observations potentially suitable for remote assessment. We found evidence of low measurement variability due to the imaging and measurement process itself. While measurement variability was larger when comparing metrics acquired by different clinicians, we consider this to be largely due to differences in clinical opinion as to the exact boundary of the wound-necessarily a somewhat subjective observation. This supports that our system acquires 3D images with a high degree of accuracy, and that differing operators and/or variation in viewpoint do not significantly affect measurements. These results, combined with our previous work, <ref type="bibr" target="#b5">6</ref> which established a strong correlation between physical measurement and digital measurements from our 3D images, give us good initial evidence for the accuracy and repeatability of wound measurement using our system.</p><p>The poorest performance among the assessments was for questions 1 and 2, i.e., whether or not the wound or surrounding skin required debridement. We attribute this result to the question being subjective, and requiring personal opinions about treatment. The variation in observed prevalence between the two centers supports this argument. Question 9 (pertaining to moisture and exudate) also had relatively poor concordance; the 3D models produced by our system tended to have a ''dry'' appearance, which is a technical limitation at present.</p><p>While concordance for question 8 (tunneling) was generally good, clinicians noted that the 3D models produced by our system display the surface of the wound instead of volumetric data as with, e.g., MRI. Determination of tunneling generally requires a probe or at least a view of the far side of the afflicted limb. It was also noted that to properly assess surrounding cellulitis or erythema (question 11), a larger region of the surrounding anatomy should be presented to look for, e.g., tracking.</p><p>Our imaging system could potentially be improved if local clinicians could supply additional information to the remote assessor. Future studies will need to standardize further the meaning of relevant clinical terms. We think that showing participating clinicians a visual assessment guide, consisting of a series of illustrative pictures of the relevant conditions, would be helpful in improving their ability to interpret the images.</p><p>Our study provides encouraging findings suggesting good accuracy of the remote assessment of key features of diabetic foot ulcers adduced from our imaging system. Because these images can be obtained quickly and easily, can be transmitted electronically, and viewed using a standard computer screen, expert clinicians could potentially use our system to provide reliable remote assessments of diabetic foot ulcers at distant sites, including accurate wound measurements.</p><p>It is not possible to draw statistically meaningful conclusions on the utility of the imaging system in the light of the relatively small sample size in this initial study. This is particularly true for the assessments of conditions that were rarely present in the patients. Future studies of this technology should include a larger group of patients with various types of wounds. Furthermore, the images should provide a view of a larger region of the surrounding anatomy. Investigators should make efforts to ensure that less frequently occurring, but important, conditions, such as gangrene, exposed tendon or bone, and cellulitis or erythema, are included. It would be interesting to determine the value of providing remote clinicians additional information on the patient's history, and specific aspects of the wound's appearance, e.g., smell, results of palpation, and probing.</p><p>Feedback from participating clinicians regarding the quality of the presented wound images was very positive. They particularly liked having the interactive ability to change the pan (viewing position) and tilt (viewing direction) of the image, as well as the lighting direction. These techniques impart subtle visual cues on the surface shape and contour that are not possible with traditional photographic techniques. The assessors made no specific comments regarding the presence of the optical target in the 3D images, which provides a potentially helpful orientation for display and a visual indication of scale.</p><p>Our previous studies have showed the accuracy and usability of this system. The evidence from this pilot study suggests that if clinicians were provided with appropriate additional information, the 3D wound images produced with our system could be useful for remote assessment of diabetic foot ulcers. There are several other imaging-based approaches to wound measurement <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> and it would be useful to examine the relative advantages and disadvantages for remote assessment of our system against these methods.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Diabetes Lower Extremity Research Group (DIALEX). The regional review boards (Oxfordshire REC B and Pan-Manchester Research and Development) provided written confirmation that a full ethics application was not required for this noninterventional study. All participants were given a full description of the nature of the study, and signed locally approved consent forms. Seven clinicians participated in the study, five from OCDEM and two from DIALEX.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="2,55.79,87.67,336.00,474.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Results from an initial study of intra-and interoperator measurement variability of five clinicians using our wound imaging system to measure the surface area of three diabetic foot ulcers</figDesc><table><row><cell>Wound 1 (%)</cell><cell>Wound 2 (%)</cell><cell>Wound 3 (%)</cell><cell>Max (%)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>List of 11 ''Yes''/''No'' questions used on the standardized wound assessment form 1.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Results of comparisons of ''remote, same center'' and ''remote, other center'' to local (in person, criterion standard) assessments of diabetic foot ulcers for each of 11 questions on each of 10 patients in two clinics</figDesc><table><row><cell></cell><cell></cell><cell cols="5">Remote, same center assessor</cell><cell cols="5">Remote, other center assessor 1</cell><cell cols="5">Remote, other center assessor 2</cell></row><row><cell></cell><cell>% with</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>finding</cell><cell>TP</cell><cell>FP</cell><cell>TN</cell><cell>FN</cell><cell>ACC (%)</cell><cell>TP</cell><cell>FP</cell><cell>TN</cell><cell>FN</cell><cell>ACC (%)</cell><cell>TP</cell><cell>FP</cell><cell>TN</cell><cell>FN</cell><cell>ACC (%)</cell></row><row><cell cols="9">(A) Oxford Centre for Diabetes, Endocrinology, and Metabolism</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Q1</cell><cell>40</cell><cell>0</cell><cell>0</cell><cell>6</cell><cell>4</cell><cell>60</cell><cell>4</cell><cell>1</cell><cell>5</cell><cell>0</cell><cell>90</cell><cell>3</cell><cell>4</cell><cell>2</cell><cell>1</cell><cell>50</cell></row><row><cell>Q2</cell><cell>70</cell><cell>2</cell><cell>0</cell><cell>3</cell><cell>5</cell><cell>50</cell><cell>5</cell><cell>0</cell><cell>3</cell><cell>2</cell><cell>80</cell><cell>5</cell><cell>2</cell><cell>1</cell><cell>2</cell><cell>60</cell></row><row><cell>Q3</cell><cell>60</cell><cell>5</cell><cell>0</cell><cell>4</cell><cell>1</cell><cell>90</cell><cell>6</cell><cell>1</cell><cell>3</cell><cell>0</cell><cell>90</cell><cell>6</cell><cell>0</cell><cell>4</cell><cell>0</cell><cell>100</cell></row><row><cell>Q4</cell><cell>30</cell><cell>3</cell><cell>5</cell><cell>2</cell><cell>0</cell><cell>50</cell><cell>1</cell><cell>0</cell><cell>7</cell><cell>2</cell><cell>80</cell><cell>3</cell><cell>0</cell><cell>7</cell><cell>0</cell><cell>100</cell></row><row><cell>Q5</cell><cell>10</cell><cell>1</cell><cell>1</cell><cell>8</cell><cell>0</cell><cell>90</cell><cell>0</cell><cell>1</cell><cell>8</cell><cell>1</cell><cell>80</cell><cell>1</cell><cell>2</cell><cell>7</cell><cell>0</cell><cell>80</cell></row><row><cell>Q6</cell><cell>80</cell><cell>5</cell><cell>0</cell><cell>2</cell><cell>3</cell><cell>70</cell><cell>4</cell><cell>0</cell><cell>2</cell><cell>4</cell><cell>60</cell><cell>7</cell><cell>0</cell><cell>2</cell><cell>1</cell><cell>90</cell></row><row><cell>Q7</cell><cell>10</cell><cell>1</cell><cell>1</cell><cell>8</cell><cell>0</cell><cell>90</cell><cell>0</cell><cell>0</cell><cell>9</cell><cell>1</cell><cell>90</cell><cell>1</cell><cell>0</cell><cell>9</cell><cell>0</cell><cell>100</cell></row><row><cell>Q8</cell><cell>10</cell><cell>0</cell><cell>0</cell><cell>9</cell><cell>1</cell><cell>90</cell><cell>0</cell><cell>1</cell><cell>8</cell><cell>1</cell><cell>80</cell><cell>0</cell><cell>0</cell><cell>9</cell><cell>1</cell><cell>90</cell></row><row><cell>Q9</cell><cell>50</cell><cell>3</cell><cell>3</cell><cell>2</cell><cell>2</cell><cell>50</cell><cell>3</cell><cell>0</cell><cell>5</cell><cell>2</cell><cell>80</cell><cell>4</cell><cell>3</cell><cell>2</cell><cell>1</cell><cell>60</cell></row><row><cell>Q10</cell><cell>30</cell><cell>2</cell><cell>0</cell><cell>7</cell><cell>1</cell><cell>90</cell><cell>0</cell><cell>0</cell><cell>7</cell><cell>3</cell><cell>70</cell><cell>0</cell><cell>0</cell><cell>7</cell><cell>3</cell><cell>70</cell></row><row><cell>Q11</cell><cell>10</cell><cell>1</cell><cell>2</cell><cell>7</cell><cell>0</cell><cell>80</cell><cell>0</cell><cell>0</cell><cell>9</cell><cell>1</cell><cell>90</cell><cell>1</cell><cell>1</cell><cell>8</cell><cell>0</cell><cell>90</cell></row><row><cell cols="8">(B) Manchester Diabetes Lower Extremity Research Group</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Q1</cell><cell>100</cell><cell>8</cell><cell>0</cell><cell>0</cell><cell>2</cell><cell>80</cell><cell>2</cell><cell>0</cell><cell>0</cell><cell>8</cell><cell>20</cell><cell>3</cell><cell>0</cell><cell>0</cell><cell>7</cell><cell>30</cell></row><row><cell>Q2</cell><cell>100</cell><cell>6</cell><cell>0</cell><cell>0</cell><cell>4</cell><cell>60</cell><cell>3</cell><cell>0</cell><cell>0</cell><cell>7</cell><cell>30</cell><cell>7</cell><cell>0</cell><cell>0</cell><cell>3</cell><cell>70</cell></row><row><cell>Q3</cell><cell>90</cell><cell>6</cell><cell>1</cell><cell>0</cell><cell>3</cell><cell>60</cell><cell>6</cell><cell>1</cell><cell>0</cell><cell>3</cell><cell>60</cell><cell>6</cell><cell>0</cell><cell>1</cell><cell>3</cell><cell>70</cell></row><row><cell>Q 4</cell><cell>0</cell><cell>0</cell><cell>2</cell><cell>8</cell><cell>0</cell><cell>8 0</cell><cell>0</cell><cell>1</cell><cell>9</cell><cell>0</cell><cell>9 0</cell><cell>0</cell><cell>6</cell><cell>4</cell><cell>0</cell><cell>4 0</cell></row><row><cell>Q5</cell><cell>10</cell><cell>0</cell><cell>0</cell><cell>9</cell><cell>1</cell><cell>90</cell><cell>0</cell><cell>1</cell><cell>8</cell><cell>1</cell><cell>80</cell><cell>1</cell><cell>2</cell><cell>7</cell><cell>0</cell><cell>80</cell></row><row><cell>Q6</cell><cell>30</cell><cell>3</cell><cell>1</cell><cell>6</cell><cell>0</cell><cell>90</cell><cell>2</cell><cell>2</cell><cell>5</cell><cell>1</cell><cell>70</cell><cell>3</cell><cell>1</cell><cell>6</cell><cell>0</cell><cell>90</cell></row><row><cell>Q7</cell><cell>10</cell><cell>0</cell><cell>0</cell><cell>9</cell><cell>1</cell><cell>90</cell><cell>0</cell><cell>0</cell><cell>9</cell><cell>1</cell><cell>90</cell><cell>1</cell><cell>0</cell><cell>9</cell><cell>0</cell><cell>100</cell></row><row><cell>Q8</cell><cell>10</cell><cell>0</cell><cell>0</cell><cell>9</cell><cell>1</cell><cell>90</cell><cell>1</cell><cell>1</cell><cell>8</cell><cell>0</cell><cell>90</cell><cell>1</cell><cell>2</cell><cell>7</cell><cell>0</cell><cell>80</cell></row><row><cell>Q9</cell><cell>50</cell><cell>4</cell><cell>3</cell><cell>2</cell><cell>1</cell><cell>60</cell><cell>2</cell><cell>0</cell><cell>5</cell><cell>3</cell><cell>70</cell><cell>4</cell><cell>4</cell><cell>1</cell><cell>1</cell><cell>50</cell></row><row><cell>Q10</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>10</cell><cell>0</cell><cell>100</cell><cell>0</cell><cell>0</cell><cell>10</cell><cell>0</cell><cell>100</cell><cell>0</cell><cell>0</cell><cell>10</cell><cell>0</cell><cell>100</cell></row><row><cell>Q11</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>10</cell><cell>0</cell><cell>100</cell><cell>0</cell><cell>0</cell><cell>10</cell><cell>0</cell><cell>100</cell><cell>0</cell><cell>4</cell><cell>6</cell><cell>0</cell><cell>60</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Remote foot ulcer assessment using a wound imaging systemBowling et al.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p><rs type="person">Dr. David Matthews</rs> is an <rs type="grantName">NIHR Senior Research Fellow</rs>. <rs type="person">Dr. James A. Paterson</rs> is employed by, has shares in, and is a Director of <rs type="funder">Eykona Technologies Ltd</rs>. No financial support was provided by <rs type="institution">Eykona</rs> to any of the other authors of this paper. With the exception of <rs type="person">James Paterson</rs>, all authors have stated that they have no conflict of interest. No financial or other payments in-kind were made to any of the patients or clinicians participating in this study.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_hQK4rNb">
+					<orgName type="grant-name">NIHR Senior Research Fellow</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Additional Supporting Information may be found in the online version of this article:</p><p>Video Clip S1. Please see attached digital video demonstration of interactively viewing and measuring the 3D wound images in the computer software. This is also available for download at http://www.3dwoundimaging.com/ WRR2010.avi Please note: Wiley-Blackwell is not responsible for the content or functionality of any supporting materials supplied by the authors. Any queries (other than missing material) should be directed to the corresponding author for the article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,59.05,104.31,229.83,7.54;6,66.56,114.29,222.31,7.54;6,66.56,124.21,222.34,7.54;6,66.56,134.19,126.84,7.54" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Common ground: health care consumercenteredness and evidence-based chronic illness care</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Schaefer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vonkorff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Altern Complement Med</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="57" to="515" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,59.05,144.17,229.82,7.54;6,66.56,154.09,222.36,7.54;6,66.56,164.07,222.36,7.54;6,66.56,174.05,222.35,7.54;6,66.56,184.03,222.33,7.54;6,66.56,193.95,222.35,7.54;6,66.56,203.92,198.66,7.54" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Comprehensive foot examination and risk assessment: a report of the task force of the foot care interest group of the American Diabetes Association, with endorsement by the American Association of Clinical Endocrinologists</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Boulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Albert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Frykberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hellman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kirkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lemaster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sheehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Wukich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1679" to="1685" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,59.05,213.90,229.84,7.54;6,66.56,223.88,198.65,7.54" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Telehealth for wound management in long-term care</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Ratcliff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Forch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="40" to="45" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,59.05,233.80,229.86,7.54;6,66.56,243.78,222.33,7.54;6,66.56,253.76,222.31,7.54;6,66.56,263.68,90.05,7.54" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The socioeconomic impact of telehealth: a systematic review</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Jennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Affleck</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ohinmaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lorenzetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Telemed Telecare</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="311" to="320" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,59.05,273.66,229.86,7.54;6,66.56,283.64,222.31,7.54;6,66.56,293.61,222.33,7.54;6,66.56,303.54,142.29,7.54" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The contribution of teleconsultation and videoconferencing to diabetes care: a systematic literature review</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Verhoeven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Gemert-Pijnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dijkstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nijland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Seydel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Steehouder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">37</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,59.05,313.51,229.84,7.54;6,66.56,323.49,222.31,7.54;6,317.59,87.88,222.33,7.54;6,317.59,97.85,132.49,7.54" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An assessment of the accuracy and usability of a novel optical wound measurement system</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fadavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Paterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Preece</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ajm</forename><surname>Boulton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetic Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="93" to="96" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.08,107.78,229.86,7.54;6,317.59,117.75,222.37,7.54;6,317.59,127.73,49.21,7.54" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Measurement of diabetic foot ulcers using SilhouetteMobile</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Philps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jonsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Technol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="37" to="38" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,310.08,137.71,229.87,7.54;6,317.59,147.63,168.89,7.54" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">MAVIS-II development-a progress report</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical Physics &amp; Engineering in Wales</title>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

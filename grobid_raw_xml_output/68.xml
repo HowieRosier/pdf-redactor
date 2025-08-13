@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">3-D wound scanner: A novel, effective, reliable, and convenient tool for measuring scar area</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jin</forename><surname>Jian</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Burn Surgery</orgName>
+								<orgName type="institution" key="instit1">Changhai Hospital</orgName>
+								<orgName type="institution" key="instit2">The Second Military Medical University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Li</forename><surname>Haihang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Burn Surgery</orgName>
+								<orgName type="institution" key="instit1">Changhai Hospital</orgName>
+								<orgName type="institution" key="instit2">The Second Military Medical University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chen</forename><surname>Zhengli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Burn Surgery</orgName>
+								<orgName type="institution" key="instit1">Changhai Hospital</orgName>
+								<orgName type="institution" key="instit2">The Second Military Medical University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sheng</forename><surname>Jiajuan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Burn Surgery</orgName>
+								<orgName type="institution" key="instit1">Changhai Hospital</orgName>
+								<orgName type="institution" key="instit2">The Second Military Medical University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Liu</forename><surname>Tong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Burn Surgery</orgName>
+								<orgName type="institution" key="instit1">Changhai Hospital</orgName>
+								<orgName type="institution" key="instit2">The Second Military Medical University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ma</forename><surname>Bing</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Burn Surgery</orgName>
+								<orgName type="institution" key="instit1">Changhai Hospital</orgName>
+								<orgName type="institution" key="instit2">The Second Military Medical University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhu</forename><surname>Shihui</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Burn Surgery</orgName>
+								<orgName type="institution" key="instit1">Changhai Hospital</orgName>
+								<orgName type="institution" key="instit2">The Second Military Medical University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Xia</forename><surname>Zhaofan</surname></persName>
+							<email>xiazhaofan_smmu@163.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Burn Surgery</orgName>
+								<orgName type="institution" key="instit1">Changhai Hospital</orgName>
+								<orgName type="institution" key="instit2">The Second Military Medical University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">3-D wound scanner: A novel, effective, reliable, and convenient tool for measuring scar area</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D852D3F962CA0FE52404A2FDA0DCFC4D</idno>
+					<idno type="DOI">10.1016/j.burns.2018.05.009</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Scar Area 3-D wound scanner Abbreviations: 2-D</term>
+					<term>two-dimensional; 3-D</term>
+					<term>three-dimensional</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study aimed to investigate whether a three-dimensional (3-D) wound scanner could be used to measure the area of scars. Scar models were constructed using flesh-colored, browncolored (simulating hyperpigmented scars), orange-colored (simulating scars with obvious vascularization), and white-colored (simulating hypopigmented scars) plastic. Each colored plastic was used to construct scar models with regular and irregular base surfaces (four each).</p><p>Two human models were selected to simulate patients with scars, and the scar models were placed on the right cheek, right lower jaw-neck, right ulnar forearm, anterior tibial region of the right calf, and at the back of these human models for scar area measurement. Two experimenters separately measured the scar area vertically using the profile method, pixel method, and 3-D wound scanner. Each experimenter measured the scar area thrice.</p><p>Regarding accuracy, we found significant differences between the data and standard value of various measurement methods (P&lt;0.05); however, the ratio of the data and standard value using the 3-D wound scanner was 0.982, which was the closest to 1, and showed the lowest coefficient of variation. Regarding correlation, Spearman's coefficient using the 3-D wound scanner was 0.992, showing the strongest correlation. With respect to inter-experimenter reliability and stability of retesting, each Cronbach's coefficient of the 3-D wound scanner between the two experimenters was &gt;0.90, showing high reliability; thus, fulfilling the requirements for clinical measurement. The 3-D wound scanner took an average time of 38.87AE3.45s for measurement, which was significantly shorter compared that for other methods The 3-D wound scanner showed greater accuracy and correlation, and a shorter measurement time, compared with other measurement methods The inter-experimenter reliability and retesting stability of the 3-D wound scanner also fulfilled the requirements for clinical measurement.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The accurate evaluation of scars is important in the prevention and treatment of scars <ref type="bibr" target="#b0">[1]</ref>. The main evaluation markers of scars include the color, depth, thickness, and regularity of the scar, the presence or absence of pain and itchiness, and the area of the scar <ref type="bibr" target="#b1">[2]</ref>. The measurement of the scar area can accurately reflect the trends and degree of changes in contracture and hyperplasia during the formation and development of the scar and provides guidance for the prevention and treatment of scars <ref type="bibr" target="#b2">[3]</ref>. Traditional methods of measuring the scar area include the profile method, which involves counting squares to measure the scar area, and the pixel method, which uses image processing software after taking a photograph of the scar to calculate the number of pixels in order to measure scar area. The former method was previously thought to be the gold standard for scar area measurement but is time-consuming and is affected by multiple factors such as the scar being higher than the skin surface; thus, Fig. <ref type="figure">1</ref> -Schematic diagram of error caused by the traditional method for measuring scar area. (A) Profile method. This measures the scar surface area and not the scar area. If the scar surface is uneven, the measured value will be larger than the actual image. (B) Pixel method. This simplifies the scar into two-dimensional images. If the scar location is an arc, the measured value will be smaller than the actual image. causing the grid paper not to effectively adhere to the skin surface, etc., and increasing measurement errors (Fig. <ref type="figure">1A</ref>). The latter method is simpler than the former method but if scars are located at turns or curvatures <ref type="bibr" target="#b3">[4]</ref>, the twodimensional (2-D) image obtained from videography will show greater measurement errors due to perception effects (Fig. <ref type="figure">1B</ref>).</p><p>In recent years, 3-D scanning technology has rapidly developed, and the use of 3-D scanning technology for the measurement of wound areas in burns, cuts, etc. has become popular <ref type="bibr" target="#b4">[5]</ref>. Some researchers also investigated the use of 3-D scanning technology in the evaluation of scars <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b5">6]</ref>. However, earlier studies required the use of two to three cameras to simultaneously photograph the scar in order to obtain 3-D image data. This method also requires complex manipulation and its accuracy and stability are poor, making it unsuitable for clinical applications <ref type="bibr" target="#b4">[5]</ref>. In this study, the scar area was measured using a 3-D wound scanner to assess the feasibility of using the device for scar area measurement. The 3-D wound scanner are composed of 3-D image acquisition, calculation, and information feedback systems. An example of such a device is the Coolux 3-D wound scanner that is used in this study (Fig. <ref type="figure">1C</ref>). Compared with previous methods of collecting image data using multiple cameras, which involves numerous instruments and complicated operations, the Coolux 3D wound scanner is easy to carry and operate and has a high measurement speed, which together satisfies clinical needs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Human models and experimental data collection staff</head><p>Two human models were recruited from the Burns Department in Changhai Hospital. These two models did not have any underlying diseases that could affect this study, had no scars on the experimental sites and were included after signing the informed consent form. According to the relevant clinical research regulations, there was no requirement for approval by the ethics committee. The staff in charge of the experimental data collection were physicians from the Burns Department in Changhai Hospital. These physicians (experimenter 1 and 2) were trained in the use of profile method, pixel method, and 3-D wound scanner and could independently and accurately use all three measurement methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Scar models</head><p>The scar models were made from plasticine, with a flat surface (termed the base surface) which contacted the face of the human model, while the other surface was uneven and simulated the scar surface. The scar models were constructed using flesh-colored, brown-colored (simulation of hyperpigmented scars), orange-colored (simulation of scars with obvious vascularization), and white-colored (simulation of hypopigmented scars) plasticine (Fig. <ref type="figure" target="#fig_1">2A</ref>). Each colored plasticine was used to construct four scar models with regular base surfaces and four scar models with irregular base surfaces. The height of the scar model was 5-7mm. The scar models were placed on a transparent grid paper and the actual surface area of the model was the number of squares occupied along the scar (Table <ref type="table" target="#tab_0">1</ref>). The areas of the base surfaces of various models were the standard values.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Scar placement sites</head><p>The scar models were placed on the right cheek (the turn between the nose and the cheek was the midline of the scar model), the right lower jaw-neck (the turn between the lower jaw and the neck was the midline of the scar model), the right ulnar forearm, anterior tibial region of the right calf, and the back of the two patients. These placement sites corresponded to scars on the turns of the body (such as the right cheek with the smallest angle of turn, and the right lower jaw-neck with the largest angle of turn), scars on the curves of the body (such as the ulnar forearm with the greatest curvature, and the anterior tibial region of the right calf with the smallest curvature), and scars on flat surfaces (back). The location of the scar model is shown in Fig. <ref type="figure" target="#fig_1">2B</ref>, and the parameters of the relevant regions are shown in Table <ref type="table" target="#tab_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Measurement of scar area using the profile method</head><p>Each square on the transparent grid paper was 1Â1mm, and the area was 1mm 2 . The scar model was placed on the experimental site before the transparent grid paper was placed on top of the scar model to ensure that it was well attached to the scar model <ref type="bibr" target="#b6">[7]</ref>. Squares which had more than half of the area covered by the scar were recorded as 1 while those with less than half the area covered were recorded as 0. The total number of squares included was considered as the measured area of the scar model (in mm 2 ). The time taken for measurement using the profile method started from the time the transparent grid paper was placed on the scar model until the time when the measured area was obtained. Every experimenter carried out three rounds of data collection for every scar model on different experimental sites and the mean value was used as the measured area of the scar model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Measurement of scar area using the pixel method</head><p>The camera used was a Nikon D320, the computer used was a MacBook, and the image processing software used was Photoshop CC2015 Mac. Before the start of the experiment, the computer and image processing software were started.</p><p>The scar model was placed on the experimental site and a graduated vertical ruler was placed near the experimenter for reference purposes. Images of the scar model were captured at a distance of 50-60cm away and the images were imported into the computer for pixel measurement using Photoshop, with the pixels of 1mm 2 on the ruler as reference; the ratio of both was used to measure the area of the scar (mm 2 ) <ref type="bibr" target="#b7">[8]</ref>. The time taken for measurement using the pixel method started from the time when the image was captured until the time when the measured area was obtained. Every experimenter carried out three rounds of data collection for every scar model on different experimental sites and the mean value was used as the measured area of the scar model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Measurement of scar area using the 3-D wound scanner</head><p>The Coolux 3-D wound scanner (Daewoong Pharmaceutical Co., Ltd., South Korea) was used in this study. This device includes an iPad mini with specific analysis software and a rear 3-D camera. The scar model was placed on the experimental site and the 3-D wound scanner was used to capture images of the scar model from an appropriate distance (at this distance, the image frame of the 3-D wound scanner would be green; the frame turned red when the distance was too close or far). The area of the scar model was measured following the operating procedures of the software. The time taken for the measurement using the 3-D wound scanner started from the time when the device was turned on until the time when the measured area was obtained. Every experimenter carried out three rounds of data collection for every scar model on different experimental sites and the mean value was used as the measured area of the scar model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">Data analysis</head><p>The data was analyzed for accuracy, correlation, interexperimenter reliability, retesting reliability, and effects of relevant influencing factors on measurement. For accuracy analysis, if the values were normally distributed, with homogeneity of variance, the paired t-test was used to compare the data obtained from various measurement methods and the standard value; if not, the Friedman M-test was used. If statistical differences were unobserved between a method and standard values, the method was considered accurate for scar area measurement. However, if statistical differences existed, the mean value of the ratios was compared and values approaching 1 were considered to have high accuracy. Regarding correlation analysis, if the values were normally distributed, with homogeneity of variance, Pearson's correlation analysis was used; if not, Spearman's correlation  analysis was used. For inter-experimenter reliability, an intergroup correlation analysis was performed. A Cronbach's coefficient greater than 0.70 indicated high reliability and a value of 0.90 indicated that the method could be used in clinical applications. Retesting stability reflects the stability of data obtained from repeated measurements by the same experimenter and was analyzed via intra-group correlation analysis of measurement data from the three rounds, using the same definition of Cronbach' coefficient as above. The a is 0.05. All statistical analyses were performed with SPSS 15.0.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Accuracy</head><p>Measurement data obtained using the profile method, pixel method, and 3-D wound scanner and standard values showed between-group statistical differences (P&lt;0.05). Fig. <ref type="figure" target="#fig_2">3</ref> and Tables 3-1 and 3-2 show the ratios of the measurement data obtained and the standard values. The profile method, pixel method, and 3-D wound scanner were all unable to accurately measure the scar area but the mean value of the ratio of the measurement data obtained from the 3-D wound scanner to the standard value was the closest to 1 and showed the smallest coefficient of variation, compared with data obtained using the profile and pixel methods. Regarding accuracy, measurement by the 3-D scanner was better than that of the pixel method, while the profile method showed the least accuracy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Correlation</head><p>Table <ref type="table" target="#tab_2">3</ref>-3 shows the correlation (Spearman's) between the measurement data obtained using the profile method, pixel method, 3-D wound scanner, and standard values. Each method showed a high correlation with the standard value. Their Spearman's correlation coefficients were all greater than 0.7 (all P&lt;0.05) but the measurement data from the 3-D wound scanner showed the highest correlation with the standard value.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Stability</head><p>Table <ref type="table" target="#tab_2">3</ref>-4 shows the inter-experimenter reliability and retesting stability of measurement data obtained using the 3-D wound scanner. The Cronbach's coefficients were all greater than 0.90, indicating high reliability and the suitability of the 3-D wound scanner for use in clinical applications.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.4.</head><p>Effects of relevant influencing factors on measurement</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.1.">Effect of scar color on measurement</head><p>Statistical differences (P&lt;0.05) were noted between the data of the different colored scar models using the three measurement methods and the standard values. There were no statistical differences (P&gt;0.05) between the data obtained from the different colored scar models using the same measurement method. Analyses of accuracy, correlation, inter-experimenter reliability, and retesting stability of the four different colored scar models were conducted, and are shown in Fig. <ref type="figure" target="#fig_3">4</ref> and Tables 4-1-1, 4-1-2, and 4-1-3, respectively. Regardless of the color of the scar model, the 3-D wound scanner showed better accuracy, and the correlation coefficients were high for each colored scar model. Cronbach's coefficient for inter-experimenter reliability and retesting reliability of the area of the different colored scar models using the 3-D wound scanner was greater than 0.90.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.2.">Effects of scar location</head><p>The data obtained using the profile method significantly differed from and were larger than the standard values (P&lt;0.05). Among these values, the measurement data from scars placed at each place showed no statistical differences (P&gt;0.05). There were no statistical differences (P&gt;0.05) between the standard values and measured values when the pixel method was used to measure the scar on the back but the values from all the remaining locations were significantly smaller than the standard values (P&lt;0.05). Among these values, the measurement data from scars placed on the right cheek and the right lower jaw-neck showed statistical differences (P&lt;0.05), with lower measurement values obtained for the right lower jaw-neck that had a smaller angle of turn compared with the right cheek that has a larger angle of turn. There were statistical differences (P&lt;0.05) in measurement data from the right ulnar forearm and the anterior tibial region of the right calf, which are body sites with curvatures. The right   ulnar forearm, which has a larger curvature, had a lower measurement value compared with the anterior tibial region of the right calf, which has a smaller curvature. There were no statistical differences (P&gt;0.05) between the standard values and the 3-D wound scanner values for the back, but the measurement data from all the remaining locations were significantly smaller than the standard values (P&lt;0.05). There were no statistical differences (P&gt;0.05) between data from the right cheek and the right lower jaw-neck and between the data from the right ulnar forearm and the anterior tibial region of the right calf. The location of the scar had significant effects on measurement using the pixel method and 3-D wound scanner. Analyses of accuracy, correlation, inter-experimenter reliability, and retesting stability of the scar models at different body locations were performed, and the findings are shown in Fig. <ref type="figure" target="#fig_3">4</ref> and Tables 4-2-1, 4-2-2, and 4-2-3, respectively. The accuracy of the 3-D wound scanner was higher than that of the profile and pixel methods at body sites with turns and curvatures. Both the 3-D wound scanner and pixel method could accurately reflect the actual area of scars on the back, while the profile method was unable to accurately measure scar area at all body sites. The correlation coefficients were high for the scar models at different sites. Cronbach's coefficient for interexperimenter reliability and retesting reliability at different body sites using the 3-D wound scanner was greater than 0.90.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.3.">Effects of scar shape</head><p>There were statistical differences (P&lt;0.05) between the data obtained from the various measurement methods and the standard values in both scar models with irregular and regular bases. Moreover, there were statistical differences (P&lt;0.05=in the ratios of the measurement data and the standard values between scar models with irregular and regular bases. Analyses of accuracy, correlation, inter-experimenter reliability, and retesting stability with regard to different scar shapes were performed and are shown in Fig. <ref type="figure" target="#fig_3">4</ref> and Tables 4-3-1, 4-3-2, and 4-3-3, respectively. Regardless of scar model base shape, the accuracy of the 3-D wound scanner was better than that of the profile and pixel methods. The correlation between the various measurement methods and the standard value were high regardless of whether the scar base was irregular or regular. The inter-experimenter reliability and retesting stability using the 3-D wound scanner was high (&gt;0.90).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">The duration of each measurement method</head><p>The average time taken to measure the scar area using the 3D wound scanner was 38.87AE3.45s and that using the pixel method was 151.49AE6.22s. The time taken for the profile method was associated with the size of the scar area, with an overall average time of 247.71AE106.84s. When the profile       . The average time taken to measure the scar area using the 3D wound scanner was shorter than that using other methods (P&lt;0.05). However, for a 100-mm 2 model, there were no statistical differences (P&gt;0.05) between the average time using a 3D wound scanner and that using the profile method. When the area of the scar model was more than 900mm 2 , the average time taken to measure the scar area using the pixel method was shorter than that using the profile method (P &lt; 0.05). The average time taken to measure the different scar areas using the 3D wound scanner was not statistically different (P&gt;0.05), which was similar to that using the pixel method (P&gt;0.05). The colors and scar placement sites had no obvious influence on each method (P&gt;0.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Scar area is an important marker in scar evaluation <ref type="bibr" target="#b8">[9]</ref>. However, due to the complexity of scars, only a few methods are currently available for measuring scar area <ref type="bibr" target="#b9">[10]</ref>. These methods require complex manipulation and their accuracy remains unclear, resulting in the ineffective development of these methods for clinical applications <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>. Because of developments in 3-D scanning technology, good results have been obtained from its use in measuring the area of wounds, providing new ideas for measuring scars. This study used 3-D wound scanner to measure scar area, evaluated the value of portable 3-D scanners for this task, and investigated the possible factors that could affect measurement. As it is difficult to accurately measure the area of scars on human bodies, this study used plasticine as a material to construct scar models with known areas in order to avoid issues with measurement using the gold standard. The traditional scar measurement method using the profile method was used, in addition to the pixel method, as a control to evaluate the value of the 3-D wound scanner for the measurement of scar area. At the same time, the effects of different scar colors, locations, and shapes on various measurement methods were evaluated. The results of this study showed that all three scar measurement methods did not accurately measure the scar area in different body locations, and that scar color did not affect the measurement of scar area. However, scar location and shape were found to affect the measurement of scar area.</p><p>The profile method is considered the gold standard for measuring wound and scar areas <ref type="bibr" target="#b2">[3]</ref>. However, the results of this study showed that this method did not accurately measure the scar area of all the scar models used, and one of the reasons for this was that the scar models used in this study had an uneven surface, with a height of 5-7mm, and the area reflected by the transparent grid paper after covering the scar model was not the area of the base surface. Scar shape affected the measurement; regular scar models have a clear outline but the outline of irregular scar models has a smaller convex edge that cannot be accurately reflected in transparent grid paper. This method showed a good correlation with the standard value, good inter-experimenter reliability, and retesting stability. However, the profile method is timeconsuming, laborious, and the time taken for measurement is related to the scar area. In this study, when the scar area exceeded 900mm 2 , the time taken for measurement using this method was greater than that for other measurement methods. Previous studies have attempted to modify this method by using the weight of paper, combining with image studies, etc. However, these modifications could not accurately measure scar areas on scars higher than the skin surface or scars with uneven surfaces.</p><p>The pixel method involves the conversion of scars into imaging information for analysis and is the most common method. It can accurately measure the scar areas on flat surfaces but is unable to accurately measure the area of scar models on body positions with turns or curvature, and the area measured on these body positions is smaller than the actual area. The reason for this is that this method converts scars into 2-D imaging information; due to perception effects, this method is unable to accurately reflect the scar area on body positions with turns or curvatures. The larger the turn or curvature, the more significant the perception effects, resulting in greater errors during data measurement. The shape of a scar also affects the pixel method. Regular scar models have a clear outline but irregular scar models have an outline with a smaller convex edge, causing the formation of shadows during measurement and making the image processing software unable to accurately distinguish the edge. This method also has high requirements for the angle of image capturing by the camera; hence, during the measurement process, attention must be paid to the angle used in image capturing to avoid operation errors. The time taken for measurement using this method is not related to the scar area and average time taken is greater than that of the 3-D wound scanner. Moreover, the operation of this method is also more complex than for the 3-D wound scanner. Compared with the profile method, this method uses less time for measurement when the scar area exceeds 900mm 2 . The measurement data obtained from this method shows a good correlation with the standard value, and also good inter-experimenter reliability and retesting stability.</p><p>The 3-D wound scanner can accurately measure scar areas on flat surfaces but some errors still exist when measuring scars on turns and curvatures. However, this method is not affected by the height and unevenness of the scar, and perception effects. Measurement results showed that the 3-D wound scanner had a higher accuracy compared to the profile and pixel methods. Scar location also affected this method but the size of turn or curvature had no effect on it. However, the accuracy of this method at various body positions still exceeded that of the profile and pixel methods. Scar shape also affected the measurement, possibly for the same reason as in the pixel method. The data obtained from this method shows good correlation with the standard value, which was also better than that for the profile and pixel methods. 3-D scanning also showed good inter-experimenter reliability and retesting stability. However, for small scar models, located in an arc or corner, the 3-D wound scanner is more prone to outliers or extremes, leading to reduced measurement accuracy, which rarely occurred in other measurement methods. The reason for this is unknown and requires clarification. The time taken for scar measurement using this method was not affected by scar area and the average time taken was shorter than for the other two methods. Despite the shortcomings of the 3-D wound scanner regarding measuring scar area on the whole body, its accuracy seems better than that of the profile and pixel methods. 3-D wound scanning is simple and the device used is portable, allowing for further development for clinical applications.</p><p>The 3-D wound scanner shows good advantages in measuring scar area, is simple to operate. Moreover, the device used is portable and patient acceptability is high. 3-D wound scanning may find more use for clinical applications and for the forensic examination of wounds. However, the current accuracy of the 3-D wound scanner in measuring scar areas on curvatures requires improvement. This device cannot be used to measure large scar areas. In addition, scars which showed a ring distribution were not included in this study; thus, this method requires improvement to measure such scars. Additionally, in order to provide more reliable evidence to support clinical use, in our next trial, actual clinical scars will be measured. However, considering the problem of gold standards, the true area of scars cannot be determined in vivo. Thus, further improvements in experimental methods are needed.</p><p>As more scar patients pay attention to the recovery of external appearance and function, more accurate clinical measurement of scars will be required. This should potentiate the development of 3-D scanning technology, leading to more accurate, effective, and reliable scar-area measurement tools.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Fig. 1 -Schematic diagram of error caused by the traditional method for measuring scar area. (A) Profile method. This measures the scar surface area and not the scar area. If the scar surface is uneven, the measured value will be larger than the actual image. (B) Pixel method. This simplifies the scar into two-dimensional images. If the scar location is an arc, the measured value will be smaller than the actual image. (C) The 3-D wound scanner. (a) The 3-D wound scanner used in this study; (b) operating interface of the 3-D wound scanner; (c) operating principle of the 3-D wound scanner.</figDesc><graphic coords="2,71.15,213.62,457.68,471.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 -</head><label>2</label><figDesc>Fig. 2 -Scar model and the placement sites. (A) Scar model (area was 900mm 2 , 30Â30 mm). (a) Flesh-colored scar model; (b) orange-colored scar model; simulated scars with obvious vascularization; (c) white-colored scar model, simulated hypopigmented scars; (d) brown-colored scar model, simulated hyperpigmented scars; (e) scar height, all models had a height of 5-7mm. (B) The scar models were placed on the right cheek, right lower jaw-neck, right ulnar forearm, anterior tibial region of the right calf, and the back, as indicated by a red circle. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)</figDesc><graphic coords="3,78.52,406.83,433.68,263.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 -</head><label>3</label><figDesc>Fig. 3 -Boxplot of ratios of the measurement data to the standard values (n=320).</figDesc><graphic coords="5,304.27,60.95,241.68,192.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 -</head><label>4</label><figDesc>Fig. 4 -(1) Colored models: boxplot of ratios of the measurement data to the standard values (n=80). (2) Boxplot of the measurement data and the standard values of models located in different sites (n=64). (3) Model shapes: boxplot of the ratios of the measurement data to the standard values (n=160).</figDesc><graphic coords="6,322.36,60.95,212.40,579.17" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 -</head><label>1</label><figDesc>Actual surface area of different colored scar models (mm 2 ).</figDesc><table><row><cell></cell><cell cols="2">Regular scar models Irregular scar models</cell></row><row><cell>Flesh-colored</cell><cell>100 900 2500 4900 937</cell><cell>1152 1148 1556</cell></row><row><cell cols="2">Orange-colored 100 900 2500 4900 885</cell><cell>1276 1462 1635</cell></row><row><cell cols="3">Brown-colored 100 900 2500 4900 1148 1397 1573 2046</cell></row><row><cell>White-colored</cell><cell>100 900 2500 4900 753</cell><cell>1159 1580 1793</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 -</head><label>2</label><figDesc>Parameters of the relevant regions.</figDesc><table><row><cell cols="2">Human model</cell><cell>Human model</cell></row><row><cell>1</cell><cell></cell><cell>2</cell></row><row><cell>Angle of cheek ( )</cell><cell>128</cell><cell>133</cell></row><row><cell>Angle of lower jaw-neck ( )</cell><cell>111</cell><cell>115</cell></row><row><cell>Circumference of ulnar (cm)</cell><cell>23</cell><cell>29</cell></row><row><cell>Circumference of calf (cm)</cell><cell>34</cell><cell>40</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 -</head><label>3</label><figDesc></figDesc><table><row><cell></cell><cell>Profile</cell><cell>Pixel</cell><cell>3-D wound</cell></row><row><cell></cell><cell>method</cell><cell>method</cell><cell>scanner</cell></row><row><cell>Mean</cell><cell>1.157</cell><cell>0.927</cell><cell>0.982</cell></row><row><cell>Median</cell><cell>1.147</cell><cell>0.925</cell><cell>0.976</cell></row><row><cell cols="3">95% confidence interval 1.026-1.288 0.831-1.023</cell><cell>0.898-1.066</cell></row><row><cell>CV</cell><cell>0.058</cell><cell>0.053</cell><cell>0.044</cell></row></table><note><p>1 -Ratios of the measurement data to the standard values (n=320).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 - 2 -</head><label>32</label><figDesc>Outlier and extremum of the ratios of the measurement data to the standard values (n=320).</figDesc><table><row><cell></cell><cell>Outlier</cell><cell>Extremum</cell></row><row><cell>Profile</cell><cell>1.358 (model 1, flesh-colored, back, 1152 mm 2 )</cell><cell>-</cell></row><row><cell>method</cell><cell></cell><cell></cell></row><row><cell>Pixel</cell><cell cols="2">1.065 (model 2, orange-colored, right ulnar forearm, 100 mm 2 ); -</cell></row><row><cell>method</cell><cell></cell><cell></cell></row><row><cell></cell><cell>1.060 (model 1, orange-colored, right ulnar forearm, 100 mm 2 );</cell><cell></cell></row><row><cell></cell><cell>0.789 (model 2, orange-colored, right lower jaw-neck, 885 mm 2 )</cell><cell></cell></row><row><cell>3-D wound</cell><cell>1.083 (model 2, orange-colored, back, 100mm 2 );</cell><cell>1.267 (model 1, orange-colored, right ulnar forearm, 100mm 2 );</cell></row><row><cell>scanner</cell><cell></cell><cell></cell></row></table><note><p>1.083 (model 2, white-colored, right cheek, 100 mm 2 ); 1.200 (model 1, brown-colored, right ulnar forearm, 100 mm 2 ); 0.896 (model 1, orange-colored, right cheek, 1276 mm 2 ) 1.200 (model 2, white-colored, right ulnar forearm, 100mm 2 ); 1.183 (model 2, orange-colored, right ulnar forearm, 100mm 2 ); 1.183 (model 2, white-colored, right ulnar forearm, 100mm 2 ); 1.167 (model 2, flesh-colored, right ulnar forearm, 100 mm 2 ); 1.150 (model 1, flesh-colored, right ulnar forearm,100 mm 2 ); 1.117 (model 2, brown-colored, right ulnar forearm,100mm 2 )</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3 - 3 -</head><label>33</label><figDesc>Correlation between the measurement data and the standard values (n=320).</figDesc><table><row><cell></cell><cell>Profile</cell><cell>Pixel</cell><cell>3-D wound</cell></row><row><cell></cell><cell>method</cell><cell>method</cell><cell>scanner</cell></row><row><cell>Spearman's</cell><cell>0.987</cell><cell>0.988</cell><cell>0.992</cell></row><row><cell>coefficient</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 3 - 4 -</head><label>34</label><figDesc>Stability of the 3-D wound scanner.</figDesc><table><row><cell></cell><cell>Inter-</cell><cell cols="2">Retesting stability</cell></row><row><cell></cell><cell>experimenter</cell><cell></cell><cell></cell></row><row><cell></cell><cell>reliability</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="2">Experimenter 1 Experimenter 2</cell></row><row><cell>Cronbach's</cell><cell>1.000</cell><cell>0.999</cell><cell>0.999</cell></row><row><cell>alpha</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 4 -</head><label>4</label><figDesc>1-2 -Colored models: correlation between the measurement data and the standard values (n=80).</figDesc><table><row><cell></cell><cell cols="3">Flesh-colored</cell><cell cols="3">Orange-colored</cell><cell cols="3">Brown-colored</cell><cell cols="3">White-colored</cell></row><row><cell></cell><cell>Profile</cell><cell>Pixel</cell><cell>3-D</cell><cell>Profile</cell><cell>Pixel</cell><cell>3-D</cell><cell>Profile</cell><cell>Pixel</cell><cell>3-D</cell><cell>Profile</cell><cell>Pixel</cell><cell>3-D</cell></row><row><cell></cell><cell>method</cell><cell>method</cell><cell>wound</cell><cell>method</cell><cell>method</cell><cell>wound</cell><cell>method</cell><cell>method</cell><cell>wound</cell><cell>method</cell><cell>method</cell><cell>wound</cell></row><row><cell></cell><cell></cell><cell></cell><cell>scanner</cell><cell></cell><cell></cell><cell>scanner</cell><cell></cell><cell></cell><cell>scanner</cell><cell></cell><cell></cell><cell>scanner</cell></row><row><cell>Spearman's</cell><cell>0.991</cell><cell>0.982</cell><cell>0.987</cell><cell>0.978</cell><cell>0.985</cell><cell>0.988</cell><cell>0.99</cell><cell>0.992</cell><cell>0.992</cell><cell>0.978</cell><cell>0.985</cell><cell>0.988</cell></row><row><cell>coefficient</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 4 -</head><label>4</label><figDesc></figDesc><table><row><cell></cell><cell>Flesh-colored</cell><cell>Orange-colored</cell><cell>Brown-colored</cell><cell>White-colored</cell></row><row><cell>Inter-experimenter reliability</cell><cell>1.000</cell><cell>1.000</cell><cell>1.000</cell><cell>1.000</cell></row><row><cell>Retesting stability of experimenter 1</cell><cell>0.999</cell><cell>0.999</cell><cell>0.999</cell><cell>0.999</cell></row><row><cell>Retesting stability of experimenter 2</cell><cell>0.999</cell><cell>0.998</cell><cell>0.998</cell><cell>0.999</cell></row></table><note><p>1-3 -Colored models: stability of the 3-D wound scanner (n=80)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 4 -</head><label>4</label><figDesc>1-1 -Colored models: ratios of the measurement data to the standard values (n=80).</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Profile method</cell><cell></cell><cell></cell><cell cols="2">Pixel method</cell><cell></cell><cell></cell><cell cols="2">3-D wound scanner</cell></row><row><cell></cell><cell cols="3">Mean Median 95%</cell><cell>CV</cell><cell cols="3">Mean Median 95%</cell><cell>CV</cell><cell cols="3">Mean Median 95%</cell><cell>CV</cell></row><row><cell></cell><cell></cell><cell></cell><cell>confidence</cell><cell></cell><cell></cell><cell></cell><cell>confidence</cell><cell></cell><cell></cell><cell></cell><cell>confidence</cell></row><row><cell></cell><cell></cell><cell></cell><cell>interval</cell><cell></cell><cell></cell><cell></cell><cell>interval</cell><cell></cell><cell></cell><cell></cell><cell>interval</cell></row><row><cell>Flesh-</cell><cell>1.188</cell><cell>1.189</cell><cell>1.041-1.335</cell><cell cols="2">0.063 0.926</cell><cell>0.92</cell><cell>0.828-1.024</cell><cell cols="2">0.054 0.983</cell><cell>0.979</cell><cell>0.912-1.054</cell><cell>0.037</cell></row><row><cell>colored</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Orange-</cell><cell>1.141</cell><cell>1.129</cell><cell>1.029-1.253</cell><cell>0.05</cell><cell>0.929</cell><cell>0.936</cell><cell>0.823-1.035</cell><cell cols="2">0.058 0.989</cell><cell>0.983</cell><cell>0.889-1.090</cell><cell>0.052</cell></row><row><cell>colored</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Brown-</cell><cell>1.156</cell><cell>1.141</cell><cell>1.031-1.281</cell><cell cols="2">0.055 0.928</cell><cell>0.921</cell><cell>0.84-1.022</cell><cell cols="2">0.052 0.976</cell><cell>0.972</cell><cell>0.900-1.056</cell><cell>0.042</cell></row><row><cell>colored</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>White-</cell><cell>1.142</cell><cell>1.117</cell><cell>1.024-1.260</cell><cell cols="2">0.053 0.926</cell><cell>0.925</cell><cell>0.828-1.024</cell><cell cols="2">0.054 0.978</cell><cell>0.971</cell><cell>0.894-1.062</cell><cell>0.044</cell></row><row><cell>colored</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>Table 4 -</head><label>4</label><figDesc>2-1 -Ratios of the measurement data to the standard values at different locations (n=64) There were no statistical differences(P &gt; 0.05) between the standard values and measured values.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Profile method</cell><cell></cell><cell></cell><cell cols="2">Pixel method</cell><cell></cell><cell></cell><cell cols="2">3-D wound scanner</cell></row><row><cell></cell><cell cols="3">Mean Median 95%</cell><cell>CV</cell><cell cols="3">Mean Median 95%</cell><cell>CV</cell><cell cols="3">Mean Median 95%</cell><cell>CV</cell></row><row><cell></cell><cell></cell><cell></cell><cell>confidence</cell><cell></cell><cell></cell><cell></cell><cell>confidence</cell><cell></cell><cell></cell><cell></cell><cell>confidence</cell></row><row><cell></cell><cell></cell><cell></cell><cell>interval</cell><cell></cell><cell></cell><cell></cell><cell>interval</cell><cell></cell><cell></cell><cell></cell><cell>interval</cell></row><row><cell>Right</cell><cell>1.141</cell><cell>1.117</cell><cell>1.019-1.263</cell><cell cols="2">0.054 0.924</cell><cell>0.932</cell><cell>0.867-0.981</cell><cell cols="2">0.031 0.967</cell><cell>0.965</cell><cell>0.922-1.012</cell><cell>0.024</cell></row><row><cell>cheek</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Right</cell><cell>1.143</cell><cell>1.13</cell><cell>1.023-1.263</cell><cell cols="2">0.053 0.881</cell><cell>0.88</cell><cell>0.807-0.955</cell><cell cols="2">0.043 0.967</cell><cell>0.967</cell><cell>0.855-1.149</cell><cell>0.075</cell></row><row><cell>jaw-neck</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Right</cell><cell>1.16</cell><cell>1.148</cell><cell>1.025-1.295</cell><cell cols="2">0.059 0.913</cell><cell>0.902</cell><cell>0.809-1.017</cell><cell cols="2">0.058 1.002</cell><cell>0.979</cell><cell>0.931-1.017</cell><cell>0.023</cell></row><row><cell>ulnar</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Right calf 1.182</cell><cell>1.173</cell><cell>1.051-1.313</cell><cell cols="2">0.057 0.933</cell><cell>0.929</cell><cell>0.884-0.982</cell><cell cols="2">0.027 0.974</cell><cell>0.977</cell><cell>0.953-1.043</cell><cell>0.023</cell></row><row><cell>Back</cell><cell>1.158</cell><cell>1.14</cell><cell>1.023-1.293</cell><cell>0.06</cell><cell>0.985 *</cell><cell>0.989</cell><cell>0.932-1.038</cell><cell cols="2">0.028 0.998 *</cell><cell>0.997</cell><cell>0.900-1.034</cell><cell>0.035</cell></row></table><note><p>*</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>Table 4 -</head><label>4</label><figDesc>2-2 -Correlation between the measurement data and the standard values at different sites (n=64).</figDesc><table><row><cell></cell><cell>Profile method</cell><cell>Pixel method</cell><cell>3-D wound scanner</cell></row><row><cell>Right cheek</cell><cell>0.984</cell><cell>0.986</cell><cell>0.991</cell></row><row><cell>Right jaw-neck</cell><cell>0.983</cell><cell>0.992</cell><cell>0.992</cell></row><row><cell>Right ulnar</cell><cell>0.986</cell><cell>0.99</cell><cell>0.989</cell></row><row><cell>Right calf</cell><cell>0.992</cell><cell>0.991</cell><cell>0.995</cell></row><row><cell>Back</cell><cell>0.989</cell><cell>0.994</cell><cell>0.995</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head>Table 4 -</head><label>4</label><figDesc>2-3 -Reliability of the 3-D wound scanner for model measurement at different sites (n=64)</figDesc><table><row><cell></cell><cell>Right cheek</cell><cell>Right jaw-neck</cell><cell>Right ulnar</cell><cell>Right calf</cell><cell>Back</cell></row><row><cell>Inter-experimenter reliability</cell><cell>1.000</cell><cell>1.000</cell><cell>0.999</cell><cell>1.000</cell><cell>1.000</cell></row><row><cell>Retesting stability of experimenter 1</cell><cell>0.999</cell><cell>1.000</cell><cell>0.997</cell><cell>0.999</cell><cell>1.000</cell></row><row><cell>Retesting stability of experimenter 2</cell><cell>0.999</cell><cell>0.999</cell><cell>0.996</cell><cell>0.999</cell><cell>0.999</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head>Table 4 -</head><label>4</label><figDesc>3-1 -Model shapes: ratios of the measurement data to the standard values (n=160).</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Profile method</cell><cell></cell><cell></cell><cell cols="2">Pixel method</cell><cell></cell><cell></cell><cell cols="2">3-D wound scanner</cell></row><row><cell></cell><cell cols="3">Mean Median 95%</cell><cell>CV</cell><cell cols="3">Mean Median 95%</cell><cell>CV</cell><cell cols="3">Mean Median 95%</cell><cell>CV</cell></row><row><cell></cell><cell></cell><cell></cell><cell>confidence</cell><cell></cell><cell></cell><cell></cell><cell>confidence</cell><cell></cell><cell></cell><cell></cell><cell>confidence</cell></row><row><cell></cell><cell></cell><cell></cell><cell>interval</cell><cell></cell><cell></cell><cell></cell><cell>interval</cell><cell></cell><cell></cell><cell></cell><cell>interval</cell></row><row><cell>Regular</cell><cell>1.143</cell><cell>1.115</cell><cell>1.017-1.267</cell><cell cols="2">0.056 0.933</cell><cell>0.935</cell><cell>0.831-1.035</cell><cell cols="2">0.056 0.995</cell><cell>0.984</cell><cell>0.893-1.097</cell><cell>0.052</cell></row><row><cell cols="2">Irregular 1.171</cell><cell>1.16</cell><cell>1.040-1.302</cell><cell cols="2">0.055 0.921</cell><cell>0.916</cell><cell>0.831-1.011</cell><cell>0.05</cell><cell>0.968</cell><cell>0.967</cell><cell>0.917-1.019</cell><cell>0.027</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head>Table 4 -</head><label>4</label><figDesc></figDesc><table><row><cell></cell><cell>Profile</cell><cell>Pixel</cell><cell>3-D wound</cell></row><row><cell></cell><cell>method</cell><cell>method</cell><cell>scanner</cell></row><row><cell>Regular</cell><cell>0.968</cell><cell>0.968</cell><cell>0.968</cell></row><row><cell>Irregular</cell><cell>0.952</cell><cell>0.967</cell><cell>0.98</cell></row></table><note><p>3-2 -Model shapes: correlation between the measurement data and the standard values (n=160).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head>Table 4 -</head><label>4</label><figDesc>for the measurement of scar models, the average measurement times based on the model sizes were as follows: 100-mm 2 model, 43.30AE3.05s; 900-mm 2 model, 191.97 AE13.09s; 2500-mm 2 model, 271.22AE12.81s; and 4900-mm 2 model, 452.05AE12.81s</figDesc><table><row><cell>Regular</cell><cell>Irregular</cell></row></table><note><p>3-3 -Model shapes: stability of the 3-D wound scanner (n=160).</p></note></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>We declare that we do not have any commercial or associative interest that represents a conflict of interest in connection with the work submitted.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,68.09,525.59,215.89,7.20;10,68.09,535.56,209.44,7.20;10,68.09,545.54,153.11,7.20" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Developmental biology. A scar is born: origins of fibrotic skin tissue</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rendl</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aab0120</idno>
+		<ptr target="http://dx.doi.org/10.1126/science.aab0120" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="284" to="285" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,68.09,555.46,222.91,7.20;10,68.09,565.44,222.88,7.20;10,325.08,65.69,177.43,7.20;10,325.08,75.67,85.28,7.20" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A clinimetric overview of scar assessment scales</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Van Der Wal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Verhaegen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Middelkoop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Van Zuijlen</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/BCR.0b013e318239f5dd</idno>
+		<ptr target="http://dx.doi.org/10.1097/BCR" />
+	</analytic>
+	<monogr>
+		<title level="j">J Burn Care Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">0</biblScope>
+			<biblScope unit="page" from="79" to="87" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>b013e318239f5dd</note>
+</biblStruct>
+
+<biblStruct coords="10,325.08,85.59,222.91,7.20;10,325.08,95.57,222.91,7.20;10,325.08,105.55,222.95,7.20;10,325.08,115.47,84.73,7.20" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Objective scar assessment tools: a clinimetric appraisal</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Verhaegen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Van Der Wal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Middelkoop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Van Zuijlen</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/PRS.0b013e31820a641a</idno>
+		<ptr target="http://dx.doi.org/10.1097/PRS" />
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">0</biblScope>
+			<biblScope unit="page" from="1561" to="1570" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>b013e31820a641a</note>
+</biblStruct>
+
+<biblStruct coords="10,325.08,125.45,222.91,7.20;10,325.08,135.43,208.50,7.20;10,325.08,145.40,222.92,7.20;10,325.08,155.32,218.54,7.20" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Reliability and accuracy of techniques for surface area measurements of wounds and scars</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Van Zuijlen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Angeles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Suijker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Kreis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Middelkoop</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1534734604263200</idno>
+		<ptr target="http://dx.doi.org/10.1177/1534734604263200" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="7" to="11" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,325.08,165.30,217.77,7.20;10,325.08,175.28,222.95,7.20;10,325.08,185.26,222.94,7.20;10,325.08,195.18,209.86,7.20;10,325.08,205.16,112.84,7.20" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Three-dimensional digital stereophotogrammetry: a reliable and valid technique for measuring scar surface area</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Stekelenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Van Der Wal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Knol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>De Vet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Van Zuijlen</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/PRS.0b013e318290f675</idno>
+		<ptr target="http://dx.doi.org/" />
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="204" to="211" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,325.08,215.14,222.95,7.20;10,325.08,225.06,159.49,7.20;10,325.08,235.03,222.93,7.20;10,325.08,245.01,221.06,7.20;10,325.08,254.99,162.75,7.20;10,325.08,264.91,72.81,7.20" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">van der Wal MB, de Vet HC. In a clinimetric analysis, 3D stereophotogrammetry was found to be reliable and valid for measuring scar volume in clinical research</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Stekelenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Jaspers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Niessen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Knol</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclinepi.2015.02.014</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jclinepi.2015.02.014" />
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="782" to="787" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,325.08,274.89,220.96,7.20;10,325.08,284.87,214.36,7.20;10,325.08,294.85,160.15,7.20" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Documentation of wound surface area from tracings of wound perimeters: clinical report on three techniques</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Bohannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Pfaller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="1622" to="1624" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,325.08,304.77,222.96,7.20;10,325.08,314.74,202.43,7.20;10,325.08,324.72,218.71,7.20;10,325.08,334.70,10.39,7.20" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Comparison of quantitative methodologies to define chronic pressure ulcer measurements</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Cutler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Seifert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brunelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Sramek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcneill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Decubitus</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="22" to="30" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,325.08,344.62,222.94,7.20;10,325.08,354.60,222.93,7.20;10,325.08,364.58,209.85,7.20;10,325.08,374.50,130.71,7.20" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Development and validation of a novel scar evaluation scale</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Arora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dagum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brunelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Sramek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcneill</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.prs.0000287275.15511.10</idno>
+		<ptr target="http://dx.doi.org/10.1097/01.prs.0000287275.15511.10" />
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="1892" to="1897" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,325.08,384.48,193.62,7.20;10,325.08,394.46,222.95,7.20;10,325.08,404.43,185.48,7.20;10,325.08,414.35,84.74,7.20" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Current tools for noninvasive objective assessment of skin scars</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mcgrouther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bayat</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/PRS.0b013e3181e6046b</idno>
+		<ptr target="http://dx.doi.org/10.1097/PRS" />
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">0</biblScope>
+			<biblScope unit="page" from="912" to="923" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>b013e3181e6046b</note>
+</biblStruct>
+
+<biblStruct coords="10,325.08,424.33,193.51,7.20;10,325.08,434.31,222.92,7.20;10,325.08,444.29,221.26,7.20;10,325.08,454.21,197.88,7.20;10,325.08,464.19,66.75,7.20" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Threedimensional documentation of wound healing: first results of a new objective method for measurement</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Korber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rietkotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grabbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dissemond</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1610-0387.2006.06113.x</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.1610-0387.2006.06113.x" />
+	</analytic>
+	<monogr>
+		<title level="j">J Dtsch Dermatol Ges</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="848" to="854" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,325.08,474.17,222.93,7.20;10,325.08,484.09,222.93,7.20;10,325.08,494.06,212.79,7.20;10,325.08,504.04,213.54,7.20;10,325.08,514.02,62.30,7.20" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Evaluation of reproducibility and reliability of 3D soft tissue analysis using 3D stereophotogrammetry</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Van Beusichem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Maal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Plooij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Bronkhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bergé</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijom.2012.07.006</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.ijom.2012.07.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Oral Maxillofac Surg</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2-8</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,325.08,523.94,222.93,7.20;10,325.08,533.92,221.65,7.20;10,325.08,543.90,207.02,7.20;10,325.08,553.88,65.89,7.20" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Pilot study to evaluate a novel three-dimensional wound measurement device</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Bills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Berriman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Noble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.12534</idno>
+		<ptr target="http://dx.doi.org/10.1111/iwj.12534" />
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1372" to="1377" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

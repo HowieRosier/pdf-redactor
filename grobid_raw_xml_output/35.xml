@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Automated wound care by employing a reliable U-Net architecture combined with ResNet feature encoders for monitoring chronic wounds</title>
+				<funder ref="#_tVnyWEm">
+					<orgName type="full">Princess Nourah bint Abdulrahman University, Riyadh</orgName>
+				</funder>
+				<funder ref="#_md9np5R">
+					<orgName type="full">Princess Nourah bint Abdulrahman University Researchers Supporting</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Saudi Arabia</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-01-31">31 January 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Maali</forename><surname>Alabdulhafith</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Information Technology</orgName>
+								<orgName type="department" key="dep2">College of Computer and Information Sciences</orgName>
+								<orgName type="institution">Princess Nourah bint Abdulrahman University</orgName>
+								<address>
+									<settlement>Riyadh</settlement>
+									<region>Saudi Arabia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Abduljabbar</forename><forename type="middle">S</forename><surname>Ba Mahel</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Life Science</orgName>
+								<orgName type="institution">University of Electronic Science and Technology of China</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">†</forename><surname>Nagwan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Abdel</forename><surname>Samee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Information Technology</orgName>
+								<orgName type="department" key="dep2">College of Computer and Information Sciences</orgName>
+								<orgName type="institution">Princess Nourah bint Abdulrahman University</orgName>
+								<address>
+									<settlement>Riyadh</settlement>
+									<region>Saudi Arabia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Noha</forename><forename type="middle">F</forename><surname>Mahmoud</surname></persName>
+							<email>nfmahmoud@pnu.edu.sa</email>
+							<affiliation key="aff2">
+								<orgName type="department">Rehabilitation Sciences Department</orgName>
+								<orgName type="institution" key="instit1">Health and Rehabilitation Sciences College</orgName>
+								<orgName type="institution" key="instit2">Princess Nourah bint Abdulrahman University</orgName>
+								<address>
+									<settlement>Riyadh</settlement>
+									<region>Saudi Arabia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rawan</forename><surname>Talaat</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Biotechnology and Genetics Department</orgName>
+								<orgName type="department" key="dep2">Agriculture Engineering</orgName>
+								<orgName type="institution">Ain Shams University</orgName>
+								<address>
+									<settlement>Cairo</settlement>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohammed</forename><surname>Saleh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ali</forename><surname>Muthanna</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Institute of Computer Technologies and Information Security</orgName>
+								<orgName type="institution">Southern Federal University</orgName>
+								<address>
+									<settlement>Taganrog</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tamer</forename><forename type="middle">M</forename><surname>Nassef</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Computer and Software Engineering Department, Engineering College</orgName>
+								<orgName type="department" key="dep2">6th of October</orgName>
+								<orgName type="institution">Misr University for Science and Technology</orgName>
+								<address>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fatih</forename><surname>Zor</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yalcin</forename><surname>Kulahci</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chinmay</forename><surname>Chakraborty</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Wake Forest University</orgName>
+								<address>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="institution">Wake Forest University</orgName>
+								<address>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution">Birla Institute of Technology</orgName>
+								<address>
+									<settlement>Mesra</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Automated wound care by employing a reliable U-Net architecture combined with ResNet feature encoders for monitoring chronic wounds</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-31">31 January 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4EA1541C0E4679166521A0D2F4AE84BA</idno>
+					<idno type="DOI">10.3389/fmed.2024.1310137</idno>
+					<note type="submission">RECEIVED 16 October 2023 ACCEPTED 02 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>chronic wound</term>
+					<term>transfer learning</term>
+					<term>segmentation</term>
+					<term>UNet</term>
+					<term>ResNet34</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Quality of life is greatly affected by chronic wounds. It requires more intensive care than acute wounds. Schedule follow-up appointments with their doctor to track healing. Good wound treatment promotes healing and fewer problems. Wound care requires precise and reliable wound measurement to optimize patient treatment and outcomes according to evidence-based best practices. Images are used to objectively assess wound state by quantifying key healing parameters. Nevertheless, the robust segmentation of wound images is complex because of the high diversity of wound types and imaging conditions. This study proposes and evaluates a novel hybrid model developed for wound segmentation in medical images. The model combines advanced deep learning techniques with traditional image processing methods to improve the accuracy and reliability of wound segmentation. The main objective is to overcome the limitations of existing segmentation methods (UNet) by leveraging the combined advantages of both paradigms. In our investigation, we introduced a hybrid model architecture, wherein a ResNet34 is utilized as the encoder, and a UNet is employed as the decoder. The combination of ResNet34's deep representation learning and UNet's efficient feature extraction yields notable benefits. The architectural design successfully integrated high-level and low-level features, enabling the generation of segmentation maps with high precision and accuracy. Following the implementation of our model to the actual data, we were able to determine the following values for the Intersection over Union (IOU), Dice score, and accuracy: 0.973, 0.986, and 0.9736, respectively. According to the achieved results, the proposed method is more precise and accurate than the current state-of-the-art.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Rehabilitation therapists assume a crucial role in the home-based therapy of injuries caused by pressure and other types of wounds. Therapists possess a robust understanding of evidence-based practices in the field of wound care. Through collaborative efforts with the interdisciplinary care team, therapists are capable of offering valuable assistance in the management of wound care, hence contributing to its effectiveness. Rehabilitation therapists receive specialized training in wound assessment and documentation and provide critical interventions to improve patient outcomes and the financial sustainability of home healthcare businesses. Physical therapists develop optimal wound treatment plans, including restoring mobility, strengthening, and healing. A wound is considered chronic if healing takes more than 4 weeks without progress <ref type="bibr" target="#b0">(1)</ref>. There are a variety of things that can impede the usual process of wound healing. People who have comorbidities like diabetes and obesity are more likely to suffer from wounds like these. The care for these injuries comes at a very high financial cost. Patients who are suffering from chronic wounds require more intensive wound care as opposed to patients who are suffering from acute wounds <ref type="bibr" target="#b1">(2)</ref>. They have to visit a doctor on a consistent basis so the doctor can monitor how well the wound is healing. The management of wounds needs to adhere to the best practices available in order to facilitate healing and reduce the risk of wound complications. The evaluation of wound healing begins with a thorough assessment of the wound. When determining the rate of wound healing, one of the most important aspects of wound care practice is the utilization of clinical standards <ref type="bibr" target="#b2">(3)</ref>. These guidelines prescribe the usual documentation of wound-related information, such as wound color, size, and composition of wound tissue <ref type="bibr" target="#b3">(4)</ref>. The conventional technique involves professionals in the area of treating wounds to take measurements of the wound area as well as its tissue structure. This method is labor-intensive, expensive, and difficult to replicate <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b5">6)</ref>. In this study, we are introducing an approach for automatically assessing wounds that makes use of automatic wound color segmentation in addition to algorithms that are based on artificial intelligence.</p><p>Wound healing is a complex and dynamic biological process that results in tissue regeneration, restoration of anatomical integrity, and restoration of similar functionality <ref type="bibr" target="#b6">(7)</ref>. According to assumptions, the advanced wound care market is anticipated to surpass a value of $22 billion by the year 2024 <ref type="bibr" target="#b4">(5)</ref>. This discrepancy may be attributed to the rise in outpatient wound treatments that are presently being administered <ref type="bibr" target="#b7">(8)</ref>. Chronic wounds are categorized as wounds that have exceeded the typical healing timeline and remain open for a duration surpassing 1 month <ref type="bibr" target="#b8">(9)</ref>. Chronic wound infections have been found to cause substantial morbidity and make a significant contribution to the rising costs of healthcare (10). The development of advanced wound care technologies is imperative in order to address the increasing financial strain on national healthcare budgets caused by chronic wounds, as well as the significant adverse effects these wounds have on the quality of life of affected patients <ref type="bibr" target="#b9">(11)</ref>. Currently, there is a significant prevalence of patients experiencing wound infections and chronic wounds. The management of postoperative wounds continues to present a laborious and formidable task for healthcare professionals and individuals undergoing surgery. There exists a significant need for the advancement of a collection of algorithms and associated methodologies aimed at the timely identification of wound infections and the autonomous monitoring of wound healing progress <ref type="bibr" target="#b10">(12,</ref><ref type="bibr" target="#b11">13)</ref>. A pressure ulcer, in accordance with the European Pressure Ulcer Advisory Panel, is characterized as a specific region of restricted harm to both the underlying tissue as well as the skin, resulting from an action of pressure, shear, and friction. A pressure ulcer is classified as a chronic injury resulting from persistent and prolonged soft tissue compression compared to a bony prominence, as well as a rigid surface or medical equipment <ref type="bibr" target="#b12">(14)</ref>. The occurrence of diabetic foot ulcer (DFU) represents a significant complication associated with the presence of diabetes <ref type="bibr" target="#b13">(15)</ref>. DFU is the primary factor contributing to limb amputations. In line with the World Health Organization (WHO), it has been estimated that approximately 15% of individuals diagnosed with diabetes mellitus experience the occurrence of DFU at least once throughout their lifespan <ref type="bibr" target="#b14">(16)</ref>. Image segmentation is an essential task when it comes to computer vision and image processing <ref type="bibr" target="#b15">(17)</ref>. The process of image segmentation holds significant importance in numerous medical imaging applications as it aids in automating or facilitating the identification and drawing of lines around essential regions of interest and anatomical structures <ref type="bibr" target="#b16">(18)</ref>. Nevertheless, it is challenging to generalize the performance of segmentation across various wound images. The presence of various wound types, colors, shapes, body positions, background compositions, capturing devices, and image-capturing conditions contributes to the considerable diversity observed in wound images <ref type="bibr" target="#b17">(19)</ref>. Wound segmentation in medical imaging has advanced with hybrid models. Relevant studies <ref type="bibr" target="#b18">(20)</ref><ref type="bibr" target="#b19">(21)</ref><ref type="bibr" target="#b20">(22)</ref> emphasize community-driven chronic wound databases, telemedicine-based frameworks, and M-Health for telewound monitoring.CNNs, ensemble learning, attention mechanisms, and transfer learning improve crop and rice disease detection and breast cancer classification (23-26). Our research builds on these findings to develop a hybrid model for improved chronic wound segmentation accuracy. The objective of our study is to concentrate on the advancement of a deep-learning methodology for wound segmentation. We suggest a unique framework that integrates the advantageous features of the UNet architecture and the ResNet34 model in order to enhance the efficacy of image segmentation tasks.</p><p>The main contribution of this study is the development and evaluation of a hybrid model for wound segmentation that seamlessly integrates advanced deep learning approaches with traditional image processing methods. This innovative alliance aims to improve the accuracy and reliability of wound segmentation significantly, overcoming limitations identified in existing methodologies.</p><p>The article's remaining sections are arranged in the manner shown below. Related works: Detailed review of previous research in the field. Materials and Methods: Describes the used dataset, the architecture and implementation of the hybrid model, detailing how advanced deep learning techniques integrate with traditional image processing techniques. Results: Presents the results of the experimental analysis evaluating the performance of the hybrid model. Discussion: Analyzes the results, discusses their implications, compares them with existing segmentation methods, and explores potential applications of the hybrid model in clinical practice. Conclusions: Summarizes the main contributions, highlights the importance of the developed hybrid model, and suggests directions for future research.</p><p>Frontiers in Medicine 03 frontiersin.org</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Related work</head><p>Wang et al. <ref type="bibr" target="#b24">(27)</ref> proposed the implementation of an integrated system that automates the process of segmenting wound regions and analyzing wound conditions in images of wounds. In contrast to previous segmentation techniques that depend on manually designed features or unsupervised methods, the study's authors introduce a deep learning approach that simultaneously learns visual features relevant to the task and carries out wound segmentation. In addition, acquired features are utilized for subsequent examination of wounds through two distinct approaches: identification of infections and forecasting of healing progress. The proposed methodology demonstrates computational efficiency, with an average processing time of under 5 s per wound image of dimensions 480 by 640 pixels when executed on a standard computer system. The evaluations conducted on a comprehensive wound database provide evidence supporting the efficacy and dependability of the proposed system. Ohura et al. <ref type="bibr" target="#b25">(28)</ref> established several convolutional neural networks (CNNs) using various methods and architectural frameworks. The four architectural models considered in their study were LinkNet, SegNet, U-Net, and U-Net with the VGG16 Encoder Pre-Trained on ImageNet (referred to as Unet_VGG16). Every convolutional neural network (CNN) was trained using supervised data pertaining to sacral pressure ulcers (PUs). The U-Net architecture yielded the most favorable outcomes among the four architectures. The U-Net model exhibited the second-highest level of accuracy, as measured by the area under the curve (AUC) with a value of 0.997. Additionally, it demonstrated a high level of specificity (0.943) and sensitivity (0.993). Notably, the highest values were achieved when utilizing the Unet_VGG16 variant of the U-Net model. The architecture of U-Net was deemed to be the most practical and superior compared to other architectures due to its faster segmentation speed in comparison to Unet_VGG16. Scebba et al. <ref type="bibr" target="#b17">(19)</ref> introduced the detectand-segment (DS) method, which is a deep learning technique designed to generate wound segmentation maps that possess excellent generalization skills. The proposed methodology involved the utilization of specialized deep neural networks to identify the location of the wound accurately, separate the wound from the surrounding background, and generate a comprehensive map outlining the boundaries of the wound. The researchers conducted an experiment in which they applied this methodology to a dataset consisting of diabetic foot ulcers. They then proceeded to compare the results of this approach with those obtained using a segmentation method that relied on the entire image. In order to assess the extent to which the DS approach can be applied to data that falls outside of its original distribution, the researchers evaluated its performance on four distinct and independent data sets. These additional data sets encompassed a wider range of wound types originating from various locations on the body. The Matthews' correlation coefficient (MCC) exhibited a notable enhancement, increasing from 0.29 (full image) to 0.85 (DS), as observed in the analysis of the data set for diabetic foot ulcers. Upon conducting tests on the independent data sets, it was observed that the mean Matthews correlation coefficient (MCC) exhibited a significant increase from 0.17 to 0.85. In addition, the utilization of the DS facilitated the segmentation model's training with a significantly reduced amount of training data, resulting in a noteworthy decrease of up to 90% without any detrimental effects on the segmentation efficiency. The proposed data science (DS) approach represents a significant advancement in the automation of wound analysis and the potential reduction of efforts required for the management of chronic wounds. Oota et al. <ref type="bibr" target="#b26">(29)</ref> constructed segmentation models for a diverse range of eight distinct wound image categories. In this study, the authors present WoundSeg, an extensive and heterogeneous dataset comprising segmented images of wounds. The complexity of segmenting generic wound images arises from the presence of heterogeneous visual characteristics within images depicting similar types of wounds. The authors present a new image segmentation framework called WSNet. This framework incorporates two key components: (a) wound-domain adaptive pretraining on a large collection of unlabelled wound images and (b) a global-local architecture that utilizes both the entire image and its patches to capture detailed information about diverse types of wounds. The WoundSeg algorithm demonstrates a satisfactory Dice score of 0.847. The utilization of the existing AZH Woundcare and Medetec datasets has resulted in the establishment of a novel state-ofthe-art. Buschi et al. <ref type="bibr" target="#b27">(30)</ref> proposed a methodology to segment the pet wound images automatically. This approach involves the utilization of transfer learning (TL) and active self-supervised learning (ASSL) techniques. Notably, the model is designed to operate without any manually labeled samples initially. The efficacy of the two training strategies was demonstrated in their ability to produce substantial quantities of annotated samples without significant human intervention. The procedure, as mentioned earlier, enhances the efficiency of the validation process conducted by clinicians and has been empirically demonstrated to be an effective strategy in medical analyses.The researchers discovered that the EfficientNet-b3 U-Net model, when compared to the MobileNet-v2 U-Net model, exhibited superior performance and was deemed an optimal deep learning model for the ASSL training strategy. Additionally, they provided numerical evidence to support the notion that the intricacy of wound segmentation does not necessitate the utilization of intricate, deep-learning models. They demonstrated that the MobileNet-v2 U-Net and EfficientNet-b3 U-Net architectures exhibit comparable performance when trained on a bigger collection of annotated images. The incorporation of transfer learning components within the ASSL pipeline serves to enhance the overall ability of the trained models to generalize. Rostami et al. <ref type="bibr" target="#b28">(31)</ref> developed an ensemble-based classifier utilizing deep convolutional neural networks (DCNNs) to effectively classify wound images into various classes, such as surgical, venous ulcers, and diabetic. The classification scores generated by two classifiers, specifically the patch-wise and image-wise classifiers, are utilized as input for a multilayer perceptron in order to enhance the overall classification performance. A 5-fold cross-validation strategy is used to evaluate the suggested method. The researchers achieved the highest and mean classification accuracy rates of 96.4% and 94.28%, respectively, for binary classification tasks. In contrast, for 3-class classification problems, they attained maximum and average accuracy rates of 91.9% and 87.7%, respectively. The classifier under consideration was evaluated against several widely used deep classifiers and demonstrated notably superior accuracy metrics. The proposed method was also evaluated on the Medetec wound image dataset, yielding accuracy values of 82.9% and 91.2% for 3-class and binary classifications, respectively. The findings indicate that the method proposed by the researchers demonstrates effective utility as a decision support system for wound image classification and other clinically relevant applications. Huang et al. <ref type="bibr" target="#b29">(32)</ref> proposed an innovative approach to automatically segment and detect wounds by leveraging the Mask R-CNN framework. Their study employed a dataset comprising 3,329 clinical wound images, encompassing wounds observed in patients diagnosed with peripheral artery disease, as well as those resulting from general trauma. The implementation of the Mask R-CNN framework was utilized for the purpose of detecting and distinguishing wounds. The outcomes of their methodology were noteworthy, as evidenced by an Intersection over Union score of 0.69, precision rate of 0.77, recall rate of 0.72, average precision of 0.71 and F1 score of 0.75. The metrics as mentioned above serve as indicators of the precision and efficacy of the suggested framework for the segmentation and diagnosis of wounds. Foltynski et al. <ref type="bibr" target="#b30">(33)</ref> described an automated service for measuring wound areas, which enables accurate measurements by employing adaptive calibration techniques specifically designed for curved surfaces. The deep learning model, which utilized convolutional neural networks (CNNs), underwent training with a dataset consisting of 565 wound images. Subsequently, the model was employed for image segmentation, specifically to discern the wound area and calibration markers. The software that has been developed is capable of calculating the area of a wound by utilizing the pixel count within the wound region, as well as a calibration coefficient derived from the measured distances between ticks located at calibration markers. The outcome of the measurement is transmitted to the user via the designated email address. The wound models exhibited a median relative error of 1.21% in the measurement of wound area. The effectiveness of the convolutional neural network (CNN) model was evaluated on a total of 41 actual wounds and 73 simulated wound models. The mean values for the accuracy, specificity, Intersection over Union, and dice similarity coefficient in the context of wound identification were found to be 99.3%, 99.6%, 83.9%, and 90.9%, respectively. The efficacy of the service has been demonstrated to be high, making it suitable for monitoring wound areas. Pereira et al. (34) developed a comprehensive system that includes a deep learning segmentation model called MobileNet-UNet. This model is capable of identifying the specific area of a wound and classifying it into one of three categories: chest, drain, or leg. Additionally, the system incorporates a machine learning classification model that utilizes different algorithms (support vector machine, k-nearest neighbors, and random forest) to predict the likelihood of wound alterations for each respective category (chest, leg, and drain). The deep learning model performs image segmentation and classifies the wound type. Subsequently, the machine learning models employ classification techniques to categorize the images based on a set of color and textural features that are obtained from the output region of interest. These features are then utilized to feed into one of the three wound-type classifiers, ultimately leading to a final binary decision regarding the alteration of the wound. The segmentation model attained a mean average precision (AP) of 90.1% and a mean Intersection over Union (IoU) of 89.9%. The utilization of distinct classifiers for the final classification yielded greater efficacy compared to employing a single classifier for all different kinds of wounds. The classifier for leg wounds demonstrated superior performance, achieving an 87.6% recall rate and 52.6% precision rate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Dataset</head><p>The initial dataset comprises around 256 images of laboratory mice with inflicted wounds <ref type="bibr" target="#b31">(35)</ref>. The study encompasses a total of eight mice, with four mice assigned to Cohort 1 (C1) and four mice assigned to Cohort 2 (C2). The observation period spans 16 days, during which the healing process is monitored. The two cohorts are indicative of two separate experimental conditions, thus necessitating the grouping of results based on cohort. Each mouse in the study exhibits a pair of wounds, one located on the left side and the other on the right side. Consequently, the dataset comprises a collection of time series data encompassing a total of 16 individual wounds. Every wound is bounded by a circular cast that encompasses the injured region. The inner diameter of this splint measures 10 mm, while the outer diameter measures 16 mm. The splint is utilized as a reference object in the workflow due to its fixed inner and outer diameter, providing a known size. It is essential to acknowledge that a significant proportion, precisely over 25%, of the images within this dataset exhibit either missing casts or substantial damage to the splints. The images exhibit various challenges, including variations in image rotation (portrait vs. landscape), ranging lighting conditions, inaccurate or obscured tape measure position, multiple visible wounds, significant occlusion of the wound, and the relative positioning of the wound within the picture frame. The challenges mentioned above prompted researchers to explore the integration of deep learning algorithms with conventional image processing techniques. The approach of pre-processing for wound segmentation involves multiple steps. The images are acquired from the dataset containing photographs of wounds. Subsequently, the labelme tool is employed to designate the wound area and the encompassing region. Data augmentation techniques such as vertical and horizontal flips, transpose, and rotation are employed. The inclusion of diverse data and the subsequent preparation of the dataset were crucial steps in enhancing its quality and suitability for training an effective wound segmentation model. Different samples from the described above dataset are presented in Figure <ref type="figure">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Data preprocessing</head><p>The pre-processing of data is of most tremendous significance in the preparation of input data for machine learning tasks. In the context of wound segmentation, it is imperative to perform image pre-processing in order to improve the quality of the images, extract pertinent features, and augment the dataset to enhance the performance of the model. This section will examine the different stages encompassed in the process of data pre-processing for wound segmentation. In brief, the process of data pre-processing for wound segmentation entails several steps. Firstly, the images are obtained from the wound photo dataset. Next, the wound area and the surrounding region are labeled using the labelme library in Python. Lastly, data augmentation methods such as vertical and horizontal flips, rotation, and transpose are applied. The following steps are essential in improving the dataset, enhancing its diversity, and preparing it for the training of a resilient wound segmentation model. Firstly, the images are obtained from the dataset containing photographs of wounds <ref type="bibr" target="#b31">(35)</ref>. The images function as the primary source of input for the segmentation task. The dataset comprises a compilation of images portraying various categories of wounds. It is necessary to perform image processing and labeling on each image in order to differentiate the injured area from the surrounding region. The labelme <ref type="bibr" target="#b32">(36)</ref> library is employed for image annotation and Frontiers in Medicine 05 frontiersin.org labeling in the Python programming language. The labelme library offers a user-friendly graphical interface that allows users to annotate regions of interest within images. In order to facilitate segmentation, distinct classes are created by applying separate labels to both the wound area and the surrounding area. By implementing these data augmentation techniques on the labeled images, we produce supplementary training instances that exhibit variations in orientation and position. The augmented dataset utilized in this study encompasses a broader spectrum of potential scenarios, thereby enhancing the model's capacity to acquire more resilient features and enhance its precision in accurately segmenting wounds. To retain their relationship with the augmented images, the</p><formula xml:id="formula_0">A B C D E F G H I FIGURE 1</formula><p>An illustration of nine different samples (A-I) from the data set used in the study, presented in visual form for more detailed analysis and understanding.</p><p>10.3389/fmed.2024.1310137</p><p>Frontiers in Medicine 06 frontiersin.org labels must be altered appropriately during the data augmentation process. In the event that an image undergoes horizontal flipping, the associated labels must undergo a corresponding horizontal flipping as well. Figure <ref type="figure">3</ref> provides an example of the augmentation process, illustrating the original image and the augmentation steps applied to it.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Proposed framework</head><p>This study introduces a novel framework that integrates the U-Net (37) architecture and the ResNet34 <ref type="bibr" target="#b34">(38)</ref> model in order to enhance the efficacy of image segmentation tasks. The proposed framework utilizes the encoding capabilities of ResNet34 as the primary encoder while incorporating the decoder architecture of U-Net to achieve precise and comprehensive segmentation. The diagram depicting the proposed framework is presented in Figure <ref type="figure" target="#fig_2">4</ref>, while Figure <ref type="figure" target="#fig_3">5</ref> highlights the main steps of the proposed system.</p><p>The framework integrates the robust encoding capabilities of ResNet with the precise and comprehensive segmentation capabilities of U-Net. Through the strategic utilization of the inherent advantages offered by both architectures, our hybrid model endeavors to enhance the efficacy of image segmentation tasks. The integration of fusion and skip connections facilitates a seamless connection between the encoder and decoder, enabling efficient information transmission and accurate segmentation. The framework that has been proposed presents a promising methodology for tackling the challenges associated with image segmentation. It holds the potential to advance the current state-of-the-art in this particular domain significantly. The main elements within the proposed framework may be enumerated as follows:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Encoder-decoder architecture</head><p>The proposed framework uses a hybrid model architecture with a ResNet34 as the encoder and a U-Net as the decoder. The integration of ResNet34's deep representation learning and U-Net's efficient feature extraction enables us to derive significant advantages. The utilization of the encoder-decoder architecture has been widely recognized as an effective strategy in the context of image segmentation tasks. This architectural design effectively captures and incorporates both low-level and high-level features, thereby facilitating the generation of precise and accurate segmentation maps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">ResNet encoder</head><p>The ResNet34, which is an abbreviation for Residual Network 34, is a highly prevalent deep learning framework renowned for its efficacy in addressing the challenge of vanishing gradients in deep neural networks. The encoder employed in our study is a pre-trained ResNet model, which has undergone training on a comprehensive image classification task to acquire extensive and distinctive features. The ResNet encoder is responsible for taking the input image and iteratively encoding it into a compressed feature representation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">U-Net decoder</head><p>The U-Net architecture was initially introduced for the segmentation of biomedical images, with the specific aim of generating precise and comprehensive segmentation maps. The system comprises a decoder that facilitates the restoration of spatial information that was lost during the encoding phase. The decoder in the U-Net architecture is composed of a sequence of up sampling and concatenation operations, which progressively restore the initial image resolution while integrating high-level feature maps obtained using the encoder.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7">Fusion and skip connections</head><p>In order to facilitate efficient transmission of information between the encoder and decoder, our hybrid framework integrates fusion and skip connections. The fusion connections facilitate the integration of feature maps derived from the ResNet encoder with their corresponding feature maps in the U-Net  The U-Net architecture that is being suggested with a ResNet-34-based encoder.</p><p>10.3389/fmed.2024.1310137</p><p>Frontiers in Medicine 08 frontiersin.org decoder. The integration of both low-level and high-level features enables the decoder to enhance the accuracy of the segmentation. Skip connections are utilized to establish direct connections between the encoder and decoder at various spatial resolutions. These connections play an important role in facilitating the transfer of intricate details and spatial information between various layers, thereby enabling the achievement of precise segmentation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.8">Training and optimization</head><p>The introduced framework is trained in a supervised fashion utilizing a dataset that has been annotated with segmentation masks at the pixel level. A suitable loss function, such as the Dice coefficient or cross-entropy, is utilized to quantify the dissimilarity between the ground truth and the predicted segmentation maps. The optimization of network parameters is performed using the Adam algorithm, a gradient-based optimization technique, along with a suitable schedule for the learning rate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Results</head><p>This section presents the results of a study aimed at segmenting the wound using the developed hybrid Resent 34 and U-Net model. The research process included the development of the model, data augmentation, training of the model on these data, and testing on actual data not involved in the training process. As a result, the following were obtained:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Development of an algorithm for segmentation of the wound</head><p>An algorithm was developed based on a combination of the Resent34 neural network and U-NET architecture. The algorithm consists of several stages, including preliminary data labeling, processing, and building and training of the model. Preliminary processing includes scaling and normalization of the data to improve the quality and speed of the model's training.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Model training</head><p>To train the model, a set of data was used, including images of wounds with labeling segmentation. The model was optimized using Adam optimizer, and then the training was carried out on a 12th Gen Intel ® i7.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Testing on real data</head><p>After training, the model was tested on actual data that were not used in the learning process. For each image of the wound, the model predicted a segmentation mask indicating the wounded area. Metrics were used, such as Intersection over Union (IOU) and Dice coefficient to assess the quality of the segmentation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.1">Intersection over Union</head><p>The IOU metric is used to assess the similarity between the predicted mask and the actual mask of the wound. IOU is calculated The main steps of the proposed system. by dividing the intersection between the two masks into the area of their association. The higher IOU indicates the best segmentation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.2">Dice coefficient</head><p>The Dice coefficient is also used to measure similarities between the predicted mask and the actual mask of the wound. It is calculated as the double value of the intersection area, divided into the sum of the areas of predicted and actual masks. The high value of the Dice coefficient also indicates a more accurate segmentation.</p><p>As a result of testing the model on the actual data, the following values of the IOU, Dice metrics, and accuracy were obtained: 0.973, 0.986, and 0.9736, respectively. These results confirm that the developed wound segmentation algorithm achieves good results and demonstrates a high degree of similarity between the wound-predicted and actual masks. High values of the IOU and Dice metrics indicate the accuracy and quality of the wound segmentation, which is essential for the task of evaluating the wound size and monitoring its healing. The developed wound segmentation algorithm, combining the Resent34 neural network and U-NET architecture, in combination with data augmentation, shows promising results on actual data. It can be a helpful tool in medical practice for the automatic segmentation of the wound and for evaluating its characteristics for a more accurate diagnosis and treatment management. Figures <ref type="figure">6,</ref><ref type="figure" target="#fig_4">7</ref> shows the training and validation IOU and loss, respectively.</p><p>Below is a table with the results of cross-validation conducted to assess the performance of the proposed model. Cross validation was performed using the k-fold cross-validation method on the training augmented dataset. Model performance evaluation metrics, including IOU and Dice score, are presented in Table <ref type="table" target="#tab_1">1</ref>.</p><p>Table <ref type="table" target="#tab_1">1</ref> presents the results of the model evaluation for each of the k folds, where each fold is used as a test set and the rest of the folds as a training set. For each fold, IOU and Dice scores are provided to provide information about how well the model performs segmentation on each fold.</p><p>The averages of these metrics show the overall model's performance on the entire dataset. In this case, the average values of IOU and Dice scores are 98.49% and 99.24% respectively, which indicates a good quality of the model. Cross-validation allows you to take into account the diversity of data and check how stable and effective the model is on different data subsets.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Discussion</head><p>The segmentation of wounds is a crucial undertaking when it comes to medical imaging, which entails the identification and differentiation of wound boundaries within images. The accurate diagnosis, treatment planning, and monitoring of the healing progress are contingent upon the appropriate segmentation of wounds. One of the primary difficulties encountered in the process of wound segmentation pertains to the inherent variability observed in the visual characteristics, dimensions, and configurations of wounds. Wounds exhibit a variety of textures, colors, and depths, encompassing a spectrum that spans from minor lacerations to extensive ulcers. The presence of variability poses a challenge in the development of a universal segmentation algorithm that can effectively segment diverse types of wounds. Various methodologies have been suggested for wound segmentation, encompassing <ref type="bibr">FIGURE 6</ref> Training and validation IOU curves.   <ref type="bibr" target="#b33">(37)</ref>. The incorporation of a U-Net as a deep learning model in diverse medical applications <ref type="bibr" target="#b36">(39)</ref><ref type="bibr" target="#b37">(40)</ref><ref type="bibr" target="#b38">(41)</ref><ref type="bibr" target="#b39">(42)</ref><ref type="bibr" target="#b40">(43)</ref><ref type="bibr" target="#b41">(44)</ref> has served as a prominent trigger for the motivation behind this investigation. The utilization of U-Net has been widely observed in wound segmentation. Recently, numerous studies <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b17">19,</ref><ref type="bibr" target="#b27">30,</ref><ref type="bibr" target="#b42">(45)</ref><ref type="bibr" target="#b43">(46)</ref><ref type="bibr" target="#b44">(47)</ref> have endeavored to improve their methodologies by developing enhanced models that are built upon the U-Net framework. This study presents a novel framework that combines the U-Net architecture and the ResNet34 model to improve the effectiveness of image segmentation tasks. The integration of the ResNet as an encoder within the U-Net framework for image segmentation has demonstrated remarkable performance in the segmentation of brain tumors, as evidenced by the work conducted by Abousslah et al. <ref type="bibr" target="#b45">(48)</ref>. The performance mentioned above has served as a source of inspiration for us to put forth a wound segmentation framework. This framework leverages the encoding capabilities of ResNet34 as the primary encoder, while integrating the decoder architecture of UNet. The objective is to attain accurate and all-encompassing segmentation. This section will provide an analysis of the fundamental components involved in the formulation of the model, as well as an examination of its associated benefits. First and foremost, it is essential to acknowledge that the developed model demonstrated noteworthy outcomes in the task of segmenting the injured region. This observation demonstrates the efficacy of the chosen methodology and framework employed in the model. Upon analyzing the results, it was observed that the model exhibits a notable degree of accuracy and a commendable capacity to discern the affected region within the images. This tool has the potential to be a valuable resource for healthcare practitioners in the identification and management of various types of wounds. One of the primary benefits of the developed model lies in its capacity to effectively handle diverse categories of wounds and a wide range of medical images. The model effectively addresses both superficial injuries and intricate wounds. This characteristic renders it a versatile instrument for diverse medical practice scenarios. Furthermore, the model that has been developed exhibits the capability to automate and expedite the process of segmenting areas that have been wounded. Instead of relying on manual allocation and analysis of wounds performed by medical personnel, the proposed model offers a rapid and precise means of determining the precise location of the wound. This will enable healthcare professionals to divert their attention towards other facets of treatment and enhance the overall efficacy of the procedure. This research proposes a strategy that can be applied to other wound types utilizing data and models in clinical practice. Chronic wounds like diabetic or pressure ulcers heal differently than acute wounds like surgical incisions or burns. Thus, data and models used to detect and segment wounds must account for these variances and characteristics, including wound location, shape, depth, infection, and tissue type. Adapting and generalizing the presented technique to additional wound types and animals may result in a more comprehensive and versatile wound analysis tool for clinical practice and wound care research. However, data availability and quality, wound complexity and unpredictability, and ethical and practical issues in the use of animals for wound experiments present challenges. Future research should explore and evaluate these difficulties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">Comparing the performance to the state-of-the-art</head><p>As part of this study, we performed wound segmentation using modern deep-learning algorithms. In our work, we set ourselves the goal of surpassing the results of previous studies and increasing the accuracy and efficiency of the segmentation process. In this section, we compare our obtained results with the results obtained by other researchers in the field of wound segmentation. To do this, we provide a table with detailed indicators of IOU and Dice scores that are used to assess the quality of segmentation. Table <ref type="table">2</ref> provides a comparison of wound segmentation results between our approach and previous studies. The table allows us to analyze the advantages and limitations of our approach compared to previous work, as well as identify possible areas for improving the results. Our conclusions and recommendations can contribute to the development of wound segmentation and increase its applicability in the practice of clinical medicine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">Limitations and future scope</head><p>The limitation of the present study is the lack of explainability of the proposed hybrid model for wound segmentation. A deep model's inexplicability severely restricts how effectively it can be used. Enhancing the model's explainability is a viable avenue for future scope, because it will raise the model's understanding and applicability </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Conclusion</head><p>In this paper, we suggest a deep learning methodology aimed at enhancing the generalization features of wound image segmentation. Our proposed approach involves the integration of U-Net and ResNet34 architectures, resulting in a hybrid model. The empirical evidence demonstrates that the Hybrid model yields more precise segmentation outcomes, as indicated by superior scores in terms of Intersection over Union (IOU) and Dice metrics. Furthermore, the Hybrid model effectively minimizes the occurrence of incorrectly identified regions. We discovered that employing the integration of automated wound segmentation and detection improves segmentation efficiency and allows the segmentation model to generalize effectively for out-ofdistribution wound images. Therefore, considering our dataset, the utilization of both U-Net and ResNet34 in the method explained offers a benefit compared to employing the algorithms individually, even when incorporating distinct post-processing procedures.</p><p>We conclude that our findings about the hybrid model can be generalized to other medical datasets characterized by diversity in cell densities. Therefore, researchers are strongly encouraged to adopt our proposed methodology for additional research in this area.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2</head><label>2</label><figDesc>illustrates various instances of data labeling. The next step is data augmentation after the labeling procedure is finished. Data augmentation techniques are utilized to enhance the diversity and quantity of the dataset, thereby potentially enhancing the model's generalization capability. When it comes to wound segmentation, several frequently utilized data augmentation techniques encompass horizontal and vertical flips, rotation, and transposition. The transformations of vertical and horizontal flips involve mirroring the image along the horizontal or vertical axis, respectively. These operations induce variations in the dataset by altering the orientation of the wounds. The process of rotation entails the application of a specific angle to the image, thereby emulating diverse viewpoints of the wound. The operation of transposition involves a straightforward flipping of an image along its diagonal axis.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>2 3</head><label>23</label><figDesc>FIGURE 2An illustration of the outcomes obtained from the process of data labeling utilizing the labelme tool, where the blue polynomial line in A-C outcomes indicates the area around the wound, while the red polynomial line indicates the wounded area.</figDesc><graphic coords="6,70.97,90.57,453.62,132.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 4</head><label>4</label><figDesc>FIGURE 4    </figDesc><graphic coords="7,113.98,480.37,367.56,257.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIGURE 5</head><label>5</label><figDesc>FIGURE 5</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIGURE 7</head><label>7</label><figDesc>FIGURE 7Training and validation loss curves.</figDesc><graphic coords="9,323.46,351.64,203.22,164.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 1</head><label>1</label><figDesc>Results of cross-validation of the model based on the k-fold method.</figDesc><table><row><cell>Fold</cell><cell>IOU (%)</cell><cell>Dice score (%)</cell></row><row><cell>1</cell><cell>97.00</cell><cell>98.48</cell></row><row><cell>2</cell><cell>97.89</cell><cell>98.93</cell></row><row><cell>3</cell><cell>98.04</cell><cell>99.01</cell></row><row><cell>4</cell><cell>98.55</cell><cell>99.27</cell></row><row><cell>5</cell><cell>98.79</cell><cell>99.39</cell></row><row><cell>6</cell><cell>98.97</cell><cell>99.48</cell></row><row><cell>7</cell><cell>98.99</cell><cell>99.49</cell></row><row><cell>8</cell><cell>98.43</cell><cell>99.21</cell></row><row><cell>9</cell><cell>99.08</cell><cell>99.54</cell></row><row><cell>10</cell><cell>99.15</cell><cell>99.58</cell></row><row><cell>Average values</cell><cell>98.49</cell><cell>99.24</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Frontiers in Medicine 11 frontiersin.org among scientists. It is also suggested that future research concentrate on employing transformers and other deep models to increase performance. This additional avenue can potentially enhance and optimize the wound segmentation task's performance. Furthermore, studies in this field might result in the development of hybrid modelbased techniques for wound segmentation that are more precise and effective.</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Frontiers in Medicine 04 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Frontiers in Medicine 12 frontiersin.org</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors would like to express their grateful to Princess Nourah bint Abdulrahman University Researchers Supporting Project number (<rs type="grantNumber">PNURSP2024R407</rs>), <rs type="funder">Princess Nourah bint Abdulrahman University, Riyadh</rs>, <rs type="funder">Saudi Arabia</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>The author(s) declare financial support was received for the research, authorship, and/or publication of this article. This research was funded by <rs type="funder">Princess Nourah bint Abdulrahman University Researchers Supporting</rs> Project number (<rs type="grantNumber">PNURSP2024R407</rs>), <rs type="funder">Princess Nourah bint Abdulrahman University, Riyadh</rs>, <rs type="funder">Saudi Arabia</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_tVnyWEm">
+					<idno type="grant-number">PNURSP2024R407</idno>
+				</org>
+				<org type="funding" xml:id="_md9np5R">
+					<idno type="grant-number">PNURSP2024R407</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability statement</head><p>The datasets presented in this study can be found in the following online repository: https://datadryad.org/stash/dataset/. doi: 10.25338/B84W8Q.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics statement</head><p>Ethical approval was not required for the study involving animals in accordance with the local legislation and institutional requirements.</p><p>Written informed consent was not required for this study in accordance with the national legislation and the institutional requirements. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. Publisher's note</p><p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,58.19,173.46,232.29,7.08;12,49.60,181.46,240.96,7.08;12,49.60,189.46,240.94,7.08;12,49.60,197.46,98.43,7.08" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">MEASURE: a proposed assessment framework for developing best practice recommendations for wound assessment</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Keast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Bowering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Mackean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Burrows</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1067-1927.2004.0123S1.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.19,209.65,232.28,7.08;12,49.60,217.65,82.88,7.08" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Chronic wounds: evaluation and management</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Franco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Fam Physician</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="159" to="166" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.19,229.84,232.25,7.08;12,49.60,237.84,240.93,7.08;12,49.60,245.84,240.95,7.08;12,49.60,253.84,55.76,7.08" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">AI-assisted assessment of wound tissue with automatic color and measurement calibration on images taken with a smartphone</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chairat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chaichulee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dissaneewate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wangkulangkul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kongpanichakul</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/healthcare11020273</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Healthcare</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">273</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.18,266.03,232.33,7.08;12,49.60,274.03,240.95,7.08;12,49.60,282.03,77.80,7.08" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Efficient detection of wound-bed and peripheral skin with statistical colour models</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Veredas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morente</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11517-014-1240-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Biol Eng Comput</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="345" to="359" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.17,294.22,232.36,7.08;12,49.60,302.22,240.94,7.08;12,49.60,310.22,143.01,7.08" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Fully automatic wound segmentation with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Dhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rostami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niezgoda</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-020-78799-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">21897</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.17,322.41,232.37,7.08;12,49.60,330.41,240.95,7.08;12,49.60,338.41,187.59,7.08" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Smartphone application for wound area measurement in clinical practice</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Biagioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">V</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Manzioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Matielo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brochado</forename><surname>Neto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Sacilotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jvscit.2021.02.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg Cases Innov Tech</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="258" to="261" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.17,350.60,232.39,7.08;12,49.60,358.60,240.94,7.08;12,49.60,366.60,199.16,7.08" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Mechanistic insight into diabetic wounds: pathogenesis, molecular targets and treatment strategies to pace wound healing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.BIOPHA.2019.108615</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Pharmacother</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page">108615</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.16,378.79,232.44,7.08;12,49.60,386.79,240.95,7.08;12,49.60,394.79,68.89,7.08" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Human wounds and its burden: an updated compendium of estimates</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/WOUND.2019.0946/ASSET/IMAGES/LARGE/FIGURE1.JPEG</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="39" to="48" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,58.17,406.98,232.34,7.08;12,49.60,414.98,240.92,7.08;12,49.60,422.98,230.88,7.08;12,55.70,435.17,234.89,7.08;12,49.60,443.17,209.37,7.08" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Smart bandage with wireless connectivity for uric acid biosensing as an indicator of wound status</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kassal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>De Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Steinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Steinberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.CLINDERMATOL.2010.03.009</idno>
+		<idno>doi: 10.1016/J.CLINDERMATOL.2010.03.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochem Commun</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="519" to="526" />
+			<date type="published" when="2010">2015. 2010</date>
+		</imprint>
+	</monogr>
+	<note>Clin Dermatol.</note>
+</biblStruct>
+
+<biblStruct coords="12,61.26,455.36,229.21,7.08;12,49.60,463.36,240.94,7.08;12,49.60,471.36,108.26,7.08" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Chronic wound assessment and infection detection method</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Chuang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12911-019-0813-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Inform Decis Mak</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">99</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.22,483.55,229.36,7.08;12,49.60,491.55,150.44,7.08" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Challenges in the treatment of chronic wounds</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Frykberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banks</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2015.0635</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="560" to="582" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.26,503.74,229.23,7.08;12,49.60,511.74,240.94,7.08;12,49.60,519.74,130.53,7.08" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Automatic measurement of pressure ulcers using support vector machines and GrabCut</title>
+		<author>
+			<persName><forename type="first">Rhle</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amc</forename><surname>Machado</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.CMPB.2020.105867</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Methods Prog Biomed</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page">105867</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.26,531.93,229.23,7.08;12,49.60,539.93,74.82,7.08" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Pressure ulcers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Grey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Enoch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/BMJ.332.7539.472</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page" from="472" to="475" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.23,552.12,229.37,7.08;12,49.60,560.12,240.92,7.08;12,49.60,568.12,146.41,7.08" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Fully convolutional networks for diabetic foot ulcer segmentation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spragg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<idno>SMC 2017</idno>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Systems, Man, and Cybernetics</title>
+		<imprint>
+			<date type="published" when="2017">2017. 2017</date>
+			<biblScope unit="page" from="618" to="623" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.25,580.31,229.22,7.08;12,49.60,588.31,240.94,7.08;12,49.60,596.31,125.54,7.08" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Automatic segmentation of diabetic foot ulcer from mask region-based convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Montalvo</surname></persName>
+		</author>
+		<idno type="DOI">10.31546/2633-8653.1006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Res Clin Investig</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">1006</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.26,608.50,229.25,7.08;12,49.60,616.50,240.94,7.08;12,49.60,624.50,132.89,7.08" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Image segmentation using deep learning: a survey</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Minaee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Boykov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Porikli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Plaza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kehtarnavaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Terzopoulos</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TPAMI.2021.3059968</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Pattern Anal Mach Intell</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="3523" to="3542" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.26,636.69,229.24,7.08;12,49.60,644.69,230.88,7.08" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Current methods in medical image segmentation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Prince</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/ANNUREV.BIOENG.2.1.315</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="315" to="337" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.26,656.88,229.22,7.08;12,49.60,664.88,240.95,7.08;12,49.60,672.88,170.15,7.08" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Detect-andsegment: a deep learning approach to automate wound image segmentation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scebba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Catanzaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mihai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Distler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.IMU.2022.100884</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inform Med Unlocked</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">100884</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.26,685.07,229.22,7.08;12,49.60,693.07,240.94,7.08;12,49.60,701.07,53.07,7.08" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mobile metadata assisted community database of chronic wound images</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Ghosh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wndm.2014.09.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="34" to="42" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.26,713.26,229.25,7.08;12,49.60,721.26,240.94,7.08;12,49.60,729.26,39.58,7.08" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A review on telemedicine-based WBAN framework for patient monitoring</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Ghosh</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/tmj.2012.0215</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Telemed J E Health</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="619" to="626" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.35,173.46,229.33,7.08;12,304.71,181.46,235.13,7.08;12,310.81,193.65,234.79,7.08;12,304.71,201.65,240.95,7.08;12,304.71,209.65,240.95,7.08;12,304.71,217.65,63.83,7.08" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Mobile health (M-health) for tele-wound monitoring In: Research anthology on telemedicine efficacy, adoption, and impact on healthcare delivery</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2022 Conference of Russian Young Researchers in Electrical and Electronic Engineering (ElConRus)</title>
+		<meeting><address><addrLine>Saint Petersburg, Russian Federation</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019">2019. 2022</date>
+			<biblScope unit="page" from="1466" to="1469" />
+		</imprint>
+	</monogr>
+	<note>Classification of cardiac cycles using a convolutional neural network</note>
+</biblStruct>
+
+<biblStruct coords="12,316.34,229.84,229.37,7.08;12,304.71,237.84,240.94,7.08;12,304.71,245.84,149.51,7.08" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Ensemble learning of lightweight deep convolutional neural networks for crop disease image detection</title>
+		<author>
+			<persName><forename type="first">Al-Gaashani</forename><surname>Ms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abd</forename><surname>El-Latif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1142/S021812662350086X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Circuits Syst Comput</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">2350086</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.38,257.84,229.23,7.08;12,304.71,265.84,240.94,7.08;12,304.71,273.84,116.64,7.08" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Using a Resnet50 with a kernel attention mechanism for rice disease diagnosis</title>
+		<author>
+			<persName><forename type="first">Al-Gaashani Msam</forename><surname>Samee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Alnashwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Khayyat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muthanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Msa</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/life13061277</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Life</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1277</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.36,285.84,229.29,7.08;12,304.71,293.84,240.94,7.08;12,304.71,301.84,185.38,7.08" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Improved breast Cancer classification through combining transfer learning and attention mechanism</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ashurov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Chelloug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tselykh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Msa</forename><surname>Muthanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muthanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Al</forename><forename type="middle">-</forename><surname>Gaashani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Msam</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/life13091945</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Life</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="1945">1945</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.38,313.84,229.24,7.08;12,304.71,321.84,240.97,7.08;12,304.71,329.84,240.96,7.08;12,304.71,337.84,159.57,7.08" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A unified framework for automatic wound segmentation and analysis with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kochhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Warren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">th Annual International Conference of the IEEE Engineering in Medicine and Biology Society</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="2415" to="2418" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.15,349.84,229.41,7.08;12,304.71,357.84,240.96,7.08;12,304.71,365.84,209.18,7.08" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Convolutional neural networks for wound detection: the role of artificial intelligence in wound care</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ohura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mitsuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sakisaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Terabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Morishige</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Uchiyama</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/JOWC.2019.28.SUP10.S13</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.36,377.84,229.30,7.08;12,304.71,385.84,240.92,7.08;12,304.71,393.84,163.28,7.08" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">WSNet: towards an effective method for wound image segmentation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Oota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Rowtula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mohammed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gupta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</title>
+		<imprint>
+			<date type="published" when="2023">2023. 2023</date>
+			<biblScope unit="page" from="3233" to="3242" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.36,405.84,229.32,7.08;12,304.71,413.84,240.92,7.08;12,304.71,421.84,169.46,7.08" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Automated wound image segmentation: transfer learning from human to pet via active semi-supervised learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Buschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Curti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Carlini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">'</forename><surname>Dall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Olio</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ANI13060956</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Animals</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">956</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.54,433.84,229.14,7.08;12,304.71,441.84,240.93,7.08;12,304.71,449.84,240.95,7.08;12,304.71,457.84,36.53,7.08" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Multiclass wound image classification using an ensemble deep CNN-based classifier</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rostami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gopalakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niezgoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.COMPBIOMED.2021.104536</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page">104536</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.36,469.84,229.28,7.08;12,304.71,477.84,240.95,7.08;12,304.71,485.84,145.96,7.08" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Deep learningbased clinical wound image analysis using a mask R-CNN architecture</title>
+		<author>
+			<persName><forename type="first">S-T</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y-C</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L-R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-T</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y-F</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C-M</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/S40846-023-00802-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Biol Eng</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="417" to="426" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.13,497.84,229.51,7.08;12,304.71,505.84,240.94,7.08;12,304.71,513.84,215.84,7.08;12,310.81,525.84,234.82,7.08;12,304.71,533.84,240.94,7.08;12,304.71,541.84,240.94,7.08;12,304.71,549.84,66.03,7.08" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Internet service for wound area measurement using digital planimetry with adaptive calibration and image segmentation with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P ;</forename><surname>Ladyzynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Guede-Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vigário</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Coelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fragata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Londral</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/APP13042120</idno>
+		<idno>doi: 10.3390/APP13042120</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biocybern Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">2120</biblScope>
+			<date type="published" when="2023">2023. 2023</date>
+		</imprint>
+	</monogr>
+	<note>Appl Sci.</note>
+</biblStruct>
+
+<biblStruct coords="12,316.34,561.84,229.34,7.08;12,304.71,569.84,186.15,7.08" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Photographs of 15-day wound closure progress in C57BL/6J mice</title>
+		<author>
+			<persName><forename type="first">H-Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bagood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Carrion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Isseroff</surname></persName>
+		</author>
+		<idno type="DOI">10.25338/B84W8Q</idno>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.36,581.84,229.29,7.08;12,304.71,589.84,93.43,7.08" xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Image polygonal annotation with Python</title>
+		<author>
+			<persName><surname>Wada K Labelme</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.5711226</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.5711226" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.36,601.84,229.31,7.08;12,304.71,609.84,240.95,7.08;12,304.71,617.84,186.96,7.08" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">U-Net: convolutional networks for biomedical image segmentation</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical Image Computing and Computer-Assisted Intervention</title>
+		<imprint>
+			<biblScope unit="page" from="234" to="241" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Cham</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.38,629.84,229.25,7.08" xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Deep residual learning for image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,325.23,637.84,220.41,7.08;12,304.71,645.84,70.29,7.08" xml:id="b35">
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting><address><addrLine>Las Vegas, NV, USA</addrLine></address></meeting>
+		<imprint>
+			<biblScope unit="page" from="770" to="778" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.38,657.84,229.23,7.08;12,304.71,665.84,240.92,7.08;12,304.71,673.84,222.70,7.08" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">U-Net model with transfer learning model as a backbone for segmentation of gastrointestinal tract</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Koundal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alyami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Alshahrani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Asiri</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/BIOENGINEERING10010119</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioengineering</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">119</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.38,685.84,229.24,7.08;12,304.71,693.84,240.94,7.08;12,304.71,701.84,171.46,7.08" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Enhanced U-Net segmentation with ensemble convolutional neural network for automated skin disease classification</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tripathi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10115-023-01865-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Knowl Inf Syst</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="4111" to="4156" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,316.36,713.84,229.28,7.08;12,304.71,721.84,240.94,7.08;12,304.71,729.84,95.21,7.08" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Deep residual U-Net based lung image segmentation for lung disease detection</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mique</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Malicdem</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1757-899X/803/1/012004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf Ser Mater Sci Eng</title>
+		<imprint>
+			<biblScope unit="volume">803</biblScope>
+			<biblScope unit="page">12004</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,61.04,78.42,229.44,7.08;13,49.61,86.42,240.97,7.08;13,49.61,94.42,219.63,7.08" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A U-Net deep learning framework for high performance vessel segmentation in patients with cerebrovascular disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Livne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rieger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">U</forename><surname>Aydin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Taha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Akay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kossen</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/FNINS.2019.00097/BIBTEX</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">422707</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,61.25,106.42,229.30,7.08;13,49.61,114.42,163.59,7.08" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">U-Net-based medical image segmentation</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">X</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2022/4189781</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Healthc Eng</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,61.27,126.42,229.19,7.08;13,49.61,134.42,240.95,7.08;13,49.61,142.42,160.78,7.08" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Fusion of U-Net and CNN model for segmentation and classification of skin lesion from dermoscopy images</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Anand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Koundal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eswa.2022.119230</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Syst Appl</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page">119230</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,61.27,154.42,229.26,7.08;13,49.61,162.42,240.94,7.08;13,49.61,170.42,142.80,7.08" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">IU-Net: a hybrid structured network with a novel feature fusion approach for medical image segmentation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13040-023-00320-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioData Min</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,61.27,182.42,229.24,7.08;13,49.61,190.42,240.94,7.08;13,49.61,198.42,114.87,7.08" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Automated wound segmentation and classification of seven common injuries in forensic medicine</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sieberth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dobay</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12024-023-00668-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Forensic Sci Med Pathol</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,61.18,210.42,229.30,7.08;13,49.61,218.42,240.92,7.08;13,304.72,78.42,240.94,7.08;13,304.72,86.42,63.50,7.08" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Semantic segmentation of smartphone wound images: comparative analysis of AHRF and CNN-based approaches</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Strong</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ACCESS.2020.3014175</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="181590" to="181604" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,316.62,99.72,229.01,7.08;13,304.72,107.72,240.93,7.08;13,304.72,115.72,240.95,7.08;13,304.72,123.72,61.45,7.08" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Efficient U-Net architecture with multiple encoders and attention mechanism decoders for brain tumor segmentation</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Aboussaleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Riffi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fazazy</surname></persName>
+		</author>
+		<author>
+			<persName><surname>El</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mahraz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tairi</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/diagnostics13050872</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diagnostics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">872</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,316.39,137.02,229.24,7.08;13,304.72,145.02,240.94,7.08;13,304.72,153.02,107.53,7.08" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A composite model of wound segmentation based on traditional methods and deep neural networks</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1155/2018/4149103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Intell Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">2018</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,316.62,166.32,229.01,7.08;13,304.72,174.32,240.95,7.08;13,304.72,182.32,240.94,7.08" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Fuzzy spectral clustering for automated delineation of chronic wound region using digital images</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dhane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maity</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mungle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Achar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolekar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compbiomed.2017.04.004</idno>
+		<idno>doi: 10.1016/j</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="551" to="560" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,316.39,202.32,229.20,7.08;13,304.72,210.32,240.94,7.08;13,304.72,218.32,153.19,7.08" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Automatic wound detection and size estimation using deep learning algorithms</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Carrión</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jafari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Bagood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Isseroff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gomez</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pcbi.1009852</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">1009852</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

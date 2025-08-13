@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reliability of an AI-Powered Application Across Different Mobile Devices for Assessment of Chronic Wounds</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MS</roleName><forename type="first">Mark</forename><surname>Swerdlow</surname></persName>
+							<email>mswerdlo@usc.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">Jessica</forename><surname>Lo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Keck School of Medicine of USC</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Keck School of Medicine of USC</orgName>
+								<address>
+									<addrLine>1520 San Pablo Street, Suite 4300</addrLine>
+									<postCode>90033</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reliability of an AI-Powered Application Across Different Mobile Devices for Assessment of Chronic Wounds</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">ED4EED8E314421F406B05E51EB3830E5</idno>
+					<idno type="DOI">10.1089/wound.2022.0095</idno>
+					<note type="submission">Submitted for publication August 6, 2022. Accepted in revised form January 31, 2023.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>imaging</term>
+					<term>acute wound</term>
+					<term>chronic wound</term>
+					<term>digital planimetry</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective: Evaluate the inter-and intrarater reliability of a wound assessment tool in iPhone 12 and 13 mini modalities against a validated iPad mini/ Structure Sensor configuration. Approach: We assessed a wound measurement application (eKare inSight Ò ) for result consistency in patients presenting with wounds. Assessments were analyzed using a two-way analysis of variance. Intraclass correlation coefficient (ICC) was computed for intrarater (ICC 1,1 ) and inter-rater (ICC 2,1 ) analysis using a two-way random effects model. Paired t-test assessed the statistical difference between measurement methods. Results: Forty-two lesions were analyzed with surface areas ranging from 0.2 to 23 cm 2 (average 4.33 -5.44 cm 2 ). A high level of reliability was observed for repeat wound area measurements by the same examiner (ICC 1,1 = 0.997) and between examiners with iPhone 13 mini (ICC 2,1 = 0.998). There was no significant difference between iPhone 12 and iPad mini/Structure Sensor ( p = 0.78) or between iPhone 13 mini and iPhone 12 ( p = 0.22). Minimal difference existed between iPhone 13 mini and iPad mini/Structure Sensor ( p = 0.049, Cohen's d = 0.01). Innovation: Increased pervasiveness of smartphones in clinical care, coupled with advances in smartphone imaging and machine learning, allows for a potential solution to the problem of fast and accurate wound measurements. The application investigated produces wound measurement results quickly and with demonstrated accuracy. It does not require a calibration sticker or reference marker and allows for automatic wound boundary delineation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>The results of this study suggest that a digital planimetry mobile application may offer high levels of reliability across devices and users.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Acute and chronic wounds impose a substantial burden on patients, caregivers, and health care systems, affecting &gt;8 million Americans and costing &gt;28.1 billion annually. <ref type="bibr" target="#b0">1</ref> It is estimated that chronic wounds will affect 1-2% of the population of developed countries at some point in their lifetime and up to a third of people with diabetes. <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> Many wounds have complex etiologies, with trauma, pressure injury, diabetes, and vascular insufficiency frequently playing contributory roles. Patients suffering from wounds may experience a decreased quality of life, pain, reduced mobility, lifethreatening infection, disfigurement, and depression. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> Accurate and efficient wound measurement remains clinically challenging. It is not unusual for the same provider to use different devices across clinics or for wounds to not be measured due to time constraints. There is a need for accessible wound measuring tools that provide clinicians and patients with accurate wound characteristics to track wound healing and determine treatment efficacy. Recently, digital planimetry has advanced to incorporate numerous factors that affect wound measurement, including lighting, distance, angle, and curvature. Digital imaging tools have proven to be cost-effective, accessible, noninvasive, and timeefficient approaches to wound measurement. <ref type="bibr" target="#b6">7</ref> With the ubiquity of smartphones and tablets, digital imaging that includes two-dimensional and threedimensional (3D) analysis could be available to health care providers globally. However, these tools must be validated against a gold standard and compared across different models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CLINICAL PROBLEM ADDRESSED</head><p>Traditional methods of wound measurement are often time-consuming or inaccurate.</p><p>Wound tracing sheets are reliable but timeintensive and require contact with the wound, which increases chances of infection, wound bed damage, warping of wound shape, and patient discomfort. <ref type="bibr" target="#b7">8</ref> Calculating wound characteristics from in-image rulers is efficient but inaccurate. Quantifiable measurement data help to inform clinical decision-making and provide patients with tangible evidence of healing progress. The increasing use of mobile phones in clinical care coupled with advances in smartphone imaging and machine learning allows for a potential solution to this problem.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head><p>This clinical validation study evaluated the inter-and intrarater reliability of a phone-based 3D digital imaging solution (inSight Ò ; eKare Inc., Fairfax, VA) against a previously validated inSight configuration with iPad mini/Structure Sensor (inSight; eKare Inc.). <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> eKare App</p><p>The inSight CR app is an FDA-registered and CE-marked solution for assessment and documentation of lesions in a HIPAA-and GDPR-compliant environment. It uses computer vision and machine learning to measure wounds and create wound-bed topography renderings. Study images were stored in the app. An electronic laboratory notebook was not used. Previously, inSight has been validated in preclinical and clinical settings. <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> After signing in, the user creates a new patient entry and specifies wound location for the patient. Subsequently, they press the camera button to activate the back-facing camera and begin a new image entry for the patient. The user points the smartphone camera at the wound and clicks the standard smartphone circular image capture button. When the image appears on the next screen, the user uses one finger to circle around the wound and then swipe on the wound itself, which activates the automatic wound boundary detection algorithm. After pushing the ''Measure'' button, the measurement screen displays wound characteristics such as length, width, area, depth, and volume.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient recruitment and image collection</head><p>The study was approved by the University of Southern California (USC) Biomedical Institutional Review Board. Patients with active wounds, defined as a break in the epidermis, at least 0.2 cm 2 were recruited and consented from the USC Keck Physical Therapy Wound Care and Limb Preservation clinics (Los Angeles, CA). Patient wound images were collected during routine clinic visits during a data collection period of 40 days.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>A total of five images per wound were captured by two users using three devices (Fig. <ref type="figure" target="#fig_0">2</ref>). All images were captured using the inSight CR app. Examiner A assessed the wound with an iPad mini/Structure Sensor, an iPhone 12, and twice with an iPhone 13 mini. Examiner B assessed the wound once with an iPhone 13 mini. All images were captured within a 2-min interval. The iPad image was considered the reference image due to previously confirmed validity of the iPad mini/Structure Sensor combination. Both examiners were medical students with minimal prior experience using inSight and had no characteristic differences between them.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>The test and retest assessments were performed on patients presenting with active wounds. Wound area measurements from each five-image series were calculated in the inSight CR app. A sufficient number of wound images were captured to have an adequate power to detect a test-retest correlation of at least 0.50. To maintain a familywise type I error of 0.05, 28 wounds were needed to provide 80% power. After accounting for attrition at roughly 10%, we aimed to collect data for 31 wounds but instead collected data for 42 wounds (Fig. <ref type="figure" target="#fig_1">1</ref>).</p><p>The primary outcome was inter-and intrarater reliability of a phone-based solution in assessment of wound surface area. The assessments were analyzed using a two-way analysis of variance (ANOVA). Intraclass correlation coefficient (ICC) was computed for intrarater (ICC 1,1 ) and interrater (ICC 2,1 ) analysis using a two-way random effects model. Pearson's correlation was calculated between each imaging modality to assess the strength of their linear relationship. A paired t-test was applied to assess the statistical difference between the measurement methods. Data were reviewed and tabulated in Excel 16.44 (Microsoft Corporation, Redmond, WA) and statistical analysis was performed using SAS 9.4 (SAS Institute, Inc., Cary, NC).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>A total of 42 lesions from 30 patients were assessed in patients presenting with diabetic foot ulcers, venous ulcers, pressure injury, burn, autoimmune lesions, and iatrogenic wounds (Fig. <ref type="figure" target="#fig_2">3</ref>). In two cases the same wound was imaged at multiple time points. The lesion surface area ranged from 0.2 to 23 cm 2 (average 4.33 -5.44 cm 2 ). A high level of reliability was observed for repeat area measurements with iPhone 13 mini by the same examiner (ICC 1,1 = 0.997). Similarly, a strong level of agreement was evidenced between examiners for wound surface area assessments (ICC 2,1 = 0.998) (Table <ref type="table" target="#tab_0">1</ref>). ANOVA revealed that the differences in wound surface area for inter-and intraexaminer measurements ( p &gt; 0.05) were not statistically significant.</p><p>On validation of measurement methods, there was no statistically significant difference in area measurements between the iPhone 12 and iPad mini/Structure Sensor ( p = 0.78), or between the iPhone 13 mini and iPhone 12 ( p = 0.22). Comparison of area measurement between iPhone 13 mini and iPad mini with Structure Sensor, however, was at threshold ( p = 0.049). Given the small effect size or standardized mean difference (Cohen's d = 0.01), this difference is unlikely to be discerned by an unaided eye. Moreover, the difference in mean of 1.39% is not clinically meaningful, especially considering that conventional methods of wound measurement (e.g., ruler) have far larger variability <ref type="bibr" target="#b16">17</ref> (Table <ref type="table" target="#tab_1">2</ref>; Figs. <ref type="figure" target="#fig_4">4</ref><ref type="figure" target="#fig_6">5</ref><ref type="figure" target="#fig_5">6</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>In recent years, mobile devices have become ubiquitous, and there has been an increased utilization of smartphones in clinical practice. Significant benefits include point-of-care assessment and remote patient monitoring to better support clinical decision-making and observe outcomes. Both providers and patients are showing an increased reliance on digital apps; however, ensuring   Overall, a high level of agreement was observed for both measurement reliability and comparison of device configurations. The consistency and accuracy observed are likely due to the automatic wound border delineation app feature. Increased variability may be seen when this feature is not in use or due to clinician differences in wound boundary judgment. Although the statistical difference between the iPhone 13 mini and iPad mini/ Structure Sensor was at the threshold p-value, given the small effect size (Cohen's d = 0.01), this difference is unlikely to be discerned or clinically significant. Conventional methods of wound measurement have greater variability.</p><p>An accurate assessment of wound area is critical for managing care and optimizing treatment plans. Although digital planimetry offers several benefits over the ruler method, it is still subject to variability. Improper placement of reference marker or sticker, angle between the camera and wound, and light conditions can influence the quality and accuracy of the assessment. In this study, we collected data quickly, accurately, and reproducibly without the need for a reference sticker using the inSight CR app on a standard iPhone. One study limitation to be addressed in future work is the collection of depth data for volumetric comparison.  Comparison of area measurements between iPhone 13 mini and 12, and 12 against iPad mini with Structure Sensor showed differences were not statistically significant. The difference between the iPhone 13 mini and the iPad mini with Structure Sensor was not considered clinically significant given the small effect size ( p = 0.049, Cohen's d = 0.01).  Although there are no differences in the inSight CR app workflow between iPad mini/Structure Sensor and iPhone, various factors make the iPhone modality more convenient for the wound care clinician. First, a personal or work iPhone with the downloaded app can be used to image wounds, which is more common and less likely to require additional costs than an iPad or Structure Sensor. Furthermore, the Structure Sensor uses a rechargeable battery that lasts for a few hours of active sensing before needing to be recharged. There are no differences in the types of wounds able to be imaged. Wounds with difficult topography such as circumferential wounds were not included in this study.</p><p>Our results support the use of phone-based solutions for wound assessment. Smartphonebased wound measurement tools provide accurate and fast results, increased measurement capabilities for both providers in clinic and patients at home, and have a low barrier to widespread adoption. Based on the level of emphasis placed on iPhone quality assurance and control, it is reasonable to assume that these results are generalizable across this generation of devices. In addition, it is not unreasonable to assume a high level of concordance for future models with cameras and processing power that are at least comparable, if not superior to the iPhone 12 and 13.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INNOVATION</head><p>The findings provide evidence that the inSight CR app has a high level of reliability across devices and users. Differences between modalities were not a significant source of variation. Typically, current widespread wound measurement methods require tradeoffs between accuracy and efficiency. The proposed innovation demonstrated accurate wound measurement as compared with a previously validated measurement tool in seconds, with difference in iPhone 12 agreement not statistically significant ( p = 0.78) and minor iPhone 13 mini difference in agreement ( p = 0.049, Cohen's d = 0.01) that is not clinically relevant. Wound results are also consistent between different examiners using the same device (ICC 2,1 = 0.998).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Modalities evaluated. iPhone 13 mini, 12, and iPad with Structure Sensor.</figDesc><graphic coords="3,87.99,574.30,456.15,146.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Summary graphic. Flow of wounds eligible for inclusion, assessed, and analyzed in the study.</figDesc><graphic coords="3,71.77,72.11,488.82,349.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Automatic wound boundary delineation. Selected assessments showing automatic wound boundary delineation.</figDesc><graphic coords="4,115.82,72.11,360.11,309.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>quality and clinical validation across modalities is essential for confidence in results. Differences among devices may lead to variation in clinical measurements. Digital wound measurements, for instance, can be influenced by camera, position, and lighting conditions. This clinical study builds on prior work and aims to evaluate reliability across the new generation of iPhones.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. iPhone 13 mini versus iPad with Sensor. Comparison of examiner A's second set of images with the iPhone 13 mini versus iPad mini with Structure Sensor images. A high level of agreement was observed for area assessments (cm 2 ).</figDesc><graphic coords="5,166.00,399.35,300.08,311.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. iPhone 12 versus iPhone 13 mini. Comparison of iPhone 12 images with examiner A's second set of images with the iPhone 13 mini. A high level of agreement was observed for area measurement (cm 2 ).</figDesc><graphic coords="6,145.81,398.67,300.08,306.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. iPhone 12 versus iPad with Sensor. A high level of agreement was observed for area measurement (cm 2 ) with the iPhone 12 and iPad mini with Structure Sensor.</figDesc><graphic coords="6,145.81,26.87,300.08,305.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Intra-and Inter-Rater Reliability</figDesc><table><row><cell></cell><cell>ICC</cell><cell>p</cell></row><row><cell>Intrarater reliability</cell><cell>0.997</cell><cell>0.24</cell></row><row><cell>Inter-rater reliability</cell><cell>0.998</cell><cell>0.16</cell></row></table><note><p>Intra-and inter-rater reliability is reported using an ICC. ICC, intraclass correlation coefficient.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Agreement Between Devices 13 vs. iPad/Sensor 12 vs. iPad/Sensor 13 vs. 12</figDesc><table><row><cell>Pearson correlation</cell><cell>0.999401477</cell><cell>0.998680006</cell><cell>0.998926671</cell></row><row><cell>p(T £ t) two-tail</cell><cell>0.048925747</cell><cell>0.781267975</cell><cell>0.222493848</cell></row><row><cell>Cohen's d</cell><cell>0.011125117</cell><cell></cell><cell></cell></row><row><cell>Mean difference (%)</cell><cell>1.39</cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS AND FUNDING SOURCES</head><p>The authors have no acknowledgements or funding sources to declare.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR DISCLOSURE AND GHOSTWRITING</head><p>There are no financial or ghostwriting disclosures related to this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ABOUT THE AUTHORS</head><p>Mark Swerdlow, MS, is a 4th-year medical student at USC Keck pursuing plastic and reconstructive surgery. He has participated in 3 years of clinical wound-care and limb salvage research. Previously, he studied electrical engineering at Stanford where he completed a BS (bio-electronics/ bio-imaging) and MS (signal processing).</p><p>Jessica Lo, BS, is a 2nd-year medical student at USC Keck. She graduated from Vanderbilt University with a double major in neuroscience and Spanish. She is involved in general and plastic and reconstructive surgery research and continues to explore her interests in various surgical fields.</p><p>David G. Armstrong, DPM, MD, PhD, is professor of surgery with tenure at the USC. He is founder and codirector of the Southwestern Academic Limb Salvage Alliance. Dr. Armstrong is the director of USC's National Science Foundation funded Center to Stream Healthcare in Place, which places him at the nexus of the merger of consumer electronics, wearables, and medical devices in an effort to maximize hospital-free and activity-rich days. He founded and cochairs the International Diabetic Foot Conference, the largest annual international symposium on the diabetic foot. He is also the founding president of the American Limb Preservation Society, dedicated to building interdisciplinary teams to eliminate preventable amputation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>KEY FINDINGS</head><p>There was no statistically significant difference in area measurements between the iPhone 12 and iPad mini/Structure Sensor ( p = 0.78), or between the iPhone 13 mini and iPhone 12 ( p = 0.22).</p><p>A high level of reliability was observed for repeat area measurements with iPhone 13 mini by the same examiner (ICC 1,1 = 0.997).</p><p>A strong level of agreement was evidenced between examiners for wound surface area assessments (ICC 2,1 = 0.998). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations and Acronyms</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,48.46,91.02,150.79,7.30;8,53.63,101.00,145.67,7.30;8,53.63,110.98,64.20,7.30" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Human wounds and its burden: An updated compendium of estimates</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="39" to="48" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,48.46,125.66,150.84,7.58;8,53.63,135.86,145.65,7.30;8,53.63,145.84,145.66,7.30;8,53.63,155.82,68.93,7.30" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Prevalence and incidence of chronic wounds and related complications: A protocol for a systematic review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ja ¨rbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><surname>So ¨nnergren H</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">152</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,48.46,170.73,150.81,7.30;8,53.63,180.71,145.66,7.30;8,53.63,190.69,145.66,7.30;8,53.63,200.67,145.64,7.30;8,53.63,210.59,24.70,7.30" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Five year mortality and direct costs of care for people with diabetic foot complications are comparable to cancer</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Swerdlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Foot Ankle Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,48.46,225.55,150.82,7.30;8,53.63,235.53,145.62,7.30;8,53.63,245.45,73.17,7.30" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Diabetic foot ulcers and their recurrence</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ajm</forename><surname>Boulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">376</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="2367" to="2375" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,48.46,260.42,150.79,7.30;8,53.63,270.40,145.65,7.30;8,53.63,280.32,142.17,7.30" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Social participation of people with chronic wounds: A systematic review</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Andrees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kirsten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="287" to="311" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,48.46,295.29,150.85,7.30;8,53.63,305.26,145.61,7.30;8,53.63,315.19,145.67,7.30;8,53.63,325.16,30.08,7.30" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A systematic review on the impact of leg ulceration on patients&apos; quality of life</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Herber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schnepp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rieger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Qual Life Outcomes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">44</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,48.46,340.13,150.83,7.30;8,53.63,350.05,145.61,7.30;8,53.63,360.03,55.37,7.30" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Imaging in chronic wound diagnostics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Mohamedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Senkowsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="245" to="263" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,223.81,91.02,150.82,7.30;8,228.93,101.00,145.71,7.30;8,228.93,110.98,85.56,7.30" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The evolving field of wound measurement techniques: A literature review</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Khoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="175" to="181" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,223.81,126.91,150.80,7.30;8,228.93,136.89,145.69,7.30;8,228.93,146.81,145.66,7.30;8,228.93,156.79,15.99,7.30" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">3-D wound scanner: A novel, effective, reliable, and convenient tool for measuring scar area</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Burns</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1930" to="1939" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,223.10,172.72,151.55,7.30;8,228.53,182.69,146.07,7.30;8,228.53,192.67,146.11,7.30;8,228.53,202.59,146.07,7.30;8,228.53,212.57,19.97,7.30" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Comparison of 3-dimensional wound measurement with laserassisted and hand measurements: A retrospective chart review</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Darwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Jaller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Hirt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Manag Prev</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="36" to="41" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,223.10,228.50,151.53,7.30;8,228.53,238.48,146.10,7.30;8,228.53,248.46,146.06,7.30;8,228.53,258.44,146.07,7.30;8,228.53,268.36,12.43,7.30" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Application of threedimensional wound analyzer in the small wound area measurement during the process of wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Burn Care Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="268" to="273" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,223.10,284.29,151.48,7.30;8,228.53,294.27,146.10,7.30;8,228.53,304.24,146.08,7.30;8,228.53,314.22,12.43,7.30" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The reliability of a novel mobile 3-dimensional wound measurement device</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Anghel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Bigham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="379" to="386" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,223.10,330.15,151.50,7.30;8,228.53,340.13,146.10,7.30;8,228.53,350.05,146.07,7.30;8,228.53,360.03,34.17,7.30" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Pilot study to evaluate a novel three-dimensional wound measurement device</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Bills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Berriman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Noble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1372" to="1377" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,398.45,91.02,151.54,7.30;8,403.88,101.00,146.09,7.30;8,403.88,110.98,146.07,7.30;8,403.88,120.95,146.04,7.30;8,403.88,130.88,145.89,7.30;8,403.88,140.85,145.91,7.30;8,403.88,150.83,113.30,7.30" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Mobile Structure Sensor for Real-Time 3D Wound Assessment: Ex-vivo validation using wound phantoms. eKare Inc</title>
+		<ptr target="https://ekare.ai/mobile-structure-sensor-for-real-time-3d-wound-assessment-ex-vivo-validation-using-wound-phantoms" />
+		<imprint>
+			<date type="published" when="2015-06-06">June 6, 2015. May 18, 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,398.45,165.74,151.53,7.30;8,403.88,175.72,146.10,7.30;8,403.88,185.70,146.11,7.30;8,403.88,195.68,88.59,7.30" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Feasibility Of 3D structure sensing for accurate assessment of chronic wound dimensions</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Maselli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Howell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Comput Assist Radiol Surg</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="13" to="14" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,398.45,210.59,151.53,7.30;8,403.88,220.56,146.11,7.30;8,403.88,230.54,96.46,7.30" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Mobile wound assessment using novel computer vision methods</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Guler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Surg</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">64</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,398.45,245.45,151.48,7.30;8,403.88,255.43,146.11,7.30;8,403.88,265.41,146.07,7.30;8,403.88,275.33,88.57,7.30" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Wound measurement techniques: Comparing the use of ruler method, 2D imaging and 3D scanner</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wollak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Shah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Clin Wound Spec</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="52" to="57" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

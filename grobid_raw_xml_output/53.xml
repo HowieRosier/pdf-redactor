@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder ref="#_7vrTMe5">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Corey</forename><surname>Heerschap</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Royal Victoria Regional Health Centre</orgName>
+								<address>
+									<settlement>Barrie</settlement>
+									<region>ON</region>
+									<country>Canada,</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">PhD student at Queens University</orgName>
+								<address>
+									<settlement>Kingston</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1608821CF33791B60F9CEED0634B4CCF</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>increase specialisation of wound management <ref type="bibr" target="#b8">(Queen and Harding, 2019)</ref>. <ref type="bibr" target="#b8">Queen and Harding (2019)</ref> noted the potential of AI to assist with education and awareness of wound care as well as improve workflow of clinicians and engage more patients in their care.</p><p>In this article, I will explore the use of AI in wound care education and its potential benefits and current limitations.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>State of AI in healthcare</head><p>Modern AI has been developing for decades, starting its evolution in the 1980s, during a similar time as the development of advanced wound dressings <ref type="bibr" target="#b7">(Queen, 2019)</ref>. In addition to improving diagnosis and clinical decision making, AI has been discussed as possibly benefiting personalised medicine, drug discovery, and the analysis of large datasets <ref type="bibr" target="#b10">(Sallam, 2023)</ref>. <ref type="bibr" target="#b12">Seibert et al. (2021)</ref> performed a rapid review on the application of AI in nursing and identified prominent approaches relevant to healthcare, including machine learning, expert systems and hybrid models.</p><p>Expert systems assist clinicians with decisionmaking and complex problem solving through algorithms based on rule-based reasoning and a specific knowledge base <ref type="bibr" target="#b12">(Seibert et al, 2021)</ref>. In contrast, machine learning identifies patterns in data and uses them for task analysis, such as diagnosis and classification, while hybrid A rtificial intelligence (AI) is quickly becoming integrated throughout various domains, including healthcare. In particular, wound care has been experiencing rapid growth in the integration of AI-based technologies. A recent systematic review on image-based artificial intelligence found over 250 articles on wound assessment, measurement, and diagnosis <ref type="bibr" target="#b0">(Anisuzzaman et al, 2022)</ref>.</p><p>While computer vision technologies are becoming more ingrained in clinical practice, there remain many opportunities to utilise other aspects of AI within the wound care specialty.</p><p>An often overlooked aspect of the wound specialisation which may benefit from the integration of AI is education. Proper wound care education is essential for healthcare providers to ensure that they can effectively manage wounds and promote healing. AI may assist in enhancing wound care education through provision of real-time feedback, personalised learning, and optimising teaching methods <ref type="bibr" target="#b3">(Lee, 2023)</ref>.</p><p>Recently AI technologies called large language models (LLM), such as ChatGPT from OpenAI, have revolutionised how individuals can interact with data. These deep learning algorithms are able to summarise, translate, predict, and create text and other content, based on immense datasets <ref type="bibr" target="#b10">(Sallam, 2023)</ref>.</p><p>The integration of human intelligence and AI has been identified as a way to standardise and</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Use of artificial intelligence in wound care education</head><p>systems combine these two forms of AI <ref type="bibr" target="#b12">(Seibert et al, 2021)</ref>. <ref type="bibr" target="#b12">Seibert et al. (2021)</ref> found that only 11.6% of studies focused on an "expert system" AI model, and only 1.7% on hybrid models, while a large majority of studies focused on machine learning.</p><p>In a systematic review, Dweekat et al (2023) outlined some of the endless applications of AI in wound management specific to pressure injury management. Current tools are using machine learning with singular or multiple inputs, such as images and healthcare data including pressure injury risk scale score and risk factors, to categorise if a pressure injury will develop, pressure injury stages, tissue types, healthcare acquired versus non-healthcare acquired pressure injuries, and if the wound is experiencing healing or if healing is delayed <ref type="bibr" target="#b2">(Dweekat et al, 2023)</ref>.</p><p>While traditional forms of AI, such as machine learning and computer vision, may provide important clinical decision-making data, new technologies, such as LLMs, can assist with communicating and educating clinicians and their patients. While similar to traditional expert system models, LLMs, such as ChatGPT which launched in November 2022, are trained on massive datasets in multiple languages. This, along with advanced neural network natural language processing, allow it to respond in a human-like way <ref type="bibr" target="#b10">(Sallam, 2023)</ref>. The advanced modelling due to training on large datasets allows ChatGPT to be vastly superior to its predecessors <ref type="bibr" target="#b10">(Sallam, 2023)</ref>.</p><p>This technology is progressing rapidly. In 2022, Google announced it had developed Med-PaLM, a LLM dedicated to medical LLM research which was already obtaining a passing score on US medical licensing questions <ref type="bibr" target="#b4">(Matias and Corrado, 2023)</ref>. Within just one year Med-PaLM 2 was announced, scoring 85% on medical exam questions, responding at an "expert" doctor level, improving responses by 18% from the previous year <ref type="bibr" target="#b4">(Matias and Corrado, 2023)</ref>.</p><p>Recently there have been a number of articles discussing the benefits of LLMs in healthcare including the benefits and limitations to healthcare education <ref type="bibr" target="#b3">(Lee, 2023;</ref><ref type="bibr" target="#b10">Sallam, 2023;</ref><ref type="bibr" target="#b11">Scerri and Morin, 2023)</ref>.</p><p>The recent public release of ChatGPT has spurred the imagination of individuals worldwide with the many possibilities of this new AI technology. Based on extensive training datasets, LLMs such as ChatGPT can provide insight into many topics and fields including wound care.</p><p>Table <ref type="table" target="#tab_0">1</ref> demonstrates the response to the question "How can large language models such as ChatGPT improve wound care education?". The ChatGPT LLM outlined four possible use cases for LLMs in the field of wound care education including personalised education, accessible information, provision of up-to-date information, and multilingual support. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Question</head><p>How can large language models such as ChatGPT improve wound care education?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Response</head><p>Large language models such as ChatGPT can improve wound care education by providing personalised and accessible information to healthcare professionals and patients.</p><p>1. Personalised education: Large language models can provide personalised education to healthcare professionals by analysing their specific educational needs and creating customised educational content. By tailoring the content to the individual's learning style, level of expertise, and specific areas of interest, the model can provide a more effective educational experience. 2. Accessible information: Large language models can provide accessible information to patients who may not have access to specialised wound care education or healthcare providers. Through natural language processing, the model can interpret the patient's queries and provide comprehensive and easy-tounderstand information about wound care. Additionally, patients can receive real-time support through chatbots that use the large language model to provide wound care instructions, answer questions, and monitor their progress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Up-to-date information:</head><p>Large language models can also provide up-to-date information on new wound care techniques, technologies, and research. As new information becomes available, the model can update its content to ensure that healthcare professionals and patients have access to the latest wound care knowledge. 4. Multilingual support: Large language models can provide wound care education in multiple languages, making it accessible to a broader range of patients and healthcare professionals worldwide.</p><p>Overall, large language models such as ChatGPT can significantly improve wound care education by providing personalised, accessible, up-to-date, and multilingual education to healthcare professionals and patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical practice</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Application of AI in wound care education</head><p>In 2019, Carroll noted that: "Emerging technologies, such as predictive analytics and machine learning, will strengthen our ability to collect data, assimilate these data into information, apply newly discovered knowledge, and gain wisdom to improve care delivery" <ref type="bibr">(Carroll, 2019, p.17)</ref>.</p><p>While healthcare literature has focused mostly on the use of AI in education as it relates to the implications of learning during classroom education, or regarding the need to understand AI and its implication for clinicians, there has been little devoted to the potential benefits of AI in knowledge integration and transformation within clinical practice. The Registered Nurses Association of Ontario (RNAO) produced a 2020 report called Nursing &amp; Compassionate Care in The Age of Artificial Intelligence: Engaging the Emerging Future <ref type="bibr">(RNAO and AMS Healthcare, 2020)</ref>. This report identified multiple impacts of AI in nursing education, including on patients, on students and on nurses within the clinical practice setting. Many of these impacts also relate to wound care education. For example, it has been suggested that nurse educators in the future may use AI-powered chatbots to act as a virtual patient in testing nurses regarding their knowledge <ref type="bibr">(RNAO and AMS Healthcare, 2020)</ref>.</p><p>With the advancement of LLMs, the utilisation of vast amounts of data in education and learning is quickly becoming a reality. For example, ChatGPT can already pass reputable medical examinations such as the United States Medical Licensing Examination <ref type="bibr" target="#b10">(Sallam, 2023)</ref>. Sallam (2023) also identified how LLMs such as ChatGPT can be motivational in healthcare education as they provide personalised interaction leading to enhanced self-learning. <ref type="bibr" target="#b3">Lee (2023)</ref> noted that LLMs such as ChatGPT can act as a virtual teaching assistant providing real time personalised feedback. It is not difficult to see the potential applications of this technology for clinicians managing wounds. Those clinicians seeking to develop a broader knowledge in wound management may ask a virtual tutor questions about wound management, or seek insight on a case they may be uncertain about. Alternatively, as suggested by the RNAO and AMS Healthcare (2020), wound care specialised educators may choose to utilise LLMs as virtual patients. They could request the LLM act as a patient suffering from a specific wound type, allowing the learner to ask questions to the system until a diagnosis can be made. Utilisation such as this may develop clinician assessment skills and improve understanding of characteristics and pathophysiology of wound development and effects on healing.</p><p>Additionally, LLMs utilising a specialised body of knowledge may provide in the moment information and education for clinicians, such as requesting instructions for completing tasks. For example, a nurse who had not previously completed a wound packing could ask the LLM to provide a list of equipment and step by step instructions for packing a wound. The LLM could quickly search a large amount of data and summarise best practice recommendations to provide to the nurse in the moment and guide the dressing change. For example, hospitals may utilise a LLM to provide insight on clinical skills based on hospital policy, where the LLM will reference the policy or policies the response is based upon.</p><p>There are many benefits of LLMs for use within the classroom setting as well. LLMs allow for personalised education, explaining concepts at a level that is more easily understood by the student learner. Lee ( <ref type="formula">2023</ref>) also notes how use of LLMs allow educators to refocus their time, spending less time on office hours and more time on other curricular aspects, such as wound management.</p><p>In addition to developing synthesised educational handouts, lesson plans and educational resources, LLMs may also develop items such as quizzes with answers and explanations <ref type="bibr" target="#b3">(Lee, 2023)</ref>. This may make accessible wound care education more readily available, reducing the strenuous preparation activities by the wound care specialist in developing educational services for learners such as workshops, webinars, and academic programmes.</p><p>Similarly, to student learners, LLMs can play a role in the education of those with wounds. The RNAO and AMS Healthcare (2020) noted that future nurses would be likely to utilise virtual healthcare assistant chatbots to assist patients with enhancing their self-management ability. This may be in the form of educating the individuals on the importance of completing certain tasks or guiding them through certain skills, such as the steps to completing a simple dressing change, or the signs of infection that the individual should be monitoring. <ref type="bibr" target="#b11">Scerri and Morin (2023)</ref> discussed how LLMs can improve communication between nurses and patients, providing conversational cues and creating instructions and recommendations that are summarised, easier to understand, and person centred. LLMs can also translate information and instructions into a patient's native language <ref type="bibr">(Scerri and Morrin, 2023)</ref>.</p><p>Moving forward, the integration of multiple deep learning algorithms, not only LLMs but also the integration of LLMs with computer vision and other forms of AI may increase the utilisation of AI in wound care education. For example, in future iterations of LLM, models that utilise imagery, uploading wound images could categorise and diagnose the underlying wound cause as well as provide information and education regarding its description. Additionally, the LLM could provide a detailed overview of the diagnosis, and provide information regarding potential treatment options, such as the steps to complete wound dressings, or compression application for example, in the management of a lower leg ulcer. Furthermore, it could provide educational resources to provide to patients to assist with self-management of the wound. <ref type="bibr" target="#b10">Sallam (2023)</ref> noted multiple limitations of LLMs, ChatGPT specifically, arguably the most advanced LLM available within the healthcare environment. With the rate of advancements in this technology however, these limitations are quickly being addressed. Take for example concerns with regards to the training data set of large language models, or the inability of ChatGPT to handle images. Shortly after that paper was published, Microsoft's Azure OpenAI service announced retrieval augmented generation (RAG), which allows for control over the knowledge base used by ChatGPT to respond to questions and formulate response content <ref type="bibr">(Microsoft Mechanics, 2023)</ref>. This content "overlay" allows specific private, and unique datasets to be the primary source of information in the LLM response, while still taking advantage of the LLM immense dataset which provides its natural language processing ability. Additionally in 2023, ChatGPT's developer OpenAI launched GPT-4, a large multimodal model, which accepts both image and text inputs and provides a text output <ref type="bibr" target="#b6">(OpenAI, 2023)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Current limitations</head><p>While the technology continues to develop at a rapid rate, multiple limitations remain that impact general integration into practice and as an educational tool. The primary concern is what has been termed "hallucinations", or the provision of inaccurate or biased information that sounds correct <ref type="bibr" target="#b3">(Lee, 2023;</ref><ref type="bibr" target="#b10">Sallam, 2023;</ref><ref type="bibr">Scerri and Morrin, 2023)</ref>. It is important to note that LLMs are not knowledge bases, but rather deep learning models that predict responses based on the input data and the data upon which it has been trained <ref type="bibr" target="#b3">(Lee, 2023)</ref>. However, this does not mean the responses are guaranteed to be factually correct <ref type="bibr" target="#b3">(Lee, 2023)</ref>. There is also the concern regarding data privacy and inputting medical and patient data into the LLM <ref type="bibr" target="#b10">(Sallam, 2023)</ref>. Advancing technologies are attempting to address this issue through techniques such as the previously mentioned RAG, where private enterprise level data security is considered <ref type="bibr">(Microsoft Mechanics, 2023)</ref>. Further research and utilisation will be required in order to test new technologies and techniques such as RAG to validate them for the healthcare setting. <ref type="bibr" target="#b3">Lee (2023)</ref> noted that educators are concerned about the possibility that learners may become reliant on AI, not taking the time to develop critical thinking skills, and understanding the foundational knowledge required to provide evidence informed care. It has also been felt that this reliance on the use of chatbots in clinical decision-making may impact the patient trust and relationship with their healthcare provider <ref type="bibr" target="#b11">(Scerri and Morin, 2023)</ref>.</p><p>Furthermore, <ref type="bibr" target="#b10">Sallam (2023)</ref> discusses how LLMs are only as effective as the data in which they are trained upon, and this may lead to outdated and incorrect responses. This will place a great need for those with specialised knowledge to develop training datasets for use with future AI technologies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>While AI continues to rapidly advance and affect many aspects of our lives, healthcare professionals should recognise the potential benefits and limitations of these tools. Within the wound care specialty, there are likely many potential areas which have been, or will be, impacted by AI. It is clear that AI technologies such as LLMs will have a great impact on wound care, including education. Multiple implications of LLMs and hybrid AI technologies have been outlined within this article which will affect wound care education from the perspective of clinicians, students and individuals living with and managing wounds. As specialists within our field, we must understand the impacts of this technology and be prepared for its integration into clinical practice and education, while recognising the current limitations and recognising the need for further validation and testing of future tools as they are developed. AI and LLM technologies are developing at an exponential rate and provide many opportunities to enhance and elevate wound care education.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wint</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Large Language Model Utilisation in Wound Care Education According to ChatGPT.</head><label>1</label><figDesc></figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>He is the <rs type="projectName">President-Elect of Nurses Specialized in Wound, Ostomy and Continence Canada, Inaugural Panel Member of the Canadian Pressure Injury Advisory Panel</rs>, and <rs type="person">Education Co-Lead</rs> for the Commonwealth Wound Care Resource Alliance.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_7vrTMe5">
+					<orgName type="project" subtype="full">President-Elect of Nurses Specialized in Wound, Ostomy and Continence Canada, Inaugural Panel Member of the Canadian Pressure Injury Advisory Panel</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="4,42.52,132.95,115.21,6.93;4,52.44,142.45,103.60,6.93;4,52.44,151.95,106.77,6.93;4,52.44,161.46,98.17,6.93;4,52.44,170.96,64.97,6.93" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Image-based artificial intelligence in wound assessment: a systematic review</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rostami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="687" to="709" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,42.52,183.30,106.46,6.93;4,52.44,192.80,107.01,6.93;4,52.44,202.30,106.17,6.93" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The synthesis of nursing knowledge and predictive analytics</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Carroll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nurs Manage</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="15" to="17" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,42.52,214.64,93.28,6.93;4,52.44,224.14,80.74,6.93;4,52.44,233.64,90.95,6.93;4,52.44,243.15,93.49,6.93;4,52.44,252.65,92.84,6.93;4,52.44,262.15,83.63,6.93;4,52.44,271.65,91.10,6.93;4,52.44,281.16,52.16,6.93" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Machine learning techniques, applications, and potential future opportunities in pressure injuries (bedsores) management: a systematic review</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">Y</forename><surname>Dweekat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mcgrath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Environ Res Public Health</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">796</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,42.52,293.49,102.09,6.93;4,52.44,303.00,102.47,6.93;4,52.44,312.50,95.18,6.93;4,52.44,322.00,46.12,6.93" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The rise of ChatGPT: Exploring its potential in medical education</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anat Sci Educ</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>epub ahead of print</note>
+</biblStruct>
+
+<biblStruct coords="4,42.52,334.34,94.50,6.93;4,52.44,343.84,102.92,6.93;4,52.44,353.34,89.43,6.93;4,52.44,362.85,80.47,6.93;4,52.44,372.35,100.69,6.93;4,52.44,381.85,59.97,6.93" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Our latest health AI research updates</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corrado</surname></persName>
+		</author>
+		<idno>14.04.23</idno>
+		<ptr target="https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/" />
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,42.52,394.19,85.62,6.93;4,52.44,403.69,89.22,6.93;4,52.44,413.19,80.11,6.93;4,52.44,422.70,85.10,6.93;4,52.44,432.20,107.01,6.93;4,52.44,441.70,28.32,6.93" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Can ChatGPT work with your enterprise data</title>
+		<idno>14.04.23</idno>
+		<ptr target="https://www.youtube.com/watch?v=tW2EA4aZ_YQ" />
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<publisher>Microsoft Mechanics</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,42.52,454.04,93.33,6.93;4,52.44,463.54,103.32,6.93;4,52.44,473.04,65.41,6.93" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">GPT-4</title>
+		<author>
+			<persName><surname>Openai</surname></persName>
+		</author>
+		<ptr target="https://openai.com/product/gpt-4" />
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>accessed 14.04.23</note>
+</biblStruct>
+
+<biblStruct coords="4,42.52,485.38,114.45,6.93;4,52.44,494.88,99.34,6.93;4,52.44,504.39,102.18,6.93;4,52.44,513.89,57.97,6.93" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence and machine learning in wound care -the wounded machine</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Queen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">311</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,42.52,526.23,101.16,6.93;4,52.44,535.73,95.41,6.93;4,52.44,545.23,106.46,6.93;4,52.44,554.73,78.88,6.93" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Datadriven specialisation of wound care through artificial intelligence</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Queen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="879" to="880" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,42.52,567.07,102.15,6.93;4,52.44,576.57,88.60,6.93;4,52.44,586.08,98.71,6.93;4,52.44,595.58,78.92,6.93;4,52.44,605.08,77.47,6.93;4,52.44,614.58,85.91,6.93;4,52.44,624.09,94.02,6.93" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Nursing &amp; Compassionate Care in the Age of Artificial Intelligence: Engaging the Emerging Future. Registered Nurses</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>Association of Ontario</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,42.52,636.42,106.16,6.93;4,52.44,645.93,97.30,6.93;4,52.44,655.43,97.23,6.93;4,52.44,664.93,94.73,6.93;4,52.44,674.43,94.27,6.93;4,52.44,683.94,30.49,6.93" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">ChatGPT Utility in healthcare education, research, and practice: systematic review on the promising perspectives and valid concerns</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sallam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Healthcare</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">887</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="4,42.52,696.27,96.71,6.93;4,52.44,705.78,103.15,6.93;4,52.44,715.28,104.61,6.93;4,52.44,724.78,46.12,6.93" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Using chatbots like ChatGPT to support nursing practice</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Scerri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Morin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Nurs</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>epub ahead of print</note>
+</biblStruct>
+
+<biblStruct coords="4,42.52,737.12,101.44,6.93;4,52.44,746.62,103.70,6.93;4,52.44,756.12,96.01,6.93;4,52.44,765.63,103.39,6.93;4,52.44,775.13,57.50,6.93" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Application scenarios for artificial intelligence in nursing care: Rapid Review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Seibert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Domhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bruch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">26522</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

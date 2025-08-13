@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Real-Time Single Image Depth Perception in the Wild with Handheld Devices</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-12-22">22 December 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Filippo</forename><surname>Aleotti</surname></persName>
+							<email>filippo.aleotti2@unibo.it</email>
+							<idno type="ORCID">0000-0002-8911-3241</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<postCode>40136</postCode>
+									<settlement>Bologna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giulio</forename><surname>Zaccaroni</surname></persName>
+							<email>giulio.zaccaroni@studio.unibo.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<postCode>40136</postCode>
+									<settlement>Bologna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luca</forename><surname>Bartolomei</surname></persName>
+							<email>luca.bartolomei4@studio.unibo.it</email>
+							<idno type="ORCID">0000-0002-5509-437X</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<postCode>40136</postCode>
+									<settlement>Bologna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matteo</forename><surname>Poggi</surname></persName>
+							<email>m.poggi@unibo.it</email>
+							<idno type="ORCID">0000-0002-3337-2236</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<postCode>40136</postCode>
+									<settlement>Bologna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fabio</forename><surname>Tosi</surname></persName>
+							<email>fabio.tosi5@unibo.it</email>
+							<idno type="ORCID">0000-0002-3337-2236</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<postCode>40136</postCode>
+									<settlement>Bologna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stefano</forename><surname>Mattoccia</surname></persName>
+							<email>stefano.mattoccia@unibo.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<postCode>40136</postCode>
+									<settlement>Bologna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Real-Time Single Image Depth Perception in the Wild with Handheld Devices</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-12-22">22 December 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9F8552AC989FB98D69DC7A9EA2C6D2E0</idno>
+					<idno type="DOI">10.3390/s21010015</idno>
+					<note type="submission">Received: 18 November 2020 Accepted: 18 December 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>monocular depth estimation</term>
+					<term>deep learning</term>
+					<term>mobile systems</term>
+					<term>smartphone</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Depth perception is paramount for tackling real-world problems, ranging from autonomous driving to consumer applications. For the latter, depth estimation from a single image would represent the most versatile solution since a standard camera is available on almost any handheld device. Nonetheless, two main issues limit the practical deployment of monocular depth estimation methods on such devices: (i) the low reliability when deployed in the wild and (ii) the resources needed to achieve real-time performance, often not compatible with low-power embedded systems. Therefore, in this paper, we deeply investigate all these issues, showing how they are both addressable by adopting appropriate network design and training strategies. Moreover, we also outline how to map the resulting networks on handheld devices to achieve real-time performance. Our thorough evaluation highlights the ability of such fast networks to generalize well to new environments, a crucial feature required to tackle the extremely varied contexts faced in real applications. Indeed, to further support this evidence, we report experimental results concerning real-time, depth-aware augmented reality and image blurring with smartphones in the wild.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Depth perception is an essential step to tackling real-world problems, such as robotics <ref type="bibr" target="#b0">[1]</ref>, autonomous driving [2], many other tasks involving 3D reconstruction <ref type="bibr" target="#b2">[3]</ref> and cultural heritage applications <ref type="bibr" target="#b3">[4]</ref>. Consequently, some well-known sensors exist for this purpose. Among them, active sensing techniques such as time-of-flight (ToF), structured light and LiDAR are often deployed in the application domains mentioned before. However, they struggle when dealing with some typical consumer applications. On the one hand, ToF and structured light are mostly suited for indoor environments and allow, for instance, for human pose estimation <ref type="bibr" target="#b4">[5]</ref>. On the other hand, conventional LiDAR technology, frequently used for autonomous driving and other tasks is too cumbersome and expensive for deployment with relatively cheap and lightweight consumer handheld devices. Nonetheless, it is worth noting that active sensing technologies, mostly suited for indoor environments, are sometimes integrated into high-end devices. For instance, they are present in the 2020 Apple iPad Pro and iPhone 12 Pro.</p><p>Therefore, camera-based technologies are often the only viable strategies to infer depth in consumer applications, and among them, well-known methodologies are structured-light and stereo vision. The former typically requires an infrared camera and a specific pattern projector, making it unsuitable for environments flooded by sunlight. The latter requires two appropriately spaced and synchronized cameras. Some recent high-end smartphones or tablets feature one or both technologies, although they are not yet widespread enough to be considered standard equipment. Moreover, the distance between the cameras (baseline) is necessarily narrow for stereo systems, limiting the depth range to a few meters away.</p><p>On the other hand, with the spread of deep-learning, recent years witnessed the rising of a different strategy to infer depth using a single standard camera available substantially in any consumer device. Compared to previous technologies for depth estimation, such an approach would enable one to tackle all the limitations mentioned before. Nonetheless, single-image depth estimation is seldom deployed in consumer applications due to two main reasons. The first one concerns the low reliability of state-of-the-art methods when tackling depth estimation in the wild dealing with unpredictable environments not seen at training time, as it occurs when targeting a massive number of users facing heterogeneous environments. The second reason concerns the constrained computational resources available in handheld devices, such as smartphones and tablets, deployed for consumer applications. In fact, despite the steady progress in this field, the gap with systems leveraging high-end GPUs is (and always will be) significant, since power requirements heavily constrain handheld devices. Despite the limited computational resources available, most consumer applications call for real-time performance.</p><p>Arguing these facts, in this paper, we deeply investigate both issues outlined so far. In particular, we show how to tackle them by leveraging appropriate network designs and training strategies, and outline how to map them on off-the-shelf consumer devices to achieve real-time performance, as shown in Figure <ref type="figure" target="#fig_0">1</ref>. Specifically, we propose a strategy to distill knowledge using standard still images from a robust yet complex monocular network unsuited for real-time performance and apply this methodology to lightweight and fast networks to achieve the desired performance on mobile devices. Indeed, our extensive evaluation highlights the resulting network's ability to robustly generalize to unseen environments, a crucial feature to tackle the heterogeneous contexts faced in real consumer applications. The paper is organized as follows. At first, we review previous works about monocular depth estimation on high performance and mobile devices; then we describe the framework that allows us to train a model, even a lightweight one, to be robust when deployed in the wild. Eventually, we evaluate a subset of monocular networks proposed in the literature on three benchmarks, deploying such models on mobile smartphones. Finally, we report how achieving real-time single image depth estimation at the edge can be effectively exploited to tackle two well-known applications: depth aware augmented reality and blurring.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Related Work</head><p>Monocular depth estimation. Even if depth estimation from multiple views has a long history in computer vision, depth from a single image <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref> started being considered feasible only with the advent of deep learning techniques. Indeed, obtaining depth values starting from a single image is an ill-posed problem, since an infinite number of real-world layouts may have generated the input image. However, learning-based methods, and in particular deep learning, proved to be adequate to face the problem. Initially were proposed supervised approaches <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>. On this track, He et al. <ref type="bibr" target="#b10">[11]</ref> faced the ambiguity caused by varying focal lengths across different images. However, the need for ground truth measurements represents a severe restraint since an active sensor, as a LiDAR, together with specific manual post-processing is required to obtain such data. Therefore, effective deployment of supervised approaches is burdensome both in terms of time and costs. To overcome this limitation, solutions able to learn depth supervised only by images are incredibly appealing, and nowadays, several methods rely on simple stereo pairs or monocular video sequences for training. Among these, ref. <ref type="bibr" target="#b11">[12]</ref> is the first notable attempt leveraging stereo pairs, eventually improved exploiting traditional stereo algorithm <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>, visual odometry supervision <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref> or 3D movies <ref type="bibr" target="#b16">[17]</ref>. On the other hand, methods leveraging monocular videos do not even require a stereo camera at training time, at the cost of learning depth estimation up to a scale factor. Consider Zhou et al. <ref type="bibr" target="#b17">[18]</ref> proposing to learn both depth and camera ego-motion; more recent methods propose to apply direct visual odometry <ref type="bibr" target="#b18">[19]</ref> or ICP <ref type="bibr" target="#b19">[20]</ref> strategies to improve predictions. Additional cues have been used by more recent works, such as optical flow <ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> and semantic segmentation <ref type="bibr" target="#b24">[25]</ref>. Finally, it is worth noting that the two supervisions coming from stereo images and monocular sequences can be combined <ref type="bibr" target="#b25">[26]</ref>. Some works also focus on understanding which the cues that neural networks exploit to infer depth from single images are <ref type="bibr" target="#b26">[27]</ref>.</p><p>Depth estimation on mobile systems. Mobile devices are ubiquitous, and deep learning opened many application scenarios <ref type="bibr" target="#b27">[28]</ref>. Although sometimes server-side inference is unavoidable, maintaining the computation at the edge is highly beneficial. It allows one to get-rid of privacy issues and the need for tailored datacentersm allowing one to reduce costs and improve scalability. Moreover, although not critical for most consumer scenarios, full on-board processing does not dictate an Internet connection. Despite limited computing capabilities, mostly constrained by power consumption issues and typically not comparable to those available in standard laptops or PCs, some authors proposed deep networks for depth estimation suited for mobile devices too. These works targeted stereo <ref type="bibr" target="#b28">[29]</ref> and monocular <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b29">30]</ref> setups. Moreover, some authors proposed depth estimation architectures tailored for specific hardware setups, such as those based on dual-pixel sensors available in some recent Google's smartphones, as reported in <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b31">32]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Problems and Requirements</head><p>The availability of more and more powerful devices paves the way for complex and immersive applications, in which users can interact with the nearby environment. As a notable example, augmented reality can be used to display interactive tools or concepts, avoiding the need to build a real prototype and thus cutting costs. For this and many other applications, obtaining accurate depth information with a high frame rate is paramount to further enhancing the interaction with the surrounding environment, even with devices devoid of active sensors. Almost any modern handheld device features at least a single camera and an integrated CPU within-typically, an ARM-based system-on-chip to cope with the constrained energy budget of such devices. Sometimes, especially in most new ones, a neural processing unit (NPU) devoted to accelerating deep neural networks is also available. Inevitably, the resulting overall computational performance is far from conventional PC-based setups, and the availability of an NPU only partially fills this gap. Given these constraints, single image depth perception is rather appealing, since it could seamlessly deal with dynamic contexts, whereas other techniques such as structure from motion (SfM) would struggle. However, these techniques are computationally demanding, and most state-of-the-art approaches would not work with the computational resources available in handheld devices. Moreover, regardless of the computing requirements, training the networks for predictable target environments is not feasible for consumer applications. Thus the depth estimation network shall be robust to any faced deployment scenarios and possibly invariant to the training data distribution. A client-server approach would soften some of the computational issues, although with notable disadvantages-the need for an Internet connection and a poorly scaling of the whole overall system when the number of users increases.</p><p>To get rid of all the issues mentioned above and to deal with practical applications, we will describe next how to achieve real-time and robust single image depth perception on low-power architectures found in off-the-shelf handheld devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Framework Overview</head><p>In this section, we introduce our framework aimed at enabling single image depth estimation in the wild with mobile devices, devoting specific attention to iOS and Android systems. Before the actual deployment on the target handheld device, our strategy requires an offline training procedure typically carried out on power unconstrained devices. We will discuss in the reminder the training methodology, leveraging knowledge distillation, deployed to achieve our goal in a limited amount of time and the dataset adopted for this purpose. Another critical component of our framework is a lightweight network enabling real-time processing on the target handheld devices. Purposely, we will introduce and thoroughly assess the performance of state-of-the-art networks fitting this constraint.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Offline Training</head><p>As for most learning-based monocular depth estimation models, our proposal is trained offline on standard workstations, equipped with one or more GPUs, or through cloud processing services. In principle, depending on the training data available, one can leverage different training strategies: supervised, semi-supervised and self-supervised training paradigms. Moreover, as done in this paper, cheaper and better-scaling supervision can be conveniently obtained from another network, leveraging knowledge distillation to avoid the need for expensive ground truth labels, through a teacher-student network.</p><p>When a large enough dataset providing ground truth labels inferred by an active sensor is available, such as <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>, (semi-)supervised training is certainly valuable, since it enables one, among other things, to disambiguate difficult regions (e.g., texture-less regions such as walls). Unfortunately, large datasets with depth labels are not available or extremely costly and cumbersome to obtain. Therefore, when this condition is not met, self-supervised paradigms enable one to train with (potentially) countless examples, at the cost of a more challenging training setup and typically less accurate results. Note that, depending on the dataset, a strong depth prior can be distilled, even if there are not available depth labels provided by an active sensor. For instance, refs. <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref> exploited depth values from a stereo algorithm, and <ref type="bibr" target="#b34">[35]</ref> relied on a SfM pipeline. Finally, supervision can be distilled from other networks as well, for the stereo <ref type="bibr" target="#b35">[36]</ref> and monocular <ref type="bibr" target="#b36">[37]</ref> setups. The latter is the strategy followed in this paper. Specifically, we use as the teacher the MiDaS network proposed in <ref type="bibr" target="#b16">[17]</ref>. This strategy allows us to speed-up the training procedure of the considered lightweight networks significantly, since doing this from scratch according to the methodology proposed in <ref type="bibr" target="#b16">[17]</ref> would take a far longer amount of time (weeks vs. days), being mostly bounded by the demanding generation of proxy labels. Moreover, it is worth noting that given a reliable teacher network, pre-trained in a semi or self-supervised manner, such as <ref type="bibr" target="#b16">[17]</ref>, it is straightforward to distill an appropriate training dataset, since any collection of images is potentially suited to this aim. We will describe next the training dataset used for our experiments made of a bunch of single images belonging to wellknown popular datasets.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">On-Device Deployment and Inference</head><p>Once outlined the training paradigm, the next issue concerns the choice of a network capable of learning from the teacher how to infer meaningful depth maps, and at the same time, be able to run them in real-time on the target handheld devices. Unfortunately, only a few networks described next potentially fulfill these requirements, in particular, considering the ability to run in real-time on embedded systems.</p><p>Having identified and trained a suitable network, the mapping on a mobile device is nowadays quite easy. In fact, there exist various tools that, starting from a deep learning framework such as PyTorch <ref type="bibr" target="#b37">[38]</ref> or TensorFlow <ref type="bibr" target="#b38">[39]</ref>, can export, optimize (e.g., perform weight quantization) and execute models, even leveraging mobile GPUs <ref type="bibr" target="#b39">[40]</ref> on principal operating systems (OS). In some cases, the target OS exposes utilities and tools to improve the performances further. For instance, starting from iOS 13, neural networks deployed on iPhones can use the GPU or even the Apple Neural Engine (ANE) thanks to Metal and Metal Performance Shaders (MPS), thereby largely improving the runtime performances. We will discuss in the next section how to map the networks on iOS and Android devices using high-level development frameworks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Lightweight Networks for Single Image Depth Estimation</head><p>In the remainder, when not strictly required, we refer to depth and inverse depth interchangeably. According to the previous discussion, only a subset of the state-of-theart single image depth estimation networks fits our purposes. Specifically, we consider the following publicly available lightweight architectures: PyDNet <ref type="bibr" target="#b5">[6]</ref>, DSNet <ref type="bibr" target="#b24">[25]</ref> and FastDepth <ref type="bibr" target="#b29">[30]</ref>. Moreover, we also include a representative example of a large state-ofthe-art network MonoDepth2, proposed in <ref type="bibr" target="#b25">[26]</ref>. It is worth noticing that other and more complex state-of-the-art networks, such as <ref type="bibr" target="#b12">[13]</ref>, could be deployed instead within the proposed framework. However, this might come at the cost of higher execution time on the embedded device, and potentially, overhead for the developer in case of custom layers not directly supported by the mobile executor (e.g., the correlation layer used in <ref type="bibr" target="#b12">[13]</ref>).</p><p>MonoDepth2. An architecture deploying a ResNet encoder, proposed initially in <ref type="bibr" target="#b40">[41]</ref>, made of 18 feature extraction layers, shrinking the input by a factor of 1  32 . Then, the dense layers are replaced in favour of a decoder module, able to restore the original input resolution and output an estimated depth map. At each level in the decoder, 3 × 3 convolutions with skip connections are performed, followed by a 3 × 3 convolution layer in charge of depth estimation. The resulting network can predict depth at different scales, counting overall 14.84 M parameters. It is worth to notice that in our evaluation we do not rely on ImageNet <ref type="bibr" target="#b41">[42]</ref> pre-training for the encoder for fairness to other architectures not pre-trained at all.</p><p>PyDNet. This network, proposed in <ref type="bibr" target="#b5">[6]</ref>, features a pyramidal encoder-decoder design able to infer depth maps from a single RGB image. Thanks to its small size and design choices, PyDNet can run on almost any device including low-power embedded platforms <ref type="bibr" target="#b42">[43]</ref>, such as the Raspberry Pi 3. In particular, the network exploits 6 layers to reduce the input resolution at 1  64 , restored in the depth domain by 5 layers in the decoder. Each layer in the decoder applies 3 × 3 convolutions with 96, 64, 32, 8 feature channels, followed by a 3 × 3 convolution in charge of depth estimation. Notice that, to keep low the resources and inference time, top prediction of PyDNet is at half resolution, so the final depth map is obtained through an upsampling operation. We adopt the mobile implementation provided by the authors, publicly available online (https://github.com/FilippoAleotti/mobilePydnet), which differs from the paper network by small changes (e.g., transposed convolutions have been replaced by upsampling and convolution blocks). The overall network counts 1.97 M parameters.</p><p>FastDepth. Proposed by Wofk et al. <ref type="bibr" target="#b29">[30]</ref>, this network can infer depth predictions at 178 fps with an NVIDIA Jetson TX2 GPU. This notable speed is the result of design choices and optimization steps. Specifically, the encoder is a MobileNet <ref type="bibr" target="#b27">[28]</ref>, thus suited for execution on embedded devices. The decoder consists of 6 layers, each one with a depth-wise separable convolution, with skip connections starting from the encoder (in this case, features are combined with addition). However, it is worth observing that the highest frame rate previously reported is achievable only exploiting both pruning <ref type="bibr" target="#b43">[44]</ref> and hardware-specific optimization techniques. In this paper, we do not rely on such strategies for fairness with other networks. The whole network counts 3.93 M parameters.</p><p>DSNet. This architecture is part of ΩNet <ref type="bibr" target="#b24">[25]</ref>, an ensemble of networks predicting not only the depth of the scene starting from a single view but also the semantic segmentation, camera intrinsic parameters and if two frames are provided, the optical flow. In our evaluation we consider only the depth estimation network DSNet, inspired by PyDNet, which contains a feature extractor able to decrease the resolution by 1  32 , followed by 5 decoding layers to infer depth predictions starting from the current features and previous depth estimate. In the original architecture, the last decoder also predicts per-pixel semantic labels through a dedicated layer, removed in this work. With this change, the overall network counts 1.91 M of parameters, 0.2 M fewer than the original model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Datasets</head><p>In our evaluation, we use four datasets. At first, we rely on the KITTI dataset to assess the performance of the four networks when trained with the standard self-supervised paradigm deployed typically in this field <ref type="bibr" target="#b25">[26]</ref>. Then, we re-train from scratch the four networks using the paradigm previously outlined, distilling proxy labels by employing the pre-trained MiDaS network <ref type="bibr" target="#b16">[17]</ref> made available by the same authors. For this task, we use a novel dataset, referred to as WILD, described next. We then evaluate the networks trained according to this methodology on the TUM RGBD <ref type="bibr" target="#b44">[45]</ref> and NYUv2 <ref type="bibr" target="#b45">[46]</ref> dataset to assess their generalization capability.</p><p>KITTI. The KITTI dataset <ref type="bibr" target="#b46">[47]</ref> contains 61 scenes collected by a moving car equipped with a LiDAR sensor and a stereo rig. Following <ref type="bibr" target="#b25">[26]</ref>, we select a split of 697 images for testing, while 39,810 and 4424 images are used respectively for preliminary training and validation purpose. Moreover, we use it to assess the generalization capability of the networks in the wild during the second part of our evaluation.</p><p>WILD. The Wild dataset (W), introduced in this paper, consists of a mixture of Microsoft COCO <ref type="bibr" target="#b47">[48]</ref> and OpenImages <ref type="bibr" target="#b48">[49]</ref> datasets. Both datasets contain a large number of Internet photos, and they do not provide depth labels. Moreover, since neither video sequences nor stereo pairs are available, they are not suited for conventional self-supervised guidance methods (e.g., SfM or stereo algorithms). On the other hand, they cover a broad spectrum of various real-world situations, allowing to face both indoor and outdoor environments, deal with everyday objects and various depth ranges. We select almost 447,000 frames for training purposes. Details concerning the WILD dataset are available at this link: https://github.com/FilippoAleotti/mobilePydnet.</p><p>Then, we distilled the supervision required by our networks with the robust monocular architecture proposed in <ref type="bibr" target="#b16">[17]</ref> with the weights publicly available. Such a network provides as output an inverse depth up to a scale factor. We point out once again that our supervision protocol has been carefully chosen mostly for practical reasons. It takes a few days to distill the WILD dataset by running MiDaS (using the publicly available checkpoints) on a single machine. On the contrary, to obtain the same data used to train the network as in <ref type="bibr" target="#b16">[17]</ref>, it would require an extremely intensive effort. Doing so, we can scale better: since we trust the teacher, we could, in principle, source knowledge from various and heterogeneous domains on the fly. Of course, the major drawbacks of this approach are evident: we need an already available and reliable teacher, and the accuracy of the student is bounded to the one of the teacher. However, we point out that the training scheme proposed in <ref type="bibr" target="#b16">[17]</ref> is general, so it can also be applied in our case, and that we already expect a margin with state-of-the-art networks due to the lightweight size of mobile architectures considered. For these reasons, we believe that our approach is beneficial to source a fast prototype than can be improved later leveraging other techniques if needed. This belief is supported by experimental results presented later in the paper.</p><p>TUM RGBD. The TUM RGBD (3D Object Reconstruction category) dataset <ref type="bibr" target="#b44">[45]</ref> contains indoor sequences framing people and furnitures. We adopt the same split of 1815 images used in <ref type="bibr" target="#b34">[35]</ref> for evaluation purposes only.</p><p>NYUv2. The NYUv2 dataset <ref type="bibr" target="#b45">[46]</ref> is an indoor RGBD dataset acquired with a Microsoft Kinect. It provides more than 400k raw depth frames and 1449 densely labelled frames.</p><p>As for the previous dataset, we adopt the official test split containing 649 images for generalization tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Mapping on Mobile Devices</head><p>Since we aim at mapping single image depth estimation networks on handheld devices, we briefly outline here the steps required to carry out this task. Different tools are available according to both the deep learning framework and the target OS. For instance, with TensorFlow models, weights are processed using tf-coreml converter in case of iOS deployment or TensorFlow Lite converter when targeting an Android device. This conversion is possible seamlessly if the networks consist of standard layers, but it is not straightforward in cases of custom modules (e.g., correlation layers as in monoResMatch <ref type="bibr" target="#b12">[13]</ref>). Although these tools typically enable one to perform weight quantization during the model conversion phase to the target environment, we refrained from applying quantization to maintain the original accuracy of each network. In the experimental results section, we provide execution time mapping the networks on mobile devices following the porting strategy outlined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Experimental Results</head><p>In this section, we thoroughly assess the performances of the considered networks with standard datasets deployed in this field. Since it is different from other methods, FastDepth <ref type="bibr" target="#b29">[30]</ref> was not initially evaluated on KITTI; we carried out a preliminary evaluation of all other networks on said dataset. Then, we trained from scratch the considered networks according to the framework outlined on the Wild dataset, evaluating their generalization ability. Finally, we show how to take advantage of the depth maps inferred by such networks for two applications particularly relevant for mobile devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.1.">Evaluation on KITTI</head><p>At first, we investigate the accuracies of the considered networks on the KITTI dataset. Since the models were developed with different frameworks (PyDNet and DSNet in TensorFlow, the other two in PyTorch) and trained on different datasets (FastDepth on NYU v2 <ref type="bibr" target="#b45">[46]</ref>, others on the Eigen <ref type="bibr" target="#b8">[9]</ref> split KITTI <ref type="bibr" target="#b46">[47]</ref>), we implemented all the networks in PyTorch. This strategy allowed us to adopt the same self-supervised protocol proposed in <ref type="bibr" target="#b25">[26]</ref> to train all the models. This choice is suited for the KITTI dataset, since it exploits stereo sequences, enabling one to achieve the best accuracy. Given two images I and I † , with known intrinsic parameters (K and K † ) and relative pose of the cameras (R, T), the network predicts depth D, allowing one to reconstruct the reference image I from I † :</p><formula xml:id="formula_0">Î = ω(I † , K † , R, T, K, D)<label>(1)</label></formula><p>where ω is a differentiable warping function.</p><p>Then, the difference between Î and I can be used to supervise the network, thereby improving D, without any ground truth. The loss function used in <ref type="bibr" target="#b25">[26]</ref> is composed of a photometric error term p e (2) and an edge-aware regularization term L s .</p><formula xml:id="formula_1">p e (I, Î) = α (1 -SSIM(I, Î)) 2 + (1 -α) I -Î 1 (2) L s = δ x D * t 1 e -δ x I t 1 + δ y D * t 1 e -δ y I t 1 (<label>3</label></formula><formula xml:id="formula_2">)</formula><p>where SSIM is the structure similarity index <ref type="bibr" target="#b49">[50]</ref>, and D * = D/D is the mean normalized inverse depth proposed in <ref type="bibr" target="#b18">[19]</ref>. We adopted the M configuration of <ref type="bibr" target="#b25">[26]</ref> to train all the models. Doing so, given the reference image I t , at training time we also need {I t-1 , I t+1 }, which are respectively the previous and the next frames in the sequence, to leverage the supervision from monocular sequences as well. Purposely, a pose network was trained to estimate relative poses between the frames in the sequencem as in <ref type="bibr" target="#b25">[26]</ref>. Moreover, per-pixel minimum and automask strategies were used to preserve fine details: the former select the best p e among multiple views according to occlusions, while the latter helps to filter out pixels that do not change between frames (e.g., scenes with a non-moving camera or dynamic objects that are moving at the same speed of the camera), thereby breaking the moving camera in a stationary world assumption (more details are provided in the original paper <ref type="bibr" target="#b25">[26]</ref>). Finally, intermediate predictions, when available, are upsampled and optimized at input resolution.</p><p>Considering that all the models have been trained with different configurations on different datasets, we re-trained all the architectures while exploiting the training framework of <ref type="bibr" target="#b25">[26]</ref> for a fair comparison. Specifically, we ran 20 epochs of training for each model, decimating the learning rate after 15, on the Eigen train split of KITTI. We used Adam optimizer <ref type="bibr" target="#b50">[51]</ref>, with an initial learning rate of 10 -4 , and minimized the highest three available scales for all the network except FastDepth, which provided full-resolution (i.e., 640 × 192) predictions only. Since the training framework expects a normalized inverse depth as the output of the network, we replaced the last activation of each architecture (if present) with a sigmoid.</p><p>Table <ref type="table" target="#tab_0">1</ref> summarizes the experimental results of the models tested on the Eigen split of KITTI. The top four rows report the results, if available, provided in the original papers, while last three the accuracy of models re-trained within the framework described so far. This test allows for evaluating the potential of each architecture in fair conditions, regardless of the specific practices, advanced tricks or pre-training deployed in the original works. Not surprisingly, the larger MonoDepth2 model performed better than the three lightweight models, showing non-negligible margins on each evaluation metric when trained in fair conditions. Among th latter, although their performances were comparable, PyDNet was more effective with respect to FastDepth and DSNet for most metrics, such as RMSE and δ &lt; 1.25.</p><p>Figure <ref type="figure" target="#fig_1">2</ref> shows some qualitative results, enabling us to compare depth maps estimated by the four networks considered in our evaluation on a single image from the Eigen test split.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.2.">Evaluation in the Wild</head><p>In the previous section, we assessed the performances of the considered lightweight networks on a data distribution similar to the training one. Unfortunately, this circumstance is seldom found in most practical applications, and typically it is not known in advance where a network will be deployed. Therefore, how can one achieve reliable depth maps in the wild? In Figure <ref type="figure" target="#fig_2">3</ref> we report some qualitative results about original pre-trained networks in different scenarios. Notice that the first two networks have strong constraints about input size (224 × 224 for <ref type="bibr" target="#b29">[30]</ref>, 1024 × 320 for <ref type="bibr" target="#b25">[26]</ref>) that these networks internally apply, imposed by how these models have been trained in their original context. Although this limitation, FastDepth (second column) can predict a meaningful result in an indoor environment (first row), not outdoors though (second row). That is not surprising, since the network was trained on NYUv2, which is an indoor dataset. Monodepth2 <ref type="bibr" target="#b25">[26]</ref> suffers from the same problem, highlighting that this issue is not concerned with the network size (smaller the first, larger the second) or training approach (supervised the first, selfsupervised the second), but it is rather related to the training data. Conversely, MiDaS by Ranftl et al. <ref type="bibr" target="#b16">[17]</ref>, is effective in both situations. Such robustness comes from a mixture of datasets, collecting about 2M frames covering many different scenarios, used to train a large (∼105 M parameters) and very accurate monocular network.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reference</head><p>FastDepth Monodepth2 MiDaS Reference FastDepth Monodepth2 MiDaS We leveraged this latter model to distill knowledge and train lightweight models compatible with mobile devices. As mentioned before, this strategy allowed us to use Mi-DaS knowledge for faster training data generation compared to time-consuming pipelines used to train it, such as COLMAP <ref type="bibr" target="#b51">[52,</ref><ref type="bibr" target="#b52">53]</ref>. Moreover, it allowed us to generate additional training samples and thus a much more scalable training set, potentially from any (single) image. Therefore, in order to train our network using the WILD dataset, we first generated proxy labels with MiDaS for each training image of this dataset, clipping the minimum and maximum between 1st and 99th percentiles, although the latter operation is not strictly required. Then, having obtained such proxy labels, we trained the networks using the following loss function:</p><formula xml:id="formula_3">L(D s x , D gt ) = α l (D s x -D gt ) + α s L g (D s x , D gt )<label>(4)</label></formula><p>where L g is a gradient loss term minimizing the absolute difference between the predicted depth derivatives (in both directions) and proxy depth derivatives, D s x the prediction of the network at scale s (bilinearly upsampled to full resolution) and D gt is the proxy depth. The weight α s depends on the scale s and is halved at each lower scale. On the contrary, α l was fixed and set to 1. Intuitively, the L 1 norm penalizes differences with respect to proxies, while L g helps to preserve sharp edges. We trained the models for 40 epochs, halving the learning rate after 20 and 30, with a batch size of 12 images, with an input size of 640 × 320. We set the initial value of α s to 0.5 for all networks except for FastDepth, which was set to 0.01. To augment the images, we applied random horizontal flip with 0.5 probability. Additionally, for MonoDepth2 and FastDepth, feature upsampling through the nearest neighbour operator in the decoder phase was replaced with bilinear interpolation. These changes were necessary to mitigate some artifacts found in depth estimations inferred by these networks following the training procedure outlined.</p><p>Table <ref type="table" target="#tab_2">2</ref> collects quantitative results on three datasets: TUM <ref type="bibr" target="#b44">[45]</ref> (3D object reconstruction category), KITTI Eigen split <ref type="bibr" target="#b8">[9]</ref> and NYU <ref type="bibr" target="#b45">[46]</ref>. For each dataset, we first show the results achieved by large and complex networks, MiDaS <ref type="bibr" target="#b16">[17]</ref>, and the model by Li et al. <ref type="bibr" target="#b34">[35]</ref> (using the single frame version), both trained in the wild on a large variety of data. The table also reports results achieved by the four networks considered in our work trained on the WILD dataset, exploiting knowledge distillation from MiDaS. We adopted the same protocol defined in <ref type="bibr" target="#b16">[17]</ref> to obtain depths at the same scale of ground truth values from predictions. First and foremost, we highlight how MiDaS performs in general better than <ref type="bibr" target="#b34">[35]</ref>, emphasizing the reason to distill knowledge from it. Considering lightweight, compact models, for PyDNet, DSNet and FastDepth we can notice that the margin between them and MiDaS is often non-negligible. A similar behavior occurs for the significantly more complex network MonoDepth2, despite being in general more accurate than other more compact networks, except on KITTI, where it turned out less accurate when trained in the wild. However, considering the massive gap in terms of computational efficiency between compact networks and MiDaS analyzed later, and that MiDaS is not suited at all for real-time inference on the target devices, the outcome reported in Table <ref type="table" target="#tab_2">2</ref> is not so surprising.</p><p>PyDNet was the best model on KITTI when trained in the wild, and also achieved the second-best accuracy on NYU, with minor drops on TUM. Finally, DSNet and FastDepth achieved average performance in general, never resulting in the best on any dataset.</p><p>Figure <ref type="figure" target="#fig_3">4</ref> shows some qualitative examples of depth maps processed from Internet pictures by MegaDepth <ref type="bibr" target="#b53">[54]</ref>, the model by Li et al. <ref type="bibr" target="#b34">[35]</ref>, MiDaS <ref type="bibr" target="#b16">[17]</ref> and the networks trained through knowledge distillation. Finally, in Figure <ref type="figure" target="#fig_4">5</ref>, we report some example of failure cases of MiDaS (in the middle column) inherited by student networks. Since both networks failed, the problem is not attributable to their different architectures. Observing the figure, we can notice that such behavior occurs in very ambiguous scenes, such as when dealing with mirrors or flat surfaces with content aimed at inducing optical illusions in the observers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reference</head><p>MiDaS PyDNet </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.3.">Performance Analysis on Mobile Devices</head><p>Once training the considered architectures on the WILD dataset, the stored weights can be converted into mobile-friendly models using tools provided by deep learning frameworks. Moreover, as previously specified, in our experiments, we performed only model conversion, while avoiding weight quantization so as not to alter the accuracy of the original network.</p><p>Table <ref type="table" target="#tab_3">3</ref> collects stats about the considered networks. Specifically, we report the number of multiply-accumulate operations (MAC) and the frame rate (FPS) measured when deploying the converted models on an Apple iPhone XS. Measurements were gathered from processing 640 × 384 images and averaging over 50 consecutive inferences. To the best of our ability, all the models could run on the iPhone NPU except for MiDaS, which was not able in our tests to leverage such accelerator. On top of that, we report the performance achieved by MiDaS, showing that it requires about 5 s on a smartphone to process a single depth map, performing about 170 billion operations. This evidence highlights how, despite being far more accurate, as shown before, this vast network is not suited at all for real-time processing on mobile devices. Moving on to more compact models, we can notice how MonoDepth2 reaches nearly 10 FPS, performing one order of magnitude fewer operations. DSNet and PyDNet both perform about 9 billion operations, but the latter allows for much faster inference, at close to 60 FPS, and is about 6 times faster than previous models. Since the number of operations was almost the same for DSNet and PyDNet, we ascribe this performance discrepancy to the low-level optimization of some specific modules. Finally, FastDepth performed three times fewer operations, yet ran slightly slower than PyDNet when deployed with the same degree of optimization as the other networks on the iPhone XS.</p><p>Summarizing the performance analysis reported in this section and the previous accuracy assessment concerning the deployment of single image depth estimation in the wild, our experiments highlight PyDNet as the best trade-off between accuracy and speed when targeting handheld devices.</p><p>A video showing the deployment of PyDNet with an iPhone XS framing an urban environment is available at https://www.youtube.com/watch?v=LRfGablYZNw. At the following link is also available a PyDNet web demo with client-side inference carried out by TensorFlow JS: filippoaleotti.github.io/demo_live. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Applications of Single Image Depth Estimation</head><p>We assessed the performances of the networks. We present two well-known applications that can significantly take advantage of dense single image depth estimation. For these experiments, we used the PyDNet model trained on the WILD dataset, as described in previous sections.</p><p>Bokeh effect. The first application consists of a bokeh filter, aimed at blurring an image according to the distance from the camera. More precisely, in our implementation, given a threshold τ, all the pixels with a relative inverse depth smaller than τ are blurred by a 25 × 25 Gaussian kernel. In Figure <ref type="figure" target="#fig_5">6</ref>, we show the bokeh effect appliedto single images sampled from the web, for which neither stereo pairs nor video sequences are available.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reference</head><p>PyDNet output Bokeh Augmented reality with depth-aware occlusion handling. Modern augmented reality (AR) frameworks for smartphones allow robust and consistent integration of virtual objects on flat areas using camera tracking with respect to fixed a reference system located in an anchor point. This goal is achieved by matching sparse feature points and taking advantage of the sensor suite (comprising accelerometers, gyroscope, etcetera) available on mobile devices. An additional outcome of this process is a number of sparse depth measurements appropriately scaled. The leftmost image of Figure <ref type="figure" target="#fig_6">7</ref> illustrates the standard output and reference system of a standard AR framework. To realize our improved AR application, we move first sparse depth measurements into the inverse depth domain (second image from the left). Then, we obtain the shift and scale factor that maps such sparse points and corresponding predictions picked by the dense inverse map provided to the network by robustly regressing a linear model within a RANSAC framework, as illustrated in the chart. Finally, we scale the dense inverse map accordingly before turning back into the depth domain (respectively, the two rightmost maps) to render virtual objects consistent with the inferred geometry of the scene.</p><p>However, these frameworks miserably fail when the scene contains occluding objects protruding from the flat surfaces. Therefore, in AR scenarios, dense depth estimation is paramount to handle properly physic interactions with the real world, such as occlusions. Although some authors proposed densifying the sparse depth measurements provided by AR frameworks, it is worth observing that dynamic objects or other factors in the sensed scene may lead to incorrect depth estimations <ref type="bibr" target="#b54">[55]</ref>.</p><p>On the other hand, we argue that single image depth estimation may enable full perception of the scene suited for many real-world use cases, while potentially avoiding at all the issues outlined so far. The only remaining issue, concerned with the unknown scale factor intrinsic in a monocular system, can be robustly addressed leveraging the sparse absolute depth measurements provided by standard AR framework. Purposely, we developed a mobile application capable of handling in real-time object occlusions by combining sparse clues provided by standard AR frameworks, such as ARCore or ARKit, to scale accordingly at each frame the dense depth prediction provided by a lightweight monocular network. To achieve this goal, at first, we convert the sparse absolute depth measurements inferred by the AR framework into inverse depths to be compliant with the output domain of the monocular network, encoding an inverse depth up to a scale factor. Then, within a RANSAC framework, we regress the parameters of a linear model enabling to scale the whole network's output according to the sparse yet scaled inverse depth predictions. Finally, we turn inverse depths into depths, obtaining absolute depth predictions enabling rendering of virtual objects consistent with the geometry of the scene. The overall pipeline outlined is illustrated in Figure <ref type="figure" target="#fig_6">7</ref>.</p><p>Differently from other approaches, such as <ref type="bibr" target="#b54">[55,</ref><ref type="bibr" target="#b55">56]</ref>, our networks do not require SLAM points to infer dense depth maps, nor a fine-tuning of the network on the input video data. In our case, a single image and at least two points in scale suffice to obtain absolute dense depth perception. Consequently, we do not rely on other techniques (e.g., optical flow or edge localization) in our whole pipeline for AR. Nevertheless, it can be noticed in Figure <ref type="figure" target="#fig_7">8</ref> how our strategy coupled with PyDNet can produce competitive and detailed depth maps leveraging a single RGB image only. Figure <ref type="figure" target="#fig_8">9</ref> shows some qualitative examples of an AR application, i.e., visualization of a virtual duck in the observed scene. Once positioned on a surface, we can notice how foreground elements do not correctly hide it without proper occlusion handling. In contrast, our strategy allows for a more realistic experience, thanks to the dense and robust depth map inferred by PyDNet and sparse anchors provided by a conventional AR framework. A video concerning two different sequences is available at this link: https://www.youtube.com/watch?v=DQPmNpMcF9Q.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="10.">Conclusions</head><p>This paper proposed a strategy to achieve robust monocular depth estimation on lightweight handheld devices characterized by severe constraints concerning power consumption and computational resources. To achieve this goal, at first, we proposed a strategy to distill from a set of single still images the knowledge from a pre-trained state-of-the-art robust network unsuited for real-time performance yet capable of generalizing very well to new environments. Following this strategy, we trained and evaluated lightweight, state-ofthe-art monocular depth estimation networks capable of achieving real-time performance even on mobile devices. Our exhaustive evaluation highlights that robust and real-time depth estimation in the wild from a single image is feasible on consumer devices by adopting the framework outlined in this paper. As further proof of this achievement, we have shown its deployment in two relevant well-known consumer applications. As a future research direction, we plan to exploit temporal consistency enforceable when processing in video sequences to tackle more robustly ambiguous scenes, such as those depicted in the failure cases depicted in the paper, and improve accuracy.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Depth perception in the wild with a mobile application. Single image depth perception in the wild at nearly 60 FPS with an iPhone XS and the PyDNet [6] network.</figDesc><graphic coords="2,167.27,408.15,384.16,152.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Qualitative results on KITTI. All the models have been trained equally using the framework of [26] on the Eigen split of KITTI.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Predictions in the wild. We provide qualitative results for indoor and outdoor Internet images. For each network, we used the checkpoints publicly available. It can be noticed how the networks trained on a single dataset, both in a supervised (FastDepth) and self-supervised (Monodepth2), are not able to generalize well on a different setup. On the contrary, the network trained on various datasets (MiDaS) produced better results. Images from Pexels https://www.pexels.com/.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Qualitative results from Internet photos. From left to right, the reference image from Pexels website, and depths from MegaDepth<ref type="bibr" target="#b53">[54]</ref>, Mannequin<ref type="bibr" target="#b34">[35]</ref>, MiDaS<ref type="bibr" target="#b16">[17]</ref>, PyDNet, DSNet, FastDepth and MonoDepth2.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Failure cases. Examples of failure cases of single image depth estimation. From left to right: input image, depth predicted by the teacher and depth predicted by the student.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Bokeh effect. Given the reference image, we smooth farther pixels in the image using depth values provided by PyDNet.</figDesc><graphic coords="12,168.47,576.37,78.40,52.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Augmented Reality (AR) pipeline. The leftmost figure depicts an object (green box) framed by a device (yellow box) capable of providing sparse absolute depth points (in purple) through the AR framework and a dense inverse depth map thanks to the monocular network. To realize our improved AR application, we move first sparse depth measurements into the inverse depth domain (second image from the left). Then, we obtain the shift and scale factor that maps such sparse points and corresponding predictions picked by the dense inverse map provided to the network by robustly regressing a linear model within a RANSAC framework, as illustrated in the chart. Finally, we scale the dense inverse map accordingly before turning back into the depth domain (respectively, the two rightmost maps) to render virtual objects consistent with the inferred geometry of the scene.</figDesc><graphic coords="13,167.27,95.49,333.21,83.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Qualitative comparison with other occlusion-aware AR methods. From left to right, the input image; the depths from [55] and PyDNet predictions.</figDesc><graphic coords="14,168.27,262.44,117.60,58.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. AR with occlusion handling. On the left, vanilla AR enabled by an Android device with ARCore. On the right, instead, our depth-aware AR enabled by single image depth prediction with PyDNet for occlusion handling.</figDesc><graphic coords="14,168.27,324.83,117.60,58.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Quantitative results on Eigen split. † indicates models trained according to<ref type="bibr" target="#b25">[26]</ref> training framework, otherwise we report results provided in each original paper.</figDesc><table><row><cell>Lower</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>is Better Higher is Better Network Abs Rel Sq Rel RMSE log RMSE δ &lt;1.25 δ &lt; 1.25 2 δ &lt; 1.25 3</head><label></label><figDesc></figDesc><table><row><cell>PyDNet</cell><cell>0.153</cell><cell>1.363</cell><cell>6.030</cell><cell>0.252</cell><cell>0.789</cell><cell>0.918</cell><cell>0.963</cell></row><row><cell>FastDepth</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>DSNet</cell><cell>0.130</cell><cell>0.909</cell><cell>5.022</cell><cell>0.207</cell><cell>0.842</cell><cell>0.948</cell><cell>0.979</cell></row><row><cell>MonoDepth2  †</cell><cell>0.132</cell><cell>1.044</cell><cell>5.142</cell><cell>0.210</cell><cell>0.845</cell><cell>0.948</cell><cell>0.977</cell></row><row><cell>PyDNet †</cell><cell>0.154</cell><cell>1.307</cell><cell>5.556</cell><cell>0.229</cell><cell>0.812</cell><cell>0.932</cell><cell>0.970</cell></row><row><cell>FastDepth †</cell><cell>0.156</cell><cell>1.260</cell><cell>5.628</cell><cell>0.231</cell><cell>0.801</cell><cell>0.930</cell><cell>0.971</cell></row><row><cell>DSNet †</cell><cell>0.159</cell><cell>1.272</cell><cell>5.593</cell><cell>0.233</cell><cell>0.800</cell><cell>0.932</cell><cell>0.971</cell></row><row><cell cols="3">Reference image MonoDepth2</cell><cell>PyDNet</cell><cell></cell><cell>FastDepth</cell><cell></cell><cell>DSNet</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Evaluation of generalization capability. The three groups from top to bottom report experimental results concerning, respectively, (top) TUM dataset, (middle) KITTI Eigen and (bottom) NYUv2.</figDesc><table><row><cell>Lower Is Better</cell><cell>Higher Is Better</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Performance on smartphones. We measure both the number of multiply-accumulate operations (MAC) and the FPS of monocular networks on an iPhone XS, using an input size of 640 × 384, averaged on 50 inferences.</figDesc><table><row><cell>Network</cell><cell>MAC (G)</cell><cell>FPS</cell></row><row><cell>MiDaS</cell><cell>172.4</cell><cell>0.20</cell></row><row><cell>MonoDepth2</cell><cell>16.01</cell><cell>9.94</cell></row><row><cell>DSNet</cell><cell>9.48</cell><cell>11.05</cell></row><row><cell>PyDNet</cell><cell>9.25</cell><cell>58.86</cell></row><row><cell>FastDepth</cell><cell>3.61</cell><cell>50.31</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments:</head><p>We gratefully acknowledge the support of <rs type="institution">NVIDIA Corporation</rs> with the donation of the Titan Xp GPU used for this research.</p></div>
+			</div>
+			<div type="funding">
+<div><p>Funding: This research received no external funding.</p><p>Informed Consent Statement: Not applicable.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: Data available in a publicly accessible repository.</p><p>Sensors 2021, <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b14">15</ref> </p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author Contributions: Conceptualization, F.A., M.P., F.T. and S.M.; data curation and F.A.; investigation, F.A., M.P., F.T. and S.M.; methodology, F.A., G.Z. and L.B.; software, F.A., G.Z. and L.B.; supervision, M.P., F.T. and S.M.; writing-original draft, F.A. and M.P.; writing-review and editing, F.T. and S.M. All authors have read and agreed to the published version of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="15,39.36,165.56,521.48,8.74" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Vision meets Robotics: The KITTI Dataset</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Geiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Urtasun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Robot. Res. (IJRR)</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1231" to="1237" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,39.36,188.69,519.91,8.63;15,57.52,200.20,428.27,8.63" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Geiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Urtasun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Providence, RI, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012-06">June 2012</date>
+			<biblScope unit="page" from="16" to="21" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,39.36,211.59,469.14,8.74" xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lucey</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2001.10090</idno>
+		<title level="m">Deep nrsfm++: Towards 3d reconstruction in the wild</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,39.36,223.21,519.92,8.63;15,57.52,234.60,314.50,8.74" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">In the wild image retrieval and clustering for 3D cultural heritage landmarks reconstruction</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Makantasis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Doulamis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Doulamis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ioannides</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11042-014-2191-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Multimed. Tools Appl</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="3593" to="3629" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,39.36,246.11,521.04,8.74;15,57.52,257.62,113.75,8.74" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Human pose estimation method based on single depth image</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xie</surname></persName>
+		</author>
+		<idno type="DOI">10.1049/iet-cvi.2017.0536</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IET Comput. Vis</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="919" to="924" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,39.36,269.24,519.91,8.63;15,57.52,280.75,502.88,8.63;15,57.25,292.25,58.39,8.63" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Towards Real-Time Unsupervised Monocular Depth Estimation on CPU</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Aleotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mattoccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</title>
+		<meeting>the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)<address><addrLine>Madrid, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-10-05">1-5 October 2018</date>
+			<biblScope unit="page" from="5848" to="5854" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,39.36,303.64,521.04,8.74;15,57.52,315.15,156.00,8.74" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Make3d: Learning 3d scene structure from a single still image</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saxena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Ng</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TPAMI.2008.132</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="824" to="840" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,39.36,326.77,519.91,8.63;15,57.52,338.28,296.21,8.63" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Pulling things out of perspective</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ladicky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pollefeys</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition<address><addrLine>Columbus, OH, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014-06">June 2014</date>
+			<biblScope unit="page" from="89" to="96" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,39.36,349.79,519.91,8.63;15,57.52,361.29,464.36,8.63" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Depth map prediction from a single image using a multi-scale deep network</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Eigen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Puhrsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fergus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Advances in Neural Information Processing Systems</title>
+		<meeting>the Advances in Neural Information Processing Systems<address><addrLine>Montreal, QC, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014-12">December 2014</date>
+			<biblScope unit="page" from="2366" to="2374" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,372.80,515.80,8.63;15,57.52,384.31,503.33,8.63" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Deeper Depth Prediction with Fully Convolutional Residual Networks</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Laina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rupprecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Belagiannis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tombari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Navab</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fourth International Conference on 3D Vision (3DV 2016)</title>
+		<meeting>the Fourth International Conference on 3D Vision (3DV 2016)<address><addrLine>Stanford, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016-10">October 2016</date>
+			<biblScope unit="page" from="25" to="28" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,395.70,515.80,8.74;15,57.24,407.21,196.88,8.74" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Learning depth from single images with deep neural network embedding focal length</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TIP.2018.2832296</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Image Process</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="4676" to="4689" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,418.83,515.80,8.63;15,57.52,430.33,453.51,8.63" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Unsupervised Monocular Depth Estimation with Left-Right Consistency</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Godard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Mac Aodha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Brostow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Honolulu, HI, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017-07">July 2017</date>
+			<biblScope unit="page" from="21" to="26" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,441.84,515.80,8.63;15,57.52,453.35,503.33,8.63" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Learning monocular depth estimation infusing traditional stereo knowledge</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Aleotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mattoccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Long Beach, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-06">June 2019</date>
+			<biblScope unit="page" from="16" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,464.86,515.81,8.63;15,57.52,476.36,434.31,8.63" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Self-Supervised Monocular Depth Hints</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Firman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Brostow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Turmukhambetov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)</title>
+		<meeting>the IEEE/CVF International Conference on Computer Vision (ICCV)<address><addrLine>Seoul, Korea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-11-02">27 October-2 November 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,487.87,517.30,8.63;15,57.52,499.38,502.88,8.63;15,57.52,510.88,134.29,8.63" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Deep virtual stereo odometry: Leveraging deep depth prediction for monocular direct sparse odometry</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stuckler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 15th European Conference on Computer Vision (ECCV)</title>
+		<meeting>the 15th European Conference on Computer Vision (ECCV)<address><addrLine>Munich, Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-09">September 2018</date>
+			<biblScope unit="page" from="817" to="833" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,522.39,515.81,8.63;15,57.52,533.90,501.76,8.63;15,57.22,545.40,223.21,8.63" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Enhancing self-supervised monocular depth estimation with traditional visual odometry</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Andraghetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Myriokefalitakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Dovesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Luque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pieropan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mattoccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th International Conference on 3D Vision (3DV)</title>
+		<meeting>the 7th International Conference on 3D Vision (3DV)<address><addrLine>Quebec City, QC, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-09-19">16-19 September 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,556.91,515.98,8.63;15,57.52,568.30,242.07,8.74" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Towards robust monocular depth estimation: Mixing datasets for zero-shot cross-dataset transfer</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ranftl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lasinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hafner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schindler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Koltun</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1907.01341</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,579.92,515.80,8.63;15,57.52,591.43,443.39,8.63" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Unsupervised Learning of Depth and Ego-Motion From Video</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Snavely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Lowe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Honolulu, HI, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017-07">July 2017</date>
+			<biblScope unit="page" from="21" to="26" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,602.94,515.80,8.63;15,57.52,614.45,502.88,8.63;15,57.25,625.95,58.39,8.63" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Learning depth from monocular videos using direct methods</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miguel Buenaposada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lucey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Salt Lake City, UT, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-06">June 2018</date>
+			<biblScope unit="page" from="2022" to="2030" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,637.46,515.80,8.63;15,57.52,648.97,502.88,8.63;15,57.52,660.47,104.41,8.63" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mahjourian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Angelova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Salt Lake City, UT, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-06">June 2018</date>
+			<biblScope unit="page" from="18" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,671.98,515.80,8.63;15,57.52,683.49,426.08,8.63" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Salt Lake City, UT, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-06">June 2018</date>
+			<biblScope unit="page" from="18" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,694.99,515.80,8.63;15,57.52,706.50,493.90,8.63" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">DF-Net: Unsupervised Joint Learning of Depth and Flow using Cross-Task Consistency</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision (ECCV)</title>
+		<meeting>the European Conference on Computer Vision (ECCV)<address><addrLine>Munich, Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-09">September 2018</date>
+			<biblScope unit="page" from="817" to="833" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,718.01,515.80,8.63;15,57.52,729.51,502.88,8.63;15,57.52,741.02,118.73,8.63" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Self-Supervised Learning with Geometric Constraints in Monocular Video: Connecting Flow, Depth, and Camera</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sminchisescu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)</title>
+		<meeting>the IEEE/CVF International Conference on Computer Vision (ICCV)<address><addrLine>Seoul, Korea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-11-02">27 October-2 November 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,43.47,752.53,516.92,8.63;15,57.52,764.03,501.76,8.63;15,57.52,775.54,241.25,8.63" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Competitive collaboration: Joint unsupervised learning of depth, camera motion, optical flow and motion segmentation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Anurag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jampani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wulff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Black</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Long Beach, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-06">June 2019</date>
+			<biblScope unit="page" from="16" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,99.36,515.80,8.63;16,57.52,110.86,502.88,8.63;16,57.19,122.37,217.64,8.63" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Distilled Semantics for Comprehensive Scene Understanding from Videos</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Aleotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zama Ramirez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Salti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Di Stefano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mattoccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Virtual Conference</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Virtual Conference<address><addrLine>Seattle, WA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2020-06">June 2020</date>
+			<biblScope unit="page" from="14" to="19" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,133.88,515.80,8.63;16,57.52,145.38,503.33,8.63" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Digging into self-supervised monocular depth estimation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Godard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Mac Aodha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Firman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Brostow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)</title>
+		<meeting>the IEEE/CVF International Conference on Computer Vision (ICCV)<address><addrLine>Seoul, Korea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-11-02">27 October-2 November 2019</date>
+			<biblScope unit="page" from="3828" to="3838" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,156.89,515.80,8.63;16,57.52,168.40,396.31,8.63" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">How Do Neural Networks See Depth in Single Images?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Dijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Croon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)</title>
+		<meeting>the IEEE/CVF International Conference on Computer Vision (ICCV)<address><addrLine>Seoul, Korea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-11-02">27 October-2 November 2019</date>
+			<biblScope unit="page" from="2183" to="2191" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,179.90,515.80,8.63;16,57.52,191.29,363.84,8.74" xml:id="b27">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kalenichenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weyand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andreetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mobilenets</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1704.04861</idno>
+		<title level="m">Efficient convolutional neural networks for mobile vision applications</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,202.92,515.80,8.63;16,57.52,214.31,237.89,8.74" xml:id="b28">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Der Maaten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Q</forename><surname>Weinberger</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1810.11408</idno>
+		<title level="m">Anytime Stereo Image Depth Estimation on Mobile Devices. arXiv</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,225.93,515.80,8.63;16,57.52,237.44,503.14,8.63" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Fast Monocular Depth Estimation on Embedded Systems</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Diana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sze</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fastdepth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</title>
+		<meeting>the IEEE International Conference on Robotics and Automation (ICRA)<address><addrLine>Montreal, QC, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-05">May 2019</date>
+			<biblScope unit="page" from="20" to="24" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,248.94,515.81,8.63;16,57.52,260.45,494.94,8.63" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Learning Single Camera Depth Estimation using Dual-Pixels</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Garg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wadhwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ansari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Barron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)</title>
+		<meeting>the IEEE/CVF International Conference on Computer Vision (ICCV)<address><addrLine>Seoul, Korea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-11-02">27 October-2 November 2019</date>
+			<biblScope unit="page" from="7628" to="7637" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,270.06,515.81,10.53;16,57.52,283.35,182.55,8.74" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Du 2 Net: Learning Depth Estimation from Dual-Cameras and Dual-Pixels</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wadhwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Orts-Escolano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Häne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fanello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Garg</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2003.14299</idno>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,294.97,515.81,8.63;16,57.52,306.48,502.89,8.63;16,57.07,317.99,78.72,8.63" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Matterport3D: Learning from RGB-D Data in Indoor Environments</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Funkhouser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Halber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niessner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Savva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on 3D Vision (3DV)</title>
+		<meeting>the International Conference on 3D Vision (3DV)<address><addrLine>Qingdao, China</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017-10">October 2017</date>
+			<biblScope unit="page" from="10" to="12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,329.49,516.92,8.63;16,57.17,341.00,297.31,8.63" xml:id="b33">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vasiljevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kolkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Z</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Daniele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mostajabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Basart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Walter</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1908.00463</idno>
+		<title level="m">A Dense Indoor and Outdoor DEpth Dataset</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,352.51,515.80,8.63;16,57.25,364.01,503.15,8.63;16,57.25,375.52,58.39,8.63" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Learning the depths of moving people by watching frozen people</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dekel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Snavely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Freeman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition<address><addrLine>Long Beach, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-06">June 2019</date>
+			<biblScope unit="page" from="4521" to="4530" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,387.03,515.80,8.63;16,57.52,398.53,435.32,8.63" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Learning monocular depth by distilling cross-domain stereo networks</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision (ECCV)</title>
+		<meeting>the European Conference on Computer Vision (ECCV)<address><addrLine>Salt Lake City, UT, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-06">June 2018</date>
+			<biblScope unit="page" from="484" to="500" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,410.04,515.80,8.63;16,57.52,421.55,503.17,8.63" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">On the uncertainty of self-supervised monocular depth estimation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Aleotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mattoccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Virtual Conference</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Virtual Conference<address><addrLine>Washington, DC, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2020-06">June 2020</date>
+			<biblScope unit="page" from="14" to="19" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,433.05,517.30,8.63;16,57.52,444.45,501.76,8.74;16,57.07,456.07,79.03,8.63" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Automatic differentiation in PyTorch</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paszke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chintala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Devito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Desmaison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Antiga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lerer</surname></persName>
+		</author>
+		<ptr target="https://openreview.net/forum?id=BJJsrmfCZ" />
+		<imprint>
+			<date type="published" when="2017-11-15">2017. 15 November 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,467.58,516.93,8.63;16,57.52,479.08,501.76,8.63;16,57.52,490.59,281.04,8.63" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Agarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brevdo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Citro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Devin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 12th USENIX conference on Operating Systems Design and Implementation</title>
+		<meeting>the 12th USENIX conference on Operating Systems Design and Implementation<address><addrLine>Savannah, GA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016-11-04">2-4 November 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,502.10,515.81,8.63;16,57.52,513.49,242.13,8.74" xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chirkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ignasheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pisarchyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Riccardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sarokin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kulik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grundmann</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1907.01989</idno>
+		<title level="m">On-device neural net inference with mobile gpus</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,525.11,515.80,8.63;16,57.52,536.62,385.21,8.63" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Deep residual learning for image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition<address><addrLine>Las Vegas, NV, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016-07-01">26 June-1 July 2016</date>
+			<biblScope unit="page" from="770" to="778" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,548.12,515.80,8.63;16,57.52,559.63,490.88,8.63" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Imagenet: A large-scale hierarchical image database</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Socher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fei-Fei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2009 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the 2009 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Miami, FA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009-06">June 2009</date>
+			<biblScope unit="page" from="248" to="255" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,571.02,515.80,8.74;16,57.24,582.53,444.71,8.74" xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Enabling Energy-Efficient Unsupervised Monocular Depth Estimation on ARMv7-Based Platforms</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Peluso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cipolletta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Calimera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mattoccia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>IEEE</publisher>
+			<pubPlace>Europe (DATE; Florence, Italy</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,594.15,516.05,8.63;16,57.52,605.66,502.89,8.63;16,57.52,617.17,136.58,8.63" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Netadapt: Platform-aware neural network adaptation for mobile applications</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Go</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Adam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision (ECCV)</title>
+		<meeting>the European Conference on Computer Vision (ECCV)<address><addrLine>Munich, Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-09">September 2018</date>
+			<biblScope unit="page" from="285" to="300" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,628.67,515.80,8.63;16,57.52,640.18,501.94,8.63;16,57.52,651.69,71.84,8.63" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A benchmark for the evaluation of RGB-D SLAM systems</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sturm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Engelhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Endres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Burgard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems</title>
+		<meeting>the 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems<address><addrLine>Algarve, Portugal</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012-10">October 2012</date>
+			<biblScope unit="page" from="573" to="580" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,663.19,515.80,8.63;16,57.52,674.70,354.32,8.63" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Indoor Segmentation and Support Inference from RGBD Images</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Silberman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Derek Hoiem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fergus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision (ECCV)</title>
+		<meeting>the European Conference on Computer Vision (ECCV)<address><addrLine>Florence, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012-10">October 2012</date>
+			<biblScope unit="page" from="7" to="13" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,686.21,515.81,8.63;16,57.52,697.71,250.87,8.63" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Object Scene Flow for Autonomous Vehicles</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Menze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Geiger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Boston, MA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-06">June 2015</date>
+			<biblScope unit="page" from="7" to="12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,709.22,515.80,8.63;16,57.52,720.73,503.20,8.63" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Microsoft coco: Common objects in context</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Belongie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Perona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ramanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dollár</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Zitnick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision</title>
+		<meeting>the European Conference on Computer Vision<address><addrLine>Zurich, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014-09">September 2014</date>
+			<biblScope unit="page" from="740" to="755" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.47,732.23,517.37,8.63;16,57.52,743.74,503.32,8.63;16,57.52,755.25,311.47,8.63" xml:id="b48">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Krasin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Duerig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alldrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ferrari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abu-El-Haija</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kuznetsova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Uijlings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Popov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kamali</surname></persName>
+		</author>
+		<ptr target="https://storage.googleapis.com/openimages/web/index.html" />
+		<title level="m">OpenImages: A Public Dataset for Large-Scale Multi-Label and Multi-Class Image Classification</title>
+		<imprint>
+			<date type="published" when="2017-12-21">21 December 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.47,99.24,515.80,8.74;17,56.97,110.75,237.52,8.74" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Image quality assessment: From error visibility to structural similarity</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Bovik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Sheikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Simoncelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TIP.2003.819861</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Image Process</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="600" to="612" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.47,122.37,515.80,8.63;17,57.52,133.88,213.60,8.63" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">A Method for Stochastic Optimization</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kingma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ba</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Adam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Learning Representations</title>
+		<meeting>the International Conference on Learning Representations<address><addrLine>Banff, AB, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014-04">April 2014</date>
+			<biblScope unit="page" from="14" to="16" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.47,145.38,515.80,8.63;17,57.52,156.89,278.24,8.63" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Structure-from-Motion Revisited</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Schönberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Frahm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the Conference on Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Las Vegas, NV, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016-07-01">26 June-1 July 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.47,168.40,517.29,8.63;17,57.52,179.90,412.06,8.63" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Pixelwise View Selection for Unstructured Multi-View Stereo</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Schönberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pollefeys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Frahm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision (ECCV)</title>
+		<meeting>the European Conference on Computer Vision (ECCV)<address><addrLine>Las Vegas, NV, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016-07-01">26 June-1 July 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.47,191.41,515.98,8.63;17,57.19,202.92,323.60,8.63" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Learning Single-View Depth Prediction from Internet Photos</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Snavely</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Megadepth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Computer Vision and Pattern Recognition (CVPR)</title>
+		<meeting>the Computer Vision and Pattern Recognition (CVPR)<address><addrLine>Salt Lake City, UT, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-06">June 2018</date>
+			<biblScope unit="page" from="18" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.47,214.31,517.37,8.74;17,57.52,225.93,205.90,8.63" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Fast Depth Densification for Occlusion-aware Augmented Reality</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kopf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics (Proc. SIGGRAPH Asia</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>ACM</publisher>
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.47,237.32,515.80,8.74;17,57.52,248.94,219.96,8.63" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Consistent Video Depth Estimation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Szeliski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kopf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>ACM</publisher>
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

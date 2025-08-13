@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Open Biomedical Engineering Journal</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Kriangkrai</forename><surname>Tassanavipas</surname></persName>
+							<email>kriangkrai.t@mail.kmutt.ac.th</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Field Robotics</orgName>
+								<orgName type="institution">King Mongkut&apos;s University of Technology Thonburi</orgName>
+								<address>
+									<settlement>Bangkok</settlement>
+									<country key="TH">Thailand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Suriya</forename><surname>Natsupakpong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Field Robotics</orgName>
+								<orgName type="institution">King Mongkut&apos;s University of Technology Thonburi</orgName>
+								<address>
+									<settlement>Bangkok</settlement>
+									<country key="TH">Thailand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Field Robotics</orgName>
+								<orgName type="institution">King Mongkut&apos;s University of Technology Thonburi</orgName>
+								<address>
+									<settlement>Bangkok</settlement>
+									<country key="TH">Thailand</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Open Biomedical Engineering Journal</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7100EE16434CFF6FE4B8541837CE8780</idno>
+					<idno type="DOI">10.2174/1874120702014010055</idno>
+					<note type="submission">Received: May 12, 2020 Revised: September 06, 2020 Accepted: September 30, 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Archimedes&apos; principle</term>
+					<term>Image processing technique</term>
+					<term>Pixel reading</term>
+					<term>Wound measurement</term>
+					<term>3D-scanner</term>
+					<term>Body surface area. Article History</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aim:</head><p>To build wounds volume(3D) and area(2D) measuring system and device.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background:</head><p>The measurement of the wound depth has been troublesome due to difficulty fo the procedures, physicians mostly avoid inspecting the wound depth as it could cause wound inflammation and infection.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="595.28" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>In order to determine the most appropriate treatment of a wound, the precise characteristics of the wound, including the Visitrak films, and 2D camera <ref type="bibr" target="#b7">[4]</ref>. Diagnosing the wound at its depth is generally avoided as direct contact between tools and the wound might cause inflammation. Unfortunately, there have been cases in which physicians decided to opt-out of the current treatment although it has been effective as the recovery was not visible on the surface.</p><p>Apart from not being able to diagnose the wound at depth, other challenges lie in the process of wound treatment. In terms of data management, data generated during the treatment processes are manually recorded on paper or separately saved as electronic files. Some operational parameters, such as the amount of lactated Ringer's solution needed for the burns, are partly sight-estimated based on the wound surface area. Moreover, past treatment records are stored in various forms in different systems, thus making it difficult to compare past records to observe changes over time.</p><p>Our research and development attempts aim at inventing an integrated solution to facilitate the physician's workflow of wound treatment. This covers the process of measuring wound volume, determining treatment, handling data electronically, and presenting associated data in proper forms. Our proposed solution integrates a newly invented machine that can accurately measure the wound size and volume, and a software that collects, analyses, and presents data essential in the treatment process. Specifically, the software also calculates certain operational parameters used in the treatment, instead of relying on sight estimation. The design of the wound measuring machine is presented in our previous work <ref type="bibr" target="#b9">[5]</ref>, while the software platform and user interface design can be found in a separate article <ref type="bibr" target="#b11">[6]</ref>.</p><p>This paper presents the manifestation of the proposed machine design, integrated successfully with the proposed software solution. To the best of our understanding, this is the first machine that allows contactless estimation of wound volume with satisfactory accuracy. The system was tested against simulated wounds of various shapes, both regular and irregular, in order to verify its measurement accuracy. The test showed that our system is approximately 90 percent accurate compared to Archimedes' principle <ref type="bibr" target="#b13">[7]</ref> for measuring object volume. The system was found to be useful for simplifying wound treatment workflow, especially in terms of contactless wound measurement, result accuracy, as well as data synthesis and visualization.</p><p>The paper is organized as follows. Section 2 outlines various traditional methods for wound measurement. Section 3 explains the digital image processing technique. Section 4 describes the design of our hardware. The next section discusses the software design and our approach to calculate the amount of lactated Ringer's solution needed for the burn. Section 6 presents the workflow of "WoundCal" programs designed to estimate the area and volume of the wound followed by the experimental design to test the estimation accuracy and the results. The paper ends with conclusions and suggestions for future work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Traditional Wound Measurement</head><p>This section outlines the general methods used for measuring wound volume <ref type="bibr" target="#b7">[4]</ref> and then rationalizes the choice of our hardware design solution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1.">Using a Ruler</head><p>A common way to measure its width and depth is using a ruler and a cotton-tip applicator to calculate wound volume. The volume is then estimated by multiplying the widest width of the wound with the longest length and the deepest depth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.2.">Using a Visitrak Film</head><p>The error found in the first method can be reduced by using a Visitrak film, a tablet transparent film for measuring wound surface area <ref type="bibr" target="#b14">[8,</ref><ref type="bibr" target="#b16">9]</ref>. Then, the volume is calculated by multiplying the area with the wound depth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.3.">Using a 2D Camera</head><p>The Visitrak film offers roughly 94% accuracy. A 2D camera is used to improve the accuracy of measuring the area of small wounds <ref type="bibr">[10 -13]</ref>. To use this method, pictures of the wound are taken with a reference object and then, by using an image processing application, such as ImitoMeasure <ref type="bibr">[14]</ref> and <ref type="bibr">ImageJ [15]</ref>, the wound's width and length are determined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.4.">Using a 3D-Scanner</head><p>Compared with the tools, wounds can be more accurately measured using a 3D scanner <ref type="bibr" target="#b22">[16]</ref>. With a 3D scanner, wound depth can now be captured entirely, and the volume can, therefore, be calculated by integrating small slides of the wound with the actual depth of each slide <ref type="bibr">[17,</ref><ref type="bibr">18]</ref>. Fig. <ref type="bibr" target="#b1">(1)</ref> displays the use of a 3D scanner to scan the blue object. However, it is required to move the scanner around the object. The unsteady movement of the scanner may result in an incomplete 3D-image model, as illustrated in Fig. <ref type="bibr" target="#b3">(2)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Digital Image Processing Technique</head><p>Digital image processing consists of many ways of processing, for example, using color pixels from different areas to process or combining many areas to process to observe the shape or image characteristics. This processing method has been applied to many sectors, such as medical, security, and object detection in the industrial sector.</p><p>There are many color systems used for image processing nowadays, depending on the objective of using it. However, they use the same standard concept which replaces pixels in a 3D plane point by using a reference axis for that color in the plane of each axis, with each axis independent of each other. In this research, the RGB color system is used which consists of red, green, and blue color.</p><p>RGB color system is an additive color system that combines red, green, and blue light to create the colors. If these three colors are not present, black color is observed. On the contrary, if all three colors are present, then white color is observed. This is different from the CMYK color system. CMYK is a subtractive color system in which the surfaces appear to be of certain colors because of the wavelengths of light they absorb and reflect.</p><p>Apart from the color system, to calculate pixel, we use file .bmp or Bitmaps to process the calculation. Thus, it is important to understand how Bitmaps work as explained in section 3.1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1.">Bitmaps File Format</head><p>Bitmaps are defined as a rectangular mesh of cells called pixels, with each pixel containing a color value. They are characterized by only two parameters, the number of pixels and the information content per pixel. There are other attributes that are applied to bitmaps, but they are the derivations of these two fundamental parameters.</p><p>Bitmaps are always orientated horizontally and vertically. Pixels should be considered square, although they may have other aspect ratios in practice in which the bitmap file structure. In the majority of situations, bitmaps are used to represent images on the computer. One bit is the smallest possible information content that can be held for each pixel. The pixels with a 0 are referred to as black, while pixels with a 1 are referred to as white. Where 0 is mapped to one color, 1 is mapped to another color. 1 byte of storage results in 256 different shades. If these states are mapped onto a ramp of greys from black to white, the bitmap is referred to as a greyscale image. 0 is normally black and 255 is white. The grey levels are the numbers in between, for example, in a linear scale, 127 would be a 50% grey level</p><p>In 24-bit RGB format, there are 8 bits allocated to each red, green, and blue component. In each component, the value of 0 refers to no contribution of that color, while 25516 refers to a fully saturated contribution of that color. Since each component has 256 different states, there are a total of   <ref type="formula">2</ref>). An incomplete 3D model (2a) resulting from the unsteady movement of the scanner as compared to a complete 3D model (2b) 16777216 possible colors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">Resolution</head><p>Resolution is an attribute of a bitmap that is necessary when visually viewing or printing bitmaps because pixels by themselves have no explicit dimensions. Resolution is normally specified in pixels per inch but can be in terms of any other unit of measure. Most printing processes retain the pixels per inch (DPI) units for historical reasons. The resolution may be specified on devices with N x N rectangular pixels as two numbers, the horizontal and vertical resolution. The concept of resolution being independent of the information content of a bitmap is very important. Given a constant color depth, the information content between different bitmaps is only related to the number of pixels vertically and horizontally. The quality, however, when the bitmap is displayed or printed depends on the resolution. Since the resolution determines the size of a pixel, it can also be used to modify the size of the overall image. As an example, consider one bitmap which is 200 pixels horizontally and 100 pixels vertically. If this bitmap is printed at 100DPI, then it would measure 2 inches by 1 inch. However, if the same bitmap is printed at 200 DPI, then it would only measure 1 inch by half an inch.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3.">The Pixel Reading Technique</head><p>The image resolution affects the number of pixels related to the area. Therefore, the pixel reading technique is used to find the image area. If the resolution is equal to 1 PPI (Pixels per inch) it means the size of 1 pixel is equal to 1 square inch but if the resolution is equal to 8 PPI, then 1 inch will contain 64 pixels.</p><p>If we know the image resolution, then we can get the area by using pixel reading. Therefore, if we want to find the image volume, we can use Equation <ref type="formula">1</ref>.</p><p>(1)</p><p>There will be no complication in finding the area and volume if the images are in geometrical shape. The standard area equation (Equation <ref type="formula">1</ref>) can be used to get the base area and the volume can be found by multiplying it by the height. The method of finding the area and volume of geometrical shapes can be applied to irregular shapes, but high image resolution must be used to get accuracy.</p><p>If the image has a resolution of 8 PPI which is equal to 64 pixels or inch 2 , then from Fig. ( <ref type="formula">4</ref>), 275 pixels will be equal to an area of 4.297 inch 2 or 26.856 cm 2 . However, finding the volume of an irregular shape is different from a geometrical shape because of its concave curve and height. Therefore, to get the volume accuracy of irregular shape, the image must be divided into layers. The smaller the height range, the more accurate the result. Fig. <ref type="bibr" target="#b9">(5)</ref> shows compare the simulated irregular shape between divided into 2 layers divided into 6 layers. Figure <ref type="figure" target="#fig_3">3b</ref>.  Hence, if the image has a resolution of 8 PPI, then according to 2 layers, it will have a total of 69 pixels, which is equal to 1.078 inch 3 of volume, while according to 6 layers, it will have a total of 49 pixels which is equal to 0.766 inch 3 of volume. The error percentage in 2 layers is equal to 40.73% compared to the error percentage in 6 layers which is equal to 0%. However, the number of divided layers affects the processing speed of the device.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">THE MACHINE PROTOTYPE DESIGN</head><p>To facilitate the effective application of the 3D scanner for estimating wound volume, a prototype machine was designed and improved, as described in this section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">The Initial Design</head><p>The initial design was done based on Computer-Aided Design and Manufacturing using SOLIDWORKS software. In this version, a scanner would be mounted into a hardware platform in a box-like shape of 60*60*60 cm 3 (Fig. <ref type="figure">6</ref>). The scanner could move around the wound on x, y, and z-axis independently and steadily to generate 3D-model images. The machine uses stepper motors to control its movement. The design works for the wound located in certain areas, such as legs or arms. However, when that body part, such as a patient's back and stomach, could not be placed inside the machine, the scanned could be performed put</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">The Improved Prototype</head><p>The second design removes the aforementioned constraint of the initial prototype. The scanner is attached to a halfcircular rail, while the rail itself is attached to a servo motor <ref type="bibr">[19]</ref> which allows it to move 360-degrees around the scanned object. Fig. <ref type="bibr" target="#b13">(7)</ref> illustrates the hardware platform and the possible movement of the scanner. It is also possible to manually move the scanner through the rail to the desired position. The design has been built into a working prototype, as presented in Fig. <ref type="bibr" target="#b14">(8)</ref>.</p><p>Fig. <ref type="bibr" target="#b13">(7)</ref>. Second prototype machine, horizontal movement using motor control (15a) and vertical movement using manual adjustment (15b).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 7a.</head><p>Figure <ref type="figure">7b</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fig. (8).</head><p>The wound measuring machine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">A WOUND TREATMENT SOFTWARE</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">A System Workflow</head><p>Our wound treatment system is composed of a hardware platform to perform wound measurement and a software application that handles corresponding wound treatment data. The software process is presented in Fig. <ref type="bibr" target="#b16">(9)</ref>. To use the system, the patient is asked to place the injured part of his/her body on the machine. The scanner is then moved around the wounded area to generate a 3D-image model. The image is sent to a standalone program to quantify the wounded area and its volume. Patient's information, wound characteristics and relevant treatment records are then entered into the software application. The software supports data collection, primary data analysis, and data representation.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Database Design</head><p>The software based on an entity-relational (ER) model is presented in Fig. <ref type="bibr">(10)</ref>. In the current version, data collection is limited to the patient, biography, and wound treatment progression. The patient's biography consists of basic information and personal contacts. The treatment table collects information about the size and volume of the wounded area and healing progression. Lactated Ringer's solution is used during the treatment process to provide sodium, potassium, and calcium chloride to the wound. The consumption level of the solution is calculated partly from the size of the body. This value is given in the software. The database is implemented using Microsoft SQL Server 2014 <ref type="bibr">[20]</ref>. The application is window-based, written in C# language.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Functionalities and User Interface Design</head><p>The software is composed of patient management and wound treatment modules. The patient module provides create, read, update and delete operations. Patient search function considers the patient name, surname, citizen number, and hospital number (HN). As shown in Fig. <ref type="bibr" target="#b19">(11)</ref>, all the records match the search string which would appear in an output window so that the users can easily choose to see details of a specific patient.  <ref type="formula">13</ref>), where the user is asked to fill in his/her credentials.  The second module handles treatment data and healing progression records. The wound image obtained from the 3D wound scanning machine is uploaded to this module to calculate the size, volume, and amount of lactated Ringer's solution needed for the patient. It is possible to compare wound conditions in a discrete timeline, as shown in Fig. ( <ref type="formula">14</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Lactated Ringer's Solution Consumption</head><p>The required amount of lactated Ringer's solution is generally calculated based on the percentage of the patient's body surface area (%BSA) affected by the wound and the patient's weight. The value is then computed by:</p><p>(2)</p><p>The process of %BSA estimation is summarized in Fig. <ref type="bibr">(15)</ref>. Traditionally, it is based on the rule of nines <ref type="bibr">[21]</ref>. The body surface area belongs to each part of the human body. If, for instance, the arm gets injured, a physician would roughly estimate the %BSA of the injured area as the sum of nine. However, if the wound is located on the right leg, it would be estimated as the sum of 18. Certainly, different physicians may take a slightly different value of it.  A more accurate calculation of the %BSA of the wounded area is proposed as:</p><p>(3)</p><p>The size of the wounded area is calculated from our software, while the patient BSA is calculated by: (4)</p><p>where Ht and Wt refer to the patient's height and weight in centimeter and kilogram, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">WOUND VOLUME CALCULATION</head><p>The developed prototype is explained in the previous section. This section describes in detail the approach used to calculate the volume of the wound and how the test of accuracy was carried out. The 3-step procedure was as follows: Step 1: Developing wound models and creating their 3Dmodel. Models of the wounds were developed to test the application of the prototype and its accuracy in measuring wound volume. Archimedes' principle of liquid displacement was applied to calculate the base value of wound volume for comparison. An error rate of the machine-estimated values against the base values was identified.</p><p>Two types of wound models were developed. The first kind was made from molding clay, while the other was made from pork rind. To create a wound on the surface of pork rind, a small part of the flesh was simply removed from the unit of pork rind. Examples of wound models are displayed in Table <ref type="table" target="#tab_0">1</ref>, along with their 3D models acquired from the 3D scanner attached to the rail.</p><p>Step 2: Creating very thin slices of the entire wound model. The second step's input was the 3D model of the wound obtained from the small software module integrated with the prototype machine. The slicing technique was applied to prepare input for wound size volume estimation. Fig. <ref type="bibr" target="#b22">(16)</ref> illustrates the collection of wound slices generated from the 3D models. The opensource program called Slic3r PE <ref type="bibr">[23]</ref> was used to simulate the slicing model, which gave an image file for each wound slice. The slice thickness was set to 0.3 millimeters, which is the minimum value of thickness provided in Slic3r PE configuration. It is a fact that the flatter the slice, the more accurate the volume estimation. However, the thickness of 0.3 is considered sufficient, given the time required for the calculation and the level of accuracy acquired compared with the base practice. Nevertheless, the example of two consecutive wound slices is provided in Fig. ( <ref type="formula">17</ref>) to illustrate the differences between the wounded areas. Step 3: Wound size and volume estimation using a pixel reading method. The estimation was done using a program "WoundCal" which was specifically developed for this purpose. The program flowchart exhibiting 14 activities involved in this step is summarized in Fig. <ref type="bibr">(19)</ref>. The input of this step was the images of each sliced layer of the wound obtained from the previous step. The process is as follows:</p><p>(1) a user identifies the slice with the largest wound size and then roughly indicates the wounded area on the image file by replacing that area with a black pixel. This can be done by using any image editor software. Fig. ( <ref type="formula">18</ref>) illustrates an example of a wound slice image marked with a black pixel that covers the wounded area.  Figure <ref type="figure" target="#fig_13">17b</ref>. A critical analysis, interpretation, and evaluation of the obtained results are presented.</p><p>(2-3) upload the file from step (1) on WoundCal. The program transforms the image file to .bmp if it is not so.</p><p>(4) the program locates the area on the image that is marked with the black pixel from step <ref type="bibr" target="#b1">(1)</ref>. A two-dimensional (x, y) matrix is used to indicate the area. That is: for every point of y, identify the starting point and the ending point of x marked with the black pixel.</p><p>This marked area matrix is used as a reference as the program identifies the wounded area on each slice image of the wound.</p><p>(5) upload all the slice images of the wound on WoundCal <ref type="bibr" target="#b11">(6)</ref><ref type="bibr" target="#b13">(7)</ref> the program calculates the size of the wounded area for each wound slice image. The wounded area can be identified by a white pixel as the result of the 3D scanner. The identified area is converted from pixels to centimeters (38 x 38 pixel is equal to 1 cm 2) (8-10) the program identifies the wound slice with the largest size of the wound and uses that value to represent the size of the wound. This value is entered manually into the wound treatment application, as presented in Fig. ( <ref type="formula">20</ref>). <ref type="bibr" target="#b19">(11)</ref><ref type="bibr">(12)</ref><ref type="bibr">(13)</ref><ref type="bibr">(14)</ref> The program calculates the wound volume as follows:</p><p>(5) with i refers to the wound slice. Thickness is set to 0.3 as mentioned previously. The wound volume is also entered into the wound treatment application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">THE EXPERIMENT SETUP</head><p>In the previous subsection, our approach to estimating the wound's size and volume is explained in detail. The program "WoundCal" was developed to realize this approach. An experiment was then carried out for two primary objectives, firstly to measure how accurate the proposed method is compared to the estimation of wound volume based on the Archimedes' principle of water displacement, and secondly, to assess usage limitation with respect to wound size. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">The Wound Model</head><p>Seventeen wound models were developed for testing measurement accuracy and possible limitations. The first type of wounds was made from molding clay, while the second kind was made from pork rind. Pork rind was decided to be used considering that its skin represents, to some extent, the nature of human skin.</p><p>To ensure a variation of wounds, developed models have different sizes and irregular shapes. Out of 17 models, seven different address sizes of the wounded area, ranging from 1x1 cm 2 to 3x3 cm 2. The other seven models simulate different wound curves and uneven depth. The rest of the three model addressed bigger wounds and were made from pork rind, with the wounded surface area of 3x3 cm 2 to 5x5 cm 2 . The deepest depth of the wound ranged from 1 cm to 3 cm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">Estimating Wound Size and Volume</head><p>Two methods were compared for estimating the size and volume of the wounds. The first one was our proposed method using the WoundCal program, while the other one was the base method using Archimedes' principle of water displacement.</p><p>Using our proposed WoundCal program. the process was as follows:</p><p>(1) Place the wound model inside the prototype machine for wound measurement, as shown in Fig. <ref type="bibr" target="#b22">(16)</ref>. The machine is connected to the computer where the 3D model and filename.stl can be saved as the input for the next step.</p><p>(2) Create slices of the wound 3D model using the Scli3e PE program. N image files of wound slices are generated.</p><p>(3) Identify the slice with the largest wounded area and roughly mark that area with a black pixel using any image editor program.</p><p>(4) Upload the marked image file to WoundCal.</p><p>(5) Upload the N image files of wound slices to WoundCal. This program calculates the volume of the wound.</p><p>•Using Archimedes' principle. To estimate the wound volume based on Archimedes' principle, the following steps were performed:</p><p>(1) weigh the wound model.</p><p>(2) fill water inside the wound.</p><p>(3) weigh the wound model again and then calculate the weight of filled water by water-filled model's weight -initial weight. The weight of the water is equal to its volume since:</p><formula xml:id="formula_0">(6) 𝑑𝑒𝑛𝑠𝑖𝑡𝑦 = 𝑚𝑎𝑠𝑠 𝑉𝑜𝑙𝑢𝑚𝑒</formula><p>given that the density of the water is one. Therefore, the volume is the estimated wound's volume.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">RESULTS AND DISCUSSION</head><p>The estimation of wound volume was carried out based on the two methods mentioned previously. The Archimedes' principle was used as the base values for comparison. Fourteen models of wounds were made from molding clay and the three models made from pork rind were experimental subjects. Table <ref type="table" target="#tab_7">2</ref> presents the results of wound volume estimation.</p><p>The results show that the volume estimation for small surfaced wounds, such as 1 x 1 cm 2 , is more than 80% inaccurate. However, the WoundCal method provides acceptable volume estimation for bigger wounds. Wounds larger than a surface area of 1.5 x 1.5 cm 2 are estimated to have less than 15 percent error. It can also be noticed that the bigger the wound, the more accurate the estimation.</p><p>Our proposed system is one of the first that tried to estimate wound volume using a contactless method. This approach is applicable to the pork rinds model which, to a certain extent, simulates the nature of human skin. The error found in the estimation can be associated with two primary causes. The first one is related to the weigh scale used in the Archimedes' principle that allows for a minimum scale of one gram. The second cause might be the precision of the 3D scanners in capturing wound details.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>With our goal to build a contactless system to support the wound treatment process, a prototype, integrating a machine and a software application that offers precise measurement of wound characteristics and handles wound healing progression, was created. Generally, a wound starts to heal from its bottom part, thus knowing the wound depth is vital for the treatment. Physicians typically insert a cotton-tip inside the wound to measure its depth. This may cause inflammation and increase the time to heal. A novel approach was proposed to estimate wound depth using a 3D model. A machine was built to control the stable movement of the 3D scanner over the wound using a servo motor. Then, the image processing technique was applied to calculate the wound's area and volume. The method was tested with wound models of various sizes, made from molding clay and pork rinds. The accuracy of our approach was compared to the Archimedes' principle of water displacement. The two methods were found to have less than 15 percent discrepancy. This level of accuracy is considered satisfactory, given that our work is among one of the first attempts to close this research gap.</p><p>There are certain limitations to be considered for future work. Firstly, different software components used in the image processing and estimation process can be integrated to enhance user experience. Secondly, it is possible to apply machine learning techniques to identify the wounded area on the wound image file. Lastly, it is suggested to create a cloud-based version of the software to allow easy access to the data and the application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ETHICS</head><p>APPROVAL AND CONSENT TO PARTICIPATE Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HUMAN AND ANIMAL RIGHTS</head><p>Not applicable.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. ( 1</head><label>1</label><figDesc>Fig. (1). 3D scanning of a simulated object.</figDesc><graphic coords="3,168.77,87.86,256.50,192.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. (</head><label></label><figDesc>Fig. (2). An incomplete 3D model (2a) resulting from the unsteady movement of the scanner as compared to a complete 3D model (2b)</figDesc><graphic coords="3,107.69,330.07,378.66,164.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>3 .</head><label>3</label><figDesc>As shown in Fig. (3a), the volume will be equal to 2 x 2 x 2 pixels 0.015625 inch 3 or at least 0.244140 cm3 compared to the resolution of 8 PPI. While in Fig. (3b), the same result is observed even though the shape is different. By comparing the volume of Fig. (3b) (1 x 2 x 4 pixels) to the resolution of 8 PPI, the volume is found to be 0.015625 inch 3 or 0.244140 cm 3</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. ( 3</head><label>3</label><figDesc>Fig. (3). The simulated area of geometrical shape.</figDesc><graphic coords="4,73.46,475.21,196.77,186.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. ( 4 )</head><label>4</label><figDesc>Fig. (4).The simulated area of irregular shape.</figDesc><graphic coords="5,109.89,80.54,149.99,137.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>Fig. (6). First Prototype Machine.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. ( 9</head><label>9</label><figDesc>Fig. (9). A diagram of the wound treatment system.</figDesc><graphic coords="7,68.49,439.68,451.32,291.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig</head><label></label><figDesc>Fig. (10).Primary data model for the wound treatment system.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>Fig. (12) displays the patient information input screen. The update operation requires special authorization, as illustrated in Fig. (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig</head><label></label><figDesc>Fig. (11). Search screen.</figDesc><graphic coords="8,64.35,600.41,466.57,99.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. ( 13</head><label>13</label><figDesc>Fig. (13).Authorization required for an update operation.</figDesc><graphic coords="9,157.78,447.19,279.72,296.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig</head><label></label><figDesc>Fig. (14).Comparing the wound with its previous records.</figDesc><graphic coords="10,199.87,225.83,195.54,214.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig</head><label></label><figDesc>Fig. (15).The rule of nines for BSA estimation and its applications that may cause inaccuracy among different physicians.</figDesc><graphic coords="10,173.87,475.85,247.54,254.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>•Step 1 :</head><label>1</label><figDesc>Developing wound models and creating their 3Dmodel •Step 2: Creating very thin slices of the entire wound model •Step 3: Wound size and volume estimation using a pixel reading method [22]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. ( 16</head><label>16</label><figDesc>Fig.<ref type="bibr" target="#b22">(16)</ref>. Wound slices generated from the 3D model.</figDesc><graphic coords="11,140.43,443.03,314.42,277.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig</head><label></label><figDesc>Fig. (18). Wounded area marked with black pixels.</figDesc><graphic coords="12,191.57,472.05,212.14,248.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head></head><label></label><figDesc>Figure 17a.Figure17b.</figDesc><graphic coords="12,100.44,95.76,369.29,206.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Fig</head><label></label><figDesc>Fig. (19). Flowchart of the WoundCal program.</figDesc><graphic coords="13,63.50,81.41,458.26,393.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Fig</head><label></label><figDesc>Fig. (20). Interface of the WoundCal program.</figDesc><graphic coords="14,151.89,73.85,291.49,356.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="6,117.98,88.38,307.32,178.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Two types of wound models from (1) molding clay and (2) pork rind, and their 3D models obtained from the scanner. Wound Mockup before Water Replacement Wound Mockup after Water Replacement 3D Model(.stl)</head><label>1</label><figDesc></figDesc><table><row><cell>Example1</cell><cell>Example1</cell></row><row><cell>1cm x 1cm x 1cm</cell><cell>1cm x 1cm x 1cm</cell></row><row><cell>Weight 119 g</cell><cell>Weight 120 g</cell></row><row><cell>Example2</cell><cell>Example2</cell></row><row><cell>1cm x 1cm x 2cm</cell><cell>1cm x 1cm x 2cm</cell></row><row><cell>Weight 232 g</cell><cell>Weight 233 g</cell></row><row><cell>Example3</cell><cell>Example3</cell></row><row><cell>1.5cm x 1.5cm x 1cm</cell><cell>1.5cm x 1.5cm x 1cm</cell></row><row><cell>Weight 113 g</cell><cell>Weight 115 g</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Wound mockup before water replacement Wound mockup after water replacement 3D Model(.stl)</head><label></label><figDesc></figDesc><table><row><cell>Example4</cell><cell>Example4</cell></row><row><cell>2cm x 2cm x 1cm</cell><cell>2cm x 2cm x 1cm</cell></row><row><cell>Weight 101 g</cell><cell>Weight 103 g</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Wound Mockup before Water Replacement Wound Mockup after Water Replacement 3D Model(.stl)</head><label></label><figDesc></figDesc><table><row><cell>Example5</cell><cell>Example5</cell></row><row><cell>2cm x 2cm x 2cm</cell><cell>2cm x 2cm x 2cm</cell></row><row><cell>Weight 230 g</cell><cell>Weight 233 g</cell></row><row><cell>Example6</cell><cell>Example6</cell></row><row><cell>3cm x 3cm x 1cm</cell><cell>3cm x 3cm x 1cm</cell></row><row><cell>Weight 116 cm 3</cell><cell>Weight 121 cm</cell></row></table><note><p>3 Wound</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>mockup before water replacement Wound mockup after water replacement 3D Model(.stl)</head><label></label><figDesc></figDesc><table><row><cell>Example7</cell><cell>Example7</cell></row><row><cell>3cm x 3cm x 2cm</cell><cell>3cm x 3cm x 2cm</cell></row><row><cell>Weight 222 g</cell><cell>Weight 231 g</cell></row><row><cell>Example 8</cell><cell>Example 8</cell></row><row><cell>similar real wounds</cell><cell>similar real wounds</cell></row><row><cell>Weight 447 g</cell><cell>Weight 497 g</cell></row><row><cell>Example 9</cell><cell>Example 9</cell></row><row><cell>similar real wounds</cell><cell>similar real wounds</cell></row><row><cell>Weight 429 g</cell><cell>Weight 486 g</cell></row><row><cell>Example 10</cell><cell>Example 10</cell></row><row><cell>similar real wounds</cell><cell>similar real wounds</cell></row><row><cell>Weight 433 g</cell><cell>Weight 490 g</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Wound mockup before water replacement Wound mockup after water replacement 3D Model(.stl)</head><label></label><figDesc></figDesc><table><row><cell>Example 11</cell><cell>Example 11</cell></row><row><cell>similar real wounds</cell><cell>similar real wounds</cell></row><row><cell>Weight 425 g</cell><cell>Weight 489 g</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Wound Mockup before Water Replacement Wound Mockup after Water Replacement 3D Model(.stl)</head><label></label><figDesc></figDesc><table><row><cell>Example 12</cell><cell>Example 12</cell></row><row><cell>similar real wounds</cell><cell>similar real wounds</cell></row><row><cell>Weight 428 g</cell><cell>Weight 478 g</cell></row><row><cell>Example 13</cell><cell>Example 13</cell></row><row><cell>similar real wounds</cell><cell>similar real wounds</cell></row><row><cell>Weight 421 g</cell><cell>Weight 570 g</cell></row><row><cell>Example 14</cell><cell>Example 14</cell></row><row><cell>similar real wounds</cell><cell>similar real wounds</cell></row><row><cell>Weight 434 g</cell><cell>Weight 546 g</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Wound mockup before water replacement Wound mockup after water replacement 3D Model(.stl)</head><label></label><figDesc></figDesc><table><row><cell>Example 15</cell><cell>Example 15</cell></row><row><cell>Pork rinds model</cell><cell>Pork rinds model</cell></row><row><cell>3cm x 3cm x 3 cm</cell><cell>3cm x 3cm x 3 cm</cell></row><row><cell>Weight 1085g</cell><cell>Weight 1089g</cell></row><row><cell>Example 16</cell><cell>Example 16</cell></row><row><cell>Pork rinds model</cell><cell>Pork rinds model</cell></row><row><cell>4cm x 4cm x 2cm</cell><cell>4cm x 4cm x 2cm</cell></row><row><cell>Weight 1082 g</cell><cell>Weight 1088 g</cell></row><row><cell>Example 17</cell><cell>Example 17</cell></row><row><cell>Pork rinds model</cell><cell>Pork rinds model</cell></row><row><cell>5cm x 5cm x 2cm</cell><cell>5cm x 5cm x 2cm</cell></row><row><cell>Weight 1072 g</cell><cell>Weight 1082 g</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 2 . Wound volume estimation.</head><label>2</label><figDesc></figDesc><table><row><cell>Simulated wound</cell><cell cols="2">Estimated Wound Volume</cell><cell>%</cell></row><row><cell></cell><cell>Archimedes</cell><cell>WoundCal</cell><cell>Error</cell></row><row><cell></cell><cell>(cm 3 )</cell><cell>(cm 3 )</cell><cell></cell></row><row><cell></cell><cell>Molding Clay Model</cell><cell></cell><cell></cell></row><row><cell>Example1 1 x 1 x 1</cell><cell>1</cell><cell>0.2</cell><cell>80*</cell></row><row><cell>Example2 1 x 1 x 2</cell><cell>1</cell><cell>0.12</cell><cell>98*</cell></row><row><cell>Example3 1.5 x 1.5 x 1</cell><cell>2</cell><cell>1.73</cell><cell>13.5</cell></row><row><cell>Example4 2 x 2 x 1</cell><cell>2</cell><cell>1.76</cell><cell>12</cell></row><row><cell>Example5 2 x 2 x 2</cell><cell>3</cell><cell>2.58</cell><cell>14</cell></row><row><cell>Example6 3 x 3 x 1</cell><cell>5</cell><cell>5.45</cell><cell>9</cell></row><row><cell>Example7 3 x 3 x 2</cell><cell>9</cell><cell>10</cell><cell>11.11</cell></row><row><cell>Example8 similar real wounds</cell><cell>50</cell><cell>55.21</cell><cell>10.42</cell></row><row><cell>Example9 similar real wounds</cell><cell>57</cell><cell>62.38</cell><cell>9.43</cell></row><row><cell>Example10 similar real wounds</cell><cell>57</cell><cell>62.69</cell><cell>9.98</cell></row><row><cell>Example11 similar real wounds</cell><cell>64</cell><cell>71.74</cell><cell>12.09</cell></row><row><cell>Example12 similar real wounds</cell><cell>50</cell><cell>46.33</cell><cell>7.34</cell></row><row><cell>Example13 similar real wounds</cell><cell>149</cell><cell>158.16</cell><cell>6.15</cell></row><row><cell>Example14 similar real wounds</cell><cell>112</cell><cell>119.08</cell><cell>6.32</cell></row><row><cell></cell><cell>Pork rinds model</cell><cell></cell><cell></cell></row><row><cell>Example15 3 x 3 x 3</cell><cell>4</cell><cell>3.57</cell><cell>10.75</cell></row><row><cell>Example16 4 x 4 x 2</cell><cell>6</cell><cell>5.73</cell><cell>4.5</cell></row><row><cell>Example17 5 x 5 x 2</cell><cell>10</cell><cell>10.32</cell><cell>3.2</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>(Table ) contd.....</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>(Table1) contd.....</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>None.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AVAILABILITY OF DATA AND MATERIAL</head><p>The parameters and test data regarding this research are available at https://bit.ly/2PA2PXZ</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FUNDING</head><p>The authors would like to thank the Institute of Field Robotics, King Mongkut's University of Technology Thonburi, Thailand for their great assistance provided during the research period.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONSENT FOR PUBLICATION</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICTS OF INTEREST</head><p>The authors declare no conflict of interest, financial or otherwise.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="19,86.69,350.88,199.48,6.15" xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R A</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,86.69,359.71,199.60,6.15;19,86.69,368.54,122.30,6.15;19,86.69,377.38,147.00,6.15" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Wound healing -A literature review</title>
+		<author>
+			<persName><surname>Medrado</surname></persName>
+		</author>
+		<idno type="DOI">10.1590/abd1806-4841.20164741</idno>
+		<ptr target="http://dx.doi.org/10.1590/abd1806-4841.20164741" />
+	</analytic>
+	<monogr>
+		<title level="j">Anais Brasileiros de Dermatologia</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="614" to="620" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,86.69,386.21,199.46,6.15" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Chronic Wound Healing: A Review of</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ceilley</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,86.69,395.04,199.59,6.15;19,86.69,403.88,42.58,6.15;19,86.69,412.71,187.64,6.15" xml:id="b3">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1007/s12325-017-0478-y</idno>
+		<idno type="PMID">28108895</idno>
+		<ptr target="http://dx.doi.org/10.1007/s12325-017-0478-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Ther</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="599" to="610" />
+			<date type="published" when="2017">2017</date>
+			<publisher>Current Management and Treatments</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,86.69,421.55,199.57,6.15" xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Velnar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Smrkolj</surname></persName>
+		</author>
+		<title level="m">The wound healing process: an</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,86.69,430.38,199.61,6.15;19,86.69,439.21,100.53,6.15;19,86.69,448.05,195.42,6.15" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">overview of the cellular and molecular mechanisms</title>
+		<idno type="DOI">10.1177/147323000903700531</idno>
+		<idno type="PMID">19930861</idno>
+		<ptr target="http://dx.doi.org/10.1177/147323000903700531" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Int. Med. Res</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1528" to="1542" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,86.69,456.88,199.49,6.15" xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wollak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Shah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Measurement</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,86.69,465.72,199.61,6.15;19,86.69,474.55,199.56,6.15;19,86.69,483.38,116.44,6.15" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Comparing the Use of Ruler Method, 2D Imaging and 3D Scanner</title>
+		<author>
+			<persName><surname>Techniques</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American College of Clinical Wound Specialists</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="52" to="57" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,86.69,492.22,199.48,6.15" xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tassanavipas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Natsupakpong</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>A prototype design for the</note>
+</biblStruct>
+
+<biblStruct coords="19,86.69,501.05,199.56,6.15;19,86.69,509.88,180.24,6.15;19,86.69,518.72,127.56,6.15" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">D scanner</title>
+		<idno type="DOI">10.1145/3278229.3278240</idno>
+		<ptr target="http://dx.doi.org/10.1145/3278229.3278240]" />
+	</analytic>
+	<monogr>
+		<title level="m">Conference on ICBIP2018</title>
+		<meeting><address><addrLine>Seoul, South Korea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="22" to="24" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,86.69,527.55,199.59,6.15" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Implementation of a Software</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tassanavipas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Natsupakpong</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,86.69,536.39,199.61,6.15;19,86.69,545.22,100.91,6.15;19,86.69,554.05,143.31,6.15" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Prototype to Support Wound Treatment Processes</title>
+		<idno type="DOI">10.1109/ICSIMA.2018.8688749</idno>
+		<ptr target="http://dx.doi.org/10.1109/ICSIMA.2018.8688749" />
+	</analytic>
+	<monogr>
+		<title level="m">Conference on ICSIMA2018 IEEE</title>
+		<meeting><address><addrLine>Songkhla</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,338.98,90.01,199.50,6.23" xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ozvoldova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Spilakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tkac</surname></persName>
+		</author>
+		<title level="m">Archimedes&apos; Principle</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,338.98,98.97,199.60,6.23;19,338.98,107.93,154.77,6.23;19,338.98,116.89,120.76,6.23;19,338.98,125.84,199.48,6.23" xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bevilacqua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andros</surname></persName>
+		</author>
+		<idno type="DOI">10.3991/ijoe.v10i5.3831</idno>
+		<ptr target="http://dx.doi.org/10.3991/ijoe.v10i5.3831" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Online Engineering</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">36</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Internet Accessible Remote Experiment</note>
+</biblStruct>
+
+<biblStruct coords="19,338.98,134.80,199.58,6.23;19,338.98,143.76,199.60,6.23;19,338.98,152.72,131.80,6.23;19,338.98,161.67,195.42,6.23" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Digital planimetry results in more accurate wound measurements: a comparison to standard ruler measurements</title>
+		<idno type="DOI">10.1177/193229681000400405</idno>
+		<idno type="PMID">20663440</idno>
+		<ptr target="http://dx.doi.org/10.1177/193229681000400405" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Diabetes Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="799" to="802" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,338.98,170.63,199.46,6.23" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">A comparison of</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dearman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Greenwood</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,338.98,179.59,199.58,6.23;19,338.98,188.55,73.30,6.23;19,338.98,197.50,53.86,6.23" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">wound area measurement techniques: visitrak versus photography</title>
+		<idno type="PMID">21559060</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eplasty</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,338.98,206.46,199.49,6.23;19,313.82,206.46,11.66,6.23;19,338.98,215.42,199.57,6.23;19,338.98,224.38,199.61,6.23;19,338.98,233.33,93.91,6.23;19,338.98,242.29,146.03,6.23" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Reliability of digital videometry and acetate tracing in measuring the surface area of cutaneous wounds</title>
+		<author>
+			<persName><surname>Rp Wunderlich</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lavery</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0168-8227(00)00145-5</idno>
+		<ptr target="http://dx.doi.org/10.1016/S0168-8227(00)00145-5]" />
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Res Clin Pract</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="87" to="92" />
+			<date type="published" when="2000-08">Aug. 2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,338.98,251.25,199.50,6.23" xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D J</forename><surname>Hettiarachchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B H</forename><surname>Mahindaratne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D C</forename><surname>Mendis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,338.98,260.21,199.60,6.23;19,338.98,269.16,199.60,6.23;19,338.98,278.12,173.24,6.23" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Mobile Based Wound Measurement</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nanayakkara</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nuwan ; Nanayakkara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ieee</forename><surname>Member</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013-01">Jan, 2013</date>
+			<biblScope unit="page" from="16" to="18" />
+			<pubPlace>Bangalore, India</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>IEEE Point-of-Care Healthcare Technologies (PHT)</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,338.98,287.08,199.55,6.23;19,313.82,287.08,11.66,6.23;19,338.98,294.18,199.58,6.23;19,338.98,303.13,161.14,6.23" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The potential impact of wrong TBSA estimations [12] on fluid resuscitation in patients suffering from burns: Things to keep in mind</title>
+		<author>
+			<persName><forename type="first">Daryousch</forename><surname>Parvizi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of b u r n s</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="241" to="245" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,338.98,312.09,199.49,6.23;19,313.82,312.09,11.66,6.23;19,338.98,321.05,199.61,6.23;19,338.98,330.01,197.29,6.23;19,338.98,338.97,158.91,6.23;19,516.30,338.97,22.28,6.23;19,338.98,347.92,30.33,6.23;19,338.98,356.88,119.20,6.23" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Computerized segmentation and measurement of chronic wound images</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Ahmad Fauzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Khansa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Catignani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Gurcan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compbiomed.2015.02.015</idno>
+		<idno type="PMID">25756704</idno>
+		<ptr target="https://imito.io/imitomeasure" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="74" to="85" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,338.98,383.75,199.48,6.23;19,313.82,383.75,11.66,6.23;19,338.98,392.71,199.63,6.23;19,338.98,401.67,189.76,6.23;19,338.98,410.63,199.49,6.23;19,313.82,410.63,11.66,6.23;19,338.98,419.58,199.58,6.23;19,338.98,428.54,199.58,6.23;19,338.98,437.50,15.75,6.23;19,338.98,446.46,188.42,6.23;19,338.98,455.41,132.22,6.23" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Three-dimensional imaging is a novel and reliable technique to measure total body surface area</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Ahmad</forename><surname>Fadzil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nejood</forename><forename type="middle">M</forename><surname>Hani</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Eltegani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Suraiya</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hussein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Priya</forename><surname>Jamil</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gill</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.burns.2017.12.008</idno>
+		<idno type="PMID">29395393</idno>
+		<ptr target="http://www.robotis.us/dynamixel/" />
+	</analytic>
+	<monogr>
+		<title level="j">Burns</title>
+		<editor>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Rashaan</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Euser</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">P M</forename><surname>Van Zuijlen</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Breederveld</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="816" to="822" />
+			<date type="published" when="2009">2009. 2018</date>
+			<publisher>Springer Berlin Heidelberg</publisher>
+		</imprint>
+	</monogr>
+	<note>Assessment of Ulcer Wounds Size Using 3D Skin Surface Imaging</note>
+</biblStruct>
+
+<biblStruct coords="19,338.98,491.24,199.53,6.23;19,313.82,491.24,11.66,6.23;19,338.98,500.20,199.61,6.23;19,338.98,509.16,53.08,6.23;19,338.98,518.12,152.88,6.23;19,516.31,518.12,22.28,6.23;19,338.98,527.07,30.33,6.23;19,338.98,536.03,199.54,6.23;19,313.82,536.03,11.66,6.23;19,338.98,544.99,134.50,6.23;19,338.98,553.95,106.16,6.23" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Does the &quot;rule of nines&quot; apply [21] to morbidly obese burn victims?</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Wohlgemuth</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/BCR.0b013e31827217bd</idno>
+		<idno type="PMID">23702858</idno>
+		<ptr target="https://manual.slic3r.org" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Burn Care Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="447" to="452" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>b013e31827217bd</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,3258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Hyperspectral imaging in wound care: A systematic review</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>PhD</roleName><forename type="first">Gennadi</forename><surname>Saiko</surname></persName>
+							<email>gennadi.saiko@swiftmedical.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Swift Medical Inc</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Phoebe</forename><surname>Lombardi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Swift Medical Inc</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yunghan</forename><surname>Au</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Swift Medical Inc</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Douglas Queen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Swift Medical Inc</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Armstrong</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Keck School of Medicine</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>California, California</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><forename type="middle">Keith</forename><surname>Harding</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution">Cardiff University</orgName>
+								<address>
+									<settlement>Wales</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">A*STAR</orgName>
+								<address>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Swift Medical</orgName>
+								<address>
+									<addrLine>1 Richmond Street West</addrLine>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">Saiko G</orgName>
+								<address>
+									<addrLine>Lombardi P, Au Y, Armstrong D</addrLine>
+									<region>Queen D, Harding K</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Hyperspectral imaging in wound care: A systematic review</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0EEDFAF6EF8523B85DA4C42E81BF256E</idno>
+					<idno type="DOI">10.1111/iwj.13474</idno>
+					<note type="submission">Received: 27 April 2020 Revised: 7 July 2020 Accepted: 15 July 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>diabetic foot</term>
+					<term>diabetic neuropathies</term>
+					<term>foot ulcer</term>
+					<term>haemoglobins</term>
+					<term>peripheral arterial disease</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Multispectral and hyperspectral imaging (HSI) are emerging imaging techniques with the potential to transform the way patients with wounds are cared for, but it is not clear whether current systems are capable of delivering realtime tissue characterisation and treatment guidance. We conducted a systematic review of HSI systems that have been assessed in patients, published over the past 32 years. We analysed 140 studies, including 10 different HSI systems. Current in vivo HSI systems generate a tissue oxygenation map. Tissue oxygenation measurements may help to predict those patients at risk of wound formation or delayed healing. No safety concerns were reported in any studies. A small number of studies have demonstrated the capabilities of in vivo label-free HSI, but further work is needed to fully integrate it into the current clinical workflow for different wound aetiologies. As an emerging imaging modality for medical applications, HSI offers great potential for non-invasive disease diagnosis and guidance when treating patients with both acute and chronic wounds.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Multispectral (MSI) and hyperspectral (HSI) imaging exploit the ability to split light into multiple narrow bands beyond the three conventional red, green, and blue (RGB) visible spectral bands, enabling analysis of images not seen with the naked eye.</p><p>Several multispectral and HSI systems have focused on the technique's diagnostic capabilities. The ability to quantitatively measure oxygenation levels in tissue has been tested in various pathologies and clinical contexts, including; peripheral vascular disease, <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> retinal eye disease, <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> diabetic foot disease <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> , and wound healing. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> Numerous groups have also published work demonstrating the effectiveness of using HSI for cancer detection. <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> With the development of high-resolution and fast frame rate multispectral and HSI cameras, enabling the capture of a rich imaging dataset at a video rate, these imaging methods offer the potential for real-time non-invasive tissue characterisation. <ref type="bibr" target="#b5">6</ref> In this paper, we present a brief summary of the physical basis of HSI followed by a systematic review evaluating the wound-related applications of in vivo HSI. We report the different types of imaging systems used in wound prevention and treatment from a clinical perspective, review their key technical features and specifications, and evaluate their clinical utilities, reported effectiveness, and safety.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1">| Imaging in wound care</head><p>One of the most fundamental but powerful clinical tools when managing patients with wounds is visual observation. Unfortunately, its benefits are only useful when the observer has significant experience or training. <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> Images and their inclusion in the documentation, therefore, can provide clinicians with a powerful, informative, and non-invasive means to examine, quantify, and document wounds. <ref type="bibr" target="#b16">17</ref> Such an approach also has the potential to allow the creation of large databases for research, educational, and diagnostic purposes, particularly those with machine learning or artificial intelligence support. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> Wound measurement is an essential part of wound assessment. Wound area (and/or volume) is a key measurement used to monitor healing. <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref> It should be recorded on the initial presentation and at regularly defined intervals as part of the reassessment process. There are various methods available to measure wounds, and it is important to use the same method each time, with the patient in the same position. <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> Continuous monitoring of changes in wound size is an important way of evaluating response to treatment. One of the key components relative to a patient's wound care journey <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> is an ability to produce accurate, reliable, reproducible measurements. Optical technologies are a proven way to perform such measurements.</p><p>A documented assessment can also assist with communication across the multidisciplinary team, including the patient. <ref type="bibr" target="#b13">14</ref> High-quality communication can, in turn, motivate and empower the patient, improving compliance. <ref type="bibr" target="#b26">27</ref> Remote evaluation and assessment of the wound are also of increasing importance through the use of a telemedicine approach. <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> There has been considerable progress in imaging technology for wounds, including systems that include advanced features such as 3D measurement and telemedicine. <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b30">31</ref> Numerous academic and commercial groups have developed systems aimed at facilitating the goals mentioned earlier. <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2">| Hyperspectral imaging</head><p>Light in the visible and near-infrared (NIR) ranges of the spectrum delivered to biological tissue undergoes multiple scattering and is absorbed primarily by haemoglobins, water, fat, and melanin in the tissue. It is assumed that this reflected light from the tissue carries quantitative diagnostic information about tissue pathology. <ref type="bibr" target="#b39">40</ref> In recent years advances in cameras, image analysis techniques, and computational power, make it possible for many potentially beneficial applications of HSI in medicine, including caring for patients with wounds.</p><p>In hyperspectral imaging, it refers to a large number of measured wavelength bands. Hyperspectral images are used to provide sufficient spectral information to recognise and differentiate spectrally distinctive materials. <ref type="bibr" target="#b40">41</ref> Optical analysis techniques are used to detect and identify objects from a large scale of images. Hyperspectral imaging technique is one of them. A vision of the human eye is based on three primary colour bands (red, green, and blue), but spectral imaging divides the vision into many more bands. <ref type="bibr" target="#b40">41</ref> HSI aims to record the spectrum for each pixel of the image. In this sense, hyperspectral imaging is the natural extension of the colour (RGB) imaging. Spectrum at each pixel can be considered a spectroscopic input, which can be decomposed, and spectral signatures can be found. <ref type="bibr" target="#b41">42</ref> There are a few different techniques for acquiring the three-dimensional (x,y,λ) dataset of a hyperspectral cube (eg, spatial scanning and spectral scanning). <ref type="bibr" target="#b42">43</ref> The choice of technique depends on a specific application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3">| Hyperspectral versus multispectral</head><p>Hyperspectral imaging is closely related to multispectral imaging. The distinction between hyper and multispectral is sometimes based on an arbitrary 'number of bands'. Multispectral imaging deals with several images</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Message</head><p>• we conducted a systematic review of clinical hyperspectral (HSI) and multispectral imaging systems in wound care, published over the past 32 years. We analysed 140 studies, including 10 different HSI systems • current in vivo HSI systems generate a tissue oxygenation map. Tissue oxygenation measurements may help to predict those patients at risk of wound formation or delayed healing • no safety concerns were reported in any studies. A small number of studies have demonstrated the capabilities of in vivo label-free HSI, but further work is needed to fully integrate it into the current clinical workflow for different wound aetiologies. • as an emerging imaging modality for medical applications, HSI offers great potential for noninvasive disease diagnosis and guidance when treating patients with both acute and chronic wounds at discrete and somewhat narrow bands, for example, located near the absorption maximums of chromophores under consideration. Multispectral images do not produce the 'spectrum' of an object, but rather sample the spectrum at several points. Hyperspectral deals with imaging narrow spectral bands over a continuous spectral range, which can be considered a spectrum. In biomedical imaging, hyperspectral or multispectral images can be used to extract data about components of the blood, which are chromophores in the visible and NIR spectrum. In particular, HSI is able to deliver nearly real-time images of oxyhaemoglobin and deoxyhaemoglobin and provide an assessment of tissue pathophysiology based on the spectral characteristics of different tissue. <ref type="bibr" target="#b5">6</ref> Therefore, HSI is increasingly being used within different clinically diagnostic areas. For example, HSI has been applied to the assessment of peripheral artery disease, 1 early detection of dental caries, <ref type="bibr" target="#b43">44</ref> fast characterisation of kidney stone types, <ref type="bibr" target="#b44">45</ref> detection of laryngeal disorders, <ref type="bibr" target="#b45">46</ref> to name but a few of these emerging clinical areas. In this review, we focus on the applications of HSI to diagnosis and management of patients with wounds and wound-related parameters. A broad review of clinical applications of HSI has been undertaken previously. <ref type="bibr" target="#b5">6</ref> Image analysis enables the extraction of diagnostically useful information from a large medical hyperspectral dataset at the tissue, cellular, and molecular levels and is, therefore, critical for disease screening, diagnosis, and treatment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| METHODS AND REVIEW PROCESS</head><p>In this review, we aim to assess the current state of hyper and multispectral imaging applications across the whole spectrum of wound care and particularly their diagnostic and prognostic utilities. This survey covers literature from the inception of HSI techniques up to June 2019. We start with the current development status of HSI technology within the field of wound prevention and management. We then consider HSI utility in different wound types.</p><p>A diagram illustrating the stages of this systematic review's methods based on the PRISMA review system <ref type="bibr" target="#b46">47</ref> is presented below (Figure <ref type="figure">1</ref>).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Structured question</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Search strategy</head><p>A search of three electronic databases was undertaken, along with additional references from the websites of medical hyper and multispectral imaging product manufacturers.</p><p>We searched PubMed, Scopus, and Cochrane databases from the inception of the database to June 2019.</p><p>The PubMed search syntax listed below served as the basis for all search strategies, using both Medical Subject Headings (MeSH) and text terms with Boolean operators.</p><p>( Additional references were sought through the websites of medical hyper and multispectral imaging product manufacturers (HyperMed, Kent Imaging, Diaspective Vision, MedX Health Corp., Artinis, Spectral MD). Product validation studies completed by these companies were read and assessed for inclusion in the review.</p><p>A PROSPERO review protocol was completed prior to submission. <ref type="bibr" target="#b47">48</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1">| Literature search</head><p>Data extraction was performed via manual synthesis by three reviewers based on Problem/Patient/Population, Intervention/Indicator, Comparison, Outcome criteria. <ref type="bibr" target="#b48">49</ref> Data variables extracted for consideration included year of publication, article type, number of patients/participants included in the study, population studied (disease/ wound type), Hyperspectral/Multispectral imaging device used, comparator (another hyperspectral/multispectral imaging device, conventional diagnosis methods, other imaging procedures (ex. laser Doppler perfusion monitoring), reference/literature, expected measurements, study outcomes, study design, length of follow-up, any stated conflict of interest, and reviewers' opinions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2">| Literature screening</head><p>A single reviewer conducted an initial screening of titles and abstracts and obtained the full text of studies that appeared eligible for the review, according to the inclusion criteria. The reviewer then examined the full-text articles and selected studies that were eligible for inclusion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Inclusion criteria</head><p>Inclusion/Exclusion criteria were determined by three reviewers. Disagreements were resolved by consensus. Study populations included in the review were human subjects and patients, normal skin, wounds, chronic wounds and ulcers (pressure ulcers/injuries, diabetic foot ulcers, leg ulcers), peripheral arterial disease (PAD) and peripheral vascular disease (PVD), Cutaneous Leishmaniasis, limb amputations, and surgical wounds. A database search was also performed for bruises, but only one study <ref type="bibr" target="#b49">50</ref> was found. Studies excluded from the review analysis were any measuring burns, any review or opinion articles, animal studies (eg, murine, rat, porcine), methodological testing, and in vitro testing (eg, tissue samples).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head><p>Wound measurement and assessment are important in monitoring the healing process of chronic wounds and in evaluating the effect of treatment. The objective of this systematic review was to evaluate evidence from the literature regarding the use of hyperspectral imaging in the management of patients with wounds. Literature prior to June 2019 was included in the research. Studies were identified by searching the electronic databases PubMed, Embase, Cochrane Library, and manufacturers' websites were also included. Of the 140 studies identified some 91 were excluded during screening for various reasons (animal study-13, in vitro-8, methods-1, study design [no results]-1, burns-12, no wounds-27, not HSI/MSI-1, book-2, conference paper-1, opinion-3, review-21, poster-1) during literature screening to leave 49 for qualitative synthesis. A further 18 were then excluded upon thorough inspection (animal study-3, methods-8, no results-3, not HSI/MSI-2, no wound-1, editorial/opinion article-1) to leave 31 for inclusion in the review of different HSI techniques for measuring acute, chronic, and woundrelated conditions. A total of four technologies for determining tissue oxygenation included: custom systems (14 papers), OxyVue-Hypermed (11 papers), TIVITA (5 papers), and Kent (1 paper). The number of wounds examined in the studies was highly variable (n = 2-150). None of the HSI technologies have so far had a significant impact because of their low accuracy, high cost, and complexity in handling the system set-up.</p><p>Such as patient population varies significantly between studies, we will report results for studies, where statistical significance can be derived, and only methodology and methods otherwise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Quality of evidence</head><p>The quality level determination reflects certainty about the evidence. We used the Grading of Recommendations Assessment, Development, and Evaluation (GRADE) framework. <ref type="bibr" target="#b50">51</ref> We started with the assumption that Randomized Clinical Trial (RCTs) are of high quality, whereas observational studies are of low quality. Using this methodology, the overall quality can be high, moderate, low, or very low.</p><p>We have not found any RCT among our dataset. Thus, the quality of evidence is low (observational studies) and very low (case studies and case series).</p><p>While trials and studies are more impactful when gathering evidence, often individual case studies or case series can provide additional information and insight as to the effectiveness of an approach or therapeutic. <ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b52">53</ref> In most cases (n = 19) the multi-patient studies were reported. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref> However, in some cases (n = 12), the case studies were reported. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b68">[69]</ref><ref type="bibr" target="#b69">[70]</ref><ref type="bibr" target="#b70">[71]</ref><ref type="bibr" target="#b71">[72]</ref><ref type="bibr" target="#b72">[73]</ref><ref type="bibr" target="#b73">[74]</ref><ref type="bibr" target="#b74">[75]</ref><ref type="bibr" target="#b75">[76]</ref><ref type="bibr" target="#b76">[77]</ref><ref type="bibr" target="#b77">[78]</ref> Daeschlein et al. <ref type="bibr" target="#b74">75</ref> reported five case studies of different types of wound/lesion (infected hand-wound, systemic scleroderma, Dupuytren's contracture, chronic abscesses by Methicillin-resistant Staphylococcus aureus, and PAD). Each patient was examined with the HSI device in the context of clinical treatment to assess StO2, NIR perfusion, and tissue haemoglobin index. Rutkowski et al. <ref type="bibr" target="#b77">78</ref> imaged two patients undergoing cold atmospheric plasma (CAP) therapy to evaluate StO2, NIR perfusion, and total hemoglobin index (THI) before, immediately after, and 10 minutes after receiving the treatment at points of interest (one or more in the tumour area, one as an internal control in a non-CAP treated neck/cheek area).</p><p>Wild et al. <ref type="bibr" target="#b7">8</ref> assessed THI, NIR perfusion, tissue oxygenation, and tissue water index in three wound case studies at the start of treatment and after 8 weeks to determine how changes in HSI measurements relate to wound healing.</p><p>Daeschlein et al. <ref type="bibr" target="#b68">69</ref> assessed two wounds (one acute and one chronic) to determine the effects of CAP therapy. The wounds were treated with CAP, and HSI images were taken before treatment, directly after, and 10 minutes after treatment.</p><p>Sicher et al. <ref type="bibr" target="#b75">76</ref> reported HSI imaging of four clinical case study patients (scleroderma, Dupuytren surgery, chronic foot ulcers, and skin infections).</p><p>Berot et al. <ref type="bibr" target="#b72">73</ref> reported the use of a 3D multispectral camera in two case studies: one woman with chronic loss of substance of pejorative evolution on the lateral side of left leg, one woman with spontaneous right buttock necrosis. HSI measurements were obtained under different light sources (artificial white, red, sunlight).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Imaging systems</head><p>The use of digital photography has dramatically changed wound care tracking and documentation. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b21">22</ref> The advances in imaging technology have presented opportunities beyond visible light. <ref type="bibr" target="#b72">73</ref> The ubiquity of less expensive digital cameras, including those in phones, maybe the key to enhanced wound imaging when used in tandem with additional technologies or components. <ref type="bibr" target="#b78">79</ref> A combination of off-the-shelf devices and custombuilt devices were used (Table <ref type="table">1</ref>).</p><p>Spectroscopic data were used in References 64, 65, 68. Not sufficient details to make a determination were provided in Reference 73.</p><p>In several studies, combinations with other imaging technologies were used. Zhang et al. <ref type="bibr" target="#b69">70</ref> reported a multimodal imaging device designed to integrate HSI, laser speckle, and thermographic imaging. Liu et al. <ref type="bibr" target="#b76">77</ref> developed a 3D topography multiview/HSI integrated system. Chang et al. <ref type="bibr" target="#b71">72</ref> proposed a multimodal system (3D wound size measurements, HSI, thermo, and chemical vapour sensing analysis) for pressure injury assessment.</p><p>In several studies, spectroscopic systems were used at a single <ref type="bibr" target="#b63">64,</ref><ref type="bibr" target="#b64">65</ref> location to detect spatial heterogeneity of the blood flow. A spectroscopic system was used by Poosapadi et al. <ref type="bibr" target="#b67">68</ref> to discriminate between Staphylococcus aureus and Escherichia coli.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| Wavelength range</head><p>Three main optical modalities are used to measure tissue oxygenation changes in wounds (HSI, MSI, and NIR spectroscopy). Typically, they are based on Si-based sensors, which are sensitive in visible and near-infrared ranges (400-1100 nm). The sensing depth depends on the chosen wavelength range. Skin surface tissues (dermis and epidermis) oxygenation is probed via visible light with subcutaneous tissue oxygenation being captured through the NIR light (typically between 650 and 980 nm). Systems with a broader spectral range, therefore, provide a more complete wound oxygenation map.</p><p>Different wavelength ranges in visible and nearinfrared spectra were used (Table <ref type="table">2</ref>).</p><p>In one study, the ranges of wavelengths were compared. In Philimon et al., <ref type="bibr" target="#b73">74</ref> 530-570 nm range was compared with the 520-600 nm range. The measurements from the two ranges were significantly comparable. The 530-570 nm range provides slightly higher (5.72% on average) oxygenation numbers than the broader range.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">| Algorithm</head><p>A key component of a hyperspectral approach is the algorithm used to deconvolute reflected light from multiple wavelengths and tissues. Algorithms are also used to combine images from both hyperspectral and photographic sources, generally as an overlay. This provides a more in-depth clinical picture of both the visible skin surface and the underlying subcutaneous tissue.</p><p>Different models were used to extract tissue oxygenation. For commercially available systems, algorithms were not reported in reviewed materials. However, for custom-built systems, several authors reported their algorithms. In particular, Basiri et al. <ref type="bibr" target="#b65">66</ref> used the Stamatas model. <ref type="bibr" target="#b79">80</ref> Huong et al. <ref type="bibr" target="#b70">71</ref> used the Extended Modified Beer-Lambert model to extract oxygen saturation (SO2).</p><p>Several authors used other algorithms to predict healing outcomes, segment tissues, and reconstruct wound topology. In particular, Yang et al. <ref type="bibr" target="#b62">63</ref> analysed the prognostic potential of derived SpO2 and PCA performed on the whole wavelength range. They found that the sensitivity of prediction of healing by 12 weeks using PCA (87.5%) was higher than that of SpO2 (50.0%), with both approaches showing equal specificity (88.2%).</p><p>Liu et al. <ref type="bibr" target="#b76">77</ref> proposed 3D reconstruction of wound topology using 3D topography multiview system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">| Clinical variable</head><p>Wounds are complex in their nature as they are multifactorial and the patient often has multiple comorbidities that can impact the patient as a whole, including wound. <ref type="bibr" target="#b13">14</ref> This complexity, however, presents an opportunity with respect to clinical measurement. <ref type="bibr" target="#b16">17</ref> With many variables to measure imaging can be the easiest and most powerful. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b24">25</ref> For the purposes of this review, we will OxyVu system (Hypermed, MA)</p><p>A hyperspectral system with wavelengths between 500 and 660 nm.</p><p>Demonstrated, through multiple studies, promise in the assessment of wounds.</p><p>Kent Camera (Kent Imaging, Canada) A multispectral system, which uses four wavelengths in the NIR range.</p><p>Demonstrated, through several studies, promise in the assessment of wounds.</p><p>TIVITA system (Diaspective, Germany)</p><p>A hyperspectral system, which uses a 500-980 nm range.</p><p>Demonstrated, through multiple studies, promise in the assessment of wounds.</p><p>Basiri et al <ref type="bibr" target="#b65">66</ref> A custom-built system with 480, 500, 520, 530, 540, 560, 580, 590, 600, 620, 630, 640, 660, 680, 700, and 886 nm wavelength</p><p>Oxygen saturation maps of healthy skin obtained with this system show values comparable to the one reported in the literature. Monitoring of tissue oxygenation during healing could be an important metric in establishing efficacy in wound treatment and care.</p><p>Zhang et al. <ref type="bibr" target="#b69">70</ref> A custom-built system with 400 to 900 nm range</p><p>The integrated multimodal imaging system has been developed and validated in an in vivo experiment following a post occlusive reactive hyperaemia (PORH) procedure.</p><p>Jeffcoate et al. <ref type="bibr" target="#b61">62</ref> Yang et al. <ref type="bibr" target="#b62">63</ref> A custom-built system with 430-750 nm range (272 values)</p><p>These findings suggest that HSI may predict healing in routine practice.</p><p>The results of the present study confirm a statistical relationship between the oxygenation of haemoglobin in blood vessels of the foot as determined by baseline HSI and healing by 12 weeks. HSI may be a better predictor of healing when analysed by PCA than by SpO2.</p><p>Sprigle et al. <ref type="bibr" target="#b66">67</ref> A custom design multispectral system from 400 to 950 nm at 50-nm intervals Four algorithms enhanced contrast of erythema by order of magnitude over that of a digital photograph. The accuracy of the detection algorithms ranged from 66% to 95%. Sensitivity and specificity ranged from 0% to 100%. One fusion algorithm exhibited an accuracy of more than 90% and sensitivity and specificity of more than 90%.</p><p>Stam et al. <ref type="bibr" target="#b49">50</ref> A custom designed hyperspectral camera, which takes 131 images in 440-700 nm range.</p><p>The age of bruises can be determined accurately from the time-varying areas of haemoglobin and bilirubin measured by hyperspectral imaging.</p><p>Liu et al. <ref type="bibr" target="#b63">64</ref> a spectroscopic system in 360 to 1000 nm range, which contained 1127 channels with a bandwidth ranging from 0.6 to 0.53 nm Future clinical studies are needed to investigate the most cost-effective application of an intelligent telemedicine monitoring system for the diabetic foot in daily clinical practice.</p><p>evaluate how HSI is used to measure the oxygenation or perfusion of skin tissues, including a wound.</p><p>In most studies, tissue oxygenation data were extracted. However, in some studies, other parameters (total oxyhaemoglobin, total deoxyhaemoglobin, total haemoglobin) were used in some combination/ ratios. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref> Liu et al. <ref type="bibr" target="#b63">64</ref> designed a spectroscopic diabetic foot ulcer (DFU) pre-sign detector/classifier with a limited number of spectral bands (3-7). The performance of the design was investigated on a dataset of 227 skin spots, classified by a clinical expert as healthy, ulcer, callus, or showing other pre-ulceration signs. The sets (3-7 wavelengths) were all able to automatically discriminate between (pre-) signs of ulceration and healthy skin spots with a specificity of 96% and a sensitivity of 97%.</p><p>Liu et al. <ref type="bibr" target="#b76">77</ref> proposed 3D reconstruction of wound topology using 3D topography multiview system.</p><p>Springle et al. <ref type="bibr" target="#b66">67</ref> used multispectral imaging to detect erythema in darker skin. Four algorithms enhanced contrast of erythema by order of magnitude over that of a digital photograph. The accuracy of the detection algorithms ranged from 66% to 95%. Sensitivity and specificity ranged from 0% to 100%. One fusion algorithm exhibited an accuracy of more than 90% and sensitivity and specificity of more than 90%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">| Clinical outcomes</head><p>Some clinical parameters can be more predictive of outcome than others with regard to wound status. <ref type="bibr" target="#b78">79</ref> The review process looked at studies where HSI was used to be more predictive of the outcome.</p><p>In several studies, HSI was used to predict the probability of healing. In particular, Khaodhiar et al. <ref type="bibr" target="#b56">57</ref> measured deoxyhaemoglobin (RHb), oxyhaemoglobin (HbO2), and SO2 of diabetic patients with (n = 10) and without DFU (n = 13) as well as non-diabetic controls (n = 14) four times over 6 months using HSI. Healing index (distance between the point defined by the oxy and deoxy values and the linear discriminant decision line that best separated healed ulcers from unhealed ulcers) was proposed to predict healing potential. The sensitivity, specificity, and positive and negative predictive values of the index were 93%, 86%, 93%, and 86%, respectively. Nouvong et al. <ref type="bibr" target="#b57">58</ref> verified that the healing index in a small clinical trial (54 patients with 73 ulcers) and found 80%, 74%, and 90% for the sensitivity, specificity, and positive predictive value, respectively.</p><p>Yang et al. <ref type="bibr" target="#b62">63</ref> analysed SpO2 and PCA methods as predictors of wound healing. SpO2 results from baseline were significantly different between ulcers that did and did not heal within 12 weeks, but not between those that did and did not by 24 weeks. In the PCA results, a clustering of data corresponding to healing within 12 weeks was observed at the PC2 threshold of (-0.62, +0.62). When the methods were compared in a receiver operating characteristic (ROC) curve, the PCA classifier was shown to be much more ideal. The sensitivity of prediction of healing by 12 weeks using PCA (87.5%) was higher than that of SpO2 (50.0%), with both approaches showing equal specificity (88.2%).</p><p>Chang et al. <ref type="bibr" target="#b71">72</ref> used a multimodal system (3D wound size measurements, HSI, thermo, and chemical vapour sensing analysis) to assess the probability of healing of pressure injuries.</p><p>In some studies, HSI was used to predict the probability of ulceration. In particular, Yudovsky et al. <ref type="bibr" target="#b58">59</ref> assessed the use of HSI in predicting DFU development. Diabetic patients at risk of DFU were monitored and retrospectively assessed for ulceration. Difference in HbO2 (and RHb at less degree) value between wound and periwound was a predictor of ulceration. The ulceration prediction index was developed. Algorithms were able to predict tissue at risk of ulceration with a sensitivity and specificity of 95% and 80%, respectively, for images taken, on average, 58 days before tissue damage is apparent to the naked eye.</p><p>In one study, <ref type="bibr" target="#b67">68</ref> the spectral signatures of S aureus and E coli were used to discriminate between them. They achieved the 100% sensitivity and 75% specificity in detecting the presence of these infections with 100% negative predicted value in excluding the infection in such wounds.</p><p>Stam et al. <ref type="bibr" target="#b49">50</ref> used multispectral imaging to determine the age of bruises using haemoglobin and bilirubin presence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7">| Baseline measurements</head><p>Technology validation is essential from a clinical perspective, particularly with respect to any diagnostic or prognostic measurement. An element of key importance is baseline measurement to provide a reference for differential diagnosis between normal and abnormal conditions.</p><p>Greenman et al. <ref type="bibr" target="#b4">5</ref> used HSI to measure haemoglobin saturation in healthy, diabetic, and diabetic neuropathic subjects. The forearm SO2 during resting was different in all three groups, with the highest value in controls (42 ±  17), followed by the non-neuropathic (32 ± 8) and neuropathic (28 ± 8) groups (P &lt; .0001). In the foot at resting, SO2 was higher in the control (38 ± 22) and nonneuropathic groups (37 ± 12) than in the neuropathic group (30 ± 12; P = Á027).</p><p>In several studies, the HSI results were compared with gold standards. Bowen et al. <ref type="bibr" target="#b53">54</ref> found that transcutaneous partial pressure of oxygen (TcPO2) and SO2 are highly correlated (R 2 = .84). Jafari-Saraf et al. <ref type="bibr" target="#b59">60</ref> compared HSI with TcPO2. Twenty-three sections of the foot or wrist skin in four healthy volunteers were measured at 37 C, 41 C, and 45 C. TcPO2 at 37 C was 23.1 ± 24.8 mmHg, increasing to 63.0 ± 27.3 mmHg at 45 C. HbO2 levels increased from 52.4 ± 25.4 at 37 C to 101.3 ± 23.8 at 45 C. Linear regression analysis of the data at 37 C showed a positive correlation between TcPO2 and HbO2 (R 2 = .35, P = .003), TcPO2 and RHb (R 2 = .63, P &lt; .0001), and TcPO2 and tHb (R 2 = .60, P &lt; .0001), but not SO2 (R 2 = .001, P = .92).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.8">| Aetiology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.8.1">| Acute wound</head><p>Acute wounds, unlike those which are chronic, generally heal without complication. <ref type="bibr" target="#b80">81,</ref><ref type="bibr" target="#b81">82</ref> As such, they present a good model for healing. Often acute wound studies are used as validation of any diagnostic or prognostic decision. <ref type="bibr" target="#b82">83</ref> HSI can be used for both diagnostic and prognostic decisions within wound care. <ref type="bibr" target="#b74">75</ref> Zhang et al. <ref type="bibr" target="#b69">70</ref> used a multimodal imaging device to monitor continuously healing progress of a 3 mm biopsy induced wound on an otherwise healthy patient.</p><p>Huong et al. <ref type="bibr" target="#b70">71</ref> used HSI to determine the possible range and variation of wound bed SO2. Three patients with acute wounds and eight healthy volunteers were included in the study.</p><p>Philimon et al. <ref type="bibr" target="#b73">74</ref> compared SO2 extraction using 530-570 nm range versus 520-600 nm range for one acute wound. The measurements from the two ranges were significantly comparable. The 530-570 nm range provides slightly higher (5.72% on average) oxygenation numbers than the broader range.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.8.2">| Bruises</head><p>Bruises seem inconsequential but are really more important than they seem, particularly in patients with comorbidities that can increase their chance of a wound. <ref type="bibr" target="#b83">84</ref> While there is some surface indication of injury, the damage is usually in the deeper tissues. <ref type="bibr" target="#b83">84</ref> This is where hyperspectral imaging can be beneficial by providing a measure of subcutaneous damage. <ref type="bibr" target="#b84">85</ref> Stam et al. <ref type="bibr" target="#b49">50</ref> used multispectral imaging to determine the age of bruises using haemoglobin and bilirubin presence, which can be useful in the area of forensic science <ref type="bibr" target="#b85">86</ref> and non-accidental injuries. <ref type="bibr" target="#b86">87</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.8.3">| Chronic wounds</head><p>Chronic wounds are difficult to manage. <ref type="bibr" target="#b87">88</ref> As such better assessment and diagnosis lead to better management and outcomes. <ref type="bibr" target="#b88">89</ref> Tracking of these wounds is vital to assess therapeutic outcomes. The visibility of the approach will help ensure the delivery of best practice. Most image tracking systems see what the camera can see. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b89">90</ref> As such, decisions are limited based on incomplete information. Hyperspectral or below the skin imaging can enhance this information providing additional, valuable clinical insight. <ref type="bibr" target="#b90">91</ref> Bowen et al. <ref type="bibr" target="#b53">54</ref> used HSI in 20 patients with lower extremity wounds (venous, arterial, diabetic, and radiation injury) to compare with a TcPO2 monitor and found a strong relationship between TcPO2 and SO2 (R 2 = .84).</p><p>Basiri et al. <ref type="bibr" target="#b65">66</ref> tested HSI on 15 patients (22 wounds) with wounds (a pressure ulcer, a diabetic ulcer, a vascular ulcer, or a post-surgical wound.) Evaluation of the wounds was conducted weekly for 4 weeks during treatment with CACIPLIQ20 and on two follow-up sessions via the standardised PUSH tool, VERG digital camera assessment, and multispectral camera assessment. The assessment of size obtained with the PUSH and VERG tools were used as indicators of wound healing and were compared with the results obtained with the multispectral camera. Data were analysed on 10 patients who completed treatment. The parametric t-test shows a significant decrease in the oxygen saturation value compared with PUSH and VERG tools (Paired T-test value = 4.53, P-value = .0001). A nonparametric analysis of SO2 using Wilcoxon criteria, repeated measures Friedman ANOVA, and repeated measures General Linear Model (GLM) confirms a significant trend in the reduction of oxygen saturation following a wound healing process, (Z-value in Wilcoxon rank test = 3.0, P-value = .003), (F-value in Friedman Test = 12.82, P-value = .012), GLM Fvalue = 21.7, P-value = .0001).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DFU</head><p>Diabetic foot ulceration is a major complication of diabetes, and diabetic patients have up to a 25% lifetime risk of developing a foot ulcer. <ref type="bibr" target="#b89">90</ref> If untreated, diabetic foot ulcers may become infected and require total or partial amputation of the affected limb. Changes in the large vessels and microcirculation of the diabetic foot are important in the development of diabetic foot ulceration and subsequent failure to heal existing ulcers. <ref type="bibr" target="#b91">92</ref> Hyperspectral imaging has been used to assess tissue viability and health in diabetes patients at risk of foot ulceration. <ref type="bibr" target="#b56">57,</ref><ref type="bibr" target="#b57">58,</ref><ref type="bibr" target="#b92">[93]</ref><ref type="bibr" target="#b93">[94]</ref><ref type="bibr" target="#b94">[95]</ref> Greenman et al. <ref type="bibr" target="#b4">5</ref> used HSI to measure haemoglobin saturation in healthy, diabetic, and diabetic neuropathic subjects. The forearm SO2 during resting was different in all three groups, with the highest value in controls (42 ± 17), followed by the non-neuropathic (32 ± 8) and neuropathic (28 ± 8) groups (P &lt; .0001). In the foot at resting, SO2 was higher in the control (38 ± 22) and non-neuropathic groups (37 ± 12) than in the neuropathic group (30 ± 12; P = Á027).</p><p>Khaodhiar et al. <ref type="bibr" target="#b56">57</ref> measured RHb and HbO2 of diabetic patients with (n = 10) and without DFU (n = 13) as well as non-diabetic controls (n = 14) four times over 6 months using HSI. HbO2 and RHb measurements in the peri-wound of non-healing ulcers were lower than in healing ulcers (P &lt; .01) and contralateral foot (P &lt; .001).</p><p>Nouvong et al. <ref type="bibr" target="#b57">58</ref> followed diabetic patients (n = 44) over a 24-week period. HbO2 and RHb were measured using HSI. In the peri-wound area, higher HbO2 and SO2 values were noted around DFUs that healed (85 ± 21 and 66 ± 9%, respectively) versus non-healing (64 ± 22 and 60 ± 10%, respectively). No difference in surrounding temperature was found.</p><p>Yudovsky et al <ref type="bibr">59,</ref> using data set <ref type="bibr">58,</ref> assessed the use of HSI in predicting DFU development. Diabetic patients (n = 54) at risk of DFU were monitored and retrospectively assessed for ulceration. Difference in HbO2 (and RHb at less degree) value between wound and periwound was a predictor ulceration. The ulceration prediction index was developed. Algorithms were able to predict tissue at risk of ulceration with a sensitivity and specificity of 95% and 80%, respectively, for images taken, on average, 58 days before tissue damage is apparent to the naked eye.</p><p>Jeffcoate et al. <ref type="bibr" target="#b61">62</ref> compared HSI SO2 measurements against blood gas analysis in blood samples (in vitro) in DFUs to determine the relationship between oxygenation and healing time at 12 and 24 weeks for 43 patients. A negative association between SO2 and healing by 12 weeks (P = .009) was found. A significant positive correlation between oxygenation assessed by HSI and time to healing (P = .03). No correlations were observed at 24 weeks. A strong correlation between SO2 and blood gas measurements (r = .994) was found. Yang et al. <ref type="bibr" target="#b62">63</ref> used the same dataset to compare SO2 versus principal component analysis (PCA). In the PCA results, a clustering of data corresponding to healing within 12 weeks was observed at the PC2 threshold of (-0.62, +0.62). When the methods were compared in a ROC curve, the PCA classifier was shown to be much more ideal. The sensitivity of prediction of healing by 12 weeks using PCA (87.5%) was higher than that of SpO2 (50.0%), with both approaches showing equal specificity (88.2%).</p><p>Poosapadari et al. <ref type="bibr" target="#b67">68</ref> used spectroscopy to discriminate between the two most prevalent potential pathogenic microbes in DFU patients (S aureus and E coli). They achieved the 100% sensitivity and 75% specificity in detecting the presence of these infections with 100% negative predicted value in excluding the infection in such wounds.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PAD</head><p>With the rise of amputations performed every year, resulting from diabetes complications and PVD, better methods are needed to assess the severity of wounds and make data-driven treatment decisions. <ref type="bibr" target="#b95">96</ref> Improved assessment tools could reduce secondary amputations, promote healing, and improve patient outcomes. <ref type="bibr" target="#b91">92</ref> Ubbink et al. <ref type="bibr" target="#b64">65</ref> found high reproducibility of near infrared spectroscopy (NIRS) (ICC: 0.91) in patients with leg ischaemia. Resting SO2 (65%) in healthy controls did not differ significantly from that in patients. After exercise, a significant reduction in SO2 was observed only in patients: The ankle-brachial index (ABI) after exercise showed a good correlation with SO2 at the end of the treadmill test. No correlation between NIRS and other micro-or macro circulatory parameters has been found.</p><p>Chin et al. <ref type="bibr" target="#b0">1</ref> imaged nine angiosomes of foot patients with PAD and healthy individuals. RHb values for the plantar metatarsal, arch, and heel angiosomes were significantly different between patients with and without PAD (P &lt; .005). Mean RHb values for the same three angiosomes showed significant differences between patients with monophasic, biphasic, and triphasic waveforms (P &lt; .05). In patients with PAD, there was also a significant correlation between RHb values and ABI for the same three angiosomes (P &lt; .001). HbO2 values did not predict the presence or absence of PAD, did not correlate with PAD severity, and did not correlate with the ABI.</p><p>Chiang et al. <ref type="bibr" target="#b1">2</ref> compared HSI with transcutaneous oxygen pressure measurements (TCOM) and ABI in patients with PVD. They found inter-operator reliability: 86% to 94% across the four hyperspectral imaging device outputs; intra-operator reliability: 92% to 94%. The HbO2, SO2, TcPCO2, and ABI of the diseased limb correlated significantly with the severity of PVD. SO2 significantly correlated with TcPO2 (R = . 19), TcPCO2 (R = -.26), ABI (R = .42), and skin temperature (R = .56). RHb is also correlated with TcPCO2 (R = .27).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Amputation stumps</head><p>Amputation can have longer-term issues with respect to the skin at risk and also potentially 'remainder' of a limb at risk. While it can take some time for visible skin lesions or trauma, some subcutaneous indicators may identify risk profiles. <ref type="bibr" target="#b96">97</ref> Rink et al. <ref type="bibr" target="#b54">55</ref> performed HSI for individuals with transtibial (TT) and transfemoral (TF) amputations and found that compared with able-limb (AL) controls, amputees have significantly lower transcutaneous oxygen tension, higher transepidermal water loss, and higher surface electrical capacitance in the residual limb. SO2, as measured by the HSI, was unchanged across AL, TT, and TF subjects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pressure injuries</head><p>A pressure injury is localised damage to the skin and underlying tissue caused by pressure, shear, or friction. <ref type="bibr" target="#b83">84</ref> Diagnosis, care, and treatment of pressure injuries can result in significant costs for healthcare systems. A reliable diagnosis supported by precise skin/wound evaluation is crucial in order to treat the patient appropriately. <ref type="bibr" target="#b83">84</ref> However, current clinical evaluation procedures, focused mainly on visual inspection, do not seem to be accurate enough to accomplish this important task. <ref type="bibr" target="#b97">98</ref> Chang et al. <ref type="bibr" target="#b71">72</ref> validated their multimodal system on 23 patients with pressure injuries. They found that periwound temperature difference correlates most strongly with the healing trend with a threshold of -2 C. If the peri-wound temperature is more than 2 C lower than the normal skin, the wound tends to be non-healing. They also derived an empirical rule that if the wound bed SO2 &gt; 60, the injury is non-healing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.8.4">| Intervention</head><p>In some studies, various interventions have been used.</p><p>Greenman et al. <ref type="bibr" target="#b4">5</ref> measured endothelium-dependent vasodilatation in the cutaneous microcirculation by iontophoresis of acetylcholine. HSI measurements were performed before and after iontophoresis. They found that oxyhaemoglobin at baseline and after iontophoresis was reduced in patients with (baseline 19 ± 7, postiontophoresis 38 ± 9) and without neuropathy (20 ± 5, 41 ± 8) compared with controls (29 ± 7, 50 ± 12; both P &lt; .0001). Baseline and post-iontophoresis values of deoxyhaemoglobin did not differ significantly between control individuals (baseline 41 ± 16, post-iontophoresis 52 ± 15), and those with (49 ± 10, 50 ± 9) or without neuropathy (44 ± 10, 50 ± 10). After iontophoresis, SO2 in the neuropathic group (43 ± 7) was lower than in controls (49 ± 10; P = Á004).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Arm occlusions</head><p>Arm occlusion is generally a technique used to evaluate the impact of reduced perfusion. <ref type="bibr" target="#b98">99</ref> It is generally used for research studies. The use of this test can validate or provide a baseline for tissue perfusion. <ref type="bibr" target="#b99">100</ref> Basiri et al. <ref type="bibr" target="#b65">66</ref> used a blood pressure cuff inflated to 140 mmHg to mimic ischaemic conditions in the arm (n = 1). The cuff was inflated for the duration of 220 seconds, and then the pressure was released.</p><p>Zhang et al. <ref type="bibr" target="#b69">70</ref> used an occlusion experiment (180 mmHg for 2 minutes) to compare SO2 to TcPO2 and laser Doppler perfusion monitoring measurements.</p><p>Liu et al. <ref type="bibr" target="#b76">77</ref> used an occlusion test (180 mmHg period of 2 minutes, and a reactive hyperaemia period of 4 minutes) to validate Multiview/HSI integrated set up. Measurements were compared with simultaneous laser Doppler perfusion monitor and TcPO2 electrode measurements of blood perfusion and PO2.</p><p>Wild et al. <ref type="bibr" target="#b7">8</ref> performed an occlusion test during HSI measurements on 10 healthy volunteers. Measurements were taken in four phases: normal, venous occlusion, arterial occlusion, and reperfusion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Leg occlusion</head><p>Leg occlusion, like arm occlusion, is a technique used to evaluate the impact of reduced perfusion. It is generally used for research studies. The use of this test can validate or provide a baseline for tissue perfusion. <ref type="bibr" target="#b100">101</ref> Unbbink et al. <ref type="bibr" target="#b64">65</ref> used provocations (a treadmill test, arterial occlusion, and a change in posture) to assess peripheral blood pressure and microcirculatory in patients with leg ischaemia and healthy individuals. They found that resting SO2 (65%) in healthy controls did not differ significantly from that in patients. After exercise, a significant reduction in SO2 was observed only in patients: The ABI after exercise showed a good correlation with SO2 at the end of the treadmill test. No correlation between NIRS and other micro-or macro circulatory parameters.</p><p>Springle et al. <ref type="bibr" target="#b66">67</ref> emulated erythema by a pneumatic cuff and indenter on the shanks of 56 subjects (including 28 with darker skin) to test pressure injury detection algorithms. The medial tibial flare was selected as the loading site because it is relatively flat and can be loaded without discomfort. The accuracy of the detection algorithms ranged from 66% to 95%. Sensitivity and specificity ranged from 0% to 100%. One fusion algorithm exhibited an accuracy of more than 90% and sensitivity and specificity of more than 90%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.9">| HSI as a research tool</head><p>Like most diagnostic tools, hyperspectral imaging can be used in research.</p><p>Basiri et al. <ref type="bibr" target="#b65">66</ref> measured SO2 using HSI in a clinical trial to assess whether PCMGS (Poly Carboxy Methyl Glucose Sulfate) promotes wound healing (15 patients 22 wounds) with wounds (a pressure ulcer, a diabetic ulcer, a vascular ulcer, or a post-surgical wound.) Evaluation of the wounds was conducted weekly for 4 weeks during treatment with CACIPLIQ20 and on two follow-up sessions via the standardised PUSH tool, VERG digital camera assessment, and multispectral camera assessment. The assessment of size obtained with the PUSH and VERG tools were used as indicators of wound healing and were compared with the results obtained with the multispectral camera. Data were analysed on 10 patients who completed treatment. The parametric ttest shows a significant decrease in the oxygen saturation value compared with PUSH and VERG tools (Paired Ttest value = 4.53, P-value = .0001). A non-parametric analysis of SO2 using Wilcoxon criteria, repeated measures Friedman ANOVA, and repeated measures GLM confirms a significant trend in the reduction of oxygen saturation following a wound healing process, (Z-value in Wilcoxon rank test = 3.0, P-value = .003), (F-value in Friedman Test = 12.82, P-value = .012), GLM Fvalue = 21.7, P-value = .0001).</p><p>Chiang et al. <ref type="bibr" target="#b6">7</ref> performed HSI assessment in a clinical trial to assess the effect of topical negative pressure (TNP) therapy. Vascular patients with acute wounds after surgical debridement or minor amputation were randomly assigned to a treatment group (TNP or regular topical). Each wound was assessed at baseline and day 14 of treatment (volumetric assessment, biochemical analysis of hydroxyproline levels, and HSI tissue oxygenation measurement).</p><p>Chiang et al. <ref type="bibr" target="#b55">56</ref> performed HSI assessment in a clinical trial to assess the effect of Perioperative adjuncts during infrainguinal bypass (IIB) surgery. Patients undergoing IIB surgery were allocated into three treatment arms (perioperative high-dose oxygen, extended warming, and a synthetic prostacyclin) or a control group. Healing and perfusion were assessed via accumulation of hydroxyproline, levels of growth factors and cytokines, tissue oxygenation of wound and foot (measured by HSI), and ankle-brachial index. Clinical outcomes observed to day 30, long-term follow-up of 12 months.</p><p>Rink et al. <ref type="bibr" target="#b60">61</ref> used HSI to quantitatively assess residual-limb circulation in response to elevated vacuum suspension (EVS) in 10 amputees. In particular, HSI was used to quantify reactive hyperaemia.</p><p>Daeschlein et al. <ref type="bibr" target="#b68">69</ref> assessed two wounds (one acute and one chronic) to determine the effects of CAP therapy. The wounds were treated with CAP, and HSI images were taken before treatment, directly after, and 10 minutes after treatment.</p><p>Rutkowski et al. <ref type="bibr" target="#b77">78</ref> imaged two patients undergoing CAP therapy to evaluate StO2, NIR perfusion, and THI before, immediately after, and 10 minutes after receiving the treatment at points of interest (one or more in the tumour area, one as an internal control in a non-CAP treated neck/cheek area.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Hyperspectral imaging technology</head><p>While spectral analysis has been in the medical arena for some time, it is relatively recent to the world of wound care. That being said, there are a small number of commercial devices being targeted to wounds. Most of the research to date in this area has been with custom devices from the research environment.</p><p>One commercial technology, OxyVue (Hypermed), has the most significant quantity of clinical research and evidence. But even that is limited in its scope and size.</p><p>The varying wavelengths utilised in multiple research and clinical studies confuse the arena as to the most appropriate for use in wound care. Or if any particular wavelength or range of wavelengths is more suitable for any specific aetiology.</p><p>Reported studies vary significantly in methodology. Most of the reported studies are proof-of-the-concept. It is probably can be explained by a very early stage of the HSI technology in wound care. Most studies have not benchmarked healthy individuals and not performed any comparison with a gold standard (We identified just three studies, which compare HSI with TCOP). Even when the comparison was performed, a very broad set of clinical tools was used (laser Doppler, ABI, blood gas analysis, StO2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Clinical application of hyperspectral imaging</head><p>Albeit the evidence is limited, it does include a number of wound aetiologies showing the breadth of scope of HSI. Wounds come in all shapes and sizes, with a myriad of underlying casualties or impactors (eg, diabetes). Wound patients are complex, and often clinical signs and symptoms can be subcutaneous and note readily visible to the human eye.</p><p>HSI offers a technological solution to help better understand patients with wounds and the outcomes of treatment. While this is significant in itself, HSI offers significant potential in the preventative area by allowing the identification of 'skin at risk' (eg, impending deep tissue injury).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">| Limitations</head><p>The present systematic review and the availability of evidence have several limitations. First, given the substantial clinical and methodological heterogeneity between studies, a variety of ways HSI data were presented, and the small numbers of available studies, it was not possible to perform a meta-analysis and quantitatively analyse the data. Consequently, we were unable to draw any firm conclusions concerning the effectiveness of the described HSI techniques. Second, the studies were of mixed methodological quality and reported a variety of customised HSI systems, limiting our discussion to a qualitative discussion of a small number of higher-quality studies. Third, the amount of details about HSI systems varied significantly in available studies, with particularly very scarce details available for proprietary systems. Thus, it complicates the comparison between results even further. Finally, the results reported in our review are not crossvalidated and limited by the accuracy of the previously reported data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">| Future studies</head><p>Future hyperspectral imaging studies are required to more fully quantify the tissue-oxygenation-based assessment that can provide subclinical physiological status to combine with visual clinical assessment. Higher powered studies would provide more evidence of approach and applicability with regard to wound type or wound-related conditions.</p><p>Particular attention needs to be paid to the benchmarking of the physiological normal conditions and comparison with gold standards.</p><p>Research and development efforts are focused on performing an image overlay of tissue oxygenation maps onto white light images. This will assist in determining areas of changed oxygenation and comparing them with visual wound areas, providing a more compelling visual representation of the wound and its underlying and surrounding subcutaneous structures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| CONCLUSION</head><p>Wounds are common and complex. <ref type="bibr" target="#b101">102</ref> An accurate assessment is urgently required as part of routine clinical assessment. Such accurate, reliable, reproducible measurements are important in clinical practice to objectively assess and benchmark outcomes. <ref type="bibr" target="#b102">103</ref> The accurate determination of wound size is widely accepted as an indication of wound progression. It is evident that wound imaging with clinically validated measurement can be beneficial to the healing process. <ref type="bibr" target="#b103">104,</ref><ref type="bibr" target="#b104">105</ref> . Other woundrelated parameters are subcutaneous and, as such, cannot be seen easily. <ref type="bibr" target="#b105">106</ref> Hyperspectral imaging analysis has significant potential in healthcare. <ref type="bibr" target="#b106">107</ref> It has the potential to transform wound prevention and treatment. Numerous studies have evaluated its use in pre-clinical in vivo animal models, <ref type="bibr">102-114,</ref> and others have demonstrated the usefulness of ex vivo tissue analysis. <ref type="bibr" target="#b114">115</ref> The use of in vivo HSI systems has not been widely tested in the prevention and treatment of wounds, but the small number of studies demonstrate its current capabilities <ref type="bibr" target="#b114">[115]</ref><ref type="bibr" target="#b115">[116]</ref><ref type="bibr" target="#b116">[117]</ref><ref type="bibr" target="#b117">[118]</ref><ref type="bibr" target="#b118">[119]</ref> and highlight avenues for future research. Since most studies are small and inadequately powered, there is a need for further data to prove the ultimate clinical utility. Most studies, to date, have been essentially in the research area, but the real need is a point of care test.</p><p>However, in order to translate this promising imaging technique into regular clinical use <ref type="bibr" target="#b119">120</ref> within wound prevention and management, it must be seamlessly integrated into the clinical workflow. Since most patients with wounds are 'in and out' of multiple care settings across the continuum of care, technologies have to be both practical and adaptable. Hardware development, therefore, needs to leverage recent advances in the miniaturisation of hyperspectral systems, and robust realtime image analysis models must be developed.</p><p>It has been shown that ischaemic and hypoxic conditions are detrimental to many different types of wounds. <ref type="bibr" target="#b120">121,</ref><ref type="bibr" target="#b121">122</ref> Monitoring of tissue oxygenation is, therefore, an important metric in the management of patients with wounds. Hyperspectral imaging is a promising technique for assessment of optical tissue properties and noninvasive monitoring of wound healing. <ref type="bibr" target="#b115">116</ref> Telemedicine, facilitated by electronic imaging and measurement systems, <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> which could include HSI, has great potential to reduce cost and improve standards in wound care; this derives from reducing patient and clinician transport and providing higher-level and more immediate access to expert clinical knowledge. While this technology has potential, it needs to influence practice to make a difference. This may require the primary adoption to be in specialist clinical centres to increase awareness and provide educational support for other clinicians.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,71.49,425.71,454.00,288.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>•</head><label></label><figDesc>The comparators-Traditional tissue healing measurements • The outcomes-Ability of HSI to measure wound healing variables. • The study designs-Comparative studies of any design examining hyper and multispectral imaging techniques on in vivo skin.</figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>None.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>DATA AVAILABILITY STATEMENT Data sharing is not applicable to this article as no new data were created or analyzed in this study.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTERESTS</head><p>The authors declare no conflicts of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="14,56.39,119.31,231.14,7.58;14,64.97,130.82,222.57,7.58;14,64.97,142.33,190.38,7.58" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Evaluation of hyperspectral technology for assessing the presence and severity of peripheral artery disease</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Kibbe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1679" to="1688" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,56.39,153.84,231.21,7.58;14,64.97,165.35,222.57,7.58;14,64.97,176.86,183.13,7.58" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Evaluation of hyperspectral imaging technology in patients with peripheral vascular disease</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sleigh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vasudevan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1192" to="1201" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,56.39,188.36,231.14,7.58;14,64.97,199.82,222.57,7.58;14,64.97,211.33,147.03,7.58" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">High-resolution hyperspectral imaging of the retina with a modified fundus camera</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nourrit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Denniss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mmk</forename><surname>Muqit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Fr Ophtalmol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="686" to="692" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,56.39,222.83,231.15,7.58;14,64.97,234.34,222.56,7.58;14,64.97,245.85,221.99,7.58" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Preliminary investigation of multispectral retinal tissue oximetry mapping using a hyperspectral retinal camera</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Desjardins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Sylvestre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jafari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Eye Res</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="330" to="340" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,56.39,257.36,231.16,7.58;14,64.97,268.81,222.60,7.58;14,64.97,280.32,158.88,7.58" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Early changes in the skin microcirculation and muscle metabolism of the diabetic foot</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Greenman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Panasyuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="issue">9498</biblScope>
+			<biblScope unit="page" from="1711" to="1717" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,56.39,291.83,231.17,7.58;14,64.97,303.34,107.47,7.58" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Medical hyperspectral imaging: a review</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">10901</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,56.39,314.85,231.19,7.58;14,64.97,326.36,222.57,7.58;14,64.97,337.87,222.58,7.58;14,64.97,349.32,29.62,7.58" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effects of topical negative pressure therapy on tissue oxygenation and wound healing in vascular foot wounds</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Rodda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sleigh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vasudevan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="564" to="571" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,56.39,360.83,231.17,7.58;14,64.97,372.34,222.59,7.58;14,64.97,383.85,222.59,7.58;14,64.97,395.36,148.64,7.58" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging of tissue perfusion and oxygenation in wounds: assessing the impact of a micro capillary dressing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Schuhschenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Daeschlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Siemers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="38" to="51" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,56.39,406.86,231.16,7.58;14,64.97,418.32,222.59,7.58;14,64.97,429.83,222.60,7.58;14,64.97,441.33,79.06,7.58" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging of hemoglobin saturation in tumor microvasculature and tumor hypoxia development</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Sorg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Moeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Dewhirst</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">44004</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,55.94,452.84,231.61,7.58;14,64.91,464.35,222.64,7.58;14,64.91,475.86,136.66,7.58" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">New method for detection of gastric cancer by hyperspectral imaging: a pilot study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kiyotoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Okamoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">26010</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,55.94,487.31,231.62,7.58;14,64.91,498.82,222.65,7.58;14,64.91,510.33,174.70,7.58" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Detection of head and neck cancer in surgical specimens using quantitative Hyperspectral imaging</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Little</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="5426" to="5436" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,55.94,521.84,231.58,7.58;14,64.91,533.35,222.61,7.58;14,64.91,544.86,29.62,7.58" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The effects of education and training on clinical practice in wound healing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Seeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="660" to="664" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,55.94,555.58,231.61,8.50;14,64.92,567.82,141.81,7.58" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Education provision in wound caredoes it make a difference?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fletcher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="73" to="74" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,55.94,578.54,231.61,8.50;14,64.91,590.84,222.63,7.58;14,64.91,602.35,18.66,7.58" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Challenging passivity in venous leg ulcer carethe ABC model of management</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1378" to="1384" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,55.94,613.86,231.63,7.58;14,64.91,625.36,133.48,7.58" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Education and improved clinical outcomes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Queen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="299" to="299" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,55.94,636.82,231.62,7.58;14,64.91,648.33,222.68,7.58;14,64.91,659.83,86.21,7.58" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Wound care evidence, knowledge and education amongst nurses: a semi-systematic literature review</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Welsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="53" to="61" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,55.94,671.34,231.60,7.58;14,64.91,682.85,118.95,7.58" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Is wound photography becoming sloppy?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Queen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="5" to="6" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,55.94,693.57,231.63,8.50;14,64.91,705.87,160.27,7.58" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Wound registriesa new emerging evidence resource</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Queen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="325" to="325" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,52.26,231.66,7.58;14,326.10,63.76,222.68,7.58;14,326.10,75.27,29.62,7.58" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Data-driven specialisation of wound care through artificial intelligence</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Queen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="879" to="880" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,86.78,231.65,7.58;14,326.10,98.29,222.67,7.58;14,326.10,109.80,29.62,7.58" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Circumference, area and volume of the healing wound</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Melhuish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="380" to="384" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,121.25,231.70,7.58;14,326.10,132.76,222.70,7.58;14,326.10,144.27,31.12,7.58" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Wound measurement: can it help us to monitor progression to healing?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flanagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="189" to="194" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,155.78,231.65,7.58;14,326.10,167.27,103.32,7.58" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The importance of continuous wound measuring</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gethin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds UK</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="60" to="68" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,178.78,231.64,7.58;14,326.10,189.44,222.65,8.50;14,326.10,201.74,134.84,7.58" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Methods to assess area and volume of woundsa systematic review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Jørgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sørensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Jemec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Yderstraede</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="540" to="553" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,213.25,231.66,7.58;14,326.10,224.76,222.68,7.58;14,326.10,236.27,99.04,7.58" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Methods of measuring wound size: a comparative study</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Melhuish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="56" to="60" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,247.78,231.63,7.58;14,326.10,259.29,222.68,7.58;14,326.10,270.74,68.80,7.58" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The edge effect: how and why wounds grow in size and depth</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Athanasiou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Podiatr Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="105" to="108" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,282.25,231.68,7.58;14,326.10,293.76,222.69,7.58;14,326.10,305.27,222.69,7.58;14,326.10,316.78,96.67,7.58" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Digital planimetry results in more accurate wound measurements: a comparison to standard ruler measurements</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bevilacqua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="799" to="802" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,328.28,231.67,7.58;14,326.10,339.74,222.69,7.58;14,326.10,351.25,184.29,7.58" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Point-of-care wound visioning technology: reproducibility and accuracy of a wound measurement app</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jae</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">183139</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,362.75,231.67,7.58;14,326.10,374.26,160.50,7.58" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Telemedicine in wound healing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Banwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Shakespeare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="225" to="230" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,385.77,231.66,7.58;14,326.10,397.28,222.66,7.58;14,326.10,408.79,202.82,7.58" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Pilot trial of telemedicine as a decision aid for patients with chronic wounds</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Dobke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bhavsar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gosman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>De Neve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Neve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Telemed J E Health</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="245" to="249" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,420.24,231.66,7.58;14,326.10,431.75,222.68,7.58;14,326.10,443.26,155.82,7.58" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A pilot study on the potential of remote support to enhance wound care for nursing-home patients</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vowden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="481" to="488" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,454.77,231.67,7.58;14,326.10,466.28,222.63,7.58;14,326.10,477.79,21.31,7.58" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Telemedicine in wound care: a review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chanussot-Deprez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Contreras-Ruiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="78" to="82" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,489.24,231.64,7.58;14,326.10,500.75,222.70,7.58;14,326.10,512.26,182.46,7.58" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Two-dimensional wound measurement: comparison of 4 techniques</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Melland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Henly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="337" to="343" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,523.77,231.68,7.58;14,326.09,535.28,222.68,7.58;14,326.09,546.78,222.68,7.58;14,326.09,558.24,50.67,7.58" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Reliability of digital videometry and acetate tracing in measuring the surface area of cutaneous wounds</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Wunderlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Res Clin Pract</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="87" to="92" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,569.75,231.66,7.58;14,326.09,581.25,222.65,7.58;14,326.09,592.76,222.68,7.58;14,326.09,604.27,21.31,7.58" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A comparison of computer-assisted and manual wound size measurement</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Thawer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Houghton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Woodbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Keast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="46" to="53" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,615.78,231.64,7.58;14,326.09,627.29,222.68,7.58;14,326.09,638.74,178.89,7.58" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Digital imaging versus conventional contact tracing for the objective measurement of venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Samad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>French</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dodds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="137" to="140" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.12,650.25,231.62,7.58;14,326.09,661.76,222.65,7.58;14,326.09,673.27,52.62,7.58" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Wound assessment by 3-dimensional laser scanning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Romanelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Dini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bianchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Romanelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="1333" to="1334" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.11,684.78,231.67,7.58;14,326.09,696.29,222.66,7.58;14,326.09,707.74,187.48,7.58" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">An evaluation of three wound measurement techniques in diabetic foot wounds</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Lagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Stevenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2641" to="2642" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.64,52.24,231.64,7.58;15,66.61,63.75,222.67,7.58;15,66.61,75.26,140.66,7.58" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Comparative analysis of two methods for wound bed area measurement</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Poucke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nelissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jorens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vander</forename><surname>Haeghen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="366" to="377" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.64,86.77,231.62,7.58;15,66.61,98.28,222.66,7.58;15,66.61,109.79,222.68,7.58;15,66.61,121.24,50.67,7.58" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">3D photography is as accurate as digital planimetry tracing in determining burn wound area</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Stockton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Storey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Kimble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Burns</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="80" to="84" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,132.75,231.61,7.58;15,66.61,144.26,222.63,7.58;15,66.61,155.77,222.62,7.58;15,66.61,166.48,222.65,8.50;15,66.61,178.78,111.68,7.58" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Quantitative wavelength analysis and image classification for intraoperative cancer diagnosis with hyperspectral imaging</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Fei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SPIE -The International Society</title>
+		<meeting>SPIE -The International Society</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">9415</biblScope>
+			<biblScope unit="page">94151B</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,190.24,231.64,7.58;15,66.61,201.75,222.66,7.58;15,66.61,213.25,105.36,7.58" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The role of hyperspectral imaging: a literature review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mateen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Azeem</forename><surname>Akbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Azeem</forename><surname>Akbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Adv Comput Sci Appl</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,224.76,231.65,7.58;15,66.61,236.27,222.67,7.58;15,66.61,247.78,222.63,7.58;15,66.61,259.29,34.84,7.58" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Spectral representation Vis data-guided sparsity for hyperspectral image super-resolution</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page">5401</biblScope>
+			<date type="published" when="2019">2019</date>
+			<pubPlace>Basel, Switzerland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,270.74,231.59,7.58;15,66.61,282.25,222.64,7.58;15,66.61,293.76,222.65,7.58;15,66.61,305.27,222.65,7.58;15,66.61,316.78,67.58,7.58" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">B Evaluation of cross-polarized near infrared hyperspectral imaging for early detection of dental caries. Paper presented at: Proceeding of the SPIE 8208</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Usenik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bürmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fidler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pernuš</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Likar</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lasers in Dentistry XVIII, 82080G</title>
+		<imprint>
+			<date type="published" when="2012-01-30">January 30, 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,328.29,231.63,7.58;15,66.61,339.74,222.61,7.58;15,66.61,351.25,119.07,7.58" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Optical hyperspectral imaging in microscopy and spectroscopy -a review of data acquisition</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biophotonics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="441" to="456" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,362.76,231.65,7.58;15,66.61,374.27,222.67,7.58;15,66.61,385.78,222.63,7.58;15,66.61,397.28,39.00,7.58" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging based method for fast characterization of kidney stone types</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>López-Mesas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Serranti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bonifazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Havel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Valiente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">76027</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,408.79,231.66,7.58;15,66.61,420.25,222.63,7.58;15,66.61,431.75,125.25,7.58" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Hyperspectral hybrid method classification for detecting altered mucosa of the human larynx</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Gerstner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Health Geogr</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,443.26,231.65,7.58;15,66.61,454.77,222.63,7.58;15,66.61,466.28,95.51,7.58" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Quality of flow diagram in systematic review and/or meta-analysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vu-Ngoc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Elawady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Mehyar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">195955</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,477.79,231.64,7.58;15,66.61,489.24,169.84,7.58" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">PROSPERO at one year: an evaluation of its utility</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dooley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">4</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,500.75,231.62,7.58;15,66.61,512.26,222.62,7.58;15,66.61,523.77,35.55,7.58" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Automating data extraction in systematic reviews: a systematic review</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Jonnalagadda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Huffman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">78</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,535.28,231.64,7.58;15,66.61,546.79,222.62,7.58;15,66.61,558.24,222.64,7.58;15,66.61,569.75,29.62,7.58" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Can color inhomogeneity of bruises be used to establish their age?</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Van Gemert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Van Leeuwen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Teeuw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Van Der Wal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Aalders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biophotonics</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="759" to="767" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,581.26,231.64,7.58;15,66.61,592.77,222.66,7.58;15,66.61,604.28,222.64,7.58;15,66.61,615.78,222.68,7.58;15,66.61,627.29,222.59,7.58;15,66.61,638.75,110.74,7.58" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">GRADE handbook: handbook for grading the quality of evidence and strength of recommendations using the GRADE approach</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schünemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brozek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oxman</surname></persName>
+		</author>
+		<ptr target="http://gdt.guidelinedevelopment.org/app/handbook/handbook.html" />
+	</analytic>
+	<monogr>
+		<title level="j">The GRADE working Group</title>
+		<imprint>
+			<date type="published" when="2013-03">march 2013. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,650.25,231.63,7.58;15,66.61,661.76,178.43,7.58" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Innovation and Wound Care</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Innovation</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wound</forename><surname>Healing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">Sup4b</biblScope>
+			<biblScope unit="page" from="7" to="13" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,673.27,231.59,7.58;15,66.61,684.78,222.62,7.58;15,66.61,696.29,75.98,7.58" xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Basic Principles of Wound Management</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<editor>UpToDate, Post TW</editor>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>UpToDate Inc</publisher>
+			<pubPlace>Waltham (MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,57.63,707.74,231.66,7.58;15,66.61,719.25,222.62,7.58;15,327.80,52.26,222.66,7.58;15,327.80,63.77,138.26,7.58" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Correlation of near infrared spectroscopy measurements of tissue oxygen saturation with transcutaneous pO2 in patients with chronic wounds</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Bowen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Grn</forename><surname>Treadwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mrrt</forename><surname>Goodwin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SM Vasc Med</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">1006</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,75.27,231.67,7.58;15,327.80,86.78,222.69,7.58;15,327.80,98.29,222.68,7.58;15,327.80,109.80,64.64,7.58" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Standardized approach to quantitatively measure residual limb skin health in individuals with lower limb amputation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Wernke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="225" to="232" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,121.25,231.64,7.58;15,327.80,132.76,222.70,7.58;15,327.80,144.27,222.63,7.58;15,327.80,155.78,24.85,7.58" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Perioperative warming, oxygen, and Ilomedin on oxygenation and healing in infrainguinal bypass surgery</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Rodda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sleigh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vasudevan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Surg Res</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page" from="197" to="205" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,167.29,231.65,7.58;15,327.80,178.80,222.67,7.58;15,327.80,190.25,222.65,7.58;15,327.80,201.76,147.94,7.58" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The use of medical hyperspectral technology to evaluate microcirculatory changes in diabetic foot ulcers and to predict clinical outcomes</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Khaodhiar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dinh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Schomacker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="903" to="910" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,213.27,231.65,7.58;15,327.80,224.78,222.66,7.58;15,327.80,236.29,48.22,7.58;15,393.51,236.29,29.02,7.58;15,440.05,236.29,6.90,7.58;15,464.43,236.29,55.11,7.58;15,537.06,236.29,13.45,7.58;15,327.80,247.78,201.57,7.60" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Evaluation of diabetic foot ulcer healing with hyperspectral imaging of oxyhemoglobin and deoxyhemoglobin</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nouvong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hoogwerf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mohler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tajaddini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Medenilla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2056" to="2061" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,259.29,231.64,7.58;15,327.80,270.74,222.65,7.58;15,327.80,282.25,153.23,7.58" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Assessing diabetic foot ulcer development risk with hyperspectral tissue oximetry</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yudovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nouvong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schomacker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pilon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">26009</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,293.76,231.66,7.58;15,327.80,305.26,222.66,7.58;15,327.80,316.77,222.55,7.58" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Hyperspectral image measurements of skin hemoglobin compared with transcutaneous PO2 measurements</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jafari-Saraf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">L</forename><surname>Gordon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="537" to="548" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,328.28,231.64,7.58;15,327.80,339.73,222.66,7.58;15,327.80,351.24,222.63,7.58;15,327.80,362.75,108.35,7.58" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Elevated vacuum suspension preserves residual-limb skin health in people with lower-limb amputation: randomized clinical trial</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Wernke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rehabil Res Dev</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1121" to="1132" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,374.26,231.66,7.58;15,327.80,385.77,222.66,7.58;15,327.80,397.28,222.64,7.58;15,327.80,408.79,29.62,7.58" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Use of HSI to measure oxygen saturation in the lower limb and its correlation with healing of foot ulcers in diabetes</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Jeffcoate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Savic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet Med</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="798" to="802" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,420.24,231.69,7.58;15,327.80,431.75,222.66,7.58;15,327.80,443.26,222.66,7.58;15,327.80,454.77,78.54,7.58" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Investigation of the performance of Hyperspectral imaging by principal component analysis in the prediction of healing of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Jeffcoate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Imaging</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">144</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,466.28,231.64,7.58;15,327.79,477.79,222.66,7.58;15,327.79,489.24,222.67,7.58;15,327.79,500.75,139.58,7.58" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Statistical analysis of spectral data: a methodology for designing an intelligent monitoring system for diabteic foot</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Van Netten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Van Baal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Der Heijden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">126004</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,512.26,231.63,7.58;15,327.79,523.76,222.68,7.58;15,327.79,535.27,164.10,7.58" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Near-infrared spectroscopy in the routine diagnostic work-up of patients with leg ischaemia</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Ubbink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Koopman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Vasc Endovasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="394" to="400" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,546.78,231.62,7.58;15,327.79,558.23,222.68,7.58;15,327.79,569.74,77.11,7.58" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Use of a multispectral camera in the characterization of skin wounds</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Basiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nabili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mathews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt Express</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="3244" to="3257" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,581.25,231.68,7.58;15,327.79,592.76,222.70,7.58;15,327.79,604.27,135.64,7.58" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Detection of skin erythema in darkly pigmented skin using multispectral images</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sprigle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Duckworth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="172" to="179" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,615.78,231.67,7.58;15,327.79,627.29,222.70,7.58;15,327.79,638.74,222.69,7.58;15,327.79,650.25,169.68,7.58" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Highresolution spectral analysis accurately identifies the bacterial signature in infected chronic foot ulcers in people with diabetes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poosapadi Arjunan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Tint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Aliahmad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="78" to="86" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,661.76,231.63,7.58;15,327.79,673.27,222.66,7.58;15,327.79,684.78,222.68,7.58;15,327.79,696.29,68.80,7.58" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging: innovative diagnostics to visualize hemodynamic effects of cold plasma in wound therapy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Daeschlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rutkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Tech (Berl)</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="603" to="608" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,318.82,707.74,231.66,7.58;15,327.79,719.25,207.43,7.58" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Multimodal imaging of cutaneous wound tissue</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gnyawali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">16016</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.94,52.24,231.63,7.58;16,64.91,63.75,200.20,7.58" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Multispectral imaging of acute wound tissue oxygenation</title>
+		<author>
+			<persName><forename type="first">Huong</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Innovat Opt Health Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">03</biblScope>
+			<biblScope unit="page">1750004</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,75.26,231.60,7.58;16,64.91,86.77,222.67,7.58;16,64.91,98.28,116.68,7.58" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Multimodal sensor system for pressure ulcer wound assessment and care</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Industrial Informatics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1196</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,109.79,231.61,7.58;16,64.91,121.24,222.64,7.58;16,64.91,132.75,164.03,7.58" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Multispectral threedimensional imaging for chronic wound modelization: proof of concept</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bérot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Malleret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Michel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Skin Res Technol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="903" to="905" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,144.26,231.62,7.58;16,64.91,155.77,222.65,7.58;16,64.91,167.28,181.59,7.58" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">An alternative wavelength range for noninvasive assessment of wound tissue oxygenation status</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Philimon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Skc</forename><surname>Huong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ngu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Engine Technol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="73" to="77" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,178.78,231.61,7.58;16,64.91,190.24,222.63,7.58;16,64.91,201.75,154.93,7.58" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging as a novel diagnostic tool in microcirculation of wounds</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Daeschlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Langner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wild</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Hemorheol Microcirc</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="467" to="474" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,213.25,231.61,7.58;16,64.91,224.76,222.61,7.58;16,64.91,236.27,222.64,7.58;16,64.91,247.78,180.99,7.58" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging as a possible tool for visualization of changes in hemoglobin oxygenation in patients with deficient hemodynamics -proof of concept</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sicher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rutkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Tech (Berl)</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="609" to="616" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,259.29,231.61,7.58;16,64.91,270.74,222.65,7.58;16,64.91,282.25,113.13,7.58" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Multiview hyperspectral topography of tissue structural and functional characteristics</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Zhang S Xrx</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">16012</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,293.76,231.63,7.58;16,64.91,305.27,222.65,7.58;16,64.91,316.78,222.63,7.58;16,64.91,328.29,222.63,7.58;16,64.91,339.74,222.63,7.58;16,64.91,351.25,35.79,7.58" xml:id="b77">
+	<monogr>
+		<title level="m" type="main">Hyperspectral imaging for in vivo monitoring of cold atmospheric plasma effects on microcirculation in treatment of head and neck cancer and wound healing</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rutkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schuster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Unger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Seebauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Metelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Woedtke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Weltmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Daeschlein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Medicine</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,362.76,231.61,7.58;16,64.91,374.27,222.68,7.58;16,64.91,385.78,174.98,7.58" xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Noninvasive imaging technologies for cutaneous wound assessment: a review</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ghassemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Ramella-Roman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="149" to="162" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,397.28,231.60,7.58;16,64.91,408.79,222.65,7.58;16,64.91,420.25,197.60,7.58" xml:id="b79">
+	<analytic>
+		<title level="a" type="main">In vivo monitoring of cutaneous edema using spectral imaging in the visible and near infrared</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Stamatas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Southall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kollias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1753" to="1760" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,431.75,231.60,7.58;16,64.91,443.26,157.93,7.58" xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Wounds and wound healing: new insights, fresh challenges</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="318" to="319" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,454.77,231.60,7.58;16,64.91,466.28,64.64,7.58" xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Best practice in wound assessment</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Benbow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nurs Stand</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">27</biblScope>
+			<biblScope unit="page" from="40" to="47" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,477.79,231.65,7.58;16,64.91,489.24,125.24,7.58" xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Wound healing -aiming for perfect skin regeneration</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="issue">5309</biblScope>
+			<biblScope unit="page" from="75" to="81" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,500.75,231.66,7.58;16,64.91,512.26,220.62,7.58" xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Differential diagnosis of suspected deep tissue injury</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Brindle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Honaker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="531" to="539" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,523.77,231.65,7.58;16,64.91,535.28,222.64,7.58;16,64.91,546.79,128.44,7.58" xml:id="b84">
+	<analytic>
+		<title level="a" type="main">A hand-held mosaicked multispectral imaging device for early stage pressure ulcer detection</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Miao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Syst</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="895" to="904" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,557.45,231.64,8.50;16,64.91,569.75,222.62,7.58;16,64.91,581.26,58.98,7.58" xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Bruises: is it a case of &apos;the more we know, the less we understand?</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Byard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nei</forename><surname>Langlois</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forensic Sci Med Pathol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="479" to="481" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,592.77,231.63,7.58;16,64.91,604.28,138.80,7.58" xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Bruises in children: Normal or child abuse?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr Health Care</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="236" to="221" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,615.78,231.63,7.58;16,64.91,627.29,221.94,7.58" xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Science, medicine and the future: healing chronic wounds</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Patel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">324</biblScope>
+			<biblScope unit="issue">7330</biblScope>
+			<biblScope unit="page" from="160" to="163" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,638.75,231.62,7.58;16,64.91,650.25,222.66,7.58;16,64.91,661.76,163.93,7.58" xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Prediction and monitoring the therapeutic response of chronic dermal wounds</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mccallion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Searle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Stacey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="89" to="96" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,673.27,231.64,7.58;16,64.91,684.78,214.46,7.58" xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Diabetic foot ulcers and their recurrence</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ajm</forename><surname>Boulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">376</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="2367" to="2375" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,55.93,696.29,231.61,7.58;16,64.91,707.74,222.67,7.58;16,64.91,719.25,196.95,7.58" xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Cutaneous imaging Technologies in Acute Burn and Chronic Wound Care</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghatak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gnyawali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gordillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="119S" to="128" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="16,317.11,52.26,231.62,7.58;16,326.09,63.77,222.68,7.58;16,326.09,75.27,54.82,7.58" xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Are diabetes-related wounds and amputations worse than cancer?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wrobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Robbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="286" to="287" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,317.11,86.78,231.66,7.58;16,326.09,98.29,222.68,7.58;16,326.09,109.80,222.66,7.58;16,326.09,121.25,20.90,7.58" xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging for dermal hemoglobin spectroscopy</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Dwyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Dimarzio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SPIE -Subsurface Sensors and Applications</title>
+		<meeting>the SPIE -Subsurface Sensors and Applications</meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">3752</biblScope>
+			<biblScope unit="page" from="72" to="82" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,317.12,132.75,231.63,7.58;16,326.10,144.26,222.65,7.58;16,326.10,155.76,222.68,7.58;16,326.10,167.27,101.89,7.58" xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Visible reflectance hyperspectral imaging: characterization of a noninvasive, in vivo system for determining tissue perfusion</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Zuzak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Schaeberle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Levin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal Chem</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2021" to="2028" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,317.12,178.78,231.68,7.58;16,326.10,190.23,222.64,7.58;16,326.10,201.74,222.69,7.58;16,326.10,213.25,85.28,7.58" xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Systemic effects of shock and resuscitation monitored by visible hyperspectral imaging</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gillies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Cancio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hopmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Mansfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Technol Ther</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="847" to="855" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,317.12,224.76,231.67,7.58;16,326.10,236.27,222.67,7.58;16,326.10,247.78,222.69,7.58;16,326.10,259.29,216.08,7.58" xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Clinical efficacy of the first metatarsophalangeal joint arthroplasty as a curative procedure for hallux Interphalangeal joint wounds in patients with diabetes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Vazquez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3284" to="3287" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,317.12,270.74,231.61,7.58;16,326.10,282.25,222.69,7.58;16,326.10,293.76,222.69,7.58;16,326.10,305.27,122.23,7.58" xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Lower-extremity amputations in patients with diabetes: pre-and post-surgical decisions related to successful rehabilitation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kuznicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Praveen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Sferra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Metab Res Rev</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">Suppl 1</biblScope>
+			<biblScope unit="page" from="45" to="S50" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,317.12,316.78,231.63,7.58;16,326.10,328.29,66.59,7.58" xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Pressure ulcers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Grey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Enoch</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="issue">7539</biblScope>
+			<biblScope unit="page" from="472" to="475" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,317.12,339.74,231.65,7.58;16,326.10,351.25,222.64,7.58;16,326.10,362.76,222.70,7.58;16,326.10,374.26,222.63,7.58;16,326.10,385.77,26.97,7.58" xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Reproducibility of near-infrared spectroscopy parameters measured during brachial artery occlusion and reactive hyperemia in healthy men</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lacroix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gayda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gremeaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Juneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Tardif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nigam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">77010</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,316.90,397.28,231.86,7.58;16,326.04,408.79,222.74,7.58;16,326.04,420.24,222.71,7.58;16,326.04,431.75,184.11,7.58" xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging in perfusion and wound diagnosticsmethods and algorithms for the determination of tissue parameters</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marotz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Kämmerer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Tech (Berl)</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="547" to="556" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,316.90,443.26,231.91,7.58;16,326.04,454.77,222.76,7.58;16,326.04,466.28,222.74,7.58;16,326.04,477.79,184.62,7.58" xml:id="b100">
+	<analytic>
+		<title level="a" type="main">A systematic review of diagnostic techniques to determine tissue perfusion in patients with peripheral arterial disease</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Kleiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rcl</forename><surname>Schuurmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rph</forename><surname>Bokkers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ç</forename><surname>Ünlü</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jpm</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev Med Devices</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="697" to="710" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,316.90,489.24,231.85,7.58;16,326.04,500.75,202.98,7.58" xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Complex wounds</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tuma</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">F</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kamamoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clinics (Sao Paulo)</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="571" to="578" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Review</note>
+</biblStruct>
+
+<biblStruct coords="16,316.90,512.26,231.89,7.58;16,326.04,523.77,222.75,7.58;16,326.04,535.28,192.15,7.58" xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Critical review of noninvasive Optical Technologies for Wound Imaging</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jayachandran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Solis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Godavarty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="349" to="359" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,316.90,546.79,231.84,7.58;16,326.04,558.24,222.70,7.58;16,326.04,569.75,47.31,7.58" xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Review of nearinfrared methods for wound assessment</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Sowa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">91304</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,316.90,581.26,231.85,7.58;16,326.04,592.76,222.71,7.58;16,326.04,604.27,222.69,7.58;16,326.04,615.78,64.96,7.58" xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Noninvasive vascular assessment of lower extremity wounds in diabetics: are we able to predict perfusion deficits?</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Naz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Walters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Akbari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Attinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surg Technol Int</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="66" to="74" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,316.90,627.29,231.88,7.58;16,326.04,638.74,222.74,7.58;16,326.04,650.25,91.43,7.58" xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Assessment of foot perfusion in patients with a diabetic foot ulcer</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Forsythe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hinchliffe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Metab Res Rev</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">Suppl 1</biblScope>
+			<biblScope unit="page" from="232" to="238" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,316.90,661.76,231.85,7.58;16,326.04,673.27,222.74,7.58;16,326.04,684.78,119.65,7.58" xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging in the medical field: present and future</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Calin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Parasca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Savastru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Spectrosc Rev</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="435" to="447" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,316.90,696.29,231.88,7.58;16,326.04,707.74,222.72,7.58;16,326.04,719.25,222.75,7.58;17,66.50,52.24,222.75,7.58;17,66.50,63.75,29.62,7.58" xml:id="b107">
+	<analytic>
+		<title level="a" type="main">The utility of near infrared imaging in intraoperative prediction of flap outcome: a reverse McFarlane skin flap model study</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Sowa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Friesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Levasseur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schattka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sigurdson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hayakawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Near Infrared Spectrosc</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="601" to="615" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,57.36,75.26,231.90,7.58;17,66.50,86.77,222.75,7.58;17,66.50,98.28,192.84,7.58" xml:id="b108">
+	<analytic>
+		<title level="a" type="main">First results of a new hyperspectral camera system for chemical based wound analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marotz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Siafliakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kulcke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Siemers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="17" to="22" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,57.36,109.79,231.92,7.58;17,66.50,121.24,222.75,7.58;17,66.50,132.75,151.91,7.58" xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Near-infrared spectroscopy imaging for assessing skin and wound oxygen perfusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Landsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Barnhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sowa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Podiatr Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="343" to="355" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,57.36,144.26,231.92,7.58;17,66.50,155.77,218.80,7.58" xml:id="b110">
+	<analytic>
+		<title level="a" type="main">MHSI May Predict Clinical Outcomes in Diabetic Foot Ulcers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Koury</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diabetic Microvascular Complications Today</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,57.36,167.28,231.87,7.58;17,66.50,178.78,220.05,7.58" xml:id="b111">
+	<analytic>
+		<title level="a" type="main">Cutaneous wound analysis using hyperspectral imaging</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bachrach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Spear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioTechniques</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="408" to="413" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,57.36,190.24,231.90,7.58;17,66.50,201.75,222.78,7.58;17,66.50,213.25,146.94,7.58" xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Developing digital tissue phantoms for hyperspectral imaging of ischemic wounds</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">X</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Opt Express</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1433" to="1445" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,57.36,224.76,231.94,7.58;17,66.50,236.27,222.79,7.58;17,66.50,247.78,222.72,7.58;17,66.50,259.29,117.28,7.58" xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging-based wound analysis using mixture-tuned matched filtering classification method</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Calin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Coman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Parasca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bercaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Savastru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Opt</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">46004</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,57.36,270.74,231.98,7.58;17,66.50,282.25,222.78,7.58;17,66.50,293.76,222.86,7.47;17,66.50,305.27,219.41,7.58" xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Optical imaging Technology for Wound Assessment: a state of the art</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computational Vision and Biomechanics</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Tavares</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Natal</forename><surname>Jorge</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<date type="published" when="2017">2017. 2017. 2018</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Cham</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,57.36,316.78,231.88,7.58;17,66.50,328.29,222.73,7.58;17,66.50,339.74,37.94,7.58" xml:id="b115">
+	<analytic>
+		<title level="a" type="main">Hyperspectral imaging in diabetic foot wound care</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yudovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nouvong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pilon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1099" to="1113" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,318.60,52.25,231.84,7.58;17,327.74,63.76,222.75,7.58;17,327.74,75.27,219.86,7.58" xml:id="b116">
+	<analytic>
+		<title level="a" type="main">Monitoring wound healing in a 3D wound model by hyperspectral imaging and efficient clustering</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wahabzada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Besser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khosravani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">186425</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,318.60,86.78,231.90,7.58;17,327.74,98.28,222.73,7.58;17,327.74,109.79,171.34,7.58" xml:id="b117">
+	<analytic>
+		<title level="a" type="main">A systematic review and meta-analysis of tests to predict wound healing in diabetic foot</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Firwana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Suppl:29S-36S.e1-2</note>
+</biblStruct>
+
+<biblStruct coords="17,318.60,121.25,231.85,7.58;17,327.74,132.75,222.76,7.58;17,327.74,144.26,191.42,7.58" xml:id="b118">
+	<analytic>
+		<title level="a" type="main">Novel optical techniques for imaging microcirculation in the diabetic foot</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Mennes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Van Netten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rhja</forename><surname>Slart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steenbergen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Pharm Des</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1304" to="1316" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,318.60,155.77,231.89,7.58;17,327.74,167.28,160.48,7.58" xml:id="b119">
+	<analytic>
+		<title level="a" type="main">Hand-held optoacoustic imaging: a review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Schellenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Hunt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photo-Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="14" to="27" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,318.60,178.79,231.86,7.58;17,327.74,190.24,134.57,7.58" xml:id="b120">
+	<analytic>
+		<title level="a" type="main">Wound healing essentials: let there be oxygen</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,318.60,201.75,231.84,7.58;17,327.74,213.26,222.73,7.58;17,327.74,224.77,155.71,7.58" xml:id="b121">
+	<analytic>
+		<title level="a" type="main">Contemporary assessment of foot perfusion in patients with critical limb ischemia</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Benitez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Sumpio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Sumpio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="15" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

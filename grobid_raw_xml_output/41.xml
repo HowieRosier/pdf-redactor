@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">AI-Assisted Assessment of Wound Tissue with Automatic Color and Measurement Calibration on Images Taken with a Smartphone</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2023-01-16">16 January 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sawrawit</forename><surname>Chairat</surname></persName>
+							<idno type="ORCID">0000-0002-4629-3924</idno>
+							<affiliation key="aff0">
+								<orgName type="department">of and Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sitthicho</forename><surname>Chaichule</surname></persName>
+							<idno type="ORCID">0000-0002-3159-7925</idno>
+							<affiliation key="aff0">
+								<orgName type="department">of and Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tulaya</forename><surname>Dissaneewate</surname></persName>
+							<idno type="ORCID">0000-0003-2947-0375</idno>
+							<affiliation key="aff0">
+								<orgName type="department">of and Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Piyanun</forename><surname>Wangkulangkul</surname></persName>
+							<idno type="ORCID">0000-0002-0585-3649</idno>
+							<affiliation key="aff0">
+								<orgName type="department">of and Engineering</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Laliphat</forename><surname>Kongpanichakul</surname></persName>
+							<email>laliphat.k@psu.ac.th</email>
+							<idno type="ORCID">0000-0002-0824-6334</idno>
+							<affiliation key="aff0">
+								<orgName type="department">of and Engineering</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">AI-Assisted Assessment of Wound Tissue with Automatic Color and Measurement Calibration on Images Taken with a Smartphone</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-01-16">16 January 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BAA73A76CC3D0F1B4445B450B35D6C8B</idno>
+					<idno type="DOI">10.3390/healthcare11020273</idno>
+					<note type="submission">Received: 28 December 2022 Revised: 9 January 2023 Accepted: 11 January 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Chairat, S.</term>
+					<term>Chaichulee, S.</term>
+					<term>Dissaneewate, T.</term>
+					<term>Wangkulangkul, P.</term>
+					<term>Kongpanichakul, L. AI-Assisted chronic wound</term>
+					<term>wound care</term>
+					<term>image segmentation</term>
+					<term>deep learning</term>
+					<term>color calibration</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Wound assessment is essential for evaluating wound healing. One cornerstone of wound care practice is the use of clinical guidelines that mandate regular documentation, including wound size and wound tissue composition, to determine the rate of wound healing. The traditional method requires wound care professionals to manually measure the wound area and tissue composition, which is time-consuming, costly, and difficult to reproduce. In this work, we propose an approach for automatic wound assessment that incorporates automatic color and measurement calibration and artificial intelligence algorithms. Our approach enables the comparison of images taken at different times, even if they were taken under different lighting conditions, distances, lenses, and camera sensors. We designed a calibration chart and developed automatic algorithms for color and measurement calibration. The wound area and wound composition on the images were annotated by three physicians with more than ten years of experience. Deep learning models were then developed to mimic what the physicians did on the images. We examined two network variants, U-Net with EfficientNet and U-Net with MobileNetV2, on wound images with a size of 1024 × 1024 pixels. Our best-performing algorithm achieved a mean intersection over union (IoU) of 0.6964, 0.3957, 0.6421, and 0.1552 for segmenting a wound area, epithelialization area, granulation tissue, and necrotic tissue, respectively. Our approach was able to accurately segment the wound area and granulation tissue but was inconsistent with respect to the epithelialization area and necrotic tissue. The calibration chart, which helps calibrate colors and scales, improved the performance of the algorithm. The approach could provide a thorough assessment of the wound, which could help clinicians tailor treatment to the patient's condition.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Chronic wounds are a major public health problem worldwide that affect people's health and daily activities, incur costs, and potentially lead to mortality. More than 6.5 million people have chronic wounds, which are estimated to cost more than 25 billion dollars per year in the United States. The prevalence of chronic wounds was 2.21 per 1000 population <ref type="bibr" target="#b0">[1]</ref>. Healthcare costs for chronic wounds were estimated to be around GBP 2.3 billion to GBP 3.1 billion per year in the United Kingdom alone <ref type="bibr" target="#b1">[2]</ref>.</p><p>When a wound occurs, the skin of the body breaks down and loses its barrier function, posing a high risk of infection to the injured area <ref type="bibr" target="#b2">[3]</ref>. Wounds can be divided into acute and chronic wounds depending on how long they take to heal. Acute wounds progress through the normal stages of wound healing and exhibit definitive signs of healing within four weeks. If wound healing does not make much progress within four weeks, it is referred as a chronic wound or non-healing wound. Many factors can interrupt the normal wound healing process. These wounds often occur in people with comorbidities such as diabetes and obesity. The treatment of these wounds is extremely expensive. Patients with a chronic wound require more extensive wound care than acute wounds <ref type="bibr" target="#b3">[4]</ref>. They need to see a physician regularly to follow the progress of wound healing. Wound management must follow best practices to promote healing and minimize wound complications.</p><p>Clinical guidelines are one of the most important components of good wound care. Current wound care guidelines emphasize the need for regular documentation, including wound size, as well as the need to determine a percentage or rate of healing. The guidelines rely on ongoing wound measurements to determine whether a change in treatment is needed if wounds are not healing as expected. If healing does not occur, alternative therapies may be needed. To ensure evidence-based best practice, accurate and reliable wound measurement must be a regular part of wound care to optimize patient care and outcomes.</p><p>Wound measurement tools play an important role in helping physicians measure, monitor, and develop a wound treatment strategy. The tools can be used to evaluate wound margin and wound tissue area (e.g., granulation tissue, necrotic tissue, and epithelialization area), which can serve as indicators of wound healing <ref type="bibr" target="#b3">[4]</ref>. The traditional method is a ruler method. The wound is usually measured first in its length, then in its width, and in its depth by inserting a cotton swab into the deepest part of the wound. The ruler method is simple and straightforward, but time-consuming and often inaccurate, as it is difficult to take measurements and estimate the wound area. It also carries a risk of infection to the patient during the measurement <ref type="bibr" target="#b4">[5]</ref>.</p><p>In wound care practice, there are several assessment tools commonly used by healthcare professionals. The Braden, Norton, and Waterlow scales are used to determine the risk of developing a pressure ulcer. The Wagner system is used to classify different grades of diabetic foot ulcer. The resulting scores can help physicians plan treatment and improve patient outcomes, including faster healing, less pain and discomfort, and a lower risk of infection. However, these scales are usually subjective, and the score obtained depends on the professional performing the evaluation <ref type="bibr" target="#b5">[6]</ref>.</p><p>The digital measurement of wound images with devices or applications has recently been used to measure the wound area <ref type="bibr" target="#b6">[7]</ref>. This method solves the problems of the traditional method because it does not come into direct contact with the wound <ref type="bibr" target="#b7">[8]</ref>. Currently, there are only a few specially developed devices on the market. Some of them only allow the measurement of the wound area, while others allow the measurement of different tissue types <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b8">9]</ref>. Some devices also require the physician to manually set seeding points for each wound tissue type for accurate measurements.</p><p>Several recent studies have used artificial intelligence (AI) for wound assessment to overcome the problem of the ruler method. AI has the potential to develop a fully automated wound measurement tool that can provide accurate measurements of different wound features that can be used for wound assessment and treatment planning <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11]</ref>. However, the development of an AI-assisted wound assessment tool requires a dataset with good quality and a large number of data, but only wound datasets with a small number of images are currently publicly available. Most datasets only contain the labeling of the wound area, while other features that can be used for wound assessment, such as the labeling of granulation tissue, necrotic tissue, and epithelialization area, are missing. These three different tissue types in the wound bed play an important role in assessing and evaluating the wound healing progression and predicting the wound healing outcome <ref type="bibr" target="#b7">[8]</ref>.</p><p>In addition to approaches that use AI and large datasets to train algorithms, there are also methods based on superpixel segmentation <ref type="bibr" target="#b11">[12]</ref>, region growing <ref type="bibr" target="#b12">[13]</ref>, and expert systems <ref type="bibr" target="#b13">[14]</ref> that do not require training. These approaches rely on the knowledge and expertise of the individuals that use the systems.</p><p>This study aimed to develop an approach for wound assessment based on deep learning. Our algorithms are able to segment the wound area, granulation tissue, necrotic tissue, and epithelialization area from wound images captured with a mobile phone. The algorithms could be further developed into a mobile application that provides physicians with a practical tool for wound assessment.</p><p>Our contributions are as follows. First, we purposefully collected a dataset of wound images for this study. All wound images were labeled by three physicians who provided tracings for wound area, granulation tissue, necrotic tissue, and epithelialization area. Second, we employed a color and measurement calibration chart and developed an automatic calibration procedure to tackle the negative effects of color variation in images taken in unconstrained conditions. Third, we compared the tracings among physicians and between physicians and the algorithm and provided an in-depth analysis of the results.</p><p>Our paper is organized as follows. Section 2 provides background information and a review of the relevant literature. Section 3 describes the study design, data collection methods, and procedures used in the study. Section 4 presents our findings. Section 5 discusses the implications and limitations of our findings. Section 6 concludes the paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Literature Review</head><p>Wound is defined as any injury to the loss of continuity of the skin or body tissue that disrupts the integrity of the barrier function by rupturing a membrane and damaging the tissue beneath the skin <ref type="bibr" target="#b14">[15]</ref>. The wound can be caused by physical, thermal, chemical, and radiogenic trauma. When a portion of the skin surface breaks, a wound is created, and wound healing begins to regenerate the integrity of the tissue and restore barrier function. The regenerating cells are guided towards a connective tissue scaffold to form normal, functional tissue structures. Various cell types and signaling molecules are involved in the repair and regeneration of the damaged tissue. For example, stem cells in the surrounding tissue can migrate to the site of the wound and differentiate into various cell types, such as fibroblasts, which produce collagen and other extracellular matrix proteins that contribute to the formation of a scaffold for tissue repair <ref type="bibr" target="#b15">[16]</ref>.</p><p>The classification of wounds is not a universal standard. Wounds are typically classified into categories depending on the cause of the wound, the duration of wound healing, and the depth of the wound <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b17">18]</ref>. Acute and chronic wounds are traditional terms for healing and non-healing wounds, classified according to the duration of wound healing. An acute wound has a normal healing process that is short and has no complications. The acute wound heals with primary intention and without tissue loss. Examples of acute wound healing include superficial traumatic wounds, first-degree burns, and surgical wounds <ref type="bibr" target="#b18">[19]</ref>. When acute wound healing is interrupted and the proliferation process continues for more than four to six weeks, a chronic wound develops. The chronic wound heals with secondary intention, resulting in a lengthy healing process and complications due to some tissue loss that can affect many biological pathways <ref type="bibr" target="#b19">[20]</ref>. Examples of chronic wound healing include pressure ulcers, diabetic foot ulcers, and venous ulcers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Physiology of Wound Healing</head><p>Wound healing is a nonlinear process that proceeds forwards and backwards depending on various intrinsic and extrinsic factors <ref type="bibr" target="#b20">[21]</ref>. In wound healing, tissue integrity is restored by replacing dead cells, the damaged extracellular matrix (ECM), and missing tissue structures with new cells and tissues, although the original function of the tissue is lost due to the complicated reconstruction process. Wound healing progresses by reducing the wound area and depth as new tissue forms to close the wound. Table <ref type="table" target="#tab_0">1</ref> describes the wound healing process which can generally be divided into four phases: hemostasis, inflammation, proliferation, and remodeling. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phase Description</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hemostasis</head><p>During wound development, the loss of tissue integrity results in bleeding that exposes the blood to various extracellular matrix (ECM) components. The bleeding is stopped by vasoconstriction and platelet plugging, which causes blood vessels to constrict, blood flow to slow or block, and platelets to aggregate. This leads to hemostasis and fibrin formation. Fibrin acts as a temporary matrix for cell migration. Fibrinolysis is then activated to dissolve the fibrin and provide space for further cell migration into the next phase of wound healing <ref type="bibr" target="#b21">[22]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inflammation</head><p>At the onset of inflammation, fibrin is broken down and vessels become permeable, releasing plasma and allowing inflammatory cells (neutrophils and macrophages) to migrate to the wound site. Neutrophils arrive within 24-48 h and help defend against infection by phagocytizing debris and pathogens. Macrophages, derived from blood monocytes, arrive 24-36 h later and aid in the removal of bacteria and debris by phagocytosis. They also secrete growth factors and cytokines that stimulate new blood vessel formation, granulation, and re-epithelialization <ref type="bibr" target="#b22">[23]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proliferation</head><p>The proliferation phase mainly involves the formation of granulation tissue and the immigration of keratinocytes on the wound bed. Keratinocytes stimulate the regeneration of epithelial tissue and restore the continuity of the epidermal layer. New tissue forms from a matrix of collagen, elastin, glycosaminoglycans, and other fibrous proteins, as well as fibrin and fibronectin. Fibroblasts produce and deposit extracellular proteins, including growth factors and angiogenic factors, which control the cell proliferation and angiogenesis <ref type="bibr" target="#b22">[23]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Remodeling</head><p>The remodeling phase begins when collagen synthesis and degradation are balanced and the wound has closed. During this phase, the body replaces the temporary tissue formed during the inflammation and proliferation phases with new, stronger tissue. It also works to improve the appearance of the scar and adjust the tension of the scar tissue to match the surrounding tissue <ref type="bibr" target="#b23">[24]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Wound Tissue Types</head><p>The wound bed has various colors, including black, yellow, or red, with the color depending almost entirely on the type of tissue and the stage of wound healing. Granulation tissue, necrotic tissue, and epithelial tissue are the main tissue types that occur during wound healing. Table <ref type="table" target="#tab_1">2</ref> summarizes the different wound tissue types. Figure <ref type="figure" target="#fig_0">1</ref> illustrates each wound tissue type on a sample image from our dataset. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tissue Type Description</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Granulation tissue</head><p>New connective tissue and microvessels form the granulation tissue, which is the main carrier of oxygen and nutrients during the healing process. The characteristic of granulation tissue is a rough and moist surface on the wound bed. Granulation tissue appears pale pink in the wound bed or bright, beefy red as the depth of the wound bed increases. In addition, granulation tissue provides a scaffold for the epithelialization process to form and cover the wound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Epithelial tissue</head><p>Epithelialization is a complex process involving morphogenesis, cell proliferation, cell differentiation, and migration with substantial mitotic activity at the wound edge <ref type="bibr" target="#b24">[25]</ref>. New epithelial tissue appears deep pink at the wound site as basal keratinocytes migrate to the wound surface or the epidermis regenerates. New epithelial tissue covers the wound from the edge to the center. Postoperative wound dressings have been used to accelerate and optimize the healing process by providing protection from contaminants, absorbing exudate and humidity, and promoting autolytic debridement <ref type="bibr" target="#b25">[26]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Necrotic tissue</head><p>Necrosis is the death of body tissue. Cell death occurs due to lack of oxygen and interrupted blood supply for a long enough time <ref type="bibr">[27]</ref>. Necrotic tissue can be divided into two main types: eschar is a dry, dark tissue that can thickly cover a wound bed; and slough is a soft, moist tissue that contains dead tissue and bacteria. Its color may range from yellow to green to tan to brown. Necrosis tissue cannot be salvaged and must be removed by appropriate wound debridement techniques to allow wound healing to occur <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b25">26]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Wound Assessment with Artificial Intelligence</head><p>The effective management of chronic wounds involves personalizing information about the underlying etiology and implementing appropriate wound management strategy. Reduction in the wound area is an important indicator for predicting wound healing. Seehan et al. <ref type="bibr" target="#b27">[28]</ref> reported the correlation between the decrease in wound healing rate in the first four weeks and the complete healing after twelve weeks in diabetic foot ulcers and neuroischemic ulcers. The manual method of measuring the wound area requires wound care specialists to mark off the wound edge. This process is time-consuming, often inaccurate, prone to infection, and varies from one wound care specialist to another <ref type="bibr" target="#b7">[8]</ref>. To overcome these limitations, algorithms based on convolutional neural networks (CNNs) have recently been used for automatic wound segmentation. It allows for higher accuracy, shorter timing, and a standardized protocol.</p><p>Several CNN architectures were introduced for image analysis tasks, including Mo-bileNet <ref type="bibr" target="#b28">[29]</ref>, U-Net <ref type="bibr" target="#b29">[30]</ref>, ResNet <ref type="bibr" target="#b30">[31]</ref>, and EfficientNet <ref type="bibr" target="#b31">[32]</ref>. Liu et al. <ref type="bibr" target="#b32">[33]</ref> developed WoundSeg for wound segmentation based on MobileNet and VGG-16. The authors trained the model using their own dataset and the public Medetec Database. Their wound and non-wound labels were provided by physicians via their proprietary semi-automated tool developed using the Watershed algorithm. Their algorithm had a mean intersection over union (IoU) score of 84.60% and a Dice score of 91.66%. Wang et al. <ref type="bibr" target="#b4">[5]</ref> proposed a wound area segmentation based on MobileNetV2, which requires low computational resources and a small number of parameters. They applied the model together with the connected component labeling (CCL), which enables the better detection of small connected components, thus increasing accuracy. The algorithms had a Dice score of 90.47% for their proprietary wound dataset of 1109 digital foot ulcer images and a Dice score of 94.05%. These aforementioned studies only focused on non-wound and wound labels on the public Medetec Wound Database.</p><p>The composition of the different tissue types in the wound could serve as an indicator of the wound healing progression. Quantitative wound assessment is critical for the management and monitoring of wound healing. Several studies have recently investigated the use of AI to characterize different wound tissue compositions. Pholberdee et al. <ref type="bibr" target="#b33">[34]</ref> developed a deep learning algorithm for wound tissue segmentation that had IoU scores of 72%, 40%, and 53% for granulation, necrosis, and slough tissues, respectively. Ramachandram et al. <ref type="bibr" target="#b8">[9]</ref> developed the AutoTrace and AutoTissue models using their proprietary Swift Medical Wound Dataset with 465,187 and 17,000 image-label pairs for wound area segmentation and wound tissue segmentation, respectively, with a test set of 58 chronic wound images. The model had IoU scores of 86.44% for segmenting the wound area and 71.92% for segmenting four different tissue types. The authors, however, did not report IoU scores for each tissue type. Not many studies have focused on wound tissue segmentation because there were no publicly available datasets of chronic wounds with such labels.</p><p>However, with the two-dimensional method of wound segmentation, it is sometimes difficult to capture entire wounds because of the curvatures of the human body. Several studies have focused on three-dimensional wound area measurement to improve the accuracy of the measurement and overcome this problem. Wannous et al. <ref type="bibr" target="#b34">[35]</ref> proposed a workflow for assessing wounds using a combination of multiview tissue classification and 3D wound reconstruction. The first step involves using a multiview tissue classification algorithm to generate a segmented wound area from images taken from different views. The second step involves using a 3D wound reconstruction algorithm to generate a 3D model of the wound from the same set of images, using the resulting wound areas identified in the first step. Liu et al. <ref type="bibr" target="#b35">[36]</ref> developed a method for the three-dimensional measurement of a wound area that involves structure from motion, least squares conformal mapping, and image segmentation. To create a single three-dimensional wound model, the method requires more than twenty wound images taken at difference angles of less than thirty degrees. The method has been shown to be more accurate than the 2D method for measuring wounds. Similarly, Barbosa et al. <ref type="bibr" target="#b36">[37]</ref> presented a three-dimensional wound reconstruction method that involves image segmentation, structure from motion, and mesh reconstruction. The average error in measuring the wound area decreased as the number of images used to construct the three-dimensional wound model increased. The average error was 12.47% and 3.8% when two and ten images were used to create the three-dimensional model, respectively.</p><p>Although significant progress has been made in the development of algorithms for wound assessment, there are still areas for improvement. One of the biggest challenges is the ability of the algorithms to accurately segment. There are several approaches to wound segmentation that are commonly used, and the most appropriate method may depend on the specific context and requirements. One trend in wound segmentation is the use of CNNs, which have proven to be effective at quickly and accurately processing image data and classifying different wound tissues, such as the epithelialization area, granulation tissue, and necrotic tissue. The next challenge is the use of wound images acquired in an uncontrolled environment, meaning the images may not have been acquired under controlled lighting and positioning conditions. The accurate assessment of the wound depth from images is also challenging, as this information is important in determining the appropriate treatment. In addition, greater inter-and intra-physician agreement is needed when evaluating the performance of these algorithms. Finally, the robustness of the algorithms in longitudinal studies, where they are used to track the progression of a wound over time, is also an important consideration. Overcoming these challenges will be critical to the development of reliable and effective automatic wound assessment tools.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Clinical Study</head><p>This was a prospective study that included 31 wound images taken at different time points from 20 patients attending the wound clinic of Songklanagarind Hospital. All wound images were taken with a smartphone. We included adult patients over 18 years of age who had acute and chronic wounds, regardless of the duration and size of the wound. We excluded patients with circumferential wounds, scar wounds, and wounds with primary intention sutures. We also excluded end-of-life care patients who were unable to make their own decisions. All wound images were taken with the written informed consent of the participant before a photograph was taken.</p><p>Table <ref type="table" target="#tab_2">3</ref> shows the patient characteristics in our study, including age, sex, wound type, wound site, exudate, wound amount, and dressing material. Our dataset contains mostly elderly people with a variety of wounds in our dataset. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Data Collection</head><p>When an image is taken with a smartphone, the exposure, white balance, ISO noise, and other camera settings are automatically adjusted to match the image itself and the environment around it. Different smartphone brands and models use different algorithms. Our goal is to develop an algorithm that can be applied to images taken with any smartphone camera. Since recent smartphones are capable of producing high-quality and high-resolution images, we did not impose any restrictions on the smartphone devices used to capture the images. To ensure that the results of our study were not affected by the type of device used to take the images, we used a color and measurement calibration chart, we employed color calibration techniques to normalizing images. We expected that these techniques may reduce the differences between images taken with different smartphones under different environmental and lighting conditions and thus allow for more accurate image analysis, especially for a small dataset.</p><p>We developed a calibration chart that has a Macbeth chart <ref type="bibr" target="#b37">[38]</ref> and four ArUco markers at four corners (see Figure <ref type="figure" target="#fig_1">2</ref>). The entire calibration chart has a dimension of 75 mm in width and 35 mm in length with four ArUco markers at each corner, whose dimension is 12.7 mm in both width and length, and 24 colored squares, whose dimension is 6.35 mm in both width and length for each square, arranged in a 6 × 4 grid that forms the Macbeth chart. The Macbeth chart consists of 24 square color patches with different spectral reflections that mimic those of natural objects. The Macbeth chart can help calibrate an image to have a consistent color appearance under different lighting conditions. It also helps in measuring the wound. Our color chart incorporates the ArUco markers, which help with the detection and alignment of the chart, allowing for automatic calibration to be performed. All calibration charts were printed in the same batch using an industrial color laser printer on paper made from bleached eucalyptus kraft pulps. Color calibration was performed on the printer prior to printing. All calibration charts were autoclaved and sterilized before being used on the patient. The calibration chart was placed next to the wound before the image was taken. The photograph was taken without flash at a distance of approximately 30 centimeters from the wound. The image must contain the whole wound area and the entire calibration chart. All photographs were taken by physicians. There was no restriction on the brand or operating system of the smartphone, but it had to be able to capture an image with a resolution greater than 8 megapixels. Figure <ref type="figure" target="#fig_2">3</ref> shows examples of a wound image labeled by three different physicians. Despite clear guidelines for labeling, slight differences were noted in the areas labeled by the three physicians. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Data Annotation</head><p>The training of supervised the deep learning models to segment different wound tissue regions requires ground truth. In our study, physicians needs to annotate four different labels in each image: namely the epithelialization area, granulation tissue, necrotic tissue, and wound area. The first three labels (epithelialization area, granulation tissue, and necrotic tissue) are mutually exclusive. All physicians have more than ten years of practice experience. These labels were used for the development of deep learning models. The definitions for each label were agreed prior to data labeling by all physicians. The annotation was performed using the Supervisely web-based annotation tool (https: //supervise.ly/ (accessed on 14 January 2023)) on a touchscreen tablet that allows the physician to draw fine lines around the designated label. After labeling, all physicians were met again and voted for the labels from one out of three physicians for each image under a blind test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Wound Assessment Framework</head><p>Our wound assessment framework (see Figure <ref type="figure" target="#fig_3">4</ref>) consists of automatic color calibration, which normalizes the color of a wound image for more accurate image analysis; and automatic wound segmentation, which uses a deep learning model to determine the wound area, epithelialization area, granulation tissue, and necrotic tissue. Since the types of wound tissue are mutually exclusive and the wound area is the extent that covers the body surface where the skin is exposed to injury, we used a multi-task deep learning model that has two output branches: one for the wound area segmentation and the other for wound tissue segmentation. The results of the model can be converted to the real-world metric scale using the color and measurement calibration chart and can be used later to track the progress of the treatment. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Automatic Color Calibration</head><p>Details on the image taken with different smartphone cameras may vary due to camera configurations, environmental settings, lighting conditions, and the angle from which the photo was taken. These general issues may reduce the segmentation and measurement accuracy. Our calibration chart is specifically designed to solve the problem of color and scale discrepancies in the image. Our automatic color calibration is a two-step process consisting of the detection of ArUco markers and the correction of colors based on the Macbeth chart. The calibration chart also serves as a ruler for wound measurements. The process of color calibration can be performed automatically without human supervision or intervention.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.1.">Detection of ArUco Markers</head><p>Our calibration chart contains four ArUco markers at each of the four corners and the 24-color Macbeth chart at the center. The ArUco markers are synthetic binary square fiducial markers with a black border and an inner identifiable binary matrix. The markers provide enough correspondence to determine the camera pose. The binary encoding makes them robust, with built-in error detection and correction capabilities. The ArUco markers are widely used for robot navigation and augmented reality, which benefits the development of the algorithms and makes them open source, real-time, and robust. We employed the ArUco library developed by Muñoz and Garrido <ref type="bibr" target="#b38">[39]</ref> for the detection of square ArUco markers.</p><p>ArUco marker detection consists of two steps: the detection of square shapes as marker candidates by adaptive thresholding, contour segmentation, and image filtering; and the decoding of the binary fiducial marker within the square. Once the four ArUco markers were detected, the image was first rotated in the same orientation based on the arrangement of the unique identification number in each ArUco marker. Camera position estimation was then performed to determine the camera position with respect to the ArUco marker. This resulted in rotation and translation vectors that were used to align the coordinate system of the camera with the coordinate system of the marker (see Figure <ref type="figure" target="#fig_4">5a</ref>).</p><p>Since the location of the ArUco markers corresponds to the coordinates in the four corners of the MacBeth chart, a 6 × 4 grid table was first placed between the four makers to determine the components of the 24-color MacBeth chart (see Figure <ref type="figure" target="#fig_4">5b</ref>). The mean color in the middle of each square grid was then obtained for calibration against its reference color in the next step. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.2.">Color Correction</head><p>When wound images were taken under different lighting conditions, the color perception of the wound image may differ from a realistic wound. For example, when a wound image was captured in white light compared to warm light, the two images could have a different color range, with the image appearing yellowish in warm light. The calibration chart was designed to calibrate the color under the same conditions as a reference color.</p><p>Given a source matrix with 24 source RGB values extracted from a wound image using the method described in an earlier section and a target matrix with 24 reference RGB profiles, a Moore-Penrose inverse matrix was first computed to find the best possible solution for mapping the source RGB values to the target RGB values. Then, a color transformation matrix was calculated using the Moore-Penrose inverse matrix and the target matrix. The resulting color transformation matrix was then linearly applied to the source RGB values, resulting in the color-corrected image. After color calibration, the source and reference RGB values should be extremely linear. We employed PlantCV <ref type="bibr" target="#b39">[40]</ref> which supports the analysis of color images for scientific research for color calibration. Figure <ref type="figure" target="#fig_5">6</ref> shows the comparison of the same wound image before and after color calibration. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.">Deep Learning for Wound Segmentation</head><p>We employed U-Net <ref type="bibr" target="#b29">[30]</ref>, a popular network architecture for semantic segmentation tasks that can work well with a small dataset, especially in the biomedical domain. U-Net is a U-shaped network consisting of an encoder and a decoder with skip connections between layers at the same level (see Figure <ref type="figure" target="#fig_6">7</ref>). For each level, the encoder downsamples the feature maps by halving their spatial dimension and doubling the number of filter channels. The decoder upsamples the feature maps from the lower level and from the encoder at the same level by using a convolutional transpose layer with half the number of filter channels. Our model has two output branches, each receiving feature maps from the decoder to create segmentation masks. The first output branch is for segmenting the wound area (see Figure <ref type="figure" target="#fig_6">7</ref>). The second output branch is for segmenting different types of wound tissue (epithelialization area, granulation tissue, and necrotic tissue). The number of outputs for the wound area segmentation branch was set to 2 (wound area and background) and for the wound tissue segmentation branch was set to 4 (three wound tissue types and background).</p><p>We followed the original implementation of U-Net <ref type="bibr" target="#b29">[30]</ref>. Figure <ref type="figure" target="#fig_6">7</ref> shows the details of the architecture of our deep learning networks. We investigated two different encoders: EfficientNet and MobileNetV2. Both networks are computationally efficient. EfficientNet is a model that achieves good balance between accuracy and efficiency, while MobileNetV2 is a lightweight model specifically designed for efficient execution on small devices such as smartphones. By examining both EfficientNet and MobileNetV2, we can compare the performance of the algorithms and the suitability of the model for different applications. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.1.">EfficientNet</head><p>EfficientNet <ref type="bibr" target="#b31">[32]</ref> is a powerful and lightweight convolutional neural network architecture for computer vision that uses a compound coefficient to jointly scale up all the dimensions of the backbone network, rather than just independently adjusting a filter size or network depth. This results in a smaller number of parameters and thus faster training and inference time. EfficientNet uses the Mobile Inverted Residual Bottleneck Convolution (MBConv) building block, which consists of a combination of depthwise convolution, pointwise convolution, and expansion layers. The MBConv block first expands the input feature maps with a 1 × 1 convolution, then goes through a 3 × 3 depthwise convolution, and squeezes the feature maps with a 1 × 1 convolution (see Figure <ref type="figure" target="#fig_6">7c</ref>). The MBConv block helps reduce the number of parameters and computational cost while maintaining the ability to learn complex features. The backbone network starts with a convolution, followed by multiple MBConv blocks that are sequentially arranged in seven stages, and ends with a convolution (see Figure <ref type="figure" target="#fig_6">7a</ref>). The use of MBConv blocks in EfficientNet allows the model to be more efficient and accurate compared to other CNN models. Our work used EfficientNet-B2 which has 9.2 million parameters and 1.0 billion FLOPS. The model fits well with the computational resources we had available for training.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.2.">MobileNetV2</head><p>MobileNetV2 <ref type="bibr" target="#b40">[41]</ref> was designed for use on small devices such as smartphones. It employed MBConv as its standard building blocks. The backbone network starts with a convolution, followed by MBConv blocks arranged in seven stages, and ends with a convolution (see Figure <ref type="figure" target="#fig_6">7b</ref>). Compared to EfficientNet, MobileNetV2 used MBConv on a smaller scale. MobileNetV2 has 2.1 million parameters with 0.3 billion FLOPS. The model is best suited for use on mobile devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.3.">Network Training</head><p>In this study, we investigated two network variants: U-Net with EfficientNet and U-Net with MobileNetV2. For each network variant, we trained the dataset with and without color calibration applied to compare the effects of color calibration on the images.</p><p>Prior to training, wound images and associated ground truth labels were resized to 1280 by 1280 pixels by central cropping while maintaining an aspect ratio. We used data augmentation while training at random with a central cropping of 1024 by 1024 pixels, horizontal flipping, vertical flipping, grid distortion, brightness variation, contrast variation, and Gaussian noise addition. We used the albumentations library for data augmentation with default parameters.</p><p>All networks were trained using the Adam optimizer with a learning rate of 10 -3 , a weight decay of 10 -4 , and a batch size of four images. The networks were trained for 100 epochs using a pixel-wise weighted cross entropy loss with the model that has the lowest loss being kept aside.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.4.">Model Evaluation</head><p>We used nested cross-validation with 10 outer folds and 9 inner folds to train and evaluate the performance of the models in all experiments. Nested cross-validation performed multiple rounds of training and validation to optimize the model parameters and test the resulting model on an independent hold-out test set (see Figure <ref type="figure" target="#fig_7">8</ref>). The dataset was divided into nested cross-validation folds at random, ensuring that each set had a roughly similar number of instances and contained unique subjects. We ensure that the images of the same patient are not distributed across different folds. The nested cross-validation scheme allows us to develop and test our model on a limited sample size. It also has the benefits of better control of overfitting and providing a more reliable estimation. We used the same splits in the cross-validation folds for all experiments. Nested cross-validation is more appropriate when there is a limited number of images in the dataset. In addition, we can evaluate the performance of the approaches for all images in the dataset.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7.">Evaluation Metrics</head><p>The two common metrics used to evaluate semantic segmentation algorithms are pixel accuracy and intersection over union (IoU). Assume that the number of correctly predicted wound pixels is called true positive (TP), the number of correctly predicted background pixels is called true negative (TN), the number of incorrectly predicted wound pixels is called false negative (FN), and the number of incorrectly predicted background pixels is called false positive (FP). Pixel accuracy is a measure used to compare the accuracy of image segmentation with ground truth. It is calculated using the ratio between the number of correctly predicted pixels and the total number of pixels:</p><formula xml:id="formula_0">Pixel Accuracy = TP + TN TP + FP + TN + FN .<label>(1)</label></formula><p>Intersection over union (IoU) is a standard metric to evaluate an area over which the prediction and ground truth overlap. This method is calculating the number of pixel intersections divide by the total number of pixels between the prediction and ground truth:</p><formula xml:id="formula_1">Intersection over Union = TP TP + FP + FN .<label>(2)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Environment Setup</head><p>All experiments were performed on a workstation with eight-core processor CPU, 64-GB RAM, and an Nvidia RTX A5000 24-GB GPU. We used Python v3.8.12, Pytorch v1.11.0, CUDA v11.3, OpenCV v4.5.4.58, PlantCV v.3.13.0, SegmentationModels v0.2.0, albumentations v1.0.3, and scikit-learn v1.0.1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Inter-Rater Agreement</head><p>Table <ref type="table" target="#tab_3">4</ref> shows the comparison of inter-rater agreement between a pair of physicians on each class label using the IoU measure. The mean inter-rater agreement for the wound area was 0.6147, the epithelialization area was 0.2822, the granulation tissue was 0.5733, and the necrotic tissue was 0.2720. Agreement scores for each wound feature were similar with good agreement for the wound area and granulation tissue and moderate agreement for the epithelialization area and necrotic tissue. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Wound Area Segmentation</head><p>Table <ref type="table" target="#tab_4">5</ref> shows the performance of our models in terms of IoU score and pixel accuracy. Scores were calculated from all images in the dataset using the nested cross-validation scheme. For the segmentation of wound area, U-Net with MobileNetV2 and U-Net with EfficientNet-B2 trained and evaluated with the original wound images without color calibration achieved a mean IoU of 0.6624 ± 0.2307 and 0.6878 ± 0.1359, respectively, and a mean pixel accuracy of 0.9854 ± 0.0219 and 0.9871 ± 0.0101, respectively. Performance improvement was observed when the network was trained on the wound images after color calibration was performed. With MacBeth color calibration, U-Net with MobileNetV2 and U-Net with EfficientNet-B2 achieved a mean IoU of 0.6826 ± 0.1987 and 0.6964 ± 0.1359, and a mean pixel accuracy of 0.9881 ± 0.0105 and 0.9866 ± 0.0114, respectively, (see Figure <ref type="figure" target="#fig_8">9</ref>). In general, U-Net with EfficientNet-B2 had better performance than U-Net with MobileNetV2. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Wound Tissue Segmentation</head><p>A wound is usually composed of different tissue types which are related to the stage of wound healing. Our models were trained to segment the epithelialization area, granulation tissue, and necrotic tissue from the wound image. For the segmentation of different wound tissues, the highest IoU score and pixel accuracy were found in granulation tissue, followed by epithelialization area and the necrotic tissue. Color calibration has also benefited the segmentation of different wound tissues. The model trained on wound images with color calibration had a higher performance compared to the model without color calibration. U-Net with EfficientNet-B2 has a higher mean IoU and pixel accuracy than U-Net with MobileNetV2 for all experiments. U-Net with EfficientNet-B2 trained and evaluated on color-calibrated wound images had a mean IoU of 0.3957 ± 0.1869, 0.6421 ± 0.2444, 0.1552 ± 0.1428 for epithelialization area, granulation tissue, and necrotic tissue, respectively, and a mean pixel accuracy of 0.9808 ± 0.0157, 0.9920 ± 0.0064, and 0.9853 ± 0.0123 for the epithelialization area, granulation tissue, and necrotic tissue, respectively, (see Figure <ref type="figure" target="#fig_8">9</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Longitudinal Wound Assessment</head><p>The area of the wound and the different tissue types is represented by the number of pixels, which can be converted into square millimeters using the reference size from the calibration chart. Figure <ref type="figure" target="#fig_0">10</ref> shows the results of longitudinal wound assessment of a patient who visited the wound clinic seven times. We applied our best performing model to segment the wound area and different tissue types from the wound image taken at each visit. We then converted the pixel area into square millimeters. The graphs show the changes in wound area and wound tissues over the course of the treatment. The area of wound and necrotic tissue tended to decrease slightly over time, whereas the area of the granulation tissue and epithelialization area tended to increase slightly over time. There was some variations in area because the patient had a chronic wound, which is typically difficult to heal. This information can be utilized by physicians to improve wound care.</p><p>Figure <ref type="figure" target="#fig_0">10</ref>. Assessment of wound healing over time using our algorithms with a patient who visited the wound clinic seven times. The area of the wound, epithelialization, granulation tissue, and necrotic tissue can be derived from the wound images. The resulting information can be used by physicians to improve wound care.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Wound Segmentation</head><p>This study aimed to develop an AI-assisted wound assessment tool to help physicians track the progress of wound healing and adjust treatment as needed. To this end, an automatic color and measurement calibration process and a multi-task deep learning model were developed. The calibration chart placed in the image can be automatically detected by our approach and all color chips can then be identified. The colors in the image can be calibrated against their reference colors and the measurement can be quantified with respect to the reference color grid. Our deep learning model can provide an estimate of wound area and wound tissue from a wound image taken with any smartphone.</p><p>The challenge of this study is that, to train our deep learning models, we need goldstandard wound labels provided by physicians; however, the physician assessment of wounds is particularly subjective <ref type="bibr" target="#b7">[8]</ref>. Although we made our wound definitions clear before data annotation, we obtained moderate agreement scores among physicians for the annotation of wound area and different tissue types. We argued that wound tracings are time-consuming, prone to errors, and inherently difficult. In addition, similar results on inter-rater agreement were obtained by Howell et al. <ref type="bibr" target="#b7">[8]</ref> when they compared wound tracings among physicians. We therefore decided to have another round of discussion with the physicians after all the wound images were annotated and the agreement between the physicians was calculated. We asked each physician to blindly vote for one of the three wound labels that they felt most closely matched the wound definitions and was most appropriate for training the algorithm. We think that this is the most appropriate way to deal with the problem when the agreement between the assessors was not consistent.</p><p>The wound area plays an important role in assessing wound healing. The standardized measurement of the wound area allows physicians to track the progression of wound healing. Our models were able to segment the wound area from a wound image with good accuracy. The performance of U-Net with MoblieNetV2 was only slightly lower than that of U-Net with EfficientNet-B2, but with a much smaller number of parameters, allowing the model to run on mobile devices. Our results were similar to those of Scebba et al. <ref type="bibr" target="#b41">[42]</ref>, Pholberdee et al. <ref type="bibr" target="#b33">[34]</ref>, and Ramachandram et al. <ref type="bibr" target="#b8">[9]</ref>.</p><p>Different types of wound tissue served as indicators for assessing the stage of wound healing, which precisely indicated the patient's response to wound care. Our wound segmentation model can segment three main tissues that are present in the wound region: the epithelialization area, granulation tissue, and necrotic tissue. Our model performed well in detecting granulation tissue, which appears as a large region on the wound image and is present in all images in our dataset. Performance in the epithelialization area was moderate. This could also be due to the imbalance in classes, small dataset, and inconsistent data annotation across the wound images. In contrast, our model had a poor IoU score for necrotic tissue. We suspect that this is because the area of necrotic tissue in each image is small and only a small number of images contain necrotic tissue. The performance of our models was similar to those of Ramachandram et al. <ref type="bibr" target="#b8">[9]</ref> and Pholberdee et al. <ref type="bibr" target="#b33">[34]</ref>, who also reported poor performance with the epithelialization area and necrotic tissue.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Effects of Color and Measurement Calibration</head><p>Lighting is an important factor to consider when taking photographs, as it directly affects the appearance of the colors in the image. The wound generally appears in many colors because it is made up of many types of wound tissue. The most common colors of the wound are red, black, yellow, pale pink, and white. These colors form the appearance of the wound. In addition, lighting conditions affect the hue of the wound, which could result in different wound images if the picture of wound is taken under different lighting conditions. This could affect the precision of wound segmentation algorithms <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b42">43]</ref>. To improve the accuracy of wound segmentation, we developed the calibration chart and captured all wound images with the calibration chart. Our color calibration algorithm ensures that all wound images have similar color shades. Wound segmentation models trained and evaluated with color-calibrated wound images had higher scores than those trained and evaluated with original wound images. Apart from color calibration, using the color grid in our calibration chart, we were able to correctly quantify the size and area of the wound in relation to the size of the color chip.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Longitudinal Wound Assessment</head><p>Our wound measurement approach can automatically segment the area of the wound, granulation tissue, epithelialization area, and necrotic tissue on a wound image and give measurements with millimeter accuracy. It provides several advantages compared to a traditional wound measurement that involves measuring the width and length of the wound with a ruler and calculating the wound area by multiplying the length and width. The traditional method appears to lead to overestimation, especially in an irregular surface of the wound area <ref type="bibr" target="#b43">[44]</ref>. Chan et al. <ref type="bibr" target="#b44">[45]</ref> reported that the automatic measurement of length, width, and wound area with artificial intelligence can improve the problem of overestimation in traditional wound measurement. In our method, the wound area was calculated from the wound prediction output of the models converted from the area in pixels to millimeters using the reference length from the calibration chart. This technique is suitable for regular wound surface and could represent a realistic wound area. The automated measurement of a wound area with artificial intelligence can help clinicians track the progress of wound healing from anywhere, reducing the time and effort and increasing the efficiency of wound care.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4.">Comparison to Other Studies</head><p>Many recent studies have investigated approaches for assessing wounds. Several studies <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b32">33]</ref> conducted on the Medetec Wound Database of open wounds have only the wound area as a label. They did not consider the different types of wound tissue. Few studies investigated the segmentation of different wound tissue types <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b33">34]</ref>. Pholberdee et al. reported results similar to ours in that IoU scores for segmenting necrosis and slough tissue were lower than those for granulation tissue. It should be noted that Howell et al. <ref type="bibr" target="#b7">[8]</ref> compared the tracing of wound tissue among physicians and found that agreement on wound characteristics can vary considerably among wound care specialists. This was also reflected in the inter-rater agreement among the physicians in our study. Recently, Ramachandram et al. <ref type="bibr" target="#b8">[9]</ref> evaluated their proprietary algorithm but did not report how their calibration sticker worked or how their algorithm performed in the long run. We highlighted that our inter-rater agreement for different wound tissue types was in the same trend as <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>. Despite the fact that there are commercial wound assessment applications on the market, the results of our study, together with other studies, highlight the difficulties arising from the different criteria for wound assessment, which vary from clinician to clinician and make it difficult to establish a consensus. Those wishing to use a commercial application may need to consider the white paper published by the company, which may reflect the performance and characteristics of the algorithm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.5.">Limitations</head><p>The main limitation of our study are the small dataset and the imbalance classes <ref type="bibr" target="#b45">[46]</ref>. First, the small wound dataset would directly affect the performance of the wound segmentation model. With more cases, the model could learn from more examples, which would lead to more accurate results. We addressed this issue by implementing the nested cross-validation scheme as our evaluation method so that all images were used for training, validation, and testing. The results reported in this study were obtained from all cases. We also used extensive data augmentation during training to reduce the impact of the small dataset. We suspected that these low scores in some tissue types are due to the small sample size we have, so the model did not generalize well to general images. Then, our wound segmentation dataset contains imbalanced class labels that could affect algorithm performance. Our dataset contains the labels of the epithelialization area and granulation tissue in almost all images, but only a few necrotic tissue labels. In addition, the epithelialization area and granulation tissue in the images appear very large compared with the very small necrotic tissue. Although we assigned class weights to the loss function during training, this problem still severely affects the performance of the algorithm. Our model performs better in the segmenting granulation tissue and epithelialization area than the necrotic tissue. In addition, additional information about the tissue being imaged can be captured through infrared imaging, which can be used to identify the areas of inflammation that may be indicative of a wound or other abnormality. The use of thermo-sensitive films can also be used to detect changes in temperature and moisture levels. These films can be used to identify the areas of increased blood flow, which may indicate the presence of a wound or other abnormality through computational modeling <ref type="bibr" target="#b46">[47]</ref>. Finally, since physicians are involved in the decision-making process regarding wound assessment, it is good to compare the results of the algorithms with the physicians' assessments. This could include both inter-physician and intra-physician assessment, comparing the results of the algorithms to those of multiple physicians or to those of a single physician at different points in time. This would help ensure that the results of the algorithms are consistent with the assessment by physicians. As such, the algorithm can be trusted to make reliable decisions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.6.">Future Work</head><p>In the future, we plan to further improve our approach by collecting additional image data to further fine-tune the deep learning models. This could be achieved by making research data collection a routine task in wound clinics. We also plan to address the challenge of estimating the depth of the wound, which is an important factor in evaluating the healing process. We consider the use of depth cameras to capture more information about the 3D structure of the wound. In addition, we plan to develop a handheld device that incorporates our AI algorithms for wound assessment, allowing physicians to easily and accurately assess wounds in different environments. This device could be particularly useful in remote areas where access to specialized wound care facilities is limited. Our goal is to develop a reliable, user-friendly device that can assist physicians in providing optimal wound care to their patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p>Proper wound management requires routine wound measurement and assessment that need to be accurate, precise, and repeatable. In this study, we developed an approach for automated wound assessment that involves placing a calibration chart near the wound, taking an image of the wound with a smartphone, and analyzing the image using AI. To start with, wound images were collected from patients visiting the wound clinic at Songklanagarind Hospital. The wound area and three important wound tissues on the images were annotated by three physicians with ten years of experience. A deep learning model was then developed to mimic what the physicians did on the images. Our deep-learning model was able to accurately the segment wound area and granulation tissue, but was inconsistent with respect to the epithelialization area and necrotic tissue. Although we used nested cross-validation, which helps in developing an algorithm on a small dataset, more images are needed for the algorithm to learn to better segment small and variable tissue areas such as necrotic tissue. The calibration chart, which helps calibrate colors and scales, can help improve the algorithm performance. The algorithm could allow the longitudinal assessment of the wound, which could help clinicians tailor treatment to the patient's condition. The resulting approach can be developed into an application or a tool to help physicians assess wound healing accurately, easily, and anywhere.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Wound tissue types: (a) wound without tissue labeling; (b) wound with epithelial tissue labeling in pink; (c) wound with granulation tissue labeling in red; and (d) wound with necrotic tissue labeling in orange. Our calibration chart was placed near the wound for color and measurement calibration.</figDesc><graphic coords="5,43.71,94.86,507.57,150.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. The calibration chart consists of four ArUco markers for the automatic detection and the Macbeth chart of 24 square color patches for color calibration.</figDesc><graphic coords="8,166.39,126.66,235.73,124.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Example of a wound image labeled by three different physicians with the calibration chart positioned near the wound for color and measurement calibration. The red, orange, purple, yellow, and blue colors represent granulation tissue, necrotic tissue, epithelialization area, and wound area, respectively. Despite the use of clear guidelines and standards for labeling, slight differences in the areas annotated by the three physicians were observed. These differences may be due to a range of factors, including the physicians' training, experience, and personal approaches to image interpretation.</figDesc><graphic coords="8,41.09,441.54,512.81,209.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Wound assessment framework.</figDesc><graphic coords="9,166.39,380.51,385.02,65.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Color calibration process consists of (a,b) detecting the color and measurement chart using the ArUcO markers, (c) extracting all 24 color plates in the color and measurement chart, and (d) calibrating them against their reference colors.</figDesc><graphic coords="10,166.39,230.57,392.88,235.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Comparison of the same wound image before and after color calibration.</figDesc><graphic coords="11,166.39,94.86,385.02,348.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Architectures of our deep learning models. (a) U-Net with EfficientNet-B2. (b) U-Net with MobileNetV2. (c) MBConv block used by the EfficientNet-B2 encoder. (d) Inverted residual block used by the MobileNetV2 encoder. (e) Conv block.</figDesc><graphic coords="12,41.09,94.86,512.79,287.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Diagram of nested cross validation with ten outer folds and nine inner folds that were used in this study. The nested cross validation scheme resulted in all images being used for testing.</figDesc><graphic coords="13,166.39,400.04,294.66,253.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Qualitative segmentation results from our proposed method.</figDesc><graphic coords="16,166.39,94.86,392.45,246.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Four phases of wound healing.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Three types of wound tissue.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Patient characteristics.</figDesc><table><row><cell>Characteristic</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Inter-rater agreement between physicians on each class label.</figDesc><table><row><cell>Feature</cell><cell>Physicians</cell><cell cols="2">Intersection over Union Mean S.D.</cell></row><row><cell></cell><cell>A vs. B</cell><cell>0.6739</cell><cell>0.2374</cell></row><row><cell>Wound area</cell><cell>A vs. C</cell><cell>0.5143</cell><cell>0.2303</cell></row><row><cell></cell><cell>B vs. C</cell><cell>0.6559</cell><cell>0.2483</cell></row><row><cell></cell><cell>A vs. B</cell><cell>0.3248</cell><cell>0.2087</cell></row><row><cell>Epithelialization area</cell><cell>A vs. C</cell><cell>0.2850</cell><cell>0.2609</cell></row><row><cell></cell><cell>B vs. C</cell><cell>0.2368</cell><cell>0.2261</cell></row><row><cell></cell><cell>A vs. B</cell><cell>0.5438</cell><cell>0.3316</cell></row><row><cell>Granulation tissue</cell><cell>A vs. C</cell><cell>0.5561</cell><cell>0.2303</cell></row><row><cell></cell><cell>B vs. C</cell><cell>0.6201</cell><cell>0.2877</cell></row><row><cell></cell><cell>A vs. B</cell><cell>0.2680</cell><cell>0.2763</cell></row><row><cell>Necrotic tissue</cell><cell>A vs. C</cell><cell>0.1635</cell><cell>0.2473</cell></row><row><cell></cell><cell>B vs. C</cell><cell>0.1125</cell><cell>0.1991</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5 .</head><label>5</label><figDesc>Performance deep learning models for wound area and wound tissue segmentation.</figDesc><table><row><cell>Feature</cell><cell>Architecture</cell><cell>Encoder</cell><cell>Color Calibration</cell><cell cols="2">Intersection over Union Mean S.D.</cell><cell cols="2">Pixel Accuracy Mean S.D.</cell></row><row><cell>Wound area</cell><cell>U-Net</cell><cell>MobileNetV2</cell><cell>Yes No</cell><cell>0.6826 0.6624</cell><cell>0.1987 0.2307</cell><cell>0.9881 0.9854</cell><cell>0.0105 0.0219</cell></row><row><cell></cell><cell></cell><cell>EfficientNet-B2</cell><cell>Yes No</cell><cell>0.6964 0.6878</cell><cell>0.1359 0.1665</cell><cell>0.9866 0.9871</cell><cell>0.0114 0.0101</cell></row><row><cell>Epithelialization area</cell><cell>U-Net</cell><cell>MobileNetV2</cell><cell>Yes No</cell><cell>0.3186 0.2854</cell><cell>0.1630 0.1552</cell><cell>0.9792 0.9770</cell><cell>0.0153 0.0179</cell></row><row><cell></cell><cell></cell><cell>EfficientNet-B2</cell><cell>Yes No</cell><cell>0.3957 0.3672</cell><cell>0.1869 0.1517</cell><cell>0.9808 0.9812</cell><cell>0.0157 0.0145</cell></row><row><cell>Granulation tissue</cell><cell>U-Net</cell><cell>MobileNetV2</cell><cell>Yes No</cell><cell>0.5997 0.5879</cell><cell>0.2885 0.2633</cell><cell>0.9899 0.9921</cell><cell>0.0086 0.0048</cell></row><row><cell></cell><cell></cell><cell>EfficientNet-B2</cell><cell>Yes No</cell><cell>0.6421 0.6297</cell><cell>0.2444 0.2529</cell><cell>0.9920 0.9915</cell><cell>0.0064 0.0084</cell></row><row><cell>Necrotic tissue</cell><cell>U-Net</cell><cell>MobileNetV2</cell><cell>Yes No</cell><cell>0.1386 0.1185</cell><cell>0.1467 0.1754</cell><cell>0.9831 0.9858</cell><cell>0.0133 0.0125</cell></row><row><cell></cell><cell></cell><cell>EfficientNet-B2</cell><cell>Yes No</cell><cell>0.1552 0.1195</cell><cell>0.1428 0.1040</cell><cell>0.9853 0.9896</cell><cell>0.0123 0.0073</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement:</head><p>The data presented in this study are available upon request from the corresponding author. The data are not publicly available due to the institutional policy.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Informed Consent Statement: Informed consent was obtained from all subjects involved in the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="20,39.08,388.13,520.19,8.63;20,57.23,399.52,502.05,8.74;20,57.23,411.14,40.01,8.63" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Prevalence of chronic wounds in the general population: Systematic review and meta-analysis of observational studies</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martinengo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Olsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bajpai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Soljak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Upton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schmidtchen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Car</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Järbrink</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.annepidem.2018.10.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="8" to="15" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,39.08,422.53,521.32,8.74;20,56.78,434.04,77.88,8.74" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A Systematic Overview of Recent Methods for Non-Contact Chronic Wound</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marijanović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/app10217613</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Analysis. Appl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">7613</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,39.08,445.55,493.07,8.74" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chronic Wounds: Evaluation and Management</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Franco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Fam. Physician</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="159" to="166" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,39.08,457.17,520.20,8.63;20,57.23,468.56,503.61,8.74;20,57.23,480.19,83.73,8.63" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">MEASURE: A proposed assessment framework for developing best practice recommendations for wound assessment</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Keast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Bowering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Mackean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Burrows</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Contents</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1067-1927.2004.0123S1.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,39.08,491.69,520.20,8.63;20,56.86,503.08,396.59,8.74" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Fully automatic wound segmentation with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Dhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rostami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niezgoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gopalakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-020-78799-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2020">2020. 21897</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,39.08,514.71,520.57,8.63;20,57.23,526.10,261.93,8.74" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Pressure injuries in surgical patients: A comparison of Norton, Braden and Waterlow risk assessment scales</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gurkan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kirtil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Aydin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kutuk</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2022.31.2.170</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="170" to="177" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,39.08,537.72,520.20,8.63;20,57.23,549.11,365.02,8.74" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Smartphone application for wound area measurement in clinical practice</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Biagioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">V</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Manzioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Matielo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C B</forename><surname>Neto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sacilotto</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jvscit.2021.02.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vasc. Surg. Cases Innov. Tech</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page" from="258" to="261" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,39.08,560.73,521.76,8.63;20,57.23,572.12,503.16,8.74;20,56.88,583.63,131.25,8.74" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Development of a Method for Clinical Evaluation of Artificial Intelligence-Based Digital Wound Assessment Tools</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Howell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saxena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Saxena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Castellano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Petrone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Slone</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamanetworkopen.2021.7234</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Netw</title>
+		<imprint/>
+	</monogr>
+	<note>Open 2021, 4, e217234. [CrossRef</note>
+</biblStruct>
+
+<biblStruct coords="20,39.08,595.25,520.55,8.63;20,56.88,606.64,503.51,8.74;20,56.78,618.15,86.66,8.74" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Fully Automated Wound Tissue Segmentation Using Deep Learning on Mobile Devices: Cohort Study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ramachandram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ramirez-Garcialuna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D J</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Martínez-Jiménez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Arriaga-Caballero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Allport</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/36977</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR mHealth uHealth</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,43.19,629.77,516.09,8.63;20,57.23,641.17,358.02,8.74" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Chronic Wound Telemedicine Models Before and During the COVID-19 Pandemic: A Scoping Review</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Homsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sachdeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mufti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Sibbald</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.ASW.0000805140.58799.aa</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="87" to="94" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,43.19,652.79,516.09,8.63;20,57.23,664.18,439.05,8.74" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Diagnostic accuracy of telemedicine for detection of surgical site infection: A systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sidapra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yiasemidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Totty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Chetter</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41746-022-00655-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit. Med</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,43.19,675.80,516.09,8.63;20,57.23,687.19,484.37,8.74" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Deep learning approach based on superpixel segmentation assisted labeling for automatic pressure ulcer diagnosis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Christian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0264139</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+		</imprint>
+	</monogr>
+	<note>e0264139. [CrossRef</note>
+</biblStruct>
+
+<biblStruct coords="20,43.19,698.70,517.21,8.74;20,56.95,710.21,210.38,8.74" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Efficient detection of wound-bed and peripheral skin with statistical colour models</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Veredas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morente</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11517-014-1240-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med. Biol. Eng. Comput</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="345" to="359" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,43.19,721.83,516.09,8.63;20,57.23,733.22,479.95,8.74" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Design and Development of a Methodology Based on Expert Systems, Applied to the Treatment of Pressure Ulcers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Casal-Guisande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Comesaña-Campos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cerqueiro-Pequeño</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Bouza-Rodríguez</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/diagnostics10090614</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diagnostics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">614</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,43.19,744.73,509.40,8.74" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Wounds-From Physiology to Wound Dressing</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kujath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Michelsen</surname></persName>
+		</author>
+		<idno type="DOI">10.3238/arztebl.2008.0239</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Deutsch. Ärztebl. Int</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="239" to="248" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,98.72,516.08,8.63;21,56.88,110.12,502.39,8.74;21,56.69,121.62,141.69,8.74" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Incorporating vascular-stasis based blood perfusion to evaluate the thermal signatures of cell-death using modified Arrhenius equation with regeneration of living tissues during nanoparticle-assisted thermal therapy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icheatmasstransfer.2022.106046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Commun. Heat Mass Transf</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<date type="published" when="2022">2022. 106046</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,133.13,411.04,8.74" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Classification of Wounds and their Management</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Percival</surname></persName>
+		</author>
+		<idno type="DOI">10.1383/surg.20.5.114.14626</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surgery</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="114" to="117" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,144.64,399.99,8.74" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Wound dressings-A review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dhivya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Padma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Santhini</surname></persName>
+		</author>
+		<idno type="DOI">10.7603/s40681-015-0022-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioMedicine</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,156.14,424.17,8.74" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Management of Acute Wounds</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.suc.2009.03.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surg. Clin. N. Am</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="659" to="676" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,167.65,505.49,8.74" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The lived experience of diverse elders with chronic wounds</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Beitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manag</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="36" to="46" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,179.16,517.65,8.74;21,57.23,190.78,83.73,8.63" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Basics in nutrition and wound healing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rahbarnia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kellner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sobotka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Eberlein</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nut.2010.05.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="862" to="866" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,202.17,427.38,8.74" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Current Understanding of Hemostasis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Gale</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0192623310389474</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Toxicol. Pathol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="273" to="280" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,213.68,517.21,8.74;21,56.98,225.18,178.80,8.74" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Normal Cutaneous Wound Healing: Clinical Correlation with Cellular and Molecular Events</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Baum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Arpey</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-4725.2005.31612</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatol. Surg</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="674" to="686" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,236.69,441.33,8.74" xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dalisson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barralet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wound</forename><surname>Bioinorganics</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Healing</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adhm.201900764</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Healthc. Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2019">2019. 1900764</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,248.31,517.21,8.63;21,57.23,259.71,446.09,8.74" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Epithelialization in Wound Healing: A Comprehensive Review</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Pastar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Stojadinovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ramirez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Nusbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sawaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Khalid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Isseroff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tomic-Canic</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2013.0473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="445" to="464" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,271.21,517.66,8.74" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Wound Dressings and Comparative Effectiveness Data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Granick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Tomaselli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="511" to="529" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,294.23,517.21,8.74;21,57.01,305.73,95.81,8.74" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Cell Biology of Ischemia/Reperfusion Injury</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kalogeris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Baines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Korthuis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-0-12-394309-5.00006-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Rev. Cell Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page" from="229" to="317" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,317.36,516.34,8.63;21,57.23,328.75,498.15,8.74" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Percent Change in Wound Area of Diabetic Foot Ulcers Over a 4-Week Period Is a Robust Predictor of Complete Healing in a 12-Week Prospective Trial</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sheehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caselli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Giurini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Veves</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/diacare.26.6.1879</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1879" to="1882" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,340.37,516.09,8.63;21,57.23,351.76,416.67,8.74" xml:id="b28">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kalenichenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weyand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andreetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mobilenets</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/ARXIV.1704.04861</idno>
+		<idno type="arXiv">arXiv:1704.04861</idno>
+		<title level="m">Efficient Convolutional Neural Networks for Mobile Vision Applications</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,363.27,517.21,8.74;21,57.23,374.89,113.01,8.63" xml:id="b29">
+	<monogr>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brox</surname></persName>
+		</author>
+		<author>
+			<persName><surname>U-Net</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/ARXIV.1505.04597</idno>
+		<idno type="arXiv">arXiv:1505.04597</idno>
+		<title level="m">Convolutional Networks for Biomedical Image Segmentation</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,386.28,496.26,8.74" xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Deep Residual Learning for Image Recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/ARXIV.1512.03385</idno>
+		<idno type="arXiv">arXiv:1512.03385</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,397.79,517.66,8.74;21,57.23,409.41,41.48,8.63" xml:id="b31">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">V</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Efficientnet</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/ARXIV.1905.11946</idno>
+		<idno type="arXiv">arXiv:1905.11946</idno>
+		<title level="m">Rethinking Model Scaling for Convolutional Neural Networks. arXiv 2019</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,420.92,517.66,8.63;21,57.23,432.42,502.04,8.63;21,56.94,443.93,281.89,8.63" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A framework of wound segmentation based on deep convolutional networks</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CISP-BMEI.2017.8302184</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2017 10th International Congress on Image and Signal Processing</title>
+		<meeting>the 2017 10th International Congress on Image and Signal Processing<address><addrLine>Shanghai, China</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017-10">October 2017</date>
+			<biblScope unit="page" from="1" to="7" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,455.44,516.09,8.63;21,57.23,466.94,502.05,8.63;21,57.23,478.45,432.90,8.63" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Study of Chronic Wound Image Segmentation: Impact of Tissue Type and Color Data Augmentation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pholberdee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pathompatai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taeprasartsit</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/jcsse.2018.8457392</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 15th International Joint Conference on Computer Science and Software Engineering (JCSSE)</title>
+		<meeting>the 2018 15th International Joint Conference on Computer Science and Software Engineering (JCSSE)<address><addrLine>Nakhonpathom, Thailand; Piscataway, NJ, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2018-07">July 2018. 2018</date>
+			<biblScope unit="page" from="11" to="13" />
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct coords="21,43.19,489.96,516.09,8.63;21,57.23,501.35,313.62,8.74" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Enhanced Assessment of the Wound-Healing Process by Accurate Multiview Tissue Classification</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wannous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TMI.2010.2077739</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med Imaging</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="315" to="326" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,512.97,517.66,8.63;21,56.95,524.36,183.68,8.74" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Wound area measurement with 3D transformation and smartphone images</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12859-019-3308-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,535.99,516.09,8.63;21,57.23,547.49,503.16,8.63;21,57.23,559.00,291.53,8.63" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Accurate Chronic Wound Area Measurement using Structure from Motion</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Gomes</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CBMS49503.2020.00047</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2020 IEEE 33rd International Symposium on Computer-Based Medical Systems (CBMS)</title>
+		<meeting>the 2020 IEEE 33rd International Symposium on Computer-Based Medical Systems (CBMS)<address><addrLine>Rochester, MN, USA; Piscataway, NJ, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2020-07-30">28-30 July 2020. 2020</date>
+			<biblScope unit="page" from="208" to="213" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,570.39,419.14,8.74" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A color-rendition chart</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Mccamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Marcus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Davidson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Photogr. Eng</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="95" to="99" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,582.01,516.44,8.63;21,57.23,593.40,357.52,8.74" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Automatic generation and detection of highly reliable fiducial markers under occlusion</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Garrido-Jurado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Muñoz-Salinas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Madrid-Cuevas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marín-Jiménez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.patcog.2014.01.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognit</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="2280" to="2292" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,605.03,517.21,8.63;21,57.23,616.42,454.46,8.74" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">PlantCV v2: Image analysis software for high-throughput plant phenotyping</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fahlgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abbasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Callen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chavez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Doust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Hodge</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.4088</idno>
+		<imprint/>
+	</monogr>
+	<note>PeerJ 2017, 5, e4088. [CrossRef</note>
+</biblStruct>
+
+<biblStruct coords="21,43.19,628.04,517.65,8.63;21,57.23,639.43,158.59,8.74" xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhmoginov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/ARXIV.1801.04381</idno>
+		<idno type="arXiv">arXiv:1801.04381</idno>
+		<title level="m">MobileNetV2: Inverted Residuals and Linear Bottlenecks. arXiv</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,651.06,516.09,8.63;21,57.23,662.45,353.32,8.74" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Detect-and-segment: A deep learning approach to automate wound image segmentation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scebba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Catanzaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mihai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Distler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Karlen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.imu.2022.100884</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inform. Med. Unlocked</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<date type="published" when="2022">2022. 100884</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,674.07,516.27,8.63;21,57.23,685.46,309.70,8.74" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Color calibration of digital images for agriculture and other applications</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sunoj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Igathinathane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Saliendra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hendrickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Archer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isprsjprs.2018.09.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ISPRS J. Photogramm. Remote Sens</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="221" to="234" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,697.08,516.43,8.63;21,57.24,708.47,424.76,8.74" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Digital Planimetry Results in More Accurate Wound Measurements: A Comparison to Standard Ruler Measurements</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bevilacqua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andros</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/193229681000400405</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Diabetes Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="799" to="802" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,43.19,720.10,516.09,8.63;21,56.98,731.49,503.42,8.74;21,56.78,742.99,133.58,8.74" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Clinical validation of an artificial intelligence-enabled wound imaging mobile application in diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H M</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R C</forename><surname>Chong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W L</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13603</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="114" to="124" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,98.72,516.09,8.63;22,57.23,110.12,503.61,8.74;22,57.23,121.74,83.73,8.63" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Semantic Segmentation of Smartphone Wound Images: Comparative Analysis of AHRF and CNN-Based Approaches</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Strong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tulu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lindsay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ACCESS.2020.3014175</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="181590" to="181604" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,43.19,133.25,516.09,8.63;22,57.23,144.64,502.04,8.74;22,56.95,156.14,183.11,8.74" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Pre-operative Assessment of Ablation Margins for Variable Blood Perfusion Metrics in a Magnetic Resonance Imaging Based Complex Breast Tumour Anatomy: Simulation Paradigms in Thermal Therapies</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Soni</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmpb.2020.105781</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Methods Programs Biomed</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page">105781</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,35.72,180.32,523.56,8.63;22,35.72,191.83,523.56,8.63;22,35.45,203.33,414.48,8.63" xml:id="b47">
+	<monogr>
+		<title level="m" type="main">The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods</title>
+		<imprint>
+			<publisher>Disclaimer/Publisher&apos;s Note</publisher>
+		</imprint>
+	</monogr>
+	<note>instructions or products referred to in the content</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

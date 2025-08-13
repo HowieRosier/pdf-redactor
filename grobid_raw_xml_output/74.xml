@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Cost-Minimization Analysis of Teleconsultation Versus In-Person Care for Chronic Diseases and Rehabilitation in Medically Underserved Areas of South Korea</title>
+				<funder ref="#_5Mbg3UQ">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2025-02-20">20 February 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Joaquim</forename><surname>Carreras</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Daniele</forename><surname>Giansanti</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sei-Jong</forename><surname>Baek</surname></persName>
+							<idno type="ORCID">0000-0003-4043-261X</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Health Administration</orgName>
+								<orgName type="institution">Yonsei University Graduate School</orgName>
+								<address>
+									<postCode>26493</postCode>
+									<settlement>Wonju</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeong-Ah</forename><surname>Choi</surname></persName>
+							<idno type="ORCID">0000-0002-0909-8505</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Health Administration</orgName>
+								<orgName type="institution">Yonsei University Graduate School</orgName>
+								<address>
+									<postCode>26493</postCode>
+									<settlement>Wonju</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jin-Won</forename><surname>Noh</surname></persName>
+							<email>jinwon.noh@gmail.com</email>
+							<idno type="ORCID">0000-0001-5172-4023</idno>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Health Administration</orgName>
+								<orgName type="department" key="dep2">College of Software and Digital Healthcare Convergence</orgName>
+								<orgName type="institution">Yonsei University</orgName>
+								<address>
+									<postCode>26493</postCode>
+									<settlement>Wonju</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hyoung-Sun</forename><surname>Jeong</surname></persName>
+							<email>jeonghs@yonsei.ac.kr</email>
+							<idno type="ORCID">0000-0001-9866-0389</idno>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Health Administration</orgName>
+								<orgName type="department" key="dep2">College of Software and Digital Healthcare Convergence</orgName>
+								<orgName type="institution">Yonsei University</orgName>
+								<address>
+									<postCode>26493</postCode>
+									<settlement>Wonju</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Analysis of Teleconsultation Versus In-Person Care for Chronic Diseases and Rehabilitation in Medically Underserved Areas</orgName>
+								<address>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Cost-Minimization Analysis of Teleconsultation Versus In-Person Care for Chronic Diseases and Rehabilitation in Medically Underserved Areas of South Korea</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-02-20">20 February 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">52282D4D5A412722FE6D48B0FADC1960</idno>
+					<idno type="DOI">10.3390/healthcare13050445</idno>
+					<note type="submission">Received: 19 January 2025 Revised: 15 February 2025 Accepted: 17 February 2025</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>telemedicine</term>
+					<term>chronic disease management</term>
+					<term>medically underserved areas</term>
+					<term>societal perspective</term>
+					<term>cost-minimization analysis</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background/Objectives: Access to healthcare in medically underserved areas remains a significant challenge in South Korea due to the concentration of healthcare resources in metropolitan regions. Telemedicine offers a promising approach to mitigating this issue, yet its cost-effectiveness in these settings remains underexplored. This study aims to conduct a cost-minimization analysis comparing teleconsultation and in-person care for chronic diseases, dementia, and rehabilitation in medically underserved areas. Methods: In accordance with CHEERS 2022 guidelines, this study evaluates both direct and indirect costs from a societal perspective, while accounting for costs borne by various societal stakeholders. It provides evidence to guide policy decisions in regions with significant healthcare access disparities. Results: Using data from South Korea's 2018 teleconsultation pilot program involving 1232 patients, the analysis revealed that teleconsultation reduced societal costs per consultation by USD 7.92 for chronic diseases, USD 27.30 for dementia care, and USD 9.61 for rehabilitation. These savings were primarily attributed to reductions in productivity losses and transportation expenses. Furthermore, the analysis identified a shift in financial burden from patients and caregivers to government and public expenditures. Conclusions: The findings highlight teleconsultation's effectiveness in reducing healthcare costs while consistently benefiting diverse patient groups, underscoring the necessity of integrating telemedicine into mainstream healthcare systems to improve access and alleviate financial strain on patients and their families.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="841.89" lry="595.276"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="841.89" lry="595.276"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="841.89" lry="595.276"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Essential medical resources are often inadequate in rural regions, particularly in geographically challenging areas such as islands and mountainous terrain <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. Regions with low population densities often face structural limitations in healthcare resource allocation, particularly in terms of infrastructure such as healthcare facilities, due to the limited availability and variability <ref type="bibr" target="#b2">[3]</ref>. In countries like South Korea, where medical services are primarily delivered by the private sector <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>, the allocation of medical resources to sparsely populated regions depends on public funding and remains inherently constrained. The aging population in rural, medically underserved areas highlights the urgent necessity for adaptable strategies to enhance access to healthcare services <ref type="bibr" target="#b5">[6]</ref>.</p><p>Telemedicine has emerged as an effective approach to overcoming barriers to healthcare accessibility, driven by technological advancements <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. Previous studies underscore its potential to enhance treatment efficiency and reduce healthcare costs <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>, particularly in the management of chronic diseases such as type 2 diabetes and chronic obstructive pulmonary disease (COPD). For instance, <ref type="bibr">Zakaria et al. (2024)</ref> reported that a hybrid model combining remote monitoring with in-person care resulted in a substantial reduction in HbA1c levels by 2.19% among patients with type 2 diabetes <ref type="bibr" target="#b12">[13]</ref>. Additionally, a telemedicine intervention targeting individuals with chronic illnesses demonstrated a 35% improvement in healthcare service accessibility and a 50% decrease in indirect costs, underscoring its broader utility in addressing healthcare disparities <ref type="bibr" target="#b13">[14]</ref>.</p><p>In Korea, rapid industrialization has driven significant population and resource concentration in metropolitan areas, creating marked regional disparities in healthcare resources. Approximately half of the physicians are concentrated in metropolitan regions, whereas rural areas have access to less than 15% of the medical institutions available in urban settings, leaving these regions critically underserved <ref type="bibr" target="#b14">[15]</ref>. To address these challenges, the Korean government initiated a teleconsultation pilot program in 1988 to provide medical services to residents in some areas with limited access to healthcare facilities. Teleconsultation involves remote medical procedures, including diagnostics and prescriptions, in collaboration with off-site physicians via telecommunication technologies without direct patient contact. The service is designed for patients with chronic diseases, dementia, or rehabilitation needs who have received an initial face-to-face consultation and are deemed suitable for teleconsultation follow-up <ref type="bibr" target="#b15">[16]</ref>.</p><p>An evaluation of the program conducted in 2015 demonstrated clinical efficacy, with hypertension patients achieving a 3.23 mmHg reduction in systolic blood pressure (from 131.32 mmHg to 128.09 mmHg) and diabetes patients showing a 0.31 percentage-point decrease in glycated hemoglobin (from 7.08% to 6.77%) within three months. A satisfaction survey conducted among 243 residents of remote island regions and 70 individuals in long-term care facilities reported high approval ratings of 83% and 87.9%, respectively, both surpassing the 77% satisfaction rate observed in the previous pilot program. Additionally, medication adherence scores, assessed on a six-point scale, showed a statistically significant improvement, increasing from 4.83 before the intervention to 5.1 afterward, suggesting that telemedicine may also contribute to long-term clinical effects <ref type="bibr" target="#b16">[17]</ref>.</p><p>The clinical efficacy of telemedicine has been substantiated in various case studies, including those conducted in South Korea <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref>. However, systematic assessments of its economic feasibility remain insufficient. This is largely due to a lack of robust economic evaluation studies, biases associated with specific perspectives, particularly those of health systems and providers, and the omission of cost data in analyses, limiting the generalizability of the results <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b20">21]</ref>. These limitations constrain the broader applicability of findings and underscore the need for robust evidence to validate telemedicine as a viable solution for regions with limited medical resources.</p><p>Building on the established clinical benefits demonstrated in the preceding telemedicine pilot program, this study assumes that teleconsultation yields outcomes that are at least comparable, if not superior, to those of conventional in-person care and primarily evaluates its economic feasibility. To this end, a cost-minimization analysis is conducted to compare teleconsultation with conventional care for chronic diseases, dementia, and rehabilitation in medically underserved areas of South Korea. Adopting a societal perspective, the analysis incorporates both direct and indirect costs borne by patients, caregivers, and the government or insurer. This study evaluates telemedicine's potential as a cost-effective alternative, particularly in regions facing significant healthcare access challenges. The findings offer valuable insights for policymakers to facilitate the integration of telemedicine into mainstream healthcare systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Study Design</head><p>This study aims to evaluate the economic efficiency of teleconsultation services compared to traditional in-person care for patients residing in medically underserved areas, from a societal perspective <ref type="bibr">[22]</ref>. Building on previous findings that telemedicine achieves comparable or superior outcomes in managing chronic diseases, dementia, and rehabilitation, this study conducted a cost-minimization analysis <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24]</ref>. The economic evaluation followed the CHEERS 2022 guidelines for the assessments <ref type="bibr" target="#b24">[25]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Data Description</head><p>This study utilized six months of survey data collected during the 2018 pilot teleconsultation program for underserved areas, along with its evaluation program carried out by the Ministry of Health and Welfare <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b25">26]</ref>. The dataset comprised patients' demographic characteristics, health profile, and information gathered through surveys (e.g., transportation costs, out-of-pocket expenses). The data provided to the research team were secondary and anonymized, containing no personally identifiable information. Access was restricted solely to the researchers, and the results were presented in aggregate form only. Public healthcare costs, telemedicine equipment procurement costs, and the opportunity costs of patients and their companions were estimated using national statistics and public documents.</p><p>The study was conducted using data from 1232 respondents out of 2396 individuals included in the performance evaluation. Among the respondents, 836 patients utilized teleconsultation services, while 396 patients received comparable in-person care. The majority of patients were female (69.6%). Age distribution was as follows: 5.7% were under 60 years, 15.7% were in their 60s, 38.9% were in their 70s, and 39.8% were 80 years or older, indicating a predominantly elderly population. Patients were divided into three groups based on their medical needs: (1) for chronic disease patients (e.g., hypertension, diabetes), 386 received teleconsultation, and 239 received in-person care; (2) for dementia patients, 370 received teleconsultation, and 110 received in-person care; (3) for rehabilitation patients, 80 received teleconsultation, and 47 received in-person care.</p><p>Medically underserved areas are typically suburban regions with a higher proportion of elderly individuals <ref type="bibr" target="#b26">[27]</ref>. Additionally, patients suffering from chronic diseases and dementia in these areas are likely to be elderly as well <ref type="bibr" target="#b27">[28]</ref>. This structural feature is reflected in the composition of our study sample. To verify the representativeness of our sample, we compared its gender distribution to that of the overall teleconsultation pilot program. <ref type="bibr">Kim et al. (2023)</ref> reported that from 2017 to September 2023, 10,407 individuals participated, with 69% being women. The majority were elderly, aligning with our dataset. This consistency indicates that our sample reliably reflects the broader teleconsultation population <ref type="bibr" target="#b28">[29]</ref>.</p><p>The 2018 dataset is the most recent that includes both a teleconsultation group and a control group of in-person care recipients, allowing for a comprehensive evaluation of direct and indirect costs. The structural and operational framework of the 2018 pilot program remains largely consistent with contemporary teleconsultation models, apart from minor refinements such as the expansion of participating municipalities and healthcare facilities. However, for accurate cost comparisons, it is important to consider inflation by taking into account price fluctuations since 2018. Details regarding the teleconsultation model are described in the subsequent section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Pilot Model of Telemedicine in Korea</head><p>Under the Medical Service Act, medical practices are required to be conducted within healthcare institutions, which implies that physicians and patients must be physically present in the same location. However, the Act allows for a form of telemedicine where physicians utilize information and communication technology (ICT) to provide medical knowledge or technical support to other healthcare professionals in remote locations. Telemedicine in Korea is restricted to collaborative care between off-site physicians and on-site healthcare professionals. As of now, direct physician-to-patient teleconsultations are not permitted in principle <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b30">31]</ref>.</p><p>The telemedicine pilot program targets medically underserved regions and operates through collaboration between off-site physicians and on-site healthcare professionals (e.g., physicians, nurses) or healthcare staff. Patients residing in medically underserved areas visit nearby health centers equipped with telemedicine facilities, where off-site physicians provide diagnoses and prescriptions through on-site healthcare professionals. Off-site physicians bear the same level of legal responsibility as they would in in-person consultations. However, when the on-site healthcare professional is also a physician, the primary liability for patient care rests with the local physician unless clear evidence of malpractice by the off-site physician is established <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b29">30]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Cost Estimation for Teleconsultation and In-Person Care</head><p>The costs of teleconsultation and comparable in-person care were evaluated by categorizing expenses as direct and indirect costs. Direct costs included all expenses related to consultation and prescriptions (public and patient out-of-pocket health expenditures), along with transportation expenses for patients and their companions. In this study, transportation costs incurred by patients and caregivers for medical visits were classified as non-medical direct costs, following the approach of Kongpakwattana et al. (2020) <ref type="bibr" target="#b31">[32]</ref>. For teleconsultation, additional costs associated with the procurement of tele-equipment were considered. Indirect costs were estimated using the Human Capital Approach (HCA), which quantifies lost working hours by translating them into monetary values based on hourly wages <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>. In this study, both patient and caregiver productivity losses were monetized to reflect their economic impact <ref type="bibr" target="#b34">[35]</ref>. The formula for calculating productivity losses is as follows:</p><p>Productivity Losses = (Patient hours × Hourly wage f or Patient)</p><p>+(Companion hours × Hourly wage f or companion).</p><p>The following factors were taken into consideration for calculating productivity losses:</p><p>i.</p><p>Travel time: Calculated using data on the average access distance to general hospitals, hospitals, clinics, and public health centers and clinics in the pilot program regions. An average speed of 40 km/h, derived from the design standards commonly applied to roads in mountainous and island areas, was used in the calculations. ii. Consultation time: Calculated by combining the average outpatient waiting time (17.1 min) and consultation time (12.4 min), totaling approximately 30 min. For rehabilitation patients, consultation was assumed to include rehabilitation therapy, with a total duration of 1 h. iii. Wages for patients and companions: Based on the total hourly wages of skilled agricultural, forestry, and fishery workers (USD 16.85).</p><p>All costs were expressed in USD, standardized using purchasing power parity (PPP) adjustments as of 2018. It should be noted that some cost estimates were based on authoritative sources, such as government databases; however, certain limitations may apply to these estimates. Table <ref type="table" target="#tab_0">1</ref> provides data sources, and their descriptions associated with estimated costs for teleconsultation and in-person care. As this analysis was conducted from a societal perspective, costs incurred were classified into three stakeholder groups: patients, caregivers, and government/insurers. The classification criteria and associated results are outlined in the following section. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hourly wage for patient</head><p>Skilled agricultural, forestry, and fishery workers' hourly income based on per capita (5)   16.85 --</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Companion hours</head><p>Total time required for a companion of patient to receive teleconsultation (4)  (including treatment if necessary and travel time)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="41">min 45 min 1 h 44 min</head><p>Hourly wage for companion Skilled agricultural, forestry, and fishery workers' hourly income based on per capita (5)   16 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hourly wage for patient</head><p>Skilled agricultural, forestry, and fishery workers' hourly income based on per capita (5)   16.85 --</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Companion hours</head><p>Total time required for a companion of patient to receive teleconsultation (4)  (including treatment if necessary and travel time)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">h 2min h 47 min h 47 min</head><p>Hourly wage for companion Skilled agricultural, forestry, and fishery workers' hourly income based on per capita (5)   16.85 16.85 16.85 (1) Calculated based on 2018 Guide to the Pilot Program for Teleconsultation (MOHW); (2) Source: 2018 Survey on pilot program for teleconsultaiton (MOHW); (3) Calculated based on the specifications for tele-equipment (SSIS); (4)  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Validation of Robustness</head><p>To determine the principal contributors to incremental costs and assess the robustness of the cost-minimization analysis, we implemented a two-step post hoc evaluation. Initially, a univariate sensitivity analysis was performed to evaluate the isolated impact of each variable including transportation expenses, total healthcare costs, telemedicine equipment installation and maintenance fees, and productivity losses. The findings are illustrated through tornado diagrams to identify the variables exerting the greatest influence on incremental costs. Subsequently, scenario analysis was conducted to examine the stability of the outcomes under varying conditions. Guided by prior studies <ref type="bibr" target="#b35">[36,</ref><ref type="bibr" target="#b36">37]</ref>, the variables associated with teleconsultation and in-person care were varied within a range of ±20% to simulate realistic variations observed in practice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Cost Measurement</head><p>Tables <ref type="table" target="#tab_1">1</ref> and<ref type="table" target="#tab_3">2</ref> summarize the societal costs associated with teleconsultation and in-person care for each disease. For chronic disease management, the estimated societal cost per teleconsultation was USD 103.88. This includes direct costs of USD 80.56, with public health expenditures (USD 40.28) being the largest component, followed by out-ofpocket expenses (USD 21.45), tele-equipment installation and maintenance (USD 13.69), and transportation costs (USD 5.15). Indirect costs, which represent productivity losses, were estimated at USD 23.32. By contrast, the estimated societal cost per in-person consultation was USD 111.80, with direct costs totaling USD 66.28. Among these, out-of-pocket expenses were the largest component (USD 38.85), followed by transportation costs (USD 15.24) and public health expenditures (USD 14.20). Indirect costs amounted to USD 45.51.</p><p>For dementia care, the estimated societal cost per teleconsultation was USD 101.76. Direct costs accounted for USD 89.12, with public health expenditures (USD 42.01) being the highest, followed by out-of-pocket expenses (USD 28.36), tele-equipment installation and maintenance (USD 13.69), and transportation costs (USD 5.07). Indirect costs were calculated at USD 12.64. In-person care for dementia had an estimated societal cost of USD 129.06 per consultation. Direct costs, totaling USD 99.12, were highest for out-ofpocket expenses (USD 55.95), followed by transportation costs (USD 28.98) and public health expenditures (USD 14.20). Indirect costs were USD 29.94.</p><p>For rehabilitation care, the societal cost per teleconsultation was estimated at USD 94.09. Direct costs were USD 64.73, with public health expenditures (USD 49.29) being the largest component, followed by tele-equipment installation and maintenance (USD 13.69) and transportation costs (USD 1.75). Indirect costs, reflecting productivity losses, amounted to USD 29.35. For in-person care, the societal cost per consultation was estimated at USD 103.70. Direct costs totaled USD 55.34, with out-of-pocket expenses (USD 25.09) as the highest component, followed by transportation costs (USD 16.05) and public health expenditures (USD 14.20). Indirect costs were calculated at USD 48.36. Additionally, Figure <ref type="figure" target="#fig_0">1</ref> illustrates a comparative analysis of the direct and indirect costs incurred in teleconsultation and in-person care for chronic diseases, dementia, and rehabilitation.</p><p>As shown in Table <ref type="table" target="#tab_4">3</ref> and Figure <ref type="figure" target="#fig_1">2</ref>, categorizing costs by stakeholder reveals that teleconsultation results in significant cost savings for patients and caregivers across all disease areas, including chronic disease management, dementia, and rehabilitation. Specifically, patients experienced cost reductions of USD 31.54, USD 39.55, and USD 32.24 for chronic diseases, dementia, and rehabilitation, respectively, while caregivers saw reductions of USD 16.15, USD 29.25, and USD 26.16 for the same conditions. In contrast, the government and insurers faced increased costs, with a rise of USD 39.77, USD 41.50, and USD 48.78 for each of the respective disease categories. This increase primarily reflects the costs associated with telemedicine infrastructure, particularly tele-equipment procurement and maintenance. These findings suggest that although teleconsultation substantially reduces costs for patients and caregivers, the financial burden is redistributed to the government and insurers. Nevertheless, from a societal perspective, cost feasibility is ultimately sustained across all three disease categories-chronic diseases, dementia, and rehabilitation.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Cost-Minimization Analysis</head><p>As a result of the cost-minimization analysis, the per-visit cost of teleconsultation for chronic disease management was USD 103.88, while the cost of in-person care was USD 111.80. Under the assumption that both services provide equivalent diagnostic and prescribing capabilities, teleconsultation resulted in savings of USD 7.92 per visit.</p><p>For dementia care, the cost of teleconsultation was USD 101.76, while the cost of in-  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Cost-Minimization Analysis</head><p>As a result of the cost-minimization analysis, the per-visit cost of teleconsultation for chronic disease management was USD 103.88, while the cost of in-person care was USD 111.80. Under the assumption that both services provide equivalent diagnostic and prescribing capabilities, teleconsultation resulted in savings of USD 7.92 per visit.</p><p>For dementia care, the cost of teleconsultation was USD 101.76, while the cost of in-   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Cost-Minimization Analysis</head><p>As a result of the cost-minimization analysis, the per-visit cost of teleconsultation for chronic disease management was USD 103.88, while the cost of in-person care was USD 111.80. Under the assumption that both services provide equivalent diagnostic and prescribing capabilities, teleconsultation resulted in savings of USD 7.92 per visit.</p><p>For dementia care, the cost of teleconsultation was USD 101.76, while the cost of in-person care was USD 129.06, resulting in savings of USD 27.30 per visit. In rehabilitation care, teleconsultation was USD 94.09, while in-person care was USD 103.70, resulting in savings of USD 9.61 per visit. Across all three patient groups (chronic diseases, dementia, and rehabilitation), teleconsultation was a more cost-effective alternative than in-person care and contributed significantly to reducing societal costs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Post Hoc Analysis</head><p>A one-way deterministic sensitivity analysis was performed to determine the key cost drivers contributing to incremental costs in each scenario. Figure <ref type="figure" target="#fig_5">3</ref> reports findings for chronic disease management, Figure <ref type="figure" target="#fig_8">4</ref> examines cost dynamics in dementia care, and Figure <ref type="figure" target="#fig_10">5</ref> presents results related to rehabilitation services. In Figures <ref type="figure" target="#fig_5">3</ref><ref type="figure" target="#fig_8">4</ref><ref type="figure" target="#fig_10">5</ref>, red bars indicate cost increases in teleconsultation compared to in-person care, while blue bars represent cost savings. In Figure <ref type="figure" target="#fig_5">3</ref>, teleconsultation led to a reduction in productivity losses and transportation costs (blue) but was associated with increased expenditures for teleconsultation equipment installation and overall healthcare costs (red). Likewise, in Figure <ref type="figure" target="#fig_10">5</ref>, which pertains to rehabilitation care, productivity losses emerged as the most critical cost component. By contrast, Figure <ref type="figure" target="#fig_8">4</ref>, focusing on dementia care, identified transportation costs as the primary cost driver, followed by productivity losses. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Post Hoc Analysis</head><p>A one-way deterministic sensitivity analysis was performed to determine the key cost drivers contributing to incremental costs in each scenario. Figure <ref type="figure" target="#fig_5">3</ref> reports findings for chronic disease management, Figure <ref type="figure" target="#fig_8">4</ref> examines cost dynamics in dementia care, and Figure <ref type="figure" target="#fig_10">5</ref> presents results related to rehabilitation services. In Figures <ref type="figure" target="#fig_5">3</ref><ref type="figure" target="#fig_8">4</ref><ref type="figure" target="#fig_10">5</ref>, red bars indicate cost increases in teleconsultation compared to in-person care, while blue bars represent cost savings. In Figure <ref type="figure" target="#fig_5">3</ref>, teleconsultation led to a reduction in productivity losses and transportation costs (blue) but was associated with increased expenditures for teleconsultation equipment installation and overall healthcare costs (red). Likewise, in Figure <ref type="figure" target="#fig_10">5</ref>, which pertains to rehabilitation care, productivity losses emerged as the most critical cost component. By contrast, Figure <ref type="figure" target="#fig_8">4</ref>, focusing on dementia care, identified transportation costs as the primary cost driver, followed by productivity losses.  To assess the robustness of the findings, a scenario analysis was performed for each disease category. Key cost-driving variables, which were identified as having the greatest impact in the preceding tornado diagram analysis, were varied within a range of ±20%, with adjustments applied to both teleconsultation and in-person care costs. The resulting changes in incremental cost were analyzed (Tables <ref type="table" target="#tab_6">4</ref><ref type="table" target="#tab_7">5</ref><ref type="table" target="#tab_8">6</ref>). Across most tested conditions, incremental cost values were consistently negative, favoring teleconsultation. Additionally, adjustments to other variables influencing each case further supported the cost-effectiveness of teleconsultation compared to in-person care, further validating the findings of the costminimization analysis.   To assess the robustness of the findings, a scenario analysis was performed for each disease category. Key cost-driving variables, which were identified as having the greatest impact in the preceding tornado diagram analysis, were varied within a range of ±20%, with adjustments applied to both teleconsultation and in-person care costs. The resulting changes in incremental cost were analyzed (Tables <ref type="table" target="#tab_6">4</ref><ref type="table" target="#tab_7">5</ref><ref type="table" target="#tab_8">6</ref>). Across most tested conditions, incremental cost values were consistently negative, favoring teleconsultation. Additionally, adjustments to other variables influencing each case further supported the cost-effectiveness of teleconsultation compared to in-person care, further validating the findings of     </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Findings</head><p>This study aimed to assess the economic advantages of telemedicine compared to inperson care in regions with limited access to medical services. The findings demonstrate that teleconsultation, from a societal perspective, resulted in cost savings of USD 7.92 per visit for chronic disease management, USD 27.30 for dementia care, and USD 9.61 for rehabilitation treatment in the respective patient groups. These findings are consistent with prior research indicating that telemedicine improves patient access to care and reduces healthcare costs, particularly in chronic disease management <ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref>. Furthermore, they suggest that similar cost-saving effects may be observed in other healthcare systems or national contexts. The sensitivity analysis revealed that reductions in indirect costs, particularly productivity losses, along with non-medical direct costs such as transportation expenses, were the primary drivers of cost savings. These findings align with previous studies and emphasize that the primary economic benefits of telemedicine derive from reductions in non-medical costs, such as time-related expenses <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b40">41,</ref><ref type="bibr" target="#b41">42]</ref>.</p><p>Stakeholder-specific cost analysis indicated that teleconsultation resulted in cost reductions for patients and caregivers, whereas expenditures for the government and insurers increased. This suggests that the introduction of telemedicine shifted the financial burden from patients and caregivers to the public sector. Since South Korea operates under a singlepayer public insurance system <ref type="bibr" target="#b4">[5]</ref>, this outcome aligns with the primary objective of the teleconsultation pilot program, which was implemented to mitigate physical and financial barriers to healthcare access in medically underserved regions. Despite increased public expenditures, a societal perspective confirms that the total cost per consultation decreased across all patient groups, reinforcing the overall cost-saving potential of telemedicine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Interpretations</head><p>Korea attained universal health coverage (UHC) in 1989; nevertheless, significant inequalities in healthcare access and unmet medical needs remain. These issues are primarily attributed to geographical disparities stemming from the concentration of healthcare resources in metropolitan areas, social inequities exacerbated by an aging population and information asymmetry, and delays in accessing timely healthcare services due to economic hardships <ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref>. To address these challenges, the Korean government has implemented various measures, including the designation of regional responsible medical institutions, the introduction of a primary care physician system for individuals with disabilities, and the establishment of a Medical Aid program targeting vulnerable populations <ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref>. Among these initiatives, the telemedicine pilot project has emerged as both a technological innovation and a policy measure, though its broader implementation remains constrained by regulatory limitations. Recognizing these challenges, this study examines key pol-icy considerations for expanding telemedicine while maintaining financial viability and operational efficiency. Against this backdrop, this study offers several policy implications:</p><p>First, telemedicine represents a viable solution for improving healthcare accessibility in areas with constrained medical resources. Evidence from prior studies and pilot programs has shown that telemedicine's clinical effectiveness is comparable to, and occasionally exceeds, that of traditional in-person care <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b16">17]</ref>. Furthermore, this study conducted a socioeconomic evaluation that accounted for opportunity costs and transportation expenses incurred by patients and their companions. The findings demonstrated that teleconsultation provided cost-saving benefits compared to in-person care across all three patient groups. These results underscore telemedicine's role in reducing societal costs by minimizing patients' travel expenses and productivity losses <ref type="bibr" target="#b49">[50,</ref><ref type="bibr" target="#b50">51]</ref>. Notably, the implementation or expansion of telemedicine in large continental countries, where substantial distances separate rural and urban areas, could lead to significant social resource savings <ref type="bibr" target="#b51">[52]</ref>. For instance, these findings can be compared to efforts aimed at closing the rural healthcare gap in countries like the United States or Australia <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54]</ref>.</p><p>Second, adjusting the fee structure for telemedicine appropriately could yield additional economic benefits <ref type="bibr" target="#b54">[55]</ref>. While the cost-minimization analysis revealed that the direct medical costs of teleconsultation exceeded those of in-person care across all patient groups, two important considerations should be addressed. First, the data for this study were based on a 2018 pilot program, during which an adequate reimbursement framework had not yet been established. As a result, the fees for off-site physicians were calculated according to the emergency telemedicine pilot program's fee standards. Importantly, these fees were intentionally set at double the rate of an initial in-person visit to facilitate the adoption of telemedicine services. Secondly, the insurer was responsible for separately reimbursing the costs incurred by off-site physicians and in-site medical personnels <ref type="bibr" target="#b54">[55,</ref><ref type="bibr" target="#b55">56]</ref>.</p><p>During the COVID-19 pandemic, the necessity and adoption of telemedicine services expanded significantly, both in Korea and globally <ref type="bibr" target="#b56">[57,</ref><ref type="bibr" target="#b57">58]</ref>. In response, South Korea temporarily authorized telemedicine for COVID-19 treatment, with services reimbursed at 130% of the face-to-face consultation fee. If telemedicine is integrated into routine medical practice, current reimbursement rates are expected to be maintained [59]. This contrasts with countries such as Australia, France, Japan, the United Kingdom, and the United States, where telemedicine costs are generally comparable or lower to those of in-person consultations <ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref>. Given that teleconsultations can reduce time-related costs for healthcare providers while potentially enhancing overall revenue <ref type="bibr" target="#b62">[63,</ref><ref type="bibr" target="#b63">64]</ref>, they present economic benefits that extend beyond patient cost reductions. As telemedicine evolves to encompass direct physician-to-patient consultations and a wider range of medical services, it will be essential for the Korean government to reassess reimbursement structures in alignment with global standards to ensure both financial sustainability and optimized societal cost savings.</p><p>Lastly, it is worth noting that telemedicine holds significant cost-effective potential not only in physically constrained environments but also in more general contexts <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b64">65]</ref>. In the cost-minimization analysis, the most significant factor driving cost savings in chronic disease management was the reduction in productivity losses for patients and their companions. Similarly, in dementia and rehabilitation patient groups, where only the companions' opportunity costs were considered, substantial cost reductions were achieved through decreased indirect costs. This study focused on elderly populations residing in medically underserved areas, using the average wage of agricultural workers (USD 16.85) to estimate productivity losses. Expanding this analysis to consider the average wage of all occupational groups (USD 22.84) could reveal even greater cost-reduction effects. These findings support the study by <ref type="bibr">Patel KB et al. (2023)</ref>, which demonstrated that telemedicine could mitigate the financial toxicity associated with cancer care <ref type="bibr" target="#b65">[66]</ref>. Additionally, the findings from the CMS (Cost-Minimization Analysis) conducted by Mas, C. A. et al. (2021), which elucidated the cost-effectiveness and the enhancement of bed resource availability through Pediatric Tele-Home Care, further substantiate this argument <ref type="bibr" target="#b66">[67]</ref>.</p><p>However, when interpreting the results of this study in the context of different healthcare systems, it is essential to take regional and economic differences into account. In South Korea, the uniform reimbursement system has effectively reduced regional cost variations <ref type="bibr" target="#b67">[68]</ref>; however, in nations with more decentralized or privatized healthcare financing, telemedicine costs may fluctuate significantly across regions. Therefore, when applying these findings, it is crucial to account for the distinct regional contexts and healthcare funding structures, as these factors may influence the cost-effectiveness of telemedicine across different systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Limitations</head><p>This study stands out for its use of a rigorous methodology consistent with the CHEERS 2022 guidelines <ref type="bibr" target="#b24">[25]</ref>, offering a comprehensive economic evaluation from a societal cost perspective that incorporates both direct and indirect costs. Nonetheless, it has certain limitations. First, although this study employs the most recently available dataset that includes both a teleconsultation group and a control group, the findings may not entirely capture recent shifts in telemedicine practices and healthcare cost dynamics. Second, the cost estimates are based on data collected over six months from a single pilot project conducted in Korea before an appropriate telemedicine reimburse rate was established, which may restrict the applicability of the results to other countries or settings. In particular, the health expenditure component is shaped by Korea's single-payer reimbursement framework, which may not be directly generalizable to healthcare systems that rely on private insurance or alternative financing models. Third, key parameters, such as productivity losses and equipment costs, were derived from national averages, which might not adequately capture regional variability. Fourth, while this study primarily examines short-term cost savings, we acknowledge that telemedicine's long-term benefits-such as enhanced chronic disease management and reduced hospitalization rates-may further improve its cost-effectiveness. Future research should integrate these aspects to provide a more holistic economic evaluation of teleconsultation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>This study confirmed that teleconsultation can significantly reduce societal costs compared to in-person care in medically underserved areas. Cost-saving effects were consistently observed across all patient groups, including those undergoing treatment for chronic diseases, dementia, and rehabilitation. These results underscore telemedicine's potential to improve healthcare accessibility and reduce the financial burden on patients and their caregivers. Moreover, they offer crucial policy guidance, particularly for countries like South Korea, where telemedicine is still in the pilot phase and has not yet been fully integrated into the mainstream healthcare system.</p><p>To elevate telemedicine as a cornerstone of a sustainable healthcare system rather than limiting it to a cost-saving measure, the following initiatives are critical. First, teleconsultation fees must be calibrated to be lower than or at least equal to those for in-person care, thereby lowering financial barriers to widespread adoption. Second, the ongoing evaluation of telemedicine's clinical effectiveness should be prioritized, accompanied by initiatives to improve its acceptance among healthcare professionals and patients through targeted educational and promotional efforts <ref type="bibr" target="#b9">[10]</ref>. Future studies should not only investigate the long-term health impacts of telemedicine-such as its influence on chronic disease progression and hospitalization rates-but also evaluate its applicability across diverse social, economic, and geographic contexts. Such research will establish a comprehensive policy framework capable of addressing healthcare disparities in underserved regions, not only in Korea but also on a global scale.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Comparison of Direct and Indirect Costs in Teleconsultation vs. In-Person Care.</figDesc><graphic coords="8,82.78,150.83,431.38,259.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Distribution of Costs by Stakeholders Across Teleconsultation and In-Person Care.</figDesc><graphic coords="8,82.78,448.62,429.53,259.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 . 19 Figure 1 .</head><label>1191</label><figDesc>Figure 1. Comparison of Direct and Indirect Costs in Teleconsultation vs. In-Person Care.</figDesc><graphic coords="8,81.54,448.26,429.53,259.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Distribution of Costs by Stakeholders Across Teleconsultation and In-Person Care.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Distribution of Costs by Stakeholders Across Teleconsultation and In-Person Care.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Tornado diagram for sensitivity analysis, chronic diseases.</figDesc><graphic coords="10,93.52,415.50,408.24,259.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Tornado diagram for sensitivity analysis, chronic diseases.</figDesc><graphic coords="10,93.52,704.29,406.73,259.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Tornado diagram for sensitivity analysis, chronic diseases.</figDesc><graphic coords="11,94.11,-152.88,408.24,259.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Tornado diagram for sensitivity analysis, dementia.</figDesc><graphic coords="11,94.11,135.91,406.73,259.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 4 . 19 Figure 5 .</head><label>4195</label><figDesc>Figure 4. Tornado diagram for sensitivity analysis, dementia. 25, 13, x FOR PEER REVIEW 11 of 19</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Tornado diagram for sensitivity analysis, rehabilitation.</figDesc><graphic coords="11,94.30,432.79,406.48,259.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Description of costs per visit for teleconsultation and in-person care.</figDesc><table><row><cell>Service</cell><cell>Category</cell><cell>Variable</cell><cell>Parameter</cell><cell>Description</cell><cell>Chronic Diseases</cell><cell>Dementia</cell><cell>Rehabilitation</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Value (USD)</cell><cell>Value (USD)</cell><cell>Value (USD)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Public health expenditures</cell><cell>Public spending on teleconsultation fees per visit (1)</cell><cell>40.28</cell><cell>42.01</cell><cell>49.29</cell></row><row><cell></cell><cell></cell><cell>Total Health</cell><cell></cell><cell>Out-of-pocket expenses including</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Expenditure</cell><cell>Out-of-pocket expenses</cell><cell>medication costs per visit (2) (Patient coinsurance is coverd by public</cell><cell>21.45</cell><cell>28.36</cell><cell>0.00</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>spending for the pilot program)</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Direct Cost</cell><cell></cell><cell></cell><cell>Equipment installation and</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Tele-equipment setup and maintenance</cell><cell>Tele-equipment setup and maintenance</cell><cell>maintenance costs (depreciated over a 5-year useful life for teleconsultation per visit (3)</cell><cell>13.69</cell><cell>13.69</cell><cell>13.69</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>with a residual value of zero)</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Transportation cost</cell><cell>Transportation cost</cell><cell>Round-trip transportation costs to visit public health centers or clinics (2)</cell><cell>5.15</cell><cell>5.07</cell><cell>1.75</cell></row><row><cell>Teleconsultation Service</cell><cell></cell><cell></cell><cell>Patient hours</cell><cell>Total time required for a patient to receive teleconsultation (4) (including treatment if necessary and</cell><cell>41 min</cell><cell>41 min</cell><cell>41 min</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>travel time)</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Indirect Cost</cell><cell>Productivity losses</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Cont.    </figDesc><table><row><cell>.85</cell><cell>16.85</cell><cell>16.85</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Calculated based on 2018 Patient Experience Assessment Report (KIHASA) and 2018 National Territorial Monitoring Report (KRIHS);</figDesc><table /><note><p><p>(5) </p>Source: 2018 Survey on Working Conditions by Employment Type (MOEL); Note 1. All the costs were expressed in USD Exchange rate: 1 PPP dollar = KRW 854.87.; Note 2. MOHW: Ministry of Health and Welfare, SSIS: Korea Social Security Information Service; HIRA: Health Insurance Review &amp; Assessment Service; KIHASA: Korea Institute for Health and Social Affairs; KRIHS: Korea Research Institute for Human Settlements; MOEL: Ministry of Employment and Labor; PPP: Purchasing power parity.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2 .</head><label>2</label><figDesc>Estimated direct and indirect costs per visit for teleconsultation and in-person care. All the costs were expressed in USD Exchange rate: 1 PPP dollar = KRW 854.87. As shown in Table1, public health expenditures and out-of-pocket expenses are the components of total healthcare cost.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>Chronic Diseases</cell><cell></cell><cell></cell><cell>Dementia</cell><cell></cell><cell></cell><cell>Rehabilitation</cell><cell></cell></row><row><cell></cell><cell cols="2">Teleconsultation</cell><cell>In-Person</cell><cell>Incremental</cell><cell>Teleconsultation</cell><cell>In-Person</cell><cell>Incremental</cell><cell>Teleconsultation</cell><cell>In-Person Care</cell><cell>Incremental</cell></row><row><cell></cell><cell>(A)</cell><cell></cell><cell>Care (B)</cell><cell>Cost (A-B)</cell><cell>(A)</cell><cell>Care (B)</cell><cell>Cost (A-B)</cell><cell>(A)</cell><cell>(B)</cell><cell>Cost (A-B)</cell></row><row><cell></cell><cell>Total Healthcare Cost</cell><cell>61.73</cell><cell>51.04</cell><cell>10.69</cell><cell>70.37</cell><cell>70.15</cell><cell>0.22</cell><cell>49.29</cell><cell>39.29</cell><cell>10.01</cell></row><row><cell></cell><cell>Transportation Cost</cell><cell>5.15</cell><cell>15.24</cell><cell>-10.10</cell><cell>5.07</cell><cell>28.98</cell><cell>-23.91</cell><cell>1.75</cell><cell>16.05</cell><cell>-14.29</cell></row><row><cell>Direct Cost</cell><cell>Tele-Equipment</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Installation and</cell><cell>13.69</cell><cell>-</cell><cell>13.69</cell><cell>13.69</cell><cell>-</cell><cell>13.69</cell><cell>13.69</cell><cell>-</cell><cell>13.69</cell></row><row><cell></cell><cell>Maintenance Cost</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Indirect Cost</cell><cell>Productivity Losses</cell><cell>23.32</cell><cell>45.51</cell><cell>-22.20</cell><cell>12.64</cell><cell>29.94</cell><cell>-17.30</cell><cell>29.35</cell><cell>48.36</cell><cell>-19.01</cell></row><row><cell></cell><cell>Total Cost</cell><cell>103.88</cell><cell>111.80</cell><cell>-7.92</cell><cell>101.76</cell><cell>129.06</cell><cell>-27.30</cell><cell>94.09</cell><cell>103.70</cell><cell>-9.61</cell></row><row><cell></cell><cell>Note.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3 .</head><label>3</label><figDesc>Estimated costs per visit by stakeholder group: teleconsultation vs. in-person care.</figDesc><table><row><cell></cell><cell></cell><cell>Chronic Diseases</cell><cell></cell><cell></cell><cell>Dementia</cell><cell></cell><cell></cell><cell>Rehabilitation</cell><cell></cell></row><row><cell cols="2">Teleconsultation</cell><cell>In-Person Care</cell><cell>Incremental Cost</cell><cell>Teleconsultation</cell><cell>In-Person Care</cell><cell>Incremental Cost</cell><cell>Teleconsultation</cell><cell>In-Person Care</cell><cell>Incremental Cost</cell></row><row><cell>(A)</cell><cell></cell><cell>(B)</cell><cell>(A-B)</cell><cell>(A)</cell><cell>(B)</cell><cell>(A-B)</cell><cell>(A)</cell><cell>(B)</cell><cell>(A-B)</cell></row><row><cell>Patient-Borne Costs</cell><cell>35.68</cell><cell>67.23</cell><cell>-31.54</cell><cell>30.89</cell><cell>70.44</cell><cell>-39.55</cell><cell>0.88</cell><cell>33.12</cell><cell>-32.24</cell></row><row><cell>Caregiver Burden</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(Economic and</cell><cell>14.23</cell><cell>30.38</cell><cell>-16.15</cell><cell>15.18</cell><cell>44.43</cell><cell>-29.25</cell><cell>30.23</cell><cell>56.39</cell><cell>-26.16</cell></row><row><cell>Time Costs)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Government and</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Public</cell><cell>53.96</cell><cell>14.20</cell><cell>39.77</cell><cell>55.70</cell><cell>14.20</cell><cell>41.50</cell><cell>62.98</cell><cell>14.20</cell><cell>48.78</cell></row><row><cell>Expenditures</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Total Cost</cell><cell>103.88</cell><cell>111.80</cell><cell>-7.92</cell><cell>101.76</cell><cell>129.06</cell><cell>-27.30</cell><cell>94.09</cell><cell>103.70</cell><cell>-9.61</cell></row></table><note><p>Note. All the costs were expressed in USD Exchange rate: 1 PPP dollar = KRW 854.87.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 4 .</head><label>4</label><figDesc>Scenario analysis of incremental costs for chronic diseases.</figDesc><table><row><cell>Change in Transportation Cost</cell><cell>Teleconsultation (A)</cell><cell>In-Person Care (B)</cell><cell>Incremental Cost (A-B)</cell><cell>Result</cell></row><row><cell>A: -20% B: +20%</cell><cell>99.21</cell><cell>120.90</cell><cell>-21.69</cell><cell>Negative (-)</cell></row><row><cell>A: -20% B: Unchanged</cell><cell>99.21</cell><cell>111.80</cell><cell>-12.59</cell><cell>Negative (-)</cell></row><row><cell>A: -20% B: -20%</cell><cell>99.21</cell><cell>102.70</cell><cell>-3.48</cell><cell>Negative (-)</cell></row><row><cell>A: Unchanged B: +20%</cell><cell>103.88</cell><cell>120.90</cell><cell>-17.03</cell><cell>Negative (-)</cell></row><row><cell>Baseline</cell><cell>103.88</cell><cell>111.80</cell><cell>-7.92</cell><cell>Negative (-)</cell></row><row><cell>A: Unchanged B: -20%</cell><cell>103.88</cell><cell>102.70</cell><cell>1.18</cell><cell>Positive (+)</cell></row><row><cell>A: +20% B: +20%</cell><cell>108.54</cell><cell>120.90</cell><cell>-12.36</cell><cell>Negative (-)</cell></row><row><cell>A: +20% B: Unchanged</cell><cell>108.54</cell><cell>111.80</cell><cell>-3.26</cell><cell>Negative (-)</cell></row><row><cell>A: +20% B: -20%</cell><cell>108.54</cell><cell>102.70</cell><cell>5.84</cell><cell>Positive (+)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 5 .</head><label>5</label><figDesc>Scenario analysis of incremental costs for dementia.</figDesc><table><row><cell>Change in Productivity Loss</cell><cell>Teleconsultation (A)</cell><cell>In-Person Care (B)</cell><cell>Incremental Cost (A-B)</cell><cell>Result</cell></row><row><cell>A: -20% B: +20%</cell><cell>100.75</cell><cell>134.86</cell><cell>-34.11</cell><cell>Negative (-)</cell></row><row><cell>A: -20% B: Unchanged</cell><cell>100.75</cell><cell>129.06</cell><cell>-28.31</cell><cell>Negative (-)</cell></row><row><cell>A: -20% B: -20%</cell><cell>100.75</cell><cell>123.27</cell><cell>-22.52</cell><cell>Negative (-)</cell></row><row><cell>A: Unchanged B: +20%</cell><cell>101.76</cell><cell>134.86</cell><cell>-33.09</cell><cell>Negative (-)</cell></row><row><cell>Baseline</cell><cell>101.76</cell><cell>129.06</cell><cell>-27.30</cell><cell>Negative (-)</cell></row><row><cell>A: Unchanged B: -20%</cell><cell>101.76</cell><cell>123.27</cell><cell>-21.50</cell><cell>Negative (-)</cell></row><row><cell>A: +20% B: +20%</cell><cell>102.78</cell><cell>134.86</cell><cell>-32.08</cell><cell>Negative (-)</cell></row><row><cell>A: +20% B: Unchanged</cell><cell>102.78</cell><cell>129.06</cell><cell>-26.28</cell><cell>Negative (-)</cell></row><row><cell>A: +20% B: -20%</cell><cell>102.78</cell><cell>123.27</cell><cell>-20.49</cell><cell>Negative (-)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 6 .</head><label>6</label><figDesc>Scenario analysis of incremental costs for rehabilitation.</figDesc><table><row><cell>Change in Productivity Losses</cell><cell>Teleconsultation (A)</cell><cell>In-Person Care (B)</cell><cell>Incremental Cost (A-B)</cell><cell>Result</cell></row><row><cell>A: -20% B: +20%</cell><cell>88.22</cell><cell>113.37</cell><cell>-25.16</cell><cell>Negative (-)</cell></row><row><cell>A: -20% B: Unchanged</cell><cell>88.22</cell><cell>103.70</cell><cell>-15.48</cell><cell>Negative (-)</cell></row><row><cell>A: -20% B: -20%</cell><cell>88.22</cell><cell>94.03</cell><cell>-5.81</cell><cell>Negative (-)</cell></row><row><cell>A: Unchanged B: +20%</cell><cell>94.09</cell><cell>113.37</cell><cell>-19.29</cell><cell>Negative (-)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>Table 6 .</head><label>6</label><figDesc>Cont.    </figDesc><table><row><cell>Change in Productivity Losses</cell><cell>Teleconsultation (A)</cell><cell>In-Person Care (B)</cell><cell>Incremental Cost (A-B)</cell><cell>Result</cell></row><row><cell>Baseline</cell><cell>94.09</cell><cell>103.70</cell><cell>-9.61</cell><cell>Negative (-)</cell></row><row><cell>A: Unchanged B: -20%</cell><cell>94.09</cell><cell>94.03</cell><cell>0.06</cell><cell>Positive (+)</cell></row><row><cell>A: +20% B: +20%</cell><cell>99.96</cell><cell>113.37</cell><cell>-13.41</cell><cell>Negative (-)</cell></row><row><cell>A: +20% B: Unchanged</cell><cell>99.96</cell><cell>103.70</cell><cell>-3.74</cell><cell>Negative (-)</cell></row><row><cell>A: +20% B: -20%</cell><cell>99.96</cell><cell>94.03</cell><cell>5.93</cell><cell>Positive (+)</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Funding: This research received no external funding.</p></div>
+<div><head>Institutional Review Board Statement:</head><p>This study received ethical approval from the <rs type="affiliation">Institutional Review Board of Yonsei University, South Korea</rs> (<rs type="grantNumber">1041849-201909-SB-123-02</rs>) on 27 September 2019.</p></div>
+<div><head>Informed Consent Statement:</head><p>This is an IRB-approved retrospective study, all patient information was de-identified and patient consent was not required. Patient data will not be shared with third parties.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_5Mbg3UQ">
+					<idno type="grant-number">1041849-201909-SB-123-02</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: An aggregate summary of the data generated during this study is provided within this published article. The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflicts of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="16,39.08,395.98,520.19,8.63;16,57.23,408.63,503.16,8.74;16,56.78,421.40,76.41,8.74" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Chronic disease patients&apos; experiences with accessing health care in rural and remote areas: A systematic review and qualitative meta-synthesis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brundisini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Giacomini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dejean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vanstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Winsor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ont. Health Technol. Assess. Ser</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1" to="33" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,39.08,434.17,520.20,8.74;16,56.88,446.94,187.13,8.74" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Exposing some important barriers to health care access in the rural USA</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Douthit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kiv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dwolatzky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Biswas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.puhe.2015.04.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Public Health</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="611" to="620" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,39.08,459.70,460.65,8.74" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Inadequate infrastructure and resources of rural healthcare</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pelletier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fam. Med. Med. Sci. Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">149</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,39.08,472.47,520.20,8.74;16,56.95,485.24,151.56,8.74" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Thirty years of national health insurance in South Korea: Lessons for achieving universal health care coverage</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kwon</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/heapol/czn037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Policy Plan</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,39.08,498.00,520.20,8.74" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Korea&apos;s National Health Insurance-Lessons from the Past Three Decades</title>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Jeong</surname></persName>
+		</author>
+		<idno type="DOI">10.1377/hlthaff.2008.0816</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Aff</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="136" to="144" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,39.08,510.77,430.23,8.74" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Aging in Rural Communities</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Greaney</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40471-022-00313-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Epidemiol. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,39.08,523.65,520.20,8.63;16,57.23,536.30,212.61,8.74" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The role of telemedicine in healthcare: An overview and update</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stoltzfus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chawla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">N U</forename><surname>Anamika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jain</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s43162-023-00234-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Egypt. J. Intern. Med</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,39.08,549.19,521.77,8.63;16,57.23,561.84,502.04,8.74;16,57.23,574.61,95.81,8.74" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Redesigning telemedicine: Preliminary findings from an innovative assisted telemedicine healthcare model</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Jose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaushik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Der Weijden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sheikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kushwaha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kondal</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12875-024-02631-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Primary Care</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,39.08,587.37,521.32,8.74;16,57.23,600.26,503.04,8.63;16,57.23,613.02,282.87,8.63" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Telemedicine: Decreasing Barriers and Increasing Access to Healthcare; Healthcare Value Hub: Novi</title>
+		<author>
+			<persName><forename type="first">Healthcare</forename><surname>Value</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hub</forename></persName>
+		</author>
+		<ptr target="https://www.healthcarevaluehub.org/advocate-resources/publications/telemedicine-decreasing-barriers-and-increasing-access-healthcare" />
+		<imprint>
+			<date type="published" when="2017-01-01">2017. 1 January 2025</date>
+			<pubPlace>MI, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.19,625.79,517.58,8.63;16,57.23,638.44,376.87,8.74" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Telemedicine in the OECD: An umbrella review of clinical and costeffectiveness, patient experience and implementation</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Eze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mateus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cravo Oliveira Hashiguchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0237585</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="2020">2020. 0237585</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.19,651.32,516.08,8.63;16,57.23,663.98,227.36,8.74" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The Role of Telemedicine in Improving Healthcare Outcome: A Review</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chukwuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">O</forename><surname>Egbunu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Opashola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Afuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Adebambo</surname></persName>
+		</author>
+		<idno type="DOI">10.9734/air/2023/v24i5958</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="55" to="59" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.19,676.86,516.08,8.63;16,57.23,689.51,350.58,8.74" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cost-benefit analysis of telehealth in pre-hospital care</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Langabeer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Champagne-Langabeer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alqusairi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Persse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1357633X16680541</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Telemed. Telecare</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="747" to="751" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,43.19,702.39,516.09,8.63;16,57.23,715.04,503.16,8.74;16,56.95,727.81,201.03,8.74" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Measuring the effectiveness of hybrid diabetes care over 90 days through continuous data monitoring in type 2 diabetic patients</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zakaria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Said</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aleabova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jestoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dandan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Debs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dahlstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Divino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hashemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ihsan</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fendo.2024.1355792</idno>
+		<imprint/>
+	</monogr>
+	<note>Front. Endocrinol. 2024, 15, 1355792. [CrossRef</note>
+</biblStruct>
+
+<biblStruct coords="16,43.19,740.69,517.21,8.63;16,57.23,753.46,502.39,8.63;16,57.23,766.11,292.99,8.74" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The Impact of Telemedicine and Remote Patient Monitoring on Healthcare Delivery: A Comprehensive Evaluation</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K P</forename><surname>Vudathaneni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Lanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Mudaliyar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Movva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Kalluri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Boyapati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vudathaneni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krishna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Lanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Mudaliyar</surname></persName>
+		</author>
+		<idno type="DOI">10.7759/cureus.55534</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cureus</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>e55534. [CrossRef</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,75.62,516.09,8.74;17,57.23,88.50,225.85,8.63" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Comparison of Health Status and the Effectiveness of Health Cost Between Rural and Urban Residents; Korea Rural Economic Institute: Seoul, Republic of Korea</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename><surname>Kim</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,101.15,516.09,8.74;17,56.78,114.03,161.72,8.63" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Medical Support Pilot Project Guide for Medically Underserved Areas in 2018; Ministry of Health and Welfare: Sejong, Republic of Korea</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Ministry of Health and Welfare</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,126.68,516.09,8.74;17,57.23,139.57,410.96,8.63" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Clinical Validity Confirmed</title>
+		<ptr target="https://www.monews.co.kr/news/articleView.html?idxno=88844" />
+	</analytic>
+	<monogr>
+		<title level="j">Medical Observer: Makati, Philippines</title>
+		<imprint>
+			<date type="published" when="2016-01-01">2016. 1 January 2025</date>
+		</imprint>
+		<respStmt>
+			<orgName>Medical Observer. Telemedicine Pilot Project</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,152.33,516.09,8.63;17,57.23,165.10,503.16,8.63;17,56.88,177.75,311.87,8.74" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effectiveness of Telemedicine for Reducing Cardiovascular Risk: A Systematic Review and Meta-Analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jaén-Extremera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Afanador-Restrepo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rivas-Campo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gómez-Rodas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aibar-Almazán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hita-Contreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Del Carcelén-Fraile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Castellote-Caballero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ortiz-Quesada</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/jcm12030841</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Med</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,190.63,516.44,8.63;17,57.23,203.29,481.89,8.74" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The Effect of Telemedicine Interventions on Patients with Diabetic Foot Ulcers: A Systematic Review and Meta-Analysis of Randomized Controlled Trials</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-P</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-J</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yao</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2024.0030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Wound Care</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>ahead of print</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,216.17,516.09,8.63;17,57.23,228.82,333.80,8.74" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effectiveness of Telemedicine on Common Mental Disorders: An Umbrella Review and Meta-Meta-Analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chb.2024.108325</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Hum. Behav</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<date type="published" when="2024">2024. 108325</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,241.70,516.09,8.63;17,57.23,254.35,503.61,8.74" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Effectiveness and cost-effectiveness of telehealth in rural and remote emergency departments: A systematic review protocol</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tsou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jamieson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Blakeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bosich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yeung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Waters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hendrie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Rev</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,279.89,517.21,8.74;17,57.23,292.77,177.04,8.63" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Canadian Agency for Drugs and Technologies in Health. Guidelines for the Economic Evaluation of Health Technologies: Canada, 4</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>CADTH: Ottawa, ON, Canada</publisher>
+		</imprint>
+	</monogr>
+	<note>th ed.</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,305.54,516.09,8.63;17,57.23,318.19,322.33,8.74" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Telemedicine application in patients with chronic disease: A systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12911-022-01845-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med. Inform. Decis. Mak</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">105</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,331.07,516.09,8.63;17,57.23,343.72,502.05,8.74;17,56.88,356.49,140.39,8.74" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effect of internet-based vs. in-person multimodal interventions on patients with mild to moderate Alzheimer&apos;s disease: A randomized, cross-over, open-label trial</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpubh.2023.1203201</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Public Health</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2023">2023. 1203201</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,369.37,517.21,8.63;17,57.23,382.14,503.17,8.63;17,57.23,394.79,384.38,8.74" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) statement: Updated reporting guidance for health economic evaluations</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Husereau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Drummond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Augustovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>De Bekker-Grob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Briggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caulley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chaiyakunapruk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Loder</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmj-2021-067975</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page">376</biblScope>
+		</imprint>
+	</monogr>
+	<note>e067975. [CrossRef</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,407.56,516.08,8.74;17,56.95,420.33,299.23,8.74" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Telemedicine Pilot Project for Medically Underserved Areas in 2018: Model Development and Project Evaluation; Ministry of Health and Welfare: Sejong, Republic of Korea</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Ministry of Health and Welfare</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,433.09,516.09,8.74;17,56.91,445.86,140.02,8.74" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Projecting Future Older Adults of South Korea&apos;s Urban and Rural Areas</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kang</surname></persName>
+		</author>
+		<idno type="DOI">10.25202/jakg.13.4.12</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Assoc. Korean Geogr</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="509" to="524" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,458.74,516.08,8.63;17,56.88,471.39,419.62,8.74" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Rural-urban differences in diagnostic incidence and prevalence of Alzheimer&apos;s disease and related dementias</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jutkowitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/alz.12285</idno>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1213" to="1230" />
+		</imprint>
+	</monogr>
+	<note>Alzheimer&apos;s Dement</note>
+</biblStruct>
+
+<biblStruct coords="17,43.19,484.16,516.09,8.74;17,57.23,496.93,439.64,8.74" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">A Study on the Activation Plan Based on the Analysis of the Current Status of the Pilot Project for Medical Support in Medically Underserved Areas; Ministry of Health and Welfare: Sejong, Republic of Korea</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,509.69,516.09,8.74;17,57.23,522.58,202.34,8.63" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Republic of Korea</title>
+		<author>
+			<orgName type="collaboration">Act No. 20593</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical Service Act Article</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<date type="published" when="2024-12-20">20 December 2024. 2024</date>
+		</imprint>
+		<respStmt>
+			<orgName>Korea Legislation Research Institute: Sejong, Republic of Korea</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,535.23,389.45,8.74" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Legal issues for expanding the introduction of telemedicine</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Law J</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="97" to="122" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,548.11,516.44,8.63;17,57.23,560.76,503.16,8.74;17,57.23,573.65,120.13,8.63" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Application of Discrete-Event Simulation in Health Technology Assessment: A Cost-Effectiveness Analysis of Alzheimer&apos;s Disease Treatment Using Real-World Evidence in Thailand</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kongpakwattana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chaiyakunapruk</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jval.2020.01.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Value Health</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="710" to="718" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,586.30,517.21,8.74;17,57.23,599.06,119.42,8.74" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A review of methods to measure health-related productivity loss</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mattke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bergamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Newberry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Manag. Care</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="211" to="217" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,611.95,516.09,8.63;17,57.23,624.60,431.60,8.74" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The need for a broad perspective when assessing value-for-money for out-of-hours primary care</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Phiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Morreel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Graeve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Philips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Philippe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Verhoeven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Willem</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S1463423624000318</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prim. Health Care Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,637.48,516.09,8.63;17,57.23,650.13,414.68,8.74" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Roles and experiences of informal caregivers of older adults in community and healthcare system navigation: A scoping review</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>O'dea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kadowaki</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjopen-2023-077641</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">77641</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,663.02,517.21,8.63;17,56.88,675.78,502.58,8.63;17,56.95,688.43,502.32,8.74;17,56.88,701.20,126.95,8.74" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A Cost-Minimization Analysis of a Medical Record-based, Store and Forward and Provider-to-provider Telemedicine Compared to Usual Care in Catalonia: More Agile and Efficient, Especially for Users</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>López Seguí</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Franch Parella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gironès García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mendioroz Peña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>García Cuyàs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Adroher Mas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>García-Altés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vidal-Alaball</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijerph17062008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Environ. Res. Public Health</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<date type="published" when="2008">2020. 2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,713.97,517.21,8.74;17,56.95,726.73,152.79,8.74" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">How Sensitive is Sensitivity Analysis?: Evaluation of Pharmacoeconomic Submissions in Korea</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E.-Y</forename><surname>Bae</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphar.2022.884769</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,43.19,739.62,517.58,8.63;17,57.23,752.38,502.05,8.63;17,56.96,765.04,222.44,8.74" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Costeffectiveness of a telemonitoring program (telEPOC program) in frequently admitted chronic obstructive pulmonary disease patients</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Esteban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Antón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moraza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iriberri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Larrauri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aramburu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Quintana</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Telepoc Group</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1357633X211037207</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Telemed. Telecare</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="156" to="164" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,75.73,516.09,8.63;18,57.23,88.38,503.17,8.74;18,57.23,101.15,149.61,8.74" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Addressing cost and time barriers in chronic disease management through telemedicine: An exploratory research in select low-and middle-income countries</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sayani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muzammil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Saleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muqeet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zaidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shaikh</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/2040622319891587</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ther. Adv. Chronic Dis</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2019">2019. 204062231989158</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,114.03,516.08,8.63;18,57.23,126.68,332.34,8.74" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Evaluating the Cost Effectiveness of Tele-Rehabilitation: A Systematic Review of Randomized Clinical Trials</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Mousavi Baigi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Mousavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kimiafar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sarbaz</surname></persName>
+		</author>
+		<idno type="DOI">10.30699/fhi.v11i1.368</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Health Inform</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,139.57,516.09,8.63;18,57.23,152.33,502.05,8.63;18,57.23,164.98,280.90,8.74" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A cost-consequence analysis comparing patient travel, outreach, and telehealth clinic models for a specialist diabetes service to Indigenous people in Queensland</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Snoswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Caffery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Haydon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Wickramasinghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Crumblin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1357633X19873239</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Telemed. Telecare</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="537" to="544" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,177.87,516.09,8.63;18,57.23,190.52,233.04,8.74" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Cost Effectiveness, and Patients Satisfaction: A Systematic Review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Atmojo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sudaryanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Widiyanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Arradini</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Telemedicine</surname></persName>
+		</author>
+		<idno type="DOI">10.26911/thejhpm.2020.05.02.02</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Health Policy Manag</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="103" to="107" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,203.40,516.09,8.63;18,57.23,216.05,326.00,8.74" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Long-run measurement of income-related inequalities in health care under universal coverage: Evidence from longitudinal analysis in Korea</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Watanabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13561-024-00557-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Econ. Rev</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,228.94,516.08,8.63;18,57.23,241.59,301.45,8.74" xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Unmet healthcare needs and the local extinction index: An analysis of regional disparities impacting South Korea&apos;s older adults. Front. Public Health</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kwon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Choi</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpubh.2024.1423108</idno>
+		<imprint>
+			<date type="published" when="2024">2024. 1423108</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,254.47,516.08,8.63;18,57.23,267.12,253.52,8.74" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Variations in Healthcare Spending, Care Access, and Health Status by Care Need: Evidence from South Korea</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chung</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11606-023-08083-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gen. Intern. Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="2623" to="2625" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,279.89,517.20,8.74;18,56.98,292.65,154.77,8.74" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Determining the reasons for unmet healthcare needs in South Korea: A secondary data analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I.-H</forename><surname>Ha</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12955-021-01737-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Qual. Life Outcomes</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,305.54,516.08,8.63;18,57.23,318.19,221.35,8.74" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The role and challenges of social workers in the discharge patient linkage program in public hospitals</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.47042/ACSW.2023.11.81.145</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Crit. Soc. Welf</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="145" to="195" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,331.07,516.09,8.63;18,56.96,343.72,245.67,8.74" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Korean primary health care program for people with disabilities: Do they really want home-based primary care?</title>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-N</forename><surname>Jang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12913-023-10102-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Serv. Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<date type="published" when="1086">2023. 1086</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,356.61,516.08,8.63;18,57.23,369.26,254.41,8.74" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Medical service utilization and out-of-pocket spending among near-poor National Health Insurance members in South Korea</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12913-021-06881-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Serv. Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,382.14,516.09,8.63;18,57.23,394.79,354.46,8.74" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A cost minimisation analysis in teledermatology: Model-based approach</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Eminović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dijkgraaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Berghout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Prins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Bindels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>De Keizer</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1472-6963-10-251</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Serv. Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,407.67,516.09,8.63;18,57.23,420.33,357.50,8.74" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Two Decades of Teledermatology: Current Status and Integration in National Healthcare Systems</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Van Der Heijden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W M</forename><surname>Jaspers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Witkamp</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13671-016-0136-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Dermatol. Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="96" to="104" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,433.21,517.20,8.63;18,57.23,445.98,502.05,8.63;18,57.23,458.63,369.89,8.74" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Cost-minimization analysis of teledermatology versus conventional care in the Brazilian National Health System</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Assis Acurcio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Guerra Junior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Marino Calvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Nunes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Akerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Spinel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Da Costa Borysow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Silva</surname></persName>
+		</author>
+		<idno type="DOI">10.2217/cer-2021-0124</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comp. Eff. Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1159" to="1168" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,471.39,517.66,8.74;18,57.23,484.28,41.48,8.63" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Healthcare Economics: Financial Impact and Limitations of Telemedicine</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<idno type="DOI">10.33552/CTCMS.2021.02.000544</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Trends Clin. Med. Sci</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,497.04,516.09,8.63;18,57.23,509.69,364.30,8.74" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Telehealth services in rural and remote Australia: A systematic review of models of care and factors influencing success and sustainability</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bradford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caffery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.22605/RRH3808</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rural. Remote Health</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,522.46,517.21,8.74;18,57.23,535.23,146.92,8.74" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Current Status and Future Challenges of Legislative Discussions on Telemedicine</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.22789/ihlr.2022.06.25.2.2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inha Law Rev. Inst. Leg. Stud. Inha Univ</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="35" to="65" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,548.11,516.09,8.63;18,57.23,560.76,502.04,8.74" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Improvements of Insurance Legal Framework for the Invigoration of Telemedicine-Focusing on Comparison between the Korean National Health Insurance and U.S</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.17248/knulaw..56.201611.221</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Medical Social Security. Kyungpook Natl. Univ. Law J</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="221" to="250" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,573.65,516.08,8.63;18,57.23,586.30,406.18,8.74" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Global evidence on the rapid adoption of telemedicine in primary care during the first 2 years of the COVID-19 pandemic: A scoping review protocol</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Valdes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Alqazlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Procter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dale</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13643-022-01934-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Rev</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,599.06,517.66,8.74" xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Telemedicine and medical ethics in the COVID-19 pandemic</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Eom</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<publisher>Korean Public Land Law Assoc</publisher>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="189" to="204" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,624.60,517.21,8.74;18,57.23,637.48,377.84,8.63" xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Measures to Protect Vulnerable Populations in Telemedicine; K-Health</title>
+		<author>
+			<persName><forename type="first">K-Health</forename></persName>
+		</author>
+		<ptr target="https://www.k-health.com/news/articleView.html?idxno=65535" />
+		<imprint>
+			<date type="published" when="2023-01-01">2023. 1 January 2025</date>
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,650.25,516.09,8.63;18,56.94,662.90,273.63,8.74" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Health insurance payment for telehealth services: A scoping review and narrative synthesis (Preprint)</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/56699</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,675.78,517.21,8.63;18,57.23,688.55,502.04,8.63;18,57.23,701.20,350.66,8.74" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Changes in Telepsychiatry Regulations during the COVID-19 Pandemic: 17 Countries and Regions&apos; Approaches to an Evolving Healthcare Landscape</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kinoshita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cortright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crawford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mizuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hilty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Guinart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Torous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">U</forename><surname>Correll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Castle</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0033291720004584</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol. Med</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2606" to="2613" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,714.08,516.08,8.63;18,57.23,726.73,302.05,8.74" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Reimbursements for telehealth services are likely to be lower than non-telehealth services in the United States</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rampa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Trout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Stimpson</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1357633X16652288</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Telemed. Telecare</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="497" to="500" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,43.19,739.62,517.21,8.63;18,56.88,752.27,376.61,8.74" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Telehealth adoption during the COVID-19 pandemic: A social media textual and network analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Bouchacourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Sussman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Bright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilcox</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/20552076221090041</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Digit. Health</title>
+		<imprint>
+			<date type="published" when="2022">2022, 8, 205520762210900</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,43.19,75.73,516.08,8.63;19,57.23,88.38,430.35,8.74" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Assessing cost and cost savings of teleconsultation in long-term care facilities: A time-driven activity-based costing analysis within a value-based healthcare framework</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nabelsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Plouffe</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12913-024-11578-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Serv. Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<date type="published" when="1064">2024. 1064</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,43.19,101.27,516.09,8.63;19,57.23,113.92,408.30,8.74" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Effectiveness and safety of asynchronous telemedicine consultations in general practice: A systematic review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leighton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Joseph-Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.3399/BJGPO.2023.0177</idno>
+		<idno>BJGPO.2023.0177</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BJGP Open</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,43.19,126.80,517.21,8.63;19,56.78,139.45,502.49,8.74;19,57.23,152.22,113.56,8.74" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Estimated Indirect Cost Savings of Using Telehealth Among Nonelderly Patients with Cancer</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alishahi Tabriz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Oswald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-R</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S L</forename><surname>Jim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamanetworkopen.2022.50211</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Netw</title>
+		<imprint/>
+	</monogr>
+	<note>Open 2023, 6, e2250211. [CrossRef</note>
+</biblStruct>
+
+<biblStruct coords="19,43.19,165.10,516.09,8.63;19,57.23,177.87,502.05,8.63;19,56.88,190.52,226.78,8.74" xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Pediatric Tele-Home Care Compared to Usual Care: Cost-Minimization Analysis. JMIR Pediatr</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Adroher Mas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Esposito Català</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Batlle Boada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Casadevall Llandrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Millet Elizalde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>García García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Del Castillo Rey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cuyàs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pons Serra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>López Seguí</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/31628</idno>
+		<imprint/>
+	</monogr>
+	<note>Parent. 2021, 5, e31628. [CrossRef</note>
+</biblStruct>
+
+<biblStruct coords="19,43.19,203.29,517.21,8.74;19,56.95,216.05,89.82,8.74" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Factor decomposition of regional disparities in healthcare expenditures and utilization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Health Econ. Policy</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="79" to="102" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,35.72,244.86,523.56,8.63;19,35.72,257.62,523.56,8.63;19,35.45,270.39,414.48,8.63" xml:id="b68">
+	<monogr>
+		<title level="m" type="main">The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods</title>
+		<imprint>
+			<publisher>Disclaimer/Publisher&apos;s Note</publisher>
+		</imprint>
+	</monogr>
+	<note>instructions or products referred to in the content</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

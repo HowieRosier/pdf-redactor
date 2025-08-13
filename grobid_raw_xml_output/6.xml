@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cost-of-illness of chronic leg ulcers in Germany</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Sandra</forename><surname>Purwins</surname></persName>
+							<email>s.purwins@uke.uni-hamburg.de</email>
+						</author>
+						<author>
+							<persName><roleName>Eike</roleName><forename type="first">Katharina</forename><surname>Herberger</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sebastian</forename><surname>Debus</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stephan</forename><forename type="middle">J</forename><surname>Rustenbach</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Pelzer</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Elmar Sch äfer</roleName><forename type="first">Eberhard</forename><surname>Rabe</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof</roleName><forename type="first">Rudolf</forename><surname>Stadler</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Matthias</forename><surname>Augustin</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">German Center for Health Services Research in Dermatology (CVderm)</orgName>
+								<orgName type="department" key="dep2">Department of Dermatology</orgName>
+								<orgName type="laboratory">Health Economics and QoL Research Group</orgName>
+								<orgName type="institution">University Clinics of Hamburg</orgName>
+								<address>
+									<settlement>Purwins, Hamburg, Herberger</settlement>
+									<region>MD</region>
+									<country>Germany; K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">German Center for Health Services Research in Dermatology (CVderm)</orgName>
+								<orgName type="department" key="dep2">Department of Dermatology</orgName>
+								<orgName type="department" key="dep3">Department of Vascular Medicine</orgName>
+								<orgName type="laboratory">Health Economics and QoL Research Group</orgName>
+								<orgName type="institution">University Clinics of Hamburg</orgName>
+								<address>
+									<settlement>Hamburg, Debus, Prof</settlement>
+									<region>ES, MD</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Center for Cardiology and Cardiovascular Surgery</orgName>
+								<orgName type="laboratory">Health Economics and QoL Research Group</orgName>
+								<orgName type="institution">University Clinics of Hamburg</orgName>
+								<address>
+									<settlement>Hamburg, Rustenbach, PhD</settlement>
+									<region>SJ</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">German Center for Health Services Research in Dermatology (CVderm)</orgName>
+								<orgName type="department" key="dep2">Department of Dermatology</orgName>
+								<orgName type="institution">University Clinics of Hamburg</orgName>
+								<address>
+									<settlement>Hamburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Dermatology, Hospital Oldenburg</orgName>
+								<orgName type="department" key="dep2">Department of Dermatology</orgName>
+								<orgName type="department" key="dep3">E Sch äfer</orgName>
+								<orgName type="institution">University of Bonn</orgName>
+								<address>
+									<addrLine>Independent physician</addrLine>
+									<settlement>Pelzer, Oldenburg, Bonn, Hamburg</settlement>
+									<region>MD, MD</region>
+									<country>Germany; E Rabe, Germany;, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Department of Dermatology</orgName>
+								<orgName type="department" key="dep2">German Center for Health Services Research in Dermatology (CVderm)</orgName>
+								<orgName type="department" key="dep3">Department of Dermatology</orgName>
+								<orgName type="laboratory">Health Economics and QoL Research Group</orgName>
+								<orgName type="institution">Johannes Wesling Clinics Minden</orgName>
+								<address>
+									<settlement>Minden, Germany; M Augustin, Prof</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">University Clinics of Hamburg</orgName>
+								<address>
+									<settlement>Hamburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">German Center for Health Services Research in Dermatology (CVderm)</orgName>
+								<orgName type="department" key="dep2">Department of Dermatology</orgName>
+								<orgName type="laboratory">Health Economics and QoL Research Group</orgName>
+								<orgName type="institution">University Clinics of Hamburg</orgName>
+								<address>
+									<settlement>Hamburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cost-of-illness of chronic leg ulcers in Germany</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">345D9D573519E669B683B073AE7EE175</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Chronic leg ulcers</term>
+					<term>Cost-of-illness</term>
+					<term>Disease management</term>
+					<term>Out-of-pocket costs</term>
+					<term>Statutory health insurance</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Chronic wounds are important because of their frequency, their chronicity and high costs of treatment. However, there are few primary data on the cost-of-illness in Germany. The aim was to determine the cost-of-illness of venous leg ulcers (VLU) in Germany. Prospective cost-of-illness study was performed in 23 specialised wound centres throughout Germany. Direct, medical, non medical and indirect costs to the patient, statutory health insurers and society were documented. Thereover, health-related quality of life (QoL) was recorded as intangible costs using the Freiburg quality of life assessment for wounds (FLQA-w, Augustin). A total of 218 patients (62.1% female) were recruited consecutively. Mean age was 69.8 ± 12.0 years. The mean total cost of the ulcer per year and patient was ¤9569, [¤8658.10 (92%) direct and ¤911.20 (8%) indirect costs]. Of the direct costs, ¤7630.70 was accounted for by the statutory health insurance and ¤1027.40 by the patient. Major cost factors were inpatient costs, outpatient care and non drug treatments. QoL was strikingly reduced in most patients. In Germany, VLU are associated with high direct and indirect costs. As a consequence, there is a need for early and qualified disease management. Deeper-going cost-of-illness-studies and cost-benefit analyses are necessary if management of chronic wounds is to be improved.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>In Germany as in all western countries, the</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Points</head><p>• despite the great economic significance of chronic leg ulcers (CLU), no differentiated primary data on the cost of illness and the burden on the patients have so far been gathered in Germany</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Points</head><p>• chronic wounds • cross-sectional study • direct costs • indirect costs • outpatient care • quality-of-life venous leg ulcer management of chronic wounds presents a particular medical and socio-economic challenge. According to cautious estimates, around 3-4 million people suffer from chronic wounds in Germany, which implies high socioeconomic significance <ref type="bibr" target="#b0">(1)</ref>. The costs are high not only for the health insurers, but also to the economy and the patients <ref type="bibr" target="#b1">(2)</ref>. Interdisciplinary action and transsectoral management structures are required. Despite the great economic significance of chronic leg ulcers (CLU), no differentiated primary data on the cost-ofillness and the burden on the patients have so far been gathered in Germany.</p><p>Moreover, the current health-political framework conditions in Germany like in other countries are increasing the pressure on costs and for innovation in the management of CLU patients. For example, Diagnosis Related Groups have been introduced in the inpatient sector and budgeting and standard costs were established in the outpatient sector. Furthermore, new sociolegal possibilities for interdisciplinary, transsectoral management have been introduced which also embrace the sphere of chronic wounds. In particular, new contract options</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Points</head><p>• the present study was under- taken to determine the COI of venous leg ulcers (VLU) in qualified German wound centres • a national cross-sectional survey of the cost-of-illness of VLU was carried out as an observation study in specialised practices and outpatient wound clinics</p><p>• direct and indirect costs of illness, therapeutic benefits and health-related quality of life (QoL) were documented on patients with VLU</p><p>• the data were acquired via stan- dardised physician and patient questionnaires in the area of integrated management, the possibility of direct contracts with the health insurers, the establishment of management centres and the options of structured management programmes (Disease-Management-Programmes) have now become available <ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref>.</p><p>All these new management structures likewise require current and valid primary data on costs and benefits. Surprisingly, no published German data on the cost-of-illness (COI) in leg ulcers are available to date. The present study was undertaken to determine the COI of venous leg ulcers (VLU) in qualified German wound centres.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>Cross-sectional study based on a questionnaire survey in specialised wound practices and hospital outpatient clinics. Direct and indirect costs-of-illness, therapeutic benefits and health-related quality of life (QoL) were documented on patients with VLU. A positive opinion was obtained from the Ethics Committee of the Hamburg State Chamber of Physicians before the start of the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Centres</head><p>The centres were chosen with reference to a balanced geographical distribution and a proportionate ratio of dermatologists, surgeons and general practitioners. In total, 33 specialised wound practices and outpatient clinics in Germany were contacted by letter. The centres were asked to declare their participation by fax or post and, in return, received questionnaires from the field force of the sponsoring company.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inclusion and exclusion criteria</head><p>Inclusion criteria were age ≥18 years, verified diagnosis of VLU and a written declaration of consent to take part in the study. Patients suffering from serious, acutely life-threatening concurrent diseases were excluded from the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recruitment</head><p>The participating centres admitted the patients to the study consecutively in the period from April to August 2007.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data acquisition</head><p>The data were acquired via standardised physician and patient questionnaires which were divided into the following sections:</p><p>( </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Determination of the costs</head><p>The costs of CLU were acquired through the doctor using a standardised questionnaire on illness-related costs of wound treatment (EKK-w). Both resources consumption and associated costs of wound therapy were documented. The costs determined were categorised as follows:</p><p>(1) Direct costs: topical and systemic drugs, non drug costs including dressing materials, therapeutics, physician/nurse fees, inpatient costs, transport and laboratory costs. Depending on whether they could be recovered, these direct costs were assigned either to the health insurers or to the patients. Costs borne by the patients were, in particular, transport costs, practice and prescription charges (copayment, excess charges) and the selffinanced purchase of extra drugs and non drug treatments (out-of-pocket costs). (2) Indirect costs: costs to the economy because of inability to work, retraining, change of workplace and early retirement. These data were acquired by the physician through questions to the patients about their working status (full or part time, not working), days lost, days lost with sick note and special work-related events.</p><p>The consumption data related exclusively to the treatment of the CLU in the last 4 weeks; only in the case of irregularly occurring costs -hospitalisation, for example -were they based on the period of the last 12 months. Costs for concurrent diseases were not included in the equation. Missing costs data were recorded as 'not known'.</p><p>Loss of working time by working patients was accounted for using the human capital model <ref type="bibr" target="#b7">(8)</ref>. The mean federal hourly personnel costs were obtained from the Federal Statistics Office 2006 <ref type="bibr" target="#b8">(9)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>The data were evaluated descriptively. To this end, mean and standard deviation or median and interquartile distance -depending on the scaling and distribution -and minimum and maximum were determined. Percentage values were calculated for the presentation of frequencies.</p><p>Non-parametric procedures were used a posteriori for explorative inference-statistical testing. Differences in the costs between patient subgroups were tested for statistical significance via Mann-Whitney U tests, in part after median-dichotomisation of the independent variable (in the case of rank correlations, the mean rank was substituted here). Correlations between the costs and patient variables were determined via rank correlation after Spearman. The evaluation was done with SPSS 15.0 for Windows.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study centres</head><p>Of 33 centres contacted, 23 (69.7%) geographically widely distributed centres agreed to participate in the study. During the study period, 18 (78.3%) centres actively recruited patients (Figure <ref type="figure" target="#fig_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sociodemographic and clinical data of the patients</head><p>The mean age of the n = 218 recruited patients was 69.8 (±12.0) years (Table <ref type="table" target="#tab_1">1</ref>); 134 (62.1%) patients were women. The mean age of the disease was 14.0 (±15.9) years (median= 6 years, range 0-61 years). In the family history, 89 of the patients (40.6%) stated that 1st degree relatives had likewise suffered from leg ulcers.  The mean body mass index (BMI) of the random sample was 28.6 ± 5.8, and the median</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Points</head><p>• the mean total costs of CLU per year and patient were ¤9569</p><p>was only slightly lower with 27.7. Separated according to sex, the BMI for the men was 28.5 ± 5.9 (median 27.3; range = 16-44) and for the women 28.7 ± 5.8 (median 28.3; range = 17-43).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Illness-related costs</head><p>The mean total costs of CLU per year and patient were ¤9569 (Table <ref type="table" target="#tab_2">2</ref>). The biggest share of the costs -92% -was accounted for by direct treatment were the main cost factors for the SHI. The patients incurred relevant costs through the self-purchase of topical drugs and medical products, through non recoverable expenditure (e.g. travelling expenses) and through practice fees, the individual costs of which varied considerably (Table <ref type="table" target="#tab_2">2</ref>). Mann-Whitney U tests were performed for the direct and indirect costs-of-illness to determine potential cost differences in patient variables, clinical characteristics of the disease and treatment and care costs, with continuous variables always being dichotomised at the median. Explorative tests were done for sociodemographic variables (age, gender and employment), clinical parameters (BMI, aetiology, various comorbidities), wound variables (duration, number, size, status etc.), treatment variables (different medications and diagnostics, time for care) and patient-relevant quality of health services (state of health, wound state, treatment satisfaction, health-related QoL).</p><p>Relevant findings are summarised in Table <ref type="table" target="#tab_3">3</ref>.</p><p>In line with clinical expectations, significantly higher costs were shown for the number and size of the wounds and the management variables need for external help and treatment time. As an example, the median total costs were almost doubled in patients with more than one wound (¤710 versus 426) and in the case of longer treatment times (¤682 versus 428) and were more than double in the case of the need for external help (¤743 versus 285). No statistically significant differences in the annual direct costs and the mean annual total costs were found between the sexes, older and younger patients or patients with high versus low BMI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The aim of the present study was to acquire current and valid primary data on the costs-ofillness in patients with leg ulcers in Germany. To this end, a national cross-sectional survey of the cost-of-illness of VLU was carried out as an observation study in specialised practices and outpatient wound clinics. The survey was conducted at 23 centres in which 218 patients were admitted consecutively to the study.</p><p>The current findings show that the disease of VLU is a considerable financial burden on the statutory health insurers. Although the disease itself with all its clinical consequences constitutes the primary burden for the patients, the financial burden is also not inconsiderable.</p><p>A remarkable finding was the high proportion of the costs accounted for by hospitalised treatment, non drug treatment and outpatient nursing fees in comparison to other dermatological diseases <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref>. The total costs per patient and year amount to ¤9569. The costof-illness of CLU was in the same order of magnitude in a study done in the USA by Olin 1999 <ref type="bibr" target="#b11">(12)</ref>, in which 78 patients with CLU were studied: the mean total cost for the treatment</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Points</head><p>• the current findings show that the disease of VLU is a considerable financial burden on the statutory health insurers • a remarkable finding was the high proportion of the costs accounted for by hospitalised treatment, non drug treatment and outpatient nursing fees in comparison to other dermatological diseases</p><p>• the limits of the present study are the obligatory voluntary participation of the recruiting centres and the limitation to specialised wound centres</p><p>• this might have resulted in a selection of the centres and their patients,with the result that the costs-of-illness determined apply only to patients with qualitatively high-value care in centres with high research motivation, but not over the entire spectrum of care • this might have resulted in a selection of the centres and their patients,with the result that the costs-of-illness determined apply only to patients with qualitatively high-value care in centres with high research motivation, but not over the entire spectrum of care</p><p>• because of the scarcity of time in the treatment centres, it is quite possible that the data on costs were entered more on the basis of availability and accessibility than on that of high validity</p><p>• resort had to be made to mean annual personnel costs in Germany in the year 2006 provided by the Federal Statistical Office</p><p>• despite these limitations, it can be concluded that the present study data highlight relevant direct and indirect costs-of-illness of chronic leg ulcer, emphasising the need for early and qualified disease management of ulcers was US$9685 (now approximately ¤7460), although no account was taken of indirect costs in this US American study.</p><p>The limits of the present study are the obligatory voluntary participation of the recruiting centres and the limitation to specialised wound centres. This might have resulted in a selection of the centres and their patients, with the result that the costs-of-illness determined apply only to patients with qualitatively high-value care in centres with high research motivation, but not over the entire spectrum of care.</p><p>Moreover, the use of written questionnaires to acquire costs-of-illness within the routine of disease management is methodologically not without its problems. Because of the scarcity of time in the treatment centres, it is quite possible that the data on costs were entered more on the basis of availability and accessibility than on that of high validity. We were also able to include only periods of inability to work in the calculation of the indirect costs, because concrete determination of the last occupation was not proposed in this study. Resort had to be made to mean annual personnel costs in Germany in the year 2006 provided by the Federal Statistical Office.</p><p>Despite these limitations, it can be concluded that the present study data highlight relevant direct and indirect costs-of-illness of chronic leg ulcer, emphasising the need for early and qual-</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Points</head><p>• profound studies of the cost- of-illness particularly over the entire spectrum of care as well as of the cost-benefit ratio of the available wound treatments are of great importance not least against the backdrop of the changed financial situation in German health care and the introduction of the health fund on 1 January 2009 ified disease management. Profound studies of the cost-of-illness particularly over the entire spectrum of care as well as of the cost-benefit ratio of the available wound treatments are of great importance not least against the backdrop of the changed financial situation in German health care and the introduction of the health fund on 1 January 2009 <ref type="bibr" target="#b12">(13)</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Geographic distribution of the participating wound centres (n = 23).</figDesc><graphic coords="3,241.86,72.51,182.25,203.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Sociodemographic and clinical data of the study patients (n = 218)</figDesc><table><row><cell>Variable</cell><cell>n</cell><cell cols="3">% Mean SD Median Range</cell></row><row><cell>Male</cell><cell cols="2">81 37.7</cell><cell></cell></row><row><cell>Female</cell><cell cols="2">134 62.3</cell><cell></cell></row><row><cell>Age (years)</cell><cell>201</cell><cell>69.8 12.0</cell><cell></cell></row><row><cell>Height (cm)</cell><cell>214</cell><cell>171.3 9.4</cell><cell></cell></row><row><cell>Weight (kg)</cell><cell>213</cell><cell>84.2 19.1</cell><cell></cell></row><row><cell>BMI -male</cell><cell></cell><cell cols="3">28.5 5.9 27.3 16-44</cell></row><row><cell>(kg/m 2 )</cell><cell></cell><cell></cell><cell></cell></row><row><cell>BMI -female</cell><cell></cell><cell cols="3">28.7 5.8 28.3 17-43</cell></row><row><cell>(kg/m 2 )</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Mean age of</cell><cell></cell><cell>14.0 15.9</cell><cell>6.0</cell><cell>0-61</cell></row><row><cell>disease</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(years)</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">BMI, body mass index (Adolphe Quetelet).</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Mean annual costs-of-illness (CLU) per patient in Euro (n = 218)</figDesc><table><row><cell></cell><cell></cell><cell>Domain of costs</cell><cell>Mean</cell><cell>SD</cell><cell>Median</cell><cell>Minimum</cell><cell>Maximum</cell></row><row><cell></cell><cell>SHI costs</cell><cell>Topical treatment</cell><cell>70.5</cell><cell>182.1</cell><cell>0.0</cell><cell>0.0</cell><cell>1461.6</cell></row><row><cell></cell><cell></cell><cell>Systemic treatment</cell><cell>129.0</cell><cell>380.8</cell><cell>0.0</cell><cell>0.0</cell><cell>3037.0</cell></row><row><cell></cell><cell></cell><cell>Total drug costs</cell><cell>199.6</cell><cell>420.6</cell><cell>0.0</cell><cell>0.0</cell><cell>3037.0</cell></row><row><cell></cell><cell></cell><cell>Therapeutics</cell><cell>238.9</cell><cell>715.9</cell><cell>0.0</cell><cell>0.0</cell><cell>7704.0</cell></row><row><cell></cell><cell></cell><cell>Wound dressings</cell><cell>1344.6</cell><cell>1910.9</cell><cell>620.2</cell><cell>0.0</cell><cell>14229.8</cell></row><row><cell></cell><cell></cell><cell>Surgical hoses</cell><cell>59.2</cell><cell>92.9</cell><cell>0.0</cell><cell>0.0</cell><cell>369.6</cell></row><row><cell></cell><cell></cell><cell>Non drug treatment costs</cell><cell>1642.7</cell><cell>1973.8</cell><cell>1027.6</cell><cell>0.0</cell><cell>14229.8</cell></row><row><cell></cell><cell></cell><cell>Total treatment costs</cell><cell>1842.2</cell><cell>2124.4</cell><cell>1265.8</cell><cell>0.0</cell><cell>16102.6</cell></row><row><cell></cell><cell></cell><cell>Fees, physician</cell><cell>227.6</cell><cell>459.1</cell><cell>122.7</cell><cell>0.0</cell><cell>4933.6</cell></row><row><cell></cell><cell></cell><cell>Fees, nurse</cell><cell>1104.8</cell><cell>2243.2</cell><cell>0.0</cell><cell>0.0</cell><cell>9784.3</cell></row><row><cell></cell><cell></cell><cell>Hospital costs</cell><cell>3568.2</cell><cell>6258.3</cell><cell>0.0</cell><cell>0.0</cell><cell>38279.7</cell></row><row><cell></cell><cell></cell><cell>Diagnostics</cell><cell>585.6</cell><cell>987.2</cell><cell>21.1</cell><cell>0.0</cell><cell>2703.6</cell></row><row><cell></cell><cell></cell><cell>Total SHI costs</cell><cell>7630.7</cell><cell>7655.9</cell><cell>6114.1</cell><cell>0.0</cell><cell>45435.0</cell></row><row><cell></cell><cell>Patient costs</cell><cell>Topical treatment</cell><cell>212.3</cell><cell>847.3</cell><cell>48.0</cell><cell>0.0</cell><cell>10080.0</cell></row><row><cell></cell><cell></cell><cell>Total drug costs</cell><cell>212.3</cell><cell>847.3</cell><cell>48.0</cell><cell>0.0</cell><cell>10080.0</cell></row><row><cell></cell><cell></cell><cell>Out-of-pocket</cell><cell>485.8</cell><cell>1447.9</cell><cell>0.0</cell><cell>0.0</cell><cell>16800.0</cell></row><row><cell></cell><cell></cell><cell>Prescriptions and copayment</cell><cell>254.3</cell><cell>783.7</cell><cell>0.0</cell><cell>0.0</cell><cell>9000.0</cell></row><row><cell></cell><cell></cell><cell>Non drug treatment costs</cell><cell>740.1</cell><cell>2026.8</cell><cell>240.0</cell><cell>0.0</cell><cell>25800.0</cell></row><row><cell></cell><cell></cell><cell>Transportation</cell><cell>75.0</cell><cell>119.9</cell><cell>36.0</cell><cell>0.0</cell><cell>720.0</cell></row><row><cell></cell><cell></cell><cell>Total patients costs</cell><cell>1027.4</cell><cell>2339.7</cell><cell>444.0</cell><cell>0.0</cell><cell>25821.6</cell></row><row><cell></cell><cell>Total costs</cell><cell>Direct costs</cell><cell>8658.1</cell><cell>8220.4</cell><cell>6635.3</cell><cell>0.0</cell><cell>49079.0</cell></row><row><cell></cell><cell></cell><cell>Indirect costs</cell><cell>911.2</cell><cell>4781.2</cell><cell>0.0</cell><cell>0.0</cell><cell>42065.1</cell></row><row><cell></cell><cell></cell><cell>Direct + indirect costs</cell><cell>9569.3</cell><cell>13001.6</cell><cell>6635.3</cell><cell>0.0</cell><cell>49079.0</cell></row><row><cell></cell><cell cols="2">CLU, chronic leg ulcer; SHI, statutory health insurers.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Key Points</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>• the biggest share of the costs -92% -was accounted for by direct costs, ¤8658.10,</cell><cell cols="3">costs (¤8658.10), with indirect costs amount-ing to ¤911.20. The mean cost to the statutory health insurance (SHI) per patient and year was</cell><cell></cell><cell></cell><cell></cell></row><row><cell>with indirect costs amounting to</cell><cell cols="3">¤7630.70, while the mean annual expenditure</cell><cell></cell><cell></cell><cell></cell></row><row><cell>¤911.20 • the mean cost to the statu-tory health insurance (SHI)</cell><cell cols="3">by the patients were ¤1027.40 (Table 2). Hospitalisation, nursing fees and non drug</cell><cell></cell><cell></cell><cell></cell></row><row><cell>per patient and year was</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>¤7630.70, while the mean</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>annual expenditure by the</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>patients were ¤1027.40</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>• hospitalisation, nursing fees</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>and non drug treatment were</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>the main cost factors for the SHI</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>• the patients incurred relevant</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>costs through the self-purchase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>of topical drugs and medical</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>products, through non recover-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>able expenditure (e.g. travelling</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>expenses) and through prac-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>tice fees, the individual costs</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>of which varied considerably</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3</head><label>3</label><figDesc>Association between costs and patient treatment variables (rank correlations after Spearman)</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Total costs</cell><cell></cell><cell></cell><cell cols="2">Direct costs</cell></row><row><cell>Variable</cell><cell>Category</cell><cell>n</cell><cell cols="2">Median Mean rank</cell><cell>z</cell><cell>P ≤</cell><cell cols="2">Median Mean rank</cell><cell>z</cell><cell>P≤</cell></row><row><cell>Sex</cell><cell>Male</cell><cell cols="2">81 432.6</cell><cell>105.3</cell><cell cols="3">-0.499 0.618 527.7</cell><cell>105.3</cell><cell>-0.502 0.615</cell></row><row><cell></cell><cell>Female</cell><cell cols="2">134 512.7</cell><cell>109.7</cell><cell></cell><cell></cell><cell>569.5</cell><cell>109.7</cell></row><row><cell>Age</cell><cell>&lt;71</cell><cell cols="2">104 493.7</cell><cell>99.2</cell><cell cols="3">-0.322 0.748 553.3</cell><cell>100.9</cell><cell>-0.108 0.914</cell></row><row><cell></cell><cell>&gt;71</cell><cell cols="2">96 521.9</cell><cell>101.9</cell><cell></cell><cell></cell><cell>551.3</cell><cell>100.0</cell></row><row><cell>BMI</cell><cell cols="3">&lt;median 108 458.8</cell><cell>108.9</cell><cell cols="3">-0.022 0.983 538.8</cell><cell>109.7</cell><cell>-0.154 0.878</cell></row><row><cell></cell><cell cols="3">&gt;median 109 512.6</cell><cell>109.1</cell><cell></cell><cell></cell><cell>563.9</cell><cell>108.4</cell></row><row><cell>Numbers of wounds</cell><cell cols="3">1 wound 100 426.0</cell><cell>77.3</cell><cell cols="3">-3.797 0.000 487.1</cell><cell>77.5</cell><cell>-3.734 0.000</cell></row><row><cell></cell><cell>&gt;1 wound</cell><cell cols="2">80 710.8</cell><cell>107.0</cell><cell></cell><cell></cell><cell>772.0</cell><cell>106.7</cell></row><row><cell>Wound size</cell><cell cols="3">&lt;median 108 427.1</cell><cell>97.3</cell><cell cols="3">-2.822 0.005 522.1</cell><cell>97.0</cell><cell>-2.89 0.004</cell></row><row><cell></cell><cell cols="3">&gt;median 110 594.8</cell><cell>121.5</cell><cell></cell><cell></cell><cell>685.7</cell><cell>121.8</cell></row><row><cell cols="4">Need for external help &lt;median 107 284.9</cell><cell>87.7</cell><cell cols="3">-4.226 0.001 438.8</cell><cell>89.7</cell><cell>-3.739 0.001</cell></row><row><cell></cell><cell cols="3">&gt;median 102 742.6</cell><cell>123.1</cell><cell></cell><cell></cell><cell>772.0</cell><cell>121.0</cell></row><row><cell>Treatment time</cell><cell cols="3">&lt;median 153 427.5</cell><cell>99.8</cell><cell cols="3">-2.396 0.017 490.4</cell><cell>99.3</cell><cell>-2.601 0.009</cell></row><row><cell></cell><cell>&gt;median</cell><cell cols="2">58 682.1</cell><cell>122.4</cell><cell></cell><cell></cell><cell>772.4</cell><cell>123.8</cell></row><row><cell>Management CLU</cell><cell cols="3">&lt;median 139 487.0</cell><cell>99.9</cell><cell cols="3">-1.267 0.205 543.4</cell><cell>98.9</cell><cell>-1.601 0.109</cell></row><row><cell></cell><cell>&gt;median</cell><cell cols="2">67 613.3</cell><cell>111.1</cell><cell></cell><cell></cell><cell>698.0</cell><cell>113.1</cell></row><row><cell cols="3">BMI, body mass index; CLU, chronic leg ulcer.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2010 The Authors. Journal Compilation © 2010 Blackwell Publishing Ltd and Medicalhelplines.com Inc • International Wound Journal • Vol 7 No 2</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>© 2010 The Authors. Journal Compilation © 2010 Blackwell Publishing Ltd and Medicalhelplines.com Inc</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>M. A. and S. D. were speakers at events organised by the company Moelnlycke. Thanks are due to Moelnlycke Health Care, Erkrath, for their financial support of the study. The authors wish to express their thanks to all participating patients and centres and to the boards of the DDG and BVDD for the excellent cooperation.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,185.72,337.84,169.29,7.27;6,195.67,347.80,116.69,7.27" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The economic situation of chronic wounds</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pelka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Krankenpfl J</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">338</biblScope>
+			<date type="published" when="1997">1997</date>
+			<publisher>German)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,185.72,357.76,169.33,7.27;6,195.67,367.72,127.63,7.27;6,342.29,367.72,12.78,7.27;6,195.67,377.68,159.25,7.27;6,195.67,387.64,54.49,7.27" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Chronic leg ulcer: cost evaluation two treatment strategies</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Augustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heuser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vanscheidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Dermatol Treat</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note>Suppl. 1):S21-5</note>
+</biblStruct>
+
+<biblStruct coords="6,185.72,397.60,169.18,7.27;6,195.67,407.56,159.35,7.27;6,195.67,417.52,159.31,7.27;6,195.67,427.48,159.06,7.27;6,195.67,437.50,159.30,7.27;6,195.67,447.46,159.25,7.27;6,195.67,457.42,157.15,7.27" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">BGBI. I S. 2477, das durch Artikel 1 des Gesetzes vom 30</title>
+		<author>
+			<persName><surname>Bgbi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sozialgesetzbuch -Gesetzliche</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Krankenversicherung</surname></persName>
+		</author>
+		<ptr target="http://bundesrecht.juris.de/sgb5/BJNR024820988.html" />
+	</analytic>
+	<monogr>
+		<title level="m">BGBI, F ünftes Buch, Artikel 1 des Gesetzes vom 20</title>
+		<imprint>
+			<publisher>German</publisher>
+			<date type="published" when="1988">1988. 2008</date>
+		</imprint>
+	</monogr>
+	<note>Juli 2009 (BGBI. I S. 2495) geändert worden ist. last visit: 22.09.</note>
+</biblStruct>
+
+<biblStruct coords="6,185.72,467.38,169.25,7.27;6,195.67,475.66,159.29,8.95;6,195.67,487.30,41.11,7.27;6,257.72,487.30,54.71,7.27;6,333.36,487.30,21.63,7.27;6,195.67,497.26,159.30,7.27;6,195.67,507.22,159.17,7.27;6,195.67,517.18,159.22,7.27;6,195.67,527.14,102.26,7.27" xml:id="b3">
+	<monogr>
+		<ptr target="http://www.kbv.de/koop/8801.html" />
+		<title level="m">Ärztliche Kooperationen. Integrierte Versorgung. Vertragspartner. Berlin: Kassenärztliche Bundesvereinigung</title>
+		<imprint>
+			<publisher>German</publisher>
+			<date type="published" when="2007-11-19">2009. 2007 Nov 19. 2008 Nov 27. 2009</date>
+		</imprint>
+	</monogr>
+	<note>Internet. about 1 screen. last visit: 22.09</note>
+</biblStruct>
+
+<biblStruct coords="6,185.72,537.10,169.26,7.27;6,195.67,547.06,159.34,7.27;6,195.67,557.02,159.31,7.27;6,394.10,70.78,159.27,7.27;6,394.10,80.74,159.24,7.27;6,394.10,90.70,150.02,7.27;6,394.10,100.66,159.38,7.27;6,394.10,110.62,35.35,7.27" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Zulassung der Disease Management Programme (DMP) durch das Bundesversicherungsamt (BVA)</title>
+		<author>
+			<persName><forename type="first">(</forename><surname>Bundesversicherungsamt</surname></persName>
+		</author>
+		<author>
+			<persName><surname>De)</surname></persName>
+		</author>
+		<ptr target="http://www.bundesversicherungsamt.de/nn1046154/DE/DMP/dmpnode" />
+		<imprint>
+			<date type="published" when="2009">2009. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Bonn: Bun-desversicherungsamt</note>
+	<note>html? nnn=true#doc1046158bodyText3, last visit: 22.09</note>
+</biblStruct>
+
+<biblStruct coords="6,384.13,120.58,169.35,7.27;6,394.10,130.54,159.36,7.27;6,394.10,140.50,159.40,7.27;6,394.10,150.46,159.34,7.27;6,394.10,160.42,94.02,7.27" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Development and validation of a new instrument for the assessment of patientdefined benefit in the treatment of acne</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Augustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Reich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Schaefer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zschocke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Rustenbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Dtsch Dermatol Ges</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="113" to="120" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,384.13,170.38,169.35,7.27;6,394.10,180.34,159.29,7.27;6,394.10,190.30,159.28,7.27;6,394.10,200.26,159.31,7.27;6,394.10,210.22,76.92,7.27" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Disease severity, quality of life and health care in plaque-type psoriasis: a multicenter cross-sectional study in Germany</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Augustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kruger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Radtke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Schwippl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Reich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatology</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page" from="366" to="372" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,384.13,220.18,169.35,7.27;6,394.10,230.14,159.32,7.27;6,394.10,240.10,159.35,7.27;6,394.10,250.06,80.33,7.27" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Cost of illness studies as a basis for decision making</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Henke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="19" to="27" />
+			<date type="published" when="2006">2006</date>
+			<publisher>German</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,384.13,260.02,169.33,7.27;6,394.10,269.98,159.33,7.27;6,394.10,280.00,159.36,7.27;6,394.10,289.96,159.35,7.27;6,394.10,299.92,159.32,7.27;6,394.10,309.88,158.76,7.27;6,394.10,319.85,159.52,7.27;6,394.10,329.81,152.07,7.27;6,394.10,339.77,150.59,7.27" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Bruttoverdienste -Durchschnittliche Bruttostundenverdienste der Arbeiter/-innen im Produzierenden Gewerbe EUR</title>
+		<author>
+			<persName><forename type="first">Statistisches</forename><surname>Bundesamt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">(</forename><surname>Distatis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">)</forename></persName>
+		</author>
+		<ptr target="http://www.destatis.de/jetspeed/portal/cms/Sites/destatis/Internet/DE/Content/Statistiken/Zeitreihen/LangeReihen/LoehneGehaelter/Content100/lrver07a.psml" />
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>Statistisches Bundesamt</publisher>
+			<pubPlace>Wiesbaden</pubPlace>
+		</imprint>
+	</monogr>
+	<note>last visit: 22.09.09</note>
+</biblStruct>
+
+<biblStruct coords="6,384.15,349.73,169.23,7.27;6,394.10,359.69,159.32,7.27;6,394.10,369.65,159.40,7.27;6,394.10,379.61,159.25,7.27;6,394.10,389.57,61.68,7.27" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Inpatient treatment costs of skin diseases. Diagnosis-based cost calculation in a university dermatology clinic</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Richert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Doelfs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tscheulin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hautarzt</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1047" to="1051" />
+			<date type="published" when="2004">2004</date>
+			<pubPlace>German)</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,384.15,399.53,169.36,7.27;6,394.10,409.49,159.34,7.27;6,394.10,419.45,159.35,7.27;6,394.10,429.41,90.31,7.27" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Costof-illness in patients with moderate and severe chronic psoriasis vulgaris in Germany</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ehlken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kugland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Dtsch Dermatol Ges</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="511" to="518" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,384.15,439.37,169.26,7.27;6,394.10,449.33,159.34,7.27;6,394.10,459.29,159.37,7.27;6,394.10,469.25,129.88,7.27" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Medical costs of treating venous stasis ulcers: evidence from a retrospective cohort study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Olin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Beusterien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Childs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Seavey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mchugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Griffiths</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vasc Med</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,384.15,479.21,169.28,7.27;6,394.10,489.17,159.34,7.27;6,394.10,499.13,159.21,7.27;6,394.10,509.15,159.26,7.27;6,394.10,519.10,157.37,7.28;6,394.09,529.06,160.03,7.27;6,394.09,539.02,156.57,7.27;6,394.09,548.98,159.61,7.27;6,394.09,558.94,16.75,7.27" xml:id="b12">
+	<analytic>
+		<title/>
+		<ptr target="http://www.bundesversicher-ungsamt.de/cln100/nn1046668/DE/Risikost-rukturausgleich/WiefunktioniertMorbiRSA" />
+	</analytic>
+	<monogr>
+		<title level="j">Bundesversicherungsamt. So funktioniert der neue Risikostrukturausgleich im Gesundheitsfonds. Bonn: Bundesversicherungsamt</title>
+		<imprint>
+			<date type="published" when="2008">2008. 2009</date>
+		</imprint>
+	</monogr>
+	<note>templateId=raw,property=publicationFile.pdf/ Wie funktioniert Morbi RSA.pdf, last visit:22.09</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

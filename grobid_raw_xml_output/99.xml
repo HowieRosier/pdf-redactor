@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The chronic wound characterisation study and biobank: a study protocol for a prospective observational cohort investigation of bacterial community composition, inflammatory responses and wound-healing trajectories in nonhealing wounds</title>
+				<funder ref="#_jJjRQ52">
+					<orgName type="full">Novo Nordisk Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-10-17">17 October 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Anne</forename><forename type="middle">Kristine</forename><surname>Servais Iversen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Costerton Biofilm Center</orgName>
+								<orgName type="institution" key="instit2">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mads</forename><surname>Lichtenberg</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Costerton Biofilm Center</orgName>
+								<orgName type="institution" key="instit2">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Blaine</forename><forename type="middle">Gabriel</forename><surname>Fritz</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Costerton Biofilm Center</orgName>
+								<orgName type="institution" key="instit2">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Isabel</forename><surname>Díaz-Pinés</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Cort</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Costerton Biofilm Center</orgName>
+								<orgName type="institution" key="instit2">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dania</forename><forename type="middle">Firas</forename><surname>Al-Zoubaidi</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Costerton Biofilm Center</orgName>
+								<orgName type="institution" key="instit2">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hans</forename><surname>Gottlieb</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Orthopaedic Surgery</orgName>
+								<orgName type="institution">Herlev Hospital</orgName>
+								<address>
+									<settlement>Herlev</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Klaus</forename><surname>Kirketerp-Møller</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Copenhagen Wound Healing Centre</orgName>
+								<orgName type="institution">University Hospital of Copenhagen</orgName>
+								<address>
+									<settlement>Bispebjerg, Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Bjarnsholt</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Costerton Biofilm Center</orgName>
+								<orgName type="institution" key="instit2">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Clinical Microbiology</orgName>
+								<orgName type="institution">Copenhagen University Hospital</orgName>
+								<address>
+									<settlement>Rigshospitalet, Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tim</forename><surname>Holm Jakobsen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Immunology and Microbiology</orgName>
+								<orgName type="institution" key="instit1">Costerton Biofilm Center</orgName>
+								<orgName type="institution" key="instit2">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Dr</roleName><forename type="first">Tim</forename><surname>Holm</surname></persName>
+							<email>tholm@sund.ku.dk</email>
+						</author>
+						<author>
+							<persName><forename type="first">Anne</forename><surname>Kristine</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Servais</forename><surname>Iversen</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Iversen AKS</orgName>
+								<address>
+									<settlement>Lichtenberg M</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Fritz BG</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">http://orcid</orgName>
+								<orgName type="institution">Gabriel Fritz http://orcid</orgName>
+								<address>
+									<postCode>0006-1095-6294, 0000-0002-0675-4554, 0000-0002-2085-894X</postCode>
+									<settlement>Mads Lichtenberg, Blaine</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="institution">Isabel Díaz-Pinés Cort http://orcid</orgName>
+								<address>
+									<postCode>0000-0002-2599-3008</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution">Dania Firas Al-Zoubaidi http://orcid</orgName>
+								<address>
+									<postCode>0009-0001-7828-0618</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="institution">Hans Gottlieb http://orcid</orgName>
+								<address>
+									<postCode>0000-0003-2945-8392</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="institution">Klaus Kirketerp-Møller http://orcid</orgName>
+								<address>
+									<postCode>0000-0002-3248-8448</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+								<orgName type="institution">Thomas Bjarnsholt http://orcid</orgName>
+								<address>
+									<postCode>0000-0002-8003-7414</postCode>
+									<settlement>Tim Holm Jakobsen</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The chronic wound characterisation study and biobank: a study protocol for a prospective observational cohort investigation of bacterial community composition, inflammatory responses and wound-healing trajectories in nonhealing wounds</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-10-17">17 October 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B38132F0BFDE4549DF7DC127821039DB</idno>
+					<idno type="DOI">10.1136/bmjopen-2024-084081</idno>
+					<note type="submission">Received 08 January 2024 Accepted 16 September 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Introduction Chronic wounds affect 1%-2% of the global population, with rising incidence due to ageing and lifestyle-related diseases. Bacterial biofilms, found in 80% of chronic wounds, and scattered single-cell bacteria may hinder healing. Microbes are believed to negatively impact healing by exacerbating inflammation and host immune response. Methods and analysis The primary objective of the chronic wound characterisation (CWC) study is to investigate chronic wounds through a prospective observational cohort study exploring bacterial community composition, inflammatory responses and the influence of bacteria on wound-healing trajectories. The CWC study will be investigated through two cohorts: the predictive and in-depth. The predictive cohort includes patients with a chronic wound scheduled for mechanical debridement. The debrided material will be collected for dual RNA sequencing and 16s ribosomal RNA gene sequencing, as well as samples for microbial culturing and a photo to assess the wound. Clinical data is recorded, and healing and/or other clinical endpoints are established through medical records. The in-depth cohort includes and follows patients undergoing split-thickness skin grafting. Extensive sampling (ESwabs, biopsies, tape strips, debrided material and a sample of the skin graft) will be performed on surgery and patients will be seen at two follow-up visits. Samples will be analysed through culturing and next-generation sequencing methods. A biobank will be established comprising longitudinal clinical samples and clinical data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics and dissemination</head><p>The study has been approved by the board of health ethics, Capital Region of Denmark, under protocol number H-20032214. The study findings will be disseminated through peer-reviewed publications and showcased at both national and international conferences and meetings within the domains of microbiology, wound healing and infection.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Chronic wounds are estimated to affect between 1% and 2% of the global population <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> and reports rate that, in developed countries, 3%-5.5% of the total healthcare costs are associated with the treatment of chronic wounds. <ref type="bibr" target="#b0">1</ref> Chronic wounds are</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STRENGTHS AND LIMITATIONS OF THIS STUDY</head><p>⇒ In the chronic wound characterisation (CWC) study, a biobank will be established, which will serve as a cornerstone for exploring the influence of bacteria on wound progression and healing. ⇒ The CWC study will be the first of its kind to conduct detailed longitudinal investigations of the human gene response in samples from chronic wounds, coupled with comprehensive clinical data, laying the foundation to identify genes of interest related to infection and healing. ⇒ The CWC study will provide a comprehensive investigation of the microbiology of chronic wounds, including investigations of correlations between bacteria on the host immune response and the relation to wound healing and/or outcomes following split-thickness skin grafting. ⇒ A potential loss to follow-up and challenges related to patient recruitment may limit the study. ⇒ The study design is limited in its capacity to investigate lifestyle-related factors such as diet, physical activity, compliance and adherence, all of which can influence the occurrence and outcomes of chronic wounds.</p><p>Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open access</head><p>wounds that become stalled at some point in the normal healing trajectory. Although no international consensus exists on the specific duration required to define chronicity, these wounds are typically defined as wounds that have not healed within 4-12 weeks. <ref type="bibr">5 6</ref> Chronic wounds are often classified based on aetiology, with the most common types being: venous, diabetic, pressure or ischaemic ulcers. <ref type="bibr">5 6</ref> Chronic wounds cannot always be reliably classified based on one single driver. <ref type="bibr" target="#b6">7</ref> As noted by Falanga et al, chronic wounds have an inherent heterogeneity with a need for, but also a challenge towards, more precise classifications. <ref type="bibr" target="#b3">4</ref> The treatment of chronic wounds has improved over the last decades, but chronic wounds have a rising incidence due to an increase in the ageing population and accumulation of predisposing, lifestylerelated diseases-making the need for effective treatment even more urgent. <ref type="bibr">4 8</ref> In 2008, Bjarnsholt et al and James et al provided evidence of bacterial biofilm in clinical samples from chronic wounds. <ref type="bibr">9 10</ref> Subsequently, in a 2017 meta-analysis conducted by Malone et al, it was affirmed that bacterial biofilms can be identified in approximately 80% of samples from chronic wounds. <ref type="bibr" target="#b10">11</ref> Moreover, recent findings suggest the presence of scattered single-cell bacteria in chronic wounds. <ref type="bibr">12</ref> Limited research has explored patterns in the distribution of microbes in wound tissue based on species. However, a study by Fazli et al documented the uneven distribution of Staphylococcus aureus and Pseudomonas aeruginosa in separate formations. <ref type="bibr" target="#b12">13</ref> Though the exact mechanism is not understood, 14 microbes including bacterial biofilms are believed to negatively affect wound healing by exacerbating or capturing the wound in an inflammatory state. <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> Host immune response activation is considered the key factor distinguishing microbial wound colonisation from infection, <ref type="bibr">14 18</ref> and previously used criteria such as the term 'critical colonisation' (eg, &gt;10 5 bacteria per gram tissue) are no longer considered valid. <ref type="bibr" target="#b15">16</ref> The debate continues regarding the utility of surface culture to guide treatment <ref type="bibr" target="#b17">18</ref> but for selected species, eg, P. aeruginosa, positive cultures have previously been found to correlate with larger, potentially older wounds <ref type="bibr" target="#b18">19</ref> and less favourable outcomes following, for example, split-thickness skin grafting (STSG). <ref type="bibr">20 21</ref> Moreover, investigations suggest that a high proportion of facultative anaerobes can negatively affect healing, <ref type="bibr" target="#b14">15</ref> and other findings have concluded positive correlations between microbial community dynamics and healing. <ref type="bibr" target="#b21">22</ref> Guidelines emphasise that clinical signs of infection can be masked due to a compromised immune system and decreased circulation, <ref type="bibr" target="#b17">18</ref> and clinical assessment is challenging. <ref type="bibr">23 24</ref> This finding is supported by a study using dual RNA sequencing (RNA-Seq) on debrided material from chronic wounds, which revealed that the observed patterns of host gene expression and inflammation frequently diverged from the clinical infection severity classifications attributed. <ref type="bibr" target="#b24">25</ref> Research on the wound microbiome's relationship with healing remains limited, often constrained by sample size, incomplete clinical data or a lack of investigation into both host response and microbial burden <ref type="bibr">4 15 16 26</ref> and to our knowledge, no studies have investigated the potential correlation between the skin microbiome of patients with chronic wounds and the outcome following STSG. RNA-Seq data and proteomics can offer insights into the molecular mechanisms underlying chronic wounds and transcriptomic changes over time. <ref type="bibr">25 26</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RATIONALE</head><p>A better understanding of chronic wounds on the molecular and cellular levels is crucial to improve our understanding of the role of bacteria in chronic wounds, with the goal of improving treatment and classification. <ref type="bibr" target="#b13">14</ref>  <ref type="bibr">16 18 27</ref> An improved understanding of the infectious microenvironment can improve the application of laboratory and animal models, <ref type="bibr">4 26</ref> and important knowledge can be obtained and translated to other chronic infections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HYPOTHESIS</head><p>Our hypothesis is that bacterial community composition and activity in chronic wounds play a pivotal role in influencing host gene expression and inflammatory profiles. These, in turn, affect the wound-healing trajectories. Therefore, the primary objective of this study is to identify gene expression patterns in samples from chronic wounds that can be linked to inflammatory activity and healing outcomes and to correlate them with bacterial community characteristics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OBJECTIVES</head><p>The primary objective of the chronic wound characterisation (CWC) study is to investigate bacterial community composition, inflammatory responses and the influence of bacteria on wound-healing trajectories and outcomes following STSG. To achieve this, we will assess healing trajectories including clinical factors potentially contributing to delayed healing, aiming to explore the role of microbes in wound healing and the mechanisms associated.</p><p>The primary objective will be investigated through the following: ► Investigate microbial clonal diversity, coexistence and adaptation over time and their association with healing outcomes. ► Determine the transcriptional levels of bacteria and human cells in chronic wounds, and how it varies with time, treatment and healing. ► Determine the spatial and temporal distribution of bacteria and differences in distribution based on species. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open access</head><p>► Compare the presence of bacteria and inflammatory cells between STSG, that is, the autografted donor skin, and wound tissue. ► Investigate the correlation between the wound and skin microbiome and healing in patients with chronic wounds. ► Develop a non-invasive method to sample surface microbes in chronic wounds and investigate their spatial distribution through cultivation. ► Establish a biobank consisting of longitudinal and clinical data to make advanced analyses and provide a comprehensive understanding of chronic wounds.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CLINICAL ENDPOINTS The predictive cohort</head><p>The primary endpoint for the predictive cohort is the assessment of wound healing, based on any available clinical evaluations and photographic analysis within 12 months following inclusion. Wound healing will be assessed as the percentage change in wound area (measured in cm 2 ), comparing the two-dimensional area at follow-up to that at inclusion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The in-depth cohort</head><p>The primary outcome for the in-depth cohort is the assessment of wound healing following STSG. This assessment is based on photographic analysis within approximately 4 months after inclusion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Secondary outcomes (both cohorts)</head><p>► Treatment with antibiotics. ► Revascularisation procedures. ► Incidence of STSG. ► Incidence of amputation. ► Mortality rate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS AND ANALYSIS Study design</head><p>The CWC study is a prospective, observational cohort study planned across multiple sites. Inclusion and sampling will be performed at the Copenhagen Wound Healing Center, Department of Dermatology and Wounds, Bispebjerg and Frederiksberg Hospital, and Section of Infections and Amputations, Department of Orthopedic Surgery, Herlev and Gentofte Hospital. The CWC study employs a multifaceted approach that includes meticulous and longitudinal sampling, advanced diagnostics and comprehensive collection of clinical data, including assessments of healing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Definition of wound chronicity</head><p>Chronic wounds are defined as those deemed chronic or non-healing by the treating physician, acknowledging the lack of an international consensus on the definition of chronicity. This approach reflects the clinical reality and will be supplemented with clinical data, such as wound duration and wound aetiology, as detailed in the section on clinical data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Study participants must be ≥18 years old and legally competent, be referred to one of the included departments with at least one chronic wound below knee level and understand Danish language in spoken and written form. Moreover, to be eligible for the predictive cohort, the patient needs to undergo mechanical debridement, either through simple curettage or surgical debridement. Sampling will be performed during routine debridement, and patients will be followed up using health records. Assessments will be conducted from available data within approximately 12 months after inclusion.</p><p>For the in-depth cohort, patients must be planned for and undergo surgical debridement followed by STSG. Subsequently, they will be seen and sampled during two follow-up visits planned independently of their inclusion in the CWC study. The follow-up visits are expected to be conducted within approximately 4 months following inclusion.</p><p>Exclusion criteria for both groups are pregnancy, dementia or individual reasons that make the patient unsuitable for inclusion, as defined by a responsible wound care physician. The last exclusion criterion is set since, in the in-depth group, patients will undergo multiple punch biopsies. Individual factors, such as the location, shape or size of the chronic wound, should be considered to ensure that biopsies can be performed without causing unnecessary harm. An overview of the inclusion and exclusion criteria for the predictive and in-depth cohorts can be seen in figure <ref type="figure" target="#fig_0">1</ref>.</p><p>All participants receive oral and written information and consent to voluntary inclusion prior to sampling. The study design is non-interventional in terms of treatment, and patients can withdraw their consent at any time point. A comparative overview of the design and overall investigations planned for the in-depth and predictive cohorts is presented in figure <ref type="figure" target="#fig_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient and public involvement</head><p>Patients or the public will not be involved in the design, conduct, reporting or dissemination plans of our research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>► BD ESwab Collection Kit, Copan Italia SpA. ► Nylon filters (1213812, pore size 5 µm, GVS North America, USA). ► Tape strips: 2×16 consecutive D-Squame disc tapes (D100, Monaderm, Monaco). ► D-Squame pressure instrument (D500, 225 g/cm 2 , Monaderm, Monaco).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sampling</head><p>For the predictive cohort, the following samples will be obtained: ► A photo of the wound: the photo is obtained after the application of a sticky marker containing a scale (0-30 mm) (Dansk Telemedicin A/S) in close</p><p>Open access proximity to the wound, intended for size calibration and patient identification. ► For RNA-Seq+16 s ribosomal RNA (rRNA) sequencing:</p><p>the material removed on debridement. ► For microbial culturing: one ESwab conducted after debridement as a tight swab, covering the whole wound surface. All the sampling will be conducted after the removal of any compression and/or bandages. If any ointments from previous applications are covering the wound these will be removed using sterile gauze and/or sterile saline.</p><p>For the in-depth cohort, the patients will be seen and sampled at inclusion (in relation to STSG) and at follow-up visits (figure <ref type="figure" target="#fig_2">3</ref>).</p><p>In relation to STSG, prior to surgical debridement ► A photo is obtained after the application of a sticky marker containing a scale (0-30 mm) (Dansk Telemedicin A/S) in close proximity to the wound, intended for size calibration and patient identification. For microbial culturing: ► Two consecutive nylon filters ('Imprints') placed in the same area of the wound for 30 s each and transferred to culture plates (laboratory testing has been performed in a pilot study on the transfer and replication of microbial 2D patterns using different types of filters. The best-performing filter was subsequently evaluated using a pig skin model). The area is secured using a silicone mould. The silicone mould is made by cutting out the centre of the silicone in the same size as the filters. A photo is obtained after the application of the silicone mould to the wound. ► Three ESwabs:</p><p>i. One ESwab from the same area as the filters. The area is secured using a silicone mould. ii. One ESwab performed as a tight swabbing motion, covering the whole wound surface. iii. One ESwab from a ~10×5 cm area of the patient's thigh marked for grafting. This ESwab will be conducted from dry skin, and the tip of the ESwab will be moistened using sterile saline prior to swabbing. ► For RNA-Seq+16s rRNA sequencing:</p><p>-Tape strips -2×16 consecutive disc tapes from two different sites; 2-3 cm above and 2-3 cm below the wound. All tape strips for the in-depth cohort will be obtained as follows: tape strips are applied onto the targeted skin area, and a sterile marker will be used to mark the edges of the first disc to ensure consecutive sampling from the same area. A D-Squame pressure instrument will be used to apply uniform pressure for 10 s. Subsequently, the tape strips will be transferred to sterile tubes using sterile gloves and tweezers to maintain aseptic conditions throughout the process. In cases of limb amputation, the tape strips which are supposed to be collected below the wound will be collected on the adjacent side of the lower leg. Open access -Biopsies -6 mm punch biopsy from the edge of the wound, if possible, with a brim of epithelium. -6 mm punch biopsy from the centre of the wound (ie, wound on all sides of the punch biopsy instrument). A photo is obtained to visualise where the biopsies are taken. -Each biopsy will be divided with maintained organisation using a sterile surgical scalpel. Half of each biopsy will undergo RNA-Seq+16s rRNA sequencing, and the other half will be analysed for proteomics. ► For proteomics:</p><p>-6 mm punch biopsy from the edge of the wound, if possible, with a brim of epithelium. -6 mm punch biopsy from the centre of the wound (ie, wound on all sites of the punch biopsy instrument). ► For microscopy:</p><p>-4-6 mm punch biopsy from the edge of the wound, if possible, with a brim of epithelium. -4-6 mm punch biopsy from the centre of the wound (ie, wound on all sites of the punch biopsy instrument).</p><p>In relation to STSG, during surgical debridement and STSG ► For RNA-Seq+16s rRNA sequencing:</p><p>-Debrided material.</p><p>-A piece of the skin graft, approximately 0.5 cm 2 obtained after meshing. ► For proteomics:</p><p>-Debrided material.</p><p>-A piece of the skin graft, approximately 0.5 cm 2 obtained after meshing. ► For microbial culturing:</p><p>-Two consecutive nylon filters placed in the same area of the wound bed for 30 s each and transferred to culture plates. The area is secured using a silicone mould. ► Three ESwabs:</p><p>-One ESwab from the same area as the filters. The area is secured using a silicone mould as described above. -One ESwab rotated once around the edge of the wound. -One ESwab from the whole wound surface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sampling done at follow-up visits</head><p>Sampling at follow-up visits will depend on the status of the wound progression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Samples obtained from all patients</head><p>► A photo of the wound. The photo is obtained after the application of a sticker in close proximity to the Open access wound, intended for size calibration and patient identification. ► For RNA-Seq:</p><p>-16 consecutive tape strips from 2 to 3 cm above the wound/healed transplant.</p><p>If there is transplant/healed skin after STSG ► For microbial culturing:</p><p>-The skin graft/healed skin is sampled using an ESwab. ► For RNA-Seq:</p><p>-16 consecutive tape strips from the healed area.</p><p>If there is still a non-healed wound For microbial culturing: ► The whole wound area is sampled using an ESwab.</p><p>If the wound is at least 5 mm long on at least one side ► Two consecutive nylon filters ('Imprints') placed in the same area of the wound for 30 s each and transferred to culture plates. The area is secured using a silicone mould. ► One ESwab from the same area as the filters. The area is secured using a silicone mould as described above.</p><p>If debridement is performed ► For RNA-Seq+16s rRNA sequencing: the material removed on debridement.</p><p>► For microbial culturing: the whole wound area is sampled using an ESwab.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample handling, preparation and analysis</head><p>Samples for cultivation, identification of isolates, storing and Whole Genome Sequencing (WGS) ► Cultivation of filters: each filter is placed on culture plates for 3 hours and hereafter removed. From each patient, at each time point, one filter will be cultivated using a chocolate plate (SSI, Denmark) and an anaerobic plate (SSI, Denmark). It is decided to focus on blood agar plates and chocolate plates and not to include blue agar plates (selective for gram-negative species). After several studies we have experienced that blue agar plates does not give additional information when the two other plates are included. The plates will be incubated for 48 hours in a humidified 5% CO 2 incubator at 37°C and 10 days in an anaerobic bench (anaerobic plates). Plates are used for qualitative culture. ► Cultivation of ESwabs: the ESwab is placed at 5°C and cultured within 36 hours using routine methods. The first streak is made using the ESwab as inoculator. ► Identification of isolates: individual colonies are isolated based on morphology and identified using Matrix-Assisted Laser Desorption Ionization Time-Of-Flight (MALDI-TOF) (Bruker, Billerica, Massachusetts, USA). If isolates score below 2.0, they will Open access be analysed again with a maximum of 3 attempts per isolate. Isolates are stored at -80°C. ► WGS: depending on the results from the MALDI-TOF identification, WGS analysis will be conducted on a subset of the isolates.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Samples for microscopy</head><p>► Sample preparation: the biopsies will be placed immediately in formalin and stored at 4°C for at least 24 hours prior to paraffin embedding following standard operating procedures. All biopsies will be divided with organisation maintained by sectioning each sample into three levels. From each section, six cuts are done (4 um) and placed on three glass slides. From each sample, one section is cut and used for H&amp;E staining. ► Peptide nucleic acid fluorescence in situ hybridisation (PNA-FISH): specific PNA-FISH probes for 16s rRNA will be used to image the bacterial colonisation. ► Confocal laser scanning microscopy (CLSM): at least two sections from each set of biopsies will be screened using a CLSM with a 20× and a 63× objective.</p><p>Samples for RNA-Seq+16s rRNA sequencing Handling ► Debrided material, biopsies and the sample from the skin graft: samples will be placed in a tube containing RNAlater stabilisation solution for approximately 48 hours at 5°C before RNAlater stabilisation solution is removed, and the sample is frozen at -80°C until RNA and DNA extraction. ► Tape strips: the tapes are handled using sterile gloves and forceps and put into sterile tubes, two and two, immediately placed on dry ice before being transferred to -80°C until RNA extraction and sequencing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA extraction</head><p>► Tissue samples: approximately 20 mg tissue is used for the extraction of RNA. RNA is extracted with Trizol+Chloroform, resuspended in nuclease-free water and stored at -80°C until further processing. ► Tape strips: RNA will be extracted from tapes with Trizol+Chloroform extraction. RNA from tapes will be pooled by rinsing all tapes with the same Trizol aliquot to increase the RNA concentration. Purified RNA will be stored in nuclease-free water and stored at -80°C. Sequencing: the concentration of isolated RNA is measured with an Agilent Bioanalyzer. For library preparation, the NEB Ultra II directional RNA library prep kit is used. Samples are sequenced on an Illumina NovaSeq6000 with a target depth of 100M reads per sample.</p><p>DNA extraction for 16s rRNA: the DNA will be isolated from the samples used for RNA extraction during Trizol extraction procedure. The isolated DNA will be used for 16s rRNA analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Samples for proteomics</head><p>Debrided material, biopsies and skin graft: the samples are immediately frozen using liquid nitrogen and later transferred to storage at -80°C until analysis for proteomics. The samples will be shipped to a company for analysis on Olink Target 96 Inflammation panel (Olink Proteomics). The panel is a high-throughput proteomics assay designed to measure 92 inflammationrelated protein biomarkers in a single sample. By profiling a broad range of inflammation-related proteins, it is possible to gain insights into the underlying biological pathways involved in the inflammation processes and identify key proteins.</p><p>A simplified, schematic illustration for sampling and follow-up for both cohorts is presented in figure <ref type="figure" target="#fig_4">4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of clinical photographs</head><p>Wound area assessment for both the predictive and the in-depth cohort is performed manually using Image-J software (Fiji V.2.3.1) and calibrated using the sticky marker (Dansk Telemedicin A/S). The wound outline is traced using the freehand selection tool, and the area is calculated. If wounds are concomitant, the areas are combined. A record of the traced area, along with the calculated wound area, is then reviewed by a senior orthopaedic surgeon. Based on the tracked area, further grouping into healed versus unhealed wounds with percentage evaluation can be performed. In select cases, it will be possible to use clinical evaluation of healing, in which case it will be noted including the basis for evaluation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical data Collection of clinical data</head><p>Clinical data for this study will be collected from three primary sources: Patient-Reported Information, the Electronic Medical Chart (Sundhedsplatformen, EPIC) and Online Database for Medication Prescription (Faelles Medicinkort/FMK Online).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient-Reported Information</head><p>At the time of inclusion, patients are asked to provide an estimate of the duration of their wound, categorised into years, months or weeks.  Manual Extraction from the Electronic Medical Chart (Sundhedsplatformen, EPIC) Information on the specific wound care treatments and interventions provided during the study period will be manually extracted</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistics</head><p>The statistical analyses to be carried out in this exploratory research study involves both supervised and unsupervised approaches for the two patient groups: the predictive and the in-depth cohort.</p><p>For the predictive cohort, the supervised analyses of bacterial community composition obtained from the 16S rRNA amplicon sequencing will involve permutational multivariate analysis of variance (ANOVA) analysis <ref type="bibr" target="#b27">28</ref> of beta diversity to assess differences between the healed and non-healed groups. Additionally, alpha diversity will be measured to determine the microbial diversity within each sample, and its association with wound-healing outcome will be tested using an ANOVA test. <ref type="bibr" target="#b28">29</ref> In the unsupervised analysis, principal component analysis will be employed on the centred log-ratio transformed relative abundances to reveal underlying groupings in the bacterial community compositions. Furthermore, a Dirichlet multinomial mixture model will be used for community typing, <ref type="bibr">22 30</ref> and the community types' association with healing outcome will be tested using Fisher's exact test.</p><p>The same analyses will be performed on the in-depth cohort; however, comparisons will be made among the different wound locations, the wound and the transplanted skin and the wound at different time points following STSG. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open access</head><p>Raw dual RNA-Seq data will be processed into host transcriptomes (ie, a feature count matrix) and active bacterial community data in both patient groups.</p><p>For the predictive cohort, supervised analysis of the host transcriptomes will involve differential gene expression (DGE) analysis of the healing outcome groups followed by functional analysis such as gene ontology or gene set enrichment analysis. On the other hand, the unsupervised analysis will begin with dimensionality reduction techniques, such as Principal Component Analysis (PCA), to characterise the heterogeneity of chronic wound transcriptomes, followed by data-driven clustering and functional analysis.</p><p>Similarly, for the in-depth cohort, the focus will be on DGE testing between different wound locations, the wound and the skin graft and the wound following up on the STSG. Again, unsupervised analyses will involve dimensionality reduction techniques to uncover subgroups or patterns within the data.</p><p>The correlation between the active bacterial community compositions and the present taxa elucidated from 16S amplicon sequencing will be explored in both cohorts. In addition, the correlation between protein abundances and the corresponding gene expression levels will also be calculated for the in-depth cohort for samples where both proteomics and transcriptomics data are available.</p><p>In order to integrate omics data layers with clinical information, a supervised analysis will involve using Lasso logistic regression to select important predictors of healing outcomes. On the unsupervised side, Multi-Omics Factor Analysis (MOFA) will be employed to identify shared sources of variation across all data layers 31 : the host's transcriptome and proteome, the bacterial community compositions (active and overall present taxa), and clinical data. Finally, the association of MOFA factors with healing outcomes may also be tested, to investigate the relationship between the data types and healing outcomes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample size</head><p>Previously published and unpublished RNA-Seq data on diabetic foot ulcers from the Costerton Biofilm Center, Department of Immunology and Microbiology, University of Copenhagen, has shown that the wound transcriptomes cluster into three distinct groups, with a coefficient of biological variation (CV) of 0.4, according to their inflammatory profiles. <ref type="bibr" target="#b24">25</ref> We expect the samples from this study to fall into the same groups. Thus, the sample size calculation is based on DGE analysis between these biologically relevant clusters and carried out using the R package RNASeqPower. <ref type="bibr" target="#b31">32</ref> Assuming an average coverage depth of 5 reads per transcript, a within-group CV of 0.4 across all groups, and a target fold-change of 1.5, approximately 34 patients per group are needed to achieve a power of 0.8 and a false positive rate of 0.05. The previous calculation applies to the predictive group, as we expect the in-depth cohort to be considerably smaller due to the more demanding inclusion criteria. For the latter cohort, we based our sample size calculation on a generic DGE analysis of two groups which could include: healed versus non-healed wounds at approximately 4 months following STSG, the centre versus the edge of the wound, wound versus transplant or wound before STSG versus wound at follow-up. We approximate that around 20 patients will be included. With an average coverage depth of 5, CV of 0.4 (as is typical for human clinical studies) and aiming for a target false positive rate of 0.05, we will achieve a power of 0.7 to detect a fold change of 2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ETHICS AND DISSEMINATION</head><p>The study has been approved by the Board of Health Ethics, Capital Region of Denmark, under protocol number H-20032214. No expected harmful effects are anticipated from the predictive cohort. The in-depth cohort will be subjected to invasive sampling in the form of punch biopsies, which will be conducted by the responsible surgeon in relation to surgical debridement followed by STSG. The safety of the biopsy procedure will be assessed, and if the location and/or size of the wound is deemed to make the biopsies unsafe, the patient will not be included in the study.</p><p>The study findings will be disseminated through publications intended for submission to journals undergoing peer review. Additionally, the outcomes will be presented at national as well as international conferences in microbiology, wound healing and infection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TIMELINE OF THE CWC STUDY</head><p>The CWC study received ethical approval on 28 October 2020. The predictive cohort began inclusion and sampling in February 2021. The in-depth cohort initiated inclusion in August 2021, with the first patient included and sampled in October 2021. As of January 2024, inclusion and sampling in the CWC study are still ongoing.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure1Inclusion and exclusion criteria for the predictive and in-depth cohorts in the CWC study. CWC, chronic wound characterisation.Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.</figDesc><graphic coords="4,96.40,48.50,402.48,286.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 A</head><label>2</label><figDesc>Figure 2 A comparative overview of the design of the predictive and in-depth cohorts in the CWC study. CWC, chronic wound characterisation.Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.</figDesc><graphic coords="5,125.38,48.50,344.52,324.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>Figure 3 Overview of samples and planned analysis in the in-depth cohort. Samples are collected in relation to STSG and during follow-up visits. The sampling during follow-up visits depends on the healing progress. Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.</figDesc><graphic coords="6,40.50,48.50,514.28,311.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>►</head><label></label><figDesc>Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. Surgical history: documented using the Nordic Medico-Statistical Commitee (NOMESCO) Classification of Surgical Procedures. ► Medicine prescription. ► Death within 1 year following inclusion.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4</head><label>4</label><figDesc>Figure 4 Schematic overview of sampling for the predictive and in-depth cohorts. CWC, chronic wound characterisation; STSG, split-thickness skin graft. Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.</figDesc><graphic coords="8,97.84,48.50,399.60,404.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. . by guest on July 16, 2025 http://bmjopen.bmj.com/ Downloaded from 17 October 2024. 10.1136/bmjopen-2024-084081 on BMJ Open: first published as</head><label></label><figDesc></figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. . by guest on July 16, 2025 http://bmjopen.bmj.com/ Downloaded from</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>10.1136/bmjopen-2024-084081 on BMJ Open: first published as</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Iversen AKS, et al. BMJ Open 2024;14:e084081. doi:10.1136/bmjopen-2024-084081</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements All illustrations have been made with Biorender. com.</p><p>Contributors AKSI, ML, BGF, TB, HG, KK-M and THJ were involved throughout study conceptualisation, development of the study protocol and the application for ethical approval. BGF, ID-PC, TB and THJ analysed the data and BGF and ID-PC were responsible for the statistical analysis and bioinformatics. AKSI, DA-Z, KK-M and HG were responsible for the sample collection. AKSI drafted the manuscript with significant input and revision from THJ and ML. All authors have critically revised the manuscript and have given final approval of its publication. The guarantor of the study is THJ; accepts full responsibility for the finished work and/or the conduct of the study, had access to the data and controlled the decision to publish.</p><p>Funding This work is supported by the <rs type="funder">Novo Nordisk Foundation</rs>, <rs type="person">Challenge Program</rs>, grant number <rs type="grantNumber">NNF19OC0056411</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_jJjRQ52">
+					<idno type="grant-number">NNF19OC0056411</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>et al. The chronic wound characterisation study and biobank: a study protocol for a prospective observational cohort investigation of bacterial community composition, inflammatory responses and wound-healing trajectories in non-healing wounds. BMJ Open 2024;14:e084081. doi:10.1136/ bmjopen-2024-084081 ► Prepublication history for this paper are available online. To view these files, please visit the journal online (https://doi. org/10.1136/bmjopen-2024-084081).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,56.45,311.76,226.66,6.96;10,56.45,320.25,222.94,6.96;10,56.45,328.75,50.30,6.96" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The humanistic and economic burden of chronic wounds: a protocol for a systematic review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Järbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sönnergren</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13643-016-0400-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.44,337.25,211.92,6.96;10,56.44,345.75,205.87,6.96;10,56.44,354.24,134.47,6.96" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Prevalence and incidence of chronic wounds and related complications: a protocol for a systematic review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Järbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sönnergren</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13643-016-0329-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">152</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.43,362.74,215.61,6.96;10,56.43,371.24,228.79,6.96;10,56.43,379.74,79.36,6.96" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The role of debridement in wound bed preparation in chronic wound: A narrative review</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Tsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nain</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.amsu.2021.102876</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Med Surg (Lond)</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">102876</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.42,388.23,223.23,6.96;10,56.42,396.73,75.71,6.96" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Chronic wounds</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Falanga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Isseroff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Soulika</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41572-022-00377-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Dis Primers</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.42,405.23,219.91,6.96;10,56.42,413.73,220.87,6.96;10,56.42,422.22,158.97,6.96" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Prevalence and risk factors of chronic wounds in nursing homes in Germany: A Cross-Sectional Study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Raeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Jachan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Müller-Werdan</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13486</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1128" to="1134" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.41,430.72,204.22,6.96;10,56.41,439.22,205.63,6.96;10,56.41,447.72,82.86,6.96" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Need for Improved Definition of &quot;Chronic Wounds&quot; in Clinical Studies</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Kyaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Järbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martinengo</surname></persName>
+		</author>
+		<idno type="DOI">10.2340/00015555-2786</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Derm Venereol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="157" to="158" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.40,456.21,227.39,6.96;10,56.40,464.71,231.57,6.96;10,56.40,473.21,51.71,6.96" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Mixed-etiology leg ulcers in a patient on long-term glucocorticoid therapy</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sławiński</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Radkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lewandowicz</surname></persName>
+		</author>
+		<idno type="DOI">10.5114/reum.2019.86429</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Reumatologia</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="173" to="177" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.39,481.71,230.51,6.96;10,56.39,490.20,212.89,6.96" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Human Wound and Its Burden: Updated 2020 Compendium of Estimates</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2021.0026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="281" to="292" />
+			<date type="published" when="2021">2021</date>
+			<pubPlace>New Rochelle</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.39,498.70,209.63,6.96;10,56.39,507.20,210.45,6.96;10,56.39,515.70,47.54,6.96" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Why chronic wounds will not heal: a novel hypothesis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bjarnsholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kirketerp-Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Ø</forename><surname>Jensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2007.00283.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="2" to="10" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.38,524.19,227.10,6.96;10,56.38,532.69,125.20,6.96" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Biofilms in chronic wounds</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Swogger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wolcott</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2007.00321.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="37" to="44" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.37,541.19,227.83,6.96;10,56.37,549.69,203.23,6.96;10,56.37,558.18,151.37,6.96" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The prevalence of biofilms in chronic wounds: a systematic review and meta-analysis of published data</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Malone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bjarnsholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mcbain</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2017.26.1.20</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="20" to="25" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,308.92,48.42,236.32,6.96;10,322.76,57.06,216.00,6.96;10,322.76,65.69,18.76,6.96" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Single cells and bacterial biofilm populations in chronic wound infections</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lichtenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kirketerp-Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Kvich</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/apm.13344</idno>
+	</analytic>
+	<monogr>
+		<title level="j">APMIS</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.75,74.32,194.89,6.96;10,322.75,82.95,230.75,6.96;10,322.75,91.59,175.47,6.96" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Nonrandom distribution of Pseudomonas aeruginosa and Staphylococcus aureus in chronic wounds</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fazli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bjarnsholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kirketerp-Møller</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JCM.01395-09</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4084" to="4089" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.74,100.22,215.89,6.96;10,322.74,108.85,223.87,6.96;10,322.74,117.48,210.52,6.96" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Antimicrobials and nonhealing wounds: an update</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Probst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Apelqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bjarnsholt</surname></persName>
+		</author>
+		<ptr target="https://viewer.ipaper.io/jowm/1035279jowm20222303/sup01/?page=1" />
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.73,126.12,224.15,6.96;10,322.73,134.75,209.65,6.96;10,322.73,143.38,156.69,6.96" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Microbial predictors of healing and short-term effect of debridement on the microbiome of chronic wounds</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Verbanic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41522-020-0130-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Biofilms Microbiomes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.73,152.01,222.11,6.96;10,322.73,160.65,214.64,6.96;10,322.73,169.28,160.07,6.96" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Consensus guidelines for the identification and treatment of biofilms in chronic nonhealing wounds</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bjarnsholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>James</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/wrr.12590</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="744" to="757" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.72,177.91,216.50,6.96;10,322.72,186.54,169.66,6.96" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Chronic wounds: Treatment consensus</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Schultz</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/wrr.12994</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="156" to="171" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.71,195.18,205.16,6.96;10,322.71,203.81,226.51,6.96;10,322.71,212.44,56.57,6.96" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">IWII Wound Infection in Clinical Practice consensus document: 2022 update</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Swanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ousey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Haesler</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2022.31.Sup12.S10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="10" to="21" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.70,221.07,214.64,6.96;10,322.70,229.71,224.93,6.96;10,322.70,238.34,51.70,6.96" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Multiple bacterial species reside in chronic wounds: a longitudinal study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gjødsbøl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Karlsmark</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1742-481X.2006.00159.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="225" to="231" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.70,246.97,221.63,6.96;10,322.70,255.60,225.61,6.96;10,322.70,264.24,224.91,6.96;10,322.70,272.87,67.96,6.96" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Success rate of splitthickness skin grafting of chronic venous leg ulcers depends on the presence of Pseudomonas aeruginosa: a retrospective study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Høgsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bjarnsholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Thomsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0020492</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2011">2011. 20492</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.69,281.50,227.24,6.96;10,322.69,290.13,225.04,6.96;10,322.69,298.77,86.43,6.96" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Bacterial colonisation of leg ulcers and its effect on the success rate of skin grafting</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Gilliland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nathwani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Dore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann R Coll Surg Engl</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="105" to="108" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.68,307.40,227.56,6.96;10,322.68,316.03,200.98,6.96;10,322.68,324.66,92.60,6.96" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Temporal Stability in Chronic Wound Microbiota Is Associated With Poor Healing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Loesche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kalan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jid.2016.08.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="237" to="244" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.67,333.30,215.71,6.96;10,322.67,341.93,203.36,6.96;10,322.67,350.56,188.59,6.96" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The Lack of Reliability of Clinical Examination in the Diagnosis of Wound Infection: Preliminary Communication</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Serena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Hanft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Snyder</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1534734607313984</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="32" to="35" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.67,359.19,184.83,6.96;10,322.67,367.83,226.01,6.96;10,322.67,376.46,51.71,6.96" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Challenges in the management of chronic wound infections</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Falcone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jgar.2021.05.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Glob Antimicrob Resist</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="140" to="147" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.66,385.09,192.52,6.96;10,322.66,393.72,214.86,6.96;10,322.66,402.36,60.05,6.96" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Transcriptomic fingerprint of bacterial infection in lower extremity ulcers</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Fritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Kirkegaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Nielsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/apm.13234</idno>
+	</analytic>
+	<monogr>
+		<title level="j">APMIS</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="524" to="534" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.65,410.99,208.57,6.96;10,322.65,419.62,202.95,6.96" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Biofilm Survival Strategies in Chronic Wounds</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Thaarup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aks</forename><surname>Iversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lichtenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/microorganisms10040775</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microorganisms</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">775</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.64,428.25,207.76,6.96;10,322.64,436.89,194.54,6.96" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Challenges in the Treatment of Chronic Wounds</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Frykberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banks</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2015.0635</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care (New Rochelle)</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="560" to="582" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.64,445.52,215.44,6.96;10,322.64,454.15,212.72,6.96;10,322.64,462.78,19.67,6.96" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Permutational multivariate analysis of variance (PERMANOVA)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistics Reference Online</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>StatsRef</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.64,471.42,213.16,6.96;10,322.64,480.05,130.70,6.96" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Analysis of variance ANOVA</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schering</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Wiley Encyclopedia of Clinical Trials</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.63,488.68,214.52,6.96;10,322.63,497.31,207.11,6.96;10,322.63,505.95,54.91,6.96" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Dirichlet multinomial mixtures: generative models for microbial metagenomics</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quince</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0030126</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">30126</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.62,514.58,203.90,6.96;10,322.62,523.21,231.94,6.96;10,322.62,531.84,141.50,6.96" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Multi-Omics Factor Analysis-a framework for unsupervised integration of multi-omics data sets</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Argelaguet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Velten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Arnol</surname></persName>
+		</author>
+		<idno type="DOI">10.15252/msb.20178124</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Syst Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">8124</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,322.61,540.48,205.26,6.96;10,322.61,549.11,197.69,6.96;10,322.61,557.74,54.63,6.96" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Calculating sample size estimates for RNA sequencing data</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Therneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/cmb.2012.0283</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="970" to="978" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,567.14,159.14,8.33,41.51;10,567.14,203.15,8.33,10.50;10,567.14,216.16,8.32,43.51;10,567.14,262.17,8.33,40.01;10,567.14,304.67,8.33,12.00;10,567.14,319.17,8.33,20.51;10,567.14,342.19,8.33,29.51;10,567.14,374.20,8.33,8.50;10,567.14,385.20,8.33,16.00;10,567.14,403.70,8.33,16.00;10,567.14,422.20,8.33,18.50;10,567.14,443.21,8.32,32.00;10,567.14,477.72,8.33,9.00;10,567.14,489.22,8.32,35.51;10,567.14,527.23,8.33,16.00;10,567.14,545.73,8.33,29.02;10,567.14,577.25,8.33,58.01;10,576.14,717.30,8.33,2.50;10,576.14,677.79,8.33,10.50;10,576.14,690.79,8.33,24.00;10,576.14,606.25,8.33,11.00;10,576.14,619.75,8.33,18.01;10,576.14,640.26,8.32,12.51;10,576.14,655.27,8.33,20.02" xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">2025</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

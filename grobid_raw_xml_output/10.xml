@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F020CB0F8D0480EE72EF6ACA56EAC4DF</idno>
+					<idno type="DOI">10.1097/01.ASW.0000483250.24007.23</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>wound measurement</term>
+					<term>predicting wound healing</term>
+					<term>advanced wound therapy</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Measuring and monitoring wound progress by size are an important management tool. Wound progress and size can help assess the effectiveness of therapy and predict healing, while preparing for application of advanced wound products and treatments. The authors outline methods of tracking wound size and predictors of healing in venous leg ulcers.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="558.0" lry="756.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="558.0" lry="756.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="558.0" lry="756.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data and Doing: Using Wound Size to Evaluate Wound Care in Venous Ulcers</head><p>Barbara Bates-Jensen, PhD, RN, FAAN; and Gregory A. Bohn, MD, FACS</p><p>The use of wound size as an essential component of wound assessment is included in all clinical practice guidelines for wounds. <ref type="bibr">1Y6</ref> Measuring wound size is an established standard practice in wound care clinics and other healthcare settings.</p><p>Although it seems intuitive that assessing for changes in wound size is an essential component of evaluating wound treatment, clearly the wound has to get smaller to heal; interpreting the rate of and trend in wound size change is often overlooked as a predictor for wound healing. Furthermore, research studies on wound size and other wound and patient characteristics on initial wound presentation can be valuable to keep in mind when assessing a patient's prognostic chance to heal. 7Y9 Understanding whether a particular wound be difficult to heal is useful in clinical practice and allows the clinician to prepare for failure of the wound to progress. <ref type="bibr" target="#b9">10</ref> Needed changes in treatment can be anticipated, thus preventing delay in initiation of advanced wound therapies that may favorably impact ability to heal. The timely readjustment of treatment may improve time to wound closure with resultant lower probability of complications. <ref type="bibr" target="#b10">11</ref> Although the demonstrated failure of wound treatment to improve the wound is inherent in certain reimbursement requirements, further delay in the implementation of advanced wound therapies could be avoided by preparing for the likely event that the wound, based on initial evaluation, is likely to fail to progress. Therefore, early wound screening based on changes and trends in wound size as a predictor of wound healing likelihood is best practice for wound clinicians.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound Measurement Methods</head><p>Multiple methods are available to measure wounds to determine their surface area. Simple linear measurement of length and width multiplied to estimate surface area can be obtained using standard reference points (eg, head to toe and side to side, clock face 12:00 to 6:00 and 9:00 to 3:00; or longest aspect by perpendicular widest aspect), acetate film tracing with area calculation, or laser scanner technology embedded in cameras or devices, which have all been used and described. <ref type="bibr" target="#b9">10</ref> The accuracy of various methods differs; however, routinely using a consistent reproducible wound measurement method that can be applied by varied caregivers with each wound assessment allows for comparison of weekly change to track healing progress. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b11">12</ref> Linear measurements of length and width to calculate surface area have been correlated with healing and have been commonly used to determine wound size and surface area <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b12">13</ref> ; however, newer technology is offering advanced measurement options. Use of laser technology embedded in a camera-type device has simplified obtaining and improved the accuracy of wound size measures. Deciding which method to use to obtain wound size is often a matter of clinician preference.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Using Data to Predict Healing in Venous Ulcers</head><p>Treating patients with venous ulcers (VUs) can be somewhat predictable, based on known criteria both at initial presentation and during reevaluation during care. Venous leg ulcers comprise approximately 30% to 40% of chronic wounds and can be some of the most challenging to heal. The goal in treating VUs is to achieve healing in 12 weeks. If a wound fails to heal by the 12th week of treatment, the wound is considered to fall outside the expected healing parameters. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> There are 2 methods of using data and research evidence to predict which VUs are more likely to heal. The first method involves evaluating characteristics during the initial assessment.</p><formula xml:id="formula_0">WWW.WOUNDCAREJOURNAL.COM 347 ADVANCES IN SKIN &amp; WOUND CARE &amp; AUGUST 2016</formula><p>Barbara Bates-Jensen, PhD, RN, FAAN, is Professor, Nursing and Medicine, University of CaliforniaYLos Angeles School of Nursing and David Geffen School of Medicine; a Fellow in the American Academy of Nursing; and President of the Wound Reach Foundation. Gregory Bohn, MD, FACS, is a Surgeon and Medical Director, West Shore Medical Center for Wound Care and Hyperbaric Medicine, Manistee, Michigan; President of the American Board of Wound Healing; a Fellow of the American College of Hyperbaric Medicine and of the American Professional Wound Care Association; and Vice President of the Wound Reach Foundation. Dr Bates-Jensen has disclosed that she is a member of the Cardinal Health Advisory Board; her institution has received grants from the National Institutes of Health and the US Department of Veterans Affairs; she is recipient of the UCLA SEM Scanner patent; royalties from her book authorship are paid directly to the Wound Care Foundation; and she was reimbursed by Bruin Biometrics for travel expenses to attend the European Wound Management Association meeting to present a lecture (unpaid). Dr. Bohn has disclosed that he is a volunteer board member of the Wound Reach Foundation and the Association for the Advancement of Wound Care (AAWC) (current President); he is compensated by the AAWC for travel expenses related to association work; and he has previously been reimbursed for providing educational services to Wound Care Advantage. ''Quality Measures'' is a review column published in partnership with the Wound Reach Foundation, a 501(c)(3) nonprofit charity organization. Submitted January 20, 2016; accepted March 24, 2016.</p><p>Simple wound characteristics assessed on initial presentation, such as wound duration, wound size, and the patient's vascular status, are predictors of wound closure within 12 to 24 weeks with standard VU treatment with compression. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> There are several similar approaches to using these characteristics in clinical practice. One approach is to assess and assign a score for wound duration and wound size:</p><p>wound duration 6 months or greater = 1 point wound size 5 cm 2 or greater = 1 point If the total score equals zero, the positive predictive value is approximately 93% that the VU will heal with compression. If the total score is 1 or 2, it is unlikely that compression alone will result in ulcer healing, so these VUs should be treated with advanced therapies. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> A second approach includes evaluation of the patient's ankle-brachial index. Patients presenting with wounds less than 10 cm 2 , wounds of less than 12 months' duration, and with an ankle-brachial index of 0.8 or greater indicating probable absence of peripheral arterial disease have an 80% chance of healing with standard therapy within 24 weeks. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b13">14</ref> Clinicians must understand that when negative risk factors are present, the expectation for success may be much less, even at 24 weeks of care. Identifying this poorer potential to heal at the outset of care may help clinicians prepare to intervene quickly and attempt to change the course of care when benchmarks of healing are not present initially.</p><p>The second method of using data and research evidence to predict which VUs are more likely to heal is evaluating the change and trend in wound surface area. Venous ulcers that decrease in surface by 30% in 4 weeks are more likely to heal within 12 weeks with standard wound treatment (including compression) than those wounds that do not exhibit a 30% reduction in surface within 4 weeks of treatment. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> The 30% reduction in surface within 4 weeks has become a standard measure of treatment effectiveness in VUs. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> Determining wound size measurements, calculating surface area (or using a device with laser technology that determines surface area automatically), and monitoring for 30% surface reduction within 4 weeks are essential to incorporate into everyday clinical practice and critical thinking for clinicians who treat VUs. Even VUs that are healing at 30 days can plateau or stop the healing progress, so monitoring for continuous reduction in surface area is important. <ref type="bibr" target="#b15">16</ref> Thus, 60% surface area reduction at 8 weeks of treatment, 90% surface area reduction at 12 weeks of treatment, and complete wound closure at 16 weeks of treatment are monitored.</p><p>When a VU has not met goals of healing, it is recommended to reevaluate the treatment plan and possibly change therapy. In addition, Medicare, Medicare intermediaries, and commercial insurers use these data assessments as criteria to warrant application of advanced modalities. <ref type="bibr" target="#b16">17</ref> Given the lack of response to standard therapy, advanced wound therapy can be considered and become covered benefits for the patient. As in the case of a failing VU, consideration would be to apply a cellular-based tissue product in order to change the course of the wound and stimulate healing if an ulcer has not met the 4-week benchmark of 30% reduction in wound surface area. <ref type="bibr" target="#b16">17</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary</head><p>The data on wound size, duration, and presence of peripheral arterial disease on initial presentation, along with monitoring for surface area reductions, are not new. However, use of these data in clinical practice remains uneven. Incorporating evidence-based therapy to treat patients with VUs would help to ensure that patients receive the best treatment available from the initial assessment visit. Having the ability to assess progress as it relates to treatment gives the clinician a means by which to evaluate the effectiveness of that treatment and how the patient responds to it. If the patient is not responding to treatment, the clinician has the option to change or modify the treatment regimen to effect improvement and healing. In wound care, change in wound surface area is best used to follow wound progress.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="3,291.23,384.02,235.41,5.81;3,296.79,392.52,139.54,5.81" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Definitions and guidelines for the assessment of wounds and evaluation of healing</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Lazarus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Knighton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="489" to="493" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,291.23,400.97,235.45,5.81;3,296.79,409.42,63.79,5.81" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Guidelines for the treatment of venous ulcers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Robson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Gould</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Rep Reg</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="649" to="662" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,291.23,417.92,235.41,5.81;3,296.79,426.37,39.70,5.81" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Guidelines for the treatment of pressure ulcers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Whitney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Aslam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Rep Reg</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="663" to="679" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,291.23,434.87,235.43,5.81;3,296.79,443.32,229.81,5.81;3,296.79,451.77,229.85,5.81" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The care of patients with varicose veins and associated chronic venous diseases: Clinical practice guidelines of the Society for Vascular Surgery and the American Venous Forum journal of vascular surgery</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gloviczki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Comerota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Dalsing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Suppl):2S-48S</note>
+</biblStruct>
+
+<biblStruct coords="3,291.27,460.27,235.39,5.81;3,296.90,468.72,229.80,5.81;3,296.90,477.16,200.96,5.81" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Association for the Advancement of Wound Care Venous Ulcer Guideline</title>
+		<ptr target="http://aawconline.org/professional-resources/resources/" />
+		<imprint>
+			<date type="published" when="2010-12">December 2010. May 16, 2016</date>
+			<pubPlace>Malvern, Pennsylvania</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Association for the Advancement of Wound Care</note>
+</biblStruct>
+
+<biblStruct coords="3,291.23,485.67,235.53,5.81;3,296.79,494.12,229.85,5.81;3,296.79,502.62,162.39,5.81" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">European Pressure Ulcer Advisory Panel and Pan Pacifc Pressure Injury Alliance. Prevention and Treatment of Pressure Ulcers: Clinical Practice Guideline</title>
+		<editor>Emily Haesler</editor>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<pubPlace>Cambridge Media; Osborne Park, Australia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Pressure Ulcer Advisory Panel</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,291.23,511.07,235.39,5.81;3,296.79,519.51,170.59,5.81" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A multicentre study of percentage change in venous leg ulcer area as a prognostic index of healing at 24 weeks</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="960" to="964" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,291.23,528.02,216.50,5.81" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Expected healing rates for chronic wounds</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="155" to="158" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,291.23,536.46,235.44,5.81;3,296.79,544.91,39.80,5.81" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Efficacy and prognostic value of simple wound measurements</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="157" to="161" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,290.73,553.42,216.05,5.81" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The importance of continuous wound measuring</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gethin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds UK</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="60" to="68" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,290.73,561.86,235.91,5.81;3,296.50,570.31,136.76,5.81" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Foot ulcers in the diabetic patient, prevention, and treatment. Vasc Health and Risk Manage</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Driver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Wrobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="65" to="76" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,290.73,578.81,235.93,5.81;3,296.50,587.26,197.76,5.81" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Risk factors related to the failure of venous leg ulcers to heal with compression treatment</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Milic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Zivic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Bogdanovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Karanovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">V</forename><surname>Golubovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1242" to="1247" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,290.73,595.76,235.91,5.81;3,296.50,604.21,159.89,5.81" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Reliability of wound measuring techniques in an outpatient wound center</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bryant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Mostow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="44" to="51" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,290.73,612.66,235.94,5.81;3,296.50,621.16,83.01,5.81" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Risk factors associated with the failure of a venous leg ulcer to heal</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Berlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Derm</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="920" to="926" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,290.73,629.61,235.94,5.81;3,296.50,638.06,83.98,5.81" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Surrogate Endpoints for the treatment of venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Gelfand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hoffstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="1420" to="1425" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,290.73,646.56,235.91,5.81;3,296.50,655.01,230.13,5.81;3,296.50,663.51,176.05,5.81" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Subsequent delayed progress in diabetic wounds receiving standards care that meet initial positive area reduction predictive of healing at four weeks. Presented at Diabetic Global Conference</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Warriner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Synder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cardinal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">March 18-20, 2010</date>
+			<pubPlace>Los Angeles, California</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,290.73,671.96,235.91,5.81;3,296.50,680.40,230.22,5.81;3,296.50,688.91,230.05,5.81;3,296.50,697.36,229.92,5.81;3,296.50,705.80,98.83,5.81" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Local Coverage Determination for Application of Bioengineered Skin Substitutes to Lower Extremity Chronic Non-Healing Wounds</title>
+		<author>
+			<persName><surname>Novitas</surname></persName>
+		</author>
+		<ptr target="https://www.cms.gov/medicare-coverage-database/details/lcd-details.aspx" />
+	</analytic>
+	<monogr>
+		<title level="m">?LCDId=35041&amp;ContrId=339&amp;ver=28&amp;ContrVer=1&amp;Cntrctr Selected=339*1&amp;Cntrctr=339&amp;s=All&amp;DocType=Active%7cFuture&amp;bc=AAgAAAIAAAAAAA %3d%3d&amp;</title>
+		<imprint>
+			<date type="published" when="2016-06-21">June 21, 2016</date>
+		</imprint>
+	</monogr>
+	<note>L35041</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

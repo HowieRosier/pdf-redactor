@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The UTrack framework for segmenting and measuring dermatological ulcers through telemedicine</title>
+				<funder>
+					<orgName type="full">São Paulo Research Foundation</orgName>
+				</funder>
+				<funder ref="#_gDKMdxQ">
+					<orgName type="full">FAPESP</orgName>
+				</funder>
+				<funder ref="#_pNUczT4 #_wYdtxM6 #_jNPDffH #_83xfD2a #_2D4rXpb">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_Bm77p4X">
+					<orgName type="full">National Council for Scientific and Technological Development (CNPq)</orgName>
+				</funder>
+				<funder ref="#_wSrqcdb">
+					<orgName type="full">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior -Brasil (CAPES) -Finance Code</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-05-13">13 May 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Mirela</forename><forename type="middle">T</forename><surname>Cazzolato</surname></persName>
+							<email>mirelac@usp.br</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Mathematics and Computer Science</orgName>
+								<orgName type="institution">University of São Paulo (USP)</orgName>
+								<address>
+									<settlement>São Carlos</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><forename type="middle">S</forename><surname>Ramos</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Mathematics and Computer Science</orgName>
+								<orgName type="institution">University of São Paulo (USP)</orgName>
+								<address>
+									<settlement>São Carlos</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lucas</forename><forename type="middle">S</forename><surname>Rodrigues</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Mathematics and Computer Science</orgName>
+								<orgName type="institution">University of São Paulo (USP)</orgName>
+								<address>
+									<settlement>São Carlos</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lucas</forename><forename type="middle">C</forename><surname>Scabora</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Mathematics and Computer Science</orgName>
+								<orgName type="institution">University of São Paulo (USP)</orgName>
+								<address>
+									<settlement>São Carlos</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><forename type="middle">Y T</forename><surname>Chino</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">InterlockLedger</orgName>
+								<address>
+									<settlement>São Paulo</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ana</forename><forename type="middle">E S</forename><surname>Jorge</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Physical Therapy</orgName>
+								<orgName type="institution">Federal University of São Carlos (UFSCar)</orgName>
+								<address>
+									<settlement>São Carlos</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paulo</forename><surname>Mazzoncini De Azevedo-Marques</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Ribeirão Preto Medical School</orgName>
+								<orgName type="institution">University of São Paulo (USP)</orgName>
+								<address>
+									<settlement>Ribeirão Preto</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Caetano</forename><surname>Traina</surname><genName>Jr</genName></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Mathematics and Computer Science</orgName>
+								<orgName type="institution">University of São Paulo (USP)</orgName>
+								<address>
+									<settlement>São Carlos</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Agma</forename><forename type="middle">J M</forename><surname>Traina</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Mathematics and Computer Science</orgName>
+								<orgName type="institution">University of São Paulo (USP)</orgName>
+								<address>
+									<settlement>São Carlos</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">UTrack -App is</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The UTrack framework for segmenting and measuring dermatological ulcers through telemedicine</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-05-13">13 May 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1AA596863E830F3776300223E01D2F4E</idno>
+					<idno type="DOI">10.1016/j.compbiomed.2021.104489</idno>
+					<note type="submission">Received 15 December 2020; Received in revised form 7 May 2021; Accepted 8 May 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Dermatological ulcers Wound measurement Mobile Segmentation Image processing Telemedicine mHealth</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Chronic dermatological ulcers cause great discomfort to patients, and while monitoring the size of wounds over time provides significant clues about the healing evolution and the clinical condition of patients, the lack of practical applications in existing studies impairs users' access to appropriate treatment and diagnosis methods. We propose the UTrack framework to help with the acquisition of photos, the segmentation and measurement of wounds, the storage of photos and symptoms, and the visualization of the evolution of ulcer healing. UTrack-App is a mobile app for the framework, which processes images taken by standard mobile device cameras without specialized equipment and stores all data locally. The user manually delineates the regions of the wound and the measurement object, and the tool uses the proposed UTrack-Seg segmentation method to segment them. UTrack-App also allows users to manually input a unit of measurement (centimeter or inch) in the image to improve the wound area estimation. Experiments show that UTrack-Seg outperforms its state-of-the-art competitors in ulcer segmentation tasks, improving F-Measure by up to 82.5% when compared to superpixel-based approaches and up to 19% when compared to Deep Learning ones. The method is unsupervised, and it semi-automatically segments real-world images with 0.9 of F-Measure, on average. The automatic measurement outperformed the manual process in three out of five different rulers. UTrack-App takes at most 30 s to perform all evaluation steps over high-resolution images, thus being well-suited to analyze ulcers using standard mobile devices.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Motivation. Several health conditions and diseases demand continuous observation and frequent follow-ups regarding the patients' treatment. Thus, having mechanisms to allow such observation without imposing more stress on patients has been sought by medical specialists. Moreover, appropriate tools will make it possible to service patients with diverse health conditions which may make it difficult for patients to leave home and go to medical facilities. Bedridden patients with low mobility or aggravated comorbidities often present fragile health, thus they should preferably receive home treatment. They are also susceptible to infections, for instance, Sars-CoV-2 (COVID-19) and Influenza A (H1N1). Further, patients from remote communities should be able to access effective care and accurate information about their condition <ref type="bibr" target="#b17">[18]</ref>.</p><p>Among the conditions that require home care, we focus on chronic dermatological ulcers. Burns, infections, and poor blood circulation are examples of skin ulcer causes <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b32">33]</ref>. Dermatological ulcers can also occur due to various skin conditions and the presence of preexisting diseases, such as diabetes <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b26">27]</ref>. Delays in health appointments for patients with skin ulcers may even result in limb amputation <ref type="bibr" target="#b36">[37]</ref>. The wound healing process can be complex, dynamic, and lengthy <ref type="bibr" target="#b12">[13]</ref>. Health professionals often debride the wound, inspect the ulcer's healing progress and, when necessary, recommend visits to specialists <ref type="bibr" target="#b36">[37]</ref>. Frequent follow-ups of patients with ulcers are essential in order to identify the stages of wound healing and to adapt or change aspects of treatment when needed.</p><p>Context. Wound size evolution is an effective healing predictor <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b38">39]</ref>. Fig. <ref type="figure" target="#fig_0">1</ref> illustrates two traditional and basic procedures for measuring (i) a patient's wound <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b31">32]</ref>.</p><p>The specialist can (ii-a) place a transparent mesh over the patient's limb and mark the wound edge. The mesh usually has squares of one cm 2 , and the wound size is approximated by the number of squares the ulcer covers. The specialist can alternatively (ii-b) take a photo of the wound and a reference gauge (such as a tape, ruler, and adhesive) using a common camera. Then, the specialist uses a semi-automatic image editing tool on a local computer to trace the ulcer edge. In both methods, (iii) the wound area A is given as A ≃ h*w, where h and w are the largest sides of the ulcer. However, this methodology is imprecise and can overestimate the ulcer size by more than 70% <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b31">32]</ref>.</p><p>Difficulties. Works from the literature have proposed computer systems that support the treatment of chronic skin ulcers <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b33">34]</ref>. Some work has investigated the subject from the visual aspects of the image content and the classification of different wound tissues (e.g. necrosis, calluses, granulation, and fibrin) <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b10">11]</ref>. Other studies have focused on the limb segmentation of patients with ulcers <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b33">34]</ref> and also the wound region <ref type="bibr" target="#b10">[11]</ref>. Nevertheless, without a user-friendly application, computer-aided solutions are not sufficiently developed to effectively aid the medical practice. Thus, potentially valuable assistance to both the health personnel and patients is lost. Wound care applications must be quick, affordable, accurate, user-friendly, and unobtrusive to the patient to be suitable for everyday use <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b36">37]</ref>.</p><p>Significant effort has been made to accurately analyze photos depicting ulcers using mobile devices <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b37">38]</ref>. Mobile Health (mHealth) and telemedicine are effective and essential technologies to provide continuous healthcare support for geographically distant patients. This allows specialists to better monitor patients' conditions and identify the need for suitable intervention. The existing mHealth and telemedicine applications implement supervised classifiers to detect regions with wounds and different tissues in the ulcer. This approach requires a large number of images to both train the model and to allow accurate classification. Unfortunately, there is a lack of large datasets of wound images for model training, which is a significant drawback, leading to models that hardly generalize the classification results <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b33">34]</ref>.</p><p>Further difficulties with existing applications embodying wound measurement rely on specialized equipment, such as heat sensors and 3D cameras <ref type="bibr" target="#b24">[25]</ref>. There are many proprietary tools for wound care, for instance Swift Skin and Wound <ref type="bibr" target="#b1">[2]</ref>, PointClickCare, +WoundDesk, MOWA. 1 The imitoMeasure 2 app is free for use but relies on a trained user to inform the correct wound edge, which can overestimate the wound size. The app also has limited resources in its free version, and the user cannot store ulcer analysis and adequately evaluate the healing evolution. Other tools focus on specific conditions and parts of the body for ulcer prevention, such as heat-based foot ulcer follow-up <ref type="bibr" target="#b26">[27]</ref>.</p><p>Problem Definition and Contributions. This work addresses how to obtain practical and useful measurement as well as follow-up tools for chronic dermatological ulcers. In a preliminary, short work <ref type="bibr" target="#b7">[8]</ref> we proposed the URule-App, which aids dermatological ulcer measurement employing smartphones. In this work, we significantly extend the initial prototype and introduce the UTrack framework.</p><p>UTrack allows the user to measure, store, visualize, and share the analysis of chronic dermatological ulcers along a period of time. UTrack is a free and easy-to-use solution that can run on a regular mobile device containing a standard camera and without an internet connection. No sensors, special cameras, or other specific devices are required. Therefore, the application is widely accessible to patients, caregivers, and healthcare professionals. The UTrack framework includes:</p><p>• UTrack-App, an Android app for users to take pictures, outline relevant regions, and visualize analysis results in a fast, portable and straightforward manner • UTrack-Seg, an unsupervised method to segment the wound and the measurement object in the images, providing their exterior outline • A tick marker detection method, which combined with image segmentation, can approximate the wound area in cm 2 or in 2 • A local database to store all analysis for a patient inside the application • A visualization module to allow users to follow and assess the wound healing evolution • A report generated by the mobile application for the patient to share with their physician</p><p>Recently, Augmented Reality (AR) technology has been employed to measure objects by moving the camera of a mobile device. However, in this study, we employ a ruler-based measuring method because this is the standard protocol followed by health professionals. The use of a ruler or a tape brings analysis confidence to health professionals and can also be double-checked and adjusted whenever necessary. Plus, AR technology can be software and hardware-dependent while the use of a measuring object is accessible and simple (e.g. any reference for one cm or in can be used).</p><p>The in-depth experimental analysis shows that UTrack-Seg can segment both the ulcer and the measurement reference with high quality. Our approach outperformed the color-based pixel classifiers in average F-Measure by up to 114%, the superpixel-based classifiers by up to 82.5%, the deep learning-based approaches by up to 19%, and the region-growing-based competitor by up to 21%. UTrack-App can execute all tasks promptly (up to 30 s for all tasks and high-resolution images) and store all results in a local database. Moreover, UTrack can be modified to work with other types of images and wounds. UTrack-App is available for download 3 under the Creative Commons license.</p><p>Paper outline. This paper is organized as follows. Section 2 gives the background. Section 3 describes related work. Section 4 presents the UTrack framework. Section 5 details the material and methods employed. Section 6 describes the experimental evaluation. Finally, Section 7 concludes the work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Segmentation of dermatological ulcers</head><p>This section covers the relevant background on segmentation methods useful for skin ulcer images. Image I consists of an r by c matrix of n = r × c pixels p i ∈ I, such that 1 ≤ i ≤ n. A pixel p i of a colored image  </p><formula xml:id="formula_0">p i = (R i , G i , B i )</formula><p>, where R i , G i and B i represent the intensity of p i respectively for the red, green and blue color channels. A segmentation algorithm sorts every pixel into disjoint subsets <ref type="bibr" target="#b16">[17]</ref>, which identifies the relevant and non-relevant image regions. For instance, dermatological pictures can be divided into wound and not-wound regions of pixels. Other approaches can also segment wound regions according to specific healing tissues, such as necrosis, fibrin, and granulation. Segmented regions usually present uniform visual characteristics. The algorithms can rely on discontinuity, abrupt changes, and intensity to identify the regions' edges, segmenting the image into groups of similar pixels, following a given criterion <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b16">17]</ref>. Segmentation algorithms rely on different heuristics to classify images. Table <ref type="table">1</ref> summarizes recent approaches from the literature employed for ulcer images' segmentation. We explain the studies as follows.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Pixel and superpixel-based segmentation</head><p>Superpixel-based approaches group pixels into perceptually meaningful atomic regions <ref type="bibr" target="#b0">[1]</ref>. Algorithms generally use color information to group visually similar pixels. The algorithm divides the image I into s disjoint regions, called superpixels. One of the main advantages is that superpixels can replace the rigid structure of the pixel grid of an image, and the generated regions adhere to visual boundaries.</p><p>Many studies have explored the superpixels approach to segment skin ulcer images. In Ref. <ref type="bibr" target="#b3">[4]</ref> the authors proposed CLMeasure, which employs superpixels to divide and classify the ulcer tissues in the images. Having the superpixels, the features from each region are extracted and labeled using off-the-shelf classifiers such as SVM, Naive Bayes, and Random Forests. ICARUS was proposed in Ref. <ref type="bibr" target="#b10">[11]</ref>. It combines superpixels and bags of visual signatures to identify the different patterns depicted in skin healing stages. Both CLMeasure and ICARUS use the extracted features to perform content-based image retrieval. The 2PLA (Two-Phase Learning Approach) method <ref type="bibr" target="#b33">[34]</ref> performs pixel and superpixel-based classification to segment a wound. To estimate the wound size, 2PLA requires the user to provide the number of pixels inside the segmented wound, which is the proportion of wound pixels against all pixels in the limb.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Deep learning-based segmentation</head><p>Recently, a significant effort has been made to take advantage of the deep learning algorithms in image segmentation and classification. Deep Convolutional Neural Networks (CNN) has been used mainly in image recognition tasks <ref type="bibr" target="#b34">[35]</ref> and can perform semantically rich segmentation. CNN uses convolution operations to encode the input image into a feature map, where the objects are segmented. Blanco et al. <ref type="bibr" target="#b4">[5]</ref> proposed QTDU, combining deep learning approaches to classify the superpixels previously extracted from the images according to different ulcer tissues (e.g. granulation and necrosis). QTDU uses ResNet and InceptionV3 CNNs to segment and classify superpixel regions. It receives the superpixels as input and processes six additional layers after using CNN in order to assign the superpixel label. QTDU also estimates the wound area considering the number of pixels inside the segmented wound but not in real-world units.</p><p>DeepLab <ref type="bibr" target="#b8">[9]</ref> is another deep learning model for image segmentation. It employs atrous convolutions to upscale the low-level features and enlarges the field of view of filters with a simple architecture. Deep-Labv3+ <ref type="bibr" target="#b8">[9]</ref> is its latest version, which has an effective decoder to refine the segmentation, replacing the max pooling operations with depth-wise separable convolutions. The DeepLabv3+ decoder concatenates the encoded features, which are upscaled by a factor of four, with the corresponding features.</p><p>U-Net <ref type="bibr" target="#b29">[30]</ref> is an Encoder/Decoder FCN that overcomes the limitation of depending on large amounts of data to train and instead deals with smaller training sets. U-Net improves the segmentation results by considering the spatial information lost in the encoder, copying the activation layers from the decoder, and concatenating them with the up-scaling tensor. In Ref. <ref type="bibr" target="#b9">[10]</ref> the authors employ U-NET to propose ASURA, a segmentation approach for ulcer segmentation.</p><p>Deep learning approaches have shown highly accurate segmentation results. However, such approaches are supervised and usually require extensive training and data augmentation operations to achieve high classification quality.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Region growing segmentation</head><p>Methods for semi-automatic object segmentation have shown promising improvements in recent work. This is the case of the so-called region-growing approaches, which are unsupervised semi-automatic segmentation algorithms. Methods from this category usually rely on manual outline over the input image to perform segmentation. For example, Pavlovčič et al. <ref type="bibr" target="#b24">[25]</ref> proposed a semi-automatic segmentation method based on GrowCut <ref type="bibr" target="#b35">[36]</ref> and GrabCut <ref type="bibr" target="#b30">[31]</ref> to segment skin ulcer</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1</head><p>Segmentation approaches for dermatological ulcers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Work Approaches Objective</head><p>CLMeasure <ref type="bibr" target="#b3">[4]</ref> Classification, Superpixels Content-based image retrieval ICARUS <ref type="bibr" target="#b10">[11]</ref> Pixel classification, Superpixels and Bag of Visual Signatures Content-based image retrieval 2PLA <ref type="bibr" target="#b33">[34]</ref> Pixel and Superpixel classification Limb segmentation QTDU <ref type="bibr" target="#b4">[5]</ref> Superpixels' Deep Learningbased classification</p><p>Wound segmentation and measurement (in pixels) DeepLabV3+ <ref type="bibr" target="#b8">[9]</ref> Deep Learning-based segmentation General purposes ASURA <ref type="bibr" target="#b9">[10]</ref> Deep Learning-based Segmentation</p><p>Wound segmentation and measurement (in cm 2 or in 2 ) GrowCut and</p><p>GrabCut <ref type="bibr" target="#b24">[25]</ref> Region-growing segmentation 3D wound segmentation and measurement (in cm 2 or in 2 )</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 2</head><p>Overview of existing approaches for dermatological ulcer analysis and the proposed method.  <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref> 2017</p><formula xml:id="formula_1">✕ ✕ ✓ ✕ ✓ ✓ ✕ CLMeasure [4] 2016 ✕ ✓ ✕ ✕ ✕ ✕ ✕ Pasero et al.</formula><formula xml:id="formula_2">✓ ✓ ✕ ✕ ✕ ✕ ✕ Fraiwan et al. [15] 2018 ✕ ✕ ✓ ✕ ✕ ✕ ✓ ICARUS [11] 2018 ✕ ✓ ✕ ✕ ✕ ✕ ✕ MyFootCare [6,27] 2018 ✓ ✓ ✓ ✕ ✓ ✓ ✓ Shirley et al. [33] 2019 ✕ ✓ ✕ ✕ ✕ ✕ ✕ Dastjerdi et al. [22] 2019 ✓ ✓ ✕ ✕ ✕ ✕ ✕ QTDU [5] 2020 ✕ ✓ ✕ ✕ ✕ ✕ ✕ ASURA [10] 2020 ✓ ✓ ✕ ✓ ✕ ✕ ✕ Proposal: UTrack 2021 ✓ ✓ ✓ ✓ ✓ ✓ ✓</formula><p>images. The method calculates both 2D (i.e., perimeter and area) and 3D (i.e., volume) measurements of a dermatological ulcer, based on interior and exterior manual outlines. CleverSeg <ref type="bibr" target="#b27">[28]</ref>, which requires only the exterior outline of the object being segmented, uses semi-automatic segmentation over grayscale images. CleverSeg, initially developed for segmenting paraspinal muscles in magnetic resonance images, uses mathematical morphology <ref type="bibr" target="#b16">[17]</ref> to estimate the target region. It receives the image and the external outline of the object of interest in the image. It is shown <ref type="bibr" target="#b27">[28]</ref> that CleverSeg outperforms existing region-growing segmentation approaches, such as GrowCut and GrabCut.</p><p>In this work, we describe our novel UTrack-Seg approach, an improved version of the CleverSeg <ref type="bibr" target="#b27">[28]</ref> method, which was developed to process grayscale images. UTrack-Seg extends CleverSeg to handle the RGB color channels required to process the colored photos of dermatological wounds and segments the wound and ruler regions in the images, while considering the provided exterior outline. Importantly, UTrack--Seg is unsupervised and requires no training step to segment images.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Related work</head><p>This section presents related work regarding computational methods to analyze dermatological ulcer images in practical approaches. We cover recent methods involving the aspects related to our proposal, summarized in Table <ref type="table">2</ref>, as follows:</p><p>• Wound size: whether the approach measures the ulcer size in the image • No special equipment: whether collection and analysis of images is independent of special equipment • Mobile: whether it is available as a mobile solution to be used in practice • Available application: whether it is free for patients and health practitioners • Patient history: whether it keeps historical information and analyses • Temporal analysis: whether it tracks the evolution of a patient's condition over time • Information sharing: whether information can be shared among patients and health professionals Wang et al. <ref type="bibr" target="#b37">[38]</ref> proposed a wound image analysis system for Android. The system provides real-time wound segmentation, which employs a mean shift algorithm to determine the wound boundaries. The system calculates the wound area with a simple connected-region detection method and predicts the wound healing status based on a red-yellow-black color evaluation model. The system requires a particular device named Image Capture Box to acquire images from patients. The device has mirrors and white LEDs to provide consistent camera angle and lighting. The generated mask determines the wound's boundaries between regions of pixels classified as granulation, slough, or necrosis. Storing data along time allows the system to identify trend patterns and monitor the patient's healing evolution. However, the system has some disadvantages. It gives the wound size as the sum of pixels and not an actual measurement unit like cm 2 or in 2 . Also, it does not evaluate or report the quality of segmentation and classification.</p><p>CLMeasure <ref type="bibr" target="#b3">[4]</ref> focuses on retrieving skin ulcer images based on their visual similarity, exploiting the different healing stages which are depicted in the image. The method subdivides the image into superpixel regions and classifies each superpixel considering the features that indicate the classifications of granulation, necrosis, callous, and fibrin. It uses a composition function over the labeled regions for distance assessment among images. ICARUS <ref type="bibr" target="#b10">[11]</ref> is based on superpixels combined with Bags of Visual Signatures. It focuses on content-based retrieval of ulcer images and presents higher quality results than CLMeasure <ref type="bibr" target="#b10">[11]</ref> when considering skin ulcers at different healing stages.</p><p>Pasero et al. <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref> proposed an automatic method for leg ulcer segmentation and analysis. Photos are acquired using a smartphone camera, and the segmentation is based on a morphological opening with a disk-shaped structuring element, over both RGB and HSV color spaces. The authors estimate the wound size using a specific ruler to convert the number of pixels to cm 2 . The automatic measurement of wounds presented results comparable to manual measurements. However, the study does not present further analysis nor results of comparisons with other segmentation approaches.</p><p>Fraiwan et al. <ref type="bibr" target="#b14">[15]</ref> proposed a mobile app for foot skin ulcer analysis using a thermal camera for temperature-based image processing. The mULCER mobile app <ref type="bibr" target="#b25">[26]</ref> analyzes images and additional information and provides informative texts to the user. Marchione et al. <ref type="bibr" target="#b20">[21]</ref> explains that existing approaches regarding software for pressure ulcer prevention most commonly rely on specialized equipment and sensors, strict control of the patient's position in bed, and written information.</p><p>MyFootCare <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b26">27]</ref> is a mobile application prototype that provides self-care support to people with diabetic foot ulcers. The app focuses on engaging patients in self-care practices by allowing them to track the wound's healing process based on photos taken by a mobile phone. It runs on Android devices using a Java Framework and uses the OpenCV library for wound segmentation and analysis. The segmentation requires the user to roughly draw a circle around the ulcer to denote the healthy skin tissue edges and another inside the ulcer. The app runs OpenCV's Morphological Watershed algorithm to segment the image background and isolates the ulcer from healthy tissues. It relies on a small green sticker of 1 cm diameter placed next to the wound to scale and convert the wound area to cm 2 units. MyFootCare records the wound area and information about how the patient feels and what they are doing and allows following the wound size evolution. MyFootCare is not publicly available, and the work does not present experimental evaluations about segmentation nor wound area calculation. As it relies on a specific sticker, it is not useful for untrained patients.</p><p>Shirley et al. <ref type="bibr" target="#b32">[33]</ref> proposed a process to measure the length, area, and volume of wound ulcers. It processes a sequence of images captured by a smartphone and creates a 3D representation using the Structure-from-Motion (SfM) algorithm. It calculates the wound dimensions based on a dynamic threshold in the CIELAB color space. Although acquiring the photos through a smartphone, the subsequent segmentation and calculations are not performed on the device. Moreover, it does not consider temporal data from the analysis, and the calculated wound dimensions are not in real-world units.</p><p>Dastjerdi et al. <ref type="bibr" target="#b21">[22]</ref> proposed another method for semi-automatic wound segmentation and area measurement. It utilizes both 2D and 3D representations, processing a single photo or a video, respectively. The 2D photo can be taken with a digital camera or smartphone, with a flexible paper ruler placed near the wound for size measurement. The segmentation starts by roughly outlining the region of interest around the ulcer. Then, a trained Random-Forest (RF) calculates a probability map of each pixel belonging to the wound or healthy skin. By employing the Otsu's threshold, a binary mask containing the wound area is created over the probability map. The ruler is segmented to calculate the ratio between pixels and centimeters. However, the method was not compared to other segmentation tasks nor wound area calculations, and it does not track the wound size evolution.</p><p>QTDU <ref type="bibr" target="#b4">[5]</ref> is another deep learning-based method that segments the ulcer regions through superpixel-based classification. Besides being computationally costly, the wound area is the sum of pixels in the segmented region. Finally, the ASURA system <ref type="bibr" target="#b9">[10]</ref> was proposed for segmentation and ulcer area measurement in real-world units (cm 2 ). A U-NET network performs the segmentation, which has shown to be highly accurate. ASURA automatically measures the size of the ulcer, and it is complemented by a desktop application to adjust the measurement manually. However, the user has to take the photo and transfer it to a local computer to segment and estimate the ulcer size. This pipeline may impair the use of ASURA in the daily medical procedures carried out at patients' homes.</p><p>Most approaches described in this section require extensive training to classify and segment the wound regions. However, it is difficult to obtain large collections of dermatological ulcer images for training. Moreover, supervised classifiers and content-based retrieval approaches need to consider privacy protection of the patients' images used to train models and to show similar images, respectively. In the following, we detail our proposed UTrack framework to provide adequate support for caregivers and health professionals in their daily routine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">The proposed framework</head><p>In this work, we present our UTrack framework for supporting the follow-up of chronic dermatological ulcers. UTrack provides modules to segment the ulcer and the measurement object, estimate the ulcer area, keep historical data, and visualize the wound and symptoms evolution. Fig. <ref type="figure" target="#fig_1">2</ref> presents the main modules of the UTrack framework. We designed UTrack-App to make the UTrack features available for patients, caregivers, and healthcare professionals and to support ulcer patients' home care (Step i). UTrack-App assists users (a) to acquire a photo of the ulcer, (b) mark the ruler and wound boundaries, and (c) provide visualization of the analysis results and the historical records. Each outlined region is automatically segmented (Step ii) with our proposed segmentation method UTrack-Seg. The next subsections detail UTrack and its components.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">UTrack-App</head><p>UTrack-App is an Android implementation of UTrack. Fig. <ref type="figure" target="#fig_2">3</ref> shows screenshots taken from the main screens of the app. In the main screen (a) users can analyze a new image, check the patient's history, track symptoms and wound size evolution, and obtain information about the app. The app can keep track of one or more ulcers (b). The user can utilize a picture from the device's gallery or take a new photo (c) and inform related symptoms. The green pen must be used to mark the ulcer outline and the magenta pen for the ruler (d). Outlines must be closed boundaries, and segmentation works well even with coarse contours. The analysis is performed after the segmentation, and UTrack-App shows the ulcer region size in cm 2 or in 2 (e). The user can opt to manually revise  the wound measurement (g and h) by informing the measure of a centimeter in the photo (h). Then, the app recomputes the ulcer size and displays the new result.</p><p>For every registered ulcer, (i) UTrack-App keeps the respective analysis in the local database. The user can see the wound healing evolution in terms of wound size and symptoms frequency (j and k). Notice in (b) that the user can share a report of each registered ulcer. The app will generate a pdf file with all analysis results and visual evolution of the corresponding ulcer. This report allows patients to share their information with health professionals.    Interior outline estimation: After the user outlines the wound and the ruler, both as closed boundaries, UTrack-Seg starts estimating the interior of each region. We represent the matrix L as L in (input) and L out (output, the modified matrix) in the algorithm. First, the method fills every pixel inside the outline in the input seeds matrix L in with ones. Next, the algorithm transforms the image (L in ) into a new 2D binary matrix B (temporary), where n 1 interior pixels (white/ones) receive values 1, and the remaining n 0 pixels receive values 0, such that n 0 + n 1 = n (line 1). Then, as depicted in Fig. <ref type="figure" target="#fig_3">4</ref>, UTrack-Seg iterates over B using mathematical morphology.</p><p>On each iteration, the image is eroded by a 3 × 3 'square' structuring element (line 3). The iteration continues until the relation of pixels in the eroded (k 1 i ) and initial (k 1 0 ) masks is lower than Δ, which is computed from measurements of the image, as will be explained later. The estimated interior outline is taken as the eroded region (line 2). Entries of the outlines' matrix L out have values equal to 0 (unlabeled), 1 (foreground or interior region) or 2 (background or exterior outline) (line 4). ) and subtracts the result by the maximum intensity (m) (line 9). Then, h is normalized by m and multiplied by the strength w i , resulting in strength s (line 10). Finally, the method computes the difference between s and w n i (which is the current strength of the neighbors). If this difference is greater than θ (line 11), UTrack-Seg averages the strength w i n with s, which is the new strength (line 12), and updates the corresponding label l j i (line 13).</p><p>In our method, the Euclidean Distance is used to calculate the distance among pixels (line 9). However, as a subject for future evaluation, other distance metrics can be considered as well. UTrack-Seg stops repeating Step 3 after a maximum number of iterations or when the algorithm converges. We empirically set θ (line 11) to 1% to avoid averaging values that only change after the second decimal place. We automatically set the Δ threshold used in Step 1 by averaging the Eccentricity and Solidity <ref type="bibr" target="#b28">[29]</ref> measures of the wound. The segmented regions are the input of UTrack's next step.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Tick detection and area measurement</head><p>As depicted in Fig. <ref type="figure" target="#fig_6">2 -</ref>Step iii, UTrack detects the ticks on the segmented ruler or tape obtained by UTrack-Seg (Fig. <ref type="figure" target="#fig_6">2-</ref>Step ii) to compute the area of the ulcer. UTrack starts cropping the Minimum Bounding Rectangle (MBR) of the region of interest from matrix M using the segmented measurement object. It is assumed that the image is in the horizontal orientation, but it can be rotated if needed. The image is converted to binary and grayscale. Then, UTrack acquires the best threshold applying the ISODATA <ref type="bibr" target="#b2">[3]</ref> algorithms over the image. The method finds the ruler ticks by combining the Line Segment Detector (LSD) approach <ref type="bibr" target="#b15">[16]</ref> with a vertical edge filter. The ruler ticks are   grouped according to their angles. The algorithm keeps the segments with an angle difference of at most 5 • in relation to the group with more elements, i.e. the most parallel ticks. The remaining ticks are grouped by size, and for each group UTrack calculates the distance between the ticks. The distance with the highest probability is given as the proportion of pixels per centimeter.</p><p>Manual Correction of a Length Unity. The visual patterns of distinct measurement objects can present patterns (or elements) such as ticks or markers. The ticks' detection can be presented in low quality according to different measurement tools, e.g. transparent rulers or rubber/plastic tapes that can be folded and distorted during the photo acquisition. To tackle the problem of incorrect length estimations, UTrack allows the user to insert the measurement of a centimeter by hand (see the horizontal green line depicted in Fig. <ref type="figure" target="#fig_6">2 (g)</ref>). Considering n w as the number of pixels in the ulcer region (i.e. the segmented wound), and n r as the pixel density, i.e. the proportion of pixels/cm in the measurement object. The ulcer area A in cm 2 is calculated as A = n w /n 2 r , and the area in in 2 is computed as A = n w /(n r /2.54) 2 . UTrack informs the ulcer size in cm 2 or in 2 and shows the segmented region on the screen (Fig. <ref type="figure" target="#fig_6">2-vi</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Material and methods</head><p>In this section, we detail the setup, datasets, and algorithms employed to evaluate UTrack.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">UTrack-App: implementation and setup</head><p>UTrack-App is an Android application, implemented in Kotlin, and is self-contained and designed to perform all UTrack's mobile operations. We followed the usability guidelines and best design practices provided by Google's Material Design <ref type="foot" target="#foot_0">4</ref> to develop visual components for Android applications. The app incorporates two external APIs, both implemented in Java and widely used in the development of mobile applications: MP Android Chart<ref type="foot" target="#foot_1">5</ref> for graphs visualization, and AndroPDF<ref type="foot" target="#foot_2">6</ref> for report generation. UTrack-App was developed using Android Studio IDE. Both UTrack-Seg and the tick detector algorithm were developed in Java, using the OpenCV 3.4.5 library. The minimum requirements to install UTrack-App are Android OS 8.0 (Oreo -2017) or higher and at least 1 GB of RAM.</p><p>Elapsed times of UTrack's segmentation tasks were collected by simulating the application using Android OS 9.0 (Pie -2018) in the Android development IDE itself. We also collected the real execution time of UTrack-Seg running on three different smartphones, detailed in Table <ref type="table" target="#tab_2">3</ref>. During the experiments, the smartphones were in airplane mode, with app notifications and synchronization disabled to avoid having other processes consuming the devices' processing time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Datasets and segmentation approaches</head><p>The evaluation step was performed over two datasets, ULCER-A <ref type="bibr" target="#b9">[10]</ref> and ULCER-B <ref type="bibr" target="#b11">[12]</ref>. Each dataset has 213 photos of chronic dermatological ulcers taken from patients' lower limbs. The datasets contain arterial and venous ulcers, at different sizes and healing stages (fibrin, granulation, necrotic and callous) as well as different skin colors and treatments. Also, the images have different resolutions. ULCER-A has images taken from 23 patients using no protocol to define the background or camera distance to the wound. Each patient has a sequence of photos taken spanning 90 days. ULCER-B has images taken following a predefined protocol (using the same camera, blue background, and same measurement tape). The ground truth was obtained from experts who manually segmented the images. They used an image editing tool to precisely contour the wound and the measurement object regions. The contours were used as masks to evaluate both UTrack-Seg's and the GrowCut's segmentation quality. For further information on the datasets, refer to Refs. <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b11">12]</ref>.</p><p>We compared UTrack-Seg's segmentation results with seven other methods: GrowCut, which is a well-known region-growing approach; ASURA, QTDU, and DeepLabV3+, which are Deep Learning-based wound segmentation methods; CLMeasure and Icarus (superpixelbased), and Color Classification (pixel-based), which extracts color features from images and classifies them using simple classifiers. ASU-RA's trained models (on ULCER-A, ULCER-B, and ULCER-COMBINED) and implementation were obtained from the original work <ref type="bibr" target="#b9">[10]</ref>. We reimplemented all other algorithms used in our experimental analysis in order to provide a fair comparison among the methods, which share the same platform. The Deep Learning approaches were evaluated using 5-fold cross-validation. We followed the steps described in Ref. <ref type="bibr" target="#b9">[10]</ref> to perform Data Augmentation for ASURA's model training and to split the images into the folds in such a way that images from a single patient are only in one fold.</p><p>We evaluated the UTrack's tick detection ability using a set of 22 tapes and rulers, classified as types i to v, as depicted in Fig. <ref type="figure" target="#fig_4">5</ref>. We compared the accuracy of our application with the manual measurement results obtained by four subjects who are familiar with the issue and used the app to draw a centimeter (cm) in every tool.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Experimental analysis and discussion</head><p>This section begins the evaluation of UTrack-Seg's segmentation quality according to the distance of the exterior outline to the wound edge with different image resolutions and wound sizes. We compare UTrack-Seg results with state-of-the-art segmentation approaches focused on analyzing dermatological ulcers. We show how well UTrack performs ticks detection for different measurement tools. Finally, we present a performance analysis of UTrack-App, considering the different tasks of the UTrack framework.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">UTrack-Seg evaluation</head><p>Our evaluation begins with the UTrack-Seg's parametrization and the segmentation quality, according to the image and wound sizes.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.1.">Distance from outline to wound boundary</head><p>This experiment evaluates how the exterior outline distance to the ulcer edge affects the segmentation quality. Fig. <ref type="figure" target="#fig_7">6</ref> shows an example of external outlines at different distances (in pixels) to the wound edge. At distances of up to 15 pixels, the external outline must be carefully provided to better follow the wound edge. Outlines at distances higher than 20 pixels to the wound edge can be provided more freely and less precisely by the users. Fig. <ref type="figure" target="#fig_9">7</ref> guides the setting of the best distance range for the user to indicate the wound. The charts show the Jaccard, precision, F-Measure (Dice Score), and recall results of UTrack-Seg according to the distance (in pixels) of the exterior outline. The horizontal axis shows the distance range from 5 to 100 in steps of 5 pixels. We evaluate the segmentation of datasets ULCER-A, ULCER-B, and the combination of both, shown in the graphs as ULCER-COMBINED. As a general rule, the farther the outline to the wound edge, the higher the precision and the lower the recall. This occurs because outlines too far from the wound edge tend to consider most of the wound pixels, but they over-segment the wound region, also attaining a high false-positive rate. The best trade-off between precision and recall was obtained with distances between 20 and 30 (highlighted by the yellow bars), as shown by the F-Measure and Jaccard results. Outlines farther than 25 pixels from the wound boundary are finely adjusted by UTrack-Seg to obtain accurate results, and we employ this setting in the following experiments. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.2.">Quality per wound and image size</head><p>Fig. <ref type="figure" target="#fig_8">8</ref> presents the segmentation quality of UTrack-Seg according to the proportion of pixels representing the wound. Tiny wounds (close to zero pixels) incur losses for Jaccard and recall values. However, for the other wound sizes, UTrack-Seg produced steadily high segmentation results.</p><p>Finally, Fig. <ref type="figure" target="#fig_10">9</ref> (a) presents the segmentation quality of UTrack-Seg according to the image resolution existing in both datasets ULCER-A and ULCER-B (represented here by the image width). Again, UTrack-Seg was able to accurately segment the images regardless of the size. This result supports our claim that UTrack-Seg successfully works with images acquired by smartphones, even for devices presenting different image resolutions. ASURA resizes the input image to a 512 × 512 matrix. Thus, we did not report results for size variations in this study. Fig. <ref type="figure" target="#fig_10">9 (b)</ref> shows the segmentation quality of images from 23 patients (from the ULCER-A dataset) considering different resolutions. Each line on the chart corresponds to a patient. Aiming at diminishing cluttering, we employ a color shading variation for the lines in the graph. UTrack-Seg obtained fair results even when segmenting images with the lowest resolution (480 × 640). Images from five patients presented low-quality results for other resolutions. However, the great majority of lines show high and steady segmentation quality.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">Segmentation quality</head><p>Here, we compare UTrack-Seg results with state-of-the-art methods focused on segmenting dermatological ulcers. The competitors are from three categories: Classification-based segmentation, Deep learningbased segmentation, and Region-growing segmentation. Fig. <ref type="figure" target="#fig_11">10</ref> presents the Jaccard, precision, recall, and F-Measure (Dice Score) results for ULCER-A, ULCER-B and their combination ULCER-COMBINED.  presented results comparable to ASURA, with 0.5% better F-Measure. UTrack-Seg also outperformed GrowCut by 22%, which is a regiongrowing segmentation approach.</p><p>In general, UTrack-Seg presented highly-accurate results, compared to ASURA, which is based on the UNet and has shown to be the competitor with the best results. Moreover, UTrack-Seg has the advantage of being unsupervised, so it does not require the expensive data augmentation and training steps of ASURA.</p><p>Fig. <ref type="figure" target="#fig_12">11</ref> shows four examples of images segmented by every evaluated approach. UTrack-Seg achieved the best quality results. Our method shows a more suitable adjustment to the wound edge, without gaps (presented by most superpixel-based approaches), and with fewer oversegmented regions than the best competitor, ASURA. UTrack-Seg also had more favorable results than the region-growing competitor Grow-Cut, which did not properly adhere to the wound edge and segmented only portions of the wound.</p><p>In practice, health practitioners or patients often take pictures in environments with low or high luminosity. To evaluate UTrack-Seg in those scenarios, Fig. <ref type="figure" target="#fig_13">12</ref> shows the segmentation results according to different brightness levels. In part (a) we added or removed different proportions of brightness from every original image. In part (b) we ran UTrack-Seg and ASURA (the closest competitor) over every image and collected the segmentation results. UTrack-Seg has shown consistent segmentation results, mainly for high levels of brightness. The method receives as input the ulcer's exterior annotation, which guides the algorithm during the segmentation. The results indicate that UTrack-Seg was able to correctly detect the wound borders, even for very dark or bright images. UTrack-Seg takes the external outline of the wound (manually informed), and iterates inside the delimited region to segment the ulcer. Accordingly, when the image is very dark, the method may over segment the wound, but the number of pixels segmented will not be bigger than the outlined region, consequently limiting the segmentation error. However, notice that it would be a situation that a closer action of the user can easily fix.</p><p>ASURA was negatively impacted by the influence of low levels of brightness and generated low-quality segmentation results with high levels of brightness. This result was due to ASURA being trained only on Fig. <ref type="figure" target="#fig_2">13</ref>. The ASURA approach trained on different datasets: in (a), the models were used to segment images from ULCER-A. In (b), the models were used to segment images from ULCER-B. The built models do not generalize well for distinct image characteristics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 5</head><p>Pixels per centimeter measurement. The automatic measurement performed by UTrack was better than the manual measurement in three out of five evaluated rulers. the original image dataset. Thus, the results indicate that the ASURA model needs to be trained on different brightness levels to improve its segmentation quality. In fact, ASURA and the other supervised competitors suffer from generalizing the segmentation model. To illustrate this characteristic, Fig. <ref type="figure" target="#fig_2">13</ref>   ASURA in practice would require constantly feeding new images and expert-annotated masks to update the model and maintain the segmentation quality.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">Tick detection</head><p>Table <ref type="table">5</ref> presents the average number of pixels per centimeter measured by the Ground Truth (GT), Automatic Measurement (AM), and the Manual Measurement (MM), with their respective errors.</p><p>The manual measurements were performed by four subjects who were familiar with the task. The results were different for each of the five types of measurement tools employed for this validation (see Fig. <ref type="figure" target="#fig_4">5</ref>). Values highlighted in gray indicate the best result obtained by each type of tool. AM resulted in high absolute errors for measurement tools of type i and ii. However, the method obtained consistent results for measurement tools of type iii, iv, and v. In contrast, MM reduced our method's error by up to 70% and 37.5% for types i and ii, where UTrack had difficulties establishing an accurate measure. For tools iii, iv, and v UTrack achieved more favorable results than MM did. Thus, practical scenarios indicate the need for a manual measurement option to improve wound measurement for some of the objects or rulers used for reference.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.4.">Performance analysis</head><p>In this subsection, we show UTrack's performance. Fig. <ref type="figure" target="#fig_15">14 (a)</ref> shows the execution time spent by UTrack-App to (i) segment the measurement tool, (ii) segment the ulcer, (iii) measure the wound size, and (iv) the overall time to process all tasks (i.e. i + ii + iii). We evaluate the elapsed times according to the image resolution. For each resolution setting, UTrack processed 10 images 15 times each and computed the average elapsed time. The segmentation of the measurement tool is faster than the ulcer segmentation because, in general, the ulcer region is bigger. The (iii) ulcer measurement includes the ticks' detection and wound area calculation and executes in less than a second. The complete execution (iv), even over the highest image resolution, takes a little more than a minute. As the charts show, UTrack-App can finish processing a 4K image (1920 × 2560 pixels), on average, in 75 s, and much less for images with smaller resolution. Considering the currently most used resolution in smartphones (i.e. 1080 × 1920 pixels), the app runs all tasks in less than 25 s, on average. Fig. <ref type="figure" target="#fig_15">14 (b)</ref> shows the average execution time to segment input images of different resolutions collected from three smartphones (see Table <ref type="table" target="#tab_2">3</ref>). In general, the higher the resolution, the higher the elapsed time spent by UTrack. Smartphone S2 finished the segmentation task in up to 87 s for 4K images, which was the longest execution time. The faster smartphone was S3, which took up to 41 s to segment 4K images and up to 3.7 s to segment images with the other resolutions. We also measured the execution time of ASURA to segment the images. As mentioned before, ASURA always takes the input image and resizes it to a 512 × 512 matrix before performing the segmentation. Accordingly, the execution time is almost constant, regardless of the image resolution. ASURA segmented the images in up to 9.7±1 s.</p><p>As UTrack-Seg iterates over the wound and ruler regions during the segmentation, we analyze the impact of the wound size on the execution time. Fig. <ref type="figure" target="#fig_4">15</ref> shows the interior estimation and the segmentation times according to the number of pixels corresponding to the wound size in the image. Even for high-resolution images with wound sizes bigger than 46k pixels, the interior estimation step of UTrack-Seg converges in less than 5 s. Considering the application scenario, where the app user expects timely analysis results, UTrack-App has shown to be well-fitted for the segmentation of dermatological wounds in a mobile application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Conclusion</head><p>In this work, we proposed the UTrack framework to support semiautomatic wound measuring and tracking using mobile devices. The framework provides tools for patients, caregivers, and health professionals to measure ulcers, store historical data, visualize measurement results, and track dermatological wound healing evolution.</p><p>The health professional or caregiver can use UTrack-App to take a photo of the ulcer and inform the patient's symptoms related to the wound, such as pain and itch. The segmentation method UTrack-Seg takes the picture, delineates the outer outlines of the ulcer and of the reference object (e.g., a ruler) and segments both regions, automatically estimating the wound area in cm 2 or in 2 . The framework stores the new picture, symptoms, and the analysis results in a local database. If needed, when the automatic estimation happens to be imprecise, the user can manually input a measurement unit (cm or in). The algorithm uses this information to improve the estimation. The mobile application UTrack-App assists the users in visualizing the healing evolution, providing charts with the wound size evolution along time and the frequency of reported symptoms.</p><p>UTrack-Seg has the advantage of being unsupervised, requiring only a rough outline around the wound region. The studies show that UTrack-Seg segmented dermatological ulcers with F-Measure of 0.9, on average. The proposed segmentation method outperformed its competitors, presenting consistent and accurate results to assist health professionals in tracking dermatological ulcer evolution. Moreover, it is fast enough to be helpful in daily health care practice. For example, UTrack-App can execute the ruler segmentation, wound segmentation, and ulcer measurement tasks typically in less than 30 s when using the most common image resolution of 1080 x 1920 pixels.</p><p>UTrack is also dependable. UTrack outperformed the manual measurement of a centimeter in 3 out of 5 evaluated measurement tools. A manual measurement estimation can be used to correct the cases where the method is not precise enough. Importantly, UTrack-App does not require internet connection nor data transfer, performing all tasks locally (on the mobile device). However, when required, a user can generate a report and share it with a health professional using some communication applications. All images, related information, and results are stored on the mobile device, without patient identification, for privacy reasons. A subject of future work is to improve the framework in a version to allow professionals to manage and visualize data from several subjects and provide evolution prognostics and treatment directions. However, such features are outside the scope of this paper since such a tool requires proper approval by ethics committees and is intended only for health care professionals. We also intend to explore augmented reality (AR) technology to take advantage of mobile cameras' technical parameters as an alternative to measure the wound area.</p><p>the reported evaluations. Ana E. S. Jorge assisted in the design of the proposed methods, the validation assessment of the results in the medical domain, and the applicability of the current study. Paulo M. de Azevedo-Marques, Caetano Traina Jr. and Agma J. M. Traina assisted in the design and validation of the proposed methods. The authors declare that they have read and approved the final version of this article.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Manual measurement of dermatological ulcers.</figDesc><graphic coords="2,39.63,55.40,247.97,139.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The proposed framework UTrack.</figDesc><graphic coords="5,39.63,55.44,247.97,277.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. UTrack-App screenshots.</figDesc><graphic coords="5,112.76,484.72,369.79,223.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. UTrack-Seg erosion operations to estimate the interior seed region.</figDesc><graphic coords="6,124.10,55.41,347.04,365.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Five types of measurement tools evaluated.</figDesc><graphic coords="6,308.58,459.94,247.97,234.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>4. 2 .Algorithm 1 .</head><label>21</label><figDesc>UTrack-Seg: image segmentation UTrack-Seg considers the foreground segmentation, which can be the ulcer or the measurement tool, as well as the background. Images from mobile devices are taken as color images in the RGB (Red, Green, Blue) color model, represented as a matrix I with r rows and c columns: (there are n = |I| = r × c RGB pixels p). The outlines are set in another matrix, Seeds L, which has the same dimensions as I. UTrack-Seg has three main steps, as presented in Algorithm 1 and detailed as follows: UTrack-Seg 1.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>2 .</head><label>2</label><figDesc>Weight matrix initialization: Based on the label matrix L out , the algorithm initializes a weight matrix W to fill every entry ∀w i ∈ W with ones for corresponding labeled entries l i ∈ L out (interior and exterior outlines) and with zeros otherwise. The maximum pixel intensity m has the value of 255, considering that the RGB values on each channel are in the range [0, 255] ∈ Z. 3. Segmentation: Let us consider each pixel p i ∈ I, i = {1, …,n } and its 8 neighbor pixels p j i ∈ I, j = {1, …, 8} (line 8). First, UTrack-Seg calculates the absolute difference (h) between the RGB pixel intensity (p i ) and its neighbors' (p j i</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Examples of external outlines (in green) at different distances (informed by the white numbers) to the wound edge.</figDesc><graphic coords="7,124.10,55.41,347.04,186.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Segmentation quality according to the wound size, considering the dataset ULCER-COMBINED, where each dot corresponds to an image: the higher the better.</figDesc><graphic coords="8,124.10,396.80,347.04,313.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. UTrack-Seg: Segmentation quality according to the distance of the outline boundary to the ulcer edge. The yellow bars show the distances presenting the best trade-off between precision and recall.</figDesc><graphic coords="8,112.76,55.43,369.79,281.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Segmentation quality per image resolution considering (a) the entire dataset (ULCER-COMBINED) and (b) the images from every patient (ULCER-A).</figDesc><graphic coords="9,39.63,55.41,247.97,506.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. Segmentation quality of ulcer regions: the higher the better.</figDesc><graphic coords="10,77.33,55.44,440.64,371.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 11 .</head><label>11</label><figDesc>Fig. 11. Segmentation quality: UTrack-Seg outperformed its competitors and accurately segmented wound regions.</figDesc><graphic coords="11,112.76,55.40,369.79,525.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 12 .</head><label>12</label><figDesc>Fig. 12. Segmentation quality according to the image brightness, considering the dataset ULCER-COMBINED: UTrack-Seg (redish graph) outperforms ASURA (blackish graph) at both high and low values of brightness.</figDesc><graphic coords="12,124.10,55.43,347.04,451.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head></head><label></label><figDesc>shows ASURA's segmentation results when we evaluate its generalization error. In this example, we show ASURA's segmentation quality when trained and tested on the same dataset (purple dashed bars) or trained on a dataset and tested using the other one (gray bars). In (a), the gray bars correspond to images from ULCER-A segmented using a model trained on ULCER-B. The purple bars correspond to images from ULCER-A segmented using a model trained on the same dataset. In (b), the gray bars correspond to images from ULCER-B segmented using a model trained on ULCER-A. The purple bars correspond to images from ULCER-B segmented using a model trained on the same dataset. For the purple bar experiments, we employed the same k-fold methodology described for the previous experiments. For the gray bar we used all images in ULCER-A and tested in every image in ULCER-B, and vice-versa. The results show that the segmentation quality heavily drops when the model is not trained on images that are similar to those being classified, lacking generalization. Accordingly, the use of</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig. 14 .</head><label>14</label><figDesc>Fig. 14. Execution time of segmentation and measurement tasks using UTrack-App.</figDesc><graphic coords="14,124.10,55.45,347.04,547.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,124.10,55.42,347.04,372.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Specification of smartphones used in the experiments.</figDesc><table><row><cell>260</cell></row></table><note><p>S1. Xiaomi Mi 8 Lite (2018/3) OS Android 10 MIUI 11 Processor 4 × 2.2 GHz Kryo 260 + 4 × 1.8 GHz Kryo</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Redmi Note 9 Pro (2020/1) OS</head><label></label><figDesc></figDesc><table><row><cell></cell><cell>465 Silver</cell></row><row><cell>GPU</cell><cell>Adreno 618</cell></row><row><cell>RAM</cell><cell>6 GB</cell></row></table><note><p>Android 10 MIUI 11 Processor 2 × 2.3 GHz Kryo 465 Gold + 6 × 1.8 GHz Kryo</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4</head><label>4</label><figDesc>Segmentation quality results for both datasets (ULCER-COMBINED).</figDesc><table><row><cell>Approach</cell><cell>Jaccard</cell><cell>std</cell><cell>Accuracy</cell><cell>std</cell><cell>Precision</cell><cell>std</cell><cell>Recall</cell><cell>std</cell><cell>F-Measure</cell><cell>std</cell></row><row><cell>ICARUS</cell><cell>0.459983</cell><cell>0.26</cell><cell>0.940720</cell><cell>0.05</cell><cell>0.746801</cell><cell>0.30</cell><cell>0.542459</cell><cell>0.31</cell><cell>0.580107</cell><cell>0.28</cell></row><row><cell>CLMeasure</cell><cell>0.388531</cell><cell>0.28</cell><cell>0.932791</cell><cell>0.06</cell><cell>0.612312</cell><cell>0.36</cell><cell>0.493973</cell><cell>0.35</cell><cell>0.496194</cell><cell>0.32</cell></row><row><cell>ColorClassifier</cell><cell>0.306654</cell><cell>0.23</cell><cell>0.887320</cell><cell>0.10</cell><cell>0.582349</cell><cell>0.35</cell><cell>0.448197</cell><cell>0.29</cell><cell>0.423010</cell><cell>0.27</cell></row><row><cell>DeepLabV3+</cell><cell>0.643035</cell><cell>0.22</cell><cell>0.959489</cell><cell>0.04</cell><cell>0.832196</cell><cell>0.20</cell><cell>0.760207</cell><cell>0.25</cell><cell>0.754917</cell><cell>0.21</cell></row><row><cell>ASURA</cell><cell>0.838948</cell><cell>0.16</cell><cell>0.985020</cell><cell>0.02</cell><cell>0.915414</cell><cell>0.12</cell><cell>0.909545</cell><cell>0.13</cell><cell>0.901250</cell><cell>0.13</cell></row><row><cell>QTDU</cell><cell>0.641788</cell><cell>0.21</cell><cell>0.963014</cell><cell>0.03</cell><cell>0.789566</cell><cell>0.21</cell><cell>0.769757</cell><cell>0.20</cell><cell>0.756853</cell><cell>0.20</cell></row><row><cell>GrowCut</cell><cell>0.537223</cell><cell>0.16</cell><cell>0.767221</cell><cell>0.13</cell><cell>0.728603</cell><cell>0.17</cell><cell>0.947223</cell><cell>0.15</cell><cell>0.743007</cell><cell>0.15</cell></row><row><cell>UTrack</cell><cell>0.778915</cell><cell>0.17</cell><cell>0.897829</cell><cell>0.08</cell><cell>0.922237</cell><cell>0.10</cell><cell>0.918869</cell><cell>0.11</cell><cell>0.905617</cell><cell>0.07</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>Table 4 summarizes the results for the ULCER-COMBINED dataset. Considering the average F-Measure results of the classification-based approaches, UTrack-Seg outperformed the color classifier by 114%, IC-ARUS by 56%, and CLMeasure by 83%. UTrack-Seg was around 20% better than the Deep Learning methods DeepLabV3+ and QTDU, and</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_0"><p>https://material.io.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_1"><p>https://github.com/PhilJay/MPAndroidChart.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_2"><p>https://github.com/ch0nch0l/AndroPDF.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This research was financed in part by the <rs type="funder">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior -Brasil (CAPES) -Finance Code</rs> <rs type="grantNumber">001</rs>, by the <rs type="funder">São Paulo Research Foundation</rs> (<rs type="funder">FAPESP</rs>, grants No. <rs type="grantNumber">2016/ 17078-0</rs>, <rs type="grantNumber">2020/07200-9</rs>, <rs type="grantNumber">2018/24414-2</rs>, <rs type="grantNumber">2020/11258-2</rs>, <rs type="grantNumber">2017/23780-2</rs>, <rs type="grantNumber">2020/10902-5</rs>, <rs type="grantNumber">2016/17330-1</rs>), and the <rs type="funder">National Council for Scientific and Technological Development (CNPq)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_wSrqcdb">
+					<idno type="grant-number">001</idno>
+				</org>
+				<org type="funding" xml:id="_gDKMdxQ">
+					<idno type="grant-number">2016/ 17078-0</idno>
+				</org>
+				<org type="funding" xml:id="_pNUczT4">
+					<idno type="grant-number">2020/07200-9</idno>
+				</org>
+				<org type="funding" xml:id="_wYdtxM6">
+					<idno type="grant-number">2018/24414-2</idno>
+				</org>
+				<org type="funding" xml:id="_jNPDffH">
+					<idno type="grant-number">2020/11258-2</idno>
+				</org>
+				<org type="funding" xml:id="_83xfD2a">
+					<idno type="grant-number">2017/23780-2</idno>
+				</org>
+				<org type="funding" xml:id="_2D4rXpb">
+					<idno type="grant-number">2020/10902-5</idno>
+				</org>
+				<org type="funding" xml:id="_Bm77p4X">
+					<idno type="grant-number">2016/17330-1</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>openly available for download at http://github.com/mtc azzolato/utrack-app. The supplementary material provides a demonstration video showing how UTrack-App works.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>All authors participated in the article preparation and review. Mirela T. Cazzolato, Jonathan S. Ramos, Lucas S. Rodrigues, Lucas S. Scabora and Daniel Y. T. Chino contributed to the design, implementation and validation of the proposed methods and were responsible for performing </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that there is no competing interest regarding the work reported in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethical approval</head><p>The images used in this study were obtained with the permission of a researcher involved in a clinical trial approved by the ethical research committee of Ribeirao Preto Medical School, from the University of Sao Paulo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary data to this article can be found online at https://doi. org/10.1016/j.compbiomed.2021.104489.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="16,53.97,426.30,224.52,7.08;16,53.97,434.30,226.67,7.08" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Slic superpixels compared to state-of-the-art superpixel methods</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Achanta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shaji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lucchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Susstrunk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">TPAMI</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="2274" to="2282" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,53.97,442.23,206.67,7.08;16,53.97,450.23,231.17,7.08;16,53.97,458.17,213.32,7.08;16,53.97,466.16,173.48,7.08" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Time-saving comparison of wound measurement between the ruler method and the swift skin and wound app</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Au</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A E</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sasseville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1203475418800942,10.1177/1203475418800942</idno>
+		<ptr target="https://doi.org/10.1177/1203475418800942,10.1177/1203475418800942" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Cutan. Med. Surg</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="226" to="228" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,53.97,474.15,224.25,7.08;16,53.97,482.09,209.86,7.08" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A clustering technique for summarizing multivariate data</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hall</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bs.3830120210</idno>
+		<ptr target="https://doi.org/10.1002/bs.3830120210" />
+	</analytic>
+	<monogr>
+		<title level="j">Behav. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="153" to="155" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,53.97,490.08,232.42,7.08;16,53.97,498.02,232.70,7.08;16,53.97,506.01,212.05,7.08;16,53.97,514.01,45.08,7.08" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">A label-scaled similarity measure for contentbased image retrieval</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V N</forename><surname>Bedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Cazzolato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F D</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E S</forename><surname>Jorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Traina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Azevedo-Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J M</forename><surname>Traina</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ISM.2016.0014</idno>
+		<ptr target="https://doi.org/10.1109/ISM.2016.0014" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>ISM</publisher>
+			<biblScope unit="page" from="20" to="25" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,53.97,521.94,232.73,7.08;16,53.97,529.94,211.91,7.08;16,53.97,537.87,232.69,7.08;16,53.97,545.87,110.05,7.08" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A superpixel-driven deep learning approach for the analysis of dermatological wounds</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Traina</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Azevedo-Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Jorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Bedo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmpb.2019.105079</idno>
+		<ptr target="https://doi.org/10.1016/j.cmpb.2019.105079" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Methods Progr. Biomed</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,53.97,553.81,220.32,7.08;16,53.97,561.80,228.31,7.08;16,53.97,569.79,221.87,7.08;16,53.97,577.73,214.90,7.08;16,53.97,585.72,232.50,7.08;16,53.97,593.66,219.61,7.08;16,53.97,601.65,80.27,7.08" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Myfootcare: a mobile self-tracking tool to promote self-care amongst people with diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ploderer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S D</forename><surname>Seng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lazzarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Netten</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3152771.3156158</idno>
+		<idno>10.1145/3152771.3156158</idno>
+		<ptr target="https://doi.org/10.1145/3152771.3156158" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 29th Australian Conference on Computer-Human Interaction</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Brereton</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Soro</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Vyas</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Ploderer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Morrison</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Waycott</surname></persName>
+		</editor>
+		<meeting>the 29th Australian Conference on Computer-Human Interaction<address><addrLine>Brisbane, QLD, Australia</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2017-11-28">2017. November 28 -December 01, 2017. 2017</date>
+			<biblScope unit="page" from="462" to="466" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,53.97,609.65,232.69,7.08;16,53.97,617.58,232.73,7.08;16,53.97,625.58,185.78,7.08;16,53.97,633.51,57.51,7.08" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Early healing rates and wound area measurements are reliable predictors of later complete wound closure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cardinal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Eisenbud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1524-475X.2007.00328.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1524-475X.2007.00328.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="19" to="22" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,53.97,641.51,216.92,7.08;16,53.97,649.45,232.72,7.08;16,53.97,657.44,232.70,7.08;16,53.97,665.43,231.31,7.08;16,53.97,673.37,232.48,7.08;16,53.97,681.36,232.71,7.08;16,53.97,689.30,199.79,7.08" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Semi-automatic ulcer segmentation and wound area measurement supporting telemedicine</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Cazzolato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Scabora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y T</forename><surname>Chino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E S</forename><surname>Jorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>De Azevedo Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Traina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J M</forename><surname>Traina</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CBMS49503.2020.00073</idno>
+		<idno>10.1109/CBMS49503.2020.00073</idno>
+		<ptr target="https://doi.org/10.1109/CBMS49503.2020.00073" />
+	</analytic>
+	<monogr>
+		<title level="m">33rd IEEE International Symposium on Computer-Based Medical Systems, CBMS 2020</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">G S</forename><surname>De Herrera</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>González</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Santosh</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Z</forename><surname>Temesgen</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Kane</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Soda</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Rochester, MN, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2020">July 28-30, 2020. 2020</date>
+			<biblScope unit="page" from="356" to="361" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,53.97,697.29,222.80,7.08;16,53.97,705.29,221.08,7.08;16,53.97,713.22,217.91,7.08;16,53.97,721.22,174.59,7.08" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Encoder-decoder with atrous separable convolution for semantic image segmentation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Papandreou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schroff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Adam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computer Vision -ECCV 2018</title>
+		<editor>
+			<persName><forename type="first">V</forename><surname>Ferrari</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Hebert</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Sminchisescu</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Y</forename><surname>Weiss</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="833" to="851" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,54.14,729.15,216.91,7.08;16,54.14,737.15,229.79,7.08;16,323.15,55.48,218.94,7.08;16,323.15,63.48,86.84,7.08" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Segmenting skin ulcers and measuring the wound area using deep convolutional networks</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Chino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Scabora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Cazzolato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Jorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Traina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Traina</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmpb.2020.105376</idno>
+		<ptr target="https://doi.org/10.1016/j.cmpb.2020.105376" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Methods Progr. Biomed</title>
+		<imprint>
+			<biblScope unit="page">105376</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,71.41,232.50,7.08;16,323.15,79.41,225.34,7.08;16,323.15,87.34,158.70,7.08" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Icarus: retrieving skin ulcer images through bag-of-signatures</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y T</forename><surname>Chino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Scabora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Cazzolato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E S</forename><surname>Jorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Traina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J M</forename><surname>Traina</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CBMS.2018.00022</idno>
+		<ptr target="https://doi.org/10.1109/CBMS.2018.00022" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>CBMS</publisher>
+			<biblScope unit="page" from="82" to="87" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,95.34,226.21,7.08;16,323.15,103.33,232.54,7.08;16,323.15,111.27,228.43,7.08;16,323.15,119.26,113.09,7.08" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Color image processing and content-based image retrieval techniques for the analysis of dermatological lesions</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A G</forename><surname>Dorileo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A C</forename><surname>Frade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M F</forename><surname>Roselino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Rangayyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Azevedo-Marques</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/IEMBS.2008.4649385</idno>
+		<ptr target="https://doi.org/10.1109/IEMBS.2008.4649385" />
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>EMBC</publisher>
+			<biblScope unit="page" from="1230" to="1233" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,127.20,222.86,7.08;16,323.15,135.19,232.52,7.08;16,323.15,143.18,225.98,7.08;16,323.15,151.12,231.75,7.08;16,323.15,159.12,231.91,7.08;16,323.15,167.05,43.90,7.08" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Automated mobile image acquisition of skin wounds using real-time deep neural networks</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Faria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J M</forename><surname>Vasconcelos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rosado</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-39343-4_6</idno>
+		<idno>10.1007/978-3- 030-39343-4_6</idno>
+		<ptr target="https://doi.org/10.1007/978-3-030-39343-4_6" />
+	</analytic>
+	<monogr>
+		<title level="m">Medical Image Understanding and Analysis -23rd Conference</title>
+		<editor>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Liverpool, UK</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-07-24">2019. July 24-26, 2019, Proceedings, Springer, 2019</date>
+			<biblScope unit="page" from="61" to="73" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,175.05,232.52,7.08;16,323.15,182.98,228.01,7.08;16,323.15,190.98,136.25,7.08" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ways to increase precision and accuracy of wound area measurement using smart devices: advanced app planimator</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Foltynski</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0192485</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0192485" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">192485</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,198.97,232.54,7.08;16,323.15,206.91,193.82,7.08" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mobile application for ulcer detection</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fraiwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ninan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Al-Khodari</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/1874120701812010016</idno>
+		<ptr target="https://doi.org/10.2174/1874120701812010016" />
+	</analytic>
+	<monogr>
+		<title level="j">TOBEJ</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="16" to="26" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,214.90,231.48,7.08;16,323.15,222.84,196.99,7.08" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">LSD: a line segment detector</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Gioi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jakubowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Morel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Randall</surname></persName>
+		</author>
+		<idno type="DOI">10.5201/ipol.2012.gjmr-lsd</idno>
+		<ptr target="https://doi.org/10.5201/ipol.2012.gjmr-lsd" />
+	</analytic>
+	<monogr>
+		<title level="j">IPOL J</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="35" to="55" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,230.83,232.51,7.08;16,323.15,238.82,48.51,7.08" xml:id="b16">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Woods</surname></persName>
+		</author>
+		<title level="m">Digital Image Processing</title>
+		<meeting><address><addrLine>Upper Saddle River, N.J, 2008</addrLine></address></meeting>
+		<imprint>
+			<publisher>Prentice Hall</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,246.76,232.54,7.08;16,323.15,254.76,232.54,7.08;16,323.15,262.69,166.32,7.08;16,323.15,270.69,224.46,7.08;16,323.15,278.62,62.54,7.08" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Recognition of ischaemia and infection in diabetic foot ulcers: dataset and techniques</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compbiomed.2020.103616</idno>
+		<ptr target="http://www.sciencedirect.com/science/article/pii/S0010482520300160" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">103616</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,286.62,232.52,7.08;16,323.15,294.61,232.53,7.08;16,323.15,302.55,107.77,7.08" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">An overview of techniques used to measure wound area and volume</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Little</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mccarron</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2009.18.6.42804</idno>
+		<ptr target="https://doi.org/10.12968/jowc.2009.18.6.42804" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="250" to="253" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,310.54,232.54,7.08;16,323.15,318.48,230.14,7.08;16,323.15,326.47,181.69,7.08" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Wound area measurement with 3d transformation and smartphone images</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12859-019-3308-1</idno>
+		<idno>10.1186/s12859-019-3308-1</idno>
+		<ptr target="https://doi.org/10.1186/s12859-019-3308-1" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinf</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">724</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,334.47,228.07,7.08;16,323.15,342.40,215.98,7.08;16,323.15,350.40,138.45,7.08" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Approaches that use software to support the prevention of pressure ulcer: a systematic review</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marchione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Araújo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Araújo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmedinf.2015.05.013</idno>
+		<ptr target="https://doi.org/10.1016/j.ijmedinf.2015.05.013" />
+	</analytic>
+	<monogr>
+		<title level="j">IJMI</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="725" to="736" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,358.33,227.63,7.08;16,323.15,366.33,232.54,7.08;16,323.15,374.26,230.33,7.08;16,323.15,382.26,26.91,7.08" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Measuring surface area of skin lesions with 2d and 3d algorithms</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mirzaalian-Dastjerdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Töpfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Rupitsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Maier</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2019/4035148,10.1155/2019/4035148</idno>
+		<ptr target="https://doi.org/10.1155/2019/4035148,10.1155/2019/4035148" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biomed. Imag</title>
+		<imprint>
+			<biblScope unit="volume">4035148</biblScope>
+			<biblScope unit="page" from="1" to="4035148" />
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,390.25,207.39,7.08;16,323.15,398.19,223.92,7.08;16,323.15,406.18,225.14,7.08;16,323.15,414.12,202.19,7.08;16,323.15,422.11,58.22,7.08" xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Application of an automatic ulcer segmentation algorithm, in: 3rd IEEE International Forum on Research and Technologies for Society and Industry</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pasero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Castagneri</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/RTSI.2017.8065954</idno>
+		<idno>10.1109/ RTSI.2017.8065954</idno>
+		<ptr target="https://doi.org/10.1109/RTSI.2017.8065954" />
+		<imprint>
+			<date type="published" when="2017-09-11">2017. September 11-13, 2017. 2017</date>
+			<publisher>IEEE</publisher>
+			<biblScope unit="page" from="1" to="4" />
+			<pubPlace>Modena, Italy</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,430.10,227.63,7.08;16,323.15,438.04,222.57,7.08" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Leg ulcer long term analysis</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pasero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Castagneri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Intelligent Computing Theories and Application</title>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="35" to="44" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,446.03,232.54,7.08;16,323.15,453.97,224.03,7.08;16,323.15,461.97,151.97,7.08" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Wound perimeter, area, and volume measurement based on laser 3d and color acquisition</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Pavlovčič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Diaci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Možina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jezeršek</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12938-015-0031-7</idno>
+		<ptr target="https://doi.org/10.1186/s12938-015-0031-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Eng. Online</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,469.90,232.37,7.08;16,323.15,477.90,185.48,7.08" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">mUlcera mobile ulcer care record approach for integrative care</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M C C</forename><surname>Pedro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J P C</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M G</forename><surname>Martins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>EIS</publisher>
+			<biblScope unit="page" from="392" to="401" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,485.89,232.53,7.08;16,323.15,493.83,220.56,7.08;16,323.15,501.82,227.92,7.08;16,323.15,509.76,74.30,7.08" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Promoting self-care of diabetic foot ulcers through a mobile phone app: user-centered design and evaluation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ploderer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S D</forename><surname>Seng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lazzarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Netten</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/10105</idno>
+		<ptr target="https://diabetes.jmir.org/2018/4/e10105/,10.2196/10105" />
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">10105</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,517.75,227.45,7.08;16,323.15,525.74,225.80,7.08;16,323.15,533.68,224.90,7.08;16,323.15,541.67,232.54,7.08;16,323.15,549.61,169.88,7.08" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Fast and smart segmentation of paraspinal muscles in magnetic resonance imaging with cleverseg</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Cazzolato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Faiçal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A C</forename><surname>Linares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Nogueira-Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Traina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J M</forename><surname>Traina</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/SIBGRAPI.2019.00019</idno>
+		<ptr target="https://doi.org/10.1109/SIBGRAPI.2019.00019" />
+	</analytic>
+	<monogr>
+		<title level="m">32nd SIBGRAPI Conference on Graphics, Patterns and Images</title>
+		<meeting><address><addrLine>Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>Rio de Janeiro</publisher>
+			<date type="published" when="2019">October 28-30, 2019, 2019</date>
+			<biblScope unit="page" from="76" to="83" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,557.60,208.02,7.08;16,323.15,565.60,201.94,7.08;16,323.15,573.54,232.51,7.08;16,323.15,581.53,232.55,7.08;16,323.15,589.47,212.11,7.08;16,323.15,597.46,53.83,7.08" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Fine: improving time and precision of segmentation techniques for vertebral compression fractures in mri</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Cazzolato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Nogueira-Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J M</forename><surname>Traina</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3341105.3374100</idno>
+		<idno>10.1145/ 3341105.3374100</idno>
+		<ptr target="https://doi.org/10.1145/3341105.3374100" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 35th Annual ACM Symposium on Applied Computing</title>
+		<meeting>the 35th Annual ACM Symposium on Applied Computing<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="198" to="201" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,605.40,232.49,7.08;16,323.15,613.39,227.07,7.08;16,323.15,621.38,189.67,7.08" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">U-net: convolutional networks for biomedical image segmentation</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Medical Image Computing and Computer-Assisted Intervention</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="234" to="241" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,629.32,226.58,7.08;16,323.15,637.31,232.54,7.08;16,323.15,645.25,80.27,7.08" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">GrabCut: interactive foreground extraction using iterated graph cuts</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rother</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kolmogorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blake</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1015706.1015720</idno>
+		<ptr target="https://doi.org/10.1145/1015706.1015720" />
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans. Graph</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="309" to="314" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,653.24,226.48,7.08;16,323.15,661.24,229.54,7.08;16,323.15,669.18,230.11,7.08;16,323.15,677.17,82.31,7.08" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A novel and accurate technique of photographic wound measurement</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shetty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sreekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lamba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Gupta</surname></persName>
+		</author>
+		<idno type="DOI">10.4103/0970-0358.101333</idno>
+		<ptr target="https://doi.org/10.4103/0970-0358.101333" />
+	</analytic>
+	<monogr>
+		<title level="j">Indian J. Plast. Surg. : official publication of the Association of Plastic Surgeons of India</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="425" to="429" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,685.11,222.85,7.08;16,323.15,693.10,183.55,7.08;16,323.15,701.04,58.42,7.08" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A lightweight approach to 3d measurement of chronic wounds</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shirley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Presnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kolb</surname></persName>
+		</author>
+		<idno type="DOI">10.24132/JWSCG.2019.27.1.8</idno>
+		<ptr target="https://doi.org/10.24132/JWSCG.2019.27.1.8" />
+	</analytic>
+	<monogr>
+		<title level="j">J. WSCG</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,323.15,709.03,229.69,7.08;16,323.15,717.02,213.07,7.08;16,323.15,724.96,206.52,7.08;16,323.15,732.95,217.12,7.08;17,54.14,55.48,224.01,7.08;17,54.14,63.47,54.42,7.08" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A two-phase learning approach for the segmentation of dermatological wounds</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Jasbick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Azevedo-Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J M</forename><surname>Traina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F D</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E S</forename><surname>Jorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V N</forename><surname>Bedo</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CBMS.2019.00076</idno>
+		<ptr target="https://doi.org/10.1109/CBMS.2019.00076" />
+	</analytic>
+	<monogr>
+		<title level="m">32nd IEEE International Symposium on Computer-Based Medical Systems, CBMS 2019</title>
+		<meeting><address><addrLine>Cordoba, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019">June 5-7, 2019, 2019</date>
+			<biblScope unit="page" from="343" to="348" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,54.14,71.41,232.52,7.08;17,54.14,79.40,232.55,7.08;17,54.14,87.34,126.89,7.08" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Inception-v4, inception-resnet and the impact of residual connections on learning</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ioffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vanhoucke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Alemi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Thirty-First AAAI Conference on Artificial Intelligence</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="4278" to="4284" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,54.14,95.33,216.51,7.08;17,54.14,103.32,221.81,7.08;17,54.14,111.26,120.40,7.08" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">GrowCut -interactive multi-label N-D image segmentation by cellular automata</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vezhnevets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Konouchine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Computer Graphics and Vision</title>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,54.14,119.26,212.04,7.08;17,54.14,127.19,207.68,7.08;17,323.15,55.48,222.51,7.08;17,323.15,63.47,189.46,7.08" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Semantic segmentation of smartphone wound images: comparative analysis of ahrf and cnn-based approaches</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Strong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tulu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lindsay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ACCESS.2020.3014175</idno>
+		<ptr target="https://doi.org/10.1109/ACCESS.2020.3014175" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="181590" to="181604" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,323.15,71.41,232.50,7.08;17,323.15,79.40,232.53,7.08;17,323.15,87.34,212.11,7.08;17,323.15,95.33,61.82,7.08" xml:id="b37">
+	<analytic>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Strong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tulu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ignotz</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TBME.2014.2358632</idno>
+		<idno>10.1109/ TBME.2014.2358632</idno>
+		<ptr target="https://doi.org/10.1109/TBME.2014.2358632" />
+	</analytic>
+	<monogr>
+		<title level="m">Smartphone-based wound assessment system for patients with diabetes</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="477" to="488" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,323.15,103.32,223.04,7.08;17,323.15,111.26,223.88,7.08;17,323.15,119.26,224.89,7.08;17,323.15,127.19,162.19,7.08" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Pressure injury image analysis with machine learning techniques: a systematic review on previous and possible future methods</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zahia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B G</forename><surname>Zapirain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">]</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Evillano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elmaghraby</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.artmed.2019.101742</idno>
+		<ptr target="https://doi.org/10.1016/j.artmed.2019.101742" />
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Intell. Med</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">101742</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

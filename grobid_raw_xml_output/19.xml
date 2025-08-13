@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cost-of-illness of leg ulcers in the community</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>Dr</roleName><forename type="first">Matthias</forename><surname>Augustin</surname></persName>
+							<email>m.augustin@uke.de</email>
+						</author>
+						<author>
+							<persName><forename type="first">Leyla</forename><forename type="middle">K</forename><surname>Brocatti</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stephan</forename><forename type="middle">J</forename><surname>Rustenbach</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ines</forename><surname>Sch</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Katharina</forename><surname>Herberger</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Health Services Research in Dermatology and Nursing</orgName>
+								<orgName type="institution">University Medical Center Hamburg-Eppendorf</orgName>
+								<address>
+									<settlement>Hamburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Health Services Research in Dermatology and Nursing</orgName>
+								<address>
+									<addrLine>University Medical Center Hamburg-Eppendorf</addrLine>
+									<postCode>D-20246</postCode>
+									<settlement>Hamburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cost-of-illness of leg ulcers in the community</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">1742-4801</idno>
+					</monogr>
+					<idno type="MD5">76381DCB423A401597A4415ED3EE9BED</idno>
+					<idno type="DOI">10.1111/j.1742-481X.2012.01089.x</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Leg ulcer management is complex, time-consuming and of high socio-economic importance. Data on cost-of-illness in leg ulcer care are sparse. The objective of this study was to evaluate the cost-of-illness in leg ulcer treatment in the metropolitan area of Hamburg. About 147 institutions involved in wound care participated in a cross-sectional study. Patients consecutively recruited underwent a standardised interview and clinical examination. Main economic outcomes were direct, indirect and intangible costs from a societal perspective. Five hundred and two patients with a mean age of 71 years and mean wound duration of 9 years were enrolled. Annual total costs summed up to a mean of 9060¤ /patient/year (8288¤ direct, 772¤ indirect costs). Direct costs carried by statutory health insurances amounted to 7680¤ , patients themselves paid on average 607¤. Leg ulcer is associated with high costs for health insurances, patients and the society. Exploratory predictor analyses suggest that early, interprofessional disease-management could lower treatment costs.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Leg ulcers are frequent chronic wounds with manifold causes and great medical impact <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b2">2)</ref>.</p><p>Data on treatment cost for leg ulcers are inconsistent and vary largely depending on disease, health system and evaluation method. More precisely, reported annual costs of leg ulcers range from 4000 to 30 000¤ per patient <ref type="bibr" target="#b3">(3)</ref><ref type="bibr" target="#b4">(4)</ref><ref type="bibr" target="#b5">(5)</ref><ref type="bibr" target="#b6">(6)</ref><ref type="bibr" target="#b7">(7)</ref><ref type="bibr" target="#b8">(8)</ref>. A recent study performed in specialised German wound centres showed that the overall costs of venous leg ulcers summarise about 10 000¤. Major cost drivers were hospitalisation, nursing costs and dressing material <ref type="bibr" target="#b9">(9)</ref>.</p><p>In Western countries, the costs of venous ulcer treatment represented about 2•5% of the total health budget <ref type="bibr" target="#b10">(10)</ref>. Besides their financial implications, chronic wounds have considerable impacts on the patients' health-related quality of life (HrQoL) and patients suffer for many years from discomfort of the wound because of pain, lack of sleep, immobility and social isolation <ref type="bibr" target="#b11">(11)</ref><ref type="bibr" target="#b12">(12)</ref><ref type="bibr" target="#b13">(13)</ref><ref type="bibr" target="#b14">(14)</ref>.</p><p>Although chronic wounds have considerable socioeconomic impact, robust and valid cost data referring financial outcomes to the quality of care are scarce. The lack of evidence impedes health care decision-making and improvement in resource allocation and optimisation of the cost-benefit</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Messages</head><p>• although chronic wounds have considerable socioeconomic impact, robust and valid cost data referring financial outcomes to the quality of care are scarce • the lack of evidence impedes health care decisionmaking and improvement in resource allocation and optimisation of the cost-benefit ratio • this study was conducted to reduce this gap by evaluating the most relevant three areas of leg ulcer treatment: the impact of leg ulcers on health-related quality of life, the quality of leg ulcer care and the direct and indirect costs of leg ulcer • 502 patients were enrolled and finished the whole clinical examination and interview • no significant differences were observed between patient subgroups with respect to sociodemographic variables, indicating a high degree of equity of the German health care system as a major strength • the present data show that the leg ulcer disease imposes a considerable economic burden on the public health services and the patients • the mean total direct costs-of-illness were 8288¤ and ranged from 0.0¤ (no treatment) to 43 245¤</p><p>• even the total costs for the median patient summed to 7250¤ per year • a weakness of this study lies in the fact that the analysis was performed at only one time point • a follow-up would allow identification of long-term effects • this study showed that the high treatment costs of community leg ulcers are associated with an acceptable level of quality of care as indicated by the health care index • further studies should focus on the long-term effects of better health care quality in wounds • moreover, the impact of better health care on quality of life and costs needs to be verified ratio. This study was conducted to reduce this gap by evaluating the most relevant three areas of leg ulcer treatment: the impact of leg ulcers on health-related quality of life, the quality of leg ulcer care and the direct and indirect costs of leg ulcer. For this, an analysis of the cost distribution for society, the health insurances and the patients was performed. This article presents the results for cost-of-illness, the results on quality of care are published elsewhere <ref type="bibr" target="#b15">(15,</ref><ref type="bibr" target="#b16">16)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>This cross-sectional, non-interventional and non-selective observational study was conducted in the metropolitan area of Hamburg, Germany. The cost-of-illness data were assessed from the societal perspective, including direct, indirect and intangible costs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patients and centres</head><p>In order to achieve a community-based patient sample as representative as possible, more than 1200 health care providers of all sectors in the Hamburg area were contacted through mail and asked for participation. These included office-based practices, wound clinics, home care services, nursing homes and other social facilities (e.g. special institutions for the homeless and drug users). The participating centres were asked to identify eligible patients from the patient records who have recently been in treatment.</p><p>Adult patients with a leg ulcer of any origin persisting without a tendency of healing for at least a month were included. All patients had to sign the informed consent form before screening for eligibility. The study was conducted in compliance with the legal requirements for data protection, and a vote from the local ethics committee was obtained.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcomes</head><p>Study data were recorded by standardised questionnaires, structured interviews and clinical examination. The documentation was performed by postgraduate medical students specially trained in wound care and in the methodology of the survey.</p><p>Physical examination comprised of a general exam and the assessment of wound size and wound status using the TIME Scheme <ref type="bibr" target="#b17">(17)</ref>. Moreover, every wound was documented by digital photography.</p><p>Economic outcomes for the cost-of-illness analysis were recorded in a specific questionnaire, which has already been used in previous studies <ref type="bibr" target="#b9">(9)</ref>. This included the documentation of resource usage as well as the recording of direct expenses in the past 4 weeks and in the last year, respectively. In particular, the frequency of consultations and care visits, diagnostic procedures, and hospital treatment (frequency and duration), use of wound material and drugs were evaluated. In addition, out-of-pocket expenses (dressing material etc.), prescription charges and copayments were documented.</p><p>The patient questionnaires included items on disease history, housing situation, resource consumption (e.g. time required, nursing service, care and treatment satisfaction), satisfaction with care and treatment. Satisfaction with treatment and satisfaction with wound care from the patient perspective were measured by a single 5-point Likert scaled item ranging from 1 (very satisfied) to 5 (not satisfied at all), respectively. Furthermore, health-related quality of life (HrQoL) was measured using the FLQA-wk <ref type="bibr" target="#b18">(18,</ref><ref type="bibr" target="#b19">19)</ref>. The FLQA-wk consists of a total of 23 items covering six dimensions: 'physical complaints', 'everyday life', 'social life', 'mental well-being', 'therapy' and 'satisfaction'. The total and subscale scores are means of the respective items and range between 1 and 5, the latter signifying the highest impairment in HrQoL. The impact of leg ulcer on HrQoL served as a proxy for the intangible costs of illness.</p><p>Quality of care was additionally measured by a single 'health care index' computed from wound-specific quality indicators. These had been empirically selected and then formally consented in a Delphi consensus process. The qualityof-care index was defined as the percentage of indicator criteria met (0= no criteria met to 100= all criteria met) <ref type="bibr" target="#b16">(16)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Calculation of costs</head><p>About 90% of Germans are members of the statutory health insurances (SHI) and about 10% are health-insured on a private basis. In this publication, the SHI-perspective was chosen as the payer perspective. Hospital costs in Germany are based on Diagnosis Related Groups (DRGs), which constitute from major diagnoses and procedures. In contrast, costs for ambulant care are based on honorary tables for physicians, home care services and other professions.</p><p>Annual direct and indirect costs were estimated in a bottomup procedure based on information given on resource consumption in the interview and in the standardised questionnaire.</p><p>Direct costs included all expenses for the health insurance (and for the patients) directly related to leg ulcer treatment and care. Indirect costs constitute consecutive costs for the economy (mediated by the disease and treatment, like productivity loss). Intangible costs are valued consequences of the illness and treatment that are usually not expressed in money (e.g. HrQoL, patient disease burden).</p><p>Costs were assessed in accordance to the valid fares in 2006 for the statutory health insurance in Germany. Costs for drugs and material contained value added tax (VAT). Outpatient costs were determined by application of Codes from the 'Einheitlicher Bewertungsmaßstab für ärztliche Leistungen, EBM 2006', which is a unified standard of evaluation for goods and services in medicine. Different physician fees were applied according to EBM for general practitioners (GP), dermatologists and surgeons taking into account the budgeting limits established in 2006, which led to capped fees. Inpatient costs were assessed by assignment of appropriate G-DRG-Codes (German Diagnosis Related Groups). The DRG costs including the base rate calculation refer to the average price of hospital procedures in the Hamburg area. The costs for nursing services were based on the SHI fees in Hamburg.</p><p>The costs for different wound dressing material (hydrocolloids, alginates etc.), each in three different sizes (for small, middle and large wound areas), were derived by price-mixes of the products of four of the most common manufacturers. The prices were requested from five randomly chosen pharmacies in Hamburg.</p><p>Cost of drugs directly related to leg ulcer treatment were estimated by price-mixes for each drug class (antibiotics, analgetics, anticoagulants etc.), prices were extracted from the 'Rote Liste' 2006 (German Drug List) 'Arzneiverordnungsreport' <ref type="bibr" target="#b20">(20)</ref>. As some wound dressings used are not reimbursed in Germany, these costs were assigned to the patients' out-ofpocket costs.</p><p>The indirect costs due to wound dressing of non-professionals (e.g. patients, family members) were estimated from tables of productivity cost for blue collar workers in 2006 from the Federal Statistical Office. As only a few patients of the cohort were still working, a calculation of productivity loss from days of work was not considered.</p><p>Other costs were requested from pharmacies, therapists and medical stores or taken from tabulations of taxes. Table <ref type="table" target="#tab_0">1</ref> gives an overview of the derivation of costs from prices, units and the methods of cost computation.</p><p>The single costs were summarised to cost groups and to total costs (Table <ref type="table" target="#tab_1">2</ref>). Additionally, costs for the statutory health insurance and the patients as well as direct, indirect and intangible costs were differentiated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analyses</head><p>The data were analysed using SPSS for Windows Version 17.0. For sample description, frequencies were computed for categorial variables, mean, standard deviation (SD), minimum and maximum were computed for continuous variables. As costs were expected to be considerably right skewed and thus deviate from a normal distribution, the median was calculated in addition and exploratory subgroup analyses to identify potential predictors of total direct costs (and total costs) were a priori planned non-parametric. To achieve a more uniform and readable presentation of the non-parametric subgroup analyses, median splits were performed on continuous variables age and wound size. Additionally, the results are always given as statistics of the Kruskal-Wallis Test, regardless of the number of groups compared.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patients and centres</head><p>A total of 2195 institutions involved in wound care were identified and contacted by mail. Of these, 147 institutions signed for participation. Five hundred and thirty eligible patients were identified from their office records of which 28 patients were excluded at the beginning of the study interview due to failed inclusion criteria. Thus, 502 patients were enrolled and finished the whole clinical examination and interview. Of these, 381 patients completed and returned the patient questionnaire.</p><p>A quarter of the patients was enrolled in specialised wound centres <ref type="bibr">(</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical and sociodemographic data</head><p>In all, 43•6% patients were male, mean age was 71•4 years (SD = 14•2, median 73•79), the youngest and oldest study participants aged 22•5 and 97•4 years, respectively.</p><p>As consequence to the relative old age of the patients, the employment rate was low (8•8%, n = 33) (Table <ref type="table" target="#tab_2">3</ref>). About 156 patients were living alone (43•7%) and 170 patients (35•1%) were visited by a nursing service.</p><p>The majority of the patients (78•5%) had a venous aetiology of the leg ulcer. Other aetiologies were arterial in 9•8%, post-traumatic in 10•0%, vasculitis in 1•6% and unknown in 9•0% (n = 45). Mean total wound size was 43•5 cm 2 (SD = 108•3, median 9•1). The mean duration of the leg ulcer disease was 107 months (SD = 173, range 1-840 months), whereas recent ulcer was persisting on average for 30•48 months (SD = 77•43, range 1-768 months). Nearly half of the patients were actually suffering from a relapse 45•3% (n = 226). The most frequent comorbidity was arterial hypertension (55•4%, n = 278), followed by obesity (24•3%, n = 122, mean body mass index 27•7, SD = 6•7), diabetes (22•1%, n = 111) and hyperlipidaemia (9•0%, n = 45).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound-care provision</head><p>For 26•3% (n = 132) of the patients, the main medical attendance was performed by a general practitioner, followed by dermatologists (25•5%, n = 128), wound centres (17•2%, n = 86) and surgeons (13•6%, n = 68).</p><p>The average frequency of wound dressings per week was 4•6 and had a mean duration of 16•2 minutes. The average number of hospitalisations because of the leg ulcer disease in the past 12 months was 0•5, mean duration of stay was 8•4 days (n = 494).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quality of life</head><p>The mean FLQA-wk total score was 2•92. There were significant reductions of HRQoL in all dimensions, compared with patients without leg ulcers. Major impairments were observed in the areas of daily routine (mean = 3•16), followed   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Costs-of-illness</head><p>The annual costs-of-illness are summarised in Table <ref type="table" target="#tab_3">4</ref>. The standard deviations and ranges of all cost variables demonstrate a high variability. Whereas the minimum for each variable is zero (there is one patient without any consumption and costs), the maxima are considerably high, pointing to at least one patient with high consumptions and costs. As the median costs on the variables are lower than the mean costs (except for total drug expenses of the statutory health insurances as an effect of systemic treatments), the distributions are as expected left skewed (Figure <ref type="figure" target="#fig_1">1</ref>). From the perspective of statutory health insurances, mean total treatment costs for ambulant care were about 4300¤ , including non-drug treatment costs (approximately 2100¤), drug expenses (approximately 900¤) and outpatient treatment fees (approximately 1300¤). Mean hospital costs were approximately 3400¤ , thus resulting in mean total costs for the statutory health insurances of 7680¤ per patient and year. Hence, major cost drivers are non-drug treatments and hospital costs.</p><p>Mean out-of-pocket costs were 610¤, including two quarters because of non-drug treatment costs (330¤) and about one quarter for drug expenses and for transportation and other remedies, respectively. Mean annual direct costs summed to 8287•55¤ and total indirect costs to approximately 775¤ per patient. In summary, the mean total costs caused by the leg ulcers were 9059•72¤. The median costs point to the existence of a few patients with higher resource usage and costs and a majority with lower resource usage and costs. For indirect costs, only productivity loss because of dressing changes of relatives were observed, because 30% of the patients changed their wound dressings by themselves and the employment rate was low. As dressings were changed only for 8•5% of the patients by a spouse and for 2% by family members, the resulting costs are expectedly low.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subgroup analyses</head><p>To identify potential predictors of total direct costs (and total costs) a priori planned subgroup analysis was performed. The set of variables selected for predictor analysis included the sociodemographic variables of age (splitted at the median to compare 'younger versus older' patients), sex and educational status, the wound characteristics aetiology of ulcer, wound size (splitted at the median to compare 'smaller versus larger' wounds) former wound closure and the presence of following comorbidities: arterial occlusive disease (AOD), walking distance limited to 200 m as well as hypertension. Additionally, the following treatment characteristics were chosen: main treatment provider, nursing care usage, dressing change by patient, dressing change by a relative, pain during dressing change, usage of antihypertensive medication, usage of antibiotics, usage of analgetics and usage of immunosuppressants. Finally, the quality of care index and treatment satisfaction were categorised into two groups of 'good to very good' versus 'moderate to poor' quality of care and treatment satisfaction, respectively.</p><p>The results of the subgroup analyses are presented in Table <ref type="table" target="#tab_4">5</ref> for total costs. As the subgroup analyses for direct costs did not lead to different results and interpretations, these are not shown (but may be requested from the authors). No significant differences in costs were observed between subgroups defined by sociodemographic characteristics (age, sex and educational status), whereas subgroups according to aetiology, size and former closure of the wound all showed significant differences. Predictors of higher costs were: (i) Arterial, followed by mixed and other aetiology in relation to venous aetiology, (ii) greater wound size and (iii) no former wound closure. Taking into consideration the multiplicity of subgroup tests, a familywise adjustment of tests performed on wound characteristics (two tests) would not alter the significance, whereas a full Bonferroni-adjustment (21 tests) would result in a single significant difference between the wound size subgroups.</p><p>Regarding comorbidities, the presence of AOD and severe AOD (walking distance limited to 200 m) each were accompanied by higher costs. No significant difference was found for the presence of hypertension. A familywise adjustment of significance would not alter the results and after full adjustment, no difference remains significant.</p><p>Distinct medications were accompanied by significantly higher costs. Costs were significantly higher regarding pain during dressing change and use of analgetics. Use of analgetics and having pain resulted in the highest costs (12 620¤), whereas use of analgetics and less frequent pain resulted in less costs (9647 and 9154¤). The absence of analgetics use was associated with lower costs, whereas the ranking of costs for pain subgroups was the same as for analgetic usage (pain: 8055¤ , sometimes: 7522¤ and no pain: 6860¤ during dressing change). Furthermore, the use of antihypertensives, antibiotics and immunosuppressants was associated with higher costs. After adjustment for multiple testing only the use of immunosuppressants remains significant.</p><p>Most of subgroup comparisons on costs were significant when addressing characteristics of treatment. Costs were highest when hospitals were the main providers of treatment, followed by wound centres, GP, surgeon and dermatology offices. A special post hoc contrast between the subgroups of GP and wound centre patients showed that wound centre treatment resulted in significantly higher costs than GP treatment. In addition, the usage of a nursing service resulted in higher costs, whereas the dressing change by the patient resulted in lower costs. These differences remain significant regardless of the adjustment for multiple tests applied. The last three comparisons reflect relevant consequences (instead of potential predictors) of treatment: satisfaction with treatment, satisfaction with wound care and quality of care. From the patient perspective, moderate to poor quality of care is significantly associated with higher costs, whereas the result on the quality of care index shows higher costs for patients treated acceptable according to quality criteria. These results remain significant regardless of adjustment applied. Again the results are better understood, when looking at the bivariate distribution of costs: for patients satisfied with wound care and acceptable quality of care according to the index, mean total costs summed to 9050¤, whereas for patients satisfied with wound care and inacceptable quality of care the lowest costs (5750¤) were observed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This study was designed to assess the economic impact of community leg ulcers in the Metropolitan area of Hamburg. To capture the full range of patients, a broad sampling strategy integrating all health care providers was used as the first step. This enabled a description of HrQoL, the quality of care and the cost-of-illness in the whole region <ref type="bibr" target="#b15">(15,</ref><ref type="bibr" target="#b16">16)</ref>. As many of the health care providers, general practitioners as well as home care services, do not treat wound patients on a regular basis, the rather low rate of participating institutions does most probably not mean a selection bias. Given the fact that the prevalence of open venous leg ulcers is below 0•1% and thus of all leg ulcers below 0•2% in the average German population <ref type="bibr" target="#b21">(21)</ref>, a maximum of about 2000 leg ulcers in the target area of this studies could have been expected. Thus, about 25% of the complete population with leg ulcers have been enrolled in this study. No significant differences were observed between patient subgroups with respect to sociodemographic variables, indicating a high degree of equity of the German health care system as a major strength. On the other side, patients were highly impaired in their HrQoL and the degree of out-ofpocket costs is relative high for a high-aged population of retired patients with -at least partly -low income. The present data show that the leg ulcer disease imposes a considerable economic burden on the public health services and the patients. The mean total direct costs-of-illness were 8288¤ and ranged from 0•0¤ (no treatment) to 43 245¤. Even the total costs for the median patient summed to 7250¤ per year.</p><p>Compared with other dermatological illnesses, leg ulcer is a financially important illness due to the necessity of intensive care like hospitalisation, nursing service and long duration and recurrence of the ulcer <ref type="bibr" target="#b22">(22)</ref><ref type="bibr" target="#b23">(23)</ref><ref type="bibr" target="#b24">(24)</ref>.</p><p>From the statutory health insurance perspective, the main costs were generated by hospitalisation (3387¤) and non drug-costs (2072¤), the latter including medical devices as well as physician and nursing fees. Contrary to a study in specialised wound centres on the cost-of-illness of venous leg ulcers <ref type="bibr" target="#b25">(25)</ref>, in this study the doctors' and nursing salaries (1310¤) were less expressed than the costs of the wound dressings (1340¤). Interpretation of treatment costs, in some points unexpected, requires to provide an insight into German health care system. Physician fees in outpatient care differ depending on specialisation and are stated by fixed budgets. Accordingly, patient contact can only be charged once in a quarter, treatment costs and procedures are budgeted and capped at different levels for different specialisations. For this reason, treatment by dermatologists was less costly than by other consultants and nurses and not reflected by the time needed for treatment.</p><p>Beyond that, it has to be taken into consideration that a mean account of dressing changes of 4•63 times per week is considerably high when modern wound dressings are used. This points to unnecessary costs using relatively expensive modern wound dressings recommended for longer dressing change intervals, normally requiring to 1-2 changes per week.</p><p>Wound aetiology decisively influences costs. For example, presence of AOD is accompanied by higher costs due to comorbidities (e.g. coronary heart disease, hypertension, hypercholesteremia and insults), complicated treatment (e.g. vascular interventions, angiography) and more severe course of disease leading to more frequent need for inpatient treatment. Furthermore, unlike in AOD, in many cases of venous insufficiency a cure is possible.</p><p>Patients' satisfaction with care is particularly associated with costs, underlined by our findings that lack of satisfaction accompanied with good care leads to the highest amount of costs. This may be a negative influencing factor for compliance, an important cornerstone in economic wound treatment <ref type="bibr" target="#b26">(26,</ref><ref type="bibr" target="#b27">27)</ref>. Another cost driver in patients unsatisfied with wound care may be frequent changes of therapists. For the planning of resource allocation, the mean costs are essential, because they are computed from the resources required in the period of observation. While the median costs are lower, they do not allow to extrapolate the resources needed in advance and only describe the costs of illness of a typical patient, without using cost information below and above this patient.</p><p>Moreover, the mean costs presented might be an underestimation of the costs for the statutory health insurance population in the future for two reasons: first, only resources documented by the main treatment provider or stated by the patients in the interviews were used to construct the cost-ofillness and second, patients without health insurance, probably experiencing high barriers to care and showing low-health usage behaviour were included.</p><p>A weakness of this study lies in the fact that the analysis was performed at only one time point. A follow-up would allow identification of long-term effects. For this, the relation of costs to treatment outcomes is impossible. In that sense, treatment by specialised wound centres and structured treatment programs has been shown to shorten time to wound healing and decrease hospital stays <ref type="bibr" target="#b28">(28)</ref>.</p><p>This study showed that the high treatment costs of community leg ulcers are associated with an acceptable level of quality of care as indicated by the health care index. Further</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>24•9%, n = 125), 23•3% (n = 117) were recruited by dermatologists, 12•2% (n = 61) by general practitioners, 11•8% (n = 59) by surgeons and 11•2% (n = 56) by nursing services.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Distribution of annual costs of leg ulcer patients undertaken by statutory health insurances, n = 502.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Overview of the derivation of costs from prices, units and the methods of cost computation Domain</figDesc><table><row><cell>Comment</cell><cell>Arzneiverordnungs report, price mix</cell><cell>Arzneiverordnungs report, price mix</cell><cell>Arzneiverordnungs report, price mix</cell><cell>Arzneiverordnungs report, price mix</cell><cell>Requested from pharmacies, price mix</cell><cell></cell><cell>Requested from pharmacies, price mix for small/medium/large wounds</cell><cell>Requested from pharmacies, price mix for small/medium/large wounds</cell><cell>Requested from pharmacies, price mix for small/medium/large wounds</cell><cell>Requested from pharmacies, price mix for small/medium/large wounds</cell><cell>Requested from pharmacies, price mix for small/medium/large wounds</cell><cell>Requested from pharmacies, price mix for small/medium/large wounds</cell><cell>Requested from pharmacies, price mix for small/medium/large wounds</cell><cell>Requested from pharmacies, price mix for small/medium/large wounds</cell><cell>Requested from pharmacies, price mix for small/medium/large wounds</cell><cell>Price mix, constant for all wound sizes</cell><cell></cell><cell>Arzneiverordnungs report, price mix, only 1 month/ year</cell><cell>Arzneiverordnungs report, price mix</cell><cell>Arzneiverordnungs report, price mix</cell><cell>Arzneiverordnungs report, price mix</cell><cell>Arzneiverordnungs report, price mix</cell><cell>EBM</cell><cell>EBM</cell><cell>EBM</cell><cell>EBM</cell><cell>EBM</cell><cell>EBM</cell></row><row><cell>Payer</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>PAT</cell><cell></cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>PAT</cell><cell>SHI</cell><cell>SHI</cell><cell></cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell><cell>SHI</cell></row><row><cell>Unit</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell></cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell></cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>per day</cell><cell>each</cell><cell>each</cell><cell>per leg</cell><cell>each</cell><cell>each</cell><cell>each</cell></row><row><cell>Price in Euro</cell><cell>4•91/11•86/15•28</cell><cell>0•83/1•89/3•36</cell><cell>0•75/3•78/7•56</cell><cell>0•83/1•89/3•36</cell><cell>7•62/7•62/15•24</cell><cell></cell><cell>0•12/0•23/0•7</cell><cell>0•44/1•73/3•49</cell><cell>1•69/3•02/9•78</cell><cell>2•29/8•38/11•03</cell><cell>2•81/2•78/9•03</cell><cell>6•85/6•85/10•33</cell><cell>3•34/6•33/20•37</cell><cell>1•18/4•71/9•42</cell><cell>5•51/9•76/27•51</cell><cell>1•00</cell><cell></cell><cell>3•81</cell><cell>2•51</cell><cell>1•32</cell><cell>4•9</cell><cell>1•2</cell><cell>18•88</cell><cell>182•75</cell><cell>45•26</cell><cell>28•54</cell><cell>3•51</cell><cell>75•51</cell></row><row><cell>Item</cell><cell>Topical oinments</cell><cell>Skin protection</cell><cell>Antibiotic oinments</cell><cell>Other</cell><cell>Topical anaesthetic ointment (e.g.</cell><cell>EMLA) ®</cell><cell>Dry</cell><cell>Wet</cell><cell>Gauze</cell><cell>Alginates</cell><cell>Films</cell><cell>Hydrogel</cell><cell>Hydrocolloids</cell><cell>Antiseptics</cell><cell>Foams</cell><cell>Further material required for dressing</cell><cell>procedure (e.g. gloves)</cell><cell>Antibiotics</cell><cell>Analgetics</cell><cell>Anticoagulants</cell><cell>Immunsuppressants</cell><cell>Psychotropics</cell><cell>Ultrasonography</cell><cell>Angiography</cell><cell>Phlebography</cell><cell>Biopsy</cell><cell>Swabs</cell><cell>Allergy tests</cell></row><row><cell></cell><cell>Topical treatment</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Wound dressings</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Systemic treatment</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Diagnostics</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>SHI, statutory health insurances; G-DRG, German diagnosis related groups; VAC, vacuum-assisted closure therapy; PAT, patient. © 2012 The Authors International Wound Journal © 2012 Medicalhelplines.com Inc and John Wiley &amp; Sons Ltd</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Assignment of cost items to cost domains</figDesc><table><row><cell>Domain</cell><cell>SHI</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Sociodemographic characteristics of the sample (n = 502)</figDesc><table><row><cell>Item</cell><cell>Characteristic</cell><cell>%</cell><cell>n</cell></row><row><cell>Marital status</cell><cell>Married</cell><cell>44•4</cell><cell>166</cell></row><row><cell>(n = 374)</cell><cell>Widowed</cell><cell>29•7</cell><cell>111</cell></row><row><cell></cell><cell>Divorced</cell><cell>9•6</cell><cell>3 6</cell></row><row><cell></cell><cell>Single</cell><cell>16•3</cell><cell>6 1</cell></row><row><cell>Employment</cell><cell>Employed</cell><cell>8•8</cell><cell>3 3</cell></row><row><cell>status</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(n = 373)</cell><cell>Not employed</cell><cell>91•2</cell><cell>340</cell></row><row><cell>Reason for</cell><cell>Retired</cell><cell>85•0</cell><cell>294</cell></row><row><cell>unemployment</cell><cell>Housewife</cell><cell>6•1</cell><cell>2 1</cell></row><row><cell>(n = 346)</cell><cell>Unemployed</cell><cell>6•6</cell><cell>2 3</cell></row><row><cell></cell><cell>Other</cell><cell>2•3</cell><cell>8</cell></row><row><cell>Education</cell><cell>Grammar school or</cell><cell>14•7</cell><cell>5 5</cell></row><row><cell>(n = 372)</cell><cell>higher</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Secondary general</cell><cell></cell><cell></cell></row><row><cell></cell><cell>school</cell><cell>56•7</cell><cell>211</cell></row><row><cell></cell><cell>Intermediate</cell><cell>22•6</cell><cell>8 4</cell></row><row><cell></cell><cell>secondary</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Other/none final school</cell><cell>4•6/1•3</cell><cell>17/5</cell></row><row><cell cols="4">by therapy (mean = 2•91) and physical discomfort (mean =</cell></row><row><cell>2•88).</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Annual costs of illness per patient with chronic leg ulcer (Euro; n = 502)</figDesc><table><row><cell>Annual costs of illness (¤)</cell><cell>Mean</cell><cell>SD</cell><cell>Median</cell><cell>Minimum</cell><cell>Maximum</cell></row><row><cell>Topical treatment SHI</cell><cell>637•37</cell><cell>1257•30</cell><cell>336•00</cell><cell>0•00</cell><cell>17055•36</cell></row><row><cell>Wound dressings SHI</cell><cell>1339•69</cell><cell>2124•07</cell><cell>529•20</cell><cell>0•00</cell><cell>21031•68</cell></row><row><cell>Topical treatment patient</cell><cell>156•75</cell><cell>234•69</cell><cell>56•64</cell><cell>0•00</cell><cell>1466•40</cell></row><row><cell>Systemic treatment SHI</cell><cell>874•35</cell><cell>712•63</cell><cell>916•15</cell><cell>0•00</cell><cell>3300•75</cell></row><row><cell>Total drug expenses SHI</cell><cell>910•87</cell><cell>771•52</cell><cell>916•15</cell><cell>0•00</cell><cell>5496•81</cell></row><row><cell>Total drug expenses Patient</cell><cell>156•75</cell><cell>234•69</cell><cell>56•64</cell><cell>0•00</cell><cell>1466•40</cell></row><row><cell>Non-drug treatment costs SHI</cell><cell>2071•88</cell><cell>2660•14</cell><cell>1127•76</cell><cell>0•00</cell><cell>28567•03</cell></row><row><cell>Non-drug treatment expenses patient</cell><cell>328•89</cell><cell>665•92</cell><cell>148•80</cell><cell>0•00</cell><cell>9600•00</cell></row><row><cell>Outpatient treatment fees</cell><cell>1309•82</cell><cell>2025•88</cell><cell>180•00</cell><cell>0•00</cell><cell>10297•92</cell></row><row><cell>Total treatment costs SHI</cell><cell>4292•57</cell><cell>3845•00</cell><cell>3041•04</cell><cell>0•00</cell><cell>33785•84</cell></row><row><cell>Total treatment costs patient</cell><cell>607•60</cell><cell>778•97</cell><cell>414•24</cell><cell>0•00</cell><cell>10331•52</cell></row><row><cell>Hospital costs</cell><cell>3387•39</cell><cell>5271•38</cell><cell>0•00</cell><cell>0•00</cell><cell>28362•00</cell></row><row><cell>Total costs SHI</cell><cell>7679•96</cell><cell>6912•63</cell><cell>6150•96</cell><cell>0•00</cell><cell>42401•69</cell></row><row><cell>Total costs patient</cell><cell>607•60</cell><cell>778•97</cell><cell>414•24</cell><cell>0•00</cell><cell>10331•52</cell></row><row><cell>Total direct costs</cell><cell>8287•55</cell><cell>7095•56</cell><cell>6846•69</cell><cell>0•00</cell><cell>43245•29</cell></row><row><cell>Total indirect costs</cell><cell>772•17</cell><cell>1676•86</cell><cell>0•00</cell><cell>0•00</cell><cell>10281•60</cell></row><row><cell>Total costs</cell><cell>9059•72</cell><cell>7435•60</cell><cell>7247•78</cell><cell>0•00</cell><cell>44461•92</cell></row><row><cell>SHI, statutory health insurances.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>Subgroup comparisons on total costs of illness</figDesc><table><row><cell>Annual total costs SHI</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2012 The Authors</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>International Wound Journal © 2012 Medicalhelplines.com Inc and John Wiley &amp; Sons Ltd</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>© 2012 The Authors International Wound Journal © 2012 Medicalhelplines.com Inc and John Wiley &amp; Sons Ltd</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>studies should focus on the long-term effects of better health care quality in wounds, Moreover, the impact of better health care on quality of life and costs needs to be verified.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,56.65,118.71,229.96,7.01;10,63.63,128.67,60.62,7.01" xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Awmf</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="report_type">Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften</note>
+</biblStruct>
+
+<biblStruct coords="10,63.63,138.64,222.99,7.01;10,63.63,148.60,223.01,7.01;10,63.63,158.56,35.88,7.01" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Leitlinien der Deutschen Gesellschaft für Phlebologie, Leitlinie zur Diagnostik und Therapie des Ulcus cruris venosum</title>
+		<author>
+			<persName><forename type="first">)</forename><surname>Deutschland</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dgp</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.65,168.52,229.97,7.01;10,63.63,178.49,222.98,7.01;10,63.63,188.45,134.73,7.01" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Community leg ulcer clinics: effect on quality of life</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Moffat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Connolly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bosanquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oldoyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Greenhalgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Mccollum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phlebologie</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="83" to="86" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.65,198.41,229.97,7.01;10,63.63,208.37,222.99,7.01;10,63.63,218.34,159.91,7.01" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Griffiths RI. Medical costs of treating venous stasis ulcers: evidence from a retrospective cohort study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Olin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Beusterien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Childs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Seavey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mchugh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vasc Med</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.65,228.30,229.97,7.01;10,63.63,238.26,210.73,7.01" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A cost analysis of diabetic lower-extremity ulcers</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Harrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Zagari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Corea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klitenic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1333" to="1338" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.65,248.23,229.95,7.01;10,63.63,258.19,222.98,7.01;10,63.63,268.15,105.92,7.01" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Long-term costs for foot ulcers in diabetic patients in a multidisciplinary setting</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Apelqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ragnarson-Tennvall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Persson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Int</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="388" to="394" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.65,278.11,229.97,7.01;10,63.63,288.08,222.99,7.01;10,63.63,298.04,223.00,7.01;10,63.63,307.99,194.85,7.01" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">De Leeuw I. Cost and resource utilization for prevention and treatment of foot lesions in a diabetic foot clinic in Belgium</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Van Acker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oleen-Burkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Decker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vanmaele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Schil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Matricali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Res Clin Pract</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="87" to="95" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.65,317.95,229.95,7.01;10,63.63,327.92,223.00,7.01;10,63.63,337.88,165.31,7.01" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Costs and duration of care for lower extremity ulcers in patients with diabetes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Holzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Camerota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cuerdon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Crystal</forename><forename type="middle">-</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zagari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Ther</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="169" to="181" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.65,347.84,229.96,7.01;10,63.63,357.81,222.97,7.01;10,63.63,367.77,185.07,7.01" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Incidence, outcomes, and cost of foot ulcers in patients with diabetes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Ramsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Blough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Mcculloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sandhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Reiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Wagner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="382" to="387" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.65,377.73,230.41,7.01;10,63.62,387.69,222.98,7.01;10,63.62,397.66,155.52,7.01" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Cost-of-illness of chronic leg ulcers in Germany</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Purwins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Debus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Rustenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pelzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schafer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stadler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="7" to="102" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.32,407.62,230.30,7.01;10,63.62,417.58,218.79,7.01" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Socio-economic impact of chronic venous insufficiency</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Den Oever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hepp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Debbaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Simon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Angiol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="161" to="167" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.31,427.54,230.29,7.01;10,63.62,437.51,222.99,7.01;10,63.62,447.47,222.99,7.01;10,63.62,457.43,51.72,7.01" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Quality of life and satisfaction of patients with leg ulcers -results of a community-based study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Rustenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Haartje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Blome</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Franzke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Schäfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Radtke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vasa</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="131" to="138" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.32,467.39,230.29,7.01;10,63.63,477.36,223.00,7.01;10,63.63,487.32,118.32,7.01" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Quality of live in different stages of chronic venous insufficiency and leg ulcer</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zschocke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vanscheidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatol Psychosom</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">12631</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,56.32,497.28,230.31,7.01;10,63.63,507.24,222.99,7.01;10,63.63,517.21,210.82,7.01" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Quality of life in chronic leg ulcer patients. An assessment according to the Nottingham Health Profile</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lindholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bjellerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">B</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jederfeldt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Derm Venereol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="440" to="443" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,50.94,230.29,7.01;10,318.50,60.90,222.98,7.01;10,318.50,70.86,167.44,7.01" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A study of the impact of leg ulcers on quality of life: financial, social, and psychologic implications</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Provan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Acad Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="49" to="53" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,80.82,230.30,7.01;10,318.50,90.79,222.98,7.01;10,318.50,100.74,222.99,7.01;10,318.50,110.70,72.09,7.01" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Quality-of-care for leg ulcers in the metropolitan area of Hamburg -a community-based study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Rustenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Grams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Münter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schäfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Eur Acad Dermatol Venereol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1468" to="3083" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,120.67,230.30,7.01;10,318.50,130.63,222.98,7.02;10,318.50,140.61,223.00,7.01;10,318.50,150.57,101.13,7.01" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Quality-of-care in chronic leg ulcer in the community -introduction of quality indicators and a scoring system</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Augustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Rustenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Debus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Grams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Münter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tigges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schäfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatology</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<biblScope unit="page" from="321" to="329" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,160.53,230.29,7.01;10,318.50,170.49,221.18,7.01" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Position document wound bed preparation in practice</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>MEP Ltd</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,180.46,230.28,7.01;10,318.50,190.42,223.01,7.01;10,318.50,200.38,130.12,7.01" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Quality of life in different stages of chronic venous insufficiency and leg ulcer</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zschocke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vanscheidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatol Psychosomat</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="126" to="131" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,210.34,230.28,7.01;10,318.50,220.31,222.97,7.01;10,318.50,230.27,222.98,7.01;10,318.50,240.23,148.93,7.01" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Development and validation of a diseasespecific questionnaire on the quality of life of patients with chronic venous insufficiency</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Augustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dieterle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zschocke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Trefzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Peschen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schöpf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vanscheidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vasa</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="291" to="301" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,250.19,230.29,7.01;10,318.50,260.16,73.49,7.01" xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schwabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paffrath</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006. 2007</date>
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Arzneiverordnungs-report</note>
+</biblStruct>
+
+<biblStruct coords="10,311.20,270.12,230.29,7.01;10,318.50,280.08,91.47,7.01" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Epidemiology of chronic venous diseases</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pannier-Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hautarzt</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1037" to="1044" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,290.04,230.30,7.01;10,318.50,300.01,222.98,7.01;10,318.50,309.97,157.51,7.01" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Cost-of-illness in patients with moderate and severe chronic psoriasis vulgaris in Germany</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ehlken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kugland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Dtsch Dermatol Ges</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="511" to="518" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,319.93,230.28,7.01;10,318.50,329.90,223.01,7.01;10,318.50,339.86,31.34,7.01" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Stationäre Behandlungskosten von Hautkrankheiten</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Richert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Doelfs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tscheulin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hautarzt</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1047" to="1051" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,349.81,230.27,7.01;10,318.50,359.77,222.98,7.01;10,318.50,369.74,223.02,7.01" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Cost of moderate to severe plaque psoriasis in Germany: a mulitcenter cost-of-illness study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Schoeffski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prinz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Reich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Waldorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augustin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatology</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="137" to="144" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,379.70,230.29,7.01;10,318.50,389.66,222.99,7.01;10,318.50,399.62,52.16,7.01" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Chronic leg ulcer: Cost evaluation of two treatment strategies</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Augustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heuser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vanscheidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Dermatol Treat</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="S21" to="25" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,409.59,230.29,7.01;10,318.50,419.55,223.00,7.01;10,318.50,429.51,51.72,7.01" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Venous ulcers: pathophysiology and treatment options</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Trent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Falabella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Eaglstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kirsner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="38" to="54" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.20,439.48,230.28,7.01;10,318.50,449.44,151.67,7.01" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Stockings and the prevention of recurrent venous ulcers</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Samson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Showalter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatol Surg</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="373" to="376" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.21,459.40,230.31,7.01;10,318.51,469.36,222.98,7.01;10,318.51,479.33,222.99,7.01;10,318.51,489.29,64.56,7.01" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A specialized wound-healing center concept: importance of a multidisciplinary department structure and surgical treatment facilities in the treatment of chronic wounds</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gottrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Surg</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page" from="38S" to="43" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

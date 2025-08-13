@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Wound Image Quality From a Mobile Health Tool for Home-Based Chronic Wound Management With Real-Time Quality Feedback: Randomized Feasibility Study</title>
+				<funder>
+					<orgName type="full">ETH Zürich Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Novartis Foundation (Freenovation)</orgName>
+				</funder>
+				<funder ref="#_WX2cUVN">
+					<orgName type="full">Swiss National Science Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">SCS Swiss Child Support Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MSc</roleName><forename type="first">Jia</forename><surname>Zhang</surname></persName>
+							<email>jia.zhang@hest.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Robotics and Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">Department of Health Sciences and Technology</orgName>
+								<orgName type="institution" key="instit1">Mobile Health Systems Lab</orgName>
+								<orgName type="institution" key="instit2">ETH Zurich</orgName>
+								<address>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MSc</roleName><forename type="first">Carina</forename><surname>Mihai</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Rheumatology</orgName>
+								<orgName type="institution" key="instit1">University Hospital Zurich</orgName>
+								<orgName type="institution" key="instit2">University of Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Laura</forename><surname>Tüshaus</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Robotics and Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">Department of Health Sciences and Technology</orgName>
+								<orgName type="institution" key="instit1">Mobile Health Systems Lab</orgName>
+								<orgName type="institution" key="instit2">ETH Zurich</orgName>
+								<address>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Gaetano</forename><surname>Scebba</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Robotics and Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">Department of Health Sciences and Technology</orgName>
+								<orgName type="institution" key="instit1">Mobile Health Systems Lab</orgName>
+								<orgName type="institution" key="instit2">ETH Zurich</orgName>
+								<address>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MSc</roleName><forename type="first">Oliver</forename><surname>Distler</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Rheumatology</orgName>
+								<orgName type="institution" key="instit1">University Hospital Zurich</orgName>
+								<orgName type="institution" key="instit2">University of Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD;</roleName><forename type="first">Walter</forename><surname>Karlen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Robotics and Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">Department of Health Sciences and Technology</orgName>
+								<orgName type="institution" key="instit1">Mobile Health Systems Lab</orgName>
+								<orgName type="institution" key="instit2">ETH Zurich</orgName>
+								<address>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xsl</forename><forename type="middle">•</forename><surname>Fo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">©jia</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<address>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Robotics and Intelligent Systems Department of Health Sciences and Technology ETH Zurich BAA</orgName>
+								<orgName type="institution">Mobile Health Systems Lab</orgName>
+								<address>
+									<settlement>Lengghalde</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<address>
+									<postCode>8008</postCode>
+									<settlement>Zurich</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Wound Image Quality From a Mobile Health Tool for Home-Based Chronic Wound Management With Real-Time Quality Feedback: Randomized Feasibility Study</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4A6B9D3CDD681983B1A38959970A2872</idno>
+					<idno type="DOI">10.2196/26149</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>data quality</term>
+					<term>remote assessment</term>
+					<term>digital ulcers</term>
+					<term>scleroderma</term>
+					<term>mobile app</term>
+					<term>digital health</term>
+					<term>ehealth</term>
+					<term>mhealth</term>
+					<term>telemedicine</term>
+					<term>teledermatology</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Travel to clinics for chronic wound management is burdensome to patients. Remote assessment and management of wounds using mobile and telehealth approaches can reduce this burden and improve patient outcomes. An essential step in wound documentation is the capture of wound images, but poor image quality can have a negative influence on the reliability of the assessment. To date, no study has investigated the quality of remotely acquired wound images and whether these are suitable for wound self-management and telemedical interpretation of wound status.</p><p>Objective: Our goal was to develop a mobile health (mHealth) tool for the remote self-assessment of digital ulcers (DUs) in patients with systemic sclerosis (SSc). We aimed to define and validate objective measures for assessing the image quality, evaluate whether an automated feedback feature based on real-time assessment of image quality improves the overall quality of acquired wound images, and evaluate the feasibility of deploying the mHealth tool for home-based chronic wound self-monitoring by patients with SSc.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods:</head><p>We developed an mHealth tool composed of a wound imaging and management app, a custom color reference sticker, and a smartphone holder. We introduced 2 objective image quality parameters based on the sharpness and presence of the color checker to assess the quality of the image during acquisition and enable a quality feedback mechanism in an advanced version of the app. We randomly assigned patients with SSc and DU to the 2 device groups (basic and feedback) to self-document their DU at home over 8 weeks. The color checker detection ratio (CCDR) and color checker sharpness (CCS) were compared between the 2 groups. We evaluated the feasibility of the mHealth tool by analyzing the usability feedback from questionnaires, user behavior and timings, and the overall quality of the wound images.</p><p>Results: A total of 21 patients were enrolled, of which 15 patients were included in the image quality analysis. The average CCDR was 0.96 (191/199)  in the feedback group and 0.86 (158/183) in the basic group. The feedback group showed significantly higher (P&lt;.001) CCS compared to the basic group. The usability questionnaire results showed that the majority of patients were satisfied with the tool, but could benefit from disease-specific adaptations. The median assessment duration was &lt;50 seconds in all patients, indicating the mHealth tool was efficient to use and could be integrated into the daily routine of patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions:</head><p>We developed an mHealth tool that enables patients with SSc to acquire good-quality DU images and demonstrated that it is feasible to deploy such an app in this patient group. The feedback mechanism improved the overall image quality. The introduced technical solutions consist of a further step towards reliable and trustworthy digital health for home-based self-management of wounds.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Chronic wounds do not heal within the expected time and can lead to severe complications if not treated appropriately. Therefore, chronic wounds require stringent management, including regular observation, assessment, documentation, and care of the wound by a medical professional. This management is tedious for patients as they need to visit the clinic frequently for specialist consultation, wound documentation, and adjunct therapies <ref type="bibr" target="#b0">[1]</ref>. Furthermore, it strains the health care system, as it requires considerable clinical as well as financial resources. Repetitive wound documentation is tedious but essential to chronic wound care <ref type="bibr" target="#b1">[2]</ref>. Treatment plans and scheduling of follow-up assessments are based on the information found in the wound documentation. Wound information such as wound location, depth, size, edges, and surrounding skin conditions is often documented, but can vary in detail among different clinical practices <ref type="bibr" target="#b1">[2]</ref>. Therefore, the introduction of digitalization of chronic wound management to reduce the burden for patients, clinicians, and the health care system is desirable.</p><p>As part of the digitalization of chronic wound care, remote assessment of chronic wounds using mobile technology is raising great interest. Telemedicine approaches could reduce the constraints of time and geographical location and therefore reduce trips to clinics. It has been shown that connecting home-care nurses to hospital-based wound experts can significantly improve the likelihood of wound healing <ref type="bibr" target="#b2">[3]</ref> and patient outcomes <ref type="bibr" target="#b3">[4]</ref>. Patients sending wound images and symptom questionnaires enables remote follow-up monitoring for post-surgical wounds <ref type="bibr" target="#b4">[5]</ref>. Smartphone apps with visual wound analytics and feedback to engage patients in self-care of diabetic foot ulcers resonated positively with the users in a usability study <ref type="bibr" target="#b5">[6]</ref>. This study did not evaluate the accuracy of the automated wound image analysis. However, it highlighted the need for user-friendly image acquisition methods that assist the user in controlling the factors influencing the wound image quality.</p><p>Wound images constitute an essential part of chronic wound documentation during routine clinical assessment. Clinicians consult the images to assess wound changes <ref type="bibr" target="#b6">[7]</ref>. Wound images are also used to determine wound dimensions and tissue conditions by measuring the wound area and color change over time <ref type="bibr" target="#b7">[8]</ref>. However, current documentation approaches depend largely on routines established in the clinics, which are rarely standardized across institutions. Wound images are primarily taken by clinical staff with digital cameras and manually uploaded to the clinical information system to perform basic assessments, such as checking the wound history <ref type="bibr" target="#b6">[7]</ref> and measuring the wound area <ref type="bibr" target="#b8">[9]</ref>.</p><p>The quality of wound images is essential for further analysis and processing. In clinical practice, high-quality images, characterized by attributes such as proper lighting condition and wound positioning, are prerequisites for wound experts to perform the wound assessment accurately and reliably, including visually inspecting the development of wound status and measuring the wound area from an image <ref type="bibr" target="#b9">[10]</ref>. For automated image analysis, high-quality images, with characteristics such as proper lighting condition, corrected color, adequate sharpness, clear wound boundary, and often, the use of an associated color and size reference, are important for algorithms to perform specific tasks such as wound segmentation <ref type="bibr" target="#b10">[11]</ref> or wound classification <ref type="bibr" target="#b11">[12]</ref> with good performance. Specifications of cameras on modern smartphones are sufficient to be used in clinical practice <ref type="bibr" target="#b12">[13]</ref>. However, image quality is largely based on environmental conditions and the person who captures the image. In mobile health (mHealth) applications, remote sensing and documentation by nonexperts are unsupervised and often prone to noise and artifacts <ref type="bibr" target="#b13">[14]</ref>. For example, the reliability and accuracy of a teledermatoscopy-based diagnosis increased when the image quality improved <ref type="bibr" target="#b14">[15]</ref>. Specifically, it is important to reduce blurriness and keep environmental conditions such as image angle and lighting consistent without over-or underexposure when capturing wound images, so that the wound size can be reliably calculated and the colors of wound areas can be correctly defined <ref type="bibr" target="#b15">[16]</ref>. It is challenging to control the aforementioned conditions in a remote setting and with smartphones, especially for patients with little prior knowledge of technical and clinical requirements for wound images. Neither current clinical practices nor existing apps for remote wound monitoring have standardized procedures implemented for taking high-quality wound images. To our knowledge, no quality assurance measures for image quality have been proposed. In studies, low-quality images that are not useful are simply discarded and excluded from the analysis <ref type="bibr" target="#b15">[16]</ref>. Therefore, it is crucial for mHealth systems that support remote documentation of chronic wounds to facilitate the high-quality acquisition of images that is sufficient for both visual clinical interpretation and automated processing.</p><p>Our goal was to develop an mHealth tool to facilitate the remote assessment of digital ulcers (DUs) and support patients with systemic sclerosis (SSc) in the self-management of their DUs. The tool should provide functions to self-document their wounds at home, including an image acquisition system that can ensure clinical-grade data quality. Such a system would enable telemedical functions for clinicians and reduce the burden of travel to the clinics for the patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Systemic Sclerosis and Digital Ulcers</head><p>SSc is a systemic autoimmune disease characterized by fibrosis and microangiopathy. DUs are common in SSc, with an occurrence probability of up to 70% at a 10-year observation period <ref type="bibr" target="#b16">[17]</ref>. Between one-third and two-thirds of patients with</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XSL • FO</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RenderX</head><p>SSc develop recurrent DUs <ref type="bibr" target="#b17">[18]</ref>. DUs are slow to heal and may complicate with bone infection and amputation, which significantly influence the patient's quality of life and hand function <ref type="bibr" target="#b18">[19]</ref>. The management of SSc-associated DUs often requires repeated presentation in a specialized clinic for assessment and adapted treatment, which may include wound debridation and specific topical measures. For this, patients face considerable burden from traveling to the clinics at a fixed time interval, and a timely assessment is not always achieved. There is a great unmet need for patients with SSc and DUs to be able to document their wounds remotely, in order to facilitate close follow-up by clinicians, enabling early detection of complications and reducing the burden induced by unnecessary travel to the clinic.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Digital Health Tools for Wound Assessment</head><p>Many studies have investigated digital health tools for the assessment of wounds. Overall, these studies highlight the feasibility of remote wound care and self-documentation. However, only one study has evaluated the remote assessment of DUs so far <ref type="bibr" target="#b19">[20]</ref>. Patients with SSc were using their own smartphone camera to take images of the DUs for a maximum of 35 days at home. While the study demonstrated the feasibility of home-based documentation of DUs, it was limited to 4 patients. No information on image quality was obtained, and images were manually collected and transferred to a database.</p><p>A large proportion of existing wound imaging and documentation apps focus on the assessment of diabetic foot ulcers. Yap et al <ref type="bibr" target="#b20">[21]</ref> presented a mobile app aiming to standardize diabetic foot images by creating an outline of a precaptured foot image and aligning the foot when taking a new image. The images were taken in a clinical environment and it was up to the medical professional to decide whether to save the image, which might be challenging to translate to patient self-assessment. Patients are confronted with high uncertainty about the status of their own wound and might not be aware of the important parameters to control during wound image acquisition. Several apps integrate semi-automated wound measurement algorithms providing wound size and diameter <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b8">9]</ref>. However, the wound measurements require manual localization of the wound. Little evidence exists on the accuracy of such systems, due to the absence of validation studies on real wounds. To test interrater variability, plastic wound models have been used <ref type="bibr" target="#b8">[9]</ref>.</p><p>Besides an image-capturing app, supporting infrastructure is needed to enable ease of use and good-quality imaging results. The use of reference markers for color and size normalization is common <ref type="bibr" target="#b8">[9]</ref>. Wang et al <ref type="bibr" target="#b21">[22]</ref> developed a capturing box to capture wounds on feet that are otherwise not easily accessible. The box contains a mirror, and patients place their foot on a glass plate next to the phone that captures the mirror reflection inside the box. Alternatively, the front-facing camera can be used together with voice commands <ref type="bibr" target="#b5">[6]</ref>. Neither of these studies investigated objective image quality of the obtained wound images, in particular when obtained by a nonmedically trained user.</p><p>We developed an mHealth tool to enable wound self-documentation by patients with SSc and DUs. Our specific aims of this study were to (1) define objective measures for assessing the quality of wound images taken by patients using this tool unsupervised at home, (2) compare whether an automated real-time feedback feature on wound image quality improves the quality of the transmitted wound images, and (3) evaluate the feasibility of implementing this mHealth tool for home-based chronic wound monitoring and self-management by patients with SSc.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>The newly developed mHealth tool was composed of a smartphone with a custom wound imaging and management app, a custom color reference sticker, and a smartphone holder. All components were designed to facilitate standardized wound image acquisition that is consistent over time and does not require supervision or advanced training of the user. With a randomized study design in a home-based setting, we tested and compared 2 versions of the smartphone app (basic and with feedback) that differed in the way the app interacts with the patient during image acquisition. The version with feedback relied on real-time algorithms to assess image quality.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>mHealth Tool Development</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound Management App</head><p>The smartphone app implemented a simple workflow to take wound pictures (Figure <ref type="figure" target="#fig_0">1</ref>). It essentially consisted of a first-time patient login; first-time metadata entry (ie, wound locations), which was replaced with a selection in subsequent use; image acquisition; and background process that included secure upload to a REDCap study database <ref type="bibr" target="#b22">[23]</ref> via an application programming interface (API) when an internet connection was available. The app was developed for the Android operating system. Two versions of the app were developed with the goal of improving the overall image quality. The basic app version did not provide any feedback on image quality other than showing the freshly acquired image for subjective review, which is native to the Android operating system. The version with feedback included specifically developed mechanisms to interact with the user and communicate quality improvement opportunities at the time of image acquisition (Figure <ref type="figure" target="#fig_0">1</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quality Feedback Mechanisms</head><p>For developing the feedback mechanisms, an objective measure for image quality was needed. We focused on the evaluation of image sharpness as it is a parameter that also measures how well the object of interest is in focus and has traditionally been an important parameter in image quality evaluation in other areas of application. Sharper images contain finer details and lead to more reliable object recognition and classification <ref type="bibr" target="#b23">[24]</ref>. Blurry images negatively influence the performance of automated image processing algorithms <ref type="bibr" target="#b24">[25]</ref>. In addition, it is recommended to discard blurry wound images and not use them for wound assessment, as they could mislead diagnosis or alter derived conclusions <ref type="bibr" target="#b15">[16]</ref>. Therefore, it was desirable to identify unsuitable images early in the process and encourage repetition of the image acquisition at the instance where the user is already engaged with the process. For this purpose, we defined the sharpness as the variance of the Laplacian <ref type="bibr" target="#b25">[26]</ref>. The Laplacian is a second derivative operator to high-pass spatial frequencies, which are associated with sharp edges, and it is sensitive to the rapid intensity changes in an image <ref type="bibr" target="#b25">[26]</ref>. The variance reflects the spread of intensity changes. Thus, sharper images have higher Laplacian variance.</p><p>An additional objective measure for quality available in our system was the desired presence of the color reference sticker in the wound image. Therefore, we implemented an automatic color reference sticker detection routine into the imaging process. First, the color checker position was detected in the field of view by analyzing the rectangular morphology and exceeding a predefined threshold of its size, and then the sharpness of the sticker was analyzed. When the color reference sticker was detected and the corresponding region of interest was deemed sharp enough by exceeding a predefined threshold, the app provided the patient with a feedback message indicating that the image is deemed to be of good quality and can be saved. Otherwise, the user was prompted to retake the image.</p><p>As a third feedback mechanism, we provided a subjective comparison between the current image preview and a previously taken image of the same wound. The historical image was displayed in the left corner of the image preview screen. The intention of this was to encourage the patient to maintain a consistent field of view across multiple capturing sessions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Color Reference Sticker</head><p>We developed a customized color reference sticker as part of a larger project named SwissWOU, which is a subproject of the SKINTEGRITY Flagship of the Universities and Hospitals of Zurich, with the aim of developing a large wound image database for wound research. The color reference sticker contained 36 color patches that included all the colors for regular photography color calibration <ref type="bibr" target="#b26">[27]</ref> and an additional set of skin and wound-specific color shades (total size 30 x 30 mm).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Smartphone Holder</head><p>Patients with SSc often have severely reduced hand and finger function <ref type="bibr" target="#b18">[19]</ref>, limiting the range of motion and possibilities to interact with a smartphone. To ease the image-taking procedure and address the patient's needs, we designed a smartphone holder (Figure <ref type="figure" target="#fig_1">2</ref>). Patients placed the smartphone on top of the smartphone holder. Their finger was placed on the bottom plate or, in the case of fingertip wounds, through a hole in the bottom plate. The color reference sticker was also placed on the bottom plate adjacent to the finger placement area. An additional LED light ring assured a homogeneous lighting condition and prevented strong shadows. The smartphone holder provided a constant distance between the camera and the wound and consistent illumination, thereby also contributing to the consistency of image quality across time series. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Protocol</head><p>The study protocol followed the ethical principles for research involving humans according to the Declaration of Helsinki and was approved by the institutional ethics committee (ETH EK 2019-N-22). We recruited consecutive patients with SSc who attended the Department of Rheumatology at the University Hospital Zurich, Switzerland, for routine or emergency consultations from May 2019 to May 2020. Adult patients fulfilling classification criteria for SSc <ref type="bibr" target="#b27">[28]</ref> and having at least one DU on the fingers were included after written informed consent. First, patients performed a practical baseline test and filled in a questionnaire on mobile literacy and familiarity with smartphone camera usage. We identified patients who were familiar with using basic smartphone functions and also patients who were accustomed to photography. Based on this test, we stratified patients into experienced users and nonexperienced users, based on the combined criteria of whether they used the smartphone multiple times a day or used it at least once a day and were familiar with taking photos or videos. We randomly assigned the patients to 2 device groups (feedback and basic groups), while balancing the user experience between the groups. After this randomization, all patients were given an Android smartphone with all required apps pre-installed and the smartphone holder to keep for the duration of the study. We then instructed them on how to use the mHealth tool, explained the study protocol, and walked them step by step through the image-taking process of the corresponding app version (feedback or basic) once. Questions from patients were then answered. Under supervision, the patients then used the tool by themselves to take the first set of images of their wounds.</p><p>The data acquisition at home followed a regular protocol (Figure <ref type="figure" target="#fig_2">3</ref>). Both groups were asked to perform the wound assessments with the app every third day for the duration of 8 weeks (16 assessments). The assessment consisted of taking wound images and completing pain level questionnaires. The patient had to first login to unlock the app, place the smartphone on the smartphone holder, turn on the LED light ring, select the wound location, take an image, and if it was deemed of good quality, save the image or otherwise retake an image. After completing the wound image capture, patients evaluated their pain levels. At the end of the 8th week, data collection for the randomized app and image quality evaluation was completed, and a usability questionnaire was delivered. For an additional week on every third day (2-3 assessments), patients got to explore and test the alternate app version from the other group and evaluate the usability of this version as well. At the end of the study, patients returned the mHealth tool by mail. Overview of the wound assessment protocol performed at the patient's home for both the feedback and basic groups, which involved wound assessments every third day (16 times in total) for the first 8 weeks, after which, patients completed the usability questionnaires. In week 9, patients switched to the alternative app version and performed image assessments every third day (2-3 times), after which they evaluated the usability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Image Quality Comparison</head><p>To evaluate and compare the image quality between the randomized groups, we calculated the following image quality parameters.</p><p>We defined the color checker detection ratio (CCDR) as the number of images with clearly visible color reference stickers detected over the total number of images collected (Equation <ref type="formula">1</ref>). We calculated the CCDR across each group and patient</p><p>We compared the sharpness of images between groups, where the variance of the Laplacian was selected as a measure for sharpness <ref type="bibr" target="#b25">[26]</ref>. Since the variance of the Laplacian is dependent on the image content and the variability of wounds across subjects was not negligible, we restricted the region of interest to the color reference sticker, which was expected to be available and constant across all wound images. We evaluated the color checker sharpness (CCS) of each image where the color reference sticker area was manually labeled by a researcher after the data acquisition. The median CCS for each patient was evaluated to compare between groups.</p><p>In addition to the above-calculated quality measurements, subjective image quality was obtained. A research assistant was trained to evaluate the quality of wound images. She labeled all the images blinded to the randomized groups and applied a binary label. The binary label indicated whether the image was usable for the unambiguous identification of the finger and wound area. The ratios of usable images across each group and patient were calculated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis of Image Quality Comparison</head><p>We performed a Wilcoxon rank-sum test to compare whether there were statistically significant differences in the image quality between the 2 groups for the images that were collected from the first 8-week documentation period. The analysis was carried out with the Python SciPy library (version 1.4.1) <ref type="bibr" target="#b28">[29]</ref>. A P value &lt;.01 was considered statistically significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Feasibility Evaluation</head><p>The feasibility of the mHealth intervention was determined by analyzing the usability feedback from the questionnaires, the user behavior throughout the study, and the overall quality of wound images as described in the previous section.</p><p>The patients rated the usability of the mHealth tool with a questionnaire after each type of use (basic or feedback app) had ended. The questionnaires consisted of questions on the overall mHealth tool experience and the subcomponents like the smartphone holder and the versions of the app. The usability questions originated from the Post-Study System Usability Questionnaire <ref type="bibr" target="#b29">[30]</ref>, which is widely used to measure users' perceived satisfaction, such as software, system, or product at the end of a study, and were adapted to the specific functions of our application. Additionally, we asked questions about whether the patients were willing to continue using the tool and which app version they preferred. Each question was answered on a 7-point Likert scale, where 1 indicated "strongly agree" and 7 indicated "strongly disagree." For analysis, we aggregated the answers in bar plots.</p><p>The monitoring of user behavior was focused on whether the patients (1) were able to self-document their wound images and follow the study protocol with good adherence, (2) were efficient in using the app to capture images, and (3) dropped out of the study. The self-documentation was evaluated based on the patients' compliance with the image documentation routine given by the protocol. We calculated the number of image capturing assessment days actually performed divided by the assessment days that were assigned to be performed during the 8 weeks (16 assessments). When a patient took more days of assessments than expected (eg, ratio higher than 1), we then assigned the ratio as 1. We evaluated the efficiency by calculating the duration of each assessment by measuring the time between starting the app and the end of the assessment. For patients who documented multiple wounds, we only measured the time until saving the first wound image. We eliminated duration outliers from the analysis as they may have resulted from other distractions unrelated to the imaging task. Outliers were defined as a measurement duration of more than 3 scaled median absolute deviations away from the median duration over all assessments from each patient. For each group, we then calculated median durations and fitted a linear trend over time to evaluate the assessment efficiency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>A total of 21 patients were recruited and randomized into feedback (10 patients) and basic (11 patients) groups. During the course of the study, 6 patients returned the mHealth tool before completing the protocol and were subsequently excluded from the image quality analysis (Table <ref type="table" target="#tab_0">1</ref>). All dropouts happened in the first 2 weeks (Table <ref type="table" target="#tab_1">2</ref>) and were by female participants (Table <ref type="table" target="#tab_0">1</ref>). They had balanced strata (Table <ref type="table" target="#tab_0">1</ref>), and 2 belonged to the feedback group and 4 to the basic group (Table <ref type="table" target="#tab_1">2</ref>). The reasons for not continuing with the study were severe illness (3 patients), overwhelmed after instructions (2 patients), and overwhelmed after subsequent usage (1 patient; Table <ref type="table" target="#tab_1">2</ref>). Of the 15 patients who completed the study, 8 were in the feedback group, and 7 were in the basic group. All of the included patients were in the experienced smartphone user group strata (Table <ref type="table" target="#tab_0">1</ref>). A total of 382 wound images were collected during the intervention period, and 24 images were collected during week 9 after switching apps for the second usability evaluation (Table <ref type="table" target="#tab_0">1</ref>).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Image Quality Comparison</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Color Checker Detection Ratio</head><p>The CCDR was 0.96 (191/199) in the feedback group compared to 0.86 (158/183) in the basic group. As depicted in the boxplot in Figure <ref type="figure" target="#fig_3">4</ref>, the feedback group faced less variance (median 1; 25th percentile=0.93; 75th percentile=1) compared to the basic group (median 0.94; 25th percentile=0.76; 75th percentile=1). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Color Checker Sharpness</head><p>The feedback group achieved higher median CCS across patients (median 804) compared to the basic group (median 700; Figure <ref type="figure" target="#fig_3">4</ref>). The feedback group also showed overall higher CCS distribution across all images (median 894; 25th percentile=710; 75th percentile=999 ) compared to the basic group (median 700; 25th percentile=549; 75th percentile=867) as depicted in Figure <ref type="figure" target="#fig_4">5</ref>. The Wilcoxon rank-sum test showed a significant difference (P&lt;.001) between the 2 groups. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Manually Labeled Image Quality</head><p>In the feedback group, 90% (180/199) of the images were subjectively labeled as usable compared to 85% (155/183) in the basic group (Table <ref type="table" target="#tab_0">1</ref>). The feedback group had a higher ratio of images per patient that were manually labeled as usable (median 0.93; 25th percentile=0.82; 75th percentile=1) than the basic group (median 0.87; 25th percentile=0.81; 75th percentile=0.88) as depicted in Figure <ref type="figure" target="#fig_5">6</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Feasibility Evaluation</head><p>The median ratios of the patients' compliance to the image documentation routine were 0.77 (25th percentile=0.59; 75th percentile=0.91) for the feedback group and 0.94 (25th percentile=0.59, 75th percentile=0.98) for the basic group (Figure <ref type="figure" target="#fig_6">7</ref>). The overall median compliance ratio for both groups was 0.88 (25th percentile=0.58; 75th percentile=0.94)</p><p>The median durations for one image assessment were 42 seconds (overall), 47 seconds (feedback group), and 42 seconds (basic group). The assessment durations showed a decreasing trend for both the feedback and basic groups (Figure <ref type="figure" target="#fig_7">8</ref>).  The usability rating showed an overall higher user agreement for the feedback app (range 1.13-2.63) compared to the basic app (range 1.40-3.60) after the 8th week (Figure <ref type="figure" target="#fig_8">9</ref>). The smartphone holder obtained an agreement between 1.29 and 2.86 for both groups, and the mHealth tool as a whole was rated between 2.67 and 4.07. At week 9, after switching the app version, the feedback group rated the basic version app (range 1.00-3.00) similarly to the previously used feedback app (Figure <ref type="figure" target="#fig_8">9</ref>). The basic group rated the feedback version app lower (range 2.25-3.75) than their scores for the basic version app (Figure <ref type="figure" target="#fig_8">9</ref>). Results of the usability evaluation, in which each question was answered on a 7-point Likert scale (1=strongly agree, 7=strongly disagree). The average rating is shown in brackets on the barplot. *The 3rd question from "System" and its rating were reversed from its original form (Does my illness affect the usability of the system?).</p><p>A total of 7 patients indicated an interest in using the system in the future (Figure <ref type="figure" target="#fig_9">10</ref>). They provided several reasons: …be able to communicate changes without going to the hospital to check.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>…provide information to support wound healing. …monitor how the wound is changing and to be able to intervene more quickly…</head><p>The responses from the 4 patients who answered "no" were: …only when I feel that my condition is getting worse.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I don't see what to use it for.</head><p>I would find a solution that is easier for me.</p><p>Because not all wounds can be photographed.</p><p>Of the 8 patients in the feedback group, 6 preferred the feedback app over the basic app (Figure <ref type="figure" target="#fig_9">10</ref>), while 2 of 4 patients from the basic group preferred the basic app. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XSL • FO</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RenderX</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Principal Findings</head><p>We developed an mHealth tool for SSc patients with DUs to remotely self-document wound images in a standardized way and introduced an image quality-based feedback mechanism to encourage higher data integrity through targeted human-machine interaction. To our knowledge, this was the first time that a research study systematically evaluated the quality of patient self-documented wound images with a randomized protocol. We introduced objective image quality parameters such as CCDR and CCS that use the standardized region of interest of a color reference sticker to enable a reproducible quality estimation. These objective image quality metrics, along with subjective expert image assessments, showed that using the feedback mechanism yielded a higher image quality compared to using the basic app without real-time feedback. More specifically, the CCDR, CCS per patient, and manually labeled image quality were higher for the feedback group compared to the basic group. The feedback group achieved significantly higher CCS over all image distributions compared to the basic group. Overall, the high number of good-quality images obtained and the usability evaluation indicated that home-based DU assessment by SSc patients who are familiar with digital tools is feasible.</p><p>The importance of taking high-quality wound images for diagnostic and treatment monitoring purposes cannot be emphasized enough. From a technical point of view, modern smartphones are designed to capture high-resolution images with color representations comparable to professional digital cameras <ref type="bibr" target="#b12">[13]</ref>. However, capturing images of wounds for clinical applications is more critical and has more stringent requirements, because bad image quality could negatively influence the diagnosis and management plan <ref type="bibr" target="#b14">[15]</ref>. With our automatic feedback mechanism that processed images in real-time at the smartphone frontend, we improved the image quality during the process of image collection. This approach increased the reliability and consistency of images and avoided postprocessing or discarding of poor images, therefore also increasing the integrity of the data. Such an increase could positively impact further processing of the images, such as automated classification and segmentation algorithms or assessments of abnormalities during telemedical consultations. Whether the increase in quality has an impact on such applications and can influence patient health outcomes need to be investigated in a separate study.</p><p>We expected to observe a benefit from the real-time feedback mechanism. Other digital health applications previously reported such benefits. For example, respiratory rate counters that provide audio and visual feedback enable direct comparison of measurements with the breathing subject. Such comparison leads to improved respiratory rate estimations and repeated measurements where no initial agreement between feedback and subjects can be observed <ref type="bibr" target="#b30">[31]</ref>. Furthermore, computing a signal quality index that is displayed in real time with a color coding in the background of a vital sign trace assists the user in recording good-quality pulse oximetry recordings <ref type="bibr" target="#b31">[32]</ref>. In fact, specifications in standards for medical pulse oximeters (ISO 80601-2-61) enforce a real-time indication for signal inadequacy <ref type="bibr" target="#b32">[33]</ref>. However, standards leave it up to the manufacturer to define the quality indicator metric and its display method. Therefore, it is important to test its performance, usability, and feasibility in a user study as part of the medical device validation and certification process. The proposed randomization of users in 2 groups that use 2 different mHealth tools is a direct way to evaluate which tool can provide better quality data.</p><p>The usability questionnaires were another way to evaluate the feasibility and showed that the majority of the patients were satisfied with the system. All questions except one received a rating ≤3.75 on a 7-point Likert scale. The question of whether the usability of the system was influenced by the patient's illness received a rating of 4.07. A closer investigation of this result revealed 2 reasons that should be considered in further designs. First, hand function of some patients was severely impacted by the disease. Two patients brought forward that it was not easy to place their fingers correctly in the smartphone holder box to capture all angles of the wounds. Second, one patient stated that it was more difficult to get a sharp image from specific wound locations. This indicates that there is still room for improvement of the mHealth tool design. For patients whose hand function is severely impaired by the disease or whose fingers are affected on both hands, an obvious solution to avoid additional painful interaction with the system could be assistance from a second person (eg, family member or home care staff) or the integration of voice commands, which has already been proposed for diabetic foot ulcer management <ref type="bibr" target="#b5">[6]</ref>. Additional technical developments might be required for this (ie, an algorithm for the automated election of the focus point).</p><p>We re-evaluated the usability after switching the app version and using the alternative for another week. Interestingly, the feedback group did provide a similar usability rating for the basic app version, while the basic group had lower usability ratings for the feedback app version. An explanation could be that the basic group did not receive training on the feedback mechanisms, which might have led to confusion and lower usability. This would suggest that adequate training is needed before using the mHealth tools and could lead to better acceptance of the intervention.</p><p>We reported 6 patients who dropped out during the course of the study. The dropouts occurred immediately after recruiting or at an early stage of the study. The main reason for dropout was due to severe illness and the need for hospitalization, so that the assessment had to be stopped. It is interesting to note that all 3 subjects that were placed in the "not familiar with smartphone use" strata left the study prematurely. While this is too small a number to draw conclusions, it may indicate that familiarity with smartphone use could be a prerequisite for patients to engage with an mHealth approach to wound documentation. This important parameter, together with low recruiting rates, should be closely monitored in subsequent studies and analyzed to determine whether they indicate that the use of technology might not be suitable for all patient groups or demographics.</p><p>We demonstrated that remote self-management of wounds by patients with SSc is feasible. An overall rate of routine documentation of 88% was achieved by patients, indicating good adherence to the suggested protocol. Independent of the app version, the obtained image quality was sufficient for further use (&gt;84% of images got a usable label from the subjective expert assessment). The median image assessment duration was within the range of 50 seconds, indicating that the mHealth tool is efficient to use and can be integrated into the daily routine of a patient. While our analysis was limited to 15 patients, this number was sufficient to highlight the preferences of participants and demonstrate the benefits of real-time feedback on improving wound image quality. The usability results indicated that, with small adaptations and optimizations of the design, satisfaction of the patients could be further improved. With 64% of the patients willing to continue using the current version of the mHealth tool, these adaptations will be well justified.</p><p>The technical features of the mHealth tool could also be improved in further design iterations. Currently, the image-taking process was based on the standard camera sensor of the smartphone, which produced 2D RGB images that can be used for documenting the wound and assessing basic wound characteristics such as area and color. More advanced measuring approaches could involve the recording of 3D wound images for wound depth assessment <ref type="bibr" target="#b33">[34]</ref> or using additional sensor modalities, such as a thermal or infrared sensor to visualize the perfusion changes in and around a wound <ref type="bibr" target="#b34">[35]</ref>. Such modalities would be even more difficult to subjectively assess for quality by a lay user because they are less common and require more advanced user interaction. Therefore, integrating automated quality mechanisms would be of utmost importance also in these approaches. However, different objective metrics will need to be developed.</p><p>The impact of a home-based mHealth tool for self-documentation of wounds and telemedical application for patients with SSc was evident. First of all, patients identified that such tools could reduce unnecessary travel to the clinics. In addition, during the COVID-19 pandemic, patients with SSc were considered more vulnerable to infection due to immunosuppressive treatment that dampens the immune system <ref type="bibr" target="#b35">[36]</ref>. Therefore, patients with autoimmune diseases were recommended to avoid crowds and unnecessary travel or hospital visits <ref type="bibr" target="#b35">[36]</ref>. In such a context, telemedicine consultations could serve as a valid tool for enhancing disease management without additionally endangering the patients. No less important, the transmission of wound images with the mHealth tool could enable clinicians or decision support algorithms to detect abnormal wound conditions, such as new or worsening ulcers, earlier <ref type="bibr" target="#b36">[37]</ref>, leading to more timely referral and earlier treatment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>There is a great need for mobile solutions to support self-documentation of chronic wounds, as well as to enable clinical-grade wound image acquisition at the patient's home. We developed an mHealth tool that provides such health services and enables telemedical support for patients with SSc and DUs. We demonstrated that it is feasible to deploy such an app in this patient group and high-quality wound images can be consistently acquired. System usability had positive ratings, with room for improvement to address the disease-specific needs of patients. Introducing a feedback mechanism identifying image quality deficiencies and encouraging repetition of the imaging process improved overall image quality when compared to a solution without such a feedback mechanism. The mHealth tool can be further investigated to evaluate the clinical efficacy and effectiveness and establish whether patient outcomes could be improved with this sensor-based telemedicine intervention.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Flowchart of the interaction steps for a user for (A) the basic app and (B) additional feedback mechanisms for the version with feedback, which is illustrated with screenshots showing (C) a history image in the left corner of the screen to guide patients to create consistent fields of view across assessments, (D) feedback messages based on the automated detection of image quality, and (E) automated color reference detection to determine the image quality.</figDesc><graphic coords="4,56.69,112.93,481.93,167.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. (A) 3D schematic of the mobile health tool and (B) experimental setup.</figDesc><graphic coords="5,56.69,82.33,481.92,231.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Overview of the wound assessment protocol performed at the patient's home for both the feedback and basic groups, which involved wound assessments every third day (16 times in total) for the first 8 weeks, after which, patients completed the usability questionnaires. In week 9, patients switched to the alternative app version and performed image assessments every third day (2-3 times), after which they evaluated the usability.</figDesc><graphic coords="6,56.69,102.74,481.89,239.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. (A) Color checker detection ratio (CCDR) and (B) color checker sharpness (CCS) per patient for the feedback and basic groups. The grey dots indicate each individual patient. The central, bottom, and top edges of the boxes indicate the median, 25th percentile, and 75th percentile, respectively; the whiskers indicate the outliers.</figDesc><graphic coords="8,56.69,345.94,481.91,197.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Comparison of the color checker sharpness (CCS) distribution for all images between the feedback and basic groups. The central, bottom, and top edges of the boxes indicate the median, 25th percentile, and 75th percentile. ***P&lt;.001.</figDesc><graphic coords="9,56.69,92.54,481.89,283.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Distribution of subjective image quality, which was measured as the ratio of images that were labeled as usable, for the manually labeled images for the feedback and basic groups. The grey dots indicate each individual patient. The central, bottom, and top edges of the boxes indicate the median, 25th percentile, and 75th percentile, respectively.</figDesc><graphic coords="9,56.69,481.90,481.80,274.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Ratio of patients' compliance to the documentation routine for the feedback and basic groups. The grey dots indicate each individual patient.</figDesc><graphic coords="10,56.69,167.05,481.80,281.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Durations of image assessments over the 8-week study period, consisting of 16 interventions for the (A) feedback and (B) basic groups. The solid lines are the linearly fitted trends per group.</figDesc><graphic coords="10,56.69,485.22,481.89,191.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Results of the usability evaluation, in which each question was answered on a 7-point Likert scale (1=strongly agree, 7=strongly disagree). The average rating is shown in brackets on the barplot. *The 3rd question from "System" and its rating were reversed from its original form (Does my illness affect the usability of the system?).</figDesc><graphic coords="11,56.69,102.76,481.87,325.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. Additional questionnaire with 4 questions about (A) the patients' willingness to continue using the system, (B,C) their preference on the app version, and (D) whether the app added value for them.</figDesc><graphic coords="11,56.69,576.30,481.85,172.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Metadata for the patient randomization, dropouts, and number of images from each group. Ratio of the number of patients that were not familiar to those who were familiar with smartphone camera usage. Number of images manually labeled as good quality by the research assistant.</figDesc><table><row><cell>Patient characteristics</cell><cell cols="2">Intervention period (Weeks 1-8)</cell><cell>Week 9</cell><cell></cell><cell>Dropouts (n=6)</cell></row><row><cell></cell><cell>Feedback (n=8)</cell><cell>Basic (n=7)</cell><cell>Feedback (n=4)</cell><cell>Basic (n=4)</cell><cell></cell></row><row><cell>Age (years), mean (SD)</cell><cell>47 (11)</cell><cell>52 (9)</cell><cell>N/A a</cell><cell>N/A</cell><cell>48 (13)</cell></row><row><cell>Sex, n</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Male</cell><cell>4</cell><cell>1</cell><cell>N/A</cell><cell>N/A</cell><cell>0</cell></row><row><cell>Female</cell><cell>4</cell><cell>6</cell><cell>N/A</cell><cell>N/A</cell><cell>6</cell></row><row><cell>Strata ratio b , n</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Not familiar</cell><cell>0</cell><cell>0</cell><cell>N/A</cell><cell>N/A</cell><cell>3</cell></row><row><cell>Familiar</cell><cell>8</cell><cell>7</cell><cell>N/A</cell><cell>N/A</cell><cell>3</cell></row><row><cell>Total number of images</cell><cell>199</cell><cell>183</cell><cell>15</cell><cell>9</cell><cell>N/A</cell></row><row><cell>Distribution of images per patient, mean (SD)</cell><cell>24.88 (11.21)</cell><cell>26.14 (10.59)</cell><cell>1.88 (1.76)</cell><cell>1.29 (1.39)</cell><cell>N/A</cell></row><row><cell>Number of images with color checker detected</cell><cell>191</cell><cell>158</cell><cell>N/A</cell><cell>N/A</cell><cell>N/A</cell></row><row><cell>Subjective quality c , n</cell><cell>180</cell><cell>155</cell><cell>15</cell><cell>7</cell><cell>N/A</cell></row><row><cell>a N/A: not applicable.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>b c JMIR Mhealth Uhealth 2021 | vol. 9 | iss. 7 | e26149 | p. 7 https://mhealth.jmir.org/2021/7/e26149 (page number not for citation purposes)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Study dropouts and time since recruitment, by dropout reason. Ratio of the number of patients that were not familiar to those who were familiar with smartphone camera usage.</figDesc><table><row><cell>Patient characteristics</cell><cell>Overwhelmed at instruction (n=2)</cell><cell>Severe illness (n=3)</cell><cell>Overwhelmed during usage (n=1)</cell></row><row><cell>Time since recruitment for each patient (days)</cell><cell>0, 0</cell><cell>3, 6, 9</cell><cell>13</cell></row><row><cell>Strata ratio a , n</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Not familiar</cell><cell>1</cell><cell>2</cell><cell>0</cell></row><row><cell>Familiar</cell><cell>1</cell><cell>1</cell><cell>1</cell></row><row><cell>Group, n</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Feedback</cell><cell>1</cell><cell>0</cell><cell>1</cell></row><row><cell>Basic</cell><cell>1</cell><cell>3</cell><cell>0</cell></row></table><note><p>a</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>JMIR Mhealth Uhealth 2021 | vol. 9 | iss. 7 | e26149 | p. 2 https://mhealth.jmir.org/2021/7/e26149 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>JMIR Mhealth Uhealth 2021 | vol. 9 | iss. 7 | e26149 | p. 3 https://mhealth.jmir.org/2021/7/e26149 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>JMIR Mhealth Uhealth 2021 | vol. 9 | iss. 7 | e26149 | p. 4 https://mhealth.jmir.org/2021/7/e26149 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>JMIR Mhealth Uhealth 2021 | vol. 9 | iss. 7 | e26149 | p. 5 https://mhealth.jmir.org/2021/7/e26149 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>(page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>JMIR Mhealth Uhealth 2021 | vol. 9 | iss. 7 | e26149 | p. 8 https://mhealth.jmir.org/2021/7/e26149 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>JMIR Mhealth Uhealth 2021 | vol. 9 | iss. 7 | e26149 | p. 10 https://mhealth.jmir.org/2021/7/e26149 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>JMIR Mhealth Uhealth 2021 | vol. 9 | iss. 7 | e26149 | p. 11 https://mhealth.jmir.org/2021/7/e26149 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_8"><p>JMIR Mhealth Uhealth 2021 | vol. 9 | iss. 7 | e26149 | p. 12 https://mhealth.jmir.org/2021/7/e26149 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_9"><p>JMIR Mhealth Uhealth 2021 | vol. 9 | iss. 7 | e26149 | p. 13 https://mhealth.jmir.org/2021/7/e26149 (page number not for citation purposes)</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We would like to thank all patients who participated in the study and provided valuable feedback. We thank <rs type="person">Dr. Rucsandra Cristina Dobrota</rs> for helping with patient recruitment, <rs type="person">Mayank Patwari</rs> and <rs type="person">Steffen Schmidt</rs> for designing app prototypes, and <rs type="person">Ilan Misano</rs> for designing prototypes of the smartphone holder. We especially thank <rs type="person">Amilen Souto Cortes</rs> who performed the manual expert labeling of all wound images. This project is part of the <rs type="institution">Hochschulmedizin Zurich Flagship SKINTEGRITY</rs>. It was supported by the <rs type="funder">SCS Swiss Child Support Foundation</rs>, <rs type="funder">ETH Zürich Foundation</rs>, the <rs type="funder">Novartis Foundation (Freenovation)</rs>, and the <rs type="funder">Swiss National Science Foundation</rs> (<rs type="grantNumber">150640</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_WX2cUVN">
+					<idno type="grant-number">150640</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest</head><p>A patent application has been filed based on this manuscript under EP21175108.6: "A system for recording a high quality wound image and for real-time image quality assessment." </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="13,46.27,684.37,3.75,9.00;13,66.52,684.37,486.25,9.00;13,66.52,696.37,439.70,9.00;13,66.52,708.37,371.52,9.00" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Negative pressure wound therapy literature review of efficacy, cost effectiveness, and impact on patients&apos; quality of life in chronic wound management and its implementation in the United kingdom. Plast Surg Int</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Othman</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2012/374398</idno>
+		<idno>Medline: 22701169</idno>
+		<imprint>
+			<date type="published" when="2012-05-30">2012 May 30;2012</date>
+			<biblScope unit="page" from="374398" to="374396" />
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="13,46.27,720.37,3.75,9.00;13,66.52,720.37,475.32,9.00;13,66.52,732.37,450.72,9.00;13,66.52,744.37,330.68,9.00" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Implementation of a successful electronic wound documentation system in rural Victoria, Australia: a subject of collaboration and community engagement</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Khalil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Steers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Walker</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.12041</idno>
+		<idno>Medline: 23418740</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="314" to="318" />
+			<date type="published" when="2014-06-19">2014 Jun 19</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="14,46.27,72.37,3.75,9.00;14,66.52,72.37,486.34,9.00;14,66.52,84.37,451.45,9.00;14,66.52,96.37,176.94,9.00" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Expert advice provided through telemedicine improves healing of chronic wounds: prospective cluster controlled study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zarchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Haugaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Dufour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gbe</forename><surname>Jemec</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/jid.2014.441</idno>
+		<idno>Medline: 25290685</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="895" to="900" />
+			<date type="published" when="2015-03">2015 Mar</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="14,46.27,108.37,3.75,9.00;14,66.52,108.37,484.53,9.00;14,66.52,120.37,393.92,9.00" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A pilot study on the potential of remote support to enhance wound care for nursing-home patients</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vowden</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2013.22.9.481</idno>
+		<idno>Medline: 24005782</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="481" to="488" />
+			<date type="published" when="2013-09">2013 Sep</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,46.27,132.37,3.75,9.00;14,66.52,132.37,469.50,9.00;14,66.52,144.37,486.25,9.00;14,66.52,156.37,405.40,9.00" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Feasibility and safety of surgical wound remote follow-up by smart phone in appendectomy: A pilot study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Segura-Sampedro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rivero-Belenchón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pino-Díaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rodríguez</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Pareja-Ciuró</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Padillo-Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.amsu.2017.07.040</idno>
+		<idno>Medline: 28794868</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Med Surg (Lond)</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="58" to="62" />
+			<date type="published" when="2017-09">2017 Sep</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="14,46.27,168.37,3.75,9.00;14,66.52,168.37,474.76,9.00;14,66.52,180.37,486.24,9.00;14,66.52,192.37,151.38,9.00" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Promoting Self-Care of Diabetic Foot Ulcers Through a Mobile Phone App: User-Centered Design and Evaluation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ploderer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lsd</forename><surname>Seng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Lazzarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Van Netten</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/10105</idno>
+		<idno>Medline: 30305266</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">10105</biblScope>
+			<date type="published" when="2018-10-10">2018 Oct 10</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="14,46.27,204.37,3.75,9.00;14,66.52,204.37,441.31,9.00;14,66.52,216.37,243.04,9.00" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The art of skin and wound care documentation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Hess</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00004045-200508000-00010</idno>
+		<idno>Medline: 16103800</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Home Healthc Nurse</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="502" to="513" />
+			<date type="published" when="2005-08">2005 Aug</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,46.27,228.37,3.75,9.00;14,66.52,228.37,476.26,9.00;14,66.52,240.37,166.66,9.00" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Is wound photography becoming sloppy?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Queen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13302</idno>
+		<idno>Medline: 31930710</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="6" />
+			<date type="published" when="2020-02">2020 Feb</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="14,46.27,252.37,3.75,9.00;14,66.52,252.37,468.27,9.00;14,66.52,264.37,464.27,9.00;14,66.52,276.37,214.15,9.00" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Point-of-care wound visioning technology: Reproducibility and accuracy of a wound measurement app</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jae</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sasseville</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0183139</idno>
+		<idno>Medline: 28817649</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">183139</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="14,50.85,288.37,501.91,9.00;14,66.52,300.37,481.29,9.00;14,66.52,312.37,43.33,9.00" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Standardization of wound photography using the Wound Electronic Medical Record</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rennert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Golinko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Flattau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brem</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.ASW.0000343718.30567.cb</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="32" to="38" />
+			<date type="published" when="2009-01">2009 Jan</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,50.85,324.37,472.85,9.00;14,66.52,336.37,486.30,9.00" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Robust Methods for Real-Time Diabetic Foot Ulcer Detection and Localization on Mobile Devices</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/jbhi.2018.2868656</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Biomed. Health Inform</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1730" to="1741" />
+			<date type="published" when="2019-07">2019 Jul</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,50.85,348.37,481.11,9.00;14,66.52,360.37,483.21,9.00;14,66.52,372.37,140.80,9.00" xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">V</forename><surname>Shenoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Aalami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Majeed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Aalami</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Deepwound</surname></persName>
+		</author>
+		<idno>2021-07-05</idno>
+		<ptr target="https://arxiv.org/abs/1807.04355" />
+		<title level="m">Automated Postoperative Wound Assessment and Surgical Site Surveillance through Convolutional Neural Networks. Cornell University</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,50.85,384.37,490.17,9.00;14,66.52,396.37,486.06,9.00;14,66.52,408.37,206.11,9.00" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Can We Trust the Use of Smartphone Cameras in Clinical Practice? Laypeople Assessment of Their Image Quality</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boissin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wallis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hasselberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Laflamme</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/tmj.2014.0221</idno>
+		<idno>Medline: 26076033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Telemed J E Health</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="887" to="892" />
+			<date type="published" when="2015-11">2015 Nov</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="14,50.85,420.37,496.51,9.00;14,66.52,432.37,485.09,9.00;14,66.52,444.37,486.24,9.00;14,66.52,456.37,43.33,9.00" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Data Integrity-Based Methodology and Checklist for Identifying Implementation Risks of Physiological Sensing in Mobile Health Projects: Quantitative and Qualitative Analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tüshaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nuño</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Moreo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Verastegui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hartinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.2196/11896</idno>
+		<idno>Medline: 30552079</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Mhealth Uhealth</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">11896</biblScope>
+			<date type="published" when="2018-12-14">2018 Dec 14</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="14,50.85,468.37,493.38,9.00;14,66.52,480.37,457.16,9.00;14,66.52,492.37,208.60,9.00" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Accuracy and reliability of teledermatoscopy with images taken by general practitioners during everyday practice</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Van Der Heijden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijssing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Witkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Spuls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>De Keizer</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1357633X13503437</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Telemed Telecare</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="320" to="325" />
+			<date type="published" when="2013-09">2013 Sep</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 24163296</note>
+</biblStruct>
+
+<biblStruct coords="14,50.85,504.37,489.78,9.00;14,66.52,516.37,67.08,9.00" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Ten top tips for taking high-quality digital images of wounds</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sperring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Essentials</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="62" to="64" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="14,50.85,528.37,492.51,9.00;14,66.52,540.37,486.23,9.00;14,66.52,552.37,472.74,9.00" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Incidence and predictors of cutaneous manifestations during the early course of systemic sclerosis: a 10-year longitudinal study from the EUSTAR database</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Wirz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Jaeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Allanore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Riemekasten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hachulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Distler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eustar</forename><surname>Coauthors</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/annrheumdis-2015-207271</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1285" to="1292" />
+			<date type="published" when="2016-07">2016 Jul</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 26232495</note>
+</biblStruct>
+
+<biblStruct coords="14,50.85,564.37,487.13,9.00;14,66.52,576.37,454.57,9.00;14,66.52,588.37,234.70,9.00" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">EUSTAR co-authors. Digital ulcers predict a worse disease course in patients with systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mihai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Landewé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Heijde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">A</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Constantin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Gherghe</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/annrheumdis-2014-205897</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="681" to="686" />
+			<date type="published" when="2016-04">2016 Apr</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 25688073</note>
+</biblStruct>
+
+<biblStruct coords="14,50.85,600.37,467.56,9.00;14,66.52,612.37,216.02,9.00" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Digital ulcers in systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Herrick</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/rheumatology/kew047</idno>
+		<idno>Medline: 27094599</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="25" />
+			<date type="published" when="2017-01">2017 Jan</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,50.85,624.37,501.92,9.00;14,66.52,636.37,428.28,9.00;14,66.52,648.37,346.64,9.00" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Tracking digital ulcers in systemic sclerosis: a feasibility study assessing lesion area in patient-recorded smartphone photographs</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dinsdale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Atkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ousey</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/annrheumdis-2017-212829</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1382" to="1384" />
+			<date type="published" when="2018-09">2018 Sep</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 29431120</note>
+</biblStruct>
+
+<biblStruct coords="14,50.85,660.37,501.91,9.00;14,66.52,672.37,486.24,9.00;14,66.52,684.37,85.27,9.00" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A New Mobile Application for Standardizing Diabetic Foot Images</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Chatwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Abbott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1932296817713761</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="169" to="173" />
+			<date type="published" when="2018-01">2018 Jan</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text. Medline: 28637356</note>
+</biblStruct>
+
+<biblStruct coords="14,50.85,696.37,490.67,9.00;14,66.52,708.37,486.28,9.00" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Smartphone-based wound assessment system for patients with diabetes</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Strong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tulu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ignotz</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TBME.2014.2358632</idno>
+		<idno>Medline: 25248175</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="477" to="488" />
+			<date type="published" when="2015-02">2015 Feb</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,50.85,720.37,463.59,9.00;14,66.52,732.37,477.08,9.00;14,66.52,744.37,417.06,9.00;14,387.66,794.25,165.09,6.30;14,42.52,794.25,109.94,6.30;14,440.71,802.65,112.05,6.30" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Research electronic data capture (REDCap)--a metadata-driven methodology and workflow process for providing translational research informatics support</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Thielke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Payne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Conde</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbi.2008.08.010</idno>
+		<idno>Medline: 18929686</idno>
+		<ptr target="https://mhealth.jmir.org/2021/7/e26149" />
+	</analytic>
+	<monogr>
+		<title level="m">JMIR Mhealth Uhealth 2021 |</title>
+		<imprint>
+			<date type="published" when="2009-04">2009 Apr</date>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="26149" to="26163" />
+		</imprint>
+	</monogr>
+	<note>FREE Full text. page number not for citation purposes</note>
+</biblStruct>
+
+<biblStruct coords="15,50.85,72.37,493.08,9.00;15,66.52,84.37,478.64,9.00;15,66.52,96.37,350.24,9.00" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A comparison of image sharpness metrics and real-time sharpening methods with GPU implementations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>De Villiers</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1811158.1811168</idno>
+	</analytic>
+	<monogr>
+		<title level="m">7th International Conference on Computer Graphics, Virtual Reality, Visualisation and Interaction in Africa</title>
+		<meeting><address><addrLine>Franschhoek, South Africa</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010-06-21">2010. June 21-23. 2010</date>
+		</imprint>
+	</monogr>
+	<note>Presented at</note>
+</biblStruct>
+
+<biblStruct coords="15,50.85,108.37,496.37,9.00;15,66.52,120.37,399.35,9.00" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Understanding how image quality affects deep neural networks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dodge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Karam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">th International Conference on Quality of Multimedia Experience</title>
+		<meeting><address><addrLine>Lisbon, Portugal</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016-06-06">2016. 2016. June 6-8, 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,50.85,132.37,501.92,9.00;15,66.52,144.37,486.25,9.00;15,66.52,156.37,427.61,9.00" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Diatom autofocusing in brightfield microscopy: a comparative study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Pech-Pacheco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cristöbal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chamorro-Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fernândez</forename><forename type="middle">-</forename><surname>Valdivia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1109/icpr.2000.903548</idno>
+	</analytic>
+	<monogr>
+		<title level="m">15th International Conference on Pattern Recognition. ICPR-2000</title>
+		<meeting><address><addrLine>Barcelona, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000-09-03">2000. September 3-7, 2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,50.85,168.37,501.99,9.00" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Color-Rendition Chart</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Mccamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Marcus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Davidson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Photographic Engineering</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="95" to="99" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,50.85,180.37,499.95,9.00;15,66.52,192.37,484.50,9.00;15,66.52,204.37,404.41,9.00" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">2013 classification criteria for systemic sclerosis: an American College of Rheumatology/European League against Rheumatism collaborative initiative</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Den Hoogen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Khanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fransen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tyndall</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/art.38098</idno>
+		<idno>Medline: 24122180</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2737" to="2747" />
+			<date type="published" when="2013-11">2013 Nov</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="15,50.85,216.37,493.28,9.00;15,66.52,228.37,484.91,9.00;15,66.52,240.37,205.26,9.00" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">SciPy 1.0 Contributors. SciPy 1.0: fundamental algorithms for scientific computing in Python</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Virtanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gommers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Oliphant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haberland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cournapeau</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Polat</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41592-019-0686-2</idno>
+		<idno>Medline: 32015543</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="261" to="272" />
+			<date type="published" when="2020-03">2020 Mar</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="15,50.85,252.37,501.51,9.00;15,66.52,264.37,403.30,9.00" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Psychometric Evaluation of the PSSUQ Using Data from Five Years of Usability Studies</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lewis</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10447318.2002.9669130</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Human-Computer Interaction</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="463" to="488" />
+			<date type="published" when="2002-09">2002 Sep</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,50.85,276.37,501.91,9.00;15,66.52,288.37,418.46,9.00;15,66.52,300.37,214.15,9.00" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Improving the accuracy and efficiency of respiratory rate measurements in children using mobile devices</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Karlen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dunsmuir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Dumont</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0099266</idno>
+		<idno>Medline: 24919062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">99266</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct coords="15,50.85,312.37,481.49,9.00;15,66.52,324.37,483.11,9.00;15,66.52,336.37,444.55,9.00" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Respiratory rate and pulse oximetry derived information as predictors of hospital admission in young children in Bangladesh: a prospective observational study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Raihana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dunsmuir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karlen</forename><forename type="middle">W</forename><surname>Dekhordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjopen-2016-011094</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">11094</biblScope>
+			<date type="published" when="2016-08-17">2016 Aug 17</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text. Medline: 27534987</note>
+</biblStruct>
+
+<biblStruct coords="15,50.85,348.37,490.84,9.00;15,66.52,360.37,486.26,9.00;15,66.52,372.37,139.14,9.00" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Medical electrical equipment -Part 2-61: Particular requirements for basic safety and essential performance of pulse oximeter equipment</title>
+		<idno>2021-07-05</idno>
+		<ptr target="https://www.iso.org/standard/67963.html" />
+	</analytic>
+	<monogr>
+		<title level="m">International Standards Organization</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,50.85,384.37,495.11,9.00;15,66.52,396.37,483.43,9.00;15,66.52,408.37,43.33,9.00" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Assessment of a smartphone-based application for diabetic foot ulcer measurement</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Szpak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Battersby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cowled</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/wrr.12905</idno>
+		<idno>Medline: 33657252</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="460" to="465" />
+			<date type="published" when="2021-05-03">2021 May 03</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,50.85,420.37,501.91,9.00;15,66.52,432.37,443.55,9.00" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Use of a smartphone thermometer to monitor thermal conductivity changes in diabetic foot ulcers: a pilot study</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maddah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beigzadeh</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2020.29.1.61</idno>
+		<idno>Medline: 31930943</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="61" to="66" />
+			<date type="published" when="2020-01-02">2020 Jan 02</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,50.85,444.37,498.30,9.00;15,66.52,456.37,479.96,9.00;15,66.52,468.37,474.57,9.00" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The systemic sclerosis patient in the COVID-19 era: the challenging crossroad between immunosuppression, differential diagnosis and long-term psychological distress</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Orlandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lepri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bruni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bartoloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zammarchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10067-020-05193-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2043" to="2047" />
+			<date type="published" when="2020-07">2020 Jul</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text. Medline: 32514674</note>
+</biblStruct>
+
+<biblStruct coords="15,50.85,480.37,501.69,9.00;15,66.52,492.37,486.24,9.00" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Matucci-Cerinic M. Raynaud phenomenon and digital ulcers in systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Allanore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pauling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Denton</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41584-020-0386-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="208" to="221" />
+			<date type="published" when="2020-04">2020 Apr</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 32099191</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

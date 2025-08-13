@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Time-Saving Comparison of Wound Measurement Between the Ruler Method and the Swift Skin and Wound App</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Sheila</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+							<email>sheila.wang@mail.mcgill.ca</email>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Division of Dermatology</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<settlement>Montreal</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yunghan</forename><surname>Au</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Medical Affairs</orgName>
+								<orgName type="institution">Swift Medical</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamin</forename><surname>Beland</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Medicine</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<settlement>Montreal</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">A E</forename><surname>Anderson</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">York University</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Denis</forename><surname>Sasseville</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Division of Dermatology</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<settlement>Montreal</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Division of Dermatology</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<addrLine>1650 Cedar Avenue</addrLine>
+									<postCode>H3G 1A4</postCode>
+									<settlement>Montreal</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Time-Saving Comparison of Wound Measurement Between the Ruler Method and the Swift Skin and Wound App</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D3AA6A75108F59B3562135775DB95133</idno>
+					<idno type="DOI">10.1177/1203475418800942</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>wound</term>
+					<term>smartphone app</term>
+					<term>digital health</term>
+					<term>time efficiency ORCID iD</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Chronic wounds are a major problem: an estimated 6.5 million people in the United States have chronic wounds that are highly susceptible to infection and difficult to manage. <ref type="bibr" target="#b0">1</ref> Early identification of problematic wounds allows effective treatment, capable of changing disease course. <ref type="bibr" target="#b1">2</ref> Accurate documentation and measurement of wounds are critical.</p><p>The gold standard for measuring wounds is a ruler: measuring the longest axis (length) and the greatest perpendicular width. This can overestimate wound area by up to 73.9%. Measuring wounds with digital photography has been shown to be more reliable. <ref type="bibr" target="#b2">3</ref> Swift Medical (Toronto, Ontario, Canada) has created a mobile application (Swift app) for wound management. The application calculates wound dimensions, including surface area, allowing highly accurate and reliable measurements, enabling wound progress to be tracked over time. <ref type="bibr" target="#b3">4</ref> There are also administrative advantages in digitizing the wound documentation and measurement workflow (eg, time saving and accessing images).</p><p>The study objective was to investigate the impact of the Swift app on clinicians' time efficiency, specifically wound assessment and documentation time, compared to the ruler method.</p><p>Twenty medical students and dermatology residents (Faculty of Medicine, McGill University) participated voluntarily. The Swift app was used to photograph, measure, and document model wound images, using an iPhone (Apple, Cupertino, California), following training on the app. The time taken for each participant to measure the wound images (20 in total) using the Swift app and ruler method was recorded. For the ruler method, participants were instructed to draw an image representing the wound and indicate where they measured length and width.</p><p>Mixed analysis of variance was used to compare measurement type (time taken to measure wound length and width, ruler vs app) across the 20 wounds repeated by each subject. Reliability was determined using intraclass correlation coefficients (ICCs) calculated in R. <ref type="bibr" target="#b4">5</ref> We compared time efficiencies when measuring and documenting wounds using the ruler method compared to the Swift app (Figure <ref type="figure" target="#fig_0">1A</ref> [dashboard] and Figure <ref type="figure" target="#fig_0">1B</ref>,C [drawing vs photo documentation comparison]). Measurement time by the ruler method was significantly slower than using the Swift app (Table <ref type="table" target="#tab_0">1</ref>; mean [SD], 48.17 [7.81] vs 30.77 [5.21] seconds; P &lt; .001, ruler vs Swift app). For the ruler method, measurements took 16.85 seconds, while charting time took an additional 31.32 seconds. Hence, for combined measurement and documentation, the Swift app was 57% faster than the ruler method and paper charting. The ruler method is widely used as it is perceived to be quick, despite large inaccuracies and low interrater reliability. We demonstrate here that wound assessment is significantly accelerated using the Swift app, representing a marked improvement over the standard and most commonly used method. We observed high user satisfaction when comparing completeness and objectivity of photo documentation compared to hand-drawn figures. Raters reported that photos provided substantially more insight than textual descriptions. Furthermore, hand-drawn images showed marked subjective variation, affecting recording accuracy (Figure <ref type="figure" target="#fig_0">1B</ref>).</p><p>Wound photography is increasingly common in clinical practice and is recommended for managing wounds. Poor wound assessment and documentation cause inappropriate management decisions, negatively affecting patient care. Accurate wound tracking is an important criterion in monitoring healing success and helps reduce medical errors, thus improving clinical outcomes.</p><p>Many services in wound care lack a dedicated time component so their action goes unpaid. Increasing the number of evaluations per day by reducing wound evaluation time would therefore improve productivity and financial gains. While wound assessment and documentation represent a single step in the clinical management workflow, we anticipate that by its very design and function, the Swift app will provide substantial improvements in other time-intensive clinical activities. was provided by Kirsten Talbot. We also thank the medical students and dermatology residents who were participants of this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Conflicting Interests</head><p>The author(s) declared the following potential conflicts of interest with respect to the research, authorship, and/or publication of this article: S.C.W. is a cofounder and CMO of Swift Medical; Y.A. is an employee of Swift Medical. B.B. and J.E.E.A. declare no conflict of interest.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Comparison of the Swift skin and wound app with the ruler method for wound measurement and documentation. (A) Example of body location screen within Swift app and dashboard display used to aggregate wound information. (B) Pen and paper drawing of a wound by one of the study participants and the Swift app display of the wound image with analysis. (C) Comparison of total measurement time by method (ruler vs app) across 20 wounds images.</figDesc><graphic coords="2,97.75,80.01,432.00,390.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Time ICC Values of the Ruler Method and the App.</figDesc><table><row><cell></cell><cell>Average Time Taken Measurement</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Method</cell><cell>and Documentation, s</cell><cell>ICC Value</cell><cell>Lower 95%</cell><cell>Upper 95%</cell></row><row><cell>Ruler time</cell><cell>48.17</cell><cell>0.84</cell><cell>0.72</cell><cell>0.93</cell></row><row><cell>App time</cell><cell>30.77</cell><cell>0.86</cell><cell>0.75</cell><cell>0.94</cell></row></table><note><p>Abbreviation: ICC, intraclass correlation coefficient.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>Writing assistance for this manuscript was provided by <rs type="person">Steen K. T. Ooi</rs>, who was provided with funding, while additional assistance</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>The author(s) received no financial support for the research, authorship, and/or publication of this article.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Benefits</head><p>JCMS is a smart choice for publishing your work. There are no page charges and colour figures and images are always printed in colour at no cost to authors.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="3,310.97,93.16,238.06,7.90;3,323.50,104.47,225.49,7.90;3,323.50,115.76,225.49,7.91;3,323.50,127.07,33.51,7.90" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Human skin wounds: a major snowballing threat to public health and economy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009. 2009</date>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="763" to="771" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,310.79,138.38,238.24,7.90;3,323.50,149.67,225.50,7.91;3,323.50,160.99,22.35,7.90" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Clinical predictors of leg ulcer healing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Moffatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smithdale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="51" to="58" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,310.88,171.98,238.14,7.90;3,323.50,182.98,225.52,7.90;3,323.50,193.97,145.49,7.91" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Measuring wound length, width, and area: which technique?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Ski Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="42" to="45" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,310.88,204.98,238.15,7.90;3,323.50,215.98,225.50,7.90;3,323.50,226.96,159.24,7.91" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Point-of-care wound visioning technology: reproducibility and accuracy of a wound measurement app</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Moreau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">183139</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="3,310.88,237.96,238.12,7.91;3,323.50,248.96,225.49,7.91;3,323.50,259.97,65.26,7.90" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A Language and Environment for Statistical Computing</title>
+		<author>
+			<persName><forename type="first">Team</forename><surname>Core</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

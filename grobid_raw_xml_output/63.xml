@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Role of Telemedicine in Wound Care: A Review and Analysis of a Database of 5,795 Patients from a Mobile Wound-Healing Center in Languedoc-Roussillon, France</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>MD, MBA</roleName><forename type="first">Aditya</forename><surname>Sood</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="laboratory">Home Hospital Wound Healing Network-CICAT; and Montpellier Regional Uni-versity Hospital</orgName>
+								<orgName type="institution">New Jersey Medical School</orgName>
+								<address>
+									<settlement>Rutgers</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>MD</roleName><forename type="first">Mark</forename><forename type="middle">S</forename><surname>Granick</surname></persName>
+							<email>mgranickmd@njms.rutgers.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="laboratory">Home Hospital Wound Healing Network-CICAT; and Montpellier Regional Uni-versity Hospital</orgName>
+								<orgName type="institution">New Jersey Medical School</orgName>
+								<address>
+									<settlement>Rutgers</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="laboratory">Home Hospital Wound Healing Network-CICAT; and Montpellier Regional Uni-versity Hospital</orgName>
+								<orgName type="institution">New Jersey Medical School</orgName>
+								<address>
+									<settlement>Rutgers</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Chloé</forename><surname>Trial</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="laboratory">Home Hospital Wound Healing Network-CICAT; and Montpellier Regional Uni-versity Hospital</orgName>
+								<orgName type="institution">New Jersey Medical School</orgName>
+								<address>
+									<settlement>Rutgers</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Julie</forename><surname>Lano</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="laboratory">Home Hospital Wound Healing Network-CICAT; and Montpellier Regional Uni-versity Hospital</orgName>
+								<orgName type="institution">New Jersey Medical School</orgName>
+								<address>
+									<settlement>Rutgers</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sylvie</forename><surname>Palmier</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="laboratory">Home Hospital Wound Healing Network-CICAT; and Montpellier Regional Uni-versity Hospital</orgName>
+								<orgName type="institution">New Jersey Medical School</orgName>
+								<address>
+									<settlement>Rutgers</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Evelyne</forename><surname>Ribal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="laboratory">Home Hospital Wound Healing Network-CICAT; and Montpellier Regional Uni-versity Hospital</orgName>
+								<orgName type="institution">New Jersey Medical School</orgName>
+								<address>
+									<settlement>Rutgers</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, PhD</roleName><forename type="first">Luc</forename><surname>Téot</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="laboratory">Home Hospital Wound Healing Network-CICAT; and Montpellier Regional Uni-versity Hospital</orgName>
+								<orgName type="institution">New Jersey Medical School</orgName>
+								<address>
+									<settlement>Rutgers</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Newark</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="laboratory">Home Hospital Wound Healing Network-CICAT; and Montpellier Regional Uni-versity Hospital</orgName>
+								<orgName type="institution">New Jersey Medical School</orgName>
+								<address>
+									<settlement>Rutgers</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Languedoc- Roussillon</forename><surname>Montpellier</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Surgery</orgName>
+								<orgName type="laboratory">Home Hospital Wound Healing Network-CICAT; and Montpellier Regional Uni-versity Hospital</orgName>
+								<orgName type="institution">New Jersey Medical School</orgName>
+								<address>
+									<settlement>Rutgers</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Role of Telemedicine in Wound Care: A Review and Analysis of a Database of 5,795 Patients from a Mobile Wound-Healing Center in Languedoc-Roussillon, France</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EF5FE4D35F1A66B66E1D3938F684A7DA</idno>
+					<idno type="DOI">10.1097/PRS.0000000000002702</idno>
+					<note type="submission">Received for publication February 22, 2016; accepted June 21, 2016.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>atients requiring wound care represent a consistently growing population because of an increase in chronic disease and our aging population. There are more than 1.25 million burns in the United States annually and 6.5 million chronic skin ulcers caused by pressure, venous stasis, or diabetes mellitus. 1,2 Chronic wounds account for an estimated $6 to $15 billion annually in the US healthcare costs. <ref type="bibr" target="#b2">3</ref> Cutaneous wound healing has become a topic of ongoing research and debate worldwide. Cost-effectiveness of differing modalities in diagnosis, management, and treatment is a variable of concern in treating wounds. Complex wounds generate high costs linked to sophisticated costly technical solutions,</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="585.0" lry="783.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="585.0" lry="783.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="585.0" lry="783.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="585.0" lry="783.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="585.0" lry="783.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="585.0" lry="783.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="585.0" lry="783.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="585.0" lry="783.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="585.0" lry="783.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>249S</head><p>comorbidities, and in some cases poor knowledge of current wound care standards and guidelines. There is tremendous pressure on the medical system to develop cost-effective practices.</p><p>With the ascent of the information age and a simultaneous rise in the abilities of telecommunication, there has been a great interest in connecting medicine with technology. Telecommunication networks and the abilities of our computers and smartphones to complete everyday tasks have slowly but surely become useful to medical professionals. These systems would naturally seem to provide a readily accessible resource for improving efficiencies in our medical practice, and wound healing is no exception.</p><p>Although the advantages of telemedicine may apply on a broad scale to all medical providers, more recent advancements in accessibility, quality, and transmissibility of photo and video are of particular relevance to physicians dealing with wounds. Telemedicine has been shown promise in increasing the efficiency of postoperative care for microsurgical procedures, <ref type="bibr" target="#b3">4</ref> improving care, coordination, and management in burn wounds, <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> and facilitating interprofessional collaboration across long distances. <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b11">[11]</ref><ref type="bibr" target="#b12">[12]</ref><ref type="bibr" target="#b13">[13]</ref> The end goal in using this technology is to eliminate unnecessary referrals and costs without impinging on the quality of care provided. <ref type="bibr" target="#b14">[14]</ref><ref type="bibr" target="#b15">[15]</ref><ref type="bibr" target="#b16">[16]</ref> Various studies have been performed to assess the validity of photography in the assessment of wounds and in various countries of origin. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b17">17,</ref><ref type="bibr" target="#b18">18</ref> Boccara et al <ref type="bibr" target="#b5">6</ref> retrospectively analyzed burn depth photos in 911 patients in France, and they concluded that examination of photographs cannot replace clinical examination, but photography does provide a useful and easily shared adjunct to direct clinical investigation. Others have investigated the validity of photographs and found that experts, but not referring physicians, could assess burn size from photographs both reliably and validly, but neither could assess burn depth either reliably or validly. <ref type="bibr" target="#b4">5</ref> A study conducted in 2014 in Taiwan was performed to assess the feasibility of patient-directed teleconsultation for cutaneous wounds, whereby 53 patient wounds were evaluated by a plastic surgeon remotely. <ref type="bibr" target="#b19">19</ref> Concordances between remote and on-site surgeons were 92%, 79%, 83%, and 85% with respect to the presence of gangrene, necrosis, erythema, and cellulitis, respectively. The agreement rate regarding both antibiotic use and debridement was 83%, whereas specificity for all parameters of wound descriptions and management was high (&gt;84%) with low image misinterpretation rates (8%-21%).</p><p>Telemedicine studies for wounds have also been performed in the United States. Clegg et al <ref type="bibr" target="#b20">20</ref> attempted to assess the utility of a virtual ICU in improving wound care by facilitating specialist consults. Fifty remote wound consultations were performed, with an estimated total of $5,000 in cost savings from reduced travel and staff nonproductive time. Similar studies have been performed to assess the utility of a telemedicine link between burn and wound specialists across various countries. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b21">21</ref> The authors will present the telemedicine wound care system in Languedoc-Roussillon, France. Dr. Teot and colleagues developed the Home Hospital Wound Healing Network (CICAT) in 2005. The title "CICAT" is derived from the French word "cicatrization," which means healing by scar formation. CICAT is comprised of physicians and expert nurses with specialized training. The "mobile wound healing center" model was introduced and consists of cooperation between professionals based on teletransmission of data using 3G and Wi-Fi in the form of a store and forward system to fill a database on specially developed software, Infynis (Jakarta, Indonesia). The authors sought to improve clinical efficiency and efficacy using this wound-healing model. Medical care in France is socialized, and issues of certification, regional licensing, and malpractice coverage are nationally regulated and permit the use of telemedical systems of this nature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>A comprehensive literature review of article published on telemedicine was performed using the PubMed database with specific keywords related to wound care and telemedicine. Articles were selected for their relevance to wound healing, including benefits and limitations to telemedicine.</p><p>CICAT mobile wound healing center data were reviewed, including 5,795 patients in the database from January 2005 to October 2015. The patients were analyzed for demographic data, pathologies associated, types of wounds, advice and interventions given to CICAT nurses, and a questionnaire provided to general practitioners (GPs) regarding avoidance of unnecessary hospitalization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CICAT, Languedoc-Roussillon, France</head><p>CICAT was created in 1999 with a specific mission for improving the quality of wound healing management by the means of providing advice on strategy and best care practices concerning Plastic and Reconstructive Surgery • September Supplement 2016 medical devices at home, offering an expertise in wound healing to professionals taking care of patients located in distant remote areas, and preventing unnecessary emergency hospitalizations.</p><p>CICAT is composed of 15 expert private or public sector nurses covering a defined territory of the region Languedoc-Roussillon, with Montpellier being the regional medical reference center. The nurses are eligible for certification after completing a 1-year wound-healing course with an additional 3 years of tutoring in practical situations at the bedside. There are 6 part-time physicians who have rigorous training, including 3 years of residency inside a wound healing unit or a unit where wounds were frequently managed. Different specialties are represented, including plastic surgery, diabetology, dermatology, vascular surgery, and vascular medicine.</p><p>There is a required revalidation process for all professionals every 3 months, including a test on acquisitions in new technologies. A scientific committee consisting of 4 persons is in charge of controlling the organization and functioning of CICAT, validation of protocols, and their adaptation to the requirement of the public health ministry. This program was sponsored by a public fund covered by the region Languedoc-Roussillon.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Process of CICAT</head><p>Professionals within the network seeking advice regarding a specific wound-healing problem phone the centralized CICAT call center from any point of the region (Fig. <ref type="figure" target="#fig_0">1</ref>). The nurse coordinator will receive the initial call, and the request is sent to one of the 15 specific expert nurses, depending on the geographical zone. The patient, home nurse, and an expert (nurse or physician) will be physically present during the initial evaluation. This expert nurse compiles and enters the data into the computer database. This is received and reviewed by a remote physician, wound expert to validate the proposed care plan.</p><p>The expert physician will communicate with the patient's GP and confirm the plan of treatment proposed. Systemic treatments are used when required, that is, antibiotics. Nutritional supplementation, preventative or curative pressure ulcer offloading, immobilization, elevation, etc, may be required as well. Depending on the complexity of the situation, face-to-face physical examination may be appropriate, or even a multidisciplinary approach is required. In certain cases, a teleconference may be organized between the GP and various specialists of concern. In severe cases, the patient may be referred into the regional hospital.</p><p>Hospitals within the network have woundhealing expert nurses who help oversee patients' hospital care and discharge planning. They help ward-nursing teams to optimize wound management at the bedside. They are responsible for collecting patient information and transferring into the database. They assist in determining whether the patient is to be discharged to home or a facility. These hospital expert nurses provide an important educational role in training nurses on wound healing within the hospital and tracking discharged patients for wound care.</p><p>CICAT may be called by any nurse or physician acting in his/her own office or in a public or private clinic. Approximately 235 private or community clinics and hospitals participate as central sites within their covered geographic area. These partners disseminate information regarding appropriate wound management and are responsible for training the medical/nursing professionals in their zone. The need for advice by CICAT is usually limited to 3 consecutive visits or teleconsultations for each patient. When the situation is simple, a single visit is usually sufficient, but in difficult cases, as many as 12 visits may be necessary.</p><p>The main objective of the network is to train and coordinate the medicoparamedic teams and avoid unnecessary visits to a specialist, wound-healing center, or hospital. Nurses and doctors equally call for advice or consults. Because of the limited number of expert nurses, the entire regional territory is not covered and some areas remain out of coverage for CICAT. In this situation, pictures of the patient are sent and CICAT provides advice using telemedicine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Database (Infynis)</head><p>All wound and patient data are collected on the electronic Infynis database, including the size and depth of the wound, tracing, pictures, color assessment, signs of local infection, bone exposure, vascular assessments, including ankle brachial pressure index, inflammation markers, nutritional markers, comorbidities, and exercised treatments. The database also accepts medical reports concerning all complementary examinations linked to the wound history, that is, imaging, surgical, or medical reports, hospitalization reports, etc. The database displays a diagram demonstrating positive or negative evolution of the wound and a quick view of successive pictures over time. It can easily be used as a basic daily working tool or clinical research instrument.</p><p>The retrospective analysis of this database, based on 5,794 patients included from January 2005 to October 2015, was performed to critically analyze the impact of this process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Between January 2005 and October 2015, 5,794 patients were managed by CICAT, with an increasing number of patients enrolled over time. The mean age is 89 years, with 48.5% men and 51.5% women (Fig. <ref type="figure" target="#fig_1">2</ref>). Patient age was considered as a factor for delayed healing, as these patients presented with multiple comorbidities. Arterial and venous pathologies were of the majority followed by neurologically deficient patients. Other comorbidities encountered include diabetes, poor nutritional status, cancer, trauma, postoperative, burns, and patients in palliative care (Fig. <ref type="figure" target="#fig_2">3</ref>), all of which adversely affect the healing prognosis. The comorbidities at a late stage may have impact on the morbidity and mortality risk and justify the multidisciplinary management of highly complex situations.</p><p>Over the 10-year study period and of the 5,794 patients studied, 9,208 wounds have been managed with a mean of 1.6 wounds per patient. Pressure ulcers represent the predominant population (44%), followed by arterial/venous/mixed leg ulcers (24%) and trauma (10%) (Fig. <ref type="figure" target="#fig_3">4</ref>). The wound history was longer than 3 months in 79% of patients, more than 6 months in 18%, and more than 1 year in 3%. The mean length of follow-up by CICAT was 76 days. The variability in length of follow-up is high, with 3 different peaks related to different modes of management. One peak is noted specific to a population followed by CICAT during a short period of time, that is, days to a week. This corresponds to simple situations where a single consult allowed for an efficient treatment. This situation generally reflects poor knowledge of wound healing for local actors. A second peak represents a population followed up for 1 to 2 months. These are complex or chronic wounds where CICAT helps the professionals to correct various aspects of the wound-healing</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>252S</head><p>Plastic and Reconstructive Surgery • September Supplement 2016 plan. Patients are completely healed after this period, or wounds represent a simple problem that would not require further expert advice. A third peak reports to the very chronic complex problem with a very slow healing curve or no healing tendency/potential at all. The aim of management in these patients may be to improve quality of life, that is, pain, infection, and odor related to the wound.</p><p>Wounds healed or improved in 57% of cases, in 27% were unchanged, and worsened in 16%, requiring surgical intervention. Improvement was more frequently observed when home nurses adhered to advice provided by CICAT in 98.9%  of cases. Home nurses completely adhere to the strategy proposed by the CICAT in approximately 75% of cases, in most cases secondary to the lack of medical understanding or unavailability of wound care materials. In this situation, the rate of improvement of the wound is 63.6%. By the end of the study period in 2015, 76% of patients had completed treatment. Of these patients, 57.7% had a positive outcome with a majority (29.7%), demonstrating complete healing, and 28% with favorable improvement of the wound. It is important to note that in 18.8% of cases, CICAT manages large complex wounds in elderly patients during the end of life, at which time the GP would typically hospitalize the patient. Families appreciate the support of experts who provide support in preventing pain and increasing comfort until the end of life.</p><p>Sixty-five percent of patients required debridement of wounds at home (n = 540), either directly by the expert nurse or by the local nurse guided by the expert via telemedical visual instruction. Eleven percent (n = 145) were hospitalized for surgical procedures. Advice and interventions given by CICAT experts can be seen in Tables <ref type="table" target="#tab_0">1</ref> and<ref type="table" target="#tab_1">2</ref>.</p><p>A telephone questionnaire was completed in 2007 by GPs who used CICAT on a regular basis. Forty-seven GPs responded to the questions concerning prevention of hospitalizations. Sixty-seven percent reported that unplanned hospitalizations could be avoided with the use of CICAT; 86.9% thought that CICAT decreased the length of hospital stay, and 83.1% stated that they received thorough information on how to manage and follow patient-specific wounds (Fig. <ref type="figure" target="#fig_4">5</ref>). Reduction in cost in transportation is an important factor to consider, as each transfer to the medical clinic or hospital is a significant financial burden.</p><p>Overall, the CICAT network provided consults on 9,208 wounds in 5,976 patients during the 10-year study period. In most cases, patients were treated at home without any transportation to wound healing clinics or hospitalization. The CICAT wound experts altered the preexisting wound treatment in 64% of initial visits.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Telemedicine is being deployed in various other medical specialties, such as radiology,   Plastic and Reconstructive Surgery • September Supplement 2016 neurosurgery, and cardiology, where image analysis is critical and can be performed at a distance using telecommunications. <ref type="bibr" target="#b29">29</ref> For example, the electronic transmission and initial evaluation of radiographs and electrocardiographic tracings improve the efficiency of clinical care. <ref type="bibr" target="#b21">21</ref> In the United States, there is a shortage of psychiatrists, and telemedicine is being used to provide access to psychiatric professionals in deficient areas. The use of this technology has increased since 2002, when it was reported that 300 programs in the United States generated 250,000 consults a year in both military and civilian healthcare delivery systems. <ref type="bibr" target="#b22">22</ref> Plastic surgery patients frequently have conditions readily evaluated by visual inspection, namely, acute and chronic wounds. Furthermore, plastic surgeons routinely photograph wounds and areas of pathology for documentation and future reference. Evaluation and triage of plastic surgery patients using telemedicine have become a topic of great interest. Thus far, studies have been descriptive, relatively small, and few have addressed the accuracy and concordance of a surgical patient evaluation using store and forward technology. Of note, real-time technologies have been employed in practice, which may allow for immediate feedback and clinical decision making, potentially offering a superior solution. Several studies have stressed the standardization of digital photos and the use of high-quality digital imaging in the evaluation of wounds and triage of injuries.</p><p>In 1998, Stoloff et al <ref type="bibr" target="#b23">23</ref> concluded that e-mail and Internet were the only cost-effective means of shipboard medicine. In this study, the authors concluded that if telemedicine were available to the fleet, 17% of the medical evacuation would be preventable, with a saving of $4,400 per medical evacuation. In 2004, Tsai et al <ref type="bibr" target="#b24">24</ref> used teleconsultation by using a mobile camera phone for remote management of severe extremity wounds. They found 68% to 90% of image sets that could be made with equivalent diagnosis of wound descriptors and 83% of wounds managed as per the remote treatment recommendation regarding whether to use antibiotics or perform debridement. Simply put, we have become increasingly comfortable with digital technology and recognize its value in a visually oriented clinical field of medicine. Various strategies have been employed over the past 15 years to apply telemedicine to the clinical demands presented by acute and chronic wounds. <ref type="bibr" target="#b25">25</ref> The data presented through the CICAT group in Languedoc-Roussillon, France, confirms that local healthcare professionals are in need of assistance in caring for chronic wounds at home. The CICAT service improves accessibility to all pertinent information on new and applicable technologies, as well as to expert wound analysis and technique. Interventions at home via an expert nurse and/or physician together with the home nurse and GP create a new approach to the management of an aged population with limited mobility. This improves the quality of life, which is an essential aspect of palliative care, and potentially reduces the financial burdens of prolonged length of hospital stay and ambulance transfers.</p><p>Although a system as presented may be viable in certain regions or countries, it may become extremely complicated when applied to a healthcare model, such as that in the United States. In the United States, there are issues such as licensing, credentialing, malpractice insurance, and billing. Every state in the United States defines the practice of medicine differently, and telemedicine is included in the practice of medicine. Practitioners are unable to practice across state lines without proper state-issued medical licenses. To further complicate the issue, each hospital has different credentialing requirements and procedures. Each license and credential has a significant cost and takes months to acquire. In addition, the US medical system is primarily a fee for service model. The payment for telemedical service is made at the Medicaid or Medicare level in the few states that have approved payments for telemedicine. That is not a sustainable fee for a telemedical service in most instances. The development of technologic advances in this area has outpaced the ability of the government at both the federal and state levels to maintain a conducive legal environment for telemedicine to flourish. An organized telemedicine service is more readily deployed within a closed system, such as the Veterans Affairs Hospital System, large-scale clinic systems (such as Kaiser Permanente, Mayo Clinic, Marshfield Clinic, and University of Pennsylvania Medical Center), or the state and federal prison systems. These settings alleviate concerns regarding credentialing, licensing, etc. Outside of these large closed systems, telemedicine is being managed in the United States by independent for-profit companies. The costs associated with credentialing and malpractice insurance, as well as poor reimbursement policies, are serious obstacles for these companies. Examples of forprofit companies using telemedicine for wound care in the United States include WoundMatrix Inc (Chadds Ford, Pa.) and WoundRounds, Telemedicine Solutions LLC (Schaumburg, Ill.). <ref type="bibr" target="#b26">26,</ref><ref type="bibr" target="#b27">27</ref> WoundRounds has reported in a pilot study involving 2 long-term acute care hospitals that they save the nursing team 65% of their documentation and reporting time, with payroll reflecting an 18% saving, representing a yearly amount of $20,646 per facility after implementation of the system. In another report, they reported that the return on investment for annual overtime nursing expenses alone outweighs the cost of this wound management solution. <ref type="bibr" target="#b28">28</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>Telemedicine in wound care is based on the need for advice on wound healing management by caregivers and physicians. The development of specific software for data collection in wound healing allows a multidisciplinary analysis of a clinical situation by experts. The CICAT model in France uses telecommunications and a specially trained force of experts to improve wound management over time and space. It has reduced hospital admission and transportation costs. Both families and GPs have made positive assessments of the program. In other countries with nonsocialized medicine, such as the United States, the legal barriers and financial environment create substantial barriers to developing telemedical systems. There are numerous issues regarding telemedicine that need to be addressed and resolved before the widespread use of telemedicine for wound care becomes feasible in the United States.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Organization of the CICAT network.</figDesc><graphic coords="3,120.18,355.81,344.63,361.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Patient age.</figDesc><graphic coords="5,70.50,72.00,444.00,264.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Associated pathologies and comorbidities.</figDesc><graphic coords="5,82.50,372.47,420.00,238.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Types of wounds encountered.</figDesc><graphic coords="6,142.50,72.00,299.84,173.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. General practitioner questionnaire regarding CICAT, 2007.</figDesc><graphic coords="7,115.46,72.00,354.07,179.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Advice and Information Provided by CICAT Advice and Information Provided by CICAT Percentage</head><label>1</label><figDesc></figDesc><table><row><cell>Skin protection over at risk areas</cell><cell>38.3</cell></row><row><cell>Periskin management education</cell><cell>34.9</cell></row><row><cell>Nutritional education and information</cell><cell>25.3</cell></row><row><cell>Adapted support surface</cell><cell>22.9</cell></row><row><cell>Hygiene education</cell><cell>17.5</cell></row><row><cell>Skin protection and hydration</cell><cell>14.5</cell></row><row><cell>Compressive bandage guidance</cell><cell>3.6</cell></row><row><cell>Pain relief guidance</cell><cell>3.1</cell></row><row><cell>Local anesthesia prior to debridement</cell><cell>2.2</cell></row><row><cell>VAS pain scale</cell><cell>2.0</cell></row><row><cell>Systemic treatment reconsidered</cell><cell>0.9</cell></row><row><cell>Tetanus prophylaxis</cell><cell>0.3</cell></row><row><cell>Global comfort</cell><cell>0.2</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 . Interventions Performed by CICAT</head><label>2</label><figDesc></figDesc><table><row><cell>Interventions</cell><cell>Percentage</cell></row><row><cell>Picture transmission</cell><cell>89</cell></row><row><cell>Changing the protocol</cell><cell>29.5</cell></row><row><cell>Case by case education</cell><cell>28.4</cell></row><row><cell>Guiding debridement</cell><cell>27.2</cell></row><row><cell>Develop better practice</cell><cell>9.2</cell></row><row><cell>Patient and family education</cell><cell>8.7</cell></row><row><cell>Other interventions</cell><cell>0.4</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACkNOwLEDgMENT</head><p>The Home Hospital Wound Healing Network (CICAT) program in France was sponsored by a public fund covered by the Region Languedoc Roussillon.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,309.18,413.36,229.31,7.92;8,316.50,423.39,222.01,7.92;8,316.50,433.42,162.62,7.94" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Burn incidence and medical care use in the United States: estimates, trends, and data sources</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Brigham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mcloughlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Burn Care Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="95" to="107" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.18,443.45,229.30,7.94;8,316.50,453.48,221.98,7.94;8,316.50,463.51,19.89,7.92" xml:id="b1">
+	<monogr>
+		<title level="m">Medical Data International</title>
+		<meeting><address><addrLine>Irvine, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Medical Data International, Inc. U.S. Markets for Wound Management Products</publisher>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.18,473.54,229.34,7.92;8,316.50,483.57,190.14,7.94" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">US skin disease assessment: ulcer and wound care</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Markova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Mostow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatol Clin</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="107" to="111" />
+			<date type="published" when="2012">2012</date>
+			<pubPlace>ix</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.18,493.60,229.33,7.92;8,316.50,503.63,221.99,7.92;8,316.50,513.66,198.36,7.94" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The first Smartphone application for microsurgery monitoring: SilpaRamanitor</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kiranantawat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sitpahul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taeprasartsit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="130" to="139" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.18,523.69,229.34,7.92;8,316.50,533.72,222.01,7.94;8,316.50,543.75,72.42,7.92" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Use of telemedicine to improve burn care in Ukraine</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fuzaylov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Knittel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Driscoll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Burn Care Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="232" to="e236" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.18,553.78,229.30,7.92;8,316.50,563.81,222.00,7.94;8,316.50,573.84,55.08,7.92" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Retrospective analysis of photographic evaluation of burn depth</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boccara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chaouat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Uzan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Burns</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="69" to="73" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.18,583.87,229.34,7.92;8,316.50,593.90,221.99,7.94;8,316.50,603.93,63.92,7.92" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Telemedicine use among burn centers in the United States: a survey</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Faraklas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Theurer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Burn Care Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="157" to="162" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.06,613.96,229.45,7.92;8,316.50,623.99,221.97,7.92;8,316.50,634.02,221.99,7.92;8,316.50,644.05,221.99,7.94;8,316.50,654.08,73.86,7.92" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Telemedicine utilization to support the management of the burns treatment involving patient pathways in both developed and developing countries: a case study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Syed-Abdul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scholl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Burn Care Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="207" to="e212" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.18,664.11,229.32,7.92;8,316.50,674.14,171.53,7.94" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Rural teletrauma: applications, opportunities, and challenges</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bjorn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Emerg Nurs J</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="232" to="237" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,308.87,684.17,229.66,7.92;8,316.50,694.20,222.02,7.92;8,316.50,704.23,221.99,7.92;8,316.50,714.26,222.00,7.94;8,316.50,724.29,118.42,7.94" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Application of telemedicine system with 4G and high-resolution video in diagnosis and treatment of wounds between Wound Healing Department and Community Health Care Center in China</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Minjie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="167" to="168" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,199.43,37.21,339.07,11.71" xml:id="b10">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Plastic and Reconstructive Surgery</title>
+		<imprint>
+			<date type="published" when="2016">September Supplement 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,53.87,72.58,229.61,7.92;9,61.50,82.63,221.99,7.94;9,61.50,92.67,63.92,7.92" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Video consultation for trauma and emergency surgical patients</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hadeed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sadoun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crit Care Nurs Q</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="341" to="345" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,53.87,102.72,229.62,7.92;9,61.50,112.77,222.00,7.92;9,61.50,122.81,146.98,7.94" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The added value of video for consultations in telemedicine for minor injuries work</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcclusky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wilsgaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Telemed Telecare</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="427" to="431" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,53.87,132.86,229.63,7.92;9,61.50,142.91,222.00,7.92;9,61.50,152.95,185.13,7.94" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Telemedicine, telehealth, and mobile health applications that work: opportunities and barriers</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Weinstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Joseph</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Med</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="183" to="187" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,53.87,163.00,229.66,7.92;9,61.50,173.05,222.02,7.92;9,61.50,183.10,222.00,7.94;9,61.50,193.14,68.34,7.92" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">An evolution of communication in postoperative free flap monitoring: using a smartphone and mobile messenger application</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hee</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="125" to="129" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,53.87,203.19,229.60,7.92;9,61.50,213.24,185.39,7.94" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">eConsultation in plastic and reconstructive surgery</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Trovato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Scholer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vallejo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eplasty</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">48</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,53.87,223.28,229.62,7.92;9,61.50,233.33,222.00,7.94;9,61.50,243.38,138.89,7.94" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Telemedicine and plastic surgery: a review of its applications, limitations and legal pitfalls</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gardiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Hartzell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Plast Reconstr Aesthet Surg</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="47" to="e53" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,54.03,253.42,229.45,7.92;9,61.50,263.47,221.98,7.92;9,61.50,273.52,221.99,7.94;9,61.49,283.57,53.42,7.92" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Evaluation of an offthe-shelf mobile telemedicine model in emergency department wound assessment and management</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Van Dillen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Silvestri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Telemed Telecare</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="84" to="88" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,53.86,293.61,229.66,7.92;9,61.49,303.66,222.02,7.92;9,61.49,313.71,146.30,7.94" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A pilot study on the potential of remote support to enhance wound care for nursing-home patients</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vowden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="481" to="488" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,53.86,323.75,229.64,7.92;9,61.49,333.80,222.00,7.92;9,61.49,343.85,142.72,7.94" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Patient-centered wound teleconsultation for cutaneous wounds: a feasibility study</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Plast Surg</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="220" to="224" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,308.86,72.54,229.60,7.92;9,316.49,82.97,222.00,7.92;9,316.49,93.41,181.47,7.94" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Telemedicine in a rural community hospital for remote wound care consultations</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clegg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Engels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Ostomy Continence Nurs</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="301" to="304" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,308.86,103.85,229.63,7.92;9,316.49,114.29,222.01,7.92;9,316.49,124.73,208.27,7.94" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Workload and prevalence of open wounds in the community: French Vulnus initiative</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Meaume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kerihuel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fromantin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">66</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,308.86,135.16,229.62,7.92;9,316.49,145.60,145.35,7.94" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Setting up a community nurse-led healed leg ulcer clinic</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Flaherty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Nurs</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="14" to="S20" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,308.86,156.04,229.61,7.92;9,316.49,166.48,221.99,7.94;9,316.49,176.92,59.50,7.92" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A cost-effectiveness analysis of shipboard telemedicine</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Stoloff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Thomason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Telemed J</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="293" to="304" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,308.86,187.35,229.61,7.92;9,316.49,197.79,222.00,7.92;9,316.49,208.23,222.00,7.94;9,316.49,218.67,63.92,7.92" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Teleconsultation by using the mobile camera phone for remote management of the extremity wound: a pilot study</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Pong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Plast Surg</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="584" to="587" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,308.86,229.11,229.66,7.92;9,316.49,239.54,222.00,7.94;9,316.49,249.98,127.26,7.94" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Feasibility study of home care wound management using telemedicine</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Hare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="358" to="364" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,308.86,260.42,229.64,7.92;9,316.49,270.86,220.49,7.92" xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Telehealth/Telemedicine</surname></persName>
+		</author>
+		<ptr target="http://www.wound-matrix.com/telehealth-telemedicine" />
+		<imprint>
+			<date type="published" when="2016-05-08">May 8, 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,308.86,281.30,229.65,7.92;9,316.49,291.73,160.14,7.92" xml:id="b27">
+	<monogr>
+		<ptr target="http://www.woundrounds.com/" />
+		<title level="m">Wound Management Software</title>
+		<imprint>
+			<date type="published" when="2016-05-08">May 8, 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,308.95,302.17,229.55,7.92;9,316.49,312.61,176.71,7.92" xml:id="b28">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Learn</forename><surname>Woundrounds</surname></persName>
+		</author>
+		<ptr target="http://www.woundrounds.com/learn/#publications" />
+		<imprint>
+			<date type="published" when="2016-05-08">May 8, 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,308.86,323.05,229.66,7.92;9,316.49,333.49,221.98,7.92;9,316.49,343.92,130.32,7.94" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Photographic assessment of burn size and depth: reliability and validity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Moues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bogomolova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">148</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

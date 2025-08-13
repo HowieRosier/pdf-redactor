@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Machine Learning Models for Predicting the Risk of Hard-to-Heal Diabetic Foot Ulcers in a Chinese Population</title>
+				<funder ref="#_NN8Uecn">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2022-10-29">29 October 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Shiqi</forename><surname>Wang</surname></persName>
+							<idno type="ORCID">0000-0003-1991-8893</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Burns and Plastic Surgery</orgName>
+								<orgName type="institution" key="instit1">Affiliated Drum Tower Hospital</orgName>
+								<orgName type="institution" key="instit2">Medical School of Nanjing University</orgName>
+								<address>
+									<settlement>Nanjing</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chao</forename><surname>Xia</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Orthopedics</orgName>
+								<orgName type="department" key="dep2">Air Force Hospital of Eastern Theater Command</orgName>
+								<address>
+									<settlement>Nanjing</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qirui</forename><surname>Zheng</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Software Institute</orgName>
+								<orgName type="institution">Nanjing University</orgName>
+								<address>
+									<settlement>Nanjing</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aiping</forename><surname>Wang</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Endocrinology</orgName>
+								<orgName type="department" key="dep2">Air Force Hospital of Eastern Theater Command</orgName>
+								<address>
+									<settlement>Nanjing</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qian</forename><surname>Tan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Burns and Plastic Surgery</orgName>
+								<orgName type="institution" key="instit1">Affiliated Drum Tower Hospital</orgName>
+								<orgName type="institution" key="instit2">Medical School of Nanjing University</orgName>
+								<address>
+									<settlement>Nanjing</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Burns and Plastic Surgery</orgName>
+								<orgName type="institution" key="instit1">Nanjing Drum Tower Hospital</orgName>
+								<orgName type="institution" key="instit2">The Affiliated Hospital of Nanjing University Medical School</orgName>
+								<address>
+									<addrLine>Tel +86 25</addrLine>
+									<postCode>83106666</postCode>
+									<settlement>Nanjing, Email</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Department of Endocrinology</orgName>
+								<orgName type="department" key="dep2">Air Force Hospital of Eastern Theater Command</orgName>
+								<address>
+									<postCode>210002</postCode>
+									<settlement>Nanjing, Email</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Machine Learning Models for Predicting the Risk of Hard-to-Heal Diabetic Foot Ulcers in a Chinese Population</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-10-29">29 October 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4BFE02D87CF2D262174762FA87FA3DB4</idno>
+					<idno type="DOI">10.2147/DMSO.S383960</idno>
+					<note type="submission">Received: 1 August 2022 Accepted: 20 October 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>hard-to-heal</term>
+					<term>diabetic foot ulcers</term>
+					<term>machine learning</term>
+					<term>classification</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Early detection of hard-to-heal diabetic foot ulcers (DFUs) is vital to prevent a poor prognosis. The purpose of this work was to employ clinical characteristics to create an optimal predictive model of hard-to-heal DFUs (failing to decrease by &gt;50% at 4 weeks) based on machine learning algorithms. Methods: A total of 362 DFU patients hospitalized in two tertiary hospitals in eastern China were enrolled in this study. The training dataset and validation dataset were split at a ratio of 7:3. Univariate logistic analysis and clinical experience were utilized to screen clinical characteristics as predictive features. The following six machine learning algorithms were used to build prediction models for differentiating hard-to-heal DFUs: support vector machine, the naïve Bayesian (NB) model, k-nearest neighbor, general linear regression, adaptive boosting, and random forest. Five cross-validations were employed to realize the model's parameters. Accuracy, precision, recall, F1scores, and AUCs were utilized to compare and evaluate the models' efficacy. On the basis of the best model identified, the significance of each characteristic was evaluated, and then an online calculator was developed. Results: Independent predictors for model establishment included sex, insulin use, random blood glucose, wound area, diabetic retinopathy, peripheral arterial disease, smoking history, serum albumin, serum creatinine, and C-reactive protein. After evaluation, the NB model was identified as the most generalizable model, with an AUC of 0.864, a recall of 0.907, and an F1-score of 0.744. Random blood glucose, C-reactive protein, and wound area were determined to be the three most important influencing factors. A corresponding online calculator was created (https://predicthardtoheal.azurewebsites.net/). Conclusion: Based on clinical characteristics, machine learning algorithms can achieve acceptable predictions of hard-to-heal DFUs, with the NB model performing the best. Our online calculator can assist doctors in identifying the possibility of hard-to-heal DFUs at the time of admission to reduce the likelihood of a dismal prognosis.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>According to the most recent data, the global prevalence of diabetes reached 10.5% in 2021 and is projected to reach 12.2% (783,2 million) in 2045. <ref type="bibr" target="#b0">1</ref> Diabetes is becoming a worldwide epidemic faster than anticipated. <ref type="bibr" target="#b1">2</ref> In addition to hyperglycemia, diabetes increases the risk of a number of complications, including diabetic nephropathy, diabetic retinopathy, and diabetic foot ulcers (DFUs). DFUs, which increase the risk of death in diabetic patients by 2.5 times, are one of the most common and devastating consequences. <ref type="bibr" target="#b2">3</ref> DFU is the result of a combination of lower limb vascular obstruction and lower limb nerve disorders. Current treatment often requires multidisciplinary collaboration, with treatment options including glycemic control, wound debridement, lower limb revascularization, and amputation. However, even under standard treatment, a wound may not heal within an appropriate time, increasing the likelihood of infection, prolonged hospitalization, and rising financial burden. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> Early detection, assessment, and intervention are crucial to the outcome of DFUs. According to real-world data from the US Wound Registry (USWR), DFUs as chronic refractory wounds have a healing rate of less than 40% at 12 w. <ref type="bibr" target="#b5">6</ref> Early wound area progression helps doctors in the inpatient phase make predictions and decisions as quickly as possible. Retrospective studies with large populations have shown that a percent area reduction (PAR)&lt;50% at week 4 is widely recognized as an indicator of healing failure at 12 weeks or even 20 weeks. <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> Therefore, this parameter has also been used as an observational outcome indicator in recent RCT studies. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> In past studies on the prognosis of DFUs, the methods used mainly included untrained general linear regression, including logistic regression and Cox regression. <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> Machine learning is a branch of artificial intelligence consisting of a wide range of algorithms for classification research and can be tuned for optimal models, offering considerable advantages for predictions in a variety of diseases, including the prognosis of cancer and the diagnosis of diabetes. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> The most suitable machine learning algorithm depends on the situation in which it is used. Several recent studies on DFUs have demonstrated a high predictive capacity utilizing machine learning algorithms focusing on DFU detection and determination of the need for amputation due to DFUs. <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> Nonetheless, no machine learning research is available on healing difficulty, a crucial prognostic factor for DFUs.</p><p>In this study, based on data from DFU patients collected from two tertiary hospitals in eastern China, we built models employing six well-known machine learning algorithms to predict the possibility of hard-to-heal DFUs. The six algorithms are as follows: general linear regression (GLM), the naïve Bayesian (NB) model, support vector machine (SVM), random forest (RF), k-nearest neighbor (KNN), and adaptive boosting (AdaBoost).</p><p>The performance of these classification models was evaluated and compared to select the optimal model. A corresponding online calculator was created to facilitate use by clinicians. For the screened predictive features, we performed an importance ranking based on the optimal model to analyze the reasons for hard-to-heal DFUs in depth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study Population</head><p>Data from all eligible patients with DFUs were collected from January 2018 to December 2019 from Nanjing Drum Tower Hospital, the Affiliated Hospital of Nanjing University Medical School and the Air Force Hospital of Eastern Theater Command, without matching for any variable. These two tertiary hospitals are both major metropolitan tertiary centers with a multidisciplinary team including plastic surgeons, vascular surgeons, endocrinologists, and an experienced nurse team. Our inclusion criteria were patients diagnosed with DFUs between the ages of 18-89 years old. Patients who had tumor-induced ulcers, undergone major amputations, abandoned treatment, or had incomplete information were excluded. Patient demographics, wound characteristics, and laboratory data were collected at the first admission examination. According to the Helsinki Declaration, our study was approved by the Ethics Committee of Nanjing Drum Tower Hospital (No. 2020-10901). The need for informed consent from the participants was waived because of the retrospective study design and the use of anonymized clinical data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome and Predictors Outcome</head><p>An ulcer with a PAR&lt;50% by week 4 is considered a hard-to-heal ulcer. Healing results were evaluated by an independent clinical evaluator with no knowledge of each patient's initial examination data in this process. The healing area was measured using a ruler, and the areas of irregular wounds were calculated by ImageJ software after being photographed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Predictors</head><p>We aim to predict whether a DFU patient will experience healing difficulty at the time of initial assessment. Therefore, only data from tests performed at the initial admission were collected. Treatment methods, non-hospital routine tests (e. g., HbA1c level), and features that have not shown predictive value in the previous literature were not included. Finally, a total of 21 clinical characteristics that have been identified to be associated with DFU outcomes were collected as candidate predictors. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b25">26</ref> The demographic data included age, sex, current use of insulin, random blood glucose, years with diabetes, diabetic foot ulcer history, drinking history and smoking history; wound characteristics included wound duration, wound area, wound classification (University of Texas, UT) and wound location; comorbidities included hypertension, hyperlipidemia, diabetic retinopathy, cardiovascular disease, peripheral arterial disease and diabetic peripheral neuropathy; and laboratory indicators included serum albumin, serum creatinine and C-reactive protein (CRP) levels. To avoid confusion, we have provided specific explanations of the clinical indicators in Supplementary Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model Construction</head><p>Statistical analyses were performed using R software (version 4.1.1; https://www.R-project.org). <ref type="bibr" target="#b26">27</ref> Categorical data are expressed as counts (percentages), and measurement data were stratified and are expressed as counts (percentages), with Chisquare tests used to determine χ2 values and p values. Univariate logistic analysis was used to screen factors affecting the outcome variable (p &lt; 0.05). We randomly stratified the data containing these influencing factors at a ratio of 7:3; 70% of the data constituted the training set, and the remaining 30% of the data served as the validation set. Additionally, we selected four single classification algorithms: GLM, a commonly used algorithm that establishes the relationship between the mathematical expectations of labels and the predictor features of a linear combination through a linking function. <ref type="bibr" target="#b28">28</ref> As a special form of GLM, logistic regression was used in this study; KNN is a lazy learning but effective algorithm. It performs the classification by calculating the distance between the test samples and all the training samples to obtain their nearest neighbors; SVM is an algorithm separating the two label classes by maximizing the separating margin. Meanwhile, SVMs can map samples to higher dimensions with different kernel functions. <ref type="bibr" target="#b29">29</ref> In this study, a polynomial kernel was chosen for the SVM; and the NB model is built by solving for the probability of each feature occurring under the conditions in which the labels appear. Two ensemble classification algorithms were also used: RF, a flexible and easy-to-use classifier that uses multiple decision trees to train and predict samples; <ref type="bibr" target="#b30">30</ref> and AdaBoost, an enhanced learning algorithm that weights weak classifiers and averages them to obtain the final classifier. <ref type="bibr" target="#b31">31</ref> We used 5-fold cross-verification to filter the optimal parameters of the models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model Evaluation</head><p>The data in the validation set were used to assess the generalization ability of the classification models that we developed. Each model's confusion matrix was created separately, and the models' accuracy, precision, recall rate and F1-score were calculated. These metrics can be calculated from the values in the confusion matrix. The details are provided in Supplementary Table <ref type="table" target="#tab_2">2</ref>. Receiver operating characteristic (ROC) curves, the most common tool for evaluating predictive models, were additionally used to compare the performance of the models. We integrated the ROC curves of each model into one figure for visual comparison and calculated AUC (area under the curve) values for the final model selection.The characteristics of these six algorithms and the compatibility of these algorithms with our data are summarized in Supplementary Table <ref type="table" target="#tab_3">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implementation of the Web-Based Prognostic Tool</head><p>A web tool for hard-to-heal prediction based on Microsoft Azure Web Sites (Microsoft Corporation, USA) was established based on the filtered optimal prediction model. Model building and prediction were carried out on the Microsoft Azure console, resulting in a user-friendly web interface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The workflow of the study and a flowchart of data allocation are shown in Figure <ref type="figure">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient Characteristics</head><p>From January 2018 to December 2019, a total of 362 patients with UT3 grade diabetic foot ulcers were collected, including 257 (70.99%) males and 105 (29.01%) females, aged 26-88 years. All the patient data, including demographics and disease and treatment characteristics, grouped by hard-to-heal DFUs,are listed in Table <ref type="table" target="#tab_0">1</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3351</head><p>According to the confusion matrix, the four indices of the model's generalization ability, accuracy, precision, F1-score and recall, were calculated and are displayed in Table <ref type="table" target="#tab_3">3</ref>. Additionally, the ROC curves are visualized in Figure <ref type="figure">3</ref>. The AUC values of the ROC curves for each model are also listed in Table <ref type="table" target="#tab_3">3</ref>. For comparison purposes, we visualized the five evaluation metrics as bar charts (Figure <ref type="figure">4</ref>). The NB model clearly obtained the highest AUC (0.864), recall (0.907), and F1-score (0.744) values. SVM achieved the highest scores for accuracy (0.759) and precision (0.66). The NB model was finally selected as the optimal model for detecting hard-to-heal DFUs because it obtained the highest AUC value.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Web-Based Tool</head><p>We built a web calculator on Microsoft Azure Web Sites based on our dataset and the naïve Bayesian algorithm. The web page is https://predicthardtoheal.azurewebsites.net/. This web tool allows the user to select ten variable values to return the probability of predicting hard-to-heal DFUs. We provide an example in Supplementary Figure <ref type="figure">1</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Importance Ranking of Characteristic Variables</head><p>We explored the relative importance of each feature in the naïve Bayesian model. The feature importance ranking results are shown in Figure <ref type="figure" target="#fig_2">5</ref>. The three most important variables were: random blood glucose, which represents poor blood glucose control; CRP, which rises in response to inflammation; and wound area, which is associated with nonhealing ulcers. The remaining variables were ranked in order of importance as follows: smoking history, albumin, peripheral arterial disease, sex, retinopathy, creatinine and insulin use.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Early detection of hard-to-heal DFUs will play an important role in preventing prolonged hospitalization and amputation by allowing timely changes to the treatment plan. In this study, data from DFU patients from two Chinese tertiary hospitals were collected, and six popular machine learning algorithms were applied to build predictive hard-to-heal DFU models. In the model evaluation, the NB model showed the most generalization power (AUC 0.864, recall 0.907, and F1score 0.744). Based on the NB model, an online calculator was created to facilitate its use by clinical staff to assess the probability of hard-to-heal DFUs at the time of initial admission. Finally, we ranked the importance of each feature by contribution based on the NB model. In the model-building phase of our investigation, the NB algorithm emerged as the optimal algorithm, which is likely because our models were based on a small dataset with stratified statistical characteristics and two categorical outcome variables. Logistic regression in the GLM is a powerful statistical tool; however, it cannot discern nonlinear correlations between features. <ref type="bibr" target="#b28">28</ref> KNN, which utilizes only the k-nearest samples from the training set, has a low bias and high variance. With a limited training set, the KNN algorithm is susceptible to overfitting. SVM and Adaboost are sensitive to noise data, resulting in performance restrictions in particular situations. <ref type="bibr" target="#b36">36</ref> RF has limitations when categorizing data with relatively few features; numerous identical decision trees can be generated in such circumstances, which does not improve classification accuracy and increases the operational burden. <ref type="bibr" target="#b37">37</ref> The NB model has distinct benefits for low-dimensional classification samples. First, the NB model is stable and less vulnerable to noise data, in addition to being quick and requiring no accountable structure. In addition, the NB model is simple, elegant and powerful in that features are independent of each other. The NB model has been the most efficient algorithm in numerous experiments. <ref type="bibr" target="#b38">38,</ref><ref type="bibr" target="#b39">39</ref> Lastly, because Bayes Theorem generates posterior probabilities based on prior probabilities, NB models can examine previously existing model parameters. <ref type="bibr" target="#b40">40</ref> Researchers can blend their own data with existing Bayesian model data for combinatorial statistics without revealing sensitive patient information. This procedure was replicated in a study conducted by Jens Hüsers et al . <ref type="bibr" target="#b41">41</ref> Our research once again underscores the potential use of the NB model for low-dimensional categorization data from the medical field. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3353</head><p>According to the results reported in this study, approximately 53.6% of patients displayed nonhealing wounds after one month, which is slightly more than the 48.3% rate predicted by earlier research. <ref type="bibr" target="#b42">42</ref> This finding is acceptable, as Grade III-A hospitals in China typically admit patients with serious ulcers (almost UT grade 3).</p><p>Our NB algorithm-based model for predicting hard-to-heal DFUs ranked random blood glucose as the most important factor, indicating that patients with higher than average blood glucose levels are more likely to develop ulcers than those with normal blood glucose levels. This finding can be explained by the fact that poor glucose control in diabetic </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3354</head><p>individuals is one of the causes of DFUs. <ref type="bibr" target="#b43">43</ref> Additionally, hyperglycemia can result in aberrant keratinocyte migration, reduced keratinocyte proliferation and faulty gap junctions, all of which inhibit wound epithelialization. <ref type="bibr" target="#b44">44</ref> In prospective studies, hyperglycemia has been demonstrated to be an independent predictor of extended hospitalization, recurrence, and amputation due to DFUs. <ref type="bibr" target="#b45">[45]</ref><ref type="bibr" target="#b46">[46]</ref><ref type="bibr" target="#b47">[47]</ref><ref type="bibr" target="#b48">[48]</ref> Increases in random blood glucose levels indicate a lack of self-monitoring of glycemic control in diabetic individuals, which shows that providing diabetic patients with health education to enhance adherence and proper psychological support may be the key to minimizing the incidence of hard-to-heal DFUs.</p><p>C-reactive protein encompasses a group of proteins (acute proteins) that increase dramatically in plasma when the body is exposed to infection or tissue damage. As a sensitive indicator of infection, C-reactive protein is regarded as a crucial feature in wound healing, recurrence, and a potentially lower risk of limb amputation. <ref type="bibr" target="#b49">49,</ref><ref type="bibr" target="#b50">50</ref> Recent research has also linked high leukocyte and CRP levels to a poor prognosis and treatment failure in diabetic foot ulcers. <ref type="bibr" target="#b51">51</ref> Volaco et al observed that elevated CRP levels are a robust predictor of requiring amputation in individuals with diabetic foot ischaemia. 52   </p><p>The wound area is a crucial factor in determining the prognosis and grading of DFUs. In a large multicenter study conducted by David J. Margolis et al, wound size at the initial visit was found to be a predictor of neuropathic foot ulcer healing failure. <ref type="bibr" target="#b32">32</ref> A wound size &gt;2 cm 2 was a predictor of wound healing failure for 20 weeks. <ref type="bibr" target="#b53">53</ref> Early detection and effective treatment will be crucial to prevent DFUs from developing into nonhealing wounds. <ref type="bibr" target="#b54">54</ref> Our research has the following strengths that contribute to its significance: 1. To the best of our knowledge, we are the first to compare machine learning algorithms to identify optimal algorithms for the refractory DFU problem. Our work further verifies the superiority of the NB model in classification issues involving low-dimensional samples. 2. A web calculator was developed using the study's predictive model. This web-based tool may help doctors with the early detection of hard-to-heal diabetic foot ulcers, leading to a multidisciplinary collaborative or more aggressive treatment that can minimize hospitalization, recurrence, and amputation rates. General practitioners can use these findings as a reference to refer such individuals to a specialist for earlier intervention. 3. Our research indicates that random blood glucose, CRP, and wound area are essential factors influencing whether a DFU will be difficult to heal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations</head><p>Despite these findings, this study has certain limitations. First, the limited amount of data hinders the performance of machine learning. Second, according to data gathered from two tertiary institutions, virtually all patients with diabetic foot ulcers had type 2 diabetes and were UT grade 3, suggesting lesions located as deep as tendons, capsules, and even bone, which causes limitations regarding the application of our prediction model. Nonetheless, our filtered optimal NB technique can integrate current scientific knowledge via a priori distributions; thus, our data can serve as a supplement for future researchers. Last, given the nature of machine learning that can be achieved for large-scale feature filtering, patient therapies and some imaging images can be incorporated into model predictions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>In this study, DFU data from two tertiary hospitals in East China were collected, and six machine learning models for predicting hard-to-heal DFUs were developed and evaluated. In addition, the ranking of the importance of features revealed that random blood glucose, CRP, and wound area were the most significant factors influencing hard-to-heal DFUs. Machine learning algorithms have a black-box nature and are difficult to demonstrate arithmetically. We visualize the naïve Bayesian algorithm model system built in this study as a user-friendly web-based calculator to help clinicians identify refractory DFUs for prompt intervention at initial admission. reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Confusion matrix of the risk prediction models with machine learning algorithms. (A) AdaBoost: adaptive boosting; (B) GLM: general linear regression; (C) KNN: k-nearest neighbor; (D) NB: naïve Bayes; (E) RF: random forest; (F) SVM: support vector machine.</figDesc><graphic coords="8,117.69,54.63,360.00,531.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 3355 Figure 4</head><label>333554</label><figDesc>Figure 3 ROC curves for predicting hard-to-heal in DFU patients with machine learning algorithms. Abbreviations: AdaBoost, adaptive boosting; AUC, area under the curve; DFUs, diabetic foot ulcers; GLM, general linear regression; KNN, k-nearest neighbor; NB, naïve Bayesian; RF, random forest; ROC, Receiver operating characteristic; SVM, support vector machine.</figDesc><graphic coords="9,134.70,412.27,360.00,270.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 5</head><label>5</label><figDesc>Figure 5 Feature importance ranking of the included feature of the naïve Bayesian model. Abbreviations: CRP, C-reactive protein.</figDesc><graphic coords="10,117.69,318.56,360.00,360.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,117.69,54.64,360.00,425.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Differences Between Demographic and Clinical Characteristics of Healed and Hard-to-Heal Groups</figDesc><table><row><cell>n (%)</cell></row></table><note><p>Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy 2022:15 https://doi.org/10.2147/DMSO.S383960 DovePress</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 (</head><label>1</label><figDesc>Continued).</figDesc><table><row><cell>n (%)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Prediction Factors for Hard-to-Heal in DFUs</figDesc><table><row><cell>Intercept and Variable</cell><cell>β</cell><cell>Odds Ratio (95% CI)</cell><cell>p-values</cell></row><row><cell>Intercept</cell><cell>-2.496</cell><cell>0.082 (0.024-0.259)</cell><cell>&lt;0.001</cell></row><row><cell>Sex</cell><cell>-0.934</cell><cell>0.393 (0.199-0.756)</cell><cell>0.006</cell></row><row><cell>Use of Insulin</cell><cell>0.532</cell><cell>1.703 (0.958-3.052)</cell><cell>0.071</cell></row><row><cell>Smoking history</cell><cell>0.817</cell><cell>2.264 (1.283-4.042)</cell><cell>0.005</cell></row><row><cell>Random blood glucose</cell><cell>1.105</cell><cell>3.020 (1.779-5.203)</cell><cell>&lt;0.001</cell></row><row><cell>Wound area</cell><cell>0.333</cell><cell>1.395 (0.982-2.007)</cell><cell>0.067</cell></row><row><cell>Diabetic Retinopathy</cell><cell>0.864</cell><cell>2.373 (1.106-5.278)</cell><cell>0.029</cell></row><row><cell>Peripheral arterial disease</cell><cell>0.964</cell><cell>2.623 (1.209-5.843)</cell><cell>0.016</cell></row><row><cell>CRP</cell><cell>1.143</cell><cell>3.135 (1.703-5.874)</cell><cell>&lt;0.001</cell></row><row><cell>Albumin</cell><cell>0.415</cell><cell>1.514 (0.936-2.464)</cell><cell>0.092</cell></row><row><cell>Creatinine</cell><cell>0.273</cell><cell>1.314 (0.983-1.795)</cell><cell>0.073</cell></row><row><cell>Note: β is the regression coefficient.</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">Abbreviations: CI, confidence interval; CRP, C-reactive protein; DFUs, diabetic foot ulcers.</cell></row></table><note><p>Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy 2022:15 https://doi.org/10.2147/DMSO.S383960 DovePress</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3</head><label>3</label><figDesc>The Comparisons of Machine Learning Algorithms</figDesc><table><row><cell>Algorithms</cell><cell>Accuracy</cell><cell>Precision</cell><cell>Recall</cell><cell>F1 Score</cell><cell>AUC</cell></row><row><cell>AdaBoost</cell><cell>0.713</cell><cell>0.63</cell><cell>0.674</cell><cell>0.667</cell><cell>0.804</cell></row><row><cell>GLM</cell><cell>0.750</cell><cell>0.654</cell><cell>0.791</cell><cell>0.68</cell><cell>0.826</cell></row><row><cell>KNN</cell><cell>0.713</cell><cell>0.611</cell><cell>0.767</cell><cell>0.688</cell><cell>0.817</cell></row><row><cell>NB</cell><cell>0.750</cell><cell>0.629</cell><cell>0.907</cell><cell>0.744</cell><cell>0.864</cell></row><row><cell>RF</cell><cell>0.722</cell><cell>0.614</cell><cell>0.814</cell><cell>0.66</cell><cell>0.827</cell></row><row><cell>SVM</cell><cell>0.759</cell><cell>0.660</cell><cell>0.814</cell><cell>0.694</cell><cell>0.819</cell></row><row><cell cols="6">Abbreviations: AUC, area under the curve; AdaBoost, adaptive boosting; GLM, generalized linear model; KNN,</cell></row><row><cell cols="4">k-nearest neighbor; NB, naïve Bayes; RF, random forest; SVM, support vector machine.</cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>https://doi.org/10.2147/DMSO.S383960 DovePress Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy 2022:15</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Powered by TCPDF (www.tcpdf.org)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy 2022:15 https://doi.org/10.2147/DMSO.S383960 DovePress</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Abbreviations: DFU, diabetic foot ulcer; UT, University of Texas. https://doi.org/10.2147/DMSO.S383960 DovePress Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy 2022:15</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding</head><p>This work was supported by the <rs type="funder">National Natural Science Foundation of China</rs> (Grant No. <rs type="grantNumber">81974288</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_NN8Uecn">
+					<idno type="grant-number">81974288</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Sharing Statement</head><p>The authors declare that the main data supporting the findings of this study are available within the article. Extra data are available from the corresponding author upon request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Univariate Regression Results</head><p>Through univariate regression analysis of 21 variables pertaining to demographics, wound features, and laboratory indicators, 6 variables that statistically affected the classification of hard-to-heal DFUs were identified (p &lt; 0.05) as follows: sex, random blood glucose, diabetic retinopathy, peripheral arterial disease, smoking history and CRP. We also incorporated another 4 features-insulin use, wound area, serum albumin, and serum creatinine-that have been shown to have a strong prognostic impact on DFUs based on clinical experience and previous literature. <ref type="bibr" target="#b32">[32]</ref><ref type="bibr" target="#b33">[33]</ref><ref type="bibr" target="#b34">[34]</ref><ref type="bibr" target="#b35">[35]</ref> These ten characteristics were used to determine the final model. These features and the results of the univariate regression analysis are shown in Table <ref type="table">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model Establishment and Evaluation</head><p>Labels defining whether a DFU is difficult to heal, along with the filtered features, were used to build models based on the six machine learning algorithms. To assess the predictive power of the different models, we patterned the confusion matrix of the models, as shown in Figure <ref type="figure">2</ref>. The "0" in each confusion matrix identified patients who did not have hard-to -heal DFUs, while "1" identified patients who had hard-to-heal DFUs. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head><p>AdaBoost, adaptive boosting; AUC, area under the curve; DFUs, diabetic foot ulcers; GLM, general linear regression; KNN, k-nearest neighbor; NB, naïve Bayesian; PAR, percent area reduction; RF, random forest; ROC, Receiver operating characteristic; SVM, support vector machine; USWR, the US wound registry; UT, University of Texas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics Approval and Consent to Participate</head><p>Our study protocol had been approved by the Ethics Committee of Nanjing Drum Tower Hospital (No. 2020-10901). Informed consent of the participants was waived because of the retrospective study design and the use of anonymized clinical data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclosure</head><p>The authors report no conflicts of interest in this work.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,61.51,203.96,479.91,7.02;12,66.73,213.93,289.25,7.02" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">IDF Diabetes Atlas: global, regional and country-level diabetes prevalence estimates for 2021 and projections for 2045</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Saeedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karuranga</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.diabres.2021.109119</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Res Clin Pract</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page">109119</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.51,223.97,479.92,7.02;12,66.73,233.94,453.80,7.02" xml:id="b1">
+	<analytic>
+		<author>
+			<persName><forename type="first">P</forename><surname>Saeedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Petersohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Salpea</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.diabres.2019.107843</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Global and regional diabetes prevalence estimates for 2019 and projections for 2030 and 2045: results from the International Diabetes Federation Diabetes Atlas</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page">107843</biblScope>
+		</imprint>
+	</monogr>
+	<note>9 edition</note>
+</biblStruct>
+
+<biblStruct coords="12,61.51,243.92,479.88,7.02;12,66.74,253.95,235.95,7.02" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Association of diabetic foot ulcer and death in a population-based cohort from the United Kingdom</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Hoffstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/dme.13054</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabet Med</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1493" to="1498" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.51,263.93,479.93,7.02;12,66.74,273.96,148.11,7.02" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Cost of treating diabetic foot ulcers in five different countries</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cavanagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Attinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Abbas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z-R</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/dmrr.2245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Metab Res Rev</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">S1</biblScope>
+			<biblScope unit="page" from="107" to="111" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.51,283.93,479.90,7.02;12,66.74,293.91,162.33,7.02" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Burden of infected diabetic foot ulcers on hospital admissions and costs</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Hicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Selvarajah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mathioudakis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.avsg.2015.11.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="149" to="158" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.51,303.94,479.93,7.02;12,66.74,313.92,57.78,7.02" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Publicly reported wound healing rates: the fantasy and the reality</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Fife</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Eckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Carter</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2017.0743</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="77" to="94" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.51,323.95,479.94,7.02;12,66.73,333.92,149.93,7.02" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Surrogate end points for the treatment of diabetic neuropathic foot ulcers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Gelfand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hoffstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Berlin</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/diacare.26.6.1696</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1696" to="1700" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.51,343.90,479.91,7.02;12,66.73,353.93,397.33,7.02" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Percent change in wound area of diabetic foot ulcers over a 4-week period is a robust predictor of complete healing in a 12-week prospective trial</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sheehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caselli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Giurini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Veves</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/diacare.26.6.1879</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1879" to="1882" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.51,363.91,479.90,7.02;12,66.73,373.94,271.10,7.02" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Prediction of healing for postoperative diabetic foot wounds based on early wound area progression</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Seaman</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/dc07-1300</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="26" to="29" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.16,383.92,480.25,7.02;12,66.74,393.89,443.75,7.02" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Fifty percent area reduction after 4 weeks of treatment is a reliable indicator for healing-analysis of a single-center cohort of 704 diabetic patients</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coerper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Beckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Küper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jekov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Königsrainer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jdiacomp.2008.02.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Complications</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="49" to="53" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.27,403.92,480.15,7.02;12,66.73,413.90,188.24,7.02" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A post-hoc analysis of reduction in diabetic foot ulcer size at 4 weeks as a predictor of healing by 12 weeks</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cardinal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dauphinée</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stavosky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="44" to="50" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.15,423.88,480.27,7.02;12,66.73,433.91,186.88,7.02" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Outcomes and prognosis of diabetic foot ulcers treated by an interdisciplinary team in Canada</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Patry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tourigny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Mercier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Dionne</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13505</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="134" to="146" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.16,443.88,289.54,7.02;12,350.70,442.19,4.56,4.68;12,358.13,443.94,183.30,7.02;12,66.73,453.97,365.21,7.02" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The LeucoPatch ® system in the management of hard-to-heal diabetic foot ulcers: study protocol for a randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Game</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jeffcoate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tarnow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fitzsimmons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13063-017-2216-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trials</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">469</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.15,463.95,480.28,7.02;12,66.73,473.92,274.18,7.02" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Multiple Interventions for Diabetic Foot Ulcer Treatment Trial (MIDFUT): study protocol for a randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ransom</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjopen-2019-035947</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ open</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">35947</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.15,483.95,480.27,7.02;12,66.72,493.93,199.24,7.02" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Wound healing outcomes in a diabetic foot ulcer outpatient clinic at an acute care hospital: a retrospective study</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lu</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">S4-S11</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mclaren</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">S4-S11</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.12968/jowc.2017.26.Sup10.S4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.14,503.96,480.23,7.02;12,66.72,513.94,248.70,7.02" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Risk factor analysis on the healing time and infection rate of diabetic foot ulcers in a referral wound care clinic</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nair</forename><surname>Harikrishna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Yuen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename></persName>
+		</author>
+		<idno type="DOI">10.12968/jowc.2019.28.Sup1.S4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="4" to="S13" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.14,523.91,480.29,7.02;12,66.72,533.95,415.04,7.02" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Predictors of lower extremity amputation in patients with diabetic foot ulcer: findings from MEDFUN, a multi-center observational study</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ugwu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Adeleye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gezawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Okpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Enamino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ezeani</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13047-019-0345-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Foot Ankle Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">34</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.14,543.92,431.37,7.02" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">An improved data mining model to predict the occurrence of type-2 diabetes using neural network</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Priya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Rajalaxmi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.14,553.95,480.28,7.02;12,66.73,563.93,55.99,7.02" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Big data and machine learning algorithms for health-care delivery</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Ngiam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Khor</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1470-2045(19)30149-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Oncol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="30149" to="30153" />
+			<date type="published" when="2019">2019. 19</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.15,573.91,480.25,7.02;12,66.73,583.94,451.69,7.02" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Toward machine-learning-based decision support in diabetes care: a risk stratification study on diabetic foot ulcer and amputation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Schäfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mathisen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Svendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Engberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rolighed</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirketerp-Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<idno type="DOI">10.3389/fmed.2020.601602</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Med</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">601602</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.15,593.91,480.28,7.02;12,66.73,603.89,254.54,7.02" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A machine learning model for early detection of diabetic foot using thermogram images</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khandakar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meh</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ibne</forename><surname>Reaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compbiomed.2021.104838</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page">104838</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.15,613.92,480.22,7.02;12,66.73,623.90,200.75,7.02" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Machine learning prediction of diabetic foot ulcers in the inpatient population</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stefanopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ayoub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Qiu</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/17085381211040984</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Vascular</title>
+		<imprint>
+			<biblScope unit="page">17085381211040984</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.15,633.93,480.28,7.02;12,66.72,643.90,217.68,7.02" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Machine learning algorithm to evaluate risk factors of diabetic foot ulcers and its severity</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nanda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mohapatra</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11517-022-02617-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Biol Eng Comput</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2349" to="2357" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.15,653.88,480.28,7.02;12,66.73,663.91,223.38,7.02" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The amputation and mortality of inpatients with diabetic foot ulceration in the COVID-19 pandemic and postpandemic era: a machine learning study</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Xie</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13723</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J. 2021</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.16,673.89,480.27,7.02;12,66.74,683.92,186.88,7.02" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">An explainable machine learning model for predicting in-hospital amputation rate of patients with diabetic foot ulcer</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Deng</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13691</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="910" to="918" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.17,693.90,480.22,7.02;12,66.75,703.87,230.64,7.02" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Outcome predictors for wound healing in patients with a diabetic foot ulcer</title>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Zadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lingsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Van Neck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Vasilic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Dishoeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A-M</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13194</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1339" to="1346" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,61.18,713.90,422.07,7.02;12,90.03,751.71,88.16,4.37" xml:id="b26">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.2147/DMSO.S383960</idno>
+		<ptr target="https://doi.org/10.2147/DMSO.S383960" />
+		<imprint>
+			<date type="published" when="2017-12-01">December 1, 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,90.03,760.70,30.17,5.46;12,304.72,751.82,236.66,6.98" xml:id="b27">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">DovePress Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.16,55.03,480.25,7.02;13,83.67,65.06,96.22,7.02" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Logistic regression diagnostics: understanding how well a model predicts outcomes</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Meurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tolles</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2016.20441</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1068" to="1069" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.15,75.03,480.29,7.02;13,83.67,85.06,216.09,7.02" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Applications of Support Vector Machine (SVM) learning in cancer genomics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Pacheco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Narrandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.21873/cgp.20063</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Genomics Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="41" to="51" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.14,95.04,480.28,7.02;13,83.67,105.02,381.88,7.02" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Comparison of the predictive performance and interpretability of random forest and linear models on benchmark data sets</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Marchese Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Palczewska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Palczewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kidley</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jcim.6b00753</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Chem Inf Model</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1773" to="1792" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.14,115.05,480.24,7.02;13,83.66,125.02,159.73,7.02" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Experiments with AdaBoost.RT, an improved boosting scheme for regression</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Solomatine</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/neco.2006.18.7.1678</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Comput</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1678" to="1710" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.13,135.00,480.25,7.02;13,83.66,145.03,294.92,7.02" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Diabetic neuropathic foot ulcers: the association of wound size, wound duration, and wound grade on healing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Allen-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hoffstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Berlin</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/diacare.25.10.1835</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1835" to="1839" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.14,155.01,480.27,7.02;13,83.67,165.04,337.97,7.02" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Nutritional status deteriorates as the severity of diabetic foot ulcers increases and independently associates with prognosis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ning</surname></persName>
+		</author>
+		<idno type="DOI">10.3892/etm.2012.780</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Ther Med</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="215" to="222" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.15,175.02,480.27,7.02;13,83.67,184.99,412.27,7.02" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Prognostic risk modelling for patients undergoing major lower limb amputation: an analysis of the UK national vascular registry</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Ambler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Thomas-Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Agk</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Twine</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ejvs.2019.12.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Vasc Endovasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="606" to="613" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.15,195.02,480.24,7.02;13,83.67,205.00,116.80,7.02" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A cohort study of diabetic patients and diabetic foot ulceration patients in China</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xia</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/wrr.12263</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="222" to="230" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.14,215.03,480.29,7.02;13,83.66,225.01,96.23,7.02" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Probabilistic support vector machines for classification of noise affected data</title>
+		<author>
+			<persName><forename type="first">H-X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fan</forename><forename type="middle">B</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ins.2012.09.041</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inf Sci (Ny)</title>
+		<imprint>
+			<biblScope unit="volume">221</biblScope>
+			<biblScope unit="page" from="60" to="71" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.13,234.98,411.68,7.02" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Improving the random forest algorithm by randomly varying the size of the bootstrap samples</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Adnan</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page" from="303" to="308" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.13,245.01,480.26,7.02;13,83.65,254.99,183.49,7.02" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Risk stratification in pulmonary arterial hypertension using Bayesian analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Kanwar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gomberg-Maitland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hoeper</surname></persName>
+		</author>
+		<idno type="DOI">10.1183/13993003.00008-2020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Respir J</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">2000008</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.12,265.02,480.27,7.02;13,83.65,275.00,237.71,7.02" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Detection of intrinsically resistant candida in mixed samples by MALDI TOF-MS and a modified naïve Bayesian classifier</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xiao</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules26154470</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page">4470</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.12,284.97,480.24,7.02;13,83.65,295.01,306.85,7.02" xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Institute of Medicine Roundtable on Evidence-Based M. The Learning Healthcare System: Workshop Summary</title>
+		<editor>Olsen L, Aisner D, McGinnis JM</editor>
+		<imprint>
+			<date type="published" when="2007">2007. 2007</date>
+			<publisher>National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.13,304.98,480.25,7.02;13,83.66,315.01,375.37,7.02" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Predicting the amputation risk for patients with diabetic foot ulceration -A Bayesian decision support tool</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hüsers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hafer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heggemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wiemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hübner</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12911-020-01195-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Inform Decis Mak</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">200</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.13,324.99,480.31,7.02;13,83.66,334.97,372.28,7.02" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Prevalence and characteristics of painful diabetic neuropathy in a large community-based diabetic population in the U.K</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Abbott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Malik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Van Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Boulton</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/dc11-1108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2220" to="2224" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.14,345.00,462.09,7.02" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Abnormal angiogenesis in diabetes mellitus</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Komada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Sane</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/med.10024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Res Rev</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="117" to="145" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.13,354.97,480.26,7.02;13,83.66,364.95,199.32,7.02" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">High-glucose environment disturbs the physiologic functions of keratinocytes: focusing on diabetic wound healing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jdermsci.2016.07.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Dermatol Sci</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="121" to="127" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.13,374.98,480.22,7.02;13,83.66,384.96,241.37,7.02" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Risk factors for recurrence of diabetic foot ulcers: prospective follow-up analysis in the Eurodiale subgroup</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dubský</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jirkovská</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bem</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1742-481X.2012.01022.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="555" to="561" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.14,394.99,480.23,7.02;13,83.67,404.96,264.72,7.02" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Up and down waves of glycemic control and lower-extremity amputation in diabetes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caruso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Scappaticcio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Maiorino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Esposito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Giugliano</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12933-021-01325-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cardiovasc Diabetol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">135</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.14,414.94,480.28,7.02;13,83.67,424.97,168.77,7.02" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Effect of intensive glycemic control on risk of lower extremity amputation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Craven</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jamcollsurg.2018.09.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Surg</title>
+		<imprint>
+			<biblScope unit="volume">227</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="596" to="604" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.14,434.95,480.24,7.02;13,83.67,444.98,246.86,7.02" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A systematic review and meta-analysis of glycemic control for the prevention of diabetic foot syndrome</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Firwana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Elraiyah</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jvs.2015.10.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Vasc Surg</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="22S" to="28" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="13,78.14,454.96,480.26,7.02;13,83.67,464.93,157.52,7.02" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Phenotypes and outcomes in middle-aged patients with diabetic foot ulcers: a retrospective cohort study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tian</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13047-020-00386-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Foot Ankle Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.14,474.96,480.24,7.02;13,83.67,484.94,339.75,7.02" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Association between baseline abundance of Peptoniphilus, a Gram-positive anaerobic coccus, and wound healing outcomes of DFUs</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Baquerizo</forename><surname>Nole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0227006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">227006</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.15,494.97,480.26,7.02;13,83.67,504.95,310.82,7.02" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Clinical predictors of treatment failure for diabetic foot infections: data from a prospective trial</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Lipsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sheehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Tice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Polis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Abramson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1742-481X.2006.00274.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="30" to="38" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.16,514.92,480.25,7.02;13,83.68,524.96,296.30,7.02" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Outcome of critical foot ischaemia in longstanding diabetic patients: a retrospective cohort study in a specialised tertiary care centre</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Volaco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chantelau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Luther</surname></persName>
+		</author>
+		<idno type="DOI">10.1024/0301-1526.33.1.36</idno>
+	</analytic>
+	<monogr>
+		<title level="j">VASA</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="36" to="41" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.16,534.93,480.28,7.02;13,83.69,544.91,156.89,7.02" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Diabetic neuropathic foot ulcers: predicting which ones will not heal</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Allen-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hoffstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Berlin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.amjmed.2003.06.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Med</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="627" to="631" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,78.16,554.94,480.24,7.02;13,83.68,564.91,169.01,7.02;13,86.00,628.43,257.96,7.28" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Healing diabetic neuropathic foot ulcers: are we getting better</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Margolis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Allen-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hoffstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Berlin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1464-5491.2004.01375.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="172" to="176" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>Diabet Med</note>
+</biblStruct>
+
+<biblStruct coords="13,86.51,665.95,459.89,7.02;13,86.51,673.94,459.91,7.02;13,86.51,681.93,459.87,7.02;13,86.51,689.92,459.88,7.02;13,86.51,697.97,215.59,7.02;13,86.51,715.41,327.35,5.24;13,70.98,751.93,241.52,6.98" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Metabolic Syndrome and Obesity: Targets and Therapy is an international, peer-reviewed open-access journal committed to the rapid publication of the latest laboratory and clinical findings in the fields of diabetes, metabolic syndrome and obesity research. Original research, review, case reports, hypothesis formation, expert opinion and commentaries are all considered for publication. The manuscript management system is completely online and includes a very quick and fair peer-review system, which is all easy to use</title>
+		<ptr target="https://www.dovepress.com/diabetes-metabolic-syndrome-and-obesity-targets-and-therapy-journalDiabetes" />
+	</analytic>
+	<monogr>
+		<title level="m">to read real quotes from published authors. Submit your manuscript here</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+	<note>Diabetes</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

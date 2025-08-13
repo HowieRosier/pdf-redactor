@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Tissues Classification for Pressure Ulcer Images Based on 3D Convolutional Neural Network</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2018-10-12">12 October 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mohammed</forename><surname>Elmogy</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Bioengineering Department</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<postCode>40292</postCode>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Begoña</forename><forename type="middle">García</forename><surname>Zapirain</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Adel</forename><surname>Said Elmaghraby</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Begoña</forename><surname>García-Zapirain</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Facultad Ingeniería</orgName>
+								<orgName type="institution">Universidad de Deusto</orgName>
+								<address>
+									<addrLine>Avda/Universidades 24</addrLine>
+									<postCode>48007</postCode>
+									<settlement>Bilbao</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Connor</forename><surname>Burns</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Bioengineering Department</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<postCode>40292</postCode>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adel</forename><surname>Elmaghraby</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Computer Engineering &amp; Computer Science Dept</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ayman</forename><surname>El-Baz</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Bioengineering Department</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<postCode>40292</postCode>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Mansoura University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Deusto</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Louisville</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Tissues Classification for Pressure Ulcer Images Based on 3D Convolutional Neural Network</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-10-12">12 October 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CFE1AC57D5EE939BABDB135C378A8477</idno>
+					<idno type="DOI">10.1109/ICIP.2018.8451119</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Pressure Ulcer</term>
+					<term>3D Convolution Neural Network (CNN)</term>
+					<term>Tissue Classification</term>
+					<term>Linear Combinations of Discrete Gaussians (LCDG)</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Pressure ulcer (PU) is a type of chronic wounds (CWs), which is remaining unhealed for a period longer than six weeks. PU results from applying pressure and friction on the skin of the patient for a long time. It has a complex structure as it has different kinds of tissues. Reliable assessment of PU is essential to the success of the treatment and care decision. In this paper, we propose a tissue classification system for PU based on 3D convolutional neural network (CNN). The main idea of the proposed system is to provide a 3D CNN network with five different models of the colored PU RGB images to accurately segment slough, granulation, and necrotic eschar tissues. Each model of the PU RGB image is provided to the CNN as an independent pathway. The first and second models are the original RGB PU images and its equivalent HSV images. The third model is the smoothed image by convolving the original image with a preselected Gaussian kernel. The last two models are the first-order models of the current and prior visual appearance. The models approximate empirical marginal probability distributions of voxel-wise signals with linear combinations of discrete Gaussians (LCDG). The proposed system was trained and tested on 193 color PU images. The proposed tissue segmentation system is evaluated by using three various metrics, which are the area under the ROC curve (AUC), the Dice similarity coefficient (DSC), and the percentage area distance (PAD). The system achieved an average AUC equals to 95%, DSC equals to 92%, and PAD equals to 10%, which are a promising result.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>Chronic Wounds (CWs) are one of the essential problems to the patient's health in addition to the country's economy. CWs have severe effects on the patients, which include depression, social separation, and high diagnosis and treatment costs <ref type="bibr" target="#b1">[1]</ref>. CWs have many types, such as venous ulcers, diabetic foot ulcers, and pressure ulcer (PU). These types are often resistant to healing and required long-term medical care <ref type="bibr" target="#b2">[2]</ref>. PUs are skin damages generated due to inactivity of the patient for a long period. They are created by decrease the soft tissue between the outer surface and bone prominence, which causes occlusions of blood capillaries. Therefore, the blood flow is decreased and leads to muscular and skin ischemia that leads to necrosis and cell death <ref type="bibr" target="#b3">[3]</ref>. Heretofore, quantitative PU evaluation still depends on visual inspection and manual procedures to extract the main characteristics of the ulcer. Therefore, an automated tissue classification framework is needed to analyze PU images, track the progress of the PU, and differentiate various PU tissue types. On the other hand, the National Pressure Ulcer Advisory Panel (NPUAP) classified the PUs into four various grades <ref type="bibr" target="#b4">[4,</ref><ref type="bibr">5]</ref>. This paper focuses on the automated detection and analysis of the PUs of the third and fourth grades. In the third grade, tissue loss forms a deep crater, which sometimes covered with necrotic tissue, even reaching the deep dermis and hypodermis. In the fourth grade, injuries are caves or sinuous routes due to the total skin loss with many destruction or tissue necrosis to muscle, bones, or support structures like sinus capsule tendon.</p><p>In literature, the analysis of the PU images is considered an active research field. Many studies are proposed to detect, segment, and classify various PU tissues to help dermatologists assessing and diagnosing the development of PU. For example, Dorileo et al. <ref type="bibr" target="#b6">[6]</ref> developed a PU segmentation framework, which was based on analyzing both RGB and HIS color spaces of the PU images. Vereda et al. <ref type="bibr" target="#b7">[7]</ref> implemented an automatic CW tissue classification framework based on Bayesian and artificial neural networks (ANNs) classifiers. Azevedo-Marques et al. <ref type="bibr" target="#b8">[8]</ref> developed a clustering segmentation technique to segment various PU tissues. Their technique was based on the color components in the hue-saturation histograms and mathematical morphology. Ahmed Fauzi et al. <ref type="bibr" target="#b9">[9]</ref> proposed a segmentation technique for CW color images, which was guided by a Red-Yellow-Black-White (RYKW) probability map. Vereda et al. <ref type="bibr" target="#b10">[10]</ref> implemented a PU tissue segmentation system based on kmeans clustering technique. Wang et al. <ref type="bibr" target="#b11">[11]</ref> developed a WC segmentation technique based on convolutional neural network (CNN) model where ConvNet features are utilized in infection detection via support vector machines (SVM) classifier and in healing prediction process via Gaussian Process (GP) Regression. Esteva et al. <ref type="bibr" target="#b12">[12]</ref> proposed a skin cancer classification system by using Google's Inception v3 CNN architecture pre-trained on the object classes.</p><p>The significant limitations of the current research studies can be summarized into two main issues. First, there is a need to improve the overall accuracy of the automatic classification for both external and internal ulcer boundaries. Second, the dermatologists need a real-time automatic PU segmentation system to assess the progress of the wound. To overcome these limitations, we proposed an automated segmentation system to detect and classify the three main tissue types from colored RGB images. The proposed system is based on extracting and fusing different models from PU images to provide an accurate ulcer segmentation framework. The main contributions of the proposed system can be summarized in the following points. First, we introduced an automatic PU segmentation framework to segment different ulcer tissues in addition to the background. Second, the proposed system is based on extracting five different models, which are the original RGB image, the equivalent image in HSV color space, the convolved image by using a 3D Gaussian kernel, the prior appearance model, and the current appearance model using our linear combinations of discrete Gaussians (LCDG). Finally, these modalities are fused and supplied to a multi-pathway 3D CNN network to extract various ulcer tissues.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">METHODS</head><p>This work aims to develop an automatic segmentation system to detect and segment PU RGB-colored images. The proposed system extracts three various ulcer tissues, which are granulation (red), necrotic eschar (black), and slough (yellow) tissues in addition to the background. The main idea of the proposed system depends on extracting different models of the original PU images and representing them as various modalities. The proposed system is based on generating five different models and supplying them to a multi-pathway CNN network to fuse these models and produce an accurate tissue segmentation result. The architecture of the proposed tissue segmentation framework is shown in Fig. <ref type="figure" target="#fig_0">1</ref>. Before discussing the structure of the proposed system, a list of the used mathematical notations is given below. </p><formula xml:id="formula_0">: 0 ≤ x ≤ X -1, 0 ≤ y ≤ Y -1, 0 ≤ z ≤ Z -1}. q ∈ Q = {0, 1, . . . , Q -1}</formula><p>is the integer intensity levels in each color channel of the PU RGB image, g = {gr : r ∈ R, gr ∈ Q}. Four color-coded labels, LSEG = {0, 1, 2, 3}, will specify a segmentation map, mSEG = {mr : r ∈ R, mr ∈ LSEG}. Here, the segmentation labels 0, 1, 2, and 3 are for background, necrotic eschar (black), granulation (red), and slough (white &amp; yellow), respectively.</p><p>The first stage of the proposed segmentation system is to prepare the five models that will be provided to the CNN network. The first model is the original captured PU RGB image (g). The second model is the PU image in HSV color space (gHSV), which is used to eliminate the impacts of illumination changes onto chrominance of the PU images. Also, the saturation (S) channel of the HSV model provides higher contrast <ref type="bibr" target="#b1">[1]</ref>.</p><p>The third model is the smoothed PU images. Gaussian smoothing (GS) of the initial RGB image is performed by convolution the image with a moving 3D Gaussian kernel (hσ). To add longerrange properties to the original intensities and their pairwise cooccurrences in the nearest 7x7x3-neighborhoods of each voxel:</p><formula xml:id="formula_1">gj = gj * hσ; j ∈ {R, G, B}<label>(1)</label></formula><p>where gj represents the color channel, j, of the convolved input RGB image, g, and hσ = (hσ:r-r c : (r, rc) ∈ R 2 ) is a 3D Gaussian kernel with a fixed standard deviation σ <ref type="bibr" target="#b13">[13]</ref>;</p><formula xml:id="formula_2">hσ:r-r c = 1 √ 2πσ 2 exp - 1 2σ 2 |r -rc| 2 (2)</formula><p>Here, |r -rc| = (x -xc) 2 + (y -yc) 2 + (z -zc) 2 is the Cartesian distance between the voxel, r, and the kernel's center, rc = (xc, yc, zc).</p><p>The GS helps to reduce noise in the processed images. It obtains the global feature that is more homogenous than the original image. In particular, it integrates longer-range image properties and eliminates intensity distortions that can affect the quality of the captured image. However, it flattens the grayscale image of the PU by decreasing its maximal and increasing its minimal values. The image is convolved by the (7x7x3) kernel with σ 2 = 2.5 to preserve more details. The result of the (7x7x3) kernel achieved better results when compared with (3x3x3) and (5x5x3) kernels.</p><p>The fourth modality (gpr) is the prior visual appearance model that uses the prior color information and the Euclidean distance to generate the color probability of the PU tissues. gpr is constructed by using three main steps. First, databases of the three classes of the PU tissues are generated by pixels' RGB values. These values are extracted from manually labeled images by PU experts. For each class t ∈ {1, 2, 3}, a database DBt is generated from aggregating the most repeated 100 RGB values of that class from the training labeled images. Second, the Euclidean distances (Dr,t) are calculated between each pixel (r) in the testing image (g) and the three constructed tissue databases (DBt). Finally, all distances that are greater than or equal to a predefined threshold (Dr,t ≥ T) are returned and used to calculate the prior probability for the current pixel:</p><formula xml:id="formula_3">Pp,i = Nt t∈{1,2,3} Nt<label>(3)</label></formula><p>where t is the tissue class (1 for necrotic eschar class, 2 for granulation class, and 3 slough class) and N is the total number of voxels that have a Euclidean distance greater than or equal the threshold. Fig. <ref type="figure">2</ref> shows a graphical illustration for calculating the prior visual appearance model from RGB image.</p><p>Fig. <ref type="figure">2</ref>. A graphical illustration for calculating the prior visual appearance model. Finally, the fifth modality (gLCDG) is generated as an LCDG appearance model of the PU grayscale image. To build this modality, the collected empirical marginal probability distribution of voxelwise intensities is approximated with a multimodal LCDG, and the latter is separated into the ulcer and background parts in unsupervised mode (see <ref type="bibr" target="#b14">[14,</ref><ref type="bibr" target="#b15">15,</ref><ref type="bibr" target="#b16">16,</ref><ref type="bibr" target="#b17">17]</ref> for details). LCDG creates a very close approximation of each distribution related to the mode with a linear combination of sign-alternate discrete Gaussian kernels. Each processed image is presented as a K-model image of dominant modes linked to the resulting image. In our case, K equals to four that represents the types of ulcer's tissues in addition to the background. The probability distributions of the tissues (Fs) are estimated and linked to each mode to segment the processed image by separating the modes: Fs = (fs(q) : q ∈ Q;</p><formula xml:id="formula_4">q∈Q fs(q) = 1)<label>(4)</label></formula><p>where q introduces the intensity levels that indicate the empirical marginal probability distribution of intensity levels for mROI . Therefore, the LCDG of the image is divided into sub-models linked to each dominant mode. The discrete Gaussian (DG) is represented as the probability distribution (Ψ θ ) on Q where each probability (ψ(q|θ)) relates to the cumulative Gaussian probability function (Φ θ (q)) as follows:</p><formula xml:id="formula_5">Ψ θ = (ψ(q|θ) : q ∈ Q) (5) ψ(q, θ) =     </formula><p>Φ θ (0.5) for q = 0, Φ θ (q + 0.5) -Φ θ (q -0.5) for q = 1, ..., Q -2, 1 -Φ θ (q -0.5)</p><formula xml:id="formula_6">for q = Q -1.<label>(6)</label></formula><p>where θ(µ, σ 2 ), µ is the mean, and σ 2 is the variance. The LCDG with positive (Cp) and negative (Cn) components is calculated as follows:</p><p>pw,Θ(q) = </p><p>where Cp ≥ K and its weights w = [wp, wn] are nonnegative and satisfy Eq 7. Finally, we aim to find a K-model probability that approximates the unknown marginal intensity level distribution, which can be calculated from: gLCDG = q∈Q f (q)logpw,Θ(q) (9</p><formula xml:id="formula_8">)</formula><p>where f (q) = (|R|fs(q) + 1)/(|R| + q) that represent its Bayesian estimate <ref type="bibr" target="#b18">[18]</ref>. The model maximizes the expected log-likelihood of the statistically independent empirical data.</p><p>The extracted five models are supplied as separate inputs to a multi-pathway 3D CNN network, which is called DeepMedic <ref type="bibr" target="#b19">[19]</ref>. Fig. <ref type="figure">3</ref> illustrates the structure of the used CNN network. The DeepMedic network is a 3D CNN with five pathways and eleven layers (eight convolutional layers, two fully connected layers, and one classification layer). Each model is supplied to one of the five pathways of the 3D CNN network. The ground truth (GT) (mGT) is supplied to the 3D CNN network to validate the result with the GT. The aim of multiple pathways is to incorporate a larger amount of local contextual information from the PU images to extract the PU tissues. The last layer in the network is a 3D fully connected conditional random field (CRF) layer to enhance the performance of the network and remove false positives (FPs). CRF layer has the main advantage to overcome the limitations of other models, which is handling large neighborhoods in fast inference time. The DeepMedic network uses dense training on the segments that are extracted from the PU images to adapt class imbalance of this segmentation problem.</p><p>The 3D CNN network classifies each voxel in the processed image depending on the local and contextual information of its neighborhood to produce estimates for segmentation labels. It is done by multiple convolutions of the input of each pathway with some filters at the cascaded layers. Each layer consists of feature maps (FMs). Each FM is a group of neurons to detect a specific pattern in the previous layer. The voxel's receptive field is defined as voxels' neighborhood in the input modality that affects the activation of a neuron. Its size increases at each subsequent layer.</p><p>The output of the CNN is processed by morphological filters to enhance the resulting images. The used morphological filters are filling holes to remove discontinuity in the ulcer area, eliminating small areas, and applying closing operation, respectively. Fig. <ref type="figure">3</ref>. The proposed 3D CNN network for the PU tissue segmentation.</p><p>3. RESULTS Our dataset has 193 PU RGB images for training and testing our proposed segmentation framework. The dataset contains 36 images with a resolution of 1024x1024 pixels, which are captured by using a regular digital camera. These images are provided by IGURCO GESTI ÓN S. L., Basque Country, Spain. Also, we got 157 images from Medetec wound database that have a resolution of 1024x731 pixels <ref type="bibr" target="#b20">[20]</ref>. Three graduate students created the GT for ulcer tissues. Finally, the images are refined, validated, and approved by three dermatologists from IGURCO GESTI ÓN S. L., Basque Country, Spain.</p><p>We evaluated the performance of the proposed system by using three common metrics, which are the area under the curve (AUC) <ref type="bibr" target="#b21">[21]</ref>, percentage area distance (PAD), and Dice similarity coefficient (DSC) <ref type="bibr" target="#b22">[22]</ref>. The AUC is the area under the Receiver Operating Characteristic (ROC) curve. It indicates the expectation that a uniformly drawn random positive is ranked before a uniformly drawn random negative. The PAD is the relative absolute ulcer difference between the results of the tested model and the GT segmentation. The DSC measures relevant correspondence between two areas regarding their true/false positive and negative parts. The lower the value of PAD and the higher the values of DSC and AUC, the more accurate of our proposed segmentation system. To validate our results and prevent overfitting, we used two different cross-validation techniques. First, we applied the four-fold cross-validation. Second, we divided the dataset into 60% for training, 10% for validation, and 30% for testing.</p><p>To validate our results, we compared our proposed system with four other segmentation systems. The first is the resulting segmentation from LCDG technique. The second is the segmentation output from the Fuzzy C-Means (FCM) algorithm <ref type="bibr" target="#b23">[23]</ref>. The third is the segmentation output from Otsu segmentation technique. Finally, the fourth is a segmentation technique of our former work, which is based on two different CNN networks for both region of interest (ROI) extraction and tissue segmentation <ref type="bibr" target="#b24">[24,</ref><ref type="bibr" target="#b25">25]</ref>. In addition, our previous system was based on extracted the features of the PU images from HSI color space only. Fig. <ref type="figure" target="#fig_2">4</ref> shows some examples of the output of tissues segmentation systems. Table <ref type="table" target="#tab_0">1</ref> lists the experimental results of the testing four different systems to evaluate the tissues segmentation in PU RGB images. We calculated the AUC, PAD, and DSC for necrotic eschar, granulation, and slough tissues. Our proposed system shows a high performance as compared with other systems. It achieved 92% for DSC, 10% for PAD, and 95% for AUC in average for all tissues. The results of PDA shows a high performance as compared with other systems, but it is still large in slough tissue. In addition to the last validation method, we validated our system by using four-fold cross-validation method. It achieved 93 ± 5% for DSC, 12 ± 15% for PAD, and 94 ± 7% for AUC in average for all tissues, which is consistent with the first validation method. Also, the results show that the difference between the performance of the proposed system and our former work is small, which indicate that the change of the color space of the modalities has not high impact. On the other hand, the speed of the proposed system is faster than the former one as we used only one CNN network for segmenting the PU tissues instead of two CNN networks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">CONCLUSION</head><p>In this paper, we presented an automatic segmentation system to segment PU RGB images. The main idea of the proposed system is to generate different models from the original PU RGB images and supply them to a multi-pathway 3D CNN network to segment various PU tissues. These models are the original RGB image, the equivalent HSV image, the smoothed image by using the 3D Gaussian kernel, as well as its first-order current and prior visual appear- ance models using LCDG. The proposed system was trained and tested on 193 color PU images. The accuracy and robustness of the classifier were evaluated using the DSC, PAD, and AUC. The obtained preliminary results: DSC 92%, PAD 10%, and AUC 95%are promising. In the future, we will extract some other modalities to increase the performance of the system. Finally, we will assess the PU depends on depth images to estimate the grade of the ulcer.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. The proposed PU segmentation system. Basic mathematical notation: R is a 3D finite arithmetic lattice of X × Y × Z voxels (r), where R = {r = (x, y, z): 0 ≤ x ≤ X -1, 0 ≤ y ≤ Y -1, 0 ≤ z ≤ Z -1}. q ∈ Q = {0, 1, . . . , Q -1}is the integer intensity levels in each color channel of the PU RGB image, g = {gr : r ∈ R, gr ∈ Q}. Four color-coded labels, LSEG = {0, 1, 2, 3}, will specify a segmentation map, mSEG = {mr : r ∈ R, mr ∈ LSEG}. Here, the segmentation labels 0, 1, 2, and 3 are for background, necrotic eschar (black), granulation (red), and slough (white &amp; yellow), respectively.The first stage of the proposed segmentation system is to prepare the five models that will be provided to the CNN network. The first model is the original captured PU RGB image (g). The second model is the PU image in HSV color space (gHSV), which is used to eliminate the impacts of illumination changes onto chrominance of the PU images. Also, the saturation (S) channel of the HSV model provides higher contrast<ref type="bibr" target="#b1">[1]</ref>.The third model is the smoothed PU images. Gaussian smoothing (GS) of the initial RGB image is performed by convolution the image with a moving 3D Gaussian kernel (hσ). To add longerrange properties to the original intensities and their pairwise cooccurrences in the nearest 7x7x3-neighborhoods of each voxel:</figDesc><graphic coords="3,54.45,253.05,243.63,137.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Cp r=1 wp,rψ(q|θp,r) -Cn l=1 w n,l ψ(q|θ n,l )</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Some examples of the output of the tissue segmentation: (a) the original PU RGB images, (b) the ground truth, (c) the output of the LCDG technique, (d) the output of the FCM technique, (e) the output of the Otsu segmentation, and (f) the final output of our proposed system.</figDesc><graphic coords="5,104.92,72.19,403.42,288.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>The performance evaluation of five different systems for tissues segmentation in PU images.</figDesc><table><row><cell>Systems</cell><cell cols="2">Metrics Necrotic</cell><cell>Granul-</cell><cell>Slough</cell></row><row><cell></cell><cell></cell><cell>Eschar</cell><cell>ation</cell><cell></cell></row><row><cell></cell><cell>DSC</cell><cell>40 ± 37</cell><cell>69 ± 22</cell><cell>71 ± 10</cell></row><row><cell>FCM</cell><cell>PAD</cell><cell>48 ± 41</cell><cell>35 ± 43</cell><cell>290 ± 102</cell></row><row><cell></cell><cell>AUC</cell><cell>49 ± 29</cell><cell>77 ± 20</cell><cell>81 ± 8</cell></row><row><cell></cell><cell>DSC</cell><cell>68 ± 12</cell><cell>70 ± 25</cell><cell>57 ± 30</cell></row><row><cell>LCDG</cell><cell>PAD</cell><cell>36 ± 21</cell><cell>59 ± 85</cell><cell>111 ± 49</cell></row><row><cell></cell><cell>AUC</cell><cell>82 ± 8</cell><cell>80 ± 15</cell><cell>68 ± 21</cell></row><row><cell></cell><cell>DSC</cell><cell>63 ± 18</cell><cell>72 ± 15</cell><cell>75 ± 18</cell></row><row><cell>Otsu</cell><cell>PAD</cell><cell>52 ± 38</cell><cell>46 ± 40</cell><cell>53 ± 77</cell></row><row><cell></cell><cell>AUC</cell><cell>77 ± 28</cell><cell>65 ± 24</cell><cell>76 ± 12</cell></row><row><cell></cell><cell>DSC</cell><cell>91 ± 3</cell><cell>92 ± 7</cell><cell>91 ± 5</cell></row><row><cell>Former Work</cell><cell>PAD</cell><cell>7 ± 6</cell><cell>12 ± 22</cell><cell>23 ± 29</cell></row><row><cell></cell><cell>AUC</cell><cell>93 ± 3</cell><cell>96 ± 4</cell><cell>95 ± 3</cell></row><row><cell></cell><cell>DSC</cell><cell>93 ± 2</cell><cell>91 ± 8</cell><cell>93 ± 3</cell></row><row><cell>Our System</cell><cell>PAD</cell><cell>6 ± 5</cell><cell>10 ± 15</cell><cell>13 ± 21</cell></row><row><cell></cell><cell>AUC</cell><cell>94 ± 3</cell><cell>95 ± 4</cell><cell>97 ± 4</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>978-1-4799-7061-2/18/$31.00 ©2018 IEEE ICIP 2018</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,143.48,75.78,69.02,8.06" xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>References</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,95.82,223.85,7.77;6,74.34,106.23,223.86,7.77;6,74.34,116.64,223.86,7.77;6,74.34,126.90,223.86,7.93;6,74.34,137.46,73.97,7.77" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Automated tissue classification framework for reproducible chronic wound assessment</title>
+		<author>
+			<persName><forename type="first">Rashmi</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dhiraj</forename><surname>Dhane Manohar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dev</forename><surname>Kumar Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arun</forename><surname>Achar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Analava</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chandan</forename><surname>Chakraborty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioMed Research International</title>
+		<imprint>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,151.19,223.85,7.77;6,74.34,161.60,223.86,7.77;6,74.34,172.01,223.86,7.77;6,74.34,182.42,223.86,7.77;6,74.34,192.68,223.86,7.93;6,74.34,203.24,69.49,7.77" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Human skin wounds: A major and snowballing threat to public health and the economy</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chandan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gayle</forename><forename type="middle">M</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sashwati</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lynn</forename><surname>Kirsner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">K</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Finn</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geoffrey</forename><forename type="middle">C</forename><surname>Gottrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">T</forename><surname>Gurtner</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Longaker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair and Regeneration</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="763" to="771" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,216.97,223.86,7.77;6,74.34,227.38,223.86,7.77;6,74.34,237.79,223.86,7.77;6,74.34,248.05,223.86,7.93;6,74.34,258.61,86.17,7.77" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Pressure ulcer image segmentation technique through synthetic frequencies generation and contrast variation using toroidal geometry</title>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">P</forename><surname>Ortiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Sierra-Sosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Begoa</forename><surname>Garca Zapirain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioMedical Engineering OnLine</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2017-01">January 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,272.34,223.85,7.77;6,74.34,282.75,223.86,7.77;6,74.34,293.01,223.86,7.93;6,74.34,303.57,78.70,7.77" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">An image mining based approach to detect pressure ulcer stage</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guadagnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>De Neves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Santana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognit. Image Anal</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="292" to="296" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Guilhem</note>
+</biblStruct>
+
+<biblStruct coords="6,74.35,317.30,223.86,7.77;6,74.34,327.71,223.86,7.77;6,74.34,337.97,223.86,7.93;6,74.34,348.38,156.72,7.93" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Automated framework for accurate segmentation of pressure ulcer images</title>
+		<author>
+			<persName><forename type="first">Begonya</forename><surname>Garcia-Zapirain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ahmed</forename><surname>Shalaby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ayman</forename><surname>El-Baz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adel</forename><surname>Elmaghraby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Biology and Medicine</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="137" to="145" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,362.25,223.85,7.77;6,74.34,372.67,223.86,7.77;6,74.34,382.92,223.86,7.93;6,74.34,393.49,51.56,7.77" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Segmentation and analysis of the tissue composition of dermatological ulcers</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A G</forename><surname>Dorileo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A C</forename><surname>Frade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Rangayyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Azevedo-Marques</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">CCECE 2010</title>
+		<imprint>
+			<date type="published" when="2010-05">May 2010</date>
+			<biblScope unit="page" from="1" to="4" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,407.21,223.86,7.77;6,74.34,417.62,223.86,7.77;6,74.34,427.88,223.86,7.93;6,74.34,438.45,107.60,7.77" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Binary tissue classification on wound images with neural networks and bayesian classifiers</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Veredas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Medical Imaging</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="410" to="427" />
+			<date type="published" when="2010-02">Feb 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,452.17,223.85,7.77;6,74.34,462.58,223.86,7.77;6,74.34,472.84,223.86,7.93;6,74.34,483.25,223.86,7.72;6,74.34,493.66,123.29,7.93" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Segmentation of dermatological ulcers using clustering of color components</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Azevedo-Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A C</forename><surname>Frade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Rangayyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2013 26th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)</title>
+		<imprint>
+			<date type="published" when="2013-05">May 2013</date>
+			<biblScope unit="page" from="1" to="4" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,507.54,223.85,7.77;6,74.34,517.95,223.86,7.77;6,74.34,528.36,223.86,7.77;6,74.34,538.62,223.86,7.93;6,74.34,549.19,65.01,7.77" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Computerized segmentation and measurement of chronic wound images</title>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Faizal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ahmad</forename><surname>Fauzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ibrahim</forename><surname>Khansa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karen</forename><surname>Catignani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gayle</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chandan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Metin</forename><forename type="middle">N</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gurcan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Biology and Medicine</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="74" to="85" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,562.91,223.86,7.77;6,74.34,573.32,223.86,7.77;6,74.34,583.58,223.86,7.93;6,74.34,593.99,130.59,7.93" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Wound image evaluation with machine learning</title>
+		<author>
+			<persName><forename type="first">Francisco</forename><forename type="middle">J</forename><surname>Veredas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rafael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><forename type="middle">J</forename><surname>Luque-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juan</forename><forename type="middle">C</forename><surname>Martn-Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Morilla-Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Morente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="112" to="122" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,607.87,223.85,7.77;6,74.34,618.28,223.86,7.77;6,74.34,628.69,223.86,7.77;6,74.34,638.95,223.86,7.93;6,74.34,649.36,223.86,7.72;6,74.34,659.77,159.13,7.93" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A unified framework for automatic wound segmentation and analysis with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kochhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wrobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)</title>
+		<imprint>
+			<date type="published" when="2015-08">Aug 2015</date>
+			<biblScope unit="page" from="2415" to="2418" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,74.35,673.65,223.85,7.77;6,74.34,684.06,223.86,7.77;6,74.34,694.47,223.86,7.77;6,74.34,704.73,223.86,7.93;6,74.34,715.30,42.83,7.77" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Dermatologist-level classification of skin cancer with deep neural networks</title>
+		<author>
+			<persName><forename type="first">Andre</forename><surname>Esteva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brett</forename><surname>Kuprel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><forename type="middle">A</forename><surname>Novoa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Justin</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susan</forename><forename type="middle">M</forename><surname>Swetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helen</forename><forename type="middle">M</forename><surname>Blau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Thrun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">542</biblScope>
+			<biblScope unit="issue">7639</biblScope>
+			<biblScope unit="page" from="115" to="118" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,76.13,223.86,7.77;6,335.13,86.54,223.86,7.77;6,335.13,96.80,223.86,7.93;6,335.13,107.36,87.17,7.77" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Generalized gaussian scale-space axiomatics comprising linear scale-space, affine scale-space and spatiotemporal scale-space</title>
+		<author>
+			<persName><forename type="first">Tony</forename><surname>Lindeberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Math. Imaging Vis</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="36" to="81" />
+			<date type="published" when="2011-05">may# 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,121.75,223.86,7.77;6,335.13,132.16,223.86,7.77;6,335.13,142.42,223.86,7.93;6,335.13,152.83,223.86,7.93;6,335.13,163.40,20.17,7.77" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Precise segmentation of 3d magnetic resonance angiography</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>El-Baz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elnakib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Khalifa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>El-Ghar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcclure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Soliman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gimelrfarb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Biomedical Engineering</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2019" to="2029" />
+			<date type="published" when="2012-07">July 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,177.64,223.86,7.93;6,335.13,188.05,216.24,7.93" xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">Ayman</forename><surname>El-Baz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Georgy</forename><surname>Gimelfarb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jasjit</forename><forename type="middle">S</forename><surname>Surit</surname></persName>
+		</author>
+		<title level="m">Stochastic Modeling for Medical Image Analysis</title>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,202.45,223.86,7.93;6,335.13,212.86,183.74,7.93" xml:id="b16">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>El-Baz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suri</surname></persName>
+		</author>
+		<title level="m">Biomedical Image Segmentation Advances and Trends</title>
+		<meeting><address><addrLine>Taylor &amp; Francis</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,227.41,223.86,7.77;6,335.13,237.67,223.86,7.93;6,335.13,248.08,201.22,7.93" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Precise segmentation of multimodal images</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Farag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>El-Baz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gimel'farb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Image Processing</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="952" to="968" />
+			<date type="published" when="2006-04">April 2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,262.47,223.86,7.93;6,335.13,272.88,202.90,7.93" xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">R</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keith</forename><forename type="middle">D</forename><surname>Copsey</surname></persName>
+		</author>
+		<title level="m">Statistical Pattern Recognition</title>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Ltd, 3th edition</note>
+</biblStruct>
+
+<biblStruct coords="6,335.14,287.43,223.86,7.77;6,335.13,297.84,223.86,7.77;6,335.13,308.25,223.86,7.77;6,335.13,318.38,223.86,8.06;6,335.13,328.92,223.86,7.93;6,335.13,339.49,20.17,7.77" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Efficient multi-scale 3d {CNN} with fully connected {CRF} for accurate brain lesion segmentation</title>
+		<author>
+			<persName><forename type="first">Konstantinos</forename><surname>Kamnitsas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Ledig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Virginia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joanna</forename><forename type="middle">P</forename><surname>Newcombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">D</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">K</forename><surname>Kane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Menon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><surname>Rueckert</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Glocker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical Image Analysis</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="61" to="78" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,353.88,63.93,7.77;6,440.23,353.88,118.76,7.77;6,335.13,364.29,171.99,7.77;6,335.13,374.70,81.06,7.77" xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">Steve</forename><surname>Thomas</surname></persName>
+		</author>
+		<ptr target="http://www.medetec.co.uk/files/medetec-image-databases.html" />
+		<title level="m">Medetec wound database</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,389.10,223.86,7.77;6,335.13,399.51,223.86,7.77;6,335.13,409.77,223.86,7.93;6,335.13,420.33,47.07,7.77" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Evaluation: From precision, recall and f-measure to roc, informedness, markedness &amp; correlation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Powers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Machine Learning Technologies</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="37" to="63" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,434.73,223.85,7.77;6,335.13,444.99,221.73,7.93" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Measures of the amount of ecologic association between species</title>
+		<author>
+			<persName><forename type="first">Lee</forename><forename type="middle">R</forename><surname>Dice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="297" to="302" />
+			<date type="published" when="1945">1945</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,459.54,223.86,7.77;6,335.13,469.95,223.86,7.77;6,335.13,480.21,223.86,7.93" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Image segmentation by fuzzy c-means clustering algorithm with a novel penalty term</title>
+		<author>
+			<persName><forename type="first">Yong</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shuying</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">COMPUTING AND INFORMATICS</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="17" to="31" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,494.75,223.86,7.77;6,335.13,505.17,223.86,7.77;6,335.13,515.42,223.86,7.93;6,335.13,525.84,147.36,7.93" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Classification of pressure ulcer tissues with 3d convolutional neural network</title>
+		<author>
+			<persName><forename type="first">Begona</forename><surname>Garca-Zapirain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammed</forename><surname>Elmogy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ayman</forename><surname>El-Baz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adel</forename><forename type="middle">S</forename><surname>Elmaghraby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical &amp; Biological Engineering &amp; Computing</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,335.14,540.38,223.85,7.77;6,335.13,550.79,223.86,7.77;6,335.13,561.20,223.86,7.77;6,335.13,571.46,223.86,7.93;6,335.13,581.87,199.09,7.93" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">An automated classification framework for pressure ulcer tissues based on 3d convolutional neural network</title>
+		<author>
+			<persName><forename type="first">Mohammed</forename><surname>Elmogy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Begona</forename><surname>Garcia-Zapirainy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adel</forename><forename type="middle">S</forename><surname>Elmaghrabyz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ayman</forename><surname>El-Baz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">24th International Conference on Pattern Recognition (ICPR 2018)</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>in the proceedings of the</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

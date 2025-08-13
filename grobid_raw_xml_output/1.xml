@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multi-modal wound classification using wound image and location by deep neural network</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Wisconsin-Milwaukee</orgName>
+								<address>
+									<settlement>Milwaukee</settlement>
+									<region>WI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yash</forename><surname>Patel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Wisconsin-Milwaukee</orgName>
+								<address>
+									<settlement>Milwaukee</settlement>
+									<region>WI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Behrouz</forename><surname>Rostami</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+								<orgName type="institution">University of Wisconsin-Milwaukee</orgName>
+								<address>
+									<postCode>53211</postCode>
+									<settlement>Milwaukee</settlement>
+									<region>WI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><surname>Niezgoda</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Advancing the Zenith of Healthcare (AZH) Wound and Vascular Center</orgName>
+								<address>
+									<settlement>Milwaukee</settlement>
+									<region>WI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sandeep</forename><surname>Gopalakrishnan</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">College of Nursing</orgName>
+								<orgName type="institution">University of Wisconsin Milwaukee</orgName>
+								<address>
+									<settlement>Milwaukee</settlement>
+									<region>WI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zeyun</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Wisconsin-Milwaukee</orgName>
+								<address>
+									<settlement>Milwaukee</settlement>
+									<region>WI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Biomedical Engineering</orgName>
+								<orgName type="laboratory">Big Data Analytics and Visualization Laboratory</orgName>
+								<orgName type="institution">University of Wisconsin-Milwaukee</orgName>
+								<address>
+									<addrLine>3200 N. Cramer St, EMS E327</addrLine>
+									<postCode>53211</postCode>
+									<settlement>Milwaukee</settlement>
+									<region>WI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multi-modal wound classification using wound image and location by deep neural network</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">AD095F75C62A3EF385D47B3C60C5671E</idno>
+					<idno type="DOI">10.1038/s41598-022-21813-0</idno>
+					<note type="submission">Received: 26 April 2022; Accepted: 4 October 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Wound classification is an essential step of wound diagnosis. An efficient classifier can assist wound specialists in classifying wound types with less financial and time costs and help them decide on an optimal treatment procedure. This study developed a deep neural network-based multi-modal classifier using wound images and their corresponding locations to categorize them into multiple classes, including diabetic, pressure, surgical, and venous ulcers. A body map was also developed to prepare the location data, which can help wound specialists tag wound locations more efficiently. Three datasets containing images and their corresponding location information were designed with the help of wound specialists. The multi-modal network was developed by concatenating the image-based and location-based classifier outputs with other modifications. The maximum accuracy on mixed-class classifications (containing background and normal skin) varies from 82.48 to 100% in different experiments. The maximum accuracy on wound-class classifications (containing only diabetic, pressure, surgical, and venous) varies from 72.95 to 97.12% in various experiments. The proposed multi-modal network also showed a significant improvement in results from the previous works of literature.</p><p>More than 8 million people are suffering from wounds, and the medicare cost related to wound treatments ranged from $28.1 billion to $96.8 billion, according to a 2018 retrospective analysis 1 . This immense number can give us an idea of the population related to wound and their care and management. The most common types of wounds/ ulcers are diabetic foot ulcer (DFU), venous leg ulcer (VLU), pressure ulcer (PU), and surgical wound (SW). About 34% of people with diabetes have a lifetime risk of developing a DFU, and more than 50% of diabetic foot ulcers become infected 2 . About 0.15% to 0.3% of people suffer from active VLU worldwide 3 . A pressure ulcer is another significant wound, and 2.5 million people are affected each year 4 . Yearly about 4.5% of people have a surgery that leads to a surgical wound 5 .</p><p>The above statistics show that wounds have caused a huge financial burden and may even be life-threatening to patients. An essential part of wound care is to differentiate among different types of wounds (DFU, VLU, PU, SW, etc.) or wound conditions (infection vs. non-infection, ischemia vs. non-ischemic, etc.). To prepare proper medication and treatment guidelines, physicians must first detect the correct wound class. Until the recent advancement of artificial intelligence (AI), wound specialists manually classified wounds. AI can save both time and cost and, in some cases, may give better predictions than humans. In recent years, AI algorithms have evolved into so-called data-driven techniques without human or expert intervention, as compared to the early generations of AI that were rule-based, relying mainly on an expert's knowledge 6 . This research focuses on wound type classification using a data-driven AI technique named Deep Learning (DL).</p><p>Deep learning is prevalent in image processing, with a huge success in medical image analysis. In the general field of image processing and study, some widely used DL algorithms are Convolutional Neural Networks (CNN), Deep Belief Networks (DBN), Deep Boltzmann Machines (DBM), and Stacked (Denoising) Autoencoders 7 . In addition, some of the most common DL methods for medical image analysis include LeNet, AlexNet, VGG 19,  GoogleNet, ResNet, FCNN, RNNs, Auto-encoders, Stacked Auto-encoders, Restricted Boltzmann Machines  (RBM), Variational Auto-encoders, and Generative Adversarial Networks 8 . Bakator et al. 9 reviewed CNN, RBM,</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Though there exists some feature-based machine learning and end-to-end deep learning models for imagebased wound classification, the classification accuracy is limited due to incomplete information considered in the classifiers. The novelty of the present research is to add wound location as a vital feature to obtain a more accurate classification result. Wound location is a standard entry for electronic health record (EHR) documents, which many wound physicians utilize for wound diagnosis and prognosis. Unfortunately, these locations are documented manually without any specific guidelines, which leads to some inconsistency. In the current work, we developed a body map from which one can select the location of the wound visually and accurately. Then, for each wound image, the wound location was set through the body map, and the location was indexed according to the image file name. Finally, the developed classifier was trained with both image (gained through convolution) and location features and produced superior classification performance compared to image-based wound classifiers. A basic workflow of this research is shown in Fig. <ref type="figure" target="#fig_1">1</ref>. The developed wound classifier takes both wound image and location as inputs and outputs the corresponding wound class.</p><p>The remainder of the work is organized as follows. Related works on wound classification are discussed in Section "Related works". Section "Methodology" discusses the methodology, where the dataset, body map, and classification models are described. In Section "Experiment and result and discussion", experimental setup, results and comparison, and discussion on the results are presented. Finally, the paper is concluded, and some remarks on future directions are given.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Related works</head><p>Wound classification includes wound type classification, wound tissue classification, burn depth classification, etc. Wound type classification considers different types of wounds and non-wounds (normal skin, background, etc.). Background versus DFU, normal skin versus PU, and DFU versus PU are examples of binary wound type classification. In contrast, DFU versus PU versus VLU is an example of multi-class wound type classification. Wound tissue classification differentiates among different types of tissues (granulation, slough, necrosis, etc.) within a specific wound. Burn depth classification measures the depth (superficial dermal, deep dermal, fullthickness, etc.) of the burn wound. As this research focuses on wound type classification, this section discusses existing data-driven wound type classification works. Here, we present machine learning and deep learning-based wound type classification works.</p><p>A machine learning approach was proposed by Abubakar et al. <ref type="bibr" target="#b11">10</ref> to differentiate burn wounds and pressure ulcers. Features were extracted using pre-trained deep architectures like VGG-face, ResNet101, and ResNet152 from the images and then fed into an SVM classifier to classify the images into burn or pressure wound classes. The dataset used in this study included 29 pressure and 31 burn wound images obtained from the internet and a hospital, respectively. After augmentation, they had three categories: burn, pressure, and healthy skin, with 990 sample images in each class. Several experiments, including binary classification (burn or pressure) and 3-class classification (burn, pressure, and healthy skin), were conducted.</p><p>Goyal et al. <ref type="bibr" target="#b12">11</ref> used traditional machine learning, deep learning, and ensemble CNN models for binary classification of ischemia versus non-ischemia and infection versus non-infection on DFU images. The authors developed a dataset containing 1459 DFU images that two healthcare professionals labeled. For traditional machine learning, the authors used BayesNet, Random Forest, and Multilayer perceptron. Three CNN networks (InceptionV3, ResNet50, and InceptionResNetV2) were used as deep-learning approaches. The ensemble CNN contained an SVM classifier that takes the bottleneck features of three CNN networks as input. The test evaluation showed that traditional machine learning methods performed the worst, followed by deep-learning networks, while the ensemble CNN performed the best in both binary classifications. The authors reported an accuracy of 90% for ischemia classification and 73% for infection classification.</p><p>A novel CNN architecture named DFUNet was developed by Goyal et al. <ref type="bibr" target="#b13">12</ref> for binary classification of healthy skin and DFU skin. A dataset of 397 wound images was presented, and data augmentation techniques were applied to increase the number of images. The proposed DFUNet utilized the idea of concatenating the outputs of three parallel convolutional layers with different filter sizes. An accuracy of 92.5% was reported for the proposed method.</p><p>A CNN-based method was proposed by Aguirre et al. <ref type="bibr" target="#b14">13</ref> for VLU versus non-VLU classification from ulcer images. This study used a pre-trained VGG-19 network to classify the ulcer images in the two categories mentioned. First, a dataset of 300 pictures annotated by a wound specialist was proposed, and data pre-processing and augmentation were conducted before the network training. Then, the VGG-19 network was pre-trained using another dataset of dermoscopic images. The authors reported 85%, 82%, and 75% accuracy, precision, and recall.</p><p>Shenoy et al. <ref type="bibr" target="#b15">14</ref> proposed a CNN-based method for binary classification of wound images. In this study, they used a dataset of 1335 wound images collected via smartphones and the internet. The authors considered nine different labels (wound, infection (SSI), granulation tissue, fibrinous exudates, open wound, drainage, steri strips, staples, and sutures) for the dataset, where for each label, two subcategories (positive and negative) were considered. The authors used a modified VGG16 network named WoundNet as the classifier, pre-trained using the ImageNet dataset. In addition, the researchers created another network called Deepwound, an ensemble model that averaged the results of three individual models. The reported accuracy varies from 72% (drainage) to 97% (steri strips), where the accuracy for the class "wound" is 82%.</p><p>A binary patch classification of normal skin versus abnormal skin (DFU) was performed by Alzubaidi et al. <ref type="bibr" target="#b16">15</ref> with a novel deep convolutional neural network named DFU_QUTNet. First, the authors introduced a new dataset of 754-foot images from a diabetic hospital center in Iraq. From these 754 images, 542 normal skin patches and 1067 DFU patches were generated. Then, in the augmentation step, they multiplied the number of training samples by 13, using flipping, rotating, and scaling transformations. The proposed network was a deep architecture with 58 layers, including 17 convolutional layers. The performance of their proposed method was compared with those of other deep CNNs like GoogLeNet, VGG16, and AlexNet. The maximum reported F1-Score was 94.5%, obtained from combining the DFU_QUTNet architecture with SVM.</p><p>Rostami et al. <ref type="bibr" target="#b17">16</ref> proposed an end-to-end ensemble DCNN-based classifier to classify entire wound images into multiple classes, including surgical, diabetic, and venous ulcers. The output classification scores of two classifiers based on patch-wise and image-wise strategies were fed into a Multi-Layer Perceptron to provide a superior classifier. A new dataset of authentic wound images containing 538 images from four different types of wounds was introduced in this research. The reported maximum and average classification accuracy values were 96.4% and 94.28% for binary and 91.9% and 87.7% for 3-class classification.</p><p>Sarp et al. <ref type="bibr" target="#b18">17</ref> classified chronic wounds into four classes (diabetic, lymphovascular, pressure injury, and surgical) by using an explainable artificial intelligence (XIA) approach to provide transparency on the neural network. The dataset contained 8690 wound images collected from the data repository of eKare, Inc. Mirroring, rotation, and horizontal flip augmentations were used to increase the number of wound images and to balance the number of pictures in each class. Transfer learning on the VGG16 network was used as the classifier model. The authors reported an average F1 score of 0.76 as the test result. The XIA technique can provide explanation and transparency for the wound image classifier and why the model would think a particular class may be present.</p><p>Though some wound type classification works from wound images exist, to the best of our knowledge, there is no automated wound classification work based on the wound location feature. This research is the first work that incorporates wound location for automatic wound type classification and proposes a multi-modal network that uses both wound image features and location features to classify a wound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methodology</head><p>Dataset. In this research, two different datasets were used for our experiments. Our team developed one dataset called AZH Dataset, and the other was a public dataset called Medetec Dataset. We also developed a mixed dataset with the datasets mentioned above named AZHMT Dataset. A brief discussion of these datasets is given below:</p><p>where the weight varies from 358 to 560 pixels, and the height varies from 371 to 560 pixels. This external public dataset was used to perform the robustness and reliability testing of the developed model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Body map for location.</head><p>A body map is a labeled, simplified, and symbolic diagram of the entire body of the person, which should be phenotypically right <ref type="bibr" target="#b20">19</ref> . Medical practitioners use body maps to locate bruises, wounds, or body breakage on a patient's body. Moreover, forensic scientists use body diagrams to help them identify and determine body changes during a postmortem examination. Doctors use body maps to analyze the location of a given infection in patients <ref type="bibr" target="#b21">20</ref> . A detailed body map helps doctors determine which other part of the body to be cautious about during the wound's rehabilitation process. Moreover, a body map is a piece of medical evidence during a scientific study. A health practitioner can use notable body changes shown by a body map as a backup of an existing ailment affecting the patient internally.</p><p>Wound history is another benefit attributed to efficient body mapping. A doctor can collect information on the wound's cause, previous measures adopted in providing care to the wound, and underlying health complications such as diabetes that would deter the healing process. Detailed wound history needs to be collected and all causes explored to avoid delayed or static healing. Body mapping contributes to wound treatment localization significantly. Pain location, activities of daily living, and the type of wound are factors that a doctor should consider in the localization process. Wilson asserts that a wound in the heel area and a wound on the lower abdomen or joint area would not have a similar rehabilitation technique. The wound on the heel would need the doctor to consider the weight issue instead of the wound on the lower abdomen. Therefore, the doctor would need to localize their examination and the treatment process depending on the wound's location and other external factors that directly affect the wound weight and joint movement <ref type="bibr" target="#b21">20</ref> .</p><p>A body map with 484 total parts was designed to avoid the body map's complexity. The body map was prepared using PaintCode <ref type="bibr" target="#b22">21</ref> . The initial reference to the body map was obtained from <ref type="bibr" target="#b23">[22]</ref><ref type="bibr" target="#b24">[23]</ref><ref type="bibr" target="#b25">[24]</ref> . The ground truth diagram for the design is based on the Original Anatomy Mapper <ref type="bibr" target="#b26">25</ref> . Each label and outline were directly paired with the labeling provided by the anatomy mapper <ref type="bibr" target="#b26">25</ref> . To avoid the extreme complexity of drawing every detailed feature of the body map, a total of 484 feature or region was pre-selected and approved by wound professionals at the AZH wound and vascular center. The developed body map is shown in Fig. <ref type="figure" target="#fig_2">2</ref>. Here each number represents a location. A few examples of the locations and their corresponding numbers are shown in Table <ref type="table" target="#tab_0">1</ref>.</p><p>Through experiments, we observed that our number of data (images) is deficient regarding the different wound types and locations, leading to very few data points per class. To maintain the reliability of the experiment, the body map was further simplified by merging different sections of our developed body map. For example, body locations 436, 437, and 438 were combined and referenced as 436; similarly, body locations 390, 391, 392, and 393 were merged and referenced as 390, and so on. With this simplification, 161 location points were removed from our developed body map, and the total number of locations decreased from 484 to 323. This made our location classifier predict more realistic results, making the whole experiment reliable. More details are discussed in the "Selecting best experimental setup" section. Some examples of simplified body map are shown in Fig. <ref type="figure" target="#fig_3">3</ref>. Our developed original body map is discussed here because, with the increment of the number of images, we will use this body map with 484 body locations in the future. For this research, we used the simplified body map containing 323 locations.</p><p>Dataset processing. All datasets go through three significant steps: region of interest (ROI) cropping, location labeling, and data augmentation. The ROI of a wound image means the wound and some of its surrounding area (healthy skin) that contains the essential information of a wound. From each image, single or multiple ROIs were automatically cropped using our developed wound localizer <ref type="bibr" target="#b27">26</ref> . The extracted ROIs are rectangular, but their height and weight differ depending on the wound size. Then all the ROI's locations were labeled by a wound specialist at the AZH wound and vascular center. The location labeling was done by using our developed body map. As our body map represents each location with a unique number, each ROI was tagged with a location number for model training. Finally, rotation and flipping augmentations were used for each ROI to increase the data numbers. A total of five augmentations were applied to each ROI: horizontal and vertical flip, 25-degree, 45-degree, and 90-degree rotations. As wound location does not change with image augmentation, the location number was repeated for each augmented image. We also tried adding Gaussian noise and blurring augmentations which did not produce good ROIs, for which we discarded those augmentations. Figure <ref type="figure" target="#fig_4">4</ref> illustrates dataset processing steps.</p><p>From Fig. <ref type="figure" target="#fig_4">4</ref>, we can see that the augmentation is done on the extracted ROIs. If we augmented the original images, the ROI cropping step would be more expensive. As our localization model is detecting bounding boxes, 25-and 45-degree rotated images may produce some overlap between ROIs in case of multiple wounds in a single image. Also, the black areas around the augmented images are evenly distributed in all classes (as we are using 25-and 45-degree rotations in all classes), which did not produce any class dependencies during classification. Finally, the black area produced by augmentation is entirely black (RGB code of 000), which is not present in wounds or human skins.</p><p>Each dataset (ROI) was divided into 60% training, 15% validation, and 25% test sets. First, the 25% test set was created from a random selection of the wound images to ensure no overlap between training and test sets.</p><p>The validation set was also created randomly during the time of training. Next, the 75% training and validation datasets were augmented, while test images did not go through data augmentation. Two non-wound classes, named normal skin and background, were created by manually cropping corresponding ROIs from the original images. A wound specialist did the location tagging for healthy skin. As the background ROIs do not represent any location of our developed body map, each ROI is tagged with a location number '-1' . Table <ref type="table" target="#tab_1">2</ref> shows the number of images of all three datasets. All the six classes, diabetic, venous, arterial + venous, pressure, surgical, background, and normal skin, are represented with the following abbreviations D, V, A + V, P, S, BG, and N, respectively.</p><p>Model. We see that our dataset contains both image and categorical (wound location) data from the above discussion. We used Keras Functional API <ref type="bibr" target="#b28">27</ref> to develop a network that can handle multiple inputs and mixed data. The Functional API is more flexible than the Sequential API, which can control models with non-linear topology, shared layers, and even multiple inputs or outputs. Considering a deep learning model as a directed acyclic graph (DAG) of layers, the functional API is a way to build graphs of layers.</p><p>Figure <ref type="figure" target="#fig_5">5</ref> shows the architecture of our wound-type classification network. Two separate neural networks for each data type were used to work with both image and location data. These networks were then considered input branches, and their outputs were combined into a final neural network. We address the image network as Wound Image Classifier (WIC) network, the location network as Wound Location Classifier (WLC) network, and the combined network as Wound Multimodality Classifier (WMC) network. The output of this WMC network is the probability of the wound class.</p><p>It is imperative for the multi-modal network (WMC) to arrange the data in the correct order. The output for the image and location data must be consistent, so the final combined (WMC) neural network must be fed with the right ordered data simultaneously. For example, to train the WMC network properly, we gave the output of the WIC network for the 148th DFU image and the output of the WLC network for the 148th DFU wound's location   wound's location as input at the same time, which will lead to a wrong classification. This arrangement was taken care of by giving each ROI a unique index number and tagging the corresponding location to that index number.</p><p>Wound image classifier (WIC) network. The wound image classifier (WIC) network was built upon transfer learning, except the AlexNet <ref type="bibr" target="#b29">28</ref> . Transfer learning means taking advantage of features learned on one problem and using them in another similar situation. This method is proper when the dataset in hand is small in number to train a full-scale model from scratch, and the memory power is limited to train a vast deep learning model. The most commonly used workflow of transfer learning is: (1) take a previously trained model's layers, (2) freeze the layers, (3) add some new, trainable layers on top of the frozen layers, which will learn to turn the old features into predictions on a new dataset, and (4) train the new layers on the new dataset <ref type="bibr" target="#b30">29</ref> . There are 26 deep learning models in Keras Applications <ref type="bibr" target="#b31">30</ref> , among which we chose four top-rated classification models: VGG16 31 , VGG19 32 , ResNet50 33 , and InceptionV3 34 ; and took their previously trained layers to apply transfer learning. All the layers, except the top layer, were frozen for all these four models, and three Dense layers with dropout layers were added (Fig. <ref type="figure" target="#fig_5">5</ref>, top WIC box) for training on our wound datasets. All three Dense layers contain 512 trainable neurons, with all having the ReLU activation. The AlexNet 28 was implemented following the original architecture. The output layer was added with either softmax or sigmoid layer for multi-class or binary-class classification for all the models, respectively.</p><p>Wound location classifier (WLC) network. The wound location classifier (WLC) network can classify wound locations using either a Multi-Layer Perceptron (MLP) or Long Short-Term Memory (LSTM) network. As the location data is categorical, we used one-hot encoding to represent the data, representing each input to the WLC network as a one-hot vector. The WLC network handles only one categorical data (location), for which the  architecture of the network was kept simple. With a deeper network, the accuracy did not improve (sometimes decreases), and resources (time and memory) became expensive. The MLP network contains nine Dense layers, all having the ReLU activation. The first three layers contain 128 neurons, the following three layers contain 256 neurons, and the last three layers contain 512 neurons (Fig. <ref type="figure" target="#fig_5">5</ref>, middle MLP box). The LSTM contains four LSTM layers, followed by a Dense layer, with all having the ReLU activation. The first two layers contain 32 neurons, followed by two LSTM layers having 64 neurons each, and finally, the Dense layer contains 512 neurons (Fig. <ref type="figure" target="#fig_5">5</ref>, bottom LSTM box). The output layer was added with either softmax or sigmoid layer for multi-class or binaryclass classification for all the models, respectively.</p><p>Wound multimodality classifier (WMC) network. As discussed earlier, the Wound Multimodality Classifier (WMC) network was designed using Keras Functional API <ref type="bibr" target="#b28">27</ref> , which can predict the wound classes based on both wound image and location information. At first, the image data went through the WIC network, the location data went through the WLC network, and the outputs of the networks were concatenated. Then, two Dense layers were added after concatenation to learn from the merged features. These Dense layers contain 512 and 256 neurons, respectively. Finally, the output layer was added with either a softmax or sigmoid layer for multi-class or binary-class classification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment and result and discussion</head><p>Experimental setup. All the models were written in Python programming language using the Keras deep learning framework and trained on an Nvidia GeForce RTX 2080Ti GPU platform. All models were trained for 250 epochs with a batch size of 25, a learning rate of 0.001, and an Adam optimizer. Two callbacks were used with the best validation accuracy and the best combination of validation and training accuracy saving. For multi-class and binary class classification, sparse_categorical_crossentropy and binary_crossentropy loss functions are used, respectively.</p><p>To investigate the classification performance, we used accuracy as the performance metric. Accuracy is the ratio of correctly predicted data to the total amount of data. To evaluate binary classifications, we used precision, recall, and f1-score as performance metrics as well. Equations ( <ref type="formula">1</ref>) to (4) show the related formulae for these evaluation metrics. In these equations, TP, TN, FP, and FN, represent True Positive, True Negative, False Positive, and False Negative measures. More details about these equations can be found in <ref type="bibr" target="#b36">35</ref> .</p><p>Results. Selecting best experimental setup. Four wound class classification (D vs. P vs. S vs. V) on the AZH dataset was chosen to select the best combinations for the WMC network. This classification was the most challenging classification task, as there were no normal skin (N) or background (BG) images in the experiment. This experiment was done with our originally developed body map, which contains 484 locations. Table <ref type="table" target="#tab_4">3</ref> shows the results of this experiment. We also present the results on the original dataset (without any augmentation) for this experiment to show the effect (improvement) of data augmentation. The performances of MLP and LSTM were similar on the WLC network, and the VGG16 and VGG19 performed best on the WIC network. Their combinations: VGG16 + MLP, VGG19 + MLP, VGG16 + LSTM, and VGG19 + LSTM, also worked best for the WMC network. The performance of AlexNet + MLP, AlexNet + LSTM, ResNet50 + MLP, and ResNet50 + LSTM were very poor. The InceptionV3 + MLP and InceptionV3 + LSTM performances were also not good enough to apply to all the experiments. Running all these combinations for many experiments was also expensive (both with time and memory). So, from these results, we applied the best four combinations (VGG16 + MLP, VGG19 + MLP, VGG16 + LSTM, and VGG19 + LSTM) for all the remaining experimental setups.</p><p>The same four wound-class classification (D vs. P vs. S vs. V) on the AZH dataset was done with the simplified body map, which contains 323 locations. Table <ref type="table" target="#tab_5">4</ref> shows the comparison of this experiment's result with the previous result (shown in Table <ref type="table" target="#tab_4">3</ref>). The image classifier (WIC) has no effect on the change in the body map, for which it was excluded from Table <ref type="table" target="#tab_5">4</ref>. With improved accuracy in all models, we used the simplified body map for all the remaining experiments. We also tried giving the one hot vector (OHV) directly to the dense layer of the CNN, but it produced poor results than passing it through the MLP or LSTM (VGG16 + OHV and VGG19 + OHV in Table <ref type="table" target="#tab_5">4</ref>). Also, we want to see the comparison between image-based, location-based, and multimodality classifications; if we use the one hot vector directly, then we do not have any location classifier (WIC) to make the comparison. For this reason, OHV was not directly combined with CNN layers for the rest of the experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment on AZH dataset.</head><p>A classification between all the classes was performed on the AZH dataset. Table <ref type="table" target="#tab_6">5</ref> shows the results of this six-class classification (BG vs. N vs. D vs. P vs. S vs. V). We achieved the highest accuracy of 82.48% with the multi-modal (WMC) network using the VGG19 + MLP combination, where the highest accuracies reached from WLC and WIC networks are 67.52% and 75.64% using LSTM and VGG16 networks, respectively.</p><p>Four five-class classifications were performed on the AZH dataset. The classifications were (1) BG vs. N vs. D vs. P vs. V, (2) BG vs. N vs. D vs. S vs. V, (3) BG vs. N vs. D vs. P vs. S, and (4) BG vs. N vs. P vs. S vs. V. We achieved the highest accuracy of 86.46%, 91.00%, 83.14%, and 86.17% for classification number (1), ( <ref type="formula">2</ref>), (3), and (4), respectively. In all four classifications, the highest accuracy was achieved with the multi-modal (WMC) networks. Table <ref type="table" target="#tab_7">6</ref> shows the detailed results of these classifications.</p><p>Six four-class classifications were performed on the AZH dataset, along with one wound class classification (shown in Tables <ref type="table" target="#tab_4">3</ref> and<ref type="table" target="#tab_5">4</ref>). The classifications were: (1) BG vs. N vs. D vs. V, (2) BG vs. N vs. P vs. V, (3) BG vs. N vs. S vs. V, (4) BG vs. N vs. D vs. P, (5) BG vs. N vs. D vs. S, and (6) BG vs. N vs. P vs. S. We achieved the highest accuracy of 95.57%, 92.47%, 94.16%, 89.23%, 91.30%, and 85.71% for classification number (1), ( <ref type="formula">2</ref>), ( <ref type="formula">3</ref>), ( <ref type="formula">4</ref>), (5), and (6), respectively. In all six classifications, the highest accuracy was achieved with the multi-modal (WMC) networks. Table <ref type="table" target="#tab_8">7</ref> shows the detailed results of these classifications. Four three-wound-class classifications were performed on the AZH dataset. The classifications were (1) D vs. S vs. V, (2) P vs. S vs. V, (3) D vs. P vs. S, and (4) D vs. P vs. V. We achieved the highest accuracy of 92.00%, 85.51%, 72.95%, and 84.51% for classification number (1), ( <ref type="formula">2</ref>), (3), and (4), respectively. In all four wound-class classifications, the highest accuracy was achieved with the multi-modal (WMC) networks. Table <ref type="table" target="#tab_10">8</ref> shows the detailed results of these classifications.</p><p>Ten binary classifications were performed on the AZH dataset. The classifications were: (1) N vs. D, (2) N vs. P, (3) N vs. S, (4) N vs. V, (5) D vs. P, (6) D vs. S, (7) D vs. V, (8) P vs. S, (9) P vs. V, and (10) S vs. V. We achieved highest accuracy of 100%, 98.31%, 98.51%, 100%, 85.00%, 89.77%, 94.44%, 89.47%, 90.63%, and 97.12% for classification number (1), ( <ref type="formula">2</ref>), ( <ref type="formula">3</ref>), ( <ref type="formula">4</ref>), ( <ref type="formula">5</ref>), ( <ref type="formula">6</ref>), ( <ref type="formula">7</ref>), ( <ref type="formula">8</ref>), (9), and (10), respectively. In all binary classifications, the highest accuracy was achieved with the multi-modal (WMC) networks. Table <ref type="table" target="#tab_11">9</ref> shows the detailed results of these binary classifications. The precision, recall, and f1-score for all the best models (according to accuracy) are also calculated and shown in Table <ref type="table" target="#tab_12">10</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment on Medetec dataset.</head><p>A classification between all the classes was performed on the Medetec dataset. Table <ref type="table" target="#tab_13">11</ref> shows the results of this three-wound-class classification (D vs. P vs. A + V). We achieved the highest accuracy of 86.67% with the multi-modal (WMC) network using the VGG19 + MLP and VGG19 + LSTM com-   Experiment on AZHMT dataset. A classification between all the classes was performed on the AZHMT dataset. Table <ref type="table" target="#tab_14">12</ref> shows the results of this six-class classification (BG vs. N vs. D vs. P vs. S vs. A + V). We achieved the highest accuracy of 83.04% with the multi-modal (WMC) network using the VGG19 + LSTM combination. The highest accuracy achieved from WLC and WIC networks was 71.30% and 72.22% using LSTM and VGG19 networks, respectively. A four-wound-class classification was performed on the AZHMT dataset. The classification was done among the D, P, S, and A + V classes. We achieved the highest accuracy of 84.31% with the multi-modal (WMC) network using the VGG19 + MLP combination. The highest accuracy achieved from WLC and WIC networks was 78.83% and 68.61% using LSTM and VGG16 networks, respectively. Table <ref type="table" target="#tab_15">13</ref> shows the detailed results of this four-wound-class classification. Cross-validation on AZH dataset. Several cross-validation (CV) experiments were performed on the AZH dataset to prove the reliability of this study. fivefold cross-validations were performed using sklearn's Strati-fiedKFold method with shuffle set to 'True' . The most challenging tasks from all classifications performed on the AZH dataset were chosen for this CV experiment. For example, one of the selected experiments was the D vs. P ulcer classification, which had the lowest accuracy among all binary classifications (Table <ref type="table" target="#tab_11">9</ref>). Also, WMC models with the best performance and their corresponding WIC and WLC models were chosen only due to time and memory limitations. Finally, we performed external validation on the Medetec dataset. From Table <ref type="table" target="#tab_1">2</ref>, the only common classes between AZH and Medetec datasets are D and P; and as we do not have any other public wound dataset available, only this experiment (D vs. P) was chosen for external validation. For result comparison, we also performed this external validation on the best model we generated using the holdout test set experiment. Table <ref type="table" target="#tab_16">14</ref> shows the detailed results of all cross-validation experiments.  <ref type="bibr" target="#b17">16</ref> 's dataset is most similar to the work presented in this manuscript. Alongside <ref type="bibr" target="#b17">16</ref> , the classifications performed in <ref type="bibr" target="#b13">12,</ref><ref type="bibr" target="#b14">13</ref> , and <ref type="bibr" target="#b16">15</ref> have the classes that are present in our dataset. A detailed comparison between previous works and our current work is shown in Table <ref type="table" target="#tab_17">15</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Classifications BG-N-D-P-V BG-N-D-S-V BG-N-D-P-S BG-N-P-S-V</head><note type="other">Input</note></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Classifications BG-N-D-V BG-N-P-V BG-N-S-V BG-N-D-P BG-N-D-S BG-N-P-S</head><note type="other">Input</note></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Result comparison with previous works.</head><p>The reasons why other related works were not considered in this comparison are <ref type="bibr" target="#b11">10</ref> : performs burn vs. pressure ulcer classification, and our datasets do not contain any burn images <ref type="bibr" target="#b12">11</ref> ; performs binary classification of ischemia vs. non-ischemia and infection vs. non-infection on DFU images, which is not compatible with our datasets <ref type="bibr" target="#b15">14</ref> ; performs binary classifications between such kind of wounds (wound, infection (SSI), granulation tissue, etc.), which are not present in our datasets; and 17 performs multi-class wound classifications among diabetic, lymphovascular, pressure injury, and surgical wounds and our datasets do not contain the lymphovascular wound type.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In all the experiments performed in this manuscript, there were two types of classifications: (1) mixed-class classifications (e.g., three-class classification, five-class classification, etc.), and (2) wound-class classifications (e.g., four wound-class classifications, three wound-class classifications, etc.). The wound-class classification did not contain any non-wound classes (i.e., normal skin and background), and they were more challenging to classify than the mixed-class classification. This section will discuss the classification's performances, comparison with state-of-the-art results, limitations, and how to overcome them.</p><p>Performance analysis and the power of multimodality. On the AZH dataset, for mixed-class classifications, we performed one six-class, four five-class, six four-class, and four binary classifications; and for wound-class classifications, we performed one four-wound-class, four three-wound-class, and six binary classifications. From Tables 5, 6, 7, 8, and 9, the same consistency of the model performances is observed, where the best to worst results were achieved by WMC, WIC, and WLC classifiers, respectively. Though a single model of WLC or WIC or a single combination of WMC did not always produce the best performance, the WMC classifier always performed the best in comparison to the WIC or WLC classifiers. The same pattern can also be seen in the wound class classifications. Also, in most cases, when using only location data, we got lower accuracy for the wound classification (Tables <ref type="table" target="#tab_6">5,</ref><ref type="table" target="#tab_7">6</ref>, 7, 9) compared to using only image data, which indicates that the data is not location-dependent.</p><p>The performance comparison of mixed-class classifications among the best models from each category (location, image, and multimodality) is shown in Fig. <ref type="figure" target="#fig_7">6</ref>. The performance comparison among the best models of wound-class classifications from each category (location, image, and multimodality) is shown in Fig. <ref type="figure" target="#fig_8">7</ref>. From Fig. <ref type="figure" target="#fig_7">6</ref>, the lowest accuracy was produced by BGNDPS (83.14%), and from Fig. <ref type="figure" target="#fig_8">7</ref>, the most insufficient accuracy was produced by DPS (72.95%). So, separating diabetic, pressure, and the surgical wound was the hardest, according to our experiments. Also, from Fig. <ref type="figure" target="#fig_8">7</ref>, among all binary classifications, D vs. P had the lowest accuracy of 85%. So, we can say that differentiation between diabetic and pressure wounds was the most complicated task. From Fig. <ref type="figure" target="#fig_7">6</ref>, the highest accuracy was achieved by ND, NP, NS, and NV classifications with 100%, 98.31%, 98.51%, and 100%, respectively. Also, from Fig. <ref type="figure" target="#fig_8">7</ref>, the highest accuracy was achieved by SV classification with 97.12% accuracy. So, differentiating between normal skin and other wound types (D, V, S, and P) and differentiating between surgical wounds and venous leg ulcers were the most straightforward classifications task for our developed WMC classifier. Finally, from Figs. <ref type="figure" target="#fig_7">6</ref> and<ref type="figure" target="#fig_8">7</ref>, we can see that multimodality using wound image and location (WMC) performed best in comparison with single (image or location) modality (WLC or WIC) in all scenarios on the AZH dataset; and mixed-class classification results are comparatively higher than wound-class classification results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Robustness testing.</head><p>To evaluate the robustness of our developed WMC classifier, we performed an experiment on a publicly available dataset named Medetec Dataset, which has a completely different data collection and distribution than our collected and developed AZH Dataset. On this dataset, we performed only one woundtype classification among all three classes (D, P, and A + V). The highest accuracies achieved by WLC, WIC, and WMC classifiers were 85.56%, 82.22%, and 86.67%, respectively. So, clearly, the highest accuracy was achieved by the WMC classifier, which proves that the WMC works well on different datasets with separate distributions.</p><p>The effect of bigger dataset. We developed a mixed and bigger dataset named AZHMT to test the effect of adding more data points to our model performance. AZHMT is a mixed dataset containing wound image and location data from AZH and Medetec datasets. On the AZHMT dataset, we performed one six-mixed-class classification (BG-N-D-P-S-A + V) and one four-wound-class classification (D-P-S-A + V). Comparing these results of AZH and AZHMT datasets, we see that with the AZHMT dataset, we achieved higher accuracy than the AZH dataset. A comparison between the highest results (accuracy) of AZH and AZHMT datasets is shown in Fig. <ref type="figure" target="#fig_9">8</ref>. Both the results are from the multi-modal network (WMC), as it outperformed all the single modal (WIC and WLC) networks. For the six-class classification, the AZHMT dataset has 0.56% more accuracy than the AZH dataset. For the four-wound-class classification, the AZHMT dataset has 2.79% more accuracy than the AZH dataset. Here, AZHMT contains more data than the AZH dataset, which is an advantage for training deep learning models; but AZHMT also contains mixed data from two sources, which makes the dataset more challenging to classify; AZHMT also contains mixed data on a single class (arterial and venous ulcer combination), which may also impact the results. Regardless of some disadvantages of the mixed dataset, this comparison proves that increasing data points improve the model performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cross-validation results analysis.</head><p>From Table <ref type="table" target="#tab_16">14</ref>, we achieved better results for specific folds compared to the holdout test data in 5, 4, and 3 class classifications. For 6 class and binary classifications, we got poor results in all fold performances. In average accuracy among all folds, except for 3 class classification, we had less accuracy for all other classifications. For specific folds, the accuracy got down by 1.83% and 3.75% for 6 class (BG vs. N vs. D vs. P vs. S vs. V) and 2 class (D vs. P) classifications, whereas the accuracy went up by 0.07%, 1.36%, and 5.18% for 5 class (BG vs. N vs. D vs. P vs. S), 4 class (D vs. P vs. S vs. V), and 3 class (D vs. P vs. S) classifications.</p><p>For average cross-validation results, the accuracy went up by 0.97% for the 3 class classification; in contrast, the   The comparison results discussed above show that the overall performance is down for the most complicated tasks using cross-validation. But considering the percentage decrement or increment, our developed model worked well considering the challenging factors of cross-validation. In cross-validation, there is no validation data to tune our model with compared to the holdout test method with a validation set. Also, cross-validation with a small number of samples is problematic as, for some folds, the training data may not contain enough diverse samples to train on, which was also reflected in the fold-wise accuracy variance. Nevertheless, we achieved good results for external validation considering the data difference among the AZH and Medetec datasets.</p><p>Finally, still with cross-validation on our hardest classifications, the WMC classifier outperforms the WIC and WLC classifiers, which again proves the power of multimodality and our developed WMC model. On the other hand, this cross-validation experiment shows the importance of having more data to build more robust and reliable deep learning models.</p><p>Comparison with previous works. From Table <ref type="table" target="#tab_17">15</ref>, we can see that our work outperformed all the previous works by a good margin. As mentioned earlier, this comparison is not perfect as factors like dataset, model, training-validation-testing split, balance ness of the dataset, resources used for training, etc., are not the same as the previous works. But this comparison proves that multimodality using wound image and location can improve the wound classification results. We achieved a 7.5% improvement in accuracy for classifying Healthy Skin Vs. DFU Skin (N Vs. D) from Goyal et al. 's work <ref type="bibr" target="#b13">12</ref> on our AZH dataset. Compared to Aguirre et al. 's work <ref type="bibr" target="#b14">13</ref> of classifying VLU versus non-VLU (V vs. [N or D or P or S]) wounds, we achieved a significant 5.63% to 15% improvement in accuracy with the AZH dataset. In this experiment, we improved 5.63% for VLU vs. PU, 9.44% for VLU vs. DFU, 12.12% for VLU vs. Surgical, and 15% for VLU vs. Normal skin. Our developed classifier outperformed Alzubaidi et al. 's work <ref type="bibr" target="#b16">15</ref> on Normal Skin Vs. Abnormal (DFU) Skin (N vs. D) classification with 5.5% improvement in F1-score for the AZH experiment. Finally, compared to our previous work <ref type="bibr" target="#b17">16</ref> , there are 13 similar experiments in our present work. We achieved a significant improvement with the multi-modal WMC network in all these experiments. In these 13 experiments, the accuracy improvement using WMC classifier from our previous work are: (1) 0.72% improvement in SV classification, (2) 0.1% improvement in DSV classification, (3) 6.16% improvement in BGNDV classification, (4) 5.9% improvement in BGNPV classification, (5) 1.96% improvement in BGNSV classification, (6) 8.94% improvement in BGNDP classification, (7) 0.32% improvement in BGNDS classification, (8) 1.59% improvement in BGNPS classification, (9) 4.7% improvement in BGNDPV classification, (10) 6.06% improvement in BGNDSV classification, (11) 1.65% improvement in BGNDPS classification, (12) 2.64% improvement in BGNPSV classification, and (13) 13.79% improvement in BGNDPSV classification. Both of these works have some pros and cons: in our previous work, we had a balanced dataset (all classes had the same no of images), where the current work has an unbalanced dataset (  Limitations and scope of improvement. In Fig. <ref type="figure" target="#fig_7">6</ref>, the WLC network's performance is very poor compared to the WIC and WMC network. One important reason is that there were some overlaps among the normal (healthy) skin and other wound classes, as the normal skin is cropped from the wound images. In one patient's wound image, a non-infected (normal) skin can be infected in another patient's wound image, which produces these overlaps and thus decreases the WLC performance. Figure <ref type="figure" target="#fig_8">7</ref> shows that the WLC network's performance was better than the WIC network as there is no normal skin (N) class in these classifications. The WLC network performance can be improved by increasing the number of data points, which can help increase the WMC network's performance in the long run. Figure <ref type="figure" target="#fig_10">9</ref> shows some examples of location overlapping among different classes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>This paper developed a multi-modal wound classifier (WMC) network using wound images and their corresponding locations to classify wounds into different classes. To the best of our knowledge, it is the first developed multi-modal network that uses images and locations for wound classification. This research is also the first work that classifies wounds according to their locations. We also developed a body map to help clinicians document the wound locations in the patient's record to prepare the location data. The developed body map is currently used in the AZH wound center for location tagging to avoid inconsistency with location information. Three datasets with wound images and their corresponding locations were also developed and labeled by wound specialists of AZH wound center to perform many wound classification experiments. The multi-modal (WMC) network was created in the concatenation of two networks: wound image classifier (WIC) and wound location classifier (WMC). Developing the WIC network transfer learning was used with top-rated deep learning models. The WLC network was also developed using deep learning models that are popular for controlling categorical data. A large number of experiments with a range of binary to six-class classifications were performed in three datasets, where many wound classifications were never performed before, to the best of our knowledge. The results produced by the WMC network were much better than the results produced from the WIC or WLC networks, and these results beat all the previous experimental results. In future experiments, the performance of the WMC network can be improved further by using more specific WIC and WLC networks for wound image classifications and wound location classifications, respectively. There are some overlaps in the wound location data, for which the WLC network produced lower accuracy compared to WIC and WMC networks. Increasing the number of data can improve the location (WLC) classifier. We are planning to add more modalities (pain, palpation findings, general findings, area, volume, age, sex, BMI, etc.) in our future works. Overall, the developed WMC classifier can significantly speed up the automation of wound healing systems in the near future.</p><p>Deep learning-based wound care algorithms can improve patient outcomes with higher efficiency and lower costs. Accurate classification of wound types can help clinicians diagnose wound problems more quickly and find proper treatment plans. AI wound analysis equipped with mobile devices would reduce the burden of wound care </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Self-Advised Support Vector Machine (SA-SVM), Convolutional Recurrent Neural Network (CRNN), DBN, Stacked Denoising Autoencoders (SDAE), Undirected Graph Recursive Neural Networks (UGRNN), U-NET, and Class Structure-Based Deep Convolutional Neural Network (CSDCNN) as deep learning methods in the field of medical diagnosis.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Workflow of this research.</figDesc><graphic coords="2,155.91,50.50,231.00,107.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Body map for location selection.</figDesc><graphic coords="5,93.61,50.50,460.56,593.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Body map simplification.</figDesc><graphic coords="6,73.69,200.71,480.48,288.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Dataset processing steps.</figDesc><graphic coords="7,110.53,50.50,443.64,593.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Wound multimodality classifier (WMC) network architecture.</figDesc><graphic coords="8,130.33,225.71,423.84,250.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>https://doi.org/10.1038/s41598-022-21813-0 www.nature.com/scientificreports/</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Performance comparison of mixed-class classification among the best models from each category (location-WLC, image-WIC, and multimodality-WMC) on AZH dataset.</figDesc><graphic coords="16,130.33,50.50,423.84,310.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Performance comparison of wound-class classification among the best models from each category (location-WLC, image-WIC, and multimodality-WMC) on AZH dataset.</figDesc><graphic coords="16,130.33,413.21,423.84,304.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Comparison between the highest results (accuracy) of AZH and AZHMT datasets.</figDesc><graphic coords="17,155.91,50.50,360.00,263.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Examples of location overlaps on AZHMT dataset.</figDesc><graphic coords="18,130.33,50.50,423.84,243.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Examples of locations and their corresponding mapping.</figDesc><table><row><cell>Left hand front</cell><cell></cell><cell>Right leg bottom</cell><cell></cell><cell>Buttock</cell><cell></cell></row><row><cell>Location</cell><cell cols="2">Reference number Location</cell><cell cols="2">Reference number Location</cell><cell>Reference number</cell></row><row><cell>Left dorsal wrist</cell><cell>152</cell><cell>Right distal plantar first toe</cell><cell>217</cell><cell>Left posterior lower back</cell><cell>305</cell></row><row><cell>Left proximal lateral dorsal hand</cell><cell>153</cell><cell>Right proximal plantar first toe</cell><cell>226</cell><cell>Superior gluteal</cell><cell>311</cell></row><row><cell>Left proximal medial dorsal hand</cell><cell>154</cell><cell>Right distal lateral mid plantar foot</cell><cell>232</cell><cell>Inferior gluteal</cell><cell>312</cell></row><row><cell>Left distal phlanax of dorsal little finger</cell><cell>184</cell><cell>Right medial heel</cell><cell>237</cell><cell>Left gluteal fold</cell><cell>320</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Description of all datasets.</figDesc><table><row><cell>Dataset</cell><cell>AZH</cell><cell>Medetec</cell><cell>AZHMT</cell></row><row><cell>Class</cell><cell>Training +</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>validation Test Total Training + validation Test Total Training + validation Test Total</head><label></label><figDesc></figDesc><table><row><cell cols="2">Background (BG) 450</cell><cell>25</cell><cell>475</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>450</cell><cell>25</cell><cell>475</cell></row><row><cell cols="2">Normal Skin (N) 450</cell><cell>25</cell><cell>475</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>450</cell><cell>25</cell><cell>475</cell></row><row><cell>Diabetic (D)</cell><cell>834</cell><cell>46</cell><cell>880</cell><cell>330</cell><cell>19</cell><cell>349</cell><cell>1164</cell><cell>65</cell><cell>1229</cell></row><row><cell>Pressure (P)</cell><cell>600</cell><cell>34</cell><cell>634</cell><cell>822</cell><cell>46</cell><cell>868</cell><cell>1422</cell><cell>80</cell><cell>1502</cell></row><row><cell>Surgical (S)</cell><cell>732</cell><cell>42</cell><cell>774</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>732</cell><cell>42</cell><cell>774</cell></row><row><cell>Venous (V)</cell><cell>1110</cell><cell>62</cell><cell>1172</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell>Arterial + Venous (A + V)</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>456</cell><cell>25</cell><cell>481</cell><cell>1566</cell><cell>87</cell><cell>1653</cell></row><row><cell>Total</cell><cell>4176</cell><cell>234</cell><cell>4410</cell><cell>1608</cell><cell>90</cell><cell>1698</cell><cell>5784</cell><cell>324</cell><cell>6108</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>Lots of experiments were performed with different setups. Classification between D vs. V, D vs. S, N vs. D, etc. are some examples of binary classification, and D vs. P vs. S, BG vs. N vs. S vs. V, BG vs. N vs. D vs. P vs. S vs. V, etc. are some examples of multi-class classification. In the WMC network, all combinations of the WIC and WLC networks (AlexNet + MLP, AlexNet + LSTM, ResNet50 + MLP, VGG16 + LSTM, etc.) were applied for the four wound class classification (D vs. P vs. S vs. V) on the AZH dataset. Based on the results (discussed later), the best two combinations were applied for the other multi-modal classifications.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3 .</head><label>3</label><figDesc>Four wound class classification (D vs. P vs. S vs. V) on AZH dataset with original body map. The bold represents the highest results/accuracy achieved for each experiment.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Original dataset Augmented dataset</cell></row><row><cell>Input</cell><cell>Model</cell><cell>Accuracy (%)</cell><cell>Accuracy (%)</cell></row><row><cell>Location</cell><cell>MLP LSTM</cell><cell>66.30 66.85</cell><cell>71.74 72.28</cell></row><row><cell></cell><cell>AlexNet</cell><cell>35.33</cell><cell>37.50</cell></row><row><cell></cell><cell>VGG16</cell><cell>65.76</cell><cell>71.73</cell></row><row><cell>Image</cell><cell>VGG19</cell><cell>56.52</cell><cell>63.04</cell></row><row><cell></cell><cell>InceptionV3</cell><cell>51.09</cell><cell>56.52</cell></row><row><cell></cell><cell>ResNet50</cell><cell>33.70</cell><cell>33.70</cell></row><row><cell></cell><cell>AlexNet + MLP</cell><cell>55.43</cell><cell>61.41</cell></row><row><cell></cell><cell>VGG16 + MLP</cell><cell>77.17</cell><cell>78.</cell></row><row><cell></cell><cell>VGG19 + MLP</cell><cell>62.50</cell><cell>72.28</cell></row><row><cell></cell><cell>InceptionV3 + MLP</cell><cell>61.41</cell><cell>70.11</cell></row><row><cell>Image + location</cell><cell>ResNet50 + MLP AlexNet + LSTM</cell><cell>63.04 58.15</cell><cell>66.85 66.85</cell></row><row><cell></cell><cell>VGG16 + LSTM</cell><cell>72.83</cell><cell>79.35</cell></row><row><cell></cell><cell>VGG19 + LSTM</cell><cell>71.20</cell><cell>76.63</cell></row><row><cell></cell><cell cols="2">InceptionV3 + LSTM 64.67</cell><cell>69.02</cell></row><row><cell></cell><cell>ResNet50 + LSTM</cell><cell>33.70</cell><cell>34.79</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 4 .</head><label>4</label><figDesc>Four wound class classification (D vs. P vs. S vs. V) on AZH dataset with simplified body map. The bold represents the highest results/accuracy achieved for each experiment.</figDesc><table><row><cell>Location</cell><cell>MLP LSTM</cell><cell>71.74 72.28</cell><cell>74.46 73.37</cell></row><row><cell></cell><cell>VGG16 + OHV</cell><cell>N/A</cell><cell>77.72</cell></row><row><cell></cell><cell>VGG19 + OHV</cell><cell>N/A</cell><cell>73.91</cell></row><row><cell>Image + location</cell><cell>VGG16 + MLP VGG19 + MLP</cell><cell>78.26 72.28</cell><cell>81.52 78.80</cell></row><row><cell></cell><cell cols="2">VGG16 + LSTM 79.35</cell><cell>80.43</cell></row><row><cell></cell><cell cols="2">VGG19 + LSTM 76.63</cell><cell>79.89</cell></row></table><note><p><p><p>Input</p>Model</p>Accuracy with original body map (%) Accuracy with simplified body map (%)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 5 .</head><label>5</label><figDesc>Six-class classification (BG vs. N vs. D vs. P vs. S vs. V) on AZH dataset. The bold represents the highest results/accuracy achieved for each experiment.</figDesc><table><row><cell>Input</cell><cell>Model</cell><cell>Accuracy (%)</cell></row><row><cell>Location</cell><cell>MLP LSTM</cell><cell>64.96 67.52</cell></row><row><cell>Image</cell><cell>VGG16 VGG19</cell><cell>75.64 64.96</cell></row><row><cell></cell><cell>VGG16 + MLP</cell><cell>79.49</cell></row><row><cell>Image + location</cell><cell cols="2">VGG19 + MLP VGG16 + LSTM 79.91 82.48</cell></row><row><cell></cell><cell cols="2">VGG19 + LSTM 72.22</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 6 .</head><label>6</label><figDesc>Four five-class classifications on AZH dataset. The bold represents the highest results/accuracy achieved for each experiment.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 7 .</head><label>7</label><figDesc>Six four-class classifications on AZH dataset. The bold represents the highest results/accuracy achieved for each experiment.</figDesc><table><row><cell></cell><cell>Model</cell><cell>Accuracy (%)</cell><cell>Accuracy (%)</cell><cell>Accuracy (%)</cell><cell>Accuracy (%)</cell></row><row><cell>Location</cell><cell>MLP LSTM</cell><cell>67.71 68.75</cell><cell>75.00 72.00</cell><cell>59.30 59.30</cell><cell>69.68 71.81</cell></row><row><cell>Image</cell><cell>VGG16 VGG19</cell><cell>69.79 76.56</cell><cell>70.50 74.50</cell><cell>64.53 67.44</cell><cell>75.53 72.34</cell></row><row><cell></cell><cell>VGG16 + MLP</cell><cell>86.46</cell><cell>85.00</cell><cell>83.14</cell><cell>84.04</cell></row><row><cell>Image + location</cell><cell cols="2">VGG19 + MLP VGG16 + LSTM 84.38 85.42</cell><cell>86.50 91.00</cell><cell>77.33 77.33</cell><cell>86.17 77.13</cell></row><row><cell></cell><cell cols="2">VGG19 + LSTM 78.65</cell><cell>89.50</cell><cell>73.26</cell><cell>75.00</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>Table 8 .</head><label>8</label><figDesc>Four three-wound-class classifications on AZH dataset. The bold represents the highest results/ accuracy achieved for each experiment.</figDesc><table><row><cell>Classifications</cell><cell></cell><cell>D-S-V</cell><cell>P-S-V</cell><cell>D-P-S</cell><cell>D-P-V</cell></row><row><cell>Input</cell><cell>Model</cell><cell cols="4">Accuracy Accuracy Accuracy Accuracy</cell></row><row><cell>Location</cell><cell>MLP LSTM</cell><cell>81.33 82.00</cell><cell>82.61 80.43</cell><cell>65.57 68.85</cell><cell>78.87 78.87</cell></row><row><cell>Image</cell><cell>VGG16 VGG19</cell><cell>74.67 76.00</cell><cell>68.12 70.23</cell><cell>61.48 58.20</cell><cell>76.06 68.31</cell></row><row><cell></cell><cell>VGG16 + MLP</cell><cell>85.33</cell><cell>85.51</cell><cell>70.49</cell><cell>80.28</cell></row><row><cell>Image + location</cell><cell cols="2">VGG19 + MLP VGG16 + LSTM 80.67 92.00</cell><cell>82.61 81.88</cell><cell>71.31 72.95</cell><cell>84.51 83.10</cell></row><row><cell></cell><cell cols="2">VGG19 + LSTM 87.33</cell><cell>68.12</cell><cell>67.21</cell><cell>84.51</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head>Table 9 .</head><label>9</label><figDesc>Accuracy of ten binary classifications on AZH dataset. The bold represents the highest results/ accuracy achieved for each experiment.</figDesc><table><row><cell>Classifications</cell><cell></cell><cell cols="2">N-D N-P</cell><cell>N-S</cell><cell>N-V</cell><cell>D-P</cell><cell>D-S</cell><cell>D-V</cell><cell>P-S</cell><cell>P-V</cell><cell>S-V</cell></row><row><cell>Input</cell><cell>Model</cell><cell cols="2">Accuracy</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Location</cell><cell>MLP LSTM</cell><cell cols="9">78.87 64.41 74.63 78.16 78.75 87.50 89.81 73.68 87.50 93.27 77.46 43.37 76.12 78.16 78.75 81.82 57.41 73.68 85.42 93.27</cell></row><row><cell>Image</cell><cell>VGG16 VGG19</cell><cell cols="9">98.59 96.61 97.01 98.85 81.25 79.55 87.96 77.63 84.38 84.62 98.59 98.31 97.01 98.85 71.25 80.68 87.96 73.68 86.46 86.54</cell></row><row><cell></cell><cell>VGG16 + MLP</cell><cell cols="9">97.18 96.61 98.51 98.85 80.00 89.77 94.44 89.47 88.54 94.23</cell></row><row><cell>Image + location</cell><cell cols="10">VGG19 + MLP VGG16 + LSTM 97.18 96 95.77 94.92 97.01 98.85 80.00 84.10 92.59 80.26 90.63 97.12 95.52 98.85 83.75 80.68 94.44 76.32 83.33 84.62</cell></row><row><cell></cell><cell cols="2">VGG19 + LSTM 100</cell><cell cols="3">98.31 97.01 100</cell><cell cols="5">85.00 77.27 88.89 71.05 82.29 79.81</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head>Table 10 .</head><label>10</label><figDesc>Precision, recall, and F1-scores of the best models of ten binary classifications on AZH dataset.</figDesc><table><row><cell>Classifications</cell><cell>Best model(s)</cell><cell cols="3">Precision (%) Recall (%) F1-score (%)</cell></row><row><cell>N-D</cell><cell cols="2">VGG19 + LSTM 100</cell><cell>100</cell><cell>100</cell></row><row><cell>N-P</cell><cell cols="2">VGG19 + LSTM 100</cell><cell>97.06</cell><cell>98.51</cell></row><row><cell>N-S</cell><cell>VGG16 + MLP</cell><cell>100</cell><cell>97.62</cell><cell>98.80</cell></row><row><cell>N-V</cell><cell cols="2">VGG19 + LSTM 100</cell><cell>100</cell><cell>100</cell></row><row><cell>D-P</cell><cell cols="2">VGG19 + LSTM 76.19</cell><cell>94.12</cell><cell>84.21</cell></row><row><cell>D-S</cell><cell>VGG16 + MLP</cell><cell>83.67</cell><cell>97.62</cell><cell>90.11</cell></row><row><cell>D-V</cell><cell cols="2">VGG16 + MLP VGG16 + LSTM 92.42 92.42</cell><cell>98.39 98.39</cell><cell>95.31 95.31</cell></row><row><cell>P-S</cell><cell>VGG16 + MLP</cell><cell>86.96</cell><cell>95.24</cell><cell>90.91</cell></row><row><cell>P-V</cell><cell>VGG19 + MLP</cell><cell>88.41</cell><cell>98.39</cell><cell>93.13</cell></row><row><cell>S-V</cell><cell>VGG19 + MLP</cell><cell>95.38</cell><cell>100</cell><cell>97.64</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head>Table 11 .</head><label>11</label><figDesc>Three-wound-class classification (D vs. P vs. A + V) on Medetec dataset. The bold represents the highest results/accuracy achieved for each experiment.</figDesc><table><row><cell>Input</cell><cell>Model</cell><cell>Accuracy (%)</cell></row><row><cell>Location</cell><cell>MLP LSTM</cell><cell>85.56 85.56</cell></row><row><cell>Image</cell><cell>VGG16 VGG19</cell><cell>82.22 77.78</cell></row><row><cell></cell><cell>VGG16 + MLP</cell><cell>85.56</cell></row><row><cell>Image + location</cell><cell cols="2">VGG19 + MLP VGG16 + LSTM 85.56 86.67</cell></row><row><cell></cell><cell cols="2">VGG19 + LSTM 86.67</cell></row></table><note><p>Classification results depend on many factors like dataset, model, training-validation-testing split, balanced or unbalanced dataset, resources used for training, etc. Though the datasets and other factors between our work and previous classification works are not the same, this section mainly focuses on how the multimodality using both image and location data can improve the classification</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head>Table 12 .</head><label>12</label><figDesc>Six-class classification (BG vs. N vs. D vs. P vs. S vs. A + V) on AZHMT dataset. The bold represents the highest results/accuracy achieved for each experiment.</figDesc><table><row><cell>Input</cell><cell>Model</cell><cell>Accuracy (%)</cell></row><row><cell>Location</cell><cell>MLP LSTM</cell><cell>69.44 71.30</cell></row><row><cell>Image</cell><cell>VGG16 VGG19</cell><cell>67.59 72.22</cell></row><row><cell></cell><cell>VGG16 + MLP</cell><cell>81.17</cell></row><row><cell>Image + location</cell><cell cols="2">VGG19 + MLP VGG16 + LSTM 72.22 81.79</cell></row><row><cell></cell><cell cols="2">VGG19 + LSTM 83.04</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15"><head>Table 13 .</head><label>13</label><figDesc>Four-wound-class classification (D vs. P vs. S vs. A + V) on AZHMT dataset. The bold represents the highest results/accuracy achieved for each experiment.</figDesc><table><row><cell>Input</cell><cell>Model</cell><cell>Accuracy (%)</cell></row><row><cell>Location</cell><cell>MLP LSTM</cell><cell>78.10 78.83</cell></row><row><cell>Image</cell><cell>VGG16 VGG19</cell><cell>68.61 63.14</cell></row><row><cell></cell><cell>VGG16 + MLP</cell><cell>79.56</cell></row><row><cell>Image + location</cell><cell cols="2">VGG19 + MLP VGG16 + LSTM 68.25 84.31</cell></row><row><cell></cell><cell cols="2">VGG19 + LSTM 68.98</cell></row></table><note><p>Vol:.(1234567890) Scientific Reports | (2022) 12:20057 | https://doi.org/10.1038/s41598-022-21813-0 www.nature.com/scientificreports/ accuracy. The comparison with the previous works was only made if all the classes of that work's dataset were present in our dataset. Our previous work</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16"><head>Table 14 .</head><label>14</label><figDesc>Cross-validation on the AZH dataset. The bold represents the highest results/accuracy achieved for each experiment.</figDesc><table><row><cell></cell><cell></cell><cell>Accuracy</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="3">Cross-validation test</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Experiments</cell><cell>Model</cell><cell>Holdout test set</cell><cell cols="6">Fold1 Fold2 Fold3 Fold4 Fold5 Average</cell></row><row><cell></cell><cell>MLP</cell><cell>64.96</cell><cell>70.43</cell><cell>63.99</cell><cell>64.52</cell><cell>70.97</cell><cell>74.19</cell><cell>68.82</cell></row><row><cell>BG vs. N vs. D vs. P vs. S vs. V</cell><cell>VGG19</cell><cell>64.96</cell><cell>59.68</cell><cell>61.29</cell><cell>53.76</cell><cell>63.98</cell><cell>62.90</cell><cell>60.32</cell></row><row><cell></cell><cell>VGG19 + MLP</cell><cell>82.48</cell><cell>80.62</cell><cell>74.73</cell><cell cols="2">80.65 78.49</cell><cell>75.27</cell><cell>77.95</cell></row><row><cell></cell><cell>MLP</cell><cell>59.30</cell><cell>77.93</cell><cell>54.74</cell><cell>64.96</cell><cell>64.71</cell><cell>63.97</cell><cell>65.26</cell></row><row><cell>BG vs. N vs. D vs. P vs. S</cell><cell>VGG16</cell><cell>64.53</cell><cell>74.45</cell><cell>70.07</cell><cell>62.04</cell><cell>58.82</cell><cell>74.26</cell><cell>67.93</cell></row><row><cell></cell><cell>VGG16 + MLP</cell><cell>83.14</cell><cell cols="2">83.21 73.22</cell><cell>79.56</cell><cell>75.00</cell><cell>79.41</cell><cell>78.08</cell></row><row><cell></cell><cell>MLP</cell><cell>74.46</cell><cell>65.07</cell><cell>72.60</cell><cell>69.18</cell><cell>77.40</cell><cell>67.12</cell><cell>70.27</cell></row><row><cell>D vs. P vs. S vs. V</cell><cell>VGG16</cell><cell>71.73</cell><cell>63.01</cell><cell>60.96</cell><cell>60.96</cell><cell>69.18</cell><cell>58.22</cell><cell>62.47</cell></row><row><cell></cell><cell>VGG16 + MLP</cell><cell>81.52</cell><cell>71.23</cell><cell>73.97</cell><cell>76.03</cell><cell cols="2">82.88 67.81</cell><cell>74.38</cell></row><row><cell></cell><cell>LSTM</cell><cell>68.85</cell><cell>62.88</cell><cell>67.01</cell><cell>62.89</cell><cell>73.96</cell><cell>76.04</cell><cell>68.56</cell></row><row><cell>D vs. P vs. S</cell><cell>VGG16</cell><cell>61.48</cell><cell>63.92</cell><cell>71.13</cell><cell>70.10</cell><cell>64.58</cell><cell>62.50</cell><cell>66.45</cell></row><row><cell></cell><cell cols="2">VGG16 + LSTM 72.95</cell><cell>70.10</cell><cell>74.23</cell><cell>72.16</cell><cell>75.00</cell><cell cols="2">78.13 73.92</cell></row><row><cell></cell><cell>LSTM</cell><cell>78.75</cell><cell>75.00</cell><cell>68.75</cell><cell>78.13</cell><cell>78.13</cell><cell>76.19</cell><cell>75.24</cell></row><row><cell>D vs. P</cell><cell>VGG19</cell><cell>71.25</cell><cell>71.88</cell><cell>65.63</cell><cell>79.69</cell><cell>70.31</cell><cell>66.67</cell><cell>70.84</cell></row><row><cell></cell><cell cols="2">VGG19 + LSTM 85.00</cell><cell>78.13</cell><cell>70.31</cell><cell cols="2">81.25 79.69</cell><cell>79.37</cell><cell>77.75</cell></row><row><cell>External validation</cell><cell cols="2">VGG19 + LSTM 74.71</cell><cell>59.14</cell><cell>59.53</cell><cell>57.20</cell><cell cols="2">83.27 79.77</cell><cell>67.78</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head>Table 15 .</head><label>15</label><figDesc>Comparison among the previous works and the present work. The bold represents the highest results/accuracy achieved for each experiment.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>Previous work</cell><cell></cell><cell></cell><cell>Present work</cell><cell></cell><cell></cell></row><row><cell>Work</cell><cell>Classification</cell><cell>Evaluation metrics</cell><cell>Model</cell><cell>Dataset</cell><cell cols="2">Result (%) Model</cell><cell cols="2">Dataset Result (%)</cell></row><row><cell>Goyal et al. 12</cell><cell>Healthy skin vs. DFU skin (N vs. D)</cell><cell>Accuracy</cell><cell>DFUNet</cell><cell>A dataset containing 397 wound images</cell><cell>92.5</cell><cell>VGG19 + LSTM</cell><cell>AZH</cell><cell>100</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>N-V: VGG19 + LSTM</cell><cell></cell><cell>100</cell></row><row><cell>Aguirre et al. 13</cell><cell>VLU versus non-VLU (N vs. V, D vs. V, P vs. V, S vs. V)</cell><cell>Accuracy</cell><cell>VGG19</cell><cell>A dataset of 300 wound images</cell><cell>85</cell><cell>D-V: VGG16 + MLP &amp; VGG16 + LSTM P-V: VGG19 + MLP</cell><cell>AZH</cell><cell>94.44 90.63</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>S-V: VGG19 + MLP</cell><cell></cell><cell>97.12</cell></row><row><cell>Alzubaidi et al. 15</cell><cell>Normal skin vs. abnormal (DFU) skin (N vs. D)</cell><cell>F1-Score</cell><cell>DFU_QUTNet + SVM</cell><cell>A dataset containing 754-foot images</cell><cell>94.5</cell><cell>VGG19 + LSTM</cell><cell>AZH</cell><cell>100</cell></row><row><cell></cell><cell>S-V</cell><cell></cell><cell></cell><cell></cell><cell>96.4</cell><cell>VGG19 + MLP</cell><cell></cell><cell>97.12</cell></row><row><cell></cell><cell>D-S-V</cell><cell></cell><cell></cell><cell></cell><cell>91.9</cell><cell>VGG19 + MLP</cell><cell></cell><cell>92.00</cell></row><row><cell></cell><cell>BG-N-D-V</cell><cell></cell><cell></cell><cell></cell><cell>89.41</cell><cell>VGG19 + MLP</cell><cell></cell><cell>95.57</cell></row><row><cell></cell><cell>BG-N-P-V</cell><cell></cell><cell></cell><cell></cell><cell>86.57</cell><cell>VGG16 + LSTM</cell><cell></cell><cell>92.47</cell></row><row><cell></cell><cell>BG-N-S-V</cell><cell></cell><cell></cell><cell></cell><cell>92.20</cell><cell>VGG16 + MLP</cell><cell></cell><cell>94.16</cell></row><row><cell>Rostami et al. 16</cell><cell>BG-N-D-P BG-N-D-S</cell><cell>Accuracy</cell><cell>An end-to-end Ensem-ble DCNN-based</cell><cell>A new dataset con-taining 538 wound</cell><cell>80.29 90.98</cell><cell>VGG19 + LSTM VGG19 + MLP</cell><cell>AZH</cell><cell>89.23 91.30</cell></row><row><cell></cell><cell>BG-N-P-S</cell><cell></cell><cell>Classifier</cell><cell>images</cell><cell>84.12</cell><cell>VGG16 + MLP</cell><cell></cell><cell>85.71</cell></row><row><cell></cell><cell>BG-N-D-P-V</cell><cell></cell><cell></cell><cell></cell><cell>79.76</cell><cell>VGG16 + MLP</cell><cell></cell><cell>84.46</cell></row><row><cell></cell><cell>BG-N-D-S-V</cell><cell></cell><cell></cell><cell></cell><cell>84.94</cell><cell>VGG16 + LSTM</cell><cell></cell><cell>91.00</cell></row><row><cell></cell><cell>BG-N-D-P-S</cell><cell></cell><cell></cell><cell></cell><cell>81.49</cell><cell>VGG16 + MLP</cell><cell></cell><cell>83.14</cell></row><row><cell></cell><cell>BG-N-P-S-V</cell><cell></cell><cell></cell><cell></cell><cell>83.53</cell><cell>VGG19 + MLP</cell><cell></cell><cell>86.17</cell></row><row><cell></cell><cell>BG-N-D-P-S-V</cell><cell></cell><cell></cell><cell></cell><cell>68.69</cell><cell>VGG19 + MLP</cell><cell></cell><cell>82.48</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_18"><head>Table 2 )</head><label>2</label><figDesc>; the previous work used a very sophisticated ensemble classifier for image classification, where this work uses simple</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Scientific Reports | (2022) 12:20057 | https://doi.org/10.1038/s41598-022-21813-0</p></note>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The AZH dataset is currently available at https:// github. com/ uwm-bigda ta/ Multi-modal-wound-class ifica tion-using-images-and-locat ions. Unfortunately, due to authorship conflict, we cannot make the Medetec and AZHMT datasets public.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>D.M.A. wrote the main manuscript text, developed the classification networks, and did the experiments. Y.P. implemented the image localization module in the pre-processing program, built the body map, and wrote the corresponding section of the manuscript. B.R. helped collect and prepare the images in the dataset. J.N. provided and consented to the images to be used in this research. S.G. and Z.Y. led and guided the research. All authors reviewed the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="4,4.82,775.01,58.49,7.14;4,41.10,758.77,133.79,7.38;4,229.38,758.77,147.33,7.14" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Scientific Reports |</title>
+		<idno type="DOI">10.1038/s41598-022-21813-0</idno>
+		<ptr target="https://doi.org/10.1038/s41598-022-21813-0" />
+		<imprint>
+			<date type="published" when="2022">1234567890. 2022. 20057</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,4.82,775.01,58.49,7.14;18,41.10,758.77,133.79,7.38;18,229.38,758.77,147.33,7.14" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Scientific Reports |</title>
+		<idno type="DOI">10.1038/s41598-022-21813-0</idno>
+		<ptr target="https://doi.org/10.1038/s41598-022-21813-0" />
+		<imprint>
+			<date type="published" when="2022">1234567890. 2022. 20057</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.94,213.66,391.23,7.58;19,169.41,222.16,102.76,7.58" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Human wounds and its burden: An updated compendium of estimates</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2019.0946</idno>
+		<ptr target="https://doi.org/10.1089/wound" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">946</biblScope>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.94,230.65,357.14,7.58" xml:id="b3">
+	<monogr>
+		<ptr target="https://diabeticfootonline.com/diabetic-foot-facts-and-figures" />
+		<title level="m">Diabetic Foot: Facts &amp; Figures</title>
+		<imprint>
+			<date type="published" when="2021-06-02">2 Jun 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.94,239.15,253.69,7.58" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Adderley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Clin. Evid</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="36" />
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.94,247.65,391.25,7.58;19,169.43,256.15,80.50,7.58" xml:id="b5">
+	<monogr>
+		<ptr target="https://www.ahrq.gov/patient-safety/settings/hospital/resource/pressureulcer/tool/pu1.html" />
+		<title level="m">Preventing Pressure Ulcers in Hospitals</title>
+		<imprint>
+			<date type="published" when="2021-06">Jun 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.96,264.64,391.15,7.58;19,169.43,273.14,205.67,7.58" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Setting the surgical wound care agenda across two healthcare districts: A priority setting approach</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Gillespie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colegn.2020.02.011</idno>
+		<ptr target="https://doi.org/10.1016/j.colegn.2020.02.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Collegian</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="529" to="534" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.96,281.64,391.23,7.58;19,169.42,290.14,97.91,7.58" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in healthcare</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Beam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Kohane</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41551-018-0305-z</idno>
+		<ptr target="https://doi.org/10.1038/s41551-018-0305-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biomed. Eng</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="719" to="731" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.95,298.63,391.26,7.58;19,169.41,307.13,185.46,7.58" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Deep Learning for computer vision: A brief review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Voulodimos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Doulamis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Doulamis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Protopapadakis</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2018/7068349</idno>
+		<ptr target="https://doi.org/10.1155/2018/70683" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Intell. Neurosci</title>
+		<imprint>
+			<biblScope unit="page">49</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.93,315.63,391.24,7.58;19,169.41,324.13,59.36,7.58" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A survey on deep learning in medical image analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Litjens</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.media.2017.07.005</idno>
+		<ptr target="https://doi.org/10.1016/j.media.2017.07.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Med. Image Anal</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="60" to="88" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.94,332.62,391.23,7.58;19,169.41,341.12,97.68,7.58" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Deep learning and medical diagnosis: A review of literature</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bakator</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Radosav</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/mti2030047</idno>
+		<ptr target="https://doi.org/10.3390/mti" />
+	</analytic>
+	<monogr>
+		<title level="j">Multimodal Technol. Interact</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">30047</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.63,349.62,391.57,7.58;19,169.41,358.12,272.87,7.58" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Can machine learning be used to discriminate between burns and pressure ulcer?</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abubakar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ugail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Bukar</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-29513-4_64</idno>
+		<ptr target="https://doi.org/10.1007/978-3-030-29513-4_64" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Intell. Syst. Comput</title>
+		<imprint>
+			<biblScope unit="volume">1038</biblScope>
+			<biblScope unit="page" from="870" to="880" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.63,366.61,391.55,7.58;19,169.41,375.11,156.64,7.58" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Recognition of ischaemia and infection in diabetic foot ulcers: Dataset and techniques</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compbiomed.2020.103616</idno>
+		<ptr target="https://doi.org/10.1016/j.compbiomed.2020.103616" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Biol. Med</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.63,383.61,391.62,7.58;19,169.41,392.11,215.37,7.58" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">DFUNet: Convolutional neural networks for diabetic foot ulcer classification</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tetci.2018.2866254</idno>
+		<ptr target="https://doi.org/10.1109/tetci" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Emerg. Top. Comput. Intell</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">54</biblScope>
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.63,400.60,337.31,7.58" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Classification of Ulcer Images Using Convolutional Neural Networks</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Velic</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.63,409.10,391.49,7.58;19,169.42,417.60,384.72,7.58;19,169.42,426.10,158.61,7.58" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Automated postoperative wound assessment and surgical site surveillance through convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Shenoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Aalami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Majeed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Aalami</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Deepwound</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/BIBM.2018.8621130</idno>
+		<ptr target="https://doi.org/10.1109/BIBM" />
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 2018 IEEE Int. Conf. Bioinforma. Biomed. BIBM 2018</title>
+		<meeting>2018 IEEE Int. Conf. Bioinforma. Biomed. BIBM 2018</meeting>
+		<imprint>
+			<date type="published" when="2018">2018. 2019</date>
+			<biblScope unit="volume">86211</biblScope>
+			<biblScope unit="page">30</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.64,434.59,391.48,7.58;19,169.43,443.09,384.82,7.58;19,169.43,451.59,21.51,7.58" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Diabetic foot ulcer classification using novel deep convolutional neural network</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Alzubaidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fadhel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Oleiwi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Al-Shamma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dfu_Qutnet</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/S11042-019-07820-W</idno>
+		<ptr target="https://doi.org/10.1007/S11042-019-07820-W" />
+	</analytic>
+	<monogr>
+		<title level="j">Multimed. Tools Appl</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="15655" to="15677" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.65,460.09,391.54,7.58;19,169.44,468.58,214.43,7.58" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Multi-class wound image classification using an ensemble deep CNN-based classifier</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rostami</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.COMPBIOMED.2021.104536</idno>
+		<ptr target="https://doi.org/10.1016/J.COMPBIOMED.2021.104536" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<date type="published" when="2021">104536. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.66,477.08,391.60,7.58;19,169.44,485.58,333.70,7.58" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A highly transparent and explainable artificial intelligence tool for chronic wound classification: XAI-CWC</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sarp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuzlu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Cali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Guler</surname></persName>
+		</author>
+		<idno type="DOI">10.20944/preprints202101.0346.v1</idno>
+		<ptr target="https://doi.org/" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Biol. Med</title>
+		<imprint>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.66,494.08,391.55,7.58;19,169.45,502.57,62.76,7.58" xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wound</forename><surname>Medetec</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Database</surname></persName>
+		</author>
+		<ptr target="http://www.medetec.co.uk/files/medetec-image-databases.html" />
+		<title level="m">Stock Pictures of Wounds</title>
+		<imprint>
+			<date type="published" when="2021-06-09">9 Jun 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.67,511.07,391.55,7.58;19,169.45,519.57,160.70,7.58" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Body mapping in research</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Coetzee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Roomaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Willis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kagee</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-981-10-5251-4_3</idno>
+		<ptr target="https://doi.org/10.1007/978-981-10-5251-4_3" />
+	</analytic>
+	<monogr>
+		<title level="j">Handb. Res. Methods Health Soc. Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1237" to="1254" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.67,528.07,278.11,7.58" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Understanding the basics of wound assessment</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds Essen</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="8" to="12" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.67,536.56,380.95,7.58" xml:id="b22">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krajcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Antonic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dunik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pixelcut-Paintcode</surname></persName>
+		</author>
+		<ptr target="https://www" />
+		<imprint>
+			<date type="published" when="2021-06-15">15 Jun 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.68,545.06,391.55,7.58;19,169.47,553.56,79.04,7.58" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">The Application Factory-Body Map Picker</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jonassaint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nilsen</surname></persName>
+		</author>
+		<ptr target="https://github.com/TheAp" />
+		<imprint>
+			<date type="published" when="2021-06-15">15 Jun 2021</date>
+		</imprint>
+	</monogr>
+	<note>plica tionF actory/ BodyM apPic ker</note>
+</biblStruct>
+
+<biblStruct coords="19,162.69,562.06,391.56,7.58;19,169.47,570.55,360.60,7.58" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Clickable bodymap</title>
+		<ptr target="https://www.bristol.ac.uk/translational-health-sciences/research/musculoskeletal/orthopaedic/research/star/clickable-bodymap" />
+	</analytic>
+	<monogr>
+		<title level="j">Bristol Medical School: Translational Health Sciences</title>
+		<imprint>
+			<date type="published" when="2021-06">Jun 2021</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Bristol</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.71,579.05,391.49,7.58;19,169.50,587.55,258.60,7.58" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Metastable pain-attention dynamics during incremental exhaustive exercise</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Slapšinskaitė</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hristovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Razon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Balagué</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/FPSYG.2016.02054</idno>
+		<ptr target="https://doi.org/10.3389/FPSYG.2016.02054" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Psychol</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.71,596.05,284.64,7.58" xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Molenda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anatomy</forename><surname>Original</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mapper</surname></persName>
+		</author>
+		<ptr target="https://anatomymapper.com" />
+		<imprint>
+			<date type="published" when="2021-06-15">15 Jun 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.71,604.54,391.55,7.58;19,169.50,613.04,131.29,7.58" xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niezgoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gopalakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Yu</surname></persName>
+		</author>
+		<ptr target="http://arxiv.org/abs/2009.07133" />
+	</analytic>
+	<monogr>
+		<title level="j">Z. A Mobile App for Wound Localization using Deep Learning</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.72,621.54,308.43,7.58" xml:id="b28">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chollet</surname></persName>
+		</author>
+		<ptr target="https://keras.io/guides/functional_api/" />
+		<title level="m">The Functional API. Keras</title>
+		<imprint>
+			<date type="published" when="2021-06-18">18 Jun 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.72,630.04,391.59,7.58;19,169.51,638.53,106.72,7.58" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Imagenet classification with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krizhevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Neural Inf. Process. Syst</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1097" to="1105" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.73,647.03,346.28,7.58" xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Transfer learning &amp; fine-tuning</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chollet</surname></persName>
+		</author>
+		<ptr target="https://keras.io/guides/transfer_learning" />
+		<imprint>
+			<date type="published" when="2021-07-02">2 Jul 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.74,655.53,233.03,7.58" xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Keras</forename><surname>Applications</surname></persName>
+		</author>
+		<ptr target="https://keras.io/api/applications/" />
+		<imprint>
+			<date type="published" when="2021-07-16">16 Jul 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.74,664.03,391.60,7.58;19,169.53,672.52,300.00,7.58" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Very deep convolutional networks for large-scale image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simonyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/abs/1409" />
+	</analytic>
+	<monogr>
+		<title level="m">3rd Int. Conf. Learn. Represent. ICLR 2015 -Conf. Track Proc</title>
+		<imprint>
+			<date type="published" when="2014-07-16">2014. 16 Jul 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.75,681.02,391.60,7.58;19,169.53,689.52,311.33,7.58" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A deep learning study on osteosarcoma detection from histological images</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anisuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Barzekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.BSPC.2021.102931</idno>
+		<ptr target="https://doi.org/10.1016/J.BSPC.2021.102931" />
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Signal Process. Control</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page">102931</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.75,698.02,391.64,7.58;19,169.53,706.51,281.64,7.58" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Deep residual learning for image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<ptr target="http://image-net.org/challenges/LSVRC/2015/" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conf. Comput. Vis. Pattern Recogn. (CVPR)</title>
+		<imprint>
+			<date type="published" when="2016-07-16">2016. 16 Jul 2021</date>
+			<biblScope unit="page" from="770" to="778" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.75,715.01,384.30,7.58" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Going Deeper with Convolutions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE conference on computer vision and pattern recognition</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="1" to="9" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,162.75,723.51,391.56,7.58;19,169.54,732.01,332.56,7.58;20,4.82,775.01,58.49,7.14;20,41.10,758.77,133.79,7.38;20,229.38,758.77,147.33,7.14" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Precision, Recall &amp; F1 Score: Interpretation of Performance Measures -Exsilio Blog</title>
+		<author>
+			<persName><surname>Accuracy</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-022-21813-0</idno>
+		<ptr target="https://doi.org/10.1038/s41598-022-21813-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports |</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2021-07-19">19 Jul 2021. 1234567890. 2022. 20057</date>
+		</imprint>
+	</monogr>
+	<note>Exsilio Solutions</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Medical Image Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-03-24">24 March 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Moi</forename><forename type="middle">Hoon</forename><surname>Yap</surname></persName>
+							<email>m.yap@mmu.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing and Mathematics</orgName>
+								<orgName type="institution">Manchester Metropolitan University</orgName>
+								<address>
+									<addrLine>John Dalton Building, Chester Street</addrLine>
+									<postCode>M1 5GD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff15">
+								<orgName type="institution">Lancashire Teaching Hospitals NHS Trust</orgName>
+								<address>
+									<postCode>PR2 9HT</postCode>
+									<settlement>Preston</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bill</forename><surname>Cassidy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing and Mathematics</orgName>
+								<orgName type="institution">Manchester Metropolitan University</orgName>
+								<address>
+									<addrLine>John Dalton Building, Chester Street</addrLine>
+									<postCode>M1 5GD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michal</forename><surname>Byra</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Fundamental Technological Research</orgName>
+								<orgName type="institution">Polish Academy of Sciences</orgName>
+								<address>
+									<settlement>Warsaw</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">RIKEN Center for Brain Science</orgName>
+								<address>
+									<settlement>Wako</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ting-Yu</forename><surname>Liao</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Biomedical Big Data Center</orgName>
+								<orgName type="institution">National Tsing Hua University</orgName>
+								<address>
+									<addrLine>No. 101, Section 2, Kuang-Fu Road</addrLine>
+									<settlement>Hsinchu</settlement>
+									<country>Taiwan e West China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">West China Hospital</orgName>
+								<orgName type="institution" key="instit2">Sichuan University</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Huahui</forename><surname>Yi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Adrian</forename><surname>Galdran</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution" key="instit1">BCN Medtech</orgName>
+								<orgName type="institution" key="instit2">Universitat Pompeu Fabra</orgName>
+								<address>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="institution" key="instit1">AIML</orgName>
+								<orgName type="institution" key="instit2">University of Adelaide</orgName>
+								<address>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yung-Han</forename><surname>Chen</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Institute of Electronics</orgName>
+								<orgName type="institution">National Yang Ming Chiao Tung University</orgName>
+								<address>
+									<addrLine>No. 1001, University Road, Hsinchu 300</addrLine>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Raphael</forename><surname>Brüngel</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Sciences and Arts Dortmund (FH Dortmund)</orgName>
+								<orgName type="institution">University of Applied</orgName>
+								<address>
+									<addrLine>Emil-Figge-Str. 42</addrLine>
+									<postCode>44227</postCode>
+									<settlement>Dortmund</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Institute for Medical Informatics</orgName>
+								<orgName type="department" key="dep2">Biometry and Epidemiology (IMIBE)</orgName>
+								<orgName type="institution">University Hospital Essen</orgName>
+								<address>
+									<addrLine>Zweigertstr. 37</addrLine>
+									<postCode>45130</postCode>
+									<settlement>Essen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Institute for Artificial Intelligence in Medicine (IKIM)</orgName>
+								<orgName type="institution">University Hospital Essen</orgName>
+								<address>
+									<addrLine>Girardetstr. 2</addrLine>
+									<postCode>45131</postCode>
+									<settlement>Essen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sven</forename><surname>Koitka</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">Institute for Artificial Intelligence in Medicine (IKIM)</orgName>
+								<orgName type="institution">University Hospital Essen</orgName>
+								<address>
+									<addrLine>Girardetstr. 2</addrLine>
+									<postCode>45131</postCode>
+									<settlement>Essen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Institute of Diagnostic and Interventional Radiology and Neuroradiology</orgName>
+								<orgName type="institution">University Hospital Essen</orgName>
+								<address>
+									<addrLine>Hufelandstr. 55</addrLine>
+									<postCode>45147</postCode>
+									<settlement>Essen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christoph</forename><forename type="middle">M</forename><surname>Friedrich</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Sciences and Arts Dortmund (FH Dortmund)</orgName>
+								<orgName type="institution">University of Applied</orgName>
+								<address>
+									<addrLine>Emil-Figge-Str. 42</addrLine>
+									<postCode>44227</postCode>
+									<settlement>Dortmund</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Institute for Medical Informatics</orgName>
+								<orgName type="department" key="dep2">Biometry and Epidemiology (IMIBE)</orgName>
+								<orgName type="institution">University Hospital Essen</orgName>
+								<address>
+									<addrLine>Zweigertstr. 37</addrLine>
+									<postCode>45130</postCode>
+									<settlement>Essen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yu-Wen</forename><surname>Lo</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Biomedical Big Data Center</orgName>
+								<orgName type="institution">National Tsing Hua University</orgName>
+								<address>
+									<addrLine>No. 101, Section 2, Kuang-Fu Road</addrLine>
+									<settlement>Hsinchu</settlement>
+									<country>Taiwan e West China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">West China Hospital</orgName>
+								<orgName type="institution" key="instit2">Sichuan University</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ching-Hui</forename><surname>Yang</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Biomedical Big Data Center</orgName>
+								<orgName type="institution">National Tsing Hua University</orgName>
+								<address>
+									<addrLine>No. 101, Section 2, Kuang-Fu Road</addrLine>
+									<settlement>Hsinchu</settlement>
+									<country>Taiwan e West China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">West China Hospital</orgName>
+								<orgName type="institution" key="instit2">Sichuan University</orgName>
+								<address>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kang</forename><surname>Li</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="laboratory">Shanghai Artificial Intelligence Laboratory</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qicheng</forename><surname>Lao</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="department">School of Artificial Intelligence</orgName>
+								<orgName type="institution">Beijing University of Posts and Telecommunications</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="laboratory">Shanghai Artificial Intelligence Laboratory</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Miguel</forename><forename type="middle">A</forename><surname>González Ballester</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution" key="instit1">BCN Medtech</orgName>
+								<orgName type="institution" key="instit2">Universitat Pompeu Fabra</orgName>
+								<address>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gustavo</forename><surname>Carneiro</surname></persName>
+							<affiliation key="aff14">
+								<orgName type="institution">University of Surrey</orgName>
+								<address>
+									<settlement>Guildford</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yi-Jen</forename><surname>Ju</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Institute of Electronics</orgName>
+								<orgName type="institution">National Yang Ming Chiao Tung University</orgName>
+								<address>
+									<addrLine>No. 1001, University Road, Hsinchu 300</addrLine>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Juinn-Dar</forename><surname>Huang</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Institute of Electronics</orgName>
+								<orgName type="institution">National Yang Ming Chiao Tung University</orgName>
+								<address>
+									<addrLine>No. 1001, University Road, Hsinchu 300</addrLine>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><forename type="middle">M</forename><surname>Pappachan</surname></persName>
+							<affiliation key="aff15">
+								<orgName type="institution">Lancashire Teaching Hospitals NHS Trust</orgName>
+								<address>
+									<postCode>PR2 9HT</postCode>
+									<settlement>Preston</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff16">
+								<orgName type="department">Department of Life Sciences</orgName>
+								<orgName type="institution">Manchester Metropolitan University</orgName>
+								<address>
+									<postCode>M1 5GD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Neil</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+							<affiliation key="aff16">
+								<orgName type="department">Department of Life Sciences</orgName>
+								<orgName type="institution">Manchester Metropolitan University</orgName>
+								<address>
+									<postCode>M1 5GD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vishnu</forename><surname>Chandrabalan</surname></persName>
+							<affiliation key="aff15">
+								<orgName type="institution">Lancashire Teaching Hospitals NHS Trust</orgName>
+								<address>
+									<postCode>PR2 9HT</postCode>
+									<settlement>Preston</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Darren</forename><surname>Dancey</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing and Mathematics</orgName>
+								<orgName type="institution">Manchester Metropolitan University</orgName>
+								<address>
+									<addrLine>John Dalton Building, Chester Street</addrLine>
+									<postCode>M1 5GD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Connah</forename><surname>Kendrick</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing and Mathematics</orgName>
+								<orgName type="institution">Manchester Metropolitan University</orgName>
+								<address>
+									<addrLine>John Dalton Building, Chester Street</addrLine>
+									<postCode>M1 5GD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Medical Image Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-03-24">24 March 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">758F68943217B28D675DC096659B026B</idno>
+					<idno type="DOI">10.1016/j.media.2024.103153</idno>
+					<note type="submission">Received 27 June 2023; Received in revised form 30 January 2024; Accepted 20 March 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Deep learning Diabetic foot ulcers Segmentation Convolutional neural networks Metrics</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Monitoring the healing progress of diabetic foot ulcers is a challenging process. Accurate segmentation of foot ulcers can help podiatrists to quantitatively measure the size of wound regions to assist prediction of healing status. The main challenge in this field is the lack of publicly available manual delineation, which can be time consuming and laborious. Recently, methods based on deep learning have shown excellent results in automatic segmentation of medical images, however, they require large-scale datasets for training, and there is limited consensus on which methods perform the best. The 2022 Diabetic Foot Ulcers segmentation challenge was held in conjunction with the 2022 International Conference on Medical Image Computing and Computer Assisted Intervention, which sought to address these issues and stimulate progress in this research domain.</p><p>A training set of 2000 images exhibiting diabetic foot ulcers was released with corresponding segmentation ground truth masks. Of the 72 (approved) requests from 47 countries, 26 teams used this data to develop fully automated systems to predict the true segmentation masks on a test set of 2000 images, with the corresponding ground truth segmentation masks kept private. Predictions from participating teams were scored and ranked according to their average Dice similarity coefficient of the ground truth masks and prediction masks. The winning team achieved a Dice of 0.7287 for diabetic foot ulcer segmentation. This challenge has now entered a live leaderboard stage where it serves as a challenging benchmark for diabetic foot ulcer segmentation.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Following the successes of previous Diabetic Foot Ulcers Challenges (DFUC), i.e. DFUC 2020 <ref type="bibr">(Cassidy et al., 2021b)</ref> and DFUC 2021 <ref type="bibr">(Yap et al., 2021a)</ref>, DFUC 2022 focused on segmentation <ref type="bibr">(Kendrick et al.,</ref> analysis on the results, analysing region-based segmentation, and investigating the relationship between Dice similarity coefficient (DSC) values and region sizes. This research has been completed in adherence to the Biomedical Image Analysis Challenges (BIAS) guidelines <ref type="bibr">(Maier-Hein et al., 2020a)</ref>, as approved by the Enhancing the QUAlity and Transparency Of health Research (EQUATOR) initiative <ref type="bibr" target="#b41">(Pandis and Fedorowicz, 2011)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Challenge description</head><p>The diabetic foot ulcers challenges <ref type="bibr">(2020)</ref><ref type="bibr">(2021)</ref><ref type="bibr">(2022)</ref> are a series of annual deep learning challenges hosted by the Medical Image Computing and Computer Assisted Interventions (MICCAI) society for the international conferences which they organise each year. The purpose of these challenges is to develop fully automated deep learning methods for localisation, classification, and segmentation of DFU. The first diabetic foot ulcer challenge (DFUC 2020) focused on DFU localisation methods for automated DFU detection. Two winning teams were declared for DFUC 2020: (1) Ryo Hachiuma, Hiroki Kajita and Hideo Saito (Keio University and Keio University School of Medicine, Japan) achieved the highest mAP (0.6940), and (2) Manu Goyal and Saeed Hassanpour (Dartmouth College, USA) achieved the highest F1score (0.7434) <ref type="bibr">(Yap et al., 2021b)</ref>. The second challenge (DFUC 2021) focused on multi-class classification for 4 classes (control, infection, ischaemia, and both infection and ischaemia). The winner of DFUC 2021 was Adrian Galdran (Bournemouth University, UK) with a macro F1-score of 0.6216 <ref type="bibr">(Cassidy et al., 2021a)</ref>. The third challenge (DFUC 2022) focused on delineation of DFU at pixel level, which is a key task for wound area measurement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Organisation</head><p>The diabetic foot ulcer challenges 2020-2022 were co-organised by researchers from the United Kingdom (The Manchester Metropolitan University (MMU), Lancashire Teaching Hospitals (LTH) and University of Manchester (UoM)), New Zealand (Waikato District Health Board (WDHB)), the United States (University of Southern California (USC) and Baylor College of Medicine (BCM)) and India (Manipal College of Health Professions (MCHP)). The diabetic foot ulcer challenge 2022 was organised by Moi Hoon Yap (MMU), Neil Reeves (MMU), Andrew Bolton (UoM), Satyan Rajbhandari (LTH), David Armstrong (USC), Arun G. Maiya (MCHP), Bijan Najafi (BCM), Bill Cassidy (MMU), and Justina Wu (WDHB).</p><p>The goal of the 2022 challenge was to evaluate the performance of computer algorithms in diabetic foot ulcers (DFU) segmentation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Dataset preparation</head><p>Medical photographs of DFU wounds were acquired from diabetic patients at the Lancashire Teaching Hospitals NHS Foundation Trust by two clinical experts in podiatry. The DFU wound photographs were acquired using three digital cameras: a Kodak DX4530 (5 megapixel), a Nikon COOLPIX P100 (10.3 megapixel), and a Nikon D3300 (24.2 megapixel). All DFU wound photographs were acquired with close-ups of the patient's foot using auto-focus, with zoom or macro functions disabled. A camera aperture setting of f/2.8 was used, with photographs taken at a distance of approximately 30-40 cm with a parallel orientation to the plane of the DFU. Flashes were deactivated, with room lighting used as the primary light source. The DFU wound photographs were distributed between 5 podiatrists, each with more than 5 years of clinical experience. Instructions were provided to the experts to delineate the ulcer regions using the VGG Image Annotator software tool <ref type="bibr" target="#b11">(Dutta et al., 2016;</ref><ref type="bibr" target="#b12">Dutta and Zisserman, 2019)</ref>. The polygon regions defined by the experts were then smoothed using a snake active contour algorithm <ref type="bibr" target="#b30">(Kroon, 2022)</ref>, followed by conversion to binary masks, with black pixels representing the background, and white pixels representing wound regions. The binary masks were used as ground truth for both training and testing sets. The original DFU wounds photographs were captured at various resolutions, therefore, as a preprocessing stage all photographs and corresponding masks were resized to 640 × 480 pixels as a standardisation measure. Ethical approval was obtained from the UK National Health Service (NHS) Research Ethics Committee (REC) to use these images for the purpose of research. The NHS REC reference number is 15/NW/0539. Written informed consent was obtained from all participating patients. As in DFUC 2020, the dataset was divided into two main sets of images and corresponding binary masks -the training set <ref type="bibr">(𝑛 = 2000)</ref> and the testing set <ref type="bibr">(𝑛 = 2000)</ref>. We divided the data evenly to ensure that models could be trained and tested sufficiently. Prior chronic wound datasets comprised relatively small test sets (approximately 20%) which may not sufficiently challenge trained models. Therefore, we determined that a 50:50 split would help towards obtaining more accurate test metrics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Leaderboard management</head><p>The Grand-Challenge online platform (https://dfuc2022.grand-chal lenge.org/) was used to process three leaderboard submission phases, i.e., validation stage, testing stage, and a live leaderboard to continue to support the research community after the challenge deadline. Participants were required to submit prediction masks to the online challenge platform with pixel-wise labels for background (0) and ulcer regions (1). A paper highlighting the contribution of the submission, including the method description, experimental results and analysis, and a GitHub repository URL containing all source code was also required (in accordance to the format stipulated by MICCAI 2022). The evalutils <ref type="bibr" target="#b38">(Meakin, 2018)</ref> software library was used to measure the performance of segmentation accuracy of participant prediction masks. During the validation stage, participants were permitted a maximum of 10 submissions per day over a period of 6 weeks. The validation stage was used for sanity checking and fine-tuning of models using the validation dataset (a subset of the testing set). During the testing stage, participants were limited to submit once per day over a period of two weeks. The results were not released during the testing stage to prevent participants overfitting their models to the testing set.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Dataset usage and participation policy</head><p>Participants were permitted to use non-challenge datasets for training and validation purposes. This included other publicly available DFU datasets. Additionally, participants were permitted to use their own datasets on the basis that those datasets were shared publicly with the research community. Participants were permitted to use the dataset for non-commercial purposes only. Additionally, participants were prohibited from modifying the ground truth masks. Organisations or companies who were affiliated with members of the organising committee were not excluded from participation in the challenge. However, such organisations/companies were required to ensure that their submissions were completely independent of the members of the organising committee.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Results announcement and award policy</head><p>All challenge results were made available publicly on the DFUC 2022 website (https://dfu-challenge.github.io/) and the Grand Challenge website (https://dfuc2022.grand-challenge.org/). The top-5 performing methods were then invited to the in-person challenge event to present their work. Certificates were provided to the top-3 performing teams. Prizes were also awarded to the top-3 performing teams, which were provided by AITIS who were the challenge sponsors. The prizes awarded were wearable monitoring sensor devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Challenge schedule and publication policy</head><p>The training data was released on the 27th April 2022. Following this, the validation data was released on the 21st June 2022. The test data was released on the 1st July 2022, with a final submission deadline on the 29th July 2022. The winner and invitation speakers were announced on the 15th August 2022. All challenge deadlines were subject to change according to MICCAI 2022 scheduling changes. The challenge organisers were responsible for publishing one or more challenge journal papers which reported on the challenge results. Participating authors were permitted to publish their papers separately, with decisions on publication strategy made according to achieving publication in the highest ranking journals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">Conflict of interest statement and test label safeguarding</head><p>No external funding was received in relation to the DFUC 2022. Additionally, no funding was received from the challenge sponsors (AITIS). Ground truth masks for the DFUC 2022 test set are accessible only to the following MMU Computer Vision Laboratory researchers: Moi Hoon Yap, Connah Kendrick, and Bill Cassidy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8.">Metrics and evaluation</head><p>To assess the performance of the algorithms developed by participants, we determine segmentation accuracy in terms of DSC, Jaccard index, False Positive Error (FPE), and False Negative Error (FNE). Image-based metrics were used to allow multiple DFU wounds to be evaluated as a single wound per image.</p><p>DSC was used to determine overall leaderboard rankings, and is defined as two times the area of the intersection of X (ground truth) and Y (prediction), divided by the sum of the areas of X and Y. DSC values are reported in the range of 0 -1, where 0 indicates no overlap, and 1 indicates a perfect overlap. DSC is denoted by Eq. (1).</p><formula xml:id="formula_0">𝐷𝑆𝐶 = 2 * |𝑋 ∩ 𝑌 | |𝑋| + |𝑌 | = 2 * 𝑇 𝑃 2 * 𝑇 𝑃 + 𝐹 𝑃 + 𝐹 𝑁 (1)</formula><p>where TP is True Positives, FP is False Positives and FN is False Negatives. In the case of ties in DSC, the Jaccard index, also known as Intersection over Union (IoU), is used as the second metric for the leaderboard rankings. IoU is defined as the area of intersection divided by the area of union, and is expressed as Eq. ( <ref type="formula">2</ref>).</p><formula xml:id="formula_1">𝐼𝑜𝑈 = |𝑋 ∩ 𝑌 | |𝑋 ∪ 𝑌 | = 𝑇 𝑃 𝑇 𝑃 + 𝐹 𝑃 + 𝐹 𝑁 (2)</formula><p>The FPE indicates the ratio of a method which falsely predicts a non-DFU pixel as a DFU pixel, and is defined in Eq. (3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>𝐹 𝑃 𝐸</head><formula xml:id="formula_2">= 𝐹 𝑃 𝐹 𝑃 + 𝑇 𝑁 (3)</formula><p>where TN is True Negatives. The FNE indicates the ratio of a method which falsely predicts a DFU pixel as non-DFU pixel, and is denoted as in Eq. ( <ref type="formula">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>𝐹 𝑁𝐸 = 𝐹 𝑁 𝐹 𝑁 + 𝑇 𝑃</head><p>(4)</p><p>Both DSC and IoU assume that an overlap is present. In cases where prediction masks show no overlap with ground truth masks, a score of 0 is assigned.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Summary of challenge methods</head><p>Since the opening of DFUC 2022, we received 72 requests from 47 countries to obtain the challenge datasets. A total of 26 teams participated in the challenge. In the DFUC 2022 proceedings <ref type="bibr" target="#b28">(Kendrick et al., 2023)</ref>, we summarise the methods from the top-10 teams, who have submitted their challenge papers and presented at the DFUC 2022 conference in conjunction with MICCAI 2022, conducted in Singapore on the 22nd September 2022. This post-challenge analysis focuses on the performance of the five winning teams who achieved a DSC &gt; 0.7. We conduct a size analysis based on the per ulcer-based segmentation, examine the effectiveness of ensemble models, and perform statistical analysis on the results. The top-5 participating teams who were eligible for inclusion in the present challenge report are as follows: (1st place) Yllab Team, (2nd place) LkRobotAILab Team, (3rd place) AGaldran Team, (4th place) ADAR-LAB Team, and (5th place) FHDO Team. <ref type="bibr" target="#b31">Liao et al. (2023)</ref> proposed HarDNet-DFUS, as depicted in Fig. <ref type="figure" target="#fig_0">1</ref>. It consists of an encoder backbone with a new HarDBlkV2 module and the decoder with a Lawin Transformer <ref type="bibr" target="#b51">(Yan et al., 2022)</ref>. The backbone of the previous state-of-the-art HarDNet-MSEG <ref type="bibr" target="#b23">(Huang et al., 2021)</ref> (used for colonoscopic polyp segmentation) was enhanced and repurposed for DFU segmentation. HarDBlockV2 is modified from HarDBlock by referring to the concepts of CSPNet <ref type="bibr" target="#b48">(Wang et al., 2020)</ref> and Shuf-fleNetV2 <ref type="bibr" target="#b35">(Ma et al., 2018)</ref>. The following three enhancements were implemented in the network design:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Liao et al. (1st place, Yllab team)</head><p>1. Channel splitting was performed on the convolutional layer according to its output connection number, which can reduce the DRAM access to achieve the optimal MACs over CIO ratio (MoC), as proposed by HarDNet <ref type="bibr">(Chao et al., 2019b)</ref>. 2. Inter-layer connectivity is performed based on the factors of the required block depth, simplifying the design of the network architecture so that the depth of the basic building block is no longer limited to a power of 2. 3. A squeeze and excite attention module <ref type="bibr">(Hu et al., 2018a)</ref> was inserted after the block output in the transition layer, which facilitates utilisation of multi-scale information.</p><p>For the full description of this method, please refer to <ref type="bibr" target="#b31">Liao et al. (2023)</ref>.</p><p>Unlike colonoscopy polyp segmentation, the DFUC 2022 segmentation challenge does not include real-time processing as a criterion. To obtain higher accuracy, a more complex decoder was selected, the Lawin decoder, to replace the original decoder of HarDNet-MSEG. The keypoint of the decoder of the Lawin Transformer is the proposed attention mechanism called Large Window Attention, which can capture multi-scale features and represent the segmentation result more precisely (see Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>To consider the full dataset, 5-fold cross validation was used to obtain five sub-models, followed by test time augmentation to test different transformed images, using transformations such as vertical and horizontal flips. Finally, the average result values from the submodels are used as the final output. The outputs are passed through the Tanh function to generate a binary predicted mask and then rounded to {0, 1}. After completing these steps, we apply morphological operations to fill the holes within segmented regions to improve the true positive rate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Yi et al. (2nd place, LkRobotAILab team)</head><p>The focus of Yi et al.'s approach <ref type="bibr" target="#b54">(Yi et al., 2023)</ref> was to improve on the fine details of DFU segmentation predictions. First, a coarse-to-fine two-stage structure was used, similar to how the human visual system functions. Second, edge information was added from the DFU mask as additional supervisory information during training. For the coarse-tofine structure, OCRNet <ref type="bibr" target="#b55">(Yuan et al., 2019)</ref> was used as the baseline model. The first stage of the baseline is a simple FCN <ref type="bibr" target="#b34">(Long et al., 2015)</ref>. In this stage, the FCN is used to coarsely segment the DFU and the result is fed into the next stage as wound semantic information. In the second stage, the wound semantic information interacts with the pixel representation information to produce a more detailed segmentation result. To extract more robust pixel and semantic representational information, ConvNeXt <ref type="bibr" target="#b33">(Liu et al., 2022)</ref>, a state-of-the-art classification network was chosen as the backbone for the model. Additionally, the output features of the four layers of the ConvNeXt encoder were concatenated to enhance the model's perception of spatial information and to improve its generalisation of changes in the object scale. In the DFUC 2022 dataset, the diverse representation of DFU edges was noted. In order to further improve the DFU segmentation results, an ''edge loss'' loss function was added to constrain boundary information. The above improvements form the final model, namely Edge-OCRNet. Its structure is illustrated in Fig. <ref type="figure" target="#fig_1">2</ref>. For a full description of this method, please refer to <ref type="bibr" target="#b54">Yi et al. (2023)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Galdran et al. (3rd place, Agaldran team)</head><p>This approach was focused on a specific aspect of the foot ulcer segmentation problem: analysing the robustness to the potential absence of a DFU in the image <ref type="bibr" target="#b16">(Galdran et al., 2023)</ref>. In this case, robustness was understood as reliably handling images that might not contain any DFU, without creating false positives. Note that in DFUC 2022 <ref type="bibr">(Kendrick et al., 2022)</ref>, predicting a single DFU pixel on a DFU-free image would result in a DSC of 0. Therefore it becomes critical to avoid false positive detections in disease-free samples.</p><p>With the aim of training a model that reliably discards healthy images, we carried out a comprehensive analysis on the impact of a range of five popular segmentation loss functions, which were used to optimise the weights of an array of different architectures, all of which were double encoder-decoder networks, but with different architectural backbones <ref type="bibr" target="#b15">(Galdran et al., 2021)</ref>. Fig. <ref type="figure">3</ref> illustrates the architecture of the proposed method. As detailed in Section 5.3, the standard Cross-Entropy loss function was shown to be the most robust of all the loss functions tested with DFU-free images. Coupled with a five-fold Fig. <ref type="figure">3</ref>. Overview of the AGaldran Team approach. A double encoder-decoder network <ref type="bibr">(Galdran et al., 2022)</ref> takes an image, generates a prediction and then uses the image with the prediction to refine the output. This architecture was optimised with five different loss functions in order to find out which option would work better in the absence of a DFU on the input image. ensemble of a double FPN model with a ResNeXt101 backbone, this was the final submitted solution, as outlined in Section 4.3. The analysis shows that using the popular DSC loss for segmenting DFU would result in accurate delineations whenever an ulcer was present, but tended to generate spurious predictions when the image contained no DFU. This anomaly is likely due to the well-known miscalibration of models trained with Cross-Entropy loss <ref type="bibr">(Mehrtash et al., 2020-12)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Chen et al. (4th place, ADAR-LAB team)</head><p>ADAR-LAB proposed a modified TransFuse model for DFUC 2022, which consists of a transformer branch, CNN branch, and fusion modules. The overview of their proposed architecture is shown in Fig. <ref type="figure" target="#fig_2">4</ref>.</p><p>The CSWin-Transformer was selected as the backbone of the Transformer branch <ref type="bibr" target="#b10">(Dong et al., 2022)</ref> due to its state-of-the-art performance with publicly available pre-trained weights. An additional upsampling module was applied in the Transformer branch to allow for the feature maps to be decoded at a higher resolution, so that the error on the edges can be reduced.</p><p>For the CNN branch, ResNet-50 and HarDNet-68 <ref type="bibr" target="#b19">(He et al., 2016;</ref><ref type="bibr">Chao et al., 2019a)</ref> were considered for the backbone to extract local features. Limiting the model size is helpful to decrease the memory overhead during training. Through our experiments, we found that ResNet-50 demonstrated higher performance in validation, so it was adopted as the CNN-branch backbone in the proposed model architecture.</p><p>The function of the Fusion module is to apply attention to and combine the outputs of the Transformer and CNN branches. Two kinds of attention modules are applied: the squeeze-and-excite (SE) block, a channel-attention technique, and the convolutional block attention module (CBAM), a spatial-attention technique <ref type="bibr">(Hu et al., 2018b;</ref><ref type="bibr" target="#b49">Woo</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Brüngel et al. (5th place, FHDO team)</head><p>Prior work during the DFUC 2021 <ref type="bibr" target="#b0">(Bloch et al., 2022)</ref> has proven the potential of Generative Adversarial Network (GAN) <ref type="bibr" target="#b18">(Goodfellow et al., 2014)</ref>-generated synthetic images for dataset enrichment. In such cases, DFU infection and ischaemia classification performance was demonstrably improved. The approach used by team FHDO during the DFUC 2022 <ref type="bibr" target="#b2">(Brüngel et al., 2023)</ref> again relied on such a strategy to investigate the effects of synthetically generated DFU images on DFU segmentation performance. However, for this new segmentation task, the implementation differs in accordance to the nature of the segmentation problem.</p><p>Usually, conditional GANs <ref type="bibr" target="#b40">(Mirza and Osindero, 2014)</ref> should be preferred for the task of segmentation dataset enhancement. Masks used for synthetic image generation can directly serve as ground truth labels. Furthermore, masks can be shaped arbitrarily, enabling measures for increasing robustness against non-standard shape representations. However, preliminary experiments using the DFUC 2022 dataset with conditional GAN implementations did not yield adequate synthetic image quality. This could mainly be ascribed to the limited number of training images (𝑛 = 2000) with a predominant amount of very small DFU wound instances, as low data-efficiency of current conditional GAN implementations is a bottleneck. The lack of spatial information/complexity in single-class DFU segmentation problems also hinders conditional GANs in achieving high-quality generation results. Non-DFU tissue and other human body parts are equated with overall background features, making differentiated feature learning of such areas highly challenging. To address such challenges, the proposed method used StyleGAN2+ADA <ref type="bibr" target="#b24">(Karras et al., 2020)</ref>, a member of the unconditional StyleGAN <ref type="bibr" target="#b25">(Karras et al., 2019)</ref> family that applies Adaptive Discriminator Augmentation (ADA) to achieve a high data-efficiency.</p><p>The proposed DFU segmentation approach involved models with a Feature Pyramid Network (FPN) <ref type="bibr" target="#b32">(Lin et al., 2017)</ref> architecture, using an SE-ResNeXt101-32x4d backbone as variant of ResNeXt <ref type="bibr" target="#b50">(Xie et al., 2017)</ref> including a Squeeze-and-Excitation (SE) <ref type="bibr" target="#b20">(Hu et al., 2020)</ref> module. An overview of the proposed architecture is shown in Fig. <ref type="figure" target="#fig_3">5</ref>. Predictions were inferred using a large ensemble of different model checkpoints, as shown in the schematic in Fig. <ref type="figure" target="#fig_4">6</ref>. A total of 𝑘 = 5 differently initialised models were trained using a five-fold cross validation approach. The last 𝑟 = 5 epoch checkpoints of 𝑛 epochs were persisted and utilised in an ensemble 𝜇, consisting of 𝑘 × 𝑟 = 25 checkpoints. The 𝑘 × 𝑟 = 25 predictions of these for an image were averaged to a final mask, oriented towards Polyak-Ruppert averaging <ref type="bibr" target="#b43">(Polyak, 1990;</ref><ref type="bibr" target="#b44">Ruppert, 1988)</ref>.</p><p>Essential implementation details are summarised in Section 4.5, with more detailed elaborations given in <ref type="bibr" target="#b2">Brüngel et al. (2023)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Implementation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Yllab team implementation</head><p>During the training stage, ImageNet pre-trained weights were used to initialise the backbone, followed by training for 300 epochs using the AdamW optimiser. The batch size was set to 6, with a learning rate of 𝑙 = 1𝑒 -4 with a cosine-annealing scheduler. To preserve the original image aspect ratio, the training images are zero-padded into square dimensions then randomly resized between 384 × 384 and 640 × pixels. To allow for the model to learn more features across the different examples, data augmentation methods were employed during training including random vertical flipping, horizontal flipping, and cropping, etc.</p><p>During the testing phase, Test Time Augmentation was with the five sub-models respectively, with the predictions averaged to form the final results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">LkRobotAILab team implementation</head><p>The solution relies on MMSegmentation,<ref type="foot" target="#foot_0">1</ref> an open source semantic segmentation toolbox based on PyTorch, which is discussed in Section 3.2. All models were trained and tested on a single NVIDIA GeForce RTX™ 3090 24G. The following is a discussion of the specific implementation details.</p><p>In the training phase, pre-trained ImageNet <ref type="bibr" target="#b9">(Deng et al., 2009</ref>) classification networks were used as backbones. The best performing of these pre-trained models was ConvNeXt-XL <ref type="bibr" target="#b33">(Liu et al., 2022)</ref> pretrained on ImageNet-21K. The AdamW optimiser was used with a learning rate to 8e-5, weight decay of 0.05, a warmup step rate of 1500, a warmup ratio of 1e-6, a batch size of 4, and training iterations set to 60K if not specified. For training, the original DFUC training images were used as input (480 × 640 pixels) together with multi-scale examples used for data augmentation with an image size distribution interval of (0.5, 2.0) in steps of 0.25. Horizontal flipping (with 0.5 probability), random cropping (cropping size 512 × 512, maximum crop rate 0.75), and Photometric Distortion augmentation methods were also used to enhance the training data and to improve the generalisation ability of the model.</p><p>The use of multi-scaling and random cropping strategies during the training phase allowed the model to benefit from the FixRes effect <ref type="bibr" target="#b47">(Touvron et al., 2019)</ref> whereby performance is improved by using larger images during testing. During experiments, we observed that size range 𝑆 𝑡𝑟 ∕𝑆 𝑖𝑛𝑓 𝑒𝑟 = [1.2, 1.5] can produce better results in the DFUC 2022 segmentation task when using this training strategy. An input image size of 576 × 768 pixels was selected for the prediction. To alleviate the difference between the training domain and the test domain, test images were processed with gamma correction to increase the brightness of the test set. The ratio 𝑟 𝑔𝑎𝑚𝑚𝑎 = 𝑅𝐺𝐵 𝑡𝑟𝑎𝑖𝑛 𝑚𝑒𝑎𝑛 ∕𝑅𝐺𝐵 𝑡𝑒𝑠𝑡 𝑚𝑒𝑎𝑛 was used to determine gamma values in test images. In addition, multi-scale testing and TTA (horizontal and vertical flips) were also used during the inference of test images.</p><p>The DFUC 2022 segmentation task is a binary classification task for each pixel. At the time of prediction, the pixel is considered to belong to the DFU if its prediction score is greater than a threshold (t=0.655), otherwise, it is considered to be the background.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">AGaldran team implementation</head><p>This approach adopted a Feature-Pyramid Network architecture as part of a double encoder-decoder variant, as in the authors prior works <ref type="bibr" target="#b15">(Galdran et al., 2021)</ref>. Several backbone encoders, optimised with five different loss functions were also used. Each model was pre-trained using Imagenet weights, which were then optimised using the Adam optimiser with a learning rate of 𝑙 = 3𝑒 -4, a batchsize of 4, and an image size of 640 × 512. During training, images were augmented using common image processing operations (random rotations, translations, scalings, vertical/horizontal flipping, and contrast/saturation/brightness changes.). During the testing phase, Test-Time Augmentation was utilised.</p><p>The above process resulted in selecting a ResNext101 backbone trained and optimised with the Cross-Entropy loss function, which resulted in the highest performance, both in an internal five-fold crossvalidation setup, and also when submitting to the public DFUC 2022 validation leaderboard. The segmentation results from the final test set, using the resulting five-fold model ensemble, were submitted to the DFUC 2022 test leaderboard.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">ADAR-LAB team</head><p>Prior to training the segmentation network, an RPN with a ResNet-50 backbone was trained for 10,000 iterations <ref type="bibr" target="#b17">(Girshick, 2015)</ref>. The AdamW optimisation algorithm was employed to optimise parameters with a learning rate of 10 -5 . The batch size of each iteration was set to 32, sampled randomly from 1800 images in the training dataset, with the remaining 200 images used as validation data.</p><p>For the segmentation task, two stages were employed in the training process. First, we initialised of two backbones <ref type="bibr" target="#b19">(He et al., 2016;</ref><ref type="bibr" target="#b10">Dong et al., 2022)</ref> using ImageNet pre-trained weights. The models were then trained with 1800 images using the AdamW optimiser, with a learning rate of 3 × 10 -5 , and a batch size of 8 for 100 epochs. The loss function is the same as defined in the PraNet implementation <ref type="bibr" target="#b13">(Fan et al., 2020)</ref>. The model with the highest validation metrics was saved, and then used as the pre-trained weights for the next phase.</p><p>Using the best-performing parameters from the first stage of training, the second stage of training was completed using all 2000 training images for 50 epochs, or 20 epochs when the multi-scaling method was applied. In this stage, the batch size was set to 12, in which 4 comprised of resized inputs, and another 4 were cropped from one of corners, with the remainder cropped according to the RPN results. Two different optimisers were used: (1) SGD (used only for the CNN-branch backbone in the TransFuse model) with a momentum of 0.9, a learning rate of 10 -4 , scheduled by a cosine-annealing scheduler; and (2) AdamW with a learning rate of 3 × 10 -5 , also utilising a cosine annealing scheduler and employed for the rest of parameters in the model. The learning rates of both optimisers would decay to 0.1 of the initial learning rate at the end of training.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.">FHDO team implementation</head><p>The approach described in Section 3.5 utilised the Segmentation Models PyTorch<ref type="foot" target="#foot_2">2</ref> (SMP) as a wrapper framework for PyTorch <ref type="bibr" target="#b42">(Paszke et al., 2019)</ref>-based segmentation implementations, and StyleGAN2+ ADA <ref type="bibr" target="#b24">(Karras et al., 2020)</ref> for synthetic DFU image generation. The following subsections summarise implementation aspects, for which further details are reported in <ref type="bibr" target="#b2">Brüngel et al. (2023)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.1.">Ensembles of base models and extended models</head><p>As intensities of DFU instance border regions in the training set ground truth masks ranged from 0 to 255, masks were binarized using a threshold of ≥ 128. A total of 39 duplicate image pairs were identified with slightly differing ground truth were merged, keeping one instance with logically OR-ed corresponding masks. The resulting training dataset comprised of 1961 images with 2262 DFU instances.</p><p>For all baseline and extended segmentation models, nearly identical training configurations were used. An FPN <ref type="bibr" target="#b32">(Lin et al., 2017)</ref> architecture with SE-ResNeXt101-32x4d <ref type="bibr" target="#b20">(Hu et al., 2020;</ref><ref type="bibr" target="#b50">Xie et al., 2017)</ref> backbone was used, pre-trained on ImageNet <ref type="bibr" target="#b9">(Deng et al., 2009)</ref>, using the 𝑠𝑖𝑔𝑚𝑜𝑖𝑑 activation function. Adam <ref type="bibr" target="#b29">(Kingma and Ba, 2015)</ref> was chosen as the optimiser with an initial learning rate of 0.0001, with DSC as the loss function. All models were trained on a single NVIDIA ® V100 16 GB,<ref type="foot" target="#foot_3">3</ref> using a batch size of 24. The only differences between baseline and extended models were the number of trained epochs, the learning rate schedule, and, most decisively, the training set variant (baseline or extended) they were trained on. Baseline models were trained for 150 epochs, dropping the learning rate to 0.00005 at epoch 100 and to 0.00001 at epoch 135. Extended models were trained for 150 epochs, dropping the learning rate to 0.00001 at epoch 120.</p><p>A consistent augmentation pipeline was applied for training, implemented using the Albumentations library <ref type="bibr" target="#b3">(Buslaev et al., 2020)</ref>. Augmentations and parameters were chosen to not distort DFU representations beyond domain-typical variance, thus excluded methods such as colour shifts or channel drops. If not stated otherwise, the default parameterisation of operations was used. The pipeline first applied guaranteed random cropping (RandomCrop with 𝚠𝚒𝚍𝚝𝚑∕𝚑𝚎𝚒𝚐𝚑𝚝 = 352, 𝑝 = 1.0), followed by random image flipping (Flip, 𝑝 = 0.5) as well as shifting, scaling, and rotating (ShiftScaleRotate, 𝑝 = 0.5). To distort images, either grid distortion, elastic transformation (GridDistort, or ElasticTransform, 𝑝 = 0.5) were applied randomly. Brightness and contrast were also modified, applying either contrast-limited adaptive histogram equalization (CLAHE), random gamma, or random brightness and contrast (CLAHE, RandomGamma or Random-BrightnessContrast, 𝑝 = 0.5). Random sharpening or (motion) blurring (Sharpen or Blur with 𝚋𝚕𝚞𝚛 𝚕 𝚒𝚖𝚒𝚝 = 8 or MotionBlur with 𝚋𝚕𝚞𝚛 𝚕 𝚒𝚖𝚒𝚝 = 8, 𝑝 = 0.5) was also applied. Gaussian noise (GaussianNoise, 𝑝 = 0.5) was added as final step.</p><p>The baseline models were trained on the clean baseline training set variant with 1961 images. These were then used to pseudo-label synthetic images, generated as described in Section 4.5.2. Extended models were then trained on the synthetically enriched training set with 5961 images (+4000 pseudo-labelled synthethic images).</p><p>Table <ref type="table">1</ref> A comparison of the methods proposed by the winners. Note that all methods adopted data augmentation and pre-trained models in their implementation. We observe that the backbone selections are varied for the participants. TTA: Test Time Augmentation. All segmentation model predictions were inferred at a confidence threshold of 50 % and had the same weight in averaged ensembles. Simple post-processing was applied for all baseline ensemble predictions on the validation set, and pseudo-labels for synthetic images, involving instance filtering by size. Instances detected by a contour finding algorithm <ref type="bibr" target="#b45">(Suzuki and Abe, 1985)</ref> were removed when measuring &lt; 1 ‰ of the whole image area. This was only applied to predictions with more than one instance. Finally, opening was applied with a 2 × 2 square kernel for size filtering artefact removal. Whether this procedure was applied for a submission or not is stated in the reported results in Section 5.5.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.2.">Synthetic image generation and pseudo-labelling</head><p>A StyleGAN2+ADA <ref type="bibr" target="#b24">(Karras et al., 2020)</ref> generation model was trained for 1000 steps on 512 × 512 px centre crops of the pre-processed training set with activated mirroring amplification. This involved four NVIDIA ® V100 16 GB GPUs, enabling a batch size of 32. The default 512 px configuration with Flickr Faces HQ <ref type="bibr" target="#b26">(Kazemi and Sullivan, 2014)</ref> pre-trained weights as well as the default ADA settings were used. A minimum Frechet Inception Distance (FID) of 19.09 was achieved at 880 steps, using respective weights generation of 4000 synthetic images using the seeds 0 -3999.</p><p>Synthetic images were then pseudo-labelled using the previously created baseline ensemble, applying the post-processing procedure described in Section 4.5.1. Synthetic images yielded as PNG were then converted to JPEG with the same compression level as the DFUC 2022 testing set images. These, together with their pseudo-labels, were then added to the training dataset.</p><p>Table <ref type="table">1</ref> compares the proposed methods and the implementations. All the methods deployed data augmentation and pre-trained models. Various post-processing techniques were used to produce the final results, with 3 teams using Test Time Augmentation (TTA) and two using ensemble approaches.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Yllab results</head><p>Table <ref type="table">2</ref> shows the results of five team Yllab submissions during the final testing phase. We experiment with different deep supervision and TTA methods to improve the performance of our model. There are two deep supervision losses, called Deep1 and Deep2, and a boundary loss, called Boundary. With the addition of deep supervision losses, boundary loss, and the horizontal flip with a vertical flip TTA method, HarDNet-DFUS achieved 0.7287 mean DSC and ranked first among all teams.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">LkRobotAILab results</head><p>In Table <ref type="table" target="#tab_1">3</ref>, the ablation study of the improvement of our method is shown. By using a robust backbone, adding edge loss, and using several TTA methods, our solution achieved 0.7280 (rank 2) mean DSC and 0.6276 (rank 1) mean Jaccard during the testing phase.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">AGaldran results</head><p>The analysis of this team was guided towards understanding which loss function, within a set of five candidates, was more capable of dealing with disease-free images. The considered candidates were the standard Cross-Entropy (CE,  BCE ) and DSC loss ( Dice ), together with a series of three different combinations, namely: adding them ( BCE+Dice ), linearly interpolating from CE to DSC during training ( BCE→Dice ), and training for 90% of the epochs with  BCE and then switching to DSC ( BCE⇝Dice ).</p><p>Internal cross-validation results indicated that  BCE+Dice and  BCE⇝Dice could achieve high performance when evaluated on images that would always contain ulcers, which composed the original training set. However, by assessing performance upon submission to the public validation set (which contained lesion-free samples) during model development, we found that this trend was reverted and the CE loss  BCE resulted in highest performance, whereas models trained minimising  BCE+Dice and  BCE⇝Dice , as well as  Dice , resulted in a drastic degradation in DSC. Once the  BCE loss was adopted as the best solution, a ResNeXt-101 encoder coupled with a Feature-Pyramid-Network was trained and corresponding segmentation results were submitted using the hidden test set. Several post-processing steps were tested to ascertain which was the most appropriate TTA scheme, considering several combinations: (1) no TTA, (2) only flip image horizontally, (3) only Rotate the image 15 • , (4) only colour jittering, (5) flip image and colour jittering. The results shown in Table <ref type="table" target="#tab_2">4</ref> indicate that no extreme differences in performance occurred, although the last combination was +0.30 DSC which indicates superior performance compared to not using TTA at all, which can be considered as a relevant difference since the winner of the challenge was +0.24 DSC over our approach. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4.">ADAR-LAB results</head><p>In the ablation study, we obtained experiment results of the methods we applied in this challenge with fine-tuned parameters after the final testing phase, which resulted in a DSC of 0.7270 on the testing dataset. Then, we gradually introduced a number of common methods, and the results are shown in Table <ref type="table" target="#tab_4">5</ref>. After adding focal loss to our loss function, there was an improvement of 0.001 in DSC. Training the model with randomly resized images further improved DSC by 0.0005.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.5.">FHDO team results</head><p>Synthetic DFU representations generated by the unconditional Style-GAN2+ADA model showed an overall good quality, in terms of realism, and a broad variety. Examples are shown in the left column of Fig. <ref type="figure" target="#fig_5">7</ref>. Representations of feet mostly ranged from anatomically unobtrusive and presumably healthy feet with absence of DFUs, up to malformed or partially amputated feet with highly diverse DFU representations. Anatomically implausible representations of feet were also generated, e.g., highly elongated body parts or multiple extra-toes. However, such examples constituted the minority of cases. DFU representations ranged from small and early stage wounds, over medium-sized and well demarcated areas, up to large-sized areas with complex tissue composition. All three main tissue types, granulation, slough, and necrosis, were present either uniformly, or as part of tissue combinations. Wound bed depths ranged from deep hole-like, over shallow, up to protruded hypergranulation-like manifestations. Common accompanying symptoms such as rhagades, macerated wound borders, hyperkeratotic or flaking skin layers, and reddened or discoloured peri-wound areas were generated as well, showing high levels of detail. Backgrounds typically showed white cloth, blue foil, or mixes of both which are characteristic for the DFUC 2022 dataset. Pseudo-ground truth for synthetic images created by the baseline model ensemble showed good levels of consistency. Examples of binary masks are shown in the middle column of Fig. <ref type="figure" target="#fig_5">7</ref> with corresponding image cutouts in the right column. Further details and numerous samples of synthetic images with created pseudo-ground truth are reported in <ref type="bibr" target="#b2">Brüngel et al. (2023)</ref>.</p><p>Performance of the baseline and extended model ensembles are reported in Table <ref type="table">6</ref>. The upper part reports results on the validation set, the lower part results on the testing set. During the validation phase, both the baseline and the extended ensemble were evaluated, with both using the described post-processing procedure. In this phase, the extended model ensemble performed consistently better than the baseline model ensemble, achieving notably higher DSC and Jaccard values as well as notably lower FNE and FPE. During the testing phase, only the extended model ensemble was used for submissions, with and without involvement of the post-processing procedure. The final results show that the extended model submission without postprocessing performed best, achieving a DSC of 0.7169, a Jaccard value of 0.6130, an FNE of 0.2453, and an FPE of 0.2145. Further results of post-challenge evaluations are reported in <ref type="bibr" target="#b2">Brüngel et al. (2023)</ref>, with particular attention to potential overfitting in the final results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.6.">Comparison of the best model from each method</head><p>On the final submission leaderboard, the performance of the methods from the DFUC 2022 winners with DSC values &gt; 0.70 on non-DFU, small, medium and large DFU regions are illustrated on Fig. <ref type="figure" target="#fig_6">8</ref>. The top-10 results is summarised in Table <ref type="table">7</ref>. Noted that group ''seoyoung'' did not submit a paper to describe their method, therefore, was not considered in the analysis. The fifth place was awarded to FDHO Team. The number of test set submissions for the top-5 teams was as follows: Yllab (𝑛 = 5), LkRobotAILab (𝑛 = 4), AGaldran (𝑛 = 5), ADAR-Lab (𝑛 = 5), FHDO (𝑛 = 5). The mean DSC and Jaccard values for the top-5 teams are 0.7261 and 0.6251 respectively, with a standard deviation of 0.0026 and 0.0027 respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Comprehensive analysis</head><p>In this section, we demonstrate the ability of the networks by performing a comprehensive analysis of the segmentation results. First, we analyse the effect of ensemble methods in DFU segmentation; Second, we perform statistical analysis on the winning teams' results; Third, we implement region-based measurement; and finally, we investigate the relationship between DSC values and region sizes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">Ensemble methods</head><p>A common approach to improve segmentation metrics is to ensemble a series of the best performing models, with each model capable of identifying alternative features. For instance, some models may exhibit superior performance in the identification of infected regions, while other models may show better performance in segmenting early stage DFU. Additionally, using an ensemble of models can help to avoid false detections by allowing the networks to vote on active regions which can create a more robust system. In this section, we analyse the ability of the networks to cohesively segment DFU regions.</p><p>We perform an analysis of three different ensemble types for segmentation, namely:</p><p>• Union: if one method indicates that the pixel is DFU then the ensemble will classify as DFU • Voting: if half or more of the methods indicate that the pixel is DFU then the ensemble will classify as DFU • Intersection: if all methods voted the pixel as DFU, then the ensemble will classify it as DFU</p><p>For the ensemble analysis, we take the best-performing networks from the DFUC 2022 winners with DSC values &gt; 0.70, and post-process their results with the ensemble methods. We received the binary mask predictions from Yllab <ref type="bibr" target="#b31">(Liao et al., 2023)</ref>, LkRobotAILab <ref type="bibr" target="#b54">(Yi et al., 2023)</ref>, AGaldran <ref type="bibr" target="#b16">(Galdran et al., 2023)</ref>, ADAR-LAB <ref type="bibr" target="#b8">(Chen et al., 2023)</ref> Table <ref type="table">7</ref> The top-10 participating teams for DFUC 2022, starting with the best DSC value. † = higher score is better; ⊎ = lower score is better. bold indicates the best overall result.   and FHDO <ref type="bibr" target="#b2">(Brüngel et al., 2023)</ref>. We then process the method with the 3 techniques and visualise the results (see Fig. <ref type="figure" target="#fig_7">9</ref>). Table <ref type="table" target="#tab_6">8</ref> illustrates how each method optimises separate metrics. In the case of intersection, we see a significant reduction of FNE with the highest score equal to the lowest on the next ensemble method, highlighting how the removal of none intersecting pixels highlights core DFU related features. Whereas, in the case of FPE, Union reduces the FPE for all ensemble methods below that of other ensemble methods, showing that the different methods highlight different sections and features of the DFU regions. Finally, the voting system shows the best performance for DSC and Jaccard, highlighting the ability of the combined approach to improve prediction overlap. Additionally, we observe that the values improve with each additional method, highlighting that the diversity in the combined network predictions allow for significantly improved segmentation. In-contrast, the opposite correlation is also demonstrated -if the ensemble improves FPE then a reduction in FNE occurs.</p><p>While ensembling the predictions of the top teams appears to demonstrate marginal improvements to the results, we perform further analysis on different test sets. Fig. <ref type="figure" target="#fig_8">10</ref> illustrates the mean DSC of winning teams and ensemble methods on 3 test sets based on the ratio of the DFU area to the image area. We split the test set based on the ratio values in the range of (0,0.01), (0.01,0.05), and (0.05,0.10).</p><p>We observe that the algorithms are less accurate in segmenting small DFU regions, but gradually improve as DFU areas increase. The union ensemble method demonstrated the worst performance for small DFU areas. Overall, this analysis demonstrates that the most difficult cases for DFU segmentation are images with small DFU regions, in particular for those with a ratio &lt; 0.01.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">Statistical analysis</head><p>We conduct an analysis based on DSC values, but not on IoU as it is correlated with DSC. First, we determine if the multivariate sample means are equal by performing a MANOVA. MANOVA was selected as it improves on the capabilities of analysis of variance (ANOVA) by using multiple dependent variables simultaneously.</p><p>Fig. <ref type="figure" target="#fig_9">11</ref> illustrates the boxplots determined using test set DSC values for the best performing teams. Based on ANOVA we found that there were no significant differences between the mean DSC values obtained for each method (𝑝-value =0.42).</p><p>We observed a strong linear correlation between the test DSC values obtained by the best performing teams, with pairwise Pearson correlation coefficients equal to approximately 0.85 (𝑝-values&lt;0.001). In particular, Fig. <ref type="figure" target="#fig_10">12</ref> illustrates the relationship between the DSC values obtained for the Yllab and LkRobotAILab teams. Although these two methods achieved similar DSC values, Fig. <ref type="figure" target="#fig_10">12</ref> shows that the networks misdetected different DFU images (DSC values of 0). This finding motivates the utilisation of ensemble methods in the previous sections since there were cases correctly segmented by one of the methods, but missed by the other.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">Region-based analysis</head><p>The metrics used for DFUC 2022 are image-based, rather than region-based, i.e. the accuracy of each segment of the ulcer. However, in medical practice, the measure of true positives and false positives, based on each region, are used to measure the reliability of any computer aided tools. Therefore, we complete an analysis on region-based analysis. A region is deemed to be a true positive if the DSC value of the ground truth region and the predicted region is above a certain threshold. We compare the performance by calculating the following performance metrics: accuracy, recall, precision and F1-score.</p><p>The challenge methods segmented different numbers of regions, with Yllab predicting 2380 regions, LkRobotAILab predicting regions, AGaldran predicting 2115 regions, Adar-Lab predicting regions, and FHDO predicting 2477 regions. Fig. <ref type="figure" target="#fig_11">13</ref> shows the relationship between the metrics and the DSC threshold values. In addition, Table <ref type="table" target="#tab_7">9</ref> compares the obtained results using region-based measurement for the threshold of 𝐷𝑆𝐶 &gt; 0.5, which corresponds to the case where at least half of the predicted region overlaps with the ground truth segmentation mask. It is noted that AGaldran team achieved higher results compared to the other methods, especially with respect to precision.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.4.">Region size analysis</head><p>Previous studies reported that the region based loss functions (e.g. those utilising DSC) induce a bias towards a specific region size <ref type="bibr">(Maier-Hein et al., 2020b)</ref>. To assess this phenomenon with respect to the DFUC 2022 winner test set results, we investigated the relationship between DSC values and region sizes. First, we performed correlation analysis and found positive and significant (𝑝-values&lt;0.001) correlation between the DSC values and region sizes, with Spearman's rank correlation coefficients equal to 0.43, 0.40, 0.42, 0.43 and 0.40 for Yllab, LKRobotAILab, AGaldran, Adar-Lab and FHDO team, respectively. Fig. <ref type="figure" target="#fig_12">14a</ref>) illustrates the relationship between the test DSC values and region sizes obtained for the network from the Yllab team. For visualisation, region sizes were normalised by the maximal region size and logarithmized. Second, to further highlight the relationship between the test DSC values and region sizes, we split the area of the instance regions to three equal groups, small, medium and large, based on percentiles. For example, the small group included cases with the region area below the 33th percentile. Boxplots presenting the DSC values for each group for the Yllab method are shown in Fig. <ref type="figure" target="#fig_12">14(b</ref>). In this case, there were 99, 53 and 17 cases with DSC values equal to 0 for the small, medium and large group, respectively. Moreover, ANOVA and Tukey's honestly significant difference test indicated that the mean DSC values were significantly different (𝑝-values&lt;0.001) between all three size categories. We repeated the ANOVA analysis and obtained similar findings for the remaining four segmentation networks, indicating that all investigated methods underperformed in the case of smaller regions with respect to the DSC metric.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Research impact and future work</head><p>The DFU segmentation dataset which has been shared with the research community as part of the DFUC 2022 represents the largest publicly available chronic wound dataset to date. As such, this present challenge report represents the latest insights into the field. Prior works focused on experimenting with smaller datasets at lower image resolutions. Higher resolution DFU wound images present more features and a correspondingly more challenging task. The research works detailed in this challenge report provide key insights into the challenges inherent in chronic wound segmentation. The results presented in the present paper highlight the difficulties that underpin the current state of research in the field, particularly in the segmentation of smaller DFU wounds. Chronic wounds can be highly visually complex in nature, especially larger, more developed cases. The range in visual complexity depending on wound development and healing status means that model accuracy is dependent on the model's ability to identify a large range of varied and complex features. In part, such feature variation may be responsible for the challenges in chronic wound segmentation, which may be revealed through the sharing of more diverse datasets and the use of higher resolution images. Future work should focus on a greater understanding of the data used to train segmentation models. A lack of thorough data understanding may be one of the limiting factors in the field. Datasets collected from a single hospital may mean that there are same-patient cases present across training and testing sets, albeit from different visits. Identification of small wounds may prove to be a key facet of fully automated early monitoring systems, which could help patients to seek medical assistance before wounds become more serious. To promote continued research in the field, both the DFUC 2022 dataset and the Grand Challenge platform will continue to be made publicly available after the challenge deadline. It is our intent to conduct further chronic wound related challenges in the near future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Conclusion</head><p>DFUC 2022 was conducted to support innovation in computer algorithm development, encourage data sharing, and enable reproducible and multidisciplinary research. Amongst the 26 participating teams, the winning teams set the baselines for this new segmentation dataset, with a DSC of 0.7287. This paper provides an extensive post-challenge analysis. By conducting ensemble methods, we observed marginal performance improvements. The statistical analysis showed that there are no significant differences between the top-2 best performers. We provide further analysis based on region-based segmentation performance, with findings showing a significant positive correlation between the DSC values and DFU region sizes. When we categorised the region sizes to small, medium and large, we found the mean DSC values were significantly different for all categories. Our analysis indicates that the methods proposed by the winning teams underperformed in the segmentation of small DFU regions.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Overview of HarDNet-DFUS.</figDesc><graphic coords="3,312.12,55.79,240.24,141.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Overview of Edge_OCRNet. On the basis of OCRNet, the backbone network is replaced by ConvNeXt, the outputs of the four layers of the backbone are merged and an edge loss is added.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Overview of the modified TransFuse model proposed by the ADAR-LAB team for DFUC 2022. The Transformer-branch encoder is CSwin-Base and the CNN-branch is ResNet-50. They are fused by Fusion modules at 3 different resolutions. Due to the additional upsampling module applied on the Transformer branch, feature maps can be decoded at a higher resolution compared to the original TransFuse model.</figDesc><graphic coords="4,312.12,185.54,240.24,157.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Overview of the Feature Pyramid Network (Lin et al., 2017) architecture, utilising a ResNeXt (Xie et al., 2017) backbone with a Squeeze-and-Excitation (Hu et al., 2020) module, partially adapted from illustrations from the original works.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Illustration of the ensemble approach used by the FHDO team: The last 𝑟 checkpoints of 𝑛 training epochs of 𝑘 differently initialised models are used in an ensemble 𝜇 for averaged predictions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Examples of generated synthetic images with pseudo-labels predicted by the baseline ensemble, as generated by team FHDO: The first row shows a presumably healthy foot, the second row shows multiple small-sized and shallow DFU instances, the third row shows a medium-sized and well-demarcated DFU with pronounced maceration in the periwound, and the fourth row shows a large-sized DFU instance with mixed tissue and non-uniform edges.</figDesc><graphic coords="8,312.12,55.79,240.24,331.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Comparison of a selection of prediction results from participating teams overlayed on the test images.</figDesc><graphic coords="9,69.71,55.73,456.11,481.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. The results of ensemble of the winning team's images with different cases, Intersection (left), Union (middle) and Vote (Right).</figDesc><graphic coords="10,43.03,220.32,240.24,59.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. Boxplots comparing the DSC values of the winning teams and ensemble methods on 3 test sets with different ratios of DFU area to image area, with (a) ratio in the range of (0,0.01); (b) ratio in the range of (0.01,0.05); and (c) ratio in the range of (0.05,0.10). Note: 1st-5th indicate the 5 winning teams, ∩, ∪ and Vote indicates ensemble methods of intersection, union and vote, respectively.</figDesc><graphic coords="11,40.53,55.79,514.32,134.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 11 .</head><label>11</label><figDesc>Fig. 11. Boxplots presenting the test set DSC values achieved by the higher performing teams in DFUC 2022.</figDesc><graphic coords="11,74.93,241.26,176.40,138.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 12 .</head><label>12</label><figDesc>Fig. 12. Graph presenting the linear relationship between the DSC values obtained for the two higher performing teams in DFUC 2022 (Yllab and LkRobotAILab) with a Pearson linear correlation coefficient equal to 0.87.</figDesc><graphic coords="11,74.50,421.14,177.36,141.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 13 .</head><label>13</label><figDesc>Fig. 13. Results of the region based analysis for different DSC threshold values.</figDesc><graphic coords="11,312.12,241.26,240.24,187.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 14 .</head><label>14</label><figDesc>Fig. 14. The relationship (a) between the DSC values and region sizes for the segmentation network from the Yllab team. Additionally, we split (b) the area of the instance regions to three equal groups: small, medium and large. Results indicate that the segmentation network underperformed in the case of the smaller regions in terms of DSC.</figDesc><graphic coords="12,74.50,55.79,177.36,283.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3</head><label>3</label><figDesc>The performance of LkRobotAILab's model in the final testing phase of DFUC 2022.</figDesc><table><row><cell>Model</cell><cell>Dice</cell><cell>Jaccard</cell></row><row><cell>OCRNet+HRNet-48</cell><cell>0.7057</cell><cell>0.6028</cell></row><row><cell>OCRNet+ConvNeXt-XL</cell><cell>0.7219</cell><cell>0.6194</cell></row><row><cell>OCRNet+ConvNeXt-XL+Edge-loss</cell><cell>0.7226</cell><cell>0.6207</cell></row><row><cell>OCRNet+ConvNeXt-XL+Edge-loss+TA a</cell><cell>0.7280</cell><cell>0.6276</cell></row></table><note><p>a Includes TTA and multi-scale testing.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 4</head><label>4</label><figDesc>Performance of different models trained by team AGaldran on a variety of loss functions on the DFUC 2022 testing set.</figDesc><table><row><cell>Model + Loss Function</cell><cell>DSC</cell></row><row><cell>TTA 1: No TTA</cell><cell>72.33</cell></row><row><cell>TTA 2: Rotation 15 •</cell><cell>72.40</cell></row><row><cell>TTA 3: Colour Jittering</cell><cell>72.56</cell></row><row><cell>TTA 4: Horizontal Flip</cell><cell>72.61</cell></row><row><cell>TTA 5:</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Horizontal Flip+Colour Jittering 72.63</head><label></label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>The results of submissions for team ADAR-LAB after the final testing phase.</figDesc><table><row><cell></cell><cell>Model</cell><cell></cell><cell></cell><cell>DSC</cell><cell></cell></row><row><cell></cell><cell>None</cell><cell></cell><cell></cell><cell>0.7270</cell><cell></cell></row><row><cell></cell><cell>focal loss</cell><cell></cell><cell></cell><cell>0.7280</cell><cell></cell></row><row><cell></cell><cell cols="2">focal loss + multi-scale</cell><cell></cell><cell>0.7285</cell><cell></cell></row><row><cell>Table 6</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="6">Team FHDO results for baseline and extended model ensembles, best results per</cell></row><row><cell cols="2">challenge phase are highlighted.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Ensemble</cell><cell>Post-proc.</cell><cell>Dice</cell><cell>Jaccard</cell><cell>FNE</cell><cell>FPE</cell></row><row><cell cols="2">Submissions for validation set</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Baseline</cell><cell>Yes</cell><cell>0.6895</cell><cell>0.5880</cell><cell>0.2693</cell><cell>0.2493</cell></row><row><cell>Extended</cell><cell>Yes</cell><cell>0.6971</cell><cell>0.5974</cell><cell>0.2578</cell><cell>0.2466</cell></row><row><cell cols="2">Final submissions for testing set</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Extended</cell><cell>No</cell><cell>0.7169</cell><cell>0.6130</cell><cell>0.2453</cell><cell>0.2145</cell></row><row><cell>Extended</cell><cell>Yes</cell><cell>0.7136</cell><cell>0.6086</cell><cell>0.2470</cell><cell>0.2195</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 8</head><label>8</label><figDesc>Results of each of the ensemble methods. Italics indicates the best performing method for each ensemble method, and bold indicates the best overall metric value.</figDesc><table><row><cell>Ensemble Method</cell><cell>Metrics</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>DSC</cell><cell>Jaccard</cell><cell>FPE</cell><cell>FNE</cell></row><row><cell>Intersect1</cell><cell>0.7264</cell><cell>0.6263</cell><cell>0.2440</cell><cell>0.2025</cell></row><row><cell>Intersect2</cell><cell>0.7202</cell><cell>0.6209</cell><cell>0.2673</cell><cell>0.1907</cell></row><row><cell>Intersect3</cell><cell>0.7179</cell><cell>0.6191</cell><cell>0.2757</cell><cell>0.1874</cell></row><row><cell>Intersect4</cell><cell>0.7122</cell><cell>0.6134</cell><cell>0.2866</cell><cell>0.1848</cell></row><row><cell>Union1</cell><cell>0.7302</cell><cell>0.6270</cell><cell>0.1763</cell><cell>0.2556</cell></row><row><cell>Union2</cell><cell>0.7279</cell><cell>0.6248</cell><cell>0.1654</cell><cell>0.2677</cell></row><row><cell>Union3</cell><cell>0.7263</cell><cell>0.6231</cell><cell>0.1544</cell><cell>0.2771</cell></row><row><cell>Union4</cell><cell>0.7196</cell><cell>0.6146</cell><cell>0.1477</cell><cell>0.2925</cell></row><row><cell>Vote1</cell><cell>0.7264</cell><cell>0.6263</cell><cell>0.2440</cell><cell>0.2025</cell></row><row><cell>Vote2</cell><cell>0.7318</cell><cell>0.6320</cell><cell>0.2133</cell><cell>0.2224</cell></row><row><cell>Vote3</cell><cell>0.7299</cell><cell>0.6307</cell><cell>0.2285</cell><cell>0.2128</cell></row><row><cell>Vote4</cell><cell>0.7322</cell><cell>0.6324</cell><cell>0.2099</cell><cell>0.2253</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 9</head><label>9</label><figDesc>Comparison of segmentation results using region-based measurement with a threshold of 𝐷𝑆𝐶 &gt; 0.5. bold indicates the best overall result.</figDesc><table><row><cell>Methods</cell><cell>Metrics</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Accuracy</cell><cell>Recall</cell><cell>Precision</cell><cell>F1-Score</cell></row><row><cell>Yllab</cell><cell>0.6222</cell><cell>0.7890</cell><cell>0.7445</cell><cell>0.7661</cell></row><row><cell>LkRobotAILab</cell><cell>0.6473</cell><cell>0.7925</cell><cell>0.7770</cell><cell>0.7847</cell></row><row><cell>AGaldran</cell><cell>0.6706</cell><cell>0.7783</cell><cell>0.8265</cell><cell>0.8017</cell></row><row><cell>Adar-Lab</cell><cell>0.6566</cell><cell>0.7796</cell><cell>0.8040</cell><cell>0.7916</cell></row><row><cell>FDHO</cell><cell>0.6108</cell><cell>0.7961</cell><cell>0.7218</cell><cell>0.7572</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>MMSegmentation: https://github.com/open-mmlab/mmsegmentation/ (accessed</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>2023-02-03).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_2"><p>Segmentation Models PyTorch library: https://github.com/qubvel/ segmentation_models.pytorch/ (access 2023-01-29).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_3"><p>https://www.nvidia.com/en-us/data-centre/v100/ (2023-01-29).</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We would like to thank the MICCAI conference for hosting DFUC 2022, and AITIS for sponsoring the wining teams' prizes. We would also like to thank all participants of the challenge for their effort and contributions to DFU research.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data has been made available for DFUC 2022 participants. It is made available upon request by submitting a licence agreement to the dataset owner.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,306.60,692.88,251.08,5.94;12,318.56,701.44,239.13,5.94;12,318.56,710.01,239.13,5.94;12,318.56,718.58,239.13,5.94;12,318.56,727.15,238.63,5.94;12,318.56,735.71,31.58,5.94" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Boosting EfficientNets ensemble performance via pseudo-labels and synthetic images by pix2pixHD for infection and ischaemia classification in diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brüngel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Friedrich</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-94907-5_3</idno>
+		<ptr target="http://dx.doi.org/10.1007/978-3-030-94907-5_3" />
+		<editor>Yap, M.H., Cassidy, B., Kendrick, C.</editor>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<publisher>Springer International Publishing</publisher>
+			<biblScope unit="page" from="30" to="49" />
+			<pubPlace>Cham, Switzerland</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Diabetic Foot Ulcers Grand Challenge</note>
+</biblStruct>
+
+<biblStruct coords="13,37.59,36.65,43.68,5.92" xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,57.17,251.08,5.94;13,49.54,65.74,239.13,5.94;13,49.54,74.31,239.13,5.94;13,49.54,82.88,239.13,5.94;13,49.54,91.44,90.77,5.94" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Unconditionally generated and pseudolabeled synthetic images for diabetic foot ulcer segmentation dataset extension</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brüngel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koitka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Friedrich</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-031-26354-5_6</idno>
+		<ptr target="http://dx.doi.org/10.1007/978-3-031-26354-5_6" />
+		<editor>Yap, M.H., Kendrick, C., Cassidy, B.</editor>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<publisher>Springer International Publishing</publisher>
+			<biblScope unit="page" from="1" to="15" />
+			<pubPlace>Cham, Switzerland</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Diabetic Foot Ulcers Grand Challenge</note>
+</biblStruct>
+
+<biblStruct coords="13,37.59,99.68,251.09,5.94;13,49.54,108.25,239.13,5.94;13,49.54,116.82,134.70,5.94" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Albumentations: Fast and flexible image augmentations</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buslaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Iglovikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Khvedchenya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Druzhinin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Kalinin</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/info11020125</idno>
+		<ptr target="http://dx.doi.org/10.3390/info11020125" />
+	</analytic>
+	<monogr>
+		<title level="j">Information</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">125</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,125.06,251.08,5.94;13,49.54,133.63,239.13,5.94;13,49.54,142.19,217.35,5.94" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Diabetic foot ulcer grand challenge 2021: evaluation and summary</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kendrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pappachan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diabetic Foot Ulcers Grand Challenge</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="90" to="105" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,150.43,251.09,5.94;13,49.54,159.00,239.13,5.94;13,49.54,167.57,239.13,5.94;13,49.54,176.14,239.13,5.94;13,49.54,184.71,238.63,5.94;13,49.54,193.27,229.34,5.94" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">2021b. The DFUC 2020 dataset: Analysis towards diabetic foot ulcer detection</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pappachan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gillespie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Maiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J M</forename><surname>Boulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Najafi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kochhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<idno type="DOI">10.17925/EE.2021.17.1.5</idno>
+		<ptr target="https://www.touchendocrinology.com/diabetes/journal-articles/the-dfuc-2020-dataset-analysis-towards-diabetic-foot-ulcer-detection/1" />
+	</analytic>
+	<monogr>
+		<title level="j">Touchrev. Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="5" to="11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,201.51,251.09,5.94;13,49.54,210.08,239.13,5.94;13,49.54,218.65,107.70,5.94" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Hardnet: A low memory traffic network</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-Y</forename><surname>Kao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-S</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF International Conference on Computer Vision</title>
+		<meeting>the IEEE/CVF International Conference on Computer Vision</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="3552" to="3561" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,226.89,251.08,5.94;13,49.54,235.46,239.13,5.94;13,49.54,244.03,239.13,5.94;13,49.54,252.59,19.73,5.94" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">HarDNet: A low memory traffic network</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-Y</forename><surname>Kao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-S</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICCV.2019.00365</idno>
+		<ptr target="http://dx.doi.org/10.1109/ICCV.2019.00365" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE International Conference on Computer Vision. ICCV</title>
+		<meeting>the IEEE International Conference on Computer Vision. ICCV</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="3552" to="3561" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,260.83,251.09,5.94;13,49.54,269.40,239.13,5.94;13,49.54,277.97,239.13,5.94;13,49.54,286.54,193.10,5.94" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Capture the devil in the details via partition-then-ensemble on higher resolution images</title>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-J</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-D</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diabetic Foot Ulcers Grand Challenge: Third Challenge, DFUC 2022, Held in Conjunction with MICCAI 2022</title>
+		<meeting><address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2022">2023. September 22, 2022</date>
+			<biblScope unit="page" from="52" to="64" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,294.78,251.08,5.94;13,49.54,303.34,239.13,5.94;13,49.54,311.91,239.13,5.94;13,49.54,320.48,121.78,5.94" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">ImageNet: A largescale hierarchical image database</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Socher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fei-Fei</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cvpr.2009.5206848</idno>
+		<ptr target="http://dx.doi.org/10.1109/cvpr.2009.5206848" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2009">2009. 2009</date>
+			<biblScope unit="page" from="248" to="255" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,328.72,251.09,5.94;13,49.54,337.29,239.13,5.94;13,49.54,345.86,239.13,5.94;13,49.54,354.42,90.66,5.94" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Cswin transformer: A general vision transformer backbone with cross-shaped windows</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE/CVF Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="page" from="12124" to="12134" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,362.66,251.08,5.94;13,49.54,371.23,105.31,5.94" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">VGG image annotator (VIA)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dutta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zissermann</surname></persName>
+		</author>
+		<ptr target="http://www.robots.ox.ac.uk/~vgg/software/via/" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,379.47,251.09,5.94;13,49.54,388.04,239.13,5.94;13,49.54,396.61,239.13,5.94" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The VIA annotation software for images, audio and video</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dutta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3343031.3350535</idno>
+		<ptr target="http://dx.doi.org/10.1145/3343031.3350535" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 27th ACM International Conference on Multimedia. MM &apos;19</title>
+		<meeting>the 27th ACM International Conference on Multimedia. MM &apos;19<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,404.85,251.08,5.94;13,49.54,413.42,239.13,5.94;13,49.54,421.98,239.13,5.94;13,49.54,430.55,26.51,5.94" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Pranet: Parallel reverse attention network for polyp segmentation</title>
+		<author>
+			<persName><forename type="first">D.-P</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G.-P</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Medical Image Computing and Computer-Assisted Intervention</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="263" to="273" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,438.79,251.09,5.94;13,49.54,447.36,239.13,5.94;13,49.54,455.93,239.13,5.94;13,49.54,464.49,73.72,5.94" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Stateof-the-art retinal vessel segmentation with minimalistic models</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galdran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anjos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dolz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chakor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lombaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">B</forename><surname>Ayed</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-022-09675-y</idno>
+		<ptr target="http://dx.doi.org/10.1038/s41598-022-09675-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">6174</biblScope>
+			<date type="published" when="2022">2022</date>
+			<publisher>Nature Publishing Group</publisher>
+			<pubPlace>Number: 1 Publisher</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,472.73,251.09,5.94;13,49.54,481.30,239.13,5.94;13,49.54,489.87,239.13,5.94;13,49.54,498.44,238.63,5.94;13,49.54,507.01,48.48,5.94" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Double encoder-decoder networks for gastrointestinal polyp segmentation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galdran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Carneiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A G</forename><surname>Ballester</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-68763-2_22</idno>
+		<ptr target="http://dx.doi.org/10.1007/978-3-030-68763-2_22" />
+	</analytic>
+	<monogr>
+		<title level="m">Pattern Recognition. ICPR International Workshops and Challenges</title>
+		<title level="s">Lecture Notes in Computer Science</title>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Vezzani</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="293" to="307" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,515.25,251.08,5.94;13,49.54,523.81,239.13,5.94;13,49.54,532.38,239.13,5.94;13,49.54,540.95,239.13,5.94;13,49.54,549.52,97.58,5.94" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">On the optimal combination of cross-entropy and soft dice losses for lesion segmentation with out-of-distribution robustness</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galdran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Carneiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A G</forename><surname>Ballester</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diabetic Foot Ulcers Grand Challenge: Third Challenge, DFUC 2022, Held in Conjunction with MICCAI 2022</title>
+		<meeting><address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2022">2023. September 22, 2022</date>
+			<biblScope unit="page" from="40" to="51" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,557.76,251.09,5.94;13,49.54,566.32,97.95,5.94" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Fast r-cnn</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Girshick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE International Conference on Computer Vision</title>
+		<meeting>the IEEE International Conference on Computer Vision</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="1440" to="1448" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,574.56,251.09,5.94;13,49.54,583.13,239.13,5.94;13,49.54,591.70,239.13,5.94;13,49.54,600.27,239.13,5.94;13,49.54,608.84,227.94,5.94;13,49.54,617.40,28.93,5.94" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Generative adversarial nets</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Goodfellow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pouget-Abadie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mirza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Warde-Farley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ozair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Courville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<ptr target="https://proceedings.neurips.cc/paper/2014/file/" />
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+		<editor>
+			<persName><forename type="first">Z</forename><surname>Ghahramani</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Welling</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Cortes</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">N</forename><surname>Lawrence</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Weinberger</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Curran Associates, Inc</publisher>
+			<date type="published" when="2014">2014. 5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf</date>
+			<biblScope unit="volume">27</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,625.64,251.08,5.94;13,49.54,634.21,239.13,5.94;13,49.54,642.78,76.30,5.94" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Deep residual learning for image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="770" to="778" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,651.02,251.08,5.94;13,49.54,659.59,239.13,5.94;13,49.54,668.16,81.82,5.94" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Squeeze-and-excitation networks</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albanie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TPAMI.2019.2913372</idno>
+		<ptr target="http://dx.doi.org/10.1109/TPAMI" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2011" to="2023" />
+			<date type="published" when="2019">2020. 2019.2913372</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,676.40,251.08,5.94;13,49.54,684.96,239.13,5.94;13,49.54,693.53,118.28,5.94" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">2018a. Squeeze-and-excitation networks</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2018.00745</idno>
+		<ptr target="http://dx.doi.org/10.1109/CVPR.2018.00745" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE/CVF Conference on Computer Vision and Pattern Recognition</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="7132" to="7141" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,701.77,251.08,5.94;13,49.54,710.34,239.13,5.94" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Squeeze-and-excitation networks</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="7132" to="7141" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,37.59,718.58,251.09,5.94;13,49.54,727.15,239.13,5.94;13,49.54,735.71,236.72,5.94" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">HarDNet-MSEG: A simple encoder-decoder polyp segmentation neural network that achieves over 0.9 mean dice and 86 FPS</title>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/ARXIV.2101.07172</idno>
+		<idno type="arXiv">arXiv:2101.07172</idno>
+		<ptr target="http://dx.doi.org/10.48550/ARXIV.2101.07172" />
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct coords="13,306.60,57.17,251.08,5.94;13,318.56,65.74,239.13,5.94;13,318.56,74.31,239.13,5.94;13,318.56,82.88,239.13,5.94;13,318.56,91.44,239.13,5.94;13,318.56,100.01,141.17,5.94" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Training generative adversarial networks with limited data</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Karras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aittala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hellsten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Laine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lehtinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Aila</surname></persName>
+		</author>
+		<ptr target="https://proceedings.neurips.cc/paper/2020/file/8" />
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems. NeurIPS 2020</title>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Larochelle</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Ranzato</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Hadsell</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Balcan</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Curran Associates, Inc</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="12104" to="12114" />
+		</imprint>
+	</monogr>
+	<note>d30aa96e72440759f74bd2306c1fa3d-Paper.pdf</note>
+</biblStruct>
+
+<biblStruct coords="13,306.60,109.07,251.08,5.94;13,318.56,117.64,239.13,5.94;13,318.56,126.20,239.13,5.94;13,318.56,134.77,71.22,5.94" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A style-based generator architecture for generative adversarial networks</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Karras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Laine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Aila</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2019.00453</idno>
+		<ptr target="http://dx.doi.org/10.1109/CVPR.2019.00453" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE/CVF Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+			<biblScope unit="page" from="4396" to="4405" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,143.83,251.08,5.94;13,318.56,152.39,239.13,5.94;13,318.56,160.96,210.58,5.94" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">One millisecond face alignment with an ensemble of regression trees</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kazemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sullivan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2014.241</idno>
+		<ptr target="http://dx.doi.org/10.1109/CVPR.2014.241" />
+	</analytic>
+	<monogr>
+		<title level="m">2014 IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="1867" to="1874" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,170.02,251.09,5.94;13,318.56,178.59,239.13,5.94;13,318.56,187.15,239.13,5.94;13,318.56,195.72,19.73,5.94" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Translating clinical delineation of diabetic foot ulcers into machine interpretable segmentation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kendrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pappachan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chacko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jacob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2204.11618</idno>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct coords="13,306.60,204.78,251.09,5.94;13,318.56,213.35,239.13,5.94;13,318.56,221.91,239.13,5.94;13,318.56,230.48,239.13,5.94;13,318.56,239.05,26.51,5.94" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Diabetic foot ulcer grand challenge 2022 summary</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kendrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pappachan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chandrabalan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diabetic Foot Ulcers Grand Challenge: Third Challenge, DFUC 2022, Held in Conjunction with MICCAI 2022</title>
+		<meeting><address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2022">2023. September 22, 2022</date>
+			<biblScope unit="page" from="115" to="123" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,248.11,251.08,5.94;13,318.56,256.67,239.13,5.94;13,318.56,265.24,239.13,5.94;13,318.56,273.81,227.50,5.94" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Adam: A method for stochastic optimization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Kingma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ba</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/arXiv.1412.6980</idno>
+		<ptr target="http://arxiv.org/abs/1412.6980" />
+	</analytic>
+	<monogr>
+		<title level="m">3rd International Conference on Learning Representations, ICLR 2015</title>
+		<editor>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Y</forename><surname>Lecun</surname></persName>
+		</editor>
+		<meeting><address><addrLine>San Diego, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-05-07">2015. May 7-9, 2015</date>
+		</imprint>
+	</monogr>
+	<note>Conference Track Proceedings</note>
+</biblStruct>
+
+<biblStruct coords="13,306.60,282.86,251.09,5.94;13,318.56,291.43,233.71,5.94" xml:id="b30">
+	<monogr>
+		<author>
+			<persName><forename type="first">D.-J</forename><surname>Kroon</surname></persName>
+		</author>
+		<ptr target="https://www.mathworks.com/matlabcentral/fileexchange/28149-snake-active-contour" />
+		<title level="m">Snake: Active Contour. MATLAB Central File Exchange</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,300.49,251.09,5.94;13,318.56,309.06,239.13,5.94;13,318.56,317.62,239.13,5.94;13,318.56,326.19,239.13,5.94;13,318.56,334.76,116.38,5.94" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">HarDNet-DFUS: Enhancing backbone and decoder of HarDNet-MSEG for diabetic foot ulcer image segmentation</title>
+		<author>
+			<persName><forename type="first">T.-Y</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-W</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-Y</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P.-H</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conjunction with MICCAI 2022</title>
+		<meeting><address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2022">2023. September 22, 2022</date>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page" from="21" to="30" />
+		</imprint>
+	</monogr>
+	<note>DFUC</note>
+</biblStruct>
+
+<biblStruct coords="13,306.60,343.82,251.09,5.94;13,318.56,352.38,239.13,5.94;13,318.56,360.95,239.13,5.94;13,318.56,369.52,46.55,5.94" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Feature pyramid networks for object detection</title>
+		<author>
+			<persName><forename type="first">T.-Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dollár</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Girshick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hariharan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Belongie</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2017.106</idno>
+		<ptr target="http://dx.doi.org/10.1109/CVPR.2017.106" />
+	</analytic>
+	<monogr>
+		<title level="m">2017 IEEE Conference on Computer Vision and Pattern Recognition. CVPR</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="936" to="944" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,378.58,251.08,5.94;13,318.56,387.14,239.13,5.94;13,318.56,395.71,113.82,5.94" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A convnet for the 2020s</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feichtenhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Darrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE/CVF Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="page" from="11976" to="11986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,404.77,251.08,5.94;13,318.56,413.33,239.13,5.94;13,318.56,421.90,106.64,5.94" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Fully convolutional networks for semantic segmentation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shelhamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Darrell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="3431" to="3440" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,430.96,251.08,5.94;13,318.56,439.53,239.13,5.94;13,318.56,448.09,111.18,5.94" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Shufflenet v2: Practical guidelines for efficient cnn architecture design</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-T</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision. ECCV</title>
+		<meeting>the European Conference on Computer Vision. ECCV</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="116" to="131" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,457.15,251.09,5.94;13,318.56,465.72,239.13,5.94;13,318.56,474.29,239.13,5.94;13,318.56,482.85,239.13,5.94;13,318.56,491.42,79.70,5.94" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">BIAS: Transparent reporting of biomedical image analysis challenges</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Maier-Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reinke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kozubek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Arbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eisenmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hanbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jannin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Onogur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Saez-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ginneken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kopp-Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Landman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.media.2020.101796</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.media.2020.101796" />
+	</analytic>
+	<monogr>
+		<title level="j">Med. Image Anal</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page">101796</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,500.48,251.08,5.94;13,318.56,509.05,239.13,5.94;13,318.56,517.61,238.54,5.94" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">BIAS: Transparent reporting of biomedical image analysis challenges</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Maier-Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reinke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kozubek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Martel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Arbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eisenmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hanbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jannin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Onogur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med. Image Anal</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page">101796</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,526.67,184.93,5.94" xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Evalutils</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meakin</surname></persName>
+		</author>
+		<ptr target="https://github.com/comic/evalutils" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,535.73,251.09,5.94;13,318.56,544.29,239.13,5.94;13,318.56,552.86,239.13,5.94;13,318.56,561.43,106.01,5.94" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">2020-12. Confidence calibration and predictive uncertainty estimation for deep medical image segmentation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mehrtash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Tempany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Abolmaesumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kapur</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TMI.2020.3006437</idno>
+		<ptr target="http://dx.doi.org/10.1109/TMI.2020.3006437" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imaging</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3868" to="3878" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,570.48,251.08,5.94;13,318.56,579.05,49.15,5.94" xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mirza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Osindero</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1411.1784</idno>
+		<title level="m">Conditional generative adversarial nets</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct coords="13,306.60,588.11,251.09,5.94;13,318.56,596.68,239.13,5.94;13,318.56,605.24,172.54,5.94" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The international EQUATOR network: Enhancing the quality and transparency of health care research</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pandis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fedorowicz</surname></persName>
+		</author>
+		<idno type="DOI">10.1590/S1678-77572011000500001</idno>
+		<ptr target="http://dx.doi.org/10.1590/S1678-77572011000500001" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Oral Sci. : Revista FOB</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,614.30,251.08,5.94;13,318.56,622.87,239.13,5.94;13,318.56,631.44,239.13,5.94;13,318.56,640.00,239.13,5.94;13,318.56,648.57,239.13,5.94;13,318.56,657.14,239.13,5.94;13,318.56,665.71,113.78,5.94" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">PyTorch: An imperative style, high-performance deep learning library</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paszke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Massa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lerer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bradbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Killeen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gimelshein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Antiga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Desmaison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Devito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tejani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chilamkurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chintala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Advances in Neural Information Processing Systems. NeuriPS</title>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Wallach</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Larochelle</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Beygelzimer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">F</forename><surname>Buc</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Fox</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Garnett</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="8024" to="8035" />
+			<date type="published" when="2019">2019. 2019</date>
+			<publisher>Curran Associates, Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,674.76,251.08,5.94;13,318.56,683.33,76.62,5.94" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">New stochastic approximation type procedures</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Polyak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Avtomatica i Telemekhanika</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="98" to="107" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,306.60,692.39,251.08,5.94;13,318.56,700.95,239.13,5.94;13,318.56,709.52,35.65,5.94" xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Efficient estimations from a slowly convergent Robbins-Monro process</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ruppert</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+		<respStmt>
+			<orgName>Cornell University Operations Research and Industrial Engineering</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct coords="13,306.60,718.58,251.08,5.94;13,318.56,727.15,239.13,5.94;13,318.56,735.71,134.08,5.94" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Topological structural analysis of digitized binary images by border following</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Abe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0734-189X(85)90016-7</idno>
+		<ptr target="http://dx.doi.org/10.1016/0734-189X(85)90016-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Vis. Graph. Image Process</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="32" to="46" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,37.59,36.65,43.68,5.92" xml:id="b46">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,37.59,57.17,251.08,5.94;14,49.54,65.74,224.99,5.94" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Fixing the train-test resolution discrepancy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Touvron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vedaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Douze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jégou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Neural Information Processing Systems</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,37.59,74.31,251.09,5.94;14,49.54,82.88,239.13,5.94;14,49.54,91.44,239.13,5.94;14,49.54,100.01,73.59,5.94" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">CSPNet: A new backbone that can enhance learning capability of CNN</title>
+		<author>
+			<persName><forename type="first">C.-Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-Y</forename><forename type="middle">M</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P.-Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I.-H</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops</title>
+		<meeting>the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops</meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="390" to="391" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,37.59,108.58,251.09,5.94;14,49.54,117.15,239.13,5.94;14,49.54,125.72,27.31,5.94" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Cbam: Convolutional block attention module</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Kweon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision. ECCV</title>
+		<meeting>the European Conference on Computer Vision. ECCV</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="3" to="19" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,37.59,134.28,251.09,5.94;14,49.54,142.85,239.13,5.94;14,49.54,151.42,239.13,5.94" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Aggregated residual transformations for deep neural networks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Girshick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dollár</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2017.634</idno>
+		<ptr target="http://dx.doi.org/10.1109/CVPR.2017" />
+	</analytic>
+	<monogr>
+		<title level="m">2017 IEEE Conference on Computer Vision and Pattern Recognition. CVPR</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="5987" to="5995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,58.96,159.99,3.14,5.94;14,37.59,168.55,251.09,5.94;14,49.54,177.12,239.13,5.94;14,49.54,185.69,78.36,5.94" xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Lawin transformer: Improving semantic segmentation transformer with multi-scale representations via large window attention</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2017.634</idno>
+		<idno type="arXiv">arXiv:2201.01615</idno>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct coords="14,306.60,57.17,251.09,5.94;14,318.56,65.74,239.13,5.94;14,318.56,74.31,239.13,5.94;14,318.56,82.88,192.90,5.94" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">2021a. Analysis towards classification of infection and ischaemia of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pappachan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gillespie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/BHI50953.2021.9508563</idno>
+		<ptr target="http://dx.doi.org/10.1109/BHI50953.2021.9508563" />
+	</analytic>
+	<monogr>
+		<title level="m">2021 IEEE EMBS International Conference on Biomedical and Health Informatics. BHI</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="4" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,306.60,91.44,251.08,5.94;14,318.56,100.01,239.13,5.94;14,318.56,108.58,233.62,5.94" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">2021b. Deep learning in diabetic foot ulcers detection: A comprehensive evaluation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hachiuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brüngel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rückert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Olshansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<date>104596</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,306.60,117.15,251.09,5.94;14,318.56,125.72,239.13,5.94;14,318.56,134.28,239.13,5.94;14,318.56,142.85,193.10,5.94" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">OCRNet for diabetic foot ulcer segmentation combined with edge loss</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diabetic Foot Ulcers Grand Challenge: Third Challenge, DFUC 2022, Held in Conjunction with MICCAI 2022</title>
+		<meeting><address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2022">2023. September 22, 2022</date>
+			<biblScope unit="page" from="31" to="39" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,306.60,151.42,251.09,5.94;14,318.56,159.99,239.13,5.94;14,318.56,168.55,19.73,5.94" xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Segmentation transformer: Objectcontextual representations for semantic segmentation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1909.11065</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

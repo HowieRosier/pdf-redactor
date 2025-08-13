@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A digitally enabled home-based wound care program using the PEDALs model: a mixed-methods study protocol</title>
+				<funder>
+					<orgName type="full">Wound Ostomy Nursing Specialist Department</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Information Department of Fujian Provincial Hospital</orgName>
+				</funder>
+				<funder ref="#_V5deHyU">
+					<orgName type="full">Medical Innovation Project of Fujian Province</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2025-06-06">06 June 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Lili</forename><surname>Chen</surname></persName>
+							<idno type="ORCID">0000-0003-3844-4320</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Shengli Clinical College of Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Nursing</orgName>
+								<orgName type="institution">Fujian Provincial Hospital</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xuefang</forename><surname>Zhuo</surname></persName>
+							<idno type="ORCID">0009-0004-4880-7652</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Shengli Clinical College of Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Fujian Key Laboratory of Geriatrics Diseases</orgName>
+								<orgName type="department" key="dep2">Fujian Provincial Center for Geriatrics</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hong</forename><surname>Cai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Shengli Clinical College of Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Nursing</orgName>
+								<orgName type="institution">Fujian Provincial Hospital</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Penghua</forename><surname>Zeng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Shengli Clinical College of Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Plastic and Burn Surgery</orgName>
+								<orgName type="department" key="dep2">Fujian Provincial Hospital</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hongyu</forename><surname>Chen</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">The School of Nursing</orgName>
+								<orgName type="institution">Fujian Medical University</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gang</forename><surname>Chen</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Endocrinology</orgName>
+								<orgName type="institution">Fujian Provincial Hospital</orgName>
+								<address>
+									<settlement>Fuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jean</forename><surname>Macq</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Siyuan</forename><surname>Yin</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Université Catholique de Louvain</orgName>
+								<address>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Michael Maniaci</orgName>
+								<orgName type="institution">Shandong Provincial Qianfoshan Hospital</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution">Mayo Clinic Florida</orgName>
+								<address>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="institution">Fujian Provincial Hospital</orgName>
+								<address>
+									<settlement>Fuzhou City</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="institution">Fujian Province</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A digitally enabled home-based wound care program using the PEDALs model: a mixed-methods study protocol</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-06-06">06 June 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C04A480E6D2D66680DC293D4656CE013</idno>
+					<idno type="DOI">10.3389/fpubh.2025.1591187</idno>
+					<note type="submission">RECEIVED 10 March 2025 ACCEPTED 26 May 2025</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Chronic wounds impose a significant burden on patients and caregivers because of complications such as pain, infection, and repeated trips to and from hospitals. These challenges are compounded by prolonged healing times and substantial socioeconomic costs, particularly in aging populations and resource-limited settings. The Digitally Enabled Home-Based Wound Care (DE-HBWC) program facilitates the organization of home visits by caregivers through electronic devices and internet platforms, enabling patients to easily receive medication changes and treatments, thus allowing patients to continue to reside in familiar surroundings while enjoying the same treatment as they would in a hospital. The construction of DE-HBWC programs for chronic wound patients in China is hampered by a lack of scientific theoretical guidance and high-quality research. The PEDALs (Problem, Evidence, Determinants, Actions, Long-term, Scales) model, a theoretical framework used in implementation research, as a rational framework for the DE-HBWC program in this study. Unlike conventional approaches, the PEDALs model emphasizes iterative adaptation and long-term scalability, ensuring alignment with real-world clinical needs and technological advancements.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods:</head><p>We designed a combined quantitative and qualitative study consisting of five phases and one monitoring step, following the PEDALs model. In Phase I, the clinical problem was defined as wound management challenges in patients with chronic wounds. In Phase II, a literature review and evidence-based practice were undertaken to address the research questions. In Phase III, in-depth interviews will be conducted to identify barriers and facilitators to the implementation of the DE-HBWC program in chronic wound patients. In Phase IV, the DE-HBWC intervention protocol will be developed and followed by a randomized controlled trial of the DE-HBWC intervention program. In Phase V, a DE-HBWC implementation plan that is sustainable over the long term will be developed to promote its use. Monitoring of the implementation of interventions in phases III to V will be conducted.</p><p>Discussion: This study evaluated the impact of the DE-HBWC program on wound healing and quality of life in chronic wound patients and to assess its economic benefits. The findings are expected to help resolve challenges faced by patients with chronic wounds attending hospitals for wound care.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Skin diseases can cause severe non-fatal disabilities worldwide, especially in resource-scarce areas, affecting nearly one-third of the world's population <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>. Increasing research on skin diseases, with the aim of providing high-quality care, is crucial for alleviating the burden of skin diseases <ref type="bibr" target="#b1">(2)</ref>. Skin and subcutaneous diseases are the fourth leading cause of non-fatal disease burden, accounting for 1.79% of the global disease burden <ref type="bibr" target="#b0">(1)</ref>. Chronic wounds are wounds that have not healed or shown no signs of healing for more than 1 month because of various factors; such wounds include vascular ulcers, diabetes foot ulcers, pressure ulcers, and chronic infectious wounds <ref type="bibr" target="#b2">(3)</ref>. The incidence rate of chronic wounds caused by various etiologies in the general population is 2.21‰, with leg ulcers having the highest incidence rate of about 1.51‰ and chronic wound patients increasing at a rate of 10% per year <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5)</ref>. Chronic wounds mainly occur in the older adult population, and are associated with a series of complications and medical expenses <ref type="bibr" target="#b5">(6)</ref>. Chronic wounds cost over 25 billion US dollars in medical expenses annually, with 5% of the total medical expenses used for wound repair <ref type="bibr" target="#b2">(3)</ref>. Owing to complications such as pain, infection, amputation, and repeated visits to hospitals for medical treatment, chronic wounds impose a significant burden on patients' personal, family, economic, and social well-being <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b6">7)</ref>. It is expected that chronic wounds will continue to be a major clinical, social, and economic challenge owing to the aging population, continuing global threat of diabetes and obesity, and the persistent emergence of drug-resistant infections. Addressing public health issues related to chronic wounds requires multiple approaches, including prevention, improving wound care management, and addressing potential risk factors <ref type="bibr" target="#b7">(8)</ref>. In the long run, the development and expansion of remote home care for chronic wound patients may enable a larger patient population to be targeted and improve their compliance with treatment <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b9">10)</ref>.</p><p>Emerging digital health technologies, such as remote monitoring and artificial intelligence (AI)-driven wound imaging, hold transformative potential for decentralizing care (11). However, their integration into structured home-based programs remains underexplored, particularly in the context of chronic wound management <ref type="bibr" target="#b10">(12)</ref>. Research indicates that these technologies can yield significant economic and health benefits, including reduced infection risk, enhanced patient mobility, cost savings, and improved clinical outcomes <ref type="bibr" target="#b11">(13)</ref><ref type="bibr" target="#b12">(14)</ref><ref type="bibr" target="#b13">(15)</ref>. With advancements in mobile electronic facilities and internet technology, electronic-based home care has been successfully implemented for patients with various conditions, including chronic wounds <ref type="bibr" target="#b14">(16,</ref><ref type="bibr" target="#b15">17)</ref>. The Digitally Enabled Home-Based Wound Care (DE-HBWC) program represents an innovative intervention that combines telehealth technology with home care approaches. It enables caregivers to conduct home visits via electronic devices and internet platforms, allowing patients to receive medications and treatments conveniently. This not only reduces hospitalization costs but also enables patients to remain in familiar surroundings while receiving comparable care to that provided in hospitals. However, in China, the DE-HBWC program for patients with chronic wounds is still in the initial stage of exploration, and further research is needed <ref type="bibr" target="#b16">(18)</ref>. The primary objectives of this approach are to alleviate the burden of hospital visits, improve continuity of care, and enhance treatment outcomes through real-time monitoring and data-informed decision-making.</p><p>Interventions in clinical nursing research are often controversial owing to the lack of scientific theoretical support. As an emerging discipline, implementation science is aimed at promoting the application of evidence-based intervention programs in practice. In recent years, such programs have received increasing attention in various research fields. Their implementation helps to transform theoretical possibilities into practical applications, thus addressing the challenge of implementing validated intervention measures in the real world <ref type="bibr" target="#b17">(19,</ref><ref type="bibr" target="#b18">20)</ref>. In 2013, the World Health Organization recommended the application of implementation studies in the field of healthcare, clarifying which interventions are effective and the reasons for their success or failure during implementation, in order to ensure that interventions operate optimally in the real world <ref type="bibr" target="#b18">(20)</ref>. Some nursing scholars have also attempted to apply commonly used theoretical frameworks of implementation science to nursing research, narrowing the gap between knowledge and practice, confirming the practicality of interventions and optimizing valuable nursing resources. Nurses can also establish a solid evidence foundation for nursing clinical practice <ref type="bibr" target="#b20">(21)</ref>. The PEDALs model <ref type="bibr" target="#b21">(22)</ref> is a new research theoretical framework in the field of implementation research. It was first proposed by Professor Xu Dong's team and applied in diabetes sharing outpatient service and influenza vaccination programs. The basic steps of the PEDALs model are as follows: Phase I: P (Problem) is a real dilemma; Phase II: E (Evidence) refers to evidence-based practice for solving difficulties; Phase III: D (Determinants) is the determining factor for implementing evidencebased practice, including obstacles and promoting factors; Phase IV: A (Actions) are implementation strategies that promote evidencebased practices; Phase V: Long term (L), refers to a plan for continuous implementation; and Scale(s) is the monitoring and evaluation of the research process. The first letter of each of these steps gives rise to the acronym PEDALs. The PEDALs model was selected for its structured yet flexible approach to addressing implementation challenges in digital health. Unlike Consolidated framework for implementation research (CFIR) <ref type="bibr" target="#b22">(23)</ref>, which provides a static taxonomy of determinants, PEDALs integrates problem identification, evidence synthesis, and iterative adaptation into a cohesive workflow. This is critical in chronic wound care, where interventions must adapt to evolving patient needs and technological advancements. Few nursing-related studies based on the PEDALs model have been reported, both in China and other countries. Therefore, application of this theory to help nursing staff conduct implementation research more effectively in real-world situations, and to make the research process and results more scientific, would represent a novel step in this field. Therefore, this study utilizes a mixed-methods approach to construct a digitally enabled home-based chronic wound care project for chronic wound patients based on the PEDALs model, and to evaluate the effectiveness of this project in chronic wound patients at home using a randomized controlled trial approach.</p><p>Methods/design Design Our goal was to develop a DE-HBWC program for patients with chronic wounds, using scientific research methods.</p><p>The study was a prospective study with a multi-stage mixed-methods design combining qualitative and quantitative research, following the five steps of the PEDALs model research paradigm (Figure <ref type="figure">1</ref>). Qualitative methods included face-to-face one-on-one semi-structured interviews, literature review, and meetings with experts. The quantitative method comprised a parallel, two-armed randomized controlled trial design, with a 1:1 allocation ratio between the test and control groups for allocation concealment as well as blinding of assessors and statistical analysts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phase I: Problem</head><p>Based on their clinical work, wound clinic healthcare professionals have identified many real-life challenges facing homebound chronic wound patients, such as long wound treatment cycles requiring frequent trips to the hospital, inconvenient access to medical care owing to the impact of their wounds, high pressure on hospital outpatient clinics who are unable to fully satisfy the demand, and long waiting times for medical care, among others. There is an urgent need to take measures to solve patients' difficulties in accessing medical care and to alleviate the burden on their families. The digitally enabled home-based wound care program offers a way to solve these problem; however, such programs are still at the exploratory stage in China and most hospitals do not provide them. It is therefore, necessary to construct an evidence-based implementation DE-HBWC program for chronic wound patients and to explore the effectiveness of its application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phase II: Evidence-based practice</head><p>Evidence-based practice (EBP) refers to methods that combine individual clinical expertise with the best clinical evidence available from systematic studies <ref type="bibr" target="#b23">(24)</ref> and patient values to achieve optimal health outcomes. EBP requires nurses to quickly access and evaluate evidence before integrating it into clinical practice <ref type="bibr" target="#b24">(25)</ref>. Two graduate nursing students were assigned to conduct a literature review in order to critically evaluate and summarize the evidence for development of a DE-HBWC program for patients with chronic wounds.</p><p>A comprehensive search strategy was executed across three international databases (PubMed, EMBASE, Web of Science) and three Chinese databases (China National Knowledge Infrastructure [CNKI], Wanfang Database, VIP Database for Chinese Technical Periodicals), covering peer-reviewed articles published between August 2014 and August 2024. The search employed the following Boolean operators and MeSH/Emtree terms: [(home-based) OR (home care services) OR (hospital at home) OR (telehealth*) OR (mHealth*) OR (telecare) OR (eHealth*) OR (telemedicine) OR (digital health*) [AND] (wound care) OR (chronic wounds)]. Filters restricted results to title/abstract fields and journal articles. Additional studies were identified through backward reference tracking (snowball method). Reference tracking was carried out to identify additional potentially relevant references. The inclusion criteria were studies with designs such as randomized controlled trials (RCTs), cohort studies, and quasi-experimental studies, and those published in English or Chinese. The exclusion criteria were non-peer-reviewed sources like conference proceedings, magazines, news articles, theses, dissertations, abstracts, editorials, systematic reviews, as well as gray literature such as technical reports and unpublished data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phase III: Determinants</head><p>This step entails the identification of determinants of implementation, including facilitators and barriers. CFIR is one of the most commonly used theoretical frameworks in implementation science, and comprises a menu of structures related to effective implementation to guide or evaluate the implementation of evidencebased practices. CFIR was first proposed by Damschroder et al. in the United States in 2009 and updated in 2022 as the Consolidated Framework for Implementation Research version 2.0 (CFIR 2.0) <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b25">26)</ref>. The theoretical framework consists of five domains, namely, the innovation domain, outer setting domain, inner setting domain, individuals domain, and implementation process domain. In this study, we applied the CFIR 2.0 framework and combined findings from the literature with clinical practice to identify interview questions for chronic wound patients, patient caregivers, wound specialty nurses, and healthcare facility administrators, addressing internal and external factors. Furthermore, we conducted in-depth interviews with these four groups using a semi-structured interview method. Researchers interviewed 10 chronic wound patients, 10 caregivers, 8 wound specialty nurses, and 5 healthcare facility administrators, each for 30-45 min. Table <ref type="table" target="#tab_0">1</ref> shows the interview guides. Then, we identified barriers and facilitators to the implementation of the DE-HBWC program in patients with chronic wounds according to the CFIR 2.0 framework.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phase IV: Action</head><p>Action refers to the implementation of a strategy or intervention. This step was based on literature research results and identification of the determining factors for implementation to develop the initial draft of the DE-HBWC intervention plan. An expert meeting is held to revise the intervention plan, and 10 chronic wound patients are recruited for a one-month small-sample pre-experiment to create an applied version of the intervention plan. Participants in the expert meeting included 10 experts specializing in hospital management, wound specialist nursing, wound specialist physicians, information engineering technology and implementation science. Eligibility criteria will require all participants to hold a master' s degree or higher and possess an associate senior-level professional title or equivalent. Subsequently, a randomized controlled trial of the DE-HBWC intervention plan will be conducted. The main content of the randomized controlled trial is described.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recruitment and screening of participants</head><p>The participants will be adult patients (aged at least 18 years) with chronic wounds and at least one experience of visiting a wound treatment clinic. To ensure positive and successful registration, we will adopt a proactive recruitment strategy. Participants will be recruited by placing posters at Fujian Provincial Hospital and creating electronic posters that will be shared and promoted by research team members and hospital staff on social media platforms such as WeChat (one of the most widely used chat apps among Chinese citizens). Specialized nurses in wound treatment clinics will actively promoted recruitment of patients who attend for treatment, search for their electronic medical records, and perform other related tasks. Potential</p><p>Frontiers in Public Health 05 frontiersin.org participants who respond to the recruitment strategy and contact the researchers will be screened in person or over the phone. The research purpose and process will be carefully explained to participants who met the inclusion and exclusion criteria. Patients who agree to participate will be recruited after signing an informed consent form and completing a general information survey and baseline data survey.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inclusion criteria</head><p>Patients are eligible for inclusion if they meet all of the following eligibility criteria: (1) age≥18 years; (2) histologic criteria of the Chinese Medical Association for chronic wound <ref type="bibr" target="#b26">(27)</ref>; (3) the duration of wound was 1 month or more; (4) the patient or an accompanying person has the ability to operate a smartphone; and (5) provision of informed consent and a signed informed consent form.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Exclusion criteria</head><p>Patients who meet any of the following criteria will be excluded:</p><p>(1) receiving palliative care or having malignant or fungal tumors, wounds with blind-end tracks such as sinus tracts, dry gangrene, exposed blood vessels, and other non-healing wounds; (2) suffering from mental illness or not cooperating with care; (3) suffering from autoimmune diseases or other serious comorbidities; and (4) hospitalized patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Randomization, allocation concealment, and blinding</head><p>Before randomization, a researcher not involved in subject recruitment and data collection will prepare a randomization list with 100 sets of numbers, using Research Randomizer software. 1 The study subjects will be randomly divided into an intervention group and a control group in a 1:1 ratio by personnel who will not directly participate in this study. Then, random numbers will be assigned to the selected groups of research subjects, and they will be sorted from small to large according to the size of the random numbers. The first half will be the control group, and the second half the intervention group. The random numbers will be sealed and handed over to personnel responsible for random allocation for proper safekeeping. They will not participate in the inclusion of the study subjects and subsequent intervention processes. However, because of the nature of this intervention, it would not be not possible to blind the participants and intervention staff, although the data collectors and statisticians in the study will be blinded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample</head><p>The recruitment and screening of all participants were conducted on the online platform of Fujian Provincial Hospital's WeChat official account or the hospital's offline wound treatment clinic. This is a randomized controlled trial consisting of two branches and three evaluation stages (T0, baseline; T1, 12-week post intervention; T2, 24-week follow-up). The intervention-group participants received DE-HBWC project wound treatment at their own homes, while the control group participants received treatment at traditional hospital wound-treatment clinics. The required sample size was estimated using PASS v15.0 (NCSS, LLC, United States), based on a completely random design, to compare the mean values of two independent samples. Based on our previous wound treatment results for the healing time of chronic wounds and using two-sample T-tests assuming equal variance procedure of PASS v15.0, μ1 = 38.64, μ2 = 32.54, σ take 8.21, a sample size of 40 participants per group was determined to be sufficient to detect an effect with a type 1 error rate of 5 and 90% power. Assuming a drop-out rate of 20%, a total of 100 participants will be needed, with 50 participants in each group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intervention, DE-HBWC arm</head><p>The DE-HBWC program was devised through three phases of crafting the research questions, EBP, identifying the barriers and facilitators to intervention implementation, and, ultimately, through meetings with experts and pre-experiments. The DE-HBWC program is a personalized one-on-one treatment program for chronic wound patients delivered by specialist wound nurses using a combination of online and offline intervention modes. Conducting remote video visits through electronic facilities weekly to evaluate wounds and provide guidance on dressing changes online, and offline home medication change, assessment, and health guidance services are provided by wound specialist nurses every 2 weeks. During weekly remote assessments, all aspects of wound care are carefully assessed by a wound specialist nurse and documented with the assistance of a graduate nursing student. This includes wound morphology, which encompasses tissue type, dimensions, and color profiles, as well as exudate metrics such as volume, consistency, and 1 http://www.randomizer.org/ the presence and severity of odor. The assessment also evaluates the periwound status, focusing on skin integrity, sinus tract characteristics, and signs of infection. Furthermore, pharmacological interventions are thoroughly recorded, including antimicrobial therapies and adjunctive agents, along with detailed application protocols. Lastly, the documentation tool supports intervention tracking by capturing dressing protocols, debridement frequency, and the provision of health education to patients and caregivers.</p><p>Nurse home visits are scheduled biweekly, informed by evidencebased guidelines and optimized for resource efficiency. Frequency adjustments follow predefined clinical criteria (e.g., wound progression, infection signs) and are approved by the supervising physician. Remote monitoring data (e.g., wound images) inform visit prioritization, ensuring high-risk patients receive timely in-person care. Wound specialist nurses completed a four-stage competencybased training program, including theoretical instruction, technical skill simulations, protocol-specific workflows, and ongoing supervision. The Nursing Department monitors fidelity by reviewing protocol deviations on a weekly basis. The dressing change is customized by the wound specialist nurse to the individual patient's situation in regard to the wound. The duration of the intervention was 12 weeks; if the patient's wound was completely healed before 12 weeks, there was no dressing change-only assessment and guidance; however, if the wound was not healed after 12 weeks, the intervention could be continued according to the patient's wishes. Patients with chronic wounds are consulted through the developed internet hospital, and data such as basic patient information, questionnaires, and wound pictures are managed using the chronic disease management system already developed by the hospital.</p><p>We aim to create a supportive system for patients with chronic wounds. This includes an online community where patients can share their care experiences and feel less isolated. We also provide easy-to-understand educational materials like animated videos and illustrated medication guides, which are sent out weekly through our chronic disease management platform. Additionally, we offer a 24-h nursing hotline. Trained wound nurses will be available to answer urgent questions from families, such as what to do if a wound starts bleeding or gets worse. To ensure participants follow the program guidelines, we use a game-based incentive system. Participants can earn points by uploading wound photos, reading health education materials, completing assessments, or joining activities. These points can be exchanged for nursing supplies or used to book services more quickly. Wound care reminders are customized based on each patient's daily routine. We also send personalized reminders for wound care based on each patient's routine.</p><p>The program is overseen by a wound care specialist physician who is responsible for reviewing patient progress biweekly through electronic records. This physician also approves any necessary adjustments to treatment plans. Nursing graduate students are responsible for assisting with text recording and data organization. Additionally, nurses play a pivotal role in coordinating care with primary care providers utilizing the hospital's integrated electronic health record system, ensuring seamless communication and continuity of care. The Deputy Director of Nursing is responsible for overseeing the project implementation and ensuring quality control. Patients are provided with access to a telehealth hotline designed to address urgent concerns, such as sudden onset of pain, fever, or purulent drainage. This resource ensures that patients can promptly seek assistance for complications that may arise during their treatment. The escalation protocol ensures tiered clinical responses: (1) patients with suspected wound deterioration (e.g., increased erythema, purulent drainage, or systemic symptoms) initiate real-time telehealth consultations with certified wound specialist nurses; (2) nurses triage cases to physicians for urgent directives, prioritizing same-day in-person evaluations for high-risk scenarios; and (3) physicians determine hospitalization needs based on standardized severity criteria (e.g., sepsis risk, necrotizing infection).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Control, TH arm</head><p>Participants in the control group underwent offline traditional treatment at the Wound Treatment Clinic of Fujian Provincial Hospital, and the intervention cycle and dressing change principles were the same as those for the intervention group. Patients in the control group attended the Wound Treatment Clinic every other day for dressing change, assessment, and health guidance. The frequency of dressing changes is flexibly adjusted by the wound specialist nurses according to the patient's patient wound healing status. Wound specialist nurses delivered the interventions, while nursing graduate students collected patient data using the hospital' s in-house chronic disease management platform.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study outcome measures</head><p>The primary outcome measures are wound healing based on the commonly used Bates-Jensen Wound Assessment Tool (BWAT) <ref type="bibr" target="#b27">(28)</ref> and the Wound treatment table, which was formulated by our team, based on previous research <ref type="bibr" target="#b28">(29)</ref>, to evaluate the size, depth, and exudation of chronic wounds; drugs; dressings used for treatment; cost; healing duration; as well as the round-trip transportation and waiting time. Wound images will be acquired weekly and recorded and analyzed using Three Dimensions (3D) AI reconstruction technology. Empirical evidence demonstrates that 3D wound measurement devices achieve comparable accuracy to traditional nurse-performed measurements using manual scales (p &gt; 0.05), while significantly reducing procedural time (p &lt; 0.05) <ref type="bibr" target="#b30">(30)</ref>. Caregivers or patients can upload wound photographs through a smartphone application. The AI system automatically generates a 3D model of the wound and identifies areas that require attention, such as those with a "high infection risk. " This tool is particularly beneficial for rural or homebound patients, as it enables specialists to conduct remote assessments of wounds, thereby minimizing the necessity for in-person visits. The secondary outcome measures included participants' quality of life, health status, wound self-management, satisfaction, and cost-effectiveness. The Chronic Wound Patient Quality of Life Scale (Wound-QoL) <ref type="bibr" target="#b31">(31)</ref>, Chronic Wound Self-Management Scale <ref type="bibr" target="#b32">(32)</ref>, and the 36-Item Short Form Survey (SF-36) (33) will be used to evaluate health, quality of life, and wound selfmanagement. Satisfaction survey forms will be used to measure patient satisfaction with wound care. The economic benefits of intervention measures will be evaluated by measuring the cost-benefit and incremental cost-benefit ratio of wound care for the two groups of participants. More information about the sensitivity and specificity of the assessment methods can be found from the reference 28, 29.</p><p>All outcome measures and assessment time points are shown in Table <ref type="table" target="#tab_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data collection and statistical analysis</head><p>Enrolled subjects will be scheduled to complete the baseline data collection. Data will also be collected after 12 and 24 weeks for outcomes, and data on the primary outcome, wound healing, will be collected biweekly. All data analysis will be performed using SPSS Statistics v21.0 (IBM). A two-tailed approach will be used, with α level set to 0.05 for testing. To ensure that outcome evaluators and data analysts are not influenced by group assignment, they will not interact with participants, except in the case of outcome evaluators during data collection. Descriptive statistics will be used to summarize demographic and other baseline characteristics. Tests of normality of data distribution were validated using Kolmogorov-Smirnov. After approaching normality for each variable, two-sample independent t-tests, x 2 -tests (or Fisher's exact tests), or nonparametric tests, as appropriate, were used to compare normally distributed variables between the intervention and control groups. If necessary, the results will be adjusted based on potential confounding factors such as age, gender, and education level. Statistical analysis will be based on the intention-to-treat (ITT) method <ref type="bibr" target="#b34">(34)</ref>.</p><p>Generalized linear mixed effects models (GLMM) will be used to estimate the odds ratio (OR) and 95% confidence intervals (CIs) for assessing whether changes in outcome indicators are significantly different over time. Models include randomized groups with time as a fixed effect and time × group as an interaction effect to account for the correlation between repeated observations for each participant. Characteristics such as patient age, gender, wound type, and wound size will be adjusted for as covariates. In addition, to explore the effect of baseline characteristics on intervention effect sizes, we will conduct subgroup analyses by testing for interactions between subgroups and intervention effects. Predefined subgroup analyses will be conducted for baseline characteristics including age, gender, education, monthly income, wound type, and wound size. The main outcomes of the subgroup analyses are p-values for the group × time × characteristics interaction coefficients and estimates (95% CIs) of the differences between the intervention and control groups within each subgroup. Finally, sensitivity analyses will be performed by interpolating missing data using a random forest model to improve the reliability of our findings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data management and quality control</head><p>Data from medical records and questionnaires will be collected and stored in a secure electronic data capture system, named "the chronic disease management system. " Other raw data files will be securely stored online and securely transferred to the statistics team for analysis. Patient wound images will be transferred to an online server for 3D artificial intelligence algorithms to reconstruct the wound. Files will be linked to the database only through unique participant identifiers.</p><p>The data collection system will utilize a rigorously designed logical progression and conditional constraints to improve the accuracy and efficiency of questionnaire completion. Data collectors will undergo two rounds of standardized online training upon onboarding to ensure proficiency in the use of the data collection system and a uniform understanding of the collected item content. All data collectors will take an online exam and only those who pass the exam will be allowed to proceed to the formal data collection phase. The quality control team will scrutinize each entry in the dataset to prevent any incorrect or missing data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phase V: Long-term</head><p>In the last step, based on the results of the above research, a DE-HBWC implementation plan will be developed that can be continuously implemented in the long term to promote application. The long-term implementation plan is anchored in a multistakeholder, data-driven approach. Drawing from barriers identified in Phase III and adherence metrics from Phase IV, we will advocate for policy reforms to institutionalize home-based wound care. Continuous quality improvement will be enabled by a digital dashboard tracking healing rates and caregiver burden, with annual audits informing protocol refinements. Sustainability will be ensured through public-private partnerships for technology maintenance and community health worker training programs. During implementation, the plan can be dynamically adjusted as necessary to make it suitable for real-world implementation.</p><p>Firstly, we plan to include the DE-HBWC program in the hospital's yearly goals and try to get it covered by Medicare. We'll set up a special fund for things like telemonitoring equipment, nurse training, and patient support. Secondly, we'll create a group of wound care experts from different hospital areas. They can consult and refer tough cases through our platform. We'll also work with information technology to update the AI algorithms every year. Next, we'll make a standard operating manual for DE-HBWC. We'll provide toolkits with protocol templates, training courses, and data collection tools to make it easier to implement. We'll break down components like training, technology, and policies into modules so that different hospitals can adapt them as needed. Then, we'll train the first batch of certified wound specialist nurses and create a "DE-HBWC certified nurse" qualification with performance incentives. Lastly, we will set up a patient advisory board and hold feedback meetings every 6 months. We will focus on and address the top three improvement suggestions, such as simplifying the app operation process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scale: monitoring and evaluation</head><p>The implementation of interventions will be scientifically monitored and evaluated in the third to fifth stages of the research design and methods section. Furthermore, after completion of the 12-week DE-HBWC program intervention, we will perform a 12-week randomized controlled trial to evaluate the impact of an "incentive" implementation strategy within the DE-HBWC intervention group. This trial will assess both adherence rates (e.g., completion of remote assessments) and clinical outcomes (e.g., wound healing progression) to determine the strategy's efficacy in optimizing engagement and therapeutic success. The  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Oversight and monitoring</head><p>The Trial Management Group, consisting of the Principal Investigator, the chief researcher, 1 nursing research staff member, 2 Wound specialist nurse, and 2 nursing master's students, will meet on a monthly basis to oversee the study. The chief researcher will supervise the daily operation of the experiment and be responsible for the experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assessing adherence and strategies to improve adherence to the intervention</head><p>The compliance of patients in the intervention and control groups will be evaluated by measuring the rates of participation in online remote video visits, image acquisition, and offline wound treatment. If the patient does not participate as required, we will contact them via WeChat or phone. The intervention group will be exempt from on-site service fees. Two groups of patients who complete the prescribed number of interventions will have the opportunity to receive a reduction in wound treatment costs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Criteria for discontinuing or modifying allocated interventions</head><p>Every participant has the right to withdraw from the trial at any time. Participants will be terminated from the trial if, in the opinion of the investigator, it is necessary to do so for any reason, including ineligibility, adverse events, withdrawal of consent. Participants randomly assigned to the intervention group had the option of participating in traditional hospital wound treatment in the control group if they did not want to continue with the intervention. If a participant withdraws due to a related adverse event, the investigator will schedule a follow-up visit or phone call until the adverse event is resolved or stabilized. Adverse events unrelated to the intervention will be followed up until completion of the trial. Participants who stop the trial will have anonymized data collected until the exit time point. Any assessments not completed will be considered missing data. The reason for withdrawal will be recorded. Participants who withdraw after being randomized will not be replaced. Participants found to be ineligible after randomization will be withdrawn and no further data will be collected thereafter.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient and public involvement</head><p>Patients or the public were not involved in the design, conduct, reporting, or dissemination plans for this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This study aimed to evaluate the impact of the DE-HBWC program on wound healing and quality of life in chronic wound patients and to assess its economic benefits. Although DE-HBWC programs have been used in the treatment of chronic wounds and have achieved promising results, some implementation-related problems persist <ref type="bibr" target="#b16">(18,</ref><ref type="bibr" target="#b35">35)</ref>. This study is a new exploration of the implementation of a DE-HBWC program based on a scientific framework employed in implementation research, namely, the five-step PEDALs model research paradigm. Barriers to the implementation of the DE-HBWC project as well as facilitators were identified through qualitative interviews. The intervention program was formulated based on the results of the literature research and qualitative interviews, and the program was modified and improved through expert meetings and small sample pre-testing to ensure a more rigorous, scientific, operable, and feasible program development process.</p><p>The present DE-HBWC program potentially represents a convenient and low-cost wound care model for chronic wound patients, enabling them enjoy hospital-level care in a home setting. It solves the problem of the inconvenience caused to patients in leaving their homes, having to undertake journeys to hospital, and waiting to receive in-person medical care, and if therefore especially beneficial for patients with mobility problems such as those who are disabled or older adults. In addition, a rigorous methodological design will be used to reduce bias, including randomization, blinding, use of a control group, recruitment strategies, rigorous eligibility screening, and pilot trials. Potential selection bias in the control and intervention groups will be minimized by the above strategies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations and future directions</head><p>The study was relatively short and conducted at only one hospital. Therefore, the results need to be validated with a larger sample size and through multi-center studies. Collaborate with policymakers to investigate reimbursement models for home-based digital care within the framework of China's national health insurance system. Additionally, evaluate non-financial incentives, such as gamification and peer support, to improve adherence in resource-limited settings.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Abbreviations: AI, Artificial intelligence; BWAT, Bates-Jensen Wound Assessment Tool; CFIR, Consolidated framework for implementation research; CIs, confidence intervals; DE-HBWC, Digitally enabled home-based wound care; EBP, Evidencebased practice; GLMM, Generalized linear mixed effects models; ITT, Intentionto-treat; OR, Odds ratio; PEDALs, Problem; Evidence; Determinants; Actions; Long term; Scale; SF-36, 36-Item Short Form Survey; TH, Traditional treatment; 3D, Three Dimensions; Wound-QoL, Chronic Wound Patient Quality of Life Scale.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,106.80,322.57,381.92,415.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1</head><label>1</label><figDesc>Interview guides based on CFIR 2.0 framework.</figDesc><table><row><cell>Domain</cell><cell>Innovation</cell><cell>Outer setting</cell><cell>Inner setting</cell><cell>Individuals</cell><cell>Implementation</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>process</cell></row><row><cell cols="2">Chronic wound patients</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Questions</cell><cell>How would you describe</cell><cell>How easy or difficult is it</cell><cell>How well do you feel your</cell><cell>What motivates you to</cell><cell>What suggestions do you have</cell></row><row><cell></cell><cell>your experience using</cell><cell>for you to access</cell><cell>care team (nurses, doctors)</cell><cell>follow the remote</cell><cell>to make this program more</cell></row><row><cell></cell><cell>the digital tools (e.g., AI</cell><cell>healthcare resources (e.g.,</cell><cell>communicates with</cell><cell>monitoring schedule?</cell><cell>patient-friendly?</cell></row><row><cell></cell><cell>wound assessment app)</cell><cell>supplies, specialists) in</cell><cell>you about your wound care</cell><cell>Have you ever felt</cell><cell></cell></row><row><cell></cell><cell>for home-based care?</cell><cell>your community?</cell><cell>plan?</cell><cell>hesitant to use the</cell><cell></cell></row><row><cell></cell><cell>What challenges, if any,</cell><cell>Has your family or social</cell><cell></cell><cell>technology? If so,</cell><cell></cell></row><row><cell></cell><cell>did you face while using</cell><cell>network supported your</cell><cell></cell><cell>why?</cell><cell></cell></row><row><cell></cell><cell>these tools?</cell><cell>participation in this</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>program?</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Patient caregivers</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Questions</cell><cell>How has using digital</cell><cell>Are there community</cell><cell>How clearly do healthcare</cell><cell>What concerns do</cell><cell>How could the program better</cell></row><row><cell></cell><cell>tools (e.g., telehealth</cell><cell>resources (e.g., support</cell><cell>providers explain the care</cell><cell>you have about</cell><cell>involve caregivers in decision-</cell></row><row><cell></cell><cell>platforms) changed your</cell><cell>groups, transportation)</cell><cell>plan to you?</cell><cell>balancing caregiving</cell><cell>making?</cell></row><row><cell></cell><cell>caregiving routine?</cell><cell>that could better support</cell><cell>Do you feel equipped to</cell><cell>with other</cell><cell></cell></row><row><cell></cell><cell>What features of the</cell><cell>your caregiving role?</cell><cell>handle emergencies (e.g.,</cell><cell>responsibilities?</cell><cell></cell></row><row><cell></cell><cell>program have been most</cell><cell></cell><cell>sudden wound</cell><cell></cell><cell></cell></row><row><cell></cell><cell>helpful or frustrating?</cell><cell></cell><cell>deterioration)?</cell><cell></cell><cell></cell></row><row><cell cols="2">Wound specialty nurses</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Questions</cell><cell>How does the digitally</cell><cell>How do local policies or</cell><cell>What organizational</cell><cell>How confident do</cell><cell>What strategies would ensure</cell></row><row><cell></cell><cell>enabled home-based</cell><cell>insurance coverage affect</cell><cell>resources (e.g., training,</cell><cell>you feel using</cell><cell>long-term sustainability of</cell></row><row><cell></cell><cell>wound care program fit</cell><cell>your ability to deliver</cell><cell>staffing) are critical for</cell><cell>telehealth platforms</cell><cell>this program?</cell></row><row><cell></cell><cell>into your current</cell><cell>home-based care?</cell><cell>successful program</cell><cell>for wound</cell><cell></cell></row><row><cell></cell><cell>workflow?</cell><cell></cell><cell>implementation?</cell><cell>assessments?</cell><cell></cell></row><row><cell></cell><cell>What adjustments are</cell><cell></cell><cell>Are there communication</cell><cell></cell><cell></cell></row><row><cell></cell><cell>needed to improve the</cell><cell></cell><cell>gaps between your team and</cell><cell></cell><cell></cell></row><row><cell></cell><cell>usability of digital tools</cell><cell></cell><cell>primary care providers?</cell><cell></cell><cell></cell></row><row><cell></cell><cell>(e.g., AI reporting)?</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Healthcare facility administrators</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Questions</cell><cell>How does this program</cell><cell>What external</cell><cell>What financial or staffing</cell><cell>How do staff attitudes</cell><cell>What policy changes would</cell></row><row><cell></cell><cell>align with your</cell><cell>partnerships (e.g.,</cell><cell>investments are required to</cell><cell>toward technology</cell><cell>improve the program's</cell></row><row><cell></cell><cell>institution's strategic</cell><cell>insurers, tech companies)</cell><cell>maintain the program?</cell><cell>influence program</cell><cell>integration into routine care?</cell></row><row><cell></cell><cell>goals?</cell><cell>are needed to scale this</cell><cell>How do you measure the</cell><cell>adoption?</cell><cell></cell></row><row><cell></cell><cell></cell><cell>program?</cell><cell>program's success (e.g., cost</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>savings, patient outcomes)?</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2</head><label>2</label><figDesc>Assessment outline and timelines.</figDesc><table><row><cell>Measures/time point</cell><cell>Pre-</cell><cell>Intervention period</cell><cell>Post-</cell><cell>Follow-up</cell></row><row><cell></cell><cell>intervention</cell><cell></cell><cell>intervention</cell><cell></cell></row><row><cell></cell><cell>0 weeks</cell><cell></cell><cell>12-week</cell><cell>24-week</cell></row><row><cell>Eligibility assessment</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Inclusion criteria</cell><cell>×</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Exclusion criteria</cell><cell>×</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Informed consent</cell><cell>×</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Allocation</cell><cell>×</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Intervention</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>DE-HBWC group</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Traditional hospital treatment control group</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Demographics and other baseline characteristics</cell><cell>×</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Primary outcomes</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Wound healing (BWAT, Wound treatment table)</cell><cell>×</cell><cell>× (Biweekly)</cell><cell>×</cell><cell>×</cell></row><row><cell>Wound healing(3D AI wound image)</cell><cell>×</cell><cell>× (weekly)</cell><cell>×</cell><cell>×</cell></row><row><cell>Secondary outcomes</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Quality of life (Wound-QoL)</cell><cell>×</cell><cell></cell><cell>×</cell><cell>×</cell></row><row><cell>Self-management ability (WSMS)</cell><cell>×</cell><cell></cell><cell>×</cell><cell>×</cell></row><row><cell>Health status (SF-36)</cell><cell>×</cell><cell></cell><cell>×</cell><cell>×</cell></row><row><cell>Economic effect (CER, ICER)</cell><cell></cell><cell></cell><cell>×</cell><cell></cell></row><row><cell>Satisfaction (Satisfaction survey form)</cell><cell></cell><cell></cell><cell>×</cell><cell></cell></row></table><note><p>×, Time point in the trial at which the assessment took place. ◆, Start or end time point of the trial. BWAT, Bates-Jensen Wound Assessment Tool. 3D, Three Dimensions. AI, artificial intelligence. Wound-QoL, Chronic Wound Patient Quality of Life Scale. WSMS, Chronic Wound Self-Management Scale. SF-36, 36-Item Short Form Survey. CER, cost-effectiveness ratio. ICER, incremental cost-effectiveness ratio.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Frontiers in Public Health 07 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Frontiers in Public Health 08 frontiersin.org</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We would like to thank all the members of the <rs type="funder">Wound Ostomy Nursing Specialist Department</rs> and the <rs type="funder">Information Department of Fujian Provincial Hospital</rs>. We also extend our gratitude to the experts for their constructive comments and to the research team for their dedicated work.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>The author(s) declare that financial support was received for the research and/or publication of this article. This work was supported by the <rs type="funder">Medical Innovation Project of Fujian Province</rs> (grant no. <rs type="grantNumber">2023CXA004</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_V5deHyU">
+					<idno type="grant-number">2023CXA004</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics statement</head><p>The studies involving humans were approved by Ethics Committee of Fujian Provincial Hospital. The studies were conducted in accordance with the local legislation and institutional requirements. The participants provided their written informed consent to participate in this study. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generative AI statement</head><p>The author(s) declare that no Gen AI was used in the creation of this manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's note</head><p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,58.23,365.46,232.27,7.08;10,49.60,373.46,240.95,7.08;10,49.60,381.46,240.95,7.08;10,49.60,389.46,95.09,7.08" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Global skin disease morbidity and mortality an update from the global burden of disease study 2013</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Karimkhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Dellavalle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Coffeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Flohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Langan</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamadermatol.2016.5538</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="406" to="412" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,58.16,401.46,232.44,7.08;10,49.60,409.46,240.95,7.08" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Global burden of skin disease: inequities and innovations</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Seth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cheldize</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Freeman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13671-017-0192-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Dermatol Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="204" to="210" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,58.19,421.46,232.28,7.08;10,49.60,429.46,206.48,7.08" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chronic wound healing: a review of current management and treatments</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ceilley</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12325-017-0478-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Ther</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="599" to="610" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,58.09,441.46,232.51,7.08;10,49.60,449.46,240.95,7.08;10,49.60,457.46,240.95,7.08" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Prevalence of chronic wounds in the general population: systematic review and meta-analysis of observational studies</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martinengo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Olsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bajpai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Soljak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Upton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schmidtchen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.annepidem.2018.10.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="8" to="15" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,58.17,469.46,232.33,7.08;10,49.60,477.46,240.94,7.08;10,49.60,485.46,81.28,7.08" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Placing the patient at the Centre of chronic wound care: a qualitative evidence synthesis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fearns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Heller-Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harbour</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jtv.2017.09.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Tissue Viability</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="254" to="259" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,58.24,497.46,232.33,7.08;10,49.60,505.46,240.95,7.08;10,49.60,513.46,240.95,7.08;10,49.60,521.46,75.80,7.08" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">An economic evaluation of the impact, cost, and medicare policy implications of chronic nonhealing wounds. Value Health</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Nussbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Fife</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Davanzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Haught</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nusgart</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jval.2017.07.007</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="27" to="32" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,58.17,533.46,232.39,7.08;10,49.60,541.46,240.95,7.08;10,49.60,549.46,172.13,7.08" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Investigation on the status and determinants of caregiver burden on caring for patients with chronic wound</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Q</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hou</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2018.0873</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="429" to="437" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,58.18,561.46,232.38,7.08;10,49.60,569.46,188.11,7.08" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Human wound and its burden: updated 2022 compendium of estimates</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Sen</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2023.0150</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="657" to="670" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,58.26,581.46,232.20,7.08;10,49.60,589.46,240.95,7.08;10,49.60,597.46,240.94,7.08;10,49.60,605.46,24.61,7.08" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Construction and implementation of a cloud platform for chronic wound care in the home care setting through hospital-community multidisciplinary teamwork</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Nurs Sci</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="86" to="89" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,61.23,617.46,229.32,7.08;10,49.60,625.46,240.93,7.08;10,49.60,633.46,207.27,7.08;10,55.69,645.46,234.85,7.08;10,49.60,653.46,240.94,7.08;10,49.60,661.46,240.93,7.08;10,49.60,669.46,208.97,7.08" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Home environment as a therapeutic target for prevention and treatment of chronic diseases: delivering restorative living spaces, patient education and self-care by bridging Biophilic design, E-commerce and digital health technologies</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Rowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Huyvetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ra ;</forename><surname>Huntsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Bulaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/ijerph22020225</idno>
+		<idno>doi: 10.3390/ijerph22020225</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Environ Res Public Health</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">225</biblScope>
+			<date type="published" when="2020">2020. 2025</date>
+		</imprint>
+	</monogr>
+	<note>Int Wound J.</note>
+</biblStruct>
+
+<biblStruct coords="10,61.23,681.46,229.30,7.08;10,49.60,689.46,240.94,7.08;10,49.60,697.46,98.37,7.08" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effects of home-based chronic wound care training for patients and caregivers: a systematic review</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mao</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.14219</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="3802" to="3820" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,61.26,709.46,229.26,7.08;10,49.60,717.46,240.93,7.08;10,49.60,725.46,240.94,7.08;10,49.60,733.46,77.83,7.08" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Complex wound healing outcomes for outpatients receiving care via telemedicine, home health, or wound clinic: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Téot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Geri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cabrol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Linet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mercier</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1534734619894485</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Low Extrem Wounds</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="197" to="204" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,61.26,745.46,229.19,7.08;10,49.60,753.46,240.95,7.08;10,49.60,761.46,165.58,7.08" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Efficacy of telemedicine for patients with chronic wounds: a Meta-analysis of randomized controlled trials</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/wound.2020.1169</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="103" to="112" />
+			<date type="published" when="2021">2021</date>
+			<pubPlace>New Rochelle</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.38,365.46,229.25,7.08;10,304.71,373.46,240.95,7.08;10,304.71,381.46,121.97,7.08" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Costs of home-based telemedicine programs: a systematic review</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Michaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Siahpush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Su</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0266462318000454</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Technol Assess Health Care</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="410" to="418" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.34,393.46,229.34,7.08;10,304.71,401.46,240.97,7.08;10,304.71,409.46,240.94,7.08;10,304.71,417.46,53.12,7.08" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Wound image quality from a Mobile health tool for home-based chronic wound management with real-time quality feedback: randomized feasibility study</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mihai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tüshaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scebba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Distler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karlen</forename><forename type="middle">W</forename></persName>
+		</author>
+		<idno type="DOI">10.2196/26149</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Mhealth Uhealth</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">26149</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.35,429.56,229.33,7.08;10,304.71,437.66,240.94,7.08;10,304.71,445.76,145.36,7.08" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The viability and acceptability of a virtual wound care command Centre in Australia</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barakat-Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Airey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stephenson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.13782</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1769" to="1785" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.34,457.86,229.37,7.08;10,304.71,465.96,240.94,7.08;10,304.71,474.06,164.50,7.08" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Enlightenment from the &quot;family hospital&quot; project in United States of America on the construction of &quot;internet plus family sickbed&quot; in China</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.13912/j.cnki.chqm.2022.29.07.24</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chin Health Qual Manag</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="97" to="101" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.36,486.16,229.32,7.08;10,304.71,494.26,203.92,7.08" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Implementation research: what it is and how to do it</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Alonge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Agyepong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tran</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmj.f6753</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="731" to="736" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.34,506.36,229.40,7.08" xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Tran</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Implementation research in health: A practical guide</note>
+</biblStruct>
+
+<biblStruct coords="10,304.71,514.46,158.49,7.08" xml:id="b19">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Switzerland</forename><surname>Geneva</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>World Health Organization</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.34,526.56,229.38,7.08;10,304.71,534.66,197.59,7.08" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Using implementation science in nursing research</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duff</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.soncn.2023.151399</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Oncol Nurs</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">151399</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.16,546.76,229.50,7.08;10,304.71,554.86,225.12,7.08" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Advancing mental health service delivery in low-resource settings</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Txu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Samu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S2214-109X(24)00031-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Glob Health</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="543" to="545" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.38,566.96,229.25,7.08;10,304.71,575.06,240.95,7.08;10,304.71,583.16,240.95,7.08;10,304.71,591.26,95.61,7.08" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Damschroder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Aron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Kirsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lowery</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1748-5908-4-50</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Implement Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.38,603.36,229.24,7.08;10,304.71,611.46,240.95,7.08;10,304.71,619.56,95.26,7.08" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The difference between evidence-based medicine, evidence-based (clinical) practice, and evidence based health care</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Puljak</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclinepi.2021.11.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="311" to="312" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.38,631.66,229.23,7.08;10,304.71,639.76,240.93,7.08;10,304.71,647.86,240.95,7.08;10,304.71,655.96,50.07,7.08" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Evidence-based practice integration in hospital wards-the complexities and challenges in achieving evidence-based practice in clinical nursing</title>
+		<author>
+			<persName><forename type="first">Å</forename><surname>Renolen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hjälmhult</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Høye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Danbolt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kirkevold</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/nop2.259</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nurs Open</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="815" to="823" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.34,668.06,229.39,7.08;10,304.71,676.16,240.92,7.08;10,304.71,684.26,187.37,7.08" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Introduction and application of the consolidated framework for implementation research (CFIR). Version 2 (CFIR V2)</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Damschroder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Reardon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Widerquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lowery</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13012-022-01245-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Implement Sci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.36,696.36,229.32,7.08;10,304.71,704.46,161.40,7.08" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Guidelines for the diagnosis and treatment of chronic wounds. Beijing: People&apos;s Medical Publishing House</title>
+		<author>
+			<orgName type="collaboration">Association CM</orgName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="3" to="4" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.57,716.56,229.07,7.08;10,304.71,724.66,240.95,7.08;10,304.71,732.76,240.95,7.08;10,304.71,740.86,54.32,7.08" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Reliability of the bates-jensen wound assessment tool for pressure injury assessment: the pressure ulcer detection study</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Bates-Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Mccreath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Harputlu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patlan</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/wrr.12714</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="386" to="395" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,316.36,752.96,229.33,7.08;10,304.71,761.06,189.43,7.08;11,49.61,35.48,33.43,6.37;11,453.92,35.48,91.73,6.37" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Application and cost-benefit analysis of different silver dressings in chronic wound bacterial biofilm infection</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fei</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpubh.2025.1591187</idno>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<pubPlace>China</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Jiangsu University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Chen et</note>
+</biblStruct>
+
+<biblStruct coords="11,49.61,801.56,81.56,6.37;11,294.04,801.56,7.20,6.37;11,499.34,801.56,46.33,6.37" xml:id="b29">
+	<monogr>
+		<title level="m">Frontiers in Public Health 11 frontiersin</title>
+		<meeting><address><addrLine>org</addrLine></address></meeting>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,61.23,78.42,229.38,7.08;11,49.61,86.52,204.09,7.08" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Application study on 3D wound measurement system inchronic wound measurement</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xunlian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xianrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chin Nurs Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="689" to="692" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,61.27,98.62,229.19,7.08;11,49.61,106.72,240.93,7.08;11,49.61,114.82,202.84,7.08" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Psychometric evaluation of the wound-QoL questionnaire to assess health-related quality of life in Chinese people with chronic wounds</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ji</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/iwj.14050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1903" to="1910" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,61.27,126.82,229.23,7.08;11,49.61,134.82,240.94,7.08;11,49.61,142.82,53.59,7.08" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Research on constructing a self management evaluation system for chronic wound patients based on Delphi method</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">M</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chin Nurs Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2728" to="2733" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,316.39,78.42,229.19,7.08;11,304.72,86.42,240.94,7.08;11,304.72,94.42,74.45,7.08" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A study on the psychometric properties of the Chinese version SF-36 for heroin addicts</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.13936/j.cnki.cjdd1992.2013.02.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chin J Drug Depend</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="116" to="121" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,316.39,106.42,229.25,7.08;11,304.72,114.42,177.43,7.08" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">What is meant by intention to treat analysis? Survey of published randomised controlled trials</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hollis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="670" to="674" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,316.36,126.42,229.33,7.08;11,304.72,134.42,240.96,7.08;11,304.72,142.42,179.63,7.08" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Expert advice provided through telemedicine improves healing of chronic wounds: prospective cluster controlled study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zarchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Haugaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Dufour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gbe</forename><surname>Jemec</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/jid.2014.441</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="895" to="900" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

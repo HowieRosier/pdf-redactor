@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Wound care evidence, knowledge and education amongst nurses: a semi-systematic literature review</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>PGCert TLHE, MSc, BSc (Hon), MA, RN,</roleName><forename type="first">Lynn</forename><surname>Welsh</surname></persName>
+							<email>lynn.welsh@uws.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Health, Nursing and Midwifery</orgName>
+								<orgName type="institution">University of the West of Scotland</orgName>
+								<address>
+									<settlement>Paisley</settlement>
+									<country key="GB">Scotland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Lecturer in Nursing School of Health Nursing and Midwifery</orgName>
+								<orgName type="institution">University of the West</orgName>
+								<address>
+									<postCode>A418 PA1 2BE, 0141 849 4320</postCode>
+									<country>Scotland Paisley Campus Room, Scotland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Wound care evidence, knowledge and education amongst nurses: a semi-systematic literature review</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">1742-4801</idno>
+					</monogr>
+					<idno type="MD5">17A18B6AB67E7F8FED6F92FDC91DD2C9</idno>
+					<idno type="DOI">10.1111/iwj.12822</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Education</term>
+					<term>Nurse</term>
+					<term>Tissue Viability</term>
+					<term>Wound</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aims of this study were to determine the knowledge and skills of nurses involved in wound care, to provide a critical overview of the current evidence base underpinning wound care and to determine the extent of utilisation of existing evidence by nurses involved in the management of wounds in practice. A semi-systematic review of the literature was undertaken on Cinahl, Medline Science Direct and Cochrane using the search terms: wound, tissue viability, education, nurse, with limitations set for dates between 2009 and 2017 and English language. Shortfalls were found in the evidence base underpinning wound care and in links between evidence and practice, prevalence of ritualistic practice and in structured education at pre-and post-registration levels. The evidence underpinning wound care practice should be further developed, including the conduction of independent studies and research of qualitative design to obtain rich data on both patient and clinician experiences of all aspects of wound management. More structured wound care education programmes, both at pre-registration/undergraduate and professional development levels, should be established.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction/background</head><p>The presence of a wound represents a considerable burden in terms of economic cost to health and social care providers and impact on patient quality of life (QoL). This is notably so for chronic wounds, the definition of which has not been universally agreed upon but is generally accepted to refer to wounds that do not follow the normal stages of healing and in which healing is consequently delayed <ref type="bibr" target="#b0">(1)</ref>. Whilst chronic wounds were previously estimated to cost the National Health Service (NHS) between £2⋅5 and £3 billion p/a <ref type="bibr" target="#b1">(2)</ref>, more recent data propose that the annual cost to manage wounds and associated comorbidities is between £4⋅5 and £5⋅1 billion (3). In addition, <ref type="bibr">Augustin et al. (4)</ref> found living with a wound to have a negative multifactorial impact on psychosocial health and well-being. This impact is recognised to be worsening with changing demographics and a population that is living longer with multiple comorbidities and chronic conditions <ref type="bibr" target="#b4">(5)</ref>. In the UK, the increasing decentralisation of health and social care means that the majority of the burden lies within the community setting where district nurses (DNs) and other community health and social care providers are responsible for wound management <ref type="bibr" target="#b5">(6)</ref>. Indeed, wound care represents between 35% and 65% of community nurses' caseloads ( <ref type="bibr" target="#b6">(7,</ref><ref type="bibr" target="#b7">8)</ref>), which has significant implications for an increasingly overstretched and pressurised DN work force <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Messages</head><p>• the effective management of chronic wounds is complex, and in order to maximise outcomes for patients, it is recommended that those involved in their care and treatment should have the appropriate knowledge and skills; however, little is known about nurses' knowledge, skills and education in this capacity • a semi-systematic literature review was carried out to determine the current evidence base underpinning wound care; the extent of utilisation of existing evidence by nurses involved in the management of wounds in practice; and the nature and knowledge, skills and education of nurses involved in wound care L. Welsh</p><p>• shortfalls were found in the evidence base underpinning wound care and in links between evidence and practice and in structured education at pre-and post-registration levels; a prevalence of ritualistic practice was also found</p><p>The effective management of chronic wounds is complex, and in order to maximise outcomes for patients, it is recommended that those involved in their care and treatment should have the appropriate knowledge and skills (European Wound Management Association <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b11">12)</ref>. This includes an understanding of the anatomy and physiology of tissue repair and aetiology and also knowledge pertaining to the selection of appropriate products and interventions to support the achievement of positive outcomes. The most obvious of these is wound closure, which is reflected in the frequency with which it is measured in studies <ref type="bibr" target="#b11">(12)</ref>; however, those relating to patient QoL are increasingly regarded with equal importance as wounds negatively impact all aspects of an individual's life, and complete closure is not always the ultimate goal of care (e.g., in palliative care patients for whom maximisation of comfort and dignity often takes precedence over healing) <ref type="bibr" target="#b12">(13)</ref>. Despite this, little is known about nurses' knowledge and skills in wound care, both in relation to formal evidence and education and that which is from gleaned from experiential learning and clinical practice <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15)</ref>. There is also debate surrounding the quality of evidence, which seeks to confirm the proposed effectiveness of particular types of wound treatments and products and factors influencing their selection <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b15">16)</ref>. A significant shortfall of this evidence is that it is largely driven and funded by industry, which may have potential methodological and ethical implications. It is therefore crucial that a more developed understanding of the evidence base underpinning the care of wounds and its role in shaping nurses' knowledge, education and clinical practice is achieved so that outcomes can be maximised.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aim</head><p>The aim of this literature review is to provide a critical overview of the current evidence base underpinning wound care and the extent of utilisation of existing evidence by nurses involved in the management of wounds in practice. It will also seek to determine the knowledge and skills of nurses in relation to wound care and the sources from which it arises, including those that are formal (i.e. empirical evidence and structured education) and those that are informal (i.e. experiential, clinical practice and knowledge gleaned from colleagues).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Search strategy</head><p>An initial literature search was carried out in February 2017 on health care and scientific databases, including Cinahl, Medline, Cochrane,; Science Direct and PubMed, with the following key words singularly and in various combinations: Wound*, knowledge, nurs*, tissue viability, evidence, education.</p><p>Inclusion criteria were as follows: original research studies with no restrictions on design or methodology, English language, date of publication between 2009 and 2017 to source contemporary literature and all age groups. Exclusion criteria were as follows: review papers, publications in languages other than English, date of publication before 2009, publications not fitting specified methodologies, publications focusing upon specialist or novel approaches to wound management, studies published with industry support and funding and studies focussing on specific or specialist wound care skills and practice.</p><p>The original search yielded 201 papers, which were filtered to 193 with the removal of duplicates; 193 papers were screened, with 104 excluded by title and abstract, and a further 84 excluded following review of full text and reference lists. An additional search on Google Scholar was carried out, but no further studies were identified. Saved searches were re-run on a weekly basis until March 2017, but no new studies were identified, leaving a final total of five papers that fit the inclusion criteria (Figure <ref type="figure" target="#fig_0">1</ref>).</p><p>To assist with structured methodological appraisal, a summary table was used (Table <ref type="table" target="#tab_0">1</ref>). An appraisal tool was adapted from the Critical Appraisal Skills Programme (CASP) for quantitative studies to support the critique of each study using the checklist approach that is recommended by the Centre for Reviews and Dissemination <ref type="bibr" target="#b16">(17)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key findings</head><p>The findings of the literature review highlighted a number of shortfalls and limitations pertaining to wound care knowledge and practice, with the following common sub-themes emerging:</p><p>• Limitations in the evidence base pertaining to wound care, including the domination of studies published for corporate interest; • Poorly developed links between evidence and wound care in practice; • Recognition of insufficient wound care knowledge amongst nurses; • The frequency of ritualistic and historic practice; • Recognition of the need for more structured wound care education programmes for nurses at pre-and post-registration levels.</p><p>A number of generic ontological and methodological limitations were identified with the evidence sourced -most notably that all studies took a similar post-positivist approach, adopting descriptive and quantitative methodologies. A key and significant flaw is, therefore, the absence of studies underpinned by a constructivist or interpretivist paradigm and an overlooking of knowledge formation from contextual, individualistic and socially developed perspectives <ref type="bibr" target="#b17">(18)</ref>. This might be contested to particularly misalign with the ethos of the nursing profession, which is embedded in person centeredness and holism <ref type="bibr" target="#b18">(19)</ref>. The absence of studies adopting a qualitative design also overlooks the importance of rich contextual data, for example, that pertaining to nurses' views on their wound care knowledge and patients' lived experiences of having a wound <ref type="bibr" target="#b17">(18)</ref>. The uniform choice of questionnaire and survey design methods considerably limit the variety of data that shape the resulting evidence base and may not accurately represent wound care in the practice setting, particularly because all studies relied upon data that was self-reported. In terms of methodological weakness, only one study utilised a validated tool to collate data, whilst a number of the sample sizes were small, with only one study completing a power calculation and others having relatively poor participant response rates. For the majority of studies, the approach to sampling was convenience, which may not have led to results reflective of wider nursing practice. No studies declared whether researchers had been previously known to participants and in what capacity, which could have contributed to a researcher effect <ref type="bibr" target="#b19">(20)</ref>. This is considered to be an important factor in maintaining reliability in studies of positivist, realist and, to a lesser degree, post-positivist ontology as contextual factors, including relationships between researchers and participants, should be highly controlled <ref type="bibr" target="#b19">(20)</ref>. Finally, four of the studies used participants from only acute clinical settings, which limits the generalisability of the findings to wider areas of practice. This is particularly relevant in the UK where the majority of wound care is carried out in the community setting and may consequently account for community nurses having more developed skills in wound management <ref type="bibr" target="#b5">(6)</ref>. However, the representation of wound care practice in a variety of geographical settings might be argued to shape a global perspective and enable useful comparisons to be made.</p><p>Each of the emergent themes will now be explored in succession.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evidence in wound care</head><p>Nursing has been historically criticised for the absence of a distinct profession-specific evidence base, instead borrowing on those from professions such as medicine and the social sciences <ref type="bibr" target="#b20">(21)</ref>. To some extent, the academisation and move from an apprenticeship model to a higher education model has raised the profile of the profession in this capacity; however, there is still a reluctance amongst nurses to fully embrace evidence-based practice (EBP), most notably within the clinical context <ref type="bibr" target="#b21">(22)</ref>. This trend has been particularly visible within wound care, which has been argued to lag behind other areas of practice due to the lack of robust empirical evidence <ref type="bibr" target="#b22">(23)</ref>. All five of the publications reviewed acknowledged this shortfall and the need to establish a more scientific evidence base <ref type="bibr" target="#b22">(23)</ref><ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref>. Whilst national clinical guidelines, such as those produced by National Centre for Health and Care Excellence (NICE) in the UK, employ strict criteria for development (e.g., the underpinning of empirical evidence that is high on the hierarchy of evidence such as clinical trials), it was also recognised that, within wound care, nurses often rely upon evidence that is lower on the traditional hierarchy to shape practice <ref type="bibr" target="#b25">(26)</ref>. This was particularly noted in relation to a lack of evidence supporting the efficacy of specific dressings <ref type="bibr" target="#b25">(26)</ref>. However, although empirical evidence was widely agreed to be a crucial component of EBP in relation to wound care, additional types of knowledge, such as that gleaned from informal sources (i.e., experience, clinical practice and learning through colleagues), were also recognised to be important <ref type="bibr" target="#b22">(23)</ref><ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref>. Indeed, the Centres for Disease Prevention and Control [CDC] in the USA applies a combination of empirical evidence, theoretical knowledge and contextual knowledge to shape each of its recommendations <ref type="bibr" target="#b25">(26)</ref>, which supports an increasing awareness of the role of informal sources of knowledge in EBP. <ref type="bibr">Dugdall and Watson (23)</ref> additionally recognised shortfalls in evidence pertaining to the management of wounds for specific patient groups (e.g. paediatrics and neonates) and a subsequent need to adopt evidence from studies conducted on adults to shape practice. However, it should be noted that this challenge is not unique to wound care as it is ethically problematic to carry out trials using paediatric and neonatal participants in all areas of practice <ref type="bibr" target="#b27">(28)</ref>. A final factor is that much wound care research is supported by industry, leading to potential conflicts of interest in relation to overall corporate aim and the opportunity for ethical misconduct.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Poorly developed links between evidence and practice</head><p>All five of the studies either directly or indirectly identified poor links or barriers to the implementation of EBP. Although <ref type="bibr">McCluskey and McCarthy (27)</ref> recognised the importance of informal sources of knowledge, such as experiential learning and intuition, in shaping competence in wound care practice, the lack of a structured approach and barriers to the implementation of EBP were also identified. As such, nurses' knowledge was, in some cases, found to be sufficient, but poor application negatively affected competence in practice. Gillespie et al.</p><p>(26) also recognised the role of experiential knowledge but found gaps between knowledge and practice and a failure of nurses to apply recommendations made by national clinical guidelines, whilst a high number of respondents in deFaria et al. <ref type="bibr" target="#b23">(24)</ref> and Ferreira et al. <ref type="bibr" target="#b24">(25)</ref> reported a lack of awareness of the existence of local protocols or guidelines pertaining to wound care in their clinical area at all. Dugdall and Watson <ref type="bibr" target="#b22">(23)</ref> found statistically significant correlations between positive attitudes to EBP and a specific tissue viability role (P = 0⋅002), a first degree (P = 0⋅001) and a formal tissue viability qualification (P = 0⋅001), which suggests that EBP is more positively received by those with structured education. However, shortfalls in partnerships and integration between higher education/academic institutions and clinical sectors were also noted, which are also recognised to negatively affect the implementation of EBP in the practice setting <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b23">24)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inadequate wound care knowledge amongst nurses</head><p>Nurses' knowledge in wound care was addressed by five of the studies, all of which acknowledged an insufficiency to some degree. deFaria et al. <ref type="bibr" target="#b23">(24)</ref> and Ferreira et al. <ref type="bibr" target="#b24">(25)</ref> noted a clear deficit in knowledge in a number of areas pertaining to wound care (e.g. pressure ulcer grading, awareness of clinical guidelines/protocols, dressing selection etc.), although it should be noted that both studies were conducted in the same acute hospital in Brazil, which may identify shortfalls pertaining to the particular setting rather than to nursing in the wider sense. <ref type="bibr">McCluskey and McCarthy (27)</ref> found that whilst wound care knowledge was sufficient to inform practice overall and somewhat better than reported in a number of previous studies, this was distinct from competence, which was often negatively affected by nurses' poor application of knowledge in the clinical setting. This was supported by Gillespie et al. <ref type="bibr" target="#b25">(26)</ref> who found that despite having a good theoretical knowledge of wound assessment, Australian nurses working in the acute sector demonstrated similar poor links between knowledge and practice and poor application of clinical guidelines. <ref type="bibr">Dugdall and Watson (23)</ref> was the only study that did not explicitly explore knowledge; however, they did identify a link between higher and specialist wound care education and a positive attitude to EBP, which subsequently led to better wound care practice.</p><p>Although findings from some of the studies also suggested that nurses often lack product-specific knowledge, which is required to make evidence-based decisions in the selection of dressings <ref type="bibr" target="#b23">(24,</ref><ref type="bibr" target="#b25">26)</ref>, in other studies, some participants reported a degree of confidence in product selection <ref type="bibr" target="#b24">(25)</ref>. deFaria et al. <ref type="bibr" target="#b23">(24)</ref> found that 70% of respondents attested that there were no wound care guidelines or standards in their area of practice, whilst a further 6% were unable to respond due to lack of information. When questioned about their level of professional autonomy in the selection of wound care products, 63% also stated that authorisation from the doctor was required in this capacity. This is in contrast to the UK where nurses historically take the lead in the management of wounds; however, although this might be argued to be reflective of differences in the organisational and professional hierarchies in health care, nurses from those studies carried out in other areas also reported some lack of knowledge, which reveals a potential deficit in a range of geographical settings <ref type="bibr" target="#b25">(26,</ref><ref type="bibr" target="#b26">27)</ref>. Finally, only McCluskey and McCarthy ( <ref type="formula">27</ref>) explored the nature and types of knowledge nurses apply to shape wound care practice, including those that are empirical, formal and explicit and also those that are tacit, informal and contextual, the latter of which were perceived to be linked to competence and experiential learning in practice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ritualistic and historic practice in wound care</head><p>Four of the studies attributed much wound care practice to derive from historic and ritualistic practices ( (23-26)). Ferreira et al. <ref type="bibr" target="#b24">(25)</ref> reported that wound care practice was rooted in tradition and myth; with Gillespie et al. <ref type="bibr" target="#b25">(26)</ref> using the concept of the "sterile field" as an example of wound care practice, which is ritualistic rather than underpinned by evidence.  <ref type="bibr" target="#b25">(26)</ref> did not specifically comment on the existence or effectiveness of formal wound care education or that accrued in practice but did acknowledge the existence of a positive relationship between higher education or specific tissue viability training and favourable attitudes towards EBP, which suggest that education improves practice. This may be argued to be of particular importance within the primary care sector as in a number of areas (e.g. across the UK), complex care is increasingly delivered in the community, and ineffective wound management would have a significant impact <ref type="bibr" target="#b5">(6)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>It is clear from the findings of this review and from additional studies that the existence of high-quality evidence pertaining to wound management is limited. This was found to be the case both in the generic sense but also in more specific areas of wound care practice (e.g. paediatrics) and was particularly notable in relation to the perceived effectiveness of specific products. This has been proposed to be related to a number of potential factors, notable of which may be that wound care practice has been traditionally led by the nursing profession rather than the medical profession, the latter of whom are historically regarded as the dominant health care professional <ref type="bibr" target="#b28">(29)</ref>. As such, this may lead to their domination of competing research activity and resources but also to a failure to prioritise wound care and continually regard it as being of lesser importance than many clinical activities traditionally associated with doctors. It may also be linked to the lesser overall production of nursing research as nurses are recognised for their lesser engagement and reluctance to participate in scholarly activity in comparison to their medical counterparts. All of the publications acknowledged the need to establish a more scientific evidence base; however; despite attempts to gain legitimacy by aligning itself with the post-positivist approach favoured by medicine <ref type="bibr" target="#b19">(20)</ref>, nursing might be argued to be more ontologically in tune with the interpretivist/relativist/constructionist paradigms, which continue to be regarded with lesser scientific value amongst academic and research bodies than both the positivist and post-positivist paradigms <ref type="bibr" target="#b29">(30)</ref>. A further consideration is the links between wound care research and industry, although this has been addressed to some extent by the development of ethical codes of conduct for those employed by public sector and industry <ref type="bibr" target="#b30">(31,</ref><ref type="bibr" target="#b31">32)</ref>.</p><p>Although empirical evidence was recognised to be a key component of practice [e.g. shaping national clinical wound care guidelines, such as those produced by the Scottish Intercollegiate Guidelines Network (SIGN) in the UK], nurses were also found to rely on evidence that is lower on the traditional hierarchy, with additional types of knowledge gleaned from informal sources (i.e. experience, clinical practice and learning through colleagues) also being recognised as important in all five studies. However, all studies also identified barriers to the implementation of EBP, including poor application of knowledge, failure to apply recommendations made by clinical guidelines or lack of awareness of protocols and guidelines altogether. Shortfalls in partnerships and integration between higher education/academic institutions and clinical sectors were also recognised to negatively affect the implementation of EBP in the practice setting <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b23">24)</ref>.</p><p>One of the shortfalls pertaining to the application of wound care theory to practice was the deficit in structured tissue viability education, both at an undergraduate level and that accredited by continuing professional development, which may be linked to the lack of prioritisation of wound care in comparison to other areas of practice and a consequential failure to organise and deliver sufficient education programmes. A further issue may be the increasing complexity of health demographics, which has led to a call in some circles for the preference of the term complex wounds rather than chronic wounds as the latter is defined by an association with time whilst the former recognises the growing underlying comorbidities that have a more multifactorial impact on wound healing <ref type="bibr" target="#b32">(33)</ref>. This highlights an additional challenge for clinicians who are ultimately accountable for ensuring correct diagnosis, treatment pathways and responsible use of resources; however, this may be further limited by local systems and protocols impacting product availability in particular clinical areas (i.e. local wound care formularies). Additionally, the reduction of funding in CPD courses by NHS England in the UK may have a detrimental impact on access for those nurses wishing to undertake tissue viability courses, a development that is likely to filter out to other areas of the UK over time <ref type="bibr" target="#b33">(34)</ref>.</p><p>A final point to note is that the majority of research pertaining to wound care is of quantitative design, and there is a noted absence of qualitative studies exploring either patients' or nurses' views, experiences and knowledge surrounding wounds and their management. Although the formal evidence base pertaining to wound care is unwaveringly limited, evidence and knowledge from less formal sources were more challenging to define. This was reflected in mixed evidence amongst the studies supporting the use of experiential and tacit learning in the practice setting and the conflicting results that emerged (i.e. learning from colleagues but also passing on ritualistic practices); however, experiential knowledge has been long recognised to be an important component of nursing practice, and there is no theoretical reason to believe this to be any less so in the field of wound care <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>L. Welsh</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>This work reviewed literature pertaining to wound management to determine the current evidence base underpinning wound care, the extent of utilisation of existing evidence by nurses involved in the management of wounds and the knowledge and skills of nurses in relation to wound care. The evidence base pertaining to wound care practice was found to be limited, with weak links between EBP and practice-heavy reliance upon industry support and funding, which may have potential ethical implications. Nurses were found to rely upon both formal and informal sources of knowledge to shape wound care practice; however, this contributed to the culture of ritualistic practice that withstands the clinical setting. A further impacting factor was found to be the inadequacy of wound care education at all levels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendations for practice</head><p>• The commitment to the conduction of independent studies in an effort to build the evidence base on all aspects of wound management; • The commitment to the conduction of wound care research of qualitative design to obtain rich data on both patient and clinician experiences of all aspects of wound management; • The development of more structured wound care education programmes at both pre-registration/undergraduate and professional development levels; • The commitment from nurse leaders and managers to support innovation and best practice through ongoing governance and audit activity.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Search strategy algorithm. PRISMA (35).</figDesc><graphic coords="3,205.45,50.87,340.10,292.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Summary appraisal table Study</figDesc><table><row><cell>L. Welsh</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Gillespie  et al. (26)  andMcCluskey and McCarthy (27)  both acknowledged the contextual and individualised nature of knowledge applied to wound care practice and a lack of standardisation that varied both within and between organisations.Dugdall and  Watson (23)  attributed this partly to the increasing availability of wound care products and nurses' reluctance to change the types of dressings used in case it appeared that they were challenging colleagues, whilst Gillespie et al.<ref type="bibr" target="#b25">(26)</ref> attested that the selection of product can also be limited by contextual factors such as senior clinician preference and stock availability.McCluskey and McCarthy (27)  also recognised the increasing complexity of wound aetiologies as a potential factor affecting ritualistic practice, whilst Ferreira et al.<ref type="bibr" target="#b24">(25)</ref> and deFaria et al.<ref type="bibr" target="#b23">(24)</ref> acknowledged challenges associated with accessing updated information about wound care and reliance upon colleagues' knowledge and experience as a means to address this. This was echoed by Gillespie et al.<ref type="bibr" target="#b25">(26)</ref>, who reported that 75% of respondents obtained wound care information from informal sources, such as local specialists, rather than from scientific journals. Although learning from colleagues may be argued to present an opportunity for the maintenance of historic and ritualistic practice, in contrast,McCluskey and McCarthy (27)   found that wound care competence in practice improved in accordance with length of clinician experience, which supports a positive link between contextual learning and competence in wound management.</figDesc><table><row><cell>Shortfalls in wound education</cell></row><row><cell>Dugdall and Watson (23) acknowledged the need for better</cell></row><row><cell>education in EBP and research and also specifically recog-</cell></row><row><cell>nised shortfalls in tissue viability content in undergraduate</cell></row><row><cell>nursing education. This was echoed by Ferreira et al. (25)</cell></row><row><cell>and deFaria et al. (2016) (24), who found that 71⋅4% and</cell></row><row><cell>67⋅3% of respondents, respectively, reported to having insuf-</cell></row><row><cell>ficient formal wound care education, and McCluskey and</cell></row><row><cell>McCarthy (27), who recommended the implementation of bet-</cell></row><row><cell>ter wound care education programmes for nurses working in</cell></row><row><cell>acute setting. Gillespie et al.</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2017 Medicalhelplines.com Inc and John Wiley &amp; Sons Ltd</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors acknowledge <rs type="person">Professor Ruth Deery</rs>, <rs type="affiliation">School of Health, Nursing and Midwifery, University of the West of Scotland</rs>, <rs type="person">Dr Stephen Day</rs>, <rs type="person">Assistant Dean</rs>, <rs type="affiliation">School of Education, University of the West of Scotland</rs>, <rs type="person">Dr Vivian Crispin, Lecturer</rs>, <rs type="affiliation">School of Health, Nursing and Midwifery, University of the West of Scotland</rs>. No conflicts of interest declared.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,56.65,565.47,229.96,7.13;8,64.63,575.40,166.20,7.13" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The prevalence and incidence of chronic wounds: a literature review</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Graves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Pract Res</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="4" to="19" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,56.65,585.32,229.96,7.13;8,64.63,595.26,72.51,7.13" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The burden of chronic wounds in the UK</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Posnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Franks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nurs Times</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="44" to="45" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,56.65,605.19,229.96,7.13;8,64.63,615.11,221.98,7.13;8,64.63,625.05,221.51,7.13;8,64.63,634.98,129.71,7.13" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Health economic burden that wounds impose on the National Health Service in the UK</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Guest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gerrish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vowden</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjopen-2015-009283</idno>
+		<ptr target="https://doi.org/10.1136/bmjopen-2015-009283" />
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">9283</biblScope>
+			<date type="published" when="2015-02-20">2015. 20 February 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,56.65,644.90,229.98,7.13;8,64.63,654.83,222.00,7.13;8,64.63,664.77,221.98,7.13;8,64.63,674.69,103.81,7.13" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Optimising wellbeing in people living with a wound: an expert working review group</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Augustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Carville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Curran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lindholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Price</surname></persName>
+		</author>
+		<ptr target="http://woundsinternational.com" />
+		<imprint>
+			<date type="published" when="2012-02-24">2012. 24 February 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,56.65,684.62,229.98,7.13;8,64.63,694.56,47.71,7.13" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The challenge of providing cost-effective wound care</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Milne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="52" to="57" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,56.65,704.48,229.97,7.13;8,64.63,714.41,92.79,7.13" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">District Nurses: the hidden giant of the NHS?</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Heaslip</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Community Nurs</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="404" to="406" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.52,50.84,229.95,7.13;8,319.50,60.89,222.00,7.13;8,319.50,70.95,55.68,7.13" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Empowering patients to take control of leg ulcer treatment through individualised management</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hampton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lindsay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="238" to="240" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.53,81.00,229.98,7.13;8,319.50,91.05,222.01,7.13;8,319.50,101.11,47.27,7.13" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">EWMA Document: home care-wound care</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Probst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seppänen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gerber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gethin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rimdeika</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1" to="44" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="8,311.53,111.17,229.97,7.13;8,319.50,121.22,47.71,7.13" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">District Nursing: a Cinderella service?</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bird</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Community Pract</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="16" to="17" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,131.27,230.30,7.13;8,319.50,141.33,222.01,7.13;8,319.50,151.38,23.36,7.13" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Demand on district nursing services leaving staff &apos;on their knees,&apos; says King&apos;s Fund</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Quaile</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Community Nurs</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="490" to="491" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,161.43,230.29,7.13;8,319.50,171.48,142.21,7.13" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Home care-wound care: overview, challenges and perspectives</title>
+		<author>
+			<persName><surname>Ewma Document</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1" to="41" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,181.55,230.29,7.13;8,319.50,191.60,221.99,7.13;8,319.50,201.65,88.23,7.13" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Wound healing and treating wounds: Chronic wound care and management</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Powers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Higham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Broussard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Acad Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="607" to="625" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,211.70,230.29,7.13;8,319.50,221.76,157.14,7.13" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Care of chronic wounds in palliative care and end-of-life patients</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Chrisman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="214" to="235" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,231.81,203.34,7.13" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">From novice to expert</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Benner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Nurs</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="402" to="407" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,241.86,230.29,7.13;8,319.50,251.92,47.71,7.13" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Fundamental patterns of knowing in nursing</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Carper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Nurs Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,261.98,230.28,7.13;8,319.50,272.03,221.98,7.13;8,319.50,282.08,221.96,7.13;8,319.50,292.14,103.64,7.13" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effectiveness of advanced versus conventional wound dressings on healing of chronic wounds: systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Heyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Augustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Protz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Spehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Rustenbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatology</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page" from="172" to="184" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,302.19,230.29,7.13;8,319.50,312.24,222.00,7.13;8,319.50,322.29,17.94,7.13" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Centre for Reviews and Dissemination. Systematic Reviews: CRD&apos;s Guidance for Undertaking Reviews in Health Care</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of York</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,332.35,230.30,7.13;8,319.50,342.42,221.98,7.13;8,319.50,352.47,85.94,7.13" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Qualitative Research in Nursing: Advancing the Humanistic Imperative, 4th edn</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Streubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Carpenter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Lippincott Williams &amp; Wilkins</publisher>
+			<pubPlace>Philadelphia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,362.52,230.29,7.13;8,319.50,372.57,222.01,7.13;8,319.50,382.63,138.99,7.13" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Perceptions of professionalism among nursing faculty and nursing students</title>
+		<author>
+			<persName><surname>Aktar-Danesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kolotylo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lawlor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tompkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">West J Nurs Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="248" to="271" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,392.68,230.31,7.13;8,319.50,402.73,221.98,7.13;8,319.50,412.78,60.35,7.13" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Essentials of Nursing Research: Appraising Evidence for Nursing Practice</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Polit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Beck</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Lippincott Williams and Wilkins</publisher>
+			<pubPlace>Philadelphia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,422.85,230.29,7.13;8,319.50,432.90,222.00,7.13;8,319.50,442.95,221.97,7.13;8,319.50,453.00,168.13,7.13" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Further challenges to medical dominance? The case of nurse and pharmacist supplementary prescribing</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bissell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Avery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lymn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guillaume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ratcliffe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="115" to="133" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,463.06,230.32,7.13;8,319.50,473.11,222.00,7.13;8,319.50,483.16,27.34,7.13" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">An integrative review of engaging clinical nurses in nursing research</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Scala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Day</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Nurs Scholarsh</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="423" to="430" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,493.22,230.28,7.13;8,319.50,503.28,221.99,7.13;8,319.50,513.33,98.34,7.13" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">What is the relationship between nurses&apos; attitude to evidence based practice and the selection of wound care procedures?</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dugdall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Nurs</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1442" to="1450" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,523.38,230.30,7.13;8,319.50,533.44,222.00,7.13;8,319.50,543.49,221.99,7.13;8,319.50,553.54,55.68,7.13" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Knowledge and practice of nurses on the care of wounds</title>
+		<author>
+			<persName><forename type="first">Gonzaga</forename><surname>De Faria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nascimento</forename><surname>Do Prado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De Fátima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brunet</forename><surname>Rogenski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomazini</forename><surname>Borghardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Massaroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Nurs UFPE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="4532" to="4538" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,563.59,230.28,7.13;8,319.50,573.65,221.99,7.13;8,319.50,583.71,222.00,7.13;8,319.50,593.76,31.32,7.13" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Knowledge and practice of nurses abut care for patients with wounds</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rigotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Silva</forename><surname>Da</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Barcelos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cmf</forename><surname>Simão</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Q</forename><surname>Gonçalves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Res fundam Care</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1178" to="1190" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,603.81,230.29,7.13;8,319.50,613.87,222.00,7.13;8,319.50,623.92,174.64,7.13" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Wound care practices: a survey of acute care nurses</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Gillespie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chaboyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Morely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nieuwenhoven</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jocn.12479</idno>
+		<ptr target="https://doi.org/10.1111/jocn.12479" />
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Nurs</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2618" to="2627" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,633.97,230.31,7.13;8,319.50,644.02,142.97,7.13" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Nurses&apos; knowledge and competence in wound management</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mccluskey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mccarthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="37" to="47" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,654.08,230.29,7.13;8,319.50,664.14,221.88,7.13;8,319.50,674.19,221.98,7.13;8,319.50,684.24,18.60,7.13" xml:id="b27">
+	<analytic>
+		<ptr target="https://www.mrc.ac.uk/documents/pdf/medical-research-involving-children" />
+	</analytic>
+	<monogr>
+		<title level="m">MRC Ethics Guide Medical research involving children</title>
+		<imprint>
+			<date type="published" when="2004-04-28">2004. 28 April 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,311.20,694.30,230.29,7.13;8,319.50,704.35,222.00,7.13;8,319.50,714.40,203.55,7.13" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">God&apos; and Other &apos;Do-Gooders&apos; A Comparison of the Regulation of Services Provided by General Practitioners and Social Workers in England</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mcinnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lawson-Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Soc Work</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="341" to="354" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,50.84,230.30,7.13;9,68.76,60.80,221.99,7.13;9,68.76,70.77,55.68,7.13" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Revisiting paradigm(s) in management research: a rhetorical analysis of the paradigm wars</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Challenger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Manage Rev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="225" to="244" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,80.73,230.28,7.13;9,68.76,90.69,221.49,7.13;9,68.76,100.66,161.01,7.13" xml:id="b30">
+	<monogr>
+		<author>
+			<persName><forename type="first">Greater</forename><surname>Nhs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clyde</forename><surname>Glasgow</surname></persName>
+		</author>
+		<ptr target="http://www.nhsggc.org.uk/media/235574/code-of-conduct-for-staff-may-2015.pdf" />
+		<title level="m">Code of Conduct for Staff</title>
+		<imprint>
+			<date type="published" when="2015-08">2015. August 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,60.46,110.62,230.29,7.13;9,68.76,120.58,221.98,7.13;9,68.76,130.54,221.96,7.13;9,68.76,140.51,98.06,7.13" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Code of practice for the promotion of wound care products to healthcare professionals</title>
+		<ptr target="http://www.dressings.org.uk/code-practice-0" />
+		<imprint>
+			<date type="published" when="2017-08">2017. August 2017</date>
+			<publisher>Surgical Dressings Manufacturer&apos;s Association (SDMA</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,50.84,230.27,7.13;9,323.63,60.80,221.97,7.13;9,323.63,69.32,175.27,8.57" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Wound research for patient benefit: the key messages</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dumville</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Tissue Viability Society Conference</title>
+		<meeting><address><addrLine>Birmingham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Edgbaston Stadium</publisher>
+			<date type="published" when="2017-04-05">2017. 2017. April 5 th 2017</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Manchester</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,80.73,230.31,7.13;9,323.63,90.69,81.19,7.13" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Protecting our education training and professional development</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ousey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wounds</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">8</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,315.33,100.66,230.29,7.13;9,323.63,110.62,221.89,7.13;9,323.63,120.58,98.06,7.13" xml:id="b34">
+	<monogr>
+		<title level="m" type="main">PRISMA: Transparent reporting of systematics reviews and meta-analyses</title>
+		<author>
+			<persName><surname>Prisma</surname></persName>
+		</author>
+		<ptr target="http://www.prisma-statement.org" />
+		<imprint>
+			<date type="published" when="2009-08">2009. August 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

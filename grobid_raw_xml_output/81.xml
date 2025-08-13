@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Wound measurement by RGB-D camera</title>
+				<funder ref="#_Rj7ztMv">
+					<orgName type="full">Josip Juraj Strossmayer University of Osijek</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2018-03-30">30 March 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Damir</forename><surname>Filko</surname></persName>
+							<email>damir.filko@etfos.hr</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek</orgName>
+								<orgName type="department" key="dep2">Josip Juraj Strossmayer</orgName>
+								<orgName type="institution">University of Osijek</orgName>
+								<address>
+									<addrLine>Kneza Trpimira 2B</addrLine>
+									<postCode>31000</postCode>
+									<settlement>Osijek</settlement>
+									<country key="HR">Croatia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><surname>Cupec</surname></persName>
+							<email>robert.cupec@etfos.hr</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek</orgName>
+								<orgName type="department" key="dep2">Josip Juraj Strossmayer</orgName>
+								<orgName type="institution">University of Osijek</orgName>
+								<address>
+									<addrLine>Kneza Trpimira 2B</addrLine>
+									<postCode>31000</postCode>
+									<settlement>Osijek</settlement>
+									<country key="HR">Croatia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek</orgName>
+								<orgName type="department" key="dep2">Josip Juraj Strossmayer</orgName>
+								<orgName type="institution">University of Osijek</orgName>
+								<address>
+									<addrLine>Kneza Trpimira 2B</addrLine>
+									<postCode>31000</postCode>
+									<settlement>Osijek</settlement>
+									<country key="HR">Croatia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emmanuel</forename><surname>Karlo Nyarko</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek</orgName>
+								<orgName type="department" key="dep2">Josip Juraj Strossmayer</orgName>
+								<orgName type="institution">University of Osijek</orgName>
+								<address>
+									<addrLine>Kneza Trpimira 2B</addrLine>
+									<postCode>31000</postCode>
+									<settlement>Osijek</settlement>
+									<country key="HR">Croatia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek</orgName>
+								<orgName type="department" key="dep2">Josip Juraj Strossmayer</orgName>
+								<orgName type="institution">University of Osijek</orgName>
+								<address>
+									<addrLine>Kneza Trpimira 2B</addrLine>
+									<postCode>31000</postCode>
+									<settlement>Osijek</settlement>
+									<country key="HR">Croatia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Wound measurement by RGB-D camera</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-03-30">30 March 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">37BB857473CDF071B6EF5157821D23F9</idno>
+					<idno type="DOI">10.1007/s00138-018-0920-4</idno>
+					<note type="submission">Received: 28 March 2017 / Revised: 1 December 2017 / Accepted: 17 January 2018 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Chronic wound</term>
+					<term>Detection</term>
+					<term>3D reconstruction</term>
+					<term>Segmentation</term>
+					<term>Measurement</term>
+					<term>RGB-D camera</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The robot and computer vision community has seen a lot of novelties developed in the past few years as a result of the appearance of cheap RGB-D sensors spearheaded by the Kinect sensor. In this paper, the feasibility of using an RGB-D camera in detecting, segmenting, reconstructing and measuring chronic wounds in 3D is explored. The wound is detected by implementing nearest-neighbor approach on color histograms generated from the image. The proposed wound segmentation procedure extracts the wound contour using visual and geometrical information of the surface. A procedure comparable to KinectFusion is used for the 3D reconstruction of the wound. In order to achieve real-time performance, the whole system is realized in CUDA. The resulting system provides an accurate colored 3D model of the segmented wound and enables the user to determine the volume, area and perimeter of the wound, thereby aiding in the selection of a suitable therapy. The developed system is experimentally evaluated using the Saymour II wound care model by VATA Inc.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="595.28" lry="790.87"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Chronic wounds heal very slowly and the healing process may further be prolonged if an ineffective treatment is used. Clinicians need an objective wound characterization method to decide whether the current treatment is adequate or requires modifications. Accurate wound measurement is an important task in chronic wound treatment, because changes in the physical parameters of the wound are indicators of the healing progress.</p><p>Wound measurement methods currently in use are mostly based on simple approaches for area measurement, using rulers and transparency tracing, or photography-based noncontact systems. Such methods give a rough estimate of the total wound area and the evaluation depends on human experience; it is not objective and not eligible for validation of the wound healing process.</p><p>The first step in creating a precise non-contact measurement system is having the ability to reconstruct the wound as a 3D model. This would facilitate complex analysis or measurement of wounds which is otherwise awkward and painful for the patient or inconvenient for clinicians. Furthermore, the reconstructed 3D model could be used for collaboration between clinicians and telemedicine.</p><p>Non-contact wound measurement and 3D reconstruction systems have been developed before, utilizing lasers or photography with multiple view geometry algorithms. This results in very expensive systems in the case of the former, or less precise and noise prone systems in the case of the latter. With the advent of inexpensive RGB-D cameras, the computer vision community has gained an easier way to innovate and create applications in many fields including medicine.</p><p>In this paper, we explore possibilities of using RGB-D cameras in a system for detection, 3D reconstruction and segmentation of chronic wounds. Three different RGB-D cameras are used: Orbbec Astra S, PrimeSense Carmine 1.09 and Microsoft Kinect v2. The developed system automatically detects wounds by analyzing image blocks according to color histogram similarity using a nearest-neighbor approach. The only manual interaction required from the user is to select 123 Content courtesy of Springer Nature, terms of use apply. Rights reserved.</p><p>a particular wound to be analyzed in the case where multiple wounds are detected. The 3D reconstruction is similar to the KinectFusion approach <ref type="bibr" target="#b0">[1]</ref>, where Iterative Closest Point (ICP) algorithm <ref type="bibr" target="#b1">[2]</ref> is used for determining rigid body transformation. Color-enhanced Truncated Signed Distance Function (TSDF) is applied for scene fusion and the Marching cubes algorithm is used for creating a surface mesh. The wound segmentation algorithm is driven by changes in surface geometry and color with the main goal of separating the wound tissue from the surrounding healthy tissue (skin). Furthermore, except for segmentation, the entire system is implemented in CUDA, which enables real-time operation.</p><p>The proposed system provides a high-resolution 3D colored model of the wound and its surrounding tissue suitable for further analysis. Analysis implemented in the system includes measurement of wound perimeter, area and volume, which clinicians could use to develop more responsive therapy and treatment for chronic wounds. The 3D models could also be efficiently used for telemedicine, thereby improving clinician collaboration and enhancing the treatment of patients.</p><p>The major contribution of this paper is a thorough analysis of the applicability of popular RGB-D cameras in a Kinect-Fusion like system in a medical application for the purpose of measuring chronic wound parameters such as perimeter, area and volume. The technical contribution of this paper is a novel wound analysis system based on the following solutions, which to the best of our knowledge have not been used in existing systems developed for the considered application: (i) 3D reconstruction by fusion of multiple RGB-D images; (ii) wound detection based on nearest-neighbor classifier; (iii) wound segmentation using local surface curvature and color.</p><p>The rest of the paper is structured as follows. In Sect. 2, a short survey of related research is given. Section 3 provides an overview of considered RGB-D cameras, while Sect. 4 presents the detection subsystem and Sect. 5 elaborates the 3D reconstruction subsystem. Section 6 gives details on the segmentation subsystem and Sect. 7 explains the methods used for measurement of wound perimeter, area and volume. Section 8 presents and explains experiments conducted in order to determine the measurement accuracy and repeatability. Finally, this paper is concluded with Sect. 9, which comments on the results and future work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Related research</head><p>A lot of published research focuses on wound assessment by measuring physical attributes such as depth, perimeter, area and volume. Wound measurement is typically divided into two main approaches: contact and non-contact. Contactbased methods require the measurements to be taken directly with wound contact <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. Rulers or transparent films are used in such situations for measuring depth, perimeter and area, while fluid or similar material is used for volume measurement. The main disadvantages of using contactbased methods are imprecision and subjective interpretation. Contact-based methods also increase the possibility of wound infections and are typically not comfortable for patients.</p><p>Non-contact methods require a recording device, whereby a standard camera is typically used. For example, in <ref type="bibr" target="#b4">[5]</ref> the wound is manually marked and tissue type percentages calculated, while area and perimeter measurements require that the ruler be visible in the image. Newer systems which use standard camera automatically segment the wound <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>. It is generally accepted that image-based methods have a maximum error of area measurement of about 10% depending on the wound location and the camera angle. This fact is experimentally proven in several studies including <ref type="bibr" target="#b7">[8]</ref> where the authors also conclude that image-based measurement is a viable alternative to contact-based methods such as VisiTrak.</p><p>Other wound assessment systems use 3D reconstruction to enhance image-based methods and gain more precise measurement. Therefore, using multiple view geometry algorithms with standard cameras is a typical approach. In <ref type="bibr" target="#b8">[9]</ref>, the authors use two wound images taken from different angles to generate a 3D mesh model. Because of the technology and algorithms used, the resulting 3D mesh has a low resolution. Eykona, a system similar in principle and commercially available, used in the study by <ref type="bibr" target="#b9">[10]</ref> generates more dense 3D representation. Besides being very expensive, Eykona has limitations regarding the size and position of the wound it can reconstruct because the whole wound needs to be visible in a single frame. Eykona also requires the use of a disposable optical marker which must be located in the image. Besides Eykona, there are other commercially available 3D wound measurement systems based on stereo vision such as MAVIS and 3D LifeViz, which are equally expensive.</p><p>Lasers are also commonly used for 3D reconstruction in medical research, where a laser line projection sensor calibrated with an RGB camera can produce precise and colored 3D reconstructions. One of the first studies which used such a system was Derma <ref type="bibr" target="#b10">[11]</ref>, where the authors used the expensive Minolta VI910 scanner. Other similar research also used a combination of laser and RGB camera <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>. Such systems have proven to be very precise, but are also not easy to use and very expensive. Furthermore, they also share the limitation that stereo vision systems have: the whole wound must be visible in one frame. One commercially available and relatively costly system for wound measurement which uses laser technology is SilhouetteStar by Aranz Medical. Unfortunately, the system only provides measurement results and does not provide a reconstructed 3D model which the user can further analyze. RGB-D camera is also used in one commercial system for wound measurement but is not yet available to the general public. InSight by eKare uses a technology similar to the original Microsoft Kinect and is used in the study by <ref type="bibr" target="#b13">[14]</ref> for comparison in measurement performance with SilhouetteStar. The measurement shows comparable results except in wound analysis time which takes 45s for InSight and approximately 2 min for SilhouetteStar to produce results. The new InSight system also has the limitation regarding the visibility of the whole wound in a single frame <ref type="bibr" target="#b14">[15]</ref>.</p><p>As it can be seen, most of the systems have limitations regarding precision, ease of use and price, the latter of which limits the widespread use of most systems. However, the biggest limitation in all presented systems is that the whole wound must be visible in a single view. This constraint limits the wounds size and location. The 3D wound reconstruction system presented in this paper does not have such a constraint. Since it is based on scene fusion, the wound can be located on a larger area and on curved surfaces. Furthermore, inexpensive RGB-D cameras are used which cost about $150 which should make the system available to a much wider user base. Preliminary results of the developed systems performance were published at the conferences <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>. This article presents a complete description of developed system including all relevant equations, pseudocodes and examples. Furthermore, research presented in this paper uses two other RGB-D cameras besides the Kinect v2 which was used in the preliminary studies. Also, an in-depth analysis of the detection subsystem was conducted and a more comprehensive database was developed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">RGB-D cameras and their characteristics</head><p>Commercially available and inexpensive RGB-D cameras have been a resounding success in computer and robot vision applications since the appearance of the original Microsoft Kinect in 2010. Besides Microsoft Kinect, other low cost RGB-D cameras have appeared on the market, such as PrimeSense Carmine, Asus Xtion and Orbbec Astra. In the meantime, PrimeSense has been acquired by Apple and products based on their technology such as Carmine and Xtion have been hard to find. In 2014. Microsoft introduced Kinect v2 based on the time-of-flight principle as opposed to structured light in the original Kinect. A thorough analysis of Kinect v2 camera capabilities is available in <ref type="bibr" target="#b17">[18]</ref>. In 2016. Orbbec presented a new RGB-D camera based on structured light principle similar to the original Kinect. In recent years, Intel has also presented an RGB-D technology called RealSense based on structured light principle. Cameras based on RealSense technology are available as development kit, but we were not able to acquire one during the project. They are also integrated into laptop and tablet devices.</p><p>In this article, the applicability of three different RGB-D cameras in a medical application for detection, 3D reconstruction and measuring of chronic wounds is investigated. Table <ref type="table" target="#tab_0">1</ref> lists basic specifications of the three considered cameras.</p><p>As it can be seen, only PrimeSense sensor is currently unavailable and reasons for that is mentioned earlier. All three cameras are relatively easy to handle, although Kinect v2 is the bulkiest and heaviest. Kinect v2 is also the only one that requires USB 3.0 port to function properly. Astra and Carmine cameras support USB 2.0 and 3.0 standard. Kinect v2 and Astra have proprietary API, but Astra also supports open source OpenNI 2 API which Carmine uses as well. Therefore, Astra and Carmine use the same code path within the developed system.</p><p>The considered cameras have different methods of operation. Although Astra and Carmine share the same basic principle, they have different responses to environmental conditions such as sensitivity to illumination, surface reflectivity and viewing angle. In order to obtain an insight into the measurement noise of the three considered cameras, we performed an experiment in which an image of a planar wall surface is acquired by all three cameras, a central region of 200 × 200 pixels is extracted and least squares fitting of a plane to the extracted point set is performed. Figure <ref type="figure" target="#fig_0">1</ref> shows the distribution of deviations from the plane. As it can be seen, Kinect v2 time-of-flight camera has considerably more noise in depth measurement than Astra and Carmine cameras which use the structured light principle.</p><p>All three cameras support hardware (within the camera) or software (within the API) registration between color and depth images. The images in Fig. <ref type="figure">2</ref> show color to depth registration as well as point cloud screenshots.</p><p>It can be noticed that the factory registration for all considered cameras has various degrees of success. Kinect v2 has clearly better registration than Astra S and Carmine 1.09. The pattern black lines in the registration image for the Kinect v2 are probably from the morphological transformation of 1920 × 1080 RGB image to 512 × 424 depth image. It can be seen that Carmine 1.09 has a very small offset in registration, which can be tolerated since that error is averaged across multiple RGB-D images which are fused into a single model. Astra S has a considerable offset in the registered images which results in incorrectly textured 3D models. The detected offsets could be as a result of imprecise factory calibration or problems with synchronization between color and depth image streams, although synchronization option was turned on via OpenNI 2 API for both Astra and Carmine camera.</p><p>In this article, primarily factory registration is used unless otherwise specified. In order to possibly improve the results, we also performed a checkerboard calibration between the color and infrared cameras for Astra and Carmine. The calibration of Carmine camera did not produce any significant improvement over the factory calibration. However, in the case of Astra sensor, calibration did produce significant improvement, as it can be seen in the fourth column of Fig. <ref type="figure">2</ref>. It must also be mentioned that even after the calibration of Astra S, a constant offset between the color and depth image was noticed. Only after shifting the depth image 7 pixels to the left did the registration improve. This observation indicates that the registration of the color and depth images can be further improved by conducting calibration between the coordinate systems of the color and depth images instead of just color and infrared image, which were conducted in this paper. There are numerous articles on the topic of calibration of color and depth cameras, some of which are <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b19">20]</ref>. Registration of color and depth images, as presented in the aforementioned research papers, would require considerable additional effort and is therefore out of the scope of this paper.</p><p>Besides the problem with registration, Astra has an anomaly with its depth measurement. Astra S camera has a measurement discontinuity which, in our case, appears typically between 645 and 655 mm. Figure <ref type="figure">3a</ref> shows a single row from the depth image of a flat wall recorded at an angle. The surface distortion is better perceived on the point cloud displayed in Fig. <ref type="figure">3b</ref>. Since there are multiple discussions in official Orbbec community about similar discontinuities, this anomaly does not affect only the particular instance of the camera used in the experiments reported in this paper.</p><p>It is not certain whether this is a hardware or firmware error, but we hope it will be resolved in future revisions of the Astra S camera.</p><p>Since all considered cameras are based on light projection, depending on whether it is a specific pattern in the case of Astra and Carmine or light pulses in the case of Kinect v2, sensitivity to reflective surfaces in the recording environment must be considered. Figure <ref type="figure">4</ref> shows how partially glossy side of a DVD disk and a metallic case affect depth measurement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>123</head><p>Content courtesy of Springer Nature, terms of use apply. Rights reserved.  As can be seen, Astra is more susceptible to surface reflectivity then Carmine, which results in some surfaces not being seen in the depth images. The Carmine camera is less susceptible to reflective surfaces, which can almost be fully reconstructed, but those surfaces have more measurement noise. The Kinect v2 is very susceptible to reflectivity and although the reflective surfaces are reconstructed, i.e., they have depth measurement, those measurements are placed much further away than they really are which results in considerable distortion of surfaces. The reflective side of the DVD disk causes extreme measurement error for all considered cameras. Therefore, when using these types of cameras for analysis of wounds with glossy parts, measurement errors can be expected.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Wound detection</head><p>In order to identify the relevant part of the scene whose accurate 3D model, we want to obtain, a wound must be detected in the input RGB-D image. Since 3D reconstruction is performed in real time with a moving handheld camera, wound detection needs to be fast and robust. The wound detection subsystem presented in this section primarily detects and marks regions on the image as potential wounds and 123 Content courtesy of Springer Nature, terms of use apply. Rights reserved.</p><p>Fig. <ref type="figure">4</ref> The first column are color to depth registered images, the second column are depth images and the third and fourth column are point clouds representing a DVD and a metallic case objects. The first row is obtained by Astra S, the second by Carmine 1.09 and the third by Kinect v2 camera Fig. <ref type="figure">5</ref> Ground truth image superimposed on the original image. Wound regions are represented by higher intensity pixels allows the user to verify the position of the wound. Thus, even though the system is allowed to detect several possible regions and mark them as wounds, some of which might be falsely classified, the system must always detect the region where the wound is located.</p><p>The applied wound detection approach is based on color histograms and k-Nearest-Neighbor algorithm (kNN). Color histograms of a potential regions are created, and each region is classified using a kNN algorithm. For the purpose of classification, a database is created against which all future images are compared and classified. This database is herein referred to as the reference database.</p><p>A total of 12 images of the Saymour II wound care model by VATA Inc were generated under different lighting conditions and surroundings. All images were of dimension 1920 × 1080 pixels. Ground truth images are generated by manually labeling all wound pixels in the considered 12 images. Five images were selected and used to create the reference database, while the remaining images were used as test images. Using a uniform grid of w × w square cells or blocks, sub-images are generated for all images in the reference database as well as for the test images. Each sub-image is characterized by a feature vector obtained by concatenating the 1D histograms of the H and S color channels in the HSV color space. Each sub-image in the reference database is classified as being a wound if more than 50% of the pixels in the corresponding ground truth sub-image are labeled as wound pixels; otherwise, it is classified as not-wound. The created color histograms with assigned class represent entries in the reference database. The considered classifier is evaluated using the test images. Each sub-image or image block 123 Content courtesy of Springer Nature, terms of use apply. Rights reserved.</p><p>of the test image is classified using kNN algorithm and the reference database. Figure <ref type="figure">5</ref> shows an example of ground truth label image superimposed on the original image. Various values of w (16, 32 and 64) and various values of the number of bins (nbins = 32, 64, 96, 128) of the 1D histograms were tested for the purpose of this application.</p><p>The number of sub-images in the reference database and those generated as test images depends on the value of w. An overview of the number of generated sub-images is provided in Table <ref type="table" target="#tab_1">2</ref>, where T sub represents the total number of subimages and W sub the total number of sub-images classified as wound.</p><p>It can be noticed from Table <ref type="table" target="#tab_1">2</ref> that out of the total number of sub-images generated, only about 1% consists of wound sub-images. Due to the highly skewed nature of the data in the initial reference database, the size of the majority class (non-wounds) was reduced in the training set, i.e., the original reference database was "under sampled". 5 W sub instances of non-wound sub-images were randomly selected without replacement. Thus, the final reference database had a total of 6 W sub sub-images. The choice of the ratio of non-wounds to wounds in the reference database might be an interest of future research. At this stage, the 5 to 1 ratio was arbitrarily chosen so as to satisfy the following conditions: increase the total percentage of the wound class in the reference database; still have a relatively larger percentage of non-wound class since this class obviously has a much more diverse feature set.</p><p>Suitable values of k for the kNN algorithm for each combination of w and nbins were determined using 10-fold cross validation on the reference database. The results of the cross validation procedure are presented in Table <ref type="table" target="#tab_2">3</ref> (where err avg represents the average number of wrongly classified subimages during the cross validation procedure).</p><p>Analyzing Table <ref type="table" target="#tab_2">3</ref>, the best results are obtained for nbins = 64 irrespective of the value of w, with k = 10, 5 and 11 for w = 16, 32 and 64 respectively. The overall best result is obtained for w = 64. Each of the aforementioned combinations of w, nbins and k represent a potential classifier. The quality of each of these 3 classifiers was ascertained by testing on the entire reference database and calculating the recall and total percentage error values (Tables <ref type="table" target="#tab_3">4,</ref><ref type="table" target="#tab_4">5</ref>). The recall value, R, is defined by: R = true positives true positives + f alse negatives <ref type="bibr" target="#b0">(1)</ref> where true positives refers to the number of correctly classified wound sub-images, whereas false negatives refers to the number of wound sub-images classified as non-wound. The total percentage error, err % , is defined by:</p><formula xml:id="formula_0">err % = f alse positives + f alse negatives total number o f sub images × 100%<label>(2)</label></formula><p>where false positives refers to the number of non-wound sub-images classified as wound.</p><p>Analyzing the values obtained in Table <ref type="table" target="#tab_3">4</ref>, the first two classifiers (w = 16, nbins = 64, k = 10) and (w = 32, nbins = 64, k = 5) have comparable performance especially when considering their recall values. As stated at the beginning of this section, the system must always detect the region where the wound is located. This can be achieved only if the system has a recall value of 1. Thus, it can be assumed that a classifier with a fairly high recall designed on subimages should be able to detect the position of the wound on an image.</p><p>All three classifiers in Table <ref type="table" target="#tab_3">4</ref> above were tested on the entire test data set and the results provided in Table <ref type="table" target="#tab_4">5</ref>. The results show that the classifier (w = 16, nbins = 64, k = 10) outperforms the other 2 classifiers in terms of the recall value and was selected as the most suitable. Figure <ref type="figure" target="#fig_2">6</ref> shows an example of wound detection for Carmine 1.09 and Kinect v2 RGB-D camera, where all stages of the detection subsystem (classification, thresholding, representation) can be seen. The CUDA implementation of the detection subsystem have an average processing time of 115 ms for an 640 × 480 image (Carmine 1.09, Astra S) and 95 ms for an 512 × 424 image (Kinect v2) when using w = 16, nbins = 64, k = 10 and the database with 2580 samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Wound reconstruction</head><p>The methodology used in the proposed system for 3D reconstruction of wounds is basically the same as the one used in the KinectFusion system <ref type="bibr" target="#b0">[1]</ref>. However, for the considered application, models in a higher resolution than that provided by KinectFusion are required. Since the source code of KinectFusion is not publically available, we could not adapt it for our purpose and therefore we developed our own 3D reconstruction subsystem. The 3D reconstruction subsystem is divided into two phases: scene fusion and mesh generation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>123</head><p>Content courtesy of Springer Nature, terms of use apply. Rights reserved.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">Scene fusion</head><p>Scene fusion is the process where each captured RGB-D frame is integrated into a reconstructed volume. This process is further divided into two sub-phases: registration and integration. Registration determines the rigid body transformation between frames and is based on the Iterative Closest Point (ICP) algorithm <ref type="bibr" target="#b1">[2]</ref>. ICP is a widely used algorithm for determining rigid body transformation of objects comprised of point clouds or meshes. Input to ICP are typically two point clouds or mesh samples and the initial guess of their relative rigid body transformation. The ICP then iteratively refines the transformation by repeatedly generating corresponding pairs of closest points and minimizing an error metric.</p><p>A slightly modified ICPCUDA implementation <ref type="bibr" target="#b20">[21]</ref> is used for frame to model registration. A modification to the implementation was introduced only to enable the use of Kinect v2 data properly. The ICPCUDA work diagram can be seen in Fig. <ref type="figure">7</ref>. The registration sub-phase performance was on average 8.73 ms per frame for Kinect v2 depth images and 13.1 ms for Astra and Carmine depth images.</p><p>The integration sub-phase is based on a truncated signed distance function (TSDF). Signed distance function (SDF) is a nonparametric surface representation often used in computer graphics. It was introduced in <ref type="bibr" target="#b21">[22]</ref>, primarily for fusing depth maps. It is based on discretizing the volume into voxels of the same size. Each voxel is assigned an SDF value. Voxels with a positive SDF value are considered to be outside the object surface, while those with negative values are considered to be inside the object. Therefore, the iso-surface corresponding to value 0 represents the object surface. By truncating the SDF value to the interval [-1, 1], the TSDF is obtained.</p><p>Because of the ray tracing nature of the integration process, undermining and tunneling cavities in wounds, which are included in the used wound care model, are currently not supported by the developed system because some of the voxels in the cavity will simply be filled by negative values since Fig. <ref type="figure">7</ref> ICPCUDA work diagram they will be located under the surface when viewed from a different angle.</p><p>The integration sub-phase performance when using Kinect v2 was on average 8.25 ms per frame for a 256 × 256 × 256 volume of voxels and with color integration enabled, the performance was on average 14.03 ms. When using Astra and Carmine cameras performance per frame was 12.1 ms with color integration enabled and 7.722 ms when not.</p><p>Visualization of the state of wound reconstruction during recording is provided by ray casting. Ray casting generates a rendered image from a given camera position by casting rays directly onto the volume, i.e., calculating the depth values of the zero crossing of the iso-surface of TSDF for rays originating from the camera position for each pixel of the rendered image. Depth images rendered by ray casting are also used in our system in a similar way as in KinectFusion, as a model for current pose estimation in the registration sub-phase.</p><p>Although a KinectFusion-based system is able to fuse partial views, a problem can arise in true medical applications, where large portions of the available geometry lack details that aid registration. In order to cope with this problem and keep the reconstruction precision, the developed system uses two TSDF volumes in parallel (where KinectFusion system uses only one), one high-resolution model with voxel size of 1 mm resulting in a total volume of 0.25 m 3 (e.g., Fig. <ref type="figure" target="#fig_3">8a</ref>), and a second lower resolution model with 4 mm voxel size and 1 m 3 total volume (e.g., Fig. <ref type="figure" target="#fig_3">8b</ref>). The low-resolution TSDF volume is used for model depth image rendering which is used for camera motion estimation. This TSDF volume contains a relatively large part of the scene, thereby taking into consideration cues from the surrounding area as well, which improves stability of camera motion estimation. It is represented in a lower resolution in order to save memory. The high-resolution TSDF volume is used for real-time visualization and later for 3D mesh generation of the wound model which is used for segmentation and measurement. The performance of TSDF ray cast rendering was on average 3.47 ms per frame for image resolution 512 × 424 used by Kinect v2 and 5.28 ms for 640 × 480 resolution used by Astra and Carmine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">Mesh generation</head><p>Given the TSDF volume gained by the scene fusion phase, there are two ways of obtaining a view or a rendering of the surface. The first option is to use an iso-surface generation algorithm such as the Marching cubes algorithm which returns a connected surface comprised of vertices and triangles (Fig. <ref type="figure" target="#fig_3">8c</ref>). The other option is to use ray casting from some camera position directly onto the volume as explained earlier (Fig. <ref type="figure" target="#fig_3">8a,</ref><ref type="figure">b</ref>).</p><p>The Marching cubes algorithm is used for generating a high-resolution 3D model which is the result of the system 123 Content courtesy of Springer Nature, terms of use apply. Rights reserved. presented in this paper. Marching cubes is an algorithm for polygonization of 3D scalar field at a certain level, i.e., isosurface construction. It was originally developed by Lorensen and Cline for visualization of CT and MRI scans <ref type="bibr" target="#b22">[23]</ref>. Today, it is a standard algorithm for surface reconstruction. The algorithm is based on analyzing each voxel (element of a 3D scalar field) independently and determining which voxel vertex is within the predefined surface border value. As a result, for a given voxel, the algorithm determines which triangles to create from a finite number of combinations. Since there are Marching cubes CUDA implementation performance was on average 125 ms for a 256×256×256 TSDF volume which typically resulted in 3D models with about 325k triangles. Figure <ref type="figure" target="#fig_5">10</ref> displays reconstructed high-resolution colored 3D models of the wounds on the Saymour II wound care model by VATA Inc. for each of the three cameras.</p><p>As can be seen, the wounds reconstructed by Carmine show slight color smearing at the edges of the wound resulting from the less-than-perfect color to depth image registration. Although manually calibrated Astra S camera produces similar registration results as Carmine, because of the poor synchronization between depth and color streams, Astra S has a much larger color smearing problem around the wounds. Due to color smearing problems, a lot of details can be missed, such as the vertebra in the stage IV pressure ulcer wound shown in the third column in Fig. <ref type="figure" target="#fig_5">10</ref>. Kinect v2 color to depth registration is superior than the other two cameras, which results in a sharper texture where a lot of details including the vertebra are discernable. However, because of the Kinect v2 sensitivity to reflective surfaces, a notable sinking of wound bottom surface geometry can be seen on all wounds since the wound bottom surface material is partially glossy. Due to that effect, measured volume of those models tends to be larger than the ones created by the Astra S and Carmine 1.09 cameras.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Wound segmentation</head><p>The approach applied in our system to segment out wounds is based on the assumption that a wound can be detected as a</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>123</head><p>Content courtesy of Springer Nature, terms of use apply. Rights reserved. Fig. <ref type="figure" target="#fig_5">10</ref> High-resolution colored models with an average of 325k triangles when using Astra S (first row), manually calibrated Astra S (second row), Carmine 1.09 (third row) and Kinect v2 (fourth row) camera region consisting of bumps and dents, characterized by high local surface curvature, surrounded by a smooth skin surface. Furthermore, if a wound is very shallow and cannot be distinguished from the surrounding skin using its geometric properties, the color of the wound can be used to segment it out from the uniformly colored surrounding skin. The proposed approach consists of three stages: (i) oversegmentation to surfels, (ii) grouping of surfels into smooth surface segments and (iii) heuristic selection of segments which represent wounds. The following subsections describe each of these three stages.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1">Surfels</head><p>Oversegmentation of images and point clouds into small groups of neighboring points, where each group represents a patch of an object surface, is a widely used preprocessing step in computer vision. These groups, referred to as superpixels <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25]</ref>, supervoxels <ref type="bibr" target="#b25">[26]</ref> or surfels <ref type="bibr" target="#b26">[27]</ref>, provide more stable surface normal information and reduction of computational effort for subsequent processing stages. In our approach, the mesh obtained by the 3D reconstruction subsystem described in Sect. 5.2 is segmented into approximately planar surface patches of approximately uniform color. These patches are referred to in this paper as surfels. Since the probability that a wound boundary lies in the middle of an approximately planar and uniformly colored surface patch is very low, it can be assumed that a complete surfel belongs to either a wound region or a skin region. Hence, the wound segmentation can be performed on the surfel level.</p><p>There are several oversegmentation methods which can be used as the preprocessing step in a wound segmentation process. The method used in the presented system for segmentation into surfels is similar to the region growing method proposed in <ref type="bibr" target="#b27">[28]</ref>, which segments a triangular mesh into approximately planar surfaces. The difference between this method and the method used in this paper is that we also use vertex color information in order to obtain approximately uniform colored surfels. This is important for detection of shallow wounds which can be segmented only according to their color. An advantage of our approach in comparison with the popular approach proposed in <ref type="bibr" target="#b25">[26]</ref>, where the total num-ber of surfels is predefined and the surfel size constrained, is that our approach adapts the size and the number of surfels to the scene geometry. Planar surfaces or surfaces with large curvature radius in the scene are represented with a few large surfels, while highly curved details in the scene are represented with many small surfels, thus allowing precise estimation of wound size and shape.</p><p>The input to the segmentation procedure is a triangular mesh M, which can be represented by a pair M = (V, T ), where V is a set of vertices and T is a set of triangles. Each vertex P i ∈ V is assigned a vector p i ∈ R 3 representing the position of the vertex relative to the mesh coordinate system, a unit normal vector n i ∈ R 3 perpendicular to the local surface and a color vector c i ∈ [0, 255] 3 , whose elements represent the red, green and blue component of the vertex color normalized to the interval [0, 255].</p><p>The applied segmentation process uses the neighborhood relations between mesh vertices. Two mesh vertices are neighbors if they belong to the same mesh triangle. The set of all neighbors of a vertex P i ∈ V is denoted in this section by N (P i ). Furthermore, N (S), where S is a set of mesh vertices, denotes the set of all vertices P j ∈ V such that</p><formula xml:id="formula_1">N (P j ) ∩ S = ∅.</formula><p>Surfels are detected by a region growing process starting with a randomly selected mesh vertex P i , which is not already assigned to an existing surfel. A new surfel S k , initially consisting of a single vertex P i , referred to in this section as the surfel center, is recursively grown by adding neighboring vertices P j ∈ N (S k ) which satisfy a given criteria. A vertex P j is added to the surfel S k if: (i) P j lies on the plane, defined by P i and its normal n i , within a user-defined tolerance τ p , (ii) the difference between the normals n i and n j is smaller than a user-defined tolerance τ n and (iii) the difference between the colors of vertices P i and P j is smaller than a user-defined tolerance τ c . These three conditions are mathematically formulated by the following three equations, respectively</p><formula xml:id="formula_2">max {|n T i (p j -p i )|, |n T j (p i -p j )|} ≤ τ p (3) ||n j -n i || ≤ τ n (4) ||c j -c i || ≤ τ c<label>(5)</label></formula><p>A vertex P j , which satisfies these conditions, is added to the currently created surfel S k if it was not previously assigned to another surfel. If P j was previously assigned to a surfel S l , then it is added to S k only if the Euclidean distance between P j and P i is smaller than the Euclidean distance between P j and the center of S l . This procedure stops when all mesh vertices are assigned to surfels. The result of this procedure is a set of surfels S. An example of segmentation into surfels is shown in Fig. <ref type="figure" target="#fig_5">12b</ref>.</p><p>For each detected surfel S k ∈ S, the centroid m k and the mean color z k of the vertices P i ∈ S k is computed. Furthermore, the total least squares fitting of a plane to the vertices P i ∈ S k is performed. The unit normal vector of this plane is denoted in this section by u k . The computed vectors m k , z k and u k are used in the surfel grouping process described in the following subsection. Algorithm 1 represents a pseudocode for the surfel segmentation procedure.</p><p>Algorithm 1 Mesh segmentation into surfels Add S k to S 13:</p><formula xml:id="formula_3">1: S ← ∅ 2: V ← V 3: k ← 1 4: a ← vector</formula><formula xml:id="formula_4">V ← V \ S k 14: k ← k + 1 15: until V = ∅</formula><p>The input to this algorithm is a mesh M and thresholds τ p , τ n and τ c . The result of the algorithm is a set S of surfels S k , representing disjoint subsets of V. Each surfel S k is assigned three vectors, m k , z k and u k , which are previously defined. The algorithm uses two auxiliary vectors, assignment map a and distance map d. Element a i of the assignment map a represents the index of the surfel which vertex P i is assigned to. Initially, all elements of a are set to zero, which means that, at the beginning of the procedure, the mesh vertices are not assigned to any surfel. Procedure RegionGrowing represents a general region growing process defined on a graph. For the purpose of completeness, this procedure is presented as Algorithm 2.</p><p>The input arguments of RegionGrowing are a graph G, the node P init from which the region growing starts, the merging criterion Criterion and the procedure U pdateMaps which updates auxiliary maps needed to evaluate the region growing conditions. The region growing procedure examines the neighboring nodes of the nodes grouped in the growing region and joins a new node P if it satisfies Criterion.</p><p>If a new node is assigned to the grown region, procedure U pdateMaps is executed. The result of the discussed region growing algorithm is a subset of nodes R.</p><p>In Algorithm 1, RegionGrowing is applied to the mesh M, representing a graph whose nodes are mesh vertices. Criterion used by RegionGrowing in Algorithm 1 is Sur f elCriterion, which evaluates a candidate vertex P j according to four conditions. The first three conditions are 123 Content courtesy of Springer Nature, terms of use apply. Rights reserved. P ← the node at the top of Q 6:</p><p>Remove P from Q 7:</p><p>for every neighbor P of P do 8:</p><p>if P satisfies Criterion then 9:</p><p>Add P to R 10:</p><p>Insert P at the bottom of Q 11:</p><p>U pdateMaps 12:</p><p>end if 13:</p><p>end for 14: until Q is empty defined by Eqs. ( <ref type="formula">3</ref>), ( <ref type="formula">4</ref>) and ( <ref type="formula" target="#formula_2">5</ref>). If a vertex P j , which is not assigned to any of the previously created surfels, satisfies these three conditions, it is joined to the grown surfel. In the case where a vertex P j satisfies the three discussed conditions, but it is already assigned to a previously created surfel S l , i.e., a j = l, the fourth condition is considered in order to decide whether P j will be joined to the new surfel or it will remain in S l . The vertex will be joined to the new surfel if its Euclidean distance to the initial vertex of the surfel is smaller than its distance to the initial vertex of S l . The distances of vertices with respect to the initial vertex of the surfel which they are assigned to are stored in the distance map d. Hence, the fifth condition can be formulated as</p><formula xml:id="formula_5">||p j -p i || &lt; d j . (<label>6</label></formula><formula xml:id="formula_6">)</formula><p>If a new vertex P j is assigned to the new surfel S k , procedure U pdateSur f el Maps which updates maps a and d is executed. This procedure consists in setting a j to k and d j to ||p jp i ||.</p><p>These parameter values were used in all experiments: τ p = 2.4 mm, τ n = 0.44, τ c = 20.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2">Segmentation to smooth surfaces</head><p>In <ref type="bibr" target="#b28">[29]</ref>, a method for segmentation of point clouds to smooth surfaces based on region growing is proposed. This method recursively groups points according to the similarity of normals of neighboring points and residuals in fitting a plane to the local surface. Residuals in plane fitting are used as a measure of the local surface curvature. Similarly to this method, in the wound segmentation subsystem presented in this paper, smooth surfaces are detected by region growing and local curvature is used as a cue for deciding on edges between segments. However, in our approach, segmentation to smooth surfaces is performed by surfel grouping. Furthermore, color information is also used in the grouping process. The detected surfels are grouped into smooth surfaces by a region growing process which uses neighborhood relations between surfels. Two surfels S k and S l are neighbors if there exist two points P i ∈ S k and P j ∈ S l which are neighbors, i.e., P j ∈ N (P i ). The region growing process starts by selecting a surfel, which currently does not belong to a smooth surface segment. This surfel is then used as the initial region, which is grown recursively by attaching neighboring surfels satisfying certain smoothness and color similarity conditions.</p><p>The geometric criterion used in region growing is based on the minimum sphere model. The minimum allowed curvature radius of the healthy skin surface is constrained to a predefined value r min . Let us consider an ideal case where two neighboring surfels are detected on a spherical surface, as illustrated in Fig. <ref type="figure" target="#fig_6">11</ref>, where the regions on a sphere corresponding to these two surfels are denoted by shaded rectangles. Furthermore, let us assume that the centroids m k and m l of these surfels lie approximately in the centers of these rectangles and that surfel normals u k and u l are identical to the local surface normal in these centroids. A property of surfels detected by the method described in Sect. 6.1 is that all points belonging to a surfel lie on a reference plane within a tolerance τ s . Let us consider the case, shown in Fig. <ref type="figure" target="#fig_6">11</ref>, where the reference planes of two neighboring surfels are such that both surfels cover the maximum possible sphere regions. The distance between surfel centroid m k and the surfel boundary, denoted by a in Fig. <ref type="figure" target="#fig_6">11</ref> is</p><formula xml:id="formula_7">a = r 2 min -(r min -2τ s ) 2 . (<label>7</label></formula><formula xml:id="formula_8">)</formula><p>Hence, the projections of the normals u k and u l onto the straight line L kl connecting the surfel centroids can be computed by</p><formula xml:id="formula_9">α = a r min = 1 -1 - 2τ s r min 2 . (<label>8</label></formula><formula xml:id="formula_10">)</formula><p>The value α represents the estimated maximum value of the projection of the neighboring surfel normals onto the line connecting the surfel centers. This idealized model is used to formulate the criterion which two neighboring surfels must satisfy in order to be grouped in the same smooth surface. Let d kl be a unit vector parallel to the straight line L kl connecting the centroids of two neighboring surfels S k and S l , i.e.,</p><formula xml:id="formula_11">d kl = m l -m k ||m l -m k || . (<label>9</label></formula><formula xml:id="formula_12">)</formula><p>The projection of the surfel normal u k onto L kl is</p><formula xml:id="formula_13">e kl = u T k d kl . (<label>10</label></formula><formula xml:id="formula_14">)</formula><p>The projection e lk of the surfel normal u l onto L kl can be computed analogously. Our segmentation subsystem uses the following surfel grouping criterion: two surfels S k and S l are grouped into a smooth surface segment only if</p><formula xml:id="formula_15">max{|e kl |, |e lk |} ≤ α + σ n , (<label>11</label></formula><formula xml:id="formula_16">)</formula><p>where σ n is the tolerance introduced in order to compensate for the measurement noise. Note that for any convex or concave surface, e kl • e lk &lt; 0. However, due to the measurement noise, for an approximately planar surface or a low curvature surface, the product e kl • e lk can also have a small positive value. Therefore, in addition to condition <ref type="bibr" target="#b10">(11)</ref>, which is used if e kl • e lk ≤ 0, the following condition is used in the case where e kl • e lk &gt; 0:</p><formula xml:id="formula_17">max{|e kl |, |e lk |} ≤ σ n . (<label>12</label></formula><formula xml:id="formula_18">)</formula><p>Assuming that two adjacent surfels S k and S l lie on a spherical surface, all three vectors u k , u l and d kl lie in the same plane, i.e., the plane defined by u k and d kl and the plane defined by u l and d kl are identical. However, in a real case, these two planes can differ due to the measurement noise. The final geometric criterion for grouping of two adjacent surfels is that the length of the vector representing the difference of the normals of these two planes is ≤ σ n , which can be formulated by</p><formula xml:id="formula_19">u k × d kl ||u k × d kl || - u l × d kl ||u l × d kl || ≤ 2σ n . (<label>13</label></formula><formula xml:id="formula_20">)</formula><p>In addition to the described geometric criterion, average color similarity is used as a constraint for surfel grouping. Two neighboring surfels S k and S l are grouped into a smooth surface segment only if</p><formula xml:id="formula_21">||z k -z l || ≤ τ z , (<label>14</label></formula><formula xml:id="formula_22">)</formula><p>where z k and z l are the average colors of the surfels S k and S l and τ z is a color tolerance. The applied region growing procedure is analogous to the one used for segmentation into surfels. The only differences are that surfels are used instead of mesh vertices as elements which are aggregated into smooth surfaces and another criterion based on conditions ( <ref type="formula" target="#formula_15">11</ref>), ( <ref type="formula" target="#formula_17">12</ref>), ( <ref type="formula" target="#formula_19">13</ref>) and ( <ref type="formula" target="#formula_21">14</ref>) is used for region growing. An example of the described segmentation to smooth surface segments is shown in Fig. <ref type="figure" target="#fig_5">12c</ref>, where each segment is represented by different color. The healthy skin is represented by a single green segment, while the wound region consists of multiple segments. These parameter values were used in all experiments: r min = 50 mm, τ s = 0.4 mm, σ n = 0.075, τ z = 30. Colors are represented by values from the interval [0, 255] for each channel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3">Segmenting wound from the surrounding healthy skin</head><p>The result of the surfel grouping procedure described in Sect. 6.2 is a set of smooth uniformly colored surface segments. Due to its irregular shape and non-uniform color, the wound region is expected to consist of multiple smaller regions surrounded by a large smooth surface segment representing the healthy skin. The heuristic wound segmentation approach proposed in this paper is based on two assumptions. The first assumption is that the skin region surrounding the wound region is the largest smooth surface segment in the mesh. The second assumption is that the segment closest to the wound center, determined by the wound detection approach proposed in Sect. 4, belongs to the wound region. Considering these two assumptions, the wound region is determined by a region growing procedure, which starts by creating the wound region, consisting initially of the single segment which is closest to the wound center, and grows this region recursively by adding neighboring segments until reaching the largest smooth mesh surface segment. The result obtained by applying this method is shown in Fig. <ref type="figure" target="#fig_5">13a</ref>, where the wound region is represented by green color, while the surrounding skin is represented by light gray color. The performance of the whole segmentation procedure was on average 220 ms. The mesh generated by the Marching cubes algorithm is comprised of very small and almost uniformly distributed triangles. The triangles are small due to the fact that the TSDF voxel size is 1 mm. Since the segmentation region growing process is driven by vertices as well as normal and color information, the resulting boundary between skin and wound could potentially be very jagged. In order to determine the volume of the wound, the surface of the healthy skin 123 Content courtesy of Springer Nature, terms of use apply. Rights reserved. before injury needs to be reconstructed. This reconstructed skin surface covering the wound is referred to in this section as virtual skin. Virtual skin estimation is done using boundary information. The more jagged the boundary, the more likely the virtual skin surface geometry would be highly irregular. Therefore, the boundary is interpolated using spline in order to alleviate its jagged nature. As a result, the number of points defining the boundary is significantly reduced. Figure <ref type="figure" target="#fig_5">13b</ref> shows an example of the original and the spline interpolated boundary. The spline interpolated boundary has only a sixth of the number of points of the original boundary.</p><p>In order to isolate only the wound as a separate 3D model from the whole 3D scene generated, the Visualization Toolkit (VTK) <ref type="bibr" target="#b29">[30]</ref> is used. The selection filter of the VTK library uses the spline interpolated boundary to generate scalar data (Fig. <ref type="figure" target="#fig_5">12d</ref>) needed by the extraction filter, from the same library, to isolate the wound mesh into a separate 3D object.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7">Wound measurement</head><p>The developed system, uses the 3D wound model created by the approach described in Sect. 5 and the results of the segmentation presented in Sect. 6 to compute the perimeter, area and wound volume as end results. The perimeter is easily calculated as the length of the boundary of the wound region obtained by segmentation. In order to calculate the wound area and volume, a cover or a virtual skin needs to be generated.</p><p>When filming the wound using the RGB-D camera, the wound recording usually begins at an angle approximately perpendicular to the wound surface, and thus, the wound border is well defined on the 2D x-y plane. This fact is exploited when generating the virtual skin. An iterative 2D Delaunay triangulation algorithm is used in virtual skin generation as seen on Fig. <ref type="figure" target="#fig_8">14</ref>. The initial iteration of the Delaunay algorithm starts with an initial point set containing the points from the spline interpolated wound boundary (Fig. <ref type="figure" target="#fig_8">14a</ref>). Each consecutive iteration expands this point set by including the centers of the Delaunay triangles of the previous iteration (Fig. <ref type="figure" target="#fig_8">14b</ref>). Experiments indicate that three iterations are sufficient to generate a reasonable approximation of the virtual skin. Since the Delaunay algorithm creates a convex hull and the wounds do not always have convex shape, the triangles generated by this process which are outside the wound boundary are removed (Fig. <ref type="figure" target="#fig_8">14c</ref>).</p><p>Figure <ref type="figure" target="#fig_10">15</ref> shows the reconstructed and isolated wounds and corresponding virtual skins of the Saymour II wound care model recorded using a Kinect v2 camera.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>123</head><p>Content courtesy of Springer Nature, terms of use apply. Rights reserved. The area and volume are calculated by appropriate algorithms implemented in the VTK library. The area is calculated as the sum of areas of individual triangles in the virtual skin mesh, while the individual triangle area is calculated using Herons formula:</p><formula xml:id="formula_23">s = a + b + c 2 , A i = s • (s -a) • (s -b) • (s -c),<label>(15)</label></formula><p>where a, b, c are lengths of the triangle sides. The volume is calculated using a morphometric method called MUNC (Maximum Unit Normal Component) and a discrete form of the divergence theorem (DTA). The accuracy and precision of these methods usually used for area and volume calculation is described in <ref type="bibr" target="#b30">[31]</ref>. The DTA algorithm requires the surface to be piecewise smooth and closed. The volume calculation method uses surface-based geometry in the form of the point list. MUNC basically defines which normal component is maximum at each point, and in this implementation, it is used to define the coefficients which distribute volume calculation across three cardinal directions. The discrete form of the divergence theorem is used to estimate the object volume from the list of the points on its surface. In our case, the points are represented by the centroids of the mesh triangles. Therefore, the volume is determined using the following equation:</p><formula xml:id="formula_24">V = k x • N i=0 (x i • n x i • A i ) + k y • N i=0 (y i • n y i • A i ) + k z • N i=0 (z i • n z i • A i ),<label>(16)</label></formula><p>where x i , y i and z i are the coordinates of the ith triangle centroid , n x i , n y i , n z i are the components of the corresponding unit normal, A i is the corresponding triangle area, while k x , k y , and k z are coefficients whose sum is equal to 1. The coefficients k x , k y , and k z are calculated as a fraction of the total number of points in which the MUNC of these points is in the direction indicated by the subscript of the coefficient. Therefore:</p><formula xml:id="formula_25">k x = 1 N • N MU N C x + N xyz 3 + N xy + N yz 3 , k y = 1 N • N MU N C y + N xyz 3 + N xy + N yz 3 , k z = 1 N • N MU N C z + N xyz 3 + N xy + N yz 3 , (<label>17</label></formula><formula xml:id="formula_26">)</formula><p>where N is the total number of points (triangles),  Each discrete sum in ( <ref type="formula" target="#formula_24">16</ref>) estimates the entire volume of the object. Using the coefficients k x , k y , and k z provides a weighted sum of these three estimates thus providing a more accurate volume measurement. Calculating the coefficients in such a way minimizes the error incurred when many of the differential triangle surfaces have small cross sections. The area, volume and perimeter calculation requires on average 17 ms per 3D model.</p><formula xml:id="formula_27">N</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8">Experimental results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.1">Experimental setup</head><p>The system proposed herein was fully developed in C++ and CUDA v7.0. Furthermore, all experiments were run on a mid-range laptop computer with Intel Core i7 4710HQ CPU, Nvidia 860M GPU and Windows 8.1 Pro ×64 operating system. In addition to the enumerated RGB-D cameras and the PC computer, the used materials also included a Saymour II wound care model by VATA Inc. which was used for the experimental evaluation of the developed system. In total, there were 25 recordings used for Kinect v2 experiments and 30 for Astra and Carmine experiments. Furthermore, 27 recordings for Carmine and 25 for Astra were made when using manual calibration. The recording length was varied and therefore recordings from Kinect v2 contained between 150 and 346 frames, while Astra and Carmine recordings contained between 240 and 520 frames. The experiments were performed under different illumination conditions: natural lighting, fluorescent lighting and LED lighting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.2">Measurement repeatability</head><p>The repeatability experiments demonstrate stability of measurement capability. Table <ref type="table" target="#tab_6">6</ref> shows the average and coefficient of variability of the perimeter, area and volume measurements for the three largest wounds on the Saymour II wound care model. Low variability indicates robustness of the system.</p><p>In general, it can be seen that Kinect v2 has smaller coefficient of variability for perimeter and area measurements, while Astra S and Carmine 1.09 have smaller coefficient of variability for volume measurement. The color smearing on the surrounding healthy tissue of the 3D model, due to a poorer color to depth registration in Astra and Carmine cameras, can change the perimeter and consequently change the area measurement from sequence to sequence. Therefore, coefficient of variability is significantly higher for these two cameras and differs between wounds.</p><p>Conducting a manual calibration between color and infrared cameras can lead to a better registration and more consistent perimeter and area measurement. Astra S shows considerable improvement when using manual calibration, where it shows similar repeatability performance as Carmine 1.09 camera. Carmine 1.09 camera shows similar performance when using factory or manual calibration.</p><p>The volume measurement for all considered cameras can depend on the camera motion during the recording of a particular image sequence. In the case where a wound has cavities which extend below the skin, e.g., the wound on the Saymour II wound care model shown in Fig. <ref type="figure" target="#fig_5">12</ref>, these cavities could be easily omitted in the recording process. The result 123 Content courtesy of Springer Nature, terms of use apply. Rights reserved. The results for Astra S and Carmine are shown in format: factory calibration/manual calibration is narrowing of the base of the 3D wound model and consequently a smaller volume at certain sequences causing a larger coefficient of variability. Regardless of the camera motion when recording an image sequence, due to the sensitivity to glossy surfaces, Kinect v2 camera adds error in depth measurement which could lead to sinking of the wound bottom or even distortion of the wound surface. This results in an increased coefficient of variability of volume measurement when using Kinect v2 camera.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.3">Ground truth</head><p>The ground truth for assessing the accuracy of the proposed system was created by digitalization of the whole Saymour II wound care model using an industrial 3D scanning equipment based on GOM ATOS Triple Scan which has a precision in 10 μm range. Glossy surfaces were treated by spraying dulling powder prior to scanning in order to remove reflectivity. The digitized model can be seen in Fig. <ref type="figure" target="#fig_11">16</ref>.</p><p>The reconstructed model is near perfect and includes the subsurface cavities and tunneling parts of the wound. Since the developed system currently does not support such geometry as was explained in Sect. 5.1, those geometrical deformities were digitally filled prior to measurement. Besides our ground truth, another ground truth for Saymour II wound care model is reported in the literature, which is created by 3D CT-reconstruction with 0.625 mm slice using GE Healthcare device <ref type="bibr" target="#b14">[15]</ref>. In <ref type="bibr" target="#b14">[15]</ref>, authors physically plugged cavities and holes prior to measurement and therefore our ground truth measurement should be similar; unfortunately, there are discrepancies with the volume measurement. Table <ref type="table">7</ref> shows ground truth measurement by our approach and by <ref type="bibr" target="#b14">[15]</ref> for the three wounds analyzed in this research. Unfortunately, the 5 1/2 long dehisced surgical wound measurement is not available in <ref type="bibr" target="#b14">[15]</ref>. As it can be seen, the ground truths are very similar for the parameter and area measurement, but the volume measurement shows difference of 10.7% for the larger wound and 9.4% for the smaller wound, even though cavities and holes were similarly plugged in both cases. The reasoning for those dissimilarities could possibly be in determining the border of the wounds where slight inconsistencies could result in large volume differences given the area of the wounds. For the sake of completeness, precision comparison in the next subsection will consider both ground truth measurements for the wounds where are available.</p><p>Table <ref type="table">7</ref> Ground truth measurement by our approach and by <ref type="bibr" target="#b14">[15]</ref> Wound type Our GT measurement GT measurement according to <ref type="bibr" target="#b14">[15]</ref> Perimeter (mm) Area (mm </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.4">Accuracy</head><p>The reconstruction accuracy of the proposed system is evaluated by comparing the obtained measurement results to the ground truth generated for the purpose of this paper as well as to the ground truth used in <ref type="bibr" target="#b14">[15]</ref>. Table <ref type="table" target="#tab_8">8</ref> shows absolute percentile error between the average measurement of perimeter, area and volume presented in Table <ref type="table" target="#tab_6">6</ref> and the ground truth measurements presented in Table <ref type="table">7</ref>.</p><p>Astra and Carmine cameras show similar results in perimeter and area measurement error regardless of which ground truth is used with individual measurement being more accurate for one or the other camera. Overall, in perimeter and area measurement, Carmine is shown to be slightly more accurate than the Astra camera. The accuracy of the volume measurement depends on the ground truth which the measurement is compared to. Therefore, because of the smaller values of the volume in the ground truth used in <ref type="bibr" target="#b14">[15]</ref>, Astra and Carmine show smaller errors, which ranged from 0.992% to maximum of 11.93%. When the ground truth generated for this research is used, the error increases and ranges from 8.07% to a maximum of 28.34%. Overall, Astra is shown to provide slightly more accurate volume measurements than Carmine camera, regardless of the ground truth used. Furthermore, manually calibrating the Carmine camera produced similar results, while manually calibrating Astra camera resulted in overall smaller errors.</p><p>Microsoft Kinect v2 camera shows similar errors when measuring wound perimeter, but larger errors when measuring the area of the wound in comparison to Astra and Carmine cameras, regardless of the ground truth used. Unfortunately, Kinect v2 shows even larger error in volume measurement, which can be related to considerable sinking of the wound glossy surface, which, in the end, results in much larger volume measurements compared to the ground truth.</p><p>The research presented in <ref type="bibr" target="#b14">[15]</ref>, which uses a single RGB-D image for wound measurement, shows comparable measurement performance: the perimeter error was from 3.4 to 4.3%, the area error from 2.0 to 4.5%, while the volume measurement error was from 6.4 to 12.7%, when compared to the ground truth used in this research.</p><p>Volume measurement using noisy commodity cameras can easily be prone to large errors especially when recon-structing larger depressions (wounds) in the surface. For example, if we consider stage IV pressure ulcer of the used medical model, with the surface area of approximately 7000 mm 2 and if the surface depth measurement of the surrounding skin is off by just 1 mm, it could potentially result  The measurement results obtained by Astra S and Carmine are shown in format: factory calibration/manual calibration in 7000 mm 3 of erroneous volume. The end result is the percentile error of 6.9 or 7.7% depending which ground truth is used. Considering the measurement noise of the considered RGB-D cameras, averaging nature of the TSDF and error of the ICP registration, the reconstructed surface could possibly have an error of more than 1 mm. A visual comparison between the reconstructed and automatically segmented stage IV pressure ulcer obtained by the developed system and the one from the ground truth is shown in Fig. <ref type="figure" target="#fig_12">17</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9">Discussion and conclusion</head><p>In this article, a possibility of using RGB-D cameras for detection, modeling and measurement of chronic wounds is explored. Application of three different RGB-D cameras: Orbbec Astra S, PrimeSense Carmine 1.09 and Microsoft Kinect v2 is considered. All three cameras have their advantages and disadvantages. Kinect v2 is very sensitive to glossy and reflective surfaces but has the best factory color to depth registration. Astra and Carmine are much less sensitive to glossy surfaces, but their color to depth registration is less precise and typically requires manual calibration, furthermore Astra has certain depth measuring anomaly at a distance of about 645 mm which can create problems when fusing depth images.</p><p>A system for automatic measurement of wound parameters is presented, which could assist in monitoring wound healing process by enabling detailed wound analysis and, thereby, improve treatment for patients. The developed system consists of four subsystems: wound detection, 3D reconstruction, segmentation and measurement. The main goal of the detection subsystem is to find the center of the wound in order to facilitate the generation of high-resolution local 3D models. The reconstruction system is based on KinectFusion, but it has some differences. For example, two separate TSDF volumes are used, volumetrically larger one for model depth image rendering and a smaller one for highresolution 3D model generation. Segmentation is driven by both color and geometry in order to segment out wounds of various depths and sizes from the surrounding healthy tissue of a different color. The perimeter of the wound is measured by calculating the outline of the segmented wound, while area measurement is enabled by generating a virtual skin and volume measurement by creating a closed watertight surface.</p><p>The measurement repeatability experiments show that Kinect v2 provides more stable perimeter and area measurement because of better color to depth registration, whereas Astra S and Carmine 1.09 have more stable volume measurement because of less sensitivity to glossy surfaces. Although manual calibration of Astra and Carmine sensors does improve measurement stability, color to depth registration of Kinect v2 is still better.</p><p>Measurement precision is determined by comparing to two different ground truths, one created for the purpose of this paper and the other taken from the literature. The comparison shows high accuracy of the perimeter measurement for all three cameras, especially when compared to our ground truth, with Carmine 1.09 being better than the rest. Area measurement precision is clearly better for the Astra and Carmine cameras, which show similar results regardless of the ground truth used, whereas volume measurement seems to be problematic for all cameras, especially Kinect v2. Overall, Astra and Carmine cameras exhibit greater precision than Kinect v2 when comparing to the ground truth from the literature. Volume measurement is in general problematic in scanning depressions such as wounds, where small but sys-123 Content courtesy of Springer Nature, terms of use apply. Rights reserved.</p><p>tematic errors in depth measurement over large area could result in high volume measurement errors.</p><p>Overall, PrimeSense Carmine 1.09 has demonstrated to be the best solution for 3D reconstruction and measurement in a KinectFusion like system because of better color to depth registration than Astra S and better response to glossy surfaces than Kinect v2. Unfortunately, as mentioned earlier, since the acquisition of PrimeSense by Apple in 2013, their Carmine series of products as well as other products licensed by their technology have currently been discontinued. The alternative today are the Orbbec cameras that currently have some problems like subpar factory calibration and anomalies, which we hope will be resolved in future revisions.</p><p>In the future, we plan to continue developing the proposed system by developing a more comprehensive sample database for the detection subsystem, which should make it more precise. The reconstruction subsystem should enable support for wound cavities and the CUDA code should be more optimized, resulting in faster scene fusion. The segmentation could be improved by utilizing a different color space, like HSV or Lab instead of RGB, which should result in a more accurate segmentation. Accuracy of the proposed system could be improved by improving color to depth registration and using RGB-D cameras with more precise depth measurement. Furthermore, the system could be extended to provide information about the necrotic, fibrin and granulation tissue types on the wound surface. Finally, in order to get a better insight into practical applicability of the developed system, a more thorough testing on real wounds and different lighting conditions should be performed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.</head><p>6.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Terms and Conditions</head><p>Springer Nature journal content, brought to you courtesy of Springer Nature Customer Service Center GmbH ("Springer Nature"). Springer Nature supports a reasonable amount of sharing of research papers by authors, subscribers and authorised users ("Users"), for smallscale personal, non-commercial use provided that all copyright, trade and service marks and other proprietary notices are maintained. By accessing, sharing, receiving or otherwise using the Springer Nature journal content you agree to these terms of use ("Terms"). For these purposes, Springer Nature considers academic use (by researchers and students) to be non-commercial. These Terms are supplementary and will apply in addition to any applicable website terms and conditions, a relevant site licence or a personal subscription. These Terms will prevail over any conflict or ambiguity with regards to the relevant terms, a site licence or a personal subscription (to the extent of the conflict or ambiguity only). For Creative Commons-licensed articles, the terms of the Creative Commons license used will apply. We collect and use personal data to provide access to the Springer Nature journal content. We may also use these personal data internally within ResearchGate and Springer Nature and as agreed share it, in an anonymised way, for purposes of tracking, analysis and reporting. We will not otherwise disclose your personal data outside the ResearchGate or the Springer Nature group of companies unless we have your permission as detailed in the Privacy Policy. While Users may use the Springer Nature journal content for small scale, personal non-commercial use, it is important to note that Users may not: use such content for the purpose of providing other users with access on a regular or large scale basis or as a means to circumvent access control; use such content where to do so would be considered a criminal or statutory offence in any jurisdiction, or gives rise to civil liability, or is otherwise unlawful; falsely or misleadingly imply or suggest endorsement, approval , sponsorship, or association unless explicitly agreed to by Springer Nature in writing; use bots or other automated methods to access the content or redirect messages override any security feature or exclusionary protocol; or share the content in order to create substitute for Springer Nature products or services or a systematic database of Springer Nature journal content.</p><p>In line with the restriction against commercial use, Springer Nature does not permit the creation of a product or service that creates revenue, royalties, rent or income from our content or its inclusion as part of a paid for service or for other commercial gain. Springer Nature journal content cannot be used for inter-library loans and librarians may not upload Springer Nature journal content on a large scale into their, or any other, institutional repository. These terms of use are reviewed regularly and may be amended at any time. Springer Nature is not obligated to publish any information or content on this website and may remove it or features or functionality at our sole discretion, at any time with or without notice. Springer Nature may revoke this licence to you at any time and remove access to any copies of the Springer Nature journal content which have been saved. To the fullest extent permitted by law, Springer Nature makes no warranties, representations or guarantees to Users, either express or implied with respect to the Springer nature journal content and all parties disclaim and waive any implied warranties or warranties imposed by law, including merchantability or fitness for any particular purpose. Please note that these rights do not automatically extend to content, data or other material published by Springer Nature that may be licensed from third parties. If you would like to use or distribute our Springer Nature journal content to a wider audience or on a regular basis or in any other manner not expressly permitted by these Terms, please contact Springer Nature at onlineservice@springernature.com</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Residual distances between points and a fitted plane for a Orbbec Astra S (μ = 4.32 × 10 -15 , σ = 0.64), b PrimeSense Carmine 1.09 (μ = 7.12 × 10 -15 , σ = 0.54), c Microsoft Kinect v2 (μ = 1.85 × 10 -15 , σ = 2.29)</figDesc><graphic coords="4,70.57,56.84,198.52,519.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 Fig. 3</head><label>23</label><figDesc>Fig. 2 Factory RGB to depth registration image and point clouds for Astra S (first column), Carmine 1.09 (second column), Kinect v2 (third column) and manual calibration for Astra S (fourth column)</figDesc><graphic coords="5,53.65,56.69,487.69,182.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 6</head><label>6</label><figDesc>Fig. 6 Applying classifier (w = 16, nbins = 64, k = 10) on test image from Carmine 1.09 (first row) and Kinect v2 (second row). The first column shows the result of per block classification obtained using kNN and reference database showing the probability of a block being a wound, the second column shows the result of thresholding the images</figDesc><graphic coords="8,53.65,373.49,487.69,256.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 8</head><label>8</label><figDesc>Fig. 8 TSDF surface rendered from same viewpoint at iso-value 0 by a ray casting of the high-resolution TSDF, b ray casting of the lowresolution TSDF volume, c marching cubes algorithm applied to the high-resolution TSDF volume</figDesc><graphic coords="10,84.58,56.12,170.20,466.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 9</head><label>9</label><figDesc>Fig. 9 Six out of 256 possible triangle combinations for marching cubes algorithm</figDesc><graphic coords="10,308.68,56.72,232.60,117.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>1 :</head><label>1</label><figDesc>Q ← empty queue 2: Put P init into Q 3: R ← ∅ 4: repeat 5:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 11</head><label>11</label><figDesc>Fig. 11 Minimum sphere model</figDesc><graphic coords="13,308.68,56.96,232.60,165.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 12 aFig. 13 a</head><label>1213</label><figDesc>Fig. 12 a Reconstructed wound, b segmentation into surfels, c final regions obtained by region growing, d wound region after edge spline interpolation</figDesc><graphic coords="15,53.65,56.96,487.69,129.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 14</head><label>14</label><figDesc>Fig. 14 Example of 2D Delaunay virtual skin generation. a The initial point set which includes only points on the boundary, b Delaunay triangulation of the initial point set with green points representing triangle centers, c second iteration Delaunay triangulation with striped pattern triangles representing the triangles which will be removed from the final mesh of the virtual skin (color figure online)</figDesc><graphic coords="16,84.58,56.75,170.20,583.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>MU N C x , N MU N C y and N MU N C z are the numbers of points with corresponding maximum normal components in x, y, and z 123 Content courtesy of Springer Nature, terms of use apply. Rights reserved.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 15</head><label>15</label><figDesc>Fig. 15 Isolated 3D wound models with virtual skin generated</figDesc><graphic coords="17,53.65,56.93,487.69,191.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 16</head><label>16</label><figDesc>Fig.<ref type="bibr" target="#b15">16</ref> Saymour II wound care model digitized by an industrial 3D scanner</figDesc><graphic coords="18,325.69,292.49,198.52,175.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 17</head><label>17</label><figDesc>Fig. 17 Comparison between the model of stage IV pressure ulcer generated by the developed system using Carmine 1.09 camera and the model from the ground truth generated by an industrial 3D scanner. The models are compared from the top, bottom and sideways. The model from the ground truth is on the right in the case of the top two pairs and on the bottom in the case of the last pair</figDesc><graphic coords="19,325.69,253.67,198.52,391.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="6,53.65,56.42,487.69,271.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="11,53.65,56.81,487.69,344.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>RGB-D camera specifications</figDesc><table><row><cell>Name</cell><cell>Cost</cell><cell>Min/max</cell><cell>Field of view</cell><cell>Depth image</cell><cell>Depth</cell><cell>Color image</cell><cell>Power supply</cell><cell>Weight</cell></row><row><cell></cell><cell></cell><cell>range</cell><cell>(H × V )</cell><cell>resolution</cell><cell>resolution</cell><cell>resolution</cell><cell></cell><cell>(kg)</cell></row><row><cell>PrimeSense</cell><cell>n/a</cell><cell cols="2">0.35 m/1.4 m 57.5 × 45</cell><cell>640 × 480</cell><cell cols="2">1 mm/100 µm 640 × 480</cell><cell>USB 2.0</cell><cell>0.23</cell></row><row><cell>Carmine 1.09</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Orbbec Astra S</cell><cell>150$</cell><cell cols="2">0.35 m/2.5 m 60 × 49.5</cell><cell>640 × 480</cell><cell>1 mm</cell><cell>640 × 480</cell><cell>USB 2.0</cell><cell>0.3</cell></row><row><cell>Microsoft</cell><cell>100$ (adapter</cell><cell>0.5 m/2.5 m</cell><cell>70 × 60</cell><cell>512 × 424</cell><cell>1 mm</cell><cell cols="2">1920 × 1080 Separate adapter,</cell><cell>1.4</cell></row><row><cell>Kinect v2</cell><cell>40$)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>USB 3.0</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Number of sub-images generated depending on the size of w</figDesc><table><row><cell>w</cell><cell cols="2">Initial reference database</cell><cell>Test images</cell><cell></cell></row><row><cell></cell><cell>T sub</cell><cell>W sub</cell><cell>T sub</cell><cell>W sub</cell></row><row><cell>16</cell><cell>40,200</cell><cell>430</cell><cell>56,280</cell><cell>715</cell></row><row><cell>32</cell><cell>9900</cell><cell>101</cell><cell>13,860</cell><cell>226</cell></row><row><cell>64</cell><cell>2400</cell><cell>26</cell><cell>3360</cell><cell>72</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Cross validation results obtained for different combinations of</figDesc><table><row><cell cols="2">w and nbins</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>nbins</cell><cell>w = 16</cell><cell></cell><cell>w = 32</cell><cell></cell><cell>w = 64</cell><cell></cell></row><row><cell></cell><cell>err avg</cell><cell>k</cell><cell>e r r avg</cell><cell>k</cell><cell>e r r avg</cell><cell>k</cell></row><row><cell>32</cell><cell>7.5</cell><cell>9</cell><cell>1.6</cell><cell>4</cell><cell>0.7</cell><cell>9</cell></row><row><cell>64</cell><cell>6.8</cell><cell>10</cell><cell>1.3</cell><cell>5</cell><cell>0.4</cell><cell>11</cell></row><row><cell>96</cell><cell>7.3</cell><cell>3</cell><cell>1.4</cell><cell>3</cell><cell>0.6</cell><cell>13</cell></row><row><cell>128</cell><cell>7.3</cell><cell>12</cell><cell>1.6</cell><cell>3</cell><cell>0.9</cell><cell>20</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Comparison of the performance of the 3 best classifiers obtained in Table 3 on the reference database</figDesc><table><row><cell>Classifier</cell><cell>true negatives</cell><cell>false positives</cell><cell>true positives</cell><cell>false negatives</cell><cell>err %</cell><cell>R</cell></row><row><cell>w = 16</cell><cell>2122</cell><cell>28</cell><cell>394</cell><cell>36</cell><cell>2.48</cell><cell>0.92</cell></row><row><cell>nbins = 64</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>k = 10</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>w = 32</cell><cell>500</cell><cell>5</cell><cell>93</cell><cell>8</cell><cell>2.15</cell><cell>0.92</cell></row><row><cell>nbins = 64</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>k = 5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>w = 64</cell><cell>125</cell><cell>5</cell><cell>23</cell><cell>3</cell><cell>5.13</cell><cell>0.88</cell></row><row><cell>nbins = 64</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>k = 11</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>Comparison of the performance of the 3 best classifiers obtained in Table 3 on the test dataset</figDesc><table><row><cell>Classifier</cell><cell>true negatives</cell><cell>false positives</cell><cell>true positives</cell><cell>false negatives</cell><cell>err %</cell><cell>R</cell></row><row><cell>w = 16</cell><cell>53612</cell><cell>1953</cell><cell>561</cell><cell>154</cell><cell>3.74</cell><cell>0.78</cell></row><row><cell>nbins = 64</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>k = 10</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>w = 32</cell><cell>13211</cell><cell>423</cell><cell>143</cell><cell>83</cell><cell>3.65</cell><cell>0.63</cell></row><row><cell>nbins = 64</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>k = 5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>w = 64</cell><cell>3116</cell><cell>172</cell><cell>29</cell><cell>43</cell><cell>6.40</cell><cell>0.40</cell></row><row><cell>nbins = 64</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>k = 11</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>of n elements a i initially set to 0 5: d ← vector of n elements d i initially set to ∞</figDesc><table><row><cell cols="2">6: repeat</cell><cell></cell><cell></cell></row><row><cell>7:</cell><cell cols="3">P i ← randomly selected vertex from V</cell></row><row><cell>8:</cell><cell>S k</cell><cell>←</cell><cell>RegionGrowing(M, P i , Sur f elCriterion,</cell></row><row><cell></cell><cell cols="3">U pdateSur f el Maps(a, d))</cell></row><row><cell>9:</cell><cell cols="3">m k ← centroid of S k</cell></row><row><cell>10:</cell><cell cols="3">z k ← mean color of vertices in S k</cell></row><row><cell>11:</cell><cell>u</cell><cell></cell><cell></cell></row></table><note><p>k ← normal of the least squares plane fitted to S k 12:</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 6</head><label>6</label><figDesc>Measurement repeatability experiments</figDesc><table><row><cell>Wound type</cell><cell>Perimeter</cell><cell></cell><cell>Area</cell><cell></cell><cell>Volume</cell><cell></cell></row><row><cell></cell><cell>Avg (mm)</cell><cell cols="2">Variability (%) Avg (mm 2 )</cell><cell cols="2">Variability (%) Avg (mm 3 )</cell><cell>Variability (%)</cell></row><row><cell>Orbbec Astra S</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Stage IV pressure ulcer</cell><cell cols="2">353.3/347.7 4.985/2.304</cell><cell cols="2">7128.2/6969.6 4.113/3.609</cell><cell cols="2">92748.1/89106.6 3.755/3.465</cell></row><row><cell>Stage III pressure ulcer</cell><cell cols="2">190.9/179.6 14.738/4.892</cell><cell cols="2">2205.3/2196.5 13.112/8.705</cell><cell cols="2">17172.8/17936.2 9.545/2.917</cell></row><row><cell cols="3">5 1/2 long dehisced surgical wound 263.4/256.7 3.557/3.292</cell><cell cols="2">2322.5/2351.2 7.154/5.062</cell><cell cols="2">20975.5/22742.8 6.742/5.137</cell></row><row><cell>PrimeSense Carmine 1.09</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Stage IV pressure ulcer</cell><cell cols="2">341.9/338.7 2.973/1.73</cell><cell cols="2">6986.1/6934.5 4.784/4.505</cell><cell cols="2">86550.4/87678.8 2.902/3.060</cell></row><row><cell>Stage III pressure ulcer</cell><cell cols="2">179.3/179.6 4.646/3.256</cell><cell cols="2">2291.3/2311.6 6.849/6.831</cell><cell cols="2">17357.8/17756.9 3.854/3.731</cell></row><row><cell cols="3">5 1/2 long dehisced surgical wound 269.3/267.6 2.322/3.458</cell><cell cols="2">2473.3/2459.6 9.684/7.501</cell><cell cols="2">20127.6/20728.3 1.376/1.977</cell></row><row><cell>Microsoft Kinect v2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Stage IV pressure ulcer</cell><cell>354.2</cell><cell>2.608</cell><cell>7763.6</cell><cell>2.033</cell><cell>139074.3</cell><cell>4.885</cell></row><row><cell>Stage III pressure ulcer</cell><cell>192.1</cell><cell>2.707</cell><cell>2712.1</cell><cell>2.175</cell><cell>28511.9</cell><cell>12.875</cell></row><row><cell cols="2">5 1/2 long dehisced surgical wound 288.1</cell><cell>1.233</cell><cell>2898.0</cell><cell>1.294</cell><cell>39241.2</cell><cell>8.268</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 8</head><label>8</label><figDesc>Absolute percentile error of measurements compared to the ground truth in Table7</figDesc><table><row><cell>Wound type</cell><cell>Our GT measurement</cell><cell></cell><cell></cell><cell cols="2">GT measurement according to [15]</cell><cell></cell></row><row><cell></cell><cell cols="6">Error perimeter (%) Error area (%) Error volume (%) Error perimeter (%) Error area (%) Error volume (%)</cell></row><row><cell>Orbbec Astra S</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Stage IV pressure ulcer</cell><cell>5.505/3.834</cell><cell>0.149/2.087</cell><cell>8.007/11.61</cell><cell>3.014/1.382</cell><cell>2.712/0.418</cell><cell>3.053/0.992</cell></row><row><cell>Stage III pressure ulcer</cell><cell>8.635/2.246</cell><cell>8.027/8.394</cell><cell>20.28/16.74</cell><cell>12.27/5.674</cell><cell>4.024/3.608</cell><cell>11.93/8.019</cell></row><row><cell cols="2">5 1/2 long dehisced surgical wound 5.137/7.557</cell><cell>3.228/2.034</cell><cell>25.32/19.03</cell><cell>n/a</cell><cell>n/a</cell><cell>n/a</cell></row><row><cell>PrimeSense Carmine 1.09</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Stage IV pressure ulcer</cell><cell>2.104/1.128</cell><cell>1.848/2.572</cell><cell>14.15/13.16</cell><cell>0.306/1.259</cell><cell>0.663/0.078</cell><cell>3.832/2.718</cell></row><row><cell>Stage III pressure ulcer</cell><cell>2.077/2.262</cell><cell>4.442/3.594</cell><cell>19.42/17.57</cell><cell>5.499/5.691</cell><cell>8.078/9.038</cell><cell>10.98/8.938</cell></row><row><cell cols="2">5 1/2 long dehisced surgical wound 3.026/3.642</cell><cell>3.054/2.483</cell><cell>28.34/26.20</cell><cell>n/a</cell><cell>n/a</cell><cell>n/a</cell></row><row><cell>Microsoft Kinect v2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Stage IV pressure ulcer</cell><cell>5.763</cell><cell>5.763</cell><cell>37.94</cell><cell>3.265</cell><cell>11.86</cell><cell>54.52</cell></row><row><cell>Stage III pressure ulcer</cell><cell>9.355</cell><cell>13.11</cell><cell>32.35</cell><cell>13.02</cell><cell>27.93</cell><cell>46.21</cell></row><row><cell cols="2">5 1/2 long dehisced surgical wound 3.749</cell><cell>20.75</cell><cell>39.69</cell><cell>n/a</cell><cell>n/a</cell><cell>n/a</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="123" xml:id="foot_0"><p>Content courtesy of Springer Nature, terms of use apply. Rights reserved.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Content courtesy of Springer Nature, terms of use apply. Rights reserved.</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>This work was supported by the <rs type="funder">Josip Juraj Strossmayer University of Osijek</rs>, under Grant No. <rs type="grantNumber">IZIP-2014-70</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Rj7ztMv">
+					<idno type="grant-number">IZIP-2014-70</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="21,58.32,499.02,230.81,7.44;21,66.48,508.98,222.65,7.44;21,66.48,518.94,222.65,7.44;21,66.48,528.91,222.66,7.44;21,66.48,538.87,222.56,7.44;21,66.48,548.83,153.10,7.44" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Kinectfusion: real-time dense surface mapping and tracking</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Newcombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Izadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hilliges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Molyneaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Davison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kohli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shotton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hodges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fitzgibbon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 10th IEEE International Symposium on Mixed and Augmented Reality</title>
+		<meeting>the 10th IEEE International Symposium on Mixed and Augmented Reality<address><addrLine>Washington, DC, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE Computer Society</publisher>
+			<date type="published" when="2011">2011. 2011</date>
+			<biblScope unit="page" from="127" to="136" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,58.32,558.79,230.79,7.44;21,66.48,568.75,222.61,7.44;21,66.48,578.71,218.24,7.44" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Efficient variants of the ICP algorithm</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rusinkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Levoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Third International Conference on 3-D Digital Imaging and Modeling</title>
+		<meeting>the Third International Conference on 3-D Digital Imaging and Modeling</meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2001">2001. 2001</date>
+			<biblScope unit="page" from="145" to="152" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,58.32,588.68,230.82,7.44;21,66.48,598.64,222.66,7.44;21,66.48,608.48,76.88,7.56" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Wound measurement comparing the use of acetate tracings and visitraktm digital planimetry</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gethin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cowman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Nurs</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="422" to="427" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,58.32,618.56,230.79,7.44;21,66.48,628.41,158.00,7.56" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Wound outcomes: the utility of surface measures</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gilman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Low. Extrem. Wounds</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="125" to="132" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,58.32,638.49,230.79,7.44;21,66.48,648.45,222.66,7.44;21,66.48,658.42,222.63,7.44;21,66.48,668.38,81.12,7.44" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Wita-application for wound analysis and management</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antonic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Huljev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">12th International Conference on e-Health Networking Applications and Services (Healthcom)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2010">2010. 2010</date>
+			<biblScope unit="page" from="68" to="73" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,58.32,678.34,230.83,7.44;21,66.48,688.30,222.67,7.44;21,66.48,698.15,222.65,7.56;21,66.48,708.23,37.38,7.44" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Automated tissue classification framework for reproducible chronic wound assessment</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Manohar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Achar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioMed Res. Int</title>
+		<imprint>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.44,60.46,230.82,7.44;21,321.60,70.42,222.67,7.44;21,321.60,80.38,222.66,7.44;21,321.60,90.35,222.67,7.44;21,321.60,100.31,222.64,7.44;21,321.60,110.27,85.35,7.44" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A unified framework for automatic wound segmentation and analysis with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kochhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wrobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">37th Annual International Conference on IEEE Engineering in Medicine and Biology Society</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2015">2015. 2015</date>
+			<biblScope unit="page" from="2415" to="2418" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.44,120.23,230.81,7.44;21,321.60,130.20,222.64,7.44;21,321.60,140.04,112.44,7.56" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A comparison of wound area measurement techniques: visitrak versus photography</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dearman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Greenwood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eplasty</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="158" to="166" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.44,150.12,230.81,7.44;21,321.60,160.09,222.66,7.44;21,321.60,169.93,107.24,7.56" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Three-dimensional assessment of skin wounds using a standard digital camera</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Treuillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Albouy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lucas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Med. Imaging</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="752" to="762" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,180.01,231.18,7.44;21,321.60,189.97,222.64,7.44;21,321.60,199.94,222.66,7.44;21,321.60,209.90,222.65,7.44;21,321.60,219.74,68.44,7.56" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Remote assessment of diabetic foot ulcers using a novel wound imaging system: remote foot ulcer assessment using a wound imaging system</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Paterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Lipsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Boulton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="30" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,229.83,231.15,7.44;21,321.60,239.79,222.65,7.44;21,321.60,249.75,206.59,7.44" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Derma: monitoring the evolution of skin lesions with a 3D system</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Callieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cignoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pingi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Scopigno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coluccia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gaggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Romanelli</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="167" to="174" />
+		</imprint>
+		<respStmt>
+			<orgName>VMV</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,259.71,231.15,7.44;21,321.60,269.68,222.64,7.44;21,321.60,279.63,222.65,7.44;21,321.60,289.59,222.65,7.44;21,321.60,299.56,180.61,7.44" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A 3D assessment tool for accurate volume measurement for monitoring the evolution of cutaneous leishmaniasis wounds</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zvietcovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Castaeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Valencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Llanos-Cuentas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual International Conference on Engineering in Medicine and Biology Society</title>
+		<imprint>
+			<biblScope unit="page" from="2025" to="2028" />
+			<date type="published" when="2012">2012. 2012</date>
+			<publisher>IEEE</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,309.52,231.16,7.44;21,321.60,319.48,222.66,7.44;21,321.60,329.33,185.21,7.56" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Wound perimeter, area, and volume measurement based on laser 3D and color acquisition</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Pavlovcic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Diaci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mozina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jezersek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioMedical Eng. OnLine</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">39</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,339.41,231.16,7.44;21,321.60,349.37,222.68,7.44;21,321.60,359.33,222.66,7.44;21,321.60,369.18,92.88,7.56" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Pilot study to evaluate a novel three-dimensional wound measurement device: three-dimensional wound assessment tool</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Bills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Berriman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Noble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Wound J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1372" to="1377" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,379.26,231.09,7.44;21,321.60,389.22,222.62,7.44;21,321.60,399.18,222.65,7.44;21,321.60,409.15,160.21,7.44" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mobile structure sensor for real-time 3D wound assessment: ex-vivo validation using wound phantoms</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Amling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Howell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Guler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">47th Annual Conference of Wound</title>
+		<imprint>
+			<publisher>WOCN</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,419.11,231.16,7.44;21,321.60,429.07,222.64,7.44;21,321.60,438.92,222.65,7.56;21,321.60,449.00,171.08,7.44" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Detection, reconstruction and segmentation of chronic wounds using Kinect v2 sensor</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cupec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Nyarko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">(20th Conference on Medical Image Understanding and Analysis</title>
+		<imprint>
+			<publisher>MIUA</publisher>
+			<date type="published" when="2016">2016. 2016</date>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="151" to="156" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,458.96,231.14,7.44;21,321.60,468.92,222.66,7.44;21,321.60,478.89,222.65,7.44;21,321.60,488.85,192.49,7.44" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Wound detection and reconstruction using RGB-D camera</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Filko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Nyarko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cupec</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">th International Convention on Information and Communication Technology, Electronics and Microelectronics</title>
+		<imprint>
+			<date type="published" when="2016">2016. 2016</date>
+			<biblScope unit="page" from="1217" to="1222" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,498.81,231.16,7.44;21,321.60,508.78,222.66,7.44;21,321.60,518.62,222.65,7.56;21,321.60,528.69,33.14,7.44" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">First experiences with Kinect v2 sensor for close range 3D modelling</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lachat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Macher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mittet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Landes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Grussenmeyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Arch. Photogramm. Remote Sens. Spat. Inf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">93</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,538.66,231.16,7.44;21,321.60,548.62,222.65,7.44;21,321.60,558.58,159.92,7.44" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Calibration between depth and color sensors for commodity depth cameras</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Multimedia and Expo</title>
+		<imprint>
+			<date type="published" when="2011">2011. 2011</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,568.54,231.10,7.44;21,321.60,578.51,222.64,7.44;21,321.60,588.35,135.25,7.56" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Joint depth and color camera calibration with distortion correction</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kannala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heikkil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2058" to="2064" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,598.43,191.76,7.44" xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Whelan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015-03">2015. March 2015</date>
+			<publisher>Icpcuda</publisher>
+			<biblScope unit="volume">28</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,608.40,231.16,7.44;21,321.60,618.36,222.64,7.44;21,321.60,628.32,222.64,7.44;21,321.60,638.28,222.64,7.44" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A volumetric method for building complex models from range images</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Curless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Levoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 23rd Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH &apos;96</title>
+		<meeting>the 23rd Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH &apos;96<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="page" from="303" to="312" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,648.25,231.17,7.44;21,321.60,658.21,222.63,7.44;21,321.60,668.05,76.88,7.56" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Marching cubes: a high resolution 3D surface construction algorithm</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Lorensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Cline</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH Comput. Graph</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="163" to="169" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,313.09,678.14,231.17,7.44;21,321.60,688.10,222.67,7.44;21,321.60,697.94,211.45,7.56" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Slic superpixels compared to state-of-the-art superpixel methods</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Susstrunk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shaji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lucchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Achanta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="2274" to="2282" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,57.96,60.46,231.15,7.44;22,66.48,70.42,222.65,7.44;22,66.48,80.27,106.05,7.56" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Graph-based segmentation for rgb-d data using 3-D geometry enhanced superpixels</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Cybern</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="927" to="940" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,57.96,90.35,231.16,7.44;22,66.48,100.31,222.66,7.44;22,66.48,110.27,222.64,7.44;22,66.48,120.24,222.64,7.44;22,66.48,130.20,127.68,7.44" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Voxel cloud connectivity segmentation-supervoxels for point clouds</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Papon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abramov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schoeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Worgotter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2013 IEEE Conference on Computer Vision and Pattern Recognition, CVPR &apos;13</title>
+		<meeting>the 2013 IEEE Conference on Computer Vision and Pattern Recognition, CVPR &apos;13<address><addrLine>Washington, DC, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE Computer Society</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="2027" to="2034" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,57.97,140.16,231.16,7.44;22,66.48,150.12,222.64,7.44;22,66.48,159.97,94.76,7.56" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Multi-resolution surfel maps for efficient dense 3D modeling and tracking</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stuckler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Behnke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vis. Commun. Image Represent</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="137" to="147" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,57.97,170.05,231.17,7.44;22,66.48,180.01,222.66,7.44;22,66.48,189.86,154.59,7.56" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Approximate triangulation and region growing for efficient segmentation and smoothing of range images</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Holz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Behnke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Robot. Auton. Syst</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1282" to="1293" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,57.96,199.94,231.15,7.44;22,66.48,209.90,222.62,7.44;22,66.48,219.75,174.07,7.56" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Segmentation of point clouds using smoothness constraint</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rabbani</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van Den</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Heuvel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vosselmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Arch. Photogramm. Remote Sens. Spat. Inf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="248" to="253" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,57.96,229.83,231.16,7.44;22,66.48,239.79,31.27,7.44" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">The visualization toolkit version</title>
+		<author>
+			<persName><surname>Vtk</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015-10-14">2015. 14 Oct 2015</date>
+			<biblScope unit="volume">6</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,57.96,249.75,231.19,7.44;22,66.48,259.71,222.65,7.44;22,66.48,269.56,161.11,7.56" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Evaluation of new algorithms for the interactive measurement of surface area and volume</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Alyassin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Lancaster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Downs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Fox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med. Phys</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="741" to="752" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

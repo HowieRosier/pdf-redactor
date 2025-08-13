@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">K</forename><surname>Vowden</surname></persName>
+							<email>kath.vowden@bthft.nhs.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">bradford teaching Hospitals nHS Foundation trust</orgName>
+								<orgName type="institution">University of bradford</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Vowden</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">bradford teaching Hospitals nHS Foundation trust</orgName>
+								<orgName type="institution">University of bradford</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Consultant</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">bradford teaching Hospitals nHS Foundation trust</orgName>
+								<orgName type="institution">University of bradford</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A798CAEADEC6501ABD146ECAAB63CC51</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A pilot study on the potential of remote support to enhance wound care for nursing-home patients l objective: to evaluate the effectiveness of a telehealth system, using digital pen-and-paper technology and a modified smartphone, to remotely monitor and support the effectiveness of wound management in nursing home residents. l Method: A randomised controlled pilot study was conducted in selected nursing homes in bradford, which were randomised to either the control or evaluation group. All patients with a wound of any aetiology or severity, resident in the selected nursing homes were considered eligible to participate in the study. residents in the control homes who had, or developed, a wound during the study period, continued to receive unsupported care directed by the nursing home staff (defined as 'standard care'), while those in the evaluation homes received standard care supported by input from the remote experts. l results: thirty-nine patients with a wound were identified in the 16 participating bradford nursing homes. Analysis of individual patient management pathways suggested that the system provided improved patient outcomes and that it may offer cost savings by improving dressing product selection, decreasing inappropriate onward referral and speeding healing. Despite initial anxiety related to the technology most nursing-home staff found the system of value and many were keen to see the trial continue to form part of routine patient management. l conclusion: the current study supports the potential value of telemedicine in wound care and indicates the value that such a system may have to nursing-home staff and patients. l declaration of interest: this study was funded by a regional Innovation Fund grant from the Yorkshire and Humberside Strategic Health Authority. the authors have no conflict of interest to declare with respect to the article or its contents.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>remote support; telehealth; teleWound; nursing home; wound care; pilot study A n audit of wounds in Bradford and Airedale showed that wound management is an issue in all health-care settings, <ref type="bibr">[1]</ref><ref type="bibr">[2]</ref><ref type="bibr">[3]</ref><ref type="bibr">[4]</ref> particularly in nursing homes, <ref type="bibr">5</ref> where access to specialist wound-care services is often difficult owing to funding issues, and the underlying care needs and mobility problems of the patient population. These issues have been highlighted in a recent Care Quality Commission report, 6 which found that 'the increasing complexity of conditions and greater comorbidities experienced by people are impacting on the ability of care providers to deliver person-centred care that meets individuals' needs. It is also seeing increasing pressures on staff, both in terms of the skills required to care for people with more complex conditions and in terms of staff numbers'.</p><p>Developments in information and communication technology (ICT), and in particular data-recording techniques, have allowed systems for remote data capture to be developed. Bradford experience with one such system, 7 digital pen-and-paper technology (Longhand Data Ltd), has allowed a system of wound record keeping to be produced, which has evolved into a National Wound Assessment Form. <ref type="bibr">8</ref> Telemedicine has been demonstrated in isolated case studies <ref type="bibr" target="#b0">9</ref> and in a small rural pilot study <ref type="bibr" target="#b1">10</ref> to be of potential benefit in wound management. However, although concluding that telemedicine is a useful communication tool in wound management, Terry et al. <ref type="bibr">11</ref> felt that it was of limited power unless used in a controlled fashion. Ong suggests that telehealth is currently drastically underused and has the potential to greatly enhance outcomes for patients. <ref type="bibr">12</ref> To explore these issues further, a 'TeleWoundcare' project was developed to test the hypothesis that provision of such a system offering remote wound-care support could improve the local delivery of care.</p><p>To this end, a remote wound-management system was developed, whereby information captured on the patient and their wound, combined with visual data of the wound itself, was transmitted to a remote expert for assessment. Remote imaging of wounds has already been found to provide sufficient detail to allow effective wound management. <ref type="bibr" target="#b2">13</ref> The new developmental system to be evaluated in the current pilot study adds to simple wound imaging by brings together mobile smartphone technology (O 2 health), which allows photographs to be taken of wounds, and combines this with data captured on digital paper forms (via a Bluetooth link with a digital pen) and transmits the combined encrypted information to a secure server (ADL Smartcare Ltd.). From this server, a wound expert, working remotely, can access the information and offer advice or reassurance to the local care team on managing that wound. The system also offered the opportunity to re-enforce advice and guidance provided in the local wound-care handbook and formulary or to offer targeted educational support.</p><p>The aims of this pilot study were to establish whether digital pen-and-paper technology, digital photography and mobile phone technology could be effectively utilised to transmit sufficient wound data to allow a remote specialist in wound care to provide support to local health professionals working in nursing homes thus enhancing care and improving outcome for this vulnerable and elderly patient group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>Nursing homes in Bradford and Sheffield were selected and approached to participate in the study. Initial agreement to participate in the study was sought from the nursing homes. The larger homes, based on bed numbers, were selected for inclusion and these homes were then randomised by computer to either the control or evaluation group. Randomisation was stratified according to the home's known bed numbers, to ensure an even distribution of nursing home beds and therefore potential patients between groups.</p><p>Residents in the control homes who had, or developed, a wound during the study period, continued to receive unsupported care directed by the nursing home staff (defined as 'standard care') while those in the evaluation homes received 'standard care' supported by input from remote expert. In both groups, delivery of direct patient care remained the responsibility of the nursing-home staff.</p><p>Ethical approval was obtained to undertake this project (REC number 10/H1302/83). Written informed consent to participate in the study was obtained from each patient. Consent was obtained from a family member or guardian, where any patient lacked the ability to give his or her own consent. The patient's general practitioner (GP) was informed of the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study population</head><p>All patients with a wound of any aetiology or severity, resident in the selected nursing homes were considered eligible to participate in the study. Any patient from whom it was impossible to obtain a valid consent was excluded from the study. l evaluation group Patients presenting with wounds in an evaluation care home were first consented and registered by the research nurse. A unique identifier number (ID) was provided for each patient and the details stored both electronically and in paper format, along with the standard patient notes.</p><p>For every wound, the care-home staff completed a weekly wound-assessment form. This form used the project ID from the registration form, the date of birth and the patient initials to identify the patient. The wound diagnosis made by the care-home staff, the state of the wound and information on pain, exudate levels and treatments were recorded. Additional forms could be submitted at any time. Wound images were taken using a smartphone camera and these data were electronically linked to the digital paper form. Once all the data were collected, the wound images and information were uploaded together to a secure server for assessment by the remote nurse consultant. The paper copy of the wound-assessment form was stored with the patient's records at the care home.</p><p>l control group The same registration and consenting procedure was followed for patients in the control group and a research nurse, who visited each of the control homes, collected the same wound-care data as recorded in the evaluation group from the nursing home records. Patients in the control group continued to be referred to the tissue viability nurses when the nursing-home staff felt it to be appropriate (standard care). This wound care information was held separately and not forwarded directly to the remote expert, only becoming available at the end of the study period when the remote expert reviewed and commented on the care received by the control-group patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study protocol</head><p>The staff in the evaluation homes received training in the use of the trial ICT equipment necessary to support data capture for the study, and received ongoing support from the research nurse, who attended each home but did not intervene with wound care.</p><p>The smartphone device was purely for use in this trial with other phone functions disabled. A specifically-designed series of data-capture forms were used, which employed digital pen-and-paper technology to enter, encrypt and transmit data to a central server. The secure data storage server, which distributed the necessary clinical data to the specialist wound-care expert, ran bespoke software, which allowed data and images to be received over a secure internet connection.</p><p>The staff at the control homes received training in the use of the supplied digital camera. In control homes, the research nurse reviewed the nursinghome standard records and transcribed the wound data using the same digital pen-and-paper forms as used in the evaluation group. However, the remote expert was kept blinded to these data until the end of the study.</p><p>The study ran for a 6-month period. Any patient who had a wound at the onset of the study, or who developed a wound during the 6 months, was considered eligible for inclusion in the study. Patients remained in the study while they had an open wound. Any patient who developed a recurrent or new wound after the healing of an initial study wound was eligible to re-enter the study and, for a patient with multiple wounds, all of the patient's wounds were included in the study.</p><p>During the study, staff caring for patients in the evaluation group received weekly feedback, including the rationale for treatment decisions. This provided staff with 'on the job' training opportunities.</p><p>The research nurse recorded details of the number of patients with a wound deemed unable to participate or who declined to participate or withdrew their consent.</p><p>At the end of the study wound data from the control and evaluation groups were reviewed by two remote expert nurse consultants (Bradford and Sheffield) and agreement reached on management.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Thirty-two nursing homes in Bradford and Sheffield (16 in each city) were selected and approached to participate in the study. This paper reports the results from the 16 Bradford nursing homes, where a noncommunity based expert provided remote support.</p><p>Thirty-nine patients with a wound were identified in the 16 participating Bradford nursing homes. These nursing homes had a total of 942 beds, for a prevalence rate of 4.1% for patients with a wound. It proved impossible to obtain adequate patient consent to participate in the study from 13 patients or their family (seven in the control group, six in the evaluation group). Twenty-six patients consented to participate in the study: nine control (11 wounds) and 17 evaluation (23 wounds). One patient was withdrawn from the evaluation group due to a protocol violation (the District Nursing team did not comply with the expert remote treatment plan). Four patients died during the study (one control, three evaluation), with death considered unrelated to the wound in all cases. Table <ref type="table" target="#tab_0">1</ref> details the participant's age, sex, wound type and outcome for both the control and evaluation groups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>control group</head><p>Nine patients with 11 wounds were recruited into the control group. One patient had a sacral pressure ulcer (category III), three patients had heel or foot pressure ulcers (two category III and one category IV), three patients had surgical wounds, one patient had a leg ulcer, and three wounds were foot ulcers. Two patients had multiple wounds (surgical wound and heel pressure ulcer; leg ulceration and foot ulceration). The vascular team were involved in  two patients' care, the orthopaedic surgeons were involved in one patient's care, and the general surgeons were involved in one patient's care. A GP was noted to be involved in the care of one patients' sacral pressure ulcer.</p><p>The median duration of the 10 wounds was 15 months (range 1-360 months). Two wounds (one patient) healed during the study period; this patient had had a foot ulcer for 30 years, she was seen by the vascular department during the study period and healed with their wound-care recommendations.</p><p>Control group data review by the remote experts undertaken at the end of the study concluded that the nursing-home staff used appropriate first-line dressings on pressure ulcer wounds. Some staff recognised deterioration and this was reported; however, there was some delay in response by the community tissue viability nurses. Antibiotic therapy was prescribed from the GP in three of the nine patients; one patient had two courses of antibiotics prior to community tissue viability nurse review. Nursing-home staff seemed less able to assess and manage leg and foot wounds.</p><p>On review by the two remote experts, it was agreed that they would have changed management in seven of the nine patients, with opportunities for alternative treatments in the remaining two patients with long-term surgical wounds.</p><p>There were some deviations in terms of product usage from the agreed Bradford Wound Care Formulary and inappropriate use of topical steroids in the control group. This was also noted in evaluation group patients prior to study entry.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>evaluation group</head><p>Seventeen patients with 23 wounds were recruited to the evaluation group; several patients had more than one wound type. Six patients had a sacral or hip pressure ulcer (two category IV, one category III and three category II), four patients had a heel pressure ulcer (one category IV, three category III), five patients had leg ulceration (eight wounds), four had a foot ulcer and one patient had a fungating wound.</p><p>Eight patients had 11 existing, unhealed wounds at time of study entry (three pressure ulcers, five leg ulcers, two foot ulcers and one fungating wound). The median duration of these wounds was 10 months (range 6-60 months). Of these wounds six healed during the study period, one patient remained unhealed and two patients, one with two wounds (leg ulcer and fungating wound), died. One patient whose wound was improving was withdrawn due to protocol violation. Treatment was changed at study entry in five patients with seven wounds, and was modified considerably in four patients with six wounds. The remote-care system recognised that one of the patients with an existing wound at study entry required urgent review by the vascular team.</p><p>The community tissue viability nurse had seen three patients prior to study entry, two patients with category IV pressure ulcers and one patient with an ischaemic foot ulcer. Two patients with long-duration leg ulcers (four wounds) were treated by the district nursing team and had not been referred to, or assessed by, any other health professional. Remote access changed patient management in eight cases (10 wounds), preventing admission in Ten patients developed 12 wounds during the study period (three patients with category II pressure ulcers, three patients with category III pressure ulcers, one of whom also had a category IV pressure ulcer, two patients with a leg ulcer (one bilateral), one patient a foot ulcer). Two of these patients were admitted to the nursing home with their wounds. Of the 10 patients, one died (heel pressure ulcer) and one patient with a category IV pressure ulcer remained unhealed at the study end. All the remaining wounds healed within the study period.</p><p>Overall only two patients remained unhealed at the end of the study period, one was improving and the other was not expected to heal.</p><p>Review of two randomly-selected case studies illustrated the potential impact of the TeleWound care system. In the first, the TeleWound system allowed early recognition of deterioration and prompt appropriate action was taken to prevent further and ongoing deterioration, which could have serious consequences for the patient. The second review of care prior to study entry highlighted longterm inappropriate treatment, with poor application of compression bandages causing skin damage. The documentation of care provided was poor and the only action taken to address issues by the then care team was to increase the number of visits. No external referral or advice had been sought. The Tel-eWound plan implemented by the remote expert resulted in improved compression therapy, a reduced number of visits and improved the patient's quality of life with immediate pain reduction. This had a positive effect on her mood and wellbeing, and achieved ulcer healing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>nursing home staff responses</head><p>Five nurses (A-E), one from each of five randomlyselected nursing homes from the evaluation group of homes, were interviewed at the end of the study, using a structured questionnaire designed to gauge staff reaction to the TeleWound system (Table <ref type="table" target="#tab_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The study supports the hypothesis that digital penand-paper technology, enhanced digital photography and mobile phone technology can be effectively used to transmit sufficient wound data to allow a remote specialist in wound care to provide support to local health professionals working in nursing homes.</p><p>Although the patient numbers are insufficient to allow any statistical analysis, the experience of the remote experts and the case studies included illustrate the potential benefits of the system. Results support the recently-published conclusions on the use of telehealth, 14 which quoted reduction in hospital and suggested that both quality improvement and cost savings should be possible if such a wound-monitoring system was more widely applied. These findings are also in line with earlier published studies, <ref type="bibr">16,</ref><ref type="bibr">17</ref> which concluded that the coordinated follow-up of patients with chronic wounds can be challenging and that telemedicine offers an effective, financially credible, low-cost option for monitoring care of less-mobile patients distributed over large areas, with limited medical access. Remote monitoring and support has also been found to be effective in burns management. <ref type="bibr" target="#b6">18</ref> Roth et al. <ref type="bibr">19</ref> demonstrated the possibility of using remote, digital wound imaging in wound management, over 15 years ago. Image quality was an issue with some patients in the current study, but this related mainly to staff skills, rather than smartphone camera quality and could be addressed by further training.</p><p>Gaining adequate informed consent for this study proved difficult for some patients. The main difficulty experienced was associated with the patients' mental capacity, when the patient's next of kin was not available to sign the consent. These issues could, in part, be addressed by the care-home staff seeking patient or relative approval at a more convenient time and would not prove to be a limitation to the use of the system outside of a clinical trial environment.</p><p>Feedback from the nursing homes in the active arm of the study indicated that, once familiar with the equipment, staff found the remote support beneficial. The system used offered advice on care and linked to the local wound-care formulary and information booklet. Ameen et al. <ref type="bibr" target="#b8">20</ref> found that teleadvice could be of great benefit to community nurses in enhancing their knowledge in the practice of leg ulcer care. Feedback from nursing-home staff suggested that this was an added bonus from the trialled TeleWound package.</p><p>Review of the technology did highlight that some improvements would be necessary if the system was to be rolled out across a larger population. The mobile phone, in particular, was difficult for staff to manage. The main issue was linking the image to the data and difficulties in sending data. Bradford and Airedale have areas where transmission of data using the existing 3G networks is difficult. These areas would require attention by telecommunication groups before development of this or other telecare service could be fully realised.</p><p>The digital pen-and-paper technology requires data validation to ensure accurate transcription and 'translation' of handwritten script, which was not possible in the pilot study, but would be included in a working system. The database would also require some amending to allow smooth running and easy and rapid access of data files, if larger numbers of patients were to be managed using this or a similar system.</p><p>One of the main benefits in the study is the ease of monitoring progress of the wounds. Early recognition of wound deterioration is key to preventing serious complications that require treatment and hospitalisation. This aspect of the system and the advantages of TeleWound monitoring was demonstrated by patients who, provided with early specialist intervention in their care home and others who early intervention by nursing-home staff guided by remote support, avoided hospital admission. By use of this system, patients could also be monitored by specialist teams, without the need for outpatient review. In a recent review Chanussot-Deprez and Contreras-Ruiz 21 highlighted that TeleWound care offered great potential by decreasing the costs and improving the quality of life for patients with chronic wounds, while still maintaining high standards of wound care. However, the authors called for well-designed future research in this field, to understand how best to deploy telemedicine services within wound care.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The current study supports the potential value of telemedicine in wound care and indicates the value that such a system may have to nursing home staff and patients. n</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>research s j o u r n a l o f wo u n d c a r e v</head><label></label><figDesc>o l 2 2 , n o 9 , S e p t e m b e r 2 3 M A H e A l t H c A r e l t d</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Patient demographics and outcomes at the end of the study, for both control and evaluation groups</head><label>1</label><figDesc></figDesc><table><row><cell cols="3">control group</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">no. Sex</cell><cell>age</cell><cell cols="2">wound wound type</cell><cell>outcome</cell></row><row><cell></cell><cell></cell><cell cols="2">(years) no.</cell><cell></cell><cell></cell></row><row><cell>1</cell><cell>male</cell><cell>86</cell><cell>1</cell><cell>pressure ulcer on heel</cell><cell>not healed</cell></row><row><cell>2</cell><cell>male</cell><cell>91</cell><cell>1</cell><cell cols="2">non-healing surgical wound not healed</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2</cell><cell>pressure ulcer on heel</cell><cell>not healed</cell></row><row><cell>3</cell><cell cols="2">Female 91</cell><cell>1</cell><cell>pressure ulcer on sacrum</cell><cell>lost to follow-up</cell></row><row><cell>4</cell><cell cols="2">Female 66</cell><cell>1</cell><cell>leg ulcer</cell><cell>Healed</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2</cell><cell>Foot ulcer</cell><cell>Healed</cell></row><row><cell>5</cell><cell>male</cell><cell>79</cell><cell>1</cell><cell>pressure ulcer on foot</cell><cell>Withdrawn</cell></row><row><cell>6</cell><cell cols="2">Female 92</cell><cell>1</cell><cell cols="2">non-healing surgical wound not healed</cell></row><row><cell>7</cell><cell cols="2">Female 81</cell><cell>1</cell><cell cols="2">non-healing surgical wound not healed</cell></row><row><cell>8</cell><cell cols="2">Female 78</cell><cell>1</cell><cell>Foot ulcer</cell><cell>Died</cell></row><row><cell>9</cell><cell>male</cell><cell>80</cell><cell>1</cell><cell>Foot ulcer</cell><cell>not healed</cell></row><row><cell cols="3">Intervention group</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1</cell><cell cols="2">Female 87</cell><cell>1</cell><cell>pressure ulcer on heel</cell><cell>Healed</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2</cell><cell>pressure ulcer on heel</cell><cell>not healed</cell></row><row><cell>2</cell><cell>male</cell><cell>77</cell><cell>1</cell><cell>pressure ulcer on hip</cell><cell>Healed</cell></row><row><cell>3</cell><cell>male</cell><cell>90</cell><cell>1</cell><cell>pressure ulcer on sacrum</cell><cell>Healed</cell></row><row><cell>4</cell><cell cols="2">Female 90</cell><cell>1</cell><cell>leg ulcer</cell><cell>Healed</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2</cell><cell>leg ulcer</cell><cell>Healed</cell></row><row><cell>5</cell><cell cols="2">Female 90</cell><cell>1</cell><cell>Fungating wound</cell><cell>Died</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2</cell><cell>leg ulcer</cell><cell>Died</cell></row><row><cell>6</cell><cell>male</cell><cell>84</cell><cell>1</cell><cell>leg ulcer</cell><cell>Withdrawn</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2</cell><cell>leg ulcer</cell><cell>Healed</cell></row><row><cell>7</cell><cell cols="2">Female 82</cell><cell>1</cell><cell>leg ulcer</cell><cell>Healed</cell></row><row><cell>8</cell><cell cols="2">Female 92</cell><cell>1</cell><cell>leg ulcer</cell><cell>Healed</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2</cell><cell>leg ulcer</cell><cell>Healed</cell></row><row><cell>9</cell><cell>male</cell><cell>51</cell><cell>1</cell><cell>pressure ulcer on sacrum</cell><cell>Healed</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2</cell><cell>Foot ulcer on toe nail</cell><cell>Healed</cell></row><row><cell cols="3">10 Female 95</cell><cell>1</cell><cell>Foot ulcer</cell><cell>Healed</cell></row><row><cell cols="3">11 Female 77</cell><cell>1</cell><cell>pressure ulcer on heel</cell><cell>Died</cell></row><row><cell cols="3">12 Female 79</cell><cell>1</cell><cell>Foot ulcer</cell><cell>Healed</cell></row><row><cell cols="3">13 Female 64</cell><cell>1</cell><cell>pressure ulcer on sacrum</cell><cell>Healed</cell></row><row><cell cols="2">14 male</cell><cell>91</cell><cell>1</cell><cell>Foot ulcer</cell><cell>not healed</cell></row><row><cell cols="2">15 male</cell><cell>57</cell><cell>1</cell><cell>pressure ulcer on sacrum</cell><cell>Died</cell></row><row><cell cols="2">16 male</cell><cell>66</cell><cell>1</cell><cell>pressure ulcer on sacrum</cell><cell>Healed</cell></row><row><cell cols="3">17 Female 79</cell><cell>1</cell><cell>pressure ulcer on heel</cell><cell>Healed</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 . Quotes from evaluation group nursing-home staff How have you found the Telewound Project?</head><label>2</label><figDesc>A 'The phone was difficult, we forgot to turn it off and charging it took ages, so we lost confidence in the equipment.'</figDesc><table /><note><p>b 'Technology was initially difficult-not easy at all we have only just got the hang of it.' b 'Being part of the TeleWounds study has increased my awareness and knowledge of tissue viability.' C 'We have had signal problems which has been time consuming to sort out the photos particularly have been difficult.' D 'It's been OK our patients have done really well.' e 'I am a bit of a technophobe so it took me a while to get used to it but I am okay now.' what is your opinion on the concept of Telewounds? A 'The concept of TeleWounds is marvellous.' A 'The support during the study has been fantastic.' A 'The speed of decision making and appropriate action is really great.' b 'Great-a patient was treated in the home instead of sending him to a clinic.' C '...a good concept, its just been difficult for us with signalling.' D '...the benefits are clear.' e 'Much quicker.'</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>How can the Telewound system be improved?</head><label></label><figDesc></figDesc><table /><note><p>A '...the quality of the phone.' b 'The pens fine, the camera is the problem.' C '...the technology so it does not take such a long time.' D 'I had problems registering a patient I didn't realise until after the weekend.' D '...the pen was okay, it was just the phone.' e 'We had some signalling problems but they seemed to get sorted as time went on.'</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>with these changes would the Telewound System be acceptable method of service delivery?</head><label></label><figDesc>one case and allowing early appropriate admission in another. It was estimated that outcome improved in seven patients with earlier healing in five patients.</figDesc><table /><note><p>A 'Absolutely! Really great idea.' b 'I would be very happy to continue, even with the current technology.' C 'Certainly has potential.' D 'Yes, I would want to continue.' e 'Yes, would continue.'</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 2 . Quotes from evaluation group continued would you be prepared to use this method of service delivery without any changes?</head><label>2</label><figDesc></figDesc><table><row><cell>A 'Yes.'</cell></row><row><cell>b 'I would be very happy to continue, even with the current technology.'</cell></row><row><cell>C 'If they can sort out the signalling problems, yes.'</cell></row><row><cell>D 'Yes, I want to continue.'</cell></row><row><cell>e 'Yes, now I have got used to it.'</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>How does Telewound service compare with the current service?</head><label></label><figDesc>A 'We have had some problems with the current service. The local DNs help, as they visit the residential patients. We use their expertise.'</figDesc><table><row><cell>C 'She [the community TVN] is scary.'</cell></row><row><cell>D '...the speed of response.'</cell></row><row><cell>e 'The timing-we wait too long for the community TVN.'</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>How long do you usually wait for a TVn to visit after sending a referral?</head><label></label><figDesc>admissions, and in morbidity and mortality obtained in the Whole Systems Demonstrator Programme,15   </figDesc><table><row><cell>A 'About a week. They come from Airedale.'</cell></row><row><cell>b 'We have a delay of about 7 days for a TVN to visit'</cell></row><row><cell>C '...we can refer to TVNs, but it takes about a week before patients to be seen;</cell></row><row><cell>the TVNs are always so busy.'</cell></row><row><cell>D '...between 4 days and a week.'</cell></row><row><cell>e 'One, two even three weeks. It's too long.'</cell></row><row><cell>what happens to patients who require a follow up or monitoring visit?</cell></row><row><cell>A 'We don't get a routine follow up visit.'</cell></row><row><cell>b '...very few patients are seen again; even if there is documentation stating they will</cell></row><row><cell>visit, we have to request a further follow up, this consultation is usually (more than</cell></row><row><cell>50%) by phone.'</cell></row><row><cell>C 'The TVNs are always so busy.'</cell></row><row><cell>e 'No, we don't get follow up.'</cell></row><row><cell>would staff prefer: on the job training, face-to-face study days, or</cell></row><row><cell>e-learning packages?</cell></row><row><cell>A 'We prefer face-to-face training and on-the-job. The DNs did a research project</cell></row><row><cell>working with the HCA, including basic skin care and pressure ulcer prevention</cell></row><row><cell>education. This resulted in a significant reduction in the number of pressure ulcers.</cell></row><row><cell>it was really good.'</cell></row><row><cell>b 'Face-to-face works best, but it is expensive; some may do e-learning.'</cell></row></table><note><p>C 'Any training would be helpful. We have a computer so we can do e-learning, particularly useful for the level 3 HCAs and students.' D 'Face-to-face-we have a computer in the office, but this can be difficult for staff to use, so e-training might be difficult.' e '...e-learning would be a great idea for our nursing home group to have a pathway and they would need to be involved.'</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Journal of Wound Care.Downloaded from magonlinelibrary.com by 130.216.030.116 on May 17, 2015. For personal use only. No other uses without permission. . All rights reserved.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>j o u r n a l o f wo u n d c a r e v o l 2 2 , n o 9 , S e p t e m b e r 2 0 1 3</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>© 2 0 1 3 M A H e A l t H c A r e l t d</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,137.87,603.94,91.20,6.52;6,132.50,611.94,93.12,6.52;6,132.50,619.94,80.24,6.52" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">telemedicine in wound care</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chanussot-Deprez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Contrerasruiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="651" to="654" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,141.97,629.36,72.07,6.52;6,132.50,637.36,86.09,6.52;6,132.50,645.36,94.88,6.52;6,132.50,653.36,90.45,6.52;6,132.50,662.77,75.53,6.52;6,132.50,670.77,96.43,6.52;6,132.50,678.78,89.12,6.52;6,132.50,686.78,79.10,6.52;6,132.50,694.78,92.48,6.52;6,132.50,704.19,81.64,6.52;6,132.50,712.19,80.81,6.52;6,132.50,720.19,91.30,6.52;6,132.50,728.20,95.28,6.52;6,132.50,736.20,33.26,6.52" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Feasibility study of home care wound management using telemedicine</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lowery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goldfarb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<editor>latifi, r.</editor>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="358" to="364" />
+			<date type="published" when="2007">2007. 2009. 2008</date>
+		</imprint>
+	</monogr>
+	<note>12 ong, C.A. telemedicine in wound care. Current principles and practices of telemedicine and e-Health. IoS press</note>
+</biblStruct>
+
+<biblStruct coords="6,250.07,603.95,81.35,6.52;6,240.40,611.95,92.23,6.52;6,240.40,619.95,91.34,6.52;6,240.40,627.95,90.68,6.52;6,240.40,635.95,77.20,6.52;6,240.40,643.95,92.90,6.52;6,240.40,651.95,35.81,6.52" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Using telehealth technology to manage wound care and asthma patients at Sentara Home Care Services, Chesapeake, virginia. Home Health Care manage pract</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Slater</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Chetney</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="166" to="167" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,240.40,661.37,62.12,6.52;6,240.40,669.37,70.68,6.52;6,240.40,677.37,77.32,6.52;6,240.40,685.37,88.15,6.52;6,240.40,693.37,35.09,6.52;6,240.40,702.79,88.32,6.52;6,240.40,710.79,82.08,6.52;6,240.40,718.79,83.78,6.52;6,240.40,726.79,95.77,6.52;6,240.40,734.79,67.23,6.52" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">reducing admissions for long-term conditions: is telehealth the answer?</title>
+	</analytic>
+	<monogr>
+		<title level="j">br J Community nurs</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="76" to="91" />
+			<date type="published" when="2011-08">2012. 2011. August 2013</date>
+		</imprint>
+	</monogr>
+	<note>Whole System Demonstrator programme: Headline Findings</note>
+</biblStruct>
+
+<biblStruct coords="6,348.30,603.95,77.16,6.52;6,348.30,611.95,81.35,6.52;6,348.30,619.95,79.97,6.52;6,348.30,627.96,88.38,6.52;6,348.30,635.96,89.87,6.52;6,348.30,643.96,79.32,6.52;6,348.30,651.96,47.85,6.52" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Feasibility and acceptance of telemedicine for wound care in patients with chronic leg ulcers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hofmann-Wellenhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Salmhofer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Binder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J telemed telecare</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="15" to="17" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Suppl. 1</note>
+</biblStruct>
+
+<biblStruct coords="6,348.30,661.37,85.48,6.52;6,348.30,669.37,59.37,6.52;6,348.30,677.38,86.16,6.52;6,348.30,685.38,90.27,6.52;6,348.30,693.38,83.32,6.52" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">17 rees, r.S., bashshur, n. the effects of teleWound management on use of service and financial outcomes</title>
+	</analytic>
+	<monogr>
+		<title level="j">telemed J e Health</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="663" to="674" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,357.97,702.79,87.20,6.52;6,348.30,710.79,87.49,6.52;6,348.30,718.79,84.90,6.52;6,348.30,726.80,82.61,6.52;6,348.30,734.80,35.81,6.52" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">telemedicine evaluation of acute burns is accurate and cost-effective</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Saffle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J trauma</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="358" to="365" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,456.20,603.96,68.26,6.52;6,456.20,611.96,93.91,6.52;6,456.20,619.96,79.84,6.52;6,456.20,627.96,96.45,6.52;6,456.20,635.96,42.81,6.52" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Diagnostic quality of low resolution images for tele-woundcare</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Concannon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">proc AmIA Symp</title>
+		<meeting>AmIA Symp</meeting>
+		<imprint>
+			<date type="published" when="1998">19. 1998</date>
+			<biblScope unit="page" from="917" to="920" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,465.87,645.38,86.74,6.52;6,456.20,653.38,68.26,6.52;6,456.20,661.38,85.93,6.52;6,456.20,669.38,84.59,6.52;6,456.20,677.38,69.80,6.52" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Impact of tele-advice on community nurses&apos; knowledge of venous leg ulcer care</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ameen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Coll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Adv nurs</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="583" to="594" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,465.66,686.80,61.34,6.52;6,456.20,694.80,91.36,6.52;6,456.20,702.80,84.26,6.52;6,456.20,710.80,83.59,6.52" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">telemedicine in wound care: a review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chanussot-Deprez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Contreras-Ruiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="78" to="82" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

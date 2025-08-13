@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Identification of microbes in wounds using near-infrared spectroscopy</title>
+				<funder ref="#_gF48PFp">
+					<orgName type="full">National Natural Science Foundation of China NSFC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Meifang</forename><surname>Yin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Burn and Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Institute Translational Medicine</orgName>
+								<orgName type="institution">The First Affiliated Hospital of Shenzhen University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Second People&apos;s Hospital</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiangfeng</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Burn and Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Institute Translational Medicine</orgName>
+								<orgName type="institution">The First Affiliated Hospital of Shenzhen University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Second People&apos;s Hospital</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lixian</forename><surname>Huang</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Institute of Fluid Physics</orgName>
+								<orgName type="department" key="dep2">Academy of Engineering Physics</orgName>
+								<address>
+									<settlement>Mianyang, Sichuan</settlement>
+									<country>China, China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yongming</forename><surname>Li</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Microelectronics and Communication Engineering</orgName>
+								<orgName type="institution">Chongqing University</orgName>
+								<address>
+									<settlement>Chongqing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mingzhou</forename><surname>Yuan</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Burn Surgery</orgName>
+								<orgName type="institution" key="instit1">The First Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit2">Sun Yat-sen University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yongquan</forename><surname>Luo</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Institute of Fluid Physics</orgName>
+								<orgName type="department" key="dep2">Academy of Engineering Physics</orgName>
+								<address>
+									<settlement>Mianyang, Sichuan</settlement>
+									<country>China, China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ubaldo</forename><surname>Armato</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Burn and Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Institute Translational Medicine</orgName>
+								<orgName type="institution">The First Affiliated Hospital of Shenzhen University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Second People&apos;s Hospital</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="laboratory">Human Histology and Embryology Unit</orgName>
+								<orgName type="institution">University of Verona Medical School</orgName>
+								<address>
+									<addrLine>Strada Le Grazie 8</addrLine>
+									<settlement>Verona</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lijun</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Burn and Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Institute Translational Medicine</orgName>
+								<orgName type="institution">The First Affiliated Hospital of Shenzhen University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Second People&apos;s Hospital</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yating</forename><surname>Wei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Burn and Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Institute Translational Medicine</orgName>
+								<orgName type="institution">The First Affiliated Hospital of Shenzhen University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Second People&apos;s Hospital</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yuanyuan</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jiawen</forename><surname>Deng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Burn and Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Institute Translational Medicine</orgName>
+								<orgName type="institution">The First Affiliated Hospital of Shenzhen University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Second People&apos;s Hospital</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Pin</forename><surname>Wang</surname></persName>
+							<email>wangpin@cqu.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Burn and Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Institute Translational Medicine</orgName>
+								<orgName type="institution">The First Affiliated Hospital of Shenzhen University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Second People&apos;s Hospital</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">School of Microelectronics and Communication Engineering</orgName>
+								<orgName type="institution">Chongqing University</orgName>
+								<address>
+									<settlement>Chongqing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jun</forename><surname>Wu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Burn and Plastic Surgery</orgName>
+								<orgName type="department" key="dep2">Institute Translational Medicine</orgName>
+								<orgName type="institution">The First Affiliated Hospital of Shenzhen University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Second People&apos;s Hospital</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Identification of microbes in wounds using near-infrared spectroscopy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6174554FEB7B7B4FACE1477981956B51</idno>
+					<idno type="DOI">10.1016/j.burns.2021.09.002</idno>
+					<note type="submission">Accepted 2 September 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Wound infection Microbiology Noncontact Near-infrared spectroscopy</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Rapid diagnosis of microbes in the burn wound is a big challenge in the medical field. Traditional biochemical detection techniques take hours or days to identify the species of contaminating and drug-resistant microbes. Near-infrared spectroscopy (NIRS) is evaluated to address the need for a fast and sensitive method for the detection of bacterial contamination in liquids.</p><p>Methods: Herin, we developed a novel technique which by using NIRS together with supporting vector machine (SVM), to identify the microbial species and drug-resistant microbes in LB medium, and to diagnose the wound colonization and wound infection models of pigs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>The device could recognize 100% of seven kinds of microbes and 99.47% of the multidrug resistant Staphylococcus aureus (S. aureus), with a concentration of 10 9 cfu ml À1 in LB medium. The accuracy of the microbial identification in colonized and infected wounds insitu was 100%. The detection limit of NIRS with SVM for the detection of S. aureus and Escherichia coli (E. coli) was 10 1 cfu ml À1 in LB medium. Identification time was less than 5 s.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>Our findings validate for the first time a novel technique aimed at the rapid, noncontacted, highly sensitive, and specific recognition of several microbial species including drug-resistant ones. This technique could represent a promising approach to identify diverse microbial species and a potential bedside device to rapidly diagnose infected wounds.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Rapidly diagnosis of specific microbial infections in-situ is critically important for infection control via selecting effective antibiotics, which leads to saving patients' lives and controlling medical costs. Conventional methods for the identification of microbial pathogens mainly depend on microbiological and biochemical approaches. However, although being highly sensitive and accurate, the usefulness of such methods is greatly hampered by being time consuming and by the cost of the instruments employed <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. Hence, it is necessary to develop new quicker, simpler, and non-destructive technologies as alternatives aiming at identifying the types of microbes in the wound.</p><p>For more than two decades, NIRs has been applied to many different fields such as food industry <ref type="bibr" target="#b2">[3]</ref> and agriculture <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>. In recent years, with the development of spectroscopic technologies and chemometric methods, the medical application of NIRS has significantly progressed. This method reproducibly distinguished different Escherichia coli isolates and conclusively identified the relationship between a new isolate and one of the tested species <ref type="bibr" target="#b5">[6]</ref>. Since then, the study of NIR spectroscopy (NIRS) technologies for the rapid recognition of microbial cells in suspensions has become quite popular <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. However, hitherto the potential of NIRS for detecting infections in-situ and for discriminating different resistant strains has never been investigated.</p><p>This study aimed at developing a rapid, non-invasive, and accurate technique based on NIRS integrated with chemometrics to identify the microbial species and drug-resistant microbes in LB medium, and to diagnose the wound infection in-situ.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>Materials and methods</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Ethical consideration</head><p>All of animal studies have been approved by the Management Committee of Laboratory Animals Use of the Shenzhen Translational Medicine Institute (AUP-190708-YMF-003). A total of two Bama miniature pigs aged 4 months were used in this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Strains and growth conditions</head><p>In this study, we used strains of Staphylococcus aureus (ATU25923 After confirming the identity via biochemical tests, the cultured strains were kept frozen in a mixture of LB medium (L7275, Sigma, USA) and glycerol to maintain both cryoprotection and the supply of nutrients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Inoculum preparation</head><p>Microbial strains were inoculated into Nutrition Agar (PM2101, Chongqing Pang Tong Medical Devices Company, China) at 35 C for 12 h. Individual colonies were grown aerobically overnight in 20 ml LB medium at 37 C with shaking at 150 rpm. Afterwards, each culture was centrifuged (6000 rpm for 10 min). The obtained pellet was resuspended in 10 ml LB medium and centrifuged again; this process was repeated three more times. The Optical density (OD) of bacterial solution was measured at a wavelength of 600 nm using microplate reader (H1MF, BioTek, USA). The final dilution to the desired concentration was then prepared.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.4.</head><p>Porcine wound infection model <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref> Two pigs were sedated with 25 mg kg À1 sodium pentobarbital (concentration, 2%; Shanghai Chemical Reagent Company, China) by an ear intravenous drip. When they fully anesthetized, the backs were carefully shaved, disinfected with 3% iodine, and washed with 75% alcohol followed by saline. A 3.0 cm diameter, four Full-thickness of round wounds were made on the both sides of dorsal spine of each pig. Pigs were divided into two group: infected group and colonized group. The next day, the wounds of the infected group were inoculated with 1 Â 10 9 cfu ml À1 Sau in 200 ml LB medium per wound, while the wounds of the colonized group were covered with Mupirocin ointment-treated gauze.</p><p>Animals were fed separately. To determine whether we successfully created an infected wound in a pig model, we examined the microbial population within the wounds 24 h after infection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.5.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantification of bacteria</head><p>One day after inoculation, when a stable wound infection had been established, the wounds were washed with NS. Once the wounds had dried, their NIR spectra were collected. 630 spectrum samples were collected for each animal group.</p><p>To determine the bacterial counts in the tissue samples, biopsy specimens were individually weighed and homogenized in 2 ml of PBS using a glass homogenizer. The homogenates of each wound were then serially diluted in PBS (1:10, 1:100, 1:1,000, and 1:10,000). Take 200 ml diluent, plated on agar plates in triplicates. The plates were then incubated overnight in a bacterial incubator at 37 C. All colony counts were expressed as log10 CFU per gram tissue. Bacterial counts of 10 5 cfu g À1 were considered to indicate bacterial infection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">NIRS measurements</head><p>NIRS measurements were made using the NIR Quest 256À2.1 spectrograph (Ocean Optics, USA). The spectral range varies from 900 to 2200 nm and made records with a spectral resolution of 4.91 nm, with 64 scans co-added.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">Chemometrics</head><p>In this paper, we reduced the dimension of each sample data using the Principal Component Analysis (PCA) method. We used the top three principal components as the input vector for the SVM, and the output of the SVM was the microbial species.</p><p>The training set and test set were divided into two groups using the hold-out method. Two-thirds of the samples were randomly selected as training samples, and one-thirds were used as test samples. The supervised training was performed using the default parameter SVM setting. The SVM model was used to distinguish and identify the test samples. Each recognition experiment was performed 10 times. The identification results were obtained by comparing the three kernel functions, linear, polynomial and RBF, used in the SVM.</p><p>Let X ¼ x 1 ; x 2 ; . . . ; x N 2 R DÂN be the spectrum data matrix, the projection of the original sample in the new space is W T x i . The main idea of PCA is to separate the projected samples as much as possible, hence the variance of the projected samples should be maximized. The objective function of PCA can be formulated as max W trðW T XX T WÞ s:t: W T W ¼ I</p><p>The goal of SVM is to map the sample data into a higher dimensional feature space, construct a maximum separated hyperplane, and maximize the interval from the mapped sample data to the separation hyperplane. Hence, the objective function of SVM can be formulated as</p><formula xml:id="formula_0">max W;B 2 jW j Þ s:t: YðW T X þ BÞ ! 1</formula><p>where W is the weight factor, B is the deviation.</p><p>The model is implemented by Matlab R2018b.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.1.</head><p>Analysis of diffuse reflectance spectra of seven microbial species in LB medium 720 spectrum samples were collected for each bacteria. Fig. <ref type="figure" target="#fig_0">1A</ref> shows the average spectra of the seven microbial species we examined at a concentration of 10 9 cfu ml À1 . It was difficult on the basis of the original NIR spectra to detect differences between the different microbial species. Clearly, it was necessary to extract the optical properties of each of the tested pathogenic microorganisms. Thus, the microbial spectral data were reduced by PCA. A score plot model based on three principal components (PCs) was created. Seven distinct clusters were distributed in the score plot. This brought forward that a clear boundary existed among four microbial species, excepting the groups of P. aeruginosa, E. faecalis and A. baumannii (Fig. <ref type="figure" target="#fig_0">1B</ref>). On the other hand, the results employing SVM classification performed well as they achieved a prediction capability of 100% for all the seven microbial species examined. The classification results of SVM models with linear, polynomial, and Radial Basis Functions (RBF) kernel functions were 1, 1, and 0.995, respectively, which indicated that NIR technology could identify the microbes suspended in LB medium.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Analysis of diffuse reflectance spectra of MRSA and MSSA in LB medium</head><p>The previous experiments' results had shown that NIRS techniques could differentiate the tested seven species of microbes. To understand whether NIRS would also be able to discriminate the antibiotic-resistant microbes from the antibiotic-sensitive ones, we selected the two most popular strains of Gram(+) microbes, i.e. MRSA and MSSA. 4500 spectrum samples were collected for each group. Fig. <ref type="figure" target="#fig_0">1C</ref> shows the high overlap of the two cocci original spectra. They had no obvious boundaries in the score plot (Fig. <ref type="figure" target="#fig_0">1D</ref>). This similarity of a high degree might be related to the same components of the two kinds of microbial cells.</p><p>Then we used SVM to distinguish the two bacteria, and its powerful differentiating function was fully demonstrated. The RBF kernel function had the highest percent, i.e. 99.47%, of distinction with a standard deviation of 0.0044.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Analysis of diffuse reflectance spectra of S. aureus and E. coli in LB medium</head><p>The concentration of the test suspension for the bacteria was 10 9 CFU ml À1 which required 6 h of culture. To better understand the detection limit of NIRS, the diffuse reflectance spectra of E. coli and S. aureus in LB medium were collected at concentrations of 10 1 , 10 2 ,10 3 , 10 4 , 10 5 , 10 6 , 10 7 , 10 8 and 10 9 cfu ml À1 respectively. The number of spectral samples collected by each group is shown in the Table <ref type="table" target="#tab_1">1</ref> The results in Fig. <ref type="figure" target="#fig_1">2</ref> showed the overlap of the original spectral bands of the two microbial species at the same concentrations. There were more overlaps in the score plot of the two microbes at all concentrations save for those of 10 8 and 10 9 cfu ml À1 (Fig. <ref type="figure" target="#fig_2">3</ref>). This indicated that PCA, a very popular unsupervised dimensionality reduction method, might not have a sufficient capability to achieve clear separation, as it becomes ineffective when the within-group variations are greater than the between-group variations. Again, the RBF kernel displayed its powerful mapping capability, as the distinction accuracy could reach 100% even when the concentration was down to 10 1 cfu ml À1 (Table <ref type="table" target="#tab_1">1</ref>). Therefore, the NIRS used together with SVM can accurately identify the microbial species at a concentration of as low as 10 1 cfu ml À1 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.4.</head><p>Detection of microbes in the wound in situ by NIRs</p><p>As shown above, NIRs has been proven to be a powerful identification function for recognizing bacteria in suspension solution. We next used it to detect in vivo models of infection. Microbial load in wounds can affect the clinical outcome. An as early as possible specific control of the microbial load will definitely benefit the wound healing as well as the patients' systemic conditions. While wound cultures remain a routine part of the standard detection tools, real-time detection of the microbes in the in-situ wound remains an unmet need.</p><p>It is well known that bacterial colonization is inevitable in exposed wounds. If the wound is critically colonized, a localized infection usually sets in place <ref type="bibr" target="#b10">[11]</ref>. If the bacterial load is higher than 10 5 cfu g À1 , the wound infection morbidity will occur with a high probability, thereby negatively affecting wound healing and the survival of skin grafts <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>. To this end, we created two wound models in pig skin, i.e. the colonized model with a microbial load of 4.7 Â 10 3 cfu g À1 , and the infected model with a microbial load of 7.3 Â 10 6 cfu g À1 .</p><p>Photographs of the two wound models showed no significant differences. Histological examinations could detect the microbes in both the colonized wounds and the infected wounds. Indeed, a small number of microorganisms were allocated around the edges of the colonized wound. A greater number of microbes were detectable in the infected wound. In the latter, the microbes had invaded the muscle layer and were allocated throughout the wound and the cutaneous layers (Fig. <ref type="figure" target="#fig_3">4</ref>). 630 spectrum samples were collected for each animal group. Conversely, the NIR spectral curves of the two wounds exhibited neat differences (Fig. <ref type="figure" target="#fig_4">5A</ref>). Moreover, the PCA score map (Fig. <ref type="figure" target="#fig_4">5B</ref>) and the SVM results with values of 100% showed that the different microbial loads of the two wounds could be clearly distinguished.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>In recent years, researches have well documented the potential of NIRs for the identification of microorganisms in vitro. The key factor for successful identifications is the selection of appropriate and powerful data analysis techniques. Statistically and experimentally, The complex biochemical composition of microbes yields NIR vibrational transitions (overtone and combination bands) which can be used as markers to classify and identify microbes <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>. Owing to the multitude of cellular components, broad and superimposed spectral bands occur within the NIR spectra, making it difficult to extract individual spectral bands. Over-fitting may occur when the number of input data (absorption values at specific wave numbers) significantly exceeds the number of samples, which is a problem most studies face. Our present research used PCA to select representative spectra for the entire data set to reduce the input data numbers, which will be further analyzed through supervised techniques. The SVM method has a superior efficiency and stronger generalization capability in the case of small samples. Consequently, the maximum recognition error rate is very low, the results are quite stable, and samples parametric changes have little impact over a wide range of applications [16À18]. The results from our current experiment confirmed that SVM was a suitable classifier for developing models that analyze the entire NIR spectrum.</p><p>After we confirmed that NIRs could detect both different species and multiple-drug resistant microbes suspended in LB medium at the high concentration of 10 9 cfu ml À1 which needed 6 h of culture, we started to explore the NIRs detection limits of Eco and Sau in LB medium. Our results demonstrated that NIRs could successfully detect Eco and Sau bacteria at as low as 10 1 cfu ml À1 . These results were similar to those of previous studies <ref type="bibr" target="#b18">[19]</ref>. We developed several empirical models that linked the multiple spectral intensities from many calibration samples to known species of microbes. Unknown samples can be measured with no pretreatments, which makes detection and analysis time shorter than 5 s, i.e. much faster than any conventional detection method (usually 24 h À36 h). Our most important aim was testing whether NIRS might detect and differentiate microbes in wounds in-situ. It is well known that microbial colonization is unavoidable in exposed wounds, and that wound infections definitely impact on wound healing and skin graft survival <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b19">20]</ref>.</p><p>Therefore, we set up models of colonized wounds and infected wounds on the back of pigs. The microbial load of the colonized wounds was 4.7 Â 10 3 cfu g À1 and that of the infected wounds was 7.3 Â 10 6 cfu g À1 . We concluded that the model preparation method was feasible. The results of HE stained slides showed that the distribution of bacteria was rather even except for the edges of the wounds where it was dense. Because of this observation, we only collected the spectra of the central area of the wounds. The final results showed that the NIRS combined with SVM can successfully distinguish the colonized wound from the infected wound, and the identification accuracy was equal to 100%.</p><p>During our study, each recognition experiment was performed 10 times to measure distinction results and prevent their over-fitting. To ensure the further development and clinical applications of this technology, we need to build an extended and comprehensive database using data gained from a large number of representative samples. In future studies, we will continue to explore whether there might be a better data processing method to build models requiring such a large number of samples.</p><p>Moreover, it is clear that NIRS is a noncontacted and noninvasive technology which can completely avoid secondary harm and microbial cross-contaminations to the patients. In addition, NIRS technology does not require any reagents, such as dyes or nanometal particles, which significantly reduces the costs. On the other hand, NIRS can work at the bedside as well, which is extremely important for physicians to detect any disease worsening in time in the critical ill patients and to help doctors timely administer proper antimicrobial agents to In summary, we developed a novel approach for the detection of microbial infections, which is rapid, inexpensive, easy to handle, noncontacted, non-invasive, and working online in real time. It can achieve the rapid and dynamic detection of infections in wounds, body fluids, biopsy samples, surgically exposed organs, et cetera. A movable mini-clinical lab could be expected in the future.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 -</head><label>1</label><figDesc>Fig. 1 -Analysis of diffuse reflectance spectra of several microbial species in LB medium. (A) The curves of average spectral intensities. (B) The score cluster plot of top three PCA scores over the wavelength range of 900À2200 nm. (C) The average intensity curves of the spectra of MSSA and MRSA. Red, the MSSA spectral curve. Blue, the MRSA spectral curve. (D) Score cluster plot of the top three PCA microbial scores over the wavelength range of 900À2200 nm. Red dots, the MSSA spectral data. Blue dots, the MRSA spectral data. (Sau) S. aureus, (Eco) E. coli, (Efa) E. faecalis, (Pvu) P. vulgaris, (Kpn) K. pneumoniae, (Aba) A. baumannii, (Pae) P. aeruginosa, (MRSA) methicillin-resistant S. aureus, (MSSA) methicillin-susceptible S. aureus. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)</figDesc><graphic coords="3,106.47,333.13,387.12,329.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 -</head><label>2</label><figDesc>Fig. 2 -The average spectral intensity curves of two microbial species at different concentrations. (A) 10 1 cfu ml À1 . (B) 10 2 cfu ml À1 . (C) 10 3 cfu ml À1 . (D) 10 4 cfu ml À1 . (E) 10 5 cfu ml À1 . (F) 10 6 cfu ml À1 . (G) 10 7 cfu ml À1 . (H) 10 8 cfu ml À1 . (I) 10 9 cfu ml À1 . Blue, spectral curve of (Sau) S. aureus. Red, spectral curve of (Eco) E. coli. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)</figDesc><graphic coords="5,65.88,60.95,468.24,418.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 -</head><label>3</label><figDesc>Fig. 3 -Score cluster plots of the top three PCA scores pertaining to two microbial species over the wavelength range of 900À2200 nm. (A) 10 1 cfu ml À1 . (B) 10 2 cfu ml À1 . (C) 10 3 cfu ml À1 . (D) 10 4 cfu ml À1 . (E) 10 5 cfu ml À1 . (F) 10 6 cfu ml À1 . (G) 10 7 cfu ml À1 . (H) 10 8 cfu ml À1 . (I) 10 9 cfu ml À1 . Blue dots, spectral data pertaining to (Sau) S. aureus. Red dots, spectral data of (Eco) E. coli. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)</figDesc><graphic coords="6,66.73,60.95,457.20,384.77" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 -</head><label>4</label><figDesc>Fig. 4 -Photographs and HE-staining result of the two wound models. (A) colonized wound. (B) Infected wound. Lower left black rectangular boxes indicate the magnified skin regions. Arrows show the infected region of the wound.</figDesc><graphic coords="7,143.94,60.95,312.24,271.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 -</head><label>5</label><figDesc>Fig. 5 -Detection of wound infecting microbes in situ by NIRs. (A) The average spectral intensity curves of the colonized wound and of the infected wound. In black, spectral curve of the colonized wound. In red, spectral curve of the infected wound. (B) Score cluster plot of the top three PCA scores of the colonized wound (blue dots) and of the infected wound (red dots). (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)</figDesc><graphic coords="7,110.67,386.93,378.72,156.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 -</head><label>1</label><figDesc>The number of spectral samples collected by each group. 10 1 10 2 10 3 10 4 10 5 10 6 10 7 10 8 10 9</figDesc><table><row><cell cols="3">S. aureus 925 1065 1079 604 712 720 639 1270 1067</cell></row><row><cell>E. coli</cell><cell>969 1057 1167 683 695 708 683 591</cell><cell>1187</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>b u r n s 4 8 ( 2 0 2 2 ) 7 9 1 À7 9 8</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Yang G.</rs> and <rs type="person">Zhong R.</rs> for experimental assistance. We would like to thank <rs type="person">Fan K. and Wang D.</rs> for insightful discussions.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>This work was supported by the <rs type="funder">National Natural Science Foundation of China NSFC</rs> (No. <rs type="grantNumber">81701904</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_gF48PFp">
+					<idno type="grant-number">81701904</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data that supporting the findings of this study are available upon request from the corresponding authors.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>All authors declare no conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>Wu J., Wang P. and Yin M. conceived and designed the study. Yin M., Li J., Yuan M., Zhang L., Wei Y., Li Y. and Deng J. performed the biological experiments. Huang L., Lou Y., Zhang D. were responsible for hardware development. Wang P. and Li Y. conducted data analysis. Yin M., Wu J. and Armato U. wrote the paper with contributions by all co-authors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary material related to this article can be found, in the online version, at doi:https://doi.org/10.1016/j.burns.2021. 09.002.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>R E F E R E N C E S</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,63.44,445.37,213.17,7.20;8,63.44,455.34,222.95,7.20;8,63.44,465.32,222.93,7.20;8,63.44,475.30,61.85,7.20" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Paper-based bipolar electrode electrochemiluminescence switch for label-free and sensitive genetic detection of pathogenic bacteria</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal Chem</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="10191" to="10197" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,63.44,485.22,222.92,7.20;8,63.44,495.20,201.70,7.20;8,63.44,505.18,182.12,7.20" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Application of microarray technology for the detection of intracranial bacterial infection</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Ther Med</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="496" to="500" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,63.44,515.15,222.92,7.20;8,63.44,525.08,198.27,7.20;8,63.44,535.05,221.66,7.20" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The detection of hatching eggs prior to incubation by the near infrared spectrum</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Guang Pu Xue Yu Guang Pu Fen Xi</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="962" to="965" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,63.44,545.03,210.16,7.20;8,63.44,554.95,221.54,7.20;8,63.44,564.93,222.75,7.20;8,63.44,574.53,16.17,7.47" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Effect of the near infrared spectrum resolution on the nitrogen content model in green tea</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Guang Pu Xue Yu Guang Pu Fen Xi</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1786" to="1790" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,63.44,584.89,209.06,7.20;8,63.44,594.81,222.91,7.20;8,63.44,604.79,101.64,7.20" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Near-infrared analysis of soluble and insoluble dietary fiber fractions of cereal food products</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Kays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Barton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Agric Food Chem</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="3024" to="3029" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,63.44,614.76,222.66,7.20;8,63.44,624.74,212.76,7.20;8,320.48,65.69,210.74,7.20;8,320.49,75.67,53.57,7.20" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Rapid detection and identification of bacterial strains by Fourier transform near-infrared spectroscopy</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Rodriguez-Saona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Khambaty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Fry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Calvey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Agric Food Chem</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="574" to="579" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,85.59,222.89,7.20;8,320.49,95.57,222.93,7.20;8,320.49,105.55,197.01,7.20;8,320.49,115.47,181.32,7.20;8,320.49,125.45,66.00,7.20" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Near-infrared hyperspectral imaging and partial least squares regression for rapid and reagentless determination of Enterobacteriaceae on chicken fillets</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Elmasry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Scannell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Morcy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Chem</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="1829" to="1836" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,135.43,222.50,7.20;8,320.49,145.40,192.36,7.20;8,320.49,155.32,163.72,7.20" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Classification of Salmonella enterica serotypes with selective bands using visible/NIR hyperspectral microscope images</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Microsc</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="10" to="19" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,165.30,219.27,7.20;8,320.49,175.28,207.61,7.20;8,320.49,185.26,219.92,7.20;8,320.49,195.18,222.92,7.20;8,320.49,205.16,61.86,7.20" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Efficacy of topically delivered moxifloxacin against wound infection by Pseudomonas aeruginosa and methicillinresistant Staphylococcus aureus</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fisahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sorkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stricker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="2325" to="2334" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,215.14,222.94,7.20;8,320.49,225.06,198.36,7.20;8,320.49,235.03,222.64,7.20;8,320.49,245.01,49.37,7.20" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Microscopic and physiologic evidence for biofilmassociated wound colonization in vivo</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ricotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cazzaniga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Welsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Eaglstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Mertz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="23" to="29" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,254.99,222.64,7.20;8,320.49,264.91,222.90,7.20" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Nanomaterials for wound healing and infection control</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Mihai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Dima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Holban</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">2176</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,274.89,222.92,7.20;8,320.49,284.87,199.19,7.20" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Maintenance of wound bacterial balance</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Robson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Mannari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Payne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Surg</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page" from="399" to="402" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,294.85,222.93,7.20;8,320.49,304.77,181.43,7.20" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Evolution of quantitative bacteriology in wound management</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Krizek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Robson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Surg</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="579" to="584" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,314.74,221.71,7.20;8,320.49,324.72,222.94,7.20;8,320.49,334.70,222.29,7.20;8,320.49,344.62,83.18,7.20" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Nondestructive evaluation of bacteria-infected watermelon seeds using visible/near-infrared hyperspectral imaging</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">R</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Food Agric</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="1084" to="1092" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,354.60,222.90,7.20;8,320.49,364.58,217.51,7.20;8,320.49,374.50,222.93,7.20;8,320.49,384.10,16.17,7.47" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Differentiation of foodborne bacteria using NIR hyperspectral imaging and multivariate data analysis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kammies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gouws</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biot</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="9305" to="9320" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,394.46,219.45,7.20;8,320.49,404.43,222.93,7.20;8,320.49,414.35,218.10,7.20;8,320.49,424.33,215.24,7.20;8,320.49,434.31,57.71,7.20" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Comparing the analytical performances of Micro-NIR and FT-NIR spectrometers in the evaluation of acerola fruit quality, using PLS and SVM regression algorithms</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Malegori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nascimento</forename><surname>Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>De Freitas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Pimentel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Talanta</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="page" from="112" to="116" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,444.29,222.90,7.20;8,320.49,454.21,200.80,7.20;8,320.49,464.19,195.51,7.20;8,320.49,474.17,222.91,7.20;8,320.49,484.09,114.81,7.20" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Pharmaceutical raw material identification using miniature near-infrared (MicroNIR) spectroscopy and supervised pattern recognition using support vector machine</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hsiung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Pederson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Von Gunten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Spectrosc</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="816" to="825" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,494.06,217.48,7.20;8,320.49,504.04,222.89,7.20;8,320.49,514.02,218.11,7.20;8,320.49,523.94,134.88,7.20" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Rapid classification of Chinese quince (Chaenomeles speciosa Nakai) fruit provenance by near-infrared spectroscopy and multivariate calibration</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Diao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal Bioanal Chem</title>
+		<imprint>
+			<biblScope unit="volume">409</biblScope>
+			<biblScope unit="page" from="115" to="120" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,533.92,222.89,7.20;8,320.49,543.90,222.92,7.20;8,320.49,553.88,215.40,7.20;8,320.49,563.80,92.49,7.20" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Nearinfrared spectroscopy for the detection and quantification of bacterial contaminations in pharmaceutical products</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quintelas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Mesquita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sousa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Pharm</title>
+		<imprint>
+			<biblScope unit="volume">492</biblScope>
+			<biblScope unit="page" from="199" to="206" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,320.49,573.77,222.93,7.20;8,320.49,583.75,192.71,7.20;8,320.49,593.67,222.91,7.20;8,320.49,603.65,134.11,7.20" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Monitoring of water spectral pattern reveals differences in probiotics growth when used for rapid bacteria selection</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Slavchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kovacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Koshiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nagai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bazar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krastanov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">130698</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

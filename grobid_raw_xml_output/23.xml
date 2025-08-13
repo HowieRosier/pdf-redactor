@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Comparison of Wound Area Measurement Techniques: Visitrak Versus Photography</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2011-04-18">April 18, 2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Angela</forename><forename type="middle">Christine</forename><surname>Chang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution">University of Adelaide</orgName>
+								<address>
+									<settlement>Adelaide</settlement>
+									<country>South Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>BSc (Hons</roleName><forename type="first">Bronwyn</forename><surname>Dearman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Adult Burn Cen-tre</orgName>
+								<orgName type="institution" key="instit1">Royal Adelaide Hospital and Skin Engineering Laboratory</orgName>
+								<orgName type="institution" key="instit2">Hanson Institute</orgName>
+								<address>
+									<settlement>Adelaide</settlement>
+									<region>South Australia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>AM, BSc (Hons</roleName><forename type="first">John</forename><forename type="middle">Edward</forename><surname>Greenwood</surname></persName>
+							<email>john.greenwood@health.sa.gov.au</email>
+							<affiliation key="aff1">
+								<orgName type="department">Adult Burn Cen-tre</orgName>
+								<orgName type="institution" key="instit1">Royal Adelaide Hospital and Skin Engineering Laboratory</orgName>
+								<orgName type="institution" key="instit2">Hanson Institute</orgName>
+								<address>
+									<settlement>Adelaide</settlement>
+									<region>South Australia</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Comparison of Wound Area Measurement Techniques: Visitrak Versus Photography</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2011-04-18">April 18, 2011</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">50B7022BE488517D961A5816F43B7207</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective: To investigate whether a cheap, fast, easy, and widely available photographic method is an accurate alternative to Visitrak when measuring wound area in cases where a non-wound-contact method is desirable. Methods: The areas of 40 surgically created wounds on porcine models were measured using 2 techniques-Visitrak and photography combined with ImageJ. The wounds were photographed with a ruler included in the photographic frame to allow ImageJ calibration. The images were uploaded to a computer and opened with ImageJ. The wound outline was defined from the photographic image using a digital pad, and the ImageJ software calculated the wound area. The Visitrak method involved a 2-layered transparent Visitrak film placed on the wound and the outline traced onto the film. The top layer containing the tracing was retraced onto the Visitrak digital pad using the Visitrak pen and the software calculated the wound area. Results: The average wound area using the photographic method was 52.264 cm 2 and using Visitrak was 51.703 cm 2 . The mean difference in wound area was 0.560 cm 2 . Using a 2-tailed paired T test, the T statistic was 1.285 and the value .206, indicating no statistical difference between the two methods. The interclass correlation coefficient was 0.971. Conclusions: The photographic method is an accurate alternative to Visitrak for measuring wound area, with no statistical difference in wound area measurement demonstrated during this study. The photographic method is a more appropriate technique for clean and uncontaminated wounds, as contact with the wound bed is avoided.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The measurement of wound dimension is an important component of successful wound management. Monitoring changes in wound area allows assessment of treatment efficacy and early detection of stasis or deterioration. The information can also aid in research, communication with patients and between practitioners, evidence-based clinical decision making, and, ultimately, an improvement in the quality of patient care. Wound surface area calculations have been shown to be a valid and accurate indicator of wound progress. <ref type="bibr" target="#b0">1</ref> Although measuring wound volume may provide additional information, it has received limited attention in the literature, <ref type="bibr" target="#b1">2</ref> possibly due to practical difficulties incumbent with volume measurement. Several series have demonstrated that wound circumference and area directly correlate to wound volume, <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> and thus volume is not required for appropriate wound monitoring.</p><p>There are a wide variety of devices and methods available to measure wounds. However, to be useful in routine clinical practice, the technique needs to be time-and costefficient, accurate, sensitive, unbiased, comfortable for the patient, and useable by any operator.</p><p>The simplest method of determining wound area is by measuring with a ruler. The greatest length is multiplied by the perpendicular greatest width. This technique is quick, inexpensive, and easy to perform but assumes that the wound is square or rectangular in shape. This type of calculation has been shown to overestimate wound area by 10% to 44%, <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> with accuracy decreasing as wound size increases. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> This method is imprecise and inappropriate for wounds which are large, irregular, or cavitous. <ref type="bibr" target="#b5">6</ref> Accuracy can be improved by using the formula for the area of an ellipse rather than a rectangle, <ref type="bibr" target="#b7">8</ref> or by using a formula for a shape similar to that of the wound. <ref type="bibr" target="#b8">9</ref> Manual tracing, by placing a transparent film over the wound and tracing the outline with a permanent marker allows more accurate area calculation when the wound is irregular. From the tracing, there are several methods of determining area. The tracing can be placed on a metric grid, and the number of squares of a known area counted. This is quick and easy, <ref type="bibr" target="#b9">10</ref> but inaccuracy arises when deciding the value of partial squares. <ref type="bibr" target="#b10">11</ref> The outline can also be cut out and weighed, although this may be time-consuming and error may arise during cutting and weighing. This also requires accurate scales capable of detecting acetate fragments of potentially very small mass. Digital planimetry involves the same process of wound tracing, but the outline is then retraced onto a digital tablet, which calculates the area. This has the advantage of quick, precise, and objective calculation, as well as revealing wound circumference. However, added scope for error occurs with retracing. <ref type="bibr" target="#b11">12</ref> The accuracy of area measurement from wound tracings depends on correct and consistent identification of the wound margins. Several studies have shown that the largest source of error is when determining wound borders, rather than the process of calculating the area traced. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b12">13</ref> The reliability of this technique decreases with decreasing wound size. <ref type="bibr" target="#b6">7</ref> The Visitrak system (Smith &amp; Nephew Wound Management, Inc, Largo, Florida) is an example of a digital planimetry system developed in response to the need of an easy, fast, and reliable tool for clinical use. The wound is traced onto a Visitrak grid sheet, which is then retraced onto the Visitrak digital pad, which automatically completes the area calculations. Visitrak has been shown to have excellent intra-and interoperator reliability, high validity, and a correlation co-efficient of 0.99 compared to other systems of digital planimetry. <ref type="bibr" target="#b13">14</ref> Its main advantages are the rapidity of the technique (one half to one third the time of other systems), and its relative inexpense compared to other planimetry systems. Difficulties using the Visitrak system are the same as those when manually tracing any wound onto transparent film-difficulty identifying wound margins, fogging under the film impeding vision, pressure on the wound altering the outline, stiff film unable to conform closely to wound surface, plus the requirement of film to be in contact with the wound risking contamination, wound bed damage, and patient discomfort and pain. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b14">15</ref> The Visitrak and many other systems requiring on-wound tracing minimize the risk of contamination by providing a clean (although nonsterile) disposable sheet under the tracing sheet in contact with the wound. <ref type="bibr" target="#b15">16</ref> Although for nonsterile venous ulcers the risk of infection from a tracing grid is minimal, contamination becomes a major concern for patients presenting with burns and surgically "clean" wounds.</p><p>Photography can be used to calculate wound area. The borders of the wound are traced from a digital photograph using a mouse or digital pen on a digital tablet. A ruler, or other accurate scale, photographed near the wound allows the user to calibrate the software to enable it to judge distance. An advantage of photography is that it does not require contact with the wound. It provides a permanent record of not only wound size but also appearance. As with other forms of wound tracing, determining wound borders is subjective and may be problematic if edges are poorly defined or obscured by debris. High-resolution photographs are required to properly identify epithelial growth at wound margins. <ref type="bibr" target="#b16">17</ref> Important considerations when using photography are photo quality, lighting, and camera angle. Variation in camera angle can lead to an underestimation of wound area by up to 10%. <ref type="bibr" target="#b17">18</ref> Given that a 2D image is representing a 3D structure, apparent wound size discrepancy may also occur when tracing circumferential wounds, or those on curved body surfaces. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> Despite these difficulties, studies have still reported very good intra-and interoperator reliability. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b20">21</ref> A variation of this system is photogrammetry, such as utilized in the VeV system (Vista Medical, Winnipeg, Mannitoba, Canada). This computerized system consists of a video camera, frame grabber, and customized wound assessment software. A digital photograph of the wound, including a target plate, is uploaded to the computer. The software uses the target plate for calibration and calculates the wound area. Computerized photogrammetry has proved to be more accurate than the manual method on both plaster of Paris models <ref type="bibr" target="#b21">22</ref> and animal wounds, <ref type="bibr" target="#b10">11</ref> although its clinical application may be limited by greater cost.</p><p>Sterophotogrammetry involves the use of 2 cameras and the computer to reconstruct 3D images of wounds allowing calculation of wound area and volume. <ref type="bibr" target="#b18">19</ref> Although sterophotogrammetry seems to be the most accurate method <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> of determining wound area, its use requires additional training, the equipment is expensive, and it is time-consuming, making it impractical for routine clinical assessment.</p><p>The aim of this study was to investigate whether a cheap, fast, easy, and widely available photographic method is an accurate alternative to Visitrak, when measuring wound area in cases where a non-wound-contact method is desirable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Animal Subjects</head><p>Porcine models with surgically created wounds already in use for alternative research were used for this study. A total of 40 wounds (4 wounds on 2 swine measured once a week for 5 weeks) were measured using 2 methods-Visitrak and photography combined with ImageJ software. Each wound was created as an 8 × 8 cm 2 dissected to the paniculus adiposus. All were located on the dorsum of the animal to minimize surface curvature and allow ease of photography. During measurement, the animals were anaesthetized to minimize movement. On each occasion, they were placed in the same position under consistent lighting conditions. Prior to measurement and photography, the wounds were cleaned and slough removed to provide easily visible wound margins.</p><p>For either technique, wound border tracing was done by the same operator in every instance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Photographic method</head><p>The wounds were photographed using a Canon EOS 550D digital camera, with electrofocus short back focus (EF-S) 18-55 mm lens. A "square" ruler with markings on each side was placed around the wound and included in the photographic frame to allow calculation of wound dimensions once uploaded to the computer. Using a visual estimate, an effort was made to hold the camera at the zenith above the wound, and the lens parallel to the plane of the surface. The images were uploaded to a computer and opened with ImageJ, a Java imaging processing program available for free download from the Internet. For each photographic image, measurements were calibrated using the ruler at the base of the image included in the photographic frame. The wound outline was defined from the photographic image using a digital pad. Following tracing, the ImageJ software calculated the wound area.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Visitrak method</head><p>The wounds were also measured using Visitrak, a digital planimetry system. A 2layered transparent Visitrak film was placed on the wound (Fig 1 ), and the outline traced onto the film using a permanent marker. The layer of the film in contact with the wound was discarded. The top layer containing the tracing was retraced onto the Visitrak digital pad using the Visitrak pen and the software calculated the wound area.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>The data was compiled and analyzed using Microsoft Excel 2007 (Microsoft, Redmond, California).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Figure <ref type="figure" target="#fig_1">2</ref> demonstrates the individual wound area surface measurements for all 40 wounds. The mean and variance of the surface area for both techniques are shown in Table <ref type="table" target="#tab_0">1</ref>.The average wound area using the photographic method was 52.264 cm 2 and using Visitrak was 51.703 cm 2 . The mean difference in wound area between the two methods was 0.560 cm 2 . Analysis of the data, using a 2-tailed paired T test, revealed a T statistic of 1.285, with a P value of .206. Thus there was no statistical difference between the two methods when measuring wound area. The interclass correlation coefficient (ICC) was 0.971. Variance of the Visitrak method (129.851) was slightly lower than that of the photographic method (147.305).    </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The results of previous wound area measurement studies comparing photographic and transparency tracing methods have fairly consistently shown that both yield statistically similar wound area results. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b20">21</ref> The majority of these studies that were performed on patients rather than synthetic wound models have been measuring the area of venous ulcers, which have a limited size and body region distribution. Our results concur with previous series, showing the photographic method to be an accurate alternative to transparency tracings, in our case Visitrak. The high ICC of 0.971 in our study compares favorably to other studies of similar design where an ICC of 0.99 <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b20">21</ref> was recorded. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wound tracing</head><p>The usefulness of both methods depends on the accuracy of wound margin identification.</p><p>Prior to tracing and photography, the wound margins were made as clear as possible. The wounds were undressed and any debris, slough, and necrotic tissue removed. The wound and surrounding tissue were then cleaned with saline and dried. A problem encountered while using the Visitrak system was fogging of the Visitrak tracing grid when placed on the wound (Fig <ref type="figure" target="#fig_2">3</ref>). This only occurred when tracing moist wounds making identification of wound margins difficult. We attempted to hold the camera directly above the wound as camera angle affects the apparent measurable area (Fig <ref type="figure" target="#fig_3">4</ref>). As mentioned previously, varied camera angle can lead to underestimation of wound area by up to 10%. <ref type="bibr" target="#b17">18</ref> To demonstrate this phenomenon, one of our wounds was photographed with varying camera angle and the area calculated using ImageJ (Fig <ref type="figure" target="#fig_3">4</ref>). As expected, the wound area decreased as the angle from the zenith increased.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study limitations</head><p>The results should be interpreted within the limitations of the methodology. During this study, the two measuring methods were compared using wounds of a relatively constant size and shape, on a body region easy to photograph. Previous studies have demonstrated that the reliability Visitrak decreases with decreasing wound size. <ref type="bibr" target="#b7">8</ref> Likewise, the accuracy of photography is compromised by curved surfaces, tapering of limbs, and circumferential wounds. <ref type="bibr" target="#b23">24</ref> Intra-and interoperator consistencies were not tested. For both methods, each wound was measured only once; however, the tracings for each method were performed by the same operator. Previous studies have demonstrated high inter-and intraoperator reliability for Visitrak, <ref type="bibr" target="#b14">15</ref> but some have found considerable interoperator variability when tracing the wound outline from a photographic image. 17</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>The photographic method is an accurate alternative to Visitrak for measuring wound area, with no statistical difference in wound area measurement demonstrated during this study. The photographic method is a more appropriate technique for clean and uncontaminated wounds as contact with the wound bed is avoided, negating the risk of wound contamination, wound bed damage, and patient discomfort.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. The method of tracing a wound outline onto a Visitrak transparent film.</figDesc><graphic coords="5,127.01,111.61,360.00,270.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. A comparison of wound area measurement using the Visitrak and photographic technique.</figDesc><graphic coords="5,127.01,434.12,360.00,212.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. "Fogging" of the Visitrak film while tracing the wound outline.</figDesc><graphic coords="6,125.13,303.84,360.00,270.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. (a) The same wound photographed from varied camera angles demonstrating the effect of angle on observed size and shape. (b) Diagrammatic representation of a wound seen from varied angles. (c) ImageJ wound area calculations from the photographs in (a).</figDesc><graphic coords="7,120.02,161.23,373.92,358.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Statistical Results Comparing the Visitrak and Photographic Method</figDesc><table><row><cell></cell><cell>Photo + ImageJ</cell><cell>Visitrak</cell></row><row><cell>Mean</cell><cell>52.263925</cell><cell>51.7025</cell></row><row><cell>Variance</cell><cell>147.3046944</cell><cell>129.8505064</cell></row><row><cell>Observations</cell><cell>40</cell><cell>40</cell></row><row><cell>Pearson correlation</cell><cell>0.974376635</cell><cell></cell></row><row><cell cols="2">Hypothesized mean difference 0</cell><cell></cell></row><row><cell>Degrees of freedom</cell><cell>39</cell><cell></cell></row><row><cell>t Statistic</cell><cell>1.284814729</cell><cell></cell></row><row><cell>P (T ≤ t) 1-tail</cell><cell>.103217924</cell><cell></cell></row><row><cell>t Critical 1-tail</cell><cell>1.684875122</cell><cell></cell></row><row><cell>P (T ≤ t) 2-tail</cell><cell>.206435848</cell><cell></cell></row><row><cell>t Critical 2-tail</cell><cell>2.022690901</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENT</head><p>The authors would like to thank <rs type="person">Dr David Butler</rs>, <rs type="affiliation">University of Adelaide</rs>, for his statistical advice and assistance.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,115.71,598.73,295.99,8.00" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Parameter for measurement of wound closure</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gilman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="95" to="101" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,115.71,609.68,386.67,8.00;8,122.06,620.64,272.24,8.00" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Standardization of wound photography using the Wound Electronic Medical Record</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rennert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Golinko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Flattau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="32" to="38" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,115.71,631.60,386.68,8.00;8,122.06,642.56,72.50,8.00" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Circumference, area and volume of the healing wound</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Melhuish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="381" to="384" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,115.71,653.52,386.69,8.00;8,122.06,664.48,69.98,8.00" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Wound measurement: can it help us to monitor progression to healing?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flanagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="189" to="194" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,115.71,675.44,386.69,8.00;8,122.06,686.40,136.19,8.00" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">More than one way to measure a wound: an overview of tools and techniques</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salcido</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="236" to="243" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,115.71,697.36,336.53,8.00" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Reliability of wound surface area measurements</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Majeske</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="138" to="141" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.59,111.80,386.69,8.00;9,123.95,122.76,122.54,8.00" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Predictors of time to healing deep pressure ulcers</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Rijswijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Polansky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="46" to="48" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.59,133.72,386.69,8.00;9,123.95,144.68,259.50,8.00" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">An evaluation of three wound measurement techniques in diabetic foot wounds</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Lagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Stevenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2641" to="2642" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.59,155.64,386.66,8.00;9,123.95,166.59,247.32,8.00" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Measuring wound length, width, and area: which technique?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="47" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.22,177.56,370.77,8.00" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Methods for assessing change in ulcer status</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="37" to="42" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note>suppl</note>
+</biblStruct>
+
+<biblStruct coords="9,117.22,188.52,387.04,8.00;9,123.95,199.47,280.86,8.00" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A comparison of computer-assisted and manual wound size measurement</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Thawer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Houghton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Woodbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Keast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostomy Wound Manage</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="46" to="53" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.21,210.43,387.05,8.00;9,123.95,221.40,154.00,8.00" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Wound measurement comparing the use of acetate tracings and Visitrak digital planimetry</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gethin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cowman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Nurs</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="422" to="427" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.22,232.35,387.07,8.00;9,123.95,243.31,291.12,8.00" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Pressure ulcer surface area measurement using instant full-scale photography and transparency tracings</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Classen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>De</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="17" to="23" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.21,254.27,387.03,8.00;9,123.95,265.23,124.72,8.00" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Using wound area measurement to predict and monitor response to treatment of chronic wounds</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Moore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="229" to="232" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.22,276.19,381.16,8.00" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Wound assessment: measuring the area of a leg ulcer</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Charles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Nurs</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">772</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.21,287.15,387.05,8.00;9,123.95,298.11,363.37,8.00" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A study of the efficiency and convenience of an advanced portable Wound Measurement System (VISITRAK)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sugama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sanada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Konya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okuwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kitagawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Nurs</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1265" to="1269" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.21,309.07,387.05,8.00;9,123.95,320.03,250.95,8.00" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Digital imaging versus conventional contact tracing for the objective measurement of venous leg ulcers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Samad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>French</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dodds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="137" to="140" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.21,330.98,387.06,8.00;9,123.95,341.95,18.68,8.00" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A digital video technique for radiographs and monitoring ulcers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Palmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Photographic Sci</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="65" to="67" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.21,352.91,259.68,8.00" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Wound measurement</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Wysocki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="82" to="91" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.21,363.86,387.07,8.00;9,123.95,374.82,206.12,8.00" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Evaluation of leg ulcer treatment with stereophotogrammetry. A pilot study</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Eklund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Torlegard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dauphin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="123" to="131" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.22,385.78,387.06,8.00;9,123.95,396.74,292.40,8.00" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A comparison of photographic and transparencybased methods for measuring wound surface area</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Tolley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Tooms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Clifft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="117" to="122" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.21,407.70,387.05,8.00;9,123.95,418.65,238.04,8.00" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Two-dimensional wound measurement: comparison of 4 techniques</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Langemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Melland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Henly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="337" to="343" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.21,429.62,387.05,8.00;9,123.95,440.58,282.93,8.00" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Stereophotogrammetry for measuring rates of cutaneous healing: a comparison with conventional techniques</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Bulstrode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Goode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Sci</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="437" to="443" />
+			<date type="published" when="1986">1986</date>
+			<pubPlace>Lond)</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,117.21,451.53,248.35,8.00" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Measuring wounds</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="269" to="272" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

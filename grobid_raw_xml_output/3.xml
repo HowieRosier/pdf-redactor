@@ -1,0 +1,2723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dipietro</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Wound Healing and Tissue Regeneration</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Periodontics</orgName>
+								<orgName type="department" key="dep2">College of Dentistry (MC 859)</orgName>
+								<orgName type="institution">University of Illinois at Chicago</orgName>
+								<address>
+									<addrLine>801 S. Paulina Ave</addrLine>
+									<postCode>60612</postCode>
+									<settlement>Chicago</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3214A8938DB9CF7E7FFFFB589D96D517</idno>
+					<idno type="DOI">10.1177/0022034509359125</idno>
+					<note type="submission">Received March 13, 2009; Last revision September 29, 2009; Accepted October 30, 2009</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-13T17:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>wound healing</term>
+					<term>inflammation</term>
+					<term>proliferation</term>
+					<term>tissue remodeling</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Wound healing, as a normal biological process in the human body, is achieved through four precisely and highly programmed phases: hemostasis, inflammation, proliferation, and remodeling. For a wound to heal successfully, all four phases must occur in the proper sequence and time frame. Many factors can interfere with one or more phases of this process, thus causing improper or impaired wound healing. This article reviews the recent literature on the most significant factors that affect cutaneous wound healing and the potential cellular and/or molecular mechanisms involved. The factors discussed include oxygenation, infection, age and sex hormones, stress, diabetes, obesity, medications, alcoholism, smoking, and nutrition. A better understanding of the influence of these factors on repair may lead to therapeutics that improve wound healing and resolve impaired wounds.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>tHE WOUND-HEALING PrOcEss</head><p>Wound healing is a dynamic process consisting of four continuous, overlapping, and precisely programmed phases. The events of each phase must happen in a precise and regulated manner. Interruptions, aberrancies, or prolongation in the process can lead to delayed wound healing or a non-healing chronic wound.</p><p>In adult humans, optimal wound healing involves the following the events: (1) rapid hemostasis; (2) appropriate inflammation; (3) mesenchymal cell differentiation, proliferation, and migration to the wound site; (4) suitable angiogenesis; (5) prompt re-epithelialization (re-growth of epithelial tissue over the wound surface); and (6) proper synthesis, cross-linking, and alignment of collagen to provide strength to the healing tissue <ref type="bibr" target="#b35">(Gosain and DiPietro, 2004;</ref><ref type="bibr" target="#b61">Mathieu et al., 2006)</ref>. The first phase of hemostasis begins immediately after wounding, with vascular constriction and fibrin clot formation. The clot and surrounding wound tissue release pro-inflammatory cytokines and growth factors such as transforming growth factor (TGF)-β, platelet-derived growth factor (PDGF), fibroblast growth factor (FGF), and epidermal growth factor (EGF). Once bleeding is controlled, inflammatory cells migrate into the wound (chemotaxis) and promote the inflammatory phase, which is characterized by the sequential infiltration of neutrophils, macrophages, and lymphocytes <ref type="bibr" target="#b35">(Gosain and DiPietro, 2004;</ref><ref type="bibr" target="#b8">Broughton et al., 2006;</ref><ref type="bibr" target="#b11">Campos et al., 2008)</ref>. A critical function of neutrophils is the clearance of invading microbes and cellular debris in the wound area, although these cells also produce substances such as proteases and reactive oxygen species (ROS), which cause some additional bystander damage.</p><p>Macrophages play multiple roles in wound healing. In the early wound, macrophages release cytokines that promote the inflammatory response by recruiting and activating additional leukocytes. Macrophages are also responsible for inducing and clearing apoptotic cells (including neutrophils), thus paving the way for the resolution of inflammation. As macrophages clear these apoptotic cells, they undergo a phenotypic transition to a reparative state that stimulates keratinocytes, fibroblasts, and angiogenesis to promote tissue regeneration <ref type="bibr" target="#b65">(Meszaros et al., 2000;</ref><ref type="bibr" target="#b69">Mosser and Edwards, 2008)</ref>. In this way, macrophages promote the transition to the proliferative phase of healing.</p><p>T-lymphocytes migrate into wounds following the inflammatory cells and macrophages, and peak during the late-proliferative/ early-remodeling phase. The role of T-lymphocytes is not completely understood and is a current area of intensive investigation. Several studies suggest that delayed T-cell infiltration along with decreased T-cell concentration in the wound site is associated with impaired wound healing, while others have reported that CD 4+ cells (T-helper cells) have a positive role in wound healing and CD8+ cells (T-suppressor-cytotoxic cells) play an inhibitory role in wound healing <ref type="bibr" target="#b92">(Swift et al., 2001;</ref><ref type="bibr" target="#b71">Park and Barbul, 2004)</ref>. Interestingly, recent studies in mice deficient in both T-and B-cells have shown that scar formation is diminished in the absence of lymphocytes <ref type="bibr" target="#b28">(Gawronska-Kozak et al., 2006)</ref>. In addition, skin gamma-delta T-cells regulate many aspects of wound healing, including maintaining tissue integrity, defending against pathogens, and regulating inflammation. These cells are also called dendritic epidermal T-cells (DETC), due to their unique dendritic morphology. DETC are activated by stressed, damaged, or transformed keratinocytes and produce fibroblast growth factor 7 (FGF-7), keratinocyte growth factors, and insulin-like growth factor-1, to support keratinocyte proliferation and cell survival. DETC also generate chemokines and cytokines that contribute to the initiation and regulation of the inflammatory response during wound healing. While cross-talk between skin gamma-delta T-cells and keratinocytes contributes to the maintenance of normal skin and wound healing, mice lacking or defective in skin gamma-delta T-cells show a delay in wound closure and a decrease in the proliferation of keratinocytes at the wound site <ref type="bibr" target="#b43">(Jameson and Havran, 2007;</ref><ref type="bibr" target="#b66">Mills et al., 2008)</ref>.</p><p>The proliferative phase generally follows and overlaps with the inflammatory phase, and is characterized by epithelial proliferation and migration over the provisional matrix within the wound (re-epithelialization). In the reparative dermis, fibroblasts and endothelial cells are the most prominent cell types present and support capillary growth, collagen formation, and the formation of granulation tissue at the site of injury. Within the wound bed, fibroblasts produce collagen as well as glycosaminoglycans and proteoglycans, which are major components of the extracellular matrix (ECM). Following robust proliferation and ECM synthesis, wound healing enters the final remodeling phase, which can last for years. In this phase, regression of many of the newly formed capillaries occurs, so that vascular density of the wound returns to normal. One critical feature of the remodeling phase is ECM remodeling to an architecture that approaches that of the normal tissue. The wound also undergoes physical contraction throughout the entire woundhealing process, which is believed to be mediated by contractile fibroblasts (myofibroblasts) that appear in the wound <ref type="bibr" target="#b35">(Gosain and DiPietro, 2004;</ref><ref type="bibr" target="#b11">Campos et al., 2008)</ref>.</p><p>The role of stem cells (SC) in cutaneous wound healing and tissue regeneration is a topic of increasing research attention, with a focus on the role of adult stem cells such as epidermal stem cells and bone-marrow (BM)-derived cells (BMDCs). Epidermal stem cells reside in the bulge area of hair follicles and in the basal layer of the epidermis and give rise to the keratinocytes that migrate and re-epithelialize wounds. Normal skin is also a target organ for BMDCs. Two main stem cell populations are present in the bone marrow: hematopoietic SC (HSC) and mesenchymal SC (MSC). BM-MSCs are able to differentiate into a variety of cell types, including adipocytes, osteoblasts, chondrocytes, fibroblasts, and keratinocytes <ref type="bibr" target="#b12">(Cha and Falanga, 2007;</ref><ref type="bibr" target="#b78">Rea et al., 2009)</ref>. Endothelial progenitor cells (EPCs) derived from the HSC lineage are key cells that contribute to neovascularization. Both BM-MSCs and EPCs are involved in the cutaneous wound-healing process. Wound-induced hypoxia triggers the mobilization of bone marrow EPCs to the circulation, playing a significant role in the process of neovascularization <ref type="bibr" target="#b103">(Wu et al., 2007;</ref><ref type="bibr" target="#b57">Liu and Velazquez, 2008;</ref><ref type="bibr" target="#b78">Rea et al., 2009)</ref>.</p><p>Several different cell types are involved in the woundhealing process, and, as described above, the cellular activities of any particular cell type may also vary during different stages of repair. The complexity and coordination of the healing process are major hurdles to therapeutic approaches, since any therapeutic must effectively be sequenced to the appropriate stage.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FActOrs AFFEctING WOUND HEALING</head><p>Multiple factors can lead to impaired wound healing. In general terms, the factors that influence repair can be categorized into local and systemic. Local factors are those that directly influence the characteristics of the wound itself, while systemic factors are the overall health or disease state of the individual that affect his or her ability to heal (Table <ref type="table" target="#tab_1">2</ref>). Many of these factors are related, and the systemic factors act through the local effects affecting wound healing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Local Factors that Influence Healing Oxygenation</head><p>Oxygen is important for cell metabolism, especially energy production by means of ATP, and is critical for nearly all woundhealing processes. It prevents wounds from infection, induces angiogenesis, increases keratinocyte differentiation, migration, and re-epithelialization, enhances fibroblast proliferation and collagen synthesis, and promotes wound contraction <ref type="bibr" target="#b4">(Bishop, 2008;</ref><ref type="bibr" target="#b80">Rodriguez et al., 2008)</ref>. In addition, the level of superoxide production (a key factor for oxidative killing pathogens) by polymorphonuclear leukocytes is critically dependent on oxygen levels.</p><p>Due to vascular disruption and high oxygen consumption by metabolically active cells, the microenvironment of the early wound is depleted of oxygen and is quite hypoxic. Several systemic conditions, including advancing age and diabetes, can create impaired vascular flow, thus setting the stage for poor tissue oxygenation. In the context of healing, this overlay of poor perfusion creates a hypoxic wound. Chronic wounds are notably hypoxic; tissue oxygen tensions have been measured transcutaneously in chronic wounds from 5 to 20 mm Hg, in contrast to control tissue values of 30 to 50 mm Hg <ref type="bibr" target="#b94">(Tandara and Mustoe, 2004)</ref>.</p><p>In wounds where oxygenation is not restored, healing is impaired. Temporary hypoxia after injury triggers wound healing, but prolonged or chronic hypoxia delays wound healing <ref type="bibr" target="#b4">(Bishop, 2008;</ref><ref type="bibr" target="#b80">Rodriguez et al., 2008)</ref>. In acute wounds, hypoxia serves as a signal that stimulates many aspects of the wound-healing process. Hypoxia can induce cytokine and growth factor production from macrophages, keratinocytes, and fibroblasts. Cytokines that are produced in response to hypoxia include PDGF, TGF-β, VEGF, tumor necrosis factor-α (TNF-α), and endothelin-1, and are crucial promoters of cell proliferation, migration and chemotaxis, and angiogenesis in wound healing <ref type="bibr" target="#b80">(Rodriguez et al., 2008)</ref>.</p><p>In normally healing wounds, ROS such as hydrogen peroxide (H 2 O 2 ) and superoxide (O 2 ) are thought to act as cellular messengers to stimulate key processes associated with wound healing, including cell motility, cytokine action (including PDGF signal transduction), and angiogenesis. Both hypoxia and hyperoxia increase ROS production, but an increased level of ROS transcends the beneficial effect and causes additional tissue damage <ref type="bibr" target="#b80">(Rodriguez et al., 2008)</ref>.</p><p>In summary, the proper oxygen level is crucial for optimum wound healing. Hypoxia stimulates wound healing such as the release of growth factors and angiogenesis, while oxygen is needed to sustain the healing process <ref type="bibr" target="#b4">(Bishop, 2008)</ref>. One therapeutic option that can sometimes overcome the influence of tissue hypoxia is hyperbaric oxygen therapy (HBOT; <ref type="bibr" target="#b80">Rodriguez et al., 2008)</ref>. While HBOT can be an effective treatment for hypoxic wounds, its availability is limited.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Infections</head><p>Once skin is injured, micro-organisms that are normally sequestered at the skin surface obtain access to the underlying tissues. The state of infection and replication status of the microorganisms determine whether the wound is classified as having contamination, colonization, local infection/critical colonization, and/or spreading invasive infection. Contamination is the presence of non-replicating organisms on a wound, while colonization is defined as the presence of replicating microorganisms on the wound without tissue damage. Local infection/ critical colonization is an intermediate stage, with microorganism replication and the beginning of local tissue responses. Invasive infection is defined as the presence of replicating organisms within a wound with subsequent host injury <ref type="bibr" target="#b20">(Edwards and Harding, 2004)</ref>.</p><p>Inflammation is a normal part of the wound-healing process, and is important to the removal of contaminating micro-organisms. In the absence of effective decontamination, however, inflammation may be prolonged, since microbial clearance is incomplete. Both bacteria and endotoxins can lead to the prolonged elevation of pro-inflammatory cytokines such as interleukin-1 (IL-1) and TNF-α and elongate the inflammatory phase. If this continues, the wound may enter a chronic state and fail to heal. This prolonged inflammation also leads to an increased level of matrix metalloproteases (MMPs), a family of proteases that can degrade the ECM. In tandem with the increased protease content, a decreased level of the naturally occurring protease inhibitors occurs. This shift in protease balance can cause growth factors that appears in chronic wounds to be rapidly degraded <ref type="bibr" target="#b20">(Edwards and Harding, 2004;</ref><ref type="bibr" target="#b64">Menke et al., 2007)</ref>. Similar to other infective processes, the bacteria in infected wounds occur in the form of biofilms, which are complex communities of aggregated bacteria embedded in a selfsecreted extracellular polysaccharide matrix (EPS; <ref type="bibr" target="#b20">Edwards and Harding, 2004)</ref>. Mature biofilms develop protected microenvironments and are more resistant to conventional antibiotic treatment. Staphylococcus aureus (S. aureus), Pseudomonas aeruginosa (P. aeruginosa), and β-hemolytic streptococci are common bacteria in infected and clinically non-infected wounds <ref type="bibr" target="#b20">(Edwards and Harding, 2004;</ref><ref type="bibr" target="#b16">Davis et al., 2008)</ref>.</p><p>P. aeruginosa and Staphylococcus appear to play an important role in bacterial infection in wounds. Many chronic ulcers probably do not heal because of the presence of biofilms containing P. aeruginosa, thus shielding the bacteria from the phagocytic activity of invading polymorphonuclear neutrophils (PMNs). This mechanism may explain the failure of antibiotics as a remedy for chronic wounds <ref type="bibr" target="#b5">(Bjarnsholt et al., 2008)</ref>.</p><p>systemic Factors that Influence Healing</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Age</head><p>The elderly population (people over 60 years of age) is growing faster than any other age group (World Health Organization [WHO, www.who.int/topics/ageing]), and increased age is a major risk factor for impaired wound healing. Many clinical and animal studies at the cellular and molecular level have examined age-related changes and delays in wound healing. It is commonly recognized that, in healthy older adults, the effect of aging causes a temporal delay in wound healing, but not an actual impairment in terms of the quality of healing <ref type="bibr" target="#b35">(Gosain and DiPietro, 2004;</ref><ref type="bibr" target="#b47">Keylock et al., 2008)</ref>. Delayed wound healing in the aged is associated with an altered inflammatory response, such as delayed T-cell infiltration into the wound area with alterations in chemokine production and reduced macrophage phagocytic capacity <ref type="bibr" target="#b92">(Swift et al., 2001)</ref>. Delayed re-epithelialization, collagen synthesis, and angiogenesis have also been observed in aged mice as compared with young mice <ref type="bibr" target="#b91">(Swift et al., 1999)</ref>. Overall, there are global differences in wound healing between young and aged individuals. A review of the age-related changes in healing capacity demonstrates that every phase of healing undergoes characteristic age-related changes, including enhanced platelet aggregation, increased secretion of inflammatory mediators, delayed infiltration of macrophages and lymphocytes, impaired macrophage function, decreased secretion of growth factors, delayed re-epithelialization, delayed angiogenesis and collagen deposition, reduced collagen turnover and remodeling, and decreased wound strength <ref type="bibr" target="#b35">(Gosain and DiPietro, 2004)</ref>.</p><p>Several treatments to reduce the age-related impairment of healing have been studied. Interestingly, exercise has been reported to improve cutaneous wound healing in older adults as well as aged mice, and the improvement is associated with decreased levels of pro-inflammatory cytokines in the wound tissue. The improved healing response may be due to an exercise-induced anti-inflammatory response in the wound <ref type="bibr" target="#b21">(Emery et al., 2005;</ref><ref type="bibr" target="#b47">Keylock et al., 2008)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>sex Hormones in Aged Individuals</head><p>Sex hormones play a role in age-related wound-healing deficits. Compared with aged females, aged males have been shown to have delayed healing of acute wounds. A partial explanation for this is that the female estrogens (estrone and 17β-estradiol), male androgens (testosterone and 5α-dihydrotestosterone, DHT), and their steroid precursor dehydroepiandrosterone (DHEA) appear to have significant effects on the wound-healing process <ref type="bibr" target="#b30">(Gilliver et al., 2007)</ref>. It was recently found that the differences in gene expression between elderly male and young human wounds are almost exclusively estrogen-regulated <ref type="bibr" target="#b38">(Hardman and Ashcroft, 2008)</ref>. Estrogen affects wound healing by regulating a variety of genes associated with regeneration, matrix production, protease inhibition, epidermal function, and the genes primarily associated with inflammation <ref type="bibr" target="#b38">(Hardman and Ashcroft, 2008)</ref>. Studies indicate that estrogen can improve the age-related impairment in healing in both men and women, while androgens regulate cutaneous wound healing negatively <ref type="bibr" target="#b30">(Gilliver et al., 2007)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>stress</head><p>Stress has a great impact on human health and social behavior. Many diseases-such as cardiovascular disease, cancer, compromised wound healing, and diabetes-are associated with stress. Numerous studies have confirmed that stress-induced disruption of neuroendocrine immune equilibrium is consequential to health <ref type="bibr" target="#b31">(Glaser and Kiecolt-Glaser, 2005;</ref><ref type="bibr" target="#b96">Vileikyte, 2007)</ref>. The pathophysiology of stress results in the deregulation of the immune system, mediated primarily through the hypothalamic-pituitaryadrenal (HPA) and sympathetic-adrenal medullary axes or sympathetic nervous system (SNS; <ref type="bibr" target="#b32">Godbout and Glaser, 2006;</ref><ref type="bibr" target="#b6">Boyapati and Wang, 2007)</ref>.</p><p>Studies in both humans and animals have demonstrated that psychological stress causes a substantial delay in wound healing. Caregivers of persons with Alzheimer's and students undergoing academic stress during examinations demonstrated delayed wound healing (Kiecolt- <ref type="bibr" target="#b49">Glaser et al., 1995;</ref><ref type="bibr" target="#b60">Marucha et al., 1998)</ref>. The hypothalamic-pituitary-adrenal and the sympathetic-adrenal medullary axes regulate the release of pituitary and adrenal hormones. These hormones include the adrenocorticotrophic hormones, cortisol and prolactin, and catecholamines (epinephrine and norepinephrine). Stress up-regulates glucocorticoids (GCs) and reduces the levels of the proinflammatory cytokines IL-1β, IL-6, and TNF-α at the wound site. Stress also reduces the expression of IL-1α and IL-8 at wound sites-both chemoattractants that are necessary for the initial inflammatory phase of wound healing <ref type="bibr" target="#b32">(Godbout and Glaser, 2006;</ref><ref type="bibr" target="#b6">Boyapati and Wang, 2007)</ref>. Furthermore, GCs influence immune cells by suppressing differentiation and proliferation, regulating gene transcription, and reducing expression of cell adhesion molecules that are involved in immune cell trafficking <ref type="bibr" target="#b90">(Sternberg, 2006)</ref>. The GC cortisol functions as an anti-inflammatory agent and modulates the Th1-mediated immune responses that are essential for the initial phase of healing. Thus, psychological stress impairs normal cellmediated immunity at the wound site, causing a significant delay in the healing process <ref type="bibr" target="#b32">(Godbout and Glaser, 2006)</ref>.</p><p>Stressors can lead to negative emotional states, such as anxiety and depression, which may in turn have an impact on physiologic processes and/or behavioral patterns that influence health outcomes. In addition to the direct influences of anxiety and depression on endocrine and immune function, stressed individuals are more likely to have unhealthy habits, which include poor sleep patterns, inadequate nutrition, less exercise, and a greater propensity for abuse of alcohol, cigarettes, and other drugs. All of these factors may come into play in negatively modulating the healing response. The effects of stress on wound healing are summarized in Fig. <ref type="figure" target="#fig_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diabetes</head><p>Diabetes affects hundreds of millions of people worldwide. Diabetic individuals exhibit a documented impairment in the healing of acute wounds. Moreover, this population is prone to develop chronic non-healing diabetic foot ulcers (DFUs), which are estimated to occur in 15% of all persons with diabetes. DFUs are a serious complication of diabetes, and precede 84% of all diabetesrelated lower leg amputations <ref type="bibr" target="#b7">(Brem and Tomic-Canic, 2007)</ref>. The impaired healing of both DFUs and acute cutaneous wounds in persons with diabetes involves multiple complex pathophysiological mechanisms. DFUs, like venous stasis disease and pressure-related chronic non-healing wounds, are always accompanied by hypoxia <ref type="bibr" target="#b94">(Tandara and Mustoe, 2004)</ref>. A situation of prolonged hypoxia, which may be derived from both insufficient perfusion and insufficient angiogenesis, is detrimental for wound healing. Hypoxia can amplify the early inflammatory response, thereby prolonging injury by increasing the levels of oxygen radicals <ref type="bibr" target="#b61">(Mathieu et al., 2006;</ref><ref type="bibr" target="#b101">Woo et al., 2007)</ref>. Hyperglycemia can also add to the oxidative stress when the production of ROS exceeds the anti-oxidant capacity <ref type="bibr" target="#b97">(Vincent et al., 2004)</ref>. The formation of advanced glycation end-products (AGEs) under hyperglycemia and the interaction with their receptors (RAGE) are associated with impaired wound healing in diabetic mice as well <ref type="bibr" target="#b41">(Huijberts et al., 2008)</ref>. High levels of metalloproteases are a feature of diabetic foot ulcers, and the MMP levels in chronic wound fluid are almost 60 times higher than those in acute wounds. This increased protease activity supports tissue destruction and inhibits normal repair processes <ref type="bibr" target="#b101">(Woo et al., 2007;</ref><ref type="bibr" target="#b86">Sibbald and Woo, 2008)</ref>.</p><p>Several dysregulated cellular functions are involved in diabetic wounds, such as defective T-cell immunity, defects in leukocyte chemotaxis, phagocytosis, and bactericidal capacity, and dysfunctions of fibroblasts and epidermal cells. These defects are responsible for inadequate bacterial clearance and delayed or impaired repair in individuals with diabetes <ref type="bibr" target="#b58">(Loots et al., 1998;</ref><ref type="bibr" target="#b86">Sibbald and Woo, 2008)</ref>.</p><p>As mentioned above, hypoxia contributes to the compromised healing of DFUs, and diabetic wounds exhibit inadequate angiogenesis. Several studies that have investigated the mechanisms behind the decreased restoration of vasculature in diabetic wounds have implied that EPC mobilization and homing are impaired, and that the level of VEGF, the primary proangiogenic factor in wounds, is decreased in the diabetic state <ref type="bibr" target="#b7">(Brem and Tomic-Canic, 2007;</ref><ref type="bibr" target="#b27">Gallagher et al., 2007;</ref><ref type="bibr" target="#b74">Quattrini et al., 2008)</ref>. Stem-cell-based therapies aimed at inducing EPCs or BM-MSCs have shown a promising outcome in diabetic nonhealing wounds, both in animals and in clinical trials <ref type="bibr" target="#b103">(Wu et al., 2007;</ref><ref type="bibr" target="#b57">Liu and Velazquez, 2008;</ref><ref type="bibr" target="#b78">Rea et al., 2009)</ref>. In animal studies, therapeutic restoration of VEGF has been shown to improve repair outcomes significantly <ref type="bibr" target="#b50">(Kirchner et al., 2003;</ref><ref type="bibr" target="#b25">Galiano et al., 2004)</ref>.</p><p>The neuropathy that occurs in diabetic individuals probably also contributes to impaired wound healing. Neuropeptides such as nerve growth factor, substance P, and calcitonin gene-related peptide are relevant to wound healing, because they promote cell chemotaxis, induce growth factor production, and stimulate the proliferation of cells. A decrease in neuropeptides has been associated with DFU formation. In addition, sensory nerves play a role in modulating immune defense mechanisms, with denervated skin exhibiting reduced leukocyte infiltration <ref type="bibr" target="#b26">(Galkowska et al., 2006;</ref><ref type="bibr" target="#b86">Sibbald and Woo, 2008)</ref>.</p><p>In summary, the impaired healing that occurs in individuals with diabetes involves hypoxia, dysfunction in fibroblasts and epidermal cells, impaired angiogenesis and neovascularization, high levels of metalloproteases, damage from ROS and AGEs, decreased host immune resistance, and neuropathy. The influence of these factors on wound healing is summarized in Fig. <ref type="figure" target="#fig_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Medications</head><p>Many medications, such as those which interfere with clot formation or platelet function, or inflammatory responses and cell proliferation have the capacity to affect wound healing. Here we review only the commonly used medications that have a significant impact on healing, including glucocorticoid steroids, non-steroidal antiinflammatory drugs, and chemotherapeutic drugs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Glucocorticoid Steroids</head><p>Systemic glucocorticoids (GC), which are frequently used as anti-inflammatory agents, are well-known to inhibit wound repair via global anti-inflammatory effects and suppression of cellular wound responses, including fibroblast proliferation and collagen synthesis. Systemic steroids cause wounds to heal with incomplete granulation tissue and reduced wound contraction <ref type="bibr" target="#b24">(Franz et al., 2007)</ref>. Glucocorticoids also inhibit production of hypoxia-inducible factor-1 (HIF-1), a key transcriptional factor in healing wounds <ref type="bibr" target="#b98">(Wagner et al., 2008)</ref>. Beyond effects on synthesis, resulting in decreased fibroplasia and neovascularization of wounds <ref type="bibr" target="#b99">(Waldron and Zimmerman-Pope, 2003;</ref><ref type="bibr" target="#b24">Franz et al., 2007)</ref>. Chemotherapeutic drugs delay cell migration into the wound, decrease early wound matrix formation, lower collagen production, impair proliferation of fibroblasts, and inhibit contraction of wounds <ref type="bibr" target="#b24">(Franz et al., 2007)</ref>. In addition, these agents weaken the immune functions of the patients, and thereby impede the inflammatory phase of healing and increase the risk of wound infection. Chemotherapy induces neutropenia, anemia, and thrombocytopenia, thus leaving wounds vulnerable to infection, causing less oxygen delivery to the wound, and also making patients vulnerable to excessive bleeding at the wound site.</p><p>Impaired wound healing due to chemotherapeutic drugs such as adriamycin is most common when the drugs are administered pre-operatively or within 3 weeks post-operatively <ref type="bibr" target="#b54">(Lawrence et al., 1986)</ref>. Additionally, low post-operative albumin levels, low post-operative hemoglobin, advanced stage of disease, and electrocautery use have all been reported as risk factors for the development of wound complications <ref type="bibr" target="#b51">(Kolb et al., 1992)</ref>.</p><p>A newer generation of tumor chemotherapeutics is the angiogenesis inhibitors, such as bevacizumab, which is an antibody fragment that neutralizes VEGF. These therapies work in conjunction with traditional chemotherapeutics to limit the blood supply to tumors, reducing their ability to grow. Wound-healing complications, including an increase in wound dehiscence, have been described in patients on angiogenesis inhibitors <ref type="bibr" target="#b55">(Lemmens et al., 2008)</ref>. A caveat is that most patients on angiogenesis inhibitors are also on traditional chemotherapeutics, making it difficult to sort out whether angiogenesis inhibitors alone would perturb repair <ref type="bibr" target="#b81">(Scappaticci et al., 2005;</ref><ref type="bibr" target="#b82">Scott, 2007)</ref>. Nevertheless, current recommendations include discontinuation of angiogenesis inhibitors well in advance of any surgical procedures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Obesity</head><p>The prevalence of obesity continues to increase among adults, children, and adolescents in the United States, with more than 30% of adults and 15% of children and adolescents classified as obese in a recent survey (Centers for Disease Control and Prevention, CDC). Obesity is well-known to increase the risk of many diseases and health conditions, which include coronary heart disease, type 2 diabetes, cancer, hypertension, dyslipidemia, stroke, sleep apnea, respiratory problems, and impaired wound healing. Obese individuals frequently face wound complications, including skin wound infection, dehiscence, hematoma and seroma formation, pressure ulcers, and venous ulcers <ref type="bibr" target="#b100">(Wilson and Clark, 2004</ref>; www.cdc.gov/ nccdphp/dnpa/obesity). An increased frequency of wound complications has been reported for obese individuals undergoing both bariatric and non-bariatric operations <ref type="bibr" target="#b1">(Anaya and Dellinger, 2006;</ref><ref type="bibr" target="#b36">Greco et al., 2008;</ref><ref type="bibr" target="#b67">Momeni et al., 2009)</ref>. In particular, a higher rate repair itself, systemic corticosteroids may increase the risk of wound infection. While systemic corticosteroids inhibit wound repair, topical application produces quite different effects. Topical low-dosage corticosteroid treatment of chronic wounds has been found to accelerate wound healing, reduce pain and exudate, and suppress hypergranulation tissue formation in 79% of cases. While these positive effects are striking, careful monitoring is necessary to avoid a potential increased risk of infection with prolonged use <ref type="bibr" target="#b40">(Hofman et al., 2007)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Non-steroidal Anti-inflammatory Drugs</head><p>Non-steroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen are widely used for the treatment of inflammation and rheumatoid arthritis and for pain management. Low-dosage aspirin, due to its anti-platelet function, is commonly used as a preventive therapeutic for cardiovascular disease, but not as an anti-inflammatory drug <ref type="bibr" target="#b72">(Pieringer et al., 2007)</ref>. There are few data to suggest that short-term NSAIDs have a negative impact on healing. However, the question of whether long-term NSAIDs interfere with wound healing remains open. In animal models, systemic use of ibuprofen has demonstrated an anti-proliferative effect on wound healing, resulting in decreased numbers of fibroblasts, weakened breaking strength, reduced wound contraction, delayed epithelialization <ref type="bibr" target="#b18">(Dong et al., 1993;</ref><ref type="bibr" target="#b19">Dvivedi et al., 1997;</ref><ref type="bibr" target="#b52">Krischak et al., 2007)</ref>, and impaired angiogenesis <ref type="bibr" target="#b45">(Jones et al., 1999)</ref>. The effects of low-dose aspirin on healing are not completely clear. Clinical recommendations suggest that, to avoid anti-platelet effects, individuals should discontinue NSAIDs for a time period equal to 4 to 5 times the halflife of drugs before surgery. Thus, the majority of surgical patients do not have significant NSAID activity at the time of wound repair. The exception may be those cardiac patients who must be maintained on low-dose aspirin due to severe risk of cardiovascular events <ref type="bibr" target="#b72">(Pieringer et al., 2007)</ref>. In terms of the topical application of NSAIDs on the surfaces of chronic wounds, the local use of ibuprofen-foam provides moist wound healing, reduces persistent and temporary wound pain, and benefits chronic venous leg ulcer healing <ref type="bibr" target="#b73">(Price et al., 2007)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Chemotherapeutic Drugs</head><p>Most chemotherapeutic drugs are designed to inhibit cellular metabolism, rapid cell division, and angiogenesis and thus inhibit many of the pathways that are critical to appropriate wound repair. These medications inhibit DNA, RNA, or protein of surgical site infection occurs in obese patients. Many of these complications may be a result of a relative hypoperfusion and ischemia that occurs in subcutaneous adipose tissue. This situation may be caused by a decreased delivery of antibiotics as well. In surgical wounds, the increased tension on the wound edges that is frequently seen in obese patients also contributes to wound dehiscence. Wound tension increases tissue pressure, reducing microperfusion and the availability of oxygen to the wound <ref type="bibr" target="#b100">(Wilson and Clark, 2004;</ref><ref type="bibr" target="#b1">Anaya and Dellinger, 2006)</ref>.</p><p>The increase in pressure ulcers or pressure-related injuries in obese individuals is also influenced by hypovascularity, since poor perfusion makes tissue more susceptible to this type of injury. In addition, the difficulty or inability of obese individuals to reposition themselves further increases the risk of pressurerelated injuries. Moreover, skin folds harbor micro-organisms that thrive in moist areas and contribute to infection and tissue breakdown. The friction caused by skin-on-skin contact invites ulceration. Together, these factors predispose obese individuals to the development of impaired wound healing <ref type="bibr" target="#b100">(Wilson and Clark, 2004;</ref><ref type="bibr" target="#b1">Anaya and Dellinger, 2006;</ref><ref type="bibr" target="#b36">Greco et al., 2008)</ref>.</p><p>In addition to local conditions, systemic factors also play an important role in impaired wound healing and wound complications in obese patients. Obesity can be connected to stress, anxiety, and depression, all situations which can cause an impaired immune response <ref type="bibr" target="#b100">(Wilson and Clark, 2004)</ref>.</p><p>The function of adipose tissue used to be considered as primarily caloric storage. However, more recent findings have documented that adipose tissue secretes a large variety of bioactive substances that are collectively named adipokines. Both adipocytes themselves as well as macrophages inside the adipose tissue are known to produce bioactive molecules including cytokines, chemokines, and hormone-like factors such as leptin, adiponectin, and resistin. Adipokines have a profound impact on the immune and inflammatory response <ref type="bibr" target="#b46">(Juge-Aubry et al., 2005;</ref><ref type="bibr" target="#b10">Calabro and Yeh, 2007;</ref><ref type="bibr" target="#b102">Wozniak et al., 2009)</ref>. The negative influence of adipokines on the systemic immune response seems likely to influence the healing process, although direct proof for this is lacking. Impaired peripheral blood mononuclear cell function, decreased lymphocyte proliferation, and altered peripheral cytokine levels have been reported in obesity. Importantly, though, many of the obesityrelated changes in peripheral immune function are improved by weight loss <ref type="bibr" target="#b70">(Nieman et al., 1999;</ref><ref type="bibr" target="#b23">Fontana et al., 2007;</ref><ref type="bibr" target="#b17">de Mello et al., 2008)</ref>. The factors related to wound impairment in obesity are summarized in Table <ref type="table" target="#tab_2">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Alcohol consumption</head><p>Clinical evidence and animal experiments have shown that exposure to alcohol impairs wound healing and increases the incidence of infection <ref type="bibr" target="#b29">(Gentilello et al., 1993;</ref><ref type="bibr" target="#b93">Szabo and Mandrekar, 2009)</ref>. The effect of alcohol on repair is quite clinically relevant, since over half of all emergency room trauma cases involve either acute or chronic alcohol exposure <ref type="bibr" target="#b79">(Rivara et al., 1993;</ref><ref type="bibr" target="#b59">Madan et al., 1999)</ref>. Alcohol exposure diminishes host resistance, and ethanol intoxication at the time of injury is a risk factor for increased susceptibility to infection in the wound <ref type="bibr" target="#b14">(Choudhry and Chaudry, 2006)</ref>. Studies have demonstrated profound effects of alcohol on host-defense mechanisms, although the precise effects are dependent upon the pattern of alcohol exposure (i.e., chronic vs. acute alcohol exposure, amount consumed, duration of consumption, time from alcohol exposure, and alcohol withdrawal). A recent review on alcohol-induced alterations on host defense after traumatic injury suggested that, in general, short-term acute alcohol exposure results in suppressed pro-inflammatory cytokine release in response to an inflammatory challenge. The higher rate of post-injury infection correlates with decreased neutrophil recruitment and phagocytic function in acute alcohol exposure <ref type="bibr" target="#b37">(Greiffenstein and Molina, 2008)</ref>.</p><p>Beyond the increased incidence of infection, exposure to ethanol also seems to influence the proliferative phase of healing. In murine models, exposure to a single dose of alcohol that caused a blood alcohol level of 100 mg/dL (just above the legal limit in most states in the US) perturbed re-epithelialization, angiogenesis, collagen production, and wound closure <ref type="bibr" target="#b75">(Radek et al., 2005</ref><ref type="bibr" target="#b76">(Radek et al., , 2007</ref><ref type="bibr" target="#b77">(Radek et al., , 2008;;</ref><ref type="bibr" target="#b22">Fitzgerald et al., 2007)</ref>. The most significant impairment seems to be in wound angiogenesis, which is reduced by up to 61% following a single ethanol exposure. This decrease in angiogenic capacity involves both decreased expression of VEGF receptors and reduced nuclear expression of HIF-1alpha in endothelial cells <ref type="bibr" target="#b75">(Radek et al., 2005</ref><ref type="bibr" target="#b77">(Radek et al., , 2008))</ref>. The ethanol-mediated decrease in wound vascularity causes increased wound hypoxia and oxidative stress <ref type="bibr" target="#b77">(Radek et al., 2008)</ref>. Connective tissue restoration is also influenced by acute ethanol exposure, and results in decreased collagen production and alterations in the protease balance at the wound site <ref type="bibr" target="#b76">(Radek et al., 2007)</ref>. In summary, acute ethanol exposure can lead to impaired wound healing by impairing the early inflammatory response, inhibiting wound closure, angiogenesis, and collagen production, and altering the protease balance at the wound site.</p><p>As mentioned previously, the host response to chronic alcohol exposure appears to be different from that of acute alcohol exposure. Analysis of clinical data indicates that chronic alcohol exposure causes impaired wound healing and enhanced host susceptibility to infections, but the detailed mechanisms that explain this effect need more investigation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>smoking</head><p>It is well-known that smoking increases the risk of heart and vascular disease, stroke, chronic lung disease, and many kinds of cancers. Similarly, the negative effects of smoking on wound-healing outcomes have been known for a long time <ref type="bibr" target="#b85">(Siana et al., 1989;</ref><ref type="bibr" target="#b44">Jensen et al., 1991;</ref><ref type="bibr" target="#b0">Ahn et al., 2008)</ref>. Post-operatively, patients who smoke show a delay in wound healing and an increase in a variety of complications such as infection, wound rupture, anastomotic leakage, wound and flap necrosis, epidermolysis, and a decrease in the tensile strength of wounds <ref type="bibr" target="#b13">(Chan et al., 2006;</ref><ref type="bibr" target="#b0">Ahn et al., 2008)</ref>. In the realm of oral surgery, impaired healing in smokers has been noticed both in routine oral surgery and in the placement of dental implants <ref type="bibr" target="#b56">(Levin and Schwartz-Arad, 2005;</ref><ref type="bibr" target="#b3">Balaji, 2008)</ref>. Cosmetic outcomes also appear to be worse in smokers, and plastic and reconstructive surgeons are often reluctant to perform cosmetic surgeries on individuals who refuse to quit smoking <ref type="bibr" target="#b85">(Siana et al., 1989;</ref><ref type="bibr" target="#b34">Goldminz and Bennett, 1991)</ref>. Approximately over 4000 substances in tobacco smoke have been identified, and some have been shown to have a negative impact on healing <ref type="bibr" target="#b0">(Ahn et al., 2008)</ref>.</p><p>Most studies have focused on the effects of nicotine, carbon monoxide, and hydrogen cyanide from smoke. Nicotine probably interferes with oxygen supply by inducing tissue ischemia, since nicotine can cause decreased tissue blood flow via vasoconstrictive effects <ref type="bibr" target="#b0">(Ahn et al., 2008;</ref><ref type="bibr" target="#b89">Sørensen et al., 2009)</ref>. Nicotine stimulates sympathetic nervous activity, resulting in the release of epinephrine, which causes peripheral vasoconstriction and decreased tissue blood perfusion. Nicotine also increases blood viscosity caused by decreasing fibrinolytic activity and augmentation of platelet adhesiveness. In addition to the effects of nicotine, carbon monoxide in cigarette smoke also causes tissue hypoxia. Carbon monoxide aggressively binds to hemoglobin with an affinity 200 times greater than that of oxygen, resulting in a decreased fraction of oxygenated hemoglobin in the bloodstream. Hydrogen cyanide, another wellstudied component of cigarette smoke, impairs cellular oxygen metabolism, leading to compromised oxygen consumption in the tissues. Beyond these direct tissue effects, smoking increases the individual's risk for atherosclerosis and chronic obstructive pulmonary disease, two conditions that might also lower tissue oxygen tension <ref type="bibr" target="#b85">(Siana et al., 1989;</ref><ref type="bibr" target="#b44">Jensen et al., 1991;</ref><ref type="bibr" target="#b0">Ahn et al., 2008)</ref>. Several cell types and processes that are important to healing have been shown to be adversely affected by tobacco smoke. In the inflammatory phase, smoking causes impaired white blood cell migration, resulting in lower numbers of monocytes and macrophages in the wound site, and reduces neutrophil bactericidal activity. Lymphocyte function, cytotoxicity of natural killer cells, and production of IL-1 are all depressed, and macrophage-sensing of Gram-negative bacteria is inhibited <ref type="bibr" target="#b0">(Ahn et al., 2008;</ref><ref type="bibr" target="#b63">McMaster et al., 2008)</ref>. These effects result in poor wound healing and an increased risk of opportunistic wound infection.</p><p>During the proliferative phase of wound healing, exposure to smoke yields decreased fibroblast migration and proliferation, reduced wound contraction, hindered epithelial regeneration, decreased extracellular matrix production, and upset in the balance of proteases <ref type="bibr" target="#b0">(Ahn et al., 2008)</ref>.</p><p>Pharmacologically, the influence of smoking on wound healing is complicated, and neither nicotine alone nor any other single component can explain all of the effects of smoking on wounds. What is certain is that smoking cessation leads to improved repair and reduces wound infection <ref type="bibr" target="#b87">(Sorensen et al., 2003;</ref><ref type="bibr" target="#b53">Lauerman, 2008)</ref>. For surgery patients who find it difficult to forego smoking, the use of a transdermal patch during the pre-operative period might be beneficial. A study has shown that the use of a transdermal nicotine patch as a nicotine replacement for smoking cessation therapy can increase type I collagen synthesis in wounds <ref type="bibr" target="#b88">(Sørensen et al., 2006)</ref>. Despite the overall negative effects of smoking, some recent studies have suggested that low doses of nicotine enhance angiogenesis and actually improve healing <ref type="bibr" target="#b42">(Jacobi et al., 2002;</ref><ref type="bibr" target="#b68">Morimoto et al., 2008)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nutrition</head><p>For more than 100 years, nutrition has been recognized as a very important factor that affects wound healing. Most obvious is that malnutrition or specific nutrient deficiencies can have a profound impact on wound healing after trauma and surgery. Patients with chronic or non-healing wounds and experiencing nutrition deficiency often require special nutrients. Energy, carbohydrate, protein, fat, vitamin, and mineral metabolism all can affect the healing process <ref type="bibr" target="#b2">(Arnold and Barbul, 2006)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Carbohydrates, Protein, and Amino Acids</head><p>Together with fats, carbohydrates are the primary source of energy in the wound-healing process. Glucose is the major source of fuel used to create the cellular ATP that provides energy for angiogenesis and deposition of the new tissues <ref type="bibr" target="#b83">(Shepherd, 2003)</ref>. The use of glucose as a source for ATP synthesis is essential in preventing the depletion of other amino acid and protein substrates <ref type="bibr" target="#b2">(Arnold and Barbul, 2006)</ref>.</p><p>Protein is one of the most important nutrient factors affecting wound healing. A deficiency of protein can impair capillary formation, fibroblast proliferation, proteoglycan synthesis, collagen synthesis, and wound remodeling. A deficiency of protein also affects the immune system, with resultant decreased leukocyte phagocytosis and increased susceptibility to infection <ref type="bibr" target="#b33">(Gogia, 1995)</ref>. Collagen is the major protein component of connective tissue and is composed primarily of glycine, proline, and hydroxyproline. Collagen synthesis requires hydroxylation of lysine and proline, and co-factors such as ferrous iron and vitamin C. Impaired wound healing results from deficiencies in any of these co-factors <ref type="bibr" target="#b11">(Campos et al., 2008)</ref>.</p><p>Arginine is a semi-essential amino acid that is required during periods of maximal growth, severe stress, and injury. Arginine has many effects in the body, including modulation of immune function, wound healing, hormone secretion, vascular tone, and endothelial function. Arginine is also a precursor to proline, and, as such, sufficient arginine levels are needed to support collagen deposition, angiogenesis, and wound contraction <ref type="bibr" target="#b83">(Shepherd, 2003;</ref><ref type="bibr" target="#b11">Campos et al., 2008)</ref>. Arginine improves immune function, and stimulates wound healing in healthy and ill individuals <ref type="bibr" target="#b95">(Tong and Barbul, 2004)</ref>. Under psychological stress situations, the metabolic demand of arginine increases, and its supplementation has been shown to be an effective adjuvant therapy in wound healing <ref type="bibr" target="#b11">(Campos et al., 2008)</ref>.</p><p>Glutamine is the most abundant amino acid in plasma and is a major source of metabolic energy for rapidly proliferating cells such as fibroblasts, lymphocytes, epithelial cells, and macrophages <ref type="bibr" target="#b2">(Arnold and Barbul, 2006;</ref><ref type="bibr" target="#b11">Campos et al., 2008)</ref>. The serum concentration of glutamine is reduced after major surgery, trauma, and sepsis, and supplementation of this amino acid improves nitrogen balance and diminishes immunosuppression <ref type="bibr" target="#b11">(Campos et al., 2008)</ref>. Glutamine has a crucial role in stimulating the inflammatory immune response occurring early in wound healing <ref type="bibr" target="#b2">(Arnold and Barbul, 2006)</ref>. Oral glutamine supplementation has been shown to improve wound breaking strength and to increase levels of mature collagen <ref type="bibr" target="#b15">(da Costa et al., 2003)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatty Acids</head><p>Lipids are used as nutritional support for surgical or critically ill patients to help meet energy demands and provide essential building blocks for wound healing and tissue repair. Polyunsaturated fatty acids (PUFAs), which cannot be synthesized de novo by mammals, consist mainly of two families, n-6 (omega-6, found in soybean oil) and n-3 (omega-3, found in fish oil). Fish oil has been widely touted for the health benefits of omega-3 fatty acids such as eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA). The effects of omega-3 fatty acids on wound healing are not conclusive. They have been reported to affect pro-inflammatory cytokine production, cell metabolism, gene expression, and angiogenesis in wound sites <ref type="bibr" target="#b62">(McDaniel et al., 2008;</ref><ref type="bibr" target="#b84">Shingel et al., 2008)</ref>. The true benefit of omega-3 fatty acids may be in their ability to improve the systemic immune function of the host, thus reducing infectious complications and improving survival <ref type="bibr" target="#b2">(Arnold and Barbul, 2006)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Vitamins, Micronutrients, and Trace Elements</head><p>Vitamins C (L-ascorbic acid), A (retinol), and E (tocopherol) show potent anti-oxidant and anti-inflammatory effects. Vitamin C has many roles in wound healing, and a deficiency in this vitamin has multiple effects on tissue repair. Vitamin C deficiencies result in impaired healing, and have been linked to decreased collagen synthesis and fibroblast proliferation, decreased angiogenesis, and increased capillary fragility. Also, vitamin C deficiency leads to an impaired immune response and increased susceptibility to wound infection <ref type="bibr" target="#b2">(Arnold and Barbul, 2006;</ref><ref type="bibr" target="#b11">Campos et al., 2008)</ref>. Similarly, vitamin A deficiency leads to impaired wound healing. The biological properties of vitamin A include anti-oxidant activity, increased fibroblast proliferation, modulation of cellular differentiation and proliferation, increased collagen and hyaluronate synthesis, and decreased MMPmediated extracellular matrix degradation <ref type="bibr" target="#b9">(Burgess, 2008)</ref>.</p><p>Vitamin E, an anti-oxidant, maintains and stabilizes cellular membrane integrity by providing protection against destruction by oxidation. Vitamin E also has anti-inflammatory properties and has been suggested to have a role in decreasing excess scar formation in chronic wounds. Animal experiments have indicated that vitamin E supplementation is beneficial to wound healing <ref type="bibr" target="#b2">(Arnold and Barbul, 2006;</ref><ref type="bibr" target="#b9">Burgess, 2008)</ref>, and topical vitamin E has been widely promoted as an anti-scarring agent. However, clinical studies have not yet proved a role for topical vitamin E treatment in improving healing outcomes <ref type="bibr" target="#b48">(Khoosal and Goldman, 2006)</ref>.</p><p>Several micronutrients have been shown to be important for optimal repair. Magnesium functions as a co-factor for many enzymes involved in protein and collagen synthesis, while copper is a required co-factor for cytochrome oxidase, for cytosolic anti-oxidant superoxide dismutase, and for the optimal cross-linking of collagen. Zinc is a co-factor for both RNA and DNA polymerase, and a zinc deficiency causes a significant impairment in wound healing. Iron is required for the hydroxylation of proline and lysine, and, as a result, severe iron deficiency can result in impaired collagen production <ref type="bibr" target="#b83">(Shepherd, 2003;</ref><ref type="bibr" target="#b2">Arnold and Barbul, 2006;</ref><ref type="bibr" target="#b11">Campos et al., 2008)</ref>.</p><p>As indicated above, the nutritional needs of the wound are complex, suggesting that composite nutrition support would benefit both acute and chronic wound healing. A recent clinical research study examined the effects of a high-energy, protein-enriched supplement containing arginine, vitamin C, vitamin E, and zinc on chronic pressure ulcers and indicated that this high-energy and nutrition-enriched supplement improved overall healing of the pressure ulcer <ref type="bibr" target="#b39">(Heyman et al., 2008)</ref>. In summary, proteins, carbohydrates, arginine, glutamine, polyunsaturated fatty acids, vitamin A, vitamin C, vitamin E, magnesium, copper, zinc, and iron play a significant role in wound healing, and their deficiencies affect wound healing. Additional studies will be needed to fully understand how nutrition affects the healing response. cONcLUsIONs Wound healing is a complex biological process that consists of hemostasis, inflammation, proliferation, and remodeling. Large numbers of cell types-including neutrophils, macrophages, lymphocytes, keratinocytes, fibroblasts, and endothelial cellsare involved in this process. Multiple factors can cause impaired wound healing by affecting one or more phases of the process and are categorized into local and systemic factors. The influences of these factors are not mutually exclusive. Single or multiple factors may play a role in any one or more individual phases, contributing to the overall outcome of the healing process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AcKNOWLEDGMENts</head><p>This publication was supported by Grants RO1-GM50875 (LAD) and P20-GM078426 (LAD). Its contents are solely the responsibility of the authors and do not necessarily represent the official views of the NIGMS or the NIH. The authors thank Dr. Wendy Cerny for helpful comments and discussion.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure1. The effects of stress on wound healing. Stress-impaired wound healing is mediated primarily through the hypothalamic-pituitary-adrenal, sympathetic-adrenal medullary axes, and psychologicalresponse-induced unhealthy behaviors.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure2. The potential effects of diabetes on wound healing. MMPs, matrix metalloproteases; ROS, reactive oxygen species; AGEs, advanced glycation end-products.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>table 1 .</head><label>1</label><figDesc>Normal Wound-healing Process</figDesc><table><row><cell>crItIcAL rEVIEWs IN OrAL bIOLOGY &amp; MEDIcINE</cell></row><row><cell>Factors Affecting Wound Healing</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>table 2 .</head><label>2</label><figDesc>Factors Affecting Wound Healing</figDesc><table><row><cell>Local Factors</cell><cell>Systemic Factors</cell></row><row><cell>Oxygenation</cell><cell>Age and gender</cell></row><row><cell>Infection</cell><cell>Sex hormones</cell></row><row><cell>Foreign body</cell><cell>Stress</cell></row><row><cell>Venous sufficiency</cell><cell>Ischemia</cell></row><row><cell></cell><cell>Diseases: diabetes, keloids, fibrosis, hereditary</cell></row><row><cell></cell><cell>healing disorders, jaundice, uremia</cell></row><row><cell></cell><cell>Obesity</cell></row><row><cell></cell><cell>Medications: glucocorticoid steroids, non-steroidal</cell></row><row><cell></cell><cell>anti-inflammatory drugs, chemotherapy</cell></row><row><cell></cell><cell>Alcoholism and smoking</cell></row><row><cell></cell><cell>Immunocompromised conditions: cancer,</cell></row><row><cell></cell><cell>radiation therapy, AIDS</cell></row><row><cell></cell><cell>Nutrition</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>table 3 .</head><label>3</label><figDesc>Summary of Factors Related to Wound Impairment in Obesity</figDesc><table><row><cell>Local Wound Conditions</cell><cell>Associated Diseases and Conditions</cell><cell>Factors Altering Immune and Inflammatory Responses</cell></row><row><cell>1. decreased vascularity in adipose tissue</cell><cell>1. hard to reposition</cell><cell>1. adipokines: leptin, adiponectin, resistin</cell></row><row><cell>2. skin folds harbor micro-organisms</cell><cell>2. coronary heart disease</cell><cell>2. cytokines: TNF-alpha, IL-1, IL-6, IL-8, IL-10</cell></row><row><cell>3. friction caused by skin on skin</cell><cell>3. atherosclerosis</cell><cell>3. chemokines: IL-8, MCP-1, IP-10</cell></row><row><cell>4. increased wound tension</cell><cell>4. type 2 diabetes</cell><cell></cell></row><row><cell>5. increased tissue pressure</cell><cell>5. cancer</cell><cell></cell></row><row><cell>6. hematoma and seroma formation</cell><cell>6. hypertension</cell><cell></cell></row><row><cell>7. venous hypertension</cell><cell>7. dyslipidemia</cell><cell></cell></row><row><cell></cell><cell>8. stroke</cell><cell></cell></row><row><cell></cell><cell>9. respiratory problems</cell><cell></cell></row><row><cell cols="2">MCP, monocyte chemoattractant protein-1; IP-10 interferon-gamma-inducible protein 10.</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,48.00,81.41,243.00,7.02;10,63.00,90.90,227.99,7.03;10,63.00,100.39,56.79,7.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Smoking-the bane of wound healing: biomedical interventions and social influences</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mulligan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Salcido</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="227" to="238" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,109.90,243.02,7.02;10,63.00,119.39,166.37,7.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The obese surgical patient: a susceptible host for infection</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Anaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Dellinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surg Infect (Larchmt)</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="473" to="480" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,128.88,243.00,7.03;10,63.00,138.38,90.70,7.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Nutrition and wound healing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barbul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="42S" to="58" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="10,48.00,147.88,242.98,7.02;10,63.00,157.37,124.68,7.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Tobacco smoking and surgical healing of oral tissues: a review</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Balaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indian J Dent Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="344" to="348" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,166.87,243.00,7.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Role of oxygen in wound healing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bishop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="399" to="402" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,176.37,243.03,7.02;10,63.00,185.86,227.96,7.03;10,63.00,195.35,93.18,7.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Why chronic wounds won&apos;t heal: a novel hypothesis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bjarnsholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kirketerp-Moller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Krogfelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Phipps</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="2" to="10" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,204.86,242.99,7.02;10,63.00,214.35,149.24,7.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The role of stress in periodontal disease and wound healing</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boyapati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Periodontol 2000</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="195" to="210" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,223.85,243.02,7.02;10,63.00,233.34,158.22,7.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Cellular and molecular basis of wound healing in diabetes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tomic-Canic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="1219" to="1222" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,242.84,242.96,7.02;10,63.00,252.33,227.98,7.03;10,63.00,261.83,183.74,7.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The basic science of wound healing (retraction of Witte M., Barbul A</title>
+		<author>
+			<persName><surname>Broughton G 2nd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Janis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Attinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plast Reconstr Surg</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="12S" to="34" />
+			<date type="published" when="1997">2006. 1997</date>
+		</imprint>
+	</monogr>
+	<note>Surg Clin North Am. Suppl</note>
+</biblStruct>
+
+<biblStruct coords="10,48.00,271.32,234.72,7.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Topical vitamins</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Burgess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Drugs Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2" to="6" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct coords="10,48.00,280.83,243.01,7.02;10,63.00,290.31,218.33,7.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Obesity, inflammation, and vascular disease: the role of the adipose tissue as an endocrine organ</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Calabro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Subcell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="63" to="91" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,299.82,243.02,7.02;10,63.00,309.31,199.10,7.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Assessment and nutritional aspects of wound healing</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Groth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Branco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Clin Nutr Metab Care</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="281" to="288" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,318.80,243.00,7.03;10,63.00,328.30,63.75,7.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Stem cells in cutaneous wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Falanga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="73" to="78" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,337.80,243.02,7.02;10,63.00,347.30,227.98,7.02;10,63.00,356.79,144.26,7.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Smoking and wound healing problems in reduction mammaplasty: is the introduction of urine nicotine testing justified?</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Withey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Butler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Plast Surg</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="111" to="115" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,366.29,243.02,7.02;10,63.00,375.78,134.01,7.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Alcohol intoxication and post-burn complications</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Choudhry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Chaudry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Biosci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="998" to="1005" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,385.28,243.01,7.02;10,63.00,394.78,227.98,7.02;10,63.00,404.27,138.92,7.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Oral glutamine and the healing of colonic anastomoses in rats</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Da Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Coelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>De Barros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Matsumoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JPEN J Parenter Enteral Nutr</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="182" to="185" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,413.77,242.96,7.02;10,63.00,423.27,227.98,7.02;10,63.00,432.75,193.76,7.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Microscopic and physiologic evidence for biofilm-associated wound colonization in vivo</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ricotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cazzaniga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Welsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Eaglstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Mertz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="23" to="29" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,442.26,242.97,7.02;10,63.00,451.75,228.01,7.03;10,63.00,461.25,227.98,7.02;10,63.00,470.74,193.63,7.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effect of weight loss on cytokine messenger RNA expression in peripheral blood mononuclear cells of obese subjects with the metabolic syndrome</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">D</forename><surname>De Mello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolehmainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schwab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Mager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Laaksonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pulkkinen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="192" to="199" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,480.24,242.98,7.02;10,63.00,489.73,228.00,7.03;10,63.00,499.23,37.29,7.02" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effect of ibuprofen on the inflammatory response to surgical wounds</title>
+		<author>
+			<persName><forename type="first">Y-L</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ryd</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Z</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Herndon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Waymack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Trauma</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="340" to="343" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,508.73,242.96,7.02;10,63.00,518.22,226.68,7.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effect of ibuprofen and diclofenac sodium on experimental wound healing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dvivedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indian J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1243" to="1245" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,527.71,243.00,7.03;10,63.00,537.21,64.62,7.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Bacteria and wound healing</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="91" to="96" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,546.71,242.98,7.02;10,63.00,556.21,228.02,7.02;10,63.00,565.70,197.78,7.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Exercise accelerates wound healing among healthy older adults: a preliminary investigation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Emery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kiecolt-Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Malarkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Frid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gerontol Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="1432" to="1436" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,575.20,242.99,7.02;10,63.00,584.70,228.01,7.02;10,63.00,594.19,214.83,7.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effects of acute ethanol exposure on the early inflammatory response after excisional injury</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Radek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Faunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dipietro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Kovacs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Alcohol Clin Exp Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="317" to="323" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,603.69,243.02,7.02;10,63.00,613.19,227.98,7.02;10,63.00,622.67,89.06,7.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Impaired mononuclear cell immune function in extreme obesity is corrected by weight loss</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fontana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Eagon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Colonna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Klein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rejuvenation Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="41" to="46" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,632.18,242.96,7.02;10,63.00,641.67,216.15,7.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Optimizing healing of the acute wound by minimizing complications</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Franz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Steed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Robson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Probl Surg</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="691" to="763" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,651.16,243.00,7.03;10,63.00,660.67,227.98,7.02;10,63.00,670.16,227.98,7.02;10,63.00,679.65,206.62,7.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Topical vascular endothelial growth factor accelerates diabetic wound healing through increased angiogenesis and by mobilizing and recruiting bone marrow-derived cells</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Galiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Tepper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Pelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Bhatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Callaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bastidas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Pathol</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="1935" to="1947" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,689.15,243.16,7.02;10,63.00,698.65,227.98,7.02;10,63.00,708.14,102.71,7.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Neurogenic factors in the impaired healing of diabetic foot ulcers</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Galkowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Olszewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Wojewodzka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rosinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Karnafel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Surg Res</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="252" to="258" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,62.48,243.00,7.03;10,324.00,71.99,227.99,7.02;10,324.00,81.48,227.98,7.02;10,324.00,90.97,115.16,7.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Diabetic impairments in NO-mediated endothelial progenitor cell mobilization and homing are reversed by hyperoxia and SDF-1 alpha</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Gallagher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Buerk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="1249" to="1259" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,100.47,242.97,7.02;10,324.00,109.96,228.00,7.03;10,324.00,119.47,38.89,7.02" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Scarless skin repair in immunodeficient mice</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gawronska-Kozak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bogacki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Rim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Monroe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Manuel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="265" to="276" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,128.96,243.29,7.02;10,324.00,138.46,228.02,7.02;10,324.00,147.95,196.74,7.03" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Acute ethanol intoxication increases the risk of infection following penetrating abdominal trauma</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Gentilello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Cobean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wertz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Dellinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Trauma</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="669" to="674" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,157.45,243.02,7.02;10,324.00,166.94,165.66,7.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The hormonal regulation of cutaneous wound healing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gilliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Ashworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Ashcroft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="56" to="62" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,176.44,242.98,7.02;10,324.00,185.93,170.52,7.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Stress-induced immune dysfunction: implications for health</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kiecolt-Glaser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Immunol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="243" to="251" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,195.43,242.99,7.02;10,324.00,204.92,228.00,7.03;10,324.00,214.42,72.64,7.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Stress-induced immune dysregulation: implications for wound healing, infectious disease and cancer</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Godbout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glaser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neuroimmune Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="421" to="427" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,223.91,243.00,7.03;10,324.00,233.41,217.40,7.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Physiology of wound healing</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Gogia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Clinical wound management</title>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Gogia</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Thorofare, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Slack Incorporated</publisher>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="page" from="8" to="12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,242.91,242.99,7.02;10,324.00,252.40,180.90,7.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Cigarette smoking and flap and fullthickness graft necrosis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Goldminz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Bennett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="1012" to="1015" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,261.90,243.00,7.03;10,324.00,271.40,38.89,7.02" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Aging and wound healing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gosain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dipietro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World J Surg</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="321" to="326" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,280.90,243.02,7.02;10,324.00,290.39,227.96,7.03;10,324.00,299.88,228.00,7.03;10,324.00,309.38,55.90,7.03" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The effect of weight loss surgery and body mass index on wound complications after abdominal contouring operations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Greco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Castaldo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Nanney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Wendel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Summitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Plast Surg</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="235" to="242" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,318.88,243.01,7.02;10,324.00,328.37,170.43,7.03" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Alcohol-induced alterations on host defense after traumatic injury</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Greiffenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Molina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Trauma</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="230" to="240" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,337.87,243.03,7.02;10,324.00,347.37,227.98,7.02;10,324.00,356.86,68.67,7.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Estrogen, not intrinsic aging, is the major regulator of delayed human wound healing in the elderly</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hardman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Ashcroft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">80</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,366.36,243.01,7.02;10,324.00,375.86,227.98,7.02;10,324.00,385.35,151.03,7.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Benefits of an oral nutritional supplement on pressure ulcer healing in long-term care residents</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Heyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>De Looverbosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Meijer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Schols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">480</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,394.85,242.95,7.02;10,324.00,404.34,207.65,7.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Use of topical corticosteroids on chronic leg ulcers</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hofman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="227" to="230" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,413.84,242.97,7.02;10,324.00,423.33,228.01,7.03;10,324.00,432.83,38.45,7.02" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Advanced glycation end products and diabetic foot disease</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Huijberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Schaper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Schalkwijk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Metab Res Rev</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">Suppl 1</biblScope>
+			<biblScope unit="page" from="19" to="S24" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,442.33,243.03,7.02;10,324.00,451.83,227.99,7.02;10,324.00,461.31,128.32,7.03" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Nicotine accelerates angiogenesis and wound healing in genetically diabetic mice</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jacobi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Sundram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dayoub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Fajardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Cooke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Pathol</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="97" to="104" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,470.82,243.02,7.02;10,324.00,480.31,172.44,7.03" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Skin gammadelta T-cell functions in homeostasis and wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jameson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Havran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunol Rev</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="114" to="122" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,489.81,243.02,7.02;10,324.00,499.30,165.79,7.03" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Cigarette smoking decreases tissue oxygen</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Goodson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Hopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Hunt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Surg</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1131" to="1134" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,508.79,242.99,7.03;10,324.00,518.30,227.99,7.02;10,324.00,527.79,227.98,7.02;10,324.00,537.28,100.82,7.03" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Inhibition of angiogenesis by nonsteroidal anti-inflammatory drugs: insight into mechanisms and implications for cancer growth and ulcer healing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Peskar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Itani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Sarfeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1418" to="1423" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,546.79,243.00,7.02;10,324.00,556.27,221.59,7.03" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Adipose tissue: a regulator of inflammation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Juge-Aubry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Henrichot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Meier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Best Pract Res Clin Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="547" to="566" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,565.78,243.44,7.02;10,324.00,575.27,227.99,7.02;10,324.00,584.76,228.02,7.03;10,324.00,594.26,79.76,7.03" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Exercise accelerates cutaneous wound healing and decreases wound inflammation in aged mice</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Keylock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Wallig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dipietro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schrementi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Woods</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Regul Integr Comp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">294</biblScope>
+			<biblScope unit="page" from="179" to="R184" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,603.76,243.02,7.02;10,324.00,613.25,201.34,7.03" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Vitamin E for treating children&apos;s scars. Does it help reduce scarring?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Khoosal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Goldman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can Fam Physician</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="855" to="856" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,622.75,242.98,7.02;10,324.00,632.24,228.00,7.03;10,324.00,641.75,50.30,7.02" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Slowing of wound healing by psychological stress</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kiecolt-Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Marucha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Malarkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mercado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glaser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">346</biblScope>
+			<biblScope unit="page" from="1194" to="1196" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,651.24,243.02,7.02;10,324.00,660.73,227.97,7.03;10,324.00,670.23,228.00,7.03;10,324.00,679.72,60.78,7.03" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Effects of vascular endothelial growth factor on wound closure rates in the genetically diabetic mouse model</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Kirchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Meerbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Knoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bulgrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="127" to="131" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309.00,689.23,243.01,7.02;10,324.00,698.71,228.00,7.03;10,324.00,708.22,38.89,7.02" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Effects of early postoperative chemotherapy on wound healing</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Kolb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Buller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Disaia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Berman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Obstet Gynecol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="988" to="992" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,62.75,243.00,7.02;11,66.00,72.24,227.98,7.02;11,66.00,81.73,115.27,7.03" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The effects of nonsteroidal anti-inflammatory drug application on incisional wound healing in rats</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Krischak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Augat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Claes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kinzl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="76" to="78" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,91.23,243.00,7.03;11,66.00,100.72,44.64,7.03" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Surgical patient education related to smoking</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Lauerman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AORN J</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="599" to="609" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,110.23,243.01,7.02;11,66.00,119.72,228.01,7.02;11,66.00,129.21,87.42,7.03" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Preoperative or postoperative doxorubicin hydrochloride (adriamycin): which is better for wound healing?</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Lawrence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Talbot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Norton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surgery</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="9" to="13" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,138.72,243.01,7.02;11,66.00,148.20,186.02,7.03" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Managing patients with metastatic colorectal cancer on bevacizumab</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lemmens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Claes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Uzzell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Nurs</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="944" to="949" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,157.71,243.00,7.02;11,66.00,167.20,178.74,7.03" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The effect of cigarette smoking on dental implants and related surgery</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schwartz-Arad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Implant Dent</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="357" to="361" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,176.70,243.00,7.02;11,66.00,186.19,219.82,7.03" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Hyperoxia, endothelial progenitor cell mobilization, and diabetic wound healing</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">C</forename><surname>Velazquez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antioxid Redox Signal</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1869" to="1882" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,195.69,242.97,7.02;11,66.00,205.19,227.98,7.02;11,66.00,214.68,222.06,7.03" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Differences in cellular infiltrate and extracellular matrix of chronic diabetic and venous ulcers versus acute wounds</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Loots</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Lamme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zeegelaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Mekkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Bos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Middelkoop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="850" to="857" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,224.18,243.00,7.02;11,66.00,233.67,136.34,7.03" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Alcohol and drug use in victims of lifethreatening trauma</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Madan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Beech</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Trauma</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="568" to="571" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,243.17,242.98,7.02;11,66.00,252.66,218.02,7.03" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Mucosal wound healing is impaired by examination stress</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Marucha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kiecolt-Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Favagehi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychosom Med</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="362" to="365" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,262.16,243.00,7.03;11,66.00,271.65,227.98,7.03;11,66.00,281.16,28.66,7.02" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Non-healing wounds</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mathieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-C</forename><surname>Linke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wattel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook on hyperbaric medicine</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Mathieu</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="401" to="427" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,290.65,243.02,7.02;11,66.00,300.14,210.02,7.03" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Omega-3 fatty acids effect on wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Mcdaniel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Belury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ahijevych</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Blakely</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="337" to="345" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,309.64,243.02,7.02;11,66.00,319.13,228.02,7.03;11,66.00,328.64,228.02,7.02;11,66.00,338.12,186.50,7.03" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Cigarette smoke inhibits macrophage sensing of Gram-negative bacteria and lipopolysaccharide: relative roles of nicotine and oxidant stress</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mcmaster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Paul-Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fleet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anandarajah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sriskandan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="536" to="543" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,347.63,242.96,7.02;11,66.00,357.12,162.54,7.03" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Impaired wound healing</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Menke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Witten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Bonchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Diegelmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="19" to="25" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,366.62,243.00,7.02;11,66.00,376.11,128.35,7.03" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Macrophage-induced neutrophil apoptosis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Meszaros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Reichner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Albina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="page" from="435" to="441" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,385.61,242.99,7.02;11,66.00,395.11,228.02,7.02;11,66.00,404.60,220.69,7.03" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Defects in skin gamma delta T cell function contribute to delayed wound repair in rapamycin-treated mice</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Podshivalova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Jameson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="3974" to="3983" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,414.10,242.99,7.02;11,66.00,423.59,227.99,7.03;11,66.00,433.09,46.89,7.02" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Complications in abdominoplasty: a risk factor analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Momeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bannasch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Stark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Plast Reconstr Aesthet Surg</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1250" to="1254" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,442.59,242.96,7.02;11,66.00,452.08,208.86,7.03" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Nicotine at a low concentration promotes wound healing</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Morimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Takemoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawazoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suzuki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Surg Res</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="199" to="204" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,461.58,243.00,7.02;11,66.00,471.07,129.23,7.03" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Exploring the full spectrum of macrophage activation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Mosser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Immunol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="958" to="969" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,480.57,243.00,7.02;11,66.00,490.06,227.98,7.03;11,66.00,499.56,110.70,7.03" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Influence of obesity on immune function</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Nieman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Henson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nehlsen-Cannarella</forename><surname>Sl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ekkens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Utter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Butterworth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Diet Assoc</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="294" to="299" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,509.06,242.99,7.02;11,66.00,518.55,121.95,7.03" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Understanding the role of immune regulation in wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barbul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Surg</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page" from="11" to="16" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,528.05,242.97,7.02;11,66.00,537.55,227.99,7.02;11,66.00,547.04,135.98,7.03" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Patients with rheumatoid arthritis undergoing surgery: how should we deal with antirheumatic treatment?</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pieringer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Stuby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Biesenbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="278" to="286" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,556.54,242.98,7.02;11,66.00,566.04,228.00,7.02;11,66.00,575.52,163.32,7.03" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Why combine a foam dressing with ibuprofen for wound pain and moist wound healing?</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Glynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Krasner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Osterbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Sibbald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Wound J</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">Suppl 1</biblScope>
+			<biblScope unit="page" from="1" to="3" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,585.03,243.02,7.02;11,66.00,594.52,228.02,7.02;11,66.00,604.01,201.68,7.03" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Reduced vascular endothelial growth factor expression and intra-epidermal nerve fiber loss in human diabetic neuropathy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quattrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jeziorska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Boulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Malik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="140" to="145" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,613.52,243.42,7.02;11,66.00,623.01,227.99,7.02;11,66.00,632.50,227.99,7.03;11,66.00,642.00,62.44,7.02" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Acute ethanol exposure impairs angiogenesis and the proliferative phase of wound healing</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Radek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Matthies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Heinrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Kovacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dipietro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Heart Circ Physiol</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="1084" to="H1090" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,51.00,651.50,243.00,7.02;11,66.00,660.99,228.00,7.03;11,66.00,670.48,75.28,7.03" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Matrix proteolytic activity during wound healing: modulation by acute ethanol exposure</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Radek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Kovacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dipietro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Alcohol Clin Exp Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1045" to="1052" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,62.49,243.02,7.02;11,327.00,71.98,227.99,7.03;11,327.00,81.48,143.83,7.03" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Acute ethanol exposure disrupts VEGF receptor cell signaling in endothelial cells</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Radek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Kovacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dipietro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Heart Circ Physiol</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="page" from="174" to="H184" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,90.97,243.00,7.03;11,327.00,100.48,227.97,7.02;11,327.00,109.96,137.25,7.03" xml:id="b78">
+	<analytic>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Giles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Adcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Evill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Strickland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bone marrow-derived cells in the healing burn wound-more than just inflammation</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="356" to="364" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,119.46,243.00,7.03;11,327.00,128.96,227.98,7.02;11,327.00,138.45,106.45,7.03" xml:id="b79">
+	<analytic>
+		<title level="a" type="main">The magnitude of acute and chronic alcohol abuse in trauma patients</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Rivara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Jurkovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Gurney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Seguin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Fligner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ries</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Surg</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="907" to="912" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,147.96,243.02,7.02;11,327.00,157.44,220.73,7.03" xml:id="b80">
+	<analytic>
+		<title level="a" type="main">The role of oxygen in wound healing: a review of the literature</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">N</forename><surname>Felix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Woodley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Shim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatol Surg</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1159" to="1169" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,166.95,243.00,7.02;11,327.00,176.44,228.02,7.03;11,327.00,185.93,228.00,7.03;11,327.00,195.44,38.89,7.02" xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Surgical wound healing complications in metastatic colorectal cancer patients treated with bevacizumab</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Scappaticci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fehrenbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cartwright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Hainsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Heim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Surg Oncol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="173" to="180" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,204.93,243.02,7.02;11,327.00,214.42,93.72,7.03" xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Bevacizumab: in first-line treatment of metastatic breast cancer</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drugs</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1793" to="1799" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,223.92,243.00,7.03;11,327.00,233.42,30.89,7.02" xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Nutrition for optimum wound healing</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Shepherd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nurs Stand</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="55" to="58" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,242.92,242.97,7.02;11,327.00,252.41,228.02,7.02;11,327.00,261.91,227.98,7.02;11,327.00,271.40,116.54,7.03" xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Solid emulsion gel as a vehicle for delivery of polyunsaturated fatty acids: implications for tissue repair, dermal angiogenesis and wound healing</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Shingel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Faure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Azoulay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roberge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deckelbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Tissue Eng Regen Med</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="383" to="393" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,280.90,243.01,7.02;11,327.00,290.39,221.42,7.03" xml:id="b85">
+	<analytic>
+		<title level="a" type="main">The effect of cigarette smoking on wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Siana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rex</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gottrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Plast Reconstr Surg Hand Surg</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="207" to="209" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,299.89,242.98,7.02;11,327.00,309.38,189.15,7.03" xml:id="b86">
+	<analytic>
+		<title level="a" type="main">The biology of chronic foot ulcers in persons with diabetes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Sibbald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Woo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Metab Res Rev</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">Suppl 1</biblScope>
+			<biblScope unit="page" from="25" to="30" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,318.88,242.98,7.02;11,327.00,328.37,228.00,7.03" xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Abstinence from smoking reduces incisional wound infection: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Sorensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Karlsmark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gottrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Surg</title>
+		<imprint>
+			<biblScope unit="volume">238</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,337.88,242.98,7.02;11,327.00,347.37,227.98,7.02;11,327.00,356.86,179.56,7.03" xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Transdermal nicotine patch enhances type I collagen synthesis in abstinent smokers</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Sørensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Jorgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zillmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hemmingsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gottrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="247" to="251" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,366.36,243.00,7.03;11,327.00,375.86,228.03,7.02;11,327.00,385.35,225.57,7.03" xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Acute effects of nicotine and smoking on blood flow, tissue oxygen, and aerobe metabolism of the skin and subcutis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Sørensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jørgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hemmingsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bülow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Loft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Surg Res</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="224" to="230" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,394.85,242.98,7.02;11,327.00,404.34,223.35,7.03" xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Neural regulation of innate immunity: a coordinated nonspecific host response to pathogens</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Sternberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Immunol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="318" to="328" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,413.84,243.01,7.02;11,327.00,423.33,198.93,7.03" xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Impaired wound repair and delayed angiogenesis in aged mice</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Swift</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Kleinman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dipietro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Invest</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1479" to="1487" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,432.84,242.98,7.02;11,327.00,442.32,228.00,7.03;11,327.00,451.83,50.59,7.02" xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Age-related alterations in the inflammatory response to dermal injury</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Swift</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dipietro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Invest Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="1027" to="1035" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,461.32,243.01,7.02;11,327.00,470.81,168.27,7.03" xml:id="b93">
+	<analytic>
+		<title level="a" type="main">A recent perspective on alcohol, immunity, and host defense</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mandrekar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Alcohol Clin Exp Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="220" to="232" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,480.32,242.98,7.02;11,327.00,489.80,112.21,7.03" xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Oxygen in wound healing-more than a nutrient</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Tandara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Mustoe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World J Surg</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="294" to="300" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,499.31,243.02,7.02;11,327.00,508.80,103.67,7.03" xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Cellular and physiological effects of arginine</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barbul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mini Rev Med Chem</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="823" to="832" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,518.29,230.34,7.03" xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Stress and wound healing</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vileikyte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="49" to="55" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,527.80,243.03,7.02;11,327.00,537.28,198.42,7.03" xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Oxidative stress in the pathogenesis of diabetic neuropathy</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Low</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Feldman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endocr Rev</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="612" to="628" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,546.79,243.03,7.02;11,327.00,556.28,228.00,7.03;11,327.00,565.77,115.70,7.03" xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Dexamethasone impairs hypoxia-inducible factor-1 function</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Huck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Stiehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jelkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hellwig-Bürgel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Biophys Res Commun</title>
+		<imprint>
+			<biblScope unit="volume">372</biblScope>
+			<biblScope unit="page" from="336" to="340" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,575.28,242.98,7.02;11,327.00,584.76,228.03,7.03;11,327.00,594.27,28.66,7.02" xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Superficial skin wounds</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Waldron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zimmerman-Pope</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Textbook of small animal surgery</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Slatter</surname></persName>
+		</editor>
+		<meeting><address><addrLine>NY: Saunders</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="260" to="271" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,603.76,243.01,7.02;11,327.00,613.25,139.29,7.03" xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Obesity: impediment to postsurgical wound healing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="426" to="435" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,622.76,243.00,7.02;11,327.00,632.24,214.85,7.03" xml:id="b101">
+	<analytic>
+		<title level="a" type="main">The edge effect: current therapeutic options to advance the wound edge</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ayello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Sibbald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Skin Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="99" to="117" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,641.75,242.96,7.02;11,327.00,651.24,214.73,7.03" xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Adipose tissue: the new endocrine organ? A review article</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Wozniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Gee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Wachtel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Frezza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dig Dis Sci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1847" to="1856" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,312.00,660.74,243.02,7.02;11,327.00,670.23,221.30,7.03" xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Bone marrow-derived stem cells in wound healing: a review</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Tredget</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wound Repair Regen</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">Suppl 1</biblScope>
+			<biblScope unit="page" from="18" to="S26" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
